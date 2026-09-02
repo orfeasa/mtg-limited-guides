@@ -1,23 +1,23 @@
 # Limited Field Guides
 
-A set-by-set Magic: The Gathering Limited preparation tool. Each set keeps its own visual world while sharing the same rating-training, pick-drill, and card-index tools.
+A set-by-set Magic: The Gathering Limited preparation tool. Each set keeps its own visual world while sharing rating training, grounded draft decisions where evidence exists, and a complete card index.
 
 ## What it does
 
 - Card rating training with browser-local progress
-- Three-card pick drills with deterministic challenge links to share with friends
+- Full-pack draft decisions with the drafted pool, historical replay pick, and current data leader kept distinct
 - A complete card index grouped by colour with in-place card magnification
 - Honest preview mode when a set has cards but no attributable Limited ranking yet
 - Keyboard, mouse, and touch support
 - Offline static-asset cache
-- No account, analytics, cookies, backend, or deck builder
+- No required account, analytics, cookies, or deck builder
 
-Training progress stays only in the current browser through `localStorage`, including the current card, colour filter, queue, revealed answer, exact-tier score, and requeued misses. The service worker caches public site assets for offline use.
+Preparation progress stays only in the current browser through `localStorage`, including the current training card, colour filter, queue, revealed answer, exact-tier score, requeued misses, current draft decision, and reviewed-decision count. The service worker caches public site assets for offline use.
 
 The current guides are:
 
-- **The Hobbit** — complete 188-card observed Premier Draft ranking, with all prep modes available.
-- **Reality Fracture** — live preview file; card training and browsing are available, while rating-dependent drills remain visibly locked until a complete evaluation is captured.
+- **The Hobbit** — complete 188-card observed Premier Draft ranking refreshed from 620,000 matches, plus 18 real draft decisions from a public 17Lands 7–2 replay.
+- **Reality Fracture** — live preview file with unrated card reading and browsing; rating training will become available only after a complete evaluation is captured.
 
 ## Run locally
 
@@ -58,10 +58,12 @@ node scripts/build-data.mjs
 node scripts/verify-data.mjs
 ```
 
-Run `node scripts/sync-card-stats.mjs` to refresh the bundled Premier Draft statistics from Untapped.gg before rebuilding. This stores in-hand win counts and games, opening-hand counts and games, average last offered pick, and average pick taken for all 188 cards. The deployed site never calls Untapped.gg at runtime.
+Run `node scripts/sync-card-stats.mjs` to refresh the bundled Premier Draft statistics from Untapped.gg before rebuilding. This stores in-hand win counts and games, opening-hand counts and games, average last offered pick, and average pick taken for all 188 cards. Refresh `data/hobbit_pick_order.json` from the matching Untapped In Hand WR tier view at the same time. The deployed site never calls Untapped.gg at runtime.
+
+The Hobbit decision states are stored in `data/hobbit_draft_decisions.json`. They preserve real pack contents, previous picks, and the historical replay pick. The UI calculates its raw-data leader from the bundled current ranking, so a source replay is never mislabeled as the single correct answer. Reality Fracture has no Draft decisions tab until equivalent grounded evidence exists.
 
 `scripts/sync-colors.mjs` refreshes the local color-identity mapping from Scryfall. `scripts/sync-training-images.mjs` downloads Scryfall's large card images for the trainer; pass `--force` to replace existing files. Run the image sync before `scripts/build-data.mjs` when refreshing the set. The deployed site does not call Scryfall at runtime.
 
-Pick drill uses the readable local card images, while All cards keeps small local thumbnails quick and loads the readable image only when a card is enlarged. Readable images are runtime-cached rather than precached on first visit; if one is unavailable while offline, the UI falls back to the precached thumbnail.
+Training and Draft decisions use the readable local card images, while All cards keeps small local thumbnails quick and loads the readable image only when a card is enlarged. Readable images are runtime-cached rather than precached on first visit; if one is unavailable while offline, the UI falls back to the precached thumbnail.
 
-Card images and names remain the property of their respective rights holders. This is an unofficial reference tool and is not affiliated with Wizards of the Coast or Untapped.gg.
+Card images and names remain the property of their respective rights holders. Draft replay states are attributed and linked to 17Lands. This is an unofficial reference tool and is not affiliated with Wizards of the Coast, Untapped.gg, or 17Lands.

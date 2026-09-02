@@ -1,0 +1,154 @@
+{
+  "source": "https://www.17lands.com/draft/6fe0176985684194bdea13ba61f6856f",
+  "source_name": "17Lands",
+  "captured_at": "2026-09-02T17:30:00Z",
+  "format": "Premier Draft",
+  "record": "7-2",
+  "notes": "Real pack and pool states from one publicly shared draft replay. The replay pick is historical; the baseline is recalculated from the current Untapped ranking snapshot.",
+  "scenarios": [
+    {
+      "id": "hob-6fe017-p1p1",
+      "pack": 1,
+      "pick": 1,
+      "pool": [],
+      "cards": ["Stone-Giant of High Pass","Eagle of the Great Shelf","Bilbo, Luckwearer","Nasty Little Rabbit","Bolg of the North","Ori, Keeper of Songs","Confusticate and Bebother","Uneasy Partings","Front Porch Sentries","Gundabad Opportunist","Ordinary Bear","Quarrel","Well-Worn Spatula","Iron Hills"],
+      "replay_pick": "Stone-Giant of High Pass"
+    },
+    {
+      "id": "hob-6fe017-p1p2",
+      "pack": 1,
+      "pick": 2,
+      "pool": ["Stone-Giant of High Pass"],
+      "cards": ["The Queen of Dale","Eagle of the Great Shelf","Dreaded Bat-Cloud","Glóin the Mighty","Lake-town Lookout","Magnificent End","Elvenking's Harper","Plunder the Trollshaws","Gundabad Opportunist","Attercop","Well-Worn Spatula","Goblin Plate Mail","Mountain"],
+      "replay_pick": "Glóin the Mighty"
+    },
+    {
+      "id": "hob-6fe017-p1p3",
+      "pack": 1,
+      "pick": 3,
+      "pool": ["Stone-Giant of High Pass","Glóin the Mighty"],
+      "cards": ["Celebrate the Mountain-king","Thranduil's Decree","Lake-town Lookout","Elvenking's Harper","Mirkwood Meditator","Rage into the Valley","Pinecone Strike","Tidings of War","Warg Tactics","Old Thrush","Duskwatch Hunter","Forest"],
+      "replay_pick": "Pinecone Strike"
+    },
+    {
+      "id": "hob-6fe017-p1p4",
+      "pack": 1,
+      "pick": 4,
+      "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike"],
+      "cards": ["Ravenhill Flock","Glóin the Mighty","Dwarven Shortsword","Moment of Glory","Enchanted River's Grasp","Uneasy Partings","Ravening Warg","Smaug, the Great Calamity","Little Bear","Quarrel","Goblin-town"],
+      "replay_pick": "Glóin the Mighty"
+    },
+    {
+      "id": "hob-6fe017-p1p5",
+      "pack": 1,
+      "pick": 5,
+      "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty"],
+      "cards": ["Old Fat Spider","Key to the Side-Door","Bifur, Melodic Rider","Esgaroth Garrison","Vow to Erebor","Gandalf, Wandering Wizard","Dori, Bearer of Friends","Wargling","Well-Worn Spatula","Lake-town"],
+      "replay_pick": "Bifur, Melodic Rider"
+    },
+    {
+      "id": "hob-6fe017-p1p6",
+      "pack": 1,
+      "pick": 6,
+      "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider"],
+      "cards": ["Glóin the Mighty","Eagle's Rescue","Long Lake Nuisance","Gollum, Silent Slinker","Goblin-town Flunkies","Smaug, the Great Calamity","Attercop","Old Thrush","Mirkwood"],
+      "replay_pick": "Glóin the Mighty"
+    },
+    {
+      "id": "hob-6fe017-p1p7",
+      "pack": 1,
+      "pick": 7,
+      "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty"],
+      "cards": ["The Black Arrow","Ori, Keeper of Songs","Thorin's Last Stand","Mirkwood Meditator","Plunder the Trollshaws","Beorn, Reluctant Host","Guardian of the Halls","Elvenking's Halls"],
+      "replay_pick": "The Black Arrow"
+    },
+    {
+      "id": "hob-6fe017-p1p8",
+      "pack": 1,
+      "pick": 8,
+      "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow"],
+      "cards": ["Eagle's Rescue","Esgaroth Garrison","Ori, Keeper of Songs","Guardian of the Halls","Goblin Plate Mail","Mirkwood Nurturer","Plains"],
+      "replay_pick": "Mirkwood Nurturer"
+    },
+    {
+      "id": "hob-6fe017-p1p9",
+      "pack": 1,
+      "pick": 9,
+      "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow","Mirkwood Nurturer"],
+      "cards": ["Eagle of the Great Shelf","Confusticate and Bebother","Uneasy Partings","Gundabad Opportunist","Ordinary Bear","Iron Hills"],
+      "replay_pick": "Uneasy Partings"
+    },
+    {
+      "id": "hob-6fe017-p1p10",
+      "pack": 1,
+      "pick": 10,
+      "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow","Mirkwood Nurturer","Uneasy Partings"],
+      "cards": ["Eagle of the Great Shelf","Lake-town Lookout","Plunder the Trollshaws","Well-Worn Spatula","Mountain"],
+      "replay_pick": "Plunder the Trollshaws"
+    },
+    {
+      "id": "hob-6fe017-p1p11",
+      "pack": 1,
+      "pick": 11,
+      "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow","Mirkwood Nurturer","Uneasy Partings","Plunder the Trollshaws"],
+      "cards": ["Lake-town Lookout","Elvenking's Harper","Mirkwood Meditator","Forest"],
+      "replay_pick": "Mirkwood Meditator"
+    },
+    {
+      "id": "hob-6fe017-p1p12",
+      "pack": 1,
+      "pick": 12,
+      "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow","Mirkwood Nurturer","Uneasy Partings","Plunder the Trollshaws","Mirkwood Meditator"],
+      "cards": ["Ravenhill Flock","Moment of Glory","Uneasy Partings"],
+      "replay_pick": "Uneasy Partings"
+    },
+    {
+      "id": "hob-6fe017-p2p1",
+      "pack": 2,
+      "pick": 1,
+      "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow","Mirkwood Nurturer","Uneasy Partings","Plunder the Trollshaws","Mirkwood Meditator","Uneasy Partings","Well-Worn Spatula","Eagle's Rescue"],
+      "cards": ["Smaug, Wicked Worm","Thranduil, the Elvenking","Elven Raft-Steerer","Gnashing of Teeth","The Black Arrow","Bifur, Melodic Rider","Mirkwood Meditator","Crude Bent Blade","Rage into the Valley","Dori, Bearer of Friends","Guardian of the Halls","Well-Worn Spatula","Nori, Teller of Tales","Lake-town"],
+      "replay_pick": "Smaug, Wicked Worm"
+    },
+    {
+      "id": "hob-6fe017-p2p2",
+      "pack": 2,
+      "pick": 2,
+      "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow","Mirkwood Nurturer","Uneasy Partings","Plunder the Trollshaws","Mirkwood Meditator","Uneasy Partings","Well-Worn Spatula","Eagle's Rescue","Smaug, Wicked Worm"],
+      "cards": ["The Master of Lake-town","Dáin, Lord of the Iron Hills","Desolation Prowler","Old Fat Spider","Vow to Erebor","Enchanted River's Grasp","Lakeshore Apothecary","Reverent Howl","Pinecone Strike","Little Bear","Wood Elves","Goblin Plate Mail","Swamp"],
+      "replay_pick": "Pinecone Strike"
+    },
+    {
+      "id": "hob-6fe017-p2p3",
+      "pack": 2,
+      "pick": 3,
+      "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow","Mirkwood Nurturer","Uneasy Partings","Plunder the Trollshaws","Mirkwood Meditator","Uneasy Partings","Well-Worn Spatula","Eagle's Rescue","Smaug, Wicked Worm","Pinecone Strike"],
+      "cards": ["Supper for Spiders","Troll Negotiations","Dwarven Mattock","Thorin's Last Stand","Gandalf, Wandering Wizard","Great Fierce Bee","Ravening Warg","Tidings of War","Boughside Wanderers","Warg Tactics","Long-Bodied Grey Dog","Goblin-town"],
+      "replay_pick": "Goblin-town"
+    },
+    {
+      "id": "hob-6fe017-p2p4",
+      "pack": 2,
+      "pick": 4,
+      "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow","Mirkwood Nurturer","Uneasy Partings","Plunder the Trollshaws","Mirkwood Meditator","Uneasy Partings","Well-Worn Spatula","Eagle's Rescue","Smaug, Wicked Worm","Pinecone Strike","Goblin-town"],
+      "cards": ["Thranduil's Decree","The Chief Warg","Dwarven Shortsword","Esgaroth Garrison","Long Lake Nuisance","Mirkwood Meditator","Rage into the Valley","Óin the Brave","Warg Tactics","Wargling","Mirkwood"],
+      "replay_pick": "Óin the Brave"
+    },
+    {
+      "id": "hob-6fe017-p2p5",
+      "pack": 2,
+      "pick": 5,
+      "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow","Mirkwood Nurturer","Uneasy Partings","Plunder the Trollshaws","Mirkwood Meditator","Uneasy Partings","Well-Worn Spatula","Eagle's Rescue","Smaug, Wicked Worm","Pinecone Strike","Goblin-town","Óin the Brave"],
+      "cards": ["Ravenhill Flock","The Chief Warg","Confusticate and Bebother","Reverent Howl","Stir Up Trouble","Smaug's Fury","Ordinary Bear","Quarrel","Patient Instructor","Plains"],
+      "replay_pick": "Stir Up Trouble"
+    },
+    {
+      "id": "hob-6fe017-p2p6",
+      "pack": 2,
+      "pick": 6,
+      "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow","Mirkwood Nurturer","Uneasy Partings","Plunder the Trollshaws","Mirkwood Meditator","Uneasy Partings","Well-Worn Spatula","Eagle's Rescue","Smaug, Wicked Worm","Pinecone Strike","Goblin-town","Óin the Brave","Stir Up Trouble"],
+      "cards": ["Bilbo, Luckwearer","Dwarven Mattock","Velvetwing Butterflies","Confusticate and Bebother","Gandalf, Wandering Wizard","Front Porch Sentries","Warg Tactics","Wood Elves","Elvenking's Halls"],
+      "replay_pick": "Bilbo, Luckwearer"
+    }
+  ]
+}

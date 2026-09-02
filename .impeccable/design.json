@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-02T12:50:28Z",
+  "generatedAt": "2026-09-02T17:40:00Z",
   "title": "Design System: Limited Field Guides",
   "extensions": {
     "brandAssets": {
@@ -83,7 +83,7 @@
       },
       "hobbit-heading": {
         "displayName": "Hobbit Leaf Headline",
-        "purpose": "Alegreya hierarchy for guide, trainer, compare, and atlas headings."
+        "purpose": "Alegreya hierarchy for Training, Draft decisions, and atlas headings."
       },
       "fracture-page": {
         "displayName": "Fracture Page Display",
@@ -108,10 +108,6 @@
       "working-title": {
         "displayName": "Working Title",
         "purpose": "Shared card names and compact operational headings."
-      },
-      "search": {
-        "displayName": "Compare Search",
-        "purpose": "Primary comparison text entry."
       },
       "hobbit-rank": {
         "displayName": "Atlas Rank",
@@ -146,7 +142,7 @@
       {
         "name": "side-leaf",
         "value": "-12px 0 38px rgba(8, 9, 16, .22)",
-        "purpose": "Separates the trainer or current-comparison binding from its surface leaf."
+        "purpose": "Separates the focused Training object from its surface leaf."
       },
       {
         "name": "atlas-navigation",
@@ -164,34 +160,9 @@
         "purpose": "Keeps short status feedback above the current surface."
       },
       {
-        "name": "search",
-        "value": "0 12px 30px rgba(8, 9, 16, .13)",
-        "purpose": "Marks the primary comparison input."
-      },
-      {
-        "name": "best-pick",
-        "value": "0 13px 32px rgba(8, 9, 16, .26)",
-        "purpose": "Gives the comparison leader priority inside the binding."
-      },
-      {
         "name": "study-image",
         "value": "0 14px 35px rgba(8, 9, 16, .3)",
         "purpose": "Separates the large Hobbit card image from the study object."
-      },
-      {
-        "name": "drill-image",
-        "value": "0 15px 30px rgba(8, 9, 16, .2)",
-        "purpose": "Lifts each of the three drill choices equally."
-      },
-      {
-        "name": "mobile-comparison-dock",
-        "value": "0 15px 34px rgba(8, 9, 16, .36)",
-        "purpose": "Holds the best-pick shortcut above scrolling content."
-      },
-      {
-        "name": "search-focus",
-        "value": "0 16px 36px rgba(8, 9, 16, .19)",
-        "purpose": "Deepens the search object only while it owns input."
       },
       {
         "name": "study-object",
@@ -234,9 +205,9 @@
         "purpose": "Separates the sticky marker rail from page content."
       },
       {
-        "name": "leader-image",
-        "value": "0 9px 22px rgba(8, 9, 16, .24)",
-        "purpose": "Lifts the best-pick art inside the comparison leader."
+        "name": "decision-choice",
+        "value": "0 11px 25px rgba(8, 9, 16, .3)",
+        "purpose": "Lifts complete-pack card images while keeping every choice on one shared leaf."
       },
       {
         "name": "colour-emblem-inset",
@@ -253,22 +224,17 @@
       {
         "name": "state-fast",
         "value": "160ms",
-        "purpose": "Tabs, row feedback, and mobile dock state."
+        "purpose": "Tabs, row feedback, and compact navigation state."
       },
       {
         "name": "state-standard",
         "value": "180ms",
-        "purpose": "Search focus, drill lift, and skip-link movement."
+        "purpose": "Decision-card lift, focus, and skip-link movement."
       },
       {
         "name": "theme-transition",
         "value": "260ms",
         "purpose": "Body ground and ink transition when the selected volume changes."
-      },
-      {
-        "name": "leader-reveal",
-        "value": "460ms",
-        "purpose": "One-shot comparison-leader reveal when a new best pick appears."
       },
       {
         "name": "reduced-motion",
@@ -308,8 +274,8 @@
       "name": "Active Page Marker",
       "kind": "nav",
       "refersTo": "view-marker-active",
-      "description": "Raised marker for one of four stable modes: Study, Pick drill, Compare, and All cards; training remains inside Study.",
-      "html": "<button class=\"ds-view-marker\" type=\"button\" role=\"tab\" aria-selected=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 4h11l3 3v13H5zM8 9h8M8 13h8M8 17h5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/></svg><span>Study</span></button>",
+      "description": "Raised marker for Training, conditional Draft decisions, or All cards.",
+      "html": "<button class=\"ds-view-marker\" type=\"button\" role=\"tab\" aria-selected=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 4h11l3 3v13H5zM8 9h8M8 13h8M8 17h5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/></svg><span>Draft decisions</span></button>",
       "css": ".ds-view-marker { display:inline-flex; align-items:center; gap:8px; min-height:58px; padding:0 19px; color:var(--binding-deep); background:var(--metal-light); border:1px solid var(--metal-light); border-bottom:0; border-radius:var(--control-radius) var(--control-radius) 0 0; box-shadow:0 7px 18px rgba(8,9,16,.16); font:700 .74rem/1.15 var(--body); cursor:pointer; transition:filter 160ms var(--ease-out),transform 160ms var(--ease-out); } .ds-view-marker:hover { filter:brightness(1.05); } .ds-view-marker:focus-visible { outline:3px solid var(--focus); outline-offset:3px; } .ds-view-marker:active { transform:translateY(1px); } .ds-view-marker svg { width:20px; height:20px; }"
     },
     {
@@ -340,31 +306,32 @@
       "name": "Rating Pending Lock",
       "kind": "custom",
       "description": "Honest replacement for ranking-dependent work when no attributable Limited evaluation exists.",
-      "html": "<section class=\"ds-rating-lock\"><span class=\"ds-rating-lock-mark\" aria-hidden=\"true\"></span><h3>Pick Drills Are Waiting for Ratings</h3><p>The card file is real; the pick order is not ready. Study every revealed card without guessing at an answer.</p><button type=\"button\">Open revealed cards</button></section>",
+      "html": "<section class=\"ds-rating-lock\"><span class=\"ds-rating-lock-mark\" aria-hidden=\"true\"></span><h3>Ratings are still pending</h3><p>The card file is real; the pick order is not ready. Read every revealed card without guessing at an answer.</p><button type=\"button\">Open all cards</button></section>",
       "css": ".ds-rating-lock { display:grid; place-items:center; min-height:360px; padding:56px 24px; color:var(--ink); text-align:center; background:var(--surface); font-family:var(--body); } .ds-rating-lock-mark { width:96px; height:96px; margin-bottom:20px; border:2px solid var(--signal); border-radius:var(--page-radius); clip-path:polygon(50% 0,100% 24%,78% 100%,12% 80%,0 22%); transform:rotate(14deg); } .ds-rating-lock h3 { max-width:18ch; margin:0 0 10px; font:900 clamp(2.4rem,5vw,4.6rem)/.9 var(--display); letter-spacing:-.025em; text-transform:uppercase; } .ds-rating-lock p { max-width:58ch; margin:0 0 22px; color:var(--muted); } .ds-rating-lock button { min-height:44px; padding:0 15px; color:var(--on-binding); background:var(--accent); border:1px solid var(--accent); border-radius:var(--control-radius); font-weight:700; cursor:pointer; } .ds-rating-lock button:hover { background:var(--accent-dark); border-color:var(--accent-dark); } .ds-rating-lock button:focus-visible { outline:3px solid var(--focus); outline-offset:3px; }"
     },
     {
-      "name": "Compare Search Field",
-      "kind": "input",
-      "refersTo": "input-search",
-      "description": "Shared high-visibility card search with a themed stroke and integrated clear action.",
-      "html": "<label class=\"ds-search\"><span class=\"ds-search-label\">Search card names</span><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"10.75\" cy=\"10.75\" r=\"6.75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"m16 16 4 4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg><input type=\"search\" placeholder=\"Search cards…\"><button type=\"button\" aria-label=\"Clear search\">×</button></label>",
-      "css": ".ds-search { position:relative; display:grid; grid-template-columns:28px 1fr 40px; align-items:center; min-height:68px; padding:0 11px 0 18px; color:var(--binding-deep); background:var(--surface-light); border:2px solid var(--binding); border-radius:var(--card-radius); box-shadow:0 12px 30px rgba(8,9,16,.13); font-family:var(--body); transition:border-color 180ms var(--ease-out),box-shadow 180ms var(--ease-out); } .ds-search:focus-within { border-color:var(--accent); box-shadow:0 16px 36px rgba(8,9,16,.19); } .ds-search-label { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); } .ds-search svg { width:24px; } .ds-search input { min-width:0; height:64px; padding:0 12px; color:var(--binding-deep); caret-color:var(--accent); background:transparent; border:0; outline:0; font:700 clamp(1.05rem,2vw,1.25rem)/1.5 var(--body); } .ds-search button { width:40px; height:40px; color:var(--on-binding); background:var(--binding); border:0; border-radius:var(--control-radius); cursor:pointer; } .ds-search button:hover { background:var(--accent); } .ds-search button:focus-visible { outline:3px solid var(--focus); outline-offset:3px; }"
-    },
-    {
-      "name": "Comparison Result Row",
+      "name": "Draft Decision Context",
       "kind": "card",
-      "refersTo": "result-row",
-      "description": "Flat candidate row preserving rank, identity, tier, and Add or Mapped state.",
-      "html": "<button class=\"ds-result-row\" type=\"button\"><span class=\"ds-result-thumb\">CARD</span><span class=\"ds-result-rank\"><strong>#2</strong><small>pick</small></span><span class=\"ds-result-name\"><strong>An Unexpected Party</strong><small>Add to current comparison</small></span><span class=\"ds-result-action\">Add</span></button>",
-      "css": ".ds-result-row { display:grid; grid-template-columns:55px 54px minmax(0,1fr) auto; align-items:center; gap:14px; width:100%; min-height:82px; padding:9px 8px 9px 2px; color:var(--ink); text-align:left; background:transparent; border:0; border-bottom:1px solid var(--line); font-family:var(--body); cursor:pointer; transition:background-color 160ms var(--ease-out),transform 160ms var(--ease-out); } .ds-result-row:hover { background:color-mix(in srgb,var(--surface-light) 74%,transparent); } .ds-result-row:focus-visible { outline:3px solid var(--focus); outline-offset:2px; } .ds-result-row:active { transform:translateY(1px); } .ds-result-thumb { display:grid; place-items:center; width:55px; aspect-ratio:125.3/176.4; color:var(--muted); background:var(--surface-deep); border-radius:4px; box-shadow:0 5px 13px rgba(8,9,16,.2); font-size:.58rem; font-weight:700; } .ds-result-rank { align-self:stretch; display:flex; flex-direction:column; justify-content:center; border-right:1px solid var(--line); } .ds-result-rank strong { font:700 1.7rem/1 var(--display); } .ds-result-rank small,.ds-result-name small { color:var(--muted); font-size:.68rem; } .ds-result-name { display:grid; gap:4px; min-width:0; } .ds-result-name strong { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; } .ds-result-action { min-width:58px; padding:7px 9px; color:var(--on-binding); background:var(--binding); border-radius:var(--control-radius); font-size:.68rem; font-weight:700; text-align:center; }"
+      "refersTo": "decision-context",
+      "description": "Ruled binding ledger that keeps seat, pool read, and drafted cards visible before a choice.",
+      "html": "<dl class=\"ds-decision-context\"><div><dt>Current seat</dt><dd>Pack 1 · Pick 1</dd></div><div><dt>Pool read</dt><dd>No commitments yet</dd><small>Your first pick can stay open.</small></div><div><dt>Drafted pool</dt><dd>0 cards</dd></div></dl>",
+      "css": ".ds-decision-context { display:grid; grid-template-columns:.52fr .9fr 1.35fr; margin:0; color:var(--on-binding); border-top:1px solid rgba(248,242,223,.28); border-bottom:1px solid rgba(248,242,223,.28); font-family:var(--body); } .ds-decision-context div { min-width:0; padding:15px 18px; border-right:1px solid rgba(248,242,223,.28); } .ds-decision-context div:last-child { border-right:0; } .ds-decision-context dt,.ds-decision-context small { color:var(--on-binding-muted); font-size:.62rem; } .ds-decision-context dd { margin:4px 0 2px; font:700 1.35rem/1.1 var(--display); }"
     },
     {
-      "name": "Pick Drill Choice",
+      "name": "Draft Decision Choice",
       "kind": "button",
-      "description": "One of three equal deterministic challenge choices with the answer concealed until selection.",
-      "html": "<button class=\"ds-drill-choice\" type=\"button\"><span class=\"ds-drill-image\">CARD</span><strong>An Unexpected Party</strong><small>Choose this card</small></button>",
-      "css": ".ds-drill-choice { display:grid; gap:8px; padding:0 0 14px; color:var(--ink); text-align:left; background:transparent; border:0; border-bottom:2px solid var(--line); font-family:var(--body); cursor:pointer; transition:border-color 180ms var(--ease-out),transform 180ms var(--ease-out); } .ds-drill-choice:hover { border-color:var(--accent); transform:translateY(-5px); } .ds-drill-choice:focus-visible { outline:3px solid var(--focus); outline-offset:3px; } .ds-drill-choice:active { transform:translateY(-2px); } .ds-drill-image { display:grid; place-items:center; width:100%; aspect-ratio:125.3/176.4; color:var(--muted); background:var(--surface-deep); border-radius:8px; box-shadow:0 15px 30px rgba(8,9,16,.2); font-size:.68rem; font-weight:700; } .ds-drill-choice strong { margin-top:6px; font-size:.96rem; } .ds-drill-choice small { color:var(--muted); font-size:.72rem; }"
+      "refersTo": "decision-choice",
+      "description": "One card from the complete pack, shown at true card proportions with current rank kept subordinate.",
+      "html": "<button class=\"ds-decision-choice\" type=\"button\"><span class=\"ds-decision-image\">LOCAL CARD IMAGE</span><strong>Stone-Giant of High Pass</strong><small>#31 · Tier B+</small></button>",
+      "css": ".ds-decision-choice { display:grid; gap:7px; min-width:0; padding:0; color:var(--ink); text-align:left; background:transparent; border:0; font-family:var(--body); cursor:pointer; transition:filter 160ms var(--ease-out),transform 220ms var(--ease-out); } .ds-decision-choice:hover { transform:translateY(-6px); } .ds-decision-choice:focus-visible { outline:3px solid var(--focus); outline-offset:3px; } .ds-decision-choice:active { transform:translateY(-2px); } .ds-decision-image { display:grid; place-items:center; width:100%; aspect-ratio:125.3/176.4; padding:10px; color:var(--muted); text-align:center; background:var(--surface-deep); border-radius:8px; box-shadow:0 11px 25px rgba(8,9,16,.3); font-size:.62rem; font-weight:700; } .ds-decision-choice strong { font-size:.72rem; line-height:1.2; } .ds-decision-choice small { color:var(--muted); font-size:.62rem; }"
+    },
+    {
+      "name": "Draft Decision Evidence Ledger",
+      "kind": "card",
+      "refersTo": "decision-ledger",
+      "description": "Flat three-column review that separates the player's choice, historical replay pick, and current data leader.",
+      "html": "<dl class=\"ds-decision-ledger\"><div><dt>Your pick</dt><dd>Stone-Giant</dd><span>Your reasoning</span></div><div><dt>Replay pick</dt><dd>Eagle of the Great Shelf</dd><span>Historical choice</span></div><div><dt>Data leader</dt><dd>Bilbo, Luckwearer</dd><span>Current raw ranking</span></div></dl>",
+      "css": ".ds-decision-ledger { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); margin:0; color:var(--ink); border-top:1px solid var(--line); border-bottom:1px solid var(--line); font-family:var(--body); } .ds-decision-ledger div { min-width:0; padding:16px 18px; border-right:1px solid var(--line); } .ds-decision-ledger div:last-child { border-right:0; } .ds-decision-ledger dt,.ds-decision-ledger span { color:var(--muted); font-size:.62rem; } .ds-decision-ledger dd { margin:4px 0 3px; font:700 1.2rem/1.1 var(--display); }"
     },
     {
       "name": "Colour Jump",
@@ -384,13 +351,13 @@
   ],
   "narrative": {
     "northStar": "The Set-Specific Field Guide Shelf",
-    "overview": "Limited Field Guides is one dependable preparation shelf holding authored volumes, not one generic dashboard wearing different accent colours. The shared shell keeps the learning sequence stable—choose a set, study its cards, rehearse exact-tier and ranked decisions, compare a hand-built pack, and share the exact challenge—while each set owns one coherent material world.\n\nThe Hobbit remains Bilbo’s Expedition Atlas: forest cloth, warm map leaves, brass page flags, oxblood routes, river details, and softly handled corners. Reality Fracture is an Echoverse dossier: ink and indigo binding, cool paper, electric violet, cyan, and pink seams, condensed black display type, and facets cut on sharp angles. Atkinson Hyperlegible Next connects both as the practical reading and control voice.\n\nThe system should feel authored, trustworthy, and ready before an event. Data maturity is visible rather than implied; readable local study images fall back safely to local thumbnails; progress and exact-tier rehearsal state stay local; rating-dependent work visibly locks when an attributable evaluation does not exist. The visual language rejects generic statistics dashboards and deck-builder framing.",
+    "overview": "Limited Field Guides is one dependable preparation shelf holding authored volumes, not one generic dashboard wearing different accent colours. The shared shell opens the latest set and keeps the learning sequence stable—train exact-tier recall, work through grounded draft decisions when available, browse the card file, and share the selected guide—while each set owns one coherent material world.\n\nThe Hobbit remains Bilbo’s Expedition Atlas: forest cloth, warm map leaves, brass page flags, oxblood routes, river details, and softly handled corners. Reality Fracture is an Echoverse dossier: ink and indigo binding, cool paper, electric violet, cyan, and pink seams, condensed black display type, and facets cut on sharp angles. Atkinson Hyperlegible Next connects both as the practical reading and control voice.\n\nThe system should feel authored, trustworthy, and ready before an event. Data maturity is visible rather than implied; readable local study images fall back safely to local thumbnails; progress and exact-tier rehearsal state stay local; rating-dependent work visibly locks when an attributable evaluation does not exist. The visual language rejects generic statistics dashboards and deck-builder framing.",
     "keyCharacteristics": [
       "One shared preparation sequence expressed as a shelf of set-owned field guides.",
       "Atkinson Hyperlegible Next for working text, controls, metadata, and dense card information.",
       "Hobbit’s rounded cloth-and-map atlas beside Reality Fracture’s clipped, electrically seamed dossier.",
-      "Four compact page markers opening directly onto one large study card and an honest guide panel.",
-      "Persisted Study queues and exact-tier scores, deterministic challenge links, and explicit rating-pending locks.",
+      "Stable Training and All cards markers, with Draft decisions appearing only when grounded pack-and-pool evidence exists.",
+      "Persisted Training queues, exact-tier scores, and reviewed-decision state with explicit unrated preview states.",
       "Hobbit’s post-answer observed-evidence ledger and adjacent-rank context without implying deck intelligence.",
       "Broad surfaces and flat rows gathered into one handled volume rather than a field of dashboard cards."
     ],
@@ -427,17 +394,17 @@
       },
       {
         "name": "The First-Viewport Rule",
-        "body": "The selected set and data maturity lead in the binding; four compact markers then yield to the large study card and guide panel.",
+        "body": "The latest set and data maturity lead in the binding; the available compact markers then yield to focused preparation.",
         "section": "layout"
       },
       {
         "name": "The Stable-Shell Rule",
-        "body": "Study, Pick drill, Compare, and All cards retain their order and behavior across sets even while materials, display type, and geometry change. Training lives inside Study; never add a separate Train marker.",
+        "body": "Training and All cards retain their order and behaviour across sets. Draft decisions may only appear between them when the set supplies grounded pack-and-pool evidence.",
         "section": "layout"
       },
       {
         "name": "The Preparation-Only Rule",
-        "body": "Layout supports recognition, rehearsal, comparison, and browsing. It must never acquire deck zones, curve charts, counts-by-card, or other deck-builder composition.",
+        "body": "Layout supports recognition, rehearsal, and browsing. It must never acquire deck zones, curve charts, counts-by-card, or other deck-builder composition.",
         "section": "layout"
       },
       {
@@ -473,15 +440,15 @@
     ],
     "dos": [
       "Do keep the shared preparation sequence and information order stable while each set owns one material world.",
-      "Do lead with the selected volume and data maturity, then expose all four preparation modes.",
+      "Do lead with the latest volume and data maturity, then expose every grounded preparation mode available for that set.",
       "Do use Atkinson Hyperlegible Next for working text and the set display face only for hierarchy, ranks, and authored marks.",
       "Do preserve Hobbit’s forest cloth, map leaves, brass, oxblood, river details, and rounded handled construction.",
       "Do preserve Reality Fracture’s ink-indigo binding, cool paper, violet/cyan/pink seams, condensed black display type, clipped facets, and two-to-four-pixel cuts.",
-      "Do keep the current Study card, colour filter, queue, exact-tier score, revealed answer, and requeued misses local; keep comparisons session-only and challenge URLs exact and deterministic.",
-      "Do use the larger local study image for both sets and fall back to the matching local thumbnail on failure.",
+      "Do keep the current Training card, colour filter, queue, exact-tier score, revealed answer, requeued misses, and decision progress local.",
+      "Do use the larger local image for Training, Draft decisions, and magnification, with a matching local thumbnail fallback.",
       "Do group exact-tier choices as Top picks, Strong, Playable, and Filler, then return misses after three intervening cards.",
       "Do keep Hobbit’s three observed evidence values and adjacent ranks visually attached to the revealed answer.",
-      "Do visibly lock ranking-dependent answers and actions when the rating source is pending.",
+      "Do omit rating-dependent answers and actions when the rating source is pending.",
       "Do preserve keyboard focus, touch targets, literal labels, source attribution, and reduced-motion behavior."
     ],
     "donts": [
@@ -491,9 +458,9 @@
       "Don't cross Hobbit’s brass and oxblood into the Fracture dossier or Fracture’s electric seams into the atlas.",
       "Don't invent rankings, tiers, or answer colours for a preview-only set.",
       "Don't show a tier quiz or observed ranking evidence for unrated Reality Fracture cards.",
-      "Don't add a separate Train tab; Study already owns card recognition and tier rehearsal.",
-      "Don't wrap every result, drill choice, or atlas entry in its own rounded elevated card.",
-      "Don't frame comparison as a deck list or add deck-builder zones, curve analytics, saved builds, or card-count controls.",
+      "Don't wrap every draft choice or atlas entry in its own rounded elevated card.",
+      "Don't reintroduce rank-only pick comparisons without full-pack and drafted-pool context.",
+      "Don't turn Draft decisions into a binary score or imply the replay pick is automatically correct.",
       "Don't hide state, card identity, colour grouping, or navigation behind icons alone."
     ]
   }

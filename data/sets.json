@@ -5,14 +5,15 @@
       "id": "hob",
       "code": "HOB",
       "adapter": "hobbit-ranking",
+      "decisionsFile": "hobbit_draft_decisions.json",
       "name": "The Hobbit",
       "productName": "The Hobbit Limited Atlas",
       "theme": "hobbit",
       "stage": "observed",
       "releaseDate": "2026-08-14",
-      "subtitle": "An expedition atlas for learning the set and rehearsing the next pick.",
+      "subtitle": "An expedition atlas for learning the set before the next draft.",
       "guideTitle": "Know the road before the first pack",
-      "guideBody": "Build card recognition first, then practise baseline picks until the strongest choice is immediate. Rankings remain a starting point rather than deck-context advice.",
+      "guideBody": "Build card recognition, practise exact-tier recall, then work through real draft states where the pack and your pool can outweigh a raw ranking.",
       "guideFacts": [
         "188 ranked Arena cards",
         "Observed Premier Draft snapshot",
@@ -22,8 +23,8 @@
         "status": "available",
         "label": "Observed draft data",
         "source": "Untapped.gg",
-        "capturedAt": "2026-08-19",
-        "matches": 390000,
+        "capturedAt": "2026-09-02",
+        "matches": 620000,
         "rankRange": "Bronze–Platinum",
         "archetype": "All archetypes",
         "stat": "In Hand WR",
@@ -31,8 +32,8 @@
       },
       "performance": {
         "source": "Untapped.gg",
-        "capturedAt": "2026-08-20T15:19:38.756Z",
-        "matches": 417619,
+        "capturedAt": "2026-09-02T17:05:52.004Z",
+        "matches": 620300,
         "label": "Observed card evidence"
       },
       "cardSource": {
@@ -54,7 +55,7 @@
       "arenaDate": "2026-09-29",
       "subtitle": "A live Echoverse dossier, expanding as preview season unfolds.",
       "guideTitle": "Study what is known. Keep the unknown visible.",
-      "guideBody": "Preview cards are indexed now. Rating drills will unlock only when a complete, attributable Limited evaluation exists—so provisional information is never presented as settled advice.",
+      "guideBody": "Preview cards are indexed now. Rating training will unlock only when a complete, attributable Limited evaluation exists—so provisional information is never presented as settled advice.",
       "guideFacts": [
         "Prerelease · 25 September",
         "MTG Arena · 29 September",

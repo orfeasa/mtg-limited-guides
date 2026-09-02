@@ -173,11 +173,6 @@ typography:
     fontSize: ".96rem"
     fontWeight: 700
     lineHeight: 1.22
-  search:
-    fontFamily: "Atkinson Hyperlegible Next, Segoe UI, sans-serif"
-    fontSize: "clamp(1.05rem, 2vw, 1.25rem)"
-    fontWeight: 700
-    lineHeight: 1.5
   hobbit-rank:
     fontFamily: "Alegreya, Georgia, serif"
     fontSize: "1.7rem"
@@ -281,18 +276,24 @@ components:
     textColor: "{colors.hobbit-ink}"
     padding: "9px 7px"
     typography: "{typography.hobbit-rank}"
-  input-search:
-    backgroundColor: "{colors.hobbit-surface-light}"
-    textColor: "{colors.hobbit-binding-deep}"
+  decision-context:
+    backgroundColor: "transparent"
+    textColor: "{colors.hobbit-on-binding}"
+    padding: "15px 18px"
+  decision-pack:
+    backgroundColor: "{colors.hobbit-surface}"
+    textColor: "{colors.hobbit-ink}"
     rounded: "{rounded.hobbit-card}"
-    height: "68px"
-    padding: "0 11px 0 18px"
-    typography: "{typography.search}"
-  result-row:
+    padding: "clamp(22px, 3vw, 38px)"
+  decision-choice:
     backgroundColor: "transparent"
     textColor: "{colors.hobbit-ink}"
-    height: "82px"
-    padding: "9px 8px 9px 2px"
+    rounded: "{rounded.handled-card}"
+    padding: "0"
+  decision-ledger:
+    backgroundColor: "transparent"
+    textColor: "{colors.hobbit-ink}"
+    padding: "16px 18px"
   colour-jump-fracture:
     backgroundColor: "{colors.fracture-surface-light}"
     textColor: "{colors.fracture-ink}"
@@ -307,7 +308,7 @@ components:
 
 **Creative North Star: "The Set-Specific Field Guide Shelf"**
 
-Limited Field Guides is one dependable preparation shelf holding authored volumes, not one generic dashboard wearing different accent colours. The shared shell opens the latest set and keeps the learning sequence stable—train exact-tier recall, rehearse ranked decisions, browse the card file, and share the exact challenge—while each set owns one coherent material world.
+Limited Field Guides is one dependable preparation shelf holding authored volumes, not one generic dashboard wearing different accent colours. The shared shell opens the latest set and keeps the learning sequence stable—train exact-tier recall, work through grounded draft decisions when available, browse the card file, and share the selected guide—while each set owns one coherent material world.
 
 The Hobbit remains Bilbo’s Expedition Atlas: forest cloth, warm map leaves, brass page flags, oxblood routes, river details, and softly handled corners. Reality Fracture is an Echoverse dossier: ink and indigo binding, cool paper, electric violet, cyan, and pink seams, condensed black display type, and facets cut on sharp angles. Atkinson Hyperlegible Next connects both as the practical reading and control voice.
 
@@ -318,8 +319,8 @@ The system should feel authored, trustworthy, and ready before an event. Data ma
 - One shared preparation sequence expressed as a shelf of set-owned field guides.
 - Atkinson Hyperlegible Next for working text, controls, metadata, and dense card information.
 - Hobbit’s rounded cloth-and-map atlas beside Reality Fracture’s clipped, electrically seamed dossier.
-- Three compact page markers opening directly onto one focused rating-training workspace.
-- Persisted Training queues and exact-tier scores, deterministic challenge links, and explicit rating-pending locks.
+- Stable Training and All cards markers, with Draft decisions appearing only when grounded pack-and-pool evidence exists.
+- Persisted Training queues, exact-tier scores, and reviewed-decision state with explicit unrated preview states.
 - Hobbit’s post-answer observed-evidence ledger and adjacent-rank context without implying deck intelligence.
 - Broad surfaces and flat rows gathered into one handled volume rather than a field of dashboard cards.
 
@@ -373,9 +374,9 @@ Each set maps the same semantic roles—binding, surface, ink, line, accent, sig
 ### Hierarchy
 
 - **Page Display** (Alegreya 700 or Barlow Condensed 900, `clamp(3rem, 7vw, 5.8rem)`, 0.86 line-height): Singular page statements, locked-state headlines, and the complete card file.
-- **Leaf Headline** (set display face, fluid 2.35rem–4.8rem family, 0.86–0.94 line-height): Training, drill, and colour-section headings. Reality Fracture uses uppercase; Hobbit preserves natural case.
+- **Leaf Headline** (set display face, fluid 2.35rem–4.8rem family, 0.86–0.94 line-height): Training, draft-decision, and colour-section headings. Reality Fracture uses uppercase; Hobbit preserves natural case.
 - **Brand** (set display face, `clamp(2rem, 3.2vw, 3.15rem)`, 0.94 line-height): The selected volume title in the binding.
-- **Rank and Answer** (set display face, 1.15rem–1.7rem): Card ranks, challenge order, progress tallies, and revealed answers with tabular numerals where values align.
+- **Rank and Answer** (set display face, 1.15rem–1.7rem): Card ranks, progress tallies, and revealed answers with tabular numerals where values align.
 - **Working Title** (Atkinson Hyperlegible Next 700, 0.84rem–1rem): Card names and compact operational headings.
 - **Body** (Atkinson Hyperlegible Next 400, 1rem, 1.5 line-height): Guide copy, instructions, oracle text, and source context.
 - **Label and Microcopy** (Atkinson Hyperlegible Next 700, 0.58rem–0.83rem): Page markers, controls, counts, stamps, tiers, and responsive metadata.
@@ -390,26 +391,26 @@ Each set maps the same semantic roles—binding, surface, ink, line, accent, sig
 
 ## Layout
 
-The system is one multi-volume field-guide shell capped at 1440px. A 164px binding leads with the selected set, subtitle, set picker, share action, and data-maturity stamp. The most recent release opens by default. Three sticky page markers—Training, Pick drill, and All cards—sit on a 62px line, then open directly into a broad surface. The first Training viewport is one focused card-rating workspace rather than a split dashboard.
+The system is one multi-volume field-guide shell capped at 1440px. A 164px binding leads with the selected set, subtitle, set picker, share action, and data-maturity stamp. The most recent release opens by default. Training and All cards are stable sticky page markers; Draft decisions joins between them only for sets with grounded scenarios. The markers sit on a 62px line, then open directly into a broad surface. The first Training viewport is one focused card-rating workspace rather than a split dashboard.
 
-Training centres one readable card-and-answer object at a 1040px maximum, with browser-local progress inline below it. Pick drill presents three equal readable card choices. All cards uses a single broad leaf, sticky colour navigation, an auto-filling grid with a 230px minimum, and an in-place image lightbox. Major surfaces share a continuous binding/page shadow; rows remain flat and separated by rules.
+Training centres one readable card-and-answer object at a 1040px maximum, with browser-local progress inline below it. Draft decisions places seat and pool context in ruled binding rows, the complete pack in a seven-column map-leaf grid, and the revealed evidence in a flat three-column ledger. All cards uses a single broad leaf, sticky colour navigation, an auto-filling grid with a 230px minimum, and an in-place image lightbox. Major surfaces share a continuous binding/page shadow; rows remain flat and separated by rules.
 
-At 860px, the header becomes a grid and Training progress stacks below its heading. At 700px, the binding becomes a compact mobile header, all three markers share one sticky row, surfaces use ten-pixel outer gutters, controls tighten, Training remains a side-by-side card/copy object, and the atlas becomes two columns. At 430px, nonessential subtitle and metadata collapse while card identity, state, primary action, magnification, and touch access remain.
+At 860px, the header becomes a grid, Training progress stacks below its heading, decision context becomes two columns, and the pack becomes four columns. At 700px, the binding becomes a compact mobile header, all available markers share one sticky row, surfaces use ten-pixel outer gutters, Training remains a side-by-side card/copy object, Draft decisions uses a three-column pack with a stacked evidence ledger, and the atlas becomes two columns. At 430px, nonessential subtitle and metadata collapse while card identity, state, primary action, magnification, and touch access remain.
 
-**The First-Viewport Rule.** The latest set and data maturity lead in the binding; three compact markers then yield to focused rating training.
+**The First-Viewport Rule.** The latest set and data maturity lead in the binding; the available compact markers then yield to focused preparation.
 
-**The Stable-Shell Rule.** Training, Pick drill, and All cards retain their order and behaviour across sets even while materials, display type, and geometry change.
+**The Stable-Shell Rule.** Training and All cards retain their order and behaviour across sets. Draft decisions may only appear between them when the set supplies grounded pack-and-pool evidence.
 
 **The Preparation-Only Rule.** Layout supports recognition, rehearsal, and browsing. It must never acquire deck zones, curve charts, counts-by-card, or other deck-builder composition.
 
 ## Elevation & Depth
 
-Depth describes a single handled volume, not a stack of dashboard cards. The binding, page markers, open page, training card, drill images, thumbnails, and image lightbox use progressively smaller ink-dark shadows. Hobbit reads as softly handled cloth and paper. Reality Fracture keeps the same structural depths but adds a hard offset violet seam to card imagery so the dossier feels faceted rather than plush. Flat drill and atlas rows use rule, tint, and motion instead of independent elevation.
+Depth describes a single handled volume, not a stack of dashboard cards. The binding, page markers, open page, training card, thumbnails, and image lightbox use progressively smaller ink-dark shadows. Hobbit reads as softly handled cloth and paper. Reality Fracture keeps the same structural depths but adds a hard offset violet seam to card imagery so the dossier feels faceted rather than plush. Flat atlas rows use rule, tint, and motion instead of independent elevation.
 
 ### Shadow Vocabulary
 
 - **Binding** (`0 10px 30px rgba(8, 9, 16, .28)`): Separates the selected volume from the page ground.
-- **Page Marker** (`0 7px 18px rgba(8, 9, 16, .16)`): Gives the three navigation markers a shallow handled edge.
+- **Page Marker** (`0 7px 18px rgba(8, 9, 16, .16)`): Gives the available navigation markers a shallow handled edge.
 - **Open Volume** (`0 26px 65px rgba(8, 9, 16, .28)`): Unifies each spread or page as the principal object.
 - **Study Object** (`0 18px 46px rgba(8, 9, 16, .34)`): Gives the large recognition card priority inside the binding.
 - **Card Image** (`0 5px 13px rgba(8, 9, 16, .2)` to `0 15px 30px rgba(8, 9, 16, .2)`): Separates card art from dense reading surfaces.
@@ -450,9 +451,9 @@ Shared components keep behavior, semantics, target sizes, and information order 
 
 ### Navigation
 
-- **Three Page Markers:** Training, Pick drill, and All cards are fixed in that order. Inactive markers use the soft binding; the selected marker rises from 50px to 58px and changes to the light metal token.
+- **Set-Aware Page Markers:** Training and All cards are fixed in that order. Draft decisions appears between them only when available. Inactive markers use the soft binding; the selected marker rises from 50px to 58px and changes to the light metal token.
 - **Training Owns Rehearsal:** Card recognition and exact-tier practice live together in Training.
-- **Mobile:** All three remain visible in one sticky row. Icons support but never replace the literal labels.
+- **Mobile:** All available markers remain visible in one sticky row. Icons support but never replace the literal labels.
 
 ### Training Card and Progress Ledger
 
@@ -462,7 +463,15 @@ Shared components keep behavior, semantics, target sizes, and information order 
 - **Answer:** Reveal exposes exact rank, exact tier, the broader family label, and whether the call was exact, missed, or manually revealed. Correct and chosen-wrong buttons remain explicit while unchosen tiers recede.
 - **Observed Evidence:** Hobbit answers continue into a three-column ledger—In-hand WR, Usually gone by, and In-hand games—followed by source/capture context and the immediately adjacent ranked cards. Evidence stays visually subordinate to the answer and continues to call ranking a baseline.
 - **Reality Fracture Preview:** The larger local preview image, card name, type, oracle text, rarity, and collector number remain available. With no attributable ratings, no tier quiz, rank answer, or observed evidence ledger is shown.
-- **Progress:** Cards seen, exact-tier correct/attempt totals, pick-drill totals, current card, colour filter, shuffled queue, revealed-answer state, and selected tier persist per set in browser-local storage. A missed or manually revealed card is inserted after three intervening cards; reset is explicit and confirmed.
+- **Progress:** Cards seen, exact-tier correct/attempt totals, current card, colour filter, shuffled queue, revealed-answer state, selected tier, reviewed decisions, and current decision persist per set in browser-local storage. A missed or manually revealed card is inserted after three intervening cards; reset is explicit and confirmed. Obsolete exercise totals are discarded the next time progress is saved.
+
+### Draft Decisions
+
+- **Availability:** The marker and panel are absent—not locked—when a set has no grounded pack-and-pool scenarios.
+- **Context First:** Pack/pick coordinate, pool direction, and the complete drafted pool precede the pack. The pool disclosure aggregates duplicates without erasing individual pick history from the source data.
+- **Whole Pack:** Every available card remains visible in a true card aspect ratio. Basic lands use a set-native symbolic placeholder when no local card record exists.
+- **Review, Not Score:** Choosing once reveals the player's pick, historical replay pick, and current aggregate-data leader in one flat ledger. Copy names the contextual tradeoff and never marks one answer correct.
+- **Provenance:** Real replay source, format, record, and current ranking source remain visible. A historical pick is never relabeled as a model recommendation.
 
 ### Buttons
 
@@ -475,14 +484,6 @@ Shared components keep behavior, semantics, target sizes, and information order 
 
 - **Exact-Tier Families:** Four ruled rows group fourteen exact tier buttons as Top picks, Strong, Playable, and Filler. The rows stay four columns wide where possible and retain compact touch targets on mobile.
 - **Training Preview State:** Reality Fracture keeps Training open as an unrated card reader and omits the tier quiz entirely.
-- **Rating-Pending Lock:** Pick drill is replaced with a centered, themed lock surface, plain explanation, and a route back to revealed cards. A preview badge never implies a rank.
-
-### Pick Drill
-
-- **Choices:** Three equal card buttons with image, name, and concealed result. Hover lifts five pixels; choosing once reveals the full baseline order.
-- **Challenge Link:** The exact seeded three-card drill is encoded in the URL and shared intact. New challenge generates a new seed.
-- **Answer:** Explicitly calls the order a format-level baseline, not deck-context advice.
-
 ### Chips and Card Index
 
 - **Rating Tier:** Compact categorical pill with white text; pending uses the light metal surface and binding text.
@@ -499,15 +500,15 @@ Shared components keep behavior, semantics, target sizes, and information order 
 ### Do:
 
 - **Do** keep the shared preparation sequence and information order stable while each set owns one material world.
-- **Do** lead with the latest volume and data maturity, then expose all three preparation modes.
+- **Do** lead with the latest volume and data maturity, then expose every grounded preparation mode available for that set.
 - **Do** use Atkinson Hyperlegible Next for working text and the set display face only for hierarchy, ranks, and authored marks.
 - **Do** preserve Hobbit’s forest cloth, map leaves, brass, oxblood, river details, and rounded handled construction.
 - **Do** preserve Reality Fracture’s ink-indigo binding, cool paper, violet/cyan/pink seams, condensed black display type, clipped facets, and two-to-four-pixel cuts.
-- **Do** keep the current Training card, colour filter, queue, exact-tier score, revealed answer, and requeued misses local; keep challenge URLs exact and deterministic.
-- **Do** use the larger local image for Training, Pick drill, and magnification, with a matching local thumbnail fallback.
+- **Do** keep the current Training card, colour filter, queue, exact-tier score, revealed answer, requeued misses, and decision progress local.
+- **Do** use the larger local image for Training, Draft decisions, and magnification, with a matching local thumbnail fallback.
 - **Do** group exact-tier choices as Top picks, Strong, Playable, and Filler, then return misses after three intervening cards.
 - **Do** keep Hobbit’s three observed evidence values and adjacent ranks visually attached to the revealed answer.
-- **Do** visibly lock ranking-dependent answers and actions when the rating source is pending.
+- **Do** omit rating-dependent answers and actions when the rating source is pending.
 - **Do** preserve keyboard focus, touch targets, literal labels, source attribution, and reduced-motion behavior.
 
 ### Don't:
@@ -518,6 +519,7 @@ Shared components keep behavior, semantics, target sizes, and information order 
 - **Don't** cross Hobbit’s brass and oxblood into the Fracture dossier or Fracture’s electric seams into the atlas.
 - **Don't** invent rankings, tiers, or answer colours for a preview-only set.
 - **Don't** show a tier quiz or observed ranking evidence for unrated Reality Fracture cards.
-- **Don't** wrap every result, drill choice, or atlas entry in its own rounded elevated card.
-- **Don't** add a separate comparison or deck-building workflow beside Pick drill.
+- **Don't** wrap every draft choice or atlas entry in its own rounded elevated card.
+- **Don't** reintroduce rank-only pick comparisons without full-pack and drafted-pool context.
+- **Don't** turn Draft decisions into a binary score or imply the replay pick is automatically correct.
 - **Don't** hide state, card identity, colour grouping, or navigation behind icons alone.

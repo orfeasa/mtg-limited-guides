@@ -8,7 +8,7 @@
   const params = new URLSearchParams(location.search);
   const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const numberFormatter = new Intl.NumberFormat("en-GB");
-  const validViews = new Set(["training", "drill", "atlas"]);
+  const validViews = new Set(["training", "decisions", "atlas"]);
   const bandLabels = {
     top: "Top pick · S/A range",
     strong: "Strong · B range",
@@ -65,7 +65,6 @@
     datasetDate: $("#dataset-date"),
     cardsSeen: $("#cards-seen"),
     gradeScore: $("#grade-score"),
-    pickScore: $("#pick-score"),
     resetProgress: $("#reset-progress"),
     trainerInstruction: $("#trainer-instruction"),
     trainerColor: $("#trainer-color"),
@@ -77,12 +76,20 @@
     gradeOptions: $("#grade-options"),
     trainerAnswer: $("#trainer-answer"),
     revealCard: $("#reveal-card"),
-    drillLocked: $("#drill-locked"),
-    drillContent: $("#drill-content"),
-    drillCards: $("#drill-cards"),
-    drillAnswer: $("#drill-answer"),
-    newChallenge: $("#new-challenge"),
-    shareChallenge: $("#share-challenge"),
+    decisionPosition: $("#decision-position"),
+    decisionsReviewed: $("#decisions-reviewed"),
+    decisionCoordinate: $("#decision-coordinate"),
+    poolDirection: $("#pool-direction"),
+    poolSummary: $("#pool-summary"),
+    poolCount: $("#pool-count"),
+    decisionPool: $("#decision-pool"),
+    decisionCards: $("#decision-cards"),
+    changeDecision: $("#change-decision"),
+    decisionReview: $("#decision-review"),
+    decisionVerdict: $("#decision-verdict"),
+    decisionLedger: $("#decision-ledger"),
+    decisionCoaching: $("#decision-coaching"),
+    nextDecision: $("#next-decision"),
     atlasTitle: $("#atlas-title"),
     atlasCopy: $("#atlas-copy"),
     colorNavigation: $("#color-navigation"),
@@ -114,9 +121,8 @@
   let trainerCardId = null;
   let trainerRevealed = false;
   let trainerGuess = null;
-  let challengeSeed = params.get("challenge") || makeSeed();
-  let drillCards = [];
-  let drillChoiceId = null;
+  let decisionIndex = 0;
+  let decisionChoice = null;
   let progress = emptyProgress();
   let toastTimer = null;
 
@@ -125,13 +131,13 @@
       seen: [],
       gradeAttempts: 0,
       gradeCorrect: 0,
-      pickAttempts: 0,
-      pickCorrect: 0,
       currentCard: null,
       color: "all",
       queue: [],
       trainerRevealed: false,
       trainerGuess: null,
+      decisionsReviewed: [],
+      currentDecision: null,
     };
   }
 
@@ -153,8 +159,11 @@
       next.currentCard = validIds.has(next.currentCard) ? next.currentCard : null;
       next.gradeAttempts = Number.isInteger(next.gradeAttempts) && next.gradeAttempts >= 0 ? next.gradeAttempts : 0;
       next.gradeCorrect = Number.isInteger(next.gradeCorrect) && next.gradeCorrect >= 0 && next.gradeCorrect <= next.gradeAttempts ? next.gradeCorrect : 0;
-      next.pickAttempts = Number.isInteger(next.pickAttempts) && next.pickAttempts >= 0 ? next.pickAttempts : 0;
-      next.pickCorrect = Number.isInteger(next.pickCorrect) && next.pickCorrect >= 0 && next.pickCorrect <= next.pickAttempts ? next.pickCorrect : 0;
+      const decisionIds = new Set((currentSet.draftDecisions?.scenarios || []).map((scenario) => scenario.id));
+      next.decisionsReviewed = Array.isArray(next.decisionsReviewed) ? [...new Set(next.decisionsReviewed.filter((id) => decisionIds.has(id)))] : [];
+      next.currentDecision = decisionIds.has(next.currentDecision) ? next.currentDecision : null;
+      delete next.pickAttempts;
+      delete next.pickCorrect;
       next.trainerRevealed = Boolean(next.trainerRevealed);
       next.trainerGuess = next.trainerGuess === null || tierOrder.includes(next.trainerGuess) ? next.trainerGuess : null;
       return next;
@@ -199,7 +208,6 @@
   function updateProgress() {
     elements.cardsSeen.textContent = String(new Set(progress.seen).size);
     elements.gradeScore.textContent = `${progress.gradeCorrect}/${progress.gradeAttempts}`;
-    elements.pickScore.textContent = `${progress.pickCorrect}/${progress.pickAttempts}`;
     saveProgress();
   }
 
@@ -228,36 +236,15 @@
     return new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", year: "numeric" }).format(new Date(`${value.slice(0, 10)}T12:00:00Z`));
   }
 
-  function makeSeed() {
-    if (window.crypto?.getRandomValues) {
-      return window.crypto.getRandomValues(new Uint32Array(1))[0].toString(36);
-    }
-    return Math.floor(Math.random() * 0xffffffff).toString(36);
-  }
-
-  function seededRandom(seed) {
-    let state = 2166136261;
-    for (const char of seed) {
-      state ^= char.charCodeAt(0);
-      state = Math.imul(state, 16777619);
-    }
-    return () => {
-      state += 0x6d2b79f5;
-      let value = state;
-      value = Math.imul(value ^ (value >>> 15), value | 1);
-      value ^= value + Math.imul(value ^ (value >>> 7), value | 61);
-      return ((value ^ (value >>> 14)) >>> 0) / 4294967296;
-    };
-  }
-
   function updateUrl({ replace = true } = {}) {
     const url = new URL(location.href);
     url.searchParams.set("set", currentSet.id);
     url.searchParams.set("view", currentView);
-    if (currentView === "drill" && currentSet.rating.status === "available") {
-      url.searchParams.set("challenge", challengeSeed);
+    url.searchParams.delete("challenge");
+    if (currentView === "decisions" && currentSet.draftDecisions?.scenarios?.[decisionIndex]) {
+      url.searchParams.set("decision", currentSet.draftDecisions.scenarios[decisionIndex].id);
     } else {
-      url.searchParams.delete("challenge");
+      url.searchParams.delete("decision");
     }
     url.hash = "";
     history[replace ? "replaceState" : "pushState"](null, "", url);
@@ -299,6 +286,10 @@
     return currentSet.rating.status === "available";
   }
 
+  function draftDecisionsAvailable() {
+    return Array.isArray(currentSet.draftDecisions?.scenarios) && currentSet.draftDecisions.scenarios.length > 0;
+  }
+
   function ratedCards() {
     return cards.filter((card) => Number.isFinite(card.rank) && card.band !== "unrated");
   }
@@ -328,6 +319,23 @@
       ? `${currentSet.cardCount} revealed cards, grouped by colour. Select a card to enlarge it.`
       : `All ${currentSet.cardCount} ranked cards, grouped by colour. Select a card to enlarge it.`;
 
+    const decisionTab = viewTabs.find((tab) => tab.dataset.view === "decisions");
+    if (decisionTab) {
+      decisionTab.hidden = !draftDecisionsAvailable();
+      decisionTab.tabIndex = -1;
+    }
+    document.documentElement.style.setProperty("--view-count", draftDecisionsAvailable() ? "3" : "2");
+
+    renderFooterSource();
+  }
+
+  function renderFooterSource() {
+    if (currentView === "decisions" && draftDecisionsAvailable()) {
+      elements.footerSource.textContent = `${currentSet.draftDecisions.sourceName} real draft replay · ${currentSet.draftDecisions.format} · ${currentSet.draftDecisions.record} record`;
+      elements.sourceLink.href = currentSet.draftDecisions.source;
+      elements.sourceLink.textContent = "View draft replay";
+      return;
+    }
     const sourceDate = currentSet.stage === "preview"
       ? `Preview index synced ${dateLabel(currentSet.previewCapturedAt)}`
       : `${currentSet.rating.source} pick order · ${currentSet.rating.rankRange} · ${currentSet.rating.archetype}${currentSet.performance ? ` · card evidence ${dateLabel(currentSet.performance.capturedAt)}` : ""}`;
@@ -487,68 +495,170 @@
     renderTrainer();
   }
 
-  function buildDrill() {
-    drillChoiceId = null;
-    const ranked = ratedCards().sort((a, b) => a.rank - b.rank);
-    if (ranked.length < 3) {
-      drillCards = [];
-      return;
-    }
-    const random = seededRandom(`${currentSet.id}:${challengeSeed}`);
-    const centre = Math.floor(random() * ranked.length);
-    const start = Math.max(0, Math.min(ranked.length - 38, centre - 19));
-    const pool = ranked.slice(start, start + 38);
-    for (let index = pool.length - 1; index > 0; index -= 1) {
-      const swap = Math.floor(random() * (index + 1));
-      [pool[index], pool[swap]] = [pool[swap], pool[index]];
-    }
-    drillCards = pool.slice(0, 3);
+  function decisionScenario() {
+    return currentSet.draftDecisions?.scenarios?.[decisionIndex] || null;
   }
 
-  function renderDrill() {
-    const locked = !ratingIsAvailable();
-    elements.drillLocked.hidden = !locked;
-    elements.drillContent.hidden = locked;
-    elements.newChallenge.disabled = locked;
-    elements.shareChallenge.disabled = locked;
-    if (locked) {
-      elements.drillLocked.innerHTML = `<span class="lock-mark" aria-hidden="true"></span><h3>Pick drills are waiting for ratings</h3><p>The ${escapeHtml(currentSet.name)} preview file has ${currentSet.cardCount} cards, but no complete Limited ranking yet. You can study every revealed card without guessing at an answer.</p><button type="button" data-open-atlas>Open revealed cards</button>`;
-      return;
-    }
+  function cardForName(name) {
+    return cards.find((card) => card.name === name) || null;
+  }
 
-    if (drillCards.length === 0) buildDrill();
-    const ordered = [...drillCards].sort((a, b) => a.rank - b.rank);
-    const best = ordered[0];
-    elements.drillCards.replaceChildren(...drillCards.map((card) => {
-      const button = document.createElement("button");
-      button.type = "button";
-      button.className = "drill-card";
-      button.dataset.cardId = card.id;
-      button.setAttribute("aria-pressed", String(drillChoiceId === card.id));
-      button.dataset.verdict = drillChoiceId ? (card.id === best.id ? "best" : card.id === drillChoiceId ? "picked" : "other") : "";
-      button.innerHTML = `<img src="${escapeHtml(card.trainingImage || card.image)}" alt="${escapeHtml(card.name)} card" width="672" height="936" loading="lazy" decoding="async"><span class="drill-card-name">${escapeHtml(card.name)}</span><span class="drill-card-result">${drillChoiceId ? `#${card.rank} · ${escapeHtml(card.tier)}` : "Choose this card"}</span>`;
-      const image = button.querySelector("img");
-      image.addEventListener("error", () => { image.src = card.image; }, { once: true });
-      return button;
+  function basicLandColor(name) {
+    return { Plains: "W", Island: "U", Swamp: "B", Mountain: "R", Forest: "G" }[name] || null;
+  }
+
+  function decisionDataLeader(scenario) {
+    return scenario.cards.map(cardForName).filter((card) => Number.isFinite(card?.rank)).sort((left, right) => left.rank - right.rank)[0] || null;
+  }
+
+  function decisionCardMeta(name) {
+    const card = cardForName(name);
+    if (!card) return { card: null, color: basicLandColor(name), rank: "Basic land", detail: "No pick-order rank" };
+    const winRate = Number.isFinite(card.stats?.inHandWinRate) ? `${card.stats.inHandWinRate.toFixed(1)}% IHW` : "No win rate";
+    return { card, color: card.color, rank: `#${card.rank} · ${card.tier}`, detail: winRate };
+  }
+
+  function poolRead(pool) {
+    const counts = new Map(colorGroups.map((group) => [group.id, 0]));
+    pool.forEach((name) => {
+      const color = cardForName(name)?.color || basicLandColor(name) || "C";
+      counts.set(color, (counts.get(color) || 0) + 1);
+    });
+    const ranked = colorGroups.map((group) => ({ ...group, count: counts.get(group.id) || 0 })).filter((group) => group.count > 0).sort((left, right) => right.count - left.count);
+    if (pool.length === 0) return { direction: "No commitments yet", summary: "Your first pick can stay open.", dominant: null };
+    if (pool.length < 4 || !ranked[0] || ranked[0].count === ranked[1]?.count) {
+      const names = ranked.slice(0, 2).map((group) => group.name.toLowerCase()).join(" and ");
+      return { direction: "Still open", summary: `${pool.length} picks so far${names ? `, led by ${names}` : ""}.`, dominant: null };
+    }
+    const lead = ranked[0];
+    const clearLead = lead.count >= (ranked[1]?.count || 0) + 2;
+    return {
+      direction: clearLead ? `${lead.name} leaning` : `${lead.name} / ${ranked[1]?.name || "open"}`,
+      summary: `${lead.count} of ${pool.length} picks are ${lead.name.toLowerCase()}${clearLead ? "; changing course now needs a real payoff" : "; the second colour is still fluid"}.`,
+      dominant: clearLead ? lead.id : null,
+    };
+  }
+
+  function decisionOption(name) {
+    const meta = decisionCardMeta(name);
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "decision-card";
+    button.dataset.cardName = name;
+    button.setAttribute("aria-pressed", String(decisionChoice === name));
+    button.setAttribute("aria-label", `Choose ${name}, ${meta.rank}`);
+    if (decisionChoice) button.disabled = true;
+    const visual = meta.card
+      ? `<img src="${escapeHtml(meta.card.trainingImage || meta.card.image)}" alt="" width="188" height="264">`
+      : `<span class="decision-land" data-color="${meta.color}">${manaSymbol(meta.color, "mana-symbol--land")}<strong>${escapeHtml(name)}</strong><span>Basic land</span></span>`;
+    button.innerHTML = `${visual}<span class="decision-card-copy"><strong>${escapeHtml(name)}</strong><span>${escapeHtml(meta.rank)}</span><span>${escapeHtml(meta.detail)}</span></span>`;
+    return button;
+  }
+
+  function renderDecisionPool(scenario) {
+    const grouped = new Map();
+    scenario.pool.forEach((name) => grouped.set(name, (grouped.get(name) || 0) + 1));
+    elements.poolCount.textContent = `${scenario.pool.length} ${scenario.pool.length === 1 ? "card" : "cards"}`;
+    elements.decisionPool.replaceChildren(...[...grouped].map(([name, count]) => {
+      const meta = decisionCardMeta(name);
+      const item = document.createElement("span");
+      item.className = "pool-card";
+      item.title = `${name} · ${meta.rank}`;
+      item.innerHTML = meta.card
+        ? `<img src="${escapeHtml(meta.card.image)}" alt="" width="38" height="54"><span>${escapeHtml(name)}</span>${count > 1 ? `<strong>×${count}</strong>` : ""}`
+        : `${manaSymbol(meta.color, "mana-symbol--pool")}<span>${escapeHtml(name)}</span>${count > 1 ? `<strong>×${count}</strong>` : ""}`;
+      return item;
     }));
+  }
 
-    if (!drillChoiceId) {
-      elements.drillAnswer.innerHTML = `<p>Choose a card to reveal the full order.</p><span>Challenge ${escapeHtml(challengeSeed.toUpperCase())}</span>`;
+  function renderDecisionReview(scenario) {
+    const choice = decisionCardMeta(decisionChoice);
+    const replay = decisionCardMeta(scenario.replayPick);
+    const leaderCard = decisionDataLeader(scenario);
+    const leader = decisionCardMeta(leaderCard?.name || scenario.replayPick);
+    const allAgree = decisionChoice === scenario.replayPick && scenario.replayPick === leader.card?.name;
+    if (allAgree) elements.decisionVerdict.textContent = "Your pick, the replay, and the current raw ranking all point to the same card.";
+    else if (decisionChoice === scenario.replayPick) elements.decisionVerdict.textContent = "You matched the replay pick. Now test whether its pool fit justifies moving away from the raw ranking.";
+    else if (decisionChoice === leader.card?.name) elements.decisionVerdict.textContent = "You followed the current raw ranking. The replay took a different line, so context has to explain the gap.";
+    else elements.decisionVerdict.textContent = "You found a third line. Compare what it gains against both raw strength and the direction taken in the replay.";
+
+    const ledgerItem = (label, name, meta) => `<div><dt>${label}</dt><dd>${escapeHtml(name)}</dd><span>${escapeHtml(meta.rank)} · ${escapeHtml(meta.detail)}</span></div>`;
+    elements.decisionLedger.innerHTML = [
+      ledgerItem("Your pick", decisionChoice, choice),
+      ledgerItem("Replay pick", scenario.replayPick, replay),
+      ledgerItem("Data leader", leader.card?.name || scenario.replayPick, leader),
+    ].join("");
+
+    const read = poolRead(scenario.pool);
+    const replayFits = read.dominant && replay.color === read.dominant;
+    const leaderFits = read.dominant && leader.color === read.dominant;
+    if (scenario.replayPick === leader.card?.name) {
+      elements.decisionCoaching.textContent = read.dominant && replayFits
+        ? "This is the easy kind of decision: the strongest current data point also supports the pool. Spend your effort checking curve and card role, not searching for a clever detour."
+        : "Raw power and the replay agree. The remaining question is whether the card is strong enough to keep the draft open or pull the pool in a new direction.";
+    } else if (replayFits && !leaderFits) {
+      const gap = Number.isFinite(replay.card?.rank) && Number.isFinite(leader.card?.rank) ? replay.card.rank - leader.card.rank : null;
+      elements.decisionCoaching.textContent = `The replay protected the pool's ${colorGroups.find((group) => group.id === read.dominant)?.name.toLowerCase()} direction${gap > 0 ? ` while giving up ${gap} places in the current ranking` : ""}. That tradeoff is the lesson; it is not proof the replay pick was automatically correct.`;
+    } else if (replay.color === leader.color) {
+      elements.decisionCoaching.textContent = "Both leading candidates ask for the same colour. Pool identity does not settle this one; card role, curve pressure, and what the deck already has must do the work.";
+    } else if (leaderFits) {
+      elements.decisionCoaching.textContent = "The current data leader already fits the pool, so the replay's alternative needs a specific role or curve argument. Without one, context is not a reason to pass the stronger baseline.";
     } else {
-      const correct = drillChoiceId === best.id;
-      elements.drillAnswer.innerHTML = `<strong>${correct ? "Baseline pick found" : `${escapeHtml(best.name)} leads this group`}</strong><ol>${ordered.map((card) => `<li><span>#${card.rank}</span><b>${escapeHtml(card.name)}</b><small>Tier ${escapeHtml(card.tier)}</small></li>`).join("")}</ol><p>Rankings are a format-level baseline; an actual draft can change the choice.</p>`;
+      elements.decisionCoaching.textContent = "The pool is not committed enough to decide this for you. Treat the current rank as a baseline, then ask which card leaves the next few picks easiest to navigate.";
     }
   }
 
-  function chooseDrillCard(cardId) {
-    if (drillChoiceId || !ratingIsAvailable()) return;
-    const best = [...drillCards].sort((a, b) => a.rank - b.rank)[0];
-    drillChoiceId = cardId;
-    progress.pickAttempts += 1;
-    if (cardId === best.id) progress.pickCorrect += 1;
-    updateProgress();
-    renderDrill();
-    elements.liveRegion.textContent = cardId === best.id ? "Correct baseline pick." : `${best.name} is the strongest baseline pick.`;
+  function chooseDecision(name) {
+    if (!decisionScenario() || decisionChoice) return;
+    decisionChoice = name;
+    const scenario = decisionScenario();
+    if (!progress.decisionsReviewed.includes(scenario.id)) progress.decisionsReviewed.push(scenario.id);
+    progress.currentDecision = scenario.id;
+    elements.decisionCards.querySelectorAll("button").forEach((button) => {
+      button.disabled = true;
+      button.setAttribute("aria-pressed", String(button.dataset.cardName === name));
+    });
+    elements.changeDecision.hidden = false;
+    elements.decisionReview.hidden = false;
+    elements.decisionsReviewed.textContent = `${progress.decisionsReviewed.length} reviewed`;
+    renderDecisionReview(scenario);
+    saveProgress();
+    updateUrl();
+    elements.decisionReview.scrollIntoView({ behavior: prefersReducedMotion ? "auto" : "smooth", block: "start" });
+  }
+
+  function renderDecision() {
+    if (!draftDecisionsAvailable()) return;
+    const scenarios = currentSet.draftDecisions.scenarios;
+    decisionIndex = Math.max(0, Math.min(decisionIndex, scenarios.length - 1));
+    const scenario = scenarios[decisionIndex];
+    const read = poolRead(scenario.pool);
+    elements.decisionPosition.textContent = `${decisionIndex + 1} / ${scenarios.length}`;
+    elements.decisionsReviewed.textContent = `${progress.decisionsReviewed.length} reviewed`;
+    elements.decisionCoordinate.textContent = `Pack ${scenario.pack} · Pick ${scenario.pick}`;
+    elements.poolDirection.textContent = read.direction;
+    elements.poolSummary.textContent = read.summary;
+    renderDecisionPool(scenario);
+    elements.decisionCards.replaceChildren(...scenario.cards.map(decisionOption));
+    elements.changeDecision.hidden = !decisionChoice;
+    elements.decisionReview.hidden = !decisionChoice;
+    if (decisionChoice) renderDecisionReview(scenario);
+  }
+
+  function resetDecisionChoice() {
+    decisionChoice = null;
+    renderDecision();
+  }
+
+  function nextDecision() {
+    if (!draftDecisionsAvailable()) return;
+    decisionIndex = (decisionIndex + 1) % currentSet.draftDecisions.scenarios.length;
+    progress.currentDecision = currentSet.draftDecisions.scenarios[decisionIndex].id;
+    decisionChoice = null;
+    renderDecision();
+    saveProgress();
+    updateUrl();
+    document.querySelector(".decisions-heading")?.scrollIntoView({ behavior: prefersReducedMotion ? "auto" : "smooth", block: "start" });
   }
 
   function openCardPreview(cardId) {
@@ -615,7 +725,8 @@
   }
 
   function activateView(view, { focus = false, updateHistory = true } = {}) {
-    currentView = validViews.has(view) ? view : "training";
+    const canActivate = validViews.has(view) && (view !== "decisions" || draftDecisionsAvailable());
+    currentView = canActivate ? view : "training";
     views.forEach((panel, id) => { panel.hidden = id !== currentView; });
     viewTabs.forEach((tab) => {
       const selected = tab.dataset.view === currentView;
@@ -624,6 +735,7 @@
       if (selected && focus) tab.focus();
     });
     document.body.dataset.view = currentView;
+    renderFooterSource();
     if (updateHistory) updateUrl();
     window.scrollTo({ top: 0, behavior: prefersReducedMotion ? "auto" : "smooth" });
   }
@@ -634,9 +746,7 @@
     currentSet = nextSet;
     cards = [...currentSet.cards];
     cardById = new Map(cards.map((card) => [card.id, card]));
-    challengeSeed = makeSeed();
-    drillCards = [];
-    drillChoiceId = null;
+    if (currentView === "decisions" && !draftDecisionsAvailable()) currentView = "training";
     progress = readProgress();
     elements.trainerColor.value = progress.color || "all";
     renderGradeOptions();
@@ -644,12 +754,17 @@
     trainerCardId = savedCard?.id || (ratingIsAvailable() ? takeTrainerCard()?.id : cards[0]?.id);
     trainerRevealed = Boolean(progress.trainerRevealed && cardIsRated(cardById.get(trainerCardId)));
     trainerGuess = trainerRevealed ? progress.trainerGuess : null;
+    const requestedDecisionId = params.get("set") === currentSet.id ? params.get("decision") : null;
+    const savedDecisionId = requestedDecisionId || progress.currentDecision;
+    const savedDecisionIndex = currentSet.draftDecisions?.scenarios?.findIndex((scenario) => scenario.id === savedDecisionId) ?? -1;
+    decisionIndex = savedDecisionIndex >= 0 ? savedDecisionIndex : 0;
+    decisionChoice = null;
     renderSetChrome();
     updateProgress();
     renderTrainer();
-    buildDrill();
-    renderDrill();
+    renderDecision();
     renderAtlas();
+    activateView(currentView, { updateHistory: false });
     if (updateHistory) updateUrl();
   }
 
@@ -670,6 +785,12 @@
     if (button) answerTrainer(button.dataset.grade);
   });
   elements.revealCard.addEventListener("click", () => answerTrainer(null));
+  elements.decisionCards.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-card-name]");
+    if (button) chooseDecision(button.dataset.cardName);
+  });
+  elements.changeDecision.addEventListener("click", resetDecisionChoice);
+  elements.nextDecision.addEventListener("click", nextDecision);
   elements.trainerColor.addEventListener("change", () => {
     progress.color = elements.trainerColor.value;
     progress.queue = [];
@@ -688,25 +809,8 @@
     showToast("Progress reset");
   });
 
-  elements.drillCards.addEventListener("click", (event) => {
-    const button = event.target.closest("[data-card-id]");
-    if (button) chooseDrillCard(button.dataset.cardId);
-  });
-  elements.newChallenge.addEventListener("click", () => {
-    challengeSeed = makeSeed();
-    buildDrill();
-    renderDrill();
-    updateUrl();
-  });
-  elements.shareChallenge.addEventListener("click", () => {
-    currentView = "drill";
-    updateUrl();
-    sharePage({ title: `${currentSet.name} pick challenge`, text: "Which card would you take?", url: location.href });
-  });
-
   document.addEventListener("click", (event) => {
     if (event.target.closest("#next-card")) nextTrainerCard();
-    if (event.target.closest("[data-open-atlas]")) activateView("atlas");
   });
   elements.cardAtlas.addEventListener("click", (event) => {
     const button = event.target.closest("[data-card-id]");
@@ -718,23 +822,19 @@
     if (event.target === elements.cardPreview) elements.cardPreview.close();
   });
 
-  viewTabs.forEach((tab, index) => {
+  viewTabs.forEach((tab) => {
     tab.addEventListener("click", () => activateView(tab.dataset.view));
     tab.addEventListener("keydown", (event) => {
       if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) return;
       event.preventDefault();
-      const nextIndex = event.key === "Home" ? 0 : event.key === "End" ? viewTabs.length - 1 : (index + (event.key === "ArrowRight" ? 1 : -1) + viewTabs.length) % viewTabs.length;
-      activateView(viewTabs[nextIndex].dataset.view, { focus: true });
+      const availableTabs = viewTabs.filter((candidate) => !candidate.hidden);
+      const index = availableTabs.indexOf(tab);
+      const nextIndex = event.key === "Home" ? 0 : event.key === "End" ? availableTabs.length - 1 : (index + (event.key === "ArrowRight" ? 1 : -1) + availableTabs.length) % availableTabs.length;
+      activateView(availableTabs[nextIndex].dataset.view, { focus: true });
     });
   });
 
   selectSet(currentSet.id, { updateHistory: false });
-  if (params.get("challenge") && ratingIsAvailable()) {
-    challengeSeed = params.get("challenge");
-    buildDrill();
-    renderDrill();
-  }
-  activateView(currentView, { updateHistory: false });
   updateUrl();
 
   if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {

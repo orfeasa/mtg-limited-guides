@@ -15,6 +15,7 @@ const pickOrder = readJson("hobbit_pick_order.json");
 const artIds = readJson("hobbit_art_ids.json");
 const colorData = readJson("hobbit_colors.json");
 const cardStats = readJson("hobbit_card_stats.json");
+const basicLandNames = new Set(["Plains", "Island", "Swamp", "Mountain", "Forest"]);
 
 const winRate = (wins, games) => Number.isFinite(wins) && Number.isFinite(games) && games > 0
   ? Math.round((wins / games) * 1000) / 10
@@ -34,6 +35,8 @@ for (const section of pickOrder.sections) {
   for (const name of section.names) {
     const stats = cardStats.cards[name];
     if (!stats) throw new Error(`Missing Hobbit card statistics for ${name}`);
+    const artId = artIds[name];
+    if (!artId) throw new Error(`Missing Hobbit art ID for ${name}`);
     hobbitCards.push({
       id: `hob-${rank}`,
       rank,
@@ -41,8 +44,8 @@ for (const section of pickOrder.sections) {
       band: bandForTier(section.tier),
       name,
       color: colorData.colors[name],
-      image: `assets/cards/${artIds[rank - 1]}.jpg`,
-      trainingImage: `assets/cards-large/${artIds[rank - 1]}.jpg`,
+      image: `assets/cards/${artId}.jpg`,
+      trainingImage: `assets/cards-large/${artId}.jpg`,
       stats: {
         inHandWinRate: winRate(stats.in_hand_wins, stats.in_hand_games),
         inHandGames: stats.in_hand_games,
@@ -55,8 +58,8 @@ for (const section of pickOrder.sections) {
   }
 }
 
-if (hobbitCards.length !== 188 || artIds.length !== 188) {
-  throw new Error(`Expected 188 Hobbit cards and art IDs; got ${hobbitCards.length} and ${artIds.length}`);
+if (hobbitCards.length !== 188 || Object.keys(artIds).length !== 188) {
+  throw new Error(`Expected 188 Hobbit cards and art IDs; got ${hobbitCards.length} and ${Object.keys(artIds).length}`);
 }
 
 const missingColors = hobbitCards.filter((card) => !card.color);
@@ -83,6 +86,38 @@ const setAdapters = {
   },
 };
 
+function adaptDraftDecisions(set, cards) {
+  if (!set.decisionsFile) return null;
+  const source = readJson(set.decisionsFile);
+  const knownNames = new Set(cards.map((card) => card.name));
+  const ids = new Set();
+  const scenarios = source.scenarios.map((scenario) => {
+    if (!scenario.id || ids.has(scenario.id)) throw new Error(`Invalid draft decision ID in ${set.id}: ${scenario.id}`);
+    ids.add(scenario.id);
+    const names = [...scenario.cards, ...scenario.pool, scenario.replay_pick];
+    const unknown = names.filter((name) => !knownNames.has(name) && !basicLandNames.has(name));
+    if (unknown.length > 0) throw new Error(`Unknown draft decision cards in ${scenario.id}: ${[...new Set(unknown)].join(", ")}`);
+    if (!scenario.cards.includes(scenario.replay_pick)) throw new Error(`Replay pick is absent from ${scenario.id}`);
+    return {
+      id: scenario.id,
+      pack: scenario.pack,
+      pick: scenario.pick,
+      pool: scenario.pool,
+      cards: scenario.cards,
+      replayPick: scenario.replay_pick,
+    };
+  });
+  return {
+    source: source.source,
+    sourceName: source.source_name,
+    capturedAt: source.captured_at,
+    format: source.format,
+    record: source.record,
+    notes: source.notes,
+    scenarios,
+  };
+}
+
 const sets = manifest.sets.map((set) => {
   const adapt = setAdapters[set.adapter];
   if (!adapt) throw new Error(`No card-data adapter configured for set ${set.id}`);
@@ -91,6 +126,7 @@ const sets = manifest.sets.map((set) => {
     ...set,
     cardCount: cards.length,
     previewCapturedAt,
+    draftDecisions: adaptDraftDecisions(set, cards),
     cards,
   };
 });

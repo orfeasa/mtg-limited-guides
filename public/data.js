@@ -6,14 +6,15 @@ window.LIMITED_PREP_DATA = {
       "id": "hob",
       "code": "HOB",
       "adapter": "hobbit-ranking",
+      "decisionsFile": "hobbit_draft_decisions.json",
       "name": "The Hobbit",
       "productName": "The Hobbit Limited Atlas",
       "theme": "hobbit",
       "stage": "observed",
       "releaseDate": "2026-08-14",
-      "subtitle": "An expedition atlas for learning the set and rehearsing the next pick.",
+      "subtitle": "An expedition atlas for learning the set before the next draft.",
       "guideTitle": "Know the road before the first pack",
-      "guideBody": "Build card recognition first, then practise baseline picks until the strongest choice is immediate. Rankings remain a starting point rather than deck-context advice.",
+      "guideBody": "Build card recognition, practise exact-tier recall, then work through real draft states where the pack and your pool can outweigh a raw ranking.",
       "guideFacts": [
         "188 ranked Arena cards",
         "Observed Premier Draft snapshot",
@@ -23,8 +24,8 @@ window.LIMITED_PREP_DATA = {
         "status": "available",
         "label": "Observed draft data",
         "source": "Untapped.gg",
-        "capturedAt": "2026-08-19",
-        "matches": 390000,
+        "capturedAt": "2026-09-02",
+        "matches": 620000,
         "rankRange": "Bronze–Platinum",
         "archetype": "All archetypes",
         "stat": "In Hand WR",
@@ -32,8 +33,8 @@ window.LIMITED_PREP_DATA = {
       },
       "performance": {
         "source": "Untapped.gg",
-        "capturedAt": "2026-08-20T15:19:38.756Z",
-        "matches": 417619,
+        "capturedAt": "2026-09-02T17:05:52.004Z",
+        "matches": 620300,
         "label": "Observed card evidence"
       },
       "cardSource": {
@@ -42,6 +43,531 @@ window.LIMITED_PREP_DATA = {
       },
       "cardCount": 188,
       "previewCapturedAt": null,
+      "draftDecisions": {
+        "source": "https://www.17lands.com/draft/6fe0176985684194bdea13ba61f6856f",
+        "sourceName": "17Lands",
+        "capturedAt": "2026-09-02T17:30:00Z",
+        "format": "Premier Draft",
+        "record": "7-2",
+        "notes": "Real pack and pool states from one publicly shared draft replay. The replay pick is historical; the baseline is recalculated from the current Untapped ranking snapshot.",
+        "scenarios": [
+          {
+            "id": "hob-6fe017-p1p1",
+            "pack": 1,
+            "pick": 1,
+            "pool": [],
+            "cards": [
+              "Stone-Giant of High Pass",
+              "Eagle of the Great Shelf",
+              "Bilbo, Luckwearer",
+              "Nasty Little Rabbit",
+              "Bolg of the North",
+              "Ori, Keeper of Songs",
+              "Confusticate and Bebother",
+              "Uneasy Partings",
+              "Front Porch Sentries",
+              "Gundabad Opportunist",
+              "Ordinary Bear",
+              "Quarrel",
+              "Well-Worn Spatula",
+              "Iron Hills"
+            ],
+            "replayPick": "Stone-Giant of High Pass"
+          },
+          {
+            "id": "hob-6fe017-p1p2",
+            "pack": 1,
+            "pick": 2,
+            "pool": [
+              "Stone-Giant of High Pass"
+            ],
+            "cards": [
+              "The Queen of Dale",
+              "Eagle of the Great Shelf",
+              "Dreaded Bat-Cloud",
+              "Glóin the Mighty",
+              "Lake-town Lookout",
+              "Magnificent End",
+              "Elvenking's Harper",
+              "Plunder the Trollshaws",
+              "Gundabad Opportunist",
+              "Attercop",
+              "Well-Worn Spatula",
+              "Goblin Plate Mail",
+              "Mountain"
+            ],
+            "replayPick": "Glóin the Mighty"
+          },
+          {
+            "id": "hob-6fe017-p1p3",
+            "pack": 1,
+            "pick": 3,
+            "pool": [
+              "Stone-Giant of High Pass",
+              "Glóin the Mighty"
+            ],
+            "cards": [
+              "Celebrate the Mountain-king",
+              "Thranduil's Decree",
+              "Lake-town Lookout",
+              "Elvenking's Harper",
+              "Mirkwood Meditator",
+              "Rage into the Valley",
+              "Pinecone Strike",
+              "Tidings of War",
+              "Warg Tactics",
+              "Old Thrush",
+              "Duskwatch Hunter",
+              "Forest"
+            ],
+            "replayPick": "Pinecone Strike"
+          },
+          {
+            "id": "hob-6fe017-p1p4",
+            "pack": 1,
+            "pick": 4,
+            "pool": [
+              "Stone-Giant of High Pass",
+              "Glóin the Mighty",
+              "Pinecone Strike"
+            ],
+            "cards": [
+              "Ravenhill Flock",
+              "Glóin the Mighty",
+              "Dwarven Shortsword",
+              "Moment of Glory",
+              "Enchanted River's Grasp",
+              "Uneasy Partings",
+              "Ravening Warg",
+              "Smaug, the Great Calamity",
+              "Little Bear",
+              "Quarrel",
+              "Goblin-town"
+            ],
+            "replayPick": "Glóin the Mighty"
+          },
+          {
+            "id": "hob-6fe017-p1p5",
+            "pack": 1,
+            "pick": 5,
+            "pool": [
+              "Stone-Giant of High Pass",
+              "Glóin the Mighty",
+              "Pinecone Strike",
+              "Glóin the Mighty"
+            ],
+            "cards": [
+              "Old Fat Spider",
+              "Key to the Side-Door",
+              "Bifur, Melodic Rider",
+              "Esgaroth Garrison",
+              "Vow to Erebor",
+              "Gandalf, Wandering Wizard",
+              "Dori, Bearer of Friends",
+              "Wargling",
+              "Well-Worn Spatula",
+              "Lake-town"
+            ],
+            "replayPick": "Bifur, Melodic Rider"
+          },
+          {
+            "id": "hob-6fe017-p1p6",
+            "pack": 1,
+            "pick": 6,
+            "pool": [
+              "Stone-Giant of High Pass",
+              "Glóin the Mighty",
+              "Pinecone Strike",
+              "Glóin the Mighty",
+              "Bifur, Melodic Rider"
+            ],
+            "cards": [
+              "Glóin the Mighty",
+              "Eagle's Rescue",
+              "Long Lake Nuisance",
+              "Gollum, Silent Slinker",
+              "Goblin-town Flunkies",
+              "Smaug, the Great Calamity",
+              "Attercop",
+              "Old Thrush",
+              "Mirkwood"
+            ],
+            "replayPick": "Glóin the Mighty"
+          },
+          {
+            "id": "hob-6fe017-p1p7",
+            "pack": 1,
+            "pick": 7,
+            "pool": [
+              "Stone-Giant of High Pass",
+              "Glóin the Mighty",
+              "Pinecone Strike",
+              "Glóin the Mighty",
+              "Bifur, Melodic Rider",
+              "Glóin the Mighty"
+            ],
+            "cards": [
+              "The Black Arrow",
+              "Ori, Keeper of Songs",
+              "Thorin's Last Stand",
+              "Mirkwood Meditator",
+              "Plunder the Trollshaws",
+              "Beorn, Reluctant Host",
+              "Guardian of the Halls",
+              "Elvenking's Halls"
+            ],
+            "replayPick": "The Black Arrow"
+          },
+          {
+            "id": "hob-6fe017-p1p8",
+            "pack": 1,
+            "pick": 8,
+            "pool": [
+              "Stone-Giant of High Pass",
+              "Glóin the Mighty",
+              "Pinecone Strike",
+              "Glóin the Mighty",
+              "Bifur, Melodic Rider",
+              "Glóin the Mighty",
+              "The Black Arrow"
+            ],
+            "cards": [
+              "Eagle's Rescue",
+              "Esgaroth Garrison",
+              "Ori, Keeper of Songs",
+              "Guardian of the Halls",
+              "Goblin Plate Mail",
+              "Mirkwood Nurturer",
+              "Plains"
+            ],
+            "replayPick": "Mirkwood Nurturer"
+          },
+          {
+            "id": "hob-6fe017-p1p9",
+            "pack": 1,
+            "pick": 9,
+            "pool": [
+              "Stone-Giant of High Pass",
+              "Glóin the Mighty",
+              "Pinecone Strike",
+              "Glóin the Mighty",
+              "Bifur, Melodic Rider",
+              "Glóin the Mighty",
+              "The Black Arrow",
+              "Mirkwood Nurturer"
+            ],
+            "cards": [
+              "Eagle of the Great Shelf",
+              "Confusticate and Bebother",
+              "Uneasy Partings",
+              "Gundabad Opportunist",
+              "Ordinary Bear",
+              "Iron Hills"
+            ],
+            "replayPick": "Uneasy Partings"
+          },
+          {
+            "id": "hob-6fe017-p1p10",
+            "pack": 1,
+            "pick": 10,
+            "pool": [
+              "Stone-Giant of High Pass",
+              "Glóin the Mighty",
+              "Pinecone Strike",
+              "Glóin the Mighty",
+              "Bifur, Melodic Rider",
+              "Glóin the Mighty",
+              "The Black Arrow",
+              "Mirkwood Nurturer",
+              "Uneasy Partings"
+            ],
+            "cards": [
+              "Eagle of the Great Shelf",
+              "Lake-town Lookout",
+              "Plunder the Trollshaws",
+              "Well-Worn Spatula",
+              "Mountain"
+            ],
+            "replayPick": "Plunder the Trollshaws"
+          },
+          {
+            "id": "hob-6fe017-p1p11",
+            "pack": 1,
+            "pick": 11,
+            "pool": [
+              "Stone-Giant of High Pass",
+              "Glóin the Mighty",
+              "Pinecone Strike",
+              "Glóin the Mighty",
+              "Bifur, Melodic Rider",
+              "Glóin the Mighty",
+              "The Black Arrow",
+              "Mirkwood Nurturer",
+              "Uneasy Partings",
+              "Plunder the Trollshaws"
+            ],
+            "cards": [
+              "Lake-town Lookout",
+              "Elvenking's Harper",
+              "Mirkwood Meditator",
+              "Forest"
+            ],
+            "replayPick": "Mirkwood Meditator"
+          },
+          {
+            "id": "hob-6fe017-p1p12",
+            "pack": 1,
+            "pick": 12,
+            "pool": [
+              "Stone-Giant of High Pass",
+              "Glóin the Mighty",
+              "Pinecone Strike",
+              "Glóin the Mighty",
+              "Bifur, Melodic Rider",
+              "Glóin the Mighty",
+              "The Black Arrow",
+              "Mirkwood Nurturer",
+              "Uneasy Partings",
+              "Plunder the Trollshaws",
+              "Mirkwood Meditator"
+            ],
+            "cards": [
+              "Ravenhill Flock",
+              "Moment of Glory",
+              "Uneasy Partings"
+            ],
+            "replayPick": "Uneasy Partings"
+          },
+          {
+            "id": "hob-6fe017-p2p1",
+            "pack": 2,
+            "pick": 1,
+            "pool": [
+              "Stone-Giant of High Pass",
+              "Glóin the Mighty",
+              "Pinecone Strike",
+              "Glóin the Mighty",
+              "Bifur, Melodic Rider",
+              "Glóin the Mighty",
+              "The Black Arrow",
+              "Mirkwood Nurturer",
+              "Uneasy Partings",
+              "Plunder the Trollshaws",
+              "Mirkwood Meditator",
+              "Uneasy Partings",
+              "Well-Worn Spatula",
+              "Eagle's Rescue"
+            ],
+            "cards": [
+              "Smaug, Wicked Worm",
+              "Thranduil, the Elvenking",
+              "Elven Raft-Steerer",
+              "Gnashing of Teeth",
+              "The Black Arrow",
+              "Bifur, Melodic Rider",
+              "Mirkwood Meditator",
+              "Crude Bent Blade",
+              "Rage into the Valley",
+              "Dori, Bearer of Friends",
+              "Guardian of the Halls",
+              "Well-Worn Spatula",
+              "Nori, Teller of Tales",
+              "Lake-town"
+            ],
+            "replayPick": "Smaug, Wicked Worm"
+          },
+          {
+            "id": "hob-6fe017-p2p2",
+            "pack": 2,
+            "pick": 2,
+            "pool": [
+              "Stone-Giant of High Pass",
+              "Glóin the Mighty",
+              "Pinecone Strike",
+              "Glóin the Mighty",
+              "Bifur, Melodic Rider",
+              "Glóin the Mighty",
+              "The Black Arrow",
+              "Mirkwood Nurturer",
+              "Uneasy Partings",
+              "Plunder the Trollshaws",
+              "Mirkwood Meditator",
+              "Uneasy Partings",
+              "Well-Worn Spatula",
+              "Eagle's Rescue",
+              "Smaug, Wicked Worm"
+            ],
+            "cards": [
+              "The Master of Lake-town",
+              "Dáin, Lord of the Iron Hills",
+              "Desolation Prowler",
+              "Old Fat Spider",
+              "Vow to Erebor",
+              "Enchanted River's Grasp",
+              "Lakeshore Apothecary",
+              "Reverent Howl",
+              "Pinecone Strike",
+              "Little Bear",
+              "Wood Elves",
+              "Goblin Plate Mail",
+              "Swamp"
+            ],
+            "replayPick": "Pinecone Strike"
+          },
+          {
+            "id": "hob-6fe017-p2p3",
+            "pack": 2,
+            "pick": 3,
+            "pool": [
+              "Stone-Giant of High Pass",
+              "Glóin the Mighty",
+              "Pinecone Strike",
+              "Glóin the Mighty",
+              "Bifur, Melodic Rider",
+              "Glóin the Mighty",
+              "The Black Arrow",
+              "Mirkwood Nurturer",
+              "Uneasy Partings",
+              "Plunder the Trollshaws",
+              "Mirkwood Meditator",
+              "Uneasy Partings",
+              "Well-Worn Spatula",
+              "Eagle's Rescue",
+              "Smaug, Wicked Worm",
+              "Pinecone Strike"
+            ],
+            "cards": [
+              "Supper for Spiders",
+              "Troll Negotiations",
+              "Dwarven Mattock",
+              "Thorin's Last Stand",
+              "Gandalf, Wandering Wizard",
+              "Great Fierce Bee",
+              "Ravening Warg",
+              "Tidings of War",
+              "Boughside Wanderers",
+              "Warg Tactics",
+              "Long-Bodied Grey Dog",
+              "Goblin-town"
+            ],
+            "replayPick": "Goblin-town"
+          },
+          {
+            "id": "hob-6fe017-p2p4",
+            "pack": 2,
+            "pick": 4,
+            "pool": [
+              "Stone-Giant of High Pass",
+              "Glóin the Mighty",
+              "Pinecone Strike",
+              "Glóin the Mighty",
+              "Bifur, Melodic Rider",
+              "Glóin the Mighty",
+              "The Black Arrow",
+              "Mirkwood Nurturer",
+              "Uneasy Partings",
+              "Plunder the Trollshaws",
+              "Mirkwood Meditator",
+              "Uneasy Partings",
+              "Well-Worn Spatula",
+              "Eagle's Rescue",
+              "Smaug, Wicked Worm",
+              "Pinecone Strike",
+              "Goblin-town"
+            ],
+            "cards": [
+              "Thranduil's Decree",
+              "The Chief Warg",
+              "Dwarven Shortsword",
+              "Esgaroth Garrison",
+              "Long Lake Nuisance",
+              "Mirkwood Meditator",
+              "Rage into the Valley",
+              "Óin the Brave",
+              "Warg Tactics",
+              "Wargling",
+              "Mirkwood"
+            ],
+            "replayPick": "Óin the Brave"
+          },
+          {
+            "id": "hob-6fe017-p2p5",
+            "pack": 2,
+            "pick": 5,
+            "pool": [
+              "Stone-Giant of High Pass",
+              "Glóin the Mighty",
+              "Pinecone Strike",
+              "Glóin the Mighty",
+              "Bifur, Melodic Rider",
+              "Glóin the Mighty",
+              "The Black Arrow",
+              "Mirkwood Nurturer",
+              "Uneasy Partings",
+              "Plunder the Trollshaws",
+              "Mirkwood Meditator",
+              "Uneasy Partings",
+              "Well-Worn Spatula",
+              "Eagle's Rescue",
+              "Smaug, Wicked Worm",
+              "Pinecone Strike",
+              "Goblin-town",
+              "Óin the Brave"
+            ],
+            "cards": [
+              "Ravenhill Flock",
+              "The Chief Warg",
+              "Confusticate and Bebother",
+              "Reverent Howl",
+              "Stir Up Trouble",
+              "Smaug's Fury",
+              "Ordinary Bear",
+              "Quarrel",
+              "Patient Instructor",
+              "Plains"
+            ],
+            "replayPick": "Stir Up Trouble"
+          },
+          {
+            "id": "hob-6fe017-p2p6",
+            "pack": 2,
+            "pick": 6,
+            "pool": [
+              "Stone-Giant of High Pass",
+              "Glóin the Mighty",
+              "Pinecone Strike",
+              "Glóin the Mighty",
+              "Bifur, Melodic Rider",
+              "Glóin the Mighty",
+              "The Black Arrow",
+              "Mirkwood Nurturer",
+              "Uneasy Partings",
+              "Plunder the Trollshaws",
+              "Mirkwood Meditator",
+              "Uneasy Partings",
+              "Well-Worn Spatula",
+              "Eagle's Rescue",
+              "Smaug, Wicked Worm",
+              "Pinecone Strike",
+              "Goblin-town",
+              "Óin the Brave",
+              "Stir Up Trouble"
+            ],
+            "cards": [
+              "Bilbo, Luckwearer",
+              "Dwarven Mattock",
+              "Velvetwing Butterflies",
+              "Confusticate and Bebother",
+              "Gandalf, Wandering Wizard",
+              "Front Porch Sentries",
+              "Warg Tactics",
+              "Wood Elves",
+              "Elvenking's Halls"
+            ],
+            "replayPick": "Bilbo, Luckwearer"
+          }
+        ]
+      },
       "cards": [
         {
           "id": "hob-1",
@@ -54,10 +580,10 @@ window.LIMITED_PREP_DATA = {
           "trainingImage": "assets/cards-large/103382.jpg",
           "stats": {
             "inHandWinRate": 64.1,
-            "inHandGames": 11136,
-            "openingHandWinRate": 62.8,
-            "openingHandGames": 4394,
-            "avgLastOffered": 1.99
+            "inHandGames": 16675,
+            "openingHandWinRate": 63.4,
+            "openingHandGames": 6570,
+            "avgLastOffered": 1.97
           }
         },
         {
@@ -70,11 +596,11 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103397.jpg",
           "trainingImage": "assets/cards-large/103397.jpg",
           "stats": {
-            "inHandWinRate": 62.5,
-            "inHandGames": 11335,
-            "openingHandWinRate": 59.4,
-            "openingHandGames": 4375,
-            "avgLastOffered": 1.72
+            "inHandWinRate": 62.3,
+            "inHandGames": 17035,
+            "openingHandWinRate": 59.3,
+            "openingHandGames": 6549,
+            "avgLastOffered": 1.76
           }
         },
         {
@@ -82,33 +608,33 @@ window.LIMITED_PREP_DATA = {
           "rank": 3,
           "tier": "A+",
           "band": "top",
-          "name": "Smaug the Magnificent",
-          "color": "R",
-          "image": "assets/cards/103489.jpg",
-          "trainingImage": "assets/cards-large/103489.jpg",
-          "stats": {
-            "inHandWinRate": 61.7,
-            "inHandGames": 5244,
-            "openingHandWinRate": 60.6,
-            "openingHandGames": 2220,
-            "avgLastOffered": 1.36
-          }
-        },
-        {
-          "id": "hob-4",
-          "rank": 4,
-          "tier": "A+",
-          "band": "top",
           "name": "Beorn the Fierce",
           "color": "G",
           "image": "assets/cards/103499.jpg",
           "trainingImage": "assets/cards-large/103499.jpg",
           "stats": {
-            "inHandWinRate": 61.7,
-            "inHandGames": 5044,
-            "openingHandWinRate": 58.4,
-            "openingHandGames": 2055,
-            "avgLastOffered": 1.56
+            "inHandWinRate": 62.2,
+            "inHandGames": 7403,
+            "openingHandWinRate": 59.9,
+            "openingHandGames": 3038,
+            "avgLastOffered": 1.58
+          }
+        },
+        {
+          "id": "hob-4",
+          "rank": 4,
+          "tier": "A",
+          "band": "top",
+          "name": "Smaug the Magnificent",
+          "color": "R",
+          "image": "assets/cards/103489.jpg",
+          "trainingImage": "assets/cards-large/103489.jpg",
+          "stats": {
+            "inHandWinRate": 61.2,
+            "inHandGames": 8151,
+            "openingHandWinRate": 60.1,
+            "openingHandGames": 3414,
+            "avgLastOffered": 1.42
           }
         },
         {
@@ -121,11 +647,11 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103444.jpg",
           "trainingImage": "assets/cards-large/103444.jpg",
           "stats": {
-            "inHandWinRate": 61.2,
-            "inHandGames": 5585,
-            "openingHandWinRate": 65.9,
-            "openingHandGames": 2391,
-            "avgLastOffered": 1.55
+            "inHandWinRate": 61,
+            "inHandGames": 8446,
+            "openingHandWinRate": 65.6,
+            "openingHandGames": 3626,
+            "avgLastOffered": 1.58
           }
         },
         {
@@ -133,55 +659,21 @@ window.LIMITED_PREP_DATA = {
           "rank": 6,
           "tier": "A",
           "band": "top",
-          "name": "Chief Warg's Company",
-          "color": "M",
-          "image": "assets/cards/103531.jpg",
-          "trainingImage": "assets/cards-large/103531.jpg",
-          "stats": {
-            "inHandWinRate": 60.5,
-            "inHandGames": 9918,
-            "openingHandWinRate": 63,
-            "openingHandGames": 4475,
-            "avgLastOffered": 1.85
-          }
-        },
-        {
-          "id": "hob-7",
-          "rank": 7,
-          "tier": "A",
-          "band": "top",
           "name": "Thorin, Mountain-king",
           "color": "R",
           "image": "assets/cards/103493.jpg",
           "trainingImage": "assets/cards-large/103493.jpg",
           "stats": {
-            "inHandWinRate": 60.7,
-            "inHandGames": 5453,
-            "openingHandWinRate": 60.6,
-            "openingHandGames": 2160,
-            "avgLastOffered": 1.79
+            "inHandWinRate": 60.6,
+            "inHandGames": 7891,
+            "openingHandWinRate": 59.9,
+            "openingHandGames": 3130,
+            "avgLastOffered": 1.81
           }
         },
         {
-          "id": "hob-8",
-          "rank": 8,
-          "tier": "A",
-          "band": "top",
-          "name": "Kíli the Resourceful",
-          "color": "W",
-          "image": "assets/cards/103385.jpg",
-          "trainingImage": "assets/cards-large/103385.jpg",
-          "stats": {
-            "inHandWinRate": 60.3,
-            "inHandGames": 10063,
-            "openingHandWinRate": 64.4,
-            "openingHandGames": 4335,
-            "avgLastOffered": 2.39
-          }
-        },
-        {
-          "id": "hob-9",
-          "rank": 9,
+          "id": "hob-7",
+          "rank": 7,
           "tier": "A-",
           "band": "top",
           "name": "Bard's Company",
@@ -189,11 +681,45 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103526.jpg",
           "trainingImage": "assets/cards-large/103526.jpg",
           "stats": {
-            "inHandWinRate": 60.3,
-            "inHandGames": 10205,
-            "openingHandWinRate": 59.4,
-            "openingHandGames": 3627,
-            "avgLastOffered": 2.57
+            "inHandWinRate": 60.5,
+            "inHandGames": 15549,
+            "openingHandWinRate": 59.3,
+            "openingHandGames": 5528,
+            "avgLastOffered": 2.53
+          }
+        },
+        {
+          "id": "hob-8",
+          "rank": 8,
+          "tier": "A-",
+          "band": "top",
+          "name": "Chief Warg's Company",
+          "color": "M",
+          "image": "assets/cards/103531.jpg",
+          "trainingImage": "assets/cards-large/103531.jpg",
+          "stats": {
+            "inHandWinRate": 60.4,
+            "inHandGames": 14654,
+            "openingHandWinRate": 63.3,
+            "openingHandGames": 6526,
+            "avgLastOffered": 1.87
+          }
+        },
+        {
+          "id": "hob-9",
+          "rank": 9,
+          "tier": "A-",
+          "band": "top",
+          "name": "Kíli the Resourceful",
+          "color": "W",
+          "image": "assets/cards/103385.jpg",
+          "trainingImage": "assets/cards-large/103385.jpg",
+          "stats": {
+            "inHandWinRate": 59.9,
+            "inHandGames": 15082,
+            "openingHandWinRate": 63.6,
+            "openingHandGames": 6468,
+            "avgLastOffered": 2.35
           }
         },
         {
@@ -206,11 +732,11 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103467.jpg",
           "trainingImage": "assets/cards-large/103467.jpg",
           "stats": {
-            "inHandWinRate": 60,
-            "inHandGames": 11653,
-            "openingHandWinRate": 61.1,
-            "openingHandGames": 4955,
-            "avgLastOffered": 2.02
+            "inHandWinRate": 59.9,
+            "inHandGames": 17197,
+            "openingHandWinRate": 60.9,
+            "openingHandGames": 7302,
+            "avgLastOffered": 1.95
           }
         },
         {
@@ -218,16 +744,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 11,
           "tier": "A-",
           "band": "top",
-          "name": "Dáin's Company",
+          "name": "Thranduil's Company",
           "color": "M",
-          "image": "assets/cards/103532.jpg",
-          "trainingImage": "assets/cards-large/103532.jpg",
+          "image": "assets/cards/103549.jpg",
+          "trainingImage": "assets/cards-large/103549.jpg",
           "stats": {
-            "inHandWinRate": 59.5,
-            "inHandGames": 9156,
-            "openingHandWinRate": 61.4,
-            "openingHandGames": 4067,
-            "avgLastOffered": 2.94
+            "inHandWinRate": 59.2,
+            "inHandGames": 12689,
+            "openingHandWinRate": 59.1,
+            "openingHandGames": 4986,
+            "avgLastOffered": 2.63
           }
         },
         {
@@ -240,11 +766,11 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103438.jpg",
           "trainingImage": "assets/cards-large/103438.jpg",
           "stats": {
-            "inHandWinRate": 59.5,
-            "inHandGames": 32615,
-            "openingHandWinRate": 62.6,
-            "openingHandGames": 15383,
-            "avgLastOffered": 2.48
+            "inHandWinRate": 59.1,
+            "inHandGames": 48478,
+            "openingHandWinRate": 62.4,
+            "openingHandGames": 22624,
+            "avgLastOffered": 2.33
           }
         },
         {
@@ -252,16 +778,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 13,
           "tier": "A-",
           "band": "top",
-          "name": "Celebrate the Mountain-king",
-          "color": "W",
-          "image": "assets/cards/103375.jpg",
-          "trainingImage": "assets/cards-large/103375.jpg",
+          "name": "Head of the Hunt",
+          "color": "B",
+          "image": "assets/cards/103451.jpg",
+          "trainingImage": "assets/cards-large/103451.jpg",
           "stats": {
-            "inHandWinRate": 59,
-            "inHandGames": 30633,
-            "openingHandWinRate": 56,
-            "openingHandGames": 12214,
-            "avgLastOffered": 2.72
+            "inHandWinRate": 59.1,
+            "inHandGames": 16237,
+            "openingHandWinRate": 59.5,
+            "openingHandGames": 6866,
+            "avgLastOffered": 1.61
           }
         },
         {
@@ -269,16 +795,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 14,
           "tier": "A-",
           "band": "top",
-          "name": "Head of the Hunt",
-          "color": "B",
-          "image": "assets/cards/103451.jpg",
-          "trainingImage": "assets/cards-large/103451.jpg",
+          "name": "Dáin's Company",
+          "color": "M",
+          "image": "assets/cards/103532.jpg",
+          "trainingImage": "assets/cards-large/103532.jpg",
           "stats": {
             "inHandWinRate": 58.9,
-            "inHandGames": 11001,
-            "openingHandWinRate": 59,
-            "openingHandGames": 4698,
-            "avgLastOffered": 1.6
+            "inHandGames": 13554,
+            "openingHandWinRate": 60.5,
+            "openingHandGames": 6004,
+            "avgLastOffered": 3.01
           }
         },
         {
@@ -286,55 +812,38 @@ window.LIMITED_PREP_DATA = {
           "rank": 15,
           "tier": "A-",
           "band": "top",
-          "name": "Thranduil's Company",
-          "color": "M",
-          "image": "assets/cards/103549.jpg",
-          "trainingImage": "assets/cards-large/103549.jpg",
+          "name": "Celebrate the Mountain-king",
+          "color": "W",
+          "image": "assets/cards/103375.jpg",
+          "trainingImage": "assets/cards-large/103375.jpg",
           "stats": {
             "inHandWinRate": 58.8,
-            "inHandGames": 8461,
-            "openingHandWinRate": 59.7,
-            "openingHandGames": 3359,
-            "avgLastOffered": 2.63
+            "inHandGames": 45865,
+            "openingHandWinRate": 56.1,
+            "openingHandGames": 18251,
+            "avgLastOffered": 2.66
           }
         },
         {
           "id": "hob-16",
           "rank": 16,
-          "tier": "A-",
-          "band": "top",
+          "tier": "B+",
+          "band": "strong",
           "name": "Rhovanion Rampager",
           "color": "B",
           "image": "assets/cards/103458.jpg",
           "trainingImage": "assets/cards-large/103458.jpg",
           "stats": {
             "inHandWinRate": 58.7,
-            "inHandGames": 10909,
-            "openingHandWinRate": 60.3,
-            "openingHandGames": 4719,
-            "avgLastOffered": 1.77
+            "inHandGames": 16403,
+            "openingHandWinRate": 60.4,
+            "openingHandGames": 7161,
+            "avgLastOffered": 1.75
           }
         },
         {
           "id": "hob-17",
           "rank": 17,
-          "tier": "B+",
-          "band": "strong",
-          "name": "Bothersome Noisemaker",
-          "color": "R",
-          "image": "assets/cards/103465.jpg",
-          "trainingImage": "assets/cards-large/103465.jpg",
-          "stats": {
-            "inHandWinRate": 58.4,
-            "inHandGames": 32842,
-            "openingHandWinRate": 60.7,
-            "openingHandGames": 15161,
-            "avgLastOffered": 2.79
-          }
-        },
-        {
-          "id": "hob-18",
-          "rank": 18,
           "tier": "B+",
           "band": "strong",
           "name": "Great Gilded Boat",
@@ -343,15 +852,15 @@ window.LIMITED_PREP_DATA = {
           "trainingImage": "assets/cards-large/103414.jpg",
           "stats": {
             "inHandWinRate": 58.4,
-            "inHandGames": 10911,
+            "inHandGames": 16479,
             "openingHandWinRate": 59.1,
-            "openingHandGames": 4103,
-            "avgLastOffered": 2.57
+            "openingHandGames": 6172,
+            "avgLastOffered": 2.35
           }
         },
         {
-          "id": "hob-19",
-          "rank": 19,
+          "id": "hob-18",
+          "rank": 18,
           "tier": "B+",
           "band": "strong",
           "name": "Crude Bent Blade",
@@ -359,11 +868,28 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103437.jpg",
           "trainingImage": "assets/cards-large/103437.jpg",
           "stats": {
-            "inHandWinRate": 58.3,
-            "inHandGames": 67692,
-            "openingHandWinRate": 58.1,
-            "openingHandGames": 31720,
-            "avgLastOffered": 3.13
+            "inHandWinRate": 58.1,
+            "inHandGames": 100239,
+            "openingHandWinRate": 57.9,
+            "openingHandGames": 46732,
+            "avgLastOffered": 2.66
+          }
+        },
+        {
+          "id": "hob-19",
+          "rank": 19,
+          "tier": "B+",
+          "band": "strong",
+          "name": "Bothersome Noisemaker",
+          "color": "R",
+          "image": "assets/cards/103465.jpg",
+          "trainingImage": "assets/cards-large/103465.jpg",
+          "stats": {
+            "inHandWinRate": 58.1,
+            "inHandGames": 48231,
+            "openingHandWinRate": 60.7,
+            "openingHandGames": 22048,
+            "avgLastOffered": 2.69
           }
         },
         {
@@ -376,11 +902,11 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103466.jpg",
           "trainingImage": "assets/cards-large/103466.jpg",
           "stats": {
-            "inHandWinRate": 58,
-            "inHandGames": 31771,
-            "openingHandWinRate": 57,
-            "openingHandGames": 13589,
-            "avgLastOffered": 2.68
+            "inHandWinRate": 57.9,
+            "inHandGames": 47533,
+            "openingHandWinRate": 56.5,
+            "openingHandGames": 20244,
+            "avgLastOffered": 2.61
           }
         },
         {
@@ -393,84 +919,33 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103509.jpg",
           "trainingImage": "assets/cards-large/103509.jpg",
           "stats": {
-            "inHandWinRate": 57.8,
-            "inHandGames": 27051,
-            "openingHandWinRate": 57.3,
-            "openingHandGames": 12220,
-            "avgLastOffered": 3.26
+            "inHandWinRate": 57.7,
+            "inHandGames": 39671,
+            "openingHandWinRate": 57.4,
+            "openingHandGames": 17938,
+            "avgLastOffered": 3.21
           }
         },
         {
           "id": "hob-22",
           "rank": 22,
-          "tier": "B+",
-          "band": "strong",
-          "name": "The Arkenstone",
-          "color": "W",
-          "image": "assets/cards/103551.jpg",
-          "trainingImage": "assets/cards-large/103551.jpg",
-          "stats": {
-            "inHandWinRate": 57.2,
-            "inHandGames": 6025,
-            "openingHandWinRate": 56.4,
-            "openingHandGames": 2363,
-            "avgLastOffered": 1.18
-          }
-        },
-        {
-          "id": "hob-23",
-          "rank": 23,
-          "tier": "B+",
+          "tier": "B",
           "band": "strong",
           "name": "Dancing from Dark to Dawn",
           "color": "G",
           "image": "assets/cards/103503.jpg",
           "trainingImage": "assets/cards-large/103503.jpg",
           "stats": {
-            "inHandWinRate": 57.5,
-            "inHandGames": 4467,
-            "openingHandWinRate": 56.6,
-            "openingHandGames": 1820,
-            "avgLastOffered": 1.64
-          }
-        },
-        {
-          "id": "hob-24",
-          "rank": 24,
-          "tier": "B",
-          "band": "strong",
-          "name": "Gollum, Silent Slinker",
-          "color": "B",
-          "image": "assets/cards/103445.jpg",
-          "trainingImage": "assets/cards-large/103445.jpg",
-          "stats": {
             "inHandWinRate": 57.3,
-            "inHandGames": 57930,
-            "openingHandWinRate": 56.9,
-            "openingHandGames": 25735,
-            "avgLastOffered": 4.92
+            "inHandGames": 6790,
+            "openingHandWinRate": 57,
+            "openingHandGames": 2780,
+            "avgLastOffered": 1.75
           }
         },
         {
-          "id": "hob-25",
-          "rank": 25,
-          "tier": "B",
-          "band": "strong",
-          "name": "Bejeweled Warg",
-          "color": "G",
-          "image": "assets/cards/103496.jpg",
-          "trainingImage": "assets/cards-large/103496.jpg",
-          "stats": {
-            "inHandWinRate": 57.3,
-            "inHandGames": 9349,
-            "openingHandWinRate": 62.3,
-            "openingHandGames": 4239,
-            "avgLastOffered": 2.05
-          }
-        },
-        {
-          "id": "hob-26",
-          "rank": 26,
+          "id": "hob-23",
+          "rank": 23,
           "tier": "B",
           "band": "strong",
           "name": "Stone by Sunlight",
@@ -478,11 +953,62 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103395.jpg",
           "trainingImage": "assets/cards-large/103395.jpg",
           "stats": {
+            "inHandWinRate": 57.3,
+            "inHandGames": 44967,
+            "openingHandWinRate": 54.6,
+            "openingHandGames": 18061,
+            "avgLastOffered": 3.05
+          }
+        },
+        {
+          "id": "hob-24",
+          "rank": 24,
+          "tier": "B",
+          "band": "strong",
+          "name": "Bejeweled Warg",
+          "color": "G",
+          "image": "assets/cards/103496.jpg",
+          "trainingImage": "assets/cards-large/103496.jpg",
+          "stats": {
+            "inHandWinRate": 57.2,
+            "inHandGames": 13933,
+            "openingHandWinRate": 62.1,
+            "openingHandGames": 6341,
+            "avgLastOffered": 2.19
+          }
+        },
+        {
+          "id": "hob-25",
+          "rank": 25,
+          "tier": "B",
+          "band": "strong",
+          "name": "The Arkenstone",
+          "color": "W",
+          "image": "assets/cards/103551.jpg",
+          "trainingImage": "assets/cards-large/103551.jpg",
+          "stats": {
             "inHandWinRate": 57.1,
-            "inHandGames": 29864,
-            "openingHandWinRate": 54.3,
-            "openingHandGames": 12049,
-            "avgLastOffered": 3.13
+            "inHandGames": 8842,
+            "openingHandWinRate": 56.3,
+            "openingHandGames": 3504,
+            "avgLastOffered": 1.17
+          }
+        },
+        {
+          "id": "hob-26",
+          "rank": 26,
+          "tier": "B",
+          "band": "strong",
+          "name": "Gollum, Silent Slinker",
+          "color": "B",
+          "image": "assets/cards/103445.jpg",
+          "trainingImage": "assets/cards-large/103445.jpg",
+          "stats": {
+            "inHandWinRate": 57.1,
+            "inHandGames": 89284,
+            "openingHandWinRate": 56.7,
+            "openingHandGames": 39605,
+            "avgLastOffered": 4.5
           }
         },
         {
@@ -490,16 +1016,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 27,
           "tier": "B",
           "band": "strong",
-          "name": "Nighthowl Pursuer",
-          "color": "B",
-          "image": "assets/cards/103454.jpg",
-          "trainingImage": "assets/cards-large/103454.jpg",
+          "name": "Gandalf, Spark Starter",
+          "color": "R",
+          "image": "assets/cards/103474.jpg",
+          "trainingImage": "assets/cards-large/103474.jpg",
           "stats": {
             "inHandWinRate": 56.9,
-            "inHandGames": 26543,
-            "openingHandWinRate": 60.1,
-            "openingHandGames": 12392,
-            "avgLastOffered": 3.66
+            "inHandGames": 38820,
+            "openingHandWinRate": 54.6,
+            "openingHandGames": 15230,
+            "avgLastOffered": 4.03
           }
         },
         {
@@ -513,10 +1039,10 @@ window.LIMITED_PREP_DATA = {
           "trainingImage": "assets/cards-large/103510.jpg",
           "stats": {
             "inHandWinRate": 56.8,
-            "inHandGames": 24703,
+            "inHandGames": 37099,
             "openingHandWinRate": 59.3,
-            "openingHandGames": 11910,
-            "avgLastOffered": 3.63
+            "openingHandGames": 17940,
+            "avgLastOffered": 3.7
           }
         },
         {
@@ -524,16 +1050,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 29,
           "tier": "B",
           "band": "strong",
-          "name": "Pinecone Strike",
+          "name": "Stone-Giant of High Pass",
           "color": "R",
-          "image": "assets/cards/103485.jpg",
-          "trainingImage": "assets/cards-large/103485.jpg",
+          "image": "assets/cards/103492.jpg",
+          "trainingImage": "assets/cards-large/103492.jpg",
           "stats": {
             "inHandWinRate": 56.7,
-            "inHandGames": 68353,
-            "openingHandWinRate": 56.7,
-            "openingHandGames": 32371,
-            "avgLastOffered": 3.25
+            "inHandGames": 15099,
+            "openingHandWinRate": 54.6,
+            "openingHandGames": 5812,
+            "avgLastOffered": 2.5
           }
         },
         {
@@ -541,16 +1067,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 30,
           "tier": "B",
           "band": "strong",
-          "name": "Down, Down to Goblin-town",
-          "color": "B",
-          "image": "assets/cards/103439.jpg",
-          "trainingImage": "assets/cards-large/103439.jpg",
+          "name": "Dwalin, Weaponmaster",
+          "color": "M",
+          "image": "assets/cards/103534.jpg",
+          "trainingImage": "assets/cards-large/103534.jpg",
           "stats": {
-            "inHandWinRate": 56.9,
-            "inHandGames": 31573,
-            "openingHandWinRate": 57.8,
-            "openingHandGames": 14275,
-            "avgLastOffered": 3.1
+            "inHandWinRate": 56.6,
+            "inHandGames": 15796,
+            "openingHandWinRate": 56.4,
+            "openingHandGames": 6920,
+            "avgLastOffered": 2.31
           }
         },
         {
@@ -558,16 +1084,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 31,
           "tier": "B",
           "band": "strong",
-          "name": "Stone-Giant of High Pass",
-          "color": "R",
-          "image": "assets/cards/103492.jpg",
-          "trainingImage": "assets/cards-large/103492.jpg",
+          "name": "Nighthowl Pursuer",
+          "color": "B",
+          "image": "assets/cards/103454.jpg",
+          "trainingImage": "assets/cards-large/103454.jpg",
           "stats": {
-            "inHandWinRate": 56.9,
-            "inHandGames": 10012,
-            "openingHandWinRate": 54.8,
-            "openingHandGames": 3875,
-            "avgLastOffered": 2.43
+            "inHandWinRate": 56.6,
+            "inHandGames": 40694,
+            "openingHandWinRate": 59.7,
+            "openingHandGames": 19025,
+            "avgLastOffered": 3.45
           }
         },
         {
@@ -575,16 +1101,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 32,
           "tier": "B",
           "band": "strong",
-          "name": "Gandalf, Spark Starter",
+          "name": "Pinecone Strike",
           "color": "R",
-          "image": "assets/cards/103474.jpg",
-          "trainingImage": "assets/cards-large/103474.jpg",
+          "image": "assets/cards/103485.jpg",
+          "trainingImage": "assets/cards-large/103485.jpg",
           "stats": {
-            "inHandWinRate": 56.7,
-            "inHandGames": 25399,
-            "openingHandWinRate": 54.3,
-            "openingHandGames": 9979,
-            "avgLastOffered": 4.13
+            "inHandWinRate": 56.5,
+            "inHandGames": 101119,
+            "openingHandWinRate": 56.3,
+            "openingHandGames": 47702,
+            "avgLastOffered": 3.21
           }
         },
         {
@@ -597,33 +1123,16 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103390.jpg",
           "trainingImage": "assets/cards-large/103390.jpg",
           "stats": {
-            "inHandWinRate": 56.3,
-            "inHandGames": 29813,
-            "openingHandWinRate": 55.4,
-            "openingHandGames": 12343,
-            "avgLastOffered": 3.33
+            "inHandWinRate": 56.5,
+            "inHandGames": 45236,
+            "openingHandWinRate": 55.7,
+            "openingHandGames": 18715,
+            "avgLastOffered": 3.14
           }
         },
         {
           "id": "hob-34",
           "rank": 34,
-          "tier": "B",
-          "band": "strong",
-          "name": "Dwalin, Weaponmaster",
-          "color": "M",
-          "image": "assets/cards/103534.jpg",
-          "trainingImage": "assets/cards-large/103534.jpg",
-          "stats": {
-            "inHandWinRate": 56.4,
-            "inHandGames": 10662,
-            "openingHandWinRate": 55.9,
-            "openingHandGames": 4679,
-            "avgLastOffered": 2.35
-          }
-        },
-        {
-          "id": "hob-35",
-          "rank": 35,
           "tier": "B",
           "band": "strong",
           "name": "The Sackville-Bagginses",
@@ -632,10 +1141,27 @@ window.LIMITED_PREP_DATA = {
           "trainingImage": "assets/cards-large/103459.jpg",
           "stats": {
             "inHandWinRate": 56.4,
-            "inHandGames": 11057,
-            "openingHandWinRate": 55.2,
-            "openingHandGames": 4667,
-            "avgLastOffered": 2.58
+            "inHandGames": 16285,
+            "openingHandWinRate": 54.9,
+            "openingHandGames": 6890,
+            "avgLastOffered": 2.71
+          }
+        },
+        {
+          "id": "hob-35",
+          "rank": 35,
+          "tier": "B",
+          "band": "strong",
+          "name": "Down, Down to Goblin-town",
+          "color": "B",
+          "image": "assets/cards/103439.jpg",
+          "trainingImage": "assets/cards-large/103439.jpg",
+          "stats": {
+            "inHandWinRate": 56.4,
+            "inHandGames": 46997,
+            "openingHandWinRate": 57.3,
+            "openingHandGames": 21116,
+            "avgLastOffered": 2.94
           }
         },
         {
@@ -643,16 +1169,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 36,
           "tier": "B",
           "band": "strong",
-          "name": "Misty Mountains Raider",
+          "name": "Gandalf, Goblins' Bane",
           "color": "R",
-          "image": "assets/cards/103483.jpg",
-          "trainingImage": "assets/cards-large/103483.jpg",
+          "image": "assets/cards/103472.jpg",
+          "trainingImage": "assets/cards-large/103472.jpg",
           "stats": {
-            "inHandWinRate": 56.2,
-            "inHandGames": 30501,
-            "openingHandWinRate": 54.8,
-            "openingHandGames": 12756,
-            "avgLastOffered": 3.14
+            "inHandWinRate": 56.3,
+            "inHandGames": 7428,
+            "openingHandWinRate": 55.6,
+            "openingHandGames": 3161,
+            "avgLastOffered": 2.04
           }
         },
         {
@@ -660,16 +1186,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 37,
           "tier": "B",
           "band": "strong",
-          "name": "Tom, Bert, and William",
-          "color": "M",
-          "image": "assets/cards/103550.jpg",
-          "trainingImage": "assets/cards-large/103550.jpg",
+          "name": "Bilbo, Luckwearer",
+          "color": "U",
+          "image": "assets/cards/103402.jpg",
+          "trainingImage": "assets/cards-large/103402.jpg",
           "stats": {
-            "inHandWinRate": 55.7,
-            "inHandGames": 9479,
-            "openingHandWinRate": 53.7,
-            "openingHandGames": 3996,
-            "avgLastOffered": 2.31
+            "inHandWinRate": 56.1,
+            "inHandGames": 41663,
+            "openingHandWinRate": 54.9,
+            "openingHandGames": 16357,
+            "avgLastOffered": 3.46
           }
         },
         {
@@ -677,33 +1203,33 @@ window.LIMITED_PREP_DATA = {
           "rank": 38,
           "tier": "B",
           "band": "strong",
-          "name": "Bilbo, Luckwearer",
-          "color": "U",
-          "image": "assets/cards/103402.jpg",
-          "trainingImage": "assets/cards-large/103402.jpg",
+          "name": "Misty Mountains Raider",
+          "color": "R",
+          "image": "assets/cards/103483.jpg",
+          "trainingImage": "assets/cards-large/103483.jpg",
           "stats": {
             "inHandWinRate": 55.9,
-            "inHandGames": 27363,
-            "openingHandWinRate": 54.6,
-            "openingHandGames": 10762,
-            "avgLastOffered": 3.61
+            "inHandGames": 45236,
+            "openingHandWinRate": 54.5,
+            "openingHandGames": 18813,
+            "avgLastOffered": 2.99
           }
         },
         {
           "id": "hob-39",
           "rank": 39,
-          "tier": "B-",
+          "tier": "B",
           "band": "strong",
-          "name": "Gandalf, Goblins' Bane",
-          "color": "R",
-          "image": "assets/cards/103472.jpg",
-          "trainingImage": "assets/cards-large/103472.jpg",
+          "name": "Tom, Bert, and William",
+          "color": "M",
+          "image": "assets/cards/103550.jpg",
+          "trainingImage": "assets/cards-large/103550.jpg",
           "stats": {
             "inHandWinRate": 55.8,
-            "inHandGames": 4889,
-            "openingHandWinRate": 54.9,
-            "openingHandGames": 2058,
-            "avgLastOffered": 2.03
+            "inHandGames": 13985,
+            "openingHandWinRate": 53.5,
+            "openingHandGames": 5893,
+            "avgLastOffered": 2.44
           }
         },
         {
@@ -716,11 +1242,11 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103394.jpg",
           "trainingImage": "assets/cards-large/103394.jpg",
           "stats": {
-            "inHandWinRate": 55.5,
-            "inHandGames": 9567,
-            "openingHandWinRate": 51.6,
-            "openingHandGames": 3605,
-            "avgLastOffered": 3.23
+            "inHandWinRate": 55.6,
+            "inHandGames": 14443,
+            "openingHandWinRate": 51.1,
+            "openingHandGames": 5461,
+            "avgLastOffered": 2.54
           }
         },
         {
@@ -733,11 +1259,11 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103546.jpg",
           "trainingImage": "assets/cards-large/103546.jpg",
           "stats": {
-            "inHandWinRate": 55.5,
-            "inHandGames": 24378,
-            "openingHandWinRate": 53.8,
-            "openingHandGames": 10172,
-            "avgLastOffered": 3.27
+            "inHandWinRate": 55.6,
+            "inHandGames": 36439,
+            "openingHandWinRate": 54.1,
+            "openingHandGames": 15183,
+            "avgLastOffered": 3.3
           }
         },
         {
@@ -745,16 +1271,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 42,
           "tier": "B-",
           "band": "strong",
-          "name": "The Great Goblin",
-          "color": "M",
-          "image": "assets/cards/103538.jpg",
-          "trainingImage": "assets/cards-large/103538.jpg",
+          "name": "The Lonely Mountain",
+          "color": "R",
+          "image": "assets/cards/103571.jpg",
+          "trainingImage": "assets/cards-large/103571.jpg",
           "stats": {
-            "inHandWinRate": 55.4,
-            "inHandGames": 10387,
-            "openingHandWinRate": 53.9,
-            "openingHandGames": 4451,
-            "avgLastOffered": 2.09
+            "inHandWinRate": 55.5,
+            "inHandGames": 16456,
+            "openingHandWinRate": 55.8,
+            "openingHandGames": 7093,
+            "avgLastOffered": 2.96
           }
         },
         {
@@ -767,11 +1293,11 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103436.jpg",
           "trainingImage": "assets/cards-large/103436.jpg",
           "stats": {
-            "inHandWinRate": 55.4,
-            "inHandGames": 66445,
-            "openingHandWinRate": 53.3,
-            "openingHandGames": 31082,
-            "avgLastOffered": 2.97
+            "inHandWinRate": 55.3,
+            "inHandGames": 98143,
+            "openingHandWinRate": 53.2,
+            "openingHandGames": 45465,
+            "avgLastOffered": 2.85
           }
         },
         {
@@ -779,16 +1305,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 44,
           "tier": "B-",
           "band": "strong",
-          "name": "Ravening Warg",
-          "color": "B",
-          "image": "assets/cards/103456.jpg",
-          "trainingImage": "assets/cards-large/103456.jpg",
+          "name": "The Eagles Are Coming!",
+          "color": "W",
+          "image": "assets/cards/103380.jpg",
+          "trainingImage": "assets/cards-large/103380.jpg",
           "stats": {
             "inHandWinRate": 55.3,
-            "inHandGames": 55974,
-            "openingHandWinRate": 55.7,
-            "openingHandGames": 27276,
-            "avgLastOffered": 4.73
+            "inHandGames": 15612,
+            "openingHandWinRate": 52.7,
+            "openingHandGames": 5851,
+            "avgLastOffered": 2.15
           }
         },
         {
@@ -796,16 +1322,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 45,
           "tier": "B-",
           "band": "strong",
-          "name": "The Lonely Mountain",
+          "name": "The Misty Mountains Cold",
           "color": "R",
-          "image": "assets/cards/103571.jpg",
-          "trainingImage": "assets/cards-large/103571.jpg",
+          "image": "assets/cards/103482.jpg",
+          "trainingImage": "assets/cards-large/103482.jpg",
           "stats": {
             "inHandWinRate": 55.2,
-            "inHandGames": 10997,
-            "openingHandWinRate": 55.7,
-            "openingHandGames": 4780,
-            "avgLastOffered": 3.02
+            "inHandGames": 15717,
+            "openingHandWinRate": 58.7,
+            "openingHandGames": 6740,
+            "avgLastOffered": 2.67
           }
         },
         {
@@ -813,16 +1339,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 46,
           "tier": "B-",
           "band": "strong",
-          "name": "Goblin Plate Mail",
-          "color": "M",
-          "image": "assets/cards/103537.jpg",
-          "trainingImage": "assets/cards-large/103537.jpg",
+          "name": "The Queen of Dale",
+          "color": "W",
+          "image": "assets/cards/103392.jpg",
+          "trainingImage": "assets/cards-large/103392.jpg",
           "stats": {
-            "inHandWinRate": 55.2,
-            "inHandGames": 68435,
-            "openingHandWinRate": 55.6,
-            "openingHandGames": 32648,
-            "avgLastOffered": 3.93
+            "inHandWinRate": 55.1,
+            "inHandGames": 7092,
+            "openingHandWinRate": 57.3,
+            "openingHandGames": 2830,
+            "avgLastOffered": 2.1
           }
         },
         {
@@ -830,16 +1356,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 47,
           "tier": "B-",
           "band": "strong",
-          "name": "The Queen of Dale",
-          "color": "W",
-          "image": "assets/cards/103392.jpg",
-          "trainingImage": "assets/cards-large/103392.jpg",
+          "name": "Ravening Warg",
+          "color": "B",
+          "image": "assets/cards/103456.jpg",
+          "trainingImage": "assets/cards-large/103456.jpg",
           "stats": {
-            "inHandWinRate": 54.9,
-            "inHandGames": 4759,
-            "openingHandWinRate": 57.7,
-            "openingHandGames": 1880,
-            "avgLastOffered": 2.12
+            "inHandWinRate": 55.1,
+            "inHandGames": 85785,
+            "openingHandWinRate": 55.7,
+            "openingHandGames": 41955,
+            "avgLastOffered": 4.35
           }
         },
         {
@@ -847,16 +1373,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 48,
           "tier": "B-",
           "band": "strong",
-          "name": "Great Ugly-Looking Goblin",
-          "color": "B",
-          "image": "assets/cards/103449.jpg",
-          "trainingImage": "assets/cards-large/103449.jpg",
+          "name": "Dori, Bearer of Friends",
+          "color": "R",
+          "image": "assets/cards/103470.jpg",
+          "trainingImage": "assets/cards-large/103470.jpg",
           "stats": {
-            "inHandWinRate": 55.1,
-            "inHandGames": 29610,
-            "openingHandWinRate": 54.9,
-            "openingHandGames": 13263,
-            "avgLastOffered": 3.45
+            "inHandWinRate": 55,
+            "inHandGames": 87651,
+            "openingHandWinRate": 55.8,
+            "openingHandGames": 39724,
+            "avgLastOffered": 5.13
           }
         },
         {
@@ -864,16 +1390,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 49,
           "tier": "B-",
           "band": "strong",
-          "name": "Stir Up Trouble",
+          "name": "Great Ugly-Looking Goblin",
           "color": "B",
-          "image": "assets/cards/103460.jpg",
-          "trainingImage": "assets/cards-large/103460.jpg",
+          "image": "assets/cards/103449.jpg",
+          "trainingImage": "assets/cards-large/103449.jpg",
           "stats": {
-            "inHandWinRate": 55,
-            "inHandGames": 61983,
-            "openingHandWinRate": 52.7,
-            "openingHandGames": 27928,
-            "avgLastOffered": 4.28
+            "inHandWinRate": 54.9,
+            "inHandGames": 43899,
+            "openingHandWinRate": 54.9,
+            "openingHandGames": 19676,
+            "avgLastOffered": 3.46
           }
         },
         {
@@ -881,16 +1407,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 50,
           "tier": "B-",
           "band": "strong",
-          "name": "Bilbo, Thief in the Night",
-          "color": "U",
-          "image": "assets/cards/103404.jpg",
-          "trainingImage": "assets/cards-large/103404.jpg",
+          "name": "Goblin Plate Mail",
+          "color": "M",
+          "image": "assets/cards/103537.jpg",
+          "trainingImage": "assets/cards-large/103537.jpg",
           "stats": {
             "inHandWinRate": 54.8,
-            "inHandGames": 4368,
-            "openingHandWinRate": 52.7,
-            "openingHandGames": 1583,
-            "avgLastOffered": 2.57
+            "inHandGames": 102205,
+            "openingHandWinRate": 55,
+            "openingHandGames": 48757,
+            "avgLastOffered": 3.7
           }
         },
         {
@@ -898,16 +1424,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 51,
           "tier": "B-",
           "band": "strong",
-          "name": "Large Bear",
+          "name": "The Great Goblin",
           "color": "M",
-          "image": "assets/cards/103539.jpg",
-          "trainingImage": "assets/cards-large/103539.jpg",
+          "image": "assets/cards/103538.jpg",
+          "trainingImage": "assets/cards-large/103538.jpg",
           "stats": {
             "inHandWinRate": 54.8,
-            "inHandGames": 25923,
-            "openingHandWinRate": 52.7,
-            "openingHandGames": 10917,
-            "avgLastOffered": 2.98
+            "inHandGames": 15201,
+            "openingHandWinRate": 53.8,
+            "openingHandGames": 6498,
+            "avgLastOffered": 2.22
           }
         },
         {
@@ -915,16 +1441,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 52,
           "tier": "B-",
           "band": "strong",
-          "name": "Dori, Bearer of Friends",
-          "color": "R",
-          "image": "assets/cards/103470.jpg",
-          "trainingImage": "assets/cards-large/103470.jpg",
+          "name": "Stir Up Trouble",
+          "color": "B",
+          "image": "assets/cards/103460.jpg",
+          "trainingImage": "assets/cards-large/103460.jpg",
           "stats": {
             "inHandWinRate": 54.8,
-            "inHandGames": 57662,
-            "openingHandWinRate": 55.9,
-            "openingHandGames": 26240,
-            "avgLastOffered": 5.34
+            "inHandGames": 92193,
+            "openingHandWinRate": 52.3,
+            "openingHandGames": 41177,
+            "avgLastOffered": 4.17
           }
         },
         {
@@ -932,16 +1458,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 53,
           "tier": "B-",
           "band": "strong",
-          "name": "The Misty Mountains Cold",
-          "color": "R",
-          "image": "assets/cards/103482.jpg",
-          "trainingImage": "assets/cards-large/103482.jpg",
+          "name": "Iron Hills Blacksmith",
+          "color": "W",
+          "image": "assets/cards/103384.jpg",
+          "trainingImage": "assets/cards-large/103384.jpg",
           "stats": {
-            "inHandWinRate": 54.8,
-            "inHandGames": 10388,
-            "openingHandWinRate": 58.4,
-            "openingHandGames": 4434,
-            "avgLastOffered": 2.62
+            "inHandWinRate": 54.7,
+            "inHandGames": 41808,
+            "openingHandWinRate": 55.7,
+            "openingHandGames": 18616,
+            "avgLastOffered": 3.39
           }
         },
         {
@@ -949,16 +1475,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 54,
           "tier": "B-",
           "band": "strong",
-          "name": "Gollum the Abandoned",
-          "color": "B",
-          "image": "assets/cards/103447.jpg",
-          "trainingImage": "assets/cards-large/103447.jpg",
+          "name": "Large Bear",
+          "color": "M",
+          "image": "assets/cards/103539.jpg",
+          "trainingImage": "assets/cards-large/103539.jpg",
           "stats": {
             "inHandWinRate": 54.7,
-            "inHandGames": 26363,
-            "openingHandWinRate": 54.6,
-            "openingHandGames": 11528,
-            "avgLastOffered": 4.42
+            "inHandGames": 38535,
+            "openingHandWinRate": 52.5,
+            "openingHandGames": 16267,
+            "avgLastOffered": 3.01
           }
         },
         {
@@ -966,16 +1492,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 55,
           "tier": "B-",
           "band": "strong",
-          "name": "The Eagles Are Coming!",
-          "color": "W",
-          "image": "assets/cards/103380.jpg",
-          "trainingImage": "assets/cards-large/103380.jpg",
+          "name": "Gollum the Abandoned",
+          "color": "B",
+          "image": "assets/cards/103447.jpg",
+          "trainingImage": "assets/cards-large/103447.jpg",
           "stats": {
             "inHandWinRate": 54.6,
-            "inHandGames": 10345,
-            "openingHandWinRate": 52.6,
-            "openingHandGames": 3910,
-            "avgLastOffered": 2.13
+            "inHandGames": 40557,
+            "openingHandWinRate": 54.2,
+            "openingHandGames": 17784,
+            "avgLastOffered": 4.21
           }
         },
         {
@@ -983,21 +1509,38 @@ window.LIMITED_PREP_DATA = {
           "rank": 56,
           "tier": "C+",
           "band": "playable",
-          "name": "Iron Hills Blacksmith",
-          "color": "W",
-          "image": "assets/cards/103384.jpg",
-          "trainingImage": "assets/cards-large/103384.jpg",
+          "name": "Patient Instructor",
+          "color": "M",
+          "image": "assets/cards/103542.jpg",
+          "trainingImage": "assets/cards-large/103542.jpg",
           "stats": {
-            "inHandWinRate": 54.5,
-            "inHandGames": 27761,
-            "openingHandWinRate": 55.6,
-            "openingHandGames": 12396,
-            "avgLastOffered": 3.4
+            "inHandWinRate": 54.6,
+            "inHandGames": 66154,
+            "openingHandWinRate": 53.3,
+            "openingHandGames": 30323,
+            "avgLastOffered": 5.83
           }
         },
         {
           "id": "hob-57",
           "rank": 57,
+          "tier": "C+",
+          "band": "playable",
+          "name": "Bilbo, Thief in the Night",
+          "color": "U",
+          "image": "assets/cards/103404.jpg",
+          "trainingImage": "assets/cards-large/103404.jpg",
+          "stats": {
+            "inHandWinRate": 54.5,
+            "inHandGames": 6564,
+            "openingHandWinRate": 52.9,
+            "openingHandGames": 2385,
+            "avgLastOffered": 2.65
+          }
+        },
+        {
+          "id": "hob-58",
+          "rank": 58,
           "tier": "C+",
           "band": "playable",
           "name": "Quarrel",
@@ -1006,27 +1549,10 @@ window.LIMITED_PREP_DATA = {
           "trainingImage": "assets/cards-large/103515.jpg",
           "stats": {
             "inHandWinRate": 54.5,
-            "inHandGames": 50490,
+            "inHandGames": 75033,
             "openingHandWinRate": 52.7,
-            "openingHandGames": 23584,
-            "avgLastOffered": 4.87
-          }
-        },
-        {
-          "id": "hob-58",
-          "rank": 58,
-          "tier": "C+",
-          "band": "playable",
-          "name": "Smaug, Wicked Worm",
-          "color": "M",
-          "image": "assets/cards/103544.jpg",
-          "trainingImage": "assets/cards-large/103544.jpg",
-          "stats": {
-            "inHandWinRate": 54.4,
-            "inHandGames": 9238,
-            "openingHandWinRate": 52,
-            "openingHandGames": 3733,
-            "avgLastOffered": 2.13
+            "openingHandGames": 35157,
+            "avgLastOffered": 4.92
           }
         },
         {
@@ -1034,16 +1560,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 59,
           "tier": "C+",
           "band": "playable",
-          "name": "Patient Instructor",
-          "color": "M",
-          "image": "assets/cards/103542.jpg",
-          "trainingImage": "assets/cards-large/103542.jpg",
+          "name": "Long Lake Nuisance",
+          "color": "U",
+          "image": "assets/cards/103418.jpg",
+          "trainingImage": "assets/cards-large/103418.jpg",
           "stats": {
-            "inHandWinRate": 54.2,
-            "inHandGames": 42545,
-            "openingHandWinRate": 53.1,
-            "openingHandGames": 19614,
-            "avgLastOffered": 6.3
+            "inHandWinRate": 54.4,
+            "inHandGames": 60715,
+            "openingHandWinRate": 52.2,
+            "openingHandGames": 25622,
+            "avgLastOffered": 6.36
           }
         },
         {
@@ -1057,10 +1583,10 @@ window.LIMITED_PREP_DATA = {
           "trainingImage": "assets/cards-large/103476.jpg",
           "stats": {
             "inHandWinRate": 54.4,
-            "inHandGames": 25872,
-            "openingHandWinRate": 53.7,
-            "openingHandGames": 10689,
-            "avgLastOffered": 3.86
+            "inHandGames": 39658,
+            "openingHandWinRate": 54.1,
+            "openingHandGames": 16529,
+            "avgLastOffered": 3.74
           }
         },
         {
@@ -1068,16 +1594,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 61,
           "tier": "C+",
           "band": "playable",
-          "name": "Smaug, the Great Calamity",
-          "color": "R",
-          "image": "assets/cards/103487.jpg",
-          "trainingImage": "assets/cards-large/103487.jpg",
+          "name": "Bard the Bowman",
+          "color": "M",
+          "image": "assets/cards/103525.jpg",
+          "trainingImage": "assets/cards-large/103525.jpg",
           "stats": {
-            "inHandWinRate": 54.3,
-            "inHandGames": 47890,
-            "openingHandWinRate": 52.4,
-            "openingHandGames": 19612,
-            "avgLastOffered": 5.5
+            "inHandWinRate": 54.4,
+            "inHandGames": 36052,
+            "openingHandWinRate": 52.7,
+            "openingHandGames": 14017,
+            "avgLastOffered": 4.23
           }
         },
         {
@@ -1085,16 +1611,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 62,
           "tier": "C+",
           "band": "playable",
-          "name": "Long Lake Nuisance",
-          "color": "U",
-          "image": "assets/cards/103418.jpg",
-          "trainingImage": "assets/cards-large/103418.jpg",
+          "name": "Smaug, the Great Calamity",
+          "color": "R",
+          "image": "assets/cards/103487.jpg",
+          "trainingImage": "assets/cards-large/103487.jpg",
           "stats": {
             "inHandWinRate": 54.2,
-            "inHandGames": 38318,
-            "openingHandWinRate": 51.7,
-            "openingHandGames": 16197,
-            "avgLastOffered": 6.86
+            "inHandGames": 72946,
+            "openingHandWinRate": 52.4,
+            "openingHandGames": 29959,
+            "avgLastOffered": 5.38
           }
         },
         {
@@ -1102,16 +1628,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 63,
           "tier": "C+",
           "band": "playable",
-          "name": "Down in the Valley",
-          "color": "G",
-          "image": "assets/cards/103504.jpg",
-          "trainingImage": "assets/cards-large/103504.jpg",
+          "name": "Master's Councillors",
+          "color": "U",
+          "image": "assets/cards/103420.jpg",
+          "trainingImage": "assets/cards-large/103420.jpg",
           "stats": {
-            "inHandWinRate": 54.3,
-            "inHandGames": 8301,
-            "openingHandWinRate": 55.7,
-            "openingHandGames": 3629,
-            "avgLastOffered": 3.17
+            "inHandWinRate": 54.2,
+            "inHandGames": 35942,
+            "openingHandWinRate": 52.5,
+            "openingHandGames": 15010,
+            "avgLastOffered": 4.39
           }
         },
         {
@@ -1119,16 +1645,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 64,
           "tier": "C+",
           "band": "playable",
-          "name": "Gundabad Opportunist",
+          "name": "Dwarven Mauler",
           "color": "R",
-          "image": "assets/cards/103479.jpg",
-          "trainingImage": "assets/cards-large/103479.jpg",
+          "image": "assets/cards/103471.jpg",
+          "trainingImage": "assets/cards-large/103471.jpg",
           "stats": {
-            "inHandWinRate": 54.1,
-            "inHandGames": 44019,
-            "openingHandWinRate": 53.3,
-            "openingHandGames": 19649,
-            "avgLastOffered": 6.45
+            "inHandWinRate": 54,
+            "inHandGames": 37530,
+            "openingHandWinRate": 56.5,
+            "openingHandGames": 16909,
+            "avgLastOffered": 4.37
           }
         },
         {
@@ -1136,16 +1662,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 65,
           "tier": "C+",
           "band": "playable",
-          "name": "Bard the Bowman",
-          "color": "M",
-          "image": "assets/cards/103525.jpg",
-          "trainingImage": "assets/cards-large/103525.jpg",
+          "name": "Plunder the Trollshaws",
+          "color": "U",
+          "image": "assets/cards/103425.jpg",
+          "trainingImage": "assets/cards-large/103425.jpg",
           "stats": {
-            "inHandWinRate": 53.9,
-            "inHandGames": 23732,
-            "openingHandWinRate": 52.3,
-            "openingHandGames": 9229,
-            "avgLastOffered": 4.38
+            "inHandWinRate": 54,
+            "inHandGames": 70923,
+            "openingHandWinRate": 51.9,
+            "openingHandGames": 30089,
+            "avgLastOffered": 5.92
           }
         },
         {
@@ -1153,16 +1679,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 66,
           "tier": "C+",
           "band": "playable",
-          "name": "Dwarven Mattock",
-          "color": "C",
-          "image": "assets/cards/103554.jpg",
-          "trainingImage": "assets/cards-large/103554.jpg",
+          "name": "Down in the Valley",
+          "color": "G",
+          "image": "assets/cards/103504.jpg",
+          "trainingImage": "assets/cards-large/103504.jpg",
           "stats": {
-            "inHandWinRate": 53.8,
-            "inHandGames": 19126,
+            "inHandWinRate": 54,
+            "inHandGames": 12391,
             "openingHandWinRate": 54.7,
-            "openingHandGames": 8159,
-            "avgLastOffered": 5.1
+            "openingHandGames": 5413,
+            "avgLastOffered": 3.32
           }
         },
         {
@@ -1170,16 +1696,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 67,
           "tier": "C+",
           "band": "playable",
-          "name": "Thorin Oakenshield",
+          "name": "Smaug, Wicked Worm",
           "color": "M",
-          "image": "assets/cards/103545.jpg",
-          "trainingImage": "assets/cards-large/103545.jpg",
+          "image": "assets/cards/103544.jpg",
+          "trainingImage": "assets/cards-large/103544.jpg",
           "stats": {
-            "inHandWinRate": 53.8,
-            "inHandGames": 23731,
-            "openingHandWinRate": 55.5,
-            "openingHandGames": 10546,
-            "avgLastOffered": 4.54
+            "inHandWinRate": 53.9,
+            "inHandGames": 13617,
+            "openingHandWinRate": 51.6,
+            "openingHandGames": 5497,
+            "avgLastOffered": 2.3
           }
         },
         {
@@ -1187,16 +1713,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 68,
           "tier": "C+",
           "band": "playable",
-          "name": "Dwarven Mauler",
+          "name": "Gundabad Opportunist",
           "color": "R",
-          "image": "assets/cards/103471.jpg",
-          "trainingImage": "assets/cards-large/103471.jpg",
+          "image": "assets/cards/103479.jpg",
+          "trainingImage": "assets/cards-large/103479.jpg",
           "stats": {
             "inHandWinRate": 53.8,
-            "inHandGames": 25057,
-            "openingHandWinRate": 56.1,
-            "openingHandGames": 11315,
-            "avgLastOffered": 4.44
+            "inHandGames": 67312,
+            "openingHandWinRate": 52.9,
+            "openingHandGames": 29953,
+            "avgLastOffered": 6.34
           }
         },
         {
@@ -1204,16 +1730,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 69,
           "tier": "C+",
           "band": "playable",
-          "name": "Dreaded Bat-Cloud",
+          "name": "Gnashing of Teeth",
           "color": "B",
-          "image": "assets/cards/103440.jpg",
-          "trainingImage": "assets/cards-large/103440.jpg",
+          "image": "assets/cards/103443.jpg",
+          "trainingImage": "assets/cards-large/103443.jpg",
           "stats": {
             "inHandWinRate": 53.8,
-            "inHandGames": 27201,
-            "openingHandWinRate": 51.8,
-            "openingHandGames": 11489,
-            "avgLastOffered": 3.7
+            "inHandGames": 44045,
+            "openingHandWinRate": 52.9,
+            "openingHandGames": 19219,
+            "avgLastOffered": 2.74
           }
         },
         {
@@ -1221,16 +1747,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 70,
           "tier": "C+",
           "band": "playable",
-          "name": "Plunder the Trollshaws",
-          "color": "U",
-          "image": "assets/cards/103425.jpg",
-          "trainingImage": "assets/cards-large/103425.jpg",
+          "name": "Dwarven Mattock",
+          "color": "C",
+          "image": "assets/cards/103554.jpg",
+          "trainingImage": "assets/cards-large/103554.jpg",
           "stats": {
-            "inHandWinRate": 53.6,
-            "inHandGames": 46149,
-            "openingHandWinRate": 51.3,
-            "openingHandGames": 19557,
-            "avgLastOffered": 6.39
+            "inHandWinRate": 53.7,
+            "inHandGames": 28931,
+            "openingHandWinRate": 54.5,
+            "openingHandGames": 12422,
+            "avgLastOffered": 5.14
           }
         },
         {
@@ -1238,16 +1764,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 71,
           "tier": "C+",
           "band": "playable",
-          "name": "Gnashing of Teeth",
-          "color": "B",
-          "image": "assets/cards/103443.jpg",
-          "trainingImage": "assets/cards-large/103443.jpg",
+          "name": "Thorin Oakenshield",
+          "color": "M",
+          "image": "assets/cards/103545.jpg",
+          "trainingImage": "assets/cards-large/103545.jpg",
           "stats": {
-            "inHandWinRate": 53.9,
-            "inHandGames": 29604,
-            "openingHandWinRate": 53.1,
-            "openingHandGames": 12888,
-            "avgLastOffered": 2.77
+            "inHandWinRate": 53.6,
+            "inHandGames": 35378,
+            "openingHandWinRate": 55.1,
+            "openingHandGames": 15768,
+            "avgLastOffered": 4.67
           }
         },
         {
@@ -1261,9 +1787,9 @@ window.LIMITED_PREP_DATA = {
           "trainingImage": "assets/cards-large/103533.jpg",
           "stats": {
             "inHandWinRate": 53.6,
-            "inHandGames": 41791,
-            "openingHandWinRate": 53.7,
-            "openingHandGames": 20041,
+            "inHandGames": 63250,
+            "openingHandWinRate": 53.4,
+            "openingHandGames": 30253,
             "avgLastOffered": 5.58
           }
         },
@@ -1272,38 +1798,21 @@ window.LIMITED_PREP_DATA = {
           "rank": 73,
           "tier": "C+",
           "band": "playable",
-          "name": "Bolg of the North",
-          "color": "M",
-          "image": "assets/cards/103528.jpg",
-          "trainingImage": "assets/cards-large/103528.jpg",
+          "name": "Attercop",
+          "color": "G",
+          "image": "assets/cards/103495.jpg",
+          "trainingImage": "assets/cards-large/103495.jpg",
           "stats": {
-            "inHandWinRate": 53.5,
-            "inHandGames": 25690,
-            "openingHandWinRate": 51.4,
-            "openingHandGames": 10714,
-            "avgLastOffered": 4.06
+            "inHandWinRate": 53.6,
+            "inHandGames": 67079,
+            "openingHandWinRate": 54,
+            "openingHandGames": 33161,
+            "avgLastOffered": 5.85
           }
         },
         {
           "id": "hob-74",
           "rank": 74,
-          "tier": "C+",
-          "band": "playable",
-          "name": "Master's Councillors",
-          "color": "U",
-          "image": "assets/cards/103420.jpg",
-          "trainingImage": "assets/cards-large/103420.jpg",
-          "stats": {
-            "inHandWinRate": 53.5,
-            "inHandGames": 22557,
-            "openingHandWinRate": 51.8,
-            "openingHandGames": 9477,
-            "avgLastOffered": 4.74
-          }
-        },
-        {
-          "id": "hob-75",
-          "rank": 75,
           "tier": "C+",
           "band": "playable",
           "name": "Front Porch Sentries",
@@ -1312,10 +1821,27 @@ window.LIMITED_PREP_DATA = {
           "trainingImage": "assets/cards-large/103441.jpg",
           "stats": {
             "inHandWinRate": 53.5,
-            "inHandGames": 33244,
-            "openingHandWinRate": 53.7,
-            "openingHandGames": 15552,
-            "avgLastOffered": 6.5
+            "inHandGames": 49876,
+            "openingHandWinRate": 54,
+            "openingHandGames": 23332,
+            "avgLastOffered": 6.34
+          }
+        },
+        {
+          "id": "hob-75",
+          "rank": 75,
+          "tier": "C+",
+          "band": "playable",
+          "name": "Dreaded Bat-Cloud",
+          "color": "B",
+          "image": "assets/cards/103440.jpg",
+          "trainingImage": "assets/cards-large/103440.jpg",
+          "stats": {
+            "inHandWinRate": 53.5,
+            "inHandGames": 40318,
+            "openingHandWinRate": 51.7,
+            "openingHandGames": 17027,
+            "avgLastOffered": 3.76
           }
         },
         {
@@ -1323,16 +1849,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 76,
           "tier": "C+",
           "band": "playable",
-          "name": "Attercop",
-          "color": "G",
-          "image": "assets/cards/103495.jpg",
-          "trainingImage": "assets/cards-large/103495.jpg",
+          "name": "Lakeshore Apothecary",
+          "color": "U",
+          "image": "assets/cards/103415.jpg",
+          "trainingImage": "assets/cards-large/103415.jpg",
           "stats": {
-            "inHandWinRate": 53.5,
-            "inHandGames": 44370,
-            "openingHandWinRate": 53.9,
-            "openingHandGames": 21821,
-            "avgLastOffered": 5.95
+            "inHandWinRate": 53.4,
+            "inHandGames": 68373,
+            "openingHandWinRate": 54.1,
+            "openingHandGames": 32452,
+            "avgLastOffered": 5.38
           }
         },
         {
@@ -1345,11 +1871,11 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103455.jpg",
           "trainingImage": "assets/cards-large/103455.jpg",
           "stats": {
-            "inHandWinRate": 53.4,
-            "inHandGames": 54185,
-            "openingHandWinRate": 52.8,
-            "openingHandGames": 26056,
-            "avgLastOffered": 5.23
+            "inHandWinRate": 53.3,
+            "inHandGames": 80746,
+            "openingHandWinRate": 52.9,
+            "openingHandGames": 38565,
+            "avgLastOffered": 5.26
           }
         },
         {
@@ -1357,16 +1883,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 78,
           "tier": "C+",
           "band": "playable",
-          "name": "Stony-Voiced Goblins",
-          "color": "B",
-          "image": "assets/cards/103461.jpg",
-          "trainingImage": "assets/cards-large/103461.jpg",
+          "name": "Bolg of the North",
+          "color": "M",
+          "image": "assets/cards/103528.jpg",
+          "trainingImage": "assets/cards-large/103528.jpg",
           "stats": {
-            "inHandWinRate": 53.4,
-            "inHandGames": 52663,
-            "openingHandWinRate": 53.4,
-            "openingHandGames": 25606,
-            "avgLastOffered": 5.63
+            "inHandWinRate": 53.3,
+            "inHandGames": 37717,
+            "openingHandWinRate": 50.9,
+            "openingHandGames": 15666,
+            "avgLastOffered": 4.29
           }
         },
         {
@@ -1374,67 +1900,67 @@ window.LIMITED_PREP_DATA = {
           "rank": 79,
           "tier": "C+",
           "band": "playable",
-          "name": "Tidings of War",
-          "color": "R",
-          "image": "assets/cards/103494.jpg",
-          "trainingImage": "assets/cards-large/103494.jpg",
+          "name": "Hobbit Hole",
+          "color": "C",
+          "image": "assets/cards/103568.jpg",
+          "trainingImage": "assets/cards-large/103568.jpg",
           "stats": {
-            "inHandWinRate": 53.3,
-            "inHandGames": 43352,
-            "openingHandWinRate": 54.3,
-            "openingHandGames": 20147,
-            "avgLastOffered": 6.26
+            "inHandWinRate": 53.1,
+            "inHandGames": 92822,
+            "openingHandWinRate": 53.6,
+            "openingHandGames": 42317,
+            "avgLastOffered": 6.09
           }
         },
         {
           "id": "hob-80",
           "rank": 80,
-          "tier": "C+",
-          "band": "playable",
-          "name": "Lakeshore Apothecary",
-          "color": "U",
-          "image": "assets/cards/103415.jpg",
-          "trainingImage": "assets/cards-large/103415.jpg",
-          "stats": {
-            "inHandWinRate": 53.2,
-            "inHandGames": 44141,
-            "openingHandWinRate": 53.8,
-            "openingHandGames": 20934,
-            "avgLastOffered": 6.01
-          }
-        },
-        {
-          "id": "hob-81",
-          "rank": 81,
-          "tier": "C+",
+          "tier": "C",
           "band": "playable",
           "name": "Troll Negotiations",
           "color": "G",
           "image": "assets/cards/103518.jpg",
           "trainingImage": "assets/cards-large/103518.jpg",
           "stats": {
-            "inHandWinRate": 53.3,
-            "inHandGames": 23366,
-            "openingHandWinRate": 51.6,
-            "openingHandGames": 9814,
-            "avgLastOffered": 3.99
+            "inHandWinRate": 53,
+            "inHandGames": 34517,
+            "openingHandWinRate": 51.3,
+            "openingHandGames": 14675,
+            "avgLastOffered": 4.26
+          }
+        },
+        {
+          "id": "hob-81",
+          "rank": 81,
+          "tier": "C",
+          "band": "playable",
+          "name": "Stony-Voiced Goblins",
+          "color": "B",
+          "image": "assets/cards/103461.jpg",
+          "trainingImage": "assets/cards-large/103461.jpg",
+          "stats": {
+            "inHandWinRate": 53,
+            "inHandGames": 77885,
+            "openingHandWinRate": 53,
+            "openingHandGames": 37716,
+            "avgLastOffered": 5.54
           }
         },
         {
           "id": "hob-82",
           "rank": 82,
-          "tier": "C+",
+          "tier": "C",
           "band": "playable",
-          "name": "Fearsome Goblin Pair",
-          "color": "M",
-          "image": "assets/cards/103536.jpg",
-          "trainingImage": "assets/cards-large/103536.jpg",
+          "name": "Tidings of War",
+          "color": "R",
+          "image": "assets/cards/103494.jpg",
+          "trainingImage": "assets/cards-large/103494.jpg",
           "stats": {
-            "inHandWinRate": 53.2,
-            "inHandGames": 25656,
-            "openingHandWinRate": 52.4,
-            "openingHandGames": 11353,
-            "avgLastOffered": 3.62
+            "inHandWinRate": 53,
+            "inHandGames": 64427,
+            "openingHandWinRate": 54,
+            "openingHandGames": 29822,
+            "avgLastOffered": 6.09
           }
         },
         {
@@ -1442,16 +1968,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 83,
           "tier": "C",
           "band": "playable",
-          "name": "Gathering of Darkness",
-          "color": "B",
-          "image": "assets/cards/103442.jpg",
-          "trainingImage": "assets/cards-large/103442.jpg",
+          "name": "Bilbo Baggins, Burglar",
+          "color": "U",
+          "image": "assets/cards/103405.jpg",
+          "trainingImage": "assets/cards-large/103405.jpg",
           "stats": {
-            "inHandWinRate": 53.1,
-            "inHandGames": 25256,
-            "openingHandWinRate": 50.7,
-            "openingHandGames": 10502,
-            "avgLastOffered": 3.92
+            "inHandWinRate": 53,
+            "inHandGames": 72357,
+            "openingHandWinRate": 51.7,
+            "openingHandGames": 32004,
+            "avgLastOffered": 5.67
           }
         },
         {
@@ -1459,16 +1985,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 84,
           "tier": "C",
           "band": "playable",
-          "name": "Hobbit Hole",
-          "color": "C",
-          "image": "assets/cards/103568.jpg",
-          "trainingImage": "assets/cards-large/103568.jpg",
+          "name": "Goblin-town",
+          "color": "M",
+          "image": "assets/cards/103567.jpg",
+          "trainingImage": "assets/cards-large/103567.jpg",
           "stats": {
-            "inHandWinRate": 53.1,
-            "inHandGames": 62902,
-            "openingHandWinRate": 53.6,
-            "openingHandGames": 28765,
-            "avgLastOffered": 6.12
+            "inHandWinRate": 52.9,
+            "inHandGames": 66107,
+            "openingHandWinRate": 54.7,
+            "openingHandGames": 31427,
+            "avgLastOffered": 6.15
           }
         },
         {
@@ -1476,16 +2002,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 85,
           "tier": "C",
           "band": "playable",
-          "name": "Goblin-town",
-          "color": "M",
-          "image": "assets/cards/103567.jpg",
-          "trainingImage": "assets/cards-large/103567.jpg",
+          "name": "Bofur, Reliable Guardian",
+          "color": "W",
+          "image": "assets/cards/103373.jpg",
+          "trainingImage": "assets/cards-large/103373.jpg",
           "stats": {
-            "inHandWinRate": 53.1,
-            "inHandGames": 44407,
-            "openingHandWinRate": 54.8,
-            "openingHandGames": 21296,
-            "avgLastOffered": 6.13
+            "inHandWinRate": 52.9,
+            "inHandGames": 37242,
+            "openingHandWinRate": 50.8,
+            "openingHandGames": 15698,
+            "avgLastOffered": 4.44
           }
         },
         {
@@ -1493,16 +2019,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 86,
           "tier": "C",
           "band": "playable",
-          "name": "Óin the Brave",
-          "color": "R",
-          "image": "assets/cards/103484.jpg",
-          "trainingImage": "assets/cards-large/103484.jpg",
+          "name": "Gathering of Darkness",
+          "color": "B",
+          "image": "assets/cards/103442.jpg",
+          "trainingImage": "assets/cards-large/103442.jpg",
           "stats": {
-            "inHandWinRate": 53,
-            "inHandGames": 39386,
-            "openingHandWinRate": 53.2,
-            "openingHandGames": 17888,
-            "avgLastOffered": 6.66
+            "inHandWinRate": 52.8,
+            "inHandGames": 37504,
+            "openingHandWinRate": 50.5,
+            "openingHandGames": 15591,
+            "avgLastOffered": 3.98
           }
         },
         {
@@ -1510,16 +2036,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 87,
           "tier": "C",
           "band": "playable",
-          "name": "Roads Go Ever, Ever On",
-          "color": "W",
-          "image": "assets/cards/103393.jpg",
-          "trainingImage": "assets/cards-large/103393.jpg",
+          "name": "Ordinary Bear",
+          "color": "G",
+          "image": "assets/cards/103513.jpg",
+          "trainingImage": "assets/cards-large/103513.jpg",
           "stats": {
-            "inHandWinRate": 52.7,
-            "inHandGames": 8818,
-            "openingHandWinRate": 53.2,
-            "openingHandGames": 3627,
-            "avgLastOffered": 3.5
+            "inHandWinRate": 52.8,
+            "inHandGames": 32655,
+            "openingHandWinRate": 52.7,
+            "openingHandGames": 14844,
+            "avgLastOffered": 7.8
           }
         },
         {
@@ -1533,10 +2059,10 @@ window.LIMITED_PREP_DATA = {
           "trainingImage": "assets/cards-large/103486.jpg",
           "stats": {
             "inHandWinRate": 52.8,
-            "inHandGames": 33692,
+            "inHandGames": 51552,
             "openingHandWinRate": 52.7,
-            "openingHandGames": 15246,
-            "avgLastOffered": 6.64
+            "openingHandGames": 23267,
+            "avgLastOffered": 6.54
           }
         },
         {
@@ -1544,16 +2070,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 89,
           "tier": "C",
           "band": "playable",
-          "name": "Ordinary Bear",
-          "color": "G",
-          "image": "assets/cards/103513.jpg",
-          "trainingImage": "assets/cards-large/103513.jpg",
+          "name": "Mirkwood",
+          "color": "M",
+          "image": "assets/cards/103572.jpg",
+          "trainingImage": "assets/cards-large/103572.jpg",
           "stats": {
             "inHandWinRate": 52.8,
-            "inHandGames": 22780,
-            "openingHandWinRate": 52.9,
-            "openingHandGames": 10354,
-            "avgLastOffered": 7.68
+            "inHandGames": 54719,
+            "openingHandWinRate": 54.4,
+            "openingHandGames": 26827,
+            "avgLastOffered": 6.48
           }
         },
         {
@@ -1561,55 +2087,21 @@ window.LIMITED_PREP_DATA = {
           "rank": 90,
           "tier": "C",
           "band": "playable",
-          "name": "Mirkwood",
-          "color": "M",
-          "image": "assets/cards/103572.jpg",
-          "trainingImage": "assets/cards-large/103572.jpg",
+          "name": "Óin the Brave",
+          "color": "R",
+          "image": "assets/cards/103484.jpg",
+          "trainingImage": "assets/cards-large/103484.jpg",
           "stats": {
-            "inHandWinRate": 52.9,
-            "inHandGames": 37039,
-            "openingHandWinRate": 54.8,
-            "openingHandGames": 18067,
-            "avgLastOffered": 6.33
+            "inHandWinRate": 52.7,
+            "inHandGames": 60073,
+            "openingHandWinRate": 52.8,
+            "openingHandGames": 27261,
+            "avgLastOffered": 6.48
           }
         },
         {
           "id": "hob-91",
           "rank": 91,
-          "tier": "C",
-          "band": "playable",
-          "name": "Bilbo Baggins, Burglar",
-          "color": "U",
-          "image": "assets/cards/103405.jpg",
-          "trainingImage": "assets/cards-large/103405.jpg",
-          "stats": {
-            "inHandWinRate": 52.8,
-            "inHandGames": 47973,
-            "openingHandWinRate": 51.8,
-            "openingHandGames": 21336,
-            "avgLastOffered": 5.7
-          }
-        },
-        {
-          "id": "hob-92",
-          "rank": 92,
-          "tier": "C",
-          "band": "playable",
-          "name": "The Master of Lake-town",
-          "color": "B",
-          "image": "assets/cards/103453.jpg",
-          "trainingImage": "assets/cards-large/103453.jpg",
-          "stats": {
-            "inHandWinRate": 52.8,
-            "inHandGames": 9315,
-            "openingHandWinRate": 52.9,
-            "openingHandGames": 3955,
-            "avgLastOffered": 2.93
-          }
-        },
-        {
-          "id": "hob-93",
-          "rank": 93,
           "tier": "C",
           "band": "playable",
           "name": "Bombur, Gentle Dreamer",
@@ -1618,15 +2110,15 @@ window.LIMITED_PREP_DATA = {
           "trainingImage": "assets/cards-large/103464.jpg",
           "stats": {
             "inHandWinRate": 52.7,
-            "inHandGames": 21009,
-            "openingHandWinRate": 53,
-            "openingHandGames": 8970,
-            "avgLastOffered": 5.08
+            "inHandGames": 31706,
+            "openingHandWinRate": 53.1,
+            "openingHandGames": 13462,
+            "avgLastOffered": 4.98
           }
         },
         {
-          "id": "hob-94",
-          "rank": 94,
+          "id": "hob-92",
+          "rank": 92,
           "tier": "C",
           "band": "playable",
           "name": "Magnificent End",
@@ -1634,16 +2126,16 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103388.jpg",
           "trainingImage": "assets/cards-large/103388.jpg",
           "stats": {
-            "inHandWinRate": 52.6,
-            "inHandGames": 54221,
+            "inHandWinRate": 52.7,
+            "inHandGames": 81961,
             "openingHandWinRate": 50.6,
-            "openingHandGames": 23267,
-            "avgLastOffered": 5.07
+            "openingHandGames": 35104,
+            "avgLastOffered": 4.82
           }
         },
         {
-          "id": "hob-95",
-          "rank": 95,
+          "id": "hob-93",
+          "rank": 93,
           "tier": "C",
           "band": "playable",
           "name": "Beorn's Hospitality",
@@ -1651,11 +2143,45 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103500.jpg",
           "trainingImage": "assets/cards-large/103500.jpg",
           "stats": {
-            "inHandWinRate": 52.7,
-            "inHandGames": 21755,
-            "openingHandWinRate": 53.3,
-            "openingHandGames": 9593,
-            "avgLastOffered": 4.02
+            "inHandWinRate": 52.6,
+            "inHandGames": 32442,
+            "openingHandWinRate": 53.4,
+            "openingHandGames": 14413,
+            "avgLastOffered": 4.09
+          }
+        },
+        {
+          "id": "hob-94",
+          "rank": 94,
+          "tier": "C",
+          "band": "playable",
+          "name": "Roads Go Ever, Ever On",
+          "color": "W",
+          "image": "assets/cards/103393.jpg",
+          "trainingImage": "assets/cards-large/103393.jpg",
+          "stats": {
+            "inHandWinRate": 52.5,
+            "inHandGames": 13123,
+            "openingHandWinRate": 52.8,
+            "openingHandGames": 5456,
+            "avgLastOffered": 3.66
+          }
+        },
+        {
+          "id": "hob-95",
+          "rank": 95,
+          "tier": "C",
+          "band": "playable",
+          "name": "Fearsome Goblin Pair",
+          "color": "M",
+          "image": "assets/cards/103536.jpg",
+          "trainingImage": "assets/cards-large/103536.jpg",
+          "stats": {
+            "inHandWinRate": 52.5,
+            "inHandGames": 36924,
+            "openingHandWinRate": 51.6,
+            "openingHandGames": 16471,
+            "avgLastOffered": 3.77
           }
         },
         {
@@ -1663,16 +2189,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 96,
           "tier": "C",
           "band": "playable",
-          "name": "Old Fat Spider",
-          "color": "G",
-          "image": "assets/cards/103512.jpg",
-          "trainingImage": "assets/cards-large/103512.jpg",
+          "name": "The Master of Lake-town",
+          "color": "B",
+          "image": "assets/cards/103453.jpg",
+          "trainingImage": "assets/cards-large/103453.jpg",
           "stats": {
             "inHandWinRate": 52.5,
-            "inHandGames": 19511,
-            "openingHandWinRate": 51.1,
-            "openingHandGames": 7882,
-            "avgLastOffered": 4.97
+            "inHandGames": 13758,
+            "openingHandWinRate": 52.7,
+            "openingHandGames": 5842,
+            "avgLastOffered": 2.97
           }
         },
         {
@@ -1685,11 +2211,11 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103527.jpg",
           "trainingImage": "assets/cards-large/103527.jpg",
           "stats": {
-            "inHandWinRate": 52.3,
-            "inHandGames": 20790,
-            "openingHandWinRate": 50,
-            "openingHandGames": 8080,
-            "avgLastOffered": 4.37
+            "inHandWinRate": 52.4,
+            "inHandGames": 30864,
+            "openingHandWinRate": 50.4,
+            "openingHandGames": 12018,
+            "avgLastOffered": 4.43
           }
         },
         {
@@ -1702,11 +2228,11 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103391.jpg",
           "trainingImage": "assets/cards-large/103391.jpg",
           "stats": {
-            "inHandWinRate": 52.2,
-            "inHandGames": 31508,
-            "openingHandWinRate": 52.1,
-            "openingHandGames": 13706,
-            "avgLastOffered": 7.46
+            "inHandWinRate": 52.3,
+            "inHandGames": 47304,
+            "openingHandWinRate": 52.3,
+            "openingHandGames": 20440,
+            "avgLastOffered": 7.42
           }
         },
         {
@@ -1714,16 +2240,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 99,
           "tier": "C",
           "band": "playable",
-          "name": "Bofur, Reliable Guardian",
-          "color": "W",
-          "image": "assets/cards/103373.jpg",
-          "trainingImage": "assets/cards-large/103373.jpg",
+          "name": "Old Fat Spider",
+          "color": "G",
+          "image": "assets/cards/103512.jpg",
+          "trainingImage": "assets/cards-large/103512.jpg",
           "stats": {
-            "inHandWinRate": 52.2,
-            "inHandGames": 24579,
-            "openingHandWinRate": 50.1,
-            "openingHandGames": 10309,
-            "avgLastOffered": 4.38
+            "inHandWinRate": 52.3,
+            "inHandGames": 28557,
+            "openingHandWinRate": 50.8,
+            "openingHandGames": 11521,
+            "avgLastOffered": 5.4
           }
         },
         {
@@ -1737,32 +2263,15 @@ window.LIMITED_PREP_DATA = {
           "trainingImage": "assets/cards-large/103432.jpg",
           "stats": {
             "inHandWinRate": 52.2,
-            "inHandGames": 34597,
-            "openingHandWinRate": 48.2,
-            "openingHandGames": 13468,
-            "avgLastOffered": 7.44
+            "inHandGames": 51370,
+            "openingHandWinRate": 48.4,
+            "openingHandGames": 19967,
+            "avgLastOffered": 7.5
           }
         },
         {
           "id": "hob-101",
           "rank": 101,
-          "tier": "C",
-          "band": "playable",
-          "name": "Gigantic Big Bear",
-          "color": "G",
-          "image": "assets/cards/103506.jpg",
-          "trainingImage": "assets/cards-large/103506.jpg",
-          "stats": {
-            "inHandWinRate": 52.1,
-            "inHandGames": 7956,
-            "openingHandWinRate": 49,
-            "openingHandGames": 3135,
-            "avgLastOffered": 2.88
-          }
-        },
-        {
-          "id": "hob-102",
-          "rank": 102,
           "tier": "C",
           "band": "playable",
           "name": "Wargling",
@@ -1771,10 +2280,27 @@ window.LIMITED_PREP_DATA = {
           "trainingImage": "assets/cards-large/103520.jpg",
           "stats": {
             "inHandWinRate": 52.1,
-            "inHandGames": 31199,
-            "openingHandWinRate": 52.6,
-            "openingHandGames": 15311,
-            "avgLastOffered": 7.16
+            "inHandGames": 45857,
+            "openingHandWinRate": 52.2,
+            "openingHandGames": 22571,
+            "avgLastOffered": 7.19
+          }
+        },
+        {
+          "id": "hob-102",
+          "rank": 102,
+          "tier": "C",
+          "band": "playable",
+          "name": "Esgaroth Garrison",
+          "color": "W",
+          "image": "assets/cards/103381.jpg",
+          "trainingImage": "assets/cards-large/103381.jpg",
+          "stats": {
+            "inHandWinRate": 52,
+            "inHandGames": 19174,
+            "openingHandWinRate": 49.6,
+            "openingHandGames": 7208,
+            "avgLastOffered": 8.38
           }
         },
         {
@@ -1782,21 +2308,55 @@ window.LIMITED_PREP_DATA = {
           "rank": 103,
           "tier": "C",
           "band": "playable",
-          "name": "Dwarven Provisioner",
-          "color": "W",
-          "image": "assets/cards/103377.jpg",
-          "trainingImage": "assets/cards-large/103377.jpg",
+          "name": "Lake-town",
+          "color": "M",
+          "image": "assets/cards/103570.jpg",
+          "trainingImage": "assets/cards-large/103570.jpg",
           "stats": {
-            "inHandWinRate": 51.7,
-            "inHandGames": 38714,
-            "openingHandWinRate": 50.6,
-            "openingHandGames": 17061,
-            "avgLastOffered": 7.06
+            "inHandWinRate": 51.9,
+            "inHandGames": 45877,
+            "openingHandWinRate": 51.8,
+            "openingHandGames": 19777,
+            "avgLastOffered": 7.32
           }
         },
         {
           "id": "hob-104",
           "rank": 104,
+          "tier": "C",
+          "band": "playable",
+          "name": "Dwarven Provisioner",
+          "color": "W",
+          "image": "assets/cards/103377.jpg",
+          "trainingImage": "assets/cards-large/103377.jpg",
+          "stats": {
+            "inHandWinRate": 51.9,
+            "inHandGames": 58381,
+            "openingHandWinRate": 50.7,
+            "openingHandGames": 25675,
+            "avgLastOffered": 7.01
+          }
+        },
+        {
+          "id": "hob-105",
+          "rank": 105,
+          "tier": "C",
+          "band": "playable",
+          "name": "Eagle's Rescue",
+          "color": "M",
+          "image": "assets/cards/103535.jpg",
+          "trainingImage": "assets/cards-large/103535.jpg",
+          "stats": {
+            "inHandWinRate": 51.8,
+            "inHandGames": 21928,
+            "openingHandWinRate": 48.7,
+            "openingHandGames": 8385,
+            "avgLastOffered": 5.71
+          }
+        },
+        {
+          "id": "hob-106",
+          "rank": 106,
           "tier": "C",
           "band": "playable",
           "name": "Thrór's Map",
@@ -1805,15 +2365,15 @@ window.LIMITED_PREP_DATA = {
           "trainingImage": "assets/cards-large/103563.jpg",
           "stats": {
             "inHandWinRate": 51.7,
-            "inHandGames": 18077,
-            "openingHandWinRate": 50.2,
-            "openingHandGames": 7678,
-            "avgLastOffered": 4.78
+            "inHandGames": 26623,
+            "openingHandWinRate": 50.6,
+            "openingHandGames": 11292,
+            "avgLastOffered": 4.85
           }
         },
         {
-          "id": "hob-105",
-          "rank": 105,
+          "id": "hob-107",
+          "rank": 107,
           "tier": "C",
           "band": "playable",
           "name": "Iron Hills",
@@ -1821,67 +2381,67 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103569.jpg",
           "trainingImage": "assets/cards-large/103569.jpg",
           "stats": {
-            "inHandWinRate": 51.6,
-            "inHandGames": 34820,
-            "openingHandWinRate": 53.3,
-            "openingHandGames": 16803,
-            "avgLastOffered": 6.75
-          }
-        },
-        {
-          "id": "hob-106",
-          "rank": 106,
-          "tier": "C-",
-          "band": "playable",
-          "name": "Warg Tactics",
-          "color": "G",
-          "image": "assets/cards/103519.jpg",
-          "trainingImage": "assets/cards-large/103519.jpg",
-          "stats": {
-            "inHandWinRate": 51.6,
-            "inHandGames": 20956,
-            "openingHandWinRate": 49.3,
-            "openingHandGames": 9120,
-            "avgLastOffered": 7.64
-          }
-        },
-        {
-          "id": "hob-107",
-          "rank": 107,
-          "tier": "C-",
-          "band": "playable",
-          "name": "Radagast of Rhosgobel",
-          "color": "G",
-          "image": "assets/cards/103516.jpg",
-          "trainingImage": "assets/cards-large/103516.jpg",
-          "stats": {
-            "inHandWinRate": 51.6,
-            "inHandGames": 7763,
-            "openingHandWinRate": 49.7,
-            "openingHandGames": 3249,
-            "avgLastOffered": 2.7
+            "inHandWinRate": 51.7,
+            "inHandGames": 52266,
+            "openingHandWinRate": 53.6,
+            "openingHandGames": 25130,
+            "avgLastOffered": 6.83
           }
         },
         {
           "id": "hob-108",
           "rank": 108,
-          "tier": "C-",
+          "tier": "C",
           "band": "playable",
-          "name": "Goblin-town Flunkies",
-          "color": "R",
-          "image": "assets/cards/103478.jpg",
-          "trainingImage": "assets/cards-large/103478.jpg",
+          "name": "Mirkwood Nurturer",
+          "color": "M",
+          "image": "assets/cards/103540.jpg",
+          "trainingImage": "assets/cards-large/103540.jpg",
           "stats": {
-            "inHandWinRate": 51.5,
-            "inHandGames": 34911,
-            "openingHandWinRate": 51.3,
-            "openingHandGames": 16666,
-            "avgLastOffered": 6.7
+            "inHandWinRate": 51.7,
+            "inHandGames": 52787,
+            "openingHandWinRate": 48.7,
+            "openingHandGames": 23118,
+            "avgLastOffered": 6.05
           }
         },
         {
           "id": "hob-109",
           "rank": 109,
+          "tier": "C",
+          "band": "playable",
+          "name": "Galion, Elvenking's Butler",
+          "color": "G",
+          "image": "assets/cards/103505.jpg",
+          "trainingImage": "assets/cards-large/103505.jpg",
+          "stats": {
+            "inHandWinRate": 51.7,
+            "inHandGames": 24549,
+            "openingHandWinRate": 50.8,
+            "openingHandGames": 10425,
+            "avgLastOffered": 5.74
+          }
+        },
+        {
+          "id": "hob-110",
+          "rank": 110,
+          "tier": "C-",
+          "band": "playable",
+          "name": "Enchanted River's Grasp",
+          "color": "U",
+          "image": "assets/cards/103411.jpg",
+          "trainingImage": "assets/cards-large/103411.jpg",
+          "stats": {
+            "inHandWinRate": 51.5,
+            "inHandGames": 73303,
+            "openingHandWinRate": 47.4,
+            "openingHandGames": 31034,
+            "avgLastOffered": 5.6
+          }
+        },
+        {
+          "id": "hob-111",
+          "rank": 111,
           "tier": "C-",
           "band": "playable",
           "name": "Wood Elves",
@@ -1889,16 +2449,16 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103522.jpg",
           "trainingImage": "assets/cards-large/103522.jpg",
           "stats": {
-            "inHandWinRate": 51.6,
-            "inHandGames": 34708,
-            "openingHandWinRate": 50.7,
-            "openingHandGames": 16721,
-            "avgLastOffered": 6.53
+            "inHandWinRate": 51.5,
+            "inHandGames": 49556,
+            "openingHandWinRate": 50.8,
+            "openingHandGames": 23968,
+            "avgLastOffered": 6.85
           }
         },
         {
-          "id": "hob-110",
-          "rank": 110,
+          "id": "hob-112",
+          "rank": 112,
           "tier": "C-",
           "band": "playable",
           "name": "Boughside Wanderers",
@@ -1907,44 +2467,10 @@ window.LIMITED_PREP_DATA = {
           "trainingImage": "assets/cards-large/103501.jpg",
           "stats": {
             "inHandWinRate": 51.4,
-            "inHandGames": 22408,
-            "openingHandWinRate": 49.1,
-            "openingHandGames": 9207,
-            "avgLastOffered": 7.76
-          }
-        },
-        {
-          "id": "hob-111",
-          "rank": 111,
-          "tier": "C-",
-          "band": "playable",
-          "name": "Nori, Teller of Tales",
-          "color": "M",
-          "image": "assets/cards/103541.jpg",
-          "trainingImage": "assets/cards-large/103541.jpg",
-          "stats": {
-            "inHandWinRate": 51.3,
-            "inHandGames": 39020,
-            "openingHandWinRate": 51.3,
-            "openingHandGames": 17673,
-            "avgLastOffered": 6.28
-          }
-        },
-        {
-          "id": "hob-112",
-          "rank": 112,
-          "tier": "C-",
-          "band": "playable",
-          "name": "Guardian of the Halls",
-          "color": "G",
-          "image": "assets/cards/103507.jpg",
-          "trainingImage": "assets/cards-large/103507.jpg",
-          "stats": {
-            "inHandWinRate": 51.4,
-            "inHandGames": 27614,
-            "openingHandWinRate": 50.5,
-            "openingHandGames": 12946,
-            "avgLastOffered": 7.37
+            "inHandGames": 30685,
+            "openingHandWinRate": 48.9,
+            "openingHandGames": 12579,
+            "avgLastOffered": 8.01
           }
         },
         {
@@ -1952,16 +2478,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 113,
           "tier": "C-",
           "band": "playable",
-          "name": "Lake-town",
-          "color": "M",
-          "image": "assets/cards/103570.jpg",
-          "trainingImage": "assets/cards-large/103570.jpg",
+          "name": "Warg Tactics",
+          "color": "G",
+          "image": "assets/cards/103519.jpg",
+          "trainingImage": "assets/cards-large/103519.jpg",
           "stats": {
-            "inHandWinRate": 51.4,
-            "inHandGames": 30494,
-            "openingHandWinRate": 51.7,
-            "openingHandGames": 13106,
-            "avgLastOffered": 7.29
+            "inHandWinRate": 51.3,
+            "inHandGames": 29630,
+            "openingHandWinRate": 49.3,
+            "openingHandGames": 12919,
+            "avgLastOffered": 7.72
           }
         },
         {
@@ -1969,16 +2495,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 114,
           "tier": "C-",
           "band": "playable",
-          "name": "Lake-town Toymaker",
-          "color": "W",
-          "image": "assets/cards/103387.jpg",
-          "trainingImage": "assets/cards-large/103387.jpg",
+          "name": "Guardian of the Halls",
+          "color": "G",
+          "image": "assets/cards/103507.jpg",
+          "trainingImage": "assets/cards-large/103507.jpg",
           "stats": {
             "inHandWinRate": 51.3,
-            "inHandGames": 12907,
-            "openingHandWinRate": 48.5,
-            "openingHandGames": 4761,
-            "avgLastOffered": 6.46
+            "inHandGames": 39657,
+            "openingHandWinRate": 50.4,
+            "openingHandGames": 18519,
+            "avgLastOffered": 7.46
           }
         },
         {
@@ -1986,16 +2512,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 115,
           "tier": "C-",
           "band": "playable",
-          "name": "Galion, Elvenking's Butler",
+          "name": "Gigantic Big Bear",
           "color": "G",
-          "image": "assets/cards/103505.jpg",
-          "trainingImage": "assets/cards-large/103505.jpg",
+          "image": "assets/cards/103506.jpg",
+          "trainingImage": "assets/cards-large/103506.jpg",
           "stats": {
-            "inHandWinRate": 51.4,
-            "inHandGames": 16710,
-            "openingHandWinRate": 50.3,
-            "openingHandGames": 7134,
-            "avgLastOffered": 5.57
+            "inHandWinRate": 51.3,
+            "inHandGames": 11704,
+            "openingHandWinRate": 48.2,
+            "openingHandGames": 4640,
+            "avgLastOffered": 3.15
           }
         },
         {
@@ -2003,16 +2529,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 116,
           "tier": "C-",
           "band": "playable",
-          "name": "Enchanted River's Grasp",
-          "color": "U",
-          "image": "assets/cards/103411.jpg",
-          "trainingImage": "assets/cards-large/103411.jpg",
+          "name": "Nori, Teller of Tales",
+          "color": "M",
+          "image": "assets/cards/103541.jpg",
+          "trainingImage": "assets/cards-large/103541.jpg",
           "stats": {
             "inHandWinRate": 51.2,
-            "inHandGames": 48745,
-            "openingHandWinRate": 46.9,
-            "openingHandGames": 20584,
-            "avgLastOffered": 5.51
+            "inHandGames": 58386,
+            "openingHandWinRate": 51.4,
+            "openingHandGames": 26360,
+            "avgLastOffered": 6.19
           }
         },
         {
@@ -2020,16 +2546,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 117,
           "tier": "C-",
           "band": "playable",
-          "name": "Reverent Howl",
-          "color": "B",
-          "image": "assets/cards/103457.jpg",
-          "trainingImage": "assets/cards-large/103457.jpg",
+          "name": "Elven Passage",
+          "color": "C",
+          "image": "assets/cards/103565.jpg",
+          "trainingImage": "assets/cards-large/103565.jpg",
           "stats": {
-            "inHandWinRate": 51.2,
-            "inHandGames": 25246,
-            "openingHandWinRate": 48.8,
-            "openingHandGames": 11138,
-            "avgLastOffered": 6.75
+            "inHandWinRate": 51.1,
+            "inHandGames": 12473,
+            "openingHandWinRate": 49.8,
+            "openingHandGames": 5396,
+            "avgLastOffered": 4.31
           }
         },
         {
@@ -2037,16 +2563,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 118,
           "tier": "C-",
           "band": "playable",
-          "name": "Snowslope Hunter",
+          "name": "Goblin-town Flunkies",
           "color": "R",
-          "image": "assets/cards/103491.jpg",
-          "trainingImage": "assets/cards-large/103491.jpg",
+          "image": "assets/cards/103478.jpg",
+          "trainingImage": "assets/cards-large/103478.jpg",
           "stats": {
-            "inHandWinRate": 51.2,
-            "inHandGames": 21964,
-            "openingHandWinRate": 50,
-            "openingHandGames": 9663,
-            "avgLastOffered": 5.01
+            "inHandWinRate": 51.1,
+            "inHandGames": 49478,
+            "openingHandWinRate": 50.9,
+            "openingHandGames": 23371,
+            "avgLastOffered": 6.8
           }
         },
         {
@@ -2054,16 +2580,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 119,
           "tier": "C-",
           "band": "playable",
-          "name": "Wilderland Scrounger",
-          "color": "G",
-          "image": "assets/cards/103521.jpg",
-          "trainingImage": "assets/cards-large/103521.jpg",
+          "name": "Dáin, Lord of the Iron Hills",
+          "color": "W",
+          "image": "assets/cards/103376.jpg",
+          "trainingImage": "assets/cards-large/103376.jpg",
           "stats": {
-            "inHandWinRate": 51.3,
-            "inHandGames": 19960,
-            "openingHandWinRate": 49.4,
-            "openingHandGames": 8349,
-            "avgLastOffered": 4.67
+            "inHandWinRate": 51.1,
+            "inHandGames": 35396,
+            "openingHandWinRate": 50.7,
+            "openingHandGames": 15188,
+            "avgLastOffered": 4.51
           }
         },
         {
@@ -2071,16 +2597,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 120,
           "tier": "C-",
           "band": "playable",
-          "name": "Esgaroth Garrison",
-          "color": "W",
-          "image": "assets/cards/103381.jpg",
-          "trainingImage": "assets/cards-large/103381.jpg",
+          "name": "Wilderland Scrounger",
+          "color": "G",
+          "image": "assets/cards/103521.jpg",
+          "trainingImage": "assets/cards-large/103521.jpg",
           "stats": {
             "inHandWinRate": 51.1,
-            "inHandGames": 12323,
-            "openingHandWinRate": 49,
-            "openingHandGames": 4645,
-            "avgLastOffered": 8.5
+            "inHandGames": 29294,
+            "openingHandWinRate": 49.4,
+            "openingHandGames": 12242,
+            "avgLastOffered": 5.04
           }
         },
         {
@@ -2088,16 +2614,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 121,
           "tier": "C-",
           "band": "playable",
-          "name": "Eagle's Rescue",
-          "color": "M",
-          "image": "assets/cards/103535.jpg",
-          "trainingImage": "assets/cards-large/103535.jpg",
+          "name": "Snowslope Hunter",
+          "color": "R",
+          "image": "assets/cards/103491.jpg",
+          "trainingImage": "assets/cards-large/103491.jpg",
           "stats": {
             "inHandWinRate": 51.1,
-            "inHandGames": 15066,
-            "openingHandWinRate": 48.1,
-            "openingHandGames": 5791,
-            "avgLastOffered": 5.62
+            "inHandGames": 32044,
+            "openingHandWinRate": 49.7,
+            "openingHandGames": 14049,
+            "avgLastOffered": 5.35
           }
         },
         {
@@ -2105,16 +2631,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 122,
           "tier": "C-",
           "band": "playable",
-          "name": "Mirkwood Nurturer",
-          "color": "M",
-          "image": "assets/cards/103540.jpg",
-          "trainingImage": "assets/cards-large/103540.jpg",
+          "name": "Most Decrepit Old Bird",
+          "color": "U",
+          "image": "assets/cards/103422.jpg",
+          "trainingImage": "assets/cards-large/103422.jpg",
           "stats": {
-            "inHandWinRate": 51.2,
-            "inHandGames": 33604,
-            "openingHandWinRate": 48.3,
-            "openingHandGames": 14815,
-            "avgLastOffered": 6.48
+            "inHandWinRate": 51,
+            "inHandGames": 7940,
+            "openingHandWinRate": 49.1,
+            "openingHandGames": 3025,
+            "avgLastOffered": 4.66
           }
         },
         {
@@ -2122,16 +2648,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 123,
           "tier": "C-",
           "band": "playable",
-          "name": "The Chief Warg",
-          "color": "M",
-          "image": "assets/cards/103530.jpg",
-          "trainingImage": "assets/cards-large/103530.jpg",
+          "name": "Radagast of Rhosgobel",
+          "color": "G",
+          "image": "assets/cards/103516.jpg",
+          "trainingImage": "assets/cards-large/103516.jpg",
           "stats": {
-            "inHandWinRate": 50.9,
-            "inHandGames": 22701,
-            "openingHandWinRate": 49.6,
-            "openingHandGames": 10440,
-            "avgLastOffered": 3.77
+            "inHandWinRate": 51,
+            "inHandGames": 11577,
+            "openingHandWinRate": 49.4,
+            "openingHandGames": 4821,
+            "avgLastOffered": 2.84
           }
         },
         {
@@ -2139,16 +2665,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 124,
           "tier": "C-",
           "band": "playable",
-          "name": "Well-Worn Spatula",
-          "color": "C",
-          "image": "assets/cards/103564.jpg",
-          "trainingImage": "assets/cards-large/103564.jpg",
+          "name": "Lake-town Toymaker",
+          "color": "W",
+          "image": "assets/cards/103387.jpg",
+          "trainingImage": "assets/cards-large/103387.jpg",
           "stats": {
-            "inHandWinRate": 50.8,
-            "inHandGames": 13494,
-            "openingHandWinRate": 50.5,
-            "openingHandGames": 5900,
-            "avgLastOffered": 8.21
+            "inHandWinRate": 51,
+            "inHandGames": 17786,
+            "openingHandWinRate": 48.1,
+            "openingHandGames": 6554,
+            "avgLastOffered": 6.7
           }
         },
         {
@@ -2156,55 +2682,21 @@ window.LIMITED_PREP_DATA = {
           "rank": 125,
           "tier": "C-",
           "band": "playable",
-          "name": "Dwarven Shortsword",
-          "color": "W",
-          "image": "assets/cards/103378.jpg",
-          "trainingImage": "assets/cards-large/103378.jpg",
+          "name": "Reverent Howl",
+          "color": "B",
+          "image": "assets/cards/103457.jpg",
+          "trainingImage": "assets/cards-large/103457.jpg",
           "stats": {
-            "inHandWinRate": 50.7,
-            "inHandGames": 38634,
-            "openingHandWinRate": 50,
-            "openingHandGames": 17199,
-            "avgLastOffered": 6.72
+            "inHandWinRate": 51,
+            "inHandGames": 37228,
+            "openingHandWinRate": 48.6,
+            "openingHandGames": 16355,
+            "avgLastOffered": 6.77
           }
         },
         {
           "id": "hob-126",
           "rank": 126,
-          "tier": "C-",
-          "band": "playable",
-          "name": "Dáin, Lord of the Iron Hills",
-          "color": "W",
-          "image": "assets/cards/103376.jpg",
-          "trainingImage": "assets/cards-large/103376.jpg",
-          "stats": {
-            "inHandWinRate": 50.7,
-            "inHandGames": 23653,
-            "openingHandWinRate": 50.2,
-            "openingHandGames": 10149,
-            "avgLastOffered": 4.39
-          }
-        },
-        {
-          "id": "hob-127",
-          "rank": 127,
-          "tier": "C-",
-          "band": "playable",
-          "name": "Woodland Weavemaster",
-          "color": "G",
-          "image": "assets/cards/103523.jpg",
-          "trainingImage": "assets/cards-large/103523.jpg",
-          "stats": {
-            "inHandWinRate": 50.6,
-            "inHandGames": 14110,
-            "openingHandWinRate": 52.5,
-            "openingHandGames": 6603,
-            "avgLastOffered": 5.7
-          }
-        },
-        {
-          "id": "hob-128",
-          "rank": 128,
           "tier": "C-",
           "band": "playable",
           "name": "Azog, Moria's Ruin",
@@ -2213,95 +2705,129 @@ window.LIMITED_PREP_DATA = {
           "trainingImage": "assets/cards-large/103435.jpg",
           "stats": {
             "inHandWinRate": 50.9,
-            "inHandGames": 10265,
-            "openingHandWinRate": 49.7,
-            "openingHandGames": 4324,
-            "avgLastOffered": 2.68
+            "inHandGames": 14937,
+            "openingHandWinRate": 49.5,
+            "openingHandGames": 6284,
+            "avgLastOffered": 2.88
+          }
+        },
+        {
+          "id": "hob-127",
+          "rank": 127,
+          "tier": "C-",
+          "band": "playable",
+          "name": "Dwarven Shortsword",
+          "color": "W",
+          "image": "assets/cards/103378.jpg",
+          "trainingImage": "assets/cards-large/103378.jpg",
+          "stats": {
+            "inHandWinRate": 50.8,
+            "inHandGames": 57266,
+            "openingHandWinRate": 50.1,
+            "openingHandGames": 25409,
+            "avgLastOffered": 6.77
+          }
+        },
+        {
+          "id": "hob-128",
+          "rank": 128,
+          "tier": "C-",
+          "band": "playable",
+          "name": "The Chief Warg",
+          "color": "M",
+          "image": "assets/cards/103530.jpg",
+          "trainingImage": "assets/cards-large/103530.jpg",
+          "stats": {
+            "inHandWinRate": 50.8,
+            "inHandGames": 33311,
+            "openingHandWinRate": 49.6,
+            "openingHandGames": 15260,
+            "avgLastOffered": 4.22
           }
         },
         {
           "id": "hob-129",
           "rank": 129,
-          "tier": "D+",
-          "band": "filler",
-          "name": "Most Decrepit Old Bird",
-          "color": "U",
-          "image": "assets/cards/103422.jpg",
-          "trainingImage": "assets/cards-large/103422.jpg",
+          "tier": "C-",
+          "band": "playable",
+          "name": "Well-Worn Spatula",
+          "color": "C",
+          "image": "assets/cards/103564.jpg",
+          "trainingImage": "assets/cards-large/103564.jpg",
           "stats": {
             "inHandWinRate": 50.8,
-            "inHandGames": 5445,
-            "openingHandWinRate": 49.5,
-            "openingHandGames": 2100,
-            "avgLastOffered": 4.62
+            "inHandGames": 19926,
+            "openingHandWinRate": 50.5,
+            "openingHandGames": 8674,
+            "avgLastOffered": 8.18
           }
         },
         {
           "id": "hob-130",
           "rank": 130,
-          "tier": "D+",
-          "band": "filler",
+          "tier": "C-",
+          "band": "playable",
           "name": "Elvenking's Harper",
           "color": "U",
           "image": "assets/cards/103410.jpg",
           "trainingImage": "assets/cards-large/103410.jpg",
           "stats": {
-            "inHandWinRate": 50.3,
-            "inHandGames": 13329,
-            "openingHandWinRate": 48.8,
-            "openingHandGames": 5661,
-            "avgLastOffered": 8.85
+            "inHandWinRate": 50.7,
+            "inHandGames": 19005,
+            "openingHandWinRate": 48.7,
+            "openingHandGames": 7966,
+            "avgLastOffered": 8.83
           }
         },
         {
           "id": "hob-131",
           "rank": 131,
-          "tier": "D+",
-          "band": "filler",
-          "name": "Elven Passage",
-          "color": "C",
-          "image": "assets/cards/103565.jpg",
-          "trainingImage": "assets/cards-large/103565.jpg",
+          "tier": "C-",
+          "band": "playable",
+          "name": "Sound the Trumpets",
+          "color": "U",
+          "image": "assets/cards/103429.jpg",
+          "trainingImage": "assets/cards-large/103429.jpg",
           "stats": {
-            "inHandWinRate": 50.6,
-            "inHandGames": 8321,
-            "openingHandWinRate": 49.7,
-            "openingHandGames": 3630,
-            "avgLastOffered": 4.17
+            "inHandWinRate": 50.7,
+            "inHandGames": 13513,
+            "openingHandWinRate": 46.4,
+            "openingHandGames": 5014,
+            "avgLastOffered": 6.86
           }
         },
         {
           "id": "hob-132",
           "rank": 132,
-          "tier": "D+",
-          "band": "filler",
-          "name": "Great Fierce Bee",
-          "color": "B",
-          "image": "assets/cards/103448.jpg",
-          "trainingImage": "assets/cards-large/103448.jpg",
+          "tier": "C-",
+          "band": "playable",
+          "name": "Woodland Weavemaster",
+          "color": "G",
+          "image": "assets/cards/103523.jpg",
+          "trainingImage": "assets/cards-large/103523.jpg",
           "stats": {
-            "inHandWinRate": 50.2,
-            "inHandGames": 17141,
-            "openingHandWinRate": 49.4,
-            "openingHandGames": 7570,
-            "avgLastOffered": 7.44
+            "inHandWinRate": 50.5,
+            "inHandGames": 20219,
+            "openingHandWinRate": 52.1,
+            "openingHandGames": 9476,
+            "avgLastOffered": 6
           }
         },
         {
           "id": "hob-133",
           "rank": 133,
-          "tier": "D+",
-          "band": "filler",
-          "name": "Along the Crooked Way",
-          "color": "B",
-          "image": "assets/cards/103434.jpg",
-          "trainingImage": "assets/cards-large/103434.jpg",
+          "tier": "C-",
+          "band": "playable",
+          "name": "The Lord of the Eagles",
+          "color": "U",
+          "image": "assets/cards/103419.jpg",
+          "trainingImage": "assets/cards-large/103419.jpg",
           "stats": {
-            "inHandWinRate": 50.2,
-            "inHandGames": 7875,
-            "openingHandWinRate": 46.3,
-            "openingHandGames": 3216,
-            "avgLastOffered": 3.34
+            "inHandWinRate": 50.4,
+            "inHandGames": 8348,
+            "openingHandWinRate": 45.6,
+            "openingHandGames": 2970,
+            "avgLastOffered": 4.36
           }
         },
         {
@@ -2314,11 +2840,11 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103469.jpg",
           "trainingImage": "assets/cards-large/103469.jpg",
           "stats": {
-            "inHandWinRate": 50.1,
-            "inHandGames": 5810,
-            "openingHandWinRate": 48.7,
-            "openingHandGames": 2410,
-            "avgLastOffered": 3.97
+            "inHandWinRate": 50.4,
+            "inHandGames": 8514,
+            "openingHandWinRate": 48.4,
+            "openingHandGames": 3492,
+            "avgLastOffered": 3.94
           }
         },
         {
@@ -2326,16 +2852,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 135,
           "tier": "D+",
           "band": "filler",
-          "name": "Confusticate and Bebother",
-          "color": "U",
-          "image": "assets/cards/103407.jpg",
-          "trainingImage": "assets/cards-large/103407.jpg",
+          "name": "Silvan Reveler",
+          "color": "M",
+          "image": "assets/cards/103543.jpg",
+          "trainingImage": "assets/cards-large/103543.jpg",
           "stats": {
-            "inHandWinRate": 50,
-            "inHandGames": 25465,
-            "openingHandWinRate": 46.6,
-            "openingHandGames": 10003,
-            "avgLastOffered": 7.74
+            "inHandWinRate": 50.3,
+            "inHandGames": 25042,
+            "openingHandWinRate": 48.8,
+            "openingHandGames": 10457,
+            "avgLastOffered": 5.52
           }
         },
         {
@@ -2343,16 +2869,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 136,
           "tier": "D+",
           "band": "filler",
-          "name": "The Lord of the Eagles",
+          "name": "Confusticate and Bebother",
           "color": "U",
-          "image": "assets/cards/103419.jpg",
-          "trainingImage": "assets/cards-large/103419.jpg",
+          "image": "assets/cards/103407.jpg",
+          "trainingImage": "assets/cards-large/103407.jpg",
           "stats": {
-            "inHandWinRate": 49.8,
-            "inHandGames": 5771,
-            "openingHandWinRate": 44.6,
-            "openingHandGames": 2076,
-            "avgLastOffered": 3.87
+            "inHandWinRate": 50.2,
+            "inHandGames": 36383,
+            "openingHandWinRate": 46.9,
+            "openingHandGames": 14309,
+            "avgLastOffered": 7.74
           }
         },
         {
@@ -2360,16 +2886,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 137,
           "tier": "D+",
           "band": "filler",
-          "name": "Bolg's Company",
-          "color": "M",
-          "image": "assets/cards/103529.jpg",
-          "trainingImage": "assets/cards-large/103529.jpg",
+          "name": "Long-Bodied Grey Dog",
+          "color": "C",
+          "image": "assets/cards/103368.jpg",
+          "trainingImage": "assets/cards-large/103368.jpg",
           "stats": {
-            "inHandWinRate": 50,
-            "inHandGames": 8461,
-            "openingHandWinRate": 50.2,
-            "openingHandGames": 3586,
-            "avgLastOffered": 3.94
+            "inHandWinRate": 50.2,
+            "inHandGames": 19360,
+            "openingHandWinRate": 49.3,
+            "openingHandGames": 8608,
+            "avgLastOffered": 8.05
           }
         },
         {
@@ -2377,16 +2903,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 138,
           "tier": "D+",
           "band": "filler",
-          "name": "Sound the Trumpets",
-          "color": "U",
-          "image": "assets/cards/103429.jpg",
-          "trainingImage": "assets/cards-large/103429.jpg",
+          "name": "Along the Crooked Way",
+          "color": "B",
+          "image": "assets/cards/103434.jpg",
+          "trainingImage": "assets/cards-large/103434.jpg",
           "stats": {
-            "inHandWinRate": 49.8,
-            "inHandGames": 9114,
-            "openingHandWinRate": 45.9,
-            "openingHandGames": 3369,
-            "avgLastOffered": 6.84
+            "inHandWinRate": 50.2,
+            "inHandGames": 11552,
+            "openingHandWinRate": 46.2,
+            "openingHandGames": 4762,
+            "avgLastOffered": 3.45
           }
         },
         {
@@ -2399,11 +2925,11 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103566.jpg",
           "trainingImage": "assets/cards-large/103566.jpg",
           "stats": {
-            "inHandWinRate": 49.9,
-            "inHandGames": 23399,
-            "openingHandWinRate": 50.4,
-            "openingHandGames": 10913,
-            "avgLastOffered": 7.38
+            "inHandWinRate": 50.1,
+            "inHandGames": 34031,
+            "openingHandWinRate": 50.3,
+            "openingHandGames": 16001,
+            "avgLastOffered": 7.57
           }
         },
         {
@@ -2411,16 +2937,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 140,
           "tier": "D+",
           "band": "filler",
-          "name": "Troop of Ponies",
-          "color": "C",
-          "image": "assets/cards/103370.jpg",
-          "trainingImage": "assets/cards-large/103370.jpg",
+          "name": "Great Fierce Bee",
+          "color": "B",
+          "image": "assets/cards/103448.jpg",
+          "trainingImage": "assets/cards-large/103448.jpg",
           "stats": {
-            "inHandWinRate": 49.6,
-            "inHandGames": 12655,
-            "openingHandWinRate": 50.1,
-            "openingHandGames": 5671,
-            "avgLastOffered": 5.42
+            "inHandWinRate": 50.1,
+            "inHandGames": 24956,
+            "openingHandWinRate": 49.1,
+            "openingHandGames": 11042,
+            "avgLastOffered": 7.46
           }
         },
         {
@@ -2428,21 +2954,89 @@ window.LIMITED_PREP_DATA = {
           "rank": 141,
           "tier": "D+",
           "band": "filler",
-          "name": "Cantankerous Keepers",
-          "color": "G",
-          "image": "assets/cards/103502.jpg",
-          "trainingImage": "assets/cards-large/103502.jpg",
+          "name": "Bolg's Company",
+          "color": "M",
+          "image": "assets/cards/103529.jpg",
+          "trainingImage": "assets/cards-large/103529.jpg",
           "stats": {
-            "inHandWinRate": 49.7,
-            "inHandGames": 4819,
-            "openingHandWinRate": 48.2,
-            "openingHandGames": 1853,
-            "avgLastOffered": 4.54
+            "inHandWinRate": 49.9,
+            "inHandGames": 12549,
+            "openingHandWinRate": 49.7,
+            "openingHandGames": 5360,
+            "avgLastOffered": 4.05
           }
         },
         {
           "id": "hob-142",
           "rank": 142,
+          "tier": "D+",
+          "band": "filler",
+          "name": "Velvetwing Butterflies",
+          "color": "W",
+          "image": "assets/cards/103399.jpg",
+          "trainingImage": "assets/cards-large/103399.jpg",
+          "stats": {
+            "inHandWinRate": 49.8,
+            "inHandGames": 28686,
+            "openingHandWinRate": 46.1,
+            "openingHandGames": 12314,
+            "avgLastOffered": 7.75
+          }
+        },
+        {
+          "id": "hob-143",
+          "rank": 143,
+          "tier": "D+",
+          "band": "filler",
+          "name": "The Notary Hobbits",
+          "color": "G",
+          "image": "assets/cards/103511.jpg",
+          "trainingImage": "assets/cards-large/103511.jpg",
+          "stats": {
+            "inHandWinRate": 49.8,
+            "inHandGames": 3641,
+            "openingHandWinRate": 48.5,
+            "openingHandGames": 1443,
+            "avgLastOffered": 5.17
+          }
+        },
+        {
+          "id": "hob-144",
+          "rank": 144,
+          "tier": "D+",
+          "band": "filler",
+          "name": "Troop of Ponies",
+          "color": "C",
+          "image": "assets/cards/103370.jpg",
+          "trainingImage": "assets/cards-large/103370.jpg",
+          "stats": {
+            "inHandWinRate": 49.8,
+            "inHandGames": 17703,
+            "openingHandWinRate": 50.5,
+            "openingHandGames": 7917,
+            "avgLastOffered": 5.68
+          }
+        },
+        {
+          "id": "hob-145",
+          "rank": 145,
+          "tier": "D+",
+          "band": "filler",
+          "name": "Part in Friendship",
+          "color": "G",
+          "image": "assets/cards/103514.jpg",
+          "trainingImage": "assets/cards-large/103514.jpg",
+          "stats": {
+            "inHandWinRate": 49.7,
+            "inHandGames": 10719,
+            "openingHandWinRate": 47.3,
+            "openingHandGames": 4215,
+            "avgLastOffered": 3.99
+          }
+        },
+        {
+          "id": "hob-146",
+          "rank": 146,
           "tier": "D+",
           "band": "filler",
           "name": "Eagle of the Great Shelf",
@@ -2451,78 +3045,10 @@ window.LIMITED_PREP_DATA = {
           "trainingImage": "assets/cards-large/103379.jpg",
           "stats": {
             "inHandWinRate": 49.6,
-            "inHandGames": 13820,
-            "openingHandWinRate": 45.3,
-            "openingHandGames": 5128,
-            "avgLastOffered": 6.01
-          }
-        },
-        {
-          "id": "hob-143",
-          "rank": 143,
-          "tier": "D+",
-          "band": "filler",
-          "name": "Part in Friendship",
-          "color": "G",
-          "image": "assets/cards/103514.jpg",
-          "trainingImage": "assets/cards-large/103514.jpg",
-          "stats": {
-            "inHandWinRate": 49.6,
-            "inHandGames": 7268,
-            "openingHandWinRate": 46.7,
-            "openingHandGames": 2860,
-            "avgLastOffered": 3.84
-          }
-        },
-        {
-          "id": "hob-144",
-          "rank": 144,
-          "tier": "D+",
-          "band": "filler",
-          "name": "Silvan Reveler",
-          "color": "M",
-          "image": "assets/cards/103543.jpg",
-          "trainingImage": "assets/cards-large/103543.jpg",
-          "stats": {
-            "inHandWinRate": 49.7,
-            "inHandGames": 17243,
-            "openingHandWinRate": 48.6,
-            "openingHandGames": 7216,
-            "avgLastOffered": 5.1
-          }
-        },
-        {
-          "id": "hob-145",
-          "rank": 145,
-          "tier": "D+",
-          "band": "filler",
-          "name": "Velvetwing Butterflies",
-          "color": "W",
-          "image": "assets/cards/103399.jpg",
-          "trainingImage": "assets/cards-large/103399.jpg",
-          "stats": {
-            "inHandWinRate": 49.5,
-            "inHandGames": 20132,
-            "openingHandWinRate": 45.4,
-            "openingHandGames": 8649,
-            "avgLastOffered": 7.76
-          }
-        },
-        {
-          "id": "hob-146",
-          "rank": 146,
-          "tier": "D+",
-          "band": "filler",
-          "name": "Balin, Loremaster",
-          "color": "R",
-          "image": "assets/cards/103463.jpg",
-          "trainingImage": "assets/cards-large/103463.jpg",
-          "stats": {
-            "inHandWinRate": 49.4,
-            "inHandGames": 7221,
-            "openingHandWinRate": 47.7,
-            "openingHandGames": 2883,
-            "avgLastOffered": 3.82
+            "inHandGames": 19280,
+            "openingHandWinRate": 46.2,
+            "openingHandGames": 7179,
+            "avgLastOffered": 6.3
           }
         },
         {
@@ -2530,16 +3056,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 147,
           "tier": "D+",
           "band": "filler",
-          "name": "The Notary Hobbits",
-          "color": "G",
-          "image": "assets/cards/103511.jpg",
-          "trainingImage": "assets/cards-large/103511.jpg",
+          "name": "Old Thrush",
+          "color": "C",
+          "image": "assets/cards/103369.jpg",
+          "trainingImage": "assets/cards-large/103369.jpg",
           "stats": {
-            "inHandWinRate": 49.4,
-            "inHandGames": 2678,
-            "openingHandWinRate": 47.9,
-            "openingHandGames": 1055,
-            "avgLastOffered": 5.09
+            "inHandWinRate": 49.5,
+            "inHandGames": 19981,
+            "openingHandWinRate": 48.5,
+            "openingHandGames": 9154,
+            "avgLastOffered": 7.8
           }
         },
         {
@@ -2547,16 +3073,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 148,
           "tier": "D+",
           "band": "filler",
-          "name": "Long-Bodied Grey Dog",
-          "color": "C",
-          "image": "assets/cards/103368.jpg",
-          "trainingImage": "assets/cards-large/103368.jpg",
+          "name": "Cantankerous Keepers",
+          "color": "G",
+          "image": "assets/cards/103502.jpg",
+          "trainingImage": "assets/cards-large/103502.jpg",
           "stats": {
             "inHandWinRate": 49.5,
-            "inHandGames": 13213,
-            "openingHandWinRate": 48.4,
-            "openingHandGames": 5886,
-            "avgLastOffered": 8.1
+            "inHandGames": 6882,
+            "openingHandWinRate": 47.8,
+            "openingHandGames": 2700,
+            "avgLastOffered": 4.78
           }
         },
         {
@@ -2564,16 +3090,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 149,
           "tier": "D+",
           "band": "filler",
-          "name": "Smaug's Fury",
-          "color": "R",
-          "image": "assets/cards/103490.jpg",
-          "trainingImage": "assets/cards-large/103490.jpg",
+          "name": "Ravenhill Flock",
+          "color": "U",
+          "image": "assets/cards/103426.jpg",
+          "trainingImage": "assets/cards-large/103426.jpg",
           "stats": {
-            "inHandWinRate": 49.3,
-            "inHandGames": 11915,
-            "openingHandWinRate": 48.5,
-            "openingHandGames": 4979,
-            "avgLastOffered": 8.16
+            "inHandWinRate": 49.4,
+            "inHandGames": 22169,
+            "openingHandWinRate": 46.5,
+            "openingHandGames": 8403,
+            "avgLastOffered": 5.59
           }
         },
         {
@@ -2581,16 +3107,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 150,
           "tier": "D+",
           "band": "filler",
-          "name": "Elrond, Moon-Reader",
-          "color": "U",
-          "image": "assets/cards/103408.jpg",
-          "trainingImage": "assets/cards-large/103408.jpg",
+          "name": "Belladonna Took",
+          "color": "W",
+          "image": "assets/cards/103371.jpg",
+          "trainingImage": "assets/cards-large/103371.jpg",
           "stats": {
-            "inHandWinRate": 48.9,
-            "inHandGames": 3515,
-            "openingHandWinRate": 46.1,
-            "openingHandGames": 1342,
-            "avgLastOffered": 3.09
+            "inHandWinRate": 49.2,
+            "inHandGames": 10251,
+            "openingHandWinRate": 48.5,
+            "openingHandGames": 4042,
+            "avgLastOffered": 3.65
           }
         },
         {
@@ -2603,11 +3129,11 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103480.jpg",
           "trainingImage": "assets/cards-large/103480.jpg",
           "stats": {
-            "inHandWinRate": 49.3,
-            "inHandGames": 18276,
-            "openingHandWinRate": 47.6,
-            "openingHandGames": 7476,
-            "avgLastOffered": 7.76
+            "inHandWinRate": 49.1,
+            "inHandGames": 26006,
+            "openingHandWinRate": 47.5,
+            "openingHandGames": 10584,
+            "avgLastOffered": 7.8
           }
         },
         {
@@ -2615,16 +3141,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 152,
           "tier": "D",
           "band": "filler",
-          "name": "Ravenhill Flock",
+          "name": "Old Fat Spider Can't See Me",
           "color": "U",
-          "image": "assets/cards/103426.jpg",
-          "trainingImage": "assets/cards-large/103426.jpg",
+          "image": "assets/cards/103424.jpg",
+          "trainingImage": "assets/cards-large/103424.jpg",
           "stats": {
-            "inHandWinRate": 49.2,
-            "inHandGames": 15236,
-            "openingHandWinRate": 46.3,
-            "openingHandGames": 5758,
-            "avgLastOffered": 5.38
+            "inHandWinRate": 49,
+            "inHandGames": 22651,
+            "openingHandWinRate": 46.9,
+            "openingHandGames": 8693,
+            "avgLastOffered": 5.88
           }
         },
         {
@@ -2632,21 +3158,38 @@ window.LIMITED_PREP_DATA = {
           "rank": 153,
           "tier": "D",
           "band": "filler",
-          "name": "Belladonna Took",
-          "color": "W",
-          "image": "assets/cards/103371.jpg",
-          "trainingImage": "assets/cards-large/103371.jpg",
+          "name": "Smaug's Fury",
+          "color": "R",
+          "image": "assets/cards/103490.jpg",
+          "trainingImage": "assets/cards-large/103490.jpg",
           "stats": {
             "inHandWinRate": 49,
-            "inHandGames": 6910,
-            "openingHandWinRate": 48.4,
-            "openingHandGames": 2711,
-            "avgLastOffered": 3.45
+            "inHandGames": 17443,
+            "openingHandWinRate": 48,
+            "openingHandGames": 7356,
+            "avgLastOffered": 8.08
           }
         },
         {
           "id": "hob-154",
           "rank": 154,
+          "tier": "D",
+          "band": "filler",
+          "name": "Balin, Loremaster",
+          "color": "R",
+          "image": "assets/cards/103463.jpg",
+          "trainingImage": "assets/cards-large/103463.jpg",
+          "stats": {
+            "inHandWinRate": 48.9,
+            "inHandGames": 10176,
+            "openingHandWinRate": 47.1,
+            "openingHandGames": 4034,
+            "avgLastOffered": 4.02
+          }
+        },
+        {
+          "id": "hob-155",
+          "rank": 155,
           "tier": "D",
           "band": "filler",
           "name": "Beorn, Reluctant Host",
@@ -2655,27 +3198,10 @@ window.LIMITED_PREP_DATA = {
           "trainingImage": "assets/cards-large/103497.jpg",
           "stats": {
             "inHandWinRate": 48.9,
-            "inHandGames": 22800,
-            "openingHandWinRate": 48.1,
-            "openingHandGames": 10128,
-            "avgLastOffered": 7.38
-          }
-        },
-        {
-          "id": "hob-155",
-          "rank": 155,
-          "tier": "D",
-          "band": "filler",
-          "name": "Inside Information",
-          "color": "B",
-          "image": "assets/cards/103452.jpg",
-          "trainingImage": "assets/cards-large/103452.jpg",
-          "stats": {
-            "inHandWinRate": 49.1,
-            "inHandGames": 4318,
-            "openingHandWinRate": 48,
-            "openingHandGames": 1744,
-            "avgLastOffered": 2.92
+            "inHandGames": 31321,
+            "openingHandWinRate": 47.9,
+            "openingHandGames": 13942,
+            "avgLastOffered": 7.63
           }
         },
         {
@@ -2683,16 +3209,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 156,
           "tier": "D",
           "band": "filler",
-          "name": "Old Thrush",
+          "name": "The Black Arrow",
           "color": "C",
-          "image": "assets/cards/103369.jpg",
-          "trainingImage": "assets/cards-large/103369.jpg",
+          "image": "assets/cards/103553.jpg",
+          "trainingImage": "assets/cards-large/103553.jpg",
           "stats": {
-            "inHandWinRate": 48.8,
-            "inHandGames": 13172,
-            "openingHandWinRate": 47.9,
-            "openingHandGames": 6086,
-            "avgLastOffered": 7.91
+            "inHandWinRate": 48.9,
+            "inHandGames": 13773,
+            "openingHandWinRate": 47.6,
+            "openingHandGames": 5562,
+            "avgLastOffered": 6.2
           }
         },
         {
@@ -2700,16 +3226,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 157,
           "tier": "D",
           "band": "filler",
-          "name": "The Black Arrow",
-          "color": "C",
-          "image": "assets/cards/103553.jpg",
-          "trainingImage": "assets/cards-large/103553.jpg",
+          "name": "Little Bear",
+          "color": "G",
+          "image": "assets/cards/103508.jpg",
+          "trainingImage": "assets/cards-large/103508.jpg",
           "stats": {
             "inHandWinRate": 48.8,
-            "inHandGames": 9921,
-            "openingHandWinRate": 47.7,
-            "openingHandGames": 3956,
-            "avgLastOffered": 6.01
+            "inHandGames": 22479,
+            "openingHandWinRate": 47.6,
+            "openingHandGames": 10733,
+            "avgLastOffered": 8.07
           }
         },
         {
@@ -2717,16 +3243,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 158,
           "tier": "D",
           "band": "filler",
-          "name": "Old Fat Spider Can't See Me",
-          "color": "U",
-          "image": "assets/cards/103424.jpg",
-          "trainingImage": "assets/cards-large/103424.jpg",
+          "name": "Bard, King of Dale",
+          "color": "M",
+          "image": "assets/cards/103524.jpg",
+          "trainingImage": "assets/cards-large/103524.jpg",
           "stats": {
-            "inHandWinRate": 48.8,
-            "inHandGames": 15635,
-            "openingHandWinRate": 46.4,
-            "openingHandGames": 6006,
-            "avgLastOffered": 5.72
+            "inHandWinRate": 48.5,
+            "inHandGames": 5593,
+            "openingHandWinRate": 45,
+            "openingHandGames": 1928,
+            "avgLastOffered": 3
           }
         },
         {
@@ -2739,11 +3265,11 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103559.jpg",
           "trainingImage": "assets/cards-large/103559.jpg",
           "stats": {
-            "inHandWinRate": 48.9,
-            "inHandGames": 9763,
-            "openingHandWinRate": 45.3,
-            "openingHandGames": 4112,
-            "avgLastOffered": 2.25
+            "inHandWinRate": 48.5,
+            "inHandGames": 13995,
+            "openingHandWinRate": 45.4,
+            "openingHandGames": 5832,
+            "avgLastOffered": 2.5
           }
         },
         {
@@ -2751,16 +3277,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 160,
           "tier": "D",
           "band": "filler",
-          "name": "Little Bear",
-          "color": "G",
-          "image": "assets/cards/103508.jpg",
-          "trainingImage": "assets/cards-large/103508.jpg",
+          "name": "Inside Information",
+          "color": "B",
+          "image": "assets/cards/103452.jpg",
+          "trainingImage": "assets/cards-large/103452.jpg",
           "stats": {
-            "inHandWinRate": 48.7,
-            "inHandGames": 16333,
-            "openingHandWinRate": 47.5,
-            "openingHandGames": 7777,
-            "avgLastOffered": 7.92
+            "inHandWinRate": 48.5,
+            "inHandGames": 6306,
+            "openingHandWinRate": 47,
+            "openingHandGames": 2518,
+            "avgLastOffered": 3.1
           }
         },
         {
@@ -2768,16 +3294,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 161,
           "tier": "D",
           "band": "filler",
-          "name": "Thranduil's Decree",
+          "name": "Elrond, Moon-Reader",
           "color": "U",
-          "image": "assets/cards/103430.jpg",
-          "trainingImage": "assets/cards-large/103430.jpg",
+          "image": "assets/cards/103408.jpg",
+          "trainingImage": "assets/cards-large/103408.jpg",
           "stats": {
             "inHandWinRate": 48.3,
-            "inHandGames": 7300,
-            "openingHandWinRate": 46.2,
-            "openingHandGames": 2542,
-            "avgLastOffered": 7.16
+            "inHandGames": 4989,
+            "openingHandWinRate": 45.8,
+            "openingHandGames": 1902,
+            "avgLastOffered": 3.31
           }
         },
         {
@@ -2785,16 +3311,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 162,
           "tier": "D",
           "band": "filler",
-          "name": "Bard, King of Dale",
-          "color": "M",
-          "image": "assets/cards/103524.jpg",
-          "trainingImage": "assets/cards-large/103524.jpg",
+          "name": "Lake-town Mariners",
+          "color": "U",
+          "image": "assets/cards/103416.jpg",
+          "trainingImage": "assets/cards-large/103416.jpg",
           "stats": {
-            "inHandWinRate": 48.2,
-            "inHandGames": 3791,
-            "openingHandWinRate": 44.7,
-            "openingHandGames": 1319,
-            "avgLastOffered": 2.79
+            "inHandWinRate": 48.3,
+            "inHandGames": 11799,
+            "openingHandWinRate": 44.5,
+            "openingHandGames": 4158,
+            "avgLastOffered": 7.12
           }
         },
         {
@@ -2802,16 +3328,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 163,
           "tier": "D",
           "band": "filler",
-          "name": "Desert Were-Worm",
-          "color": "R",
-          "image": "assets/cards/103468.jpg",
-          "trainingImage": "assets/cards-large/103468.jpg",
+          "name": "Lake-town Lookout",
+          "color": "W",
+          "image": "assets/cards/103386.jpg",
+          "trainingImage": "assets/cards-large/103386.jpg",
           "stats": {
-            "inHandWinRate": 48,
-            "inHandGames": 5534,
-            "openingHandWinRate": 45.9,
-            "openingHandGames": 2209,
-            "avgLastOffered": 4.04
+            "inHandWinRate": 48.1,
+            "inHandGames": 20278,
+            "openingHandWinRate": 47,
+            "openingHandGames": 9161,
+            "avgLastOffered": 8.37
           }
         },
         {
@@ -2819,16 +3345,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 164,
           "tier": "D",
           "band": "filler",
-          "name": "Lake-town Mariners",
+          "name": "Elven Raft-Steerer",
           "color": "U",
-          "image": "assets/cards/103416.jpg",
-          "trainingImage": "assets/cards-large/103416.jpg",
+          "image": "assets/cards/103409.jpg",
+          "trainingImage": "assets/cards-large/103409.jpg",
           "stats": {
             "inHandWinRate": 48,
-            "inHandGames": 8768,
-            "openingHandWinRate": 43.6,
-            "openingHandGames": 3086,
-            "avgLastOffered": 6.83
+            "inHandGames": 12496,
+            "openingHandWinRate": 46,
+            "openingHandGames": 5233,
+            "avgLastOffered": 7.09
           }
         },
         {
@@ -2836,16 +3362,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 165,
           "tier": "D",
           "band": "filler",
-          "name": "Lake-town Lookout",
-          "color": "W",
-          "image": "assets/cards/103386.jpg",
-          "trainingImage": "assets/cards-large/103386.jpg",
+          "name": "Orcrist, Goblin-cleaver",
+          "color": "C",
+          "image": "assets/cards/103561.jpg",
+          "trainingImage": "assets/cards-large/103561.jpg",
           "stats": {
-            "inHandWinRate": 47.7,
-            "inHandGames": 14402,
-            "openingHandWinRate": 47.1,
-            "openingHandGames": 6507,
-            "avgLastOffered": 8.27
+            "inHandWinRate": 47.9,
+            "inHandGames": 6339,
+            "openingHandWinRate": 44.9,
+            "openingHandGames": 2557,
+            "avgLastOffered": 2.16
           }
         },
         {
@@ -2853,16 +3379,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 166,
           "tier": "D",
           "band": "filler",
-          "name": "Elven Raft-Steerer",
-          "color": "U",
-          "image": "assets/cards/103409.jpg",
-          "trainingImage": "assets/cards-large/103409.jpg",
+          "name": "Vow to Erebor",
+          "color": "W",
+          "image": "assets/cards/103401.jpg",
+          "trainingImage": "assets/cards-large/103401.jpg",
           "stats": {
-            "inHandWinRate": 47.8,
-            "inHandGames": 9094,
-            "openingHandWinRate": 45.9,
-            "openingHandGames": 3838,
-            "avgLastOffered": 6.85
+            "inHandWinRate": 47.9,
+            "inHandGames": 16708,
+            "openingHandWinRate": 45.8,
+            "openingHandGames": 6982,
+            "avgLastOffered": 8.7
           }
         },
         {
@@ -2870,16 +3396,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 167,
           "tier": "D",
           "band": "filler",
-          "name": "Sting, Bilbo's Sword",
-          "color": "C",
-          "image": "assets/cards/103562.jpg",
-          "trainingImage": "assets/cards-large/103562.jpg",
+          "name": "Thranduil's Decree",
+          "color": "U",
+          "image": "assets/cards/103430.jpg",
+          "trainingImage": "assets/cards-large/103430.jpg",
           "stats": {
-            "inHandWinRate": 47.5,
-            "inHandGames": 6472,
-            "openingHandWinRate": 44.5,
-            "openingHandGames": 2575,
-            "avgLastOffered": 3.32
+            "inHandWinRate": 47.8,
+            "inHandGames": 9357,
+            "openingHandWinRate": 45.3,
+            "openingHandGames": 3256,
+            "avgLastOffered": 7.39
           }
         },
         {
@@ -2892,11 +3418,11 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103413.jpg",
           "trainingImage": "assets/cards-large/103413.jpg",
           "stats": {
-            "inHandWinRate": 47.5,
-            "inHandGames": 9677,
-            "openingHandWinRate": 44,
-            "openingHandGames": 3480,
-            "avgLastOffered": 8.88
+            "inHandWinRate": 47.6,
+            "inHandGames": 12653,
+            "openingHandWinRate": 43.8,
+            "openingHandGames": 4567,
+            "avgLastOffered": 9
           }
         },
         {
@@ -2904,16 +3430,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 169,
           "tier": "D",
           "band": "filler",
-          "name": "Vow to Erebor",
-          "color": "W",
-          "image": "assets/cards/103401.jpg",
-          "trainingImage": "assets/cards-large/103401.jpg",
+          "name": "Desert Were-Worm",
+          "color": "R",
+          "image": "assets/cards/103468.jpg",
+          "trainingImage": "assets/cards-large/103468.jpg",
           "stats": {
-            "inHandWinRate": 47.5,
-            "inHandGames": 11858,
-            "openingHandWinRate": 45.5,
-            "openingHandGames": 5026,
-            "avgLastOffered": 8.69
+            "inHandWinRate": 47.4,
+            "inHandGames": 7792,
+            "openingHandWinRate": 45.6,
+            "openingHandGames": 3117,
+            "avgLastOffered": 4.22
           }
         },
         {
@@ -2921,16 +3447,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 170,
           "tier": "D-",
           "band": "filler",
-          "name": "Riddles in the Dark",
-          "color": "U",
-          "image": "assets/cards/103427.jpg",
-          "trainingImage": "assets/cards-large/103427.jpg",
+          "name": "Sting, Bilbo's Sword",
+          "color": "C",
+          "image": "assets/cards/103562.jpg",
+          "trainingImage": "assets/cards-large/103562.jpg",
           "stats": {
-            "inHandWinRate": 47.4,
-            "inHandGames": 4938,
-            "openingHandWinRate": 46.7,
-            "openingHandGames": 1860,
-            "avgLastOffered": 4.78
+            "inHandWinRate": 47.3,
+            "inHandGames": 9349,
+            "openingHandWinRate": 43.9,
+            "openingHandGames": 3773,
+            "avgLastOffered": 3.61
           }
         },
         {
@@ -2938,16 +3464,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 171,
           "tier": "D-",
           "band": "filler",
-          "name": "Orcrist, Goblin-cleaver",
-          "color": "C",
-          "image": "assets/cards/103561.jpg",
-          "trainingImage": "assets/cards-large/103561.jpg",
+          "name": "Riddles in the Dark",
+          "color": "U",
+          "image": "assets/cards/103427.jpg",
+          "trainingImage": "assets/cards-large/103427.jpg",
           "stats": {
-            "inHandWinRate": 47.1,
-            "inHandGames": 4331,
-            "openingHandWinRate": 44.8,
-            "openingHandGames": 1745,
-            "avgLastOffered": 1.92
+            "inHandWinRate": 47,
+            "inHandGames": 6692,
+            "openingHandWinRate": 45.2,
+            "openingHandGames": 2500,
+            "avgLastOffered": 5.05
           }
         },
         {
@@ -2960,11 +3486,11 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103389.jpg",
           "trainingImage": "assets/cards-large/103389.jpg",
           "stats": {
-            "inHandWinRate": 46.4,
-            "inHandGames": 11843,
-            "openingHandWinRate": 43.9,
-            "openingHandGames": 4403,
-            "avgLastOffered": 8.56
+            "inHandWinRate": 46.7,
+            "inHandGames": 16337,
+            "openingHandWinRate": 43.8,
+            "openingHandGames": 6068,
+            "avgLastOffered": 8.63
           }
         },
         {
@@ -2972,16 +3498,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 173,
           "tier": "D-",
           "band": "filler",
-          "name": "Thranduil, the Elvenking",
-          "color": "M",
-          "image": "assets/cards/103548.jpg",
-          "trainingImage": "assets/cards-large/103548.jpg",
+          "name": "Giant's Boulder",
+          "color": "C",
+          "image": "assets/cards/103555.jpg",
+          "trainingImage": "assets/cards-large/103555.jpg",
           "stats": {
-            "inHandWinRate": 46.3,
-            "inHandGames": 2929,
-            "openingHandWinRate": 43.2,
-            "openingHandGames": 1077,
-            "avgLastOffered": 4.73
+            "inHandWinRate": 46,
+            "inHandGames": 19005,
+            "openingHandWinRate": 43.8,
+            "openingHandGames": 8464,
+            "avgLastOffered": 7.94
           }
         },
         {
@@ -2989,16 +3515,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 174,
           "tier": "D-",
           "band": "filler",
-          "name": "Giant's Boulder",
-          "color": "C",
-          "image": "assets/cards/103555.jpg",
-          "trainingImage": "assets/cards-large/103555.jpg",
+          "name": "Thranduil, the Elvenking",
+          "color": "M",
+          "image": "assets/cards/103548.jpg",
+          "trainingImage": "assets/cards-large/103548.jpg",
           "stats": {
             "inHandWinRate": 45.7,
-            "inHandGames": 12832,
-            "openingHandWinRate": 43.5,
-            "openingHandGames": 5745,
-            "avgLastOffered": 8
+            "inHandGames": 4032,
+            "openingHandWinRate": 43.2,
+            "openingHandGames": 1514,
+            "avgLastOffered": 4.98
           }
         },
         {
@@ -3012,10 +3538,10 @@ window.LIMITED_PREP_DATA = {
           "trainingImage": "assets/cards-large/103396.jpg",
           "stats": {
             "inHandWinRate": 45.5,
-            "inHandGames": 8730,
-            "openingHandWinRate": 43.6,
-            "openingHandGames": 3191,
-            "avgLastOffered": 8.75
+            "inHandGames": 11712,
+            "openingHandWinRate": 43.5,
+            "openingHandGames": 4313,
+            "avgLastOffered": 8.82
           }
         },
         {
@@ -3028,11 +3554,11 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103558.jpg",
           "trainingImage": "assets/cards-large/103558.jpg",
           "stats": {
-            "inHandWinRate": 45,
-            "inHandGames": 3688,
-            "openingHandWinRate": 41.9,
-            "openingHandGames": 1584,
-            "avgLastOffered": 7.33
+            "inHandWinRate": 45.2,
+            "inHandGames": 5312,
+            "openingHandWinRate": 41.7,
+            "openingHandGames": 2274,
+            "avgLastOffered": 7.43
           }
         },
         {
@@ -3045,33 +3571,16 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103372.jpg",
           "trainingImage": "assets/cards-large/103372.jpg",
           "stats": {
-            "inHandWinRate": 44.7,
-            "inHandGames": 3129,
-            "openingHandWinRate": 41.1,
-            "openingHandGames": 1210,
-            "avgLastOffered": 5.27
+            "inHandWinRate": 44.4,
+            "inHandGames": 4281,
+            "openingHandWinRate": 41.2,
+            "openingHandGames": 1649,
+            "avgLastOffered": 5.39
           }
         },
         {
           "id": "hob-178",
           "rank": 178,
-          "tier": "D-",
-          "band": "filler",
-          "name": "Through the Forest Gate",
-          "color": "G",
-          "image": "assets/cards/103517.jpg",
-          "trainingImage": "assets/cards-large/103517.jpg",
-          "stats": {
-            "inHandWinRate": 43.8,
-            "inHandGames": 1082,
-            "openingHandWinRate": 39,
-            "openingHandGames": 420,
-            "avgLastOffered": 6.08
-          }
-        },
-        {
-          "id": "hob-179",
-          "rank": 179,
           "tier": "F",
           "band": "filler",
           "name": "Mirkwood Meditator",
@@ -3079,11 +3588,28 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103421.jpg",
           "trainingImage": "assets/cards-large/103421.jpg",
           "stats": {
-            "inHandWinRate": 43.4,
-            "inHandGames": 4113,
-            "openingHandWinRate": 41.7,
-            "openingHandGames": 1781,
-            "avgLastOffered": 9.53
+            "inHandWinRate": 43.6,
+            "inHandGames": 5524,
+            "openingHandWinRate": 41.5,
+            "openingHandGames": 2414,
+            "avgLastOffered": 9.63
+          }
+        },
+        {
+          "id": "hob-179",
+          "rank": 179,
+          "tier": "F",
+          "band": "filler",
+          "name": "Through the Forest Gate",
+          "color": "G",
+          "image": "assets/cards/103517.jpg",
+          "trainingImage": "assets/cards-large/103517.jpg",
+          "stats": {
+            "inHandWinRate": 43,
+            "inHandGames": 1450,
+            "openingHandWinRate": 38.3,
+            "openingHandGames": 545,
+            "avgLastOffered": 6.03
           }
         },
         {
@@ -3091,16 +3617,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 180,
           "tier": "F",
           "band": "filler",
-          "name": "Uncover the Moon-Letters",
+          "name": "Roll-Roll-Roll-Roll",
           "color": "U",
-          "image": "assets/cards/103431.jpg",
-          "trainingImage": "assets/cards-large/103431.jpg",
+          "image": "assets/cards/103428.jpg",
+          "trainingImage": "assets/cards-large/103428.jpg",
           "stats": {
-            "inHandWinRate": 41.8,
-            "inHandGames": 887,
-            "openingHandWinRate": 38.3,
-            "openingHandGames": 337,
-            "avgLastOffered": 6.3
+            "inHandWinRate": 41.4,
+            "inHandGames": 3597,
+            "openingHandWinRate": 34.9,
+            "openingHandGames": 1297,
+            "avgLastOffered": 5.43
           }
         },
         {
@@ -3108,16 +3634,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 181,
           "tier": "F",
           "band": "filler",
-          "name": "Roll-Roll-Roll-Roll",
+          "name": "Uncover the Moon-Letters",
           "color": "U",
-          "image": "assets/cards/103428.jpg",
-          "trainingImage": "assets/cards-large/103428.jpg",
+          "image": "assets/cards/103431.jpg",
+          "trainingImage": "assets/cards-large/103431.jpg",
           "stats": {
-            "inHandWinRate": 40.9,
-            "inHandGames": 2621,
-            "openingHandWinRate": 34.7,
-            "openingHandGames": 960,
-            "avgLastOffered": 5.24
+            "inHandWinRate": 40.7,
+            "inHandGames": 1201,
+            "openingHandWinRate": 37.9,
+            "openingHandGames": 457,
+            "avgLastOffered": 6.16
           }
         },
         {
@@ -3125,16 +3651,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 182,
           "tier": "F",
           "band": "filler",
-          "name": "Getaway Barrel",
-          "color": "R",
-          "image": "assets/cards/103475.jpg",
-          "trainingImage": "assets/cards-large/103475.jpg",
+          "name": "Supper for Spiders",
+          "color": "B",
+          "image": "assets/cards/103462.jpg",
+          "trainingImage": "assets/cards-large/103462.jpg",
           "stats": {
-            "inHandWinRate": 38.3,
-            "inHandGames": 699,
-            "openingHandWinRate": 37.1,
-            "openingHandGames": 302,
-            "avgLastOffered": 6.22
+            "inHandWinRate": 37.2,
+            "inHandGames": 1558,
+            "openingHandWinRate": 34.9,
+            "openingHandGames": 645,
+            "avgLastOffered": 5.86
           }
         },
         {
@@ -3142,16 +3668,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 183,
           "tier": "F",
           "band": "filler",
-          "name": "Supper for Spiders",
-          "color": "B",
-          "image": "assets/cards/103462.jpg",
-          "trainingImage": "assets/cards-large/103462.jpg",
+          "name": "Getaway Barrel",
+          "color": "R",
+          "image": "assets/cards/103475.jpg",
+          "trainingImage": "assets/cards-large/103475.jpg",
           "stats": {
-            "inHandWinRate": 37.8,
-            "inHandGames": 1126,
-            "openingHandWinRate": 37.5,
-            "openingHandGames": 464,
-            "avgLastOffered": 5.76
+            "inHandWinRate": 36.7,
+            "inHandGames": 922,
+            "openingHandWinRate": 34,
+            "openingHandGames": 394,
+            "avgLastOffered": 6.22
           }
         },
         {
@@ -3159,16 +3685,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 184,
           "tier": "F",
           "band": "filler",
-          "name": "Glamdring, Foe-hammer",
-          "color": "U",
-          "image": "assets/cards/103556.jpg",
-          "trainingImage": "assets/cards-large/103556.jpg",
+          "name": "Gleaming Splendor",
+          "color": "W",
+          "image": "assets/cards/103383.jpg",
+          "trainingImage": "assets/cards-large/103383.jpg",
           "stats": {
-            "inHandWinRate": 37.2,
-            "inHandGames": 934,
-            "openingHandWinRate": 31.5,
-            "openingHandGames": 349,
-            "avgLastOffered": 5.53
+            "inHandWinRate": 36.5,
+            "inHandGames": 1810,
+            "openingHandWinRate": 31.7,
+            "openingHandGames": 739,
+            "avgLastOffered": 4.03
           }
         },
         {
@@ -3176,16 +3702,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 185,
           "tier": "F",
           "band": "filler",
-          "name": "Wizard's Staff",
+          "name": "Glamdring, Foe-hammer",
           "color": "U",
-          "image": "assets/cards/103433.jpg",
-          "trainingImage": "assets/cards-large/103433.jpg",
+          "image": "assets/cards/103556.jpg",
+          "trainingImage": "assets/cards-large/103556.jpg",
           "stats": {
-            "inHandWinRate": 37,
-            "inHandGames": 1466,
-            "openingHandWinRate": 30.4,
-            "openingHandGames": 553,
-            "avgLastOffered": 5.29
+            "inHandWinRate": 35.1,
+            "inHandGames": 1268,
+            "openingHandWinRate": 29,
+            "openingHandGames": 497,
+            "avgLastOffered": 5.43
           }
         },
         {
@@ -3193,16 +3719,16 @@ window.LIMITED_PREP_DATA = {
           "rank": 186,
           "tier": "F",
           "band": "filler",
-          "name": "Gleaming Splendor",
-          "color": "W",
-          "image": "assets/cards/103383.jpg",
-          "trainingImage": "assets/cards-large/103383.jpg",
+          "name": "Wizard's Staff",
+          "color": "U",
+          "image": "assets/cards/103433.jpg",
+          "trainingImage": "assets/cards-large/103433.jpg",
           "stats": {
-            "inHandWinRate": 35.8,
-            "inHandGames": 1238,
-            "openingHandWinRate": 31.3,
-            "openingHandGames": 534,
-            "avgLastOffered": 3.98
+            "inHandWinRate": 35.1,
+            "inHandGames": 1971,
+            "openingHandWinRate": 29.7,
+            "openingHandGames": 748,
+            "avgLastOffered": 5.49
           }
         },
         {
@@ -3215,11 +3741,11 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103481.jpg",
           "trainingImage": "assets/cards-large/103481.jpg",
           "stats": {
-            "inHandWinRate": 30.8,
-            "inHandGames": 818,
-            "openingHandWinRate": 32.5,
-            "openingHandGames": 363,
-            "avgLastOffered": 5.98
+            "inHandWinRate": 30,
+            "inHandGames": 1109,
+            "openingHandWinRate": 30.3,
+            "openingHandGames": 495,
+            "avgLastOffered": 5.96
           }
         },
         {
@@ -3232,11 +3758,11 @@ window.LIMITED_PREP_DATA = {
           "image": "assets/cards/103412.jpg",
           "trainingImage": "assets/cards-large/103412.jpg",
           "stats": {
-            "inHandWinRate": 28.3,
-            "inHandGames": 120,
-            "openingHandWinRate": 21.6,
-            "openingHandGames": 51,
-            "avgLastOffered": 5.43
+            "inHandWinRate": 30.8,
+            "inHandGames": 169,
+            "openingHandWinRate": 23,
+            "openingHandGames": 74,
+            "avgLastOffered": 5.5
           }
         }
       ]
@@ -3255,7 +3781,7 @@ window.LIMITED_PREP_DATA = {
       "arenaDate": "2026-09-29",
       "subtitle": "A live Echoverse dossier, expanding as preview season unfolds.",
       "guideTitle": "Study what is known. Keep the unknown visible.",
-      "guideBody": "Preview cards are indexed now. Rating drills will unlock only when a complete, attributable Limited evaluation exists—so provisional information is never presented as settled advice.",
+      "guideBody": "Preview cards are indexed now. Rating training will unlock only when a complete, attributable Limited evaluation exists—so provisional information is never presented as settled advice.",
       "guideFacts": [
         "Prerelease · 25 September",
         "MTG Arena · 29 September",
@@ -3275,6 +3801,7 @@ window.LIMITED_PREP_DATA = {
       "officialUrl": "https://magic.wizards.com/en/products/reality-fracture/card-image-gallery",
       "cardCount": 22,
       "previewCapturedAt": "2026-09-02T12:37:38.186Z",
+      "draftDecisions": null,
       "cards": [
         {
           "id": "483fcc58-cc6e-4452-a696-7b38e117c837",

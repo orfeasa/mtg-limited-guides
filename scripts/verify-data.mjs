@@ -39,10 +39,22 @@ if (hobbit.cards.some((card, index) => card.rank !== index + 1)) throw new Error
 if (hobbit.cards.some((card) => !card.trainingImage || !Number.isFinite(card.stats?.inHandGames))) {
   throw new Error("Hobbit cards must preserve readable images and observed performance evidence");
 }
+if (hobbit.draftDecisions?.scenarios?.length !== 18) {
+  throw new Error(`Expected 18 grounded Hobbit draft decisions, got ${hobbit.draftDecisions?.scenarios?.length || 0}`);
+}
+const hobbitNames = new Set(hobbit.cards.map((card) => card.name));
+const basicLandNames = new Set(["Plains", "Island", "Swamp", "Mountain", "Forest"]);
+for (const scenario of hobbit.draftDecisions.scenarios) {
+  if (scenario.cards.length < 3) throw new Error(`Draft decision ${scenario.id} is too trivial`);
+  if (!scenario.cards.includes(scenario.replayPick)) throw new Error(`Draft decision ${scenario.id} omits its replay pick`);
+  const unknown = [...scenario.cards, ...scenario.pool].filter((name) => !hobbitNames.has(name) && !basicLandNames.has(name));
+  if (unknown.length > 0) throw new Error(`Draft decision ${scenario.id} has unknown cards: ${unknown.join(", ")}`);
+}
 
 const fracture = data.sets.find((set) => set.id === "fra");
 if (fracture.rating.status !== "pending") throw new Error("Reality Fracture must remain explicitly unrated during preview season");
 if (fracture.cards.some((card) => card.rank || card.tier)) throw new Error("Reality Fracture preview cards must not have invented ratings");
 if (fracture.cards.some((card) => !card.trainingImage)) throw new Error("Reality Fracture preview cards need readable study images");
+if (fracture.draftDecisions) throw new Error("Reality Fracture must not expose draft decisions before grounded data exists");
 
 console.log(`Verified ${data.sets.length} sets and ${data.sets.reduce((sum, set) => sum + set.cards.length, 0)} cards.`);
