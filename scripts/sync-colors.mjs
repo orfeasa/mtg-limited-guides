@@ -27,7 +27,7 @@ let pageUrl = "https://api.scryfall.com/cards/search?order=set&q=e%3Ahob%20game%
 const scryfallCards = [];
 
 while (pageUrl) {
-  const response = await fetch(pageUrl, { headers: { "User-Agent": "hobbit-pick-order/1.0" } });
+  const response = await fetch(pageUrl, { headers: { "User-Agent": "mtg-limited-guides/1.0" } });
   if (!response.ok) throw new Error(`Scryfall request failed: ${response.status}`);
   const page = await response.json();
   scryfallCards.push(...page.data);

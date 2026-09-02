@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$repo_root"
+
+ssh_target="${LIMITED_SSH_TARGET:-orfeas@birthday.orfeasa.com}"
+app_root="${LIMITED_APP_ROOT:-/home/orfeas/apps/mtg-limited-guides}"
+release="$(git rev-parse --short=12 HEAD)"
+
+if [[ "$app_root" != /home/orfeas/apps/* || "$app_root" == "/home/orfeas/apps/" ]]; then
+  echo "Refusing unsafe app root: $app_root" >&2
+  exit 1
+fi
+
+if ! git diff --quiet || ! git diff --cached --quiet; then
+  echo "Refusing to deploy an uncommitted working tree." >&2
+  exit 1
+fi
+
+node scripts/build-data.mjs
+node scripts/verify-data.mjs
+
+if ! git diff --quiet -- public/data.js public/sw.js; then
+  echo "Generated public data is stale. Commit the rebuilt files before deploying." >&2
+  exit 1
+fi
+
+git archive --format=tar HEAD public |
+  ssh "$ssh_target" "
+    set -eu
+    app_root='$app_root'
+    release='$release'
+    releases=\"\$app_root/releases\"
+    release_dir=\"\$releases/\$release\"
+    mkdir -p \"\$releases\"
+    test ! -e \"\$release_dir\" || {
+      echo \"Release \$release is already present.\" >&2
+      exit 1
+    }
+    incoming=\$(mktemp -d \"\$releases/.\$release.incoming.XXXXXX\")
+    tar -xf - -C \"\$incoming\" --strip-components=1
+    test -f \"\$incoming/index.html\"
+    test -f \"\$incoming/app.js\"
+    test -f \"\$incoming/data.js\"
+    test -f \"\$incoming/sw.js\"
+    mv \"\$incoming\" \"\$release_dir\"
+    ln -sfn \"\$release_dir\" \"\$app_root/current.next\"
+    mv -Tf \"\$app_root/current.next\" \"\$app_root/current\"
+  "
+
+echo "Deployed $release to https://limited.orfeasa.com"

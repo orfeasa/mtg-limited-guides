@@ -8,7 +8,7 @@ web
 
 ## Stack
 
-Static HTML, CSS, and JavaScript for GitHub Pages. No framework or build step.
+Static HTML, CSS, and JavaScript served by nginx. No framework or runtime backend.
 
 ## Users
 
@@ -38,7 +38,7 @@ Used in the days before a prerelease or draft, alone or with friends. A player m
 - Show attributable card-performance evidence after a Hobbit answer without exposing it before the guess.
 - Fuzzy, accent-insensitive name search.
 - No cookies, analytics, account, backend, deck builder, or external runtime dependency.
-- Deploy as a static GitHub Pages site and remain useful if installed or revisited offline.
+- Deploy as an atomic static release and remain useful if installed or revisited offline.
 - Preserve source attribution and capture dates for every ranking or preview snapshot.
 
 ## Evidence on Hand

@@ -10,7 +10,7 @@ const outputPath = path.join(root, "data", `${setCode}_preview.json`);
 const imageDirectory = path.join(root, "public", "assets", "cards", setCode);
 const trainingImageDirectory = path.join(root, "public", "assets", "cards-large", setCode);
 const apiUrl = `https://api.scryfall.com/cards/search?order=set&q=set%3A${encodeURIComponent(setCode)}&unique=cards`;
-const userAgent = "limited-prep/1.0 (https://github.com/orfeasa/hobbit-pick-order)";
+const userAgent = "mtg-limited-guides/1.0 (https://github.com/orfeasa/mtg-limited-guides)";
 
 const withSourceComment = (buffer, source, purpose) => {
   if (buffer[0] !== 0xff || buffer[1] !== 0xd8) return buffer;

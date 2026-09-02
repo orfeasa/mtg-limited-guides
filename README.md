@@ -28,14 +28,19 @@ python3 -m http.server 8080 --directory public
 
 Open <http://localhost:8080>.
 
-## Publish with GitHub Pages
+## Deploy
 
-1. Create an empty GitHub repository.
-2. Add it as this directory’s remote and push the `main` branch.
-3. In the repository’s **Settings → Pages**, choose **GitHub Actions** as the source.
-4. The included workflow publishes the `public/` directory.
+The public site is `https://limited.orfeasa.com` and is served by nginx on `birthday.orfeasa.com`. The GitHub repository can remain private because production receives only an archive of the committed `public/` tree; it does not clone the repository or hold GitHub credentials.
 
-The live custom domain is `hobbit.orfeasa.com`, configured in GitHub Pages with a Namecheap `CNAME` record pointing to `orfeasa.github.io`.
+Deploy a clean, committed checkout with:
+
+```sh
+./bin/deploy
+```
+
+The command rebuilds and verifies the generated data, refuses stale or uncommitted output, creates an immutable release under `/home/orfeas/apps/mtg-limited-guides/releases/<commit>`, and atomically switches the `current` symlink. The checked-in nginx configuration is in `deploy/nginx/`.
+
+`hobbit.orfeasa.com` is retained only as a redirect. Its replacement service worker clears the old offline cache before directing future navigations to the new domain. Browser-local progress is intentionally not transferred between domains.
 
 ## Build and verify the data
 

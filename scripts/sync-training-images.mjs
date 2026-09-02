@@ -23,7 +23,7 @@ const normalize = (value) => value
 const wait = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
 const requestHeaders = {
   Accept: "application/json;q=0.9,image/jpeg;q=0.8,*/*;q=0.5",
-  "User-Agent": "hobbit-pick-order/1.0 (https://github.com/orfeasa/hobbit-pick-order)",
+  "User-Agent": "mtg-limited-guides/1.0 (https://github.com/orfeasa/mtg-limited-guides)",
 };
 
 const withSourceComment = (buffer, source, name) => {

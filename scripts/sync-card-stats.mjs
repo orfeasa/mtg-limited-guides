@@ -10,7 +10,7 @@ const rankNames = ["bronze", "silver", "gold", "platinum"];
 const rankCodes = ["b", "s", "g", "p"];
 
 const response = await fetch(sourceUrl, {
-  headers: { "user-agent": "hobbit-pick-order data refresh" },
+  headers: { "user-agent": "mtg-limited-guides data refresh" },
 });
 if (!response.ok) throw new Error(`Untapped.gg request failed: ${response.status}`);
 
