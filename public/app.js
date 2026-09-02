@@ -371,7 +371,8 @@
 
   function trainerPool() {
     const color = elements.trainerColor.value;
-    return ratedCards().filter((card) => color === "all" || card.color === color);
+    const eligibleCards = ratingIsAvailable() ? ratedCards() : cards;
+    return eligibleCards.filter((card) => color === "all" || card.color === color);
   }
 
   function resetTrainerQueue() {
