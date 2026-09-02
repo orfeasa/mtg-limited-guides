@@ -1,10 +1,10 @@
 /* Generated static cache manifest. */
-const CACHE = "hobbit-pick-order-ac2c332f2901";
+const CACHE = "limited-prep-084e1821403c";
 const ASSETS = [
   "./",
   "./index.html",
   "./styles.css",
-  "./cards.js",
+  "./data.js",
   "./app.js",
   "./manifest.webmanifest",
   "./assets/icon.svg",
@@ -12,6 +12,7 @@ const ASSETS = [
   "./assets/fonts/Alegreya-Bold.ttf",
   "./assets/fonts/AtkinsonHyperlegibleNext-Regular.ttf",
   "./assets/fonts/AtkinsonHyperlegibleNext-Bold.ttf",
+  "./assets/fonts/BarlowCondensed-Black.ttf",
   "./assets/cards/103382.jpg",
   "./assets/cards/103397.jpg",
   "./assets/cards/103489.jpg",
@@ -199,7 +200,29 @@ const ASSETS = [
   "./assets/cards/103433.jpg",
   "./assets/cards/103383.jpg",
   "./assets/cards/103481.jpg",
-  "./assets/cards/103412.jpg"
+  "./assets/cards/103412.jpg",
+  "./assets/cards/fra/483fcc58-cc6e-4452-a696-7b38e117c837.jpg",
+  "./assets/cards/fra/d0ecae06-bc5a-4886-84df-c2900816f226.jpg",
+  "./assets/cards/fra/20bb8c55-4b0b-425f-8201-b54fa2fdde86.jpg",
+  "./assets/cards/fra/4fcc913e-f736-460a-b24b-022fa2e861b9.jpg",
+  "./assets/cards/fra/47793a51-08c6-4ad2-a7e5-a4484d83a5cd.jpg",
+  "./assets/cards/fra/2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460.jpg",
+  "./assets/cards/fra/e61b9d48-0ace-4453-afe0-a1024444bac0.jpg",
+  "./assets/cards/fra/6c1c790b-9e0e-4964-9ea3-554843907f06.jpg",
+  "./assets/cards/fra/5142bbb6-194c-4b12-b11a-1a21c9fe81a6.jpg",
+  "./assets/cards/fra/84b1c268-3b8a-41b6-92e3-a2ce0cc3d738.jpg",
+  "./assets/cards/fra/acefc515-bf97-4dc0-b0f7-ae8ae5a61671.jpg",
+  "./assets/cards/fra/7d17f7e3-7b63-4674-9024-4fd1827f40ec.jpg",
+  "./assets/cards/fra/a5e1a7dd-8c49-4435-935c-bcc78704082b.jpg",
+  "./assets/cards/fra/70d8c400-87dc-4f15-808f-e54a95d779fc.jpg",
+  "./assets/cards/fra/240f58ab-944c-4f4c-9df9-5f40b132bf3e.jpg",
+  "./assets/cards/fra/d48bfb8a-d135-45f3-be99-4694b4b9ab93.jpg",
+  "./assets/cards/fra/1eb25a6c-d6b4-465d-990e-f1ab86b26b69.jpg",
+  "./assets/cards/fra/2f47ddf7-35b6-4205-8045-f057914c5f64.jpg",
+  "./assets/cards/fra/bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5.jpg",
+  "./assets/cards/fra/40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd.jpg",
+  "./assets/cards/fra/90ca5812-ceb5-46bd-b049-aed7ff10e6af.jpg",
+  "./assets/cards/fra/edea6f70-a5a7-475d-b7f2-97933d0f32cf.jpg"
 ];
 
 self.addEventListener("install", (event) => {

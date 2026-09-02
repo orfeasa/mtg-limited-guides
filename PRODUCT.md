@@ -12,41 +12,46 @@ Static HTML, CSS, and JavaScript for GitHub Pages. No framework or build step.
 
 ## Users
 
-Magic: The Gathering Arena players drafting The Hobbit who need to compare several visible pack candidates quickly on desktop or mobile.
+Magic: The Gathering players preparing for prereleases and drafts who want to learn a set before the event, practise decisions, and share the same exercises with friends.
 
 ## Product Purpose
 
-Turn a static pick-order list into a fast pack decision tool. Success means a drafter can find several card names, add them to the current pack, and immediately see the candidates ordered from strongest to weakest baseline pick.
+Turn each new set into a focused Limited field guide. Success means a player can recognise cards, understand which information is settled or provisional, rehearse baseline picks, and send a friend the exact same challenge without being handed a finished deck.
 
 ## Positioning
 
-The product compares the cards actually under consideration in one compact view instead of making the user search a long tier list one card at a time.
+The product is a reusable preparation shelf rather than a generic stats dashboard. Every set gets an authored thematic treatment, while the underlying study habits and trustworthy data boundaries stay consistent.
 
 ## Operating Context
 
-Used alongside a live draft. The user may type partial card names, select several results, review their order, and clear the pack between picks. The interaction must work well with keyboard, mouse, and touch.
+Used in the days before a prerelease or draft, alone or with friends. A player may study revealed cards, practise grade bands, attempt deterministic pick drills, compare a few plausible cards, or browse the set. The interaction must work well with keyboard, mouse, and touch.
 
 ## Capabilities and Constraints
 
-- Ship all 188 card names, pick ranks, tiers, and thumbnails with the site.
+- Support multiple sets through a shared static data contract.
+- Give each set a distinct visual theme without changing the core navigation.
+- Make Study, Pick drill, Compare, and All cards the stable preparation modes.
+- Keep rating-dependent answers locked when a complete, attributable Limited evaluation is unavailable.
+- Preserve deterministic challenge URLs so friends can attempt the same three-card choice.
+- Store preparation progress per set in browser-local storage; keep comparisons session-only.
 - Fuzzy, accent-insensitive name search.
-- Current-pack selection is session-only memory and disappears on refresh.
-- No localStorage, cookies, analytics, account, backend, or external runtime dependency.
+- No cookies, analytics, account, backend, deck builder, or external runtime dependency.
 - Deploy as a static GitHub Pages site and remain useful if installed or revisited offline.
-- Preserve the captured Untapped.gg pick-order snapshot date and source attribution.
+- Preserve source attribution and capture dates for every ranking or preview snapshot.
 
 ## Evidence on Hand
 
-- Verified 188-card pick-order snapshot captured from Untapped.gg on 19 August 2026.
-- Matching card thumbnails downloaded from the source page.
-- Existing searchable PDF established the rank, tier, and thumbnail mapping.
+- The Hobbit: verified 188-card pick-order snapshot captured from Untapped.gg on 19 August 2026, with matching local thumbnails.
+- Reality Fracture: current Scryfall preview index and local card images, without invented Limited ratings.
+- Official Reality Fracture release milestones and Play Booster notes captured in set metadata.
 
 ## Product Principles
 
-- The pack decision is always the primary object on screen.
-- Every interaction should reduce time-to-pick.
+- Preparation, not deck construction, is the primary job.
+- Every interaction should improve card recognition or decision fluency.
 - Rankings are a baseline; the interface must not imply deck-context intelligence it does not have.
-- The tool should remain private by default and operational without an account.
+- Unknown and incomplete information stays visibly unknown.
+- The tool should remain private by default, easy to share by link, and operational without an account.
 
 ## Accessibility & Inclusion
 

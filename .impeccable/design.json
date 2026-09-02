@@ -1,363 +1,477 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-20T08:43:18Z",
-  "title": "Design System: The Hobbit Pick Order",
+  "generatedAt": "2026-09-02T12:12:14Z",
+  "title": "Design System: Limited Field Guides",
   "extensions": {
     "colorMeta": {
-      "forest-cloth": {
+      "hobbit-binding": {
         "role": "neutral",
         "displayName": "Forest Cloth",
-        "tonalRamp": ["oklch(15% 0.034 162.1)", "oklch(26% 0.034 162.1)", "oklch(38% 0.034 162.1)", "oklch(50% 0.034 162.1)", "oklch(62% 0.034 162.1)", "oklch(74% 0.034 162.1)", "oklch(86% 0.034 162.1)", "oklch(95% 0.034 162.1)"]
+        "tonalRamp": ["#0d1712", "#16271f", "#263c31", "#3d5a49", "#607668", "#89998e", "#c0cbc3", "#eef2ef"]
       },
-      "forest-deep": {
-        "role": "neutral",
-        "displayName": "Forest Deep",
-        "tonalRamp": ["oklch(15% 0.027 163.3)", "oklch(26% 0.027 163.3)", "oklch(38% 0.027 163.3)", "oklch(50% 0.027 163.3)", "oklch(62% 0.027 163.3)", "oklch(74% 0.027 163.3)", "oklch(86% 0.027 163.3)", "oklch(95% 0.027 163.3)"]
-      },
-      "forest-soft": {
-        "role": "neutral",
-        "displayName": "Forest Soft",
-        "tonalRamp": ["oklch(15% 0.045 158.2)", "oklch(26% 0.045 158.2)", "oklch(38% 0.045 158.2)", "oklch(50% 0.045 158.2)", "oklch(62% 0.045 158.2)", "oklch(74% 0.045 158.2)", "oklch(86% 0.045 158.2)", "oklch(95% 0.045 158.2)"]
-      },
-      "map-leaf": {
+      "hobbit-surface": {
         "role": "neutral",
         "displayName": "Map Leaf",
-        "tonalRamp": ["oklch(15% 0.036 89.4)", "oklch(26% 0.036 89.4)", "oklch(38% 0.036 89.4)", "oklch(50% 0.036 89.4)", "oklch(62% 0.036 89.4)", "oklch(74% 0.036 89.4)", "oklch(86% 0.036 89.4)", "oklch(95% 0.036 89.4)"]
+        "tonalRamp": ["#211e16", "#403a2b", "#746a50", "#a79a77", "#d7c6a0", "#eee4ca", "#f8f2df", "#fffdf7"]
       },
-      "map-leaf-light": {
-        "role": "neutral",
-        "displayName": "Map Leaf Light",
-        "tonalRamp": ["oklch(15% 0.026 92.4)", "oklch(26% 0.026 92.4)", "oklch(38% 0.026 92.4)", "oklch(50% 0.026 92.4)", "oklch(62% 0.026 92.4)", "oklch(74% 0.026 92.4)", "oklch(86% 0.026 92.4)", "oklch(95% 0.026 92.4)"]
-      },
-      "map-leaf-deep": {
-        "role": "neutral",
-        "displayName": "Map Leaf Deep",
-        "tonalRamp": ["oklch(15% 0.048 88.3)", "oklch(26% 0.048 88.3)", "oklch(38% 0.048 88.3)", "oklch(50% 0.048 88.3)", "oklch(62% 0.048 88.3)", "oklch(74% 0.048 88.3)", "oklch(86% 0.048 88.3)", "oklch(95% 0.048 88.3)"]
-      },
-      "atlas-ground": {
-        "role": "neutral",
-        "displayName": "Atlas Ground",
-        "tonalRamp": ["oklch(15% 0.054 86.7)", "oklch(26% 0.054 86.7)", "oklch(38% 0.054 86.7)", "oklch(50% 0.054 86.7)", "oklch(62% 0.054 86.7)", "oklch(74% 0.054 86.7)", "oklch(86% 0.054 86.7)", "oklch(95% 0.054 86.7)"]
-      },
-      "contour-ink": {
-        "role": "neutral",
-        "displayName": "Contour Ink",
-        "tonalRamp": ["oklch(15% 0.020 157.1)", "oklch(26% 0.020 157.1)", "oklch(38% 0.020 157.1)", "oklch(50% 0.020 157.1)", "oklch(62% 0.020 157.1)", "oklch(74% 0.020 157.1)", "oklch(86% 0.020 157.1)", "oklch(95% 0.020 157.1)"]
-      },
-      "muted-ink": {
-        "role": "neutral",
-        "displayName": "Muted Ink",
-        "tonalRamp": ["oklch(15% 0.014 145.4)", "oklch(26% 0.014 145.4)", "oklch(38% 0.014 145.4)", "oklch(50% 0.014 145.4)", "oklch(62% 0.014 145.4)", "oklch(74% 0.014 145.4)", "oklch(86% 0.014 145.4)", "oklch(95% 0.014 145.4)"]
-      },
-      "map-line": {
-        "role": "neutral",
-        "displayName": "Map Line",
-        "tonalRamp": ["oklch(15% 0.045 88.0)", "oklch(26% 0.045 88.0)", "oklch(38% 0.045 88.0)", "oklch(50% 0.045 88.0)", "oklch(62% 0.045 88.0)", "oklch(74% 0.045 88.0)", "oklch(86% 0.045 88.0)", "oklch(95% 0.045 88.0)"]
-      },
-      "oxblood-route": {
+      "hobbit-accent": {
         "role": "primary",
         "displayName": "Oxblood Route",
-        "tonalRamp": ["oklch(15% 0.127 34.7)", "oklch(26% 0.127 34.7)", "oklch(38% 0.127 34.7)", "oklch(50% 0.127 34.7)", "oklch(62% 0.127 34.7)", "oklch(74% 0.127 34.7)", "oklch(86% 0.127 34.7)", "oklch(95% 0.127 34.7)"]
+        "tonalRamp": ["#27100c", "#4b2017", "#773224", "#a44832", "#bd6c57", "#d69b8b", "#ebcac2", "#faeeeb"]
       },
-      "oxblood-deep": {
-        "role": "primary",
-        "displayName": "Oxblood Deep",
-        "tonalRamp": ["oklch(15% 0.100 33.1)", "oklch(26% 0.100 33.1)", "oklch(38% 0.100 33.1)", "oklch(50% 0.100 33.1)", "oklch(62% 0.100 33.1)", "oklch(74% 0.100 33.1)", "oklch(86% 0.100 33.1)", "oklch(95% 0.100 33.1)"]
-      },
-      "river-blue": {
-        "role": "tertiary",
-        "displayName": "River Blue",
-        "tonalRamp": ["oklch(15% 0.045 214.2)", "oklch(26% 0.045 214.2)", "oklch(38% 0.045 214.2)", "oklch(50% 0.045 214.2)", "oklch(62% 0.045 214.2)", "oklch(74% 0.045 214.2)", "oklch(86% 0.045 214.2)", "oklch(95% 0.045 214.2)"]
-      },
-      "brass": {
-        "role": "secondary",
-        "displayName": "Brass",
-        "tonalRamp": ["oklch(15% 0.103 80.4)", "oklch(26% 0.103 80.4)", "oklch(38% 0.103 80.4)", "oklch(50% 0.103 80.4)", "oklch(62% 0.103 80.4)", "oklch(74% 0.103 80.4)", "oklch(86% 0.103 80.4)", "oklch(95% 0.103 80.4)"]
-      },
-      "brass-page-flag": {
+      "hobbit-metal-light": {
         "role": "secondary",
         "displayName": "Brass Page Flag",
-        "tonalRamp": ["oklch(15% 0.098 89.2)", "oklch(26% 0.098 89.2)", "oklch(38% 0.098 89.2)", "oklch(50% 0.098 89.2)", "oklch(62% 0.098 89.2)", "oklch(74% 0.098 89.2)", "oklch(86% 0.098 89.2)", "oklch(95% 0.098 89.2)"]
+        "tonalRamp": ["#2a220f", "#51431f", "#846d35", "#b48c43", "#d9bd74", "#e7d69f", "#f2e8c8", "#fcf8ec"]
       },
-      "focus-blue": {
+      "hobbit-signal": {
         "role": "tertiary",
-        "displayName": "Focus Blue",
-        "tonalRamp": ["oklch(15% 0.164 254.3)", "oklch(26% 0.164 254.3)", "oklch(38% 0.164 254.3)", "oklch(50% 0.164 254.3)", "oklch(62% 0.164 254.3)", "oklch(74% 0.164 254.3)", "oklch(86% 0.164 254.3)", "oklch(95% 0.164 254.3)"]
+        "displayName": "River Blue",
+        "tonalRamp": ["#101d20", "#22383e", "#35545c", "#466c75", "#688993", "#94abb1", "#c5d2d5", "#eef4f5"]
+      },
+      "fracture-binding": {
+        "role": "neutral",
+        "displayName": "Ink Indigo Binding",
+        "tonalRamp": ["#090914", "#171426", "#27223a", "#39304f", "#594d72", "#7e7396", "#b5aec5", "#f1eff5"]
+      },
+      "fracture-surface": {
+        "role": "neutral",
+        "displayName": "Cool Dossier Paper",
+        "tonalRamp": ["#151722", "#2b2e3c", "#4a5063", "#6d7488", "#9aa3b4", "#cbd3e0", "#e5e9f1", "#f5f7fb"]
+      },
+      "fracture-accent": {
+        "role": "primary",
+        "displayName": "Fracture Violet",
+        "tonalRamp": ["#160b31", "#2a1658", "#4c2a9e", "#7147d5", "#8f6fe1", "#ae97e9", "#d3c7f3", "#f1edfb"]
+      },
+      "fracture-metal": {
+        "role": "secondary",
+        "displayName": "Electric Pink",
+        "tonalRamp": ["#33101a", "#5a2030", "#8f3c53", "#d15f79", "#df8197", "#eaa9b7", "#f4d0d8", "#fceff2"]
+      },
+      "fracture-metal-light": {
+        "role": "secondary",
+        "displayName": "Electric Cyan",
+        "tonalRamp": ["#062d32", "#0c5059", "#147984", "#159caf", "#38bdc9", "#6be0ed", "#a9eef4", "#e8fbfd"]
+      },
+      "fracture-signal": {
+        "role": "tertiary",
+        "displayName": "Signal Cyan",
+        "tonalRamp": ["#06262b", "#0b444c", "#106a76", "#159caf", "#35b9c7", "#6dd5df", "#acecf1", "#e9fafb"]
+      },
+      "tier-pending": {
+        "role": "primary",
+        "displayName": "Rating Pending"
       }
     },
     "typographyMeta": {
-      "display": {
-        "displayName": "Atlas Display",
-        "purpose": "The complete-atlas title and singular page-level statements."
+      "hobbit-page": {
+        "displayName": "Hobbit Page Display",
+        "purpose": "Alegreya hierarchy for singular atlas statements."
       },
-      "headline": {
-        "displayName": "Leaf Headline",
-        "purpose": "Picker and current-route headings."
+      "hobbit-heading": {
+        "displayName": "Hobbit Leaf Headline",
+        "purpose": "Alegreya hierarchy for guide, trainer, compare, and atlas headings."
       },
-      "brand": {
-        "displayName": "Clothbound Brand",
-        "purpose": "The masthead title."
+      "fracture-page": {
+        "displayName": "Fracture Page Display",
+        "purpose": "Barlow Condensed Black hierarchy for singular dossier statements."
       },
-      "rank": {
-        "displayName": "Route Rank",
-        "purpose": "Pick numbers and route positions with tabular numerals."
+      "fracture-heading": {
+        "displayName": "Fracture Section Headline",
+        "purpose": "Uppercase Barlow Condensed Black for working dossier headings."
+      },
+      "hobbit-brand": {
+        "displayName": "Hobbit Volume Title",
+        "purpose": "The selected Hobbit volume in the binding."
+      },
+      "fracture-brand": {
+        "displayName": "Fracture Volume Title",
+        "purpose": "The selected Reality Fracture volume in the binding."
       },
       "body": {
         "displayName": "Working Body",
-        "purpose": "Instructions, source context, and explanatory copy."
+        "purpose": "Shared instructions, oracle text, and source context."
       },
-      "title": {
-        "displayName": "Card Title",
-        "purpose": "Card names and high-scan working content."
+      "working-title": {
+        "displayName": "Working Title",
+        "purpose": "Shared card names and compact operational headings."
       },
       "search": {
-        "displayName": "Atlas Search",
-        "purpose": "Primary text entry beside compact card imagery."
+        "displayName": "Compare Search",
+        "purpose": "Primary comparison text entry."
+      },
+      "hobbit-rank": {
+        "displayName": "Atlas Rank",
+        "purpose": "Hobbit card ranks and route positions."
+      },
+      "fracture-rank": {
+        "displayName": "Dossier Rank",
+        "purpose": "Reality Fracture card ranks when attributable ratings become available."
       },
       "label": {
-        "displayName": "Map Label",
-        "purpose": "Dataset stamps, controls, counts, and tier metadata."
+        "displayName": "Working Label",
+        "purpose": "Shared controls, counts, stamps, and tier metadata."
+      }
+    },
+    "roundedMeta": {
+      "fracture-micro-cut": {
+        "role": "Reality Fracture colour-jump and emblem pre-clip",
+        "canonical": "2px",
+        "aliases": ["2px"]
+      },
+      "pill": {
+        "role": "pill",
+        "canonical": "999px"
       }
     },
     "shadows": [
       {
-        "name": "cloth-binding",
-        "value": "0 10px 30px rgba(22, 39, 31, .2)",
-        "purpose": "Lifts the masthead from the atlas ground."
+        "name": "fracture-card-image",
+        "value": "-10px 14px 34px rgba(9, 9, 20, .32), 9px -7px 0 rgba(113, 71, 213, .12)",
+        "purpose": "Hard offset seam behind Reality Fracture study-card imagery."
       },
       {
-        "name": "page-flag",
-        "value": "0 7px 18px rgba(22, 39, 31, .16)",
-        "purpose": "Gives navigation flags a light handled-paper lift."
+        "name": "side-leaf",
+        "value": "-12px 0 38px rgba(8, 9, 16, .22)",
+        "purpose": "Separates the trainer or current-comparison binding from its surface leaf."
       },
       {
-        "name": "open-volume",
-        "value": "0 26px 65px rgba(44, 42, 31, .28)",
-        "purpose": "Unifies the spread and complete atlas page as the principal object."
+        "name": "atlas-navigation",
+        "value": "0 10px 22px rgba(8, 9, 16, .1)",
+        "purpose": "Keeps sticky colour navigation distinct from the card file."
       },
       {
-        "name": "search-field",
-        "value": "0 12px 30px rgba(64, 54, 37, .13)",
-        "purpose": "Marks the primary working control."
+        "name": "binding",
+        "value": "0 10px 30px rgba(8, 9, 16, .28)",
+        "purpose": "Lifts the selected volume binding from the ground."
+      },
+      {
+        "name": "toast",
+        "value": "0 12px 28px rgba(8, 9, 16, .34)",
+        "purpose": "Keeps short status feedback above the current surface."
+      },
+      {
+        "name": "search",
+        "value": "0 12px 30px rgba(8, 9, 16, .13)",
+        "purpose": "Marks the primary comparison input."
+      },
+      {
+        "name": "best-pick",
+        "value": "0 13px 32px rgba(8, 9, 16, .26)",
+        "purpose": "Gives the comparison leader priority inside the binding."
+      },
+      {
+        "name": "study-image",
+        "value": "0 14px 35px rgba(8, 9, 16, .3)",
+        "purpose": "Separates the large Hobbit card image from the study object."
+      },
+      {
+        "name": "drill-image",
+        "value": "0 15px 30px rgba(8, 9, 16, .2)",
+        "purpose": "Lifts each of the three drill choices equally."
+      },
+      {
+        "name": "mobile-comparison-dock",
+        "value": "0 15px 34px rgba(8, 9, 16, .36)",
+        "purpose": "Holds the best-pick shortcut above scrolling content."
       },
       {
         "name": "search-focus",
-        "value": "0 16px 36px rgba(64, 54, 37, .19)",
-        "purpose": "Deepens while the search field owns input."
+        "value": "0 16px 36px rgba(8, 9, 16, .19)",
+        "purpose": "Deepens the search object only while it owns input."
       },
       {
-        "name": "card-thumbnail",
-        "value": "0 5px 13px rgba(49, 43, 32, .2)",
-        "purpose": "Separates card art from dense map rows."
+        "name": "study-object",
+        "value": "0 18px 46px rgba(8, 9, 16, .34)",
+        "purpose": "Makes the large recognition card the first working object."
       },
       {
-        "name": "route-leader",
-        "value": "0 13px 32px rgba(18, 34, 26, .24)",
-        "purpose": "Gives the strongest baseline pick physical priority."
+        "name": "open-volume",
+        "value": "0 26px 65px rgba(8, 9, 16, .28)",
+        "purpose": "Unifies each spread or broad page as one principal object."
       },
       {
-        "name": "mobile-waypoint",
-        "value": "0 15px 34px rgba(22, 39, 31, .34)",
-        "purpose": "Holds the temporary fixed leader control above scrolling content."
+        "name": "keyboard-key",
+        "value": "0 3px 8px rgba(8, 9, 16, .2)",
+        "purpose": "Gives the keyboard shortcut cap a tactile edge."
+      },
+      {
+        "name": "thumbnail",
+        "value": "0 5px 13px rgba(8, 9, 16, .2)",
+        "purpose": "Separates small card art from dense rows."
+      },
+      {
+        "name": "index-tag",
+        "value": "0 5px 14px rgba(8, 9, 16, .22)",
+        "purpose": "Lifts the study-card index tab from the card image."
+      },
+      {
+        "name": "page-marker",
+        "value": "0 7px 18px rgba(8, 9, 16, .16)",
+        "purpose": "Gives navigation markers a shallow handled edge."
+      },
+      {
+        "name": "provenance-stamp",
+        "value": "0 7px 18px rgba(8, 9, 16, .24)",
+        "purpose": "Sets the dataset maturity stamp above the binding."
+      },
+      {
+        "name": "tab-ground",
+        "value": "0 7px 20px rgba(8, 9, 16, .2)",
+        "purpose": "Separates the sticky marker rail from page content."
+      },
+      {
+        "name": "leader-image",
+        "value": "0 9px 22px rgba(8, 9, 16, .24)",
+        "purpose": "Lifts the best-pick art inside the comparison leader."
+      },
+      {
+        "name": "colour-emblem-inset",
+        "value": "inset 0 0 0 7px rgba(248, 242, 223, .32)",
+        "purpose": "Separates Magic-colour identity from the surrounding leaf."
       }
     ],
     "motion": [
       {
         "name": "ease-out",
         "value": "cubic-bezier(.16, 1, .3, 1)",
-        "purpose": "Shared easing for flags, controls, and visibility changes."
+        "purpose": "Shared easing for marker, focus, and visibility changes."
       },
       {
         "name": "state-fast",
         "value": "160ms",
-        "purpose": "Tab, row, and dock feedback."
+        "purpose": "Tabs, row feedback, and mobile dock state."
       },
       {
         "name": "state-standard",
         "value": "180ms",
-        "purpose": "Search focus and skip-link movement."
+        "purpose": "Search focus, drill lift, and skip-link movement."
       },
       {
-        "name": "route-leader-reveal",
+        "name": "theme-transition",
+        "value": "260ms",
+        "purpose": "Body ground and ink transition when the selected volume changes."
+      },
+      {
+        "name": "leader-reveal",
         "value": "460ms",
-        "purpose": "One-shot reveal when a new route leader rises."
+        "purpose": "One-shot comparison-leader reveal when a new best pick appears."
+      },
+      {
+        "name": "reduced-motion",
+        "value": ".01ms",
+        "purpose": "Effectively removes nonessential animation and smooth scrolling on request."
       }
     ],
     "breakpoints": [
       {
-        "name": "compact-spread",
-        "value": "1040px"
+        "name": "wide-compression",
+        "value": "1120px"
       },
       {
-        "name": "mobile-leaves",
-        "value": "760px"
+        "name": "stacked-workspace",
+        "value": "860px"
       },
       {
-        "name": "compact-mobile",
-        "value": "420px"
+        "name": "mobile-shell",
+        "value": "700px"
+      },
+      {
+        "name": "narrow-phone",
+        "value": "430px"
       }
     ]
   },
   "components": [
     {
-      "name": "Clothbound Header",
+      "name": "Set Volume Header",
       "kind": "nav",
-      "refersTo": "clothbound-header",
-      "description": "Forest-cloth masthead with compass mark, book title, dataset provenance, and mountain-edge rule.",
-      "html": "<header class=\"ds-cloth-header\"><div class=\"ds-cloth-brand\"><svg class=\"ds-cloth-compass\" viewBox=\"0 0 64 64\" aria-hidden=\"true\"><circle cx=\"32\" cy=\"32\" r=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M32 10 38 28 54 32 38 36 32 54 26 36 10 32 26 28Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"32\" r=\"4\" fill=\"currentColor\"/></svg><span class=\"ds-cloth-copy\"><strong>The Hobbit Pick Order</strong><small>An expedition atlas for the next pick</small></span></div><span class=\"ds-cloth-stamp\"><strong>188</strong><span>cards<br>19 Aug 2026</span></span><svg class=\"ds-cloth-mountains\" viewBox=\"0 0 600 30\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><path d=\"M0 30V24l55-10 40 8 55-16 48 15 60-8 52 11 70-16 74 15 70-10 76 11v6Z\" fill=\"currentColor\"/></svg></header>",
-      "css": ".ds-cloth-header { position: relative; display: flex; align-items: flex-start; justify-content: space-between; gap: 28px; min-height: 142px; padding: 18px clamp(20px, 4vw, 58px) 22px; overflow: hidden; color: var(--paper-light); background: var(--forest); box-shadow: 0 10px 30px rgba(22, 39, 31, .2); font-family: \"Atkinson Hyperlegible Next\", \"Segoe UI\", sans-serif; } .ds-cloth-brand { position: relative; z-index: 1; display: flex; align-items: center; gap: 17px; } .ds-cloth-compass { width: 54px; height: 54px; color: var(--brass-light); } .ds-cloth-copy { display: grid; gap: 4px; } .ds-cloth-copy strong { font: 700 clamp(1.8rem, 3vw, 2.7rem)/.98 \"Alegreya\", Georgia, serif; letter-spacing: -.02em; } .ds-cloth-copy small { color: #d2dacd; font-size: .82rem; } .ds-cloth-stamp { position: relative; z-index: 1; display: grid; grid-template-columns: auto auto; align-items: center; min-width: 154px; padding: 10px 16px; color: var(--forest-deep); background: var(--brass-light); border-radius: 8px; box-shadow: 0 7px 18px rgba(22, 39, 31, .24); font-size: .72rem; line-height: 1.15; } .ds-cloth-stamp > strong { margin-right: 10px; font: 700 2.25rem/.85 \"Alegreya\", Georgia, serif; } .ds-cloth-mountains { position: absolute; right: 0; bottom: 0; left: 0; width: 100%; height: 54px; color: var(--forest-deep); }"
+      "refersTo": "app-header-hobbit",
+      "description": "Shared binding composition with set-owned material, set picker, sharing, and visible data maturity.",
+      "html": "<header class=\"ds-volume-header\"><span class=\"ds-volume-mark\" aria-hidden=\"true\">✦</span><span class=\"ds-volume-copy\"><strong>Limited Field Guide</strong><small>Choose a set, then prepare the next pick.</small></span><label class=\"ds-volume-picker\">Choose set<select><option>The Hobbit</option><option>Reality Fracture</option></select></label><span class=\"ds-volume-stamp\"><strong>188</strong><small>cards · observed</small></span></header>",
+      "css": ".ds-volume-header { display: grid; grid-template-columns: auto minmax(0,1fr) auto auto; align-items: center; gap: 17px; min-height: 118px; padding: 18px clamp(20px,4vw,58px) 28px; color: var(--on-binding); background: var(--binding); font-family: var(--body); } .ds-volume-mark { display:grid; place-items:center; width:56px; height:56px; color:var(--metal-light); border:2px solid currentColor; border-radius:50%; font-size:1.4rem; } .ds-volume-copy { display:grid; gap:5px; } .ds-volume-copy strong { font:700 clamp(2rem,3.2vw,3.15rem)/.94 var(--display); letter-spacing:-.025em; } .ds-volume-copy small { color:var(--on-binding-muted); font-size:.83rem; } .ds-volume-picker { display:grid; gap:3px; padding:8px 12px; color:var(--on-binding-muted); border:1px solid rgba(248,242,223,.24); border-radius:var(--control-radius); font-size:.62rem; font-weight:700; } .ds-volume-picker select { color:var(--on-binding); background:transparent; border:0; font-weight:700; } .ds-volume-stamp { display:grid; padding:10px 14px; color:var(--binding-deep); background:var(--metal-light); border-radius:var(--control-radius); } .ds-volume-stamp strong { font:700 2.25rem/.85 var(--display); } .ds-volume-stamp small { font-size:.58rem; } .ds-volume-picker:focus-within { outline:3px solid var(--focus); outline-offset:3px; }"
     },
     {
-      "name": "Page Flag",
+      "name": "Active Page Marker",
       "kind": "nav",
-      "refersTo": "page-flag",
-      "description": "Inactive forest-soft tab for turning between the picker and full atlas leaves.",
-      "html": "<button class=\"ds-page-flag\" type=\"button\" role=\"tab\" aria-selected=\"false\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m4 6 5-2 6 2 5-2v14l-5 2-6-2-5 2zM9 4v14M15 6v14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/></svg><span>All cards</span></button>",
-      "css": ".ds-page-flag { display: inline-flex; align-items: center; gap: 9px; min-height: 50px; padding: 0 22px; color: var(--paper-light); background: var(--forest-soft); border: 1px solid rgba(238, 228, 202, .24); border-bottom: 0; border-radius: 8px 8px 0 0; box-shadow: 0 7px 18px rgba(22, 39, 31, .16); font: 700 1rem/1.5 \"Atkinson Hyperlegible Next\", \"Segoe UI\", sans-serif; cursor: pointer; transition: color 160ms var(--ease-out), background-color 160ms var(--ease-out), box-shadow 160ms var(--ease-out), transform 160ms var(--ease-out); } .ds-page-flag:hover { background: #4d6b59; } .ds-page-flag:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; } .ds-page-flag:active { transform: translateY(1px); } .ds-page-flag svg { width: 21px; height: 21px; }"
+      "refersTo": "view-marker-active",
+      "description": "Raised marker for one of the four stable preparation modes.",
+      "html": "<button class=\"ds-view-marker\" type=\"button\" role=\"tab\" aria-selected=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 4h11l3 3v13H5zM8 9h8M8 13h8M8 17h5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/></svg><span>Study</span></button>",
+      "css": ".ds-view-marker { display:inline-flex; align-items:center; gap:8px; min-height:58px; padding:0 19px; color:var(--binding-deep); background:var(--metal-light); border:1px solid var(--metal-light); border-bottom:0; border-radius:var(--control-radius) var(--control-radius) 0 0; box-shadow:0 7px 18px rgba(8,9,16,.16); font:700 .74rem/1.15 var(--body); cursor:pointer; transition:filter 160ms var(--ease-out),transform 160ms var(--ease-out); } .ds-view-marker:hover { filter:brightness(1.05); } .ds-view-marker:focus-visible { outline:3px solid var(--focus); outline-offset:3px; } .ds-view-marker:active { transform:translateY(1px); } .ds-view-marker svg { width:20px; height:20px; }"
     },
     {
-      "name": "Active Page Flag",
-      "kind": "nav",
-      "refersTo": "page-flag-active",
-      "description": "Raised brass tab that identifies the open atlas leaf.",
-      "html": "<button class=\"ds-page-flag-active\" type=\"button\" role=\"tab\" aria-selected=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 5h16v14H4zM8 9h8M8 13h5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/></svg><span>Pick a card</span></button>",
-      "css": ".ds-page-flag-active { display: inline-flex; align-items: center; gap: 9px; min-height: 58px; padding: 0 22px; color: var(--forest-deep); background: var(--brass-light); border: 1px solid var(--brass-light); border-bottom: 0; border-radius: 8px 8px 0 0; box-shadow: 0 7px 18px rgba(22, 39, 31, .16); font: 700 1rem/1.5 \"Atkinson Hyperlegible Next\", \"Segoe UI\", sans-serif; cursor: pointer; transition: filter 160ms var(--ease-out), transform 160ms var(--ease-out); } .ds-page-flag-active:hover { filter: brightness(1.05); } .ds-page-flag-active:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; } .ds-page-flag-active:active { transform: translateY(1px); } .ds-page-flag-active svg { width: 21px; height: 21px; }"
+      "name": "Hobbit Study Card",
+      "kind": "card",
+      "refersTo": "study-card-hobbit",
+      "description": "Rounded map-leaf recognition object inside the forest-cloth atlas.",
+      "html": "<article class=\"ds-hobbit-study\"><span class=\"ds-hobbit-image\">CARD</span><span><small>Card recognition</small><h3>An Unexpected Party</h3><p>Choose the grade band before revealing the exact tier and rank.</p><button type=\"button\">Reveal answer</button></span></article>",
+      "css": ".ds-hobbit-study { display:grid; grid-template-columns:150px minmax(0,1fr); gap:28px; padding:32px; color:#253029; background:#eee4ca; border-radius:12px; box-shadow:0 18px 46px rgba(8,9,16,.34); font-family:\"Atkinson Hyperlegible Next\",\"Segoe UI\",sans-serif; } .ds-hobbit-image { display:grid; place-items:center; aspect-ratio:125.3/176.4; color:#5e655e; background:#ddcfad; border-radius:8px; box-shadow:0 14px 35px rgba(8,9,16,.3); font-weight:700; } .ds-hobbit-study small { color:#773224; font-weight:700; } .ds-hobbit-study h3 { margin:8px 0; font:700 2.1rem/.88 \"Alegreya\",Georgia,serif; } .ds-hobbit-study p { color:#5e655e; } .ds-hobbit-study button { min-height:44px; padding:0 15px; color:#f8f2df; background:#a44832; border:1px solid #a44832; border-radius:6px; font-weight:700; cursor:pointer; } .ds-hobbit-study button:hover { background:#773224; border-color:#773224; } .ds-hobbit-study button:focus-visible { outline:3px solid #0868c4; outline-offset:3px; }"
     },
     {
-      "name": "Atlas Search Field",
+      "name": "Reality Fracture Study Card",
+      "kind": "card",
+      "refersTo": "study-card-fracture",
+      "description": "Cool-paper Echoverse dossier with clipped geometry and an electric offset seam.",
+      "html": "<article class=\"ds-fracture-study\"><span class=\"ds-fracture-image\">PREVIEW</span><span><small>Echofeed index</small><h3>Study What Is Known</h3><p>Rating drills unlock only when a complete attributable evaluation exists.</p><button type=\"button\">Next card</button></span></article>",
+      "css": ".ds-fracture-study { position:relative; display:grid; grid-template-columns:150px minmax(0,1fr); gap:28px; padding:32px; overflow:hidden; color:#191a2b; background:#e5e9f1; border-radius:4px; box-shadow:0 18px 46px rgba(8,9,16,.34); font-family:\"Atkinson Hyperlegible Next\",\"Segoe UI\",sans-serif; } .ds-fracture-study::after { position:absolute; right:-18px; bottom:-45px; width:180px; height:150px; content:\"\"; background:rgba(113,71,213,.14); clip-path:polygon(37% 0,100% 19%,82% 100%,0 78%,11% 23%); transform:rotate(-14deg); } .ds-fracture-image { z-index:1; display:grid; place-items:center; aspect-ratio:125.3/176.4; color:#c5c5dc; background:#171426; border-radius:4px; box-shadow:-10px 14px 34px rgba(9,9,20,.32),9px -7px 0 rgba(113,71,213,.12); font-weight:700; } .ds-fracture-study small { color:#4c2a9e; font-weight:700; } .ds-fracture-study h3 { margin:8px 0; font:900 2.5rem/.88 \"Barlow Condensed\",\"Arial Narrow\",sans-serif; letter-spacing:-.03em; text-transform:uppercase; } .ds-fracture-study p { color:#5b5e73; } .ds-fracture-study button { position:relative; z-index:1; min-height:44px; padding:0 15px; color:#f1f3fb; background:#7147d5; border:1px solid #7147d5; border-radius:3px; font-weight:700; cursor:pointer; } .ds-fracture-study button:hover { background:#4c2a9e; border-color:#4c2a9e; } .ds-fracture-study button:focus-visible { outline:3px solid #d15f79; outline-offset:3px; }"
+    },
+    {
+      "name": "Primary Action",
+      "kind": "button",
+      "refersTo": "primary-action",
+      "description": "Shared action whose colour and corner character resolve through the selected set.",
+      "html": "<button class=\"ds-primary-action\" type=\"button\">New challenge</button>",
+      "css": ".ds-primary-action { min-height:44px; padding:0 15px; color:var(--on-binding); background:var(--accent); border:1px solid var(--accent); border-radius:var(--control-radius); font:700 .76rem/1.15 var(--body); cursor:pointer; transition:background-color 160ms var(--ease-out),border-color 160ms var(--ease-out),transform 160ms var(--ease-out); } .ds-primary-action:hover { background:var(--accent-dark); border-color:var(--accent-dark); } .ds-primary-action:focus-visible { outline:3px solid var(--focus); outline-offset:3px; } .ds-primary-action:active { transform:translateY(1px); } .ds-primary-action:disabled { cursor:not-allowed; opacity:.48; }"
+    },
+    {
+      "name": "Rating Pending Lock",
+      "kind": "custom",
+      "description": "Honest replacement for ranking-dependent work when no attributable Limited evaluation exists.",
+      "html": "<section class=\"ds-rating-lock\"><span class=\"ds-rating-lock-mark\" aria-hidden=\"true\"></span><h3>Pick Drills Are Waiting for Ratings</h3><p>The card file is real; the pick order is not ready. Study every revealed card without guessing at an answer.</p><button type=\"button\">Open revealed cards</button></section>",
+      "css": ".ds-rating-lock { display:grid; place-items:center; min-height:360px; padding:56px 24px; color:var(--ink); text-align:center; background:var(--surface); font-family:var(--body); } .ds-rating-lock-mark { width:96px; height:96px; margin-bottom:20px; border:2px solid var(--signal); border-radius:var(--page-radius); clip-path:polygon(50% 0,100% 24%,78% 100%,12% 80%,0 22%); transform:rotate(14deg); } .ds-rating-lock h3 { max-width:18ch; margin:0 0 10px; font:900 clamp(2.4rem,5vw,4.6rem)/.9 var(--display); letter-spacing:-.025em; text-transform:uppercase; } .ds-rating-lock p { max-width:58ch; margin:0 0 22px; color:var(--muted); } .ds-rating-lock button { min-height:44px; padding:0 15px; color:var(--on-binding); background:var(--accent); border:1px solid var(--accent); border-radius:var(--control-radius); font-weight:700; cursor:pointer; } .ds-rating-lock button:hover { background:var(--accent-dark); border-color:var(--accent-dark); } .ds-rating-lock button:focus-visible { outline:3px solid var(--focus); outline-offset:3px; }"
+    },
+    {
+      "name": "Compare Search Field",
       "kind": "input",
       "refersTo": "input-search",
-      "description": "Warm map-leaf search control with forest stroke and integrated clear action.",
-      "html": "<label class=\"ds-atlas-search\"><span class=\"ds-atlas-search-label\">Search card names</span><svg class=\"ds-atlas-search-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"10.75\" cy=\"10.75\" r=\"6.75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"m16 16 4 4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg><input class=\"ds-atlas-search-input\" type=\"search\" placeholder=\"Search 188 cards…\"><button class=\"ds-atlas-search-clear\" type=\"button\" aria-label=\"Clear search\"><svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"m5 5 10 10M15 5 5 15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg></button></label>",
-      "css": ".ds-atlas-search { position: relative; display: grid; grid-template-columns: 28px 1fr 40px; align-items: center; min-height: 68px; padding: 0 11px 0 18px; color: var(--forest-deep); background: var(--paper-light); border: 2px solid var(--forest); border-radius: 12px; box-shadow: 0 12px 30px rgba(64, 54, 37, .13); font-family: \"Atkinson Hyperlegible Next\", \"Segoe UI\", sans-serif; transition: border-color 180ms var(--ease-out), box-shadow 180ms var(--ease-out); } .ds-atlas-search:focus-within { border-color: var(--oxblood); box-shadow: 0 16px 36px rgba(64, 54, 37, .19); } .ds-atlas-search-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); } .ds-atlas-search-icon { width: 24px; height: 24px; } .ds-atlas-search-input { min-width: 0; height: 64px; padding: 0 12px; color: var(--forest-deep); caret-color: var(--oxblood); background: transparent; border: 0; outline: 0; font: 700 clamp(1.05rem, 2vw, 1.25rem)/1.5 \"Atkinson Hyperlegible Next\", \"Segoe UI\", sans-serif; } .ds-atlas-search-clear { display: grid; place-items: center; width: 40px; height: 40px; padding: 0; color: var(--paper-light); background: var(--forest); border: 0; border-radius: 6px; cursor: pointer; transition: background-color 160ms var(--ease-out), transform 160ms var(--ease-out); } .ds-atlas-search-clear:hover { background: var(--oxblood); } .ds-atlas-search-clear:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; } .ds-atlas-search-clear:active { transform: scale(.96); } .ds-atlas-search-clear svg { width: 19px; height: 19px; }"
+      "description": "Shared high-visibility card search with a themed stroke and integrated clear action.",
+      "html": "<label class=\"ds-search\"><span class=\"ds-search-label\">Search card names</span><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"10.75\" cy=\"10.75\" r=\"6.75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"m16 16 4 4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg><input type=\"search\" placeholder=\"Search cards…\"><button type=\"button\" aria-label=\"Clear search\">×</button></label>",
+      "css": ".ds-search { position:relative; display:grid; grid-template-columns:28px 1fr 40px; align-items:center; min-height:68px; padding:0 11px 0 18px; color:var(--binding-deep); background:var(--surface-light); border:2px solid var(--binding); border-radius:var(--card-radius); box-shadow:0 12px 30px rgba(8,9,16,.13); font-family:var(--body); transition:border-color 180ms var(--ease-out),box-shadow 180ms var(--ease-out); } .ds-search:focus-within { border-color:var(--accent); box-shadow:0 16px 36px rgba(8,9,16,.19); } .ds-search-label { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); } .ds-search svg { width:24px; } .ds-search input { min-width:0; height:64px; padding:0 12px; color:var(--binding-deep); caret-color:var(--accent); background:transparent; border:0; outline:0; font:700 clamp(1.05rem,2vw,1.25rem)/1.5 var(--body); } .ds-search button { width:40px; height:40px; color:var(--on-binding); background:var(--binding); border:0; border-radius:var(--control-radius); cursor:pointer; } .ds-search button:hover { background:var(--accent); } .ds-search button:focus-visible { outline:3px solid var(--focus); outline-offset:3px; }"
     },
     {
-      "name": "Pick Result Row",
+      "name": "Comparison Result Row",
       "kind": "card",
       "refersTo": "result-row",
-      "description": "Flat candidate row with card thumbnail, Alegreya rank lane, identity, tier, and action.",
-      "html": "<button class=\"ds-pick-row\" type=\"button\"><span class=\"ds-pick-thumb\" aria-hidden=\"true\">CARD</span><span class=\"ds-pick-rank\"><strong>#2</strong><small>pick</small></span><span class=\"ds-pick-name\"><strong>An Unexpected Party</strong><small>Add to current pack</small></span><span class=\"ds-pick-meta\"><span class=\"ds-pick-tier\">A−</span><span class=\"ds-pick-action\">Add</span></span></button>",
-      "css": ".ds-pick-row { display: grid; grid-template-columns: 55px 54px minmax(0, 1fr) auto; align-items: center; gap: 14px; width: 100%; min-height: 82px; padding: 9px 8px 9px 2px; color: var(--ink); text-align: left; background: transparent; border: 0; border-bottom: 1px solid var(--line); font-family: \"Atkinson Hyperlegible Next\", \"Segoe UI\", sans-serif; cursor: pointer; transition: background-color 160ms var(--ease-out), transform 160ms var(--ease-out); } .ds-pick-row:hover { background: rgba(248, 242, 223, .74); } .ds-pick-row:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; } .ds-pick-row:active { transform: translateY(1px); } .ds-pick-thumb { display: grid; place-items: center; width: 55px; aspect-ratio: 125.3 / 176.4; color: var(--muted); background: var(--paper-deep); border-radius: 4px; box-shadow: 0 5px 13px rgba(49, 43, 32, .2); font-size: .56rem; font-weight: 700; } .ds-pick-rank { align-self: stretch; display: flex; flex-direction: column; justify-content: center; border-right: 1px solid var(--line); } .ds-pick-rank strong { font: 700 1.7rem/1 \"Alegreya\", Georgia, serif; } .ds-pick-rank small { color: var(--muted); font-size: .66rem; font-weight: 700; } .ds-pick-name { display: grid; gap: 5px; min-width: 0; } .ds-pick-name strong { overflow: hidden; font-size: 1rem; font-weight: 700; line-height: 1.22; text-overflow: ellipsis; white-space: nowrap; } .ds-pick-name small { color: var(--muted); font-size: .72rem; } .ds-pick-meta { display: grid; justify-items: end; gap: 6px; } .ds-pick-tier { min-width: 34px; min-height: 24px; display: grid; place-items: center; color: #fff; background: #a55d40; border-radius: 999px; font-size: .72rem; font-weight: 700; } .ds-pick-action { min-width: 64px; padding: 8px 10px; color: var(--paper-light); background: var(--forest); border-radius: 6px; font-size: .7rem; font-weight: 700; text-align: center; }"
+      "description": "Flat candidate row preserving rank, identity, tier, and Add or Mapped state.",
+      "html": "<button class=\"ds-result-row\" type=\"button\"><span class=\"ds-result-thumb\">CARD</span><span class=\"ds-result-rank\"><strong>#2</strong><small>pick</small></span><span class=\"ds-result-name\"><strong>An Unexpected Party</strong><small>Add to current comparison</small></span><span class=\"ds-result-action\">Add</span></button>",
+      "css": ".ds-result-row { display:grid; grid-template-columns:55px 54px minmax(0,1fr) auto; align-items:center; gap:14px; width:100%; min-height:82px; padding:9px 8px 9px 2px; color:var(--ink); text-align:left; background:transparent; border:0; border-bottom:1px solid var(--line); font-family:var(--body); cursor:pointer; transition:background-color 160ms var(--ease-out),transform 160ms var(--ease-out); } .ds-result-row:hover { background:color-mix(in srgb,var(--surface-light) 74%,transparent); } .ds-result-row:focus-visible { outline:3px solid var(--focus); outline-offset:2px; } .ds-result-row:active { transform:translateY(1px); } .ds-result-thumb { display:grid; place-items:center; width:55px; aspect-ratio:125.3/176.4; color:var(--muted); background:var(--surface-deep); border-radius:4px; box-shadow:0 5px 13px rgba(8,9,16,.2); font-size:.58rem; font-weight:700; } .ds-result-rank { align-self:stretch; display:flex; flex-direction:column; justify-content:center; border-right:1px solid var(--line); } .ds-result-rank strong { font:700 1.7rem/1 var(--display); } .ds-result-rank small,.ds-result-name small { color:var(--muted); font-size:.68rem; } .ds-result-name { display:grid; gap:4px; min-width:0; } .ds-result-name strong { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; } .ds-result-action { min-width:58px; padding:7px 9px; color:var(--on-binding); background:var(--binding); border-radius:var(--control-radius); font-size:.68rem; font-weight:700; text-align:center; }"
     },
     {
-      "name": "Mapped Result Row",
-      "kind": "card",
-      "refersTo": "result-row-mapped",
-      "description": "Selected result variant with a translucent brass leaf tint and oxblood state label.",
-      "html": "<button class=\"ds-mapped-row\" type=\"button\" aria-selected=\"true\"><span class=\"ds-mapped-thumb\" aria-hidden=\"true\">CARD</span><span class=\"ds-mapped-rank\"><strong>#2</strong><small>pick</small></span><span class=\"ds-mapped-name\"><strong>An Unexpected Party</strong><small>1 place below leader</small></span><span class=\"ds-mapped-meta\"><span class=\"ds-mapped-tier\">A−</span><span class=\"ds-mapped-action\">Mapped</span></span></button>",
-      "css": ".ds-mapped-row { display: grid; grid-template-columns: 55px 54px minmax(0, 1fr) auto; align-items: center; gap: 14px; width: 100%; min-height: 82px; padding: 9px 8px 9px 2px; color: var(--ink); text-align: left; background: rgba(217, 189, 116, .23); border: 0; border-bottom: 1px solid var(--line); font-family: \"Atkinson Hyperlegible Next\", \"Segoe UI\", sans-serif; cursor: pointer; transition: background-color 160ms var(--ease-out), transform 160ms var(--ease-out); } .ds-mapped-row:hover { background: rgba(217, 189, 116, .32); } .ds-mapped-row:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; } .ds-mapped-row:active { transform: translateY(1px); } .ds-mapped-thumb { display: grid; place-items: center; width: 55px; aspect-ratio: 125.3 / 176.4; color: var(--muted); background: var(--paper-deep); border-radius: 4px; box-shadow: 0 5px 13px rgba(49, 43, 32, .2); font-size: .56rem; font-weight: 700; } .ds-mapped-rank { align-self: stretch; display: flex; flex-direction: column; justify-content: center; border-right: 1px solid var(--line); } .ds-mapped-rank strong { font: 700 1.7rem/1 \"Alegreya\", Georgia, serif; } .ds-mapped-rank small { color: var(--muted); font-size: .66rem; font-weight: 700; } .ds-mapped-name { display: grid; gap: 5px; min-width: 0; } .ds-mapped-name strong { overflow: hidden; font-size: 1rem; font-weight: 700; line-height: 1.22; text-overflow: ellipsis; white-space: nowrap; } .ds-mapped-name small { color: var(--muted); font-size: .72rem; } .ds-mapped-meta { display: grid; justify-items: end; gap: 6px; } .ds-mapped-tier { min-width: 34px; min-height: 24px; display: grid; place-items: center; color: #fff; background: #a55d40; border-radius: 999px; font-size: .72rem; font-weight: 700; } .ds-mapped-action { min-width: 64px; padding: 8px 10px; color: var(--paper-light); background: var(--oxblood); border-radius: 6px; font-size: .7rem; font-weight: 700; text-align: center; }"
-    },
-    {
-      "name": "Brass Action Button",
+      "name": "Pick Drill Choice",
       "kind": "button",
-      "refersTo": "button-brass",
-      "description": "Compact pack-level action rendered as a brass waypoint on forest cloth.",
-      "html": "<button class=\"ds-brass-button\" type=\"button\">Clear</button>",
-      "css": ".ds-brass-button { min-width: 70px; min-height: 42px; color: var(--forest-deep); background: var(--brass-light); border: 0; border-radius: 6px; font: 700 .75rem/1.15 \"Atkinson Hyperlegible Next\", \"Segoe UI\", sans-serif; cursor: pointer; transition: color 160ms var(--ease-out), background-color 160ms var(--ease-out), transform 160ms var(--ease-out); } .ds-brass-button:hover:not(:disabled) { color: #fff; background: var(--oxblood); } .ds-brass-button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; } .ds-brass-button:active:not(:disabled) { transform: scale(.97); } .ds-brass-button:disabled { color: #819087; background: #344d40; cursor: not-allowed; }"
+      "description": "One of three equal deterministic challenge choices with the answer concealed until selection.",
+      "html": "<button class=\"ds-drill-choice\" type=\"button\"><span class=\"ds-drill-image\">CARD</span><strong>An Unexpected Party</strong><small>Choose this card</small></button>",
+      "css": ".ds-drill-choice { display:grid; gap:8px; padding:0 0 14px; color:var(--ink); text-align:left; background:transparent; border:0; border-bottom:2px solid var(--line); font-family:var(--body); cursor:pointer; transition:border-color 180ms var(--ease-out),transform 180ms var(--ease-out); } .ds-drill-choice:hover { border-color:var(--accent); transform:translateY(-5px); } .ds-drill-choice:focus-visible { outline:3px solid var(--focus); outline-offset:3px; } .ds-drill-choice:active { transform:translateY(-2px); } .ds-drill-image { display:grid; place-items:center; width:100%; aspect-ratio:125.3/176.4; color:var(--muted); background:var(--surface-deep); border-radius:8px; box-shadow:0 15px 30px rgba(8,9,16,.2); font-size:.68rem; font-weight:700; } .ds-drill-choice strong { margin-top:6px; font-size:.96rem; } .ds-drill-choice small { color:var(--muted); font-size:.72rem; }"
     },
     {
-      "name": "Route Leader Card",
-      "kind": "card",
-      "refersTo": "route-leader-card",
-      "description": "Warm map card with oxblood trail, dominant leader name, rank, tier, and direct removal.",
-      "html": "<article class=\"ds-route-leader\"><svg class=\"ds-route-mark\" viewBox=\"0 0 220 120\" aria-hidden=\"true\"><path d=\"M-8 104C32 74 53 98 85 65s68-6 105-44 39-8 45-2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-dasharray=\"5 8\"/><circle cx=\"190\" cy=\"21\" r=\"7\" fill=\"currentColor\"/></svg><span class=\"ds-route-thumb\" aria-hidden=\"true\">CARD ART</span><div class=\"ds-route-copy\"><span class=\"ds-route-label\">Route leader</span><h3 class=\"ds-route-name\">Fili the Pathfinder</h3><div class=\"ds-route-meta\"><strong>#1</strong><span>S</span></div><button class=\"ds-route-remove\" type=\"button\">Remove from pack</button></div></article>",
-      "css": ".ds-route-leader { position: relative; display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 20px; padding: 18px; overflow: hidden; color: var(--ink); background: var(--paper); border-radius: 12px; box-shadow: 0 13px 32px rgba(18, 34, 26, .24); font-family: \"Atkinson Hyperlegible Next\", \"Segoe UI\", sans-serif; } .ds-route-mark { position: absolute; right: -26px; bottom: -12px; width: 235px; color: rgba(164, 72, 50, .34); } .ds-route-thumb { position: relative; z-index: 1; display: grid; place-items: center; width: 110px; aspect-ratio: 125.3 / 176.4; color: var(--muted); background: var(--paper-deep); border-radius: 6px; box-shadow: 0 9px 22px rgba(43, 37, 27, .24); font-size: .62rem; font-weight: 700; } .ds-route-copy { position: relative; z-index: 1; min-width: 0; } .ds-route-label { color: var(--oxblood-dark); font-size: .72rem; font-weight: 700; } .ds-route-name { max-width: 14ch; margin: 8px 0 14px; font: 700 clamp(1.9rem, 3.5vw, 3.1rem)/.94 \"Alegreya\", Georgia, serif; letter-spacing: -.025em; } .ds-route-meta { display: flex; align-items: center; gap: 9px; } .ds-route-meta strong { color: var(--oxblood-dark); font: 700 1.45rem/1 \"Alegreya\", Georgia, serif; } .ds-route-meta span { display: grid; place-items: center; min-width: 34px; min-height: 24px; color: #fff; background: #604381; border-radius: 999px; font-size: .72rem; font-weight: 700; } .ds-route-remove { margin-top: 17px; padding: 8px 10px; color: var(--paper-light); background: var(--forest); border: 0; border-radius: 5px; font-size: .72rem; font-weight: 700; cursor: pointer; transition: background-color 160ms var(--ease-out), transform 160ms var(--ease-out); } .ds-route-remove:hover { background: var(--oxblood); } .ds-route-remove:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; } .ds-route-remove:active { transform: scale(.98); }"
-    },
-    {
-      "name": "Colour Jump Chip",
+      "name": "Colour Jump",
       "kind": "chip",
-      "refersTo": "color-jump-chip",
-      "description": "Sticky atlas-index pill with a colour emblem, literal group name, and card count.",
-      "html": "<button class=\"ds-colour-jump\" type=\"button\"><span class=\"ds-colour-mark\" aria-hidden=\"true\"></span><strong>Blue</strong><span>28</span></button>",
-      "css": ".ds-colour-jump { display: inline-grid; grid-template-columns: 16px auto auto; align-items: center; gap: 7px; min-height: 38px; padding: 0 11px; white-space: nowrap; color: var(--ink); background: var(--paper-light); border: 1px solid var(--line); border-radius: 999px; font: 400 .76rem/1.5 \"Atkinson Hyperlegible Next\", \"Segoe UI\", sans-serif; cursor: pointer; transition: border-color 160ms var(--ease-out), transform 160ms var(--ease-out); } .ds-colour-jump:hover { border-color: var(--forest); } .ds-colour-jump:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; } .ds-colour-jump:active { transform: translateY(1px); } .ds-colour-mark { display: block; width: 16px; height: 16px; background: #4f8198; border: 2px solid rgba(37, 48, 41, .28); border-radius: 50%; } .ds-colour-jump > span:last-child { color: var(--muted); font-variant-numeric: tabular-nums; }"
+      "refersTo": "colour-jump-fracture",
+      "description": "Set-themed card-colour navigation; pill and circle in Hobbit, two-pixel clipped cuts in Reality Fracture.",
+      "html": "<button class=\"ds-colour-jump\" type=\"button\"><span class=\"ds-colour-mark\" aria-hidden=\"true\"></span><strong>Blue</strong><span>27</span></button>",
+      "css": ".ds-colour-jump { display:inline-grid; grid-template-columns:16px auto auto; align-items:center; gap:7px; min-height:38px; padding:0 11px; color:var(--ink); white-space:nowrap; background:var(--surface-light); border:1px solid var(--line); border-radius:2px; font:400 .74rem/1.5 var(--body); cursor:pointer; } .ds-colour-jump:hover { border-color:var(--binding); } .ds-colour-jump:focus-visible { outline:3px solid var(--focus); outline-offset:3px; } .ds-colour-jump:active { transform:translateY(1px); } .ds-colour-mark { width:16px; height:16px; background:#4f8198; border:2px solid rgba(25,26,43,.28); border-radius:2px; clip-path:polygon(50% 0,100% 25%,82% 100%,12% 79%,0 19%); transform:rotate(12deg); } .ds-colour-jump > span:last-child { color:var(--muted); font-variant-numeric:tabular-nums; }"
     },
     {
-      "name": "Atlas Card",
+      "name": "Atlas Card Row",
       "kind": "card",
-      "refersTo": "atlas-card",
-      "description": "Compact colour-grouped atlas entry with thumbnail, rank, title, tier, and pack state.",
-      "html": "<button class=\"ds-atlas-card\" type=\"button\" aria-pressed=\"false\"><span class=\"ds-atlas-thumb\" aria-hidden=\"true\">CARD</span><span class=\"ds-atlas-copy\"><span class=\"ds-atlas-rank\">#12</span><strong>Gandalf, Friend of the Shire</strong><span class=\"ds-atlas-meta\"><span class=\"ds-atlas-tier\">B+</span><span class=\"ds-atlas-action\">Add</span></span></span></button>",
-      "css": ".ds-atlas-card { display: grid; grid-template-columns: 64px minmax(0, 1fr); align-items: center; gap: 12px; width: 100%; min-height: 112px; padding: 11px 5px; color: var(--ink); text-align: left; background: transparent; border: 0; border-bottom: 1px solid var(--line); font-family: \"Atkinson Hyperlegible Next\", \"Segoe UI\", sans-serif; cursor: pointer; transition: background-color 160ms var(--ease-out), transform 160ms var(--ease-out); } .ds-atlas-card:hover { background: rgba(248, 242, 223, .68); } .ds-atlas-card:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; } .ds-atlas-card:active { transform: translateY(1px); } .ds-atlas-card[aria-pressed=\"true\"] { background: color-mix(in srgb, #4f8198 22%, transparent); } .ds-atlas-thumb { display: grid; place-items: center; width: 64px; aspect-ratio: 125.3 / 176.4; color: var(--muted); background: var(--paper-deep); border-radius: 4px; box-shadow: 0 5px 13px rgba(49, 43, 32, .2); font-size: .56rem; font-weight: 700; } .ds-atlas-copy { display: block; min-width: 0; } .ds-atlas-rank { display: block; color: #254a5b; font: 700 1.25rem/1 \"Alegreya\", Georgia, serif; } .ds-atlas-copy > strong { display: block; margin-top: 4px; font-size: .92rem; line-height: 1.2; } .ds-atlas-meta { display: flex; align-items: center; gap: 7px; margin-top: 8px; } .ds-atlas-tier { display: grid; place-items: center; min-width: 34px; min-height: 24px; color: #fff; background: #2f644d; border-radius: 999px; font-size: .72rem; font-weight: 700; } .ds-atlas-action { color: var(--muted); font-size: .7rem; font-weight: 700; } .ds-atlas-card[aria-pressed=\"true\"] .ds-atlas-action { color: var(--oxblood-dark); }"
+      "description": "Compact colour-grouped card entry that shows rank for rated sets or collector identity for previews.",
+      "html": "<button class=\"ds-atlas-card\" type=\"button\"><span class=\"ds-atlas-image\">CARD</span><span><b>#12</b><strong>An Unexpected Party</strong><small><em>A−</em> Tier A−</small></span></button>",
+      "css": ".ds-atlas-card { display:grid; grid-template-columns:64px minmax(0,1fr); align-items:center; gap:12px; min-height:112px; padding:11px 5px; color:var(--ink); text-align:left; background:transparent; border:0; border-bottom:1px solid var(--line); font-family:var(--body); cursor:pointer; } .ds-atlas-card:hover { background:color-mix(in srgb,var(--surface-light) 68%,transparent); } .ds-atlas-card:focus-visible { outline:3px solid var(--focus); outline-offset:3px; } .ds-atlas-image { display:grid; place-items:center; width:64px; aspect-ratio:125.3/176.4; color:var(--muted); background:var(--surface-deep); border-radius:4px; box-shadow:0 5px 13px rgba(8,9,16,.2); font-size:.58rem; font-weight:700; } .ds-atlas-card > span:last-child { display:grid; gap:4px; min-width:0; } .ds-atlas-card b { color:#254a5b; font:700 1.2rem/1 var(--display); } .ds-atlas-card strong { font-size:.9rem; } .ds-atlas-card small { color:var(--muted); font-size:.68rem; } .ds-atlas-card em { display:inline-grid; place-items:center; min-width:34px; min-height:24px; margin-right:5px; color:#fff; background:#a55d40; border-radius:999px; font-style:normal; font-weight:700; }"
     }
   ],
   "narrative": {
-    "northStar": "Bilbo’s Expedition Atlas",
-    "overview": "The system turns a pick order into a working expedition volume. Forest-cloth binding and brass page flags frame warm map leaves; contour lines, oxblood route marks, river-blue details, and compass geometry create a sense of place without becoming decorative fantasy. It should feel learned, practical, companionable, and ready to be opened mid-journey for a quick decision.\n\nHierarchy remains operational inside that world. Alegreya gives titles and ranks a bookish editorial voice, Atkinson Hyperlegible Next keeps search and metadata exceptionally legible, and the open spread makes the current route as tangible as the cards being considered. The system rejects generic dashboard chrome and theatrical parchment styling; materials stay quiet enough for immediate interaction.",
+    "northStar": "The Set-Specific Field Guide Shelf",
+    "overview": "Limited Field Guides is one dependable preparation shelf holding authored volumes, not one generic dashboard wearing different accent colours. The shared shell keeps the learning sequence stable—choose a set, study its cards, rehearse ranked decisions, compare a hand-built pack, and share the exact challenge—while each set owns one coherent material world.\n\nThe Hobbit remains Bilbo’s Expedition Atlas: forest cloth, warm map leaves, brass page flags, oxblood routes, river details, and softly handled corners. Reality Fracture is an Echoverse dossier: ink and indigo binding, cool paper, electric violet, cyan, and pink seams, condensed black display type, and facets cut on sharp angles. Atkinson Hyperlegible Next connects both as the practical reading and control voice.\n\nThe system should feel authored, trustworthy, and ready before an event. Data maturity is visible rather than implied; progress stays local; rating-dependent work visibly locks when an attributable evaluation does not exist. The visual language rejects generic statistics dashboards and deck-builder framing.",
     "keyCharacteristics": [
-      "Forest-cloth framing around warm, lightly contoured map leaves.",
-      "Alegreya for titles and ranks; Atkinson Hyperlegible Next for working text.",
-      "Brass page flags for navigation, provenance, and route wayfinding.",
-      "Oxblood route marks for selection and consequential state; river blue for cartographic detail.",
-      "An open two-leaf picker spread paired with a complete colour-indexed atlas.",
-      "Restrained tactile shadows that make the atlas feel handled rather than glossy."
+      "One shared preparation sequence expressed as a shelf of set-owned field guides.",
+      "Atkinson Hyperlegible Next for working text, controls, metadata, and dense card information.",
+      "Hobbit’s rounded cloth-and-map atlas beside Reality Fracture’s clipped, electrically seamed dossier.",
+      "Four compact page markers opening directly onto one large study card and an honest guide panel.",
+      "Local preparation progress, deterministic challenge links, and explicit rating-pending locks.",
+      "Broad surfaces and flat rows gathered into one handled volume rather than a field of dashboard cards."
     ],
     "rules": [
       {
-        "name": "The Route Mark Rule",
-        "body": "Oxblood belongs to mapped state, route emphasis, and consequential actions; it is never a broad decorative fill.",
+        "name": "The Semantic Spine Rule",
+        "body": "Change a set by remapping the established semantic roles; do not recolour individual components ad hoc.",
         "section": "colors"
       },
       {
-        "name": "The Brass Flag Rule",
-        "body": "Brass identifies places to turn, clear, or orient. Keep it compact so it continues to read as a page flag or waypoint.",
+        "name": "The One Material World Rule",
+        "body": "Hobbit accents belong to the atlas and Fracture accents belong to the dossier. Never cross-pollinate brass map marks with electric seams.",
         "section": "colors"
       },
       {
-        "name": "The Ink-on-Leaves Rule",
-        "body": "Primary reading happens in Contour Ink on Map Leaf. Forest reversals are reserved for binding, navigation, and the current route.",
+        "name": "The Honest State Rule",
+        "body": "Rating tiers appear only when the rating source is available. Preview uses the pending token and explanatory copy rather than a guessed rank colour.",
         "section": "colors"
       },
       {
-        "name": "The Literary Utility Rule",
-        "body": "Use Alegreya for page hierarchy, card leaders, and ranks; use Atkinson Hyperlegible Next for every instruction, control, and dense list detail.",
+        "name": "The Working Voice Rule",
+        "body": "Atkinson owns every instruction, control, metadata label, and dense card detail across every set.",
         "section": "typography"
       },
       {
-        "name": "The No-Costume Rule",
-        "body": "Preserve Alegreya’s natural case and editorial rhythm. Do not simulate medieval lettering with all-caps display type, blackletter, or decorative tracking.",
+        "name": "The Set Display Rule",
+        "body": "Display type changes with the volume: editorial Alegreya for Hobbit, uppercase Barlow Condensed Black for Reality Fracture. Do not use either as body copy.",
         "section": "typography"
       },
       {
-        "name": "The Open-Volume Rule",
-        "body": "Picker and route belong to the same spread, while the complete atlas is a deliberate page turn—not a dashboard panel competing in the same viewport.",
+        "name": "The Dense-but-Legible Rule",
+        "body": "The micro scale is reserved for short metadata with strong weight and contrast; explanatory copy never drops into it.",
+        "section": "typography"
+      },
+      {
+        "name": "The First-Viewport Rule",
+        "body": "The selected set and data maturity lead in the binding; four compact markers then yield to the large study card and guide panel.",
         "section": "layout"
       },
       {
-        "name": "The Route-in-Reach Rule",
-        "body": "The current leader must remain visible in the right leaf or reachable through the brass mobile dock.",
+        "name": "The Stable-Shell Rule",
+        "body": "Study, Pick drill, Compare, and All cards retain their order and behavior across sets even while materials, display type, and geometry change.",
         "section": "layout"
       },
       {
-        "name": "The Bound-Object Rule",
-        "body": "Elevate the atlas as one handled object; do not distribute independent card-panel shadows across the leaves.",
+        "name": "The Preparation-Only Rule",
+        "body": "Layout supports recognition, rehearsal, comparison, and browsing. It must never acquire deck zones, curve charts, counts-by-card, or other deck-builder composition.",
+        "section": "layout"
+      },
+      {
+        "name": "The One-Volume Rule",
+        "body": "Elevate the spread, page, or study object as a whole; do not distribute equal shadows across every row.",
         "section": "elevation"
       },
       {
-        "name": "The Bound-Corner Rule",
-        "body": "Preserve the square flag-to-leaf join; rounding all four corners would break the open-book silhouette.",
+        "name": "The Structural-Seam Rule",
+        "body": "The violet offset on Reality Fracture card imagery is directional construction, not a general glow effect.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Theme-Owned Silhouette Rule",
+        "body": "Preserve Hobbit’s handled volume and Reality Fracture’s clipped dossier; shared behavior does not require shared corner character.",
         "section": "shapes"
       },
       {
-        "name": "The Map-Mark Rule",
-        "body": "Decorative geometry must read as navigation—compass, contour, route, mountain, or colour emblem—not as generic fantasy ornament.",
+        "name": "The Two-Pixel Cut Rule",
+        "body": "Reality Fracture’s two-pixel colour controls and emblems are deliberate pre-clipped cuts. Do not round them up or spread that radius to unrelated controls.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Bound-Join Rule",
+        "body": "The leading page corner stays square where the active marker meets its surface in both themes.",
         "section": "shapes"
       }
     ],
     "dos": [
-      "Do frame warm map leaves with Forest Cloth and preserve the square page-flag join.",
-      "Do reserve Oxblood for route marks, mapped state, and consequential actions.",
-      "Do use brass for page flags, provenance, route ticks, and waypoint controls.",
-      "Do keep Alegreya on titles, leaders, and ranks while Atkinson Hyperlegible Next handles working text.",
-      "Do preserve card rank, tier, Magic-colour grouping, keyboard focus, touch targets, and reduced-motion behavior.",
-      "Do keep contour and route imagery quiet enough that card names and ranks remain dominant."
+      "Do keep the shared preparation sequence and information order stable while each set owns one material world.",
+      "Do lead with the selected volume and data maturity, then expose all four preparation modes.",
+      "Do use Atkinson Hyperlegible Next for working text and the set display face only for hierarchy, ranks, and authored marks.",
+      "Do preserve Hobbit’s forest cloth, map leaves, brass, oxblood, river details, and rounded handled construction.",
+      "Do preserve Reality Fracture’s ink-indigo binding, cool paper, violet/cyan/pink seams, condensed black display type, clipped facets, and two-to-four-pixel cuts.",
+      "Do keep progress local, comparisons session-only, and challenge URLs exact and deterministic.",
+      "Do visibly lock ranking-dependent answers and actions when the rating source is pending.",
+      "Do preserve keyboard focus, touch targets, literal labels, source attribution, and reduced-motion behavior."
     ],
     "donts": [
-      "Don't substitute loud synthetic signal colours or monochrome machinery panels for the atlas palette.",
-      "Don't turn the atlas into theatrical parchment with distressed edges, blackletter, gold filigree, or lore ornament.",
-      "Don't use Oxblood or Brass as broad decorative backgrounds across the map leaves.",
-      "Don't wrap each ranked row in its own rounded, elevated card.",
-      "Don't mix picker, current route, and complete atlas into competing dashboard panels.",
-      "Don't replace literal card, rank, state, and colour labels with ambiguous icons alone."
+      "Don't collapse authored set worlds into one generic theme with swapped accent colours.",
+      "Don't turn Hobbit into theatrical parchment, blackletter, gold filigree, or lore ornament.",
+      "Don't soften Reality Fracture into rounded neon glass, broad gradients, or ambient cyberpunk glow.",
+      "Don't cross Hobbit’s brass and oxblood into the Fracture dossier or Fracture’s electric seams into the atlas.",
+      "Don't invent rankings, tiers, or answer colours for a preview-only set.",
+      "Don't wrap every result, drill choice, or atlas entry in its own rounded elevated card.",
+      "Don't frame comparison as a deck list or add deck-builder zones, curve analytics, saved builds, or card-count controls.",
+      "Don't hide state, card identity, colour grouping, or navigation behind icons alone."
     ]
   }
 }

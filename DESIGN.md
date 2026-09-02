@@ -1,55 +1,176 @@
 ---
-name: "The Hobbit Pick Order"
-description: "A clothbound expedition atlas for fast pack decisions and complete colour browsing."
+name: "Limited Field Guides"
+description: "A shelf of set-specific Limited preparation volumes with a shared, trustworthy working shell."
 colors:
-  forest-cloth: "#263c31"
-  forest-deep: "#16271f"
-  forest-soft: "#3d5a49"
-  map-leaf: "#eee4ca"
-  map-leaf-light: "#f8f2df"
-  map-leaf-deep: "#ddcfad"
-  atlas-ground: "#d7c6a0"
-  contour-ink: "#253029"
-  muted-ink: "#5e655e"
-  map-line: "#b6a98a"
-  oxblood-route: "#a44832"
-  oxblood-deep: "#773224"
-  river-blue: "#466c75"
-  brass: "#b48c43"
-  brass-page-flag: "#d9bd74"
-  focus-blue: "#0868c4"
+  texture-shadow: "rgba(0, 0, 0, .07)"
+  menu-ink: "#171820"
+  menu-paper: "#f6f7fa"
+  pure-white: "#fff"
+  feedback-correct: "#35634d"
+  feedback-incorrect: "#8c413b"
+  hobbit-binding: "#263c31"
+  hobbit-binding-deep: "#16271f"
+  hobbit-binding-soft: "#3d5a49"
+  hobbit-surface: "#eee4ca"
+  hobbit-surface-light: "#f8f2df"
+  hobbit-surface-deep: "#ddcfad"
+  hobbit-ground: "#d7c6a0"
+  hobbit-ink: "#253029"
+  hobbit-muted: "#5e655e"
+  hobbit-line: "#b6a98a"
+  hobbit-accent: "#a44832"
+  hobbit-accent-dark: "#773224"
+  hobbit-signal: "#466c75"
+  hobbit-metal: "#b48c43"
+  hobbit-metal-light: "#d9bd74"
+  hobbit-focus: "#0868c4"
+  hobbit-on-binding: "#f8f2df"
+  hobbit-on-binding-muted: "#cbd5c8"
+  fracture-binding: "#171426"
+  fracture-binding-deep: "#090914"
+  fracture-binding-soft: "#39304f"
+  fracture-surface: "#e5e9f1"
+  fracture-surface-light: "#f5f7fb"
+  fracture-surface-deep: "#cbd3e0"
+  fracture-ground: "#0d0d19"
+  fracture-ink: "#191a2b"
+  fracture-muted: "#5b5e73"
+  fracture-line: "#aeb7ca"
+  fracture-accent: "#7147d5"
+  fracture-accent-dark: "#4c2a9e"
+  fracture-signal: "#159caf"
+  fracture-metal: "#d15f79"
+  fracture-metal-light: "#6be0ed"
+  fracture-focus: "#d15f79"
+  fracture-on-binding: "#f1f3fb"
+  fracture-on-binding-muted: "#c5c5dc"
+  group-white: "#d7cea8"
+  group-white-ink: "#514a34"
+  group-blue: "#4f8198"
+  group-blue-ink: "#254a5b"
+  group-black: "#574b58"
+  group-black-ink: "#3c303d"
+  group-red: "#aa543d"
+  group-red-ink: "#742f23"
+  group-green: "#5c7d53"
+  group-green-ink: "#35522f"
+  group-multicolour-ink: "#725d2f"
+  group-colourless: "#8b8374"
+  group-colourless-ink: "#5b554b"
+  tier-s: "#604381"
+  tier-a-plus: "#8c432f"
+  tier-a: "#995038"
+  tier-a-minus: "#a55d40"
+  tier-b-plus: "#2f644d"
+  tier-b: "#3d7058"
+  tier-b-minus: "#507d67"
+  tier-c-plus: "#3f6571"
+  tier-c: "#557781"
+  tier-c-minus: "#6a8990"
+  tier-d-plus: "#716657"
+  tier-d: "#83786a"
+  tier-d-minus: "#958b7e"
+  tier-f: "#913d38"
+  tier-pending: "#6a716d"
 typography:
-  display:
+  scale:
+    micro-58: ".58rem"
+    micro-60: ".6rem"
+    micro-62: ".62rem"
+    micro-64: ".64rem"
+    micro-65: ".65rem"
+    micro-66: ".66rem"
+    micro-68: ".68rem"
+    micro-70: ".7rem"
+    micro-72: ".72rem"
+    micro-74: ".74rem"
+    micro-75: ".75rem"
+    micro-76: ".76rem"
+    micro-78: ".78rem"
+    micro-79: ".79rem"
+    micro-80: ".8rem"
+    micro-82: ".82rem"
+    micro-83: ".83rem"
+    micro-84: ".84rem"
+    small-86: ".86rem"
+    small-90: ".9rem"
+    small-94: ".94rem"
+    small-96: ".96rem"
+    base: "1rem"
+    control-min: "1.05rem"
+    compact-display-min: "1.15rem"
+    compact-display: "1.2rem"
+    control-max: "1.25rem"
+    tally: "1.35rem"
+    rank-compact: "1.4rem"
+    answer: "1.45rem"
+    heading-compact: "1.65rem"
+    rank: "1.7rem"
+    leader-min: "1.8rem"
+    brand-min: "2rem"
+    card-display-min: "2.1rem"
+    empty-title: "2.2rem"
+    stamp: "2.25rem"
+    pack-min: "2.35rem"
+    section-min: "2.4rem"
+    trainer-min: "2.45rem"
+    leaf-min: "2.5rem"
+    scanner-mobile: "2.65rem"
+    working-mobile: "2.7rem"
+    guide-min: "2.8rem"
+    page-min: "3rem"
+    brand-max: "3.15rem"
+    card-display-max: "3.5rem"
+    pack-max: "3.9rem"
+    trainer-max: "4rem"
+    lock-max: "4.6rem"
+    leaf-max: "4.7rem"
+    guide-max: "4.8rem"
+    page-max: "5.8rem"
+  hobbit-page:
     fontFamily: "Alegreya, Georgia, serif"
-    fontSize: "clamp(3rem, 7vw, 5.7rem)"
+    fontSize: "clamp(3rem, 7vw, 5.8rem)"
     fontWeight: 700
-    lineHeight: 0.88
+    lineHeight: 0.86
     letterSpacing: "-0.035em"
-  headline:
+  hobbit-heading:
     fontFamily: "Alegreya, Georgia, serif"
     fontSize: "clamp(2.5rem, 5vw, 4.7rem)"
     fontWeight: 700
-    lineHeight: 0.92
+    lineHeight: 0.9
     letterSpacing: "-0.03em"
-  brand:
+  fracture-page:
+    fontFamily: "Barlow Condensed, Arial Narrow, sans-serif"
+    fontSize: "clamp(3rem, 7vw, 5.8rem)"
+    fontWeight: 900
+    lineHeight: 0.86
+    letterSpacing: "-0.035em"
+  fracture-heading:
+    fontFamily: "Barlow Condensed, Arial Narrow, sans-serif"
+    fontSize: "clamp(2.5rem, 5vw, 4.7rem)"
+    fontWeight: 900
+    lineHeight: 0.9
+    letterSpacing: "-0.03em"
+  hobbit-brand:
     fontFamily: "Alegreya, Georgia, serif"
-    fontSize: "clamp(1.8rem, 3vw, 2.7rem)"
+    fontSize: "clamp(2rem, 3.2vw, 3.15rem)"
     fontWeight: 700
-    lineHeight: 0.98
-    letterSpacing: "-0.02em"
-  rank:
-    fontFamily: "Alegreya, Georgia, serif"
-    fontSize: "1.7rem"
-    fontWeight: 700
-    lineHeight: 1
+    lineHeight: 0.94
+    letterSpacing: "-0.025em"
+  fracture-brand:
+    fontFamily: "Barlow Condensed, Arial Narrow, sans-serif"
+    fontSize: "clamp(2rem, 3.2vw, 3.15rem)"
+    fontWeight: 900
+    lineHeight: 0.94
+    letterSpacing: "-0.015em"
   body:
     fontFamily: "Atkinson Hyperlegible Next, Segoe UI, sans-serif"
-    fontSize: "16px"
+    fontSize: "1rem"
     fontWeight: 400
     lineHeight: 1.5
-  title:
+  working-title:
     fontFamily: "Atkinson Hyperlegible Next, Segoe UI, sans-serif"
-    fontSize: "1rem"
+    fontSize: ".96rem"
     fontWeight: 700
     lineHeight: 1.22
   search:
@@ -57,268 +178,321 @@ typography:
     fontSize: "clamp(1.05rem, 2vw, 1.25rem)"
     fontWeight: 700
     lineHeight: 1.5
+  hobbit-rank:
+    fontFamily: "Alegreya, Georgia, serif"
+    fontSize: "1.7rem"
+    fontWeight: 700
+    lineHeight: 1
+  fracture-rank:
+    fontFamily: "Barlow Condensed, Arial Narrow, sans-serif"
+    fontSize: "1.7rem"
+    fontWeight: 900
+    lineHeight: 1
   label:
     fontFamily: "Atkinson Hyperlegible Next, Segoe UI, sans-serif"
-    fontSize: "0.72rem"
+    fontSize: ".74rem"
     fontWeight: 700
     lineHeight: 1.15
 rounded:
-  card-mini: "3px"
+  fracture-micro-cut: "2px"
+  fracture-page: "3px"
   thumbnail: "4px"
-  utility: "5px"
-  control: "6px"
-  page-flag: "8px"
-  mobile-dock: "9px"
-  compact-leaf: "10px"
-  field: "12px"
-  atlas-leaf: "14px"
+  hobbit-control: "6px"
+  handled-card: "8px"
+  hobbit-card: "12px"
+  hobbit-page: "14px"
   pill: "999px"
+spacing:
+  hairline-gap: "3px"
+  xs: "8px"
+  sm: "10px"
+  compact: "12px"
+  control: "14px"
+  md: "16px"
+  leaf: "18px"
+  lg: "20px"
+  section: "24px"
+  spread: "28px"
+  gutter: "36px"
+  frame: "48px"
+  generous: "70px"
 components:
-  clothbound-header:
-    backgroundColor: "{colors.forest-cloth}"
-    textColor: "{colors.map-leaf-light}"
-    height: "142px"
-    padding: "18px clamp(20px, 4vw, 58px) 22px"
-  page-flag:
-    backgroundColor: "{colors.forest-soft}"
-    textColor: "{colors.map-leaf-light}"
-    rounded: "{rounded.page-flag}"
+  app-header-hobbit:
+    backgroundColor: "{colors.hobbit-binding}"
+    textColor: "{colors.hobbit-on-binding}"
+    padding: "18px clamp(20px, 4vw, 58px) 28px"
+    height: "164px"
+    typography: "{typography.hobbit-brand}"
+  app-header-fracture:
+    backgroundColor: "{colors.fracture-binding}"
+    textColor: "{colors.fracture-on-binding}"
+    padding: "18px clamp(20px, 4vw, 58px) 28px"
+    height: "164px"
+    typography: "{typography.fracture-brand}"
+  view-marker:
+    backgroundColor: "{colors.hobbit-binding-soft}"
+    textColor: "{colors.hobbit-on-binding}"
+    rounded: "{rounded.hobbit-control}"
     height: "50px"
-    padding: "0 22px"
-  page-flag-active:
-    backgroundColor: "{colors.brass-page-flag}"
-    textColor: "{colors.forest-deep}"
-    rounded: "{rounded.page-flag}"
+    padding: "0 19px"
+    typography: "{typography.label}"
+  view-marker-active:
+    backgroundColor: "{colors.hobbit-metal-light}"
+    textColor: "{colors.hobbit-binding-deep}"
+    rounded: "{rounded.hobbit-control}"
     height: "58px"
-    padding: "0 22px"
+    padding: "0 19px"
+    typography: "{typography.label}"
+  primary-action:
+    backgroundColor: "{colors.hobbit-accent}"
+    textColor: "{colors.hobbit-on-binding}"
+    rounded: "{rounded.hobbit-control}"
+    height: "44px"
+    padding: "0 15px"
+    typography: "{typography.label}"
+  study-card-hobbit:
+    backgroundColor: "{colors.hobbit-surface}"
+    textColor: "{colors.hobbit-ink}"
+    rounded: "{rounded.hobbit-card}"
+    padding: "clamp(24px, 3vw, 38px)"
+  study-card-fracture:
+    backgroundColor: "{colors.fracture-surface}"
+    textColor: "{colors.fracture-ink}"
+    rounded: "{rounded.thumbnail}"
+    padding: "clamp(24px, 3vw, 38px)"
   input-search:
-    backgroundColor: "{colors.map-leaf-light}"
-    textColor: "{colors.forest-deep}"
-    rounded: "{rounded.field}"
+    backgroundColor: "{colors.hobbit-surface-light}"
+    textColor: "{colors.hobbit-binding-deep}"
+    rounded: "{rounded.hobbit-card}"
     height: "68px"
     padding: "0 11px 0 18px"
     typography: "{typography.search}"
   result-row:
     backgroundColor: "transparent"
-    textColor: "{colors.contour-ink}"
+    textColor: "{colors.hobbit-ink}"
     height: "82px"
     padding: "9px 8px 9px 2px"
-  result-row-mapped:
-    backgroundColor: "rgba(217, 189, 116, .23)"
-    textColor: "{colors.contour-ink}"
-    height: "82px"
-    padding: "9px 8px 9px 2px"
-  button-brass:
-    backgroundColor: "{colors.brass-page-flag}"
-    textColor: "{colors.forest-deep}"
-    rounded: "{rounded.control}"
-    width: "70px"
-    height: "42px"
-    typography: "{typography.label}"
-  route-leader-card:
-    backgroundColor: "{colors.map-leaf}"
-    textColor: "{colors.contour-ink}"
-    rounded: "{rounded.field}"
-    padding: "18px"
-  color-jump-chip:
-    backgroundColor: "{colors.map-leaf-light}"
-    textColor: "{colors.contour-ink}"
-    rounded: "{rounded.pill}"
+  colour-jump-fracture:
+    backgroundColor: "{colors.fracture-surface-light}"
+    textColor: "{colors.fracture-ink}"
+    rounded: "{rounded.fracture-micro-cut}"
     height: "38px"
     padding: "0 11px"
-  atlas-card:
-    backgroundColor: "transparent"
-    textColor: "{colors.contour-ink}"
-    height: "112px"
-    padding: "11px 5px"
 ---
 
-# Design System: The Hobbit Pick Order
+# Design System: Limited Field Guides
 
 ## Overview
 
-**Creative North Star: "Bilbo’s Expedition Atlas"**
+**Creative North Star: "The Set-Specific Field Guide Shelf"**
 
-The system turns a pick order into a working expedition volume. Forest-cloth binding and brass page flags frame warm map leaves; contour lines, oxblood route marks, river-blue details, and compass geometry create a sense of place without becoming decorative fantasy. It should feel learned, practical, companionable, and ready to be opened mid-journey for a quick decision.
+Limited Field Guides is one dependable preparation shelf holding authored volumes, not one generic dashboard wearing different accent colours. The shared shell keeps the learning sequence stable—choose a set, study its cards, rehearse ranked decisions, compare a hand-built pack, and share the exact challenge—while each set owns one coherent material world.
 
-Hierarchy remains operational inside that world. Alegreya gives titles and ranks a bookish editorial voice, Atkinson Hyperlegible Next keeps search and metadata exceptionally legible, and the open spread makes the current route as tangible as the cards being considered. The system rejects generic dashboard chrome and theatrical parchment styling; materials stay quiet enough for immediate interaction.
+The Hobbit remains Bilbo’s Expedition Atlas: forest cloth, warm map leaves, brass page flags, oxblood routes, river details, and softly handled corners. Reality Fracture is an Echoverse dossier: ink and indigo binding, cool paper, electric violet, cyan, and pink seams, condensed black display type, and facets cut on sharp angles. Atkinson Hyperlegible Next connects both as the practical reading and control voice.
+
+The system should feel authored, trustworthy, and ready before an event. Data maturity is visible rather than implied; progress stays local; rating-dependent work visibly locks when an attributable evaluation does not exist. The visual language rejects generic statistics dashboards and deck-builder framing.
 
 **Key Characteristics:**
 
-- Forest-cloth framing around warm, lightly contoured map leaves.
-- Alegreya for titles and ranks; Atkinson Hyperlegible Next for working text.
-- Brass page flags for navigation, provenance, and route wayfinding.
-- Oxblood route marks for selection and consequential state; river blue for cartographic detail.
-- An open two-leaf picker spread paired with a complete colour-indexed atlas.
-- Restrained tactile shadows that make the atlas feel handled rather than glossy.
+- One shared preparation sequence expressed as a shelf of set-owned field guides.
+- Atkinson Hyperlegible Next for working text, controls, metadata, and dense card information.
+- Hobbit’s rounded cloth-and-map atlas beside Reality Fracture’s clipped, electrically seamed dossier.
+- Four compact page markers opening directly onto one large study card and an honest guide panel.
+- Local preparation progress, deterministic challenge links, and explicit rating-pending locks.
+- Broad surfaces and flat rows gathered into one handled volume rather than a field of dashboard cards.
 
 ## Colors
 
-The palette is a field atlas: deep forest binding, warm leaves and ground, dark contour ink, then oxblood, river blue, and brass as purposeful cartographic marks.
+Each set maps the same semantic roles—binding, surface, ink, line, accent, signal, metal, focus, and reversed text—onto its own authored palette. The frontmatter is normative and also records the fixed Magic-colour group and rating-tier values used by the shared card components.
 
 ### Primary
 
-- **Oxblood Route** (`oxblood-route`): Marks mapped selections, route details, active search emphasis, and consequential hover states.
-- **Oxblood Deep** (`oxblood-deep`): Carries route emphasis into small labels and high-contrast status copy.
+- **Hobbit Oxblood** (`hobbit-accent`, `hobbit-accent-dark`): Route marks, selected state, revealed answers, and consequential actions inside the atlas.
+- **Fracture Violet** (`fracture-accent`, `fracture-accent-dark`): The dossier’s principal electric seam, selection signal, and primary action.
+- **Rating Spectrum** (`tier-s` through `tier-pending`): Fixed categorical fills for complete rating tiers and the visibly provisional preview state; these colours do not theme the surrounding page.
 
 ### Secondary
 
-- **Brass Page Flag** (`brass-page-flag`): Identifies the active leaf, dataset provenance, clear actions, route ticks, and mobile wayfinding.
-- **Brass** (`brass`): Supplies the darker metal note for scroll affordances and supporting accents.
+- **Hobbit Brass** (`hobbit-metal`, `hobbit-metal-light`): Page markers, provenance stamps, waypoints, and compact orientation controls.
+- **Fracture Pink and Cyan** (`fracture-metal`, `fracture-metal-light`): Hot and cool seam highlights, provenance, active markers, and the dossier’s electric counterpoint.
 
 ### Tertiary
 
-- **River Blue** (`river-blue`): Colours atlas contours and establishes the cool cartographic counterpoint to oxblood.
-- **Focus Blue** (`focus-blue`): Remains a distinct, accessible keyboard-focus signal rather than a thematic selection colour.
+- **Hobbit River** (`hobbit-signal`): The atlas’s cool cartographic detail.
+- **Fracture Signal Cyan** (`fracture-signal`): Structural facet lines and rating-lock geometry.
+- **Magic Colour Groups** (`group-white` through `group-colourless-ink`): Stable browsing accents for card identity groups; multicolour uses the five group fills as a conic emblem and its own ink.
+- **Focus Signals** (`hobbit-focus`, `fracture-focus`): Dedicated three-pixel keyboard outlines. Focus never relies on selection colour alone.
 
 ### Neutral
 
-- **Forest Cloth** (`forest-cloth`): Frames the masthead, pack route, dark controls, and bound edge of the spread.
-- **Forest Deep** (`forest-deep`): Deepens fixed navigation, footer, and high-contrast structural details.
-- **Forest Soft** (`forest-soft`): Carries inactive page flags and intermediate cloth surfaces.
-- **Map Leaf** (`map-leaf`): The principal warm reading and working surface.
-- **Map Leaf Light** (`map-leaf-light`): Lifts search fields, chips, and text placed on forest cloth.
-- **Map Leaf Deep** (`map-leaf-deep`): Supports thumbnails and quiet footer text.
-- **Atlas Ground** (`atlas-ground`): Sits behind the open volume and exposes broad contour texture.
-- **Contour Ink** (`contour-ink`): Carries primary text and strong rules on the leaves.
-- **Muted Ink** (`muted-ink`): Handles instructions, counts, and secondary metadata.
-- **Map Line** (`map-line`): Separates ranked rows and atlas entries without enclosing every item.
+- **Hobbit Volume** (`hobbit-binding` through `hobbit-on-binding-muted`): Forest cloth, warm map leaves, contour ink, muted annotation, and paper rules.
+- **Reality Fracture Volume** (`fracture-binding` through `fracture-on-binding-muted`): Ink-dark binding, indigo facets, cool paper, dark dossier ink, and steel rules.
+- **Shared Utility Neutrals** (`menu-ink`, `menu-paper`, `pure-white`, `texture-shadow`): Native option readability, high-contrast badge text, and quiet material texture.
+- **Feedback** (`feedback-correct`, `feedback-incorrect`): Answer-result fills only; neither substitutes for a set’s primary accent.
 
 ### Named Rules
 
-**The Route Mark Rule.** Oxblood belongs to mapped state, route emphasis, and consequential actions; it is never a broad decorative fill.
+**The Semantic Spine Rule.** Change a set by remapping the established semantic roles; do not recolour individual components ad hoc.
 
-**The Brass Flag Rule.** Brass identifies places to turn, clear, or orient. Keep it compact so it continues to read as a page flag or waypoint.
+**The One Material World Rule.** Hobbit accents belong to the atlas and Fracture accents belong to the dossier. Never cross-pollinate brass map marks with electric seams.
 
-**The Ink-on-Leaves Rule.** Primary reading happens in Contour Ink on Map Leaf. Forest reversals are reserved for binding, navigation, and the current route.
+**The Honest State Rule.** Rating tiers appear only when the rating source is available. Preview uses the pending token and explanatory copy rather than a guessed rank colour.
 
 ## Typography
 
-**Display Font:** Alegreya (with Georgia and serif fallbacks)
+**Hobbit Display Font:** Alegreya (with Georgia and serif fallbacks)
 
-**Body Font:** Atkinson Hyperlegible Next (with Segoe UI and sans-serif fallbacks)
+**Reality Fracture Display Font:** Barlow Condensed Black (with Arial Narrow and sans-serif fallbacks)
 
-**Label Font:** Atkinson Hyperlegible Next; ranks use Alegreya with tabular numerals
+**Working Font:** Atkinson Hyperlegible Next (with Segoe UI and sans-serif fallbacks)
 
-**Character:** Alegreya provides the confident, well-travelled book voice without slipping into costume lettering. Atkinson Hyperlegible Next is deliberately plain and highly legible, keeping fast draft decisions clear at small sizes and on mobile.
+**Character:** The shared working face is deliberately plain, open, and fast to scan. Alegreya gives Hobbit the voice of a learned, well-travelled volume; Barlow Condensed Black makes Reality Fracture feel like an urgent classified dossier. The complete implemented type ramp, including dense metadata and responsive display endpoints, is enumerated in frontmatter.
 
 ### Hierarchy
 
-- **Display** (700, fluid atlas scale, 0.88 line-height): The complete-atlas title and other singular page-level statements.
-- **Headline** (700, fluid leaf scale, 0.92 line-height): Picker and current-route headings.
-- **Brand** (700, compact fluid scale, 0.98 line-height): The clothbound masthead title.
-- **Rank** (700, 1.7rem, 1 line-height): Pick numbers and route positions, always with tabular numerals.
-- **Title** (700, 1rem, 1.22 line-height): Card names and other high-scan working content.
-- **Body** (400, 16px, 1.5 line-height): Instructions, source context, and explanatory copy.
-- **Search** (700, fluid control scale, 1.5 line-height): Search input text with enough weight to remain legible beside card art.
-- **Label** (700, compact scale, 1.15 line-height): Dataset stamps, controls, counts, and tier metadata.
+- **Page Display** (Alegreya 700 or Barlow Condensed 900, `clamp(3rem, 7vw, 5.8rem)`, 0.86 line-height): Singular page statements, locked-state headlines, and the complete card file.
+- **Leaf Headline** (set display face, fluid 2.35rem–4.8rem family, 0.86–0.94 line-height): Guide, trainer, compare, pack, and colour-section headings. Reality Fracture uses uppercase; Hobbit preserves natural case.
+- **Brand** (set display face, `clamp(2rem, 3.2vw, 3.15rem)`, 0.94 line-height): The selected volume title in the binding.
+- **Rank and Answer** (set display face, 1.15rem–1.7rem): Card ranks, challenge order, progress tallies, and revealed answers with tabular numerals where values align.
+- **Working Title** (Atkinson Hyperlegible Next 700, 0.84rem–1rem): Card names and compact operational headings.
+- **Body** (Atkinson Hyperlegible Next 400, 1rem, 1.5 line-height): Guide copy, instructions, oracle text, and source context.
+- **Label and Microcopy** (Atkinson Hyperlegible Next 700, 0.58rem–0.83rem): Page markers, controls, counts, stamps, tiers, and responsive metadata.
+- **Search** (Atkinson Hyperlegible Next 700, `clamp(1.05rem, 2vw, 1.25rem)`, 1.5 line-height): The primary compare input.
 
 ### Named Rules
 
-**The Literary Utility Rule.** Use Alegreya for page hierarchy, card leaders, and ranks; use Atkinson Hyperlegible Next for every instruction, control, and dense list detail.
+**The Working Voice Rule.** Atkinson owns every instruction, control, metadata label, and dense card detail across every set.
 
-**The No-Costume Rule.** Preserve Alegreya’s natural case and editorial rhythm. Do not simulate medieval lettering with all-caps display type, blackletter, or decorative tracking.
+**The Set Display Rule.** Display type changes with the volume: editorial Alegreya for Hobbit, uppercase Barlow Condensed Black for Reality Fracture. Do not use either as body copy.
+
+**The Dense-but-Legible Rule.** The micro scale is reserved for short metadata with strong weight and contrast; explanatory copy never drops into it.
 
 ## Layout
 
-The system is organized as a clothbound volume capped at 1440px. A 142px masthead establishes the binding, then two sticky page flags sit on a 62px navigation line. The picker view opens into a two-column spread: the searchable card leaf receives 1.2 fractions of the width, while the current-route leaf receives 0.8 with a 360px minimum. A narrow centre fold and one continuous book shadow make the two leaves read as one object.
+The system is one multi-volume field-guide shell capped at 1440px. A 164px binding leads with the selected set, subtitle, set picker, share action, and data-maturity stamp. Four sticky page markers—Study, Pick drill, Compare, and All cards—sit on a 62px line, then open directly into a broad surface. The first Study viewport pairs an honest guide leaf with a large card-recognition stage rather than spending the opening screen on navigation or summary statistics.
 
-The alternate All cards view uses a single map leaf with a sticky, horizontally scrollable colour index and an auto-filling grid of cards. At 1040px the route leaf tightens to 350px. At 760px both views become single-column leaves: the page flags share the width, search sticks beneath them, the pack route moves below results, a brass mobile dock keeps the leader reachable, and the atlas becomes a two-column card grid. At 420px card, rank, and title measures tighten again without dropping primary metadata.
+Study uses a 0.72/1.28 guide-to-trainer split. Compare uses a 1.2/0.8 search-to-current-comparison split with a 360px minimum for the comparison leaf. Pick drill presents three equal choices. All cards uses a single broad leaf, sticky colour navigation, and an auto-filling grid with a 230px minimum. Major surfaces share a continuous binding/page shadow; rows remain flat and separated by rules.
 
-**The Open-Volume Rule.** Picker and route belong to the same spread, while the complete atlas is a deliberate page turn—not a dashboard panel competing in the same viewport.
+At 1120px, header actions compact, the guide narrows, and the compare leaf resolves to 350px. At 860px, the header becomes a grid and both Study and Compare stack into one-column reading order. At 700px, the binding becomes a compact mobile header, all four markers share one sticky row, surfaces use ten-pixel outer gutters, controls tighten, study remains a side-by-side card/copy object, compare search sticks below navigation, and the atlas becomes two columns. At 430px, nonessential subtitle and metadata collapse while card identity, state, primary action, and touch access remain.
 
-**The Route-in-Reach Rule.** The current leader must remain visible in the right leaf or reachable through the brass mobile dock.
+**The First-Viewport Rule.** The selected set and data maturity lead in the binding; four compact markers then yield to the large study card and guide panel.
+
+**The Stable-Shell Rule.** Study, Pick drill, Compare, and All cards retain their order and behavior across sets even while materials, display type, and geometry change.
+
+**The Preparation-Only Rule.** Layout supports recognition, rehearsal, comparison, and browsing. It must never acquire deck zones, curve charts, counts-by-card, or other deck-builder composition.
 
 ## Elevation & Depth
 
-Depth is book construction rather than stacked application cards. The open spread and single atlas leaf share the dominant shadow; forest cloth sits above the ground with a softer lift, and the centre fold supplies internal depth. Search, page flags, card thumbnails, and the route-leader card receive smaller tactile shadows. Ranked rows stay flat and depend on rules, tint, and typography.
+Depth describes a single handled volume, not a stack of dashboard cards. The binding, page markers, open spread, study card, compare leaf, search field, thumbnails, and mobile comparison dock use progressively smaller ink-dark shadows. Hobbit reads as softly handled cloth and paper. Reality Fracture keeps the same structural depths but adds a hard offset violet seam to card imagery so the dossier feels faceted rather than plush. Flat result, drill, and atlas rows use rule, tint, and motion instead of independent elevation.
 
 ### Shadow Vocabulary
 
-- **Cloth Binding** (`0 10px 30px rgba(22, 39, 31, .2)`): Lifts the masthead from the atlas ground.
-- **Page Flag** (`0 7px 18px rgba(22, 39, 31, .16)`): Gives navigation flags a light, handled-paper lift.
-- **Open Volume** (`0 26px 65px rgba(44, 42, 31, .28)`): Unifies the spread and complete atlas page as the principal object.
-- **Search Field** (`0 12px 30px rgba(64, 54, 37, .13)`): Marks the primary working control without detaching it from the leaf.
-- **Search Focus** (`0 16px 36px rgba(64, 54, 37, .19)`): Deepens only while the field owns input.
-- **Card Thumbnail** (`0 5px 13px rgba(49, 43, 32, .2)`): Separates card art from dense map rows.
-- **Route Leader** (`0 13px 32px rgba(18, 34, 26, .24)`): Gives the strongest baseline pick physical priority inside the cloth route leaf.
-- **Mobile Waypoint** (`0 15px 34px rgba(22, 39, 31, .34)`): Holds the temporary fixed leader control above scrolling content.
+- **Binding** (`0 10px 30px rgba(8, 9, 16, .28)`): Separates the selected volume from the page ground.
+- **Page Marker** (`0 7px 18px rgba(8, 9, 16, .16)`): Gives the four navigation markers a shallow handled edge.
+- **Open Volume** (`0 26px 65px rgba(8, 9, 16, .28)`): Unifies each spread or page as the principal object.
+- **Study Object** (`0 18px 46px rgba(8, 9, 16, .34)`): Gives the large recognition card priority inside the binding.
+- **Search Field** (`0 12px 30px rgba(8, 9, 16, .13)`; focused `0 16px 36px rgba(8, 9, 16, .19)`): Marks the principal text control without turning it into a floating panel.
+- **Card Image** (`0 5px 13px rgba(8, 9, 16, .2)` to `0 15px 30px rgba(8, 9, 16, .2)`): Separates card art from dense reading surfaces.
+- **Fracture Image** (`-10px 14px 34px rgba(9, 9, 20, .32), 9px -7px 0 rgba(113, 71, 213, .12)`): Adds one angular electric seam to the Reality Fracture study card.
+- **Mobile Comparison Dock** (`0 15px 34px rgba(8, 9, 16, .36)`): Holds the best-pick shortcut above scrolling content.
 
 ### Named Rules
 
-**The Bound-Object Rule.** Elevate the atlas as one handled object; do not distribute independent card-panel shadows across the leaves.
+**The One-Volume Rule.** Elevate the spread, page, or study object as a whole; do not distribute equal shadows across every row.
+
+**The Structural-Seam Rule.** The violet offset on Reality Fracture card imagery is directional construction, not a general glow effect.
 
 ## Shapes
 
-The silhouette combines softly rounded paper leaves with square-cut book geometry. The upper-left corner stays square where a page meets its active flag, while the remaining leaf corners round gently. Search and route-leader fields use medium corners, small controls and thumbnails tighten further, and pills are reserved for tier and colour-jump markers.
+The shared shell uses geometry as material evidence. Hobbit combines gently rounded handled surfaces—fourteen-pixel leaves, twelve-pixel study and search cards, six-pixel controls, eight-pixel card images, and circular seals—with a square page-marker join. Compass points, contour paths, route dashes, mountain rules, and colour emblems remain legible cartographic marks.
 
-Compass points, mountain rules, contour paths, route dashes, circular colour emblems, and the centre fold are the recurring geometry. Borders behave like drawn map rules: thin, useful, and usually shared between adjacent rows rather than wrapped around each item.
+Reality Fracture remaps those roles to three-pixel page and control cuts, four-pixel cards and images, clipped polygon seals, skewed seam rules, and angular facets. Two explicit two-pixel radii are intentional micro-cuts: the colour-jump control and the colour mark/emblem before their polygon clipping. Use the two-to-four-pixel range only inside this dossier world; it is not a universal radius reduction.
 
-**The Bound-Corner Rule.** Preserve the square flag-to-leaf join; rounding all four corners would break the open-book silhouette.
+Pills remain reserved for rating tiers and Hobbit colour jumps. Borders are functional one- or two-pixel rules shared by adjacent rows; they do not box every card into a generic component tile.
 
-**The Map-Mark Rule.** Decorative geometry must read as navigation—compass, contour, route, mountain, or colour emblem—not as generic fantasy ornament.
+**The Theme-Owned Silhouette Rule.** Preserve Hobbit’s handled volume and Reality Fracture’s clipped dossier; shared behavior does not require shared corner character.
+
+**The Two-Pixel Cut Rule.** Reality Fracture’s two-pixel colour controls and emblems are deliberate pre-clipped cuts. Do not round them up or spread that radius to unrelated controls.
+
+**The Bound-Join Rule.** The leading page corner stays square where the active marker meets its surface in both themes.
 
 ## Components
 
-Components feel like useful parts of a working field atlas: clear in action, lightly tactile, and materially consistent with the leaf or binding that holds them.
+Shared components keep behavior, semantics, target sizes, and information order consistent while resolving their materials through per-set variables.
 
-### Buttons
+### Header and Set Picker
 
-- **Shape:** Compact six-pixel controls for clear and remove actions; broad pill geometry is not used for ordinary buttons.
-- **Brass Action:** Brass Page Flag on Forest Deep for pack-level clear actions and the mobile leader waypoint.
-- **Forest Action:** Forest Cloth on Map Leaf Light for search clearing and route-card removal.
-- **Hover / Focus:** Consequential hover moves to Oxblood; keyboard focus uses the separate three-pixel Focus Blue outline. Pressed states may compress subtly but do not glow.
-- **Disabled:** Deep forest tonal contrast keeps the control visible while clearly unavailable.
-
-### Chips
-
-- **Tier Badge:** A compact filled pill using the established tier colour table with white text.
-- **Colour Jump:** A Map Leaf Light pill with a circular colour emblem, literal colour name, and count; hover strengthens the Forest Cloth border.
-- **State:** Mapped selection is communicated by row tint and an Oxblood action label, not by repurposing the tier badge.
-
-### Cards / Containers
-
-- **Atlas Leaves:** Map Leaf surfaces with subtle contour texture and the shared Open Volume shadow.
-- **Result Rows:** Flat, full-width actions separated by Map Line; hover tints the leaf and mapped state receives a translucent brass wash.
-- **Route Leader:** A Map Leaf card inside Forest Cloth, marked with an oxblood dashed route and a stronger thumbnail shadow.
-- **Atlas Cards:** Compact thumbnail-and-copy rows that inherit their Magic-colour group accent rather than becoming individually boxed cards.
-
-### Inputs / Fields
-
-- **Style:** Map Leaf Light, a two-pixel Forest Cloth stroke, bold Atkinson search text, and an integrated forest clear control.
-- **Focus:** The field border shifts to Oxblood and the tactile shadow deepens; keyboard focus remains independently visible in Focus Blue.
-- **Error / Disabled:** No error state is currently defined. Do not invent one without a product requirement.
+- **Binding:** Full-width themed header with an authored set mark, selected volume title, practical subtitle, and bottom rule—mountain edge for Hobbit, fractured seam for Reality Fracture.
+- **Set Picker:** Compact labelled select on the binding. Native option colours remain neutral and readable across both color schemes.
+- **Share Set:** Quiet outlined action that promotes to the theme’s light metal token on hover.
+- **Data Stamp:** A high-contrast count/date block that makes preview or observed maturity visible before the first interaction.
 
 ### Navigation
 
-- **Masthead:** Forest Cloth with compass mark, Alegreya title, quiet subtitle, brass provenance stamp, and a mountain-edge rule.
-- **Page Flags:** Inactive flags use Forest Soft; the selected leaf rises taller and changes to Brass Page Flag.
-- **Mobile:** Both page flags share the available width and remain sticky above the active leaf.
+- **Four Page Markers:** Study, Pick drill, Compare, and All cards are fixed in that order. Inactive markers use the soft binding; the selected marker rises from 50px to 58px and changes to the light metal token.
+- **Mobile:** All four remain visible in one sticky row. Icons support but never replace the literal labels.
 
-### Current Route
+### Study Card and Progress Ledger
 
-The right leaf is a clothbound route log. Its heading stays anchored, the route leader appears on a warm map card with an oxblood trail, and alternatives continue below with brass rank ticks and direct remove controls.
+- **Guide Leaf:** Set-authored heading, facts, rating state, and local progress ledger. The state seal is circular in Hobbit and polygonal in Reality Fracture.
+- **Recognition Card:** Large card image, name, type, oracle text, grade choices, answer, and next/reveal actions. When ratings are pending, browsing remains available but grade controls and exact rank answers do not appear.
+- **Progress:** Cards seen, grade calls, and pick calls persist per set in browser-local storage. Reset is explicit and confirmed.
 
-### Complete Card Atlas
+### Buttons
 
-The All cards leaf groups every card by Magic colour. A sticky colour index, circular emblems, colour-specific rules, rank ranges, and a responsive card grid make the full set browsable without losing the atlas world.
+- **Primary:** Theme accent with reversed binding text; darkens to the set’s deep accent on hover.
+- **Secondary:** Transparent surface action with a line border; hover lifts through the light surface.
+- **Focus / Active:** Every interactive control receives the three-pixel theme focus outline. Active movement is slight and suppressed with reduced motion.
+- **Disabled:** Remains visible at reduced opacity or binding contrast and uses a not-allowed cursor.
+
+### Grade Choices and Rating Locks
+
+- **Grade Choices:** A flat two-by-two ruled matrix on wide screens and a single column on mobile. Correct and incorrect feedback use the fixed result tokens.
+- **Rating-Pending Lock:** Pick drill and Compare are replaced with a centered, themed lock surface, plain explanation, and a route back to revealed cards. A preview badge never implies a rank.
+
+### Pick Drill
+
+- **Choices:** Three equal card buttons with image, name, and concealed result. Hover lifts five pixels; choosing once reveals the full baseline order.
+- **Challenge Link:** The exact seeded three-card drill is encoded in the URL and shared intact. New challenge generates a new seed.
+- **Answer:** Explicitly calls the order a format-level baseline, not deck-context advice.
+
+### Compare
+
+- **Search Field:** A two-pixel binding stroke, bold Atkinson input, integrated clear control, and sticky mobile position.
+- **Result Rows:** Flat ranked rows with thumbnail, display-face rank, name, tier, and Add/Mapped state. Selection is a light metal tint, not a new card container.
+- **Current Comparison:** A binding-side log with one elevated best pick and flat alternatives. It is session-only and never becomes a saved deck.
+
+### Chips and Card Index
+
+- **Rating Tier:** Compact categorical pill with white text; pending uses the light metal surface and binding text.
+- **Colour Jump:** Hobbit uses a pill and circular emblem. Reality Fracture uses the intentional two-pixel cut and polygon emblem.
+- **Atlas Card:** Compact image-and-copy row grouped by Magic colour. Ranked sets lead with rank and tier; previews lead with collector number, rarity, and an honest Preview badge.
+
+### Status and Motion
+
+- **Toast / Live Region:** Sharing, reset, and action feedback is short, visible, and announced semantically.
+- **Reduced Motion:** Smooth scrolling, state transitions, and reveal animation collapse to effectively zero duration when requested.
 
 ## Do's and Don'ts
 
 ### Do:
 
-- **Do** frame warm map leaves with Forest Cloth and preserve the square page-flag join.
-- **Do** reserve Oxblood for route marks, mapped state, and consequential actions.
-- **Do** use brass for page flags, provenance, route ticks, and waypoint controls.
-- **Do** keep Alegreya on titles, leaders, and ranks while Atkinson Hyperlegible Next handles working text.
-- **Do** preserve card rank, tier, Magic-colour grouping, keyboard focus, touch targets, and reduced-motion behavior.
-- **Do** keep contour and route imagery quiet enough that card names and ranks remain dominant.
+- **Do** keep the shared preparation sequence and information order stable while each set owns one material world.
+- **Do** lead with the selected volume and data maturity, then expose all four preparation modes.
+- **Do** use Atkinson Hyperlegible Next for working text and the set display face only for hierarchy, ranks, and authored marks.
+- **Do** preserve Hobbit’s forest cloth, map leaves, brass, oxblood, river details, and rounded handled construction.
+- **Do** preserve Reality Fracture’s ink-indigo binding, cool paper, violet/cyan/pink seams, condensed black display type, clipped facets, and two-to-four-pixel cuts.
+- **Do** keep progress local, comparisons session-only, and challenge URLs exact and deterministic.
+- **Do** visibly lock ranking-dependent answers and actions when the rating source is pending.
+- **Do** preserve keyboard focus, touch targets, literal labels, source attribution, and reduced-motion behavior.
 
 ### Don't:
 
-- **Don't** substitute loud synthetic signal colours or monochrome machinery panels for the atlas palette.
-- **Don't** turn the atlas into theatrical parchment with distressed edges, blackletter, gold filigree, or lore ornament.
-- **Don't** use Oxblood or Brass as broad decorative backgrounds across the map leaves.
-- **Don't** wrap each ranked row in its own rounded, elevated card.
-- **Don't** mix picker, current route, and complete atlas into competing dashboard panels.
-- **Don't** replace literal card, rank, state, and colour labels with ambiguous icons alone.
+- **Don't** collapse authored set worlds into one generic theme with swapped accent colours.
+- **Don't** turn Hobbit into theatrical parchment, blackletter, gold filigree, or lore ornament.
+- **Don't** soften Reality Fracture into rounded neon glass, broad gradients, or ambient cyberpunk glow.
+- **Don't** cross Hobbit’s brass and oxblood into the Fracture dossier or Fracture’s electric seams into the atlas.
+- **Don't** invent rankings, tiers, or answer colours for a preview-only set.
+- **Don't** wrap every result, drill choice, or atlas entry in its own rounded elevated card.
+- **Don't** frame comparison as a deck list or add deck-builder zones, curve analytics, saved builds, or card-count controls.
+- **Don't** hide state, card identity, colour grouping, or navigation behind icons alone.

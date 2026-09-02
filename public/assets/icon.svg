@@ -1,7 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="92" fill="#263c31"/>
-  <circle cx="256" cy="256" r="174" fill="#e8ddc2" stroke="#b48c43" stroke-width="18"/>
-  <path d="M256 105 286 226 407 256 286 286 256 407 226 286 105 256 226 226Z" fill="none" stroke="#263c31" stroke-width="18" stroke-linejoin="round"/>
-  <path d="m256 137 20 99 99 20-99 20-20 99-20-99-99-20 99-20Z" fill="#a44832"/>
-  <circle cx="256" cy="256" r="27" fill="#263c31"/>
+  <defs>
+    <clipPath id="frame"><rect width="512" height="512" rx="92"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="512" height="512" fill="#263c31"/>
+    <path d="M512 0v512H0Z" fill="#171426"/>
+    <path d="M-40 464 464-40" stroke="#d9bd74" stroke-width="18"/>
+    <circle cx="190" cy="190" r="104" fill="none" stroke="#f8f2df" stroke-width="16"/>
+    <path d="m190 96 21 73 73 21-73 21-21 73-21-73-73-21 73-21Z" fill="none" stroke="#d9bd74" stroke-width="15" stroke-linejoin="round"/>
+    <path d="m326 211 91 49 18 94-75 71-96-25-38-91 52-82Z" fill="none" stroke="#6be0ed" stroke-width="15" stroke-linejoin="round"/>
+    <path d="m326 211-13 92-87 6m87-6 47 45 75 6m-75-6v77m-47-122-49 97m49-97 104-43" fill="none" stroke="#d15f79" stroke-width="13" stroke-linejoin="round"/>
+    <circle cx="313" cy="303" r="18" fill="#6be0ed"/>
+  </g>
 </svg>

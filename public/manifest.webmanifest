@@ -1,7 +1,7 @@
 {
-  "name": "The Hobbit Pick Order",
-  "short_name": "HOB Picks",
-  "description": "A fast pack comparator for The Hobbit MTG Arena draft pick order.",
+  "name": "Limited Field Guides",
+  "short_name": "Limited Prep",
+  "description": "Set-by-set Magic: The Gathering prerelease and draft preparation.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

@@ -1,17 +1,24 @@
-# The Hobbit Pick Order
+# Limited Field Guides
 
-A static, searchable pack comparator for The Hobbit on MTG Arena. It ships all 188 card names, ranks, tiers, and thumbnails with the site.
+A set-by-set Magic: The Gathering Limited preparation tool. Each set keeps its own visual world while sharing the same study, pick-drill, comparison, and card-index tools.
 
 ## What it does
 
-- Fuzzy, accent-insensitive card search
-- Multi-card pack comparison sorted by pick rank
-- Complete 188-card atlas grouped by color identity
+- Card recognition study with browser-local progress
+- Three-card pick drills with deterministic challenge links to share with friends
+- Fuzzy, accent-insensitive comparison of plausible picks
+- A complete card index grouped by colour
+- Honest preview mode when a set has cards but no attributable Limited ranking yet
 - Keyboard, mouse, and touch support
 - Offline static-asset cache
-- No account, analytics, cookies, backend, or `localStorage`
+- No account, analytics, cookies, backend, or deck builder
 
-The selected pack exists only in page memory and resets on refresh. The service worker caches public site assets for offline use; it stores no draft selections or personal data.
+Study scores stay only in the current browser through `localStorage`. A comparison stays in page memory and resets on refresh. The service worker caches public site assets for offline use.
+
+The current guides are:
+
+- **The Hobbit** — complete 188-card observed Premier Draft ranking, with all prep modes available.
+- **Reality Fracture** — live preview file; study and browsing are available, while ranking-dependent drills remain visibly locked until a complete evaluation is captured.
 
 ## Run locally
 
@@ -30,9 +37,22 @@ Open <http://localhost:8080>.
 
 The live custom domain is `hobbit.orfeasa.com`, configured in GitHub Pages with a Namecheap `CNAME` record pointing to `orfeasa.github.io`.
 
-## Refresh the data
+## Build and verify the data
 
-`scripts/build-data.mjs` regenerates `public/cards.js` and the service-worker asset list from the captured JSON source files in `data/`. The current dataset is the Untapped.gg snapshot captured on 19 August 2026.
+```sh
+node scripts/build-data.mjs
+node scripts/verify-data.mjs
+```
+
+`scripts/build-data.mjs` regenerates `public/data.js` and the service-worker asset list from the captured JSON source files in `data/`.
+
+To refresh a preview file from Scryfall:
+
+```sh
+node scripts/sync-preview.mjs fra
+node scripts/build-data.mjs
+node scripts/verify-data.mjs
+```
 
 `scripts/sync-colors.mjs` refreshes the local color-identity mapping from Scryfall. The deployed site does not call Scryfall at runtime.
 

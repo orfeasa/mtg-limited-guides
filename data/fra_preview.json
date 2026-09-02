@@ -1,0 +1,439 @@
+{
+  "set": "FRA",
+  "source": "https://api.scryfall.com/cards/search?order=set&q=set%3Afra&unique=cards",
+  "capturedAt": "2026-09-02T11:19:10.636Z",
+  "partial": true,
+  "count": 22,
+  "cards": [
+    {
+      "id": "483fcc58-cc6e-4452-a696-7b38e117c837",
+      "name": "Enlightened Confidant",
+      "collectorNumber": "5",
+      "color": "W",
+      "colors": [
+        "W"
+      ],
+      "manaCost": "{1}{W}",
+      "manaValue": 2,
+      "typeLine": "Creature — Kor Cleric",
+      "oracleText": "Lifelink\nAt the beginning of your end step, if you gained life this turn, surveil 1. If you put a card with mana value less than or equal to the amount of life you gained this turn into your graveyard this way, put that card into your hand.",
+      "rarity": "mythic",
+      "keywords": [
+        "Surveil",
+        "Lifelink"
+      ],
+      "image": "assets/cards/fra/483fcc58-cc6e-4452-a696-7b38e117c837.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/4/8/483fcc58-cc6e-4452-a696-7b38e117c837.jpg?1784324609",
+      "scryfallUrl": "https://scryfall.com/card/fra/5/enlightened-confidant?utm_source=api"
+    },
+    {
+      "id": "d0ecae06-bc5a-4886-84df-c2900816f226",
+      "name": "Perfected Theory",
+      "collectorNumber": "34",
+      "color": "U",
+      "colors": [
+        "U"
+      ],
+      "manaCost": "{U}",
+      "manaValue": 1,
+      "typeLine": "Instant",
+      "oracleText": "Choose one —\n• Target creature has base power and toughness 1/1 until end of turn.\n• Target creature has base power and toughness 4/5 until end of turn.",
+      "rarity": "uncommon",
+      "keywords": [],
+      "image": "assets/cards/fra/d0ecae06-bc5a-4886-84df-c2900816f226.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/d/0/d0ecae06-bc5a-4886-84df-c2900816f226.jpg?1788223270",
+      "scryfallUrl": "https://scryfall.com/card/fra/34/perfected-theory?utm_source=api"
+    },
+    {
+      "id": "20bb8c55-4b0b-425f-8201-b54fa2fdde86",
+      "name": "The Theorist, Jace Beleren",
+      "collectorNumber": "43",
+      "color": "U",
+      "colors": [
+        "U"
+      ],
+      "manaCost": "{2}{U}{U}",
+      "manaValue": 4,
+      "typeLine": "Legendary Planeswalker — Jace",
+      "oracleText": "At the beginning of each opponent's draw step, you draw a card.\n+1: Create a 1/1 blue Illusion creature token.\n−2: For each opponent, return up to one target artifact or creature that player controls to its owner's hand.\n−6: Draw three cards. Then put X +1/+1 counters on each creature you control, where X is the number of cards in your hand.",
+      "rarity": "mythic",
+      "keywords": [],
+      "image": "assets/cards/fra/20bb8c55-4b0b-425f-8201-b54fa2fdde86.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/2/0/20bb8c55-4b0b-425f-8201-b54fa2fdde86.jpg?1784338223",
+      "scryfallUrl": "https://scryfall.com/card/fra/43/the-theorist-jace-beleren?utm_source=api"
+    },
+    {
+      "id": "4fcc913e-f736-460a-b24b-022fa2e861b9",
+      "name": "Bloodline Recollector // Ancestral Craving",
+      "collectorNumber": "49",
+      "color": "B",
+      "colors": [
+        "B"
+      ],
+      "manaCost": "{1}{B} // {B}",
+      "manaValue": 2,
+      "typeLine": "Creature — Vampire Warlock // Instant",
+      "oracleText": "Bloodline Recollector — At the beginning of each end step, if three or more creatures died this turn, this creature becomes prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\n\nAncestral Craving — Target player draws three cards and loses 3 life.",
+      "rarity": "mythic",
+      "keywords": [
+        "Prepared"
+      ],
+      "image": "assets/cards/fra/4fcc913e-f736-460a-b24b-022fa2e861b9.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/4/f/4fcc913e-f736-460a-b24b-022fa2e861b9.jpg?1783902768",
+      "scryfallUrl": "https://scryfall.com/card/fra/49/bloodline-recollector-ancestral-craving?utm_source=api"
+    },
+    {
+      "id": "47793a51-08c6-4ad2-a7e5-a4484d83a5cd",
+      "name": "Craterclaw Colossus",
+      "collectorNumber": "78",
+      "color": "R",
+      "colors": [
+        "R"
+      ],
+      "manaCost": "{4}{R}{R}{R}",
+      "manaValue": 7,
+      "typeLine": "Artifact Creature — Beast Construct",
+      "oracleText": "Haste\nWhen this creature enters, creatures you control gain trample and get +X/+0 until end of turn, where X is the number of artifacts you control.",
+      "rarity": "mythic",
+      "keywords": [
+        "Haste"
+      ],
+      "image": "assets/cards/fra/47793a51-08c6-4ad2-a7e5-a4484d83a5cd.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/4/7/47793a51-08c6-4ad2-a7e5-a4484d83a5cd.jpg?1784324668",
+      "scryfallUrl": "https://scryfall.com/card/fra/78/craterclaw-colossus?utm_source=api"
+    },
+    {
+      "id": "2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460",
+      "name": "Stingcaster Mage",
+      "collectorNumber": "93",
+      "color": "R",
+      "colors": [
+        "R"
+      ],
+      "manaCost": "{1}{R}",
+      "manaValue": 2,
+      "typeLine": "Creature — Human Wizard",
+      "oracleText": "Haste\nWhen this creature enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost.",
+      "rarity": "mythic",
+      "keywords": [
+        "Haste"
+      ],
+      "image": "assets/cards/fra/2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/2/d/2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460.jpg?1784324673",
+      "scryfallUrl": "https://scryfall.com/card/fra/93/stingcaster-mage?utm_source=api"
+    },
+    {
+      "id": "e61b9d48-0ace-4453-afe0-a1024444bac0",
+      "name": "Paradox Shaper // Omit Variables",
+      "collectorNumber": "143",
+      "color": "M",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "manaCost": "{1}{U/B} // {U/B}",
+      "manaValue": 2,
+      "typeLine": "Creature — Octopus Wizard // Sorcery",
+      "oracleText": "Paradox Shaper — At the beginning of your upkeep, if this creature isn't prepared, it becomes prepared.\n{2}: Put target card from your graveyard on the bottom of your library.\n\nOmit Variables — Mill three cards. (Put the top three cards of your library into your graveyard.)",
+      "rarity": "uncommon",
+      "keywords": [
+        "Prepared",
+        "Mill"
+      ],
+      "image": "assets/cards/fra/e61b9d48-0ace-4453-afe0-a1024444bac0.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/e/6/e61b9d48-0ace-4453-afe0-a1024444bac0.jpg?1784324709",
+      "scryfallUrl": "https://scryfall.com/card/fra/143/paradox-shaper-omit-variables?utm_source=api"
+    },
+    {
+      "id": "6c1c790b-9e0e-4964-9ea3-554843907f06",
+      "name": "Prudent Fateseer // Peer Review",
+      "collectorNumber": "146",
+      "color": "M",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "manaCost": "{1}{W/U}{W/U} // {2}{W/U}",
+      "manaValue": 3,
+      "typeLine": "Creature — Dwarf Wizard // Sorcery",
+      "oracleText": "Prudent Fateseer — This creature enters prepared.\nWhenever you scry or surveil, creatures you control get +1/+0 until end of turn. This ability triggers only once each turn.\n\nPeer Review — Create a 2/2 colorless Wizard Soldier creature token named Cadet. Surveil 1.",
+      "rarity": "uncommon",
+      "keywords": [
+        "Surveil",
+        "Prepared"
+      ],
+      "image": "assets/cards/fra/6c1c790b-9e0e-4964-9ea3-554843907f06.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/6/c/6c1c790b-9e0e-4964-9ea3-554843907f06.jpg?1784324759",
+      "scryfallUrl": "https://scryfall.com/card/fra/146/prudent-fateseer-peer-review?utm_source=api"
+    },
+    {
+      "id": "5142bbb6-194c-4b12-b11a-1a21c9fe81a6",
+      "name": "Solitary Cell",
+      "collectorNumber": "149",
+      "color": "M",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "manaCost": "{R}{W}",
+      "manaValue": 2,
+      "typeLine": "Artifact",
+      "oracleText": "When this artifact enters, exile target nonland permanent an opponent controls with mana value 3 or less until this artifact leaves the battlefield.\n{1}, {T}, Discard a legendary card: Draw a card.",
+      "rarity": "rare",
+      "keywords": [],
+      "image": "assets/cards/fra/5142bbb6-194c-4b12-b11a-1a21c9fe81a6.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/5/1/5142bbb6-194c-4b12-b11a-1a21c9fe81a6.jpg?1788260690",
+      "scryfallUrl": "https://scryfall.com/card/fra/149/solitary-cell?utm_source=api"
+    },
+    {
+      "id": "84b1c268-3b8a-41b6-92e3-a2ce0cc3d738",
+      "name": "Stingerquill Voxmancer // Vicious Verse",
+      "collectorNumber": "151",
+      "color": "M",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "manaCost": "{B/R} // {B/R}",
+      "manaValue": 1,
+      "typeLine": "Creature — Goblin Sorcerer // Sorcery",
+      "oracleText": "Stingerquill Voxmancer — At the beginning of your upkeep, if this creature isn't prepared, it becomes prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\n\nVicious Verse — Vicious Verse deals 1 damage to target opponent.",
+      "rarity": "uncommon",
+      "keywords": [
+        "Prepared"
+      ],
+      "image": "assets/cards/fra/84b1c268-3b8a-41b6-92e3-a2ce0cc3d738.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/8/4/84b1c268-3b8a-41b6-92e3-a2ce0cc3d738.jpg?1784324951",
+      "scryfallUrl": "https://scryfall.com/card/fra/151/stingerquill-voxmancer-vicious-verse?utm_source=api"
+    },
+    {
+      "id": "acefc515-bf97-4dc0-b0f7-ae8ae5a61671",
+      "name": "Vigorbloom Vanguard // Seed Suture",
+      "collectorNumber": "161",
+      "color": "M",
+      "colors": [
+        "G",
+        "W"
+      ],
+      "manaCost": "{1}{G/W} // {G/W}",
+      "manaValue": 2,
+      "typeLine": "Creature — Troll Druid // Sorcery",
+      "oracleText": "Vigorbloom Vanguard — This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\nEach creature you control with a +1/+1 counter on it has vigilance.\n\nSeed Suture — Put a +1/+1 counter on target creature. You gain 1 life.",
+      "rarity": "uncommon",
+      "keywords": [
+        "Prepared"
+      ],
+      "image": "assets/cards/fra/acefc515-bf97-4dc0-b0f7-ae8ae5a61671.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/a/c/acefc515-bf97-4dc0-b0f7-ae8ae5a61671.jpg?1784324971",
+      "scryfallUrl": "https://scryfall.com/card/fra/161/vigorbloom-vanguard-seed-suture?utm_source=api"
+    },
+    {
+      "id": "7d17f7e3-7b63-4674-9024-4fd1827f40ec",
+      "name": "Woodwork Prodigy // Soul Tether",
+      "collectorNumber": "165",
+      "color": "M",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "manaCost": "{2}{R/G} // {2}{R/G}",
+      "manaValue": 3,
+      "typeLine": "Creature — Cat Druid // Sorcery",
+      "oracleText": "Woodwork Prodigy — At the beginning of your upkeep, if this creature isn't prepared, it becomes prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\n\nSoul Tether — Create a Heartwood token. (It's a red and green artifact with \"{T}: Add {R} or {G}.\")",
+      "rarity": "uncommon",
+      "keywords": [
+        "Prepared"
+      ],
+      "image": "assets/cards/fra/7d17f7e3-7b63-4674-9024-4fd1827f40ec.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/7/d/7d17f7e3-7b63-4674-9024-4fd1827f40ec.jpg?1784324997",
+      "scryfallUrl": "https://scryfall.com/card/fra/165/woodwork-prodigy-soul-tether?utm_source=api"
+    },
+    {
+      "id": "a5e1a7dd-8c49-4435-935c-bcc78704082b",
+      "name": "Ajani Resolute",
+      "collectorNumber": "195",
+      "color": "W",
+      "colors": [
+        "W"
+      ],
+      "manaCost": "{1}{W}",
+      "manaValue": 2,
+      "typeLine": "Legendary Planeswalker — Ajani",
+      "oracleText": "Whenever you gain life, put a loyalty counter on Ajani.\n0: You gain 1 life.\n−4: Create a 2/2 white Cat Soldier creature token named Ajani's Pridemate with \"Whenever you gain life, put a +1/+1 counter on this token.\"\n−10: You get an emblem with \"Creatures you control get +2/+2.\"",
+      "rarity": "mythic",
+      "keywords": [],
+      "image": "assets/cards/fra/a5e1a7dd-8c49-4435-935c-bcc78704082b.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/a/5/a5e1a7dd-8c49-4435-935c-bcc78704082b.jpg?1784338228",
+      "scryfallUrl": "https://scryfall.com/card/fra/195/ajani-resolute?utm_source=api"
+    },
+    {
+      "id": "70d8c400-87dc-4f15-808f-e54a95d779fc",
+      "name": "Liliana the Faultless",
+      "collectorNumber": "200",
+      "color": "W",
+      "colors": [
+        "W"
+      ],
+      "manaCost": "{W}",
+      "manaValue": 1,
+      "typeLine": "Legendary Creature — Human Cleric",
+      "oracleText": "Whenever another creature or planeswalker you control enters, you gain 1 life.\n{1}, {T}, Discard a card: Another target creature or planeswalker you control gains hexproof until end of turn.",
+      "rarity": "rare",
+      "keywords": [],
+      "image": "assets/cards/fra/70d8c400-87dc-4f15-808f-e54a95d779fc.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/7/0/70d8c400-87dc-4f15-808f-e54a95d779fc.jpg?1784370991",
+      "scryfallUrl": "https://scryfall.com/card/fra/200/liliana-the-faultless?utm_source=api"
+    },
+    {
+      "id": "240f58ab-944c-4f4c-9df9-5f40b132bf3e",
+      "name": "Chandra, Chill of Compliance",
+      "collectorNumber": "212",
+      "color": "U",
+      "colors": [
+        "U"
+      ],
+      "manaCost": "{1}{U}{U}",
+      "manaValue": 3,
+      "typeLine": "Legendary Planeswalker — Chandra",
+      "oracleText": "+1: Surveil 1. If you put a noncreature, nonland card into your graveyard this way, put that card into your hand.\n+1: Add {U}. Spend this mana only to cast a noncreature spell.\n−X: Tap target artifact or creature. Put X stun counters on it.\n−6: You get an emblem with \"Whenever you cast a spell, draw a card.\"",
+      "rarity": "mythic",
+      "keywords": [
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/240f58ab-944c-4f4c-9df9-5f40b132bf3e.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/2/4/240f58ab-944c-4f4c-9df9-5f40b132bf3e.jpg?1783902767",
+      "scryfallUrl": "https://scryfall.com/card/fra/212/chandra-chill-of-compliance?utm_source=api"
+    },
+    {
+      "id": "d48bfb8a-d135-45f3-be99-4694b4b9ab93",
+      "name": "Garruk, Veiled Butcher",
+      "collectorNumber": "229",
+      "color": "B",
+      "colors": [
+        "B"
+      ],
+      "manaCost": "{3}{B}{B}",
+      "manaValue": 5,
+      "typeLine": "Legendary Planeswalker — Garruk",
+      "oracleText": "If a creature an opponent controls would die, exile it instead.\n+2: Up to one target creature gets -4/-1 until your next turn.\n−2: Each player sacrifices a creature of their choice. If you sacrificed a creature this way, create a 4/4 green Beast creature token with trample.\n−3: Each opponent discards two cards. For each opponent who didn't discard two nonland cards this way, you draw a card.",
+      "rarity": "mythic",
+      "keywords": [],
+      "image": "assets/cards/fra/d48bfb8a-d135-45f3-be99-4694b4b9ab93.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/d/4/d48bfb8a-d135-45f3-be99-4694b4b9ab93.jpg?1784370980",
+      "scryfallUrl": "https://scryfall.com/card/fra/229/garruk-veiled-butcher?utm_source=api"
+    },
+    {
+      "id": "1eb25a6c-d6b4-465d-990e-f1ab86b26b69",
+      "name": "Liliana the Repentant",
+      "collectorNumber": "231",
+      "color": "B",
+      "colors": [
+        "B"
+      ],
+      "manaCost": "{1}{B}",
+      "manaValue": 2,
+      "typeLine": "Legendary Creature — Human Warlock",
+      "oracleText": "Whenever another creature or planeswalker you control enters, mill two cards.\nExhaust — {5}{B}: Return target creature or planeswalker card from your graveyard to the battlefield. Put a +1/+1 counter on Liliana. Activate only as a sorcery. (Activate each exhaust ability only once.)",
+      "rarity": "rare",
+      "keywords": [
+        "Exhaust",
+        "Mill"
+      ],
+      "image": "assets/cards/fra/1eb25a6c-d6b4-465d-990e-f1ab86b26b69.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/1/e/1eb25a6c-d6b4-465d-990e-f1ab86b26b69.jpg?1784325058",
+      "scryfallUrl": "https://scryfall.com/card/fra/231/liliana-the-repentant?utm_source=api"
+    },
+    {
+      "id": "2f47ddf7-35b6-4205-8045-f057914c5f64",
+      "name": "Tinybones, Pocket Nuisance",
+      "collectorNumber": "237",
+      "color": "B",
+      "colors": [
+        "B"
+      ],
+      "manaCost": "{2}{B}",
+      "manaValue": 3,
+      "typeLine": "Legendary Creature — Skeleton Rogue",
+      "oracleText": "When Tinybones enters, each opponent discards a card.\nWhenever a player discards one or more cards, Tinybones deals 1 damage to each opponent.",
+      "rarity": "uncommon",
+      "keywords": [],
+      "image": "assets/cards/fra/2f47ddf7-35b6-4205-8045-f057914c5f64.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/2/f/2f47ddf7-35b6-4205-8045-f057914c5f64.jpg?1784325073",
+      "scryfallUrl": "https://scryfall.com/card/fra/237/tinybones-pocket-nuisance?utm_source=api"
+    },
+    {
+      "id": "bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5",
+      "name": "Ajani Unrelenting",
+      "collectorNumber": "242",
+      "color": "R",
+      "colors": [
+        "R"
+      ],
+      "manaCost": "{4}{R}{R}",
+      "manaValue": 6,
+      "typeLine": "Legendary Planeswalker — Ajani",
+      "oracleText": "Whenever you activate a loyalty ability, create a 2/2 colorless Wizard Soldier creature token named Cadet.\n+1: Creatures you control get +1/+0 and gain haste until end of turn.\n−2: Discard your hand, then draw a card for each creature you control.\n−3: Ajani deals 4 damage to each creature except for tokens you control.",
+      "rarity": "mythic",
+      "keywords": [],
+      "image": "assets/cards/fra/bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/b/c/bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5.jpg?1784371010",
+      "scryfallUrl": "https://scryfall.com/card/fra/242/ajani-unrelenting?utm_source=api"
+    },
+    {
+      "id": "40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd",
+      "name": "Chandra, Torch of Defiance",
+      "collectorNumber": "244",
+      "color": "R",
+      "colors": [
+        "R"
+      ],
+      "manaCost": "{2}{R}{R}",
+      "manaValue": 4,
+      "typeLine": "Legendary Planeswalker — Chandra",
+      "oracleText": "+1: Exile the top card of your library. You may cast that card. If you don't, Chandra deals 2 damage to each opponent.\n+1: Add {R}{R}.\n−3: Chandra deals 4 damage to target creature.\n−7: You get an emblem with \"Whenever you cast a spell, this emblem deals 5 damage to any target.\"",
+      "rarity": "mythic",
+      "keywords": [],
+      "image": "assets/cards/fra/40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/4/0/40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd.jpg?1783902767",
+      "scryfallUrl": "https://scryfall.com/card/fra/244/chandra-torch-of-defiance?utm_source=api"
+    },
+    {
+      "id": "90ca5812-ceb5-46bd-b049-aed7ff10e6af",
+      "name": "Garruk, Curse Breaker",
+      "collectorNumber": "259",
+      "color": "G",
+      "colors": [
+        "G"
+      ],
+      "manaCost": "{3}{G}{G}",
+      "manaValue": 5,
+      "typeLine": "Legendary Planeswalker — Garruk",
+      "oracleText": "Whenever a creature you control with power 4 or greater enters, draw a card.\n+2: Untap up to two target lands.\n−3: Create a 4/4 green Beast creature token with trample.\n−4: Until your next turn, whenever one or more creatures attack one of your opponents, those creatures get +2/+2 and gain trample until end of turn.",
+      "rarity": "mythic",
+      "keywords": [],
+      "image": "assets/cards/fra/90ca5812-ceb5-46bd-b049-aed7ff10e6af.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/9/0/90ca5812-ceb5-46bd-b049-aed7ff10e6af.jpg?1784338249",
+      "scryfallUrl": "https://scryfall.com/card/fra/259/garruk-curse-breaker?utm_source=api"
+    },
+    {
+      "id": "edea6f70-a5a7-475d-b7f2-97933d0f32cf",
+      "name": "Titanbones, Towering Heart",
+      "collectorNumber": "266",
+      "color": "G",
+      "colors": [
+        "G"
+      ],
+      "manaCost": "{3}{G}",
+      "manaValue": 4,
+      "typeLine": "Legendary Creature — Skeleton Druid",
+      "oracleText": "Reach\nWhenever you gain life, put two +1/+1 counters on Titanbones.\nWhen you discard this card, you gain 3 life.",
+      "rarity": "uncommon",
+      "keywords": [
+        "Reach"
+      ],
+      "image": "assets/cards/fra/edea6f70-a5a7-475d-b7f2-97933d0f32cf.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/e/d/edea6f70-a5a7-475d-b7f2-97933d0f32cf.jpg?1784371016",
+      "scryfallUrl": "https://scryfall.com/card/fra/266/titanbones-towering-heart?utm_source=api"
+    }
+  ]
+}

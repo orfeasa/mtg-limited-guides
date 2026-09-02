@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "sets": [
+    {
+      "id": "hob",
+      "code": "HOB",
+      "adapter": "hobbit-ranking",
+      "name": "The Hobbit",
+      "productName": "The Hobbit Limited Atlas",
+      "theme": "hobbit",
+      "stage": "observed",
+      "releaseDate": "2026-08-14",
+      "subtitle": "An expedition atlas for learning the set and rehearsing the next pick.",
+      "guideTitle": "Know the road before the first pack",
+      "guideBody": "Build card recognition first, then practise comparisons until the strongest baseline pick is immediate. Rankings remain a starting point rather than deck-context advice.",
+      "guideFacts": [
+        "188 ranked Arena cards",
+        "Observed Premier Draft snapshot",
+        "Bronze–Platinum · all archetypes"
+      ],
+      "rating": {
+        "status": "available",
+        "label": "Observed draft data",
+        "source": "Untapped.gg",
+        "capturedAt": "2026-08-19",
+        "matches": 390000,
+        "rankRange": "Bronze–Platinum",
+        "archetype": "All archetypes",
+        "stat": "In Hand WR",
+        "url": "https://mtga.untapped.gg/limited/draft/the-hobbit/pick-order"
+      },
+      "cardSource": {
+        "label": "Untapped.gg and Scryfall",
+        "url": "https://mtga.untapped.gg/limited/draft/the-hobbit/pick-order"
+      }
+    },
+    {
+      "id": "fra",
+      "code": "FRA",
+      "adapter": "preview",
+      "dataFile": "fra_preview.json",
+      "name": "Reality Fracture",
+      "productName": "Reality Fracture Field File",
+      "theme": "fracture",
+      "stage": "preview",
+      "releaseDate": "2026-10-02",
+      "prereleaseDate": "2026-09-25",
+      "arenaDate": "2026-09-29",
+      "subtitle": "A live Echoverse dossier, expanding as preview season unfolds.",
+      "guideTitle": "Study what is known. Keep the unknown visible.",
+      "guideBody": "Preview cards are indexed now. Rating drills will unlock only when a complete, attributable Limited evaluation exists—so provisional information is never presented as settled advice.",
+      "guideFacts": [
+        "Prerelease · 25 September",
+        "MTG Arena · 29 September",
+        "Play Boosters include echoed pairs"
+      ],
+      "rating": {
+        "status": "pending",
+        "label": "Ratings pending",
+        "source": null,
+        "capturedAt": null,
+        "url": null
+      },
+      "cardSource": {
+        "label": "Scryfall preview index",
+        "url": "https://scryfall.com/sets/fra"
+      },
+      "officialUrl": "https://magic.wizards.com/en/products/reality-fracture/card-image-gallery"
+    }
+  ]
+}
