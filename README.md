@@ -13,7 +13,7 @@ A set-by-set Magic: The Gathering Limited preparation tool. Each set keeps its o
 - Offline static-asset cache
 - No account, analytics, cookies, backend, or deck builder
 
-Study scores stay only in the current browser through `localStorage`. A comparison stays in page memory and resets on refresh. The service worker caches public site assets for offline use.
+Study progress stays only in the current browser through `localStorage`, including the current card, colour filter, queue, revealed answer, exact-tier score, and requeued misses. A comparison stays in page memory and resets on refresh. The service worker caches public site assets for offline use.
 
 The current guides are:
 
@@ -54,6 +54,10 @@ node scripts/build-data.mjs
 node scripts/verify-data.mjs
 ```
 
-`scripts/sync-colors.mjs` refreshes the local color-identity mapping from Scryfall. The deployed site does not call Scryfall at runtime.
+Run `node scripts/sync-card-stats.mjs` to refresh the bundled Premier Draft statistics from Untapped.gg before rebuilding. This stores in-hand win counts and games, opening-hand counts and games, average last offered pick, and average pick taken for all 188 cards. The deployed site never calls Untapped.gg at runtime.
+
+`scripts/sync-colors.mjs` refreshes the local color-identity mapping from Scryfall. `scripts/sync-training-images.mjs` downloads Scryfall's large card images for the trainer; pass `--force` to replace existing files. Run the image sync before `scripts/build-data.mjs` when refreshing the set. The deployed site does not call Scryfall at runtime.
+
+Compare and All cards keep the small local thumbnails quick. Opening a card in Study loads its readable local image; that image is runtime-cached rather than precaching every high-resolution card on first visit. If it is unavailable while offline, Study falls back to the precached thumbnail.
 
 Card images and names remain the property of their respective rights holders. This is an unofficial reference tool and is not affiliated with Wizards of the Coast or Untapped.gg.

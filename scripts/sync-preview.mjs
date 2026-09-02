@@ -8,12 +8,13 @@ const root = path.dirname(here);
 const setCode = (process.argv[2] || "fra").toLowerCase();
 const outputPath = path.join(root, "data", `${setCode}_preview.json`);
 const imageDirectory = path.join(root, "public", "assets", "cards", setCode);
+const trainingImageDirectory = path.join(root, "public", "assets", "cards-large", setCode);
 const apiUrl = `https://api.scryfall.com/cards/search?order=set&q=set%3A${encodeURIComponent(setCode)}&unique=cards`;
 const userAgent = "limited-prep/1.0 (https://github.com/orfeasa/hobbit-pick-order)";
 
-const withSourceComment = (buffer, source) => {
+const withSourceComment = (buffer, source, purpose) => {
   if (buffer[0] !== 0xff || buffer[1] !== 0xd8) return buffer;
-  const description = `impeccable:prompt\0Source: ${source}. Downloaded from Scryfall as a preview card thumbnail for the ${setCode.toUpperCase()} study interface.`;
+  const description = `impeccable:prompt\0Source: ${source}. Downloaded from Scryfall as a ${purpose} for the ${setCode.toUpperCase()} study interface.`;
   const comment = Buffer.from(description, "utf8");
   const header = Buffer.alloc(4);
   header[0] = 0xff;
@@ -29,6 +30,7 @@ const payload = await response.json();
 if (!Array.isArray(payload.data)) throw new Error("Scryfall returned no card data");
 
 await fs.mkdir(imageDirectory, { recursive: true });
+await fs.mkdir(trainingImageDirectory, { recursive: true });
 
 const classify = (identity) => {
   if (!Array.isArray(identity) || identity.length === 0) return "C";
@@ -38,15 +40,23 @@ const classify = (identity) => {
 
 const cards = [];
 for (const card of payload.data) {
-  const imageUrl = card.image_uris?.small || card.card_faces?.[0]?.image_uris?.small;
+  const imageUris = card.image_uris || card.card_faces?.[0]?.image_uris;
+  const imageUrl = imageUris?.small;
+  const trainingImageUrl = imageUris?.normal || imageUris?.large || imageUrl;
   if (!imageUrl) throw new Error(`No image for ${card.name}`);
 
   const imageName = `${card.id}.jpg`;
   const imagePath = path.join(imageDirectory, imageName);
+  const trainingImagePath = path.join(trainingImageDirectory, imageName);
   const imageResponse = await fetch(imageUrl, { headers: { "User-Agent": userAgent } });
   if (!imageResponse.ok) throw new Error(`Image request failed for ${card.name}: ${imageResponse.status}`);
   const imageBuffer = Buffer.from(await imageResponse.arrayBuffer());
-  await fs.writeFile(imagePath, withSourceComment(imageBuffer, imageUrl));
+  await fs.writeFile(imagePath, withSourceComment(imageBuffer, imageUrl, "preview card thumbnail"));
+
+  const trainingImageResponse = await fetch(trainingImageUrl, { headers: { "User-Agent": userAgent } });
+  if (!trainingImageResponse.ok) throw new Error(`Training image request failed for ${card.name}: ${trainingImageResponse.status}`);
+  const trainingImageBuffer = Buffer.from(await trainingImageResponse.arrayBuffer());
+  await fs.writeFile(trainingImagePath, withSourceComment(trainingImageBuffer, trainingImageUrl, "readable card image"));
 
   const faces = Array.isArray(card.card_faces) ? card.card_faces : [];
   cards.push({
@@ -62,7 +72,9 @@ for (const card of payload.data) {
     rarity: card.rarity,
     keywords: card.keywords || [],
     image: `assets/cards/${setCode}/${imageName}`,
+    trainingImage: `assets/cards-large/${setCode}/${imageName}`,
     imageSource: imageUrl,
+    trainingImageSource: trainingImageUrl,
     scryfallUrl: card.scryfall_uri,
   });
 }

@@ -515,6 +515,10 @@ body[data-theme="fracture"] .dataset-stamp strong {
   height: 20px;
 }
 
+.tab-label-short {
+  display: none;
+}
+
 .view-tab:hover {
   background: color-mix(in srgb, var(--binding-soft) 80%, var(--metal-light));
 }
@@ -920,19 +924,24 @@ body[data-theme="fracture"] .trainer-image-wrap img {
 
 .grade-options {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 7px;
   margin-top: 22px;
-  border-top: 1px solid var(--line);
+}
+
+.grade-family {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   border-left: 1px solid var(--line);
 }
 
 .grade-options button {
-  min-height: 62px;
-  padding: 10px 14px;
+  min-height: 44px;
+  padding: 7px 8px;
   color: var(--ink);
-  text-align: left;
-  background: transparent;
+  text-align: center;
+  background: color-mix(in srgb, var(--tier-color) 9%, transparent);
   border: 0;
+  border-top: 3px solid var(--tier-color);
   border-right: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
   cursor: pointer;
@@ -952,6 +961,10 @@ body[data-theme="fracture"] .trainer-image-wrap img {
   background: #8c413b;
 }
 
+.grade-options button[data-result="muted"] {
+  opacity: .48;
+}
+
 .grade-options strong,
 .grade-options span {
   display: block;
@@ -969,14 +982,18 @@ body[data-theme="fracture"] .trainer-image-wrap img {
 }
 
 .trainer-answer {
-  display: flex;
-  align-items: baseline;
-  gap: 10px;
+  display: block;
   margin-top: 22px;
   padding: 13px 0;
   color: var(--accent-dark);
   border-top: 2px solid var(--accent);
   border-bottom: 1px solid var(--line);
+}
+
+.trainer-answer-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
 }
 
 .trainer-answer strong {
@@ -987,6 +1004,50 @@ body[data-theme="fracture"] .trainer-image-wrap img {
 .trainer-answer span {
   color: var(--muted);
   font-size: .72rem;
+}
+
+.trainer-stat-ledger {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 13px 0 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.trainer-stat-ledger div {
+  min-width: 0;
+  padding: 9px 7px;
+  border-right: 1px solid var(--line);
+}
+
+.trainer-stat-ledger div:last-child {
+  border-right: 0;
+}
+
+.trainer-stat-ledger dt,
+.trainer-stat-note,
+.trainer-neighbours {
+  color: var(--muted);
+  font-size: .62rem;
+}
+
+.trainer-stat-ledger dd {
+  margin: 2px 0 0;
+  color: var(--ink);
+  font-family: var(--display);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.trainer-stat-note,
+.trainer-neighbours {
+  margin: 8px 0 0;
+}
+
+.trainer-neighbours strong {
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: inherit;
 }
 
 .trainer-actions,
@@ -1268,7 +1329,6 @@ body[data-theme="fracture"] .lock-mark {
 }
 
 .leaf-heading,
-.pack-heading,
 .result-bar,
 .alternatives-heading,
 .color-section-heading {
@@ -1433,6 +1493,7 @@ kbd {
 }
 
 .card-thumb {
+  display: block;
   width: 55px;
 }
 
@@ -1441,6 +1502,7 @@ kbd {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-right: 8px;
   border-right: 1px solid var(--line);
 }
 
@@ -1864,6 +1926,7 @@ body[data-theme="fracture"] .color-emblem {
 [data-color="G"] { --group-color: #5c7d53; --group-ink: #35522f; }
 [data-color="M"] { --group-color: conic-gradient(#d7cea8, #4f8198, #574b58, #aa543d, #5c7d53, #d7cea8); --group-ink: #725d2f; }
 [data-color="C"] { --group-color: #8b8374; --group-ink: #5b554b; }
+[data-color="ALL"] { --group-color: conic-gradient(#d7cea8, #4f8198, #574b58, #aa543d, #5c7d53, #d7cea8); --group-ink: var(--forest); }
 
 .card-atlas {
   padding-top: 16px;
@@ -2104,7 +2167,7 @@ body[data-theme="fracture"] .color-emblem {
   }
 
   body {
-    padding-bottom: calc(76px + env(safe-area-inset-bottom));
+    padding-bottom: 0;
   }
 
   .app-header {
@@ -2282,16 +2345,12 @@ body[data-theme="fracture"] .color-emblem {
   }
 
   .grade-options {
-    display: block;
     margin-top: 13px;
-    border-left: 0;
   }
 
   .grade-options button {
-    width: 100%;
-    min-height: 45px;
+    min-height: 42px;
     padding: 7px 8px;
-    border-right: 0;
   }
 
   .grade-options span {
@@ -2303,8 +2362,12 @@ body[data-theme="fracture"] .color-emblem {
     margin-top: 13px;
   }
 
-  .trainer-answer strong,
-  .trainer-answer span {
+  .trainer-answer-heading strong,
+  .trainer-answer-heading span {
+    display: block;
+  }
+
+  .trainer-answer-heading {
     display: block;
   }
 
@@ -2421,7 +2484,8 @@ body[data-theme="fracture"] .color-emblem {
   }
 
   .result-row {
-    grid-template-columns: 48px 42px minmax(0, 1fr) auto;
+    grid-template-columns: 48px 46px minmax(0, 1fr) auto;
+    gap: 9px;
     min-height: 76px;
     padding-right: 2px;
   }

@@ -29,6 +29,12 @@
         "stat": "In Hand WR",
         "url": "https://mtga.untapped.gg/limited/draft/the-hobbit/pick-order"
       },
+      "performance": {
+        "source": "Untapped.gg",
+        "capturedAt": "2026-08-20T15:19:38.756Z",
+        "matches": 417619,
+        "label": "Observed card evidence"
+      },
       "cardSource": {
         "label": "Untapped.gg and Scryfall",
         "url": "https://mtga.untapped.gg/limited/draft/the-hobbit/pick-order"

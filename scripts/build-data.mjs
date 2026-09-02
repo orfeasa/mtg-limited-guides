@@ -14,6 +14,11 @@ const manifest = readJson("sets.json");
 const pickOrder = readJson("hobbit_pick_order.json");
 const artIds = readJson("hobbit_art_ids.json");
 const colorData = readJson("hobbit_colors.json");
+const cardStats = readJson("hobbit_card_stats.json");
+
+const winRate = (wins, games) => Number.isFinite(wins) && Number.isFinite(games) && games > 0
+  ? Math.round((wins / games) * 1000) / 10
+  : null;
 
 const bandForTier = (tier) => {
   if (["S", "A+", "A", "A-"].includes(tier)) return "top";
@@ -27,6 +32,8 @@ const hobbitCards = [];
 let rank = 1;
 for (const section of pickOrder.sections) {
   for (const name of section.names) {
+    const stats = cardStats.cards[name];
+    if (!stats) throw new Error(`Missing Hobbit card statistics for ${name}`);
     hobbitCards.push({
       id: `hob-${rank}`,
       rank,
@@ -35,6 +42,14 @@ for (const section of pickOrder.sections) {
       name,
       color: colorData.colors[name],
       image: `assets/cards/${artIds[rank - 1]}.jpg`,
+      trainingImage: `assets/cards-large/${artIds[rank - 1]}.jpg`,
+      stats: {
+        inHandWinRate: winRate(stats.in_hand_wins, stats.in_hand_games),
+        inHandGames: stats.in_hand_games,
+        openingHandWinRate: winRate(stats.opening_hand_wins, stats.opening_hand_games),
+        openingHandGames: stats.opening_hand_games,
+        avgLastOffered: stats.avg_last_offered,
+      },
     });
     rank += 1;
   }
@@ -47,6 +62,10 @@ if (hobbitCards.length !== 188 || artIds.length !== 188) {
 const missingColors = hobbitCards.filter((card) => !card.color);
 if (missingColors.length > 0) {
   throw new Error(`Missing color identity for: ${missingColors.map((card) => card.name).join(", ")}`);
+}
+
+if (cardStats.total_matches < Number(String(pickOrder.total_matches).replace(/,/g, ""))) {
+  throw new Error("Hobbit statistics snapshot is older than the pick-order evidence");
 }
 
 const setAdapters = {
@@ -87,6 +106,10 @@ const cacheFiles = [
   "./app.js",
   "./manifest.webmanifest",
   "./assets/icon.svg",
+  "./assets/icon-32.png",
+  "./assets/icon-192.png",
+  "./assets/icon-512.png",
+  "./assets/apple-touch-icon.png",
   "./assets/fonts/Alegreya-SemiBold.ttf",
   "./assets/fonts/Alegreya-Bold.ttf",
   "./assets/fonts/AtkinsonHyperlegibleNext-Regular.ttf",

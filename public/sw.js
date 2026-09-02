@@ -1,5 +1,5 @@
 /* Generated static cache manifest. */
-const CACHE = "limited-prep-084e1821403c";
+const CACHE = "limited-prep-db789af54245";
 const ASSETS = [
   "./",
   "./index.html",
@@ -8,6 +8,10 @@ const ASSETS = [
   "./app.js",
   "./manifest.webmanifest",
   "./assets/icon.svg",
+  "./assets/icon-32.png",
+  "./assets/icon-192.png",
+  "./assets/icon-512.png",
+  "./assets/apple-touch-icon.png",
   "./assets/fonts/Alegreya-SemiBold.ttf",
   "./assets/fonts/Alegreya-Bold.ttf",
   "./assets/fonts/AtkinsonHyperlegibleNext-Regular.ttf",

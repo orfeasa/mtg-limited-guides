@@ -1,0 +1,1891 @@
+{
+  "source": "https://mtga.untapped.gg/limited/draft/the-hobbit/card-data",
+  "captured_at": "2026-08-20T15:19:38.756Z",
+  "source_last_modified": "2026-08-20T14:11:42.000Z",
+  "format": "Premier Draft",
+  "rank_range": "Bronze-Platinum",
+  "total_matches": 417619,
+  "total_matches_display": "410,000",
+  "cards": {
+    "Fíli the Pathfinder": {
+      "title_id": 1113301,
+      "in_hand_games": 11136,
+      "in_hand_wins": 7134,
+      "opening_hand_games": 4394,
+      "opening_hand_wins": 2761,
+      "total_games": 24274,
+      "avg_last_offered": 1.99,
+      "avg_pick_taken": 1.89
+    },
+    "An Unexpected Party": {
+      "title_id": 1113355,
+      "in_hand_games": 11335,
+      "in_hand_wins": 7086,
+      "opening_hand_games": 4375,
+      "opening_hand_wins": 2598,
+      "total_games": 24712,
+      "avg_last_offered": 1.72,
+      "avg_pick_taken": 1.65
+    },
+    "Smaug the Magnificent": {
+      "title_id": 1113651,
+      "in_hand_games": 5244,
+      "in_hand_wins": 3238,
+      "opening_hand_games": 2220,
+      "opening_hand_wins": 1346,
+      "total_games": 12458,
+      "avg_last_offered": 1.36,
+      "avg_pick_taken": 1.35
+    },
+    "Beorn the Fierce": {
+      "title_id": 1113686,
+      "in_hand_games": 5044,
+      "in_hand_wins": 3110,
+      "opening_hand_games": 2055,
+      "opening_hand_wins": 1201,
+      "total_games": 11805,
+      "avg_last_offered": 1.56,
+      "avg_pick_taken": 1.48
+    },
+    "Gollum, Riddle Master": {
+      "title_id": 1113494,
+      "in_hand_games": 5585,
+      "in_hand_wins": 3419,
+      "opening_hand_games": 2391,
+      "opening_hand_wins": 1576,
+      "total_games": 13322,
+      "avg_last_offered": 1.55,
+      "avg_pick_taken": 1.55
+    },
+    "Chief Warg's Company": {
+      "title_id": 1113798,
+      "in_hand_games": 9918,
+      "in_hand_wins": 6002,
+      "opening_hand_games": 4475,
+      "opening_hand_wins": 2821,
+      "total_games": 23416,
+      "avg_last_offered": 1.85,
+      "avg_pick_taken": 1.82
+    },
+    "Thorin, Mountain-king": {
+      "title_id": 1113669,
+      "in_hand_games": 5453,
+      "in_hand_wins": 3308,
+      "opening_hand_games": 2160,
+      "opening_hand_wins": 1310,
+      "total_games": 12923,
+      "avg_last_offered": 1.79,
+      "avg_pick_taken": 1.72
+    },
+    "Kíli the Resourceful": {
+      "title_id": 1113313,
+      "in_hand_games": 10063,
+      "in_hand_wins": 6068,
+      "opening_hand_games": 4335,
+      "opening_hand_wins": 2792,
+      "total_games": 22286,
+      "avg_last_offered": 2.39,
+      "avg_pick_taken": 2.38
+    },
+    "Bard's Company": {
+      "title_id": 1113779,
+      "in_hand_games": 10205,
+      "in_hand_wins": 6155,
+      "opening_hand_games": 3627,
+      "opening_hand_wins": 2156,
+      "total_games": 19736,
+      "avg_last_offered": 2.57,
+      "avg_pick_taken": 2.64
+    },
+    "Dáin Ironfoot": {
+      "title_id": 1113572,
+      "in_hand_games": 11653,
+      "in_hand_wins": 6993,
+      "opening_hand_games": 4955,
+      "opening_hand_wins": 3028,
+      "total_games": 26948,
+      "avg_last_offered": 2.02,
+      "avg_pick_taken": 1.98
+    },
+    "Dáin's Company": {
+      "title_id": 1113802,
+      "in_hand_games": 9156,
+      "in_hand_wins": 5447,
+      "opening_hand_games": 4067,
+      "opening_hand_wins": 2498,
+      "total_games": 21139,
+      "avg_last_offered": 2.94,
+      "avg_pick_taken": 2.92
+    },
+    "Desolation Prowler": {
+      "title_id": 1113474,
+      "in_hand_games": 32615,
+      "in_hand_wins": 19408,
+      "opening_hand_games": 15383,
+      "opening_hand_wins": 9637,
+      "total_games": 70594,
+      "avg_last_offered": 2.48,
+      "avg_pick_taken": 2.75
+    },
+    "Celebrate the Mountain-king": {
+      "title_id": 1113278,
+      "in_hand_games": 30633,
+      "in_hand_wins": 18073,
+      "opening_hand_games": 12214,
+      "opening_hand_wins": 6843,
+      "total_games": 61746,
+      "avg_last_offered": 2.72,
+      "avg_pick_taken": 3.05
+    },
+    "Head of the Hunt": {
+      "title_id": 1113515,
+      "in_hand_games": 11001,
+      "in_hand_wins": 6478,
+      "opening_hand_games": 4698,
+      "opening_hand_wins": 2773,
+      "total_games": 26578,
+      "avg_last_offered": 1.6,
+      "avg_pick_taken": 1.6
+    },
+    "Thranduil's Company": {
+      "title_id": 1113860,
+      "in_hand_games": 8461,
+      "in_hand_wins": 4978,
+      "opening_hand_games": 3359,
+      "opening_hand_wins": 2006,
+      "total_games": 18189,
+      "avg_last_offered": 2.63,
+      "avg_pick_taken": 2.67
+    },
+    "Rhovanion Rampager": {
+      "title_id": 1113540,
+      "in_hand_games": 10909,
+      "in_hand_wins": 6406,
+      "opening_hand_games": 4719,
+      "opening_hand_wins": 2844,
+      "total_games": 26516,
+      "avg_last_offered": 1.77,
+      "avg_pick_taken": 1.79
+    },
+    "Bothersome Noisemaker": {
+      "title_id": 1113565,
+      "in_hand_games": 32842,
+      "in_hand_wins": 19180,
+      "opening_hand_games": 15161,
+      "opening_hand_wins": 9207,
+      "total_games": 68606,
+      "avg_last_offered": 2.79,
+      "avg_pick_taken": 3.11
+    },
+    "Great Gilded Boat": {
+      "title_id": 1113402,
+      "in_hand_games": 10911,
+      "in_hand_wins": 6373,
+      "opening_hand_games": 4103,
+      "opening_hand_wins": 2426,
+      "total_games": 22201,
+      "avg_last_offered": 2.57,
+      "avg_pick_taken": 2.63
+    },
+    "Crude Bent Blade": {
+      "title_id": 1113471,
+      "in_hand_games": 67692,
+      "in_hand_wins": 39467,
+      "opening_hand_games": 31720,
+      "opening_hand_wins": 18419,
+      "total_games": 131976,
+      "avg_last_offered": 3.13,
+      "avg_pick_taken": 3.58
+    },
+    "Burn, Burn, Tree and Fern": {
+      "title_id": 1113568,
+      "in_hand_games": 31771,
+      "in_hand_wins": 18429,
+      "opening_hand_games": 13589,
+      "opening_hand_wins": 7741,
+      "total_games": 71114,
+      "avg_last_offered": 2.68,
+      "avg_pick_taken": 3.01
+    },
+    "Mirkwood Pathmaker": {
+      "title_id": 1113726,
+      "in_hand_games": 27051,
+      "in_hand_wins": 15645,
+      "opening_hand_games": 12220,
+      "opening_hand_wins": 6999,
+      "total_games": 55794,
+      "avg_last_offered": 3.26,
+      "avg_pick_taken": 3.8
+    },
+    "The Arkenstone": {
+      "title_id": 1113868,
+      "in_hand_games": 6025,
+      "in_hand_wins": 3449,
+      "opening_hand_games": 2363,
+      "opening_hand_wins": 1332,
+      "total_games": 13878,
+      "avg_last_offered": 1.18,
+      "avg_pick_taken": 1.16
+    },
+    "Dancing from Dark to Dawn": {
+      "title_id": 1113701,
+      "in_hand_games": 4467,
+      "in_hand_wins": 2567,
+      "opening_hand_games": 1820,
+      "opening_hand_wins": 1031,
+      "total_games": 10845,
+      "avg_last_offered": 1.64,
+      "avg_pick_taken": 1.59
+    },
+    "Gollum, Silent Slinker": {
+      "title_id": 1113499,
+      "in_hand_games": 57930,
+      "in_hand_wins": 33222,
+      "opening_hand_games": 25735,
+      "opening_hand_wins": 14656,
+      "total_games": 118703,
+      "avg_last_offered": 4.92,
+      "avg_pick_taken": 6.01
+    },
+    "Bejeweled Warg": {
+      "title_id": 1113677,
+      "in_hand_games": 9349,
+      "in_hand_wins": 5359,
+      "opening_hand_games": 4239,
+      "opening_hand_wins": 2642,
+      "total_games": 22186,
+      "avg_last_offered": 2.05,
+      "avg_pick_taken": 2.09
+    },
+    "Stone by Sunlight": {
+      "title_id": 1113348,
+      "in_hand_games": 29864,
+      "in_hand_wins": 17054,
+      "opening_hand_games": 12049,
+      "opening_hand_wins": 6538,
+      "total_games": 60555,
+      "avg_last_offered": 3.13,
+      "avg_pick_taken": 3.68
+    },
+    "Nighthowl Pursuer": {
+      "title_id": 1113526,
+      "in_hand_games": 26543,
+      "in_hand_wins": 15104,
+      "opening_hand_games": 12392,
+      "opening_hand_wins": 7444,
+      "total_games": 58522,
+      "avg_last_offered": 3.66,
+      "avg_pick_taken": 4.44
+    },
+    "Nasty Little Rabbit": {
+      "title_id": 1113729,
+      "in_hand_games": 24703,
+      "in_hand_wins": 14034,
+      "opening_hand_games": 11910,
+      "opening_hand_wins": 7060,
+      "total_games": 52120,
+      "avg_last_offered": 3.63,
+      "avg_pick_taken": 4.26
+    },
+    "Pinecone Strike": {
+      "title_id": 1113638,
+      "in_hand_games": 68353,
+      "in_hand_wins": 38759,
+      "opening_hand_games": 32371,
+      "opening_hand_wins": 18359,
+      "total_games": 130038,
+      "avg_last_offered": 3.25,
+      "avg_pick_taken": 3.74
+    },
+    "Down, Down to Goblin-town": {
+      "title_id": 1113477,
+      "in_hand_games": 31573,
+      "in_hand_wins": 17953,
+      "opening_hand_games": 14275,
+      "opening_hand_wins": 8244,
+      "total_games": 69645,
+      "avg_last_offered": 3.1,
+      "avg_pick_taken": 3.47
+    },
+    "Stone-Giant of High Pass": {
+      "title_id": 1113663,
+      "in_hand_games": 10012,
+      "in_hand_wins": 5696,
+      "opening_hand_games": 3875,
+      "opening_hand_wins": 2122,
+      "total_games": 25013,
+      "avg_last_offered": 2.43,
+      "avg_pick_taken": 2.48
+    },
+    "Gandalf, Spark Starter": {
+      "title_id": 1113597,
+      "in_hand_games": 25399,
+      "in_hand_wins": 14394,
+      "opening_hand_games": 9979,
+      "opening_hand_wins": 5420,
+      "total_games": 60246,
+      "avg_last_offered": 4.13,
+      "avg_pick_taken": 5.08
+    },
+    "The Mountain-king's Return": {
+      "title_id": 1113329,
+      "in_hand_games": 29813,
+      "in_hand_wins": 16775,
+      "opening_hand_games": 12343,
+      "opening_hand_wins": 6844,
+      "total_games": 59496,
+      "avg_last_offered": 3.33,
+      "avg_pick_taken": 3.74
+    },
+    "Dwalin, Weaponmaster": {
+      "title_id": 1113811,
+      "in_hand_games": 10662,
+      "in_hand_wins": 6012,
+      "opening_hand_games": 4679,
+      "opening_hand_wins": 2615,
+      "total_games": 24283,
+      "avg_last_offered": 2.35,
+      "avg_pick_taken": 2.47
+    },
+    "The Sackville-Bagginses": {
+      "title_id": 1113545,
+      "in_hand_games": 11057,
+      "in_hand_wins": 6240,
+      "opening_hand_games": 4667,
+      "opening_hand_wins": 2577,
+      "total_games": 26118,
+      "avg_last_offered": 2.58,
+      "avg_pick_taken": 2.7
+    },
+    "Misty Mountains Raider": {
+      "title_id": 1113631,
+      "in_hand_games": 30501,
+      "in_hand_wins": 17130,
+      "opening_hand_games": 12756,
+      "opening_hand_wins": 6991,
+      "total_games": 68233,
+      "avg_last_offered": 3.14,
+      "avg_pick_taken": 3.6
+    },
+    "Tom, Bert, and William": {
+      "title_id": 1113864,
+      "in_hand_games": 9479,
+      "in_hand_wins": 5277,
+      "opening_hand_games": 3996,
+      "opening_hand_wins": 2144,
+      "total_games": 23227,
+      "avg_last_offered": 2.31,
+      "avg_pick_taken": 2.41
+    },
+    "Bilbo, Luckwearer": {
+      "title_id": 1113364,
+      "in_hand_games": 27363,
+      "in_hand_wins": 15286,
+      "opening_hand_games": 10762,
+      "opening_hand_wins": 5872,
+      "total_games": 51142,
+      "avg_last_offered": 3.61,
+      "avg_pick_taken": 4.14
+    },
+    "Gandalf, Goblins' Bane": {
+      "title_id": 1113592,
+      "in_hand_games": 4889,
+      "in_hand_wins": 2727,
+      "opening_hand_games": 2058,
+      "opening_hand_wins": 1129,
+      "total_games": 11585,
+      "avg_last_offered": 2.03,
+      "avg_pick_taken": 1.99
+    },
+    "Settle the Wreckage": {
+      "title_id": 173599,
+      "in_hand_games": 9567,
+      "in_hand_wins": 5311,
+      "opening_hand_games": 3605,
+      "opening_hand_wins": 1861,
+      "total_games": 20988,
+      "avg_last_offered": 3.23,
+      "avg_pick_taken": 3.21
+    },
+    "Thranduil, Sindarin Liege": {
+      "title_id": 1113851,
+      "in_hand_games": 24378,
+      "in_hand_wins": 13535,
+      "opening_hand_games": 10172,
+      "opening_hand_wins": 5477,
+      "total_games": 49295,
+      "avg_last_offered": 3.27,
+      "avg_pick_taken": 3.91
+    },
+    "The Great Goblin": {
+      "title_id": 1113825,
+      "in_hand_games": 10387,
+      "in_hand_wins": 5755,
+      "opening_hand_games": 4451,
+      "opening_hand_wins": 2400,
+      "total_games": 24197,
+      "avg_last_offered": 2.09,
+      "avg_pick_taken": 2.08
+    },
+    "Bilbo's Deadly Slice": {
+      "title_id": 1113469,
+      "in_hand_games": 66445,
+      "in_hand_wins": 36834,
+      "opening_hand_games": 31082,
+      "opening_hand_wins": 16577,
+      "total_games": 132196,
+      "avg_last_offered": 2.97,
+      "avg_pick_taken": 3.36
+    },
+    "Ravening Warg": {
+      "title_id": 1113533,
+      "in_hand_games": 55974,
+      "in_hand_wins": 30962,
+      "opening_hand_games": 27276,
+      "opening_hand_wins": 15189,
+      "total_games": 111841,
+      "avg_last_offered": 4.73,
+      "avg_pick_taken": 5.9
+    },
+    "The Lonely Mountain": {
+      "title_id": 1113927,
+      "in_hand_games": 10997,
+      "in_hand_wins": 6073,
+      "opening_hand_games": 4780,
+      "opening_hand_wins": 2663,
+      "total_games": 25432,
+      "avg_last_offered": 3.02,
+      "avg_pick_taken": 3.28
+    },
+    "Goblin Plate Mail": {
+      "title_id": 1113822,
+      "in_hand_games": 68435,
+      "in_hand_wins": 37747,
+      "opening_hand_games": 32648,
+      "opening_hand_wins": 18145,
+      "total_games": 133116,
+      "avg_last_offered": 3.93,
+      "avg_pick_taken": 4.77
+    },
+    "The Queen of Dale": {
+      "title_id": 1113337,
+      "in_hand_games": 4759,
+      "in_hand_wins": 2614,
+      "opening_hand_games": 1880,
+      "opening_hand_wins": 1085,
+      "total_games": 10379,
+      "avg_last_offered": 2.12,
+      "avg_pick_taken": 2.12
+    },
+    "Great Ugly-Looking Goblin": {
+      "title_id": 1113512,
+      "in_hand_games": 29610,
+      "in_hand_wins": 16324,
+      "opening_hand_games": 13263,
+      "opening_hand_wins": 7280,
+      "total_games": 66305,
+      "avg_last_offered": 3.45,
+      "avg_pick_taken": 4.1
+    },
+    "Stir Up Trouble": {
+      "title_id": 1113550,
+      "in_hand_games": 61983,
+      "in_hand_wins": 34068,
+      "opening_hand_games": 27928,
+      "opening_hand_wins": 14715,
+      "total_games": 127089,
+      "avg_last_offered": 4.28,
+      "avg_pick_taken": 5.17
+    },
+    "Bilbo, Thief in the Night": {
+      "title_id": 1113369,
+      "in_hand_games": 4368,
+      "in_hand_wins": 2393,
+      "opening_hand_games": 1583,
+      "opening_hand_wins": 834,
+      "total_games": 9009,
+      "avg_last_offered": 2.57,
+      "avg_pick_taken": 2.57
+    },
+    "Large Bear": {
+      "title_id": 1113829,
+      "in_hand_games": 25923,
+      "in_hand_wins": 14218,
+      "opening_hand_games": 10917,
+      "opening_hand_wins": 5756,
+      "total_games": 60501,
+      "avg_last_offered": 2.98,
+      "avg_pick_taken": 3.53
+    },
+    "Dori, Bearer of Friends": {
+      "title_id": 1113587,
+      "in_hand_games": 57662,
+      "in_hand_wins": 31603,
+      "opening_hand_games": 26240,
+      "opening_hand_wins": 14669,
+      "total_games": 116570,
+      "avg_last_offered": 5.34,
+      "avg_pick_taken": 6.63
+    },
+    "The Misty Mountains Cold": {
+      "title_id": 1113622,
+      "in_hand_games": 10388,
+      "in_hand_wins": 5688,
+      "opening_hand_games": 4434,
+      "opening_hand_wins": 2589,
+      "total_games": 24157,
+      "avg_last_offered": 2.62,
+      "avg_pick_taken": 2.76
+    },
+    "Gollum the Abandoned": {
+      "title_id": 1113503,
+      "in_hand_games": 26363,
+      "in_hand_wins": 14412,
+      "opening_hand_games": 11528,
+      "opening_hand_wins": 6291,
+      "total_games": 59416,
+      "avg_last_offered": 4.42,
+      "avg_pick_taken": 5.55
+    },
+    "The Eagles Are Coming!": {
+      "title_id": 1113294,
+      "in_hand_games": 10345,
+      "in_hand_wins": 5644,
+      "opening_hand_games": 3910,
+      "opening_hand_wins": 2058,
+      "total_games": 22345,
+      "avg_last_offered": 2.13,
+      "avg_pick_taken": 2.12
+    },
+    "Iron Hills Blacksmith": {
+      "title_id": 1113309,
+      "in_hand_games": 27761,
+      "in_hand_wins": 15131,
+      "opening_hand_games": 12396,
+      "opening_hand_wins": 6887,
+      "total_games": 55642,
+      "avg_last_offered": 3.4,
+      "avg_pick_taken": 3.97
+    },
+    "Quarrel": {
+      "title_id": 1113746,
+      "in_hand_games": 50490,
+      "in_hand_wins": 27494,
+      "opening_hand_games": 23584,
+      "opening_hand_wins": 12433,
+      "total_games": 97425,
+      "avg_last_offered": 4.87,
+      "avg_pick_taken": 5.99
+    },
+    "Smaug, Wicked Worm": {
+      "title_id": 1113845,
+      "in_hand_games": 9238,
+      "in_hand_wins": 5030,
+      "opening_hand_games": 3733,
+      "opening_hand_wins": 1943,
+      "total_games": 22237,
+      "avg_last_offered": 2.13,
+      "avg_pick_taken": 2.13
+    },
+    "Patient Instructor": {
+      "title_id": 1113839,
+      "in_hand_games": 42545,
+      "in_hand_wins": 23062,
+      "opening_hand_games": 19614,
+      "opening_hand_wins": 10416,
+      "total_games": 71165,
+      "avg_last_offered": 6.3,
+      "avg_pick_taken": 7.91
+    },
+    "Glóin the Mighty": {
+      "title_id": 1113605,
+      "in_hand_games": 25872,
+      "in_hand_wins": 14063,
+      "opening_hand_games": 10689,
+      "opening_hand_wins": 5745,
+      "total_games": 59453,
+      "avg_last_offered": 3.86,
+      "avg_pick_taken": 4.77
+    },
+    "Smaug, the Great Calamity": {
+      "title_id": 1113647,
+      "in_hand_games": 47890,
+      "in_hand_wins": 26003,
+      "opening_hand_games": 19612,
+      "opening_hand_wins": 10285,
+      "total_games": 105901,
+      "avg_last_offered": 5.5,
+      "avg_pick_taken": 6.88
+    },
+    "Long Lake Nuisance": {
+      "title_id": 1113409,
+      "in_hand_games": 38318,
+      "in_hand_wins": 20762,
+      "opening_hand_games": 16197,
+      "opening_hand_wins": 8375,
+      "total_games": 62469,
+      "avg_last_offered": 6.86,
+      "avg_pick_taken": 8.5
+    },
+    "Down in the Valley": {
+      "title_id": 1113705,
+      "in_hand_games": 8301,
+      "in_hand_wins": 4505,
+      "opening_hand_games": 3629,
+      "opening_hand_wins": 2020,
+      "total_games": 18951,
+      "avg_last_offered": 3.17,
+      "avg_pick_taken": 3.64
+    },
+    "Gundabad Opportunist": {
+      "title_id": 1113613,
+      "in_hand_games": 44019,
+      "in_hand_wins": 23808,
+      "opening_hand_games": 19649,
+      "opening_hand_wins": 10467,
+      "total_games": 92745,
+      "avg_last_offered": 6.45,
+      "avg_pick_taken": 8.23
+    },
+    "Bard the Bowman": {
+      "title_id": 1113776,
+      "in_hand_games": 23732,
+      "in_hand_wins": 12788,
+      "opening_hand_games": 9229,
+      "opening_hand_wins": 4830,
+      "total_games": 40848,
+      "avg_last_offered": 4.38,
+      "avg_pick_taken": 5.13
+    },
+    "Dwarven Mattock": {
+      "title_id": 1113874,
+      "in_hand_games": 19126,
+      "in_hand_wins": 10281,
+      "opening_hand_games": 8159,
+      "opening_hand_wins": 4459,
+      "total_games": 40855,
+      "avg_last_offered": 5.1,
+      "avg_pick_taken": 6.82
+    },
+    "Thorin Oakenshield": {
+      "title_id": 1113849,
+      "in_hand_games": 23731,
+      "in_hand_wins": 12761,
+      "opening_hand_games": 10546,
+      "opening_hand_wins": 5853,
+      "total_games": 48319,
+      "avg_last_offered": 4.54,
+      "avg_pick_taken": 5.32
+    },
+    "Dwarven Mauler": {
+      "title_id": 1113590,
+      "in_hand_games": 25057,
+      "in_hand_wins": 13485,
+      "opening_hand_games": 11315,
+      "opening_hand_wins": 6353,
+      "total_games": 53384,
+      "avg_last_offered": 4.44,
+      "avg_pick_taken": 5.57
+    },
+    "Dreaded Bat-Cloud": {
+      "title_id": 1113482,
+      "in_hand_games": 27201,
+      "in_hand_wins": 14637,
+      "opening_hand_games": 11489,
+      "opening_hand_wins": 5957,
+      "total_games": 62279,
+      "avg_last_offered": 3.7,
+      "avg_pick_taken": 4.52
+    },
+    "Plunder the Trollshaws": {
+      "title_id": 1113434,
+      "in_hand_games": 46149,
+      "in_hand_wins": 24752,
+      "opening_hand_games": 19557,
+      "opening_hand_wins": 10042,
+      "total_games": 75618,
+      "avg_last_offered": 6.39,
+      "avg_pick_taken": 7.92
+    },
+    "Gnashing of Teeth": {
+      "title_id": 1113490,
+      "in_hand_games": 29604,
+      "in_hand_wins": 15961,
+      "opening_hand_games": 12888,
+      "opening_hand_wins": 6844,
+      "total_games": 67830,
+      "avg_last_offered": 2.77,
+      "avg_pick_taken": 3.09
+    },
+    "Duskwatch Hunter": {
+      "title_id": 1113807,
+      "in_hand_games": 41791,
+      "in_hand_wins": 22411,
+      "opening_hand_games": 20041,
+      "opening_hand_wins": 10752,
+      "total_games": 84672,
+      "avg_last_offered": 5.58,
+      "avg_pick_taken": 7.3
+    },
+    "Bolg of the North": {
+      "title_id": 1113787,
+      "in_hand_games": 25690,
+      "in_hand_wins": 13732,
+      "opening_hand_games": 10714,
+      "opening_hand_wins": 5507,
+      "total_games": 57996,
+      "avg_last_offered": 4.06,
+      "avg_pick_taken": 4.76
+    },
+    "Master's Councillors": {
+      "title_id": 1113414,
+      "in_hand_games": 22557,
+      "in_hand_wins": 12072,
+      "opening_hand_games": 9477,
+      "opening_hand_wins": 4913,
+      "total_games": 39143,
+      "avg_last_offered": 4.74,
+      "avg_pick_taken": 5.79
+    },
+    "Front Porch Sentries": {
+      "title_id": 1113484,
+      "in_hand_games": 33244,
+      "in_hand_wins": 17785,
+      "opening_hand_games": 15552,
+      "opening_hand_wins": 8351,
+      "total_games": 68996,
+      "avg_last_offered": 6.5,
+      "avg_pick_taken": 8.55
+    },
+    "Attercop": {
+      "title_id": 1113675,
+      "in_hand_games": 44370,
+      "in_hand_wins": 23753,
+      "opening_hand_games": 21821,
+      "opening_hand_wins": 11758,
+      "total_games": 85802,
+      "avg_last_offered": 5.95,
+      "avg_pick_taken": 7.52
+    },
+    "Rage into the Valley": {
+      "title_id": 1113530,
+      "in_hand_games": 54185,
+      "in_hand_wins": 28911,
+      "opening_hand_games": 26056,
+      "opening_hand_wins": 13752,
+      "total_games": 108775,
+      "avg_last_offered": 5.23,
+      "avg_pick_taken": 6.57
+    },
+    "Stony-Voiced Goblins": {
+      "title_id": 1113553,
+      "in_hand_games": 52663,
+      "in_hand_wins": 28125,
+      "opening_hand_games": 25606,
+      "opening_hand_wins": 13677,
+      "total_games": 102945,
+      "avg_last_offered": 5.63,
+      "avg_pick_taken": 7.2
+    },
+    "Tidings of War": {
+      "title_id": 1113673,
+      "in_hand_games": 43352,
+      "in_hand_wins": 23092,
+      "opening_hand_games": 20147,
+      "opening_hand_wins": 10936,
+      "total_games": 81638,
+      "avg_last_offered": 6.26,
+      "avg_pick_taken": 8.05
+    },
+    "Lakeshore Apothecary": {
+      "title_id": 1113404,
+      "in_hand_games": 44141,
+      "in_hand_wins": 23464,
+      "opening_hand_games": 20934,
+      "opening_hand_wins": 11259,
+      "total_games": 66003,
+      "avg_last_offered": 6.01,
+      "avg_pick_taken": 7.29
+    },
+    "Troll Negotiations": {
+      "title_id": 1113754,
+      "in_hand_games": 23366,
+      "in_hand_wins": 12459,
+      "opening_hand_games": 9814,
+      "opening_hand_wins": 5062,
+      "total_games": 52915,
+      "avg_last_offered": 3.99,
+      "avg_pick_taken": 4.93
+    },
+    "Fearsome Goblin Pair": {
+      "title_id": 1113818,
+      "in_hand_games": 25656,
+      "in_hand_wins": 13652,
+      "opening_hand_games": 11353,
+      "opening_hand_wins": 5954,
+      "total_games": 55806,
+      "avg_last_offered": 3.62,
+      "avg_pick_taken": 4.6
+    },
+    "Gathering of Darkness": {
+      "title_id": 1113486,
+      "in_hand_games": 25256,
+      "in_hand_wins": 13415,
+      "opening_hand_games": 10502,
+      "opening_hand_wins": 5323,
+      "total_games": 59599,
+      "avg_last_offered": 3.92,
+      "avg_pick_taken": 4.92
+    },
+    "Hobbit Hole": {
+      "title_id": 1113916,
+      "in_hand_games": 62902,
+      "in_hand_wins": 33380,
+      "opening_hand_games": 28765,
+      "opening_hand_wins": 15405,
+      "total_games": 130817,
+      "avg_last_offered": 6.12,
+      "avg_pick_taken": 8.07
+    },
+    "Goblin-town": {
+      "title_id": 1113912,
+      "in_hand_games": 44407,
+      "in_hand_wins": 23582,
+      "opening_hand_games": 21296,
+      "opening_hand_wins": 11677,
+      "total_games": 90436,
+      "avg_last_offered": 6.13,
+      "avg_pick_taken": 8.23
+    },
+    "Óin the Brave": {
+      "title_id": 1113634,
+      "in_hand_games": 39386,
+      "in_hand_wins": 20859,
+      "opening_hand_games": 17888,
+      "opening_hand_wins": 9511,
+      "total_games": 85287,
+      "avg_last_offered": 6.66,
+      "avg_pick_taken": 8.48
+    },
+    "Roads Go Ever, Ever On": {
+      "title_id": 1113340,
+      "in_hand_games": 8818,
+      "in_hand_wins": 4649,
+      "opening_hand_games": 3627,
+      "opening_hand_wins": 1930,
+      "total_games": 19344,
+      "avg_last_offered": 3.5,
+      "avg_pick_taken": 4.04
+    },
+    "Ragged Short Spear": {
+      "title_id": 1113644,
+      "in_hand_games": 33692,
+      "in_hand_wins": 17785,
+      "opening_hand_games": 15246,
+      "opening_hand_wins": 8034,
+      "total_games": 75086,
+      "avg_last_offered": 6.64,
+      "avg_pick_taken": 8.71
+    },
+    "Ordinary Bear": {
+      "title_id": 1113742,
+      "in_hand_games": 22780,
+      "in_hand_wins": 12034,
+      "opening_hand_games": 10354,
+      "opening_hand_wins": 5474,
+      "total_games": 50043,
+      "avg_last_offered": 7.68,
+      "avg_pick_taken": 9.9
+    },
+    "Mirkwood": {
+      "title_id": 1113931,
+      "in_hand_games": 37039,
+      "in_hand_wins": 19604,
+      "opening_hand_games": 18067,
+      "opening_hand_wins": 9907,
+      "total_games": 75901,
+      "avg_last_offered": 6.33,
+      "avg_pick_taken": 8.62
+    },
+    "Bilbo Baggins, Burglar": {
+      "title_id": 1113373,
+      "in_hand_games": 47973,
+      "in_hand_wins": 25314,
+      "opening_hand_games": 21336,
+      "opening_hand_wins": 11042,
+      "total_games": 81311,
+      "avg_last_offered": 5.7,
+      "avg_pick_taken": 6.91
+    },
+    "The Master of Lake-town": {
+      "title_id": 1113521,
+      "in_hand_games": 9315,
+      "in_hand_wins": 4919,
+      "opening_hand_games": 3955,
+      "opening_hand_wins": 2092,
+      "total_games": 22855,
+      "avg_last_offered": 2.93,
+      "avg_pick_taken": 3.28
+    },
+    "Bombur, Gentle Dreamer": {
+      "title_id": 1113561,
+      "in_hand_games": 21009,
+      "in_hand_wins": 11070,
+      "opening_hand_games": 8970,
+      "opening_hand_wins": 4751,
+      "total_games": 47483,
+      "avg_last_offered": 5.08,
+      "avg_pick_taken": 6.58
+    },
+    "Magnificent End": {
+      "title_id": 1113323,
+      "in_hand_games": 54221,
+      "in_hand_wins": 28515,
+      "opening_hand_games": 23267,
+      "opening_hand_wins": 11781,
+      "total_games": 99815,
+      "avg_last_offered": 5.07,
+      "avg_pick_taken": 6.09
+    },
+    "Beorn's Hospitality": {
+      "title_id": 1113690,
+      "in_hand_games": 21755,
+      "in_hand_wins": 11463,
+      "opening_hand_games": 9593,
+      "opening_hand_wins": 5111,
+      "total_games": 48185,
+      "avg_last_offered": 4.02,
+      "avg_pick_taken": 4.92
+    },
+    "Old Fat Spider": {
+      "title_id": 1113739,
+      "in_hand_games": 19511,
+      "in_hand_wins": 10243,
+      "opening_hand_games": 7882,
+      "opening_hand_wins": 4031,
+      "total_games": 46415,
+      "avg_last_offered": 4.97,
+      "avg_pick_taken": 6.38
+    },
+    "Bifur, Melodic Rider": {
+      "title_id": 1113783,
+      "in_hand_games": 20790,
+      "in_hand_wins": 10882,
+      "opening_hand_games": 8080,
+      "opening_hand_wins": 4042,
+      "total_games": 47880,
+      "avg_last_offered": 4.37,
+      "avg_pick_taken": 5.59
+    },
+    "Ori, Keeper of Songs": {
+      "title_id": 1113333,
+      "in_hand_games": 31508,
+      "in_hand_wins": 16447,
+      "opening_hand_games": 13706,
+      "opening_hand_wins": 7141,
+      "total_games": 66316,
+      "avg_last_offered": 7.46,
+      "avg_pick_taken": 9.38
+    },
+    "Bofur, Reliable Guardian": {
+      "title_id": 1113274,
+      "in_hand_games": 24579,
+      "in_hand_wins": 12842,
+      "opening_hand_games": 10309,
+      "opening_hand_wins": 5164,
+      "total_games": 52635,
+      "avg_last_offered": 4.38,
+      "avg_pick_taken": 5.36
+    },
+    "Uneasy Partings": {
+      "title_id": 1113456,
+      "in_hand_games": 34597,
+      "in_hand_wins": 18066,
+      "opening_hand_games": 13468,
+      "opening_hand_wins": 6495,
+      "total_games": 64636,
+      "avg_last_offered": 7.44,
+      "avg_pick_taken": 9.2
+    },
+    "Gigantic Big Bear": {
+      "title_id": 1113716,
+      "in_hand_games": 7956,
+      "in_hand_wins": 4146,
+      "opening_hand_games": 3135,
+      "opening_hand_wins": 1536,
+      "total_games": 19718,
+      "avg_last_offered": 2.88,
+      "avg_pick_taken": 3.16
+    },
+    "Wargling": {
+      "title_id": 1113760,
+      "in_hand_games": 31199,
+      "in_hand_wins": 16258,
+      "opening_hand_games": 15311,
+      "opening_hand_wins": 8046,
+      "total_games": 63712,
+      "avg_last_offered": 7.16,
+      "avg_pick_taken": 9.16
+    },
+    "Dwarven Provisioner": {
+      "title_id": 1113284,
+      "in_hand_games": 38714,
+      "in_hand_wins": 20013,
+      "opening_hand_games": 17061,
+      "opening_hand_wins": 8630,
+      "total_games": 77421,
+      "avg_last_offered": 7.06,
+      "avg_pick_taken": 8.93
+    },
+    "Thrór's Map": {
+      "title_id": 1113898,
+      "in_hand_games": 18077,
+      "in_hand_wins": 9340,
+      "opening_hand_games": 7678,
+      "opening_hand_wins": 3852,
+      "total_games": 40763,
+      "avg_last_offered": 4.78,
+      "avg_pick_taken": 6.6
+    },
+    "Iron Hills": {
+      "title_id": 1113919,
+      "in_hand_games": 34820,
+      "in_hand_wins": 17953,
+      "opening_hand_games": 16803,
+      "opening_hand_wins": 8948,
+      "total_games": 68164,
+      "avg_last_offered": 6.75,
+      "avg_pick_taken": 8.94
+    },
+    "Warg Tactics": {
+      "title_id": 1113757,
+      "in_hand_games": 20956,
+      "in_hand_wins": 10811,
+      "opening_hand_games": 9120,
+      "opening_hand_wins": 4493,
+      "total_games": 49124,
+      "avg_last_offered": 7.64,
+      "avg_pick_taken": 10.04
+    },
+    "Radagast of Rhosgobel": {
+      "title_id": 1113748,
+      "in_hand_games": 7763,
+      "in_hand_wins": 4008,
+      "opening_hand_games": 3249,
+      "opening_hand_wins": 1616,
+      "total_games": 19104,
+      "avg_last_offered": 2.7,
+      "avg_pick_taken": 2.79
+    },
+    "Goblin-town Flunkies": {
+      "title_id": 1113609,
+      "in_hand_games": 34911,
+      "in_hand_wins": 17987,
+      "opening_hand_games": 16666,
+      "opening_hand_wins": 8550,
+      "total_games": 67784,
+      "avg_last_offered": 6.7,
+      "avg_pick_taken": 8.72
+    },
+    "Wood Elves": {
+      "title_id": 6475,
+      "in_hand_games": 34708,
+      "in_hand_wins": 17892,
+      "opening_hand_games": 16721,
+      "opening_hand_wins": 8482,
+      "total_games": 67165,
+      "avg_last_offered": 6.53,
+      "avg_pick_taken": 8.36
+    },
+    "Boughside Wanderers": {
+      "title_id": 1113693,
+      "in_hand_games": 22408,
+      "in_hand_wins": 11522,
+      "opening_hand_games": 9207,
+      "opening_hand_wins": 4517,
+      "total_games": 50017,
+      "avg_last_offered": 7.76,
+      "avg_pick_taken": 10.05
+    },
+    "Nori, Teller of Tales": {
+      "title_id": 1113835,
+      "in_hand_games": 39020,
+      "in_hand_wins": 20012,
+      "opening_hand_games": 17673,
+      "opening_hand_wins": 9071,
+      "total_games": 83655,
+      "avg_last_offered": 6.28,
+      "avg_pick_taken": 8.09
+    },
+    "Guardian of the Halls": {
+      "title_id": 1113718,
+      "in_hand_games": 27614,
+      "in_hand_wins": 14186,
+      "opening_hand_games": 12946,
+      "opening_hand_wins": 6533,
+      "total_games": 55776,
+      "avg_last_offered": 7.37,
+      "avg_pick_taken": 9.56
+    },
+    "Lake-town": {
+      "title_id": 1113923,
+      "in_hand_games": 30494,
+      "in_hand_wins": 15660,
+      "opening_hand_games": 13106,
+      "opening_hand_wins": 6777,
+      "total_games": 54348,
+      "avg_last_offered": 7.29,
+      "avg_pick_taken": 9.74
+    },
+    "Lake-town Toymaker": {
+      "title_id": 1113320,
+      "in_hand_games": 12907,
+      "in_hand_wins": 6622,
+      "opening_hand_games": 4761,
+      "opening_hand_wins": 2309,
+      "total_games": 25575,
+      "avg_last_offered": 6.46,
+      "avg_pick_taken": 8.54
+    },
+    "Galion, Elvenking's Butler": {
+      "title_id": 1113712,
+      "in_hand_games": 16710,
+      "in_hand_wins": 8597,
+      "opening_hand_games": 7134,
+      "opening_hand_wins": 3587,
+      "total_games": 39668,
+      "avg_last_offered": 5.57,
+      "avg_pick_taken": 7.29
+    },
+    "Enchanted River's Grasp": {
+      "title_id": 1113392,
+      "in_hand_games": 48745,
+      "in_hand_wins": 24951,
+      "opening_hand_games": 20584,
+      "opening_hand_wins": 9662,
+      "total_games": 80951,
+      "avg_last_offered": 5.51,
+      "avg_pick_taken": 6.65
+    },
+    "Reverent Howl": {
+      "title_id": 1113537,
+      "in_hand_games": 25246,
+      "in_hand_wins": 12919,
+      "opening_hand_games": 11138,
+      "opening_hand_wins": 5440,
+      "total_games": 58126,
+      "avg_last_offered": 6.75,
+      "avg_pick_taken": 8.94
+    },
+    "Snowslope Hunter": {
+      "title_id": 1113659,
+      "in_hand_games": 21964,
+      "in_hand_wins": 11238,
+      "opening_hand_games": 9663,
+      "opening_hand_wins": 4829,
+      "total_games": 49639,
+      "avg_last_offered": 5.01,
+      "avg_pick_taken": 6.63
+    },
+    "Wilderland Scrounger": {
+      "title_id": 1113764,
+      "in_hand_games": 19960,
+      "in_hand_wins": 10236,
+      "opening_hand_games": 8349,
+      "opening_hand_wins": 4127,
+      "total_games": 46781,
+      "avg_last_offered": 4.67,
+      "avg_pick_taken": 5.92
+    },
+    "Esgaroth Garrison": {
+      "title_id": 1113297,
+      "in_hand_games": 12323,
+      "in_hand_wins": 6300,
+      "opening_hand_games": 4645,
+      "opening_hand_wins": 2275,
+      "total_games": 25426,
+      "avg_last_offered": 8.5,
+      "avg_pick_taken": 11.09
+    },
+    "Eagle's Rescue": {
+      "title_id": 1113815,
+      "in_hand_games": 15066,
+      "in_hand_wins": 7697,
+      "opening_hand_games": 5791,
+      "opening_hand_wins": 2783,
+      "total_games": 33082,
+      "avg_last_offered": 5.62,
+      "avg_pick_taken": 7.5
+    },
+    "Mirkwood Nurturer": {
+      "title_id": 1113831,
+      "in_hand_games": 33604,
+      "in_hand_wins": 17191,
+      "opening_hand_games": 14815,
+      "opening_hand_wins": 7162,
+      "total_games": 66834,
+      "avg_last_offered": 6.48,
+      "avg_pick_taken": 8.45
+    },
+    "The Chief Warg": {
+      "title_id": 1113795,
+      "in_hand_games": 22701,
+      "in_hand_wins": 11563,
+      "opening_hand_games": 10440,
+      "opening_hand_wins": 5178,
+      "total_games": 51028,
+      "avg_last_offered": 3.77,
+      "avg_pick_taken": 4.33
+    },
+    "Well-Worn Spatula": {
+      "title_id": 1113901,
+      "in_hand_games": 13494,
+      "in_hand_wins": 6860,
+      "opening_hand_games": 5900,
+      "opening_hand_wins": 2982,
+      "total_games": 30384,
+      "avg_last_offered": 8.21,
+      "avg_pick_taken": 10.81
+    },
+    "Dwarven Shortsword": {
+      "title_id": 1113286,
+      "in_hand_games": 38634,
+      "in_hand_wins": 19589,
+      "opening_hand_games": 17199,
+      "opening_hand_wins": 8603,
+      "total_games": 74172,
+      "avg_last_offered": 6.72,
+      "avg_pick_taken": 8.28
+    },
+    "Dáin, Lord of the Iron Hills": {
+      "title_id": 1113281,
+      "in_hand_games": 23653,
+      "in_hand_wins": 11991,
+      "opening_hand_games": 10149,
+      "opening_hand_wins": 5090,
+      "total_games": 51255,
+      "avg_last_offered": 4.39,
+      "avg_pick_taken": 5.33
+    },
+    "Woodland Weavemaster": {
+      "title_id": 1113769,
+      "in_hand_games": 14110,
+      "in_hand_wins": 7146,
+      "opening_hand_games": 6603,
+      "opening_hand_wins": 3468,
+      "total_games": 27827,
+      "avg_last_offered": 5.7,
+      "avg_pick_taken": 7.53
+    },
+    "Azog, Moria's Ruin": {
+      "title_id": 1113466,
+      "in_hand_games": 10265,
+      "in_hand_wins": 5223,
+      "opening_hand_games": 4324,
+      "opening_hand_wins": 2148,
+      "total_games": 24681,
+      "avg_last_offered": 2.68,
+      "avg_pick_taken": 2.92
+    },
+    "Most Decrepit Old Bird": {
+      "title_id": 1113422,
+      "in_hand_games": 5445,
+      "in_hand_wins": 2764,
+      "opening_hand_games": 2100,
+      "opening_hand_wins": 1039,
+      "total_games": 11418,
+      "avg_last_offered": 4.62,
+      "avg_pick_taken": 5.93
+    },
+    "Elvenking's Harper": {
+      "title_id": 1113390,
+      "in_hand_games": 13329,
+      "in_hand_wins": 6705,
+      "opening_hand_games": 5661,
+      "opening_hand_wins": 2761,
+      "total_games": 27202,
+      "avg_last_offered": 8.85,
+      "avg_pick_taken": 11.47
+    },
+    "Elven Passage": {
+      "title_id": 1113904,
+      "in_hand_games": 8321,
+      "in_hand_wins": 4211,
+      "opening_hand_games": 3630,
+      "opening_hand_wins": 1804,
+      "total_games": 19349,
+      "avg_last_offered": 4.17,
+      "avg_pick_taken": 5.54
+    },
+    "Great Fierce Bee": {
+      "title_id": 1113509,
+      "in_hand_games": 17141,
+      "in_hand_wins": 8610,
+      "opening_hand_games": 7570,
+      "opening_hand_wins": 3742,
+      "total_games": 37988,
+      "avg_last_offered": 7.44,
+      "avg_pick_taken": 9.86
+    },
+    "Along the Crooked Way": {
+      "title_id": 1113463,
+      "in_hand_games": 7875,
+      "in_hand_wins": 3957,
+      "opening_hand_games": 3216,
+      "opening_hand_wins": 1490,
+      "total_games": 19075,
+      "avg_last_offered": 3.34,
+      "avg_pick_taken": 3.79
+    },
+    "Desolation of Smaug": {
+      "title_id": 1113582,
+      "in_hand_games": 5810,
+      "in_hand_wins": 2911,
+      "opening_hand_games": 2410,
+      "opening_hand_wins": 1174,
+      "total_games": 13865,
+      "avg_last_offered": 3.97,
+      "avg_pick_taken": 4.72
+    },
+    "Confusticate and Bebother": {
+      "title_id": 1113377,
+      "in_hand_games": 25465,
+      "in_hand_wins": 12733,
+      "opening_hand_games": 10003,
+      "opening_hand_wins": 4657,
+      "total_games": 48583,
+      "avg_last_offered": 7.74,
+      "avg_pick_taken": 9.84
+    },
+    "The Lord of the Eagles": {
+      "title_id": 1113411,
+      "in_hand_games": 5771,
+      "in_hand_wins": 2875,
+      "opening_hand_games": 2076,
+      "opening_hand_wins": 925,
+      "total_games": 12142,
+      "avg_last_offered": 3.87,
+      "avg_pick_taken": 4.37
+    },
+    "Bolg's Company": {
+      "title_id": 1113790,
+      "in_hand_games": 8461,
+      "in_hand_wins": 4232,
+      "opening_hand_games": 3586,
+      "opening_hand_wins": 1799,
+      "total_games": 19520,
+      "avg_last_offered": 3.94,
+      "avg_pick_taken": 4.44
+    },
+    "Sound the Trumpets": {
+      "title_id": 1113447,
+      "in_hand_games": 9114,
+      "in_hand_wins": 4539,
+      "opening_hand_games": 3369,
+      "opening_hand_wins": 1546,
+      "total_games": 18734,
+      "avg_last_offered": 6.84,
+      "avg_pick_taken": 9.18
+    },
+    "Elvenking's Halls": {
+      "title_id": 1113908,
+      "in_hand_games": 23399,
+      "in_hand_wins": 11669,
+      "opening_hand_games": 10913,
+      "opening_hand_wins": 5501,
+      "total_games": 44275,
+      "avg_last_offered": 7.38,
+      "avg_pick_taken": 9.88
+    },
+    "Troop of Ponies": {
+      "title_id": 1113265,
+      "in_hand_games": 12655,
+      "in_hand_wins": 6283,
+      "opening_hand_games": 5671,
+      "opening_hand_wins": 2841,
+      "total_games": 28517,
+      "avg_last_offered": 5.42,
+      "avg_pick_taken": 7.85
+    },
+    "Cantankerous Keepers": {
+      "title_id": 1113696,
+      "in_hand_games": 4819,
+      "in_hand_wins": 2393,
+      "opening_hand_games": 1853,
+      "opening_hand_wins": 894,
+      "total_games": 10834,
+      "avg_last_offered": 4.54,
+      "avg_pick_taken": 5.57
+    },
+    "Eagle of the Great Shelf": {
+      "title_id": 1113290,
+      "in_hand_games": 13820,
+      "in_hand_wins": 6856,
+      "opening_hand_games": 5128,
+      "opening_hand_wins": 2324,
+      "total_games": 30431,
+      "avg_last_offered": 6.01,
+      "avg_pick_taken": 8.13
+    },
+    "Part in Friendship": {
+      "title_id": 1113744,
+      "in_hand_games": 7268,
+      "in_hand_wins": 3603,
+      "opening_hand_games": 2860,
+      "opening_hand_wins": 1337,
+      "total_games": 17864,
+      "avg_last_offered": 3.84,
+      "avg_pick_taken": 4.61
+    },
+    "Silvan Reveler": {
+      "title_id": 1113841,
+      "in_hand_games": 17243,
+      "in_hand_wins": 8562,
+      "opening_hand_games": 7216,
+      "opening_hand_wins": 3505,
+      "total_games": 32360,
+      "avg_last_offered": 5.1,
+      "avg_pick_taken": 6.28
+    },
+    "Velvetwing Butterflies": {
+      "title_id": 1113358,
+      "in_hand_games": 20132,
+      "in_hand_wins": 9965,
+      "opening_hand_games": 8649,
+      "opening_hand_wins": 3924,
+      "total_games": 40181,
+      "avg_last_offered": 7.76,
+      "avg_pick_taken": 10.03
+    },
+    "Balin, Loremaster": {
+      "title_id": 1113558,
+      "in_hand_games": 7221,
+      "in_hand_wins": 3569,
+      "opening_hand_games": 2883,
+      "opening_hand_wins": 1374,
+      "total_games": 17669,
+      "avg_last_offered": 3.82,
+      "avg_pick_taken": 4.55
+    },
+    "The Notary Hobbits": {
+      "title_id": 1113733,
+      "in_hand_games": 2678,
+      "in_hand_wins": 1323,
+      "opening_hand_games": 1055,
+      "opening_hand_wins": 505,
+      "total_games": 6398,
+      "avg_last_offered": 5.09,
+      "avg_pick_taken": 6.84
+    },
+    "Long-Bodied Grey Dog": {
+      "title_id": 1113257,
+      "in_hand_games": 13213,
+      "in_hand_wins": 6539,
+      "opening_hand_games": 5886,
+      "opening_hand_wins": 2850,
+      "total_games": 29020,
+      "avg_last_offered": 8.1,
+      "avg_pick_taken": 10.67
+    },
+    "Smaug's Fury": {
+      "title_id": 1113656,
+      "in_hand_games": 11915,
+      "in_hand_wins": 5870,
+      "opening_hand_games": 4979,
+      "opening_hand_wins": 2414,
+      "total_games": 27387,
+      "avg_last_offered": 8.16,
+      "avg_pick_taken": 10.75
+    },
+    "Elrond, Moon-Reader": {
+      "title_id": 1113380,
+      "in_hand_games": 3515,
+      "in_hand_wins": 1720,
+      "opening_hand_games": 1342,
+      "opening_hand_wins": 619,
+      "total_games": 7529,
+      "avg_last_offered": 3.09,
+      "avg_pick_taken": 3.28
+    },
+    "Iron Hills Stalwart": {
+      "title_id": 1113615,
+      "in_hand_games": 18276,
+      "in_hand_wins": 9003,
+      "opening_hand_games": 7476,
+      "opening_hand_wins": 3562,
+      "total_games": 42633,
+      "avg_last_offered": 7.76,
+      "avg_pick_taken": 10.13
+    },
+    "Ravenhill Flock": {
+      "title_id": 1113437,
+      "in_hand_games": 15236,
+      "in_hand_wins": 7502,
+      "opening_hand_games": 5758,
+      "opening_hand_wins": 2666,
+      "total_games": 29139,
+      "avg_last_offered": 5.38,
+      "avg_pick_taken": 7.03
+    },
+    "Belladonna Took": {
+      "title_id": 1113269,
+      "in_hand_games": 6910,
+      "in_hand_wins": 3388,
+      "opening_hand_games": 2711,
+      "opening_hand_wins": 1313,
+      "total_games": 14965,
+      "avg_last_offered": 3.45,
+      "avg_pick_taken": 4
+    },
+    "Beorn, Reluctant Host": {
+      "title_id": 1113682,
+      "in_hand_games": 22800,
+      "in_hand_wins": 11143,
+      "opening_hand_games": 10128,
+      "opening_hand_wins": 4876,
+      "total_games": 50489,
+      "avg_last_offered": 7.38,
+      "avg_pick_taken": 9.53
+    },
+    "Inside Information": {
+      "title_id": 1113518,
+      "in_hand_games": 4318,
+      "in_hand_wins": 2121,
+      "opening_hand_games": 1744,
+      "opening_hand_wins": 837,
+      "total_games": 10495,
+      "avg_last_offered": 2.92,
+      "avg_pick_taken": 3.11
+    },
+    "Old Thrush": {
+      "title_id": 1113261,
+      "in_hand_games": 13172,
+      "in_hand_wins": 6429,
+      "opening_hand_games": 6086,
+      "opening_hand_wins": 2914,
+      "total_games": 28684,
+      "avg_last_offered": 7.91,
+      "avg_pick_taken": 10.47
+    },
+    "The Black Arrow": {
+      "title_id": 1113870,
+      "in_hand_games": 9921,
+      "in_hand_wins": 4842,
+      "opening_hand_games": 3956,
+      "opening_hand_wins": 1887,
+      "total_games": 23953,
+      "avg_last_offered": 6.01,
+      "avg_pick_taken": 8.51
+    },
+    "Old Fat Spider Can't See Me": {
+      "title_id": 1113427,
+      "in_hand_games": 15635,
+      "in_hand_wins": 7625,
+      "opening_hand_games": 6006,
+      "opening_hand_wins": 2788,
+      "total_games": 32196,
+      "avg_last_offered": 5.72,
+      "avg_pick_taken": 7.5
+    },
+    "My Precious": {
+      "title_id": 1113888,
+      "in_hand_games": 9763,
+      "in_hand_wins": 4771,
+      "opening_hand_games": 4112,
+      "opening_hand_wins": 1861,
+      "total_games": 23526,
+      "avg_last_offered": 2.25,
+      "avg_pick_taken": 2.34
+    },
+    "Little Bear": {
+      "title_id": 1113722,
+      "in_hand_games": 16333,
+      "in_hand_wins": 7962,
+      "opening_hand_games": 7777,
+      "opening_hand_wins": 3695,
+      "total_games": 33133,
+      "avg_last_offered": 7.92,
+      "avg_pick_taken": 10.31
+    },
+    "Thranduil's Decree": {
+      "title_id": 1113450,
+      "in_hand_games": 7300,
+      "in_hand_wins": 3529,
+      "opening_hand_games": 2542,
+      "opening_hand_wins": 1174,
+      "total_games": 15971,
+      "avg_last_offered": 7.16,
+      "avg_pick_taken": 9.94
+    },
+    "Bard, King of Dale": {
+      "title_id": 1113774,
+      "in_hand_games": 3791,
+      "in_hand_wins": 1827,
+      "opening_hand_games": 1319,
+      "opening_hand_wins": 590,
+      "total_games": 7973,
+      "avg_last_offered": 2.79,
+      "avg_pick_taken": 2.67
+    },
+    "Desert Were-Worm": {
+      "title_id": 1113577,
+      "in_hand_games": 5534,
+      "in_hand_wins": 2654,
+      "opening_hand_games": 2209,
+      "opening_hand_wins": 1013,
+      "total_games": 13528,
+      "avg_last_offered": 4.04,
+      "avg_pick_taken": 4.9
+    },
+    "Lake-town Mariners": {
+      "title_id": 1113406,
+      "in_hand_games": 8768,
+      "in_hand_wins": 4213,
+      "opening_hand_games": 3086,
+      "opening_hand_wins": 1345,
+      "total_games": 18988,
+      "avg_last_offered": 6.83,
+      "avg_pick_taken": 9.52
+    },
+    "Lake-town Lookout": {
+      "title_id": 1113316,
+      "in_hand_games": 14402,
+      "in_hand_wins": 6874,
+      "opening_hand_games": 6507,
+      "opening_hand_wins": 3062,
+      "total_games": 27929,
+      "avg_last_offered": 8.27,
+      "avg_pick_taken": 10.73
+    },
+    "Elven Raft-Steerer": {
+      "title_id": 1113383,
+      "in_hand_games": 9094,
+      "in_hand_wins": 4344,
+      "opening_hand_games": 3838,
+      "opening_hand_wins": 1760,
+      "total_games": 19222,
+      "avg_last_offered": 6.85,
+      "avg_pick_taken": 9.23
+    },
+    "Sting, Bilbo's Sword": {
+      "title_id": 1113895,
+      "in_hand_games": 6472,
+      "in_hand_wins": 3075,
+      "opening_hand_games": 2575,
+      "opening_hand_wins": 1146,
+      "total_games": 15448,
+      "avg_last_offered": 3.32,
+      "avg_pick_taken": 4.01
+    },
+    "Gandalf, Wandering Wizard": {
+      "title_id": 1113398,
+      "in_hand_games": 9677,
+      "in_hand_wins": 4599,
+      "opening_hand_games": 3480,
+      "opening_hand_wins": 1532,
+      "total_games": 21054,
+      "avg_last_offered": 8.88,
+      "avg_pick_taken": 11.48
+    },
+    "Vow to Erebor": {
+      "title_id": 1113361,
+      "in_hand_games": 11858,
+      "in_hand_wins": 5637,
+      "opening_hand_games": 5026,
+      "opening_hand_wins": 2285,
+      "total_games": 26860,
+      "avg_last_offered": 8.69,
+      "avg_pick_taken": 11.21
+    },
+    "Riddles in the Dark": {
+      "title_id": 1113439,
+      "in_hand_games": 4938,
+      "in_hand_wins": 2339,
+      "opening_hand_games": 1860,
+      "opening_hand_wins": 869,
+      "total_games": 10663,
+      "avg_last_offered": 4.78,
+      "avg_pick_taken": 5.97
+    },
+    "Orcrist, Goblin-cleaver": {
+      "title_id": 1113893,
+      "in_hand_games": 4331,
+      "in_hand_wins": 2039,
+      "opening_hand_games": 1745,
+      "opening_hand_wins": 782,
+      "total_games": 10671,
+      "avg_last_offered": 1.92,
+      "avg_pick_taken": 1.9
+    },
+    "Moment of Glory": {
+      "title_id": 1113326,
+      "in_hand_games": 11843,
+      "in_hand_wins": 5498,
+      "opening_hand_games": 4403,
+      "opening_hand_wins": 1934,
+      "total_games": 24261,
+      "avg_last_offered": 8.56,
+      "avg_pick_taken": 11.14
+    },
+    "Thranduil, the Elvenking": {
+      "title_id": 1113855,
+      "in_hand_games": 2929,
+      "in_hand_wins": 1357,
+      "opening_hand_games": 1077,
+      "opening_hand_wins": 465,
+      "total_games": 6634,
+      "avg_last_offered": 4.73,
+      "avg_pick_taken": 6.18
+    },
+    "Giant's Boulder": {
+      "title_id": 1113878,
+      "in_hand_games": 12832,
+      "in_hand_wins": 5863,
+      "opening_hand_games": 5745,
+      "opening_hand_wins": 2500,
+      "total_games": 28994,
+      "avg_last_offered": 8,
+      "avg_pick_taken": 10.61
+    },
+    "Thorin's Last Stand": {
+      "title_id": 1113352,
+      "in_hand_games": 8730,
+      "in_hand_wins": 3968,
+      "opening_hand_games": 3191,
+      "opening_hand_wins": 1390,
+      "total_games": 20912,
+      "avg_last_offered": 8.75,
+      "avg_pick_taken": 11.38
+    },
+    "Key to the Side-Door": {
+      "title_id": 1113884,
+      "in_hand_games": 3688,
+      "in_hand_wins": 1661,
+      "opening_hand_games": 1584,
+      "opening_hand_wins": 664,
+      "total_games": 9037,
+      "avg_last_offered": 7.33,
+      "avg_pick_taken": 10.36
+    },
+    "Bilbo's Gambit": {
+      "title_id": 1113272,
+      "in_hand_games": 3129,
+      "in_hand_wins": 1398,
+      "opening_hand_games": 1210,
+      "opening_hand_wins": 497,
+      "total_games": 7233,
+      "avg_last_offered": 5.27,
+      "avg_pick_taken": 7.05
+    },
+    "Through the Forest Gate": {
+      "title_id": 1113751,
+      "in_hand_games": 1082,
+      "in_hand_wins": 474,
+      "opening_hand_games": 420,
+      "opening_hand_wins": 164,
+      "total_games": 2767,
+      "avg_last_offered": 6.08,
+      "avg_pick_taken": 8.44
+    },
+    "Mirkwood Meditator": {
+      "title_id": 1113418,
+      "in_hand_games": 4113,
+      "in_hand_wins": 1787,
+      "opening_hand_games": 1781,
+      "opening_hand_wins": 742,
+      "total_games": 8705,
+      "avg_last_offered": 9.53,
+      "avg_pick_taken": 12.21
+    },
+    "Uncover the Moon-Letters": {
+      "title_id": 1113453,
+      "in_hand_games": 887,
+      "in_hand_wins": 371,
+      "opening_hand_games": 337,
+      "opening_hand_wins": 129,
+      "total_games": 1993,
+      "avg_last_offered": 6.3,
+      "avg_pick_taken": 8.53
+    },
+    "Roll-Roll-Roll-Roll": {
+      "title_id": 1113442,
+      "in_hand_games": 2621,
+      "in_hand_wins": 1073,
+      "opening_hand_games": 960,
+      "opening_hand_wins": 333,
+      "total_games": 5826,
+      "avg_last_offered": 5.24,
+      "avg_pick_taken": 7.11
+    },
+    "Getaway Barrel": {
+      "title_id": 1113601,
+      "in_hand_games": 699,
+      "in_hand_wins": 268,
+      "opening_hand_games": 302,
+      "opening_hand_wins": 112,
+      "total_games": 1702,
+      "avg_last_offered": 6.22,
+      "avg_pick_taken": 8.67
+    },
+    "Supper for Spiders": {
+      "title_id": 1113555,
+      "in_hand_games": 1126,
+      "in_hand_wins": 426,
+      "opening_hand_games": 464,
+      "opening_hand_wins": 174,
+      "total_games": 3068,
+      "avg_last_offered": 5.76,
+      "avg_pick_taken": 8.04
+    },
+    "Glamdring, Foe-hammer": {
+      "title_id": 1113879,
+      "in_hand_games": 934,
+      "in_hand_wins": 347,
+      "opening_hand_games": 349,
+      "opening_hand_wins": 110,
+      "total_games": 2203,
+      "avg_last_offered": 5.53,
+      "avg_pick_taken": 7.55
+    },
+    "Wizard's Staff": {
+      "title_id": 1113459,
+      "in_hand_games": 1466,
+      "in_hand_wins": 542,
+      "opening_hand_games": 553,
+      "opening_hand_wins": 168,
+      "total_games": 3366,
+      "avg_last_offered": 5.29,
+      "avg_pick_taken": 6.95
+    },
+    "Gleaming Splendor": {
+      "title_id": 1113305,
+      "in_hand_games": 1238,
+      "in_hand_wins": 443,
+      "opening_hand_games": 534,
+      "opening_hand_wins": 167,
+      "total_games": 2864,
+      "avg_last_offered": 3.98,
+      "avg_pick_taken": 4.95
+    },
+    "Last Light of Durin's Day": {
+      "title_id": 1113619,
+      "in_hand_games": 818,
+      "in_hand_wins": 252,
+      "opening_hand_games": 363,
+      "opening_hand_wins": 118,
+      "total_games": 1912,
+      "avg_last_offered": 5.98,
+      "avg_pick_taken": 8.3
+    },
+    "Fateful Discovery": {
+      "title_id": 1113395,
+      "in_hand_games": 120,
+      "in_hand_wins": 34,
+      "opening_hand_games": 51,
+      "opening_hand_wins": 11,
+      "total_games": 293,
+      "avg_last_offered": 5.43,
+      "avg_pick_taken": 7.42
+    }
+  }
+}

@@ -1,8 +1,20 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-02T12:12:14Z",
+  "generatedAt": "2026-09-02T12:50:28Z",
   "title": "Design System: Limited Field Guides",
   "extensions": {
+    "brandAssets": {
+      "favicon": {
+        "source": "public/assets/icon.svg",
+        "rasterFallbacks": [
+          "public/assets/icon-32.png",
+          "public/assets/icon-192.png",
+          "public/assets/icon-512.png",
+          "public/assets/apple-touch-icon.png"
+        ],
+        "description": "The generic split atlas-and-fracture Limited Field Guides mark; the SVG source and raster fallbacks are product-level assets, not a Hobbit set mark."
+      }
+    },
     "colorMeta": {
       "hobbit-binding": {
         "role": "neutral",
@@ -296,7 +308,7 @@
       "name": "Active Page Marker",
       "kind": "nav",
       "refersTo": "view-marker-active",
-      "description": "Raised marker for one of the four stable preparation modes.",
+      "description": "Raised marker for one of four stable modes: Study, Pick drill, Compare, and All cards; training remains inside Study.",
       "html": "<button class=\"ds-view-marker\" type=\"button\" role=\"tab\" aria-selected=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 4h11l3 3v13H5zM8 9h8M8 13h8M8 17h5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/></svg><span>Study</span></button>",
       "css": ".ds-view-marker { display:inline-flex; align-items:center; gap:8px; min-height:58px; padding:0 19px; color:var(--binding-deep); background:var(--metal-light); border:1px solid var(--metal-light); border-bottom:0; border-radius:var(--control-radius) var(--control-radius) 0 0; box-shadow:0 7px 18px rgba(8,9,16,.16); font:700 .74rem/1.15 var(--body); cursor:pointer; transition:filter 160ms var(--ease-out),transform 160ms var(--ease-out); } .ds-view-marker:hover { filter:brightness(1.05); } .ds-view-marker:focus-visible { outline:3px solid var(--focus); outline-offset:3px; } .ds-view-marker:active { transform:translateY(1px); } .ds-view-marker svg { width:20px; height:20px; }"
     },
@@ -304,16 +316,16 @@
       "name": "Hobbit Study Card",
       "kind": "card",
       "refersTo": "study-card-hobbit",
-      "description": "Rounded map-leaf recognition object inside the forest-cloth atlas.",
-      "html": "<article class=\"ds-hobbit-study\"><span class=\"ds-hobbit-image\">CARD</span><span><small>Card recognition</small><h3>An Unexpected Party</h3><p>Choose the grade band before revealing the exact tier and rank.</p><button type=\"button\">Reveal answer</button></span></article>",
-      "css": ".ds-hobbit-study { display:grid; grid-template-columns:150px minmax(0,1fr); gap:28px; padding:32px; color:#253029; background:#eee4ca; border-radius:12px; box-shadow:0 18px 46px rgba(8,9,16,.34); font-family:\"Atkinson Hyperlegible Next\",\"Segoe UI\",sans-serif; } .ds-hobbit-image { display:grid; place-items:center; aspect-ratio:125.3/176.4; color:#5e655e; background:#ddcfad; border-radius:8px; box-shadow:0 14px 35px rgba(8,9,16,.3); font-weight:700; } .ds-hobbit-study small { color:#773224; font-weight:700; } .ds-hobbit-study h3 { margin:8px 0; font:700 2.1rem/.88 \"Alegreya\",Georgia,serif; } .ds-hobbit-study p { color:#5e655e; } .ds-hobbit-study button { min-height:44px; padding:0 15px; color:#f8f2df; background:#a44832; border:1px solid #a44832; border-radius:6px; font-weight:700; cursor:pointer; } .ds-hobbit-study button:hover { background:#773224; border-color:#773224; } .ds-hobbit-study button:focus-visible { outline:3px solid #0868c4; outline-offset:3px; }"
+      "description": "Rounded Hobbit Study object with readable local imagery, exact-tier families, and post-answer observed evidence; the local thumbnail is the image fallback.",
+      "html": "<article class=\"ds-hobbit-study\"><span class=\"ds-hobbit-image\">LOCAL STUDY IMAGE</span><span><small>Choose the exact tier</small><h3>An Unexpected Party</h3><div class=\"ds-tier-families\" aria-label=\"Choose the exact card tier\"><div aria-label=\"Top picks\"><button>S</button><button>A+</button><button>A</button><button>A-</button></div><div aria-label=\"Strong\"><button>B+</button><button>B</button><button>B-</button></div><div aria-label=\"Playable\"><button>C+</button><button>C</button><button>C-</button></div><div aria-label=\"Filler\"><button>D+</button><button>D</button><button>D-</button><button>F</button></div></div><section class=\"ds-hobbit-answer\"><strong>#12 · Tier A-</strong><small>Exact · Top pick</small><dl><div><dt>In-hand WR</dt><dd>58.4%</dd></div><div><dt>Usually gone by</dt><dd>Pick 3.2</dd></div><div><dt>In-hand games</dt><dd>4,281</dd></div></dl><p><b>Nearby:</b> #11 Previous card · #13 Next card</p></section></span></article>",
+      "css": ".ds-hobbit-study { display:grid; grid-template-columns:150px minmax(0,1fr); gap:28px; padding:32px; color:#253029; background:#eee4ca; border-radius:12px; box-shadow:0 18px 46px rgba(8,9,16,.34); font-family:\"Atkinson Hyperlegible Next\",\"Segoe UI\",sans-serif; } .ds-hobbit-image { display:grid; place-items:center; align-self:center; aspect-ratio:125.3/176.4; padding:12px; color:#5e655e; text-align:center; background:#ddcfad; border-radius:8px; box-shadow:0 14px 35px rgba(8,9,16,.3); font-size:.68rem; font-weight:700; } .ds-hobbit-study > span:last-child > small { color:#773224; font-weight:700; } .ds-hobbit-study h3 { margin:8px 0 14px; font:700 2.1rem/.88 \"Alegreya\",Georgia,serif; } .ds-tier-families { display:grid; gap:7px; } .ds-tier-families div { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); border-left:1px solid #b6a98a; } .ds-tier-families button { min-height:44px; padding:7px 8px; color:#253029; background:rgba(164,72,50,.09); border:0; border-top:3px solid #a44832; border-right:1px solid #b6a98a; border-bottom:1px solid #b6a98a; font-weight:700; cursor:pointer; } .ds-tier-families button:hover { background:#f8f2df; } .ds-tier-families button:focus-visible { outline:3px solid #0868c4; outline-offset:2px; } .ds-hobbit-answer { margin-top:16px; padding:13px 0; color:#773224; border-top:2px solid #a44832; border-bottom:1px solid #b6a98a; } .ds-hobbit-answer > strong { font:700 1.45rem/1 \"Alegreya\",Georgia,serif; } .ds-hobbit-answer > small { margin-left:8px; color:#5e655e; } .ds-hobbit-answer dl { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); margin:13px 0 0; border-top:1px solid #b6a98a; border-bottom:1px solid #b6a98a; } .ds-hobbit-answer dl div { padding:9px 7px; border-right:1px solid #b6a98a; } .ds-hobbit-answer dl div:last-child { border-right:0; } .ds-hobbit-answer dt,.ds-hobbit-answer p { color:#5e655e; font-size:.62rem; } .ds-hobbit-answer dd { margin:2px 0 0; color:#253029; font:700 1.15rem/1 \"Alegreya\",Georgia,serif; } .ds-hobbit-answer p { margin:8px 0 0; } .ds-hobbit-answer b { color:#253029; }"
     },
     {
       "name": "Reality Fracture Study Card",
       "kind": "card",
       "refersTo": "study-card-fracture",
-      "description": "Cool-paper Echoverse dossier with clipped geometry and an electric offset seam.",
-      "html": "<article class=\"ds-fracture-study\"><span class=\"ds-fracture-image\">PREVIEW</span><span><small>Echofeed index</small><h3>Study What Is Known</h3><p>Rating drills unlock only when a complete attributable evaluation exists.</p><button type=\"button\">Next card</button></span></article>",
+      "description": "Unrated cool-paper Echoverse Study reader with a readable local image and local-thumbnail fallback; it deliberately has no tier quiz.",
+      "html": "<article class=\"ds-fracture-study\"><span class=\"ds-fracture-image\">LOCAL PREVIEW IMAGE</span><span><small>Unrated preview · FRA #042</small><h3>Study What Is Known</h3><p>Read the revealed card and its rules text. Exact-tier controls do not appear until an attributable Limited evaluation exists.</p><button type=\"button\">Next card</button></span></article>",
       "css": ".ds-fracture-study { position:relative; display:grid; grid-template-columns:150px minmax(0,1fr); gap:28px; padding:32px; overflow:hidden; color:#191a2b; background:#e5e9f1; border-radius:4px; box-shadow:0 18px 46px rgba(8,9,16,.34); font-family:\"Atkinson Hyperlegible Next\",\"Segoe UI\",sans-serif; } .ds-fracture-study::after { position:absolute; right:-18px; bottom:-45px; width:180px; height:150px; content:\"\"; background:rgba(113,71,213,.14); clip-path:polygon(37% 0,100% 19%,82% 100%,0 78%,11% 23%); transform:rotate(-14deg); } .ds-fracture-image { z-index:1; display:grid; place-items:center; aspect-ratio:125.3/176.4; color:#c5c5dc; background:#171426; border-radius:4px; box-shadow:-10px 14px 34px rgba(9,9,20,.32),9px -7px 0 rgba(113,71,213,.12); font-weight:700; } .ds-fracture-study small { color:#4c2a9e; font-weight:700; } .ds-fracture-study h3 { margin:8px 0; font:900 2.5rem/.88 \"Barlow Condensed\",\"Arial Narrow\",sans-serif; letter-spacing:-.03em; text-transform:uppercase; } .ds-fracture-study p { color:#5b5e73; } .ds-fracture-study button { position:relative; z-index:1; min-height:44px; padding:0 15px; color:#f1f3fb; background:#7147d5; border:1px solid #7147d5; border-radius:3px; font-weight:700; cursor:pointer; } .ds-fracture-study button:hover { background:#4c2a9e; border-color:#4c2a9e; } .ds-fracture-study button:focus-visible { outline:3px solid #d15f79; outline-offset:3px; }"
     },
     {
@@ -366,19 +378,20 @@
       "name": "Atlas Card Row",
       "kind": "card",
       "description": "Compact colour-grouped card entry that shows rank for rated sets or collector identity for previews.",
-      "html": "<button class=\"ds-atlas-card\" type=\"button\"><span class=\"ds-atlas-image\">CARD</span><span><b>#12</b><strong>An Unexpected Party</strong><small><em>A−</em> Tier A−</small></span></button>",
+      "html": "<button class=\"ds-atlas-card\" type=\"button\"><span class=\"ds-atlas-image\">CARD</span><span><b>#12</b><strong>An Unexpected Party</strong><small><em>A-</em> Tier A-</small></span></button>",
       "css": ".ds-atlas-card { display:grid; grid-template-columns:64px minmax(0,1fr); align-items:center; gap:12px; min-height:112px; padding:11px 5px; color:var(--ink); text-align:left; background:transparent; border:0; border-bottom:1px solid var(--line); font-family:var(--body); cursor:pointer; } .ds-atlas-card:hover { background:color-mix(in srgb,var(--surface-light) 68%,transparent); } .ds-atlas-card:focus-visible { outline:3px solid var(--focus); outline-offset:3px; } .ds-atlas-image { display:grid; place-items:center; width:64px; aspect-ratio:125.3/176.4; color:var(--muted); background:var(--surface-deep); border-radius:4px; box-shadow:0 5px 13px rgba(8,9,16,.2); font-size:.58rem; font-weight:700; } .ds-atlas-card > span:last-child { display:grid; gap:4px; min-width:0; } .ds-atlas-card b { color:#254a5b; font:700 1.2rem/1 var(--display); } .ds-atlas-card strong { font-size:.9rem; } .ds-atlas-card small { color:var(--muted); font-size:.68rem; } .ds-atlas-card em { display:inline-grid; place-items:center; min-width:34px; min-height:24px; margin-right:5px; color:#fff; background:#a55d40; border-radius:999px; font-style:normal; font-weight:700; }"
     }
   ],
   "narrative": {
     "northStar": "The Set-Specific Field Guide Shelf",
-    "overview": "Limited Field Guides is one dependable preparation shelf holding authored volumes, not one generic dashboard wearing different accent colours. The shared shell keeps the learning sequence stable—choose a set, study its cards, rehearse ranked decisions, compare a hand-built pack, and share the exact challenge—while each set owns one coherent material world.\n\nThe Hobbit remains Bilbo’s Expedition Atlas: forest cloth, warm map leaves, brass page flags, oxblood routes, river details, and softly handled corners. Reality Fracture is an Echoverse dossier: ink and indigo binding, cool paper, electric violet, cyan, and pink seams, condensed black display type, and facets cut on sharp angles. Atkinson Hyperlegible Next connects both as the practical reading and control voice.\n\nThe system should feel authored, trustworthy, and ready before an event. Data maturity is visible rather than implied; progress stays local; rating-dependent work visibly locks when an attributable evaluation does not exist. The visual language rejects generic statistics dashboards and deck-builder framing.",
+    "overview": "Limited Field Guides is one dependable preparation shelf holding authored volumes, not one generic dashboard wearing different accent colours. The shared shell keeps the learning sequence stable—choose a set, study its cards, rehearse exact-tier and ranked decisions, compare a hand-built pack, and share the exact challenge—while each set owns one coherent material world.\n\nThe Hobbit remains Bilbo’s Expedition Atlas: forest cloth, warm map leaves, brass page flags, oxblood routes, river details, and softly handled corners. Reality Fracture is an Echoverse dossier: ink and indigo binding, cool paper, electric violet, cyan, and pink seams, condensed black display type, and facets cut on sharp angles. Atkinson Hyperlegible Next connects both as the practical reading and control voice.\n\nThe system should feel authored, trustworthy, and ready before an event. Data maturity is visible rather than implied; readable local study images fall back safely to local thumbnails; progress and exact-tier rehearsal state stay local; rating-dependent work visibly locks when an attributable evaluation does not exist. The visual language rejects generic statistics dashboards and deck-builder framing.",
     "keyCharacteristics": [
       "One shared preparation sequence expressed as a shelf of set-owned field guides.",
       "Atkinson Hyperlegible Next for working text, controls, metadata, and dense card information.",
       "Hobbit’s rounded cloth-and-map atlas beside Reality Fracture’s clipped, electrically seamed dossier.",
       "Four compact page markers opening directly onto one large study card and an honest guide panel.",
-      "Local preparation progress, deterministic challenge links, and explicit rating-pending locks.",
+      "Persisted Study queues and exact-tier scores, deterministic challenge links, and explicit rating-pending locks.",
+      "Hobbit’s post-answer observed-evidence ledger and adjacent-rank context without implying deck intelligence.",
       "Broad surfaces and flat rows gathered into one handled volume rather than a field of dashboard cards."
     ],
     "rules": [
@@ -419,7 +432,7 @@
       },
       {
         "name": "The Stable-Shell Rule",
-        "body": "Study, Pick drill, Compare, and All cards retain their order and behavior across sets even while materials, display type, and geometry change.",
+        "body": "Study, Pick drill, Compare, and All cards retain their order and behavior across sets even while materials, display type, and geometry change. Training lives inside Study; never add a separate Train marker.",
         "section": "layout"
       },
       {
@@ -451,6 +464,11 @@
         "name": "The Bound-Join Rule",
         "body": "The leading page corner stays square where the active marker meets its surface in both themes.",
         "section": "shapes"
+      },
+      {
+        "name": "The Single Tier Mark Rule",
+        "body": "One tinted fill and one border communicate each tier choice. Do not duplicate the tier colour with an extra stripe.",
+        "section": "shapes"
       }
     ],
     "dos": [
@@ -459,7 +477,10 @@
       "Do use Atkinson Hyperlegible Next for working text and the set display face only for hierarchy, ranks, and authored marks.",
       "Do preserve Hobbit’s forest cloth, map leaves, brass, oxblood, river details, and rounded handled construction.",
       "Do preserve Reality Fracture’s ink-indigo binding, cool paper, violet/cyan/pink seams, condensed black display type, clipped facets, and two-to-four-pixel cuts.",
-      "Do keep progress local, comparisons session-only, and challenge URLs exact and deterministic.",
+      "Do keep the current Study card, colour filter, queue, exact-tier score, revealed answer, and requeued misses local; keep comparisons session-only and challenge URLs exact and deterministic.",
+      "Do use the larger local study image for both sets and fall back to the matching local thumbnail on failure.",
+      "Do group exact-tier choices as Top picks, Strong, Playable, and Filler, then return misses after three intervening cards.",
+      "Do keep Hobbit’s three observed evidence values and adjacent ranks visually attached to the revealed answer.",
       "Do visibly lock ranking-dependent answers and actions when the rating source is pending.",
       "Do preserve keyboard focus, touch targets, literal labels, source attribution, and reduced-motion behavior."
     ],
@@ -469,6 +490,8 @@
       "Don't soften Reality Fracture into rounded neon glass, broad gradients, or ambient cyberpunk glow.",
       "Don't cross Hobbit’s brass and oxblood into the Fracture dossier or Fracture’s electric seams into the atlas.",
       "Don't invent rankings, tiers, or answer colours for a preview-only set.",
+      "Don't show a tier quiz or observed ranking evidence for unrated Reality Fracture cards.",
+      "Don't add a separate Train tab; Study already owns card recognition and tier rehearsal.",
       "Don't wrap every result, drill choice, or atlas entry in its own rounded elevated card.",
       "Don't frame comparison as a deck list or add deck-builder zones, curve analytics, saved builds, or card-count controls.",
       "Don't hide state, card identity, colour grouping, or navigation behind icons alone."

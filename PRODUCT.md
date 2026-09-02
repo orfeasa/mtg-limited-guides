@@ -24,7 +24,7 @@ The product is a reusable preparation shelf rather than a generic stats dashboar
 
 ## Operating Context
 
-Used in the days before a prerelease or draft, alone or with friends. A player may study revealed cards, practise grade bands, attempt deterministic pick drills, compare a few plausible cards, or browse the set. The interaction must work well with keyboard, mouse, and touch.
+Used in the days before a prerelease or draft, alone or with friends. A player may study revealed cards, practise exact tiers, attempt deterministic pick drills, compare a few plausible cards, or browse the set. The interaction must work well with keyboard, mouse, and touch.
 
 ## Capabilities and Constraints
 
@@ -34,6 +34,8 @@ Used in the days before a prerelease or draft, alone or with friends. A player m
 - Keep rating-dependent answers locked when a complete, attributable Limited evaluation is unavailable.
 - Preserve deterministic challenge URLs so friends can attempt the same three-card choice.
 - Store preparation progress per set in browser-local storage; keep comparisons session-only.
+- Preserve the current study card, colour filter, exact-tier score, remaining queue, revealed answer, and requeued misses across browser sessions.
+- Show attributable card-performance evidence after a Hobbit answer without exposing it before the guess.
 - Fuzzy, accent-insensitive name search.
 - No cookies, analytics, account, backend, deck builder, or external runtime dependency.
 - Deploy as a static GitHub Pages site and remain useful if installed or revisited offline.
@@ -41,8 +43,8 @@ Used in the days before a prerelease or draft, alone or with friends. A player m
 
 ## Evidence on Hand
 
-- The Hobbit: verified 188-card pick-order snapshot captured from Untapped.gg on 19 August 2026, with matching local thumbnails.
-- Reality Fracture: current Scryfall preview index and local card images, without invented Limited ratings.
+- The Hobbit: verified 188-card pick-order snapshot captured from Untapped.gg on 19 August 2026, an observed card-performance snapshot captured on 20 August 2026, and matching local thumbnail/readable image pairs.
+- Reality Fracture: current Scryfall preview index and local thumbnail/readable image pairs, without invented Limited ratings.
 - Official Reality Fracture release milestones and Play Booster notes captured in set metadata.
 
 ## Product Principles
