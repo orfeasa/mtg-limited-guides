@@ -3,21 +3,21 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta name="theme-color" content="#263c31">
+    <meta name="theme-color" content="#171426">
     <meta name="description" content="A set-by-set Magic: The Gathering Limited preparation tool for learning cards and practising picks.">
     <title>Limited Field Guides</title>
     <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
     <link rel="icon" href="assets/icon-32.png" sizes="32x32" type="image/png">
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
     <link rel="manifest" href="manifest.webmanifest">
-    <link rel="stylesheet" href="styles.css?v=limited-prep-2">
+    <link rel="stylesheet" href="styles.css?v=limited-prep-3">
   </head>
-  <body data-theme="hobbit">
+  <body data-theme="fracture">
     <!--
       THESIS: Limited preparation is a shelf of set-specific field guides, not a generic stats dashboard or a deck builder.
       OWN-WORLD: Each set keeps one authored material world; Hobbit uses cloth and map leaves, Reality Fracture uses an angular Echoverse dossier with ink-dark facets and electric seams.
-      STORY: Choose a set, learn its cards, rehearse ranked decisions, compare a hand-built pack, and share the exact preparation state with friends.
-      FIRST VIEWPORT: The set volume and data maturity lead in the binding; four compact page markers open directly onto a large study card and an honest guide panel.
+      STORY: Open the latest set, train card ratings, rehearse ranked decisions, browse the full card file, and share exact challenges with friends.
+      FIRST VIEWPORT: The latest set and data maturity lead in the binding; three compact page markers open directly onto card-rating training.
       FORM: Multi-volume Limited field guide, extending the established Bilbo expedition atlas with set-owned themes.
       FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
     -->
@@ -39,8 +39,8 @@
             </g>
           </svg>
           <div>
-            <h1 id="product-name">The Hobbit Limited Atlas</h1>
-            <p id="product-subtitle">An expedition atlas for learning the set and rehearsing the next pick.</p>
+            <h1 id="product-name">Reality Fracture Field File</h1>
+            <p id="product-subtitle">A live Echoverse dossier, expanding as preview season unfolds.</p>
           </div>
         </div>
 
@@ -54,9 +54,9 @@
             <span>Share</span>
           </button>
           <div id="dataset-stamp" class="dataset-stamp">
-            <strong id="dataset-count">188</strong>
-            <span id="dataset-unit">cards</span>
-            <span id="dataset-date">observed</span>
+            <strong id="dataset-count">22</strong>
+            <span id="dataset-unit">revealed</span>
+            <span id="dataset-date">preview file</span>
           </div>
         </div>
       </div>
@@ -74,17 +74,13 @@
     </header>
 
     <nav class="view-tabs" aria-label="Preparation views" role="tablist">
-      <button class="view-tab" type="button" role="tab" aria-selected="true" aria-controls="study-view" data-view="study">
+      <button class="view-tab" type="button" role="tab" aria-selected="true" aria-controls="training-view" data-view="training">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h11l3 3v13H5zM8 9h8M8 13h8M8 17h5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
-        <span>Study</span>
+        <span>Training</span>
       </button>
       <button class="view-tab" type="button" role="tab" aria-selected="false" aria-controls="drill-view" tabindex="-1" data-view="drill">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 8 4v6c0 4-3 7-8 8-5-1-8-4-8-8V7zM8 12l3 3 5-6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
         <span>Pick drill</span>
-      </button>
-      <button class="view-tab" type="button" role="tab" aria-selected="false" aria-controls="compare-view" tabindex="-1" data-view="compare">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h7v14H4zM13 5h7v14h-7zM7 9h1M16 9h1" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
-        <span>Compare</span>
       </button>
       <button class="view-tab" type="button" role="tab" aria-selected="false" aria-controls="atlas-view" tabindex="-1" data-view="atlas">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m4 6 5-2 6 2 5-2v14l-5 2-6-2-5 2zM9 4v14M15 6v14" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
@@ -93,33 +89,12 @@
     </nav>
 
     <main id="main">
-      <section id="study-view" class="view-panel" role="tabpanel">
-        <div class="study-spread surface-spread">
-          <section class="guide-leaf surface-leaf" aria-labelledby="guide-title">
-            <div class="guide-heading">
-              <h2 id="guide-title">Know the road before the first pack</h2>
-              <p id="guide-body"></p>
-            </div>
-            <ul id="guide-facts" class="guide-facts"></ul>
-            <div id="rating-state" class="rating-state"></div>
-            <div class="progress-ledger" aria-labelledby="progress-title">
-              <div>
-                <h3 id="progress-title">Your preparation</h3>
-                <p id="progress-copy">Progress stays on this browser.</p>
-              </div>
-              <dl>
-                <div><dt>Cards seen</dt><dd id="cards-seen">0</dd></div>
-                <div><dt>Tier calls</dt><dd id="grade-score">0/0</dd></div>
-                <div><dt>Pick calls</dt><dd id="pick-score">0/0</dd></div>
-              </dl>
-              <button id="reset-progress" class="text-button" type="button">Reset progress</button>
-            </div>
-          </section>
-
-          <section class="trainer-stage" aria-labelledby="trainer-title">
+      <section id="training-view" class="view-panel" role="tabpanel">
+        <div class="trainer-stage training-page surface-page">
+          <section aria-labelledby="trainer-title">
             <div class="trainer-toolbar">
               <div>
-                <h2 id="trainer-title">Card recognition</h2>
+                <h2 id="trainer-title">Card rating training</h2>
                 <p id="trainer-instruction">Choose the exact tier before revealing the rank.</p>
               </div>
               <label for="trainer-color">Card colour</label>
@@ -137,7 +112,7 @@
 
             <article id="trainer-card" class="trainer-card">
               <div class="trainer-image-wrap">
-                <img id="trainer-image" src="assets/cards/103382.jpg" alt="" width="260" height="364">
+                <img id="trainer-image" src="assets/cards/fra/70d8c400-87dc-4f15-808f-e54a95d779fc.jpg" alt="" width="260" height="364">
                 <span id="trainer-index" class="trainer-index"></span>
               </div>
               <div class="trainer-copy">
@@ -157,6 +132,20 @@
                 </div>
               </div>
             </article>
+          </section>
+          <section class="training-progress" aria-labelledby="progress-title">
+            <div class="training-progress-heading">
+              <div>
+                <h3 id="progress-title">Progress on this browser</h3>
+                <p>Missed cards return after a few more cards.</p>
+              </div>
+              <button id="reset-progress" class="text-button" type="button">Reset progress</button>
+            </div>
+            <dl>
+              <div><dt>Cards seen</dt><dd id="cards-seen">0</dd></div>
+              <div><dt>Tier calls</dt><dd id="grade-score">0/0</dd></div>
+              <div><dt>Pick calls</dt><dd id="pick-score">0/0</dd></div>
+            </dl>
           </section>
         </div>
       </section>
@@ -183,49 +172,6 @@
         </div>
       </section>
 
-      <section id="compare-view" class="view-panel" role="tabpanel" hidden>
-        <div id="compare-locked" class="locked-state standalone-lock" hidden></div>
-        <div id="compare-content" class="workspace surface-spread compare-spread">
-          <section class="scanner surface-leaf" aria-labelledby="scanner-title">
-            <div class="leaf-heading scanner-heading">
-              <div>
-                <h2 id="scanner-title">Compare pack cards</h2>
-                <p>Add only the plausible picks. The baseline order updates immediately.</p>
-              </div>
-              <span class="keyboard-note" aria-hidden="true"><kbd>/</kbd> search</span>
-            </div>
-            <div class="search-field">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.75" cy="10.75" r="6.75" fill="none" stroke="currentColor" stroke-width="2"/><path d="m16 16 4 4" fill="none" stroke="currentColor" stroke-width="2"/></svg>
-              <label class="visually-hidden" for="card-search">Search card names</label>
-              <input id="card-search" type="search" inputmode="search" autocomplete="off" autocapitalize="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-controls="search-results" aria-expanded="true">
-              <button id="clear-search" class="clear-search" type="button" aria-label="Clear search" hidden>
-                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 5 10 10M15 5 5 15" fill="none" stroke="currentColor" stroke-width="2"/></svg>
-              </button>
-            </div>
-            <div class="result-bar"><p id="result-label">Top of the order</p><p id="result-count"></p></div>
-            <div id="search-results" class="search-results" role="listbox" aria-label="Card search results" aria-multiselectable="true"></div>
-            <div id="no-results" class="no-results" hidden><h3>No matching card</h3><p>Try fewer letters or a different part of the name.</p></div>
-          </section>
-
-          <aside id="pack" class="pack-panel" aria-labelledby="pack-title">
-            <div class="pack-heading">
-              <div><h2 id="pack-title" tabindex="-1">Current comparison</h2><p id="pack-count">0 cards added</p></div>
-              <button id="clear-pack" class="clear-pack" type="button" disabled>Clear</button>
-            </div>
-            <div id="pack-empty" class="pack-empty">
-              <svg class="empty-mark" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="48" fill="none" stroke="currentColor" stroke-width="2"/><path d="m60 20 11 29 29 11-29 11-11 29-11-29-29-11 29-11Z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
-              <h3>No cards compared</h3>
-              <p>Add cards from a pack to see the strongest baseline pick.</p>
-            </div>
-            <div id="pack-content" hidden>
-              <article id="best-pick" class="best-pick"></article>
-              <div class="alternatives-heading"><h3>Pack order</h3><span>strongest → weakest</span></div>
-              <ol id="pack-list" class="pack-list"></ol>
-            </div>
-          </aside>
-        </div>
-      </section>
-
       <section id="atlas-view" class="view-panel atlas-view" role="tabpanel" hidden>
         <div class="atlas-page surface-page">
           <header class="atlas-heading">
@@ -239,8 +185,6 @@
 
     </main>
 
-    <button id="pack-dock" class="pack-dock" type="button" hidden><span>Best pick</span><strong id="pack-dock-card"></strong><span id="pack-dock-count"></span></button>
-
     <footer class="app-footer">
       <p id="footer-source"></p>
       <a id="source-link" href="#" target="_blank" rel="noreferrer">View source data</a>
@@ -248,8 +192,20 @@
 
     <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
     <div id="live-region" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
+    <dialog id="card-preview" class="card-preview" aria-labelledby="card-preview-name">
+      <div class="card-preview-frame">
+        <button id="close-card-preview" class="card-preview-close" type="button" aria-label="Close enlarged card">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+        <img id="card-preview-image" class="card-preview-image" src="assets/cards/fra/70d8c400-87dc-4f15-808f-e54a95d779fc.jpg" alt="" width="672" height="936">
+        <div class="card-preview-copy">
+          <h2 id="card-preview-name"></h2>
+          <p id="card-preview-meta"></p>
+        </div>
+      </div>
+    </dialog>
     <noscript><p class="noscript">This preparation tool requires JavaScript.</p></noscript>
-    <script src="data.js?v=limited-prep-2"></script>
-    <script src="app.js?v=limited-prep-2"></script>
+    <script src="data.js?v=limited-prep-3"></script>
+    <script src="app.js?v=limited-prep-3"></script>
   </body>
 </html>

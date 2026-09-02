@@ -307,7 +307,7 @@ components:
 
 **Creative North Star: "The Set-Specific Field Guide Shelf"**
 
-Limited Field Guides is one dependable preparation shelf holding authored volumes, not one generic dashboard wearing different accent colours. The shared shell keeps the learning sequence stable—choose a set, study its cards, rehearse exact-tier and ranked decisions, compare a hand-built pack, and share the exact challenge—while each set owns one coherent material world.
+Limited Field Guides is one dependable preparation shelf holding authored volumes, not one generic dashboard wearing different accent colours. The shared shell opens the latest set and keeps the learning sequence stable—train exact-tier recall, rehearse ranked decisions, browse the card file, and share the exact challenge—while each set owns one coherent material world.
 
 The Hobbit remains Bilbo’s Expedition Atlas: forest cloth, warm map leaves, brass page flags, oxblood routes, river details, and softly handled corners. Reality Fracture is an Echoverse dossier: ink and indigo binding, cool paper, electric violet, cyan, and pink seams, condensed black display type, and facets cut on sharp angles. Atkinson Hyperlegible Next connects both as the practical reading and control voice.
 
@@ -318,8 +318,8 @@ The system should feel authored, trustworthy, and ready before an event. Data ma
 - One shared preparation sequence expressed as a shelf of set-owned field guides.
 - Atkinson Hyperlegible Next for working text, controls, metadata, and dense card information.
 - Hobbit’s rounded cloth-and-map atlas beside Reality Fracture’s clipped, electrically seamed dossier.
-- Four compact page markers opening directly onto one large study card and an honest guide panel.
-- Persisted Study queues and exact-tier scores, deterministic challenge links, and explicit rating-pending locks.
+- Three compact page markers opening directly onto one focused rating-training workspace.
+- Persisted Training queues and exact-tier scores, deterministic challenge links, and explicit rating-pending locks.
 - Hobbit’s post-answer observed-evidence ledger and adjacent-rank context without implying deck intelligence.
 - Broad surfaces and flat rows gathered into one handled volume rather than a field of dashboard cards.
 
@@ -373,13 +373,12 @@ Each set maps the same semantic roles—binding, surface, ink, line, accent, sig
 ### Hierarchy
 
 - **Page Display** (Alegreya 700 or Barlow Condensed 900, `clamp(3rem, 7vw, 5.8rem)`, 0.86 line-height): Singular page statements, locked-state headlines, and the complete card file.
-- **Leaf Headline** (set display face, fluid 2.35rem–4.8rem family, 0.86–0.94 line-height): Guide, trainer, compare, pack, and colour-section headings. Reality Fracture uses uppercase; Hobbit preserves natural case.
+- **Leaf Headline** (set display face, fluid 2.35rem–4.8rem family, 0.86–0.94 line-height): Training, drill, and colour-section headings. Reality Fracture uses uppercase; Hobbit preserves natural case.
 - **Brand** (set display face, `clamp(2rem, 3.2vw, 3.15rem)`, 0.94 line-height): The selected volume title in the binding.
 - **Rank and Answer** (set display face, 1.15rem–1.7rem): Card ranks, challenge order, progress tallies, and revealed answers with tabular numerals where values align.
 - **Working Title** (Atkinson Hyperlegible Next 700, 0.84rem–1rem): Card names and compact operational headings.
 - **Body** (Atkinson Hyperlegible Next 400, 1rem, 1.5 line-height): Guide copy, instructions, oracle text, and source context.
 - **Label and Microcopy** (Atkinson Hyperlegible Next 700, 0.58rem–0.83rem): Page markers, controls, counts, stamps, tiers, and responsive metadata.
-- **Search** (Atkinson Hyperlegible Next 700, `clamp(1.05rem, 2vw, 1.25rem)`, 1.5 line-height): The primary compare input.
 
 ### Named Rules
 
@@ -391,32 +390,30 @@ Each set maps the same semantic roles—binding, surface, ink, line, accent, sig
 
 ## Layout
 
-The system is one multi-volume field-guide shell capped at 1440px. A 164px binding leads with the selected set, subtitle, set picker, share action, and data-maturity stamp. Four sticky page markers—Study, Pick drill, Compare, and All cards—sit on a 62px line, then open directly into a broad surface. The first Study viewport pairs an honest guide leaf with a large card-recognition stage rather than spending the opening screen on navigation or summary statistics.
+The system is one multi-volume field-guide shell capped at 1440px. A 164px binding leads with the selected set, subtitle, set picker, share action, and data-maturity stamp. The most recent release opens by default. Three sticky page markers—Training, Pick drill, and All cards—sit on a 62px line, then open directly into a broad surface. The first Training viewport is one focused card-rating workspace rather than a split dashboard.
 
-Study uses a 0.72/1.28 guide-to-trainer split. Compare uses a 1.2/0.8 search-to-current-comparison split with a 360px minimum for the comparison leaf. Pick drill presents three equal choices. All cards uses a single broad leaf, sticky colour navigation, and an auto-filling grid with a 230px minimum. Major surfaces share a continuous binding/page shadow; rows remain flat and separated by rules.
+Training centres one readable card-and-answer object at a 1040px maximum, with browser-local progress inline below it. Pick drill presents three equal readable card choices. All cards uses a single broad leaf, sticky colour navigation, an auto-filling grid with a 230px minimum, and an in-place image lightbox. Major surfaces share a continuous binding/page shadow; rows remain flat and separated by rules.
 
-At 1120px, header actions compact, the guide narrows, and the compare leaf resolves to 350px. At 860px, the header becomes a grid and both Study and Compare stack into one-column reading order. At 700px, the binding becomes a compact mobile header, all four markers share one sticky row, surfaces use ten-pixel outer gutters, controls tighten, study remains a side-by-side card/copy object, compare search sticks below navigation, and the atlas becomes two columns. At 430px, nonessential subtitle and metadata collapse while card identity, state, primary action, and touch access remain.
+At 860px, the header becomes a grid and Training progress stacks below its heading. At 700px, the binding becomes a compact mobile header, all three markers share one sticky row, surfaces use ten-pixel outer gutters, controls tighten, Training remains a side-by-side card/copy object, and the atlas becomes two columns. At 430px, nonessential subtitle and metadata collapse while card identity, state, primary action, magnification, and touch access remain.
 
-**The First-Viewport Rule.** The selected set and data maturity lead in the binding; four compact markers then yield to the large study card and guide panel.
+**The First-Viewport Rule.** The latest set and data maturity lead in the binding; three compact markers then yield to focused rating training.
 
-**The Stable-Shell Rule.** Study, Pick drill, Compare, and All cards retain their order and behavior across sets even while materials, display type, and geometry change. Training lives inside Study; never add a separate Train marker.
+**The Stable-Shell Rule.** Training, Pick drill, and All cards retain their order and behaviour across sets even while materials, display type, and geometry change.
 
-**The Preparation-Only Rule.** Layout supports recognition, rehearsal, comparison, and browsing. It must never acquire deck zones, curve charts, counts-by-card, or other deck-builder composition.
+**The Preparation-Only Rule.** Layout supports recognition, rehearsal, and browsing. It must never acquire deck zones, curve charts, counts-by-card, or other deck-builder composition.
 
 ## Elevation & Depth
 
-Depth describes a single handled volume, not a stack of dashboard cards. The binding, page markers, open spread, study card, compare leaf, search field, thumbnails, and mobile comparison dock use progressively smaller ink-dark shadows. Hobbit reads as softly handled cloth and paper. Reality Fracture keeps the same structural depths but adds a hard offset violet seam to card imagery so the dossier feels faceted rather than plush. Flat result, drill, and atlas rows use rule, tint, and motion instead of independent elevation.
+Depth describes a single handled volume, not a stack of dashboard cards. The binding, page markers, open page, training card, drill images, thumbnails, and image lightbox use progressively smaller ink-dark shadows. Hobbit reads as softly handled cloth and paper. Reality Fracture keeps the same structural depths but adds a hard offset violet seam to card imagery so the dossier feels faceted rather than plush. Flat drill and atlas rows use rule, tint, and motion instead of independent elevation.
 
 ### Shadow Vocabulary
 
 - **Binding** (`0 10px 30px rgba(8, 9, 16, .28)`): Separates the selected volume from the page ground.
-- **Page Marker** (`0 7px 18px rgba(8, 9, 16, .16)`): Gives the four navigation markers a shallow handled edge.
+- **Page Marker** (`0 7px 18px rgba(8, 9, 16, .16)`): Gives the three navigation markers a shallow handled edge.
 - **Open Volume** (`0 26px 65px rgba(8, 9, 16, .28)`): Unifies each spread or page as the principal object.
 - **Study Object** (`0 18px 46px rgba(8, 9, 16, .34)`): Gives the large recognition card priority inside the binding.
-- **Search Field** (`0 12px 30px rgba(8, 9, 16, .13)`; focused `0 16px 36px rgba(8, 9, 16, .19)`): Marks the principal text control without turning it into a floating panel.
 - **Card Image** (`0 5px 13px rgba(8, 9, 16, .2)` to `0 15px 30px rgba(8, 9, 16, .2)`): Separates card art from dense reading surfaces.
 - **Fracture Image** (`-10px 14px 34px rgba(9, 9, 20, .32), 9px -7px 0 rgba(113, 71, 213, .12)`): Adds one angular electric seam to the Reality Fracture study card.
-- **Mobile Comparison Dock** (`0 15px 34px rgba(8, 9, 16, .36)`): Holds the best-pick shortcut above scrolling content.
 
 ### Named Rules
 
@@ -426,7 +423,7 @@ Depth describes a single handled volume, not a stack of dashboard cards. The bin
 
 ## Shapes
 
-The shared shell uses geometry as material evidence. Hobbit combines gently rounded handled surfaces—fourteen-pixel leaves, twelve-pixel study and search cards, six-pixel controls, eight-pixel card images, and circular seals—with a square page-marker join. Compass points, contour paths, route dashes, mountain rules, and colour emblems remain legible cartographic marks.
+The shared shell uses geometry as material evidence. Hobbit combines gently rounded handled surfaces—fourteen-pixel leaves, twelve-pixel training cards, six-pixel controls, eight-pixel card images, and circular seals—with a square page-marker join. Compass points, contour paths, route dashes, mountain rules, and colour emblems remain legible cartographic marks.
 
 Reality Fracture remaps those roles to three-pixel page and control cuts, four-pixel cards and images, clipped polygon seals, skewed seam rules, and angular facets. Two explicit two-pixel radii are intentional micro-cuts: the colour-jump control and the colour mark/emblem before their polygon clipping. Use the two-to-four-pixel range only inside this dossier world; it is not a universal radius reduction.
 
@@ -453,14 +450,14 @@ Shared components keep behavior, semantics, target sizes, and information order 
 
 ### Navigation
 
-- **Four Page Markers:** Study, Pick drill, Compare, and All cards are fixed in that order. Inactive markers use the soft binding; the selected marker rises from 50px to 58px and changes to the light metal token.
-- **Study Owns Rehearsal:** Card recognition and exact-tier practice live inside Study. There is no separate Train tab.
-- **Mobile:** All four remain visible in one sticky row. Icons support but never replace the literal labels.
+- **Three Page Markers:** Training, Pick drill, and All cards are fixed in that order. Inactive markers use the soft binding; the selected marker rises from 50px to 58px and changes to the light metal token.
+- **Training Owns Rehearsal:** Card recognition and exact-tier practice live together in Training.
+- **Mobile:** All three remain visible in one sticky row. Icons support but never replace the literal labels.
 
-### Study Card and Progress Ledger
+### Training Card and Progress Ledger
 
-- **Guide Leaf:** Set-authored heading, facts, rating state, and local progress ledger. The state seal is circular in Hobbit and polygonal in Reality Fracture.
-- **Study Image:** Each set supplies a larger readable local study image. If it fails, the same card’s local thumbnail replaces it; study never depends on a remote image request.
+- **Focused Workspace:** One full-width themed surface holds the training heading, card, answer controls, and an inline progress ledger. There is no explanatory sidebar.
+- **Training Image:** Each set supplies a larger readable local image. If it fails, the same card’s local thumbnail replaces it; Training never depends on a remote image request.
 - **Exact-Tier Choices:** Rated cards use four horizontal families—Top picks (`S`, `A+`, `A`, `A-`), Strong (`B+`, `B`, `B-`), Playable (`C+`, `C`, `C-`), and Filler (`D+`, `D`, `D-`, `F`). Each 44px choice uses one lightly tinted tier fill and one three-pixel tier-colour edge.
 - **Answer:** Reveal exposes exact rank, exact tier, the broader family label, and whether the call was exact, missed, or manually revealed. Correct and chosen-wrong buttons remain explicit while unchosen tiers recede.
 - **Observed Evidence:** Hobbit answers continue into a three-column ledger—In-hand WR, Usually gone by, and In-hand games—followed by source/capture context and the immediately adjacent ranked cards. Evidence stays visually subordinate to the answer and continues to call ranking a baseline.
@@ -477,8 +474,8 @@ Shared components keep behavior, semantics, target sizes, and information order 
 ### Grade Choices and Rating Locks
 
 - **Exact-Tier Families:** Four ruled rows group fourteen exact tier buttons as Top picks, Strong, Playable, and Filler. The rows stay four columns wide where possible and retain compact touch targets on mobile.
-- **Study Preview State:** Reality Fracture keeps Study open as an unrated card reader and omits the tier quiz entirely.
-- **Rating-Pending Lock:** Pick drill and Compare are replaced with a centered, themed lock surface, plain explanation, and a route back to revealed cards. A preview badge never implies a rank.
+- **Training Preview State:** Reality Fracture keeps Training open as an unrated card reader and omits the tier quiz entirely.
+- **Rating-Pending Lock:** Pick drill is replaced with a centered, themed lock surface, plain explanation, and a route back to revealed cards. A preview badge never implies a rank.
 
 ### Pick Drill
 
@@ -486,17 +483,11 @@ Shared components keep behavior, semantics, target sizes, and information order 
 - **Challenge Link:** The exact seeded three-card drill is encoded in the URL and shared intact. New challenge generates a new seed.
 - **Answer:** Explicitly calls the order a format-level baseline, not deck-context advice.
 
-### Compare
-
-- **Search Field:** A two-pixel binding stroke, bold Atkinson input, integrated clear control, and sticky mobile position.
-- **Result Rows:** Flat ranked rows with thumbnail, display-face rank, name, tier, and Add/Mapped state. Selection is a light metal tint, not a new card container.
-- **Current Comparison:** A binding-side log with one elevated best pick and flat alternatives. It is session-only and never becomes a saved deck.
-
 ### Chips and Card Index
 
 - **Rating Tier:** Compact categorical pill with white text; pending uses the light metal surface and binding text.
-- **Colour Jump:** Hobbit uses a pill and circular emblem. Reality Fracture uses the intentional two-pixel cut and polygon emblem.
-- **Atlas Card:** Compact image-and-copy row grouped by Magic colour. Ranked sets lead with rank and tier; previews lead with collector number, rarity, and an honest Preview badge.
+- **Colour Jump:** Each colour uses a recognisable mana symbol alongside its literal label. Hobbit uses a pill and circular emblem; Reality Fracture uses the intentional two-pixel cut and polygon emblem.
+- **Atlas Card:** Compact image-and-copy row grouped by Magic colour. Ranked sets lead with rank and tier; previews lead with collector number, rarity, and an honest Preview badge. Selecting a row opens the readable local image in a focused lightbox without changing views.
 
 ### Status and Motion
 
@@ -508,12 +499,12 @@ Shared components keep behavior, semantics, target sizes, and information order 
 ### Do:
 
 - **Do** keep the shared preparation sequence and information order stable while each set owns one material world.
-- **Do** lead with the selected volume and data maturity, then expose all four preparation modes.
+- **Do** lead with the latest volume and data maturity, then expose all three preparation modes.
 - **Do** use Atkinson Hyperlegible Next for working text and the set display face only for hierarchy, ranks, and authored marks.
 - **Do** preserve Hobbit’s forest cloth, map leaves, brass, oxblood, river details, and rounded handled construction.
 - **Do** preserve Reality Fracture’s ink-indigo binding, cool paper, violet/cyan/pink seams, condensed black display type, clipped facets, and two-to-four-pixel cuts.
-- **Do** keep the current Study card, colour filter, queue, exact-tier score, revealed answer, and requeued misses local; keep comparisons session-only and challenge URLs exact and deterministic.
-- **Do** use the larger local study image for both sets and fall back to the matching local thumbnail on failure.
+- **Do** keep the current Training card, colour filter, queue, exact-tier score, revealed answer, and requeued misses local; keep challenge URLs exact and deterministic.
+- **Do** use the larger local image for Training, Pick drill, and magnification, with a matching local thumbnail fallback.
 - **Do** group exact-tier choices as Top picks, Strong, Playable, and Filler, then return misses after three intervening cards.
 - **Do** keep Hobbit’s three observed evidence values and adjacent ranks visually attached to the revealed answer.
 - **Do** visibly lock ranking-dependent answers and actions when the rating source is pending.
@@ -527,7 +518,6 @@ Shared components keep behavior, semantics, target sizes, and information order 
 - **Don't** cross Hobbit’s brass and oxblood into the Fracture dossier or Fracture’s electric seams into the atlas.
 - **Don't** invent rankings, tiers, or answer colours for a preview-only set.
 - **Don't** show a tier quiz or observed ranking evidence for unrated Reality Fracture cards.
-- **Don't** add a separate Train tab; Study already owns card recognition and tier rehearsal.
 - **Don't** wrap every result, drill choice, or atlas entry in its own rounded elevated card.
-- **Don't** frame comparison as a deck list or add deck-builder zones, curve analytics, saved builds, or card-count controls.
+- **Don't** add a separate comparison or deck-building workflow beside Pick drill.
 - **Don't** hide state, card identity, colour grouping, or navigation behind icons alone.

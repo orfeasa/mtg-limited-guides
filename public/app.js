@@ -7,9 +7,8 @@
   const setById = new Map(dataset.sets.map((set) => [set.id, set]));
   const params = new URLSearchParams(location.search);
   const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const resultLimit = 10;
   const numberFormatter = new Intl.NumberFormat("en-GB");
-  const validViews = new Set(["study", "drill", "compare", "atlas"]);
+  const validViews = new Set(["training", "drill", "atlas"]);
   const bandLabels = {
     top: "Top pick · S/A range",
     strong: "Strong · B range",
@@ -41,6 +40,19 @@
     { id: "M", name: "Multicolour", note: "Gold cards" },
     { id: "C", name: "Colourless", note: "Artifacts and lands" },
   ];
+  const manaSymbols = {
+    W: `<svg viewBox="0 0 24 24" focusable="false"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9 7 7M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`,
+    U: `<svg viewBox="0 0 24 24" focusable="false"><path d="M12 2.5C10.5 6 6.2 10.2 6.2 14.2a5.8 5.8 0 1 0 11.6 0C17.8 10.2 13.5 6 12 2.5Z" fill="currentColor"/><path d="M9.2 14.2c.2 1.7 1.2 2.8 3 3.2" fill="none" stroke="var(--symbol-glint)" stroke-width="1.7" stroke-linecap="round"/></svg>`,
+    B: `<svg viewBox="0 0 24 24" focusable="false"><path d="M12 3.2a7.4 7.4 0 0 0-7.4 7.4c0 2.9 1.4 5 3.8 6.3V20h2v-2h3.2v2h2v-3.1c2.4-1.3 3.8-3.4 3.8-6.3A7.4 7.4 0 0 0 12 3.2Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="9" cy="11.3" r="1.7" fill="currentColor"/><circle cx="15" cy="11.3" r="1.7" fill="currentColor"/><path d="m12 13.2-1.2 2h2.4L12 13.2Z" fill="currentColor"/></svg>`,
+    R: `<svg viewBox="0 0 24 24" focusable="false"><path d="M13.3 2.7c.4 3.7-2.6 5.1-2.6 8.1 0 1.2.7 2.1 1.8 2.7-.1-2.1 1.5-3.5 3.1-4.6 1.9 2 3.1 4.2 3.1 6.7a6.7 6.7 0 0 1-13.4 0c0-3.7 2.2-6.8 8-12.9Zm-1.2 16.8c2 0 3.4-1.3 3.4-3.2 0-.8-.3-1.6-.9-2.4-.4 1.5-2 1.9-2.8 3.1-.5-.7-.7-1.5-.6-2.5-1.6 1.1-2.3 2.2-2.3 3.3 0 1 .9 1.7 3.2 1.7Z" fill="currentColor" fill-rule="evenodd"/></svg>`,
+    G: `<svg viewBox="0 0 24 24" focusable="false"><path d="M12 3.2 8.5 8h2.1L7 12.6h3.1l-4 4.7h4.6V21h2.6v-3.7h4.6l-4-4.7H17L13.4 8h2.1L12 3.2Z" fill="currentColor" stroke="currentColor" stroke-width=".8" stroke-linejoin="round"/></svg>`,
+    M: `<svg viewBox="0 0 24 24" focusable="false"><path d="m12 4.2 7.4 5.4-2.8 8.7H7.4L4.6 9.6 12 4.2Z" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="4.2" r="2" fill="currentColor"/><circle cx="19.4" cy="9.6" r="2" fill="currentColor"/><circle cx="16.6" cy="18.3" r="2" fill="currentColor"/><circle cx="7.4" cy="18.3" r="2" fill="currentColor"/><circle cx="4.6" cy="9.6" r="2" fill="currentColor"/></svg>`,
+    C: `<svg viewBox="0 0 24 24" focusable="false"><path d="m12 2.8 7.3 9.2-7.3 9.2L4.7 12 12 2.8Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m12 7.2 3.8 4.8-3.8 4.8L8.2 12 12 7.2Z" fill="currentColor"/></svg>`,
+  };
+
+  function manaSymbol(color, modifier) {
+    return `<span class="mana-symbol ${modifier}" aria-hidden="true">${manaSymbols[color]}</span>`;
+  }
 
   const $ = (selector) => document.querySelector(selector);
   const elements = {
@@ -51,10 +63,6 @@
     datasetCount: $("#dataset-count"),
     datasetUnit: $("#dataset-unit"),
     datasetDate: $("#dataset-date"),
-    guideTitle: $("#guide-title"),
-    guideBody: $("#guide-body"),
-    guideFacts: $("#guide-facts"),
-    ratingState: $("#rating-state"),
     cardsSeen: $("#cards-seen"),
     gradeScore: $("#grade-score"),
     pickScore: $("#pick-score"),
@@ -75,25 +83,6 @@
     drillAnswer: $("#drill-answer"),
     newChallenge: $("#new-challenge"),
     shareChallenge: $("#share-challenge"),
-    compareLocked: $("#compare-locked"),
-    compareContent: $("#compare-content"),
-    searchInput: $("#card-search"),
-    clearSearch: $("#clear-search"),
-    searchResults: $("#search-results"),
-    noResults: $("#no-results"),
-    resultLabel: $("#result-label"),
-    resultCount: $("#result-count"),
-    pack: $("#pack"),
-    packTitle: $("#pack-title"),
-    packCount: $("#pack-count"),
-    clearPack: $("#clear-pack"),
-    packEmpty: $("#pack-empty"),
-    packContent: $("#pack-content"),
-    bestPick: $("#best-pick"),
-    packList: $("#pack-list"),
-    packDock: $("#pack-dock"),
-    packDockCard: $("#pack-dock-card"),
-    packDockCount: $("#pack-dock-count"),
     atlasTitle: $("#atlas-title"),
     atlasCopy: $("#atlas-copy"),
     colorNavigation: $("#color-navigation"),
@@ -102,6 +91,11 @@
     sourceLink: $("#source-link"),
     toast: $("#toast"),
     liveRegion: $("#live-region"),
+    cardPreview: $("#card-preview"),
+    cardPreviewImage: $("#card-preview-image"),
+    cardPreviewName: $("#card-preview-name"),
+    cardPreviewMeta: $("#card-preview-meta"),
+    closeCardPreview: $("#close-card-preview"),
   };
 
   const viewTabs = [...document.querySelectorAll("[data-view]")];
@@ -111,14 +105,12 @@
     views.get(tab.dataset.view)?.setAttribute("aria-labelledby", tab.id);
   }
 
-  let currentSet = setById.get(params.get("set")) || dataset.sets[0];
-  let currentView = validViews.has(params.get("view")) ? params.get("view") : "study";
+  const latestSet = [...dataset.sets].sort((left, right) => String(right.releaseDate || "").localeCompare(String(left.releaseDate || "")))[0];
+  const requestedView = params.get("view") === "study" ? "training" : params.get("view");
+  let currentSet = setById.get(params.get("set")) || latestSet;
+  let currentView = validViews.has(requestedView) ? requestedView : "training";
   let cards = [];
-  let normalizedCards = [];
   let cardById = new Map();
-  let selectedIds = new Set();
-  let currentResults = [];
-  let activeResultIndex = -1;
   let trainerCardId = null;
   let trainerRevealed = false;
   let trainerGuess = null;
@@ -223,16 +215,6 @@
       [copy[index], copy[swap]] = [copy[swap], copy[index]];
     }
     return copy;
-  }
-
-  function normalize(value) {
-    return String(value || "")
-      .normalize("NFD")
-      .replace(/\p{Diacritic}/gu, "")
-      .toLowerCase()
-      .replace(/[’']/g, "")
-      .replace(/[^a-z0-9]+/g, " ")
-      .trim();
   }
 
   function escapeHtml(value) {
@@ -341,25 +323,10 @@
     elements.datasetCount.textContent = String(currentSet.cardCount);
     elements.datasetUnit.textContent = currentSet.stage === "preview" ? "revealed" : "cards";
     elements.datasetDate.textContent = currentSet.stage === "preview" ? "preview file" : "observed data";
-    elements.guideTitle.textContent = currentSet.guideTitle;
-    elements.guideBody.textContent = currentSet.guideBody;
-    elements.guideFacts.replaceChildren(...currentSet.guideFacts.map((fact) => {
-      const item = document.createElement("li");
-      item.textContent = fact;
-      return item;
-    }));
-
-    if (ratingIsAvailable()) {
-      const matches = currentSet.rating.matches ? `${new Intl.NumberFormat("en-GB").format(currentSet.rating.matches)} matches` : "rated snapshot";
-      elements.ratingState.innerHTML = `<span class="state-seal">READY</span><div><strong>${escapeHtml(currentSet.rating.label)}</strong><p>${escapeHtml(currentSet.rating.source)} · ${escapeHtml(matches)} · ${escapeHtml(dateLabel(currentSet.rating.capturedAt))}</p></div>`;
-    } else {
-      elements.ratingState.innerHTML = `<span class="state-seal">PREVIEW</span><div><strong>${currentSet.cardCount} cards indexed so far</strong><p>Card study is live. Grade and pick drills stay locked until an attributable rating snapshot is added.</p></div>`;
-    }
-
     elements.atlasTitle.textContent = currentSet.stage === "preview" ? "The revealed card file" : "The complete card atlas";
     elements.atlasCopy.textContent = currentSet.stage === "preview"
-      ? `${currentSet.cardCount} revealed cards, grouped by colour. Open any card to study its full rules text.`
-      : `All ${currentSet.cardCount} ranked cards, grouped by colour and ready to open in the trainer.`;
+      ? `${currentSet.cardCount} revealed cards, grouped by colour. Select a card to enlarge it.`
+      : `All ${currentSet.cardCount} ranked cards, grouped by colour. Select a card to enlarge it.`;
 
     const sourceDate = currentSet.stage === "preview"
       ? `Preview index synced ${dateLabel(currentSet.previewCapturedAt)}`
@@ -559,7 +526,9 @@
       button.dataset.cardId = card.id;
       button.setAttribute("aria-pressed", String(drillChoiceId === card.id));
       button.dataset.verdict = drillChoiceId ? (card.id === best.id ? "best" : card.id === drillChoiceId ? "picked" : "other") : "";
-      button.innerHTML = `<img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.name)} card" width="244" height="342"><span class="drill-card-name">${escapeHtml(card.name)}</span><span class="drill-card-result">${drillChoiceId ? `#${card.rank} · ${escapeHtml(card.tier)}` : "Choose this card"}</span>`;
+      button.innerHTML = `<img src="${escapeHtml(card.trainingImage || card.image)}" alt="${escapeHtml(card.name)} card" width="672" height="936" loading="lazy" decoding="async"><span class="drill-card-name">${escapeHtml(card.name)}</span><span class="drill-card-result">${drillChoiceId ? `#${card.rank} · ${escapeHtml(card.tier)}` : "Choose this card"}</span>`;
+      const image = button.querySelector("img");
+      image.addEventListener("error", () => { image.src = card.image; }, { once: true });
       return button;
     }));
 
@@ -582,126 +551,21 @@
     elements.liveRegion.textContent = cardId === best.id ? "Correct baseline pick." : `${best.name} is the strongest baseline pick.`;
   }
 
-  function fuzzyScore(name, query) {
-    if (!query) return 0;
-    if (name === query) return 2000;
-    if (name.startsWith(query)) return 1600 - name.length;
-    const directIndex = name.indexOf(query);
-    if (directIndex !== -1) return 1300 - directIndex * 5 - name.length;
-    const tokens = query.split(" ").filter(Boolean);
-    if (tokens.length > 1 && tokens.every((token) => name.includes(token))) {
-      return 1000 - tokens.reduce((sum, token) => sum + name.indexOf(token), 0);
-    }
-    let cursor = 0;
-    let gaps = 0;
-    for (const char of query.replaceAll(" ", "")) {
-      const found = name.indexOf(char, cursor);
-      if (found === -1) return -1;
-      gaps += found - cursor;
-      cursor = found + 1;
-    }
-    return 500 - gaps * 4 - name.length;
-  }
-
-  function resultCards(query) {
-    const normalizedQuery = normalize(query);
-    if (!normalizedQuery) return normalizedCards.slice(0, resultLimit);
-    return normalizedCards
-      .map((card) => ({ card, score: fuzzyScore(card.normalizedName, normalizedQuery) }))
-      .filter(({ score }) => score >= 0)
-      .sort((a, b) => b.score - a.score || a.card.rank - b.card.rank)
-      .slice(0, resultLimit)
-      .map(({ card }) => card);
-  }
-
-  function selectedCards() {
-    return [...selectedIds].map((id) => cardById.get(id)).filter(Boolean).sort((a, b) => a.rank - b.rank);
-  }
-
-  function renderResults() {
-    if (!ratingIsAvailable()) return;
-    const query = elements.searchInput.value;
-    currentResults = resultCards(query);
-    activeResultIndex = Math.min(activeResultIndex, currentResults.length - 1);
-    if (activeResultIndex < -1) activeResultIndex = -1;
-    const leader = selectedCards()[0];
-    elements.searchResults.replaceChildren(...currentResults.map((card, index) => {
-      const selected = selectedIds.has(card.id);
-      const button = document.createElement("button");
-      button.type = "button";
-      button.className = "result-row";
-      button.id = `result-${card.id}`;
-      button.dataset.cardId = card.id;
-      button.dataset.active = String(index === activeResultIndex);
-      button.setAttribute("role", "option");
-      button.setAttribute("aria-selected", String(selected));
-      const relation = leader
-        ? card.rank === leader.rank ? "Current leader" : card.rank < leader.rank ? "Stronger than current leader" : `${card.rank - leader.rank} ranks below leader`
-        : "Add to comparison";
-      button.innerHTML = `<img class="card-thumb" src="${escapeHtml(card.image)}" alt="" width="55" height="78"><span class="rank-block"><strong>#${card.rank}</strong><span>pick</span></span><span class="result-name"><strong>${escapeHtml(card.name)}</strong><span>${escapeHtml(relation)}</span></span><span class="result-metadata"><span class="tier" style="--tier-color:${tierColors[card.tier] || tierColors["?"]}">${escapeHtml(card.tier)}</span><span class="result-action">${selected ? "Added" : "Add"}</span></span>`;
-      return button;
-    }));
-    const hasResults = currentResults.length > 0;
-    elements.searchResults.hidden = !hasResults;
-    elements.noResults.hidden = hasResults;
-    elements.clearSearch.hidden = query.length === 0;
-    elements.resultLabel.textContent = query ? `Matches for “${query}”` : "Top of the order";
-    elements.resultCount.textContent = query ? `${currentResults.length} results` : `Showing ${currentResults.length} of ${cards.length}`;
-    elements.searchInput.setAttribute("aria-expanded", String(hasResults));
-    updateActiveDescendant();
-  }
-
-  function renderPack({ animate = true } = {}) {
-    const selected = selectedCards();
-    const hasCards = selected.length > 0;
-    elements.packCount.textContent = `${selected.length} card${selected.length === 1 ? "" : "s"} added`;
-    elements.clearPack.disabled = !hasCards;
-    elements.packEmpty.hidden = hasCards;
-    elements.packContent.hidden = !hasCards;
-    elements.packDock.hidden = !hasCards || currentView !== "compare";
-    if (!hasCards) {
-      elements.bestPick.replaceChildren();
-      elements.packList.replaceChildren();
-      return;
-    }
-    const leader = selected[0];
-    elements.bestPick.innerHTML = `<img class="best-image" src="${escapeHtml(leader.image)}" alt="" width="110" height="155"><div class="best-copy"><span class="best-label">Baseline leader</span><h3>${escapeHtml(leader.name)}</h3><div class="best-meta"><span class="best-rank">#${leader.rank}</span><span class="tier" style="--tier-color:${tierColors[leader.tier] || tierColors["?"]}">${escapeHtml(leader.tier)}</span></div><button class="best-remove" type="button" data-remove-id="${escapeHtml(leader.id)}">Remove</button></div>`;
-    elements.packList.replaceChildren(...selected.map((card) => {
-      const item = document.createElement("li");
-      item.className = "pack-item";
-      item.innerHTML = `<img src="${escapeHtml(card.image)}" alt="" width="43" height="61"><span class="pack-item-rank">#${card.rank}</span><span class="pack-item-copy"><strong>${escapeHtml(card.name)}</strong><span>${card.rank === leader.rank ? "Leader" : `+${card.rank - leader.rank} ranks`} · Tier ${escapeHtml(card.tier)}</span></span><button class="remove-card" type="button" data-remove-id="${escapeHtml(card.id)}" aria-label="Remove ${escapeHtml(card.name)}"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 5 10 10M15 5 5 15" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>`;
-      return item;
-    }));
-    elements.packDockCard.textContent = `#${leader.rank} ${leader.name}`;
-    elements.packDockCount.textContent = `${selected.length} compared`;
-    if (animate && !prefersReducedMotion) {
-      elements.bestPick.animate([
-        { clipPath: "inset(0 100% 0 0)", filter: "saturate(.55)" },
-        { clipPath: "inset(0 0 0 0)", filter: "saturate(1)" },
-      ], { duration: 440, easing: "cubic-bezier(.16, 1, .3, 1)" });
-    }
-  }
-
-  function toggleComparedCard(cardId) {
-    if (!cardById.has(cardId)) return;
-    if (selectedIds.has(cardId)) selectedIds.delete(cardId);
-    else selectedIds.add(cardId);
-    renderPack();
-    renderResults();
-  }
-
-  function renderCompare() {
-    const locked = !ratingIsAvailable();
-    elements.compareLocked.hidden = !locked;
-    elements.compareContent.hidden = locked;
-    if (locked) {
-      elements.compareLocked.innerHTML = `<span class="lock-mark" aria-hidden="true"></span><h3>Comparison opens with the first rating snapshot</h3><p>The card file is real; the pick order is not ready. Study the revealed cards now and return when the full set can be evaluated honestly.</p><button type="button" data-open-atlas>Open revealed cards</button>`;
-      elements.packDock.hidden = true;
-      return;
-    }
-    elements.searchInput.placeholder = `Search ${cards.length} cards…`;
-    renderResults();
-    renderPack({ animate: false });
+  function openCardPreview(cardId) {
+    const card = cardById.get(cardId);
+    if (!card) return;
+    const readableImage = card.trainingImage || card.image;
+    elements.cardPreviewImage.onerror = () => {
+      elements.cardPreviewImage.onerror = null;
+      elements.cardPreviewImage.src = card.image;
+    };
+    elements.cardPreviewImage.src = readableImage;
+    elements.cardPreviewImage.alt = `${card.name} card`;
+    elements.cardPreviewName.textContent = card.name;
+    elements.cardPreviewMeta.textContent = cardIsRated(card)
+      ? `#${card.rank} · Tier ${card.tier}`
+      : `${card.rarity || "Preview"} · ${currentSet.code} #${card.collectorNumber || "—"}`;
+    elements.cardPreview.showModal();
   }
 
   function renderAtlas() {
@@ -712,7 +576,7 @@
       button.type = "button";
       button.className = "color-jump";
       button.dataset.color = group.id;
-      button.innerHTML = `<span class="color-mark" aria-hidden="true"></span><strong>${group.name}</strong><span>${counts.get(group.id)}</span>`;
+      button.innerHTML = `${manaSymbol(group.id, "mana-symbol--jump")}<strong>${group.name}</strong><span>${counts.get(group.id)}</span>`;
       button.addEventListener("click", () => document.querySelector(`#color-${group.id}`)?.scrollIntoView({ behavior: prefersReducedMotion ? "auto" : "smooth", block: "start" }));
       return button;
     }));
@@ -730,7 +594,7 @@
       const range = ratingIsAvailable()
         ? `#${groupCards[0].rank}–#${groupCards.at(-1).rank}`
         : `${groupCards.length} revealed`;
-      section.innerHTML = `<header class="color-section-heading"><span class="color-emblem" aria-hidden="true"></span><div><h3>${group.name}</h3><p>${group.note} · ${groupCards.length} cards</p></div><span class="color-range">${range}</span></header>`;
+      section.innerHTML = `<header class="color-section-heading">${manaSymbol(group.id, "mana-symbol--section")}<div><h3>${group.name}</h3><p>${group.note} · ${groupCards.length} cards</p></div><span class="color-range">${range}</span></header>`;
       const grid = document.createElement("div");
       grid.className = "atlas-grid";
       grid.replaceChildren(...groupCards.map((card) => {
@@ -739,7 +603,7 @@
         button.className = "atlas-card";
         button.dataset.cardId = card.id;
         button.dataset.color = card.color;
-        button.setAttribute("aria-label", `Study ${card.name}`);
+        button.setAttribute("aria-label", `Enlarge ${card.name}`);
         const leading = card.rank ? `#${card.rank}` : `${currentSet.code} ${card.collectorNumber}`;
         const meta = card.tier ? `Tier ${card.tier}` : `${card.rarity || "Preview"}`;
         button.innerHTML = `<img src="${escapeHtml(card.image)}" alt="" width="64" height="90"><span class="atlas-card-copy"><span class="atlas-card-rank">${escapeHtml(leading)}</span><strong>${escapeHtml(card.name)}</strong><span class="atlas-card-meta"><span class="tier ${card.tier ? "" : "tier-pending"}" style="--tier-color:${tierColors[card.tier] || tierColors["?"]}">${escapeHtml(card.tier || "Preview")}</span><span>${escapeHtml(meta)}</span></span></span>`;
@@ -750,22 +614,8 @@
     }).filter(Boolean));
   }
 
-  function updateActiveDescendant() {
-    const active = currentResults[activeResultIndex];
-    if (active) elements.searchInput.setAttribute("aria-activedescendant", `result-${active.id}`);
-    else elements.searchInput.removeAttribute("aria-activedescendant");
-    elements.searchResults.querySelectorAll(".result-row").forEach((row, index) => { row.dataset.active = String(index === activeResultIndex); });
-  }
-
-  function moveActive(delta) {
-    if (currentResults.length === 0) return;
-    activeResultIndex = (activeResultIndex + delta + currentResults.length) % currentResults.length;
-    updateActiveDescendant();
-    document.querySelector(`#result-${currentResults[activeResultIndex].id}`)?.scrollIntoView({ block: "nearest" });
-  }
-
   function activateView(view, { focus = false, updateHistory = true } = {}) {
-    currentView = validViews.has(view) ? view : "study";
+    currentView = validViews.has(view) ? view : "training";
     views.forEach((panel, id) => { panel.hidden = id !== currentView; });
     viewTabs.forEach((tab) => {
       const selected = tab.dataset.view === currentView;
@@ -774,7 +624,6 @@
       if (selected && focus) tab.focus();
     });
     document.body.dataset.view = currentView;
-    elements.packDock.hidden = currentView !== "compare" || selectedIds.size === 0;
     if (updateHistory) updateUrl();
     window.scrollTo({ top: 0, behavior: prefersReducedMotion ? "auto" : "smooth" });
   }
@@ -785,13 +634,6 @@
     currentSet = nextSet;
     cards = [...currentSet.cards];
     cardById = new Map(cards.map((card) => [card.id, card]));
-    normalizedCards = cards
-      .filter((card) => Number.isFinite(card.rank))
-      .map((card) => ({ ...card, normalizedName: normalize(card.name) }))
-      .sort((a, b) => a.rank - b.rank);
-    selectedIds = new Set();
-    currentResults = [];
-    activeResultIndex = -1;
     challengeSeed = makeSeed();
     drillCards = [];
     drillChoiceId = null;
@@ -802,13 +644,11 @@
     trainerCardId = savedCard?.id || (ratingIsAvailable() ? takeTrainerCard()?.id : cards[0]?.id);
     trainerRevealed = Boolean(progress.trainerRevealed && cardIsRated(cardById.get(trainerCardId)));
     trainerGuess = trainerRevealed ? progress.trainerGuess : null;
-    elements.searchInput.value = "";
     renderSetChrome();
     updateProgress();
     renderTrainer();
     buildDrill();
     renderDrill();
-    renderCompare();
     renderAtlas();
     if (updateHistory) updateUrl();
   }
@@ -871,52 +711,11 @@
   elements.cardAtlas.addEventListener("click", (event) => {
     const button = event.target.closest("[data-card-id]");
     if (!button) return;
-    trainerCardId = button.dataset.cardId;
-    trainerRevealed = false;
-    trainerGuess = null;
-    renderTrainer();
-    activateView("study");
-    requestAnimationFrame(() => $("#trainer-card")?.scrollIntoView({ behavior: prefersReducedMotion ? "auto" : "smooth", block: "center" }));
+    openCardPreview(button.dataset.cardId);
   });
-
-  elements.searchInput.addEventListener("input", () => { activeResultIndex = -1; renderResults(); });
-  elements.searchInput.addEventListener("keydown", (event) => {
-    if (event.key === "ArrowDown") { event.preventDefault(); moveActive(1); }
-    else if (event.key === "ArrowUp") { event.preventDefault(); moveActive(-1); }
-    else if (event.key === "Enter" && activeResultIndex >= 0) { event.preventDefault(); toggleComparedCard(currentResults[activeResultIndex].id); }
-    else if (event.key === "Escape" && elements.searchInput.value) {
-      event.preventDefault();
-      elements.searchInput.value = "";
-      activeResultIndex = -1;
-      renderResults();
-    }
-  });
-  elements.clearSearch.addEventListener("click", () => {
-    elements.searchInput.value = "";
-    activeResultIndex = -1;
-    renderResults();
-    elements.searchInput.focus();
-  });
-  elements.searchResults.addEventListener("click", (event) => {
-    const button = event.target.closest("[data-card-id]");
-    if (button) toggleComparedCard(button.dataset.cardId);
-  });
-  elements.clearPack.addEventListener("click", () => {
-    selectedIds.clear();
-    renderPack();
-    renderResults();
-    elements.liveRegion.textContent = "Comparison cleared.";
-  });
-  elements.pack.addEventListener("click", (event) => {
-    const button = event.target.closest("[data-remove-id]");
-    if (button) toggleComparedCard(button.dataset.removeId);
-  });
-  elements.packDock.addEventListener("click", () => {
-    activateView("compare");
-    requestAnimationFrame(() => {
-      elements.pack.scrollIntoView({ behavior: prefersReducedMotion ? "auto" : "smooth" });
-      elements.packTitle.focus({ preventScroll: true });
-    });
+  elements.closeCardPreview.addEventListener("click", () => elements.cardPreview.close());
+  elements.cardPreview.addEventListener("click", (event) => {
+    if (event.target === elements.cardPreview) elements.cardPreview.close();
   });
 
   viewTabs.forEach((tab, index) => {
@@ -928,27 +727,6 @@
       activateView(viewTabs[nextIndex].dataset.view, { focus: true });
     });
   });
-
-  document.addEventListener("keydown", (event) => {
-    const target = event.target;
-    const typing = target instanceof HTMLInputElement || target instanceof HTMLTextAreaElement || target instanceof HTMLSelectElement || target?.isContentEditable;
-    if (event.key === "/" && !typing && ratingIsAvailable()) {
-      event.preventDefault();
-      activateView("compare");
-      elements.searchInput.focus();
-      elements.searchInput.select();
-    }
-  });
-
-  if ("IntersectionObserver" in window) {
-    const packObserver = new IntersectionObserver(([entry]) => {
-      const suppressed = currentView === "compare" && entry.isIntersecting;
-      elements.packDock.classList.toggle("is-suppressed", suppressed);
-      elements.packDock.tabIndex = suppressed ? -1 : 0;
-      elements.packDock.setAttribute("aria-hidden", String(suppressed));
-    }, { threshold: 0.08 });
-    packObserver.observe(elements.pack);
-  }
 
   selectSet(currentSet.id, { updateHistory: false });
   if (params.get("challenge") && ratingIsAvailable()) {

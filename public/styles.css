@@ -550,179 +550,24 @@ body[data-theme="fracture"] .dataset-stamp strong {
   background-image: var(--surface-pattern);
 }
 
-.study-spread {
-  display: grid;
-  grid-template-columns: minmax(300px, .72fr) minmax(0, 1.28fr);
-  min-height: 690px;
-  background: var(--binding);
-}
-
-.guide-leaf {
-  padding: clamp(34px, 4vw, 64px);
-}
-
-.guide-heading h2,
 .trainer-toolbar h2,
 .page-heading h2,
-.scanner-heading h2,
-.pack-heading h2,
 .atlas-heading h2,
 .color-section-heading h3,
-.pack-empty h3,
 .locked-state h3,
-.trainer-copy h3,
-.best-copy h3 {
+.trainer-copy h3 {
   font-family: var(--display);
   font-weight: 700;
 }
 
-body[data-theme="fracture"] .guide-heading h2,
 body[data-theme="fracture"] .trainer-toolbar h2,
 body[data-theme="fracture"] .page-heading h2,
-body[data-theme="fracture"] .scanner-heading h2,
-body[data-theme="fracture"] .pack-heading h2,
 body[data-theme="fracture"] .atlas-heading h2,
 body[data-theme="fracture"] .color-section-heading h3,
-body[data-theme="fracture"] .pack-empty h3,
 body[data-theme="fracture"] .locked-state h3,
-body[data-theme="fracture"] .trainer-copy h3,
-body[data-theme="fracture"] .best-copy h3 {
+body[data-theme="fracture"] .trainer-copy h3 {
   font-weight: 900;
   text-transform: uppercase;
-}
-
-.guide-heading h2 {
-  max-width: 12ch;
-  margin-bottom: 18px;
-  font-size: clamp(2.8rem, 5vw, 4.8rem);
-  line-height: .9;
-  letter-spacing: -.03em;
-  text-wrap: balance;
-}
-
-.guide-heading p {
-  max-width: 60ch;
-  margin-bottom: 0;
-  color: var(--muted);
-}
-
-.guide-facts {
-  margin: 36px 0;
-  padding: 0;
-  border-top: 2px solid var(--binding);
-  list-style: none;
-}
-
-.guide-facts li {
-  position: relative;
-  padding: 13px 8px 13px 28px;
-  border-bottom: 1px solid var(--line);
-  font-size: .82rem;
-  font-weight: 700;
-}
-
-.guide-facts li::before {
-  position: absolute;
-  top: 20px;
-  left: 6px;
-  width: 9px;
-  height: 9px;
-  content: "";
-  background: var(--accent);
-  border-radius: 50%;
-}
-
-body[data-theme="fracture"] .guide-facts li::before {
-  border-radius: 0;
-  clip-path: polygon(50% 0, 100% 34%, 72% 100%, 8% 78%, 0 20%);
-  transform: rotate(20deg);
-}
-
-.rating-state {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  align-items: center;
-  gap: 15px;
-  padding: 16px 0;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-}
-
-.state-seal {
-  display: grid;
-  place-items: center;
-  width: 64px;
-  height: 64px;
-  color: var(--surface-light);
-  background: var(--accent);
-  border-radius: 50%;
-  font-size: .62rem;
-  font-weight: 700;
-  letter-spacing: .08em;
-  transform: rotate(-7deg);
-}
-
-body[data-theme="fracture"] .state-seal {
-  width: 72px;
-  border-radius: 0;
-  clip-path: polygon(50% 0, 100% 24%, 84% 82%, 28% 100%, 0 58%, 10% 12%);
-  transform: rotate(8deg);
-}
-
-.rating-state strong {
-  display: block;
-  font-size: .94rem;
-}
-
-.rating-state p {
-  margin: 4px 0 0;
-  color: var(--muted);
-  font-size: .75rem;
-}
-
-.progress-ledger {
-  margin-top: 42px;
-}
-
-.progress-ledger h3 {
-  margin-bottom: 4px;
-  font-size: 1rem;
-}
-
-.progress-ledger > div > p {
-  margin-bottom: 0;
-  color: var(--muted);
-  font-size: .75rem;
-}
-
-.progress-ledger dl {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 17px 0 14px;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-}
-
-.progress-ledger dl div {
-  padding: 12px 7px;
-  border-right: 1px solid var(--line);
-}
-
-.progress-ledger dl div:last-child {
-  border-right: 0;
-}
-
-.progress-ledger dt {
-  color: var(--muted);
-  font-size: .62rem;
-}
-
-.progress-ledger dd {
-  margin: 3px 0 0;
-  font-family: var(--display);
-  font-size: 1.35rem;
-  font-weight: 700;
-  font-variant-numeric: tabular-nums;
 }
 
 .text-button {
@@ -737,14 +582,75 @@ body[data-theme="fracture"] .state-seal {
   cursor: pointer;
 }
 
+.training-progress {
+  display: grid;
+  grid-template-columns: minmax(240px, 1fr) minmax(340px, 1.2fr);
+  gap: clamp(24px, 4vw, 58px);
+  width: min(1040px, 100%);
+  margin: 24px auto 0;
+  padding-top: 20px;
+  color: var(--on-binding);
+  border-top: 1px solid color-mix(in srgb, var(--on-binding) 24%, transparent);
+}
+
+.training-progress-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.training-progress h3 {
+  margin-bottom: 3px;
+  font-size: 1rem;
+}
+
+.training-progress p {
+  margin: 0;
+  color: var(--on-binding-muted);
+  font-size: .75rem;
+}
+
+.training-progress .text-button {
+  flex: 0 0 auto;
+  color: var(--metal-light);
+}
+
+.training-progress dl {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+  border-left: 1px solid color-mix(in srgb, var(--on-binding) 24%, transparent);
+}
+
+.training-progress dl div {
+  padding: 4px 16px;
+  border-right: 1px solid color-mix(in srgb, var(--on-binding) 24%, transparent);
+}
+
+.training-progress dt {
+  color: var(--on-binding-muted);
+  font-size: .62rem;
+}
+
+.training-progress dd {
+  margin: 3px 0 0;
+  color: var(--on-binding);
+  font-family: var(--display);
+  font-size: 1.35rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
 .trainer-stage {
   position: relative;
   min-width: 0;
+  min-height: 690px;
   padding: clamp(28px, 4vw, 56px);
   color: var(--on-binding);
   background-color: var(--binding);
   background-image: var(--binding-pattern);
-  box-shadow: -12px 0 38px rgba(8, 9, 16, .22);
+  box-shadow: 0 26px 65px rgba(8, 9, 16, .28);
 }
 
 .trainer-stage::before {
@@ -775,7 +681,8 @@ body[data-theme="fracture"] .trainer-stage::before {
   align-items: end;
   justify-content: space-between;
   gap: 22px;
-  margin-bottom: 26px;
+  width: min(1040px, 100%);
+  margin: 0 auto 26px;
 }
 
 .trainer-toolbar h2 {
@@ -814,9 +721,11 @@ body[data-theme="fracture"] .trainer-stage::before {
 .trainer-card {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(150px, .8fr) minmax(0, 1.2fr);
+  grid-template-columns: minmax(220px, .72fr) minmax(0, 1.28fr);
   gap: clamp(18px, 3vw, 36px);
-  min-height: 478px;
+  width: min(1040px, 100%);
+  min-height: 520px;
+  margin-inline: auto;
   padding: clamp(24px, 3vw, 38px);
   overflow: hidden;
   color: var(--ink);
@@ -854,7 +763,7 @@ body[data-theme="fracture"] .trainer-card::after {
   position: relative;
   align-self: center;
   width: 100%;
-  max-width: 230px;
+  max-width: 280px;
   margin-inline: auto;
 }
 
@@ -1171,8 +1080,8 @@ body[data-theme="fracture"] .trainer-image-wrap img {
 .drill-card img {
   display: block;
   width: 100%;
-  aspect-ratio: 125.3 / 176.4;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   border-radius: 8px;
   background: var(--surface-deep);
   box-shadow: 0 15px 30px rgba(8, 9, 16, .2);
@@ -1866,7 +1775,7 @@ body[data-theme="fracture"] .atlas-emblem {
 
 .color-jump {
   display: inline-grid;
-  grid-template-columns: 16px auto auto;
+  grid-template-columns: 20px auto auto;
   align-items: center;
   gap: 7px;
   min-height: 38px;
@@ -1893,39 +1802,47 @@ body[data-theme="fracture"] .color-jump {
   font-variant-numeric: tabular-nums;
 }
 
-.color-mark,
-.color-emblem {
-  display: block;
-  border: 2px solid rgba(25, 26, 43, .28);
-  border-radius: 50%;
+.mana-symbol {
+  display: inline-grid;
+  flex: 0 0 auto;
+  place-items: center;
+  overflow: hidden;
+  color: var(--symbol-ink);
   background: var(--group-color);
+  border: 2px solid color-mix(in srgb, var(--group-ink) 52%, transparent);
+  border-radius: 50%;
 }
 
-.color-mark {
-  width: 16px;
-  height: 16px;
+.mana-symbol svg {
+  width: 68%;
+  height: 68%;
 }
 
-.color-emblem {
+.mana-symbol--jump {
+  width: 20px;
+  height: 20px;
+  border-width: 1px;
+}
+
+.mana-symbol--section {
   width: 56px;
   height: 56px;
   box-shadow: inset 0 0 0 7px rgba(248, 242, 223, .32);
 }
 
-body[data-theme="fracture"] .color-mark,
-body[data-theme="fracture"] .color-emblem {
+body[data-theme="fracture"] .mana-symbol {
   border-radius: 2px;
   clip-path: polygon(50% 0, 100% 25%, 82% 100%, 12% 79%, 0 19%);
   transform: rotate(12deg);
 }
 
-[data-color="W"] { --group-color: #d7cea8; --group-ink: #514a34; }
-[data-color="U"] { --group-color: #4f8198; --group-ink: #254a5b; }
-[data-color="B"] { --group-color: #574b58; --group-ink: #3c303d; }
-[data-color="R"] { --group-color: #aa543d; --group-ink: #742f23; }
-[data-color="G"] { --group-color: #5c7d53; --group-ink: #35522f; }
-[data-color="M"] { --group-color: conic-gradient(#d7cea8, #4f8198, #574b58, #aa543d, #5c7d53, #d7cea8); --group-ink: #725d2f; }
-[data-color="C"] { --group-color: #8b8374; --group-ink: #5b554b; }
+[data-color="W"] { --group-color: #d7cea8; --group-ink: #514a34; --symbol-ink: #514a34; --symbol-glint: #f8f2df; }
+[data-color="U"] { --group-color: #4f8198; --group-ink: #254a5b; --symbol-ink: #eff9fc; --symbol-glint: #254a5b; }
+[data-color="B"] { --group-color: #574b58; --group-ink: #3c303d; --symbol-ink: #f7eef6; --symbol-glint: #3c303d; }
+[data-color="R"] { --group-color: #aa543d; --group-ink: #742f23; --symbol-ink: #fff0e9; --symbol-glint: #742f23; }
+[data-color="G"] { --group-color: #5c7d53; --group-ink: #35522f; --symbol-ink: #f0f8eb; --symbol-glint: #35522f; }
+[data-color="M"] { --group-color: conic-gradient(#d7cea8, #4f8198, #574b58, #aa543d, #5c7d53, #d7cea8); --group-ink: #725d2f; --symbol-ink: #fff; --symbol-glint: #302c26; }
+[data-color="C"] { --group-color: #8b8374; --group-ink: #5b554b; --symbol-ink: #fffaf0; --symbol-glint: #5b554b; }
 [data-color="ALL"] { --group-color: conic-gradient(#d7cea8, #4f8198, #574b58, #aa543d, #5c7d53, #d7cea8); --group-ink: var(--forest); }
 
 .card-atlas {
@@ -2030,6 +1947,100 @@ body[data-theme="fracture"] .color-emblem {
   text-transform: capitalize;
 }
 
+.card-preview {
+  width: min(680px, calc(100% - 28px));
+  max-width: none;
+  max-height: calc(100dvh - 24px);
+  padding: 0;
+  overflow: visible;
+  color: var(--on-binding);
+  background: transparent;
+  border: 0;
+}
+
+.card-preview::backdrop {
+  background: rgba(9, 9, 20, .82);
+}
+
+.card-preview-frame {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  max-height: calc(100dvh - 24px);
+  padding: 16px 58px 14px;
+  overflow: auto;
+  background-color: var(--binding-deep);
+  background-image: var(--binding-pattern);
+  border-radius: var(--card-radius);
+  box-shadow: 0 28px 70px rgba(0, 0, 0, .48);
+}
+
+.card-preview-image {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: calc(100dvh - 128px);
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 18px 46px rgba(0, 0, 0, .44);
+}
+
+body[data-theme="fracture"] .card-preview-image {
+  border-radius: 4px;
+}
+
+.card-preview-close {
+  position: absolute;
+  z-index: 2;
+  top: 12px;
+  right: 12px;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  color: var(--binding-deep);
+  background: var(--metal-light);
+  border: 0;
+  border-radius: var(--control-radius);
+  cursor: pointer;
+}
+
+.card-preview-close:hover {
+  color: var(--on-binding);
+  background: var(--accent);
+}
+
+.card-preview-close svg {
+  width: 22px;
+}
+
+.card-preview-copy {
+  width: 100%;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.card-preview-copy h2 {
+  margin-bottom: 2px;
+  color: var(--on-binding);
+  font-family: var(--display);
+  font-size: 1.35rem;
+  line-height: 1.1;
+}
+
+body[data-theme="fracture"] .card-preview-copy h2 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.card-preview-copy p {
+  margin: 0;
+  color: var(--on-binding-muted);
+  font-size: .72rem;
+}
+
 .app-footer {
   display: flex;
   justify-content: space-between;
@@ -2088,30 +2099,6 @@ body[data-theme="fracture"] .color-emblem {
     grid-row: span 2;
   }
 
-  .study-spread {
-    grid-template-columns: minmax(280px, .62fr) minmax(0, 1.38fr);
-  }
-
-  .guide-leaf {
-    padding-inline: 30px;
-  }
-
-  .compare-spread {
-    grid-template-columns: minmax(0, 1fr) 350px;
-  }
-
-  .scanner {
-    padding-inline: 24px;
-  }
-
-  .result-row {
-    grid-template-columns: 49px 46px minmax(0, 1fr) auto;
-    gap: 10px;
-  }
-
-  .card-thumb {
-    width: 49px;
-  }
 }
 
 @media (max-width: 860px) {
@@ -2125,39 +2112,12 @@ body[data-theme="fracture"] .color-emblem {
     width: 100%;
   }
 
-  .study-spread {
+  .training-progress {
     display: block;
   }
 
-  .guide-leaf {
-    padding-bottom: 38px;
-  }
-
-  .guide-heading h2 {
-    max-width: 16ch;
-  }
-
-  .guide-facts {
-    margin-block: 26px;
-  }
-
-  .progress-ledger {
-    margin-top: 30px;
-  }
-
-  .compare-spread {
-    display: block;
-    overflow: visible;
-  }
-
-  .pack-panel {
-    position: relative;
-    top: auto;
-    min-height: 520px;
-    max-height: none;
-    margin-top: 20px;
-    overflow: visible;
-    border-radius: var(--page-radius);
+  .training-progress dl {
+    margin-top: 18px;
   }
 }
 
@@ -2237,7 +2197,7 @@ body[data-theme="fracture"] .color-emblem {
 
   .view-tabs {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     width: 100%;
     height: var(--tab-height);
     margin-top: -10px;
@@ -2264,8 +2224,7 @@ body[data-theme="fracture"] .color-emblem {
   }
 
   .surface-spread,
-  .surface-page,
-  .workspace {
+  .surface-page {
     width: calc(100% - 20px);
     margin-bottom: 28px;
   }
@@ -2273,40 +2232,6 @@ body[data-theme="fracture"] .color-emblem {
   .surface-spread,
   .surface-page {
     border-radius: 0 8px 8px 8px;
-  }
-
-  .guide-leaf {
-    padding: 30px 18px 34px;
-  }
-
-  .guide-heading h2 {
-    font-size: 3rem;
-  }
-
-  .guide-heading p {
-    font-size: .86rem;
-  }
-
-  .guide-facts li {
-    font-size: .74rem;
-  }
-
-  .rating-state {
-    grid-template-columns: 58px minmax(0, 1fr);
-  }
-
-  .state-seal,
-  body[data-theme="fracture"] .state-seal {
-    width: 56px;
-    height: 56px;
-  }
-
-  .progress-ledger dl {
-    margin-bottom: 12px;
-  }
-
-  .progress-ledger dt {
-    min-height: 30px;
   }
 
   .trainer-stage {
@@ -2379,6 +2304,18 @@ body[data-theme="fracture"] .color-emblem {
     display: grid;
     grid-template-columns: 1fr;
     margin-top: 12px;
+  }
+
+  .training-progress {
+    margin-top: 18px;
+  }
+
+  .training-progress-heading {
+    align-items: center;
+  }
+
+  .training-progress dl div {
+    padding-inline: 10px;
   }
 
   .page-heading,
@@ -2580,7 +2517,7 @@ body[data-theme="fracture"] .color-emblem {
     padding-top: 44px;
   }
 
-  .color-emblem {
+  .mana-symbol--section {
     width: 44px;
     height: 44px;
   }
@@ -2624,6 +2561,19 @@ body[data-theme="fracture"] .color-emblem {
     min-height: 20px;
     padding-inline: 5px;
     font-size: .58rem;
+  }
+
+  .card-preview {
+    width: calc(100% - 16px);
+  }
+
+  .card-preview-frame {
+    padding: 12px 48px 12px;
+  }
+
+  .card-preview-close {
+    top: 8px;
+    right: 8px;
   }
 
   .app-footer {

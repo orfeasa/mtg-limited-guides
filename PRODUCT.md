@@ -24,19 +24,20 @@ The product is a reusable preparation shelf rather than a generic stats dashboar
 
 ## Operating Context
 
-Used in the days before a prerelease or draft, alone or with friends. A player may study revealed cards, practise exact tiers, attempt deterministic pick drills, compare a few plausible cards, or browse the set. The interaction must work well with keyboard, mouse, and touch.
+Used in the days before a prerelease or draft, alone or with friends. A player may train exact-tier recall, attempt deterministic pick drills, or browse and enlarge cards from the set. The interaction must work well with keyboard, mouse, and touch.
 
 ## Capabilities and Constraints
 
 - Support multiple sets through a shared static data contract.
 - Give each set a distinct visual theme without changing the core navigation.
-- Make Study, Pick drill, Compare, and All cards the stable preparation modes.
+- Open the latest set by default while preserving direct links to any set.
+- Make Training, Pick drill, and All cards the stable preparation modes.
 - Keep rating-dependent answers locked when a complete, attributable Limited evaluation is unavailable.
 - Preserve deterministic challenge URLs so friends can attempt the same three-card choice.
-- Store preparation progress per set in browser-local storage; keep comparisons session-only.
-- Preserve the current study card, colour filter, exact-tier score, remaining queue, revealed answer, and requeued misses across browser sessions.
+- Store preparation progress per set in browser-local storage.
+- Preserve the current training card, colour filter, exact-tier score, remaining queue, revealed answer, and requeued misses across browser sessions.
 - Show attributable card-performance evidence after a Hobbit answer without exposing it before the guess.
-- Fuzzy, accent-insensitive name search.
+- Enlarge a card in place from All cards without changing views.
 - No cookies, analytics, account, backend, deck builder, or external runtime dependency.
 - Deploy as an atomic static release and remain useful if installed or revisited offline.
 - Preserve source attribution and capture dates for every ranking or preview snapshot.
