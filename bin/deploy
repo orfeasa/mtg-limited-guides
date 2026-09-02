@@ -40,6 +40,7 @@ git archive --format=tar HEAD public |
     }
     incoming=\$(mktemp -d \"\$releases/.\$release.incoming.XXXXXX\")
     tar -xf - -C \"\$incoming\" --strip-components=1
+    chmod 0755 \"\$incoming\"
     test -f \"\$incoming/index.html\"
     test -f \"\$incoming/app.js\"
     test -f \"\$incoming/data.js\"
