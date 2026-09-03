@@ -456,7 +456,6 @@
     const card = cardById.get(trainerCardId);
     if (!cardIsRated(card)) return;
     trainerRevealed = true;
-    elements.trainerIndex.textContent = `#${card.rank}`;
     elements.trainerAnswer.hidden = false;
     const result = trainerGuess === card.tier ? "Exact" : trainerGuess === null ? "Answer revealed" : `You chose ${escapeHtml(trainerGuess)}`;
     elements.trainerAnswer.innerHTML = `<div class="trainer-answer-heading"><strong>#${card.rank} · Tier ${escapeHtml(card.tier)}</strong><span>${result} · ${escapeHtml(bandLabels[card.band])}</span></div>${trainerEvidence(card)}`;
