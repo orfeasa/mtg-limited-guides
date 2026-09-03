@@ -69,7 +69,6 @@
     trainerInstruction: $("#trainer-instruction"),
     trainerColor: $("#trainer-color"),
     trainerImage: $("#trainer-image"),
-    trainerIndex: $("#trainer-index"),
     trainerName: $("#trainer-card-name"),
     trainerType: $("#trainer-card-type"),
     trainerOracle: $("#trainer-oracle"),
@@ -424,7 +423,6 @@
     elements.trainerName.textContent = card.name;
     elements.trainerType.textContent = card.typeLine || "";
     elements.trainerOracle.textContent = card.oracleText || "";
-    elements.trainerIndex.textContent = cardIsRated(card) ? `#${card.rank} hidden` : `${currentSet.code} #${card.collectorNumber || card.rank || "—"}`;
     elements.trainerAnswer.hidden = true;
     elements.trainerAnswer.replaceChildren();
     elements.gradeOptions.querySelectorAll("button").forEach((button) => {
@@ -550,7 +548,7 @@
     button.setAttribute("aria-label", `Choose ${name}, ${meta.rank}`);
     if (decisionChoice) button.disabled = true;
     const visual = meta.card
-      ? `<img src="${escapeHtml(meta.card.trainingImage || meta.card.image)}" alt="" width="188" height="264">`
+      ? `<img src="${escapeHtml(meta.card.trainingImage || meta.card.image)}" alt="" width="190" height="266">`
       : `<span class="decision-land" data-color="${meta.color}">${manaSymbol(meta.color, "mana-symbol--land")}<strong>${escapeHtml(name)}</strong><span>Basic land</span></span>`;
     button.innerHTML = `${visual}<span class="decision-card-copy"><strong>${escapeHtml(name)}</strong><span>${escapeHtml(meta.rank)}</span><span>${escapeHtml(meta.detail)}</span></span>`;
     return button;
@@ -566,7 +564,7 @@
       item.className = "pool-card";
       item.title = `${name} · ${meta.rank}`;
       item.innerHTML = meta.card
-        ? `<img src="${escapeHtml(meta.card.image)}" alt="" width="38" height="54"><span>${escapeHtml(name)}</span>${count > 1 ? `<strong>×${count}</strong>` : ""}`
+        ? `<img src="${escapeHtml(meta.card.image)}" alt="" width="40" height="56"><span>${escapeHtml(name)}</span>${count > 1 ? `<strong>×${count}</strong>` : ""}`
         : `${manaSymbol(meta.color, "mana-symbol--pool")}<span>${escapeHtml(name)}</span>${count > 1 ? `<strong>×${count}</strong>` : ""}`;
       return item;
     }));
@@ -717,7 +715,7 @@
         button.setAttribute("aria-label", `Enlarge ${card.name}`);
         const leading = card.rank ? `#${card.rank}` : `${currentSet.code} ${card.collectorNumber}`;
         const meta = card.tier ? `Tier ${card.tier}` : `${card.rarity || "Preview"}`;
-        button.innerHTML = `<img src="${escapeHtml(card.image)}" alt="" width="64" height="90"><span class="atlas-card-copy"><span class="atlas-card-rank">${escapeHtml(leading)}</span><strong>${escapeHtml(card.name)}</strong><span class="atlas-card-meta"><span class="tier ${card.tier ? "" : "tier-pending"}" style="--tier-color:${tierColors[card.tier] || tierColors["?"]}">${escapeHtml(card.tier || "Preview")}</span><span>${escapeHtml(meta)}</span></span></span>`;
+        button.innerHTML = `<img src="${escapeHtml(card.image)}" alt="" width="80" height="112"><span class="atlas-card-copy"><span class="atlas-card-rank">${escapeHtml(leading)}</span><strong>${escapeHtml(card.name)}</strong><span class="atlas-card-meta"><span class="tier ${card.tier ? "" : "tier-pending"}" style="--tier-color:${tierColors[card.tier] || tierColors["?"]}">${escapeHtml(card.tier || "Preview")}</span><span>${escapeHtml(meta)}</span></span></span>`;
         return button;
       }));
       section.append(grid);

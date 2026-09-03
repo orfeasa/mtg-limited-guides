@@ -752,7 +752,6 @@ body[data-theme="fracture"] .trainer-card::after {
 }
 
 .trainer-image-wrap {
-  position: relative;
   align-self: center;
   width: 100%;
   max-width: 280px;
@@ -763,8 +762,8 @@ body[data-theme="fracture"] .trainer-card::after {
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 125.3 / 176.4;
-  object-fit: cover;
+  aspect-ratio: auto 5 / 7;
+  object-fit: contain;
   border-radius: 8px;
   background: var(--surface-deep);
   box-shadow: 0 14px 35px rgba(8, 9, 16, .3);
@@ -773,20 +772,6 @@ body[data-theme="fracture"] .trainer-card::after {
 body[data-theme="fracture"] .trainer-image-wrap img {
   border-radius: 4px;
   box-shadow: -10px 14px 34px rgba(9, 9, 20, .32), 9px -7px 0 rgba(113, 71, 213, .12);
-}
-
-.trainer-index {
-  position: absolute;
-  right: -8px;
-  bottom: 12px;
-  padding: 6px 10px;
-  color: var(--binding-deep);
-  background: var(--metal-light);
-  border-radius: var(--control-radius) 0 0 var(--control-radius);
-  box-shadow: 0 5px 14px rgba(8, 9, 16, .22);
-  font-size: .7rem;
-  font-weight: 700;
-  font-variant-numeric: tabular-nums;
 }
 
 .trainer-copy {
@@ -1153,8 +1138,9 @@ body[data-theme="fracture"] .trainer-image-wrap img {
 .pool-card img {
   display: block;
   width: 34px;
-  aspect-ratio: 125.3 / 176.4;
-  object-fit: cover;
+  height: auto;
+  aspect-ratio: auto 5 / 7;
+  object-fit: contain;
   border-radius: 3px;
 }
 
@@ -1244,13 +1230,15 @@ body[data-theme="fracture"] .trainer-image-wrap img {
 .decision-land {
   display: block;
   width: 100%;
-  aspect-ratio: 125.3 / 176.4;
+  aspect-ratio: 5 / 7;
   border-radius: 8px;
   box-shadow: 0 11px 25px rgba(8, 9, 16, .3);
 }
 
 .decision-card img {
-  object-fit: cover;
+  height: auto;
+  aspect-ratio: auto 5 / 7;
+  object-fit: contain;
   background: var(--surface-deep);
 }
 
@@ -1570,8 +1558,9 @@ kbd {
 .card-thumb,
 .pack-item img,
 .atlas-card img {
-  aspect-ratio: 125.3 / 176.4;
-  object-fit: cover;
+  height: auto;
+  aspect-ratio: auto 5 / 7;
+  object-fit: contain;
   border-radius: 4px;
   background: var(--surface-deep);
   box-shadow: 0 5px 13px rgba(8, 9, 16, .2);
