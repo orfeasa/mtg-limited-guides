@@ -911,7 +911,6 @@ body[data-theme="fracture"] .trainer-image-wrap img {
 }
 
 .trainer-stat-ledger dt,
-.trainer-stat-note,
 .trainer-neighbours {
   color: var(--muted);
   font-size: .62rem;
@@ -925,7 +924,6 @@ body[data-theme="fracture"] .trainer-image-wrap img {
   font-weight: 700;
 }
 
-.trainer-stat-note,
 .trainer-neighbours {
   margin: 8px 0 0;
 }
@@ -2220,6 +2218,19 @@ body[data-theme="fracture"] .card-preview-copy h2 {
   margin: 0;
 }
 
+.footer-meta {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: baseline;
+  justify-content: flex-end;
+  gap: 12px;
+  text-align: right;
+}
+
+.footer-meta span {
+  white-space: nowrap;
+}
+
 .app-footer a:hover {
   color: var(--metal-light);
 }
@@ -2785,9 +2796,15 @@ body[data-theme="fracture"] .card-preview-copy h2 {
     text-align: center;
   }
 
-  .app-footer a {
-    display: inline-block;
+  .footer-meta {
+    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 8px;
+    text-align: center;
+  }
+
+  .app-footer a {
+    margin-top: 0;
   }
 }
 

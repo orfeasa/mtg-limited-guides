@@ -94,6 +94,7 @@
     colorNavigation: $("#color-navigation"),
     cardAtlas: $("#card-atlas"),
     footerSource: $("#footer-source"),
+    footerRefreshed: $("#footer-refreshed"),
     sourceLink: $("#source-link"),
     toast: $("#toast"),
     liveRegion: $("#live-region"),
@@ -329,16 +330,23 @@
   }
 
   function renderFooterSource() {
+    const refreshedAt = currentView === "decisions" && draftDecisionsAvailable()
+      ? currentSet.draftDecisions.capturedAt
+      : currentSet.stage === "preview"
+        ? currentSet.previewCapturedAt
+        : currentSet.performance?.capturedAt || currentSet.rating.capturedAt;
+    elements.footerRefreshed.textContent = refreshedAt ? `Last refreshed ${dateLabel(refreshedAt)}` : "";
+    elements.footerRefreshed.hidden = !refreshedAt;
+
     if (currentView === "decisions" && draftDecisionsAvailable()) {
       elements.footerSource.textContent = `${currentSet.draftDecisions.sourceName} real draft replay · ${currentSet.draftDecisions.format} · ${currentSet.draftDecisions.record} record`;
       elements.sourceLink.href = currentSet.draftDecisions.source;
       elements.sourceLink.textContent = "View draft replay";
       return;
     }
-    const sourceDate = currentSet.stage === "preview"
-      ? `Preview index synced ${dateLabel(currentSet.previewCapturedAt)}`
-      : `${currentSet.rating.source} pick order · ${currentSet.rating.rankRange} · ${currentSet.rating.archetype}${currentSet.performance ? ` · card evidence ${dateLabel(currentSet.performance.capturedAt)}` : ""}`;
-    elements.footerSource.textContent = sourceDate;
+    elements.footerSource.textContent = currentSet.stage === "preview"
+      ? currentSet.cardSource.label
+      : `${currentSet.rating.source} pick order · ${currentSet.rating.rankRange} · ${currentSet.rating.archetype}`;
     elements.sourceLink.href = currentSet.cardSource.url;
     elements.sourceLink.textContent = currentSet.stage === "preview" ? "View preview source" : "View ranking source";
   }
@@ -402,10 +410,7 @@
       cards.find((entry) => entry.rank === card.rank - 1),
       cards.find((entry) => entry.rank === card.rank + 1),
     ].filter(Boolean);
-    const evidence = currentSet.performance
-      ? `${escapeHtml(currentSet.performance.source)} · ${escapeHtml(dateLabel(currentSet.performance.capturedAt))}`
-      : "Observed card evidence";
-    return `<dl class="trainer-stat-ledger" aria-label="Card draft statistics"><div><dt>In-hand WR</dt><dd>${winRate}</dd></div><div><dt>Usually gone by</dt><dd>${lastOffered}</dd></div><div><dt>In-hand games</dt><dd>${games}</dd></div></dl><p class="trainer-stat-note">${evidence}. Rankings remain a baseline.</p>${neighbours.length ? `<p class="trainer-neighbours"><strong>Nearby:</strong> ${neighbours.map((entry) => `#${entry.rank} ${escapeHtml(entry.name)}`).join(" · ")}</p>` : ""}`;
+    return `<dl class="trainer-stat-ledger" aria-label="Card draft statistics"><div><dt>In-hand WR</dt><dd>${winRate}</dd></div><div><dt>Usually gone by</dt><dd>${lastOffered}</dd></div><div><dt>In-hand games</dt><dd>${games}</dd></div></dl>${neighbours.length ? `<p class="trainer-neighbours"><strong>Nearby:</strong> ${neighbours.map((entry) => `#${entry.rank} ${escapeHtml(entry.name)}`).join(" · ")}</p>` : ""}`;
   }
 
   function renderTrainer() {
