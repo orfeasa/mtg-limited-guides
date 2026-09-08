@@ -1,10 +1,54 @@
 {
   "set": "FRA",
   "source": "https://api.scryfall.com/cards/search?order=set&q=set%3Afra&unique=cards",
-  "capturedAt": "2026-09-08T11:08:31.108Z",
+  "capturedAt": "2026-09-08T23:33:33.863Z",
   "partial": true,
-  "count": 27,
+  "count": 75,
   "cards": [
+    {
+      "id": "730d8c28-1e58-4b8e-89e9-445d154d2e83",
+      "name": "Academic Ascent",
+      "collectorNumber": "2",
+      "color": "W",
+      "colors": [
+        "W"
+      ],
+      "manaCost": "{1}{W}",
+      "manaValue": 2,
+      "typeLine": "Instant",
+      "oracleText": "Target creature gets +2/+2 and gains flying until end of turn.\nEmpower Jace 2. (Put two loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")",
+      "rarity": "common",
+      "keywords": [
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/730d8c28-1e58-4b8e-89e9-445d154d2e83.jpg",
+      "trainingImage": "assets/cards-large/fra/730d8c28-1e58-4b8e-89e9-445d154d2e83.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/7/3/730d8c28-1e58-4b8e-89e9-445d154d2e83.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/7/3/730d8c28-1e58-4b8e-89e9-445d154d2e83.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/2/academic-ascent?utm_source=api"
+    },
+    {
+      "id": "6047b14c-91d5-4f8e-af3f-057a541e2546",
+      "name": "Campus Crier",
+      "collectorNumber": "4",
+      "color": "W",
+      "colors": [
+        "W"
+      ],
+      "manaCost": "{1}{W}",
+      "manaValue": 2,
+      "typeLine": "Creature — Human Advisor",
+      "oracleText": "{1}, Exile this card from your graveyard: Empower Jace 2. (Put two loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")",
+      "rarity": "common",
+      "keywords": [
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/6047b14c-91d5-4f8e-af3f-057a541e2546.jpg",
+      "trainingImage": "assets/cards-large/fra/6047b14c-91d5-4f8e-af3f-057a541e2546.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/6/0/6047b14c-91d5-4f8e-af3f-057a541e2546.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/6/0/6047b14c-91d5-4f8e-af3f-057a541e2546.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/4/campus-crier?utm_source=api"
+    },
     {
       "id": "483fcc58-cc6e-4452-a696-7b38e117c837",
       "name": "Enlightened Confidant",
@@ -51,6 +95,134 @@
       "scryfallUrl": "https://scryfall.com/card/fra/8/generous-revival?utm_source=api"
     },
     {
+      "id": "490dae91-94ce-42a9-a11f-6c5e77c4e486",
+      "name": "Loyal Tutor",
+      "collectorNumber": "14",
+      "color": "W",
+      "colors": [
+        "W"
+      ],
+      "manaCost": "{W}",
+      "manaValue": 1,
+      "typeLine": "Instant",
+      "oracleText": "Search your library for a planeswalker card, reveal it, then shuffle and put that card on top.",
+      "rarity": "rare",
+      "keywords": [],
+      "image": "assets/cards/fra/490dae91-94ce-42a9-a11f-6c5e77c4e486.jpg",
+      "trainingImage": "assets/cards-large/fra/490dae91-94ce-42a9-a11f-6c5e77c4e486.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/4/9/490dae91-94ce-42a9-a11f-6c5e77c4e486.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/4/9/490dae91-94ce-42a9-a11f-6c5e77c4e486.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/14/loyal-tutor?utm_source=api"
+    },
+    {
+      "id": "2f5345ae-4489-4d05-b2d5-c71285254f05",
+      "name": "Memory Trap",
+      "collectorNumber": "15",
+      "color": "W",
+      "colors": [
+        "W"
+      ],
+      "manaCost": "{2}{W}",
+      "manaValue": 3,
+      "typeLine": "Enchantment",
+      "oracleText": "When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.",
+      "rarity": "common",
+      "keywords": [],
+      "image": "assets/cards/fra/2f5345ae-4489-4d05-b2d5-c71285254f05.jpg",
+      "trainingImage": "assets/cards-large/fra/2f5345ae-4489-4d05-b2d5-c71285254f05.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/2/f/2f5345ae-4489-4d05-b2d5-c71285254f05.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/2/f/2f5345ae-4489-4d05-b2d5-c71285254f05.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/15/memory-trap?utm_source=api"
+    },
+    {
+      "id": "35000e93-85d3-44f8-976a-5918ee4c71e0",
+      "name": "Repurposed Enforcer",
+      "collectorNumber": "19",
+      "color": "W",
+      "colors": [
+        "W"
+      ],
+      "manaCost": "{1}{W}",
+      "manaValue": 2,
+      "typeLine": "Creature — Human Soldier",
+      "oracleText": "Whenever this creature attacks, empower Jace X, where X is the number of creatures you control. (Put that many loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")",
+      "rarity": "rare",
+      "keywords": [
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/35000e93-85d3-44f8-976a-5918ee4c71e0.jpg",
+      "trainingImage": "assets/cards-large/fra/35000e93-85d3-44f8-976a-5918ee4c71e0.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/3/5/35000e93-85d3-44f8-976a-5918ee4c71e0.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/3/5/35000e93-85d3-44f8-976a-5918ee4c71e0.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/19/repurposed-enforcer?utm_source=api"
+    },
+    {
+      "id": "9e72f397-2384-40f1-882b-f627664d97df",
+      "name": "Return to the Light Realms",
+      "collectorNumber": "20",
+      "color": "W",
+      "colors": [
+        "W"
+      ],
+      "manaCost": "{7}{W}{W}",
+      "manaValue": 9,
+      "typeLine": "Sorcery",
+      "oracleText": "Return all nonland permanent cards from your graveyard to the battlefield.",
+      "rarity": "mythic",
+      "keywords": [],
+      "image": "assets/cards/fra/9e72f397-2384-40f1-882b-f627664d97df.jpg",
+      "trainingImage": "assets/cards-large/fra/9e72f397-2384-40f1-882b-f627664d97df.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/9/e/9e72f397-2384-40f1-882b-f627664d97df.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/9/e/9e72f397-2384-40f1-882b-f627664d97df.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/20/return-to-the-light-realms?utm_source=api"
+    },
+    {
+      "id": "145b928d-a7ff-4fe5-ae4d-bbae7b1d955b",
+      "name": "Countersculpt",
+      "collectorNumber": "25",
+      "color": "U",
+      "colors": [
+        "U"
+      ],
+      "manaCost": "{U}{U}",
+      "manaValue": 2,
+      "typeLine": "Instant",
+      "oracleText": "As an additional cost to cast this spell, behold a Jace or pay {1}. (To behold a Jace, choose a Jace you control or reveal a Jace card from your hand.)\nCounter target spell. Empower Jace 1. (Put a loyalty counter on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")",
+      "rarity": "uncommon",
+      "keywords": [
+        "Behold",
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/145b928d-a7ff-4fe5-ae4d-bbae7b1d955b.jpg",
+      "trainingImage": "assets/cards-large/fra/145b928d-a7ff-4fe5-ae4d-bbae7b1d955b.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/1/4/145b928d-a7ff-4fe5-ae4d-bbae7b1d955b.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/1/4/145b928d-a7ff-4fe5-ae4d-bbae7b1d955b.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/25/countersculpt?utm_source=api"
+    },
+    {
+      "id": "0853bb80-8664-432a-8457-600139fd96d5",
+      "name": "Diviner of Victory // Unwind History",
+      "collectorNumber": "28",
+      "color": "U",
+      "colors": [
+        "U"
+      ],
+      "manaCost": "{U} // {1}{U}",
+      "manaValue": 1,
+      "typeLine": "Creature — Dwarf Wizard // Sorcery",
+      "oracleText": "Diviner of Victory — This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\nWhenever you scry or surveil, this creature gets +1/+1 until end of turn.\n\nUnwind History — Return target creature an opponent controls with mana value 3 or less to its owner's hand. Surveil 1.",
+      "rarity": "rare",
+      "keywords": [
+        "Prepared",
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/0853bb80-8664-432a-8457-600139fd96d5.jpg",
+      "trainingImage": "assets/cards-large/fra/0853bb80-8664-432a-8457-600139fd96d5.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/0/8/0853bb80-8664-432a-8457-600139fd96d5.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/0/8/0853bb80-8664-432a-8457-600139fd96d5.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/28/diviner-of-victory-unwind-history?utm_source=api"
+    },
+    {
       "id": "8d754b96-5e44-45af-9c7a-b0da59fbe4c3",
       "name": "Icy Reception",
       "collectorNumber": "30",
@@ -69,6 +241,28 @@
       "imageSource": "https://cards.scryfall.io/small/front/8/d/8d754b96-5e44-45af-9c7a-b0da59fbe4c3.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/8/d/8d754b96-5e44-45af-9c7a-b0da59fbe4c3.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/30/icy-reception?utm_source=api"
+    },
+    {
+      "id": "282588b9-3656-453b-aa25-2419e078ddc1",
+      "name": "Jace's Machinations",
+      "collectorNumber": "32",
+      "color": "U",
+      "colors": [
+        "U"
+      ],
+      "manaCost": "{2}{U}",
+      "manaValue": 3,
+      "typeLine": "Instant",
+      "oracleText": "Until end of turn, you may activate loyalty abilities of Jace planeswalkers you control on any player's turn any time you could cast an instant.\nEmpower Jace 8. (Put eight loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")",
+      "rarity": "rare",
+      "keywords": [
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/282588b9-3656-453b-aa25-2419e078ddc1.jpg",
+      "trainingImage": "assets/cards-large/fra/282588b9-3656-453b-aa25-2419e078ddc1.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/2/8/282588b9-3656-453b-aa25-2419e078ddc1.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/2/8/282588b9-3656-453b-aa25-2419e078ddc1.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/32/jaces-machinations?utm_source=api"
     },
     {
       "id": "d0ecae06-bc5a-4886-84df-c2900816f226",
@@ -91,6 +285,28 @@
       "scryfallUrl": "https://scryfall.com/card/fra/34/perfected-theory?utm_source=api"
     },
     {
+      "id": "a08c7ec2-4c6a-4db2-85a7-41afe8731523",
+      "name": "Protege's Awakening",
+      "collectorNumber": "37",
+      "color": "U",
+      "colors": [
+        "U"
+      ],
+      "manaCost": "{3}{U}",
+      "manaValue": 4,
+      "typeLine": "Sorcery",
+      "oracleText": "Empower Jace 6. (Put six loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")\nDraw a card.",
+      "rarity": "common",
+      "keywords": [
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/a08c7ec2-4c6a-4db2-85a7-41afe8731523.jpg",
+      "trainingImage": "assets/cards-large/fra/a08c7ec2-4c6a-4db2-85a7-41afe8731523.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/a/0/a08c7ec2-4c6a-4db2-85a7-41afe8731523.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/a/0/a08c7ec2-4c6a-4db2-85a7-41afe8731523.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/37/proteges-awakening?utm_source=api"
+    },
+    {
       "id": "20bb8c55-4b0b-425f-8201-b54fa2fdde86",
       "name": "The Theorist, Jace Beleren",
       "collectorNumber": "43",
@@ -109,6 +325,29 @@
       "imageSource": "https://cards.scryfall.io/small/front/2/0/20bb8c55-4b0b-425f-8201-b54fa2fdde86.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/2/0/20bb8c55-4b0b-425f-8201-b54fa2fdde86.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/43/the-theorist-jace-beleren?utm_source=api"
+    },
+    {
+      "id": "710302ca-c4be-4069-8ce1-f531414c74e9",
+      "name": "Theorist's Proxy",
+      "collectorNumber": "44",
+      "color": "U",
+      "colors": [
+        "U"
+      ],
+      "manaCost": "{1}{U}",
+      "manaValue": 2,
+      "typeLine": "Creature — Illusion",
+      "oracleText": "Flash\nWhen this creature enters, empower Jace 3. (Put three loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")\n{U}, Sacrifice this creature: The next spell you cast this turn can't be countered.",
+      "rarity": "rare",
+      "keywords": [
+        "Flash",
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/710302ca-c4be-4069-8ce1-f531414c74e9.jpg",
+      "trainingImage": "assets/cards-large/fra/710302ca-c4be-4069-8ce1-f531414c74e9.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/7/1/710302ca-c4be-4069-8ce1-f531414c74e9.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/7/1/710302ca-c4be-4069-8ce1-f531414c74e9.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/44/theorists-proxy?utm_source=api"
     },
     {
       "id": "4fcc913e-f736-460a-b24b-022fa2e861b9",
@@ -153,6 +392,50 @@
       "scryfallUrl": "https://scryfall.com/card/fra/51/cast-away-doubt?utm_source=api"
     },
     {
+      "id": "453cfde7-c460-4b55-9472-b714e16f24bb",
+      "name": "Rewrite Regrets",
+      "collectorNumber": "62",
+      "color": "B",
+      "colors": [
+        "B"
+      ],
+      "manaCost": "{3}{B}",
+      "manaValue": 4,
+      "typeLine": "Sorcery",
+      "oracleText": "Return target creature or planeswalker card with mana value 6 or less from your graveyard to the battlefield.\nEmpower Jace 2. (Put two loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[-1]: Surveil 1\" and \"[-3]: Draw a card.\")",
+      "rarity": "uncommon",
+      "keywords": [
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/453cfde7-c460-4b55-9472-b714e16f24bb.jpg",
+      "trainingImage": "assets/cards-large/fra/453cfde7-c460-4b55-9472-b714e16f24bb.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/4/5/453cfde7-c460-4b55-9472-b714e16f24bb.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/4/5/453cfde7-c460-4b55-9472-b714e16f24bb.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/62/rewrite-regrets?utm_source=api"
+    },
+    {
+      "id": "7beaa8c9-1a2c-4c88-b579-91e371d8d9e3",
+      "name": "Solve for Disappointment",
+      "collectorNumber": "67",
+      "color": "B",
+      "colors": [
+        "B"
+      ],
+      "manaCost": "{1}{B}",
+      "manaValue": 2,
+      "typeLine": "Sorcery",
+      "oracleText": "Target opponent reveals their hand. You choose a nonland permanent card from it. That player discards that card.\nEmpower Jace 1. (Put a loyalty counter on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")",
+      "rarity": "common",
+      "keywords": [
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/7beaa8c9-1a2c-4c88-b579-91e371d8d9e3.jpg",
+      "trainingImage": "assets/cards-large/fra/7beaa8c9-1a2c-4c88-b579-91e371d8d9e3.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/7/b/7beaa8c9-1a2c-4c88-b579-91e371d8d9e3.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/7/b/7beaa8c9-1a2c-4c88-b579-91e371d8d9e3.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/67/solve-for-disappointment?utm_source=api"
+    },
+    {
       "id": "47793a51-08c6-4ad2-a7e5-a4484d83a5cd",
       "name": "Craterclaw Colossus",
       "collectorNumber": "78",
@@ -173,6 +456,51 @@
       "imageSource": "https://cards.scryfall.io/small/front/4/7/47793a51-08c6-4ad2-a7e5-a4484d83a5cd.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/4/7/47793a51-08c6-4ad2-a7e5-a4484d83a5cd.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/78/craterclaw-colossus?utm_source=api"
+    },
+    {
+      "id": "11ba4fdd-cc03-4bb6-a493-91a9785771d0",
+      "name": "No Admittance",
+      "collectorNumber": "89",
+      "color": "R",
+      "colors": [
+        "R"
+      ],
+      "manaCost": "{1}{R}",
+      "manaValue": 2,
+      "typeLine": "Sorcery",
+      "oracleText": "No Admittance deals 3 damage to any target.\nEmpower Jace 1. (Put a loyalty counter on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")",
+      "rarity": "common",
+      "keywords": [
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/11ba4fdd-cc03-4bb6-a493-91a9785771d0.jpg",
+      "trainingImage": "assets/cards-large/fra/11ba4fdd-cc03-4bb6-a493-91a9785771d0.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/1/1/11ba4fdd-cc03-4bb6-a493-91a9785771d0.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/1/1/11ba4fdd-cc03-4bb6-a493-91a9785771d0.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/89/no-admittance?utm_source=api"
+    },
+    {
+      "id": "aa0f77ac-741a-444a-8bf0-a42c644726bf",
+      "name": "Pompous Battlemage // Improvised Act",
+      "collectorNumber": "90",
+      "color": "R",
+      "colors": [
+        "R"
+      ],
+      "manaCost": "{R} // {R}",
+      "manaValue": 1,
+      "typeLine": "Creature — Goblin Sorcerer // Sorcery",
+      "oracleText": "Pompous Battlemage — Prowess\nThis creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\n\nImprovised Act — You may discard a card. If you do, draw a card.",
+      "rarity": "rare",
+      "keywords": [
+        "Prepared",
+        "Prowess"
+      ],
+      "image": "assets/cards/fra/aa0f77ac-741a-444a-8bf0-a42c644726bf.jpg",
+      "trainingImage": "assets/cards-large/fra/aa0f77ac-741a-444a-8bf0-a42c644726bf.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/a/a/aa0f77ac-741a-444a-8bf0-a42c644726bf.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/a/a/aa0f77ac-741a-444a-8bf0-a42c644726bf.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/90/pompous-battlemage-improvised-act?utm_source=api"
     },
     {
       "id": "2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460",
@@ -197,6 +525,29 @@
       "scryfallUrl": "https://scryfall.com/card/fra/93/stingcaster-mage?utm_source=api"
     },
     {
+      "id": "1bf923c4-f0b7-4271-978c-fd2e79fe1cc8",
+      "name": "Arcane Amphisbaena",
+      "collectorNumber": "97",
+      "color": "G",
+      "colors": [
+        "G"
+      ],
+      "manaCost": "{1}{G}",
+      "manaValue": 2,
+      "typeLine": "Creature — Snake",
+      "oracleText": "Deathtouch\nWhen this creature enters, empower Jace 2. (Put two loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")",
+      "rarity": "common",
+      "keywords": [
+        "Surveil",
+        "Deathtouch"
+      ],
+      "image": "assets/cards/fra/1bf923c4-f0b7-4271-978c-fd2e79fe1cc8.jpg",
+      "trainingImage": "assets/cards-large/fra/1bf923c4-f0b7-4271-978c-fd2e79fe1cc8.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/1/b/1bf923c4-f0b7-4271-978c-fd2e79fe1cc8.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/1/b/1bf923c4-f0b7-4271-978c-fd2e79fe1cc8.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/97/arcane-amphisbaena?utm_source=api"
+    },
+    {
       "id": "bd32d736-7a58-46b9-90b4-2cac3c3e80a1",
       "name": "Compel Brutality",
       "collectorNumber": "101",
@@ -215,6 +566,139 @@
       "imageSource": "https://cards.scryfall.io/small/front/b/d/bd32d736-7a58-46b9-90b4-2cac3c3e80a1.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/b/d/bd32d736-7a58-46b9-90b4-2cac3c3e80a1.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/101/compel-brutality?utm_source=api"
+    },
+    {
+      "id": "9a446cae-e93c-4574-8ffd-7688f9729a8a",
+      "name": "Hexhaven Invigorator",
+      "collectorNumber": "106",
+      "color": "G",
+      "colors": [
+        "G"
+      ],
+      "manaCost": "{G}{G}{G}{G}",
+      "manaValue": 4,
+      "typeLine": "Creature — Chimera Horror",
+      "oracleText": "Vigilance\nWhenever this creature is dealt damage, you may search your library for up to that many land cards, put them onto the battlefield tapped, then shuffle.",
+      "rarity": "mythic",
+      "keywords": [
+        "Vigilance"
+      ],
+      "image": "assets/cards/fra/9a446cae-e93c-4574-8ffd-7688f9729a8a.jpg",
+      "trainingImage": "assets/cards-large/fra/9a446cae-e93c-4574-8ffd-7688f9729a8a.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/9/a/9a446cae-e93c-4574-8ffd-7688f9729a8a.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/9/a/9a446cae-e93c-4574-8ffd-7688f9729a8a.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/106/hexhaven-invigorator?utm_source=api"
+    },
+    {
+      "id": "073f4998-a204-447b-93d5-746ae87fd6a1",
+      "name": "Inspired Tethermage",
+      "collectorNumber": "109",
+      "color": "G",
+      "colors": [
+        "G"
+      ],
+      "manaCost": "{2}{G}",
+      "manaValue": 3,
+      "typeLine": "Creature — Elf Warrior",
+      "oracleText": "Whenever you put one or more loyalty counters on a planeswalker, put a +1/+1 counter on this creature.\n{6}: Empower Jace 2. (Put two loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")",
+      "rarity": "common",
+      "keywords": [
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/073f4998-a204-447b-93d5-746ae87fd6a1.jpg",
+      "trainingImage": "assets/cards-large/fra/073f4998-a204-447b-93d5-746ae87fd6a1.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/0/7/073f4998-a204-447b-93d5-746ae87fd6a1.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/0/7/073f4998-a204-447b-93d5-746ae87fd6a1.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/109/inspired-tethermage?utm_source=api"
+    },
+    {
+      "id": "3546b93b-a7d1-451d-a369-22cc8ddcd00d",
+      "name": "Restore with Empathy",
+      "collectorNumber": "112",
+      "color": "G",
+      "colors": [
+        "G"
+      ],
+      "manaCost": "{2}{G}",
+      "manaValue": 3,
+      "typeLine": "Instant",
+      "oracleText": "Return target permanent card from your graveyard to your hand. You gain 4 life.",
+      "rarity": "uncommon",
+      "keywords": [],
+      "image": "assets/cards/fra/3546b93b-a7d1-451d-a369-22cc8ddcd00d.jpg",
+      "trainingImage": "assets/cards-large/fra/3546b93b-a7d1-451d-a369-22cc8ddcd00d.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/3/5/3546b93b-a7d1-451d-a369-22cc8ddcd00d.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/3/5/3546b93b-a7d1-451d-a369-22cc8ddcd00d.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/112/restore-with-empathy?utm_source=api"
+    },
+    {
+      "id": "02ee7817-40af-4fcf-a2df-eb218b669281",
+      "name": "Something Worth Saving",
+      "collectorNumber": "114",
+      "color": "G",
+      "colors": [
+        "G"
+      ],
+      "manaCost": "{1}{G}",
+      "manaValue": 2,
+      "typeLine": "Instant",
+      "oracleText": "Mill four cards. You may put a permanent card from among them into your hand. You gain 1 life. (To mill four cards, put the top four cards of your library into your graveyard.)",
+      "rarity": "common",
+      "keywords": [
+        "Mill"
+      ],
+      "image": "assets/cards/fra/02ee7817-40af-4fcf-a2df-eb218b669281.jpg",
+      "trainingImage": "assets/cards-large/fra/02ee7817-40af-4fcf-a2df-eb218b669281.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/0/2/02ee7817-40af-4fcf-a2df-eb218b669281.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/0/2/02ee7817-40af-4fcf-a2df-eb218b669281.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/114/something-worth-saving?utm_source=api"
+    },
+    {
+      "id": "f17d2792-b075-4c47-ad38-e7a7eaee5f8c",
+      "name": "Aerid Konstrari",
+      "collectorNumber": "121",
+      "color": "M",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "manaCost": "{1}{R}{G}{G}",
+      "manaValue": 4,
+      "typeLine": "Legendary Creature — Elder Sphinx",
+      "oracleText": "Flying\nWhen Aerid Konstrari enters or dies, create a Heartwood token. (It's a red and green artifact with \"{T}: Add {R} or {G}.\")\n{6}: Create a Heartwood token. Then Aerid Konstrari gets +X/+0 until end of turn, where X is the number of artifacts you control.",
+      "rarity": "mythic",
+      "keywords": [
+        "Flying"
+      ],
+      "image": "assets/cards/fra/f17d2792-b075-4c47-ad38-e7a7eaee5f8c.jpg",
+      "trainingImage": "assets/cards-large/fra/f17d2792-b075-4c47-ad38-e7a7eaee5f8c.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/f/1/f17d2792-b075-4c47-ad38-e7a7eaee5f8c.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/f/1/f17d2792-b075-4c47-ad38-e7a7eaee5f8c.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/121/aerid-konstrari?utm_source=api"
+    },
+    {
+      "id": "5905995b-7a20-4602-a7cc-90aa5089a082",
+      "name": "Avatar of Burgeoning Echoes",
+      "collectorNumber": "122",
+      "color": "M",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "manaCost": "{G}{U}",
+      "manaValue": 2,
+      "typeLine": "Creature — Avatar",
+      "oracleText": "Landfall — Whenever a land you control enters, empower Jace 2. (Put two loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")\nPlaneswalkers you control have \"[−10]: Put a +1/+1 counter on target creature for each land you control.\"",
+      "rarity": "mythic",
+      "keywords": [
+        "Landfall",
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/5905995b-7a20-4602-a7cc-90aa5089a082.jpg",
+      "trainingImage": "assets/cards-large/fra/5905995b-7a20-4602-a7cc-90aa5089a082.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/5/9/5905995b-7a20-4602-a7cc-90aa5089a082.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/5/9/5905995b-7a20-4602-a7cc-90aa5089a082.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/122/avatar-of-burgeoning-echoes?utm_source=api"
     },
     {
       "id": "87b40df5-5c0a-41f5-a09c-a04f17066a91",
@@ -236,6 +720,100 @@
       "imageSource": "https://cards.scryfall.io/small/front/8/7/87b40df5-5c0a-41f5-a09c-a04f17066a91.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/8/7/87b40df5-5c0a-41f5-a09c-a04f17066a91.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/125/charge-the-sanctum?utm_source=api"
+    },
+    {
+      "id": "b61bcef7-5832-45e6-a2bc-26d4f23707fc",
+      "name": "Clash of Elements",
+      "collectorNumber": "126",
+      "color": "M",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "manaCost": "{1}{U}{R}",
+      "manaValue": 3,
+      "typeLine": "Instant",
+      "oracleText": "Choose target nonland permanent. Its owner may put it on the top of their library. If they do, Clash of Elements deals 2 damage to them. If they didn't put the card on top of their library, they put it on the bottom.",
+      "rarity": "uncommon",
+      "keywords": [],
+      "image": "assets/cards/fra/b61bcef7-5832-45e6-a2bc-26d4f23707fc.jpg",
+      "trainingImage": "assets/cards-large/fra/b61bcef7-5832-45e6-a2bc-26d4f23707fc.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/b/6/b61bcef7-5832-45e6-a2bc-26d4f23707fc.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/b/6/b61bcef7-5832-45e6-a2bc-26d4f23707fc.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/126/clash-of-elements?utm_source=api"
+    },
+    {
+      "id": "986f9e98-9d8d-428b-9187-860745cf3269",
+      "name": "Denzilore Fatehold",
+      "collectorNumber": "128",
+      "color": "M",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "manaCost": "{1}{W}{U}{U}",
+      "manaValue": 4,
+      "typeLine": "Legendary Creature — Elder Sphinx",
+      "oracleText": "Flash\nFlying\nWhenever you scry or surveil, put a +1/+1 counter on each creature you control.",
+      "rarity": "mythic",
+      "keywords": [
+        "Flying",
+        "Flash"
+      ],
+      "image": "assets/cards/fra/986f9e98-9d8d-428b-9187-860745cf3269.jpg",
+      "trainingImage": "assets/cards-large/fra/986f9e98-9d8d-428b-9187-860745cf3269.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/9/8/986f9e98-9d8d-428b-9187-860745cf3269.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/9/8/986f9e98-9d8d-428b-9187-860745cf3269.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/128/denzilore-fatehold?utm_source=api"
+    },
+    {
+      "id": "6471b135-33a8-4005-9a07-ebb74e0bf145",
+      "name": "Ingris Stingerquill",
+      "collectorNumber": "137",
+      "color": "M",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "manaCost": "{B}{R}{R}",
+      "manaValue": 3,
+      "typeLine": "Legendary Creature — Elder Sphinx",
+      "oracleText": "Flying\nWhenever a creature you control attacks, that creature deals 1 damage to each opponent.\n{4}: Create a 2/2 colorless Wizard Soldier creature token named Cadet. Then creatures you control gain haste until end of turn.",
+      "rarity": "mythic",
+      "keywords": [
+        "Flying"
+      ],
+      "image": "assets/cards/fra/6471b135-33a8-4005-9a07-ebb74e0bf145.jpg",
+      "trainingImage": "assets/cards-large/fra/6471b135-33a8-4005-9a07-ebb74e0bf145.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/6/4/6471b135-33a8-4005-9a07-ebb74e0bf145.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/6/4/6471b135-33a8-4005-9a07-ebb74e0bf145.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/137/ingris-stingerquill?utm_source=api"
+    },
+    {
+      "id": "2d6ff182-a853-4898-895b-072c89324ca7",
+      "name": "Kwia Vigorbloom",
+      "collectorNumber": "140",
+      "color": "M",
+      "colors": [
+        "G",
+        "W"
+      ],
+      "manaCost": "{3}{G}{W}{W}",
+      "manaValue": 6,
+      "typeLine": "Legendary Creature — Elder Sphinx",
+      "oracleText": "Flying, vigilance, lifelink, ward {2}\nWhenever you gain life, create a colorless artifact token named Lotus with \"{T}, Sacrifice this token: Add three mana of any one color.\" This ability triggers only once each turn.",
+      "rarity": "mythic",
+      "keywords": [
+        "Flying",
+        "Lifelink",
+        "Vigilance",
+        "Ward"
+      ],
+      "image": "assets/cards/fra/2d6ff182-a853-4898-895b-072c89324ca7.jpg",
+      "trainingImage": "assets/cards-large/fra/2d6ff182-a853-4898-895b-072c89324ca7.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/2/d/2d6ff182-a853-4898-895b-072c89324ca7.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/2/d/2d6ff182-a853-4898-895b-072c89324ca7.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/140/kwia-vigorbloom?utm_source=api"
     },
     {
       "id": "e61b9d48-0ace-4453-afe0-a1024444bac0",
@@ -330,6 +908,52 @@
       "scryfallUrl": "https://scryfall.com/card/fra/151/stingerquill-voxmancer-vicious-verse?utm_source=api"
     },
     {
+      "id": "b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b",
+      "name": "Tam's Resistance",
+      "collectorNumber": "153",
+      "color": "M",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "manaCost": "{1}{G/U}",
+      "manaValue": 2,
+      "typeLine": "Sorcery",
+      "oracleText": "Put a +1/+1 counter on up to one target creature. It gains vigilance until end of turn.\nEmpower Jace 4. (Put four loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")",
+      "rarity": "common",
+      "keywords": [
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b.jpg",
+      "trainingImage": "assets/cards-large/fra/b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/b/3/b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/b/3/b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/153/tams-resistance?utm_source=api"
+    },
+    {
+      "id": "a7ad622a-42ff-48fa-ae95-12e0a5bd9387",
+      "name": "Uldaros Theorix",
+      "collectorNumber": "159",
+      "color": "M",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "manaCost": "{3}{U}{B}{B}",
+      "manaValue": 6,
+      "typeLine": "Legendary Creature — Elder Sphinx",
+      "oracleText": "Flying\nWhen Uldaros Theorix enters, if you cast him, exile up to one target nonland card of each card type from your graveyard. Copy those cards. You may cast any number of spells with total mana value 6 or less from among the copies without paying their mana costs. (Permanent spells cast this way become tokens.)",
+      "rarity": "mythic",
+      "keywords": [
+        "Flying"
+      ],
+      "image": "assets/cards/fra/a7ad622a-42ff-48fa-ae95-12e0a5bd9387.jpg",
+      "trainingImage": "assets/cards-large/fra/a7ad622a-42ff-48fa-ae95-12e0a5bd9387.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/a/7/a7ad622a-42ff-48fa-ae95-12e0a5bd9387.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/a/7/a7ad622a-42ff-48fa-ae95-12e0a5bd9387.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/159/uldaros-theorix?utm_source=api"
+    },
+    {
       "id": "acefc515-bf97-4dc0-b0f7-ae8ae5a61671",
       "name": "Vigorbloom Vanguard // Seed Suture",
       "collectorNumber": "161",
@@ -376,6 +1000,153 @@
       "scryfallUrl": "https://scryfall.com/card/fra/165/woodwork-prodigy-soul-tether?utm_source=api"
     },
     {
+      "id": "b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0",
+      "name": "Keeper of the Quiet Hour",
+      "collectorNumber": "171",
+      "color": "C",
+      "colors": [],
+      "manaCost": "{3}",
+      "manaValue": 3,
+      "typeLine": "Artifact Creature — Chimera",
+      "oracleText": "When this creature enters, empower Jace 2. (Put two loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")",
+      "rarity": "common",
+      "keywords": [
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0.jpg",
+      "trainingImage": "assets/cards-large/fra/b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/b/6/b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/b/6/b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/171/keeper-of-the-quiet-hour?utm_source=api"
+    },
+    {
+      "id": "56dae4c4-3e71-4a32-979b-4e26d9c9e96c",
+      "name": "Deserted Beach",
+      "collectorNumber": "176",
+      "color": "M",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "manaCost": "",
+      "manaValue": 0,
+      "typeLine": "Land",
+      "oracleText": "This land enters tapped unless you control two or more other lands.\n{T}: Add {W} or {U}.",
+      "rarity": "rare",
+      "keywords": [],
+      "image": "assets/cards/fra/56dae4c4-3e71-4a32-979b-4e26d9c9e96c.jpg",
+      "trainingImage": "assets/cards-large/fra/56dae4c4-3e71-4a32-979b-4e26d9c9e96c.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/5/6/56dae4c4-3e71-4a32-979b-4e26d9c9e96c.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/5/6/56dae4c4-3e71-4a32-979b-4e26d9c9e96c.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/176/deserted-beach?utm_source=api"
+    },
+    {
+      "id": "a4e4966b-8963-4fac-a8bf-e778e063c7dd",
+      "name": "Haunted Ridge",
+      "collectorNumber": "180",
+      "color": "M",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "manaCost": "",
+      "manaValue": 0,
+      "typeLine": "Land",
+      "oracleText": "This land enters tapped unless you control two or more other lands.\n{T}: Add {B} or {R}.",
+      "rarity": "rare",
+      "keywords": [],
+      "image": "assets/cards/fra/a4e4966b-8963-4fac-a8bf-e778e063c7dd.jpg",
+      "trainingImage": "assets/cards-large/fra/a4e4966b-8963-4fac-a8bf-e778e063c7dd.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/a/4/a4e4966b-8963-4fac-a8bf-e778e063c7dd.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/a/4/a4e4966b-8963-4fac-a8bf-e778e063c7dd.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/180/haunted-ridge?utm_source=api"
+    },
+    {
+      "id": "178e61e4-472f-42cd-9d3b-4880c2acc527",
+      "name": "Overgrown Farmland",
+      "collectorNumber": "185",
+      "color": "M",
+      "colors": [
+        "G",
+        "W"
+      ],
+      "manaCost": "",
+      "manaValue": 0,
+      "typeLine": "Land",
+      "oracleText": "This land enters tapped unless you control two or more other lands.\n{T}: Add {G} or {W}.",
+      "rarity": "rare",
+      "keywords": [],
+      "image": "assets/cards/fra/178e61e4-472f-42cd-9d3b-4880c2acc527.jpg",
+      "trainingImage": "assets/cards-large/fra/178e61e4-472f-42cd-9d3b-4880c2acc527.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/1/7/178e61e4-472f-42cd-9d3b-4880c2acc527.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/1/7/178e61e4-472f-42cd-9d3b-4880c2acc527.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/185/overgrown-farmland?utm_source=api"
+    },
+    {
+      "id": "e3c8a8b6-23ba-45ad-80d1-8e2dc79897f7",
+      "name": "Rockfall Vale",
+      "collectorNumber": "186",
+      "color": "M",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "manaCost": "",
+      "manaValue": 0,
+      "typeLine": "Land",
+      "oracleText": "This land enters tapped unless you control two or more other lands.\n{T}: Add {R} or {G}.",
+      "rarity": "rare",
+      "keywords": [],
+      "image": "assets/cards/fra/e3c8a8b6-23ba-45ad-80d1-8e2dc79897f7.jpg",
+      "trainingImage": "assets/cards-large/fra/e3c8a8b6-23ba-45ad-80d1-8e2dc79897f7.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/e/3/e3c8a8b6-23ba-45ad-80d1-8e2dc79897f7.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/e/3/e3c8a8b6-23ba-45ad-80d1-8e2dc79897f7.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/186/rockfall-vale?utm_source=api"
+    },
+    {
+      "id": "9e944c5b-68ac-4a30-bbd4-09a4288319ce",
+      "name": "Shipwreck Marsh",
+      "collectorNumber": "189",
+      "color": "M",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "manaCost": "",
+      "manaValue": 0,
+      "typeLine": "Land",
+      "oracleText": "This land enters tapped unless you control two or more other lands.\n{T}: Add {U} or {B}.",
+      "rarity": "rare",
+      "keywords": [],
+      "image": "assets/cards/fra/9e944c5b-68ac-4a30-bbd4-09a4288319ce.jpg",
+      "trainingImage": "assets/cards-large/fra/9e944c5b-68ac-4a30-bbd4-09a4288319ce.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/9/e/9e944c5b-68ac-4a30-bbd4-09a4288319ce.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/9/e/9e944c5b-68ac-4a30-bbd4-09a4288319ce.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/189/shipwreck-marsh?utm_source=api"
+    },
+    {
+      "id": "22db5bba-46c9-4a26-821d-303ddb386ea4",
+      "name": "Theorist's Sanctum",
+      "collectorNumber": "191",
+      "color": "U",
+      "colors": [
+        "U"
+      ],
+      "manaCost": "",
+      "manaValue": 0,
+      "typeLine": "Land — Island",
+      "oracleText": "({T}: Add {U}.)\nAs this land enters, you may behold a Jace. If you don't, this land enters tapped. (To behold a Jace, choose a Jace you control or reveal a Jace card from your hand.)\n{2}{U}, {T}: Empower Jace 2.",
+      "rarity": "rare",
+      "keywords": [
+        "Behold"
+      ],
+      "image": "assets/cards/fra/22db5bba-46c9-4a26-821d-303ddb386ea4.jpg",
+      "trainingImage": "assets/cards-large/fra/22db5bba-46c9-4a26-821d-303ddb386ea4.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/2/2/22db5bba-46c9-4a26-821d-303ddb386ea4.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/2/2/22db5bba-46c9-4a26-821d-303ddb386ea4.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/191/theorists-sanctum?utm_source=api"
+    },
+    {
       "id": "a5e1a7dd-8c49-4435-935c-bcc78704082b",
       "name": "Ajani Resolute",
       "collectorNumber": "195",
@@ -394,6 +1165,26 @@
       "imageSource": "https://cards.scryfall.io/small/front/a/5/a5e1a7dd-8c49-4435-935c-bcc78704082b.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/a/5/a5e1a7dd-8c49-4435-935c-bcc78704082b.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/195/ajani-resolute?utm_source=api"
+    },
+    {
+      "id": "a9f3aa55-908f-42db-8135-4201433df850",
+      "name": "Ghalta the Immovable",
+      "collectorNumber": "197",
+      "color": "W",
+      "colors": [
+        "W"
+      ],
+      "manaCost": "{8}{W}",
+      "manaValue": 9,
+      "typeLine": "Legendary Creature — Elder Dinosaur",
+      "oracleText": "This spell costs {X} less to cast, where X is the greatest toughness among creatures you control.\nCreatures you control can attack as though they didn't have defender.\nEach creature you control with toughness greater than its power assigns combat damage equal to its toughness rather than its power.",
+      "rarity": "uncommon",
+      "keywords": [],
+      "image": "assets/cards/fra/a9f3aa55-908f-42db-8135-4201433df850.jpg",
+      "trainingImage": "assets/cards-large/fra/a9f3aa55-908f-42db-8135-4201433df850.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/a/9/a9f3aa55-908f-42db-8135-4201433df850.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/a/9/a9f3aa55-908f-42db-8135-4201433df850.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/197/ghalta-the-immovable?utm_source=api"
     },
     {
       "id": "70d8c400-87dc-4f15-808f-e54a95d779fc",
@@ -436,6 +1227,28 @@
       "imageSource": "https://cards.scryfall.io/small/front/2/4/240f58ab-944c-4f4c-9df9-5f40b132bf3e.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/2/4/240f58ab-944c-4f4c-9df9-5f40b132bf3e.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/212/chandra-chill-of-compliance?utm_source=api"
+    },
+    {
+      "id": "838b0efb-7398-4df9-8fdf-b8af43b47938",
+      "name": "Way of the Cryomancer",
+      "collectorNumber": "223",
+      "color": "U",
+      "colors": [
+        "U"
+      ],
+      "manaCost": "{2}{U}",
+      "manaValue": 3,
+      "typeLine": "Legendary Enchantment",
+      "oracleText": "When Way of the Cryomancer enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")\nPlaneswalkers you control have \"[−3]: When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.\"",
+      "rarity": "uncommon",
+      "keywords": [
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/838b0efb-7398-4df9-8fdf-b8af43b47938.jpg",
+      "trainingImage": "assets/cards-large/fra/838b0efb-7398-4df9-8fdf-b8af43b47938.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/8/3/838b0efb-7398-4df9-8fdf-b8af43b47938.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/8/3/838b0efb-7398-4df9-8fdf-b8af43b47938.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/223/way-of-the-cryomancer?utm_source=api"
     },
     {
       "id": "d48bfb8a-d135-45f3-be99-4694b4b9ab93",
@@ -541,6 +1354,50 @@
       "scryfallUrl": "https://scryfall.com/card/fra/244/chandra-torch-of-defiance?utm_source=api"
     },
     {
+      "id": "e8c1ce21-b77d-40bf-9ed1-478604e71f5f",
+      "name": "Jiang Yanggu, Alone",
+      "collectorNumber": "246",
+      "color": "R",
+      "colors": [
+        "R"
+      ],
+      "manaCost": "{4}{R}",
+      "manaValue": 5,
+      "typeLine": "Legendary Creature — Human Berserker",
+      "oracleText": "Menace (This creature can't be blocked except by two or more creatures.)\nWhenever a creature you control attacks a player alone, discard a card, then draw a card. Then put a +1/+1 counter on that creature for each card you've discarded this turn.",
+      "rarity": "uncommon",
+      "keywords": [
+        "Menace"
+      ],
+      "image": "assets/cards/fra/e8c1ce21-b77d-40bf-9ed1-478604e71f5f.jpg",
+      "trainingImage": "assets/cards-large/fra/e8c1ce21-b77d-40bf-9ed1-478604e71f5f.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/e/8/e8c1ce21-b77d-40bf-9ed1-478604e71f5f.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/e/8/e8c1ce21-b77d-40bf-9ed1-478604e71f5f.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/246/jiang-yanggu-alone?utm_source=api"
+    },
+    {
+      "id": "c1a00020-7c14-4503-a057-5763704bb83e",
+      "name": "Way of the Pyromancer",
+      "collectorNumber": "254",
+      "color": "R",
+      "colors": [
+        "R"
+      ],
+      "manaCost": "{1}{R}",
+      "manaValue": 2,
+      "typeLine": "Legendary Enchantment",
+      "oracleText": "When Way of the Pyromancer enters, empower Jace 2. (Put two loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")\nPlaneswalkers you control have \"[+1]: Add {R}.\"",
+      "rarity": "uncommon",
+      "keywords": [
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/c1a00020-7c14-4503-a057-5763704bb83e.jpg",
+      "trainingImage": "assets/cards-large/fra/c1a00020-7c14-4503-a057-5763704bb83e.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/c/1/c1a00020-7c14-4503-a057-5763704bb83e.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/c/1/c1a00020-7c14-4503-a057-5763704bb83e.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/254/way-of-the-pyromancer?utm_source=api"
+    },
+    {
       "id": "90ca5812-ceb5-46bd-b049-aed7ff10e6af",
       "name": "Garruk, Curse Breaker",
       "collectorNumber": "259",
@@ -559,6 +1416,48 @@
       "imageSource": "https://cards.scryfall.io/small/front/9/0/90ca5812-ceb5-46bd-b049-aed7ff10e6af.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/9/0/90ca5812-ceb5-46bd-b049-aed7ff10e6af.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/259/garruk-curse-breaker?utm_source=api"
+    },
+    {
+      "id": "1d535b5f-c916-4f16-89a7-9477578826d2",
+      "name": "Ghalta the Unstoppable",
+      "collectorNumber": "260",
+      "color": "G",
+      "colors": [
+        "G"
+      ],
+      "manaCost": "{8}{G}",
+      "manaValue": 9,
+      "typeLine": "Legendary Creature — Elder Dinosaur",
+      "oracleText": "This spell costs {X} less to cast, where X is the greatest power among creatures you control.\nTrample\nOther creatures you control have trample.",
+      "rarity": "uncommon",
+      "keywords": [
+        "Trample"
+      ],
+      "image": "assets/cards/fra/1d535b5f-c916-4f16-89a7-9477578826d2.jpg",
+      "trainingImage": "assets/cards-large/fra/1d535b5f-c916-4f16-89a7-9477578826d2.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/1/d/1d535b5f-c916-4f16-89a7-9477578826d2.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/1/d/1d535b5f-c916-4f16-89a7-9477578826d2.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/260/ghalta-the-unstoppable?utm_source=api"
+    },
+    {
+      "id": "f5a0bb3e-8119-4739-8684-e61d1d607dcb",
+      "name": "Jiang Yanggu, Never Alone",
+      "collectorNumber": "261",
+      "color": "G",
+      "colors": [
+        "G"
+      ],
+      "manaCost": "{3}{G}",
+      "manaValue": 4,
+      "typeLine": "Legendary Creature — Human Druid",
+      "oracleText": "When Jiang Yanggu enters, create Mowu, a legendary 3/3 green Dog creature token.\nAt the beginning of your end step, untap all tokens you control.",
+      "rarity": "uncommon",
+      "keywords": [],
+      "image": "assets/cards/fra/f5a0bb3e-8119-4739-8684-e61d1d607dcb.jpg",
+      "trainingImage": "assets/cards-large/fra/f5a0bb3e-8119-4739-8684-e61d1d607dcb.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/f/5/f5a0bb3e-8119-4739-8684-e61d1d607dcb.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/f/5/f5a0bb3e-8119-4739-8684-e61d1d607dcb.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/261/jiang-yanggu-never-alone?utm_source=api"
     },
     {
       "id": "edea6f70-a5a7-475d-b7f2-97933d0f32cf",
@@ -581,6 +1480,151 @@
       "imageSource": "https://cards.scryfall.io/small/front/e/d/edea6f70-a5a7-475d-b7f2-97933d0f32cf.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/e/d/edea6f70-a5a7-475d-b7f2-97933d0f32cf.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/266/titanbones-towering-heart?utm_source=api"
+    },
+    {
+      "id": "3abcae65-5b21-4c98-adad-34b8bc76ea3a",
+      "name": "Karn, Gilded Guardian",
+      "collectorNumber": "272",
+      "color": "M",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "manaCost": "{2/W}{2/U}{2/B}{2/R}{2/G}",
+      "manaValue": 10,
+      "typeLine": "Legendary Artifact Creature — Golem",
+      "oracleText": "Vigilance, trample\nWhen Karn enters, draw a card for each color among other artifacts you control.",
+      "rarity": "rare",
+      "keywords": [
+        "Vigilance",
+        "Trample"
+      ],
+      "image": "assets/cards/fra/3abcae65-5b21-4c98-adad-34b8bc76ea3a.jpg",
+      "trainingImage": "assets/cards-large/fra/3abcae65-5b21-4c98-adad-34b8bc76ea3a.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/3/a/3abcae65-5b21-4c98-adad-34b8bc76ea3a.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/3/a/3abcae65-5b21-4c98-adad-34b8bc76ea3a.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/272/karn-gilded-guardian?utm_source=api"
+    },
+    {
+      "id": "1ebbbddb-2dc3-4194-b72b-13bcebe2ab89",
+      "name": "Karn, Argent Defender",
+      "collectorNumber": "279",
+      "color": "C",
+      "colors": [],
+      "manaCost": "{2}",
+      "manaValue": 2,
+      "typeLine": "Legendary Artifact Creature — Golem",
+      "oracleText": "Artifacts and creatures entering the battlefield don't cause abilities to trigger.",
+      "rarity": "rare",
+      "keywords": [],
+      "image": "assets/cards/fra/1ebbbddb-2dc3-4194-b72b-13bcebe2ab89.jpg",
+      "trainingImage": "assets/cards-large/fra/1ebbbddb-2dc3-4194-b72b-13bcebe2ab89.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/1/e/1ebbbddb-2dc3-4194-b72b-13bcebe2ab89.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/1/e/1ebbbddb-2dc3-4194-b72b-13bcebe2ab89.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/279/karn-argent-defender?utm_source=api"
+    },
+    {
+      "id": "796b72af-5078-427d-b566-9bccad17090f",
+      "name": "Plains",
+      "collectorNumber": "382",
+      "color": "W",
+      "colors": [
+        "W"
+      ],
+      "manaCost": "",
+      "manaValue": 0,
+      "typeLine": "Basic Land — Plains",
+      "oracleText": "({T}: Add {W}.)",
+      "rarity": "common",
+      "keywords": [],
+      "image": "assets/cards/fra/796b72af-5078-427d-b566-9bccad17090f.jpg",
+      "trainingImage": "assets/cards-large/fra/796b72af-5078-427d-b566-9bccad17090f.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/7/9/796b72af-5078-427d-b566-9bccad17090f.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/7/9/796b72af-5078-427d-b566-9bccad17090f.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/382/plains?utm_source=api"
+    },
+    {
+      "id": "bc4cd881-9c34-4cf9-8afe-050e803f34a6",
+      "name": "Island",
+      "collectorNumber": "385",
+      "color": "U",
+      "colors": [
+        "U"
+      ],
+      "manaCost": "",
+      "manaValue": 0,
+      "typeLine": "Basic Land — Island",
+      "oracleText": "({T}: Add {U}.)",
+      "rarity": "common",
+      "keywords": [],
+      "image": "assets/cards/fra/bc4cd881-9c34-4cf9-8afe-050e803f34a6.jpg",
+      "trainingImage": "assets/cards-large/fra/bc4cd881-9c34-4cf9-8afe-050e803f34a6.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/b/c/bc4cd881-9c34-4cf9-8afe-050e803f34a6.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/b/c/bc4cd881-9c34-4cf9-8afe-050e803f34a6.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/385/island?utm_source=api"
+    },
+    {
+      "id": "e8418418-10bb-48e1-83ed-0081390384b4",
+      "name": "Swamp",
+      "collectorNumber": "388",
+      "color": "B",
+      "colors": [
+        "B"
+      ],
+      "manaCost": "",
+      "manaValue": 0,
+      "typeLine": "Basic Land — Swamp",
+      "oracleText": "({T}: Add {B}.)",
+      "rarity": "common",
+      "keywords": [],
+      "image": "assets/cards/fra/e8418418-10bb-48e1-83ed-0081390384b4.jpg",
+      "trainingImage": "assets/cards-large/fra/e8418418-10bb-48e1-83ed-0081390384b4.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/e/8/e8418418-10bb-48e1-83ed-0081390384b4.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/e/8/e8418418-10bb-48e1-83ed-0081390384b4.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/388/swamp?utm_source=api"
+    },
+    {
+      "id": "ec2ceca8-2d90-4d8f-ac47-cd8134e8d859",
+      "name": "Mountain",
+      "collectorNumber": "391",
+      "color": "R",
+      "colors": [
+        "R"
+      ],
+      "manaCost": "",
+      "manaValue": 0,
+      "typeLine": "Basic Land — Mountain",
+      "oracleText": "({T}: Add {R}.)",
+      "rarity": "common",
+      "keywords": [],
+      "image": "assets/cards/fra/ec2ceca8-2d90-4d8f-ac47-cd8134e8d859.jpg",
+      "trainingImage": "assets/cards-large/fra/ec2ceca8-2d90-4d8f-ac47-cd8134e8d859.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/e/c/ec2ceca8-2d90-4d8f-ac47-cd8134e8d859.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/e/c/ec2ceca8-2d90-4d8f-ac47-cd8134e8d859.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/391/mountain?utm_source=api"
+    },
+    {
+      "id": "790dcf48-ab51-4b10-9933-6b7e3baf0f52",
+      "name": "Forest",
+      "collectorNumber": "394",
+      "color": "G",
+      "colors": [
+        "G"
+      ],
+      "manaCost": "",
+      "manaValue": 0,
+      "typeLine": "Basic Land — Forest",
+      "oracleText": "({T}: Add {G}.)",
+      "rarity": "common",
+      "keywords": [],
+      "image": "assets/cards/fra/790dcf48-ab51-4b10-9933-6b7e3baf0f52.jpg",
+      "trainingImage": "assets/cards-large/fra/790dcf48-ab51-4b10-9933-6b7e3baf0f52.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/7/9/790dcf48-ab51-4b10-9933-6b7e3baf0f52.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/7/9/790dcf48-ab51-4b10-9933-6b7e3baf0f52.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/394/forest?utm_source=api"
     }
   ]
 }
