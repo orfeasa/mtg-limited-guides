@@ -98,6 +98,7 @@ function adaptDraftDecisions(set, cards) {
     const unknown = names.filter((name) => !knownNames.has(name) && !basicLandNames.has(name));
     if (unknown.length > 0) throw new Error(`Unknown draft decision cards in ${scenario.id}: ${[...new Set(unknown)].join(", ")}`);
     if (!scenario.cards.includes(scenario.replay_pick)) throw new Error(`Replay pick is absent from ${scenario.id}`);
+    if (!scenario.replay_read) throw new Error(`Replay interpretation is absent from ${scenario.id}`);
     return {
       id: scenario.id,
       pack: scenario.pack,
@@ -105,15 +106,18 @@ function adaptDraftDecisions(set, cards) {
       pool: scenario.pool,
       cards: scenario.cards,
       replayPick: scenario.replay_pick,
+      replayRead: scenario.replay_read,
     };
   });
   return {
     source: source.source,
     sourceName: source.source_name,
+    cardSource: source.card_source,
     capturedAt: source.captured_at,
     format: source.format,
     record: source.record,
     notes: source.notes,
+    interpretationNotes: source.interpretation_notes,
     scenarios,
   };
 }

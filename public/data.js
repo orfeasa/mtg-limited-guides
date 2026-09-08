@@ -47,10 +47,12 @@ window.LIMITED_PREP_DATA = {
       "draftDecisions": {
         "source": "https://www.17lands.com/draft/6fe0176985684194bdea13ba61f6856f",
         "sourceName": "17Lands",
+        "cardSource": "https://api.scryfall.com/cards/search?order=set&q=e%3Ahob%20game%3Aarena&unique=cards",
         "capturedAt": "2026-09-02T17:30:00Z",
         "format": "Premier Draft",
         "record": "7-2",
         "notes": "Real pack and pool states from one publicly shared draft replay. The replay pick is historical; the baseline is recalculated from the current Untapped ranking snapshot.",
+        "interpretationNotes": "17Lands records the pack, pool, and selected card, but not the drafter's reasoning. Each replay read is an editorial inference from that state and the Scryfall card text, not a claim about the drafter's stated intent.",
         "scenarios": [
           {
             "id": "hob-6fe017-p1p1",
@@ -73,7 +75,8 @@ window.LIMITED_PREP_DATA = {
               "Well-Worn Spatula",
               "Iron Hills"
             ],
-            "replayPick": "Stone-Giant of High Pass"
+            "replayPick": "Stone-Giant of High Pass",
+            "replayRead": "With no pool yet, Stone-Giant offers a self-contained late-game threat that makes its own artifacts and turns them into removal. The replay appears to prefer that ceiling over the Rabbit's cheaper ferocious role."
           },
           {
             "id": "hob-6fe017-p1p2",
@@ -97,7 +100,8 @@ window.LIMITED_PREP_DATA = {
               "Goblin Plate Mail",
               "Mountain"
             ],
-            "replayPick": "Glóin the Mighty"
+            "replayPick": "Glóin the Mighty",
+            "replayRead": "After opening Stone-Giant, Glóin keeps the draft red. Its Adventure can sweep small opposing creatures before the 4/3 supplies extra mana, so the replay appears to value colour continuity and flexibility."
           },
           {
             "id": "hob-6fe017-p1p3",
@@ -121,7 +125,8 @@ window.LIMITED_PREP_DATA = {
               "Duskwatch Hunter",
               "Forest"
             ],
-            "replayPick": "Pinecone Strike"
+            "replayPick": "Pinecone Strike",
+            "replayRead": "Pinecone Strike is efficient red interaction that fits both previous picks and can also answer an artifact token. The replay appears to protect an emerging red base instead of moving into white."
           },
           {
             "id": "hob-6fe017-p1p4",
@@ -145,7 +150,8 @@ window.LIMITED_PREP_DATA = {
               "Quarrel",
               "Goblin-town"
             ],
-            "replayPick": "Glóin the Mighty"
+            "replayPick": "Glóin the Mighty",
+            "replayRead": "A second Glóin adds another flexible Adventure-and-creature package while keeping the pool concentrated in red. The replay appears to value colour depth and redundancy over opening a black branch."
           },
           {
             "id": "hob-6fe017-p1p5",
@@ -169,7 +175,8 @@ window.LIMITED_PREP_DATA = {
               "Well-Worn Spatula",
               "Lake-town"
             ],
-            "replayPick": "Bifur, Melodic Rider"
+            "replayPick": "Bifur, Melodic Rider",
+            "replayRead": "Bifur is castable from the red base and is a stronger commitment to the red-white Dwarf and storied engine. It is legendary, grows the board, and can double Dwarf triggers once the story is active."
           },
           {
             "id": "hob-6fe017-p1p6",
@@ -193,7 +200,8 @@ window.LIMITED_PREP_DATA = {
               "Old Thrush",
               "Mirkwood"
             ],
-            "replayPick": "Glóin the Mighty"
+            "replayPick": "Glóin the Mighty",
+            "replayRead": "A third Glóin keeps red exceptionally deep and repeats a useful Adventure-and-creature package. The replay appears to prefer that redundancy over taking a stronger black card and testing a new colour."
           },
           {
             "id": "hob-6fe017-p1p7",
@@ -217,7 +225,8 @@ window.LIMITED_PREP_DATA = {
               "Guardian of the Halls",
               "Elvenking's Halls"
             ],
-            "replayPick": "The Black Arrow"
+            "replayPick": "The Black Arrow",
+            "replayRead": "The Black Arrow is colourless, legendary Equipment: it is playable in any final pair, counts toward storied, and supplies a small interaction and reach role. The replay appears to prioritise plan and flexibility over raw rank."
           },
           {
             "id": "hob-6fe017-p1p8",
@@ -241,7 +250,8 @@ window.LIMITED_PREP_DATA = {
               "Mirkwood Nurturer",
               "Plains"
             ],
-            "replayPick": "Mirkwood Nurturer"
+            "replayPick": "Mirkwood Nurturer",
+            "replayRead": "Mirkwood Nurturer does not follow the established red and red-white direction. The recorded state does not supply a convincing pool-fit reason; this looks like speculation on a blue-green pivot, but the replay contains no commentary."
           },
           {
             "id": "hob-6fe017-p1p9",
@@ -265,7 +275,8 @@ window.LIMITED_PREP_DATA = {
               "Ordinary Bear",
               "Iron Hills"
             ],
-            "replayPick": "Uneasy Partings"
+            "replayPick": "Uneasy Partings",
+            "replayRead": "After Nurturer opened a blue-green branch, Uneasy Partings adds blue interaction and remains useful in a blue pivot. The replay appears to test that branch rather than take the stronger red card."
           },
           {
             "id": "hob-6fe017-p1p10",
@@ -289,7 +300,8 @@ window.LIMITED_PREP_DATA = {
               "Well-Worn Spatula",
               "Mountain"
             ],
-            "replayPick": "Plunder the Trollshaws"
+            "replayPick": "Plunder the Trollshaws",
+            "replayRead": "Plunder is the strongest current baseline in this small pack and reinforces the blue branch with card advantage that can be used twice. Here the replay and the data require no contextual disagreement."
           },
           {
             "id": "hob-6fe017-p1p11",
@@ -313,7 +325,8 @@ window.LIMITED_PREP_DATA = {
               "Mirkwood Meditator",
               "Forest"
             ],
-            "replayPick": "Mirkwood Meditator"
+            "replayPick": "Mirkwood Meditator",
+            "replayRead": "Both leading options are blue. Meditator offers a defensive 2/4 that can attack as a 4/2 with landfall; the replay may have valued that body or the landfall link, but its source does not say."
           },
           {
             "id": "hob-6fe017-p1p12",
@@ -337,7 +350,8 @@ window.LIMITED_PREP_DATA = {
               "Moment of Glory",
               "Uneasy Partings"
             ],
-            "replayPick": "Uneasy Partings"
+            "replayPick": "Uneasy Partings",
+            "replayRead": "Only three cards remain, and Uneasy Partings is the strongest current baseline while adding another piece of blue interaction. The replay and the data agree on the straightforward pick."
           },
           {
             "id": "hob-6fe017-p2p1",
@@ -375,7 +389,8 @@ window.LIMITED_PREP_DATA = {
               "Nori, Teller of Tales",
               "Lake-town"
             ],
-            "replayPick": "Smaug, Wicked Worm"
+            "replayPick": "Smaug, Wicked Worm",
+            "replayRead": "Smaug is a high-ceiling black-red rare: a 5/5 flyer that can make Treasures and turn Treasure-funded spells into cards. The replay appears to speculate on that ceiling and a black-red turn despite little black depth so far."
           },
           {
             "id": "hob-6fe017-p2p2",
@@ -413,7 +428,8 @@ window.LIMITED_PREP_DATA = {
               "Goblin Plate Mail",
               "Swamp"
             ],
-            "replayPick": "Pinecone Strike"
+            "replayPick": "Pinecone Strike",
+            "replayRead": "Pinecone is proven red removal. It keeps the original red base intact while remaining compatible with the newly picked black-red Smaug, rather than committing the next pick to another black card."
           },
           {
             "id": "hob-6fe017-p2p3",
@@ -451,7 +467,8 @@ window.LIMITED_PREP_DATA = {
               "Long-Bodied Grey Dog",
               "Goblin-town"
             ],
-            "replayPick": "Goblin-town"
+            "replayPick": "Goblin-town",
+            "replayRead": "Goblin-town fixes both colours needed for Smaug and can later grow a Goblin or Orc. The replay appears to value the mana infrastructure for its new black-red branch over a stronger creature on raw rank."
           },
           {
             "id": "hob-6fe017-p2p4",
@@ -489,7 +506,8 @@ window.LIMITED_PREP_DATA = {
               "Wargling",
               "Mirkwood"
             ],
-            "replayPick": "Óin the Brave"
+            "replayPick": "Óin the Brave",
+            "replayRead": "Óin is a cheap red legendary Dwarf that advances storied and becomes a card-selection engine once the story is active. The replay returns to its original red Dwarf core instead of adding another blue card."
           },
           {
             "id": "hob-6fe017-p2p5",
@@ -527,7 +545,8 @@ window.LIMITED_PREP_DATA = {
               "Patient Instructor",
               "Plains"
             ],
-            "replayPick": "Stir Up Trouble"
+            "replayPick": "Stir Up Trouble",
+            "replayRead": "Stir Up Trouble is the strongest current baseline and gives the developing black-red branch efficient removal when the pool can supply a creature or artifact to sacrifice. Replay and data agree here."
           },
           {
             "id": "hob-6fe017-p2p6",
@@ -565,7 +584,8 @@ window.LIMITED_PREP_DATA = {
               "Wood Elves",
               "Elvenking's Halls"
             ],
-            "replayPick": "Bilbo, Luckwearer"
+            "replayPick": "Bilbo, Luckwearer",
+            "replayRead": "Bilbo is the strongest current baseline and fits the pool's blue cards. Its evasive looting improves draws, while the Adventure gives it a higher-cost play later. Replay and data agree here."
           }
         ]
       },

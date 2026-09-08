@@ -296,11 +296,6 @@ components:
     backgroundColor: "transparent"
     textColor: "{colors.hobbit-on-binding}"
     padding: "15px 18px"
-  decision-lane-guide:
-    backgroundColor: "{colors.hobbit-surface-light}"
-    textColor: "{colors.hobbit-ink}"
-    rounded: "{rounded.hobbit-card}"
-    padding: "22px 24px 26px"
   decision-pack:
     backgroundColor: "{colors.hobbit-surface}"
     textColor: "{colors.hobbit-ink}"
@@ -315,6 +310,10 @@ components:
     backgroundColor: "transparent"
     textColor: "{colors.hobbit-ink}"
     padding: "16px 18px"
+  decision-reason:
+    backgroundColor: "transparent"
+    textColor: "{colors.hobbit-ink}"
+    padding: "13px 0 0"
   colour-jump-fracture:
     backgroundColor: "{colors.fracture-surface-light}"
     textColor: "{colors.fracture-ink}"
@@ -343,7 +342,7 @@ The system should feel authored, trustworthy, and ready before an event. Data ma
 - Stable Training and All cards markers, with Archetypes and Draft decisions appearing only when their required evidence exists.
 - Persisted Training queues, exact-tier scores, and reviewed-decision state with explicit unrated preview states.
 - Hobbit’s post-answer observed-evidence ledger and adjacent-rank context without implying deck intelligence.
-- Hobbit’s Draft decisions keep the five authored lane engines, requirements, and move-in tests beside the live pack-and-pool exercise.
+- Hobbit’s Draft review explains the rank calculation behind the data leader and labels each replay rationale as editorial inference rather than the drafter’s known intent.
 - Broad surfaces and flat rows gathered into one handled volume rather than a field of dashboard cards.
 
 ## Colors
@@ -502,8 +501,8 @@ Shared components keep behavior, semantics, target sizes, and information order 
 - **Availability:** The marker and panel are absent—not locked—when a set has no grounded pack-and-pool scenarios.
 - **Context First:** Pack/pick coordinate, pool direction, and the complete drafted pool precede the pack. The pool disclosure aggregates duplicates without erasing individual pick history from the source data.
 - **Whole Pack:** Every available card remains visible in a true card aspect ratio. Basic lands use a set-native symbolic placeholder when no local card record exists.
-- **Review, Not Score:** Choosing once reveals the player's pick, historical replay pick, and current aggregate-data leader in one flat ledger. Copy names the contextual tradeoff and never marks one answer correct.
-- **Provenance:** Real replay source, format, record, and current ranking source remain visible. A historical pick is never relabeled as a model recommendation.
+- **Review, Not Score:** Choosing once reveals the player's pick, historical replay pick, and current aggregate-data leader in one flat ledger. Replay and data entries each explain why that card appears, while the comparison never marks one answer correct.
+- **Provenance:** Real replay source, format, record, current ranking source, and explanation boundary remain visible. The replay source records the choice but not its reason, so the rationale is labelled editorial inference; the data leader names its rank-only calculation and explicitly excludes pool fit.
 
 ### Buttons
 

@@ -1578,206 +1578,6 @@ body[data-theme="fracture"] .trainer-image-wrap img {
   height: 30px;
 }
 
-.decision-lane-guide {
-  width: min(1180px, 100%);
-  margin: 0 auto 24px;
-  overflow: clip;
-  color: var(--ink);
-  background-color: var(--surface-light);
-  background-image: var(--surface-pattern);
-  border-radius: var(--card-radius);
-  box-shadow: 0 14px 34px rgba(8, 9, 16, .24);
-}
-
-.decision-lane-guide > summary {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-  padding: 16px 20px;
-  cursor: pointer;
-  list-style: none;
-}
-
-.decision-lane-guide > summary::-webkit-details-marker {
-  display: none;
-}
-
-.decision-lane-guide > summary > span {
-  display: grid;
-  gap: 2px;
-}
-
-.decision-lane-guide > summary strong {
-  font-family: var(--display);
-  font-size: 1.25rem;
-  line-height: 1;
-}
-
-.decision-lane-guide > summary span span {
-  color: var(--muted);
-  font-size: .68rem;
-}
-
-.decision-lane-guide > summary::after {
-  width: 9px;
-  height: 9px;
-  flex: 0 0 auto;
-  content: "";
-  border-right: 2px solid var(--accent);
-  border-bottom: 2px solid var(--accent);
-  transform: rotate(45deg);
-  transition: transform 160ms var(--ease-out);
-}
-
-.decision-lane-guide[open] > summary {
-  border-bottom: 1px solid var(--line);
-}
-
-.decision-lane-guide[open] > summary::after {
-  transform: rotate(225deg) translate(-2px, -2px);
-}
-
-.decision-lane-navigation {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  border-bottom: 1px solid var(--line);
-}
-
-.decision-lane-navigation button {
-  display: flex;
-  min-width: 0;
-  align-items: center;
-  gap: 10px;
-  padding: 12px 14px;
-  color: var(--ink);
-  text-align: left;
-  background: transparent;
-  border: 0;
-  border-right: 1px solid var(--line);
-  cursor: pointer;
-}
-
-.decision-lane-navigation button:last-child {
-  border-right: 0;
-}
-
-.decision-lane-navigation button:hover,
-.decision-lane-navigation button[aria-pressed="true"] {
-  background: color-mix(in srgb, var(--metal-light) 22%, transparent);
-}
-
-.decision-lane-navigation button[aria-pressed="true"] {
-  box-shadow: inset 0 -3px var(--accent);
-}
-
-.decision-lane-navigation button > span:last-child {
-  display: grid;
-  min-width: 0;
-  gap: 1px;
-}
-
-.decision-lane-navigation button strong,
-.decision-lane-navigation button > span:last-child span {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.decision-lane-navigation button strong {
-  font-size: .72rem;
-}
-
-.decision-lane-navigation button > span:last-child span {
-  color: var(--muted);
-  font-size: .58rem;
-}
-
-.mana-symbol--decision-tab {
-  width: 25px;
-  height: 25px;
-}
-
-.mana-symbol--decision-tab + .mana-symbol--decision-tab {
-  margin-left: -9px;
-}
-
-.decision-lane-body {
-  display: grid;
-  grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
-  gap: clamp(24px, 4vw, 54px);
-  padding: 22px 24px 26px;
-}
-
-.decision-lane-plan h3 {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 5px;
-  font-family: var(--display);
-  font-size: clamp(1.7rem, 3vw, 2.4rem);
-  line-height: .95;
-}
-
-.mana-symbol--decision-lane {
-  width: 34px;
-  height: 34px;
-}
-
-.mana-symbol--decision-lane + .mana-symbol--decision-lane {
-  margin-left: -10px;
-}
-
-.decision-lane-mechanic {
-  margin: 0 0 12px;
-  color: var(--accent-dark);
-  font-size: .7rem;
-  font-weight: 700;
-}
-
-.decision-lane-plan > p:last-child {
-  max-width: 58ch;
-  margin: 0;
-  font-size: .82rem;
-}
-
-.decision-lane-test {
-  display: grid;
-  grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr);
-  gap: 24px;
-}
-
-.decision-lane-test h4 {
-  margin: 0 0 7px;
-  font-size: .68rem;
-}
-
-.decision-lane-test ol {
-  display: grid;
-  gap: 4px;
-  margin: 0;
-  padding-left: 18px;
-  font-size: .68rem;
-}
-
-.decision-lane-note {
-  display: grid;
-  align-content: start;
-  gap: 5px;
-  margin: 0;
-  padding-left: 20px;
-  border-left: 1px solid var(--line);
-}
-
-.decision-lane-note strong {
-  font-size: .68rem;
-}
-
-.decision-lane-note span {
-  color: var(--muted);
-  font-size: .68rem;
-}
-
 .decision-pack {
   width: min(1180px, 100%);
   margin: 0 auto;
@@ -1924,7 +1724,7 @@ body[data-theme="fracture"] .trainer-image-wrap img {
 
 .decision-ledger {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: minmax(0, .7fr) repeat(2, minmax(0, 1.15fr));
   margin: 0;
   border-bottom: 1px solid var(--line);
 }
@@ -1949,6 +1749,11 @@ body[data-theme="fracture"] .trainer-image-wrap img {
 }
 
 .decision-ledger dd {
+  margin: 0;
+}
+
+.decision-ledger-name {
+  display: block;
   margin: 4px 0 3px;
   font-family: var(--display);
   font-size: 1.2rem;
@@ -1956,10 +1761,36 @@ body[data-theme="fracture"] .trainer-image-wrap img {
   line-height: 1.1;
 }
 
-.decision-ledger span,
+.decision-ledger-meta,
 .decision-provenance {
   color: var(--muted);
   font-size: .64rem;
+}
+
+.decision-ledger-reason {
+  display: grid;
+  gap: 5px;
+  margin-top: 15px;
+  padding-top: 13px;
+  font-family: var(--body);
+  border-top: 1px solid var(--line);
+}
+
+.decision-ledger-reason > strong {
+  font-size: .68rem;
+  line-height: 1.2;
+}
+
+.decision-ledger-reason > span {
+  color: var(--ink);
+  font-size: .76rem;
+  line-height: 1.45;
+}
+
+.decision-ledger-reason > small {
+  color: var(--muted);
+  font-size: .6rem;
+  line-height: 1.35;
 }
 
 .decision-coaching {
@@ -2940,6 +2771,21 @@ body[data-theme="fracture"] .card-preview-copy h2 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .decision-ledger {
+    grid-template-columns: 1fr;
+  }
+
+  .decision-ledger div,
+  .decision-ledger div + div {
+    padding: 14px 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .decision-ledger div:last-child {
+    border-bottom: 0;
+  }
+
   .archetype-body {
     grid-template-columns: minmax(0, 1fr) minmax(270px, .72fr);
     gap: 38px;
@@ -3172,19 +3018,6 @@ body[data-theme="fracture"] .card-preview-copy h2 {
     grid-template-columns: 1fr 1.35fr;
   }
 
-  .decision-lane-navigation {
-    display: flex;
-    overflow-x: auto;
-  }
-
-  .decision-lane-navigation button {
-    min-width: 145px;
-  }
-
-  .decision-lane-body {
-    grid-template-columns: 1fr;
-  }
-
   .decision-coordinate,
   .pool-read,
   .pool-details {
@@ -3194,26 +3027,6 @@ body[data-theme="fracture"] .card-preview-copy h2 {
   .decision-pack,
   .decision-review {
     padding: 18px 14px;
-  }
-
-  .decision-lane-guide > summary {
-    padding: 14px;
-  }
-
-  .decision-lane-body {
-    gap: 18px;
-    padding: 18px 14px 20px;
-  }
-
-  .decision-lane-test {
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
-
-  .decision-lane-note {
-    padding: 14px 0 0;
-    border-top: 1px solid var(--line);
-    border-left: 0;
   }
 
   .decision-pack-heading,
@@ -3236,21 +3049,6 @@ body[data-theme="fracture"] .card-preview-copy h2 {
 
   .decision-card-copy span {
     font-size: .56rem;
-  }
-
-  .decision-ledger {
-    grid-template-columns: 1fr;
-  }
-
-  .decision-ledger div,
-  .decision-ledger div + div {
-    padding: 12px 0;
-    border-right: 0;
-    border-bottom: 1px solid var(--line);
-  }
-
-  .decision-ledger div:last-child {
-    border-bottom: 0;
   }
 
   .archetypes-page {

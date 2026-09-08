@@ -98,12 +98,16 @@ if (hobbit.cards.some((card) => !card.trainingImage || !Number.isFinite(card.sta
 if (hobbit.draftDecisions?.scenarios?.length !== 18) {
   throw new Error(`Expected 18 grounded Hobbit draft decisions, got ${hobbit.draftDecisions?.scenarios?.length || 0}`);
 }
+if (!hobbit.draftDecisions.cardSource || !hobbit.draftDecisions.interpretationNotes) {
+  throw new Error("Hobbit draft decisions must identify the card source and the replay-interpretation boundary");
+}
 if (hobbit.archetypes?.archetypes?.length !== 5) throw new Error("Expected five official Hobbit archetypes");
 const hobbitNames = new Set(hobbit.cards.map((card) => card.name));
 const basicLandNames = new Set(["Plains", "Island", "Swamp", "Mountain", "Forest"]);
 for (const scenario of hobbit.draftDecisions.scenarios) {
   if (scenario.cards.length < 3) throw new Error(`Draft decision ${scenario.id} is too trivial`);
   if (!scenario.cards.includes(scenario.replayPick)) throw new Error(`Draft decision ${scenario.id} omits its replay pick`);
+  if (!scenario.replayRead) throw new Error(`Draft decision ${scenario.id} omits its replay interpretation`);
   const unknown = [...scenario.cards, ...scenario.pool].filter((name) => !hobbitNames.has(name) && !basicLandNames.has(name));
   if (unknown.length > 0) throw new Error(`Draft decision ${scenario.id} has unknown cards: ${unknown.join(", ")}`);
 }

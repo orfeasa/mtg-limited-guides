@@ -1,10 +1,12 @@
 {
   "source": "https://www.17lands.com/draft/6fe0176985684194bdea13ba61f6856f",
   "source_name": "17Lands",
+  "card_source": "https://api.scryfall.com/cards/search?order=set&q=e%3Ahob%20game%3Aarena&unique=cards",
   "captured_at": "2026-09-02T17:30:00Z",
   "format": "Premier Draft",
   "record": "7-2",
   "notes": "Real pack and pool states from one publicly shared draft replay. The replay pick is historical; the baseline is recalculated from the current Untapped ranking snapshot.",
+  "interpretation_notes": "17Lands records the pack, pool, and selected card, but not the drafter's reasoning. Each replay read is an editorial inference from that state and the Scryfall card text, not a claim about the drafter's stated intent.",
   "scenarios": [
     {
       "id": "hob-6fe017-p1p1",
@@ -12,7 +14,8 @@
       "pick": 1,
       "pool": [],
       "cards": ["Stone-Giant of High Pass","Eagle of the Great Shelf","Bilbo, Luckwearer","Nasty Little Rabbit","Bolg of the North","Ori, Keeper of Songs","Confusticate and Bebother","Uneasy Partings","Front Porch Sentries","Gundabad Opportunist","Ordinary Bear","Quarrel","Well-Worn Spatula","Iron Hills"],
-      "replay_pick": "Stone-Giant of High Pass"
+      "replay_pick": "Stone-Giant of High Pass",
+      "replay_read": "With no pool yet, Stone-Giant offers a self-contained late-game threat that makes its own artifacts and turns them into removal. The replay appears to prefer that ceiling over the Rabbit's cheaper ferocious role."
     },
     {
       "id": "hob-6fe017-p1p2",
@@ -20,7 +23,8 @@
       "pick": 2,
       "pool": ["Stone-Giant of High Pass"],
       "cards": ["The Queen of Dale","Eagle of the Great Shelf","Dreaded Bat-Cloud","Glóin the Mighty","Lake-town Lookout","Magnificent End","Elvenking's Harper","Plunder the Trollshaws","Gundabad Opportunist","Attercop","Well-Worn Spatula","Goblin Plate Mail","Mountain"],
-      "replay_pick": "Glóin the Mighty"
+      "replay_pick": "Glóin the Mighty",
+      "replay_read": "After opening Stone-Giant, Glóin keeps the draft red. Its Adventure can sweep small opposing creatures before the 4/3 supplies extra mana, so the replay appears to value colour continuity and flexibility."
     },
     {
       "id": "hob-6fe017-p1p3",
@@ -28,7 +32,8 @@
       "pick": 3,
       "pool": ["Stone-Giant of High Pass","Glóin the Mighty"],
       "cards": ["Celebrate the Mountain-king","Thranduil's Decree","Lake-town Lookout","Elvenking's Harper","Mirkwood Meditator","Rage into the Valley","Pinecone Strike","Tidings of War","Warg Tactics","Old Thrush","Duskwatch Hunter","Forest"],
-      "replay_pick": "Pinecone Strike"
+      "replay_pick": "Pinecone Strike",
+      "replay_read": "Pinecone Strike is efficient red interaction that fits both previous picks and can also answer an artifact token. The replay appears to protect an emerging red base instead of moving into white."
     },
     {
       "id": "hob-6fe017-p1p4",
@@ -36,7 +41,8 @@
       "pick": 4,
       "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike"],
       "cards": ["Ravenhill Flock","Glóin the Mighty","Dwarven Shortsword","Moment of Glory","Enchanted River's Grasp","Uneasy Partings","Ravening Warg","Smaug, the Great Calamity","Little Bear","Quarrel","Goblin-town"],
-      "replay_pick": "Glóin the Mighty"
+      "replay_pick": "Glóin the Mighty",
+      "replay_read": "A second Glóin adds another flexible Adventure-and-creature package while keeping the pool concentrated in red. The replay appears to value colour depth and redundancy over opening a black branch."
     },
     {
       "id": "hob-6fe017-p1p5",
@@ -44,7 +50,8 @@
       "pick": 5,
       "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty"],
       "cards": ["Old Fat Spider","Key to the Side-Door","Bifur, Melodic Rider","Esgaroth Garrison","Vow to Erebor","Gandalf, Wandering Wizard","Dori, Bearer of Friends","Wargling","Well-Worn Spatula","Lake-town"],
-      "replay_pick": "Bifur, Melodic Rider"
+      "replay_pick": "Bifur, Melodic Rider",
+      "replay_read": "Bifur is castable from the red base and is a stronger commitment to the red-white Dwarf and storied engine. It is legendary, grows the board, and can double Dwarf triggers once the story is active."
     },
     {
       "id": "hob-6fe017-p1p6",
@@ -52,7 +59,8 @@
       "pick": 6,
       "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider"],
       "cards": ["Glóin the Mighty","Eagle's Rescue","Long Lake Nuisance","Gollum, Silent Slinker","Goblin-town Flunkies","Smaug, the Great Calamity","Attercop","Old Thrush","Mirkwood"],
-      "replay_pick": "Glóin the Mighty"
+      "replay_pick": "Glóin the Mighty",
+      "replay_read": "A third Glóin keeps red exceptionally deep and repeats a useful Adventure-and-creature package. The replay appears to prefer that redundancy over taking a stronger black card and testing a new colour."
     },
     {
       "id": "hob-6fe017-p1p7",
@@ -60,7 +68,8 @@
       "pick": 7,
       "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty"],
       "cards": ["The Black Arrow","Ori, Keeper of Songs","Thorin's Last Stand","Mirkwood Meditator","Plunder the Trollshaws","Beorn, Reluctant Host","Guardian of the Halls","Elvenking's Halls"],
-      "replay_pick": "The Black Arrow"
+      "replay_pick": "The Black Arrow",
+      "replay_read": "The Black Arrow is colourless, legendary Equipment: it is playable in any final pair, counts toward storied, and supplies a small interaction and reach role. The replay appears to prioritise plan and flexibility over raw rank."
     },
     {
       "id": "hob-6fe017-p1p8",
@@ -68,7 +77,8 @@
       "pick": 8,
       "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow"],
       "cards": ["Eagle's Rescue","Esgaroth Garrison","Ori, Keeper of Songs","Guardian of the Halls","Goblin Plate Mail","Mirkwood Nurturer","Plains"],
-      "replay_pick": "Mirkwood Nurturer"
+      "replay_pick": "Mirkwood Nurturer",
+      "replay_read": "Mirkwood Nurturer does not follow the established red and red-white direction. The recorded state does not supply a convincing pool-fit reason; this looks like speculation on a blue-green pivot, but the replay contains no commentary."
     },
     {
       "id": "hob-6fe017-p1p9",
@@ -76,7 +86,8 @@
       "pick": 9,
       "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow","Mirkwood Nurturer"],
       "cards": ["Eagle of the Great Shelf","Confusticate and Bebother","Uneasy Partings","Gundabad Opportunist","Ordinary Bear","Iron Hills"],
-      "replay_pick": "Uneasy Partings"
+      "replay_pick": "Uneasy Partings",
+      "replay_read": "After Nurturer opened a blue-green branch, Uneasy Partings adds blue interaction and remains useful in a blue pivot. The replay appears to test that branch rather than take the stronger red card."
     },
     {
       "id": "hob-6fe017-p1p10",
@@ -84,7 +95,8 @@
       "pick": 10,
       "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow","Mirkwood Nurturer","Uneasy Partings"],
       "cards": ["Eagle of the Great Shelf","Lake-town Lookout","Plunder the Trollshaws","Well-Worn Spatula","Mountain"],
-      "replay_pick": "Plunder the Trollshaws"
+      "replay_pick": "Plunder the Trollshaws",
+      "replay_read": "Plunder is the strongest current baseline in this small pack and reinforces the blue branch with card advantage that can be used twice. Here the replay and the data require no contextual disagreement."
     },
     {
       "id": "hob-6fe017-p1p11",
@@ -92,7 +104,8 @@
       "pick": 11,
       "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow","Mirkwood Nurturer","Uneasy Partings","Plunder the Trollshaws"],
       "cards": ["Lake-town Lookout","Elvenking's Harper","Mirkwood Meditator","Forest"],
-      "replay_pick": "Mirkwood Meditator"
+      "replay_pick": "Mirkwood Meditator",
+      "replay_read": "Both leading options are blue. Meditator offers a defensive 2/4 that can attack as a 4/2 with landfall; the replay may have valued that body or the landfall link, but its source does not say."
     },
     {
       "id": "hob-6fe017-p1p12",
@@ -100,7 +113,8 @@
       "pick": 12,
       "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow","Mirkwood Nurturer","Uneasy Partings","Plunder the Trollshaws","Mirkwood Meditator"],
       "cards": ["Ravenhill Flock","Moment of Glory","Uneasy Partings"],
-      "replay_pick": "Uneasy Partings"
+      "replay_pick": "Uneasy Partings",
+      "replay_read": "Only three cards remain, and Uneasy Partings is the strongest current baseline while adding another piece of blue interaction. The replay and the data agree on the straightforward pick."
     },
     {
       "id": "hob-6fe017-p2p1",
@@ -108,7 +122,8 @@
       "pick": 1,
       "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow","Mirkwood Nurturer","Uneasy Partings","Plunder the Trollshaws","Mirkwood Meditator","Uneasy Partings","Well-Worn Spatula","Eagle's Rescue"],
       "cards": ["Smaug, Wicked Worm","Thranduil, the Elvenking","Elven Raft-Steerer","Gnashing of Teeth","The Black Arrow","Bifur, Melodic Rider","Mirkwood Meditator","Crude Bent Blade","Rage into the Valley","Dori, Bearer of Friends","Guardian of the Halls","Well-Worn Spatula","Nori, Teller of Tales","Lake-town"],
-      "replay_pick": "Smaug, Wicked Worm"
+      "replay_pick": "Smaug, Wicked Worm",
+      "replay_read": "Smaug is a high-ceiling black-red rare: a 5/5 flyer that can make Treasures and turn Treasure-funded spells into cards. The replay appears to speculate on that ceiling and a black-red turn despite little black depth so far."
     },
     {
       "id": "hob-6fe017-p2p2",
@@ -116,7 +131,8 @@
       "pick": 2,
       "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow","Mirkwood Nurturer","Uneasy Partings","Plunder the Trollshaws","Mirkwood Meditator","Uneasy Partings","Well-Worn Spatula","Eagle's Rescue","Smaug, Wicked Worm"],
       "cards": ["The Master of Lake-town","Dáin, Lord of the Iron Hills","Desolation Prowler","Old Fat Spider","Vow to Erebor","Enchanted River's Grasp","Lakeshore Apothecary","Reverent Howl","Pinecone Strike","Little Bear","Wood Elves","Goblin Plate Mail","Swamp"],
-      "replay_pick": "Pinecone Strike"
+      "replay_pick": "Pinecone Strike",
+      "replay_read": "Pinecone is proven red removal. It keeps the original red base intact while remaining compatible with the newly picked black-red Smaug, rather than committing the next pick to another black card."
     },
     {
       "id": "hob-6fe017-p2p3",
@@ -124,7 +140,8 @@
       "pick": 3,
       "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow","Mirkwood Nurturer","Uneasy Partings","Plunder the Trollshaws","Mirkwood Meditator","Uneasy Partings","Well-Worn Spatula","Eagle's Rescue","Smaug, Wicked Worm","Pinecone Strike"],
       "cards": ["Supper for Spiders","Troll Negotiations","Dwarven Mattock","Thorin's Last Stand","Gandalf, Wandering Wizard","Great Fierce Bee","Ravening Warg","Tidings of War","Boughside Wanderers","Warg Tactics","Long-Bodied Grey Dog","Goblin-town"],
-      "replay_pick": "Goblin-town"
+      "replay_pick": "Goblin-town",
+      "replay_read": "Goblin-town fixes both colours needed for Smaug and can later grow a Goblin or Orc. The replay appears to value the mana infrastructure for its new black-red branch over a stronger creature on raw rank."
     },
     {
       "id": "hob-6fe017-p2p4",
@@ -132,7 +149,8 @@
       "pick": 4,
       "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow","Mirkwood Nurturer","Uneasy Partings","Plunder the Trollshaws","Mirkwood Meditator","Uneasy Partings","Well-Worn Spatula","Eagle's Rescue","Smaug, Wicked Worm","Pinecone Strike","Goblin-town"],
       "cards": ["Thranduil's Decree","The Chief Warg","Dwarven Shortsword","Esgaroth Garrison","Long Lake Nuisance","Mirkwood Meditator","Rage into the Valley","Óin the Brave","Warg Tactics","Wargling","Mirkwood"],
-      "replay_pick": "Óin the Brave"
+      "replay_pick": "Óin the Brave",
+      "replay_read": "Óin is a cheap red legendary Dwarf that advances storied and becomes a card-selection engine once the story is active. The replay returns to its original red Dwarf core instead of adding another blue card."
     },
     {
       "id": "hob-6fe017-p2p5",
@@ -140,7 +158,8 @@
       "pick": 5,
       "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow","Mirkwood Nurturer","Uneasy Partings","Plunder the Trollshaws","Mirkwood Meditator","Uneasy Partings","Well-Worn Spatula","Eagle's Rescue","Smaug, Wicked Worm","Pinecone Strike","Goblin-town","Óin the Brave"],
       "cards": ["Ravenhill Flock","The Chief Warg","Confusticate and Bebother","Reverent Howl","Stir Up Trouble","Smaug's Fury","Ordinary Bear","Quarrel","Patient Instructor","Plains"],
-      "replay_pick": "Stir Up Trouble"
+      "replay_pick": "Stir Up Trouble",
+      "replay_read": "Stir Up Trouble is the strongest current baseline and gives the developing black-red branch efficient removal when the pool can supply a creature or artifact to sacrifice. Replay and data agree here."
     },
     {
       "id": "hob-6fe017-p2p6",
@@ -148,7 +167,8 @@
       "pick": 6,
       "pool": ["Stone-Giant of High Pass","Glóin the Mighty","Pinecone Strike","Glóin the Mighty","Bifur, Melodic Rider","Glóin the Mighty","The Black Arrow","Mirkwood Nurturer","Uneasy Partings","Plunder the Trollshaws","Mirkwood Meditator","Uneasy Partings","Well-Worn Spatula","Eagle's Rescue","Smaug, Wicked Worm","Pinecone Strike","Goblin-town","Óin the Brave","Stir Up Trouble"],
       "cards": ["Bilbo, Luckwearer","Dwarven Mattock","Velvetwing Butterflies","Confusticate and Bebother","Gandalf, Wandering Wizard","Front Porch Sentries","Warg Tactics","Wood Elves","Elvenking's Halls"],
-      "replay_pick": "Bilbo, Luckwearer"
+      "replay_pick": "Bilbo, Luckwearer",
+      "replay_read": "Bilbo is the strongest current baseline and fits the pool's blue cards. Its evasive looting improves draws, while the Adventure gives it a higher-cost play later. Replay and data agree here."
     }
   ]
 }

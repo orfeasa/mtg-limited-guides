@@ -94,13 +94,6 @@
     poolSummary: $("#pool-summary"),
     poolCount: $("#pool-count"),
     decisionPool: $("#decision-pool"),
-    decisionLaneGuide: $("#decision-lane-guide"),
-    decisionLaneNavigation: $("#decision-lane-navigation"),
-    decisionLaneName: $("#decision-lane-name"),
-    decisionLaneMechanic: $("#decision-lane-mechanic"),
-    decisionLanePlan: $("#decision-lane-plan"),
-    decisionLanePriorities: $("#decision-lane-priorities"),
-    decisionLaneNote: $("#decision-lane-note"),
     decisionCards: $("#decision-cards"),
     changeDecision: $("#change-decision"),
     decisionReview: $("#decision-review"),
@@ -142,7 +135,6 @@
   let trainerGuess = null;
   let decisionIndex = 0;
   let decisionChoice = null;
-  let decisionLaneId = null;
   let archetypeFormat = params.get("format") === "sealed" ? "sealed" : "draft";
   let progress = emptyProgress();
   let toastTimer = null;
@@ -630,8 +622,12 @@
     return { Plains: "W", Island: "U", Swamp: "B", Mountain: "R", Forest: "G" }[name] || null;
   }
 
+  function decisionDataCandidates(scenario) {
+    return scenario.cards.map(cardForName).filter((card) => Number.isFinite(card?.rank)).sort((left, right) => left.rank - right.rank);
+  }
+
   function decisionDataLeader(scenario) {
-    return scenario.cards.map(cardForName).filter((card) => Number.isFinite(card?.rank)).sort((left, right) => left.rank - right.rank)[0] || null;
+    return decisionDataCandidates(scenario)[0] || null;
   }
 
   function decisionCardMeta(name) {
@@ -694,56 +690,6 @@
     }));
   }
 
-  function defaultDecisionLane(scenario) {
-    const archetypes = currentSet.archetypes?.archetypes || [];
-    if (archetypes.length === 0) return null;
-    const monoColourCounts = new Map(["W", "U", "B", "R", "G"].map((color) => [color, 0]));
-    scenario.pool.forEach((name) => {
-      const color = cardForName(name)?.color || basicLandColor(name);
-      if (monoColourCounts.has(color)) monoColourCounts.set(color, monoColourCounts.get(color) + 1);
-    });
-    return [...archetypes].sort((left, right) => {
-      const leftOverlap = left.colors.reduce((total, color) => total + monoColourCounts.get(color), 0);
-      const rightOverlap = right.colors.reduce((total, color) => total + monoColourCounts.get(color), 0);
-      return rightOverlap - leftOverlap;
-    })[0]?.id || archetypes[0].id;
-  }
-
-  function renderDecisionLane() {
-    const archetype = currentSet.archetypes?.archetypes?.find((lane) => lane.id === decisionLaneId);
-    if (!archetype) return;
-    elements.decisionLaneNavigation.querySelectorAll("[data-decision-lane]").forEach((button) => {
-      button.setAttribute("aria-pressed", String(button.dataset.decisionLane === archetype.id));
-    });
-    elements.decisionLaneName.innerHTML = `<span class="archetype-route">${archetype.colors.map((color) => manaSymbol(color, "mana-symbol--decision-lane")).join("")}</span><span>${escapeHtml(archetype.name)}</span>`;
-    elements.decisionLaneMechanic.textContent = archetype.mechanic;
-    elements.decisionLanePlan.textContent = archetype.plan;
-    elements.decisionLanePriorities.replaceChildren(...archetype.priorities.map((priority) => {
-      const item = document.createElement("li");
-      item.textContent = priority;
-      return item;
-    }));
-    elements.decisionLaneNote.textContent = archetype.formatNotes.draft;
-  }
-
-  function renderDecisionLaneGuide(scenario) {
-    const archetypes = currentSet.archetypes?.archetypes || [];
-    elements.decisionLaneGuide.hidden = archetypes.length === 0;
-    if (archetypes.length === 0) return;
-    if (!archetypes.some((archetype) => archetype.id === decisionLaneId)) {
-      decisionLaneId = defaultDecisionLane(scenario);
-    }
-    elements.decisionLaneNavigation.replaceChildren(...archetypes.map((archetype) => {
-      const button = document.createElement("button");
-      button.type = "button";
-      button.dataset.decisionLane = archetype.id;
-      button.setAttribute("aria-pressed", String(archetype.id === decisionLaneId));
-      button.innerHTML = `<span class="archetype-route">${archetype.colors.map((color) => manaSymbol(color, "mana-symbol--decision-tab")).join("")}</span><span><strong>${escapeHtml(archetype.name)}</strong><span>${escapeHtml(archetype.mechanic)}</span></span>`;
-      return button;
-    }));
-    renderDecisionLane();
-  }
-
   function renderDecisionReview(scenario) {
     const choice = decisionCardMeta(decisionChoice);
     const replay = decisionCardMeta(scenario.replayPick);
@@ -755,29 +701,39 @@
     else if (decisionChoice === leader.card?.name) elements.decisionVerdict.textContent = "You followed the current raw ranking. The replay took a different line, so context has to explain the gap.";
     else elements.decisionVerdict.textContent = "You found a third line. Compare what it gains against both raw strength and the direction taken in the replay.";
 
-    const ledgerItem = (label, name, meta) => `<div><dt>${label}</dt><dd>${escapeHtml(name)}</dd><span>${escapeHtml(meta.rank)} · ${escapeHtml(meta.detail)}</span></div>`;
+    const candidates = decisionDataCandidates(scenario);
+    const runnerUp = candidates[1] || null;
+    const rankGap = runnerUp && leader.card ? runnerUp.rank - leader.card.rank : null;
+    const rankLead = runnerUp
+      ? `${rankGap === 1 ? "one place" : `${rankGap} places`} ahead of ${runnerUp.name} at #${runnerUp.rank}`
+      : "the only ranked card remaining";
+    const winRateContext = Number.isFinite(leader.card?.stats?.inHandWinRate)
+      ? ` Its recorded in-hand win rate is ${leader.card.stats.inHandWinRate.toFixed(1)}%.`
+      : "";
+    const dataRead = `The exercise takes the highest card left in the current Untapped ranking. ${leader.card?.name || scenario.replayPick} is #${leader.card?.rank || "—"}, ${rankLead}.${winRateContext} Pool fit is not part of this calculation.`;
+    const ledgerItem = (label, name, meta, explanation = null) => `<div><dt>${label}</dt><dd><strong class="decision-ledger-name">${escapeHtml(name)}</strong><span class="decision-ledger-meta">${escapeHtml(meta.rank)} · ${escapeHtml(meta.detail)}</span>${explanation ? `<span class="decision-ledger-reason"><strong>${escapeHtml(explanation.label)}</strong><span>${escapeHtml(explanation.text)}</span><small>${escapeHtml(explanation.boundary)}</small></span>` : ""}</dd></div>`;
     elements.decisionLedger.innerHTML = [
       ledgerItem("Your pick", decisionChoice, choice),
-      ledgerItem("Replay pick", scenario.replayPick, replay),
-      ledgerItem("Data leader", leader.card?.name || scenario.replayPick, leader),
+      ledgerItem("Replay pick", scenario.replayPick, replay, {
+        label: "Why the replay may have taken it",
+        text: scenario.replayRead,
+        boundary: "Editorial inference · the drafter did not supply a reason",
+      }),
+      ledgerItem("Data leader", leader.card?.name || scenario.replayPick, leader, {
+        label: "Why the data selected it",
+        text: dataRead,
+        boundary: "Calculated from current rank · pool fit excluded",
+      }),
     ].join("");
 
-    const read = poolRead(scenario.pool);
-    const replayFits = read.dominant && replay.color === read.dominant;
-    const leaderFits = read.dominant && leader.color === read.dominant;
     if (scenario.replayPick === leader.card?.name) {
-      elements.decisionCoaching.textContent = read.dominant && replayFits
-        ? "This is the easy kind of decision: the strongest current data point also supports the pool. Spend your effort checking curve and card role, not searching for a clever detour."
-        : "Raw power and the replay agree. The remaining question is whether the card is strong enough to keep the draft open or pull the pool in a new direction.";
-    } else if (replayFits && !leaderFits) {
-      const gap = Number.isFinite(replay.card?.rank) && Number.isFinite(leader.card?.rank) ? replay.card.rank - leader.card.rank : null;
-      elements.decisionCoaching.textContent = `The replay protected the pool's ${colorGroups.find((group) => group.id === read.dominant)?.name.toLowerCase()} direction${gap > 0 ? ` while giving up ${gap} places in the current ranking` : ""}. That tradeoff is the lesson; it is not proof the replay pick was automatically correct.`;
-    } else if (replay.color === leader.color) {
-      elements.decisionCoaching.textContent = "Both leading candidates ask for the same colour. Pool identity does not settle this one; card role, curve pressure, and what the deck already has must do the work.";
-    } else if (leaderFits) {
-      elements.decisionCoaching.textContent = "The current data leader already fits the pool, so the replay's alternative needs a specific role or curve argument. Without one, context is not a reason to pass the stronger baseline.";
+      elements.decisionCoaching.textContent = "Replay and data arrive at the same card for different evidential reasons: one is the pick that happened, while the other is a mechanical rank calculation.";
     } else {
-      elements.decisionCoaching.textContent = "The pool is not committed enough to decide this for you. Treat the current rank as a baseline, then ask which card leaves the next few picks easiest to navigate.";
+      const replayGap = Number.isFinite(replay.card?.rank) && Number.isFinite(leader.card?.rank) ? replay.card.rank - leader.card.rank : null;
+      const gapRead = Number.isFinite(replayGap)
+        ? `gave up ${replayGap === 1 ? "one ranking place" : `${replayGap} ranking places`}`
+        : "moved away from the ranked baseline";
+      elements.decisionCoaching.textContent = `The replay ${gapRead} for the contextual case above. That is the tradeoff to interrogate—not proof that either pick is automatically correct.`;
     }
   }
 
@@ -812,7 +768,6 @@
     elements.poolDirection.textContent = read.direction;
     elements.poolSummary.textContent = read.summary;
     renderDecisionPool(scenario);
-    renderDecisionLaneGuide(scenario);
     elements.decisionCards.replaceChildren(...scenario.cards.map(decisionOption));
     elements.changeDecision.hidden = !decisionChoice;
     elements.decisionReview.hidden = !decisionChoice;
@@ -986,12 +941,6 @@
   elements.decisionCards.addEventListener("click", (event) => {
     const button = event.target.closest("[data-card-name]");
     if (button) chooseDecision(button.dataset.cardName);
-  });
-  elements.decisionLaneNavigation.addEventListener("click", (event) => {
-    const button = event.target.closest("[data-decision-lane]");
-    if (!button) return;
-    decisionLaneId = button.dataset.decisionLane;
-    renderDecisionLane();
   });
   elements.changeDecision.addEventListener("click", resetDecisionChoice);
   elements.nextDecision.addEventListener("click", nextDecision);
