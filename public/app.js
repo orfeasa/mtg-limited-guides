@@ -94,6 +94,13 @@
     poolSummary: $("#pool-summary"),
     poolCount: $("#pool-count"),
     decisionPool: $("#decision-pool"),
+    decisionLaneGuide: $("#decision-lane-guide"),
+    decisionLaneNavigation: $("#decision-lane-navigation"),
+    decisionLaneName: $("#decision-lane-name"),
+    decisionLaneMechanic: $("#decision-lane-mechanic"),
+    decisionLanePlan: $("#decision-lane-plan"),
+    decisionLanePriorities: $("#decision-lane-priorities"),
+    decisionLaneNote: $("#decision-lane-note"),
     decisionCards: $("#decision-cards"),
     changeDecision: $("#change-decision"),
     decisionReview: $("#decision-review"),
@@ -135,6 +142,7 @@
   let trainerGuess = null;
   let decisionIndex = 0;
   let decisionChoice = null;
+  let decisionLaneId = null;
   let archetypeFormat = params.get("format") === "sealed" ? "sealed" : "draft";
   let progress = emptyProgress();
   let toastTimer = null;
@@ -686,6 +694,56 @@
     }));
   }
 
+  function defaultDecisionLane(scenario) {
+    const archetypes = currentSet.archetypes?.archetypes || [];
+    if (archetypes.length === 0) return null;
+    const monoColourCounts = new Map(["W", "U", "B", "R", "G"].map((color) => [color, 0]));
+    scenario.pool.forEach((name) => {
+      const color = cardForName(name)?.color || basicLandColor(name);
+      if (monoColourCounts.has(color)) monoColourCounts.set(color, monoColourCounts.get(color) + 1);
+    });
+    return [...archetypes].sort((left, right) => {
+      const leftOverlap = left.colors.reduce((total, color) => total + monoColourCounts.get(color), 0);
+      const rightOverlap = right.colors.reduce((total, color) => total + monoColourCounts.get(color), 0);
+      return rightOverlap - leftOverlap;
+    })[0]?.id || archetypes[0].id;
+  }
+
+  function renderDecisionLane() {
+    const archetype = currentSet.archetypes?.archetypes?.find((lane) => lane.id === decisionLaneId);
+    if (!archetype) return;
+    elements.decisionLaneNavigation.querySelectorAll("[data-decision-lane]").forEach((button) => {
+      button.setAttribute("aria-pressed", String(button.dataset.decisionLane === archetype.id));
+    });
+    elements.decisionLaneName.innerHTML = `<span class="archetype-route">${archetype.colors.map((color) => manaSymbol(color, "mana-symbol--decision-lane")).join("")}</span><span>${escapeHtml(archetype.name)}</span>`;
+    elements.decisionLaneMechanic.textContent = archetype.mechanic;
+    elements.decisionLanePlan.textContent = archetype.plan;
+    elements.decisionLanePriorities.replaceChildren(...archetype.priorities.map((priority) => {
+      const item = document.createElement("li");
+      item.textContent = priority;
+      return item;
+    }));
+    elements.decisionLaneNote.textContent = archetype.formatNotes.draft;
+  }
+
+  function renderDecisionLaneGuide(scenario) {
+    const archetypes = currentSet.archetypes?.archetypes || [];
+    elements.decisionLaneGuide.hidden = archetypes.length === 0;
+    if (archetypes.length === 0) return;
+    if (!archetypes.some((archetype) => archetype.id === decisionLaneId)) {
+      decisionLaneId = defaultDecisionLane(scenario);
+    }
+    elements.decisionLaneNavigation.replaceChildren(...archetypes.map((archetype) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.dataset.decisionLane = archetype.id;
+      button.setAttribute("aria-pressed", String(archetype.id === decisionLaneId));
+      button.innerHTML = `<span class="archetype-route">${archetype.colors.map((color) => manaSymbol(color, "mana-symbol--decision-tab")).join("")}</span><span><strong>${escapeHtml(archetype.name)}</strong><span>${escapeHtml(archetype.mechanic)}</span></span>`;
+      return button;
+    }));
+    renderDecisionLane();
+  }
+
   function renderDecisionReview(scenario) {
     const choice = decisionCardMeta(decisionChoice);
     const replay = decisionCardMeta(scenario.replayPick);
@@ -754,6 +812,7 @@
     elements.poolDirection.textContent = read.direction;
     elements.poolSummary.textContent = read.summary;
     renderDecisionPool(scenario);
+    renderDecisionLaneGuide(scenario);
     elements.decisionCards.replaceChildren(...scenario.cards.map(decisionOption));
     elements.changeDecision.hidden = !decisionChoice;
     elements.decisionReview.hidden = !decisionChoice;
@@ -927,6 +986,12 @@
   elements.decisionCards.addEventListener("click", (event) => {
     const button = event.target.closest("[data-card-name]");
     if (button) chooseDecision(button.dataset.cardName);
+  });
+  elements.decisionLaneNavigation.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-decision-lane]");
+    if (!button) return;
+    decisionLaneId = button.dataset.decisionLane;
+    renderDecisionLane();
   });
   elements.changeDecision.addEventListener("click", resetDecisionChoice);
   elements.nextDecision.addEventListener("click", nextDecision);

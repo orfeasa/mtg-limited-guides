@@ -296,6 +296,11 @@ components:
     backgroundColor: "transparent"
     textColor: "{colors.hobbit-on-binding}"
     padding: "15px 18px"
+  decision-lane-guide:
+    backgroundColor: "{colors.hobbit-surface-light}"
+    textColor: "{colors.hobbit-ink}"
+    rounded: "{rounded.hobbit-card}"
+    padding: "22px 24px 26px"
   decision-pack:
     backgroundColor: "{colors.hobbit-surface}"
     textColor: "{colors.hobbit-ink}"
@@ -338,6 +343,7 @@ The system should feel authored, trustworthy, and ready before an event. Data ma
 - Stable Training and All cards markers, with Archetypes and Draft decisions appearing only when their required evidence exists.
 - Persisted Training queues, exact-tier scores, and reviewed-decision state with explicit unrated preview states.
 - Hobbit’s post-answer observed-evidence ledger and adjacent-rank context without implying deck intelligence.
+- Hobbit’s Draft decisions keep the five authored lane engines, requirements, and move-in tests beside the live pack-and-pool exercise.
 - Broad surfaces and flat rows gathered into one handled volume rather than a field of dashboard cards.
 
 ## Colors

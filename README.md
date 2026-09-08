@@ -6,7 +6,7 @@ A set-by-set Magic: The Gathering Limited preparation tool. Each set keeps its o
 
 - Card rating training with browser-local progress
 - Official archetype plans interpreted against separate Premier Draft and Sealed observations
-- Full-pack draft decisions with the drafted pool, historical replay pick, and current data leader kept distinct
+- Full-pack draft decisions with an in-context lane guide, drafted pool, historical replay pick, and current data leader kept distinct
 - A complete card index grouped by colour with in-place card magnification
 - Honest preview mode when a set has cards but no attributable Limited ranking yet
 - Keyboard, mouse, and touch support
