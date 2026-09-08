@@ -1,5 +1,5 @@
 /* Generated static cache manifest. */
-const CACHE = "limited-prep-db1dd40a8de2";
+const CACHE = "limited-prep-a480df0c289c";
 const ASSETS = [
   "./",
   "./index.html",
@@ -206,11 +206,16 @@ const ASSETS = [
   "./assets/cards/103481.jpg",
   "./assets/cards/103412.jpg",
   "./assets/cards/fra/483fcc58-cc6e-4452-a696-7b38e117c837.jpg",
+  "./assets/cards/fra/f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd.jpg",
+  "./assets/cards/fra/8d754b96-5e44-45af-9c7a-b0da59fbe4c3.jpg",
   "./assets/cards/fra/d0ecae06-bc5a-4886-84df-c2900816f226.jpg",
   "./assets/cards/fra/20bb8c55-4b0b-425f-8201-b54fa2fdde86.jpg",
   "./assets/cards/fra/4fcc913e-f736-460a-b24b-022fa2e861b9.jpg",
+  "./assets/cards/fra/3b5b28a4-0abd-4dc2-9856-c9a8d27f6a2d.jpg",
   "./assets/cards/fra/47793a51-08c6-4ad2-a7e5-a4484d83a5cd.jpg",
   "./assets/cards/fra/2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460.jpg",
+  "./assets/cards/fra/bd32d736-7a58-46b9-90b4-2cac3c3e80a1.jpg",
+  "./assets/cards/fra/87b40df5-5c0a-41f5-a09c-a04f17066a91.jpg",
   "./assets/cards/fra/e61b9d48-0ace-4453-afe0-a1024444bac0.jpg",
   "./assets/cards/fra/6c1c790b-9e0e-4964-9ea3-554843907f06.jpg",
   "./assets/cards/fra/5142bbb6-194c-4b12-b11a-1a21c9fe81a6.jpg",

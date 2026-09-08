@@ -12,6 +12,24 @@ const trainingImageDirectory = path.join(root, "public", "assets", "cards-large"
 const apiUrl = `https://api.scryfall.com/cards/search?order=set&q=set%3A${encodeURIComponent(setCode)}&unique=cards`;
 const userAgent = "mtg-limited-guides/1.0 (https://github.com/orfeasa/mtg-limited-guides)";
 
+const stableSourceUrl = (value) => {
+  const url = new URL(value);
+  url.search = "";
+  return url.toString();
+};
+
+const writeFileIfChanged = async (filePath, buffer) => {
+  try {
+    const existing = await fs.readFile(filePath);
+    if (existing.equals(buffer)) return false;
+  } catch (error) {
+    if (error.code !== "ENOENT") throw error;
+  }
+
+  await fs.writeFile(filePath, buffer);
+  return true;
+};
+
 const withSourceComment = (buffer, source, purpose) => {
   if (buffer[0] !== 0xff || buffer[1] !== 0xd8) return buffer;
   const description = `impeccable:prompt\0Source: ${source}. Downloaded from Scryfall as a ${purpose} for the ${setCode.toUpperCase()} study interface.`;
@@ -39,11 +57,15 @@ const classify = (identity) => {
 };
 
 const cards = [];
+let changedAssets = 0;
 for (const card of payload.data) {
   const imageUris = card.image_uris || card.card_faces?.[0]?.image_uris;
   const imageUrl = imageUris?.small;
   const trainingImageUrl = imageUris?.normal || imageUris?.large || imageUrl;
   if (!imageUrl) throw new Error(`No image for ${card.name}`);
+
+  const imageSource = stableSourceUrl(imageUrl);
+  const trainingImageSource = stableSourceUrl(trainingImageUrl);
 
   const imageName = `${card.id}.jpg`;
   const imagePath = path.join(imageDirectory, imageName);
@@ -51,12 +73,16 @@ for (const card of payload.data) {
   const imageResponse = await fetch(imageUrl, { headers: { "User-Agent": userAgent } });
   if (!imageResponse.ok) throw new Error(`Image request failed for ${card.name}: ${imageResponse.status}`);
   const imageBuffer = Buffer.from(await imageResponse.arrayBuffer());
-  await fs.writeFile(imagePath, withSourceComment(imageBuffer, imageUrl, "preview card thumbnail"));
+  if (await writeFileIfChanged(imagePath, withSourceComment(imageBuffer, imageSource, "preview card thumbnail"))) {
+    changedAssets += 1;
+  }
 
   const trainingImageResponse = await fetch(trainingImageUrl, { headers: { "User-Agent": userAgent } });
   if (!trainingImageResponse.ok) throw new Error(`Training image request failed for ${card.name}: ${trainingImageResponse.status}`);
   const trainingImageBuffer = Buffer.from(await trainingImageResponse.arrayBuffer());
-  await fs.writeFile(trainingImagePath, withSourceComment(trainingImageBuffer, trainingImageUrl, "readable card image"));
+  if (await writeFileIfChanged(trainingImagePath, withSourceComment(trainingImageBuffer, trainingImageSource, "readable card image"))) {
+    changedAssets += 1;
+  }
 
   const faces = Array.isArray(card.card_faces) ? card.card_faces : [];
   cards.push({
@@ -73,20 +99,47 @@ for (const card of payload.data) {
     keywords: card.keywords || [],
     image: `assets/cards/${setCode}/${imageName}`,
     trainingImage: `assets/cards-large/${setCode}/${imageName}`,
-    imageSource: imageUrl,
-    trainingImageSource: trainingImageUrl,
+    imageSource,
+    trainingImageSource,
     scryfallUrl: card.scryfall_uri,
   });
 }
 
-const snapshot = {
+const snapshotContent = {
   set: setCode.toUpperCase(),
   source: apiUrl,
-  capturedAt: new Date().toISOString(),
   partial: true,
   count: cards.length,
   cards,
 };
 
+let previousContent = null;
+try {
+  const previous = JSON.parse(await fs.readFile(outputPath, "utf8"));
+  previousContent = {
+    set: previous.set,
+    source: previous.source,
+    partial: previous.partial,
+    count: previous.count,
+    cards: previous.cards,
+  };
+} catch (error) {
+  if (error.code !== "ENOENT") throw error;
+}
+
+if (JSON.stringify(previousContent) === JSON.stringify(snapshotContent) && changedAssets === 0) {
+  console.log(`No changes to ${cards.length} ${setCode.toUpperCase()} preview cards.`);
+  process.exit(0);
+}
+
+const snapshot = {
+  set: snapshotContent.set,
+  source: snapshotContent.source,
+  capturedAt: new Date().toISOString(),
+  partial: snapshotContent.partial,
+  count: snapshotContent.count,
+  cards: snapshotContent.cards,
+};
+
 await fs.writeFile(outputPath, `${JSON.stringify(snapshot, null, 2)}\n`);
-console.log(`Captured ${cards.length} ${setCode.toUpperCase()} preview cards.`);
+console.log(`Captured ${cards.length} ${setCode.toUpperCase()} preview cards and changed ${changedAssets} image files.`);
