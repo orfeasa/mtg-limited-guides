@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-02T17:40:00Z",
+  "generatedAt": "2026-09-08T12:58:47Z",
   "title": "Design System: Limited Field Guides",
   "extensions": {
     "brandAssets": {
@@ -83,7 +83,7 @@
       },
       "hobbit-heading": {
         "displayName": "Hobbit Leaf Headline",
-        "purpose": "Alegreya hierarchy for Training, Draft decisions, and atlas headings."
+        "purpose": "Alegreya hierarchy for Training, Archetypes, Draft decisions, and atlas headings."
       },
       "fracture-page": {
         "displayName": "Fracture Page Display",
@@ -148,6 +148,16 @@
         "name": "atlas-navigation",
         "value": "0 10px 22px rgba(8, 9, 16, .1)",
         "purpose": "Keeps sticky colour navigation distinct from the card file."
+      },
+      {
+        "name": "archetype-field-note",
+        "value": "0 14px 34px rgba(8, 9, 16, .2)",
+        "purpose": "Lifts the one broad Draft or Sealed orientation note without elevating every route chapter."
+      },
+      {
+        "name": "archetype-signpost",
+        "value": "0 9px 22px rgba(8, 9, 16, .22)",
+        "purpose": "Separates the paired recognition cards from the flat archetype chapter."
       },
       {
         "name": "binding",
@@ -274,9 +284,17 @@
       "name": "Active Page Marker",
       "kind": "nav",
       "refersTo": "view-marker-active",
-      "description": "Raised marker for Training, conditional Draft decisions, or All cards.",
-      "html": "<button class=\"ds-view-marker\" type=\"button\" role=\"tab\" aria-selected=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 4h11l3 3v13H5zM8 9h8M8 13h8M8 17h5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/></svg><span>Draft decisions</span></button>",
+      "description": "Raised marker for Training, conditional Archetypes or Draft decisions, and All cards.",
+      "html": "<button class=\"ds-view-marker\" type=\"button\" role=\"tab\" aria-selected=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 19c0-5 2.7-7 8-7s8-2 8-7M12 12v8M8 16h8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/></svg><span>Archetypes</span></button>",
       "css": ".ds-view-marker { display:inline-flex; align-items:center; gap:8px; min-height:58px; padding:0 19px; color:var(--binding-deep); background:var(--metal-light); border:1px solid var(--metal-light); border-bottom:0; border-radius:var(--control-radius) var(--control-radius) 0 0; box-shadow:0 7px 18px rgba(8,9,16,.16); font:700 .74rem/1.15 var(--body); cursor:pointer; transition:filter 160ms var(--ease-out),transform 160ms var(--ease-out); } .ds-view-marker:hover { filter:brightness(1.05); } .ds-view-marker:focus-visible { outline:3px solid var(--focus); outline-offset:3px; } .ds-view-marker:active { transform:translateY(1px); } .ds-view-marker svg { width:20px; height:20px; }"
+    },
+    {
+      "name": "Archetype Route Chapter",
+      "kind": "custom",
+      "refersTo": "archetype-field-note",
+      "description": "A supported plan kept in official order, with its format result subordinate to practical priorities and paired signposts.",
+      "html": "<article class=\"ds-archetype\"><header><span class=\"ds-archetype-colours\" aria-hidden=\"true\"><i>W</i><i>U</i></span><span><h3>Humans</h3><small>Recruit · draw two</small></span><p><strong>#4 of 5</strong>56.0% · 69,879 games</p></header><div class=\"ds-archetype-body\"><section><h4>Use recruit to build a Human token army.</h4><ol><li>Reliable recruit effects</li><li>Second-card payoffs</li><li>Ways to finish wide</li></ol><p><b>Draft read</b> Move in when both halves of the engine are flowing.</p></section><aside><small>Cards to recognise</small><div><span>CARD</span><span>CARD</span></div></aside></div></article>",
+      "css": ".ds-archetype { padding:28px 0; color:var(--ink); background:var(--surface); font-family:var(--body); } .ds-archetype header { display:grid; grid-template-columns:auto 1fr auto; align-items:end; gap:16px; padding-bottom:16px; border-bottom:2px solid var(--binding); } .ds-archetype-colours { display:flex; } .ds-archetype-colours i { display:grid; place-items:center; width:42px; height:42px; color:var(--binding-deep); background:var(--metal-light); border:3px solid var(--surface); border-radius:50%; box-shadow:0 5px 13px rgba(8,9,16,.24); font-style:normal; font-weight:700; } .ds-archetype-colours i+i { margin-left:-10px; color:var(--on-binding); background:var(--signal); } .ds-archetype h3 { margin:0; font:700 2.4rem/.9 var(--display); } .ds-archetype small { color:var(--accent-dark); font-size:.68rem; font-weight:700; } .ds-archetype header p { margin:0; color:var(--muted); font-size:.68rem; text-align:right; } .ds-archetype header p strong { display:block; color:var(--ink); font:700 1.7rem/1 var(--display); } .ds-archetype-body { display:grid; grid-template-columns:1.25fr .75fr; gap:48px; padding-top:22px; } .ds-archetype h4 { margin:0 0 18px; font:700 1.25rem/1.3 var(--display); } .ds-archetype ol { margin:0; padding-left:24px; border-top:1px solid var(--line); } .ds-archetype li { padding:8px 0; border-bottom:1px solid var(--line); } .ds-archetype section p { padding:14px 0; color:var(--muted); border-bottom:1px solid var(--line); } .ds-archetype section b { display:block; color:var(--accent-dark); font-size:.65rem; } .ds-archetype aside div { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:8px; } .ds-archetype aside span { display:grid; place-items:center; aspect-ratio:5/7; color:var(--muted); background:var(--surface-deep); border-radius:var(--control-radius); box-shadow:0 9px 22px rgba(8,9,16,.22); font-size:.62rem; font-weight:700; }"
     },
     {
       "name": "Hobbit Study Card",
@@ -351,12 +369,12 @@
   ],
   "narrative": {
     "northStar": "The Set-Specific Field Guide Shelf",
-    "overview": "Limited Field Guides is one dependable preparation shelf holding authored volumes, not one generic dashboard wearing different accent colours. The shared shell opens the latest set and keeps the learning sequence stable—train exact-tier recall, work through grounded draft decisions when available, browse the card file, and share the selected guide—while each set owns one coherent material world.\n\nThe Hobbit remains Bilbo’s Expedition Atlas: forest cloth, warm map leaves, brass page flags, oxblood routes, river details, and softly handled corners. Reality Fracture is an Echoverse dossier: ink and indigo binding, cool paper, electric violet, cyan, and pink seams, condensed black display type, and facets cut on sharp angles. Atkinson Hyperlegible Next connects both as the practical reading and control voice.\n\nThe system should feel authored, trustworthy, and ready before an event. Data maturity is visible rather than implied; readable local study images fall back safely to local thumbnails; progress and exact-tier rehearsal state stay local; rating-dependent work visibly locks when an attributable evaluation does not exist. The visual language rejects generic statistics dashboards and deck-builder framing.",
+    "overview": "Limited Field Guides is one dependable preparation shelf holding authored volumes, not one generic dashboard wearing different accent colours. The shared shell opens the latest set and keeps the learning sequence stable—study supported archetypes through the relevant format, train exact-tier recall, work through grounded draft decisions when available, browse the card file, and share the selected guide—while each set owns one coherent material world.\n\nThe Hobbit remains Bilbo’s Expedition Atlas: forest cloth, warm map leaves, brass page flags, oxblood routes, river details, and softly handled corners. Reality Fracture is an Echoverse dossier: ink and indigo binding, cool paper, electric violet, cyan, and pink seams, condensed black display type, and facets cut on sharp angles. Atkinson Hyperlegible Next connects both as the practical reading and control voice.\n\nThe system should feel authored, trustworthy, and ready before an event. Data maturity is visible rather than implied; readable local study images fall back safely to local thumbnails; progress and exact-tier rehearsal state stay local; rating-dependent work visibly locks when an attributable evaluation does not exist. The visual language rejects generic statistics dashboards and deck-builder framing.",
     "keyCharacteristics": [
       "One shared preparation sequence expressed as a shelf of set-owned field guides.",
       "Atkinson Hyperlegible Next for working text, controls, metadata, and dense card information.",
       "Hobbit’s rounded cloth-and-map atlas beside Reality Fracture’s clipped, electrically seamed dossier.",
-      "Stable Training and All cards markers, with Draft decisions appearing only when grounded pack-and-pool evidence exists.",
+      "Stable Training and All cards markers, with Archetypes and Draft decisions appearing only when their required evidence exists.",
       "Persisted Training queues, exact-tier scores, and reviewed-decision state with explicit unrated preview states.",
       "Hobbit’s post-answer observed-evidence ledger and adjacent-rank context without implying deck intelligence.",
       "Broad surfaces and flat rows gathered into one handled volume rather than a field of dashboard cards."
@@ -399,7 +417,7 @@
       },
       {
         "name": "The Stable-Shell Rule",
-        "body": "Training and All cards retain their order and behaviour across sets. Draft decisions may only appear between them when the set supplies grounded pack-and-pool evidence.",
+        "body": "Training and All cards retain their order and behaviour across sets. Archetypes may appear after Training only with its official map and both format observations; Draft decisions may appear after it only with grounded pack-and-pool evidence.",
         "section": "layout"
       },
       {
@@ -448,6 +466,7 @@
       "Do use the larger local image for Training, Draft decisions, and magnification, with a matching local thumbnail fallback.",
       "Do group exact-tier choices as Top picks, Strong, Playable, and Filler, then return misses after three intervening cards.",
       "Do keep Hobbit’s three observed evidence values and adjacent ranks visually attached to the revealed answer.",
+      "Do keep official archetype intent, Draft observations, Sealed observations, editorial notes, sample size, and capture date visibly distinct.",
       "Do omit rating-dependent answers and actions when the rating source is pending.",
       "Do preserve keyboard focus, touch targets, literal labels, source attribution, and reduced-motion behavior."
     ],
@@ -458,6 +477,7 @@
       "Don't cross Hobbit’s brass and oxblood into the Fracture dossier or Fracture’s electric seams into the atlas.",
       "Don't invent rankings, tiers, or answer colours for a preview-only set.",
       "Don't show a tier quiz or observed ranking evidence for unrated Reality Fracture cards.",
+      "Don't collapse Draft and Sealed results into one archetype ranking or turn aggregate results into instructions to force a colour pair.",
       "Don't wrap every draft choice or atlas entry in its own rounded elevated card.",
       "Don't reintroduce rank-only pick comparisons without full-pack and drafted-pool context.",
       "Don't turn Draft decisions into a binary score or imply the replay pick is automatically correct.",

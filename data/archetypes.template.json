@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "set": "SET",
+  "status": "provisional",
+  "official": {
+    "label": "Official set or mechanics guide",
+    "url": "https://example.com/replace-with-official-source"
+  },
+  "formats": {
+    "draft": {
+      "label": "Premier Draft",
+      "shortLabel": "Draft",
+      "eventType": "PremierDraft",
+      "headline": "Replace with the useful Draft lens.",
+      "guidance": "Explain how to use the intended plans without treating aggregate results as instructions to force a lane.",
+      "source": {
+        "label": "17Lands deck colour data",
+        "url": "https://www.17lands.com/deck_color_data?expansion=SET&format=PremierDraft&time_period=ALL_TIME",
+        "scope": "17Lands users · all ranks · all time"
+      },
+      "observed": {
+        "status": "pending",
+        "capturedAt": null,
+        "twoColourGames": 0,
+        "supportedGames": 0,
+        "supportedShare": null,
+        "topPair": null,
+        "pairs": []
+      }
+    },
+    "sealed": {
+      "label": "Sealed",
+      "shortLabel": "Sealed",
+      "eventType": "Sealed",
+      "headline": "Build the pool you opened.",
+      "guidance": "Explain how bombs, removal, curve, depth, and fixing change the value of the intended archetypes in Sealed.",
+      "source": {
+        "label": "17Lands deck colour data",
+        "url": "https://www.17lands.com/deck_color_data?expansion=SET&format=Sealed&time_period=ALL_TIME",
+        "scope": "17Lands users · all ranks · all time"
+      },
+      "observed": {
+        "status": "pending",
+        "capturedAt": null,
+        "twoColourGames": 0,
+        "supportedGames": 0,
+        "supportedShare": null,
+        "topPair": null,
+        "pairs": []
+      }
+    }
+  },
+  "archetypes": [
+    {
+      "id": "WU",
+      "colors": [
+        "W",
+        "U"
+      ],
+      "name": "Replace with the official archetype name",
+      "mechanic": "Primary mechanic · secondary axis",
+      "plan": "One sentence explaining how the deck turns its resources into a win.",
+      "priorities": [
+        "First structural need",
+        "Second structural need",
+        "How the deck closes"
+      ],
+      "signposts": [
+        "First verified card name",
+        "Second verified card name"
+      ],
+      "formatNotes": {
+        "draft": "Explain the signal, density, or commitment decision that matters during Draft.",
+        "sealed": "Explain what pool evidence is required before this plan is worth building in Sealed."
+      }
+    }
+  ]
+}

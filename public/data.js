@@ -7,6 +7,7 @@ window.LIMITED_PREP_DATA = {
       "code": "HOB",
       "adapter": "hobbit-ranking",
       "decisionsFile": "hobbit_draft_decisions.json",
+      "archetypesFile": "hobbit_archetypes.json",
       "name": "The Hobbit",
       "productName": "The Hobbit Limited Atlas",
       "theme": "hobbit",
@@ -565,6 +566,438 @@ window.LIMITED_PREP_DATA = {
               "Elvenking's Halls"
             ],
             "replayPick": "Bilbo, Luckwearer"
+          }
+        ]
+      },
+      "archetypes": {
+        "version": 1,
+        "set": "HOB",
+        "status": "observed",
+        "official": {
+          "label": "Wizards of the Coast prerelease guide",
+          "url": "https://magic.wizards.com/en/news/feature/the-hobbit-prerelease-guide"
+        },
+        "formats": {
+          "draft": {
+            "label": "Premier Draft",
+            "shortLabel": "Draft",
+            "eventType": "PremierDraft",
+            "headline": "Read the lane, then the table.",
+            "guidance": "Draft rewards a coherent engine and an open lane. Use the observed results to understand the field, but let the cards being passed to you decide when to commit.",
+            "source": {
+              "label": "17Lands deck colour data",
+              "url": "https://www.17lands.com/deck_color_data?expansion=HOB&format=PremierDraft&time_period=ALL_TIME",
+              "scope": "17Lands users · all ranks · all time"
+            },
+            "observed": {
+              "status": "available",
+              "capturedAt": "2026-09-08T12:43:37.007Z",
+              "twoColourGames": 342758,
+              "supportedGames": 320786,
+              "supportedShare": 93.59,
+              "topPair": "BR",
+              "pairs": [
+                {
+                  "id": "BR",
+                  "name": "Rakdos (BR)",
+                  "wins": 58081,
+                  "games": 100886,
+                  "winRate": 57.57,
+                  "supported": true,
+                  "overallRank": 1,
+                  "supportedRank": 1
+                },
+                {
+                  "id": "WB",
+                  "name": "Orzhov (WB)",
+                  "wins": 2819,
+                  "games": 4936,
+                  "winRate": 57.11,
+                  "supported": false,
+                  "overallRank": 2
+                },
+                {
+                  "id": "BG",
+                  "name": "Golgari (BG)",
+                  "wins": 37772,
+                  "games": 66331,
+                  "winRate": 56.94,
+                  "supported": true,
+                  "overallRank": 3,
+                  "supportedRank": 2
+                },
+                {
+                  "id": "UR",
+                  "name": "Izzet (UR)",
+                  "wins": 1941,
+                  "games": 3454,
+                  "winRate": 56.2,
+                  "supported": false,
+                  "overallRank": 4
+                },
+                {
+                  "id": "WR",
+                  "name": "Boros (RW)",
+                  "wins": 35574,
+                  "games": 63344,
+                  "winRate": 56.16,
+                  "supported": true,
+                  "overallRank": 5,
+                  "supportedRank": 3
+                },
+                {
+                  "id": "WU",
+                  "name": "Azorius (WU)",
+                  "wins": 39155,
+                  "games": 69879,
+                  "winRate": 56.03,
+                  "supported": true,
+                  "overallRank": 6,
+                  "supportedRank": 4
+                },
+                {
+                  "id": "RG",
+                  "name": "Gruul (RG)",
+                  "wins": 1142,
+                  "games": 2129,
+                  "winRate": 53.64,
+                  "supported": false,
+                  "overallRank": 7
+                },
+                {
+                  "id": "UB",
+                  "name": "Dimir (UB)",
+                  "wins": 5589,
+                  "games": 10446,
+                  "winRate": 53.5,
+                  "supported": false,
+                  "overallRank": 8
+                },
+                {
+                  "id": "UG",
+                  "name": "Simic (GU)",
+                  "wins": 10598,
+                  "games": 20346,
+                  "winRate": 52.09,
+                  "supported": true,
+                  "overallRank": 9,
+                  "supportedRank": 5
+                },
+                {
+                  "id": "WG",
+                  "name": "Selesnya (GW)",
+                  "wins": 509,
+                  "games": 1007,
+                  "winRate": 50.55,
+                  "supported": false,
+                  "overallRank": 10
+                }
+              ]
+            }
+          },
+          "sealed": {
+            "label": "Sealed",
+            "shortLabel": "Sealed",
+            "eventType": "Sealed",
+            "headline": "Build the pool you opened.",
+            "guidance": "Use the five plans to test whether your pool has a working engine, but start with bombs, removal, curve, and colour depth. An unsupported pair is valid when the pool supports it.",
+            "source": {
+              "label": "17Lands deck colour data",
+              "url": "https://www.17lands.com/deck_color_data?expansion=HOB&format=Sealed&time_period=ALL_TIME",
+              "scope": "17Lands users · all ranks · all time"
+            },
+            "observed": {
+              "status": "available",
+              "capturedAt": "2026-09-08T12:43:37.007Z",
+              "twoColourGames": 37907,
+              "supportedGames": 34599,
+              "supportedShare": 91.27,
+              "topPair": "WB",
+              "pairs": [
+                {
+                  "id": "WB",
+                  "name": "Orzhov (WB)",
+                  "wins": 760,
+                  "games": 1260,
+                  "winRate": 60.32,
+                  "supported": false,
+                  "overallRank": 1
+                },
+                {
+                  "id": "BR",
+                  "name": "Rakdos (BR)",
+                  "wins": 9275,
+                  "games": 15458,
+                  "winRate": 60,
+                  "supported": true,
+                  "overallRank": 2,
+                  "supportedRank": 1
+                },
+                {
+                  "id": "BG",
+                  "name": "Golgari (BG)",
+                  "wins": 5327,
+                  "games": 9219,
+                  "winRate": 57.78,
+                  "supported": true,
+                  "overallRank": 3,
+                  "supportedRank": 2
+                },
+                {
+                  "id": "WR",
+                  "name": "Boros (RW)",
+                  "wins": 3464,
+                  "games": 6023,
+                  "winRate": 57.51,
+                  "supported": true,
+                  "overallRank": 4,
+                  "supportedRank": 3
+                },
+                {
+                  "id": "UB",
+                  "name": "Dimir (UB)",
+                  "wins": 456,
+                  "games": 801,
+                  "winRate": 56.93,
+                  "supported": false,
+                  "overallRank": 5
+                },
+                {
+                  "id": "WG",
+                  "name": "Selesnya (GW)",
+                  "wins": 172,
+                  "games": 315,
+                  "winRate": 54.6,
+                  "supported": false,
+                  "overallRank": 6
+                },
+                {
+                  "id": "UR",
+                  "name": "Izzet (UR)",
+                  "wins": 98,
+                  "games": 190,
+                  "winRate": 51.58,
+                  "supported": false,
+                  "overallRank": 7
+                },
+                {
+                  "id": "RG",
+                  "name": "Gruul (RG)",
+                  "wins": 382,
+                  "games": 742,
+                  "winRate": 51.48,
+                  "supported": false,
+                  "overallRank": 8
+                },
+                {
+                  "id": "WU",
+                  "name": "Azorius (WU)",
+                  "wins": 1269,
+                  "games": 2508,
+                  "winRate": 50.6,
+                  "supported": true,
+                  "overallRank": 9,
+                  "supportedRank": 4
+                },
+                {
+                  "id": "UG",
+                  "name": "Simic (GU)",
+                  "wins": 668,
+                  "games": 1391,
+                  "winRate": 48.02,
+                  "supported": true,
+                  "overallRank": 10,
+                  "supportedRank": 5
+                }
+              ]
+            }
+          }
+        },
+        "archetypes": [
+          {
+            "id": "WU",
+            "colors": [
+              "W",
+              "U"
+            ],
+            "name": "Humans",
+            "mechanic": "Recruit · draw two",
+            "plan": "Use recruit to trigger second-card payoffs while building a Human token army, then turn the wide board into pressure.",
+            "priorities": [
+              "Reliable recruit effects",
+              "Second-card payoffs",
+              "Ways to finish with a wide board"
+            ],
+            "signposts": [
+              {
+                "cardId": "hob-61",
+                "name": "Bard the Bowman",
+                "image": "assets/cards/103525.jpg",
+                "trainingImage": "assets/cards-large/103525.jpg",
+                "rank": 61,
+                "tier": "C+"
+              },
+              {
+                "cardId": "hob-59",
+                "name": "Long Lake Nuisance",
+                "image": "assets/cards/103418.jpg",
+                "trainingImage": "assets/cards-large/103418.jpg",
+                "rank": 59,
+                "tier": "C+"
+              }
+            ],
+            "formatNotes": {
+              "draft": "This deck needs both halves of the engine. Move in when recruit and the payoffs are flowing together, not for one attractive gold card.",
+              "sealed": "Six packs do not guarantee enough payoffs. Count the recruit effects and rewards separately before treating blue-white as a synergy deck."
+            }
+          },
+          {
+            "id": "BR",
+            "colors": [
+              "B",
+              "R"
+            ],
+            "name": "Goblins",
+            "mechanic": "Amass · sacrifice",
+            "plan": "Grow a Goblin Army, cash creatures in for value, and combine sacrifice effects with dies triggers to drain resources and life.",
+            "priorities": [
+              "Repeatable amass or Army growth",
+              "Sacrifice outlets with real value",
+              "Dies triggers and efficient interaction"
+            ],
+            "signposts": [
+              {
+                "cardId": "hob-78",
+                "name": "Bolg of the North",
+                "image": "assets/cards/103528.jpg",
+                "trainingImage": "assets/cards-large/103528.jpg",
+                "rank": 78,
+                "tier": "C+"
+              },
+              {
+                "cardId": "hob-38",
+                "name": "Misty Mountains Raider",
+                "image": "assets/cards/103483.jpg",
+                "trainingImage": "assets/cards-large/103483.jpg",
+                "rank": 38,
+                "tier": "B"
+              }
+            ],
+            "formatNotes": {
+              "draft": "The pieces overlap well, so begin with efficient black-red cards and raise narrow sacrifice payoffs only after the enablers arrive.",
+              "sealed": "Removal, amass, and death value work without a perfect draw. That makes this plan less dependent on assembling a delicate package."
+            }
+          },
+          {
+            "id": "BG",
+            "colors": [
+              "B",
+              "G"
+            ],
+            "name": "Wolves",
+            "mechanic": "Ferocious · four power",
+            "plan": "Reach four power reliably to switch on ferocious rewards, using ramp and sturdy creatures to stay ahead on board.",
+            "priorities": [
+              "Reliable four-power creatures",
+              "Cheap ways to reach four power",
+              "Ramp and interaction"
+            ],
+            "signposts": [
+              {
+                "cardId": "hob-128",
+                "name": "The Chief Warg",
+                "image": "assets/cards/103530.jpg",
+                "trainingImage": "assets/cards-large/103530.jpg",
+                "rank": 128,
+                "tier": "C-"
+              },
+              {
+                "cardId": "hob-31",
+                "name": "Nighthowl Pursuer",
+                "image": "assets/cards/103454.jpg",
+                "trainingImage": "assets/cards-large/103454.jpg",
+                "rank": 31,
+                "tier": "B"
+              }
+            ],
+            "formatNotes": {
+              "draft": "Count dependable four-power bodies, not cards that only become large after several things go right. The payoffs are only as good as that count.",
+              "sealed": "This is a natural home for deep creature pools and expensive bombs. Prioritise a stable curve so the deck does not spend its early turns doing nothing."
+            }
+          },
+          {
+            "id": "WR",
+            "colors": [
+              "W",
+              "R"
+            ],
+            "name": "Dwarves",
+            "mechanic": "Storied · Equipment",
+            "plan": "Build an enduring story with artifacts, legendary permanents, and Sagas, then let the storied payoffs turn those useful pieces into an advantage.",
+            "priorities": [
+              "Artifacts and legends you would play anyway",
+              "Storied payoffs",
+              "Early creatures and useful Equipment"
+            ],
+            "signposts": [
+              {
+                "cardId": "hob-71",
+                "name": "Thorin Oakenshield",
+                "image": "assets/cards/103545.jpg",
+                "trainingImage": "assets/cards-large/103545.jpg",
+                "rank": 71,
+                "tier": "C+"
+              },
+              {
+                "cardId": "hob-53",
+                "name": "Iron Hills Blacksmith",
+                "image": "assets/cards/103384.jpg",
+                "trainingImage": "assets/cards-large/103384.jpg",
+                "rank": 53,
+                "tier": "B-"
+              }
+            ],
+            "formatNotes": {
+              "draft": "The threshold asks for density, but filler artifacts are still filler. Prefer cards that advance the board while also counting toward the story.",
+              "sealed": "Inventory the playable artifacts, legends, and Sagas before adding storied rewards. Do not weaken the deck merely to turn the mechanic on."
+            }
+          },
+          {
+            "id": "UG",
+            "colors": [
+              "U",
+              "G"
+            ],
+            "name": "Elves",
+            "mechanic": "Landfall · control",
+            "plan": "Keep making land drops while slowing the opponent, then convert landfall and large late-game threats into inevitability.",
+            "priorities": [
+              "Reliable landfall enablers",
+              "Interaction and tempo",
+              "Mana sinks and finishers"
+            ],
+            "signposts": [
+              {
+                "cardId": "hob-135",
+                "name": "Silvan Reveler",
+                "image": "assets/cards/103543.jpg",
+                "trainingImage": "assets/cards-large/103543.jpg",
+                "rank": 135,
+                "tier": "D+"
+              },
+              {
+                "cardId": "hob-21",
+                "name": "Mirkwood Pathmaker",
+                "image": "assets/cards/103509.jpg",
+                "trainingImage": "assets/cards-large/103509.jpg",
+                "rank": 21,
+                "tier": "B+"
+              }
+            ],
+            "formatNotes": {
+              "draft": "Landfall is easy to trigger but the deck still needs ways to affect the board. Demand interaction and a convincing reason to be in both colours.",
+              "sealed": "A slower pool can support the plan, but colour-pair identity alone is not enough. Require real card quality, fixing, and a route to stabilise."
+            }
           }
         ]
       },
@@ -3802,6 +4235,7 @@ window.LIMITED_PREP_DATA = {
       "cardCount": 27,
       "previewCapturedAt": "2026-09-08T11:08:31.108Z",
       "draftDecisions": null,
+      "archetypes": null,
       "cards": [
         {
           "id": "483fcc58-cc6e-4452-a696-7b38e117c837",

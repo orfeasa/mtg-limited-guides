@@ -1,10 +1,11 @@
 # Limited Field Guides
 
-A set-by-set Magic: The Gathering Limited preparation tool. Each set keeps its own visual world while sharing rating training, grounded draft decisions where evidence exists, and a complete card index.
+A set-by-set Magic: The Gathering Limited preparation tool. Each set keeps its own visual world while sharing archetype field notes, rating training, grounded draft decisions where evidence exists, and a complete card index.
 
 ## What it does
 
 - Card rating training with browser-local progress
+- Official archetype plans interpreted against separate Premier Draft and Sealed observations
 - Full-pack draft decisions with the drafted pool, historical replay pick, and current data leader kept distinct
 - A complete card index grouped by colour with in-place card magnification
 - Honest preview mode when a set has cards but no attributable Limited ranking yet
@@ -16,7 +17,7 @@ Preparation progress stays only in the current browser through `localStorage`, i
 
 The current guides are:
 
-- **The Hobbit** — complete 188-card observed Premier Draft ranking refreshed from 620,000 matches, plus 18 real draft decisions from a public 17Lands 7–2 replay.
+- **The Hobbit** — five official archetype plans with separate Draft and Sealed field data, a complete 188-card observed Premier Draft ranking refreshed from 620,000 matches, and 18 real draft decisions from a public 17Lands 7–2 replay.
 - **Reality Fracture** — live preview file with unrated card reading and browsing; rating training will become available only after a complete evaluation is captured.
 
 ## Run locally
@@ -49,6 +50,16 @@ node scripts/verify-data.mjs
 ```
 
 `scripts/build-data.mjs` regenerates `public/data.js` and the service-worker asset list from the captured JSON source files in `data/`.
+
+Each new set's archetypes start from `data/archetypes.template.json`. Author the official plan and format-specific field notes, add `archetypesFile` to the set manifest, then capture the current Draft and Sealed observations with:
+
+```sh
+node scripts/sync-archetypes.mjs hob
+node scripts/build-data.mjs
+node scripts/verify-data.mjs
+```
+
+The sync retains all ten two-colour pairs, so an unsupported combination can still surface when it matters—especially in Sealed. The complete evidence and editorial workflow is documented in [`docs/archetype-methodology.md`](docs/archetype-methodology.md).
 
 To refresh a preview file from Scryfall:
 

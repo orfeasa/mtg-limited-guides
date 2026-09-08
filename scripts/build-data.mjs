@@ -118,6 +118,33 @@ function adaptDraftDecisions(set, cards) {
   };
 }
 
+function adaptArchetypes(set, cards) {
+  if (!set.archetypesFile) return null;
+  const source = readJson(set.archetypesFile);
+  if (source.set !== set.code) {
+    throw new Error(`Archetype data ${set.archetypesFile} contains ${source.set}, expected ${set.code}`);
+  }
+  const cardsByName = new Map(cards.map((card) => [card.name, card]));
+  return {
+    ...source,
+    archetypes: source.archetypes.map((archetype) => ({
+      ...archetype,
+      signposts: archetype.signposts.map((name) => {
+        const card = cardsByName.get(name);
+        if (!card) throw new Error(`Unknown ${set.id} archetype signpost: ${name}`);
+        return {
+          cardId: card.id,
+          name: card.name,
+          image: card.image,
+          trainingImage: card.trainingImage || card.image,
+          rank: card.rank,
+          tier: card.tier,
+        };
+      }),
+    })),
+  };
+}
+
 const sets = manifest.sets.map((set) => {
   const adapt = setAdapters[set.adapter];
   if (!adapt) throw new Error(`No card-data adapter configured for set ${set.id}`);
@@ -127,6 +154,7 @@ const sets = manifest.sets.map((set) => {
     cardCount: cards.length,
     previewCapturedAt,
     draftDecisions: adaptDraftDecisions(set, cards),
+    archetypes: adaptArchetypes(set, cards),
     cards,
   };
 });

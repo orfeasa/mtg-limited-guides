@@ -31,6 +31,62 @@ for (const set of data.sets) {
       throw new Error(`Missing readable card image: ${card.trainingImage}`);
     }
   }
+
+  if (set.archetypes) {
+    if (set.archetypes.set !== set.code || !Array.isArray(set.archetypes.archetypes) || set.archetypes.archetypes.length === 0) {
+      throw new Error(`Invalid archetype data for ${set.id}`);
+    }
+    if (set.archetypes.status !== "observed" || !set.archetypes.official?.label || !set.archetypes.official?.url) {
+      throw new Error(`Archetype evidence is not publication-ready for ${set.id}`);
+    }
+    const archetypeIds = new Set();
+    for (const archetype of set.archetypes.archetypes) {
+      if (!/^[WUBRG]{2}$/.test(archetype.id) || archetypeIds.has(archetype.id)) throw new Error(`Invalid archetype ID in ${set.id}: ${archetype.id}`);
+      archetypeIds.add(archetype.id);
+      if (!Array.isArray(archetype.colors) || archetype.colors.join("") !== archetype.id || new Set(archetype.colors).size !== 2 || !archetype.name || !archetype.mechanic || !archetype.plan) {
+        throw new Error(`Incomplete archetype ${archetype.id} in ${set.id}`);
+      }
+      if (!Array.isArray(archetype.priorities) || archetype.priorities.length !== 3) throw new Error(`Archetype ${archetype.id} needs three priorities`);
+      if (!Array.isArray(archetype.signposts) || archetype.signposts.length < 2 || archetype.signposts.some((card) => !cardIds.has(card.cardId))) {
+        throw new Error(`Archetype ${archetype.id} has invalid signposts`);
+      }
+      if (!archetype.formatNotes?.draft || !archetype.formatNotes?.sealed) throw new Error(`Archetype ${archetype.id} needs Draft and Sealed notes`);
+    }
+    for (const formatId of ["draft", "sealed"]) {
+      const format = set.archetypes.formats?.[formatId];
+      if (!format?.label || !format?.shortLabel || !format?.eventType || !format?.headline || !format?.source?.label || !format?.source?.url || !format?.source?.scope || !format?.guidance || format.observed?.status !== "available") {
+        throw new Error(`Archetype ${formatId} evidence is unavailable for ${set.id}`);
+      }
+      const observed = format.observed;
+      if (!observed.capturedAt || Number.isNaN(Date.parse(observed.capturedAt)) || !Array.isArray(observed.pairs) || observed.pairs.length !== 10) {
+        throw new Error(`Expected a dated ten-pair ${formatId} snapshot for ${set.id}`);
+      }
+      const pairIds = new Set();
+      for (const pair of observed.pairs) {
+        if (!/^[WUBRG]{2}$/.test(pair.id) || pairIds.has(pair.id) || new Set(pair.id).size !== 2) throw new Error(`Invalid ${formatId} pair in ${set.id}: ${pair.id}`);
+        pairIds.add(pair.id);
+        if (!pair.name || !Number.isInteger(pair.wins) || !Number.isInteger(pair.games) || pair.wins < 0 || pair.games <= 0 || pair.wins > pair.games || !Number.isFinite(pair.winRate) || !Number.isInteger(pair.overallRank)) {
+          throw new Error(`Incomplete ${formatId} observation for ${set.id} ${pair.id}`);
+        }
+        const calculatedWinRate = Math.round((pair.wins / pair.games) * 10000) / 100;
+        if (Math.abs(calculatedWinRate - pair.winRate) > .01 || pair.supported !== archetypeIds.has(pair.id)) {
+          throw new Error(`Inconsistent ${formatId} observation for ${set.id} ${pair.id}`);
+        }
+      }
+      const twoColourGames = observed.pairs.reduce((sum, pair) => sum + pair.games, 0);
+      const supportedGames = observed.pairs.filter((pair) => pair.supported).reduce((sum, pair) => sum + pair.games, 0);
+      const supportedShare = Math.round((supportedGames / twoColourGames) * 10000) / 100;
+      if (observed.twoColourGames !== twoColourGames || observed.supportedGames !== supportedGames || Math.abs(observed.supportedShare - supportedShare) > .01 || !pairIds.has(observed.topPair)) {
+        throw new Error(`Inconsistent ${formatId} snapshot totals for ${set.id}`);
+      }
+      for (const id of archetypeIds) {
+        const pair = observed.pairs.find((entry) => entry.id === id);
+        if (!pair?.supported || !Number.isFinite(pair.winRate) || !Number.isFinite(pair.games) || !Number.isInteger(pair.supportedRank)) {
+          throw new Error(`Missing ${formatId} observation for ${set.id} ${id}`);
+        }
+      }
+    }
+  }
 }
 
 const hobbit = data.sets.find((set) => set.id === "hob");
@@ -42,6 +98,7 @@ if (hobbit.cards.some((card) => !card.trainingImage || !Number.isFinite(card.sta
 if (hobbit.draftDecisions?.scenarios?.length !== 18) {
   throw new Error(`Expected 18 grounded Hobbit draft decisions, got ${hobbit.draftDecisions?.scenarios?.length || 0}`);
 }
+if (hobbit.archetypes?.archetypes?.length !== 5) throw new Error("Expected five official Hobbit archetypes");
 const hobbitNames = new Set(hobbit.cards.map((card) => card.name));
 const basicLandNames = new Set(["Plains", "Island", "Swamp", "Mountain", "Forest"]);
 for (const scenario of hobbit.draftDecisions.scenarios) {

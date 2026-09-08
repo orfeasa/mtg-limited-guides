@@ -6,6 +6,7 @@
       "code": "HOB",
       "adapter": "hobbit-ranking",
       "decisionsFile": "hobbit_draft_decisions.json",
+      "archetypesFile": "hobbit_archetypes.json",
       "name": "The Hobbit",
       "productName": "The Hobbit Limited Atlas",
       "theme": "hobbit",

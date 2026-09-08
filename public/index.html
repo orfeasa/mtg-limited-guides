@@ -10,15 +10,15 @@
     <link rel="icon" href="assets/icon-32.png" sizes="32x32" type="image/png">
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
     <link rel="manifest" href="manifest.webmanifest">
-    <link rel="stylesheet" href="styles.css?v=limited-prep-5">
+    <link rel="stylesheet" href="styles.css?v=limited-prep-6">
   </head>
   <body data-theme="fracture">
     <!--
       THESIS: Limited preparation is a shelf of set-specific field guides, not a generic stats dashboard or a deck builder.
       OWN-WORLD: Each set keeps one authored material world; Hobbit uses cloth and map leaves, Reality Fracture uses an angular Echoverse dossier with ink-dark facets and electric seams.
-      STORY: Open the latest set, train card ratings, work through grounded draft decisions when available, and browse the full card file.
-      FIRST VIEWPORT: The latest set and data maturity lead in the binding; set-aware page markers open directly onto the available preparation work.
-      FORM: Multi-volume Limited field guide, extending the established Bilbo expedition atlas with set-owned themes.
+      STORY: Open the latest set, train card ratings, learn its supported archetypes through separate Draft and Sealed evidence, work through grounded decisions, and browse the card file.
+      FIRST VIEWPORT: The latest set and data maturity lead in the binding; page markers open directly onto focused work while Archetypes unfolds as a format-switching route map.
+      FORM: Multi-volume Limited field guide, extending the established Bilbo expedition atlas with a broad route ledger rather than a dashboard of detached metrics.
       FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
     -->
     <a class="skip-link" href="#main">Skip to preparation</a>
@@ -77,6 +77,10 @@
       <button class="view-tab" type="button" role="tab" aria-selected="true" aria-controls="training-view" data-view="training">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h11l3 3v13H5zM8 9h8M8 13h8M8 17h5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
         <span>Training</span>
+      </button>
+      <button class="view-tab" type="button" role="tab" aria-selected="false" aria-controls="archetypes-view" tabindex="-1" data-view="archetypes" hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19c0-5 2.7-7 8-7s8-2 8-7M12 12v8M8 16h8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Archetypes</span>
       </button>
       <button class="view-tab" type="button" role="tab" aria-selected="false" aria-controls="decisions-view" tabindex="-1" data-view="decisions" hidden>
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h7v10H4zM13 7h7v10h-7zM7.5 17.5h9M12 14v3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
@@ -145,6 +149,44 @@
               <div><dt>Tier calls</dt><dd id="grade-score">0/0</dd></div>
             </dl>
           </section>
+        </div>
+      </section>
+
+      <section id="archetypes-view" class="view-panel" role="tabpanel" hidden>
+        <div class="archetypes-page surface-page">
+          <header class="archetypes-heading">
+            <div>
+              <h2 id="archetypes-title">Five roads through the set</h2>
+              <p id="archetypes-copy">Official plans, tested against format-specific results. Learn what each deck needs before deciding whether your cards actually support it.</p>
+            </div>
+            <div id="archetype-format-switch" class="archetype-format-switch" role="group" aria-label="Archetype format">
+              <button type="button" data-archetype-format="draft" aria-pressed="true">Draft</button>
+              <button type="button" data-archetype-format="sealed" aria-pressed="false">Sealed</button>
+            </div>
+          </header>
+
+          <section class="format-field-note" aria-labelledby="format-headline">
+            <div class="format-field-copy">
+              <h3 id="format-headline"></h3>
+              <p id="format-guidance"></p>
+            </div>
+            <dl class="format-ledger">
+              <div><dt>Current leader</dt><dd id="format-leader"></dd></div>
+              <div><dt>Supported lanes</dt><dd id="format-supported-share"></dd></div>
+              <div><dt>Two-colour sample</dt><dd id="format-sample"></dd></div>
+            </dl>
+          </section>
+
+          <nav id="archetype-navigation" class="archetype-navigation" aria-label="Jump to an archetype"></nav>
+          <div id="archetype-list" class="archetype-list"></div>
+
+          <footer class="archetype-sources">
+            <p>Intended plans and observed results are separate evidence. Win rates describe games recorded by 17Lands users; compare pairs within one format rather than treating the number as your expected result.</p>
+            <div class="archetype-source-links">
+              <a id="archetype-official-source" href="#" target="_blank" rel="noreferrer">Official archetype guide</a>
+              <a id="archetype-data-source" href="#" target="_blank" rel="noreferrer">Format data</a>
+            </div>
+          </footer>
         </div>
       </section>
 
@@ -239,7 +281,7 @@
       </div>
     </dialog>
     <noscript><p class="noscript">This preparation tool requires JavaScript.</p></noscript>
-    <script src="data.js?v=limited-prep-5"></script>
-    <script src="app.js?v=limited-prep-5"></script>
+    <script src="data.js?v=limited-prep-6"></script>
+    <script src="app.js?v=limited-prep-6"></script>
   </body>
 </html>

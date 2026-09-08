@@ -8,7 +8,7 @@
   const params = new URLSearchParams(location.search);
   const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const numberFormatter = new Intl.NumberFormat("en-GB");
-  const validViews = new Set(["training", "decisions", "atlas"]);
+  const validViews = new Set(["training", "archetypes", "decisions", "atlas"]);
   const bandLabels = {
     top: "Top pick · S/A range",
     strong: "Strong · B range",
@@ -51,7 +51,7 @@
   };
 
   function manaSymbol(color, modifier) {
-    return `<span class="mana-symbol ${modifier}" aria-hidden="true">${manaSymbols[color]}</span>`;
+    return `<span class="mana-symbol ${modifier}" data-color="${color}" aria-hidden="true">${manaSymbols[color]}</span>`;
   }
 
   const $ = (selector) => document.querySelector(selector);
@@ -75,6 +75,18 @@
     gradeOptions: $("#grade-options"),
     trainerAnswer: $("#trainer-answer"),
     revealCard: $("#reveal-card"),
+    archetypesTitle: $("#archetypes-title"),
+    archetypesCopy: $("#archetypes-copy"),
+    archetypeFormatSwitch: $("#archetype-format-switch"),
+    formatHeadline: $("#format-headline"),
+    formatGuidance: $("#format-guidance"),
+    formatLeader: $("#format-leader"),
+    formatSupportedShare: $("#format-supported-share"),
+    formatSample: $("#format-sample"),
+    archetypeNavigation: $("#archetype-navigation"),
+    archetypeList: $("#archetype-list"),
+    archetypeOfficialSource: $("#archetype-official-source"),
+    archetypeDataSource: $("#archetype-data-source"),
     decisionPosition: $("#decision-position"),
     decisionsReviewed: $("#decisions-reviewed"),
     decisionCoordinate: $("#decision-coordinate"),
@@ -123,6 +135,7 @@
   let trainerGuess = null;
   let decisionIndex = 0;
   let decisionChoice = null;
+  let archetypeFormat = params.get("format") === "sealed" ? "sealed" : "draft";
   let progress = emptyProgress();
   let toastTimer = null;
 
@@ -246,6 +259,8 @@
     } else {
       url.searchParams.delete("decision");
     }
+    if (currentView === "archetypes" && archetypesAvailable()) url.searchParams.set("format", archetypeFormat);
+    else url.searchParams.delete("format");
     url.hash = "";
     history[replace ? "replaceState" : "pushState"](null, "", url);
   }
@@ -290,6 +305,14 @@
     return Array.isArray(currentSet.draftDecisions?.scenarios) && currentSet.draftDecisions.scenarios.length > 0;
   }
 
+  function archetypesAvailable() {
+    return Array.isArray(currentSet.archetypes?.archetypes) && currentSet.archetypes.archetypes.length > 0;
+  }
+
+  function archetypeFormatData() {
+    return currentSet.archetypes?.formats?.[archetypeFormat] || null;
+  }
+
   function ratedCards() {
     return cards.filter((card) => Number.isFinite(card.rank) && card.band !== "unrated");
   }
@@ -319,24 +342,46 @@
       ? `${currentSet.cardCount} revealed cards, grouped by colour. Select a card to enlarge it.`
       : `All ${currentSet.cardCount} ranked cards, grouped by colour. Select a card to enlarge it.`;
 
+    if (archetypesAvailable()) {
+      elements.archetypesTitle.textContent = `${currentSet.archetypes.archetypes.length} roads through the set`;
+      elements.archetypesCopy.textContent = "Official plans, tested against format-specific results. Learn what each deck needs before deciding whether your cards actually support it.";
+    }
+
     const decisionTab = viewTabs.find((tab) => tab.dataset.view === "decisions");
     if (decisionTab) {
       decisionTab.hidden = !draftDecisionsAvailable();
       decisionTab.tabIndex = -1;
     }
-    document.documentElement.style.setProperty("--view-count", draftDecisionsAvailable() ? "3" : "2");
+    const archetypesTab = viewTabs.find((tab) => tab.dataset.view === "archetypes");
+    if (archetypesTab) {
+      archetypesTab.hidden = !archetypesAvailable();
+      archetypesTab.tabIndex = -1;
+    }
+    const viewCount = 2 + Number(draftDecisionsAvailable()) + Number(archetypesAvailable());
+    document.documentElement.style.setProperty("--view-count", String(viewCount));
+    document.documentElement.dataset.viewCount = String(viewCount);
 
     renderFooterSource();
   }
 
   function renderFooterSource() {
-    const refreshedAt = currentView === "decisions" && draftDecisionsAvailable()
-      ? currentSet.draftDecisions.capturedAt
-      : currentSet.stage === "preview"
-        ? currentSet.previewCapturedAt
-        : currentSet.performance?.capturedAt || currentSet.rating.capturedAt;
+    const refreshedAt = currentView === "archetypes" && archetypesAvailable()
+      ? archetypeFormatData()?.observed?.capturedAt
+      : currentView === "decisions" && draftDecisionsAvailable()
+        ? currentSet.draftDecisions.capturedAt
+        : currentSet.stage === "preview"
+          ? currentSet.previewCapturedAt
+          : currentSet.performance?.capturedAt || currentSet.rating.capturedAt;
     elements.footerRefreshed.textContent = refreshedAt ? `Last refreshed ${dateLabel(refreshedAt)}` : "";
     elements.footerRefreshed.hidden = !refreshedAt;
+
+    if (currentView === "archetypes" && archetypesAvailable()) {
+      const format = archetypeFormatData();
+      elements.footerSource.textContent = `${currentSet.archetypes.official.label} · ${format.source.label} · ${format.source.scope}`;
+      elements.sourceLink.href = format.source.url;
+      elements.sourceLink.textContent = `View ${format.shortLabel.toLowerCase()} data`;
+      return;
+    }
 
     if (currentView === "decisions" && draftDecisionsAvailable()) {
       elements.footerSource.textContent = `${currentSet.draftDecisions.sourceName} real draft replay · ${currentSet.draftDecisions.format} · ${currentSet.draftDecisions.record} record`;
@@ -496,6 +541,73 @@
     trainerRevealed = false;
     trainerGuess = null;
     renderTrainer();
+  }
+
+  function archetypeObservation(archetypeId) {
+    return archetypeFormatData()?.observed?.pairs?.find((pair) => pair.id === archetypeId) || null;
+  }
+
+  function pairLabel(pair) {
+    return pair?.name?.replace(/\s*\([WUBRG]+\)$/, "") || pair?.id || "No result";
+  }
+
+  function renderArchetypes() {
+    if (!archetypesAvailable()) return;
+    const format = archetypeFormatData();
+    if (!format) return;
+    const observed = format.observed;
+    const topPair = observed.pairs.find((pair) => pair.id === observed.topPair);
+    const topSupport = topPair?.supported ? "supported plan" : "not an official archetype";
+
+    elements.archetypeFormatSwitch.querySelectorAll("[data-archetype-format]").forEach((button) => {
+      const selected = button.dataset.archetypeFormat === archetypeFormat;
+      button.setAttribute("aria-pressed", String(selected));
+    });
+    elements.formatHeadline.textContent = format.headline;
+    elements.formatGuidance.textContent = format.guidance;
+    elements.formatLeader.innerHTML = `<strong>${escapeHtml(pairLabel(topPair))}</strong><span>${topPair.winRate.toFixed(1)}% · ${escapeHtml(topSupport)}</span>`;
+    elements.formatSupportedShare.innerHTML = `<strong>${observed.supportedShare.toFixed(1)}%</strong><span>of two-colour games</span>`;
+    elements.formatSample.innerHTML = `<strong>${numberFormatter.format(observed.twoColourGames)}</strong><span>games in snapshot</span>`;
+    elements.archetypeOfficialSource.href = currentSet.archetypes.official.url;
+    elements.archetypeDataSource.href = format.source.url;
+    elements.archetypeDataSource.textContent = `View ${format.shortLabel} observations`;
+
+    elements.archetypeNavigation.replaceChildren(...currentSet.archetypes.archetypes.map((archetype) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.dataset.archetypeJump = archetype.id;
+      button.innerHTML = `<span class="archetype-route">${archetype.colors.map((color) => manaSymbol(color, "mana-symbol--route")).join("")}</span><strong>${escapeHtml(archetype.id)}</strong><span>${escapeHtml(archetype.name)}</span>`;
+      return button;
+    }));
+
+    elements.archetypeList.replaceChildren(...currentSet.archetypes.archetypes.map((archetype) => {
+      const stats = archetypeObservation(archetype.id);
+      const section = document.createElement("article");
+      section.id = `archetype-${archetype.id}`;
+      section.className = "archetype-section";
+      section.dataset.pair = archetype.id;
+      const signposts = archetype.signposts.map((card) => {
+        const rank = Number.isFinite(card.rank) ? `#${card.rank} · Tier ${card.tier}` : "Official signpost";
+        return `<button class="archetype-signpost" type="button" data-card-id="${escapeHtml(card.cardId)}" aria-label="Enlarge ${escapeHtml(card.name)}"><img src="${escapeHtml(card.trainingImage)}" alt="" width="210" height="294"><span><strong>${escapeHtml(card.name)}</strong><span>${escapeHtml(rank)}</span></span></button>`;
+      }).join("");
+      section.innerHTML = `
+        <header class="archetype-section-heading">
+          <div class="archetype-identity">
+            <span class="archetype-route">${archetype.colors.map((color) => manaSymbol(color, "mana-symbol--archetype")).join("")}</span>
+            <div><h3>${escapeHtml(archetype.name)}</h3><p class="archetype-mechanic">${escapeHtml(archetype.mechanic)}</p></div>
+          </div>
+          <div class="archetype-result"><strong>#${stats.supportedRank} of ${currentSet.archetypes.archetypes.length}</strong><span>${stats.winRate.toFixed(1)}% · ${numberFormatter.format(stats.games)} games</span></div>
+        </header>
+        <div class="archetype-body">
+          <div class="archetype-guidance">
+            <p class="archetype-plan">${escapeHtml(archetype.plan)}</p>
+            <div class="archetype-priorities"><h4>What the deck needs</h4><ol>${archetype.priorities.map((priority) => `<li>${escapeHtml(priority)}</li>`).join("")}</ol></div>
+            <div class="archetype-format-note"><h4>${escapeHtml(format.shortLabel)} read</h4><p>${escapeHtml(archetype.formatNotes[archetypeFormat])}</p></div>
+          </div>
+          <div class="archetype-signposts"><h4>Cards to recognise</h4><div class="archetype-signpost-grid">${signposts}</div></div>
+        </div>`;
+      return section;
+    }));
   }
 
   function decisionScenario() {
@@ -728,7 +840,9 @@
   }
 
   function activateView(view, { focus = false, updateHistory = true } = {}) {
-    const canActivate = validViews.has(view) && (view !== "decisions" || draftDecisionsAvailable());
+    const canActivate = validViews.has(view)
+      && (view !== "decisions" || draftDecisionsAvailable())
+      && (view !== "archetypes" || archetypesAvailable());
     currentView = canActivate ? view : "training";
     views.forEach((panel, id) => { panel.hidden = id !== currentView; });
     viewTabs.forEach((tab) => {
@@ -750,6 +864,10 @@
     cards = [...currentSet.cards];
     cardById = new Map(cards.map((card) => [card.id, card]));
     if (currentView === "decisions" && !draftDecisionsAvailable()) currentView = "training";
+    if (currentView === "archetypes" && !archetypesAvailable()) currentView = "training";
+    const requestedFormat = params.get("set") === currentSet.id ? params.get("format") : null;
+    if (requestedFormat && currentSet.archetypes?.formats?.[requestedFormat]) archetypeFormat = requestedFormat;
+    else if (!currentSet.archetypes?.formats?.[archetypeFormat]) archetypeFormat = "draft";
     progress = readProgress();
     elements.trainerColor.value = progress.color || "all";
     renderGradeOptions();
@@ -765,6 +883,7 @@
     renderSetChrome();
     updateProgress();
     renderTrainer();
+    renderArchetypes();
     renderDecision();
     renderAtlas();
     activateView(currentView, { updateHistory: false });
@@ -788,6 +907,23 @@
     if (button) answerTrainer(button.dataset.grade);
   });
   elements.revealCard.addEventListener("click", () => answerTrainer(null));
+  elements.archetypeFormatSwitch.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-archetype-format]");
+    if (!button || !currentSet.archetypes?.formats?.[button.dataset.archetypeFormat]) return;
+    archetypeFormat = button.dataset.archetypeFormat;
+    renderArchetypes();
+    renderFooterSource();
+    updateUrl();
+    elements.liveRegion.textContent = `${archetypeFormatData().label} archetype evidence shown.`;
+  });
+  elements.archetypeNavigation.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-archetype-jump]");
+    if (button) document.querySelector(`#archetype-${button.dataset.archetypeJump}`)?.scrollIntoView({ behavior: prefersReducedMotion ? "auto" : "smooth", block: "start" });
+  });
+  elements.archetypeList.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-card-id]");
+    if (button) openCardPreview(button.dataset.cardId);
+  });
   elements.decisionCards.addEventListener("click", (event) => {
     const button = event.target.closest("[data-card-name]");
     if (button) chooseDecision(button.dataset.cardName);

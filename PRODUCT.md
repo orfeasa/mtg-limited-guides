@@ -16,7 +16,7 @@ Magic: The Gathering players preparing for prereleases and drafts who want to le
 
 ## Product Purpose
 
-Turn each new set into a focused Limited field guide. Success means a player can recognise cards, understand which information is settled or provisional, and practise decisions that preserve the pack and drafted-pool context of a real draft.
+Turn each new set into a focused Limited field guide. Success means a player can recognise cards, understand the set's intended decks, distinguish Draft signals from Sealed pool-building, understand which information is settled or provisional, and practise decisions that preserve the pack and drafted-pool context of a real draft.
 
 ## Positioning
 
@@ -31,7 +31,9 @@ Used in the days before a prerelease or draft, alone or with friends. A player m
 - Support multiple sets through a shared static data contract.
 - Give each set a distinct visual theme without changing the core navigation.
 - Open the latest set by default while preserving direct links to any set.
-- Make Training and All cards the stable preparation modes; add Draft decisions only to sets with grounded pack-and-pool evidence.
+- Make Training and All cards the stable preparation modes; add Archetypes once the official plan map and format observations are authored, and Draft decisions only to sets with grounded pack-and-pool evidence.
+- Keep official archetype intent, observed results, and editorial guidance visibly distinct.
+- Preserve separate Premier Draft and Sealed observations, including all ten two-colour pairs and their sample sizes.
 - Keep rating-dependent training absent when a complete, attributable Limited evaluation is unavailable.
 - Store preparation progress per set in browser-local storage.
 - Preserve the current training card, colour filter, exact-tier score, remaining queue, revealed answer, and requeued misses across browser sessions.
@@ -45,7 +47,7 @@ Used in the days before a prerelease or draft, alone or with friends. A player m
 
 ## Evidence on Hand
 
-- The Hobbit: verified 188-card pick-order and performance snapshots captured from Untapped.gg on 2 September 2026 across 620,000 matches, matching local thumbnail/readable image pairs, and 18 real pack-and-pool states from a public 17Lands 7–2 Premier Draft replay.
+- The Hobbit: five official archetype plans from the Wizards prerelease guide; separate 17Lands Premier Draft and Sealed two-colour observations captured on 8 September 2026; verified 188-card pick-order and performance snapshots captured from Untapped.gg on 2 September 2026 across 620,000 matches; matching local thumbnail/readable image pairs; and 18 real pack-and-pool states from a public 17Lands 7–2 Premier Draft replay.
 - Reality Fracture: current Scryfall preview index and local thumbnail/readable image pairs, without invented Limited ratings.
 - Official Reality Fracture release milestones and Play Booster notes captured in set metadata.
 
@@ -53,6 +55,7 @@ Used in the days before a prerelease or draft, alone or with friends. A player m
 
 - Preparation, not deck construction, is the primary job.
 - Every interaction should improve card recognition or decision fluency.
+- Archetypes are plans to test against a draft lane or opened pool, not instructions to force a colour pair.
 - Rankings are a baseline; grounded decisions must expose what came from current aggregate data, what the historical drafter took, and what still requires contextual judgement.
 - Unknown and incomplete information stays visibly unknown.
 - The tool should remain private by default, easy to share by link, and operational without an account.

@@ -276,6 +276,22 @@ components:
     textColor: "{colors.hobbit-ink}"
     padding: "9px 7px"
     typography: "{typography.hobbit-rank}"
+  archetype-format-switch:
+    backgroundColor: "{colors.hobbit-binding}"
+    textColor: "{colors.hobbit-on-binding}"
+    rounded: "{rounded.hobbit-control}"
+    height: "42px"
+    typography: "{typography.label}"
+  archetype-field-note:
+    backgroundColor: "{colors.hobbit-binding}"
+    textColor: "{colors.hobbit-on-binding}"
+    rounded: "{rounded.hobbit-card}"
+    padding: "clamp(24px, 4vw, 42px)"
+  archetype-signpost:
+    backgroundColor: "transparent"
+    textColor: "{colors.hobbit-ink}"
+    rounded: "{rounded.hobbit-control}"
+    typography: "{typography.working-title}"
   decision-context:
     backgroundColor: "transparent"
     textColor: "{colors.hobbit-on-binding}"
@@ -308,7 +324,7 @@ components:
 
 **Creative North Star: "The Set-Specific Field Guide Shelf"**
 
-Limited Field Guides is one dependable preparation shelf holding authored volumes, not one generic dashboard wearing different accent colours. The shared shell opens the latest set and keeps the learning sequence stable—train exact-tier recall, work through grounded draft decisions when available, browse the card file, and share the selected guide—while each set owns one coherent material world.
+Limited Field Guides is one dependable preparation shelf holding authored volumes, not one generic dashboard wearing different accent colours. The shared shell opens the latest set and keeps the learning sequence stable—study supported archetypes through the relevant format, train exact-tier recall, work through grounded draft decisions when available, browse the card file, and share the selected guide—while each set owns one coherent material world.
 
 The Hobbit remains Bilbo’s Expedition Atlas: forest cloth, warm map leaves, brass page flags, oxblood routes, river details, and softly handled corners. Reality Fracture is an Echoverse dossier: ink and indigo binding, cool paper, electric violet, cyan, and pink seams, condensed black display type, and facets cut on sharp angles. Atkinson Hyperlegible Next connects both as the practical reading and control voice.
 
@@ -319,7 +335,7 @@ The system should feel authored, trustworthy, and ready before an event. Data ma
 - One shared preparation sequence expressed as a shelf of set-owned field guides.
 - Atkinson Hyperlegible Next for working text, controls, metadata, and dense card information.
 - Hobbit’s rounded cloth-and-map atlas beside Reality Fracture’s clipped, electrically seamed dossier.
-- Stable Training and All cards markers, with Draft decisions appearing only when grounded pack-and-pool evidence exists.
+- Stable Training and All cards markers, with Archetypes and Draft decisions appearing only when their required evidence exists.
 - Persisted Training queues, exact-tier scores, and reviewed-decision state with explicit unrated preview states.
 - Hobbit’s post-answer observed-evidence ledger and adjacent-rank context without implying deck intelligence.
 - Broad surfaces and flat rows gathered into one handled volume rather than a field of dashboard cards.
@@ -361,6 +377,8 @@ Each set maps the same semantic roles—binding, surface, ink, line, accent, sig
 
 **The Honest State Rule.** Rating tiers appear only when the rating source is available. Preview uses the pending token and explanatory copy rather than a guessed rank colour.
 
+The same rule applies to archetypes: official intent, Draft observations, Sealed observations, and editorial field notes remain distinct, dated layers rather than one blended recommendation.
+
 ## Typography
 
 **Hobbit Display Font:** Alegreya (with Georgia and serif fallbacks)
@@ -391,21 +409,21 @@ Each set maps the same semantic roles—binding, surface, ink, line, accent, sig
 
 ## Layout
 
-The system is one multi-volume field-guide shell capped at 1440px. A 164px binding leads with the selected set, subtitle, set picker, share action, and data-maturity stamp. The most recent release opens by default. Training and All cards are stable sticky page markers; Draft decisions joins between them only for sets with grounded scenarios. The markers sit on a 62px line, then open directly into a broad surface. The first Training viewport is one focused card-rating workspace rather than a split dashboard.
+The system is one multi-volume field-guide shell capped at 1440px. A 164px binding leads with the selected set, subtitle, set picker, share action, and data-maturity stamp. The most recent release opens by default. Training and All cards are stable sticky page markers; Archetypes joins when a set has an attributable plan map plus separate Draft and Sealed observations, while Draft decisions joins only for sets with grounded scenarios. The markers sit on a 62px line, then open directly into a broad surface. The first Training viewport is one focused card-rating workspace rather than a split dashboard.
 
-Training centres one readable card-and-answer object at a 1040px maximum, with browser-local progress inline below it. Draft decisions places seat and pool context in ruled binding rows, the complete pack in a seven-column map-leaf grid, and the revealed evidence in a flat three-column ledger. All cards uses a single broad leaf, sticky colour navigation, an auto-filling grid with a 230px minimum, and an in-place image lightbox. Major surfaces share a continuous binding/page shadow; rows remain flat and separated by rules.
+Training centres one readable card-and-answer object at a 1040px maximum, with browser-local progress inline below it. Archetypes uses one broad format field note, a sticky route strip, and ruled full-width chapters rather than a grid of equal cards; each chapter keeps the plan and format read beside two recognisable signposts. Draft decisions places seat and pool context in ruled binding rows, the complete pack in a seven-column map-leaf grid, and the revealed evidence in a flat three-column ledger. All cards uses a single broad leaf, sticky colour navigation, an auto-filling grid with a 230px minimum, and an in-place image lightbox. Major surfaces share a continuous binding/page shadow; rows remain flat and separated by rules.
 
-At 860px, the header becomes a grid, Training progress stacks below its heading, decision context becomes two columns, and the pack becomes four columns. At 700px, the binding becomes a compact mobile header, all available markers share one sticky row, surfaces use ten-pixel outer gutters, Training remains a side-by-side card/copy object, Draft decisions uses a three-column pack with a stacked evidence ledger, and the atlas becomes two columns. At 430px, nonessential subtitle and metadata collapse while card identity, state, primary action, magnification, and touch access remain.
+At 860px, the header becomes a grid, Training progress stacks below its heading, archetype chapters tighten their reading/signpost split, decision context becomes two columns, and the pack becomes four columns. At 700px, the binding becomes a compact mobile header, all available markers share one sticky row, surfaces use ten-pixel outer gutters, Training remains a side-by-side card/copy object, Archetypes stacks its format ledger and each route chapter while retaining paired signposts, Draft decisions uses a three-column pack with a stacked evidence ledger, and the atlas becomes two columns. At 430px, nonessential subtitle and metadata collapse while card identity, state, primary action, magnification, and touch access remain.
 
 **The First-Viewport Rule.** The latest set and data maturity lead in the binding; the available compact markers then yield to focused preparation.
 
-**The Stable-Shell Rule.** Training and All cards retain their order and behaviour across sets. Draft decisions may only appear between them when the set supplies grounded pack-and-pool evidence.
+**The Stable-Shell Rule.** Training and All cards retain their order and behaviour across sets. Archetypes may appear after Training only with its official map and both format observations; Draft decisions may appear after it only with grounded pack-and-pool evidence.
 
 **The Preparation-Only Rule.** Layout supports recognition, rehearsal, and browsing. It must never acquire deck zones, curve charts, counts-by-card, or other deck-builder composition.
 
 ## Elevation & Depth
 
-Depth describes a single handled volume, not a stack of dashboard cards. The binding, page markers, open page, training card, thumbnails, and image lightbox use progressively smaller ink-dark shadows. Hobbit reads as softly handled cloth and paper. Reality Fracture keeps the same structural depths but adds a hard offset violet seam to card imagery so the dossier feels faceted rather than plush. Flat atlas rows use rule, tint, and motion instead of independent elevation.
+Depth describes a single handled volume, not a stack of dashboard cards. The binding, page markers, open page, training card, thumbnails, and image lightbox use progressively smaller ink-dark shadows. Hobbit reads as softly handled cloth and paper. Reality Fracture keeps the same structural depths but adds a hard offset violet seam to card imagery so the dossier feels faceted rather than plush. The archetype format note may lift as one broad orientation object, while its route chapters and the atlas rows use rule, tint, and motion instead of independent elevation.
 
 ### Shadow Vocabulary
 
@@ -451,9 +469,17 @@ Shared components keep behavior, semantics, target sizes, and information order 
 
 ### Navigation
 
-- **Set-Aware Page Markers:** Training and All cards are fixed in that order. Draft decisions appears between them only when available. Inactive markers use the soft binding; the selected marker rises from 50px to 58px and changes to the light metal token.
+- **Set-Aware Page Markers:** Training and All cards are fixed at the beginning and end. Archetypes follows Training when available; Draft decisions follows Archetypes when available. Inactive markers use the soft binding; the selected marker rises from 50px to 58px and changes to the light metal token.
 - **Training Owns Rehearsal:** Card recognition and exact-tier practice live together in Training.
 - **Mobile:** All available markers remain visible in one sticky row. Icons support but never replace the literal labels.
+
+### Archetypes
+
+- **Availability:** The marker and panel are absent when the official plan map or either format observation is not publication-ready.
+- **Format First:** A literal Draft/Sealed switch controls one headline, one guidance note, the current two-colour leader, supported-lane share, and total sample. Direct links preserve the selected format.
+- **Routes, Not Rankings:** Supported archetypes remain in the official order. Their observed rank and sample are attached to the route but never replace its plan, structural priorities, or format-specific read.
+- **All-Pair Honesty:** The format leader may be an unsupported pair. State that plainly rather than hiding evidence that challenges the official map.
+- **Signposts:** Two verified local card images anchor each route and open in the existing focused lightbox. They are recognition aids, not a promise that drawing a gold card makes the deck viable.
 
 ### Training Card and Progress Ledger
 
@@ -508,6 +534,7 @@ Shared components keep behavior, semantics, target sizes, and information order 
 - **Do** use the larger local image for Training, Draft decisions, and magnification, with a matching local thumbnail fallback.
 - **Do** group exact-tier choices as Top picks, Strong, Playable, and Filler, then return misses after three intervening cards.
 - **Do** keep Hobbit’s three observed evidence values and adjacent ranks visually attached to the revealed answer.
+- **Do** keep official archetype intent, Draft observations, Sealed observations, editorial notes, sample size, and capture date visibly distinct.
 - **Do** omit rating-dependent answers and actions when the rating source is pending.
 - **Do** preserve keyboard focus, touch targets, literal labels, source attribution, and reduced-motion behavior.
 
@@ -519,6 +546,7 @@ Shared components keep behavior, semantics, target sizes, and information order 
 - **Don't** cross Hobbit’s brass and oxblood into the Fracture dossier or Fracture’s electric seams into the atlas.
 - **Don't** invent rankings, tiers, or answer colours for a preview-only set.
 - **Don't** show a tier quiz or observed ranking evidence for unrated Reality Fracture cards.
+- **Don't** collapse Draft and Sealed results into one archetype ranking or turn aggregate results into instructions to force a colour pair.
 - **Don't** wrap every draft choice or atlas entry in its own rounded elevated card.
 - **Don't** reintroduce rank-only pick comparisons without full-pack and drafted-pool context.
 - **Don't** turn Draft decisions into a binary score or imply the replay pick is automatically correct.
