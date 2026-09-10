@@ -1,9 +1,9 @@
 {
   "set": "FRA",
   "source": "https://api.scryfall.com/cards/search?order=set&q=set%3Afra&unique=cards",
-  "capturedAt": "2026-09-08T23:33:33.863Z",
+  "capturedAt": "2026-09-10T07:37:42.783Z",
   "partial": true,
-  "count": 75,
+  "count": 81,
   "cards": [
     {
       "id": "730d8c28-1e58-4b8e-89e9-445d154d2e83",
@@ -135,6 +135,26 @@
       "scryfallUrl": "https://scryfall.com/card/fra/15/memory-trap?utm_source=api"
     },
     {
+      "id": "1f95399a-9766-4f3d-aa6a-ece55e0530d9",
+      "name": "Prophesied End",
+      "collectorNumber": "17",
+      "color": "W",
+      "colors": [
+        "W"
+      ],
+      "manaCost": "{1}{W}",
+      "manaValue": 2,
+      "typeLine": "Instant",
+      "oracleText": "Destroy target creature. If it wasn't attacking, its controller draws a card.",
+      "rarity": "uncommon",
+      "keywords": [],
+      "image": "assets/cards/fra/1f95399a-9766-4f3d-aa6a-ece55e0530d9.jpg",
+      "trainingImage": "assets/cards-large/fra/1f95399a-9766-4f3d-aa6a-ece55e0530d9.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/1/f/1f95399a-9766-4f3d-aa6a-ece55e0530d9.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/1/f/1f95399a-9766-4f3d-aa6a-ece55e0530d9.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/17/prophesied-end?utm_source=api"
+    },
+    {
       "id": "35000e93-85d3-44f8-976a-5918ee4c71e0",
       "name": "Repurposed Enforcer",
       "collectorNumber": "19",
@@ -190,8 +210,8 @@
       "oracleText": "As an additional cost to cast this spell, behold a Jace or pay {1}. (To behold a Jace, choose a Jace you control or reveal a Jace card from your hand.)\nCounter target spell. Empower Jace 1. (Put a loyalty counter on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")",
       "rarity": "uncommon",
       "keywords": [
-        "Behold",
-        "Surveil"
+        "Surveil",
+        "Behold"
       ],
       "image": "assets/cards/fra/145b928d-a7ff-4fe5-ae4d-bbae7b1d955b.jpg",
       "trainingImage": "assets/cards-large/fra/145b928d-a7ff-4fe5-ae4d-bbae7b1d955b.jpg",
@@ -213,8 +233,8 @@
       "oracleText": "Diviner of Victory — This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\nWhenever you scry or surveil, this creature gets +1/+1 until end of turn.\n\nUnwind History — Return target creature an opponent controls with mana value 3 or less to its owner's hand. Surveil 1.",
       "rarity": "rare",
       "keywords": [
-        "Prepared",
-        "Surveil"
+        "Surveil",
+        "Prepared"
       ],
       "image": "assets/cards/fra/0853bb80-8664-432a-8457-600139fd96d5.jpg",
       "trainingImage": "assets/cards-large/fra/0853bb80-8664-432a-8457-600139fd96d5.jpg",
@@ -340,8 +360,8 @@
       "oracleText": "Flash\nWhen this creature enters, empower Jace 3. (Put three loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")\n{U}, Sacrifice this creature: The next spell you cast this turn can't be countered.",
       "rarity": "rare",
       "keywords": [
-        "Flash",
-        "Surveil"
+        "Surveil",
+        "Flash"
       ],
       "image": "assets/cards/fra/710302ca-c4be-4069-8ce1-f531414c74e9.jpg",
       "trainingImage": "assets/cards-large/fra/710302ca-c4be-4069-8ce1-f531414c74e9.jpg",
@@ -392,6 +412,28 @@
       "scryfallUrl": "https://scryfall.com/card/fra/51/cast-away-doubt?utm_source=api"
     },
     {
+      "id": "c4554f5b-791b-48f6-bf54-ad28699e1beb",
+      "name": "Overwrite the Multiverse",
+      "collectorNumber": "59",
+      "color": "B",
+      "colors": [
+        "B"
+      ],
+      "manaCost": "{4}{B}{B}",
+      "manaValue": 6,
+      "typeLine": "Sorcery",
+      "oracleText": "Exile all creatures. Empower Jace X, where X is the number of creatures exiled this way. (Put that many loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")",
+      "rarity": "mythic",
+      "keywords": [
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/c4554f5b-791b-48f6-bf54-ad28699e1beb.jpg",
+      "trainingImage": "assets/cards-large/fra/c4554f5b-791b-48f6-bf54-ad28699e1beb.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/c/4/c4554f5b-791b-48f6-bf54-ad28699e1beb.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/c/4/c4554f5b-791b-48f6-bf54-ad28699e1beb.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/59/overwrite-the-multiverse?utm_source=api"
+    },
+    {
       "id": "453cfde7-c460-4b55-9472-b714e16f24bb",
       "name": "Rewrite Regrets",
       "collectorNumber": "62",
@@ -402,7 +444,7 @@
       "manaCost": "{3}{B}",
       "manaValue": 4,
       "typeLine": "Sorcery",
-      "oracleText": "Return target creature or planeswalker card with mana value 6 or less from your graveyard to the battlefield.\nEmpower Jace 2. (Put two loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[-1]: Surveil 1\" and \"[-3]: Draw a card.\")",
+      "oracleText": "Return target creature or planeswalker card with mana value 6 or less from your graveyard to the battlefield.\nEmpower Jace 2. (Put two loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")",
       "rarity": "uncommon",
       "keywords": [
         "Surveil"
@@ -493,8 +535,8 @@
       "oracleText": "Pompous Battlemage — Prowess\nThis creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\n\nImprovised Act — You may discard a card. If you do, draw a card.",
       "rarity": "rare",
       "keywords": [
-        "Prepared",
-        "Prowess"
+        "Prowess",
+        "Prepared"
       ],
       "image": "assets/cards/fra/aa0f77ac-741a-444a-8bf0-a42c644726bf.jpg",
       "trainingImage": "assets/cards-large/fra/aa0f77ac-741a-444a-8bf0-a42c644726bf.jpg",
@@ -548,6 +590,28 @@
       "scryfallUrl": "https://scryfall.com/card/fra/97/arcane-amphisbaena?utm_source=api"
     },
     {
+      "id": "18c59d60-2640-4576-9375-3ba38aa3ecb7",
+      "name": "Budding Insurgent",
+      "collectorNumber": "99",
+      "color": "G",
+      "colors": [
+        "G"
+      ],
+      "manaCost": "{2}{G}",
+      "manaValue": 3,
+      "typeLine": "Creature — Dryad Scout",
+      "oracleText": "Vigilance\nSacrifice this creature: Destroy target artifact or enchantment. If that permanent was a legendary enchantment, draw a card. Activate only as a sorcery.",
+      "rarity": "common",
+      "keywords": [
+        "Vigilance"
+      ],
+      "image": "assets/cards/fra/18c59d60-2640-4576-9375-3ba38aa3ecb7.jpg",
+      "trainingImage": "assets/cards-large/fra/18c59d60-2640-4576-9375-3ba38aa3ecb7.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/1/8/18c59d60-2640-4576-9375-3ba38aa3ecb7.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/1/8/18c59d60-2640-4576-9375-3ba38aa3ecb7.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/99/budding-insurgent?utm_source=api"
+    },
+    {
       "id": "bd32d736-7a58-46b9-90b4-2cac3c3e80a1",
       "name": "Compel Brutality",
       "collectorNumber": "101",
@@ -566,6 +630,26 @@
       "imageSource": "https://cards.scryfall.io/small/front/b/d/bd32d736-7a58-46b9-90b4-2cac3c3e80a1.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/b/d/bd32d736-7a58-46b9-90b4-2cac3c3e80a1.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/101/compel-brutality?utm_source=api"
+    },
+    {
+      "id": "a56e0f91-b128-4693-a949-53cb403f4fbf",
+      "name": "Greenhouse Propagator",
+      "collectorNumber": "104",
+      "color": "G",
+      "colors": [
+        "G"
+      ],
+      "manaCost": "{2}{G}",
+      "manaValue": 3,
+      "typeLine": "Creature — Cat Druid",
+      "oracleText": "Whenever another creature you control enters, you gain 1 life.\n{T}: Add {G}.",
+      "rarity": "common",
+      "keywords": [],
+      "image": "assets/cards/fra/a56e0f91-b128-4693-a949-53cb403f4fbf.jpg",
+      "trainingImage": "assets/cards-large/fra/a56e0f91-b128-4693-a949-53cb403f4fbf.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/a/5/a56e0f91-b128-4693-a949-53cb403f4fbf.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/a/5/a56e0f91-b128-4693-a949-53cb403f4fbf.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/104/greenhouse-propagator?utm_source=api"
     },
     {
       "id": "9a446cae-e93c-4574-8ffd-7688f9729a8a",
@@ -654,6 +738,26 @@
       "scryfallUrl": "https://scryfall.com/card/fra/114/something-worth-saving?utm_source=api"
     },
     {
+      "id": "38589a7c-9cfb-4bcc-845e-9dc205095853",
+      "name": "Tethermage's Advantage",
+      "collectorNumber": "117",
+      "color": "G",
+      "colors": [
+        "G"
+      ],
+      "manaCost": "{G}",
+      "manaValue": 1,
+      "typeLine": "Instant",
+      "oracleText": "Target creature gets +2/+2 and gains reach until end of turn. Untap it.",
+      "rarity": "common",
+      "keywords": [],
+      "image": "assets/cards/fra/38589a7c-9cfb-4bcc-845e-9dc205095853.jpg",
+      "trainingImage": "assets/cards-large/fra/38589a7c-9cfb-4bcc-845e-9dc205095853.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/3/8/38589a7c-9cfb-4bcc-845e-9dc205095853.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/3/8/38589a7c-9cfb-4bcc-845e-9dc205095853.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/117/tethermages-advantage?utm_source=api"
+    },
+    {
       "id": "f17d2792-b075-4c47-ad38-e7a7eaee5f8c",
       "name": "Aerid Konstrari",
       "collectorNumber": "121",
@@ -691,8 +795,8 @@
       "oracleText": "Landfall — Whenever a land you control enters, empower Jace 2. (Put two loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")\nPlaneswalkers you control have \"[−10]: Put a +1/+1 counter on target creature for each land you control.\"",
       "rarity": "mythic",
       "keywords": [
-        "Landfall",
-        "Surveil"
+        "Surveil",
+        "Landfall"
       ],
       "image": "assets/cards/fra/5905995b-7a20-4602-a7cc-90aa5089a082.jpg",
       "trainingImage": "assets/cards-large/fra/5905995b-7a20-4602-a7cc-90aa5089a082.jpg",
@@ -975,6 +1079,29 @@
       "imageSource": "https://cards.scryfall.io/small/front/a/c/acefc515-bf97-4dc0-b0f7-ae8ae5a61671.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/a/c/acefc515-bf97-4dc0-b0f7-ae8ae5a61671.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/161/vigorbloom-vanguard-seed-suture?utm_source=api"
+    },
+    {
+      "id": "c63d5b0e-ee72-42ed-aa7e-484ba84507cd",
+      "name": "Warrior's Blades",
+      "collectorNumber": "163",
+      "color": "M",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "manaCost": "{2}{R}{W}",
+      "manaValue": 4,
+      "typeLine": "Artifact — Equipment",
+      "oracleText": "When this Equipment enters, it deals 3 damage to any target and you gain 3 life.\nEquipped creature gets +2/+1.\nEquip {3}. This ability costs {1} less to activate for each +1/+1 counter on the creature it targets.",
+      "rarity": "uncommon",
+      "keywords": [
+        "Equip"
+      ],
+      "image": "assets/cards/fra/c63d5b0e-ee72-42ed-aa7e-484ba84507cd.jpg",
+      "trainingImage": "assets/cards-large/fra/c63d5b0e-ee72-42ed-aa7e-484ba84507cd.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/c/6/c63d5b0e-ee72-42ed-aa7e-484ba84507cd.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/c/6/c63d5b0e-ee72-42ed-aa7e-484ba84507cd.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/163/warriors-blades?utm_source=api"
     },
     {
       "id": "7d17f7e3-7b63-4674-9024-4fd1827f40ec",

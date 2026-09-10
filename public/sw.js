@@ -1,5 +1,5 @@
 /* Generated static cache manifest. */
-const CACHE = "limited-prep-d7e1daf6624f";
+const CACHE = "limited-prep-742314ea3296";
 const ASSETS = [
   "./",
   "./index.html",
@@ -211,6 +211,7 @@ const ASSETS = [
   "./assets/cards/fra/f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd.jpg",
   "./assets/cards/fra/490dae91-94ce-42a9-a11f-6c5e77c4e486.jpg",
   "./assets/cards/fra/2f5345ae-4489-4d05-b2d5-c71285254f05.jpg",
+  "./assets/cards/fra/1f95399a-9766-4f3d-aa6a-ece55e0530d9.jpg",
   "./assets/cards/fra/35000e93-85d3-44f8-976a-5918ee4c71e0.jpg",
   "./assets/cards/fra/9e72f397-2384-40f1-882b-f627664d97df.jpg",
   "./assets/cards/fra/145b928d-a7ff-4fe5-ae4d-bbae7b1d955b.jpg",
@@ -223,6 +224,7 @@ const ASSETS = [
   "./assets/cards/fra/710302ca-c4be-4069-8ce1-f531414c74e9.jpg",
   "./assets/cards/fra/4fcc913e-f736-460a-b24b-022fa2e861b9.jpg",
   "./assets/cards/fra/3b5b28a4-0abd-4dc2-9856-c9a8d27f6a2d.jpg",
+  "./assets/cards/fra/c4554f5b-791b-48f6-bf54-ad28699e1beb.jpg",
   "./assets/cards/fra/453cfde7-c460-4b55-9472-b714e16f24bb.jpg",
   "./assets/cards/fra/7beaa8c9-1a2c-4c88-b579-91e371d8d9e3.jpg",
   "./assets/cards/fra/47793a51-08c6-4ad2-a7e5-a4484d83a5cd.jpg",
@@ -230,11 +232,14 @@ const ASSETS = [
   "./assets/cards/fra/aa0f77ac-741a-444a-8bf0-a42c644726bf.jpg",
   "./assets/cards/fra/2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460.jpg",
   "./assets/cards/fra/1bf923c4-f0b7-4271-978c-fd2e79fe1cc8.jpg",
+  "./assets/cards/fra/18c59d60-2640-4576-9375-3ba38aa3ecb7.jpg",
   "./assets/cards/fra/bd32d736-7a58-46b9-90b4-2cac3c3e80a1.jpg",
+  "./assets/cards/fra/a56e0f91-b128-4693-a949-53cb403f4fbf.jpg",
   "./assets/cards/fra/9a446cae-e93c-4574-8ffd-7688f9729a8a.jpg",
   "./assets/cards/fra/073f4998-a204-447b-93d5-746ae87fd6a1.jpg",
   "./assets/cards/fra/3546b93b-a7d1-451d-a369-22cc8ddcd00d.jpg",
   "./assets/cards/fra/02ee7817-40af-4fcf-a2df-eb218b669281.jpg",
+  "./assets/cards/fra/38589a7c-9cfb-4bcc-845e-9dc205095853.jpg",
   "./assets/cards/fra/f17d2792-b075-4c47-ad38-e7a7eaee5f8c.jpg",
   "./assets/cards/fra/5905995b-7a20-4602-a7cc-90aa5089a082.jpg",
   "./assets/cards/fra/87b40df5-5c0a-41f5-a09c-a04f17066a91.jpg",
@@ -249,6 +254,7 @@ const ASSETS = [
   "./assets/cards/fra/b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b.jpg",
   "./assets/cards/fra/a7ad622a-42ff-48fa-ae95-12e0a5bd9387.jpg",
   "./assets/cards/fra/acefc515-bf97-4dc0-b0f7-ae8ae5a61671.jpg",
+  "./assets/cards/fra/c63d5b0e-ee72-42ed-aa7e-484ba84507cd.jpg",
   "./assets/cards/fra/7d17f7e3-7b63-4674-9024-4fd1827f40ec.jpg",
   "./assets/cards/fra/b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0.jpg",
   "./assets/cards/fra/56dae4c4-3e71-4a32-979b-4e26d9c9e96c.jpg",
