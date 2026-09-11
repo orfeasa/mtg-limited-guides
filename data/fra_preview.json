@@ -1,10 +1,32 @@
 {
   "set": "FRA",
   "source": "https://api.scryfall.com/cards/search?order=set&q=set%3Afra&unique=cards",
-  "capturedAt": "2026-09-10T07:37:42.783Z",
+  "capturedAt": "2026-09-11T09:55:49.826Z",
   "partial": true,
-  "count": 81,
+  "count": 91,
   "cards": [
+    {
+      "id": "c3ff8dd3-88a8-49dc-a59b-e2748680623c",
+      "name": "Emrakul, the Exigent Doom",
+      "collectorNumber": "1",
+      "color": "C",
+      "colors": [],
+      "manaCost": "{10}",
+      "manaValue": 10,
+      "typeLine": "Legendary Creature — Eldrazi",
+      "oracleText": "When you cast this spell, untap all lands you control.\nFlying, trample\nWard—Sacrifice three permanents.\n{3}, Exile this card from your hand: Target land gains \"{T}: Add {C}{C}\" until this card is cast from exile. You may cast this card for as long as it remains exiled.",
+      "rarity": "mythic",
+      "keywords": [
+        "Flying",
+        "Trample",
+        "Ward"
+      ],
+      "image": "assets/cards/fra/c3ff8dd3-88a8-49dc-a59b-e2748680623c.jpg",
+      "trainingImage": "assets/cards-large/fra/c3ff8dd3-88a8-49dc-a59b-e2748680623c.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/c/3/c3ff8dd3-88a8-49dc-a59b-e2748680623c.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/c/3/c3ff8dd3-88a8-49dc-a59b-e2748680623c.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/1/emrakul-the-exigent-doom?utm_source=api"
+    },
     {
       "id": "730d8c28-1e58-4b8e-89e9-445d154d2e83",
       "name": "Academic Ascent",
@@ -478,6 +500,26 @@
       "scryfallUrl": "https://scryfall.com/card/fra/67/solve-for-disappointment?utm_source=api"
     },
     {
+      "id": "8414a98c-0c79-4884-bc9b-061a6456b392",
+      "name": "Blazing Crescendo",
+      "collectorNumber": "75",
+      "color": "R",
+      "colors": [
+        "R"
+      ],
+      "manaCost": "{1}{R}",
+      "manaValue": 2,
+      "typeLine": "Instant",
+      "oracleText": "Target creature gets +3/+1 until end of turn.\nExile the top card of your library. Until the end of your next turn, you may play that card.",
+      "rarity": "common",
+      "keywords": [],
+      "image": "assets/cards/fra/8414a98c-0c79-4884-bc9b-061a6456b392.jpg",
+      "trainingImage": "assets/cards-large/fra/8414a98c-0c79-4884-bc9b-061a6456b392.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/8/4/8414a98c-0c79-4884-bc9b-061a6456b392.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/8/4/8414a98c-0c79-4884-bc9b-061a6456b392.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/75/blazing-crescendo?utm_source=api"
+    },
+    {
       "id": "47793a51-08c6-4ad2-a7e5-a4484d83a5cd",
       "name": "Craterclaw Colossus",
       "collectorNumber": "78",
@@ -498,6 +540,26 @@
       "imageSource": "https://cards.scryfall.io/small/front/4/7/47793a51-08c6-4ad2-a7e5-a4484d83a5cd.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/4/7/47793a51-08c6-4ad2-a7e5-a4484d83a5cd.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/78/craterclaw-colossus?utm_source=api"
+    },
+    {
+      "id": "5f8771f9-8128-4818-a11d-41ea368cf697",
+      "name": "Eardrum Rattler",
+      "collectorNumber": "81",
+      "color": "R",
+      "colors": [
+        "R"
+      ],
+      "manaCost": "{1}{R}",
+      "manaValue": 2,
+      "typeLine": "Creature — Human Bard",
+      "oracleText": "{1}, {T}: Another target creature you control with power 2 or less can't be blocked this turn.",
+      "rarity": "common",
+      "keywords": [],
+      "image": "assets/cards/fra/5f8771f9-8128-4818-a11d-41ea368cf697.jpg",
+      "trainingImage": "assets/cards-large/fra/5f8771f9-8128-4818-a11d-41ea368cf697.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/5/f/5f8771f9-8128-4818-a11d-41ea368cf697.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/5/f/5f8771f9-8128-4818-a11d-41ea368cf697.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/81/eardrum-rattler?utm_source=api"
     },
     {
       "id": "11ba4fdd-cc03-4bb6-a493-91a9785771d0",
@@ -869,6 +931,31 @@
       "imageSource": "https://cards.scryfall.io/small/front/9/8/986f9e98-9d8d-428b-9187-860745cf3269.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/9/8/986f9e98-9d8d-428b-9187-860745cf3269.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/128/denzilore-fatehold?utm_source=api"
+    },
+    {
+      "id": "29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b",
+      "name": "Fatehold Chronologist // Peer Review",
+      "collectorNumber": "133",
+      "color": "M",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "manaCost": "{1}{W/U} // {2}{W/U}",
+      "manaValue": 2,
+      "typeLine": "Creature — Bird Wizard // Sorcery",
+      "oracleText": "Fatehold Chronologist — Flying\nThis creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\n\nPeer Review — Create a 2/2 colorless Wizard Soldier creature token named Cadet. Surveil 1.",
+      "rarity": "common",
+      "keywords": [
+        "Flying",
+        "Prepared",
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b.jpg",
+      "trainingImage": "assets/cards-large/fra/29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/2/9/29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/2/9/29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/133/fatehold-chronologist-peer-review?utm_source=api"
     },
     {
       "id": "6471b135-33a8-4005-9a07-ebb74e0bf145",
@@ -1294,6 +1381,28 @@
       "scryfallUrl": "https://scryfall.com/card/fra/195/ajani-resolute?utm_source=api"
     },
     {
+      "id": "d5cb9810-3c2d-4ae4-b8b6-0155ca3f47ad",
+      "name": "Danitha, Sword of Hope",
+      "collectorNumber": "196",
+      "color": "W",
+      "colors": [
+        "W"
+      ],
+      "manaCost": "{2}{W}",
+      "manaValue": 3,
+      "typeLine": "Legendary Creature — Human Knight",
+      "oracleText": "First strike\nWhenever you cast an Equipment spell or a spell that targets a creature you control, draw a card. This ability triggers only once each turn.",
+      "rarity": "uncommon",
+      "keywords": [
+        "First strike"
+      ],
+      "image": "assets/cards/fra/d5cb9810-3c2d-4ae4-b8b6-0155ca3f47ad.jpg",
+      "trainingImage": "assets/cards-large/fra/d5cb9810-3c2d-4ae4-b8b6-0155ca3f47ad.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/d/5/d5cb9810-3c2d-4ae4-b8b6-0155ca3f47ad.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/d/5/d5cb9810-3c2d-4ae4-b8b6-0155ca3f47ad.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/196/danitha-sword-of-hope?utm_source=api"
+    },
+    {
       "id": "a9f3aa55-908f-42db-8135-4201433df850",
       "name": "Ghalta the Immovable",
       "collectorNumber": "197",
@@ -1356,6 +1465,26 @@
       "scryfallUrl": "https://scryfall.com/card/fra/212/chandra-chill-of-compliance?utm_source=api"
     },
     {
+      "id": "b8466593-40fe-4557-89b2-760c1c92087b",
+      "name": "Proft, Consulting Detective",
+      "collectorNumber": "218",
+      "color": "U",
+      "colors": [
+        "U"
+      ],
+      "manaCost": "{1}{U}",
+      "manaValue": 2,
+      "typeLine": "Legendary Creature — Human Detective",
+      "oracleText": "Whenever you scry or surveil, you may pay {2}. If you do, put a +1/+1 counter on Proft and draw a card. (Draw after you scry or surveil.)",
+      "rarity": "uncommon",
+      "keywords": [],
+      "image": "assets/cards/fra/b8466593-40fe-4557-89b2-760c1c92087b.jpg",
+      "trainingImage": "assets/cards-large/fra/b8466593-40fe-4557-89b2-760c1c92087b.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/b/8/b8466593-40fe-4557-89b2-760c1c92087b.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/b/8/b8466593-40fe-4557-89b2-760c1c92087b.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/218/proft-consulting-detective?utm_source=api"
+    },
+    {
       "id": "838b0efb-7398-4df9-8fdf-b8af43b47938",
       "name": "Way of the Cryomancer",
       "collectorNumber": "223",
@@ -1376,6 +1505,28 @@
       "imageSource": "https://cards.scryfall.io/small/front/8/3/838b0efb-7398-4df9-8fdf-b8af43b47938.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/8/3/838b0efb-7398-4df9-8fdf-b8af43b47938.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/223/way-of-the-cryomancer?utm_source=api"
+    },
+    {
+      "id": "6489814b-3d10-423e-988c-324740d36748",
+      "name": "Danitha, Spear of Agony",
+      "collectorNumber": "227",
+      "color": "B",
+      "colors": [
+        "B"
+      ],
+      "manaCost": "{2}{B}",
+      "manaValue": 3,
+      "typeLine": "Legendary Creature — Human Knight",
+      "oracleText": "First strike\nWhenever you cast a spell that targets an opponent or a creature an opponent controls, put a +1/+1 counter on Danitha.",
+      "rarity": "uncommon",
+      "keywords": [
+        "First strike"
+      ],
+      "image": "assets/cards/fra/6489814b-3d10-423e-988c-324740d36748.jpg",
+      "trainingImage": "assets/cards-large/fra/6489814b-3d10-423e-988c-324740d36748.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/6/4/6489814b-3d10-423e-988c-324740d36748.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/6/4/6489814b-3d10-423e-988c-324740d36748.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/227/danitha-spear-of-agony?utm_source=api"
     },
     {
       "id": "d48bfb8a-d135-45f3-be99-4694b4b9ab93",
@@ -1419,6 +1570,29 @@
       "imageSource": "https://cards.scryfall.io/small/front/1/e/1eb25a6c-d6b4-465d-990e-f1ab86b26b69.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/1/e/1eb25a6c-d6b4-465d-990e-f1ab86b26b69.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/231/liliana-the-repentant?utm_source=api"
+    },
+    {
+      "id": "d36b0e06-cb82-4c48-bf35-e76f109116f6",
+      "name": "Proft, Sinister Mastermind",
+      "collectorNumber": "235",
+      "color": "B",
+      "colors": [
+        "B"
+      ],
+      "manaCost": "{2}{B}",
+      "manaValue": 3,
+      "typeLine": "Legendary Creature — Human Rogue",
+      "oracleText": "Threshold — You can't cast this spell unless there are seven or more cards in your graveyard.\nMenace\n{B}, Discard this card: Target creature gets -3/-1 until end of turn.",
+      "rarity": "uncommon",
+      "keywords": [
+        "Menace",
+        "Threshold"
+      ],
+      "image": "assets/cards/fra/d36b0e06-cb82-4c48-bf35-e76f109116f6.jpg",
+      "trainingImage": "assets/cards-large/fra/d36b0e06-cb82-4c48-bf35-e76f109116f6.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/d/3/d36b0e06-cb82-4c48-bf35-e76f109116f6.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/d/3/d36b0e06-cb82-4c48-bf35-e76f109116f6.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/235/proft-sinister-mastermind?utm_source=api"
     },
     {
       "id": "2f47ddf7-35b6-4205-8045-f057914c5f64",
@@ -1626,8 +1800,8 @@
       "oracleText": "Vigilance, trample\nWhen Karn enters, draw a card for each color among other artifacts you control.",
       "rarity": "rare",
       "keywords": [
-        "Vigilance",
-        "Trample"
+        "Trample",
+        "Vigilance"
       ],
       "image": "assets/cards/fra/3abcae65-5b21-4c98-adad-34b8bc76ea3a.jpg",
       "trainingImage": "assets/cards-large/fra/3abcae65-5b21-4c98-adad-34b8bc76ea3a.jpg",
@@ -1652,6 +1826,48 @@
       "imageSource": "https://cards.scryfall.io/small/front/1/e/1ebbbddb-2dc3-4194-b72b-13bcebe2ab89.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/1/e/1ebbbddb-2dc3-4194-b72b-13bcebe2ab89.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/279/karn-argent-defender?utm_source=api"
+    },
+    {
+      "id": "926fadc8-2478-43ba-8e9a-ff608d651056",
+      "name": "Winter, Tormented Loner",
+      "collectorNumber": "307",
+      "color": "B",
+      "colors": [
+        "B"
+      ],
+      "manaCost": "{2}{B}",
+      "manaValue": 3,
+      "typeLine": "Legendary Creature — Human Warlock",
+      "oracleText": "When Winter enters, you may sacrifice a creature or planeswalker. When you do, each opponent sacrifices a creature of their choice.\nWinter gets +1/+0 for each creature and planeswalker card in your graveyard.",
+      "rarity": "uncommon",
+      "keywords": [],
+      "image": "assets/cards/fra/926fadc8-2478-43ba-8e9a-ff608d651056.jpg",
+      "trainingImage": "assets/cards-large/fra/926fadc8-2478-43ba-8e9a-ff608d651056.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/9/2/926fadc8-2478-43ba-8e9a-ff608d651056.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/9/2/926fadc8-2478-43ba-8e9a-ff608d651056.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/307/winter-tormented-loner?utm_source=api"
+    },
+    {
+      "id": "e8d2c13b-d3b5-4f4c-825d-857710c4db76",
+      "name": "Winter, Team Player",
+      "collectorNumber": "312",
+      "color": "R",
+      "colors": [
+        "R"
+      ],
+      "manaCost": "{4}{R}",
+      "manaValue": 5,
+      "typeLine": "Legendary Creature — Human Warrior",
+      "oracleText": "Convoke\nWhenever you cast a noncreature spell, creatures you control get +1/+0 until end of turn.",
+      "rarity": "uncommon",
+      "keywords": [
+        "Convoke"
+      ],
+      "image": "assets/cards/fra/e8d2c13b-d3b5-4f4c-825d-857710c4db76.jpg",
+      "trainingImage": "assets/cards-large/fra/e8d2c13b-d3b5-4f4c-825d-857710c4db76.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/e/8/e8d2c13b-d3b5-4f4c-825d-857710c4db76.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/e/8/e8d2c13b-d3b5-4f4c-825d-857710c4db76.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/312/winter-team-player?utm_source=api"
     },
     {
       "id": "796b72af-5078-427d-b566-9bccad17090f",
