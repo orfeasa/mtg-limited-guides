@@ -1,5 +1,5 @@
 /* Generated static cache manifest. */
-const CACHE = "limited-prep-92b9b7d5e811";
+const CACHE = "limited-prep-d57ef7e4ea72";
 const ASSETS = [
   "./",
   "./index.html",
@@ -299,7 +299,9 @@ const ASSETS = [
 ];
 
 self.addEventListener("install", (event) => {
-  event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)));
+  event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(
+    ASSETS.map((asset) => new Request(asset, { cache: "reload" }))
+  )));
   self.skipWaiting();
 });
 

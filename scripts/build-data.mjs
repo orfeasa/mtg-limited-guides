@@ -200,7 +200,9 @@ const CACHE = "limited-prep-${cacheVersion}";
 const ASSETS = ${JSON.stringify(cacheFiles, null, 2)};
 
 self.addEventListener("install", (event) => {
-  event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)));
+  event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(
+    ASSETS.map((asset) => new Request(asset, { cache: "reload" }))
+  )));
   self.skipWaiting();
 });
 

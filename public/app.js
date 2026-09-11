@@ -111,6 +111,7 @@
     toast: $("#toast"),
     liveRegion: $("#live-region"),
     cardPreview: $("#card-preview"),
+    cardPreviewFrame: $(".card-preview-frame"),
     cardPreviewImage: $("#card-preview-image"),
     cardPreviewName: $("#card-preview-name"),
     cardPreviewMeta: $("#card-preview-meta"),
@@ -994,22 +995,43 @@
     navigateCardPreview(event.key === "ArrowRight" ? 1 : -1);
   });
 
-  elements.cardPreviewImage.addEventListener("touchstart", (event) => {
-    previewTouchStart = event.touches.length === 1
-      ? { x: event.touches[0].clientX, y: event.touches[0].clientY }
+  elements.cardPreviewFrame.addEventListener("touchstart", (event) => {
+    previewTouchStart = currentView === "atlas" && event.touches.length === 1
+      && !event.target.closest("button")
+      ? { x: event.touches[0].clientX, y: event.touches[0].clientY, horizontal: false }
       : null;
   }, { passive: true });
-  elements.cardPreviewImage.addEventListener("touchend", (event) => {
+  elements.cardPreviewFrame.addEventListener("touchmove", (event) => {
+    if (!previewTouchStart) return;
+    if (event.touches.length !== 1) {
+      previewTouchStart = null;
+      return;
+    }
+    const dx = event.touches[0].clientX - previewTouchStart.x;
+    const dy = event.touches[0].clientY - previewTouchStart.y;
+    if (!previewTouchStart.horizontal) {
+      if (Math.max(Math.abs(dx), Math.abs(dy)) < 8) return;
+      if (Math.abs(dy) >= Math.abs(dx)) {
+        previewTouchStart = null;
+        return;
+      }
+      previewTouchStart.horizontal = true;
+    }
+    // Claim horizontal swipes before the browser turns them into scrolling.
+    if (event.cancelable) event.preventDefault();
+  }, { passive: false });
+  elements.cardPreviewFrame.addEventListener("touchend", (event) => {
     const start = previewTouchStart;
     previewTouchStart = null;
     if (!start || event.touches.length || event.changedTouches.length !== 1) return;
     const dx = event.changedTouches[0].clientX - start.x;
     const dy = event.changedTouches[0].clientY - start.y;
-    if (Math.abs(dx) >= 50 && Math.abs(dx) > Math.abs(dy) * 2) {
+    if (start.horizontal && event.cancelable) event.preventDefault();
+    if (Math.abs(dx) >= 40 && Math.abs(dx) > Math.abs(dy)) {
       navigateCardPreview(dx > 0 ? 1 : -1);
     }
-  }, { passive: true });
-  elements.cardPreviewImage.addEventListener("touchcancel", () => { previewTouchStart = null; });
+  }, { passive: false });
+  elements.cardPreviewFrame.addEventListener("touchcancel", () => { previewTouchStart = null; });
   elements.cardPreview.addEventListener("close", () => { previewTouchStart = null; });
 
   viewTabs.forEach((tab) => {
