@@ -2590,6 +2590,7 @@ body[data-theme="fracture"] .mana-symbol {
 
 .card-preview-image {
   display: block;
+  touch-action: pan-y pinch-zoom;
   width: auto;
   max-width: 100%;
   height: auto;

@@ -128,6 +128,8 @@
   const requestedView = params.get("view") === "study" ? "training" : params.get("view");
   let currentSet = setById.get(params.get("set")) || latestSet;
   let currentView = validViews.has(requestedView) ? requestedView : "training";
+  let previewCardId = null;
+  let previewTouchStart = null;
   let cards = [];
   let cardById = new Map();
   let trainerCardId = null;
@@ -793,6 +795,7 @@
   function openCardPreview(cardId) {
     const card = cardById.get(cardId);
     if (!card) return;
+    previewCardId = card.id;
     const readableImage = card.trainingImage || card.image;
     elements.cardPreviewImage.onerror = () => {
       elements.cardPreviewImage.onerror = null;
@@ -804,7 +807,16 @@
     elements.cardPreviewMeta.textContent = cardIsRated(card)
       ? `#${card.rank} · Tier ${card.tier}`
       : `${card.rarity || "Preview"} · ${currentSet.code} #${card.collectorNumber || "—"}`;
-    elements.cardPreview.showModal();
+    if (!elements.cardPreview.open) elements.cardPreview.showModal();
+  }
+
+  function navigateCardPreview(direction) {
+    if (!elements.cardPreview.open || currentView !== "atlas") return;
+    const atlasCards = [...elements.cardAtlas.querySelectorAll("[data-card-id]")];
+    const index = atlasCards.findIndex((button) => button.dataset.cardId === previewCardId);
+    if (index < 0) return;
+    const nextCard = atlasCards[index + direction];
+    if (nextCard) openCardPreview(nextCard.dataset.cardId);
   }
 
   function renderAtlas() {
@@ -974,6 +986,31 @@
   elements.cardPreview.addEventListener("click", (event) => {
     if (event.target === elements.cardPreview) elements.cardPreview.close();
   });
+  elements.cardPreview.addEventListener("keydown", (event) => {
+    if (!elements.cardPreview.open || currentView !== "atlas") return;
+    if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+    if (!["ArrowLeft", "ArrowRight"].includes(event.key)) return;
+    event.preventDefault();
+    navigateCardPreview(event.key === "ArrowRight" ? 1 : -1);
+  });
+
+  elements.cardPreviewImage.addEventListener("touchstart", (event) => {
+    previewTouchStart = event.touches.length === 1
+      ? { x: event.touches[0].clientX, y: event.touches[0].clientY }
+      : null;
+  }, { passive: true });
+  elements.cardPreviewImage.addEventListener("touchend", (event) => {
+    const start = previewTouchStart;
+    previewTouchStart = null;
+    if (!start || event.touches.length || event.changedTouches.length !== 1) return;
+    const dx = event.changedTouches[0].clientX - start.x;
+    const dy = event.changedTouches[0].clientY - start.y;
+    if (Math.abs(dx) >= 50 && Math.abs(dx) > Math.abs(dy) * 2) {
+      navigateCardPreview(dx > 0 ? 1 : -1);
+    }
+  }, { passive: true });
+  elements.cardPreviewImage.addEventListener("touchcancel", () => { previewTouchStart = null; });
+  elements.cardPreview.addEventListener("close", () => { previewTouchStart = null; });
 
   viewTabs.forEach((tab) => {
     tab.addEventListener("click", () => activateView(tab.dataset.view));
