@@ -4252,8 +4252,8 @@ window.LIMITED_PREP_DATA = {
         "url": "https://scryfall.com/sets/fra"
       },
       "officialUrl": "https://magic.wizards.com/en/products/reality-fracture/card-image-gallery",
-      "cardCount": 91,
-      "previewCapturedAt": "2026-09-11T09:55:49.826Z",
+      "cardCount": 105,
+      "previewCapturedAt": "2026-09-11T23:32:47.469Z",
       "draftDecisions": null,
       "archetypes": null,
       "cards": [
@@ -4576,6 +4576,32 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "a5988272-faaa-463d-a0a1-a8e96b946bad",
+          "name": "Infinite Coursework",
+          "collectorNumber": "31",
+          "color": "U",
+          "colors": [
+            "U"
+          ],
+          "manaCost": "{2}{U}",
+          "manaValue": 3,
+          "typeLine": "Enchantment — Aura",
+          "oracleText": "Enchant creature\nWhen this Aura enters, tap enchanted creature. It becomes unprepared.\nEnchanted creature loses all abilities and doesn't untap during its controller's untap step.",
+          "rarity": "common",
+          "keywords": [
+            "Enchant",
+            "Prepared"
+          ],
+          "image": "assets/cards/fra/a5988272-faaa-463d-a0a1-a8e96b946bad.jpg",
+          "trainingImage": "assets/cards-large/fra/a5988272-faaa-463d-a0a1-a8e96b946bad.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/a/5/a5988272-faaa-463d-a0a1-a8e96b946bad.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/a/5/a5988272-faaa-463d-a0a1-a8e96b946bad.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/31/infinite-coursework?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "282588b9-3656-453b-aa25-2419e078ddc1",
           "name": "Jace's Machinations",
           "collectorNumber": "32",
@@ -4766,6 +4792,31 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/c/4/c4554f5b-791b-48f6-bf54-ad28699e1beb.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/c/4/c4554f5b-791b-48f6-bf54-ad28699e1beb.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/59/overwrite-the-multiverse?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "f4a80225-7459-4151-86bb-8fdea31c39a6",
+          "name": "Rampart Hunter",
+          "collectorNumber": "60",
+          "color": "B",
+          "colors": [
+            "B"
+          ],
+          "manaCost": "{3}{B}",
+          "manaValue": 4,
+          "typeLine": "Creature — Horror",
+          "oracleText": "Deathtouch\nWhen this creature enters, target creature gets +2/+2 and gains deathtouch until end of turn.",
+          "rarity": "common",
+          "keywords": [
+            "Deathtouch"
+          ],
+          "image": "assets/cards/fra/f4a80225-7459-4151-86bb-8fdea31c39a6.jpg",
+          "trainingImage": "assets/cards-large/fra/f4a80225-7459-4151-86bb-8fdea31c39a6.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/f/4/f4a80225-7459-4151-86bb-8fdea31c39a6.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/f/4/f4a80225-7459-4151-86bb-8fdea31c39a6.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/60/rampart-hunter?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -4994,6 +5045,31 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "e0de5f66-f0df-4866-9f73-104ce50411b4",
+          "name": "Bestial Incursion",
+          "collectorNumber": "98",
+          "color": "G",
+          "colors": [
+            "G"
+          ],
+          "manaCost": "{3}{G}",
+          "manaValue": 4,
+          "typeLine": "Sorcery",
+          "oracleText": "Create a 4/4 green Beast creature token with trample.\nFlashback {5}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+          "rarity": "common",
+          "keywords": [
+            "Flashback"
+          ],
+          "image": "assets/cards/fra/e0de5f66-f0df-4866-9f73-104ce50411b4.jpg",
+          "trainingImage": "assets/cards-large/fra/e0de5f66-f0df-4866-9f73-104ce50411b4.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/e/0/e0de5f66-f0df-4866-9f73-104ce50411b4.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/e/0/e0de5f66-f0df-4866-9f73-104ce50411b4.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/98/bestial-incursion?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "18c59d60-2640-4576-9375-3ba38aa3ecb7",
           "name": "Budding Insurgent",
           "collectorNumber": "99",
@@ -5163,6 +5239,29 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "8be5ee47-8f8a-4e3c-b1a1-9ca0e1fdec7f",
+          "name": "Tarmogoyf",
+          "collectorNumber": "116",
+          "color": "G",
+          "colors": [
+            "G"
+          ],
+          "manaCost": "{1}{G}",
+          "manaValue": 2,
+          "typeLine": "Creature — Lhurgoyf",
+          "oracleText": "Tarmogoyf's power is equal to the number of card types among cards in all graveyards and its toughness is equal to that number plus 1.",
+          "rarity": "mythic",
+          "keywords": [],
+          "image": "assets/cards/fra/8be5ee47-8f8a-4e3c-b1a1-9ca0e1fdec7f.jpg",
+          "trainingImage": "assets/cards-large/fra/8be5ee47-8f8a-4e3c-b1a1-9ca0e1fdec7f.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/8/b/8be5ee47-8f8a-4e3c-b1a1-9ca0e1fdec7f.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/8/b/8be5ee47-8f8a-4e3c-b1a1-9ca0e1fdec7f.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/116/tarmogoyf?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "38589a7c-9cfb-4bcc-845e-9dc205095853",
           "name": "Tethermage's Advantage",
           "collectorNumber": "117",
@@ -5314,6 +5413,32 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "de94d388-919d-44ff-baef-8c90a417ac6d",
+          "name": "Emergency Phytomedic // Seed Suture",
+          "collectorNumber": "130",
+          "color": "M",
+          "colors": [
+            "G",
+            "W"
+          ],
+          "manaCost": "{G/W} // {G/W}",
+          "manaValue": 1,
+          "typeLine": "Creature — Dryad Cleric // Sorcery",
+          "oracleText": "Emergency Phytomedic — This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it. )\n\nSeed Suture — Put a +1/+1 counter on target creature. You gain 1 life.",
+          "rarity": "common",
+          "keywords": [
+            "Prepared"
+          ],
+          "image": "assets/cards/fra/de94d388-919d-44ff-baef-8c90a417ac6d.jpg",
+          "trainingImage": "assets/cards-large/fra/de94d388-919d-44ff-baef-8c90a417ac6d.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/d/e/de94d388-919d-44ff-baef-8c90a417ac6d.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/d/e/de94d388-919d-44ff-baef-8c90a417ac6d.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/130/emergency-phytomedic-seed-suture?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b",
           "name": "Fatehold Chronologist // Peer Review",
           "collectorNumber": "133",
@@ -5329,8 +5454,8 @@ window.LIMITED_PREP_DATA = {
           "rarity": "common",
           "keywords": [
             "Flying",
-            "Prepared",
-            "Surveil"
+            "Surveil",
+            "Prepared"
           ],
           "image": "assets/cards/fra/29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b.jpg",
           "trainingImage": "assets/cards-large/fra/29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b.jpg",
@@ -5522,6 +5647,30 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/b/3/b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/b/3/b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/153/tams-resistance?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "1703306d-6a3d-4ab8-bf58-a9992236ef0f",
+          "name": "\"I've been pulling the strings the whole time!\"",
+          "collectorNumber": "154",
+          "color": "M",
+          "colors": [
+            "G",
+            "R"
+          ],
+          "manaCost": "{1}{R}{G}",
+          "manaValue": 3,
+          "typeLine": "Creature — Human Artificer",
+          "oracleText": "When this creature enters, you may sacrifice a land. If you do, create two tapped Heartwood tokens. (They're red and green artifacts with \"{T}: Add {R} or {G}.\")\nTap two untapped artifacts you control: Put two +1/+1 counters on this creature.",
+          "rarity": "rare",
+          "keywords": [],
+          "image": "assets/cards/fra/1703306d-6a3d-4ab8-bf58-a9992236ef0f.jpg",
+          "trainingImage": "assets/cards-large/fra/1703306d-6a3d-4ab8-bf58-a9992236ef0f.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/1/7/1703306d-6a3d-4ab8-bf58-a9992236ef0f.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/1/7/1703306d-6a3d-4ab8-bf58-a9992236ef0f.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/154/ive-been-pulling-the-strings-the-whole-time!?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -5893,6 +6042,31 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "50326a2a-7e10-464b-a97e-e880bda0558c",
+          "name": "Way of the Healer",
+          "collectorNumber": "207",
+          "color": "W",
+          "colors": [
+            "W"
+          ],
+          "manaCost": "{3}{W}",
+          "manaValue": 4,
+          "typeLine": "Legendary Enchantment",
+          "oracleText": "When Way of the Healer enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[-1]: Surveil 1\" and \"[-3]: Draw a card.\")\nPlaneswalkers you control have \"[-2]: Create a 2/2 colorless Wizard Soldier creature token named Cadet. Surveil 1.\"",
+          "rarity": "uncommon",
+          "keywords": [
+            "Surveil"
+          ],
+          "image": "assets/cards/fra/50326a2a-7e10-464b-a97e-e880bda0558c.jpg",
+          "trainingImage": "assets/cards-large/fra/50326a2a-7e10-464b-a97e-e880bda0558c.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/5/0/50326a2a-7e10-464b-a97e-e880bda0558c.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/5/0/50326a2a-7e10-464b-a97e-e880bda0558c.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/207/way-of-the-healer?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "240f58ab-944c-4f4c-9df9-5f40b132bf3e",
           "name": "Chandra, Chill of Compliance",
           "collectorNumber": "212",
@@ -5936,6 +6110,32 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/b/8/b8466593-40fe-4557-89b2-760c1c92087b.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/b/8/b8466593-40fe-4557-89b2-760c1c92087b.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/218/proft-consulting-detective?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "00af4e87-5576-4a43-9422-4c35b2b66775",
+          "name": "Ruric Thar, Biomagus",
+          "collectorNumber": "219",
+          "color": "U",
+          "colors": [
+            "U"
+          ],
+          "manaCost": "{4}{U}{U}",
+          "manaValue": 6,
+          "typeLine": "Legendary Creature — Ogre Crab Wizard",
+          "oracleText": "Flying\nProwess, prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn twice.)\nWhenever Ruric Thar becomes the target of a spell or ability an opponent controls, draw a card.",
+          "rarity": "uncommon",
+          "keywords": [
+            "Flying",
+            "Prowess"
+          ],
+          "image": "assets/cards/fra/00af4e87-5576-4a43-9422-4c35b2b66775.jpg",
+          "trainingImage": "assets/cards-large/fra/00af4e87-5576-4a43-9422-4c35b2b66775.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/0/0/00af4e87-5576-4a43-9422-4c35b2b66775.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/0/0/00af4e87-5576-4a43-9422-4c35b2b66775.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/219/ruric-thar-biomagus?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -6040,6 +6240,31 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "b2a412b0-2ae4-4552-bc5e-70654b6b9b4e",
+          "name": "Mabel, Bitter Recluse",
+          "collectorNumber": "233",
+          "color": "B",
+          "colors": [
+            "B"
+          ],
+          "manaCost": "{B}",
+          "manaValue": 1,
+          "typeLine": "Legendary Creature — Mouse Warlock",
+          "oracleText": "Deathtouch\nWhen Mabel enters, remove up to three counters from another target creature or planeswalker.",
+          "rarity": "uncommon",
+          "keywords": [
+            "Deathtouch"
+          ],
+          "image": "assets/cards/fra/b2a412b0-2ae4-4552-bc5e-70654b6b9b4e.jpg",
+          "trainingImage": "assets/cards-large/fra/b2a412b0-2ae4-4552-bc5e-70654b6b9b4e.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/b/2/b2a412b0-2ae4-4552-bc5e-70654b6b9b4e.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/b/2/b2a412b0-2ae4-4552-bc5e-70654b6b9b4e.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/233/mabel-bitter-recluse?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "d36b0e06-cb82-4c48-bf35-e76f109116f6",
           "name": "Proft, Sinister Mastermind",
           "collectorNumber": "235",
@@ -6053,8 +6278,8 @@ window.LIMITED_PREP_DATA = {
           "oracleText": "Threshold — You can't cast this spell unless there are seven or more cards in your graveyard.\nMenace\n{B}, Discard this card: Target creature gets -3/-1 until end of turn.",
           "rarity": "uncommon",
           "keywords": [
-            "Menace",
-            "Threshold"
+            "Threshold",
+            "Menace"
           ],
           "image": "assets/cards/fra/d36b0e06-cb82-4c48-bf35-e76f109116f6.jpg",
           "trainingImage": "assets/cards-large/fra/d36b0e06-cb82-4c48-bf35-e76f109116f6.jpg",
@@ -6084,6 +6309,56 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/f/2f47ddf7-35b6-4205-8045-f057914c5f64.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/f/2f47ddf7-35b6-4205-8045-f057914c5f64.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/237/tinybones-pocket-nuisance?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "12dd46b2-e892-4660-b120-55766fd4d878",
+          "name": "Way of the Deathbringer",
+          "collectorNumber": "238",
+          "color": "B",
+          "colors": [
+            "B"
+          ],
+          "manaCost": "{2}{B}",
+          "manaValue": 3,
+          "typeLine": "Legendary Enchantment",
+          "oracleText": "When Way of the Deathbringer enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[-1]: Surveil 1\" and \"[-3]: Draw a card.\")\nPlaneswalkers you control have \"[-2]: You may sacrifice a creature. If you do, create a 4/4 green Beast creature token with trample.\"",
+          "rarity": "uncommon",
+          "keywords": [
+            "Surveil"
+          ],
+          "image": "assets/cards/fra/12dd46b2-e892-4660-b120-55766fd4d878.jpg",
+          "trainingImage": "assets/cards-large/fra/12dd46b2-e892-4660-b120-55766fd4d878.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/1/2/12dd46b2-e892-4660-b120-55766fd4d878.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/1/2/12dd46b2-e892-4660-b120-55766fd4d878.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/238/way-of-the-deathbringer?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "a0ff9689-ea49-4fff-b37c-4abbaeb0f73d",
+          "name": "Way of the Necromancer",
+          "collectorNumber": "239",
+          "color": "B",
+          "colors": [
+            "B"
+          ],
+          "manaCost": "{1}{B}",
+          "manaValue": 2,
+          "typeLine": "Legendary Enchantment",
+          "oracleText": "When Way of the Necromancer enters, empower Jace 2. (Put two loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[-1]: Surveil 1\" and \"[-3]: Draw a card.\")\nWhenever a creature you control dies, put a loyalty counter on each planeswalker you control.",
+          "rarity": "uncommon",
+          "keywords": [
+            "Surveil"
+          ],
+          "image": "assets/cards/fra/a0ff9689-ea49-4fff-b37c-4abbaeb0f73d.jpg",
+          "trainingImage": "assets/cards-large/fra/a0ff9689-ea49-4fff-b37c-4abbaeb0f73d.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/a/0/a0ff9689-ea49-4fff-b37c-4abbaeb0f73d.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/a/0/a0ff9689-ea49-4fff-b37c-4abbaeb0f73d.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/239/way-of-the-necromancer?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -6256,6 +6531,33 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "eed83302-dc2c-45f4-a4bd-af9da51edef5",
+          "name": "Ruric Thar, Magecrusher",
+          "collectorNumber": "265",
+          "color": "G",
+          "colors": [
+            "G"
+          ],
+          "manaCost": "{5}{G}{G}",
+          "manaValue": 7,
+          "typeLine": "Legendary Creature — Ogre Warrior",
+          "oracleText": "This spell can't be countered.\nReach, vigilance, trample\nRuric Thar has hexproof as long as they haven't dealt combat damage yet. (They can't be the target of spells or abilities your opponents control.)",
+          "rarity": "uncommon",
+          "keywords": [
+            "Reach",
+            "Vigilance",
+            "Trample"
+          ],
+          "image": "assets/cards/fra/eed83302-dc2c-45f4-a4bd-af9da51edef5.jpg",
+          "trainingImage": "assets/cards-large/fra/eed83302-dc2c-45f4-a4bd-af9da51edef5.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/e/e/eed83302-dc2c-45f4-a4bd-af9da51edef5.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/e/e/eed83302-dc2c-45f4-a4bd-af9da51edef5.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/265/ruric-thar-magecrusher?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "edea6f70-a5a7-475d-b7f2-97933d0f32cf",
           "name": "Titanbones, Towering Heart",
           "collectorNumber": "266",
@@ -6281,6 +6583,31 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "a252cb01-537b-4afe-9abc-81a98c4a1439",
+          "name": "Way of the Wildspeaker",
+          "collectorNumber": "268",
+          "color": "G",
+          "colors": [
+            "G"
+          ],
+          "manaCost": "{4}{G}",
+          "manaValue": 5,
+          "typeLine": "Legendary Enchantment",
+          "oracleText": "When Way of the Wildspeaker enters, empower Jace 7. (Put seven loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[-1]: Surveil 1\" and \"[-3]: Draw a card.\")\nPlaneswalkers you control have \"[-4]: Create a 4/4 green Beast creature token with trample.\"",
+          "rarity": "uncommon",
+          "keywords": [
+            "Surveil"
+          ],
+          "image": "assets/cards/fra/a252cb01-537b-4afe-9abc-81a98c4a1439.jpg",
+          "trainingImage": "assets/cards-large/fra/a252cb01-537b-4afe-9abc-81a98c4a1439.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/a/2/a252cb01-537b-4afe-9abc-81a98c4a1439.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/a/2/a252cb01-537b-4afe-9abc-81a98c4a1439.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/268/way-of-the-wildspeaker?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "3abcae65-5b21-4c98-adad-34b8bc76ea3a",
           "name": "Karn, Gilded Guardian",
           "collectorNumber": "272",
@@ -6298,14 +6625,38 @@ window.LIMITED_PREP_DATA = {
           "oracleText": "Vigilance, trample\nWhen Karn enters, draw a card for each color among other artifacts you control.",
           "rarity": "rare",
           "keywords": [
-            "Trample",
-            "Vigilance"
+            "Vigilance",
+            "Trample"
           ],
           "image": "assets/cards/fra/3abcae65-5b21-4c98-adad-34b8bc76ea3a.jpg",
           "trainingImage": "assets/cards-large/fra/3abcae65-5b21-4c98-adad-34b8bc76ea3a.jpg",
           "imageSource": "https://cards.scryfall.io/small/front/3/a/3abcae65-5b21-4c98-adad-34b8bc76ea3a.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/3/a/3abcae65-5b21-4c98-adad-34b8bc76ea3a.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/272/karn-gilded-guardian?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "47abea4b-9848-48aa-bc1b-f04f4799e920",
+          "name": "Mabel, Valley Hero",
+          "collectorNumber": "274",
+          "color": "M",
+          "colors": [
+            "R",
+            "W"
+          ],
+          "manaCost": "{1}{R}{W}",
+          "manaValue": 3,
+          "typeLine": "Legendary Creature — Mouse Soldier",
+          "oracleText": "Whenever Mabel or another creature you control enters, put a +1/+1 counter on target creature that entered this turn.",
+          "rarity": "uncommon",
+          "keywords": [],
+          "image": "assets/cards/fra/47abea4b-9848-48aa-bc1b-f04f4799e920.jpg",
+          "trainingImage": "assets/cards-large/fra/47abea4b-9848-48aa-bc1b-f04f4799e920.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/4/7/47abea4b-9848-48aa-bc1b-f04f4799e920.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/4/7/47abea4b-9848-48aa-bc1b-f04f4799e920.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/274/mabel-valley-hero?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
