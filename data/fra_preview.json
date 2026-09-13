@@ -1,9 +1,9 @@
 {
   "set": "FRA",
-  "source": "https://api.scryfall.com/cards/search?order=set&q=set%3Afra&unique=cards",
-  "capturedAt": "2026-09-12T19:44:08.396Z",
+  "source": "https://api.scryfall.com/cards/search?order=spoiled&q=set%3Afra&unique=cards",
+  "capturedAt": "2026-09-13T16:35:30.348Z",
   "partial": true,
-  "count": 146,
+  "count": 159,
   "cards": [
     {
       "id": "c3ff8dd3-88a8-49dc-a59b-e2748680623c",
@@ -219,6 +219,48 @@
       "scryfallUrl": "https://scryfall.com/card/fra/20/return-to-the-light-realms?utm_source=api"
     },
     {
+      "id": "e29095de-59ec-4562-ba8e-73f952e457ae",
+      "name": "Shatterwing Pegasus",
+      "collectorNumber": "21",
+      "color": "W",
+      "colors": [
+        "W"
+      ],
+      "manaCost": "{2}{W}",
+      "manaValue": 3,
+      "typeLine": "Creature — Pegasus",
+      "oracleText": "Flying\n{4}{W}: Creatures you control get +1/+1 until end of turn.",
+      "rarity": "common",
+      "keywords": [
+        "Flying"
+      ],
+      "image": "assets/cards/fra/e29095de-59ec-4562-ba8e-73f952e457ae.jpg",
+      "trainingImage": "assets/cards-large/fra/e29095de-59ec-4562-ba8e-73f952e457ae.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/e/2/e29095de-59ec-4562-ba8e-73f952e457ae.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/e/2/e29095de-59ec-4562-ba8e-73f952e457ae.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/21/shatterwing-pegasus?utm_source=api"
+    },
+    {
+      "id": "d3acf176-ef02-4729-88c4-0f0dfbfdada4",
+      "name": "Surgical Precision",
+      "collectorNumber": "22",
+      "color": "W",
+      "colors": [
+        "W"
+      ],
+      "manaCost": "{1}{W}",
+      "manaValue": 2,
+      "typeLine": "Sorcery",
+      "oracleText": "Choose one —\n• Destroy target creature with toughness 4 or greater. You gain 1 life.\n• You draw a card and gain 2 life.",
+      "rarity": "common",
+      "keywords": [],
+      "image": "assets/cards/fra/d3acf176-ef02-4729-88c4-0f0dfbfdada4.jpg",
+      "trainingImage": "assets/cards-large/fra/d3acf176-ef02-4729-88c4-0f0dfbfdada4.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/d/3/d3acf176-ef02-4729-88c4-0f0dfbfdada4.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/d/3/d3acf176-ef02-4729-88c4-0f0dfbfdada4.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/22/surgical-precision?utm_source=api"
+    },
+    {
       "id": "145b928d-a7ff-4fe5-ae4d-bbae7b1d955b",
       "name": "Countersculpt",
       "collectorNumber": "25",
@@ -416,6 +458,54 @@
       "scryfallUrl": "https://scryfall.com/card/fra/39/semester-foreseer-peer-review?utm_source=api"
     },
     {
+      "id": "08ffbd51-2bd3-4262-8809-09576ce2b6f5",
+      "name": "Sphinx of False Conclusions",
+      "collectorNumber": "40",
+      "color": "U",
+      "colors": [
+        "U"
+      ],
+      "manaCost": "{2}{U}{U}",
+      "manaValue": 4,
+      "typeLine": "Creature — Sphinx Illusion",
+      "oracleText": "Flash\nFlying\nWhenever this creature attacks, draw a card, then discard a card.\nWhen this creature dies, if it isn't a token, create a token that's a copy of it.",
+      "rarity": "rare",
+      "keywords": [
+        "Flash",
+        "Flying"
+      ],
+      "image": "assets/cards/fra/08ffbd51-2bd3-4262-8809-09576ce2b6f5.jpg",
+      "trainingImage": "assets/cards-large/fra/08ffbd51-2bd3-4262-8809-09576ce2b6f5.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/0/8/08ffbd51-2bd3-4262-8809-09576ce2b6f5.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/0/8/08ffbd51-2bd3-4262-8809-09576ce2b6f5.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/40/sphinx-of-false-conclusions?utm_source=api"
+    },
+    {
+      "id": "9df8a06d-c7de-49af-8c01-06dca3dfef4b",
+      "name": "Surveillance Phantasm",
+      "collectorNumber": "42",
+      "color": "U",
+      "colors": [
+        "U"
+      ],
+      "manaCost": "{1}{U}",
+      "manaValue": 2,
+      "typeLine": "Creature — Bird Illusion",
+      "oracleText": "Defender, flying, vigilance\nAs long as you've scried or surveilled this turn, this creature can attack as though it didn't have defender.\n{3}{U}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+      "rarity": "common",
+      "keywords": [
+        "Defender",
+        "Flying",
+        "Surveil",
+        "Vigilance"
+      ],
+      "image": "assets/cards/fra/9df8a06d-c7de-49af-8c01-06dca3dfef4b.jpg",
+      "trainingImage": "assets/cards-large/fra/9df8a06d-c7de-49af-8c01-06dca3dfef4b.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/9/d/9df8a06d-c7de-49af-8c01-06dca3dfef4b.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/9/d/9df8a06d-c7de-49af-8c01-06dca3dfef4b.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/42/surveillance-phantasm?utm_source=api"
+    },
+    {
       "id": "20bb8c55-4b0b-425f-8201-b54fa2fdde86",
       "name": "The Theorist, Jace Beleren",
       "collectorNumber": "43",
@@ -479,6 +569,26 @@
       "imageSource": "https://cards.scryfall.io/small/front/4/f/4fcc913e-f736-460a-b24b-022fa2e861b9.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/4/f/4fcc913e-f736-460a-b24b-022fa2e861b9.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/49/bloodline-recollector-ancestral-craving?utm_source=api"
+    },
+    {
+      "id": "46974d94-e900-43e4-92b5-4fb9b9f7cf46",
+      "name": "Break Under Pressure",
+      "collectorNumber": "50",
+      "color": "B",
+      "colors": [
+        "B"
+      ],
+      "manaCost": "{2}{B}",
+      "manaValue": 3,
+      "typeLine": "Instant",
+      "oracleText": "Target opponent sacrifices a creature or planeswalker with the greatest mana value among creatures and planeswalkers they control. You gain 2 life.",
+      "rarity": "uncommon",
+      "keywords": [],
+      "image": "assets/cards/fra/46974d94-e900-43e4-92b5-4fb9b9f7cf46.jpg",
+      "trainingImage": "assets/cards-large/fra/46974d94-e900-43e4-92b5-4fb9b9f7cf46.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/4/6/46974d94-e900-43e4-92b5-4fb9b9f7cf46.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/4/6/46974d94-e900-43e4-92b5-4fb9b9f7cf46.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/50/break-under-pressure?utm_source=api"
     },
     {
       "id": "3b5b28a4-0abd-4dc2-9856-c9a8d27f6a2d",
@@ -587,6 +697,26 @@
       "scryfallUrl": "https://scryfall.com/card/fra/62/rewrite-regrets?utm_source=api"
     },
     {
+      "id": "f1d274db-751b-4414-a38d-762198168e91",
+      "name": "Silence the Echo",
+      "collectorNumber": "66",
+      "color": "B",
+      "colors": [
+        "B"
+      ],
+      "manaCost": "{1}{B}",
+      "manaValue": 2,
+      "typeLine": "Sorcery",
+      "oracleText": "As an additional cost to cast this spell, sacrifice a creature or planeswalker or pay {3}.\nDestroy target creature or planeswalker.",
+      "rarity": "common",
+      "keywords": [],
+      "image": "assets/cards/fra/f1d274db-751b-4414-a38d-762198168e91.jpg",
+      "trainingImage": "assets/cards-large/fra/f1d274db-751b-4414-a38d-762198168e91.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/f/1/f1d274db-751b-4414-a38d-762198168e91.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/f/1/f1d274db-751b-4414-a38d-762198168e91.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/66/silence-the-echo?utm_source=api"
+    },
+    {
       "id": "7beaa8c9-1a2c-4c88-b579-91e371d8d9e3",
       "name": "Solve for Disappointment",
       "collectorNumber": "67",
@@ -609,6 +739,28 @@
       "scryfallUrl": "https://scryfall.com/card/fra/67/solve-for-disappointment?utm_source=api"
     },
     {
+      "id": "992bd991-7cfb-459f-bafd-9a44f3c925c5",
+      "name": "Vraska's Final Mercy",
+      "collectorNumber": "71",
+      "color": "B",
+      "colors": [
+        "B"
+      ],
+      "manaCost": "{B}{B}",
+      "manaValue": 2,
+      "typeLine": "Sorcery",
+      "oracleText": "Choose one —\n• You lose 2 life. Destroy target creature or planeswalker.\n• You lose 2 life. Empower Jace 6. (Put six loyalty counters on a Jace token you control. If you don't control one, first create a blue Face planeswalker token with \"[-1]: Surveil 1\" and \"[-3]: Draw a card.\")",
+      "rarity": "rare",
+      "keywords": [
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/992bd991-7cfb-459f-bafd-9a44f3c925c5.jpg",
+      "trainingImage": "assets/cards-large/fra/992bd991-7cfb-459f-bafd-9a44f3c925c5.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/9/9/992bd991-7cfb-459f-bafd-9a44f3c925c5.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/9/9/992bd991-7cfb-459f-bafd-9a44f3c925c5.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/71/vraskas-final-mercy?utm_source=api"
+    },
+    {
       "id": "8414a98c-0c79-4884-bc9b-061a6456b392",
       "name": "Blazing Crescendo",
       "collectorNumber": "75",
@@ -627,6 +779,28 @@
       "imageSource": "https://cards.scryfall.io/small/front/8/4/8414a98c-0c79-4884-bc9b-061a6456b392.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/8/4/8414a98c-0c79-4884-bc9b-061a6456b392.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/75/blazing-crescendo?utm_source=api"
+    },
+    {
+      "id": "3a64c5f4-9cfc-4d19-bd99-13d619b1aa9d",
+      "name": "Chandra's Emberling",
+      "collectorNumber": "76",
+      "color": "R",
+      "colors": [
+        "R"
+      ],
+      "manaCost": "{2}{R}",
+      "manaValue": 3,
+      "typeLine": "Creature — Gremlin Elemental",
+      "oracleText": "Haste\nWhenever you cast a noncreature spell, put a +1/+1 counter on this creature.",
+      "rarity": "common",
+      "keywords": [
+        "Haste"
+      ],
+      "image": "assets/cards/fra/3a64c5f4-9cfc-4d19-bd99-13d619b1aa9d.jpg",
+      "trainingImage": "assets/cards-large/fra/3a64c5f4-9cfc-4d19-bd99-13d619b1aa9d.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/3/a/3a64c5f4-9cfc-4d19-bd99-13d619b1aa9d.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/3/a/3a64c5f4-9cfc-4d19-bd99-13d619b1aa9d.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/76/chandras-emberling?utm_source=api"
     },
     {
       "id": "47793a51-08c6-4ad2-a7e5-a4484d83a5cd",
@@ -823,6 +997,26 @@
       "imageSource": "https://cards.scryfall.io/small/front/a/d/ad03ba90-2442-4a71-94df-2088b5b63662.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/a/d/ad03ba90-2442-4a71-94df-2088b5b63662.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/95/violent-echoes?utm_source=api"
+    },
+    {
+      "id": "b5b55617-684a-4036-be9b-a3b24fc9cd5a",
+      "name": "Wrath of the Bloodmane",
+      "collectorNumber": "96",
+      "color": "R",
+      "colors": [
+        "R"
+      ],
+      "manaCost": "{2}{R}",
+      "manaValue": 3,
+      "typeLine": "Instant",
+      "oracleText": "This spell costs {1} less to cast if you control a legendary creature.\nWrath of the Bloodmane deals 4 damage to target creature or planeswalker.",
+      "rarity": "common",
+      "keywords": [],
+      "image": "assets/cards/fra/b5b55617-684a-4036-be9b-a3b24fc9cd5a.jpg",
+      "trainingImage": "assets/cards-large/fra/b5b55617-684a-4036-be9b-a3b24fc9cd5a.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/b/5/b5b55617-684a-4036-be9b-a3b24fc9cd5a.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/b/5/b5b55617-684a-4036-be9b-a3b24fc9cd5a.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/96/wrath-of-the-bloodmane?utm_source=api"
     },
     {
       "id": "1bf923c4-f0b7-4271-978c-fd2e79fe1cc8",
@@ -1781,6 +1975,42 @@
       "scryfallUrl": "https://scryfall.com/card/fra/165/woodwork-prodigy-soul-tether?utm_source=api"
     },
     {
+      "id": "4d4b3bf7-a149-4099-b97d-4e36a87dfa60",
+      "name": "Afterthought Sentry",
+      "collectorNumber": "166",
+      "color": "C",
+      "colors": [],
+      "manaCost": "{2}",
+      "manaValue": 2,
+      "typeLine": "Artifact Creature — Gargoyle",
+      "oracleText": "{2}: This creature gains flying until end of turn.\nWhenever this creature attacks, exile up to one target card from a graveyard.",
+      "rarity": "common",
+      "keywords": [],
+      "image": "assets/cards/fra/4d4b3bf7-a149-4099-b97d-4e36a87dfa60.jpg",
+      "trainingImage": "assets/cards-large/fra/4d4b3bf7-a149-4099-b97d-4e36a87dfa60.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/4/d/4d4b3bf7-a149-4099-b97d-4e36a87dfa60.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/4/d/4d4b3bf7-a149-4099-b97d-4e36a87dfa60.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/166/afterthought-sentry?utm_source=api"
+    },
+    {
+      "id": "d71d250f-c0e0-44b2-877c-76f3bcab4f34",
+      "name": "The Echoverse Fulcrum",
+      "collectorNumber": "169",
+      "color": "C",
+      "colors": [],
+      "manaCost": "{2}",
+      "manaValue": 2,
+      "typeLine": "Legendary Artifact",
+      "oracleText": "When The Echoverse Fulcrum enters, draw a card, then discard a card.\n{5}, {T}, Exile The Echoverse Fulcrum: Destroy all creatures. Activate only as a sorcery.",
+      "rarity": "mythic",
+      "keywords": [],
+      "image": "assets/cards/fra/d71d250f-c0e0-44b2-877c-76f3bcab4f34.jpg",
+      "trainingImage": "assets/cards-large/fra/d71d250f-c0e0-44b2-877c-76f3bcab4f34.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/d/7/d71d250f-c0e0-44b2-877c-76f3bcab4f34.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/d/7/d71d250f-c0e0-44b2-877c-76f3bcab4f34.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/169/the-echoverse-fulcrum?utm_source=api"
+    },
+    {
       "id": "b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0",
       "name": "Keeper of the Quiet Hour",
       "collectorNumber": "171",
@@ -2352,6 +2582,28 @@
       "scryfallUrl": "https://scryfall.com/card/fra/227/danitha-spear-of-agony?utm_source=api"
     },
     {
+      "id": "498fa810-8522-4020-b773-52ad404c9f65",
+      "name": "Gallia, Tragic Host",
+      "collectorNumber": "228",
+      "color": "B",
+      "colors": [
+        "B"
+      ],
+      "manaCost": "{1}{B}",
+      "manaValue": 2,
+      "typeLine": "Legendary Creature — Zombie Satyr",
+      "oracleText": "Menace (This creature can't be blocked except by two or more creatures.)\n{4}{B}, Exile another creature card from your graveyard: Return this card from your graveyard to the battlefield tapped with a +1/+1 counter on her.",
+      "rarity": "uncommon",
+      "keywords": [
+        "Menace"
+      ],
+      "image": "assets/cards/fra/498fa810-8522-4020-b773-52ad404c9f65.jpg",
+      "trainingImage": "assets/cards-large/fra/498fa810-8522-4020-b773-52ad404c9f65.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/4/9/498fa810-8522-4020-b773-52ad404c9f65.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/4/9/498fa810-8522-4020-b773-52ad404c9f65.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/228/gallia-tragic-host?utm_source=api"
+    },
+    {
       "id": "d48bfb8a-d135-45f3-be99-4694b4b9ab93",
       "name": "Garruk, Veiled Butcher",
       "collectorNumber": "229",
@@ -2604,6 +2856,28 @@
       "imageSource": "https://cards.scryfall.io/small/front/4/0/40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/4/0/40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/244/chandra-torch-of-defiance?utm_source=api"
+    },
+    {
+      "id": "f27d50f0-d76e-4ce1-a8d9-d997af6a5b41",
+      "name": "Gallia, the Merrymaker",
+      "collectorNumber": "245",
+      "color": "R",
+      "colors": [
+        "R"
+      ],
+      "manaCost": "{1}{R}",
+      "manaValue": 2,
+      "typeLine": "Legendary Creature — Satyr",
+      "oracleText": "Haste\nEach other creature you control with +1/+1 counter on it has haste.\n{1}{R}, {T}: Put a +1/+1 counter on target creature that entered this turn.",
+      "rarity": "uncommon",
+      "keywords": [
+        "Haste"
+      ],
+      "image": "assets/cards/fra/f27d50f0-d76e-4ce1-a8d9-d997af6a5b41.jpg",
+      "trainingImage": "assets/cards-large/fra/f27d50f0-d76e-4ce1-a8d9-d997af6a5b41.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/f/2/f27d50f0-d76e-4ce1-a8d9-d997af6a5b41.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/f/2/f27d50f0-d76e-4ce1-a8d9-d997af6a5b41.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/245/gallia-the-merrymaker?utm_source=api"
     },
     {
       "id": "e8c1ce21-b77d-40bf-9ed1-478604e71f5f",

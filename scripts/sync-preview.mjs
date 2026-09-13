@@ -9,7 +9,7 @@ const setCode = (process.argv[2] || "fra").toLowerCase();
 const outputPath = path.join(root, "data", `${setCode}_preview.json`);
 const imageDirectory = path.join(root, "public", "assets", "cards", setCode);
 const trainingImageDirectory = path.join(root, "public", "assets", "cards-large", setCode);
-const apiUrl = `https://api.scryfall.com/cards/search?order=set&q=set%3A${encodeURIComponent(setCode)}&unique=cards`;
+const apiUrl = `https://api.scryfall.com/cards/search?order=spoiled&q=set%3A${encodeURIComponent(setCode)}&unique=cards`;
 const userAgent = "mtg-limited-guides/1.0 (https://github.com/orfeasa/mtg-limited-guides)";
 
 const stableSourceUrl = (value) => {
@@ -41,11 +41,18 @@ const withSourceComment = (buffer, source, purpose) => {
   return Buffer.concat([buffer.subarray(0, 2), header, comment, buffer.subarray(2)]);
 };
 
-const response = await fetch(apiUrl, { headers: { "User-Agent": userAgent, Accept: "application/json" } });
-if (!response.ok) throw new Error(`Scryfall request failed: ${response.status}`);
+const cardRecords = [];
+let nextPage = apiUrl;
+while (nextPage) {
+  const response = await fetch(nextPage, { headers: { "User-Agent": userAgent, Accept: "application/json" } });
+  if (!response.ok) throw new Error(`Scryfall request failed: ${response.status}`);
 
-const payload = await response.json();
-if (!Array.isArray(payload.data)) throw new Error("Scryfall returned no card data");
+  const payload = await response.json();
+  if (!Array.isArray(payload.data)) throw new Error("Scryfall returned no card data");
+  cardRecords.push(...payload.data);
+  if (payload.has_more && !payload.next_page) throw new Error("Scryfall omitted the next preview page URL");
+  nextPage = payload.has_more ? payload.next_page : null;
+}
 
 await fs.mkdir(imageDirectory, { recursive: true });
 await fs.mkdir(trainingImageDirectory, { recursive: true });
@@ -58,7 +65,7 @@ const classify = (identity) => {
 
 const cards = [];
 let changedAssets = 0;
-for (const card of payload.data) {
+for (const card of cardRecords) {
   const imageUris = card.image_uris || card.card_faces?.[0]?.image_uris;
   const imageUrl = imageUris?.small;
   const trainingImageUrl = imageUris?.normal || imageUris?.large || imageUrl;
@@ -104,6 +111,13 @@ for (const card of payload.data) {
     scryfallUrl: card.scryfall_uri,
   });
 }
+
+const collectorNumberOrder = new Intl.Collator("en", { numeric: true, sensitivity: "base" });
+cards.sort((left, right) => (
+  collectorNumberOrder.compare(left.collectorNumber, right.collectorNumber)
+  || left.name.localeCompare(right.name)
+  || left.id.localeCompare(right.id)
+));
 
 const snapshotContent = {
   set: setCode.toUpperCase(),
