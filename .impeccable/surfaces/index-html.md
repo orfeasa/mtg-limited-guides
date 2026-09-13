@@ -24,6 +24,20 @@ The Hobbit uses five official archetype plans from the Wizards prerelease guide 
 
 The Set-Specific Field Guide Shelf: one shared preparation shell with stable Training and All cards markers, a conditional Archetypes marker when the official map and observations are authored, and a conditional Draft decisions marker when grounded evidence exists. The first viewport opens the latest volume directly onto focused preparation work. Hobbit preserves Bilbo’s Expedition Atlas with forest cloth, warm map leaves, brass and oxblood wayfinding, river details, Alegreya hierarchy, rounded handled construction, exact-tier rows, and quiet evidence ledgers. Archetypes reads as five broad routes through the atlas rather than a dashboard: a Draft/Sealed brass switch, one binding-coloured format note, a sticky route index, ruled chapters for the five supported plans, and paired signpost cards that open in the existing lightbox. Draft decisions extends that atlas as one broad pack table: seat and pool read in ruled binding rows, the complete pack on a map leaf, then an inline three-way evidence ledger whose replay and data entries carry their own explanation and evidence boundary. Reality Fracture uses an angular Echoverse dossier with ink-indigo binding, cool paper, Barlow Condensed Black hierarchy, violet/cyan/pink electric seams, clipped facets, intentional two-to-four-pixel cuts, and an explicitly unrated Training reader. All cards opens readable images in a focused lightbox without changing views. Atkinson Hyperlegible Next, local imagery, common controls, information order, and 1120/860/700 responsive behavior bind both volumes together.
 
+## Direction contract
+
+**THESIS:** A temporary catch-up rail turns preview dates into "what changed since I last looked" without turning All cards into a permanent filter dashboard.
+
+**OWN-WORLD:** The rail belongs inside the Reality Fracture Echoverse dossier: cool paper, ink-indigo binding, Atkinson control copy, clipped three-pixel corners, and restrained violet seams. Hobbit remains untouched; without content, the control still reads as one dossier annotation.
+
+**STORY:** A player opens All cards, selects the last preview date they saw, and gets only the cards added afterward. They can browse the remaining colour groups, enlarge cards, and share the filtered URL. Selecting the newest date produces an explicit caught-up state with one route back to every card.
+
+**FIRST VIEWPORT:** The rail sits directly below the All cards introduction and above the sticky colour jumps. Desktop holds summary left and date control right; mobile stacks them. Its signature interaction filters in place while rewriting the visible count, colour groups, and shareable URL without changing views.
+
+**FORM:** Compact dossier catch-up rail, ranked first in the grounded form list and pinned by the existing brief plus the user's request. Surface concept seed key: 5c7b4531. This is a code-led extension of the incumbent surface, so it has no separate comp.
+
+**FINISH:** unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+
 ## Unresolved decisions
 
 No surface-level design decision remains unresolved. Each future set still requires an authored material world and attributable ranking provenance before rating-dependent training can unlock; Archetypes requires an attributable official map plus separate Draft and Sealed observations, and Draft decisions requires grounded pack-and-pool evidence.

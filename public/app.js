@@ -103,7 +103,12 @@
     nextDecision: $("#next-decision"),
     atlasTitle: $("#atlas-title"),
     atlasCopy: $("#atlas-copy"),
+    previewCatchup: $("#preview-catchup"),
+    previewSince: $("#preview-since"),
+    previewCatchupSummary: $("#preview-catchup-summary"),
     colorNavigation: $("#color-navigation"),
+    atlasEmpty: $("#atlas-empty"),
+    clearPreviewFilter: $("#clear-preview-filter"),
     cardAtlas: $("#card-atlas"),
     footerSource: $("#footer-source"),
     footerRefreshed: $("#footer-refreshed"),
@@ -138,6 +143,7 @@
   let trainerGuess = null;
   let decisionIndex = 0;
   let decisionChoice = null;
+  let atlasSince = "";
   let archetypeFormat = params.get("format") === "sealed" ? "sealed" : "draft";
   let progress = emptyProgress();
   let toastTimer = null;
@@ -252,6 +258,23 @@
     return new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", year: "numeric" }).format(new Date(`${value.slice(0, 10)}T12:00:00Z`));
   }
 
+  function shortDateLabel(value) {
+    if (!value) return "";
+    return new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short" }).format(new Date(`${value.slice(0, 10)}T12:00:00Z`));
+  }
+
+  function previewDates() {
+    return [...new Set(cards.map((card) => card.firstSeenAt).filter(Boolean))].sort();
+  }
+
+  function previewCatchupAvailable() {
+    const previewEnd = Date.parse(`${currentSet.previewEndsOn || ""}T23:59:59Z`);
+    return currentSet.stage === "preview"
+      && Number.isFinite(previewEnd)
+      && Date.now() <= previewEnd
+      && previewDates().length > 1;
+  }
+
   function updateUrl({ replace = true } = {}) {
     const url = new URL(location.href);
     url.searchParams.set("set", currentSet.id);
@@ -264,6 +287,8 @@
     }
     if (currentView === "archetypes" && archetypesAvailable()) url.searchParams.set("format", archetypeFormat);
     else url.searchParams.delete("format");
+    if (currentView === "atlas" && previewCatchupAvailable() && atlasSince) url.searchParams.set("since", atlasSince);
+    else url.searchParams.delete("since");
     url.hash = "";
     history[replace ? "replaceState" : "pushState"](null, "", url);
   }
@@ -820,9 +845,39 @@
     if (nextCard) openCardPreview(nextCard.dataset.cardId);
   }
 
+  function renderPreviewCatchup(visibleCards) {
+    const dates = previewDates();
+    const available = previewCatchupAvailable();
+    if (!available || (atlasSince && !dates.includes(atlasSince))) atlasSince = "";
+    elements.previewCatchup.hidden = !available;
+    if (!available) return;
+
+    const allOption = document.createElement("option");
+    allOption.value = "";
+    allOption.textContent = `All ${cards.length} revealed cards`;
+    const dateOptions = dates.map((date) => {
+      const option = document.createElement("option");
+      const newerCount = cards.filter((card) => card.firstSeenAt > date).length;
+      option.value = date;
+      option.textContent = `New since ${shortDateLabel(date)} · ${newerCount} ${newerCount === 1 ? "card" : "cards"}`;
+      return option;
+    });
+    elements.previewSince.replaceChildren(allOption, ...dateOptions);
+    elements.previewSince.value = atlasSince;
+    elements.previewCatchupSummary.textContent = atlasSince
+      ? `Showing ${visibleCards.length} ${visibleCards.length === 1 ? "card" : "cards"} added after ${shortDateLabel(atlasSince)}.`
+      : `Showing all ${cards.length} revealed cards.`;
+  }
+
   function renderAtlas() {
+    const catchupAvailable = previewCatchupAvailable();
+    if (!catchupAvailable || (atlasSince && !previewDates().includes(atlasSince))) atlasSince = "";
+    const visibleCards = catchupAvailable && atlasSince
+      ? cards.filter((card) => card.firstSeenAt > atlasSince)
+      : cards;
+    renderPreviewCatchup(visibleCards);
     const counts = new Map(colorGroups.map((group) => [group.id, 0]));
-    cards.forEach((card) => counts.set(card.color, (counts.get(card.color) || 0) + 1));
+    visibleCards.forEach((card) => counts.set(card.color, (counts.get(card.color) || 0) + 1));
     elements.colorNavigation.replaceChildren(...colorGroups.filter((group) => counts.get(group.id)).map((group) => {
       const button = document.createElement("button");
       button.type = "button";
@@ -832,9 +887,11 @@
       button.addEventListener("click", () => document.querySelector(`#color-${group.id}`)?.scrollIntoView({ behavior: prefersReducedMotion ? "auto" : "smooth", block: "start" }));
       return button;
     }));
+    elements.colorNavigation.hidden = visibleCards.length === 0;
+    elements.atlasEmpty.hidden = visibleCards.length !== 0;
 
     elements.cardAtlas.replaceChildren(...colorGroups.map((group) => {
-      const groupCards = cards.filter((card) => card.color === group.id).sort((a, b) => {
+      const groupCards = visibleCards.filter((card) => card.color === group.id).sort((a, b) => {
         if (Number.isFinite(a.rank) && Number.isFinite(b.rank)) return a.rank - b.rank;
         return Number.parseInt(a.collectorNumber, 10) - Number.parseInt(b.collectorNumber, 10);
       });
@@ -895,6 +952,7 @@
     const requestedFormat = params.get("set") === currentSet.id ? params.get("format") : null;
     if (requestedFormat && currentSet.archetypes?.formats?.[requestedFormat]) archetypeFormat = requestedFormat;
     else if (!currentSet.archetypes?.formats?.[archetypeFormat]) archetypeFormat = "draft";
+    atlasSince = updateHistory ? "" : params.get("set") === currentSet.id ? params.get("since") || "" : "";
     progress = readProgress();
     elements.trainerColor.value = progress.color || "all";
     renderGradeOptions();
@@ -963,6 +1021,19 @@
     trainerCardId = null;
     nextTrainerCard();
   });
+  elements.previewSince.addEventListener("change", () => {
+    atlasSince = elements.previewSince.value;
+    renderAtlas();
+    updateUrl();
+  });
+
+  elements.clearPreviewFilter.addEventListener("click", () => {
+    atlasSince = "";
+    renderAtlas();
+    updateUrl();
+    elements.previewSince.focus();
+  });
+
   elements.resetProgress.addEventListener("click", () => {
     if (!window.confirm(`Reset your ${currentSet.name} preparation progress on this browser?`)) return;
     progress = emptyProgress();

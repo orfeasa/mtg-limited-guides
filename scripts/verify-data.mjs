@@ -116,6 +116,15 @@ const fracture = data.sets.find((set) => set.id === "fra");
 if (fracture.rating.status !== "pending") throw new Error("Reality Fracture must remain explicitly unrated during preview season");
 if (fracture.cards.some((card) => card.rank || card.tier)) throw new Error("Reality Fracture preview cards must not have invented ratings");
 if (fracture.cards.some((card) => !card.trainingImage)) throw new Error("Reality Fracture preview cards need readable study images");
+if (!/^\d{4}-\d{2}-\d{2}$/.test(fracture.previewEndsOn) || Number.isNaN(Date.parse(`${fracture.previewEndsOn}T12:00:00Z`))) {
+  throw new Error("Reality Fracture needs a valid preview end date");
+}
+if (fracture.cards.some((card) => !/^\d{4}-\d{2}-\d{2}$/.test(card.firstSeenAt) || Number.isNaN(Date.parse(`${card.firstSeenAt}T12:00:00Z`)))) {
+  throw new Error("Reality Fracture preview cards need valid first-seen dates");
+}
+if (fracture.cards.some((card) => card.firstSeenAt > fracture.previewCapturedAt.slice(0, 10))) {
+  throw new Error("Reality Fracture first-seen dates cannot follow the preview capture");
+}
 if (fracture.draftDecisions) throw new Error("Reality Fracture must not expose draft decisions before grounded data exists");
 
 console.log(`Verified ${data.sets.length} sets and ${data.sets.reduce((sum, set) => sum + set.cards.length, 0)} cards.`);

@@ -251,7 +251,22 @@
             <div><h2 id="atlas-title">The complete card atlas</h2><p id="atlas-copy"></p></div>
             <svg class="atlas-emblem" viewBox="0 0 96 96" aria-hidden="true"><circle cx="48" cy="48" r="39" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m48 12 8 28 28 8-28 8-8 28-8-28-28-8 28-8Z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
           </header>
+          <div id="preview-catchup" class="preview-catchup" hidden>
+            <div>
+              <strong>Catch up on previews</strong>
+              <p id="preview-catchup-summary" aria-live="polite">Showing every revealed card.</p>
+            </div>
+            <label for="preview-since">
+              <span>Show</span>
+              <select id="preview-since"></select>
+            </label>
+          </div>
           <nav id="color-navigation" class="color-navigation" aria-label="Filter cards by colour"></nav>
+          <div id="atlas-empty" class="atlas-empty" hidden>
+            <strong>You are caught up.</strong>
+            <p>No cards were added after that preview date.</p>
+            <button id="clear-preview-filter" class="secondary-action" type="button">Show all cards</button>
+          </div>
           <div id="card-atlas" class="card-atlas"></div>
         </div>
       </section>
@@ -281,7 +296,7 @@
       </div>
     </dialog>
     <noscript><p class="noscript">This preparation tool requires JavaScript.</p></noscript>
-    <script src="data.js?v=limited-prep-6"></script>
-    <script src="app.js?v=limited-prep-7"></script>
+    <script src="data.js?v=limited-prep-7"></script>
+    <script src="app.js?v=limited-prep-8"></script>
   </body>
 </html>

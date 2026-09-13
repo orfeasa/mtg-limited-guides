@@ -41,6 +41,17 @@ const withSourceComment = (buffer, source, purpose) => {
   return Buffer.concat([buffer.subarray(0, 2), header, comment, buffer.subarray(2)]);
 };
 
+let previous = null;
+try {
+  previous = JSON.parse(await fs.readFile(outputPath, "utf8"));
+} catch (error) {
+  if (error.code !== "ENOENT") throw error;
+}
+const previousCardsById = new Map((previous?.cards || []).map((card) => [card.id, card]));
+const previousCardsByName = new Map((previous?.cards || []).map((card) => [card.name, card]));
+const capturedAt = new Date().toISOString();
+const captureDate = capturedAt.slice(0, 10);
+
 const cardRecords = [];
 let nextPage = apiUrl;
 while (nextPage) {
@@ -95,6 +106,7 @@ for (const card of cardRecords) {
   cards.push({
     id: card.id,
     name: card.name,
+    firstSeenAt: previousCardsById.get(card.id)?.firstSeenAt || previousCardsByName.get(card.name)?.firstSeenAt || captureDate,
     collectorNumber: card.collector_number,
     color: classify(card.color_identity),
     colors: card.color_identity || [],
@@ -128,8 +140,7 @@ const snapshotContent = {
 };
 
 let previousContent = null;
-try {
-  const previous = JSON.parse(await fs.readFile(outputPath, "utf8"));
+if (previous) {
   previousContent = {
     set: previous.set,
     source: previous.source,
@@ -137,8 +148,6 @@ try {
     count: previous.count,
     cards: previous.cards,
   };
-} catch (error) {
-  if (error.code !== "ENOENT") throw error;
 }
 
 if (JSON.stringify(previousContent) === JSON.stringify(snapshotContent) && changedAssets === 0) {
@@ -149,7 +158,7 @@ if (JSON.stringify(previousContent) === JSON.stringify(snapshotContent) && chang
 const snapshot = {
   set: snapshotContent.set,
   source: snapshotContent.source,
-  capturedAt: new Date().toISOString(),
+  capturedAt,
   partial: snapshotContent.partial,
   count: snapshotContent.count,
   cards: snapshotContent.cards,

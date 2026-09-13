@@ -4232,6 +4232,7 @@ window.LIMITED_PREP_DATA = {
       "releaseDate": "2026-10-02",
       "prereleaseDate": "2026-09-25",
       "arenaDate": "2026-09-29",
+      "previewEndsOn": "2026-09-18",
       "subtitle": "A live Echoverse dossier, expanding as preview season unfolds.",
       "guideTitle": "Study what is known. Keep the unknown visible.",
       "guideBody": "Preview cards are indexed now. Rating training will unlock only when a complete, attributable Limited evaluation exists—so provisional information is never presented as settled advice.",
@@ -4260,6 +4261,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "c3ff8dd3-88a8-49dc-a59b-e2748680623c",
           "name": "Emrakul, the Exigent Doom",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "1",
           "color": "C",
           "colors": [],
@@ -4285,6 +4287,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "730d8c28-1e58-4b8e-89e9-445d154d2e83",
           "name": "Academic Ascent",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "2",
           "color": "W",
           "colors": [
@@ -4310,6 +4313,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "6047b14c-91d5-4f8e-af3f-057a541e2546",
           "name": "Campus Crier",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "4",
           "color": "W",
           "colors": [
@@ -4335,6 +4339,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "483fcc58-cc6e-4452-a696-7b38e117c837",
           "name": "Enlightened Confidant",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "5",
           "color": "W",
           "colors": [
@@ -4361,6 +4366,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd",
           "name": "Generous Revival",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "8",
           "color": "W",
           "colors": [
@@ -4386,6 +4392,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "490dae91-94ce-42a9-a11f-6c5e77c4e486",
           "name": "Loyal Tutor",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "14",
           "color": "W",
           "colors": [
@@ -4409,6 +4416,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "2f5345ae-4489-4d05-b2d5-c71285254f05",
           "name": "Memory Trap",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "15",
           "color": "W",
           "colors": [
@@ -4432,6 +4440,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "1f95399a-9766-4f3d-aa6a-ece55e0530d9",
           "name": "Prophesied End",
+          "firstSeenAt": "2026-09-10",
           "collectorNumber": "17",
           "color": "W",
           "colors": [
@@ -4455,6 +4464,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "35000e93-85d3-44f8-976a-5918ee4c71e0",
           "name": "Repurposed Enforcer",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "19",
           "color": "W",
           "colors": [
@@ -4480,6 +4490,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "9e72f397-2384-40f1-882b-f627664d97df",
           "name": "Return to the Light Realms",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "20",
           "color": "W",
           "colors": [
@@ -4503,6 +4514,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "e29095de-59ec-4562-ba8e-73f952e457ae",
           "name": "Shatterwing Pegasus",
+          "firstSeenAt": "2026-09-13",
           "collectorNumber": "21",
           "color": "W",
           "colors": [
@@ -4528,6 +4540,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "d3acf176-ef02-4729-88c4-0f0dfbfdada4",
           "name": "Surgical Precision",
+          "firstSeenAt": "2026-09-13",
           "collectorNumber": "22",
           "color": "W",
           "colors": [
@@ -4551,6 +4564,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "145b928d-a7ff-4fe5-ae4d-bbae7b1d955b",
           "name": "Countersculpt",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "25",
           "color": "U",
           "colors": [
@@ -4577,6 +4591,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "f76c4d8e-3e1f-4264-99af-1b8adb9a06be",
           "name": "Cruel Calculations",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "26",
           "color": "U",
           "colors": [
@@ -4600,6 +4615,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "0853bb80-8664-432a-8457-600139fd96d5",
           "name": "Diviner of Victory // Unwind History",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "28",
           "color": "U",
           "colors": [
@@ -4626,6 +4642,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "8d754b96-5e44-45af-9c7a-b0da59fbe4c3",
           "name": "Icy Reception",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "30",
           "color": "U",
           "colors": [
@@ -4649,6 +4666,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "a5988272-faaa-463d-a0a1-a8e96b946bad",
           "name": "Infinite Coursework",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "31",
           "color": "U",
           "colors": [
@@ -4675,6 +4693,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "282588b9-3656-453b-aa25-2419e078ddc1",
           "name": "Jace's Machinations",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "32",
           "color": "U",
           "colors": [
@@ -4700,6 +4719,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "d0ecae06-bc5a-4886-84df-c2900816f226",
           "name": "Perfected Theory",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "34",
           "color": "U",
           "colors": [
@@ -4723,6 +4743,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "a08c7ec2-4c6a-4db2-85a7-41afe8731523",
           "name": "Protege's Awakening",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "37",
           "color": "U",
           "colors": [
@@ -4748,6 +4769,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "7e5a640b-fd88-4b5a-9dfc-1d8f5a5cef41",
           "name": "Semester Foreseer // Peer Review",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "39",
           "color": "M",
           "colors": [
@@ -4775,6 +4797,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "08ffbd51-2bd3-4262-8809-09576ce2b6f5",
           "name": "Sphinx of False Conclusions",
+          "firstSeenAt": "2026-09-13",
           "collectorNumber": "40",
           "color": "U",
           "colors": [
@@ -4801,6 +4824,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "9df8a06d-c7de-49af-8c01-06dca3dfef4b",
           "name": "Surveillance Phantasm",
+          "firstSeenAt": "2026-09-13",
           "collectorNumber": "42",
           "color": "U",
           "colors": [
@@ -4829,6 +4853,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "20bb8c55-4b0b-425f-8201-b54fa2fdde86",
           "name": "The Theorist, Jace Beleren",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "43",
           "color": "U",
           "colors": [
@@ -4852,6 +4877,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "710302ca-c4be-4069-8ce1-f531414c74e9",
           "name": "Theorist's Proxy",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "44",
           "color": "U",
           "colors": [
@@ -4878,6 +4904,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "4fcc913e-f736-460a-b24b-022fa2e861b9",
           "name": "Bloodline Recollector // Ancestral Craving",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "49",
           "color": "B",
           "colors": [
@@ -4903,6 +4930,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "46974d94-e900-43e4-92b5-4fb9b9f7cf46",
           "name": "Break Under Pressure",
+          "firstSeenAt": "2026-09-13",
           "collectorNumber": "50",
           "color": "B",
           "colors": [
@@ -4926,6 +4954,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "3b5b28a4-0abd-4dc2-9856-c9a8d27f6a2d",
           "name": "Cast Away Doubt",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "51",
           "color": "B",
           "colors": [
@@ -4949,6 +4978,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "2381d123-d8c7-4822-98fe-b1c365beb5ed",
           "name": "Last Gasp",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "56",
           "color": "B",
           "colors": [
@@ -4972,6 +5002,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "c4554f5b-791b-48f6-bf54-ad28699e1beb",
           "name": "Overwrite the Multiverse",
+          "firstSeenAt": "2026-09-10",
           "collectorNumber": "59",
           "color": "B",
           "colors": [
@@ -4997,6 +5028,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "f4a80225-7459-4151-86bb-8fdea31c39a6",
           "name": "Rampart Hunter",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "60",
           "color": "B",
           "colors": [
@@ -5022,6 +5054,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "453cfde7-c460-4b55-9472-b714e16f24bb",
           "name": "Rewrite Regrets",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "62",
           "color": "B",
           "colors": [
@@ -5047,6 +5080,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "f1d274db-751b-4414-a38d-762198168e91",
           "name": "Silence the Echo",
+          "firstSeenAt": "2026-09-13",
           "collectorNumber": "66",
           "color": "B",
           "colors": [
@@ -5070,6 +5104,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "7beaa8c9-1a2c-4c88-b579-91e371d8d9e3",
           "name": "Solve for Disappointment",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "67",
           "color": "B",
           "colors": [
@@ -5095,6 +5130,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "992bd991-7cfb-459f-bafd-9a44f3c925c5",
           "name": "Vraska's Final Mercy",
+          "firstSeenAt": "2026-09-13",
           "collectorNumber": "71",
           "color": "B",
           "colors": [
@@ -5120,6 +5156,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "8414a98c-0c79-4884-bc9b-061a6456b392",
           "name": "Blazing Crescendo",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "75",
           "color": "R",
           "colors": [
@@ -5143,6 +5180,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "3a64c5f4-9cfc-4d19-bd99-13d619b1aa9d",
           "name": "Chandra's Emberling",
+          "firstSeenAt": "2026-09-13",
           "collectorNumber": "76",
           "color": "R",
           "colors": [
@@ -5168,6 +5206,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "47793a51-08c6-4ad2-a7e5-a4484d83a5cd",
           "name": "Craterclaw Colossus",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "78",
           "color": "R",
           "colors": [
@@ -5193,6 +5232,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "5f8771f9-8128-4818-a11d-41ea368cf697",
           "name": "Eardrum Rattler",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "81",
           "color": "R",
           "colors": [
@@ -5216,6 +5256,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "3ccf8f64-19bd-4fdf-b70a-30a042bacf2f",
           "name": "Face Yourself",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "83",
           "color": "R",
           "colors": [
@@ -5239,6 +5280,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "7e324816-552f-455d-97c4-5ea6b26d2e6e",
           "name": "Hallway Heckler // Vicious Verse",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "85",
           "color": "M",
           "colors": [
@@ -5265,6 +5307,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "4404d9d4-9cdd-4dad-a4f6-574d90db5052",
           "name": "Master of Barbs",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "88",
           "color": "R",
           "colors": [
@@ -5290,6 +5333,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "11ba4fdd-cc03-4bb6-a493-91a9785771d0",
           "name": "No Admittance",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "89",
           "color": "R",
           "colors": [
@@ -5315,6 +5359,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "aa0f77ac-741a-444a-8bf0-a42c644726bf",
           "name": "Pompous Battlemage // Improvised Act",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "90",
           "color": "R",
           "colors": [
@@ -5341,6 +5386,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460",
           "name": "Stingcaster Mage",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "93",
           "color": "R",
           "colors": [
@@ -5366,6 +5412,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "ad03ba90-2442-4a71-94df-2088b5b63662",
           "name": "Violent Echoes",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "95",
           "color": "R",
           "colors": [
@@ -5391,6 +5438,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "b5b55617-684a-4036-be9b-a3b24fc9cd5a",
           "name": "Wrath of the Bloodmane",
+          "firstSeenAt": "2026-09-13",
           "collectorNumber": "96",
           "color": "R",
           "colors": [
@@ -5414,6 +5462,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "1bf923c4-f0b7-4271-978c-fd2e79fe1cc8",
           "name": "Arcane Amphisbaena",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "97",
           "color": "G",
           "colors": [
@@ -5440,6 +5489,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "e0de5f66-f0df-4866-9f73-104ce50411b4",
           "name": "Bestial Incursion",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "98",
           "color": "G",
           "colors": [
@@ -5465,6 +5515,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "18c59d60-2640-4576-9375-3ba38aa3ecb7",
           "name": "Budding Insurgent",
+          "firstSeenAt": "2026-09-10",
           "collectorNumber": "99",
           "color": "G",
           "colors": [
@@ -5490,6 +5541,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "bd32d736-7a58-46b9-90b4-2cac3c3e80a1",
           "name": "Compel Brutality",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "101",
           "color": "G",
           "colors": [
@@ -5513,6 +5565,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "a56e0f91-b128-4693-a949-53cb403f4fbf",
           "name": "Greenhouse Propagator",
+          "firstSeenAt": "2026-09-10",
           "collectorNumber": "104",
           "color": "G",
           "colors": [
@@ -5536,6 +5589,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "910a1f41-17fd-4ab0-9597-7151e79dc760",
           "name": "Heartwood Crafter // Soul Tether",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "105",
           "color": "M",
           "colors": [
@@ -5562,6 +5616,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "9a446cae-e93c-4574-8ffd-7688f9729a8a",
           "name": "Hexhaven Invigorator",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "106",
           "color": "G",
           "colors": [
@@ -5587,6 +5642,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "3db2da7a-8088-4117-916b-f9c905d1b45b",
           "name": "Hungering Puppetbeast",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "107",
           "color": "G",
           "colors": [
@@ -5610,6 +5666,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "073f4998-a204-447b-93d5-746ae87fd6a1",
           "name": "Inspired Tethermage",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "109",
           "color": "G",
           "colors": [
@@ -5635,6 +5692,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "3546b93b-a7d1-451d-a369-22cc8ddcd00d",
           "name": "Restore with Empathy",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "112",
           "color": "G",
           "colors": [
@@ -5658,6 +5716,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "02ee7817-40af-4fcf-a2df-eb218b669281",
           "name": "Something Worth Saving",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "114",
           "color": "G",
           "colors": [
@@ -5683,6 +5742,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "8be5ee47-8f8a-4e3c-b1a1-9ca0e1fdec7f",
           "name": "Tarmogoyf",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "116",
           "color": "G",
           "colors": [
@@ -5706,6 +5766,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "38589a7c-9cfb-4bcc-845e-9dc205095853",
           "name": "Tethermage's Advantage",
+          "firstSeenAt": "2026-09-10",
           "collectorNumber": "117",
           "color": "G",
           "colors": [
@@ -5729,6 +5790,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "3d693cb0-681e-480a-8f70-07e94c39225c",
           "name": "Wrecking Gecko",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "120",
           "color": "G",
           "colors": [
@@ -5754,6 +5816,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "f17d2792-b075-4c47-ad38-e7a7eaee5f8c",
           "name": "Aerid Konstrari",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "121",
           "color": "M",
           "colors": [
@@ -5780,6 +5843,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "5905995b-7a20-4602-a7cc-90aa5089a082",
           "name": "Avatar of Burgeoning Echoes",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "122",
           "color": "M",
           "colors": [
@@ -5807,6 +5871,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "87b40df5-5c0a-41f5-a09c-a04f17066a91",
           "name": "Charge the Sanctum",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "125",
           "color": "M",
           "colors": [
@@ -5831,6 +5896,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "b61bcef7-5832-45e6-a2bc-26d4f23707fc",
           "name": "Clash of Elements",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "126",
           "color": "M",
           "colors": [
@@ -5855,6 +5921,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "986f9e98-9d8d-428b-9187-860745cf3269",
           "name": "Denzilore Fatehold",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "128",
           "color": "M",
           "colors": [
@@ -5882,6 +5949,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "de94d388-919d-44ff-baef-8c90a417ac6d",
           "name": "Emergency Phytomedic // Seed Suture",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "130",
           "color": "M",
           "colors": [
@@ -5908,6 +5976,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "cfc54011-647e-4428-bcdb-59400e1da49d",
           "name": "Fatehold Charm",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "132",
           "color": "M",
           "colors": [
@@ -5932,6 +6001,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b",
           "name": "Fatehold Chronologist // Peer Review",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "133",
           "color": "M",
           "colors": [
@@ -5960,6 +6030,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "6471b135-33a8-4005-9a07-ebb74e0bf145",
           "name": "Ingris Stingerquill",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "137",
           "color": "M",
           "colors": [
@@ -5986,6 +6057,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "7d29dfa1-9582-47bc-8f42-62b611bdcc4e",
           "name": "Konstrari Charm",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "138",
           "color": "M",
           "colors": [
@@ -6010,6 +6082,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "2d6ff182-a853-4898-895b-072c89324ca7",
           "name": "Kwia Vigorbloom",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "140",
           "color": "M",
           "colors": [
@@ -6039,6 +6112,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "3afdc75a-1bf5-4f2f-84eb-d82f77a095cd",
           "name": "Null Summoner",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "142",
           "color": "M",
           "colors": [
@@ -6065,6 +6139,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "e61b9d48-0ace-4453-afe0-a1024444bac0",
           "name": "Paradox Shaper // Omit Variables",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "143",
           "color": "M",
           "colors": [
@@ -6092,6 +6167,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "cf0eec8c-0475-4050-8144-481a9bb13a0f",
           "name": "Proctor of Potential",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "145",
           "color": "M",
           "colors": [
@@ -6118,6 +6194,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "6c1c790b-9e0e-4964-9ea3-554843907f06",
           "name": "Prudent Fateseer // Peer Review",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "146",
           "color": "M",
           "colors": [
@@ -6145,6 +6222,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "1ef12dcf-df50-4da6-8c4c-e2937ba9698e",
           "name": "Solarium Sentry",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "148",
           "color": "M",
           "colors": [
@@ -6169,6 +6247,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "5142bbb6-194c-4b12-b11a-1a21c9fe81a6",
           "name": "Solitary Cell",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "149",
           "color": "M",
           "colors": [
@@ -6193,6 +6272,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "81733ff7-e611-43ee-bf38-6bb700676017",
           "name": "Stingerquill Charm",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "150",
           "color": "M",
           "colors": [
@@ -6217,6 +6297,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "84b1c268-3b8a-41b6-92e3-a2ce0cc3d738",
           "name": "Stingerquill Voxmancer // Vicious Verse",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "151",
           "color": "M",
           "colors": [
@@ -6243,6 +6324,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b",
           "name": "Tam's Resistance",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "153",
           "color": "M",
           "colors": [
@@ -6269,6 +6351,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "1703306d-6a3d-4ab8-bf58-a9992236ef0f",
           "name": "\"I've been pulling the strings the whole time!\"",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "154",
           "color": "M",
           "colors": [
@@ -6293,6 +6376,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "2835c9aa-0904-44db-8da2-e8c4e04201aa",
           "name": "Theorix Charm",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "155",
           "color": "M",
           "colors": [
@@ -6319,6 +6403,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "a7ad622a-42ff-48fa-ae95-12e0a5bd9387",
           "name": "Uldaros Theorix",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "159",
           "color": "M",
           "colors": [
@@ -6345,6 +6430,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "2b198e10-b507-4314-a29c-a219f06e48b7",
           "name": "Vigorbloom Charm",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "160",
           "color": "M",
           "colors": [
@@ -6371,6 +6457,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "acefc515-bf97-4dc0-b0f7-ae8ae5a61671",
           "name": "Vigorbloom Vanguard // Seed Suture",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "161",
           "color": "M",
           "colors": [
@@ -6397,6 +6484,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "a803dbe7-153a-4e92-ad4d-c2babebe003d",
           "name": "Vindictive Triumph",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "162",
           "color": "M",
           "colors": [
@@ -6421,6 +6509,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "c63d5b0e-ee72-42ed-aa7e-484ba84507cd",
           "name": "Warrior's Blades",
+          "firstSeenAt": "2026-09-10",
           "collectorNumber": "163",
           "color": "M",
           "colors": [
@@ -6447,6 +6536,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "8096bc9a-a610-448f-bef2-7230e17e9777",
           "name": "Whiplash Wordsmith // Vicious Verse",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "164",
           "color": "M",
           "colors": [
@@ -6473,6 +6563,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "7d17f7e3-7b63-4674-9024-4fd1827f40ec",
           "name": "Woodwork Prodigy // Soul Tether",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "165",
           "color": "M",
           "colors": [
@@ -6499,6 +6590,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "4d4b3bf7-a149-4099-b97d-4e36a87dfa60",
           "name": "Afterthought Sentry",
+          "firstSeenAt": "2026-09-13",
           "collectorNumber": "166",
           "color": "C",
           "colors": [],
@@ -6520,6 +6612,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "d71d250f-c0e0-44b2-877c-76f3bcab4f34",
           "name": "The Echoverse Fulcrum",
+          "firstSeenAt": "2026-09-13",
           "collectorNumber": "169",
           "color": "C",
           "colors": [],
@@ -6541,6 +6634,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0",
           "name": "Keeper of the Quiet Hour",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "171",
           "color": "C",
           "colors": [],
@@ -6564,6 +6658,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "56dae4c4-3e71-4a32-979b-4e26d9c9e96c",
           "name": "Deserted Beach",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "176",
           "color": "M",
           "colors": [
@@ -6588,6 +6683,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "a4e4966b-8963-4fac-a8bf-e778e063c7dd",
           "name": "Haunted Ridge",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "180",
           "color": "M",
           "colors": [
@@ -6612,6 +6708,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "178e61e4-472f-42cd-9d3b-4880c2acc527",
           "name": "Overgrown Farmland",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "185",
           "color": "M",
           "colors": [
@@ -6636,6 +6733,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "e3c8a8b6-23ba-45ad-80d1-8e2dc79897f7",
           "name": "Rockfall Vale",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "186",
           "color": "M",
           "colors": [
@@ -6660,6 +6758,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "9e944c5b-68ac-4a30-bbd4-09a4288319ce",
           "name": "Shipwreck Marsh",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "189",
           "color": "M",
           "colors": [
@@ -6684,6 +6783,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "22db5bba-46c9-4a26-821d-303ddb386ea4",
           "name": "Theorist's Sanctum",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "191",
           "color": "U",
           "colors": [
@@ -6709,6 +6809,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "a5e1a7dd-8c49-4435-935c-bcc78704082b",
           "name": "Ajani Resolute",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "195",
           "color": "W",
           "colors": [
@@ -6732,6 +6833,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "d5cb9810-3c2d-4ae4-b8b6-0155ca3f47ad",
           "name": "Danitha, Sword of Hope",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "196",
           "color": "W",
           "colors": [
@@ -6757,6 +6859,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "a9f3aa55-908f-42db-8135-4201433df850",
           "name": "Ghalta the Immovable",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "197",
           "color": "W",
           "colors": [
@@ -6780,6 +6883,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "768c0e64-9907-417a-a763-c836fdf36883",
           "name": "Gideon's Memorial",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "198",
           "color": "W",
           "colors": [
@@ -6803,6 +6907,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "70d8c400-87dc-4f15-808f-e54a95d779fc",
           "name": "Liliana the Faultless",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "200",
           "color": "W",
           "colors": [
@@ -6826,6 +6931,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "86a3866e-68a8-402c-baf0-1908e98e3995",
           "name": "Lyra, Archangel of Dawn",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "201",
           "color": "W",
           "colors": [
@@ -6851,6 +6957,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "80226231-9e70-430e-aabc-f262f70b9226",
           "name": "Thalia, the Survivor",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "205",
           "color": "W",
           "colors": [
@@ -6876,6 +6983,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "50326a2a-7e10-464b-a97e-e880bda0558c",
           "name": "Way of the Healer",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "207",
           "color": "W",
           "colors": [
@@ -6901,6 +7009,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "ccbe92a5-42bc-4228-9d5a-212df2f5dc15",
           "name": "Yuriko, Blade of the Mighty",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "210",
           "color": "W",
           "colors": [
@@ -6924,6 +7033,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "240f58ab-944c-4f4c-9df9-5f40b132bf3e",
           "name": "Chandra, Chill of Compliance",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "212",
           "color": "U",
           "colors": [
@@ -6949,6 +7059,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "a3a2edbb-d144-4670-acad-17316cea98d2",
           "name": "Fblthp, Impossibly Lost",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "213",
           "color": "U",
           "colors": [
@@ -6972,6 +7083,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "9c334530-0880-46b5-a358-9603eee3cecf",
           "name": "Geist of Saint Thalia",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "214",
           "color": "U",
           "colors": [
@@ -6997,6 +7109,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "a5183681-447b-4023-91f7-00e9338f4417",
           "name": "Lyra, Tolarian Archangel",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "217",
           "color": "U",
           "colors": [
@@ -7022,6 +7135,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "b8466593-40fe-4557-89b2-760c1c92087b",
           "name": "Proft, Consulting Detective",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "218",
           "color": "U",
           "colors": [
@@ -7045,6 +7159,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "00af4e87-5576-4a43-9422-4c35b2b66775",
           "name": "Ruric Thar, Biomagus",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "219",
           "color": "U",
           "colors": [
@@ -7071,6 +7186,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "3983d71e-3c23-4b36-b331-08e0707d8245",
           "name": "Tetsuko Umezawa, Fugitive",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "221",
           "color": "U",
           "colors": [
@@ -7094,6 +7210,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "838b0efb-7398-4df9-8fdf-b8af43b47938",
           "name": "Way of the Cryomancer",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "223",
           "color": "U",
           "colors": [
@@ -7119,6 +7236,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "f45ba926-6496-4bd4-96eb-663946d56bbf",
           "name": "Yargle, Goliath of Otaria",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "225",
           "color": "U",
           "colors": [
@@ -7142,6 +7260,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "45e81487-8b8c-480b-922a-eaa9edc7201d",
           "name": "Yuriko, Hope from the Shadows",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "226",
           "color": "U",
           "colors": [
@@ -7168,6 +7287,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "6489814b-3d10-423e-988c-324740d36748",
           "name": "Danitha, Spear of Agony",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "227",
           "color": "B",
           "colors": [
@@ -7193,6 +7313,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "498fa810-8522-4020-b773-52ad404c9f65",
           "name": "Gallia, Tragic Host",
+          "firstSeenAt": "2026-09-13",
           "collectorNumber": "228",
           "color": "B",
           "colors": [
@@ -7218,6 +7339,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "d48bfb8a-d135-45f3-be99-4694b4b9ab93",
           "name": "Garruk, Veiled Butcher",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "229",
           "color": "B",
           "colors": [
@@ -7241,6 +7363,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "c985b0d1-25bd-4069-aab7-a566ff27a8f6",
           "name": "Gideon the Oathless",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "230",
           "color": "B",
           "colors": [
@@ -7266,6 +7389,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "1eb25a6c-d6b4-465d-990e-f1ab86b26b69",
           "name": "Liliana the Repentant",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "231",
           "color": "B",
           "colors": [
@@ -7292,6 +7416,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "b2a412b0-2ae4-4552-bc5e-70654b6b9b4e",
           "name": "Mabel, Bitter Recluse",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "233",
           "color": "B",
           "colors": [
@@ -7317,6 +7442,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "d36b0e06-cb82-4c48-bf35-e76f109116f6",
           "name": "Proft, Sinister Mastermind",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "235",
           "color": "B",
           "colors": [
@@ -7343,6 +7469,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "2f47ddf7-35b6-4205-8045-f057914c5f64",
           "name": "Tinybones, Pocket Nuisance",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "237",
           "color": "B",
           "colors": [
@@ -7366,6 +7493,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "12dd46b2-e892-4660-b120-55766fd4d878",
           "name": "Way of the Deathbringer",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "238",
           "color": "B",
           "colors": [
@@ -7391,6 +7519,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "a0ff9689-ea49-4fff-b37c-4abbaeb0f73d",
           "name": "Way of the Necromancer",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "239",
           "color": "B",
           "colors": [
@@ -7416,6 +7545,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "9670f754-f41f-45ac-8e8b-025ad2c0f66b",
           "name": "Winter, Tormented Loner",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "240",
           "color": "B",
           "colors": [
@@ -7439,6 +7569,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "04c816fb-5951-4db1-8834-ed3f0b36bfe1",
           "name": "Yargle, Glutton of Urborg",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "241",
           "color": "B",
           "colors": [
@@ -7462,6 +7593,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5",
           "name": "Ajani Unrelenting",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "242",
           "color": "R",
           "colors": [
@@ -7485,6 +7617,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd",
           "name": "Chandra, Torch of Defiance",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "244",
           "color": "R",
           "colors": [
@@ -7508,6 +7641,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "f27d50f0-d76e-4ce1-a8d9-d997af6a5b41",
           "name": "Gallia, the Merrymaker",
+          "firstSeenAt": "2026-09-13",
           "collectorNumber": "245",
           "color": "R",
           "colors": [
@@ -7533,6 +7667,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "e8c1ce21-b77d-40bf-9ed1-478604e71f5f",
           "name": "Jiang Yanggu, Alone",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "246",
           "color": "R",
           "colors": [
@@ -7558,6 +7693,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "08657053-86f9-4c52-abf0-d9cdd443ae3b",
           "name": "Kiora of Fire and Ashes",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "247",
           "color": "R",
           "colors": [
@@ -7581,6 +7717,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "df818900-ce5e-4b0d-a927-c975cbef7eda",
           "name": "Tetsuko Umezawa, Pursuer",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "252",
           "color": "R",
           "colors": [
@@ -7607,6 +7744,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "c1a00020-7c14-4503-a057-5763704bb83e",
           "name": "Way of the Pyromancer",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "254",
           "color": "R",
           "colors": [
@@ -7632,6 +7770,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "df8713cd-3f4b-43ef-adbd-e37c2617c617",
           "name": "Winter, Team Player",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "256",
           "color": "R",
           "colors": [
@@ -7657,6 +7796,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "dad6afc9-8505-4cdd-bf79-e9ba4670f2bb",
           "name": "Edgar, Moonlit Sovereign",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "257",
           "color": "G",
           "colors": [
@@ -7682,6 +7822,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "28fbb55a-5c9d-45ee-bf42-a84b1048f5d2",
           "name": "Fblthp, Knows the Way",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "258",
           "color": "G",
           "colors": [
@@ -7707,6 +7848,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "90ca5812-ceb5-46bd-b049-aed7ff10e6af",
           "name": "Garruk, Curse Breaker",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "259",
           "color": "G",
           "colors": [
@@ -7730,6 +7872,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "1d535b5f-c916-4f16-89a7-9477578826d2",
           "name": "Ghalta the Unstoppable",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "260",
           "color": "G",
           "colors": [
@@ -7755,6 +7898,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "f5a0bb3e-8119-4739-8684-e61d1d607dcb",
           "name": "Jiang Yanggu, Never Alone",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "261",
           "color": "G",
           "colors": [
@@ -7778,6 +7922,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "eed83302-dc2c-45f4-a4bd-af9da51edef5",
           "name": "Ruric Thar, Magecrusher",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "265",
           "color": "G",
           "colors": [
@@ -7805,6 +7950,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "edea6f70-a5a7-475d-b7f2-97933d0f32cf",
           "name": "Titanbones, Towering Heart",
+          "firstSeenAt": "2026-09-02",
           "collectorNumber": "266",
           "color": "G",
           "colors": [
@@ -7830,6 +7976,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "a252cb01-537b-4afe-9abc-81a98c4a1439",
           "name": "Way of the Wildspeaker",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "268",
           "color": "G",
           "colors": [
@@ -7855,6 +8002,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "7c619fed-2394-4efc-8cdc-6df5f51c1f57",
           "name": "Edgar, Ancient Bloodlord",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "270",
           "color": "M",
           "colors": [
@@ -7879,6 +8027,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "3abcae65-5b21-4c98-adad-34b8bc76ea3a",
           "name": "Karn, Gilded Guardian",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "272",
           "color": "M",
           "colors": [
@@ -7909,6 +8058,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "8151f5f5-e9f6-4fbe-b543-f456ebf22aa5",
           "name": "Kiora of Salt and Sand",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "273",
           "color": "M",
           "colors": [
@@ -7933,6 +8083,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "47abea4b-9848-48aa-bc1b-f04f4799e920",
           "name": "Mabel, Valley Hero",
+          "firstSeenAt": "2026-09-11",
           "collectorNumber": "274",
           "color": "M",
           "colors": [
@@ -7957,6 +8108,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "f3869752-eade-4e7a-8dd1-68cafb9e10be",
           "name": "Vraska, Soul of Stone",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "277",
           "color": "M",
           "colors": [
@@ -7984,6 +8136,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "5c28b012-5efb-488f-a1c1-09e2dddfd6ee",
           "name": "Vraska, the Cutting Glare",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "278",
           "color": "M",
           "colors": [
@@ -8011,6 +8164,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "1ebbbddb-2dc3-4194-b72b-13bcebe2ab89",
           "name": "Karn, Argent Defender",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "279",
           "color": "C",
           "colors": [],
@@ -8032,6 +8186,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "796b72af-5078-427d-b566-9bccad17090f",
           "name": "Plains",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "382",
           "color": "W",
           "colors": [
@@ -8055,6 +8210,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "bc4cd881-9c34-4cf9-8afe-050e803f34a6",
           "name": "Island",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "385",
           "color": "U",
           "colors": [
@@ -8078,6 +8234,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "e8418418-10bb-48e1-83ed-0081390384b4",
           "name": "Swamp",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "388",
           "color": "B",
           "colors": [
@@ -8101,6 +8258,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "ec2ceca8-2d90-4d8f-ac47-cd8134e8d859",
           "name": "Mountain",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "391",
           "color": "R",
           "colors": [
@@ -8124,6 +8282,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "790dcf48-ab51-4b10-9933-6b7e3baf0f52",
           "name": "Forest",
+          "firstSeenAt": "2026-09-08",
           "collectorNumber": "394",
           "color": "G",
           "colors": [
@@ -8147,6 +8306,7 @@ window.LIMITED_PREP_DATA = {
         {
           "id": "e9e31f13-8a2c-4ae2-854e-27d6c62936f2",
           "name": "Carnivorous Cultivator // Enroot",
+          "firstSeenAt": "2026-09-12",
           "collectorNumber": "437",
           "color": "G",
           "colors": [

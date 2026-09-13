@@ -2372,6 +2372,86 @@ body[data-theme="fracture"] .atlas-emblem {
   transform: rotate(16deg);
 }
 
+.preview-catchup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 24px;
+  padding: 14px 16px;
+  background: color-mix(in srgb, var(--surface-light) 76%, transparent);
+  border: 1px solid var(--line);
+  border-radius: var(--control-radius);
+}
+
+.preview-catchup[hidden] {
+  display: none;
+}
+
+.preview-catchup strong {
+  display: block;
+  font-size: .86rem;
+}
+
+.preview-catchup p {
+  margin: 3px 0 0;
+  color: var(--muted);
+  font-size: .72rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.preview-catchup label {
+  display: grid;
+  grid-template-columns: auto minmax(220px, 1fr);
+  align-items: center;
+  gap: 10px;
+  color: var(--muted);
+  font-size: .72rem;
+  font-weight: 700;
+}
+
+.preview-catchup select {
+  min-height: 42px;
+  padding: 0 36px 0 12px;
+  color: var(--ink);
+  background: var(--surface-light);
+  border: 1px solid var(--line);
+  border-radius: var(--control-radius);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.preview-catchup select:hover {
+  border-color: var(--binding);
+}
+
+.atlas-empty {
+  display: grid;
+  justify-items: start;
+  gap: 8px;
+  padding: 48px 0 22px;
+}
+
+.atlas-empty[hidden] {
+  display: none;
+}
+
+.atlas-empty strong {
+  font-family: var(--display);
+  font-size: clamp(2.1rem, 5vw, 3.5rem);
+  line-height: .9;
+}
+
+.atlas-empty p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.atlas-empty .secondary-action {
+  margin-top: 6px;
+  font-size: .72rem;
+}
+
 .color-navigation {
   position: sticky;
   z-index: 20;
@@ -3263,6 +3343,23 @@ body[data-theme="fracture"] .card-preview-copy h2 {
 
   .atlas-emblem {
     display: none;
+  }
+
+  .preview-catchup {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 18px;
+    padding: 13px;
+  }
+
+  .preview-catchup label {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+
+  .preview-catchup select {
+    width: 100%;
   }
 
   .color-navigation {
