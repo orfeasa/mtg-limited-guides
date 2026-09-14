@@ -1,9 +1,9 @@
 {
   "set": "FRA",
   "source": "https://api.scryfall.com/cards/search?order=spoiled&q=set%3Afra&unique=cards",
-  "capturedAt": "2026-09-13T16:35:30.348Z",
+  "capturedAt": "2026-09-14T23:31:44.175Z",
   "partial": true,
-  "count": 159,
+  "count": 171,
   "cards": [
     {
       "id": "c3ff8dd3-88a8-49dc-a59b-e2748680623c",
@@ -639,6 +639,29 @@
       "scryfallUrl": "https://scryfall.com/card/fra/51/cast-away-doubt?utm_source=api"
     },
     {
+      "id": "4ec912d5-cbe7-4d07-9ece-b03ac02d3055",
+      "name": "Dark Matter Manipulator",
+      "firstSeenAt": "2026-09-14",
+      "collectorNumber": "52",
+      "color": "B",
+      "colors": [
+        "B"
+      ],
+      "manaCost": "{B}",
+      "manaValue": 1,
+      "typeLine": "Creature — Human Warlock",
+      "oracleText": "When this creature enters, mill three cards.\nThis creature gets +2/+0 for every seven cards in your graveyard.",
+      "rarity": "rare",
+      "keywords": [
+        "Mill"
+      ],
+      "image": "assets/cards/fra/4ec912d5-cbe7-4d07-9ece-b03ac02d3055.jpg",
+      "trainingImage": "assets/cards-large/fra/4ec912d5-cbe7-4d07-9ece-b03ac02d3055.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/4/e/4ec912d5-cbe7-4d07-9ece-b03ac02d3055.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/4/e/4ec912d5-cbe7-4d07-9ece-b03ac02d3055.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/52/dark-matter-manipulator?utm_source=api"
+    },
+    {
       "id": "2381d123-d8c7-4822-98fe-b1c365beb5ed",
       "name": "Last Gasp",
       "firstSeenAt": "2026-09-12",
@@ -729,6 +752,29 @@
       "scryfallUrl": "https://scryfall.com/card/fra/62/rewrite-regrets?utm_source=api"
     },
     {
+      "id": "738667a1-c184-43ea-829f-49fbb69b6fc0",
+      "name": "Screeching Soulbreaker",
+      "firstSeenAt": "2026-09-14",
+      "collectorNumber": "65",
+      "color": "B",
+      "colors": [
+        "B"
+      ],
+      "manaCost": "{2}{B}",
+      "manaValue": 3,
+      "typeLine": "Creature — Siren Bard",
+      "oracleText": "Flying\nWhenever this creature attacks, it deals 1 damage to each opponent and you gain 1 life.",
+      "rarity": "common",
+      "keywords": [
+        "Flying"
+      ],
+      "image": "assets/cards/fra/738667a1-c184-43ea-829f-49fbb69b6fc0.jpg",
+      "trainingImage": "assets/cards-large/fra/738667a1-c184-43ea-829f-49fbb69b6fc0.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/7/3/738667a1-c184-43ea-829f-49fbb69b6fc0.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/7/3/738667a1-c184-43ea-829f-49fbb69b6fc0.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/65/screeching-soulbreaker?utm_source=api"
+    },
+    {
       "id": "f1d274db-751b-4414-a38d-762198168e91",
       "name": "Silence the Echo",
       "firstSeenAt": "2026-09-13",
@@ -784,7 +830,7 @@
       "manaCost": "{B}{B}",
       "manaValue": 2,
       "typeLine": "Sorcery",
-      "oracleText": "Choose one —\n• You lose 2 life. Destroy target creature or planeswalker.\n• You lose 2 life. Empower Jace 6. (Put six loyalty counters on a Jace token you control. If you don't control one, first create a blue Face planeswalker token with \"[-1]: Surveil 1\" and \"[-3]: Draw a card.\")",
+      "oracleText": "Choose one —\n• You lose 2 life. Destroy target creature or planeswalker.\n• You lose 2 life. Empower Jace 6. (Put six loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[-1]: Surveil 1\" and \"[-3]: Draw a card.\")",
       "rarity": "rare",
       "keywords": [
         "Surveil"
@@ -927,6 +973,27 @@
       "imageSource": "https://cards.scryfall.io/small/front/7/e/7e324816-552f-455d-97c4-5ea6b26d2e6e.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/7/e/7e324816-552f-455d-97c4-5ea6b26d2e6e.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/85/hallway-heckler-vicious-verse?utm_source=api"
+    },
+    {
+      "id": "e600b33b-8916-43dd-95d3-d7cbf874933d",
+      "name": "Identity Echo",
+      "firstSeenAt": "2026-09-14",
+      "collectorNumber": "87",
+      "color": "R",
+      "colors": [
+        "R"
+      ],
+      "manaCost": "{2}{R}",
+      "manaValue": 3,
+      "typeLine": "Enchantment",
+      "oracleText": "{3}{R}: Exile target creature or planeswalker you control. Reveal cards from the top of your library until you reveal a creature or planeswalker card. Put that card onto the battlefield and the rest on the bottom of your library in a random order. Activate only as a sorcery.",
+      "rarity": "rare",
+      "keywords": [],
+      "image": "assets/cards/fra/e600b33b-8916-43dd-95d3-d7cbf874933d.jpg",
+      "trainingImage": "assets/cards-large/fra/e600b33b-8916-43dd-95d3-d7cbf874933d.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/e/6/e600b33b-8916-43dd-95d3-d7cbf874933d.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/e/6/e600b33b-8916-43dd-95d3-d7cbf874933d.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/87/identity-echo?utm_source=api"
     },
     {
       "id": "4404d9d4-9cdd-4dad-a4f6-574d90db5052",
@@ -1134,6 +1201,30 @@
       "imageSource": "https://cards.scryfall.io/small/front/1/8/18c59d60-2640-4576-9375-3ba38aa3ecb7.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/1/8/18c59d60-2640-4576-9375-3ba38aa3ecb7.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/99/budding-insurgent?utm_source=api"
+    },
+    {
+      "id": "79dd5c54-5ea5-47b5-8f9b-50ed57a5ea45",
+      "name": "Carnivorous Cultivator // Enroot",
+      "firstSeenAt": "2026-09-12",
+      "collectorNumber": "100",
+      "color": "G",
+      "colors": [
+        "G"
+      ],
+      "manaCost": "{1}{G} // {G}",
+      "manaValue": 2,
+      "typeLine": "Creature — Elf Warlock // Sorcery",
+      "oracleText": "Carnivorous Cultivator — Deathtouch\nThis creature enters prepared.\nWhenever this creature deals combat damage to a player, return target land card from your graveyard to your hand.\n\nEnroot — Search your library for a land card, put it into your graveyard, then shuffle.",
+      "rarity": "rare",
+      "keywords": [
+        "Deathtouch",
+        "Prepared"
+      ],
+      "image": "assets/cards/fra/79dd5c54-5ea5-47b5-8f9b-50ed57a5ea45.jpg",
+      "trainingImage": "assets/cards-large/fra/79dd5c54-5ea5-47b5-8f9b-50ed57a5ea45.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/7/9/79dd5c54-5ea5-47b5-8f9b-50ed57a5ea45.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/7/9/79dd5c54-5ea5-47b5-8f9b-50ed57a5ea45.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/100/carnivorous-cultivator-enroot?utm_source=api"
     },
     {
       "id": "bd32d736-7a58-46b9-90b4-2cac3c3e80a1",
@@ -1469,6 +1560,30 @@
       "imageSource": "https://cards.scryfall.io/small/front/b/6/b61bcef7-5832-45e6-a2bc-26d4f23707fc.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/b/6/b61bcef7-5832-45e6-a2bc-26d4f23707fc.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/126/clash-of-elements?utm_source=api"
+    },
+    {
+      "id": "03f9839c-aa07-4ee7-847b-091e47ab80c4",
+      "name": "\"How to Go X-0 at Prerelease\"",
+      "firstSeenAt": "2026-09-14",
+      "collectorNumber": "127",
+      "color": "M",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "manaCost": "{3}{R}{R}{G}{G}",
+      "manaValue": 7,
+      "typeLine": "Artifact Creature — Boar Construct",
+      "oracleText": "Trample\nWhen this creature enters, choose two —\n• This creature deals 4 damage to target creature or planeswalker.\n• Create a 2/2 colorless Wizard Soldier creature token named Cadet.\n• Draw a card.",
+      "rarity": "uncommon",
+      "keywords": [
+        "Trample"
+      ],
+      "image": "assets/cards/fra/03f9839c-aa07-4ee7-847b-091e47ab80c4.jpg",
+      "trainingImage": "assets/cards-large/fra/03f9839c-aa07-4ee7-847b-091e47ab80c4.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/0/3/03f9839c-aa07-4ee7-847b-091e47ab80c4.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/0/3/03f9839c-aa07-4ee7-847b-091e47ab80c4.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/127/how-to-go-x-0-at-prerelease?utm_source=api"
     },
     {
       "id": "986f9e98-9d8d-428b-9187-860745cf3269",
@@ -1829,6 +1944,28 @@
       "scryfallUrl": "https://scryfall.com/card/fra/151/stingerquill-voxmancer-vicious-verse?utm_source=api"
     },
     {
+      "id": "a7d78297-7411-4ec5-8931-a25146869d5b",
+      "name": "Stinging Vitriol",
+      "firstSeenAt": "2026-09-14",
+      "collectorNumber": "152",
+      "color": "M",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "manaCost": "{B}{R}",
+      "manaValue": 2,
+      "typeLine": "Sorcery",
+      "oracleText": "Stinging Vitriol deals 2 damage to target opponent. That player reveals their hand. You choose a nonland card from it. They discard that card.",
+      "rarity": "rare",
+      "keywords": [],
+      "image": "assets/cards/fra/a7d78297-7411-4ec5-8931-a25146869d5b.jpg",
+      "trainingImage": "assets/cards-large/fra/a7d78297-7411-4ec5-8931-a25146869d5b.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/a/7/a7d78297-7411-4ec5-8931-a25146869d5b.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/a/7/a7d78297-7411-4ec5-8931-a25146869d5b.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/152/stinging-vitriol?utm_source=api"
+    },
+    {
       "id": "b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b",
       "name": "Tam's Resistance",
       "firstSeenAt": "2026-09-08",
@@ -1854,7 +1991,7 @@
     },
     {
       "id": "1703306d-6a3d-4ab8-bf58-a9992236ef0f",
-      "name": "\"I've been pulling the strings the whole time!\"",
+      "name": "Tenured Tethermage",
       "firstSeenAt": "2026-09-11",
       "collectorNumber": "154",
       "color": "M",
@@ -1872,7 +2009,7 @@
       "trainingImage": "assets/cards-large/fra/1703306d-6a3d-4ab8-bf58-a9992236ef0f.jpg",
       "imageSource": "https://cards.scryfall.io/small/front/1/7/1703306d-6a3d-4ab8-bf58-a9992236ef0f.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/1/7/1703306d-6a3d-4ab8-bf58-a9992236ef0f.jpg",
-      "scryfallUrl": "https://scryfall.com/card/fra/154/ive-been-pulling-the-strings-the-whole-time!?utm_source=api"
+      "scryfallUrl": "https://scryfall.com/card/fra/154/tenured-tethermage?utm_source=api"
     },
     {
       "id": "2835c9aa-0904-44db-8da2-e8c4e04201aa",
@@ -2122,6 +2259,25 @@
       "imageSource": "https://cards.scryfall.io/small/front/b/6/b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/b/6/b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/171/keeper-of-the-quiet-hour?utm_source=api"
+    },
+    {
+      "id": "d68eab2e-89dd-4377-b7af-01512b1804a0",
+      "name": "Murmuring Volume",
+      "firstSeenAt": "2026-09-14",
+      "collectorNumber": "174",
+      "color": "C",
+      "colors": [],
+      "manaCost": "{3}",
+      "manaValue": 3,
+      "typeLine": "Artifact — Book",
+      "oracleText": "{T}: Add one mana of any color.\n{2}, {T}, Discard a card: Draw a card.",
+      "rarity": "common",
+      "keywords": [],
+      "image": "assets/cards/fra/d68eab2e-89dd-4377-b7af-01512b1804a0.jpg",
+      "trainingImage": "assets/cards-large/fra/d68eab2e-89dd-4377-b7af-01512b1804a0.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/d/6/d68eab2e-89dd-4377-b7af-01512b1804a0.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/d/6/d68eab2e-89dd-4377-b7af-01512b1804a0.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/174/murmuring-volume?utm_source=api"
     },
     {
       "id": "56dae4c4-3e71-4a32-979b-4e26d9c9e96c",
@@ -2433,6 +2589,29 @@
       "scryfallUrl": "https://scryfall.com/card/fra/207/way-of-the-healer?utm_source=api"
     },
     {
+      "id": "1a59d5b1-12d6-486b-bd29-ca371359addd",
+      "name": "Way of the Mentor",
+      "firstSeenAt": "2026-09-14",
+      "collectorNumber": "208",
+      "color": "W",
+      "colors": [
+        "W"
+      ],
+      "manaCost": "{2}{W}",
+      "manaValue": 3,
+      "typeLine": "Legendary Enchantment",
+      "oracleText": "When Way of the Mentor enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Face planeswalker token with \"[-1}: Surveil 1\" and \"[-3]: Draw a card.\")\nWhenever you gain life, put a loyalty counter on each planeswalker you control.",
+      "rarity": "uncommon",
+      "keywords": [
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/1a59d5b1-12d6-486b-bd29-ca371359addd.jpg",
+      "trainingImage": "assets/cards-large/fra/1a59d5b1-12d6-486b-bd29-ca371359addd.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/1/a/1a59d5b1-12d6-486b-bd29-ca371359addd.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/1/a/1a59d5b1-12d6-486b-bd29-ca371359addd.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/208/way-of-the-mentor?utm_source=api"
+    },
+    {
       "id": "ccbe92a5-42bc-4228-9d5a-212df2f5dc15",
       "name": "Yuriko, Blade of the Mighty",
       "firstSeenAt": "2026-09-12",
@@ -2519,6 +2698,27 @@
       "imageSource": "https://cards.scryfall.io/small/front/9/c/9c334530-0880-46b5-a358-9603eee3cecf.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/9/c/9c334530-0880-46b5-a358-9603eee3cecf.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/214/geist-of-saint-thalia?utm_source=api"
+    },
+    {
+      "id": "85faaa9d-4656-4365-871d-7cba53ed0996",
+      "name": "Hapatra, the Desert Frost",
+      "firstSeenAt": "2026-09-14",
+      "collectorNumber": "215",
+      "color": "U",
+      "colors": [
+        "U"
+      ],
+      "manaCost": "{3}{U}",
+      "manaValue": 4,
+      "typeLine": "Legendary Creature — Human Wizard",
+      "oracleText": "When Hapatra enters, for each opponent, tap up to one target creature that player controls. Put a stun counter on each of those creatures. (If a permanent with a stun counter would become untapped, remove one from it instead.)\n{2}{U}: Untap target creature.",
+      "rarity": "uncommon",
+      "keywords": [],
+      "image": "assets/cards/fra/85faaa9d-4656-4365-871d-7cba53ed0996.jpg",
+      "trainingImage": "assets/cards-large/fra/85faaa9d-4656-4365-871d-7cba53ed0996.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/8/5/85faaa9d-4656-4365-871d-7cba53ed0996.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/8/5/85faaa9d-4656-4365-871d-7cba53ed0996.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/215/hapatra-the-desert-frost?utm_source=api"
     },
     {
       "id": "a5183681-447b-4023-91f7-00e9338f4417",
@@ -3057,6 +3257,27 @@
       "scryfallUrl": "https://scryfall.com/card/fra/247/kiora-of-fire-and-ashes?utm_source=api"
     },
     {
+      "id": "dd3faaf4-45ca-4714-8dbe-37102ec131cf",
+      "name": "Pia, Determined Rebuilder",
+      "firstSeenAt": "2026-09-14",
+      "collectorNumber": "250",
+      "color": "R",
+      "colors": [
+        "R"
+      ],
+      "manaCost": "{2}{R}",
+      "manaValue": 3,
+      "typeLine": "Legendary Creature — Human Artificer",
+      "oracleText": "When Pia enters, create a 1/1 colorless Thopter artifact creature token with flying.\n{5}{R}: Target creature gets +X/+0 until end of turn, where X is the number of artifacts you control.",
+      "rarity": "uncommon",
+      "keywords": [],
+      "image": "assets/cards/fra/dd3faaf4-45ca-4714-8dbe-37102ec131cf.jpg",
+      "trainingImage": "assets/cards-large/fra/dd3faaf4-45ca-4714-8dbe-37102ec131cf.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/d/d/dd3faaf4-45ca-4714-8dbe-37102ec131cf.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/d/d/dd3faaf4-45ca-4714-8dbe-37102ec131cf.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/250/pia-determined-rebuilder?utm_source=api"
+    },
+    {
       "id": "df818900-ce5e-4b0d-a927-c975cbef7eda",
       "name": "Tetsuko Umezawa, Pursuer",
       "firstSeenAt": "2026-09-12",
@@ -3102,6 +3323,29 @@
       "imageSource": "https://cards.scryfall.io/small/front/c/1/c1a00020-7c14-4503-a057-5763704bb83e.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/c/1/c1a00020-7c14-4503-a057-5763704bb83e.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/254/way-of-the-pyromancer?utm_source=api"
+    },
+    {
+      "id": "6d86e410-20c4-4248-96bf-5780ece6274a",
+      "name": "Way of the Warlord",
+      "firstSeenAt": "2026-09-14",
+      "collectorNumber": "255",
+      "color": "R",
+      "colors": [
+        "R"
+      ],
+      "manaCost": "{2}{R}",
+      "manaValue": 3,
+      "typeLine": "Legendary Enchantment",
+      "oracleText": "When Way of the Warlord enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[-1]: Surveil 1\" and \"[-3]: Draw a card.\")\nPlaneswalkers you control have \"[-4]: This planeswalker deals 2 damage to up to one target creature or planeswalker and 2 damage to target player.\"",
+      "rarity": "uncommon",
+      "keywords": [
+        "Surveil"
+      ],
+      "image": "assets/cards/fra/6d86e410-20c4-4248-96bf-5780ece6274a.jpg",
+      "trainingImage": "assets/cards-large/fra/6d86e410-20c4-4248-96bf-5780ece6274a.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/6/d/6d86e410-20c4-4248-96bf-5780ece6274a.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/6/d/6d86e410-20c4-4248-96bf-5780ece6274a.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/255/way-of-the-warlord?utm_source=api"
     },
     {
       "id": "df8713cd-3f4b-43ef-adbd-e37c2617c617",
@@ -3238,6 +3482,27 @@
       "scryfallUrl": "https://scryfall.com/card/fra/261/jiang-yanggu-never-alone?utm_source=api"
     },
     {
+      "id": "ff0bc30f-9d20-458e-808f-bdc2825905a5",
+      "name": "Pia, Aether Ascetic",
+      "firstSeenAt": "2026-09-14",
+      "collectorNumber": "264",
+      "color": "G",
+      "colors": [
+        "G"
+      ],
+      "manaCost": "{2}{G}",
+      "manaValue": 3,
+      "typeLine": "Legendary Creature — Human Druid",
+      "oracleText": "When Pia enters, you may discard a card. If you do, search your library for an enchantment card, reveal it, put it into your hand, then shuffle.",
+      "rarity": "uncommon",
+      "keywords": [],
+      "image": "assets/cards/fra/ff0bc30f-9d20-458e-808f-bdc2825905a5.jpg",
+      "trainingImage": "assets/cards-large/fra/ff0bc30f-9d20-458e-808f-bdc2825905a5.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/f/f/ff0bc30f-9d20-458e-808f-bdc2825905a5.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/f/f/ff0bc30f-9d20-458e-808f-bdc2825905a5.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/264/pia-aether-ascetic?utm_source=api"
+    },
+    {
       "id": "eed83302-dc2c-45f4-a4bd-af9da51edef5",
       "name": "Ruric Thar, Magecrusher",
       "firstSeenAt": "2026-09-11",
@@ -3329,6 +3594,28 @@
       "imageSource": "https://cards.scryfall.io/small/front/7/c/7c619fed-2394-4efc-8cdc-6df5f51c1f57.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/7/c/7c619fed-2394-4efc-8cdc-6df5f51c1f57.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/270/edgar-ancient-bloodlord?utm_source=api"
+    },
+    {
+      "id": "cf7c1534-af41-4991-b3c3-f0a34ae330b5",
+      "name": "Hapatra, the Desert Fang",
+      "firstSeenAt": "2026-09-14",
+      "collectorNumber": "271",
+      "color": "M",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "manaCost": "{2}{B}{B}{G}",
+      "manaValue": 5,
+      "typeLine": "Legendary Creature — Human Cleric",
+      "oracleText": "When Hapatra enters, for each opponent, put X -1/-1 counters on up to one target creature that player controls, where X is the greatest mana value among cards in your graveyard.",
+      "rarity": "uncommon",
+      "keywords": [],
+      "image": "assets/cards/fra/cf7c1534-af41-4991-b3c3-f0a34ae330b5.jpg",
+      "trainingImage": "assets/cards-large/fra/cf7c1534-af41-4991-b3c3-f0a34ae330b5.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/c/f/cf7c1534-af41-4991-b3c3-f0a34ae330b5.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/c/f/cf7c1534-af41-4991-b3c3-f0a34ae330b5.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/271/hapatra-the-desert-fang?utm_source=api"
     },
     {
       "id": "3abcae65-5b21-4c98-adad-34b8bc76ea3a",
@@ -3575,30 +3862,6 @@
       "imageSource": "https://cards.scryfall.io/small/front/7/9/790dcf48-ab51-4b10-9933-6b7e3baf0f52.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/7/9/790dcf48-ab51-4b10-9933-6b7e3baf0f52.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/394/forest?utm_source=api"
-    },
-    {
-      "id": "e9e31f13-8a2c-4ae2-854e-27d6c62936f2",
-      "name": "Carnivorous Cultivator // Enroot",
-      "firstSeenAt": "2026-09-12",
-      "collectorNumber": "437",
-      "color": "G",
-      "colors": [
-        "G"
-      ],
-      "manaCost": "{1}{G} // {G}",
-      "manaValue": 2,
-      "typeLine": "Creature — Elf Warlock // Sorcery",
-      "oracleText": "Carnivorous Cultivator — Deathtouch\nThis creature enters prepared.\nWhenever this creature deals combat damage to a player, return target land card from your graveyard to your hand.\n\nEnroot — Search your library for a land card, put it into your graveyard, then shuffle.",
-      "rarity": "rare",
-      "keywords": [
-        "Prepared",
-        "Deathtouch"
-      ],
-      "image": "assets/cards/fra/e9e31f13-8a2c-4ae2-854e-27d6c62936f2.jpg",
-      "trainingImage": "assets/cards-large/fra/e9e31f13-8a2c-4ae2-854e-27d6c62936f2.jpg",
-      "imageSource": "https://cards.scryfall.io/small/front/e/9/e9e31f13-8a2c-4ae2-854e-27d6c62936f2.jpg",
-      "trainingImageSource": "https://cards.scryfall.io/normal/front/e/9/e9e31f13-8a2c-4ae2-854e-27d6c62936f2.jpg",
-      "scryfallUrl": "https://scryfall.com/card/fra/437/carnivorous-cultivator-enroot?utm_source=api"
     }
   ]
 }
