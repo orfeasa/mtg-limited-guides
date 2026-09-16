@@ -4253,8 +4253,8 @@ window.LIMITED_PREP_DATA = {
         "url": "https://scryfall.com/sets/fra"
       },
       "officialUrl": "https://magic.wizards.com/en/products/reality-fracture/card-image-gallery",
-      "cardCount": 206,
-      "previewCapturedAt": "2026-09-16T07:31:22.078Z",
+      "cardCount": 254,
+      "previewCapturedAt": "2026-09-16T23:32:28.832Z",
       "draftDecisions": null,
       "archetypes": null,
       "cards": [
@@ -4364,6 +4364,30 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "f0c8400d-824f-4d79-84bc-7615a0deb831",
+          "name": "Fateshaper Aspirant",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "6",
+          "color": "W",
+          "colors": [
+            "W"
+          ],
+          "manaCost": "{4}{W}",
+          "manaValue": 5,
+          "typeLine": "Creature — Rhino Cleric",
+          "oracleText": "When this creature enters, choose one —\n• Return target legendary card from your graveyard to your hand.\n• Put a +1/+1 counter on target creature. It gains vigilance and indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
+          "rarity": "common",
+          "keywords": [],
+          "image": "assets/cards/fra/f0c8400d-824f-4d79-84bc-7615a0deb831.jpg",
+          "trainingImage": "assets/cards-large/fra/f0c8400d-824f-4d79-84bc-7615a0deb831.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/f/0/f0c8400d-824f-4d79-84bc-7615a0deb831.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/f/0/f0c8400d-824f-4d79-84bc-7615a0deb831.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/6/fateshaper-aspirant?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "686f3a25-305d-4f02-8972-eba7b8e9635f",
           "name": "Flickering Hound",
           "firstSeenAt": "2026-09-16",
@@ -4409,6 +4433,36 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/f/8/f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/f/8/f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/8/generous-revival?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "3b6ac80e-c726-4bd0-893a-e666041a04a6",
+          "name": "Hexhaven Battalion",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "12",
+          "color": "W",
+          "colors": [
+            "W"
+          ],
+          "manaCost": "{4}{W}{W}",
+          "manaValue": 6,
+          "typeLine": "Sorcery",
+          "oracleText": "Create three 2/2 colorless Wizard Soldier creature tokens named Cadet. Empower Jace 2. (Put two loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")\nBasic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+          "rarity": "common",
+          "keywords": [
+            "Surveil",
+            "Landcycling",
+            "Basic landcycling",
+            "Typecycling",
+            "Cycling"
+          ],
+          "image": "assets/cards/fra/3b6ac80e-c726-4bd0-893a-e666041a04a6.jpg",
+          "trainingImage": "assets/cards-large/fra/3b6ac80e-c726-4bd0-893a-e666041a04a6.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/3/b/3b6ac80e-c726-4bd0-893a-e666041a04a6.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/3/b/3b6ac80e-c726-4bd0-893a-e666041a04a6.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/12/hexhaven-battalion?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -4481,6 +4535,32 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/f/2f5345ae-4489-4d05-b2d5-c71285254f05.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/f/2f5345ae-4489-4d05-b2d5-c71285254f05.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/15/memory-trap?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "50a0e5f0-3c39-4f16-9a73-eec8ef71f12e",
+          "name": "Predictive Preparations",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "16",
+          "color": "W",
+          "colors": [
+            "W"
+          ],
+          "manaCost": "{1}{W}",
+          "manaValue": 2,
+          "typeLine": "Sorcery",
+          "oracleText": "Put a +1/+1 counter on each of one or two target creatures.\nFlashback {3}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+          "rarity": "common",
+          "keywords": [
+            "Flashback"
+          ],
+          "image": "assets/cards/fra/50a0e5f0-3c39-4f16-9a73-eec8ef71f12e.jpg",
+          "trainingImage": "assets/cards-large/fra/50a0e5f0-3c39-4f16-9a73-eec8ef71f12e.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/5/0/50a0e5f0-3c39-4f16-9a73-eec8ef71f12e.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/5/0/50a0e5f0-3c39-4f16-9a73-eec8ef71f12e.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/16/predictive-preparations?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -4636,6 +4716,32 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "63f82985-c9c2-4d0a-ac4f-560166bebd9f",
+          "name": "Unflinching Hortimancer",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "23",
+          "color": "W",
+          "colors": [
+            "W"
+          ],
+          "manaCost": "{1}{W}",
+          "manaValue": 2,
+          "typeLine": "Creature — Human Cleric",
+          "oracleText": "Ward {1} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)\nWhenever you gain life, put a +1/+1 counter on this creature.",
+          "rarity": "common",
+          "keywords": [
+            "Ward"
+          ],
+          "image": "assets/cards/fra/63f82985-c9c2-4d0a-ac4f-560166bebd9f.jpg",
+          "trainingImage": "assets/cards-large/fra/63f82985-c9c2-4d0a-ac4f-560166bebd9f.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/6/3/63f82985-c9c2-4d0a-ac4f-560166bebd9f.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/6/3/63f82985-c9c2-4d0a-ac4f-560166bebd9f.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/23/unflinching-hortimancer?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "145b928d-a7ff-4fe5-ae4d-bbae7b1d955b",
           "name": "Countersculpt",
           "firstSeenAt": "2026-09-08",
@@ -4687,6 +4793,32 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "9ba1f7ce-3404-4932-9795-22967707f762",
+          "name": "Cryotheory Adept",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "27",
+          "color": "U",
+          "colors": [
+            "U"
+          ],
+          "manaCost": "{1}{U}",
+          "manaValue": 2,
+          "typeLine": "Creature — Human Wizard",
+          "oracleText": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\n{3}{U}, Exile this card from your graveyard: Tap target creature and put a stun counter on it. Activate only as a sorcery. (If a permanent with a stun counter would become untapped, remove one from it instead.)",
+          "rarity": "common",
+          "keywords": [
+            "Prowess"
+          ],
+          "image": "assets/cards/fra/9ba1f7ce-3404-4932-9795-22967707f762.jpg",
+          "trainingImage": "assets/cards-large/fra/9ba1f7ce-3404-4932-9795-22967707f762.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/9/b/9ba1f7ce-3404-4932-9795-22967707f762.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/9/b/9ba1f7ce-3404-4932-9795-22967707f762.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/27/cryotheory-adept?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "0853bb80-8664-432a-8457-600139fd96d5",
           "name": "Diviner of Victory // Unwind History",
           "firstSeenAt": "2026-09-08",
@@ -4709,6 +4841,32 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/0/8/0853bb80-8664-432a-8457-600139fd96d5.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/0/8/0853bb80-8664-432a-8457-600139fd96d5.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/28/diviner-of-victory-unwind-history?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "960c7335-331d-488b-be68-2ad1c1c695dc",
+          "name": "Divining Duelist",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "29",
+          "color": "U",
+          "colors": [
+            "U"
+          ],
+          "manaCost": "{2}{U}",
+          "manaValue": 3,
+          "typeLine": "Creature — Merfolk Wizard",
+          "oracleText": "Flash\nWhen this creature enters, choose one —\n• Tap target creature.\n• Untap target creature.\n• Draw a card, then discard a card.",
+          "rarity": "common",
+          "keywords": [
+            "Flash"
+          ],
+          "image": "assets/cards/fra/960c7335-331d-488b-be68-2ad1c1c695dc.jpg",
+          "trainingImage": "assets/cards-large/fra/960c7335-331d-488b-be68-2ad1c1c695dc.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/9/6/960c7335-331d-488b-be68-2ad1c1c695dc.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/9/6/960c7335-331d-488b-be68-2ad1c1c695dc.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/29/divining-duelist?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -4791,6 +4949,32 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "f5324741-353a-4a70-adb2-b631b00806dd",
+          "name": "Mindseeker Oculus",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "33",
+          "color": "U",
+          "colors": [
+            "U"
+          ],
+          "manaCost": "{2}{U}",
+          "manaValue": 3,
+          "typeLine": "Creature — Homunculus",
+          "oracleText": "When this creature enters, empower Jace 4. (Put four loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")",
+          "rarity": "common",
+          "keywords": [
+            "Surveil"
+          ],
+          "image": "assets/cards/fra/f5324741-353a-4a70-adb2-b631b00806dd.jpg",
+          "trainingImage": "assets/cards-large/fra/f5324741-353a-4a70-adb2-b631b00806dd.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/f/5/f5324741-353a-4a70-adb2-b631b00806dd.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/f/5/f5324741-353a-4a70-adb2-b631b00806dd.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/33/mindseeker-oculus?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "d0ecae06-bc5a-4886-84df-c2900816f226",
           "name": "Perfected Theory",
           "firstSeenAt": "2026-09-02",
@@ -4810,6 +4994,32 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/d/0/d0ecae06-bc5a-4886-84df-c2900816f226.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/d/0/d0ecae06-bc5a-4886-84df-c2900816f226.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/34/perfected-theory?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "c4effc17-0d0e-423a-b5f2-597ea6c71f67",
+          "name": "Plan for All Outcomes",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "35",
+          "color": "U",
+          "colors": [
+            "U"
+          ],
+          "manaCost": "{3}{U}",
+          "manaValue": 4,
+          "typeLine": "Enchantment",
+          "oracleText": "When this enchantment enters, the owner of up to one other target nonland permanent puts it on their choice of the top or bottom of their library.\nWhenever you cast your first noncreature spell each turn, empower Jace 1. (Put a loyalty counter on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")",
+          "rarity": "uncommon",
+          "keywords": [
+            "Surveil"
+          ],
+          "image": "assets/cards/fra/c4effc17-0d0e-423a-b5f2-597ea6c71f67.jpg",
+          "trainingImage": "assets/cards-large/fra/c4effc17-0d0e-423a-b5f2-597ea6c71f67.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/c/4/c4effc17-0d0e-423a-b5f2-597ea6c71f67.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/c/4/c4effc17-0d0e-423a-b5f2-597ea6c71f67.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/35/plan-for-all-outcomes?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -5024,6 +5234,60 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "0adbb4b2-a142-48da-8f4b-fa91529dbac4",
+          "name": "Undulating Witness",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "45",
+          "color": "U",
+          "colors": [
+            "U"
+          ],
+          "manaCost": "{4}{U}",
+          "manaValue": 5,
+          "typeLine": "Creature — Serpent",
+          "oracleText": "Flying\n{2}: This creature gets +1/-1 until end of turn.\nBasic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+          "rarity": "common",
+          "keywords": [
+            "Flying",
+            "Landcycling",
+            "Basic landcycling",
+            "Typecycling",
+            "Cycling"
+          ],
+          "image": "assets/cards/fra/0adbb4b2-a142-48da-8f4b-fa91529dbac4.jpg",
+          "trainingImage": "assets/cards-large/fra/0adbb4b2-a142-48da-8f4b-fa91529dbac4.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/0/a/0adbb4b2-a142-48da-8f4b-fa91529dbac4.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/0/a/0adbb4b2-a142-48da-8f4b-fa91529dbac4.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/45/undulating-witness?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "ddad9f16-52d5-49de-82b0-b1a5294a9c44",
+          "name": "Unsummon",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "46",
+          "color": "U",
+          "colors": [
+            "U"
+          ],
+          "manaCost": "{U}",
+          "manaValue": 1,
+          "typeLine": "Instant",
+          "oracleText": "Return target creature to its owner's hand.",
+          "rarity": "common",
+          "keywords": [],
+          "image": "assets/cards/fra/ddad9f16-52d5-49de-82b0-b1a5294a9c44.jpg",
+          "trainingImage": "assets/cards-large/fra/ddad9f16-52d5-49de-82b0-b1a5294a9c44.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/d/d/ddad9f16-52d5-49de-82b0-b1a5294a9c44.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/d/d/ddad9f16-52d5-49de-82b0-b1a5294a9c44.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/46/unsummon?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "e3afedb1-bf9d-4e31-9700-433514cc29b1",
           "name": "Variable Chaser // Arc of Fortune",
           "firstSeenAt": "2026-09-16",
@@ -5047,6 +5311,36 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/e/3/e3afedb1-bf9d-4e31-9700-433514cc29b1.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/e/3/e3afedb1-bf9d-4e31-9700-433514cc29b1.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/47/variable-chaser-arc-of-fortune?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "cd56f047-6bdc-4e83-8a7c-923ebad26302",
+          "name": "Apex Witchstalker",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "48",
+          "color": "B",
+          "colors": [
+            "B"
+          ],
+          "manaCost": "{4}{B}{B}",
+          "manaValue": 6,
+          "typeLine": "Creature — Wolf",
+          "oracleText": "Menace (This creature can't be blocked except by two or more creatures.)\nWhen this creature enters or dies, you gain 2 life.\nBasic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+          "rarity": "common",
+          "keywords": [
+            "Landcycling",
+            "Menace",
+            "Basic landcycling",
+            "Typecycling",
+            "Cycling"
+          ],
+          "image": "assets/cards/fra/cd56f047-6bdc-4e83-8a7c-923ebad26302.jpg",
+          "trainingImage": "assets/cards-large/fra/cd56f047-6bdc-4e83-8a7c-923ebad26302.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/c/d/cd56f047-6bdc-4e83-8a7c-923ebad26302.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/c/d/cd56f047-6bdc-4e83-8a7c-923ebad26302.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/48/apex-witchstalker?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -5179,6 +5473,30 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "eb4b6ed8-782e-4473-abc9-d50bf2275c6a",
+          "name": "Extended Absence",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "54",
+          "color": "B",
+          "colors": [
+            "B"
+          ],
+          "manaCost": "{3}{B}",
+          "manaValue": 4,
+          "typeLine": "Instant",
+          "oracleText": "Exile target creature or planeswalker. Extended Absence deals 1 damage to each opponent and you gain 1 life.",
+          "rarity": "common",
+          "keywords": [],
+          "image": "assets/cards/fra/eb4b6ed8-782e-4473-abc9-d50bf2275c6a.jpg",
+          "trainingImage": "assets/cards-large/fra/eb4b6ed8-782e-4473-abc9-d50bf2275c6a.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/e/b/eb4b6ed8-782e-4473-abc9-d50bf2275c6a.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/e/b/eb4b6ed8-782e-4473-abc9-d50bf2275c6a.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/54/extended-absence?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "2381d123-d8c7-4822-98fe-b1c365beb5ed",
           "name": "Last Gasp",
           "firstSeenAt": "2026-09-12",
@@ -5255,6 +5573,30 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "4ff6da82-d7dd-4b59-b7e6-30670cea7169",
+          "name": "Rank Rat",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "61",
+          "color": "B",
+          "colors": [
+            "B"
+          ],
+          "manaCost": "{1}{B}",
+          "manaValue": 2,
+          "typeLine": "Creature — Zombie Rat",
+          "oracleText": "When this creature enters, each opponent discards a card.",
+          "rarity": "common",
+          "keywords": [],
+          "image": "assets/cards/fra/4ff6da82-d7dd-4b59-b7e6-30670cea7169.jpg",
+          "trainingImage": "assets/cards-large/fra/4ff6da82-d7dd-4b59-b7e6-30670cea7169.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/4/f/4ff6da82-d7dd-4b59-b7e6-30670cea7169.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/4/f/4ff6da82-d7dd-4b59-b7e6-30670cea7169.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/61/rank-rat?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "453cfde7-c460-4b55-9472-b714e16f24bb",
           "name": "Rewrite Regrets",
           "firstSeenAt": "2026-09-08",
@@ -5300,6 +5642,30 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/8/1/811719ad-b5a3-4d31-8c6f-5dbdfccf7c1f.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/8/1/811719ad-b5a3-4d31-8c6f-5dbdfccf7c1f.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/63/rise-of-the-deathbringer?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "2185c08f-bb4d-49d5-8b6c-c629a48bb61c",
+          "name": "Sanctum Lurker",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "64",
+          "color": "B",
+          "colors": [
+            "B"
+          ],
+          "manaCost": "{2}{B}",
+          "manaValue": 3,
+          "typeLine": "Creature — Horror",
+          "oracleText": "When this creature enters, empower Jace 1.\nPlaneswalkers you control aren't put into their owners' graveyards for having 0 loyalty.\nPlaneswalkers you control have \"[+2]: This planeswalker deals 1 damage to each opponent and you gain 1 life.\"",
+          "rarity": "rare",
+          "keywords": [],
+          "image": "assets/cards/fra/2185c08f-bb4d-49d5-8b6c-c629a48bb61c.jpg",
+          "trainingImage": "assets/cards-large/fra/2185c08f-bb4d-49d5-8b6c-c629a48bb61c.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/2/1/2185c08f-bb4d-49d5-8b6c-c629a48bb61c.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/2/1/2185c08f-bb4d-49d5-8b6c-c629a48bb61c.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/64/sanctum-lurker?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -5405,6 +5771,59 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "e36a7908-1e22-494b-adb4-e72ac0974d62",
+          "name": "Theoretical Necromancer",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "69",
+          "color": "B",
+          "colors": [
+            "B"
+          ],
+          "manaCost": "{2}{B}",
+          "manaValue": 3,
+          "typeLine": "Creature — Vampire Warlock",
+          "oracleText": "{3}{B}, Exile this card from your graveyard: Return another target creature card from your graveyard to your hand.",
+          "rarity": "common",
+          "keywords": [],
+          "image": "assets/cards/fra/e36a7908-1e22-494b-adb4-e72ac0974d62.jpg",
+          "trainingImage": "assets/cards-large/fra/e36a7908-1e22-494b-adb4-e72ac0974d62.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/e/3/e36a7908-1e22-494b-adb4-e72ac0974d62.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/e/3/e36a7908-1e22-494b-adb4-e72ac0974d62.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/69/theoretical-necromancer?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "0eae2efb-bf25-48ee-9c07-9098008110ad",
+          "name": "Void Extrapolator // Omit Variables",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "70",
+          "color": "M",
+          "colors": [
+            "B",
+            "U"
+          ],
+          "manaCost": "{1}{B} // {U/B}",
+          "manaValue": 2,
+          "typeLine": "Creature — Aetherborn Warlock // Sorcery",
+          "oracleText": "Void Extrapolator — This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\nThreshold — This creature gets +1/+1 as long as there are seven or more cards in your graveyard.\n\nOmit Variables — Mill three cards. (Put the top three cards of your library into your graveyard.)",
+          "rarity": "common",
+          "keywords": [
+            "Threshold",
+            "Prepared",
+            "Mill"
+          ],
+          "image": "assets/cards/fra/0eae2efb-bf25-48ee-9c07-9098008110ad.jpg",
+          "trainingImage": "assets/cards-large/fra/0eae2efb-bf25-48ee-9c07-9098008110ad.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/0/e/0eae2efb-bf25-48ee-9c07-9098008110ad.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/0/e/0eae2efb-bf25-48ee-9c07-9098008110ad.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/70/void-extrapolator-omit-variables?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "992bd991-7cfb-459f-bafd-9a44f3c925c5",
           "name": "Vraska's Final Mercy",
           "firstSeenAt": "2026-09-13",
@@ -5450,6 +5869,35 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/d/9/d9039a58-2f17-4b8a-b714-3a2f0b46f057.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/d/9/d9039a58-2f17-4b8a-b714-3a2f0b46f057.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/72/ajanis-anguish?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "c596c4ec-8480-4be9-a45d-700398a126f6",
+          "name": "Awaken the Inferno",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "74",
+          "color": "R",
+          "colors": [
+            "R"
+          ],
+          "manaCost": "{4}{R}",
+          "manaValue": 5,
+          "typeLine": "Sorcery",
+          "oracleText": "Awaken the Inferno deals 6 damage to target creature or planeswalker an opponent controls. Put a +1/+1 counter on up to one target creature you control.\nBasic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+          "rarity": "common",
+          "keywords": [
+            "Landcycling",
+            "Basic landcycling",
+            "Typecycling",
+            "Cycling"
+          ],
+          "image": "assets/cards/fra/c596c4ec-8480-4be9-a45d-700398a126f6.jpg",
+          "trainingImage": "assets/cards-large/fra/c596c4ec-8480-4be9-a45d-700398a126f6.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/c/5/c596c4ec-8480-4be9-a45d-700398a126f6.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/c/5/c596c4ec-8480-4be9-a45d-700398a126f6.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/74/awaken-the-inferno?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -5707,6 +6155,32 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "cbfe3354-7ced-4773-9a4e-a937ae9f94f8",
+          "name": "Heartstring Puller",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "86",
+          "color": "R",
+          "colors": [
+            "R"
+          ],
+          "manaCost": "{3}{R}",
+          "manaValue": 4,
+          "typeLine": "Creature — Elf Sorcerer",
+          "oracleText": "Trample\nWhen this creature enters, create a 2/2 colorless Wizard Soldier creature token named Cadet.",
+          "rarity": "common",
+          "keywords": [
+            "Trample"
+          ],
+          "image": "assets/cards/fra/cbfe3354-7ced-4773-9a4e-a937ae9f94f8.jpg",
+          "trainingImage": "assets/cards-large/fra/cbfe3354-7ced-4773-9a4e-a937ae9f94f8.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/c/b/cbfe3354-7ced-4773-9a4e-a937ae9f94f8.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/c/b/cbfe3354-7ced-4773-9a4e-a937ae9f94f8.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/86/heartstring-puller?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "e600b33b-8916-43dd-95d3-d7cbf874933d",
           "name": "Identity Echo",
           "firstSeenAt": "2026-09-14",
@@ -5824,14 +6298,38 @@ window.LIMITED_PREP_DATA = {
           "oracleText": "Pyre Rhymer — Prowess\nThis creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\n\nMolten Tide — Until end of turn, whenever you tap a Mountain for mana, add an additional {R}.",
           "rarity": "rare",
           "keywords": [
-            "Prepared",
-            "Prowess"
+            "Prowess",
+            "Prepared"
           ],
           "image": "assets/cards/fra/2b0ebea0-86de-4da4-9fe8-dacc1e75c161.jpg",
           "trainingImage": "assets/cards-large/fra/2b0ebea0-86de-4da4-9fe8-dacc1e75c161.jpg",
           "imageSource": "https://cards.scryfall.io/small/front/2/b/2b0ebea0-86de-4da4-9fe8-dacc1e75c161.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/b/2b0ebea0-86de-4da4-9fe8-dacc1e75c161.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/91/pyre-rhymer-molten-tide?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "0e44f959-1322-4abd-b6eb-dea992307c0c",
+          "name": "Skilled Battlecarver",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "92",
+          "color": "R",
+          "colors": [
+            "R"
+          ],
+          "manaCost": "{1}{R}",
+          "manaValue": 2,
+          "typeLine": "Creature — Human Warrior",
+          "oracleText": "During your turn, this creature has first strike.\n{1}{R}: This creature gets +1/+0 until end of turn.",
+          "rarity": "common",
+          "keywords": [],
+          "image": "assets/cards/fra/0e44f959-1322-4abd-b6eb-dea992307c0c.jpg",
+          "trainingImage": "assets/cards-large/fra/0e44f959-1322-4abd-b6eb-dea992307c0c.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/0/e/0e44f959-1322-4abd-b6eb-dea992307c0c.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/0/e/0e44f959-1322-4abd-b6eb-dea992307c0c.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/92/skilled-battlecarver?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -5858,6 +6356,32 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/d/2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/d/2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/93/stingcaster-mage?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "b75bbf46-a421-467a-9433-6cf22398a3a5",
+          "name": "Tether Technician",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "94",
+          "color": "R",
+          "colors": [
+            "R"
+          ],
+          "manaCost": "{4}{R}",
+          "manaValue": 5,
+          "typeLine": "Creature — Minotaur Artificer",
+          "oracleText": "Reach\nWhen this creature enters, you may discard a card. When you do, this creature deals 2 damage to any target.",
+          "rarity": "common",
+          "keywords": [
+            "Reach"
+          ],
+          "image": "assets/cards/fra/b75bbf46-a421-467a-9433-6cf22398a3a5.jpg",
+          "trainingImage": "assets/cards-large/fra/b75bbf46-a421-467a-9433-6cf22398a3a5.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/b/7/b75bbf46-a421-467a-9433-6cf22398a3a5.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/b/7/b75bbf46-a421-467a-9433-6cf22398a3a5.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/94/tether-technician?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -6168,6 +6692,32 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "a2cc5d0e-9643-4ee2-81de-fa2c3bd1ab09",
+          "name": "Hunter's Axe",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "108",
+          "color": "G",
+          "colors": [
+            "G"
+          ],
+          "manaCost": "{G}",
+          "manaValue": 1,
+          "typeLine": "Artifact — Equipment",
+          "oracleText": "Equipped creature gets +2/+0 and has \"Whenever this creature attacks, it gains your choice of trample or deathtouch until end of turn.\"\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+          "rarity": "uncommon",
+          "keywords": [
+            "Equip"
+          ],
+          "image": "assets/cards/fra/a2cc5d0e-9643-4ee2-81de-fa2c3bd1ab09.jpg",
+          "trainingImage": "assets/cards-large/fra/a2cc5d0e-9643-4ee2-81de-fa2c3bd1ab09.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/a/2/a2cc5d0e-9643-4ee2-81de-fa2c3bd1ab09.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/a/2/a2cc5d0e-9643-4ee2-81de-fa2c3bd1ab09.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/108/hunters-axe?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "073f4998-a204-447b-93d5-746ae87fd6a1",
           "name": "Inspired Tethermage",
           "firstSeenAt": "2026-09-08",
@@ -6392,6 +6942,36 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "e5ed142b-2b61-4ef5-8b23-2db2a0a0319d",
+          "name": "Vinelasher Adept",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "119",
+          "color": "G",
+          "colors": [
+            "G"
+          ],
+          "manaCost": "{4}{G}{G}",
+          "manaValue": 6,
+          "typeLine": "Creature — Rhino Soldier",
+          "oracleText": "Reach\nWhen this creature enters, put three +1/+1 counters on target creature.\nBasic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+          "rarity": "common",
+          "keywords": [
+            "Reach",
+            "Landcycling",
+            "Basic landcycling",
+            "Typecycling",
+            "Cycling"
+          ],
+          "image": "assets/cards/fra/e5ed142b-2b61-4ef5-8b23-2db2a0a0319d.jpg",
+          "trainingImage": "assets/cards-large/fra/e5ed142b-2b61-4ef5-8b23-2db2a0a0319d.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/e/5/e5ed142b-2b61-4ef5-8b23-2db2a0a0319d.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/e/5/e5ed142b-2b61-4ef5-8b23-2db2a0a0319d.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/119/vinelasher-adept?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "3d693cb0-681e-480a-8f70-07e94c39225c",
           "name": "Wrecking Gecko",
           "firstSeenAt": "2026-09-12",
@@ -6468,6 +7048,33 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/5/9/5905995b-7a20-4602-a7cc-90aa5089a082.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/5/9/5905995b-7a20-4602-a7cc-90aa5089a082.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/122/avatar-of-burgeoning-echoes?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "bb975803-9bf2-401e-9414-d272df314398",
+          "name": "Blessed Ghoul",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "123",
+          "color": "M",
+          "colors": [
+            "B",
+            "W"
+          ],
+          "manaCost": "{W/B}",
+          "manaValue": 1,
+          "typeLine": "Creature — Zombie Cleric",
+          "oracleText": "Lifelink\n{2}{W/B}: Return this card from your graveyard to your hand.",
+          "rarity": "common",
+          "keywords": [
+            "Lifelink"
+          ],
+          "image": "assets/cards/fra/bb975803-9bf2-401e-9414-d272df314398.jpg",
+          "trainingImage": "assets/cards-large/fra/bb975803-9bf2-401e-9414-d272df314398.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/b/b/bb975803-9bf2-401e-9414-d272df314398.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/b/b/bb975803-9bf2-401e-9414-d272df314398.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/123/blessed-ghoul?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -6791,6 +7398,33 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "42e28bd2-486b-45d4-8840-6e33c19c2d57",
+          "name": "Konstrari Improviser // Soul Tether",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "139",
+          "color": "M",
+          "colors": [
+            "G",
+            "R"
+          ],
+          "manaCost": "{1}{R/G} // {2}{R/G}",
+          "manaValue": 2,
+          "typeLine": "Creature — Human Artificer // Sorcery",
+          "oracleText": "Konstrari Improviser — This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\n\nSoul Tether — Create a Heartwood token. (It's a red and green artifact with \"{T}: Add {R} or {G}.\")",
+          "rarity": "common",
+          "keywords": [
+            "Prepared"
+          ],
+          "image": "assets/cards/fra/42e28bd2-486b-45d4-8840-6e33c19c2d57.jpg",
+          "trainingImage": "assets/cards-large/fra/42e28bd2-486b-45d4-8840-6e33c19c2d57.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/4/2/42e28bd2-486b-45d4-8840-6e33c19c2d57.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/4/2/42e28bd2-486b-45d4-8840-6e33c19c2d57.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/139/konstrari-improviser-soul-tether?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "2d6ff182-a853-4898-895b-072c89324ca7",
           "name": "Kwia Vigorbloom",
           "firstSeenAt": "2026-09-08",
@@ -6954,6 +7588,33 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/6/c/6c1c790b-9e0e-4964-9ea3-554843907f06.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/6/c/6c1c790b-9e0e-4964-9ea3-554843907f06.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/146/prudent-fateseer-peer-review?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "68fddb6a-86d4-4ebb-907d-fdcaadebc4b3",
+          "name": "Recursive Recruitment",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "147",
+          "color": "M",
+          "colors": [
+            "B",
+            "U"
+          ],
+          "manaCost": "{2}{U}{B}",
+          "manaValue": 4,
+          "typeLine": "Sorcery",
+          "oracleText": "Create two 2/2 colorless Wizard Soldier creature tokens named Cadet. If this spell was cast from a graveyard, put a +1/+1 counter on each of them for every three cards in your graveyard.\nFlashback {6}{U}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+          "rarity": "uncommon",
+          "keywords": [
+            "Flashback"
+          ],
+          "image": "assets/cards/fra/68fddb6a-86d4-4ebb-907d-fdcaadebc4b3.jpg",
+          "trainingImage": "assets/cards-large/fra/68fddb6a-86d4-4ebb-907d-fdcaadebc4b3.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/6/8/68fddb6a-86d4-4ebb-907d-fdcaadebc4b3.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/6/8/68fddb6a-86d4-4ebb-907d-fdcaadebc4b3.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/147/recursive-recruitment?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -7160,6 +7821,62 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/8/2835c9aa-0904-44db-8da2-e8c4e04201aa.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/8/2835c9aa-0904-44db-8da2-e8c4e04201aa.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/155/theorix-charm?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "fb6bad96-841d-4738-8e62-92f346f914fd",
+          "name": "Theorix Metamage // Omit Variables",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "156",
+          "color": "M",
+          "colors": [
+            "B",
+            "U"
+          ],
+          "manaCost": "{2}{U/B} // {U/B}",
+          "manaValue": 3,
+          "typeLine": "Creature — Shade Wizard // Sorcery",
+          "oracleText": "Theorix Metamage — This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\nThreshold — This creature gets +1/+0 and has flying as long as there are seven or more cards in your graveyard.\n\nOmit Variables — Mill three cards. (Put the top three cards of your library into your graveyard.)",
+          "rarity": "common",
+          "keywords": [
+            "Threshold",
+            "Prepared",
+            "Mill"
+          ],
+          "image": "assets/cards/fra/fb6bad96-841d-4738-8e62-92f346f914fd.jpg",
+          "trainingImage": "assets/cards-large/fra/fb6bad96-841d-4738-8e62-92f346f914fd.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/f/b/fb6bad96-841d-4738-8e62-92f346f914fd.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/f/b/fb6bad96-841d-4738-8e62-92f346f914fd.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/156/theorix-metamage-omit-variables?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "55f85984-0137-4899-8993-bbc8c4794d33",
+          "name": "Twinned Vision",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "157",
+          "color": "M",
+          "colors": [
+            "R",
+            "U"
+          ],
+          "manaCost": "{1}{U/R}",
+          "manaValue": 2,
+          "typeLine": "Instant",
+          "oracleText": "Draw a card. If this spell wasn't cast from your hand, draw two cards instead.\nFlashback—{1}{U/R}{U/R}, Discard a card. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+          "rarity": "common",
+          "keywords": [
+            "Flashback"
+          ],
+          "image": "assets/cards/fra/55f85984-0137-4899-8993-bbc8c4794d33.jpg",
+          "trainingImage": "assets/cards-large/fra/55f85984-0137-4899-8993-bbc8c4794d33.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/5/5/55f85984-0137-4899-8993-bbc8c4794d33.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/5/5/55f85984-0137-4899-8993-bbc8c4794d33.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/157/twinned-vision?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -7493,6 +8210,52 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "5d4a8e5f-0024-4da3-a2f5-edb48b12e733",
+          "name": "Living Library",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "172",
+          "color": "C",
+          "colors": [],
+          "manaCost": "{2}",
+          "manaValue": 2,
+          "typeLine": "Artifact Creature — Book Illusion",
+          "oracleText": "{6}, Sacrifice this creature: Choose target creature or planeswalker an opponent controls. Its owner shuffles it into their library.",
+          "rarity": "common",
+          "keywords": [],
+          "image": "assets/cards/fra/5d4a8e5f-0024-4da3-a2f5-edb48b12e733.jpg",
+          "trainingImage": "assets/cards-large/fra/5d4a8e5f-0024-4da3-a2f5-edb48b12e733.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/5/d/5d4a8e5f-0024-4da3-a2f5-edb48b12e733.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/5/d/5d4a8e5f-0024-4da3-a2f5-edb48b12e733.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/172/living-library?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "8b07409a-1dce-461d-95e4-1130521ff4c4",
+          "name": "Medic's Kitesail",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "173",
+          "color": "C",
+          "colors": [],
+          "manaCost": "{2}",
+          "manaValue": 2,
+          "typeLine": "Artifact — Equipment",
+          "oracleText": "Equipped creature gets +1/+0 and has flying and \"Whenever this creature attacks, you gain 1 life.\"\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+          "rarity": "common",
+          "keywords": [
+            "Equip"
+          ],
+          "image": "assets/cards/fra/8b07409a-1dce-461d-95e4-1130521ff4c4.jpg",
+          "trainingImage": "assets/cards-large/fra/8b07409a-1dce-461d-95e4-1130521ff4c4.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/8/b/8b07409a-1dce-461d-95e4-1130521ff4c4.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/8/b/8b07409a-1dce-461d-95e4-1130521ff4c4.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/173/medics-kitesail?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "d68eab2e-89dd-4377-b7af-01512b1804a0",
           "name": "Murmuring Volume",
           "firstSeenAt": "2026-09-14",
@@ -7510,6 +8273,31 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/d/6/d68eab2e-89dd-4377-b7af-01512b1804a0.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/d/6/d68eab2e-89dd-4377-b7af-01512b1804a0.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/174/murmuring-volume?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "3223e5db-5cc4-42f9-ae9e-ff58abc7c390",
+          "name": "Dedicated Commons",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "175",
+          "color": "M",
+          "colors": [
+            "R",
+            "W"
+          ],
+          "manaCost": "",
+          "manaValue": 0,
+          "typeLine": "Land",
+          "oracleText": "This land enters tapped unless you control a planeswalker.\n{T}: Add {R} or {W}.",
+          "rarity": "common",
+          "keywords": [],
+          "image": "assets/cards/fra/3223e5db-5cc4-42f9-ae9e-ff58abc7c390.jpg",
+          "trainingImage": "assets/cards-large/fra/3223e5db-5cc4-42f9-ae9e-ff58abc7c390.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/3/2/3223e5db-5cc4-42f9-ae9e-ff58abc7c390.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/3/2/3223e5db-5cc4-42f9-ae9e-ff58abc7c390.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/175/dedicated-commons?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -7540,6 +8328,56 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "5140f962-62f3-40fd-a322-44896c7e2613",
+          "name": "Fatehold Annex",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "177",
+          "color": "M",
+          "colors": [
+            "U",
+            "W"
+          ],
+          "manaCost": "",
+          "manaValue": 0,
+          "typeLine": "Land",
+          "oracleText": "This land enters tapped unless you control a planeswalker.\n{T}: Add {W} or {U}.",
+          "rarity": "common",
+          "keywords": [],
+          "image": "assets/cards/fra/5140f962-62f3-40fd-a322-44896c7e2613.jpg",
+          "trainingImage": "assets/cards-large/fra/5140f962-62f3-40fd-a322-44896c7e2613.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/5/1/5140f962-62f3-40fd-a322-44896c7e2613.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/5/1/5140f962-62f3-40fd-a322-44896c7e2613.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/177/fatehold-annex?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "e6ca6c3e-f145-42d6-8a17-90770c15afaf",
+          "name": "Formidable Commons",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "178",
+          "color": "M",
+          "colors": [
+            "B",
+            "G"
+          ],
+          "manaCost": "",
+          "manaValue": 0,
+          "typeLine": "Land",
+          "oracleText": "This land enters tapped unless you control a planeswalker.\n{T}: Add {B} or {G}.",
+          "rarity": "common",
+          "keywords": [],
+          "image": "assets/cards/fra/e6ca6c3e-f145-42d6-8a17-90770c15afaf.jpg",
+          "trainingImage": "assets/cards-large/fra/e6ca6c3e-f145-42d6-8a17-90770c15afaf.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/e/6/e6ca6c3e-f145-42d6-8a17-90770c15afaf.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/e/6/e6ca6c3e-f145-42d6-8a17-90770c15afaf.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/178/formidable-commons?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "a4e4966b-8963-4fac-a8bf-e778e063c7dd",
           "name": "Haunted Ridge",
           "firstSeenAt": "2026-09-08",
@@ -7560,6 +8398,105 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/a/4/a4e4966b-8963-4fac-a8bf-e778e063c7dd.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/a/4/a4e4966b-8963-4fac-a8bf-e778e063c7dd.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/180/haunted-ridge?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "9128ce00-6744-4d36-bfbe-ef75d78110b0",
+          "name": "Hexhaven Dueling Arena",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "181",
+          "color": "C",
+          "colors": [],
+          "manaCost": "",
+          "manaValue": 0,
+          "typeLine": "Land",
+          "oracleText": "{T}: Add {C}.\n{2}, {T}: Target creature that attacked this turn becomes prepared. Activate only as a sorcery. (Only creatures with prepare spells can become prepared.)\n{4}, {T}: Target creature becomes prepared.",
+          "rarity": "uncommon",
+          "keywords": [
+            "Prepared"
+          ],
+          "image": "assets/cards/fra/9128ce00-6744-4d36-bfbe-ef75d78110b0.jpg",
+          "trainingImage": "assets/cards-large/fra/9128ce00-6744-4d36-bfbe-ef75d78110b0.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/9/1/9128ce00-6744-4d36-bfbe-ef75d78110b0.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/9/1/9128ce00-6744-4d36-bfbe-ef75d78110b0.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/181/hexhaven-dueling-arena?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "84ea799a-faa2-4ff1-a933-432d4ee31a3b",
+          "name": "Innovative Commons",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "182",
+          "color": "M",
+          "colors": [
+            "R",
+            "U"
+          ],
+          "manaCost": "",
+          "manaValue": 0,
+          "typeLine": "Land",
+          "oracleText": "This land enters tapped unless you control a planeswalker.\n{T}: Add {U} or {R}.",
+          "rarity": "common",
+          "keywords": [],
+          "image": "assets/cards/fra/84ea799a-faa2-4ff1-a933-432d4ee31a3b.jpg",
+          "trainingImage": "assets/cards-large/fra/84ea799a-faa2-4ff1-a933-432d4ee31a3b.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/8/4/84ea799a-faa2-4ff1-a933-432d4ee31a3b.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/8/4/84ea799a-faa2-4ff1-a933-432d4ee31a3b.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/182/innovative-commons?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "39c805e3-82cd-42a9-80fe-8d81712a94ea",
+          "name": "Konstrari Annex",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "183",
+          "color": "M",
+          "colors": [
+            "G",
+            "R"
+          ],
+          "manaCost": "",
+          "manaValue": 0,
+          "typeLine": "Land",
+          "oracleText": "This land enters tapped unless you control a planeswalker.\n{T}: Add {R} or {G}.",
+          "rarity": "common",
+          "keywords": [],
+          "image": "assets/cards/fra/39c805e3-82cd-42a9-80fe-8d81712a94ea.jpg",
+          "trainingImage": "assets/cards-large/fra/39c805e3-82cd-42a9-80fe-8d81712a94ea.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/3/9/39c805e3-82cd-42a9-80fe-8d81712a94ea.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/3/9/39c805e3-82cd-42a9-80fe-8d81712a94ea.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/183/konstrari-annex?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "93ac525e-1919-43dd-aba4-073b7e4c1768",
+          "name": "Meticulous Commons",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "184",
+          "color": "M",
+          "colors": [
+            "B",
+            "W"
+          ],
+          "manaCost": "",
+          "manaValue": 0,
+          "typeLine": "Land",
+          "oracleText": "This land enters tapped unless you control a planeswalker.\n{T}: Add {W} or {B}.",
+          "rarity": "common",
+          "keywords": [],
+          "image": "assets/cards/fra/93ac525e-1919-43dd-aba4-073b7e4c1768.jpg",
+          "trainingImage": "assets/cards-large/fra/93ac525e-1919-43dd-aba4-073b7e4c1768.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/9/3/93ac525e-1919-43dd-aba4-073b7e4c1768.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/9/3/93ac525e-1919-43dd-aba4-073b7e4c1768.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/184/meticulous-commons?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -7639,6 +8576,28 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "9a467560-6676-4fc2-9400-768a79650aa4",
+          "name": "Room of Refuge",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "188",
+          "color": "C",
+          "colors": [],
+          "manaCost": "",
+          "manaValue": 0,
+          "typeLine": "Land",
+          "oracleText": "This land enters tapped. As it enters, choose a color.\n{T}: Add one mana of the chosen color.\n{5}, {T}, Sacrifice this land: Put two +1/+1 counters on target creature. Activate only as a sorcery.",
+          "rarity": "common",
+          "keywords": [],
+          "image": "assets/cards/fra/9a467560-6676-4fc2-9400-768a79650aa4.jpg",
+          "trainingImage": "assets/cards-large/fra/9a467560-6676-4fc2-9400-768a79650aa4.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/9/a/9a467560-6676-4fc2-9400-768a79650aa4.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/9/a/9a467560-6676-4fc2-9400-768a79650aa4.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/188/room-of-refuge?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "9e944c5b-68ac-4a30-bbd4-09a4288319ce",
           "name": "Shipwreck Marsh",
           "firstSeenAt": "2026-09-08",
@@ -7659,6 +8618,31 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/9/e/9e944c5b-68ac-4a30-bbd4-09a4288319ce.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/9/e/9e944c5b-68ac-4a30-bbd4-09a4288319ce.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/189/shipwreck-marsh?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "6ede3143-69ac-4cbe-922a-d25b07c26da7",
+          "name": "Stingerquill Annex",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "190",
+          "color": "M",
+          "colors": [
+            "B",
+            "R"
+          ],
+          "manaCost": "",
+          "manaValue": 0,
+          "typeLine": "Land",
+          "oracleText": "This land enters tapped unless you control a planeswalker.\n{T}: Add {B} or {R}.",
+          "rarity": "common",
+          "keywords": [],
+          "image": "assets/cards/fra/6ede3143-69ac-4cbe-922a-d25b07c26da7.jpg",
+          "trainingImage": "assets/cards-large/fra/6ede3143-69ac-4cbe-922a-d25b07c26da7.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/6/e/6ede3143-69ac-4cbe-922a-d25b07c26da7.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/6/e/6ede3143-69ac-4cbe-922a-d25b07c26da7.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/190/stingerquill-annex?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -7685,6 +8669,81 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/2/22db5bba-46c9-4a26-821d-303ddb386ea4.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/2/22db5bba-46c9-4a26-821d-303ddb386ea4.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/191/theorists-sanctum?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "97bbbd23-ecb1-4407-ac14-dede08532a1e",
+          "name": "Theorix Annex",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "192",
+          "color": "M",
+          "colors": [
+            "B",
+            "U"
+          ],
+          "manaCost": "",
+          "manaValue": 0,
+          "typeLine": "Land",
+          "oracleText": "This land enters tapped unless you control a planeswalker.\n{T}: Add {U} or {B}.",
+          "rarity": "common",
+          "keywords": [],
+          "image": "assets/cards/fra/97bbbd23-ecb1-4407-ac14-dede08532a1e.jpg",
+          "trainingImage": "assets/cards-large/fra/97bbbd23-ecb1-4407-ac14-dede08532a1e.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/9/7/97bbbd23-ecb1-4407-ac14-dede08532a1e.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/9/7/97bbbd23-ecb1-4407-ac14-dede08532a1e.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/192/theorix-annex?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "b57d5be7-3157-4b49-aeb8-d7368ca7e9dd",
+          "name": "Transformative Commons",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "193",
+          "color": "M",
+          "colors": [
+            "G",
+            "U"
+          ],
+          "manaCost": "",
+          "manaValue": 0,
+          "typeLine": "Land",
+          "oracleText": "This land enters tapped unless you control a planeswalker.\n{T}: Add {G} or {U}.",
+          "rarity": "common",
+          "keywords": [],
+          "image": "assets/cards/fra/b57d5be7-3157-4b49-aeb8-d7368ca7e9dd.jpg",
+          "trainingImage": "assets/cards-large/fra/b57d5be7-3157-4b49-aeb8-d7368ca7e9dd.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/b/5/b57d5be7-3157-4b49-aeb8-d7368ca7e9dd.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/b/5/b57d5be7-3157-4b49-aeb8-d7368ca7e9dd.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/193/transformative-commons?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "db8c7bdd-76cd-4be0-ae0d-d430e9a5fe7a",
+          "name": "Vigorbloom Annex",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "194",
+          "color": "M",
+          "colors": [
+            "G",
+            "W"
+          ],
+          "manaCost": "",
+          "manaValue": 0,
+          "typeLine": "Land",
+          "oracleText": "This land enters tapped unless you control a planeswalker.\n{T}: Add {G} or {W}.",
+          "rarity": "common",
+          "keywords": [],
+          "image": "assets/cards/fra/db8c7bdd-76cd-4be0-ae0d-d430e9a5fe7a.jpg",
+          "trainingImage": "assets/cards-large/fra/db8c7bdd-76cd-4be0-ae0d-d430e9a5fe7a.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/d/b/db8c7bdd-76cd-4be0-ae0d-d430e9a5fe7a.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/d/b/db8c7bdd-76cd-4be0-ae0d-d430e9a5fe7a.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/194/vigorbloom-annex?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -8016,6 +9075,30 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "8e3a2239-9348-4639-9318-e9e35b2cf86b",
+          "name": "Arni, Humble Scribe",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "211",
+          "color": "U",
+          "colors": [
+            "U"
+          ],
+          "manaCost": "{2}{U}",
+          "manaValue": 3,
+          "typeLine": "Legendary Creature — Human Wizard",
+          "oracleText": "Whenever another nontoken creature you control enters, untap Arni.\n{T}: Draw a card, then discard a card.",
+          "rarity": "uncommon",
+          "keywords": [],
+          "image": "assets/cards/fra/8e3a2239-9348-4639-9318-e9e35b2cf86b.jpg",
+          "trainingImage": "assets/cards-large/fra/8e3a2239-9348-4639-9318-e9e35b2cf86b.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/8/e/8e3a2239-9348-4639-9318-e9e35b2cf86b.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/8/e/8e3a2239-9348-4639-9318-e9e35b2cf86b.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/211/arni-humble-scribe?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "240f58ab-944c-4f4c-9df9-5f40b132bf3e",
           "name": "Chandra, Chill of Compliance",
           "firstSeenAt": "2026-09-02",
@@ -8217,6 +9300,34 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "a349800f-b634-4e74-a9d9-185df37ad909",
+          "name": "Traxos, Academy Guardian",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "222",
+          "color": "U",
+          "colors": [
+            "U"
+          ],
+          "manaCost": "{3}{U}",
+          "manaValue": 4,
+          "typeLine": "Legendary Artifact Creature — Dragon Construct",
+          "oracleText": "This spell costs {2} less to cast if you've cast a noncreature spell this turn.\nFlying, vigilance\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
+          "rarity": "uncommon",
+          "keywords": [
+            "Flying",
+            "Prowess",
+            "Vigilance"
+          ],
+          "image": "assets/cards/fra/a349800f-b634-4e74-a9d9-185df37ad909.jpg",
+          "trainingImage": "assets/cards-large/fra/a349800f-b634-4e74-a9d9-185df37ad909.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/a/3/a349800f-b634-4e74-a9d9-185df37ad909.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/a/3/a349800f-b634-4e74-a9d9-185df37ad909.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/222/traxos-academy-guardian?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "838b0efb-7398-4df9-8fdf-b8af43b47938",
           "name": "Way of the Cryomancer",
           "firstSeenAt": "2026-09-08",
@@ -8238,6 +9349,32 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/8/3/838b0efb-7398-4df9-8fdf-b8af43b47938.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/8/3/838b0efb-7398-4df9-8fdf-b8af43b47938.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/223/way-of-the-cryomancer?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "5838af68-66c3-4fe8-ab89-0a1721b0cfeb",
+          "name": "Way of the Mind Sculptor",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "224",
+          "color": "U",
+          "colors": [
+            "U"
+          ],
+          "manaCost": "{4}{U}",
+          "manaValue": 5,
+          "typeLine": "Legendary Enchantment",
+          "oracleText": "When Way of the Mind Sculptor enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[-1]: Surveil 1\" and \"[-3]: Draw a card.\")\nWhenever you activate a loyalty ability, if you removed two or more loyalty counters to activate it, draw a card.",
+          "rarity": "uncommon",
+          "keywords": [
+            "Surveil"
+          ],
+          "image": "assets/cards/fra/5838af68-66c3-4fe8-ab89-0a1721b0cfeb.jpg",
+          "trainingImage": "assets/cards-large/fra/5838af68-66c3-4fe8-ab89-0a1721b0cfeb.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/5/8/5838af68-66c3-4fe8-ab89-0a1721b0cfeb.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/5/8/5838af68-66c3-4fe8-ab89-0a1721b0cfeb.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/224/way-of-the-mind-sculptor?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -8418,6 +9555,32 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/1/e/1eb25a6c-d6b4-465d-990e-f1ab86b26b69.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/1/e/1eb25a6c-d6b4-465d-990e-f1ab86b26b69.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/231/liliana-the-repentant?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff",
+          "name": "Loot, the Anomaly",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "232",
+          "color": "B",
+          "colors": [
+            "B"
+          ],
+          "manaCost": "{2}{B}",
+          "manaValue": 3,
+          "typeLine": "Legendary Creature — Beast Horror",
+          "oracleText": "If Loot's power is negative, he assigns combat damage as though his power were positive.\nThreshold — Sacrifice another creature or planeswalker: Loot gets -2/-0 until end of turn. Activate only if there are seven or more cards in your graveyard.",
+          "rarity": "uncommon",
+          "keywords": [
+            "Threshold"
+          ],
+          "image": "assets/cards/fra/4f6fd2fa-8bc8-4743-bbc8-b56475d64eff.jpg",
+          "trainingImage": "assets/cards-large/fra/4f6fd2fa-8bc8-4743-bbc8-b56475d64eff.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/4/f/4f6fd2fa-8bc8-4743-bbc8-b56475d64eff.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/4/f/4f6fd2fa-8bc8-4743-bbc8-b56475d64eff.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/232/loot-the-anomaly?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -8645,6 +9808,32 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/b/c/bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/b/c/bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/242/ajani-unrelenting?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "bd8db649-1dba-457d-8327-e1f1da1aab36",
+          "name": "Arni, Renowned Champion",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "243",
+          "color": "R",
+          "colors": [
+            "R"
+          ],
+          "manaCost": "{3}{R}",
+          "manaValue": 4,
+          "typeLine": "Legendary Creature — Human Berserker",
+          "oracleText": "Trample\nWhenever another creature you control enters, Arni gets +X/+0 until end of turn, where X is that creature's power.",
+          "rarity": "uncommon",
+          "keywords": [
+            "Trample"
+          ],
+          "image": "assets/cards/fra/bd8db649-1dba-457d-8327-e1f1da1aab36.jpg",
+          "trainingImage": "assets/cards-large/fra/bd8db649-1dba-457d-8327-e1f1da1aab36.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/b/d/bd8db649-1dba-457d-8327-e1f1da1aab36.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/b/d/bd8db649-1dba-457d-8327-e1f1da1aab36.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/243/arni-renowned-champion?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -9134,6 +10323,32 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "98dc5470-507a-4364-8480-42607255e56c",
+          "name": "Way of the Paradox",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "267",
+          "color": "G",
+          "colors": [
+            "G"
+          ],
+          "manaCost": "{2}{G}",
+          "manaValue": 3,
+          "typeLine": "Legendary Enchantment",
+          "oracleText": "When Way of the Paradox enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[-1]: Surveil 1\" and \"[-3]: Draw a card.\")\nWhenever you activate a loyalty ability, you gain 1 life. You may play an additional land this turn.",
+          "rarity": "uncommon",
+          "keywords": [
+            "Surveil"
+          ],
+          "image": "assets/cards/fra/98dc5470-507a-4364-8480-42607255e56c.jpg",
+          "trainingImage": "assets/cards-large/fra/98dc5470-507a-4364-8480-42607255e56c.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/9/8/98dc5470-507a-4364-8480-42607255e56c.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/9/8/98dc5470-507a-4364-8480-42607255e56c.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/267/way-of-the-paradox?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "a252cb01-537b-4afe-9abc-81a98c4a1439",
           "name": "Way of the Wildspeaker",
           "firstSeenAt": "2026-09-11",
@@ -9390,6 +10605,30 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/1/e/1ebbbddb-2dc3-4194-b72b-13bcebe2ab89.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/1/e/1ebbbddb-2dc3-4194-b72b-13bcebe2ab89.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/279/karn-argent-defender?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "05102c46-96f8-44a0-a1e6-e388fa5e0841",
+          "name": "Traxos, Scourge Eternal",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "280",
+          "color": "C",
+          "colors": [],
+          "manaCost": "{4}",
+          "manaValue": 4,
+          "typeLine": "Legendary Artifact Creature — Dragon Construct",
+          "oracleText": "Trample\nTraxos doesn't untap during your untap step.\nWhenever you cast an artifact or creature spell, untap Traxos.",
+          "rarity": "uncommon",
+          "keywords": [
+            "Trample"
+          ],
+          "image": "assets/cards/fra/05102c46-96f8-44a0-a1e6-e388fa5e0841.jpg",
+          "trainingImage": "assets/cards-large/fra/05102c46-96f8-44a0-a1e6-e388fa5e0841.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/0/5/05102c46-96f8-44a0-a1e6-e388fa5e0841.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/0/5/05102c46-96f8-44a0-a1e6-e388fa5e0841.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/280/traxos-scourge-eternal?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
