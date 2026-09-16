@@ -1094,7 +1094,7 @@
     const dy = event.changedTouches[0].clientY - start.y;
     if (start.horizontal && event.cancelable) event.preventDefault();
     if (Math.abs(dx) >= 24 && Math.abs(dx) >= Math.abs(dy) * 0.65) {
-      navigateCardPreview(dx > 0 ? 1 : -1);
+      navigateCardPreview(dx > 0 ? -1 : 1);
     }
   }, { passive: false });
   elements.cardPreviewFrame.addEventListener("touchcancel", () => { previewTouchStart = null; });
