@@ -1080,16 +1080,15 @@
     }
     const dx = event.touches[0].clientX - previewTouchStart.x;
     const dy = event.touches[0].clientY - previewTouchStart.y;
-    if (!previewTouchStart.horizontal) {
-      if (Math.max(Math.abs(dx), Math.abs(dy)) < 8) return;
-      if (Math.abs(dy) >= Math.abs(dx)) {
-        previewTouchStart = null;
-        return;
-      }
-      previewTouchStart.horizontal = true;
-    }
-    // Claim horizontal swipes before the browser turns them into scrolling.
+    const horizontalEnough = Math.abs(dx) >= 10 && Math.abs(dx) >= Math.abs(dy) * 0.65;
+    if (!horizontalEnough) return;
+    previewTouchStart.horizontal = true;
+    // Claim the gesture as soon as its horizontal intent is clear.
     if (event.cancelable) event.preventDefault();
+    if (Math.abs(dx) >= 24) {
+      previewTouchStart = null;
+      navigateCardPreview(dx > 0 ? 1 : -1);
+    }
   }, { passive: false });
   elements.cardPreviewFrame.addEventListener("touchend", (event) => {
     const start = previewTouchStart;
@@ -1098,7 +1097,7 @@
     const dx = event.changedTouches[0].clientX - start.x;
     const dy = event.changedTouches[0].clientY - start.y;
     if (start.horizontal && event.cancelable) event.preventDefault();
-    if (Math.abs(dx) >= 40 && Math.abs(dx) > Math.abs(dy)) {
+    if (Math.abs(dx) >= 24 && Math.abs(dx) >= Math.abs(dy) * 0.65) {
       navigateCardPreview(dx > 0 ? 1 : -1);
     }
   }, { passive: false });
