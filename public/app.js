@@ -1083,12 +1083,8 @@
     const horizontalEnough = Math.abs(dx) >= 10 && Math.abs(dx) >= Math.abs(dy) * 0.65;
     if (!horizontalEnough) return;
     previewTouchStart.horizontal = true;
-    // Claim the gesture as soon as its horizontal intent is clear.
+    // Claim horizontal movement, but use the completed gesture for direction.
     if (event.cancelable) event.preventDefault();
-    if (Math.abs(dx) >= 24) {
-      previewTouchStart = null;
-      navigateCardPreview(dx > 0 ? 1 : -1);
-    }
   }, { passive: false });
   elements.cardPreviewFrame.addEventListener("touchend", (event) => {
     const start = previewTouchStart;
