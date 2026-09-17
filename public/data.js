@@ -4271,8 +4271,8 @@ window.LIMITED_PREP_DATA = {
         "url": "https://scryfall.com/sets/fra"
       },
       "officialUrl": "https://magic.wizards.com/en/products/reality-fracture/card-image-gallery",
-      "cardCount": 254,
-      "previewCapturedAt": "2026-09-16T23:32:28.832Z",
+      "cardCount": 281,
+      "previewCapturedAt": "2026-09-17T23:32:42.929Z",
       "draftDecisions": null,
       "archetypes": null,
       "cards": [
@@ -4324,6 +4324,34 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/7/3/730d8c28-1e58-4b8e-89e9-445d154d2e83.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/7/3/730d8c28-1e58-4b8e-89e9-445d154d2e83.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/2/academic-ascent?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "5e77fbf0-9d1f-4e7d-a02e-43065d11b0d9",
+          "name": "Blossom-Blessed Angel // Seed Suture",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "3",
+          "color": "W",
+          "colors": [
+            "W"
+          ],
+          "manaCost": "{3}{W} // {G/W}",
+          "manaValue": 4,
+          "typeLine": "Creature — Angel Cleric // Sorcery",
+          "oracleText": "Blossom-Blessed Angel — Flying, vigilance\nThis creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\n\nSeed Suture — Put a +1/+1 counter on target creature. You gain 1 life.",
+          "rarity": "common",
+          "keywords": [
+            "Flying",
+            "Vigilance",
+            "Prepared"
+          ],
+          "image": "assets/cards/fra/5e77fbf0-9d1f-4e7d-a02e-43065d11b0d9.jpg",
+          "trainingImage": "assets/cards-large/fra/5e77fbf0-9d1f-4e7d-a02e-43065d11b0d9.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/5/e/5e77fbf0-9d1f-4e7d-a02e-43065d11b0d9.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/5/e/5e77fbf0-9d1f-4e7d-a02e-43065d11b0d9.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/3/blossom-blessed-angel-seed-suture?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -4451,6 +4479,78 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/f/8/f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/f/8/f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/8/generous-revival?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "1b5d7d19-b32a-4786-ae9a-00da5e6658ad",
+          "name": "Germinate Recruits",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "9",
+          "color": "W",
+          "colors": [
+            "W"
+          ],
+          "manaCost": "{2}{W}",
+          "manaValue": 3,
+          "typeLine": "Instant",
+          "oracleText": "Create X 2/2 colorless Wizard Soldier creature tokens named Cadet, where X is the amount of life you gained this turn.",
+          "rarity": "rare",
+          "keywords": [],
+          "image": "assets/cards/fra/1b5d7d19-b32a-4786-ae9a-00da5e6658ad.jpg",
+          "trainingImage": "assets/cards-large/fra/1b5d7d19-b32a-4786-ae9a-00da5e6658ad.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/1/b/1b5d7d19-b32a-4786-ae9a-00da5e6658ad.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/1/b/1b5d7d19-b32a-4786-ae9a-00da5e6658ad.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/9/germinate-recruits?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "32a7a905-11bf-4b66-a28e-1066a0e372b8",
+          "name": "Graft Surgeon",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "10",
+          "color": "W",
+          "colors": [
+            "W"
+          ],
+          "manaCost": "{2}{W}",
+          "manaValue": 3,
+          "typeLine": "Creature — Human Cleric",
+          "oracleText": "This creature enters with a +1/+1 counter on it.\nWhen this creature dies, put its counters on up to one target creature you control.",
+          "rarity": "common",
+          "keywords": [],
+          "image": "assets/cards/fra/32a7a905-11bf-4b66-a28e-1066a0e372b8.jpg",
+          "trainingImage": "assets/cards-large/fra/32a7a905-11bf-4b66-a28e-1066a0e372b8.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/3/2/32a7a905-11bf-4b66-a28e-1066a0e372b8.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/3/2/32a7a905-11bf-4b66-a28e-1066a0e372b8.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/10/graft-surgeon?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "a53eb840-039d-4c45-b701-d58cb26b1a6c",
+          "name": "Guiding Hydra",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "11",
+          "color": "W",
+          "colors": [
+            "W"
+          ],
+          "manaCost": "{X}{W}",
+          "manaValue": 1,
+          "typeLine": "Creature — Hydra Horror",
+          "oracleText": "This creature enters with X +1/+1 counters on it.\nAt the beginning of combat on your turn, you may remove a +1/+1 counter from this creature. If you do, put a +1/+1 counter on each other creature you control.",
+          "rarity": "rare",
+          "keywords": [],
+          "image": "assets/cards/fra/a53eb840-039d-4c45-b701-d58cb26b1a6c.jpg",
+          "trainingImage": "assets/cards-large/fra/a53eb840-039d-4c45-b701-d58cb26b1a6c.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/a/5/a53eb840-039d-4c45-b701-d58cb26b1a6c.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/a/5/a53eb840-039d-4c45-b701-d58cb26b1a6c.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/11/guiding-hydra?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -5172,6 +5272,30 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "f49be090-c745-40e5-bc1c-605b8d98acdf",
+          "name": "Sphinx's Approach",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "41",
+          "color": "U",
+          "colors": [
+            "U"
+          ],
+          "manaCost": "{1}{U}{U}",
+          "manaValue": 3,
+          "typeLine": "Instant",
+          "oracleText": "Draw two cards. Then you may exile this spell and four cards named Sphinx's Approach from your graveyard. If you do, search your library for a Sphinx creature card, put it onto the battlefield, then shuffle.\nA deck can have any number of cards named Sphinx's Approach.",
+          "rarity": "common",
+          "keywords": [],
+          "image": "assets/cards/fra/f49be090-c745-40e5-bc1c-605b8d98acdf.jpg",
+          "trainingImage": "assets/cards-large/fra/f49be090-c745-40e5-bc1c-605b8d98acdf.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/f/4/f49be090-c745-40e5-bc1c-605b8d98acdf.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/f/4/f49be090-c745-40e5-bc1c-605b8d98acdf.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/41/sphinxs-approach?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "9df8a06d-c7de-49af-8c01-06dca3dfef4b",
           "name": "Surveillance Phantasm",
           "firstSeenAt": "2026-09-13",
@@ -5515,6 +5639,30 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "17fb6538-493c-41aa-ad13-3e63d3ad3317",
+          "name": "Extrapolate the Impossible",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "55",
+          "color": "B",
+          "colors": [
+            "B"
+          ],
+          "manaCost": "{1}{B}",
+          "manaValue": 2,
+          "typeLine": "Sorcery",
+          "oracleText": "You may reveal exactly two cards you own with different names from outside the game. An opponent chooses one of them. You put that card into your hand.",
+          "rarity": "rare",
+          "keywords": [],
+          "image": "assets/cards/fra/17fb6538-493c-41aa-ad13-3e63d3ad3317.jpg",
+          "trainingImage": "assets/cards-large/fra/17fb6538-493c-41aa-ad13-3e63d3ad3317.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/1/7/17fb6538-493c-41aa-ad13-3e63d3ad3317.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/1/7/17fb6538-493c-41aa-ad13-3e63d3ad3317.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/55/extrapolate-the-impossible?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "2381d123-d8c7-4822-98fe-b1c365beb5ed",
           "name": "Last Gasp",
           "firstSeenAt": "2026-09-12",
@@ -5534,6 +5682,56 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/3/2381d123-d8c7-4822-98fe-b1c365beb5ed.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/3/2381d123-d8c7-4822-98fe-b1c365beb5ed.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/56/last-gasp?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "b105511d-5022-4a84-b6ce-4bb433e93a62",
+          "name": "Lich's Relic",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "57",
+          "color": "B",
+          "colors": [
+            "B"
+          ],
+          "manaCost": "{B}",
+          "manaValue": 1,
+          "typeLine": "Artifact — Equipment",
+          "oracleText": "When this Equipment enters, you may pay {2}. When you do, for each opponent, destroy up to one target creature or planeswalker that player controls.\nEquipped creature gets +2/+1.\nEquip {2}",
+          "rarity": "rare",
+          "keywords": [
+            "Equip"
+          ],
+          "image": "assets/cards/fra/b105511d-5022-4a84-b6ce-4bb433e93a62.jpg",
+          "trainingImage": "assets/cards-large/fra/b105511d-5022-4a84-b6ce-4bb433e93a62.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/b/1/b105511d-5022-4a84-b6ce-4bb433e93a62.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/b/1/b105511d-5022-4a84-b6ce-4bb433e93a62.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/57/lichs-relic?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "90d684a4-9639-4792-8760-2011a7a85370",
+          "name": "Multiply by Zero",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "58",
+          "color": "B",
+          "colors": [
+            "B"
+          ],
+          "manaCost": "{1}{B}",
+          "manaValue": 2,
+          "typeLine": "Instant",
+          "oracleText": "Target creature has base power and toughness 0/0 until end of turn.",
+          "rarity": "uncommon",
+          "keywords": [],
+          "image": "assets/cards/fra/90d684a4-9639-4792-8760-2011a7a85370.jpg",
+          "trainingImage": "assets/cards-large/fra/90d684a4-9639-4792-8760-2011a7a85370.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/9/0/90d684a4-9639-4792-8760-2011a7a85370.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/9/0/90d684a4-9639-4792-8760-2011a7a85370.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/58/multiply-by-zero?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -5966,6 +6164,30 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/3/a/3a64c5f4-9cfc-4d19-bd99-13d619b1aa9d.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/3/a/3a64c5f4-9cfc-4d19-bd99-13d619b1aa9d.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/76/chandras-emberling?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "f3307da2-6dad-4ef2-9614-a7d34f38088e",
+          "name": "Command the Stage",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "77",
+          "color": "R",
+          "colors": [
+            "R"
+          ],
+          "manaCost": "{2}{R}",
+          "manaValue": 3,
+          "typeLine": "Sorcery",
+          "oracleText": "Create a 2/2 colorless Wizard Soldier creature token named Cadet, then put a +1/+1 counter on each other Wizard token you control.\nAt the beginning of each upkeep, if an opponent was dealt noncombat damage last turn, return this card from your graveyard to your hand.",
+          "rarity": "uncommon",
+          "keywords": [],
+          "image": "assets/cards/fra/f3307da2-6dad-4ef2-9614-a7d34f38088e.jpg",
+          "trainingImage": "assets/cards-large/fra/f3307da2-6dad-4ef2-9614-a7d34f38088e.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/f/3/f3307da2-6dad-4ef2-9614-a7d34f38088e.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/f/3/f3307da2-6dad-4ef2-9614-a7d34f38088e.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/77/command-the-stage?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -6609,6 +6831,30 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "930b89c3-4433-48de-829f-20fc3dbfced9",
+          "name": "Gardenize",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "103",
+          "color": "G",
+          "colors": [
+            "G"
+          ],
+          "manaCost": "{1}{G}{G}",
+          "manaValue": 3,
+          "typeLine": "Enchantment",
+          "oracleText": "Whenever a creature you control dies, put a charge counter on this enchantment.\nAt the beginning of your first main phase, add {G} for each charge counter on this enchantment.",
+          "rarity": "rare",
+          "keywords": [],
+          "image": "assets/cards/fra/930b89c3-4433-48de-829f-20fc3dbfced9.jpg",
+          "trainingImage": "assets/cards-large/fra/930b89c3-4433-48de-829f-20fc3dbfced9.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/9/3/930b89c3-4433-48de-829f-20fc3dbfced9.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/9/3/930b89c3-4433-48de-829f-20fc3dbfced9.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/103/gardenize?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "a56e0f91-b128-4693-a949-53cb403f4fbf",
           "name": "Greenhouse Propagator",
           "firstSeenAt": "2026-09-10",
@@ -6960,6 +7206,30 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "2bb7a8eb-227f-410b-859f-750ef0aea2f0",
+          "name": "Verdant Kraken",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "118",
+          "color": "G",
+          "colors": [
+            "G"
+          ],
+          "manaCost": "{4}{G}{G}{G}",
+          "manaValue": 7,
+          "typeLine": "Creature — Plant Kraken",
+          "oracleText": "At the beginning of each player's upkeep, you create a 3/3 green Forest Tentacle land creature token. (It has \"{T}: Add {G}.\" It's affected by summoning sickness until your next turn.)",
+          "rarity": "rare",
+          "keywords": [],
+          "image": "assets/cards/fra/2bb7a8eb-227f-410b-859f-750ef0aea2f0.jpg",
+          "trainingImage": "assets/cards-large/fra/2bb7a8eb-227f-410b-859f-750ef0aea2f0.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/2/b/2bb7a8eb-227f-410b-859f-750ef0aea2f0.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/2/b/2bb7a8eb-227f-410b-859f-750ef0aea2f0.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/118/verdant-kraken?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "e5ed142b-2b61-4ef5-8b23-2db2a0a0319d",
           "name": "Vinelasher Adept",
           "firstSeenAt": "2026-09-16",
@@ -7098,6 +7368,31 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8",
+          "name": "Bloombrute",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "124",
+          "color": "M",
+          "colors": [
+            "G",
+            "W"
+          ],
+          "manaCost": "{2}{G}{W}",
+          "manaValue": 4,
+          "typeLine": "Creature — Plant Elemental",
+          "oracleText": "Whenever you gain life, draw a card. This ability triggers only once each turn.\n{4}{G}{W}: Target creature gains trample and lifelink until end of turn.",
+          "rarity": "uncommon",
+          "keywords": [],
+          "image": "assets/cards/fra/6b804503-9c70-4b1f-bb13-a65fb6dd3ef8.jpg",
+          "trainingImage": "assets/cards-large/fra/6b804503-9c70-4b1f-bb13-a65fb6dd3ef8.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/6/b/6b804503-9c70-4b1f-bb13-a65fb6dd3ef8.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/6/b/6b804503-9c70-4b1f-bb13-a65fb6dd3ef8.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/124/bloombrute?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "87b40df5-5c0a-41f5-a09c-a04f17066a91",
           "name": "Charge the Sanctum",
           "firstSeenAt": "2026-09-08",
@@ -7203,6 +7498,33 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "cfaa3ebd-5c21-4e99-a0dd-8426d19b53a5",
+          "name": "Desperate Futurescribe",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "129",
+          "color": "M",
+          "colors": [
+            "U",
+            "W"
+          ],
+          "manaCost": "{2}{W}{U}",
+          "manaValue": 4,
+          "typeLine": "Creature — Kor Scout",
+          "oracleText": "Flying\nAt the beginning of combat on your turn, another target creature you control gets +1/+1 until end of turn. If you've scried or surveilled this turn, put a +1/+1 counter on that creature instead.",
+          "rarity": "uncommon",
+          "keywords": [
+            "Flying"
+          ],
+          "image": "assets/cards/fra/cfaa3ebd-5c21-4e99-a0dd-8426d19b53a5.jpg",
+          "trainingImage": "assets/cards-large/fra/cfaa3ebd-5c21-4e99-a0dd-8426d19b53a5.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/c/f/cfaa3ebd-5c21-4e99-a0dd-8426d19b53a5.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/c/f/cfaa3ebd-5c21-4e99-a0dd-8426d19b53a5.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/129/desperate-futurescribe?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "de94d388-919d-44ff-baef-8c90a417ac6d",
           "name": "Emergency Phytomedic // Seed Suture",
           "firstSeenAt": "2026-09-11",
@@ -7215,7 +7537,7 @@ window.LIMITED_PREP_DATA = {
           "manaCost": "{G/W} // {G/W}",
           "manaValue": 1,
           "typeLine": "Creature — Dryad Cleric // Sorcery",
-          "oracleText": "Emergency Phytomedic — This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it. )\n\nSeed Suture — Put a +1/+1 counter on target creature. You gain 1 life.",
+          "oracleText": "Emergency Phytomedic — This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\n\nSeed Suture — Put a +1/+1 counter on target creature. You gain 1 life.",
           "rarity": "common",
           "keywords": [
             "Prepared"
@@ -7304,6 +7626,34 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/9/29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/9/29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/133/fatehold-chronologist-peer-review?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "a9793ce9-5a0b-41fe-b9ad-02f6f7da2481",
+          "name": "Ferocity of the Hunt",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "134",
+          "color": "M",
+          "colors": [
+            "B",
+            "G"
+          ],
+          "manaCost": "{1}{B/G}",
+          "manaValue": 2,
+          "typeLine": "Enchantment — Aura",
+          "oracleText": "Flash\nEnchant creature\nEnchanted creature gets +1/+0 and has deathtouch.\nWhen enchanted creature dies, return that card to the battlefield tapped under its owner's control.",
+          "rarity": "common",
+          "keywords": [
+            "Enchant",
+            "Flash"
+          ],
+          "image": "assets/cards/fra/a9793ce9-5a0b-41fe-b9ad-02f6f7da2481.jpg",
+          "trainingImage": "assets/cards-large/fra/a9793ce9-5a0b-41fe-b9ad-02f6f7da2481.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/a/9/a9793ce9-5a0b-41fe-b9ad-02f6f7da2481.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/a/9/a9793ce9-5a0b-41fe-b9ad-02f6f7da2481.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/134/ferocity-of-the-hunt?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -7551,6 +7901,34 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/e/6/e61b9d48-0ace-4453-afe0-a1024444bac0.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/e/6/e61b9d48-0ace-4453-afe0-a1024444bac0.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/143/paradox-shaper-omit-variables?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "04e64af7-cca1-499e-8951-f386e84c8b5b",
+          "name": "Primal Witchstalker",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "144",
+          "color": "M",
+          "colors": [
+            "B",
+            "G"
+          ],
+          "manaCost": "{1}{B}{G}",
+          "manaValue": 3,
+          "typeLine": "Creature — Wolf",
+          "oracleText": "Menace (This creature can't be blocked except by two or more creatures.)\nWhen this creature enters, mill four cards. When you do, return target land card from your graveyard to the battlefield tapped. (To mill four cards, put the top four cards of your library into your graveyard.)",
+          "rarity": "uncommon",
+          "keywords": [
+            "Menace",
+            "Mill"
+          ],
+          "image": "assets/cards/fra/04e64af7-cca1-499e-8951-f386e84c8b5b.jpg",
+          "trainingImage": "assets/cards-large/fra/04e64af7-cca1-499e-8951-f386e84c8b5b.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/0/4/04e64af7-cca1-499e-8951-f386e84c8b5b.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/0/4/04e64af7-cca1-499e-8951-f386e84c8b5b.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/144/primal-witchstalker?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -8158,6 +8536,36 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "c3192390-1518-49fc-8716-f2c7a0384f39",
+          "name": "Codie, Ravenous Codex",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "168",
+          "color": "M",
+          "colors": [
+            "B",
+            "G",
+            "R",
+            "U",
+            "W"
+          ],
+          "manaCost": "{3}",
+          "manaValue": 3,
+          "typeLine": "Legendary Artifact Creature — Book Construct",
+          "oracleText": "Whenever you cast a prepared spell, copy it. You may choose new targets for the copy.\n{W}{U}{B}{R}{G}, {T}: Each creature you control becomes prepared. (Only creatures with prepare spells can become prepared.)",
+          "rarity": "rare",
+          "keywords": [
+            "Prepared"
+          ],
+          "image": "assets/cards/fra/c3192390-1518-49fc-8716-f2c7a0384f39.jpg",
+          "trainingImage": "assets/cards-large/fra/c3192390-1518-49fc-8716-f2c7a0384f39.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/c/3/c3192390-1518-49fc-8716-f2c7a0384f39.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/c/3/c3192390-1518-49fc-8716-f2c7a0384f39.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/168/codie-ravenous-codex?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "d71d250f-c0e0-44b2-877c-76f3bcab4f34",
           "name": "The Echoverse Fulcrum",
           "firstSeenAt": "2026-09-13",
@@ -8391,6 +8799,28 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/e/6/e6ca6c3e-f145-42d6-8a17-90770c15afaf.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/e/6/e6ca6c3e-f145-42d6-8a17-90770c15afaf.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/178/formidable-commons?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "4a771010-b397-4849-ac9b-08e4dd5d6a72",
+          "name": "Hall of Echoes",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "179",
+          "color": "C",
+          "colors": [],
+          "manaCost": "",
+          "manaValue": 0,
+          "typeLine": "Land",
+          "oracleText": "{T}: Add {C}.\n{5}: This land becomes a copy of target creature you control until end of turn. The \"legend rule\" doesn't apply to permanents you control this turn.",
+          "rarity": "rare",
+          "keywords": [],
+          "image": "assets/cards/fra/4a771010-b397-4849-ac9b-08e4dd5d6a72.jpg",
+          "trainingImage": "assets/cards-large/fra/4a771010-b397-4849-ac9b-08e4dd5d6a72.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/4/a/4a771010-b397-4849-ac9b-08e4dd5d6a72.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/4/a/4a771010-b397-4849-ac9b-08e4dd5d6a72.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/179/hall-of-echoes?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -8941,6 +9371,58 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "699874e3-1ccf-4a6c-8371-61040de82d08",
+          "name": "Rescue Girl, First Responder",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "202",
+          "color": "W",
+          "colors": [
+            "W"
+          ],
+          "manaCost": "{2}{W}",
+          "manaValue": 3,
+          "typeLine": "Legendary Creature — Human Cleric",
+          "oracleText": "Flying\n{T}: Return another target permanent you control to its owner's hand. Activate only during your turn.",
+          "rarity": "uncommon",
+          "keywords": [
+            "Flying"
+          ],
+          "image": "assets/cards/fra/699874e3-1ccf-4a6c-8371-61040de82d08.jpg",
+          "trainingImage": "assets/cards-large/fra/699874e3-1ccf-4a6c-8371-61040de82d08.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/6/9/699874e3-1ccf-4a6c-8371-61040de82d08.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/6/9/699874e3-1ccf-4a6c-8371-61040de82d08.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/202/rescue-girl-first-responder?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "07572be0-6610-493c-a21e-14b78e9805c9",
+          "name": "Saheeli, Consul of Oversight",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "203",
+          "color": "W",
+          "colors": [
+            "W"
+          ],
+          "manaCost": "{3}{W}{W}",
+          "manaValue": 5,
+          "typeLine": "Legendary Creature — Human Advisor",
+          "oracleText": "Flying\nWhenever you scry or surveil, create a 1/1 colorless Thopter artifact creature token with flying. This ability triggers only once each turn.",
+          "rarity": "uncommon",
+          "keywords": [
+            "Flying"
+          ],
+          "image": "assets/cards/fra/07572be0-6610-493c-a21e-14b78e9805c9.jpg",
+          "trainingImage": "assets/cards-large/fra/07572be0-6610-493c-a21e-14b78e9805c9.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/0/7/07572be0-6610-493c-a21e-14b78e9805c9.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/0/7/07572be0-6610-493c-a21e-14b78e9805c9.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/203/saheeli-consul-of-oversight?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "5f7521d7-9f1f-4f03-b2ea-dd2a1b1e4e5b",
           "name": "Teyo, Lightshield Expert",
           "firstSeenAt": "2026-09-16",
@@ -9004,7 +9486,7 @@ window.LIMITED_PREP_DATA = {
           "manaCost": "{3}{W}",
           "manaValue": 4,
           "typeLine": "Legendary Enchantment",
-          "oracleText": "When Way of the Healer enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[-1]: Surveil 1\" and \"[-3]: Draw a card.\")\nPlaneswalkers you control have \"[-2]: Create a 2/2 colorless Wizard Soldier creature token named Cadet. Surveil 1.\"",
+          "oracleText": "When Way of the Healer enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")\nPlaneswalkers you control have \"[−2]: Create a 2/2 colorless Wizard Soldier creature token named Cadet. Surveil 1.\"",
           "rarity": "uncommon",
           "keywords": [
             "Surveil"
@@ -9217,6 +9699,30 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "74087795-0b38-4fd2-9841-147583baca41",
+          "name": "Jace, Reality Sculptor",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "216",
+          "color": "U",
+          "colors": [
+            "U"
+          ],
+          "manaCost": "{3}{U}{U}",
+          "manaValue": 5,
+          "typeLine": "Legendary Planeswalker — Jace",
+          "oracleText": "+1: Empower Jace X, where X is the number of Islands you control.\n−3: Until your next turn, whenever a creature attacks you or a planeswalker you control, it gets -5/-0 until end of turn.\n0: Exile all but the bottom card of each opponent's library. Activate only if there are twenty-five or more loyalty counters among Jaces you control.",
+          "rarity": "rare",
+          "keywords": [],
+          "image": "assets/cards/fra/74087795-0b38-4fd2-9841-147583baca41.jpg",
+          "trainingImage": "assets/cards-large/fra/74087795-0b38-4fd2-9841-147583baca41.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/7/4/74087795-0b38-4fd2-9841-147583baca41.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/7/4/74087795-0b38-4fd2-9841-147583baca41.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/216/jace-reality-sculptor?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "a5183681-447b-4023-91f7-00e9338f4417",
           "name": "Lyra, Tolarian Archangel",
           "firstSeenAt": "2026-09-12",
@@ -9289,6 +9795,30 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/0/0/00af4e87-5576-4a43-9422-4c35b2b66775.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/0/0/00af4e87-5576-4a43-9422-4c35b2b66775.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/219/ruric-thar-biomagus?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "6d7d8fa7-ce69-4a8c-9af0-55571393a244",
+          "name": "Samut, Tyrant of Naktamun",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "220",
+          "color": "U",
+          "colors": [
+            "U"
+          ],
+          "manaCost": "{1}{U}",
+          "manaValue": 2,
+          "typeLine": "Legendary Creature — Human Wizard",
+          "oracleText": "Instant and sorcery spells you control have split second. (As long as a spell with split second is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)",
+          "rarity": "rare",
+          "keywords": [],
+          "image": "assets/cards/fra/6d7d8fa7-ce69-4a8c-9af0-55571393a244.jpg",
+          "trainingImage": "assets/cards-large/fra/6d7d8fa7-ce69-4a8c-9af0-55571393a244.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/6/d/6d7d8fa7-ce69-4a8c-9af0-55571393a244.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/6/d/6d7d8fa7-ce69-4a8c-9af0-55571393a244.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/220/samut-tyrant-of-naktamun?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -9630,6 +10160,30 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "9028d31f-9c41-47e3-885b-6a869bca8178",
+          "name": "Massacre Girl, Most Wanted",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "234",
+          "color": "B",
+          "colors": [
+            "B"
+          ],
+          "manaCost": "{4}{B}",
+          "manaValue": 5,
+          "typeLine": "Legendary Creature — Human Assassin",
+          "oracleText": "Whenever another creature or planeswalker you control dies, Massacre Girl deals 1 damage to target opponent and you gain 1 life.\nWhenever an opponent is dealt noncombat damage, put a +1/+1 counter on Massacre Girl.",
+          "rarity": "uncommon",
+          "keywords": [],
+          "image": "assets/cards/fra/9028d31f-9c41-47e3-885b-6a869bca8178.jpg",
+          "trainingImage": "assets/cards-large/fra/9028d31f-9c41-47e3-885b-6a869bca8178.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/9/0/9028d31f-9c41-47e3-885b-6a869bca8178.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/9/0/9028d31f-9c41-47e3-885b-6a869bca8178.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/234/massacre-girl-most-wanted?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "d36b0e06-cb82-4c48-bf35-e76f109116f6",
           "name": "Proft, Sinister Mastermind",
           "firstSeenAt": "2026-09-11",
@@ -9718,7 +10272,7 @@ window.LIMITED_PREP_DATA = {
           "manaCost": "{2}{B}",
           "manaValue": 3,
           "typeLine": "Legendary Enchantment",
-          "oracleText": "When Way of the Deathbringer enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[-1]: Surveil 1\" and \"[-3]: Draw a card.\")\nPlaneswalkers you control have \"[-2]: You may sacrifice a creature. If you do, create a 4/4 green Beast creature token with trample.\"",
+          "oracleText": "When Way of the Deathbringer enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")\nPlaneswalkers you control have \"[−2]: You may sacrifice a creature. If you do, create a 4/4 green Beast creature token with trample.\"",
           "rarity": "uncommon",
           "keywords": [
             "Surveil"
@@ -9984,6 +10538,30 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "f93da73c-ca8b-438e-8387-6109dac3fc1a",
+          "name": "Marwyn, the Clearcutter",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "249",
+          "color": "R",
+          "colors": [
+            "R"
+          ],
+          "manaCost": "{R}",
+          "manaValue": 1,
+          "typeLine": "Legendary Creature — Elf Warrior",
+          "oracleText": "{2}, {T}, Sacrifice an artifact or land: Draw a card.",
+          "rarity": "uncommon",
+          "keywords": [],
+          "image": "assets/cards/fra/f93da73c-ca8b-438e-8387-6109dac3fc1a.jpg",
+          "trainingImage": "assets/cards-large/fra/f93da73c-ca8b-438e-8387-6109dac3fc1a.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/f/9/f93da73c-ca8b-438e-8387-6109dac3fc1a.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/f/9/f93da73c-ca8b-438e-8387-6109dac3fc1a.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/249/marwyn-the-clearcutter?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "dd3faaf4-45ca-4714-8dbe-37102ec131cf",
           "name": "Pia, Determined Rebuilder",
           "firstSeenAt": "2026-09-14",
@@ -10003,6 +10581,30 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/d/d/dd3faaf4-45ca-4714-8dbe-37102ec131cf.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/d/d/dd3faaf4-45ca-4714-8dbe-37102ec131cf.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/250/pia-determined-rebuilder?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "ba920f23-f05c-410e-8516-c93abedf1d4d",
+          "name": "Samut, Hazoret's Champion",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "251",
+          "color": "R",
+          "colors": [
+            "R"
+          ],
+          "manaCost": "{1}{R}",
+          "manaValue": 2,
+          "typeLine": "Legendary Creature — Human Warrior Cleric",
+          "oracleText": "Creatures you control have haste.",
+          "rarity": "rare",
+          "keywords": [],
+          "image": "assets/cards/fra/ba920f23-f05c-410e-8516-c93abedf1d4d.jpg",
+          "trainingImage": "assets/cards-large/fra/ba920f23-f05c-410e-8516-c93abedf1d4d.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/b/a/ba920f23-f05c-410e-8516-c93abedf1d4d.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/b/a/ba920f23-f05c-410e-8516-c93abedf1d4d.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/251/samut-hazorets-champion?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -10072,7 +10674,7 @@ window.LIMITED_PREP_DATA = {
           "manaCost": "{2}{R}",
           "manaValue": 3,
           "typeLine": "Legendary Enchantment",
-          "oracleText": "When Way of the Warlord enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[-1]: Surveil 1\" and \"[-3]: Draw a card.\")\nPlaneswalkers you control have \"[-4]: This planeswalker deals 2 damage to up to one target creature or planeswalker and 2 damage to target player.\"",
+          "oracleText": "When Way of the Warlord enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")\nPlaneswalkers you control have \"[−4]: This planeswalker deals 2 damage to up to one target creature or planeswalker and 2 damage to target player.\"",
           "rarity": "uncommon",
           "keywords": [
             "Surveil"
@@ -10263,6 +10865,30 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "90f33f99-7bc5-42e1-815e-bfb4c2b74107",
+          "name": "Marwyn, the Preserver",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "263",
+          "color": "G",
+          "colors": [
+            "G"
+          ],
+          "manaCost": "{1}{G}",
+          "manaValue": 2,
+          "typeLine": "Legendary Creature — Elf Druid",
+          "oracleText": "Lands you control have hexproof. (They can't be the targets of spells or abilities your opponents control.)\n{2}: Return target land card from your graveyard to your hand.",
+          "rarity": "uncommon",
+          "keywords": [],
+          "image": "assets/cards/fra/90f33f99-7bc5-42e1-815e-bfb4c2b74107.jpg",
+          "trainingImage": "assets/cards-large/fra/90f33f99-7bc5-42e1-815e-bfb4c2b74107.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/9/0/90f33f99-7bc5-42e1-815e-bfb4c2b74107.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/9/0/90f33f99-7bc5-42e1-815e-bfb4c2b74107.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/263/marwyn-the-preserver?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "ff0bc30f-9d20-458e-808f-bdc2825905a5",
           "name": "Pia, Aether Ascetic",
           "firstSeenAt": "2026-09-14",
@@ -10378,7 +11004,7 @@ window.LIMITED_PREP_DATA = {
           "manaCost": "{4}{G}",
           "manaValue": 5,
           "typeLine": "Legendary Enchantment",
-          "oracleText": "When Way of the Wildspeaker enters, empower Jace 7. (Put seven loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[-1]: Surveil 1\" and \"[-3]: Draw a card.\")\nPlaneswalkers you control have \"[-4]: Create a 4/4 green Beast creature token with trample.\"",
+          "oracleText": "When Way of the Wildspeaker enters, empower Jace 7. (Put seven loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")\nPlaneswalkers you control have \"[−4]: Create a 4/4 green Beast creature token with trample.\"",
           "rarity": "uncommon",
           "keywords": [
             "Surveil"
@@ -10550,6 +11176,61 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "28d84ef6-e190-46d4-882d-1cea5e111e2a",
+          "name": "Saheeli, Jewel of Avishkar",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "275",
+          "color": "M",
+          "colors": [
+            "R",
+            "U"
+          ],
+          "manaCost": "{2}{U}{R}",
+          "manaValue": 4,
+          "typeLine": "Legendary Creature — Human Artificer",
+          "oracleText": "Thopters you control have haste.\nWhenever you cast a noncreature spell, create a 1/1 colorless Thopter artifact creature token with flying.",
+          "rarity": "uncommon",
+          "keywords": [],
+          "image": "assets/cards/fra/28d84ef6-e190-46d4-882d-1cea5e111e2a.jpg",
+          "trainingImage": "assets/cards-large/fra/28d84ef6-e190-46d4-882d-1cea5e111e2a.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/2/8/28d84ef6-e190-46d4-882d-1cea5e111e2a.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/2/8/28d84ef6-e190-46d4-882d-1cea5e111e2a.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/275/saheeli-jewel-of-avishkar?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "6529d399-677e-45a6-ac3e-12a0b10f6c37",
+          "name": "Tam, the Possibility",
+          "firstSeenAt": "2026-09-17",
+          "collectorNumber": "276",
+          "color": "M",
+          "colors": [
+            "B",
+            "G",
+            "R",
+            "U",
+            "W"
+          ],
+          "manaCost": "{1}{G}{U}",
+          "manaValue": 3,
+          "typeLine": "Legendary Creature — Gorgon Wizard",
+          "oracleText": "Planeswalker spells you cast cost {1} less to cast.\n{W}{U}{B}{R}{G}, {T}: Proliferate X times, where X is the number of planeswalker types among planeswalkers you control. (To proliferate, choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+          "rarity": "rare",
+          "keywords": [
+            "Proliferate"
+          ],
+          "image": "assets/cards/fra/6529d399-677e-45a6-ac3e-12a0b10f6c37.jpg",
+          "trainingImage": "assets/cards-large/fra/6529d399-677e-45a6-ac3e-12a0b10f6c37.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/6/5/6529d399-677e-45a6-ac3e-12a0b10f6c37.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/6/5/6529d399-677e-45a6-ac3e-12a0b10f6c37.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/276/tam-the-possibility?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "f3869752-eade-4e7a-8dd1-68cafb9e10be",
           "name": "Vraska, Soul of Stone",
           "firstSeenAt": "2026-09-12",
@@ -10652,10 +11333,10 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
-          "id": "796b72af-5078-427d-b566-9bccad17090f",
+          "id": "a4eaecb8-066a-4c72-aa5d-5ed0614ba537",
           "name": "Plains",
           "firstSeenAt": "2026-09-08",
-          "collectorNumber": "382",
+          "collectorNumber": "281",
           "color": "W",
           "colors": [
             "W"
@@ -10666,20 +11347,20 @@ window.LIMITED_PREP_DATA = {
           "oracleText": "({T}: Add {W}.)",
           "rarity": "common",
           "keywords": [],
-          "image": "assets/cards/fra/796b72af-5078-427d-b566-9bccad17090f.jpg",
-          "trainingImage": "assets/cards-large/fra/796b72af-5078-427d-b566-9bccad17090f.jpg",
-          "imageSource": "https://cards.scryfall.io/small/front/7/9/796b72af-5078-427d-b566-9bccad17090f.jpg",
-          "trainingImageSource": "https://cards.scryfall.io/normal/front/7/9/796b72af-5078-427d-b566-9bccad17090f.jpg",
-          "scryfallUrl": "https://scryfall.com/card/fra/382/plains?utm_source=api",
+          "image": "assets/cards/fra/a4eaecb8-066a-4c72-aa5d-5ed0614ba537.jpg",
+          "trainingImage": "assets/cards-large/fra/a4eaecb8-066a-4c72-aa5d-5ed0614ba537.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/a/4/a4eaecb8-066a-4c72-aa5d-5ed0614ba537.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/a/4/a4eaecb8-066a-4c72-aa5d-5ed0614ba537.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/281/plains?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
         },
         {
-          "id": "bc4cd881-9c34-4cf9-8afe-050e803f34a6",
+          "id": "d8184e92-54e6-4ddc-86e8-67f5c5eb079d",
           "name": "Island",
           "firstSeenAt": "2026-09-08",
-          "collectorNumber": "385",
+          "collectorNumber": "283",
           "color": "U",
           "colors": [
             "U"
@@ -10690,20 +11371,20 @@ window.LIMITED_PREP_DATA = {
           "oracleText": "({T}: Add {U}.)",
           "rarity": "common",
           "keywords": [],
-          "image": "assets/cards/fra/bc4cd881-9c34-4cf9-8afe-050e803f34a6.jpg",
-          "trainingImage": "assets/cards-large/fra/bc4cd881-9c34-4cf9-8afe-050e803f34a6.jpg",
-          "imageSource": "https://cards.scryfall.io/small/front/b/c/bc4cd881-9c34-4cf9-8afe-050e803f34a6.jpg",
-          "trainingImageSource": "https://cards.scryfall.io/normal/front/b/c/bc4cd881-9c34-4cf9-8afe-050e803f34a6.jpg",
-          "scryfallUrl": "https://scryfall.com/card/fra/385/island?utm_source=api",
+          "image": "assets/cards/fra/d8184e92-54e6-4ddc-86e8-67f5c5eb079d.jpg",
+          "trainingImage": "assets/cards-large/fra/d8184e92-54e6-4ddc-86e8-67f5c5eb079d.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/d/8/d8184e92-54e6-4ddc-86e8-67f5c5eb079d.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/d/8/d8184e92-54e6-4ddc-86e8-67f5c5eb079d.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/283/island?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
         },
         {
-          "id": "e8418418-10bb-48e1-83ed-0081390384b4",
+          "id": "30693b85-550d-4c98-8c5b-4fd4e91c9f28",
           "name": "Swamp",
           "firstSeenAt": "2026-09-08",
-          "collectorNumber": "388",
+          "collectorNumber": "285",
           "color": "B",
           "colors": [
             "B"
@@ -10714,20 +11395,20 @@ window.LIMITED_PREP_DATA = {
           "oracleText": "({T}: Add {B}.)",
           "rarity": "common",
           "keywords": [],
-          "image": "assets/cards/fra/e8418418-10bb-48e1-83ed-0081390384b4.jpg",
-          "trainingImage": "assets/cards-large/fra/e8418418-10bb-48e1-83ed-0081390384b4.jpg",
-          "imageSource": "https://cards.scryfall.io/small/front/e/8/e8418418-10bb-48e1-83ed-0081390384b4.jpg",
-          "trainingImageSource": "https://cards.scryfall.io/normal/front/e/8/e8418418-10bb-48e1-83ed-0081390384b4.jpg",
-          "scryfallUrl": "https://scryfall.com/card/fra/388/swamp?utm_source=api",
+          "image": "assets/cards/fra/30693b85-550d-4c98-8c5b-4fd4e91c9f28.jpg",
+          "trainingImage": "assets/cards-large/fra/30693b85-550d-4c98-8c5b-4fd4e91c9f28.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/3/0/30693b85-550d-4c98-8c5b-4fd4e91c9f28.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/3/0/30693b85-550d-4c98-8c5b-4fd4e91c9f28.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/285/swamp?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
         },
         {
-          "id": "ec2ceca8-2d90-4d8f-ac47-cd8134e8d859",
+          "id": "16671d98-6f00-477b-a010-d2905c94eb65",
           "name": "Mountain",
           "firstSeenAt": "2026-09-08",
-          "collectorNumber": "391",
+          "collectorNumber": "287",
           "color": "R",
           "colors": [
             "R"
@@ -10738,11 +11419,11 @@ window.LIMITED_PREP_DATA = {
           "oracleText": "({T}: Add {R}.)",
           "rarity": "common",
           "keywords": [],
-          "image": "assets/cards/fra/ec2ceca8-2d90-4d8f-ac47-cd8134e8d859.jpg",
-          "trainingImage": "assets/cards-large/fra/ec2ceca8-2d90-4d8f-ac47-cd8134e8d859.jpg",
-          "imageSource": "https://cards.scryfall.io/small/front/e/c/ec2ceca8-2d90-4d8f-ac47-cd8134e8d859.jpg",
-          "trainingImageSource": "https://cards.scryfall.io/normal/front/e/c/ec2ceca8-2d90-4d8f-ac47-cd8134e8d859.jpg",
-          "scryfallUrl": "https://scryfall.com/card/fra/391/mountain?utm_source=api",
+          "image": "assets/cards/fra/16671d98-6f00-477b-a010-d2905c94eb65.jpg",
+          "trainingImage": "assets/cards-large/fra/16671d98-6f00-477b-a010-d2905c94eb65.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/1/6/16671d98-6f00-477b-a010-d2905c94eb65.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/1/6/16671d98-6f00-477b-a010-d2905c94eb65.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/287/mountain?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
