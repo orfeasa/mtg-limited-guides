@@ -17,7 +17,7 @@ Preparation progress stays only in the current browser through `localStorage`, i
 
 The current guides are:
 
-- **The Hobbit** — five official archetype plans with separate Draft and Sealed field data, a complete 188-card observed Premier Draft ranking refreshed from 620,000 matches, and 18 real draft decisions from a public 17Lands 7–2 replay.
+- **The Hobbit** — five official archetype plans with separate Draft and Sealed field data, a complete 188-card observed Premier Draft ranking refreshed from 750,000 matches, and 18 real draft decisions from a public 17Lands 7–2 replay.
 - **Reality Fracture** — live preview file with unrated card reading and browsing; rating training will become available only after a complete evaluation is captured.
 
 ## Run locally

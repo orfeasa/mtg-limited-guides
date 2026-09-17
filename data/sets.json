@@ -24,8 +24,8 @@
         "status": "available",
         "label": "Observed draft data",
         "source": "Untapped.gg",
-        "capturedAt": "2026-09-02",
-        "matches": 620000,
+        "capturedAt": "2026-09-17",
+        "matches": 750000,
         "rankRange": "Bronze–Platinum",
         "archetype": "All archetypes",
         "stat": "In Hand WR",
@@ -33,8 +33,8 @@
       },
       "performance": {
         "source": "Untapped.gg",
-        "capturedAt": "2026-09-02T17:05:52.004Z",
-        "matches": 620300,
+        "capturedAt": "2026-09-17T13:12:26.373Z",
+        "matches": 753422,
         "label": "Observed card evidence"
       },
       "cardSource": {
