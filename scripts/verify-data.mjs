@@ -108,6 +108,7 @@ for (const scenario of hobbit.draftDecisions.scenarios) {
   if (scenario.cards.length < 3) throw new Error(`Draft decision ${scenario.id} is too trivial`);
   if (!scenario.cards.includes(scenario.replayPick)) throw new Error(`Draft decision ${scenario.id} omits its replay pick`);
   if (!scenario.replayRead) throw new Error(`Draft decision ${scenario.id} omits its replay interpretation`);
+  if (!scenario.lesson) throw new Error(`Draft decision ${scenario.id} omits its authored lesson`);
   const unknown = [...scenario.cards, ...scenario.pool].filter((name) => !hobbitNames.has(name) && !basicLandNames.has(name));
   if (unknown.length > 0) throw new Error(`Draft decision ${scenario.id} has unknown cards: ${unknown.join(", ")}`);
 }

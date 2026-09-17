@@ -31,6 +31,17 @@
     { label: "Filler", tiers: ["D+", "D", "D-", "F"] },
   ];
   const tierOrder = tierFamilies.flatMap((family) => family.tiers);
+  const decisionReasonLabels = {
+    power: "Raw power",
+    pool: "Fits the pool",
+    open: "Stays flexible",
+    synergy: "Synergy or payoff",
+    signal: "Reading a signal",
+    unsure: "Not sure",
+  };
+  const decisionReasonIds = new Set(Object.keys(decisionReasonLabels));
+  const decisionReflectionIds = new Set(["keep", "change"]);
+  const decisionPhases = new Set(["choosing", "review", "complete"]);
   const atlasTierOrder = [...tierOrder, "?"];
   const validAtlasGroupings = new Set(["colour", "tier"]);
   const colorGroups = [
@@ -89,20 +100,40 @@
     archetypeList: $("#archetype-list"),
     archetypeOfficialSource: $("#archetype-official-source"),
     archetypeDataSource: $("#archetype-data-source"),
+    decisionPage: $(".decisions-page"),
     decisionPosition: $("#decision-position"),
     decisionsReviewed: $("#decisions-reviewed"),
     decisionCoordinate: $("#decision-coordinate"),
+    decisionReplayNote: $(".decision-replay-note"),
+    decisionLegacyNote: $("#decision-legacy-note"),
+    decisionContext: $("#decision-context"),
     poolDirection: $("#pool-direction"),
     poolSummary: $("#pool-summary"),
     poolCount: $("#pool-count"),
     decisionPool: $("#decision-pool"),
+    decisionPack: $("#decision-pack"),
     decisionCards: $("#decision-cards"),
-    changeDecision: $("#change-decision"),
+    decisionReasoning: $("#decision-reasoning"),
+    decisionReasons: $("#decision-reasons"),
+    decisionChoiceLabel: $("#decision-choice-label"),
+    confirmDecision: $("#confirm-decision"),
     decisionReview: $("#decision-review"),
     decisionVerdict: $("#decision-verdict"),
+    decisionLesson: $("#decision-lesson"),
     decisionLedger: $("#decision-ledger"),
     decisionCoaching: $("#decision-coaching"),
+    decisionReflectionOptions: $("#decision-reflection-options"),
+    previousDecision: $("#previous-decision"),
     nextDecision: $("#next-decision"),
+    decisionSummary: $("#decision-summary"),
+    summaryReplayCount: $("#summary-replay-count"),
+    summaryDataCount: $("#summary-data-count"),
+    summaryThirdCount: $("#summary-third-count"),
+    summaryChangeCount: $("#summary-change-count"),
+    summaryCommonReason: $("#summary-common-reason"),
+    decisionRevisit: $("#decision-revisit"),
+    decisionRevisitList: $("#decision-revisit-list"),
+    reviewFirstDecision: $("#review-first-decision"),
     atlasTitle: $("#atlas-title"),
     atlasCopy: $("#atlas-copy"),
     previewCatchup: $("#preview-catchup"),
@@ -139,6 +170,7 @@
   let currentView = validViews.has(requestedView) ? requestedView : "training";
   let previewCardId = null;
   let previewTouchStart = null;
+  let previewOpener = null;
   let cards = [];
   let cardById = new Map();
   let trainerCardId = null;
@@ -146,6 +178,9 @@
   let trainerGuess = null;
   let decisionIndex = 0;
   let decisionChoice = null;
+  let decisionReason = null;
+  let decisionStage = "choose";
+  let decisionSummaryVisible = false;
   let atlasSince = "";
   let atlasGrouping = params.get("group") === "tier" ? "tier" : "colour";
   let archetypeFormat = params.get("format") === "sealed" ? "sealed" : "draft";
@@ -162,7 +197,9 @@
       queue: [],
       trainerRevealed: false,
       trainerGuess: null,
-      decisionsReviewed: [],
+      schemaVersion: 2,
+      legacyDecisionsReviewed: [],
+      decisionResponses: {},
       currentDecision: null,
     };
   }
@@ -185,8 +222,31 @@
       next.currentCard = validIds.has(next.currentCard) ? next.currentCard : null;
       next.gradeAttempts = Number.isInteger(next.gradeAttempts) && next.gradeAttempts >= 0 ? next.gradeAttempts : 0;
       next.gradeCorrect = Number.isInteger(next.gradeCorrect) && next.gradeCorrect >= 0 && next.gradeCorrect <= next.gradeAttempts ? next.gradeCorrect : 0;
-      const decisionIds = new Set((currentSet.draftDecisions?.scenarios || []).map((scenario) => scenario.id));
-      next.decisionsReviewed = Array.isArray(next.decisionsReviewed) ? [...new Set(next.decisionsReviewed.filter((id) => decisionIds.has(id)))] : [];
+      const decisionScenarios = currentSet.draftDecisions?.scenarios || [];
+      const decisionById = new Map(decisionScenarios.map((scenario) => [scenario.id, scenario]));
+      const decisionIds = new Set(decisionById.keys());
+      const legacyDecisionIds = [
+        ...(Array.isArray(next.legacyDecisionsReviewed) ? next.legacyDecisionsReviewed : []),
+        ...(Array.isArray(next.decisionsReviewed) ? next.decisionsReviewed : []),
+      ];
+      next.schemaVersion = 2;
+      next.legacyDecisionsReviewed = [...new Set(legacyDecisionIds.filter((id) => decisionIds.has(id)))];
+      delete next.decisionsReviewed;
+      next.decisionResponses = Object.fromEntries(Object.entries(next.decisionResponses && typeof next.decisionResponses === "object" ? next.decisionResponses : {}).flatMap(([id, response]) => {
+        const scenario = decisionById.get(id);
+        if (!scenario || !response || typeof response !== "object" || !scenario.cards.includes(response.initialPick)) return [];
+        const reason = decisionReasonIds.has(response.reason) ? response.reason : null;
+        const reflection = decisionReflectionIds.has(response.reflection) ? response.reflection : null;
+        let phase = decisionPhases.has(response.phase) ? response.phase : reflection ? "complete" : reason ? "review" : "choosing";
+        if (phase === "complete" && (!reason || !reflection)) phase = reason ? "review" : "choosing";
+        if (phase === "review" && !reason) phase = "choosing";
+        return [[id, {
+          phase,
+          initialPick: response.initialPick,
+          reason,
+          reflection: phase === "complete" ? reflection : null,
+        }]];
+      }));
       next.currentDecision = decisionIds.has(next.currentDecision) ? next.currentDecision : null;
       delete next.pickAttempts;
       delete next.pickCorrect;
@@ -644,8 +704,23 @@
     }));
   }
 
-  function decisionScenario() {
-    return currentSet.draftDecisions?.scenarios?.[decisionIndex] || null;
+  function decisionScenario(index = decisionIndex) {
+    return currentSet.draftDecisions?.scenarios?.[index] || null;
+  }
+
+  function decisionResponse(scenario = decisionScenario()) {
+    return scenario ? progress.decisionResponses?.[scenario.id] || null : null;
+  }
+
+  function completedDecisionCount() {
+    return (currentSet.draftDecisions?.scenarios || []).filter((scenario) => decisionResponse(scenario)?.phase === "complete").length;
+  }
+
+  function hydrateDecisionState() {
+    const response = decisionResponse();
+    decisionChoice = response?.initialPick || null;
+    decisionReason = response?.reason || null;
+    decisionStage = response && response.phase !== "choosing" ? "review" : "choose";
   }
 
   function cardForName(name) {
@@ -678,45 +753,56 @@
       counts.set(color, (counts.get(color) || 0) + 1);
     });
     const ranked = colorGroups.map((group) => ({ ...group, count: counts.get(group.id) || 0 })).filter((group) => group.count > 0).sort((left, right) => right.count - left.count);
-    if (pool.length === 0) return { direction: "No commitments yet", summary: "Your first pick can stay open.", dominant: null };
+    if (pool.length === 0) return { direction: "No commitments yet", summary: "The first pick can stay open." };
     if (pool.length < 4 || !ranked[0] || ranked[0].count === ranked[1]?.count) {
       const names = ranked.slice(0, 2).map((group) => group.name.toLowerCase()).join(" and ");
-      return { direction: "Still open", summary: `${pool.length} picks so far${names ? `, led by ${names}` : ""}.`, dominant: null };
+      return { direction: "Still open", summary: `${pool.length} ${pool.length === 1 ? "pick" : "picks"} so far${names ? `, led by ${names}` : ""}.` };
     }
     const lead = ranked[0];
     const clearLead = lead.count >= (ranked[1]?.count || 0) + 2;
     return {
       direction: clearLead ? `${lead.name} leaning` : `${lead.name} / ${ranked[1]?.name || "open"}`,
       summary: `${lead.count} of ${pool.length} picks are ${lead.name.toLowerCase()}${clearLead ? "; changing course now needs a real payoff" : "; the second colour is still fluid"}.`,
-      dominant: clearLead ? lead.id : null,
     };
   }
 
   function decisionOption(name) {
     const meta = decisionCardMeta(name);
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "decision-card";
-    button.dataset.cardName = name;
-    button.setAttribute("aria-pressed", String(decisionChoice === name));
-    button.setAttribute("aria-label", `Choose ${name}, ${meta.rank}`);
-    if (decisionChoice) button.disabled = true;
+    const item = document.createElement("article");
+    item.className = "decision-card";
+    item.dataset.selected = String(decisionChoice === name);
     const visual = meta.card
-      ? `<img src="${escapeHtml(meta.card.trainingImage || meta.card.image)}" alt="" width="190" height="266">`
+      ? `<button class="decision-card-preview" type="button" data-preview-card-name="${escapeHtml(name)}" aria-label="View ${escapeHtml(name)} card"><img src="${escapeHtml(meta.card.trainingImage || meta.card.image)}" alt="" width="190" height="266"><span class="decision-view-label">View card</span></button>`
       : `<span class="decision-land" data-color="${meta.color}">${manaSymbol(meta.color, "mana-symbol--land")}<strong>${escapeHtml(name)}</strong><span>Basic land</span></span>`;
-    button.innerHTML = `${visual}<span class="decision-card-copy"><strong>${escapeHtml(name)}</strong><span>${escapeHtml(meta.rank)}</span><span>${escapeHtml(meta.detail)}</span></span>`;
-    return button;
+    const choiceLabel = decisionChoice === name ? `Selected ${name}` : `Choose ${name}`;
+    item.innerHTML = `${visual}<div class="decision-card-copy"><strong>${escapeHtml(name)}</strong><button class="decision-card-choose" type="button" data-card-name="${escapeHtml(name)}" aria-label="${escapeHtml(choiceLabel)}" aria-pressed="${String(decisionChoice === name)}">${decisionChoice === name ? "Selected" : "Choose"}</button></div>`;
+    const image = item.querySelector("img");
+    if (image && meta.card.trainingImage && meta.card.trainingImage !== meta.card.image) {
+      image.addEventListener("error", () => { image.src = meta.card.image; }, { once: true });
+    }
+    return item;
   }
 
   function renderDecisionPool(scenario) {
     const grouped = new Map();
     scenario.pool.forEach((name) => grouped.set(name, (grouped.get(name) || 0) + 1));
     elements.poolCount.textContent = `${scenario.pool.length} ${scenario.pool.length === 1 ? "card" : "cards"}`;
+    if (grouped.size === 0) {
+      const empty = document.createElement("p");
+      empty.className = "decision-pool-empty";
+      empty.textContent = "No earlier picks";
+      elements.decisionPool.replaceChildren(empty);
+      return;
+    }
     elements.decisionPool.replaceChildren(...[...grouped].map(([name, count]) => {
       const meta = decisionCardMeta(name);
-      const item = document.createElement("span");
+      const item = document.createElement(meta.card ? "button" : "span");
       item.className = "pool-card";
-      item.title = `${name} · ${meta.rank}`;
+      if (meta.card) {
+        item.type = "button";
+        item.dataset.previewCardName = name;
+        item.setAttribute("aria-label", `View ${name} card from the historical pool`);
+      }
       item.innerHTML = meta.card
         ? `<img src="${escapeHtml(meta.card.image)}" alt="" width="40" height="56"><span>${escapeHtml(name)}</span>${count > 1 ? `<strong>×${count}</strong>` : ""}`
         : `${manaSymbol(meta.color, "mana-symbol--pool")}<span>${escapeHtml(name)}</span>${count > 1 ? `<strong>×${count}</strong>` : ""}`;
@@ -724,70 +810,103 @@
     }));
   }
 
+  function renderDecisionReflection(response) {
+    elements.decisionReflectionOptions.querySelectorAll("[data-decision-reflection]").forEach((button) => {
+      button.setAttribute("aria-pressed", String(response?.reflection === button.dataset.decisionReflection));
+    });
+    const complete = response?.phase === "complete";
+    elements.previousDecision.disabled = !complete || decisionIndex === 0;
+    elements.nextDecision.disabled = !complete;
+    elements.nextDecision.textContent = decisionIndex === currentSet.draftDecisions.scenarios.length - 1 ? "Finish review" : "Next decision";
+  }
+
   function renderDecisionReview(scenario) {
-    const choice = decisionCardMeta(decisionChoice);
+    const response = decisionResponse(scenario);
+    const choice = decisionCardMeta(response.initialPick);
     const replay = decisionCardMeta(scenario.replayPick);
     const leaderCard = decisionDataLeader(scenario);
-    const leader = decisionCardMeta(leaderCard?.name || scenario.replayPick);
-    const allAgree = decisionChoice === scenario.replayPick && scenario.replayPick === leader.card?.name;
-    if (allAgree) elements.decisionVerdict.textContent = "Your pick, the replay, and the current raw ranking all point to the same card.";
-    else if (decisionChoice === scenario.replayPick) elements.decisionVerdict.textContent = "You matched the replay pick. Now test whether its pool fit justifies moving away from the raw ranking.";
-    else if (decisionChoice === leader.card?.name) elements.decisionVerdict.textContent = "You followed the current raw ranking. The replay took a different line, so context has to explain the gap.";
+    const leader = leaderCard ? decisionCardMeta(leaderCard.name) : null;
+    const allAgree = response.initialPick === scenario.replayPick && scenario.replayPick === leaderCard?.name;
+    if (!leaderCard) elements.decisionVerdict.textContent = "No ranked card is available for a statistical comparison, so this review stays with your reasoning and the historical choice.";
+    else if (allAgree) elements.decisionVerdict.textContent = "Your pick, the replay, and the current raw ranking all point to the same card.";
+    else if (response.initialPick === scenario.replayPick) elements.decisionVerdict.textContent = "You matched the replay pick. Compare its contextual case with the raw baseline.";
+    else if (response.initialPick === leaderCard.name) elements.decisionVerdict.textContent = "You followed the current raw ranking. The replay took a different line, so context has to explain the gap.";
     else elements.decisionVerdict.textContent = "You found a third line. Compare what it gains against both raw strength and the direction taken in the replay.";
 
     const candidates = decisionDataCandidates(scenario);
     const runnerUp = candidates[1] || null;
-    const rankGap = runnerUp && leader.card ? runnerUp.rank - leader.card.rank : null;
+    const rankGap = runnerUp && leaderCard ? runnerUp.rank - leaderCard.rank : null;
     const rankLead = runnerUp
       ? `${rankGap === 1 ? "one place" : `${rankGap} places`} ahead of ${runnerUp.name} at #${runnerUp.rank}`
       : "the only ranked card remaining";
-    const winRateContext = Number.isFinite(leader.card?.stats?.inHandWinRate)
-      ? ` Its recorded in-hand win rate is ${leader.card.stats.inHandWinRate.toFixed(1)}%.`
+    const winRateContext = Number.isFinite(leaderCard?.stats?.inHandWinRate)
+      ? ` Its recorded in-hand win rate is ${leaderCard.stats.inHandWinRate.toFixed(1)}%.`
       : "";
-    const dataRead = `The exercise takes the highest card left in the current Untapped ranking. ${leader.card?.name || scenario.replayPick} is #${leader.card?.rank || "—"}, ${rankLead}.${winRateContext} Pool fit is not part of this calculation.`;
-    const ledgerItem = (label, name, meta, explanation = null) => `<div><dt>${label}</dt><dd><strong class="decision-ledger-name">${escapeHtml(name)}</strong><span class="decision-ledger-meta">${escapeHtml(meta.rank)} · ${escapeHtml(meta.detail)}</span>${explanation ? `<span class="decision-ledger-reason"><strong>${escapeHtml(explanation.label)}</strong><span>${escapeHtml(explanation.text)}</span><small>${escapeHtml(explanation.boundary)}</small></span>` : ""}</dd></div>`;
+    const dataRead = leaderCard
+      ? `The exercise takes the highest card left in the current Untapped ranking. ${leaderCard.name} is #${leaderCard.rank}, ${rankLead}.${winRateContext} Pool fit is not part of this calculation.`
+      : "No card in this pack has a current rank, so the exercise does not manufacture a statistical leader.";
+    const ledgerItem = (label, name, meta, explanation) => `<div><dt>${escapeHtml(label)}</dt><dd><strong class="decision-ledger-name">${escapeHtml(name)}</strong>${meta ? `<span class="decision-ledger-meta">${escapeHtml(meta.rank)} · ${escapeHtml(meta.detail)}</span>` : ""}<span class="decision-ledger-reason"><strong>${escapeHtml(explanation.label)}</strong><span>${escapeHtml(explanation.text)}</span><small>${escapeHtml(explanation.boundary)}</small></span></dd></div>`;
     elements.decisionLedger.innerHTML = [
-      ledgerItem("Your pick", decisionChoice, choice),
-      ledgerItem("Replay pick", scenario.replayPick, replay, {
+      ledgerItem("Your decision", response.initialPick, choice, {
+        label: "What drove your pick",
+        text: decisionReasonLabels[response.reason],
+        boundary: "Recorded before the replay choice and ranking were revealed",
+      }),
+      ledgerItem("What happened", scenario.replayPick, replay, {
         label: "Why the replay may have taken it",
         text: scenario.replayRead,
         boundary: "Editorial inference · the drafter did not supply a reason",
       }),
-      ledgerItem("Data leader", leader.card?.name || scenario.replayPick, leader, {
-        label: "Why the data selected it",
+      ledgerItem("Statistical baseline", leaderCard?.name || "No ranked card", leader, {
+        label: leaderCard ? "Why the data selected it" : "Why there is no data leader",
         text: dataRead,
-        boundary: "Calculated from current rank · pool fit excluded",
+        boundary: leaderCard ? "Calculated from current rank · pool fit excluded" : "No baseline has been inferred",
       }),
     ].join("");
 
-    if (scenario.replayPick === leader.card?.name) {
+    elements.decisionLesson.textContent = scenario.lesson;
+    if (!leaderCard) {
+      elements.decisionCoaching.textContent = "Use the authored takeaway and the historical context without treating missing data as evidence for either card.";
+    } else if (scenario.replayPick === leaderCard.name) {
       elements.decisionCoaching.textContent = "Replay and data arrive at the same card for different evidential reasons: one is the pick that happened, while the other is a mechanical rank calculation.";
     } else {
-      const replayGap = Number.isFinite(replay.card?.rank) && Number.isFinite(leader.card?.rank) ? replay.card.rank - leader.card.rank : null;
+      const replayGap = Number.isFinite(replay.card?.rank) ? replay.card.rank - leaderCard.rank : null;
       const gapRead = Number.isFinite(replayGap)
         ? `gave up ${replayGap === 1 ? "one ranking place" : `${replayGap} ranking places`}`
         : "moved away from the ranked baseline";
       elements.decisionCoaching.textContent = `The replay ${gapRead} for the contextual case above. That is the tradeoff to interrogate—not proof that either pick is automatically correct.`;
     }
+    renderDecisionReflection(response);
   }
 
-  function chooseDecision(name) {
-    if (!decisionScenario() || decisionChoice) return;
-    decisionChoice = name;
-    const scenario = decisionScenario();
-    if (!progress.decisionsReviewed.includes(scenario.id)) progress.decisionsReviewed.push(scenario.id);
-    progress.currentDecision = scenario.id;
-    elements.decisionCards.querySelectorAll("button").forEach((button) => {
-      button.disabled = true;
-      button.setAttribute("aria-pressed", String(button.dataset.cardName === name));
-    });
-    elements.changeDecision.hidden = false;
-    elements.decisionReview.hidden = false;
-    elements.decisionsReviewed.textContent = `${progress.decisionsReviewed.length} reviewed`;
-    renderDecisionReview(scenario);
-    saveProgress();
-    updateUrl();
-    elements.decisionReview.scrollIntoView({ behavior: prefersReducedMotion ? "auto" : "smooth", block: "start" });
+  function renderDecisionSummary() {
+    const scenarios = currentSet.draftDecisions.scenarios;
+    const responses = scenarios.map((scenario) => ({ scenario, response: decisionResponse(scenario), leader: decisionDataLeader(scenario) })).filter((entry) => entry.response?.phase === "complete");
+    elements.summaryReplayCount.textContent = String(responses.filter(({ scenario, response }) => response.initialPick === scenario.replayPick).length);
+    elements.summaryDataCount.textContent = String(responses.filter(({ response, leader }) => response.initialPick === leader?.name).length);
+    elements.summaryThirdCount.textContent = String(responses.filter(({ scenario, response, leader }) => response.initialPick !== scenario.replayPick && response.initialPick !== leader?.name).length);
+    elements.summaryChangeCount.textContent = String(responses.filter(({ response }) => response.reflection === "change").length);
+
+    const reasonCounts = new Map(Object.keys(decisionReasonLabels).map((reason) => [reason, 0]));
+    responses.forEach(({ response }) => reasonCounts.set(response.reason, (reasonCounts.get(response.reason) || 0) + 1));
+    const highestReasonCount = Math.max(...reasonCounts.values());
+    const commonReasons = [...reasonCounts].filter(([, count]) => count === highestReasonCount && count > 0).map(([reason]) => decisionReasonLabels[reason]);
+    const reasonRead = commonReasons.length === 1
+      ? `Your most common reason was ${commonReasons[0].toLowerCase()}.`
+      : commonReasons.length > 1
+        ? `Your reasoning was mixed across ${commonReasons.map((reason) => reason.toLowerCase()).join(", ")}.`
+        : "No reasoning pattern is available yet.";
+    elements.summaryCommonReason.textContent = `${reasonRead} Replay and data counts can overlap when both sources selected the same card.`;
+
+    const revisit = responses.filter(({ response }) => response.reflection === "change");
+    elements.decisionRevisit.hidden = revisit.length === 0;
+    elements.decisionRevisitList.replaceChildren(...revisit.map(({ scenario }) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.dataset.reviewDecision = scenario.id;
+      button.textContent = `Pack ${scenario.pack} · Pick ${scenario.pick}`;
+      return button;
+    }));
   }
 
   function renderDecision() {
@@ -795,38 +914,157 @@
     const scenarios = currentSet.draftDecisions.scenarios;
     decisionIndex = Math.max(0, Math.min(decisionIndex, scenarios.length - 1));
     const scenario = scenarios[decisionIndex];
+    const completed = completedDecisionCount();
+    const legacyIncomplete = (progress.legacyDecisionsReviewed || []).filter((id) => progress.decisionResponses?.[id]?.phase !== "complete").length;
+    elements.decisionsReviewed.textContent = decisionSummaryVisible ? "Review complete" : `${completed} completed`;
+    elements.decisionPosition.textContent = decisionSummaryVisible ? `${completed} / ${scenarios.length}` : `${decisionIndex + 1} / ${scenarios.length}`;
+    elements.decisionReplayNote.hidden = decisionSummaryVisible;
+    elements.decisionLegacyNote.hidden = decisionSummaryVisible || legacyIncomplete === 0;
+    elements.decisionLegacyNote.textContent = legacyIncomplete === 1
+      ? "1 decision was reviewed before this update. Revisit it to record your pick, reason, and reflection."
+      : `${legacyIncomplete} decisions were reviewed before this update. Revisit them to record your picks, reasons, and reflections.`;
+    elements.decisionContext.hidden = decisionSummaryVisible;
+    elements.decisionPack.hidden = true;
+    elements.decisionReview.hidden = true;
+    elements.decisionSummary.hidden = !decisionSummaryVisible;
+    if (decisionSummaryVisible) {
+      renderDecisionSummary();
+      return;
+    }
+
     const read = poolRead(scenario.pool);
-    elements.decisionPosition.textContent = `${decisionIndex + 1} / ${scenarios.length}`;
-    elements.decisionsReviewed.textContent = `${progress.decisionsReviewed.length} reviewed`;
     elements.decisionCoordinate.textContent = `Pack ${scenario.pack} · Pick ${scenario.pick}`;
     elements.poolDirection.textContent = read.direction;
     elements.poolSummary.textContent = read.summary;
     renderDecisionPool(scenario);
-    elements.decisionCards.replaceChildren(...scenario.cards.map(decisionOption));
-    elements.changeDecision.hidden = !decisionChoice;
-    elements.decisionReview.hidden = !decisionChoice;
-    if (decisionChoice) renderDecisionReview(scenario);
+    hydrateDecisionState();
+
+    if (decisionStage === "choose") {
+      elements.decisionPack.hidden = false;
+      elements.decisionCards.replaceChildren(...scenario.cards.map(decisionOption));
+      elements.decisionReasoning.hidden = !decisionChoice;
+      elements.decisionReasons.querySelectorAll("input[name='decision-reason']").forEach((input) => {
+        input.checked = input.value === decisionReason;
+      });
+      elements.decisionChoiceLabel.textContent = decisionChoice ? `${decisionChoice} selected.` : "";
+      elements.confirmDecision.disabled = !decisionChoice || !decisionReason;
+      return;
+    }
+
+    elements.decisionReview.hidden = false;
+    renderDecisionReview(scenario);
   }
 
-  function resetDecisionChoice() {
-    decisionChoice = null;
+  function chooseDecision(name) {
+    const scenario = decisionScenario();
+    const response = decisionResponse(scenario);
+    if (!scenario || !scenario.cards.includes(name) || (response && response.phase !== "choosing")) return;
+    decisionChoice = name;
+    progress.decisionResponses[scenario.id] = {
+      phase: "choosing",
+      initialPick: name,
+      reason: decisionReason,
+      reflection: null,
+    };
+    progress.currentDecision = scenario.id;
+    saveProgress();
     renderDecision();
+    updateUrl();
+    elements.liveRegion.textContent = `${name} selected. Choose what drove your pick.`;
+    requestAnimationFrame(() => {
+      elements.decisionReasoning.scrollIntoView({ behavior: prefersReducedMotion ? "auto" : "smooth", block: "nearest" });
+      elements.decisionReasons.querySelector("input:checked, input")?.focus();
+    });
+  }
+
+  function selectDecisionReason(reason) {
+    const scenario = decisionScenario();
+    const response = decisionResponse(scenario);
+    if (!scenario || !response || response.phase !== "choosing" || !decisionReasonIds.has(reason)) return;
+    decisionReason = reason;
+    response.reason = reason;
+    elements.confirmDecision.disabled = false;
+    elements.liveRegion.textContent = `${decisionReasonLabels[reason]} selected as your reason.`;
+    saveProgress();
+  }
+
+  function confirmDecision() {
+    const scenario = decisionScenario();
+    const response = decisionResponse(scenario);
+    if (!scenario || !response || response.phase !== "choosing" || !decisionReasonIds.has(response.reason)) {
+      elements.decisionReasons.querySelector("input")?.focus();
+      return;
+    }
+    response.phase = "review";
+    response.reflection = null;
+    decisionStage = "review";
+    saveProgress();
+    renderDecision();
+    elements.liveRegion.textContent = `Comparison revealed for ${response.initialPick}.`;
+    requestAnimationFrame(() => {
+      elements.decisionReview.scrollIntoView({ behavior: prefersReducedMotion ? "auto" : "smooth", block: "start" });
+      elements.decisionReview.focus({ preventScroll: true });
+    });
+  }
+
+  function setDecisionReflection(reflection) {
+    const response = decisionResponse();
+    if (!response || !["review", "complete"].includes(response.phase) || !decisionReflectionIds.has(reflection)) return;
+    response.phase = "complete";
+    response.reflection = reflection;
+    saveProgress();
+    renderDecision();
+    const selected = elements.decisionReflectionOptions.querySelector(`[data-decision-reflection="${reflection}"]`);
+    selected?.focus();
+    elements.liveRegion.textContent = reflection === "keep" ? "You would keep your original pick." : "You would change your pick after review.";
+  }
+
+  function goToDecision(index) {
+    const scenarios = currentSet.draftDecisions?.scenarios || [];
+    if (!scenarios[index]) return;
+    decisionIndex = index;
+    decisionSummaryVisible = false;
+    progress.currentDecision = scenarios[index].id;
+    saveProgress();
+    renderDecision();
+    updateUrl();
+    const target = decisionStage === "review" ? elements.decisionReview : elements.decisionContext;
+    target.scrollIntoView({ behavior: prefersReducedMotion ? "auto" : "smooth", block: "start" });
+    requestAnimationFrame(() => target.focus({ preventScroll: true }));
+  }
+
+  function previousDecision() {
+    if (decisionResponse()?.phase !== "complete") return;
+    goToDecision(decisionIndex - 1);
   }
 
   function nextDecision() {
-    if (!draftDecisionsAvailable()) return;
-    decisionIndex = (decisionIndex + 1) % currentSet.draftDecisions.scenarios.length;
-    progress.currentDecision = currentSet.draftDecisions.scenarios[decisionIndex].id;
-    decisionChoice = null;
+    if (!draftDecisionsAvailable() || decisionResponse()?.phase !== "complete") return;
+    const scenarios = currentSet.draftDecisions.scenarios;
+    if (decisionIndex < scenarios.length - 1) {
+      goToDecision(decisionIndex + 1);
+      return;
+    }
+    const firstIncomplete = scenarios.findIndex((scenario) => decisionResponse(scenario)?.phase !== "complete");
+    if (firstIncomplete >= 0) {
+      showToast("Finish the remaining decisions before the summary");
+      goToDecision(firstIncomplete);
+      return;
+    }
+    decisionSummaryVisible = true;
     renderDecision();
-    saveProgress();
     updateUrl();
-    document.querySelector(".decisions-heading")?.scrollIntoView({ behavior: prefersReducedMotion ? "auto" : "smooth", block: "start" });
+    elements.liveRegion.textContent = "Replay review complete. Your reflection summary is ready.";
+    requestAnimationFrame(() => {
+      elements.decisionSummary.scrollIntoView({ behavior: prefersReducedMotion ? "auto" : "smooth", block: "start" });
+      elements.decisionSummary.focus({ preventScroll: true });
+    });
   }
 
   function openCardPreview(cardId) {
     const card = cardById.get(cardId);
     if (!card) return;
+    if (!elements.cardPreview.open) previewOpener = document.activeElement instanceof HTMLElement ? document.activeElement : null;
     previewCardId = card.id;
     const readableImage = card.trainingImage || card.image;
     elements.cardPreviewImage.onerror = () => {
@@ -836,7 +1074,10 @@
     elements.cardPreviewImage.src = readableImage;
     elements.cardPreviewImage.alt = `${card.name} card`;
     elements.cardPreviewName.textContent = card.name;
-    elements.cardPreviewMeta.textContent = cardIsRated(card)
+    const hideDecisionRating = currentView === "decisions" && decisionStage === "choose" && !decisionSummaryVisible;
+    elements.cardPreviewMeta.textContent = hideDecisionRating
+      ? "Ranking hidden until comparison"
+      : cardIsRated(card)
       ? `#${card.rank} · Tier ${card.tier}`
       : `${card.rarity || "Preview"} · ${currentSet.code} #${card.collectorNumber || "—"}`;
     if (!elements.cardPreview.open) elements.cardPreview.showModal();
@@ -990,16 +1231,18 @@
   function selectSet(setId, { updateHistory = true } = {}) {
     const nextSet = setById.get(setId);
     if (!nextSet) return;
+    const routeParams = new URLSearchParams(location.search);
+    const useRouteState = !updateHistory && routeParams.get("set") === setId;
     currentSet = nextSet;
     cards = [...currentSet.cards];
     cardById = new Map(cards.map((card) => [card.id, card]));
     if (currentView === "decisions" && !draftDecisionsAvailable()) currentView = "training";
     if (currentView === "archetypes" && !archetypesAvailable()) currentView = "training";
-    const requestedFormat = params.get("set") === currentSet.id ? params.get("format") : null;
+    const requestedFormat = useRouteState ? routeParams.get("format") : null;
     if (requestedFormat && currentSet.archetypes?.formats?.[requestedFormat]) archetypeFormat = requestedFormat;
     else if (!currentSet.archetypes?.formats?.[archetypeFormat]) archetypeFormat = "draft";
-    atlasSince = updateHistory ? "" : params.get("set") === currentSet.id ? params.get("since") || "" : "";
-    atlasGrouping = !updateHistory && params.get("set") === currentSet.id && params.get("group") === "tier" && ratingIsAvailable()
+    atlasSince = useRouteState ? routeParams.get("since") || "" : "";
+    atlasGrouping = useRouteState && routeParams.get("group") === "tier" && ratingIsAvailable()
       ? "tier"
       : "colour";
     progress = readProgress();
@@ -1009,11 +1252,16 @@
     trainerCardId = savedCard?.id || (ratingIsAvailable() ? takeTrainerCard()?.id : cards[0]?.id);
     trainerRevealed = Boolean(progress.trainerRevealed && cardIsRated(cardById.get(trainerCardId)));
     trainerGuess = trainerRevealed ? progress.trainerGuess : null;
-    const requestedDecisionId = params.get("set") === currentSet.id ? params.get("decision") : null;
-    const savedDecisionId = requestedDecisionId || progress.currentDecision;
-    const savedDecisionIndex = currentSet.draftDecisions?.scenarios?.findIndex((scenario) => scenario.id === savedDecisionId) ?? -1;
-    decisionIndex = savedDecisionIndex >= 0 ? savedDecisionIndex : 0;
+    const scenarios = currentSet.draftDecisions?.scenarios || [];
+    const requestedDecisionId = useRouteState ? routeParams.get("decision") : null;
+    const requestedDecisionIndex = scenarios.findIndex((scenario) => scenario.id === requestedDecisionId);
+    const persistedDecisionIndex = scenarios.findIndex((scenario) => scenario.id === progress.currentDecision);
+    decisionIndex = requestedDecisionIndex >= 0 ? requestedDecisionIndex : persistedDecisionIndex >= 0 ? persistedDecisionIndex : 0;
+    progress.currentDecision = scenarios[decisionIndex]?.id || null;
     decisionChoice = null;
+    decisionReason = null;
+    decisionStage = "choose";
+    decisionSummaryVisible = false;
     renderSetChrome();
     updateProgress();
     renderTrainer();
@@ -1058,12 +1306,33 @@
     const button = event.target.closest("[data-card-id]");
     if (button) openCardPreview(button.dataset.cardId);
   });
-  elements.decisionCards.addEventListener("click", (event) => {
-    const button = event.target.closest("[data-card-name]");
-    if (button) chooseDecision(button.dataset.cardName);
+  elements.decisionPage.addEventListener("click", (event) => {
+    const preview = event.target.closest("[data-preview-card-name]");
+    if (preview) {
+      const card = cardForName(preview.dataset.previewCardName);
+      if (card) openCardPreview(card.id);
+      return;
+    }
+    const choice = event.target.closest("[data-card-name]");
+    if (choice) chooseDecision(choice.dataset.cardName);
   });
-  elements.changeDecision.addEventListener("click", resetDecisionChoice);
+  elements.decisionReasons.addEventListener("change", (event) => {
+    if (event.target.matches("input[name='decision-reason']")) selectDecisionReason(event.target.value);
+  });
+  elements.confirmDecision.addEventListener("click", confirmDecision);
+  elements.decisionReflectionOptions.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-decision-reflection]");
+    if (button) setDecisionReflection(button.dataset.decisionReflection);
+  });
+  elements.previousDecision.addEventListener("click", previousDecision);
   elements.nextDecision.addEventListener("click", nextDecision);
+  elements.decisionRevisitList.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-review-decision]");
+    if (!button) return;
+    const index = currentSet.draftDecisions.scenarios.findIndex((scenario) => scenario.id === button.dataset.reviewDecision);
+    if (index >= 0) goToDecision(index);
+  });
+  elements.reviewFirstDecision.addEventListener("click", () => goToDecision(0));
   elements.trainerColor.addEventListener("change", () => {
     progress.color = elements.trainerColor.value;
     progress.queue = [];
@@ -1101,7 +1370,15 @@
     trainerCardId = null;
     trainerRevealed = false;
     trainerGuess = null;
+    decisionIndex = 0;
+    decisionChoice = null;
+    decisionReason = null;
+    decisionStage = "choose";
+    decisionSummaryVisible = false;
+    progress.currentDecision = currentSet.draftDecisions?.scenarios?.[0]?.id || null;
     nextTrainerCard();
+    renderDecision();
+    updateUrl();
     showToast("Progress reset");
   });
 
@@ -1157,7 +1434,11 @@
     }
   }, { passive: false });
   elements.cardPreviewFrame.addEventListener("touchcancel", () => { previewTouchStart = null; });
-  elements.cardPreview.addEventListener("close", () => { previewTouchStart = null; });
+  elements.cardPreview.addEventListener("close", () => {
+    previewTouchStart = null;
+    previewOpener?.focus();
+    previewOpener = null;
+  });
 
   viewTabs.forEach((tab) => {
     tab.addEventListener("click", () => activateView(tab.dataset.view));

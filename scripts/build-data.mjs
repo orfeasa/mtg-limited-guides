@@ -99,6 +99,7 @@ function adaptDraftDecisions(set, cards) {
     if (unknown.length > 0) throw new Error(`Unknown draft decision cards in ${scenario.id}: ${[...new Set(unknown)].join(", ")}`);
     if (!scenario.cards.includes(scenario.replay_pick)) throw new Error(`Replay pick is absent from ${scenario.id}`);
     if (!scenario.replay_read) throw new Error(`Replay interpretation is absent from ${scenario.id}`);
+    if (!scenario.lesson) throw new Error(`Draft lesson is absent from ${scenario.id}`);
     return {
       id: scenario.id,
       pack: scenario.pack,
@@ -107,6 +108,7 @@ function adaptDraftDecisions(set, cards) {
       cards: scenario.cards,
       replayPick: scenario.replay_pick,
       replayRead: scenario.replay_read,
+      lesson: scenario.lesson,
     };
   });
   return {

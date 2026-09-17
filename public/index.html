@@ -10,7 +10,7 @@
     <link rel="icon" href="assets/icon-32.png" sizes="32x32" type="image/png">
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
     <link rel="manifest" href="manifest.webmanifest">
-    <link rel="stylesheet" href="styles.css?v=limited-prep-10">
+    <link rel="stylesheet" href="styles.css?v=limited-prep-14">
   </head>
   <body data-theme="fracture">
     <!--
@@ -194,16 +194,19 @@
         <div class="decisions-page surface-page">
           <header class="decisions-heading">
             <div>
-              <h2>Draft decisions</h2>
-              <p>Choose from the whole pack with the drafted pool in view. Then reveal how the replay pick and current data pull on the decision.</p>
+              <h2>Make the pick</h2>
+              <p>Make an independent pick from the complete pack, name what drove it, then compare it with the historical choice and the current statistical baseline.</p>
             </div>
             <div class="decision-counter" aria-label="Draft decision progress">
               <strong id="decision-position">1 / 18</strong>
-              <span id="decisions-reviewed">0 reviewed</span>
+              <span id="decisions-reviewed">0 completed</span>
             </div>
           </header>
 
-          <section class="decision-context" aria-labelledby="decision-context-title">
+          <p class="decision-replay-note"><strong>Fixed replay.</strong> You are reviewing one real draft. Your choices will not change the historical pool in later decisions.</p>
+          <p id="decision-legacy-note" class="decision-legacy-note" hidden></p>
+
+          <section id="decision-context" class="decision-context" aria-labelledby="decision-context-title" tabindex="-1">
             <div class="decision-coordinate">
               <span id="decision-context-title">Current seat</span>
               <strong id="decision-coordinate">Pack 1 · Pick 1</strong>
@@ -211,36 +214,92 @@
             <div class="pool-read">
               <span>Pool read</span>
               <strong id="pool-direction">No commitments yet</strong>
-              <p id="pool-summary">Your first pick can stay open.</p>
+              <p id="pool-summary">The first pick can stay open.</p>
             </div>
-            <details class="pool-details">
-              <summary><span>Drafted pool</span><strong id="pool-count">0 cards</strong></summary>
+            <div class="pool-details" aria-labelledby="decision-pool-title">
+              <div class="pool-details-heading"><span id="decision-pool-title">Historical pool</span><strong id="pool-count">0 cards</strong></div>
+              <p>The cards taken before this decision in the replay.</p>
               <div id="decision-pool" class="decision-pool"></div>
-            </details>
+            </div>
           </section>
 
-          <section class="decision-pack" aria-labelledby="decision-pack-title">
+          <section id="decision-pack" class="decision-pack" aria-labelledby="decision-pack-title" tabindex="-1">
             <div class="decision-pack-heading">
               <div>
                 <h3 id="decision-pack-title">What would you take?</h3>
-                <p>Select one card. There is no score: the review separates raw power, pool fit, and the pick made in the real draft.</p>
+                <p>Choose without rankings or replay hints. You can open any card for a closer look before committing.</p>
               </div>
-              <button id="change-decision" class="text-button" type="button" hidden>Change pick</button>
             </div>
             <div id="decision-cards" class="decision-cards"></div>
+            <section id="decision-reasoning" class="decision-reasoning" aria-labelledby="decision-reason-title" tabindex="-1" hidden>
+              <div>
+                <h4 id="decision-reason-title">What drove your pick?</h4>
+                <p>Choose the main reason you would make this pick now.</p>
+              </div>
+              <fieldset id="decision-reasons" class="decision-reasons">
+                <legend class="visually-hidden">Reason for your draft pick</legend>
+                <label><input type="radio" name="decision-reason" value="power"><span>Raw power</span></label>
+                <label><input type="radio" name="decision-reason" value="pool"><span>Fits the pool</span></label>
+                <label><input type="radio" name="decision-reason" value="open"><span>Stays flexible</span></label>
+                <label><input type="radio" name="decision-reason" value="synergy"><span>Synergy or payoff</span></label>
+                <label><input type="radio" name="decision-reason" value="signal"><span>Reading a signal</span></label>
+                <label><input type="radio" name="decision-reason" value="unsure"><span>Not sure</span></label>
+              </fieldset>
+              <div class="decision-confirm">
+                <p id="decision-choice-label"></p>
+                <button id="confirm-decision" class="primary-action" type="button" disabled>Lock in and compare</button>
+              </div>
+            </section>
           </section>
 
-          <section id="decision-review" class="decision-review" aria-labelledby="decision-review-title" hidden>
+          <section id="decision-review" class="decision-review" aria-labelledby="decision-review-title" tabindex="-1" hidden>
             <div class="decision-review-heading">
               <div>
-                <h3 id="decision-review-title">Read the tension</h3>
+                <h3 id="decision-review-title">Compare the evidence</h3>
                 <p id="decision-verdict"></p>
               </div>
-              <button id="next-decision" class="primary-action" type="button">Next decision</button>
+            </div>
+            <div class="decision-takeaway">
+              <h4>What to notice</h4>
+              <p id="decision-lesson"></p>
             </div>
             <dl id="decision-ledger" class="decision-ledger"></dl>
             <p id="decision-coaching" class="decision-coaching"></p>
+            <section class="decision-reflection" aria-labelledby="decision-reflection-title">
+              <div>
+                <h4 id="decision-reflection-title">After comparing the evidence…</h4>
+                <p>There is still no scored answer. Record whether the review changed your judgement.</p>
+              </div>
+              <div id="decision-reflection-options" class="decision-reflection-options" role="group" aria-label="Your judgement after review">
+                <button type="button" data-decision-reflection="keep" aria-pressed="false">Keep my pick</button>
+                <button type="button" data-decision-reflection="change" aria-pressed="false">I’d change my pick</button>
+              </div>
+            </section>
             <p class="decision-provenance">17Lands records the pack, pool, and selected card—not the drafter’s reasoning. Replay explanations are labelled editorial inferences from that state and Scryfall card text. The data leader is calculated only from the current Untapped rank.</p>
+            <div class="decision-review-actions">
+              <button id="previous-decision" class="secondary-action" type="button">Previous decision</button>
+              <button id="next-decision" class="primary-action" type="button" disabled>Next decision</button>
+            </div>
+          </section>
+
+          <section id="decision-summary" class="decision-summary" aria-labelledby="decision-summary-title" tabindex="-1" hidden>
+            <div class="decision-summary-heading">
+              <h3 id="decision-summary-title">Replay review complete</h3>
+              <p>You have worked through every available decision in this historical draft. These are patterns in your reasoning, not a score.</p>
+            </div>
+            <dl class="decision-summary-ledger">
+              <div><dt>Matched the replay</dt><dd id="summary-replay-count">0</dd></div>
+              <div><dt>Followed the data leader</dt><dd id="summary-data-count">0</dd></div>
+              <div><dt>Chose another line</dt><dd id="summary-third-count">0</dd></div>
+              <div><dt>Would change after review</dt><dd id="summary-change-count">0</dd></div>
+            </dl>
+            <p id="summary-common-reason" class="decision-summary-reason"></p>
+            <div id="decision-revisit" class="decision-revisit" hidden>
+              <h4>Worth revisiting</h4>
+              <p>Return to decisions where the review changed your judgement.</p>
+              <div id="decision-revisit-list" class="decision-revisit-list"></div>
+            </div>
+            <button id="review-first-decision" class="primary-action" type="button">Review from the beginning</button>
           </section>
         </div>
       </section>
@@ -303,7 +362,7 @@
       </div>
     </dialog>
     <noscript><p class="noscript">This preparation tool requires JavaScript.</p></noscript>
-    <script src="data.js?v=limited-prep-8"></script>
-    <script src="app.js?v=limited-prep-13"></script>
+    <script src="data.js?v=limited-prep-9"></script>
+    <script src="app.js?v=limited-prep-20"></script>
   </body>
 </html>

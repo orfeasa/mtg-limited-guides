@@ -6,14 +6,14 @@ A set-by-set Magic: The Gathering Limited preparation tool. Each set keeps its o
 
 - Card rating training with browser-local progress
 - Official archetype plans interpreted against separate Premier Draft and Sealed observations
-- Full-pack draft decisions explaining the inferred replay line and rank-calculated data leader while keeping both evidence types distinct
+- Full-pack draft decisions that capture your independent pick and reason before revealing the historical line, statistical baseline, and an authored takeaway
 - A complete card index grouped by colour or, for rated sets, exact tier, with in-place card magnification
 - Honest preview mode when a set has cards but no attributable Limited ranking yet
 - Keyboard, mouse, and touch support
 - Offline static-asset cache
 - No required account, analytics, cookies, or deck builder
 
-Preparation progress stays only in the current browser through `localStorage`, including the current training card, colour filter, queue, revealed answer, exact-tier score, requeued misses, current draft decision, and reviewed-decision count. The service worker caches public site assets for offline use.
+Preparation progress stays only in the current browser through `localStorage`, including the current training card, colour filter, queue, revealed answer, exact-tier score, requeued misses, and each draft decision's pick, reason, reveal state, and reflection. The service worker caches public site assets for offline use.
 
 The current guides are:
 
@@ -71,7 +71,7 @@ node scripts/verify-data.mjs
 
 Run `node scripts/sync-card-stats.mjs` to refresh the bundled Premier Draft statistics from Untapped.gg before rebuilding. This stores in-hand win counts and games, opening-hand counts and games, average last offered pick, and average pick taken for all 188 cards. Refresh `data/hobbit_pick_order.json` from the matching Untapped In Hand WR tier view at the same time. The deployed site never calls Untapped.gg at runtime.
 
-The Hobbit decision states are stored in `data/hobbit_draft_decisions.json`. They preserve real pack contents, previous picks, and the historical replay pick. Because 17Lands records the choice rather than the drafter's reasoning, each replay explanation is stored and displayed as an editorial inference from the draft state and Scryfall card text. The UI explains its raw-data leader from the bundled current ranking and explicitly excludes pool fit from that calculation, so neither source is mislabeled as the single correct answer. Reality Fracture has no Draft decisions tab until equivalent grounded evidence exists.
+The Hobbit decision states are stored in `data/hobbit_draft_decisions.json`. They preserve real pack contents, previous picks, the historical replay pick, and an authored lesson for each comparison. The replay is fixed: a player's choices do not rewrite later historical pools. Rankings, tiers, win rates, and replay hints stay hidden until the player chooses a card, records the main reason, and locks the decision. Because 17Lands records the choice rather than the drafter's reasoning, each replay explanation is displayed as an editorial inference from the draft state and Scryfall card text. The revealed review keeps that inference separate from the bundled rank-only statistical baseline, asks whether the comparison changed the player's judgement, and ends with a non-scored reasoning summary. Reality Fracture has no Draft decisions tab until equivalent grounded evidence exists.
 
 `scripts/sync-colors.mjs` refreshes the local color-identity mapping from Scryfall. `scripts/sync-training-images.mjs` downloads Scryfall's large card images for the trainer; pass `--force` to replace existing files. Run the image sync before `scripts/build-data.mjs` when refreshing the set. The deployed site does not call Scryfall at runtime.
 

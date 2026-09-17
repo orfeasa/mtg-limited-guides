@@ -37,8 +37,10 @@ Used in the days before a prerelease or draft, alone or with friends. A player m
 - Keep rating-dependent training absent when a complete, attributable Limited evaluation is unavailable.
 - Store preparation progress per set in browser-local storage.
 - Preserve the current training card, colour filter, exact-tier score, remaining queue, revealed answer, and requeued misses across browser sessions.
-- Preserve the current draft decision and reviewed-decision count without turning the exercise into a score.
-- Show the complete pack and drafted pool before a pick, then separate the player's choice, the historical replay pick, and the current raw-data leader.
+- Preserve each draft decision's independent pick, reason, reveal phase, and keep/change reflection without turning the exercise into a score.
+- Make the fixed historical replay explicit, show its complete pack and drafted pool before a pick, and hide rankings, performance data, and replay hints until the player locks a card and reason.
+- After the lock, separate the player's recorded judgement, the historical replay pick, the current rank-only data leader, and an authored scenario takeaway.
+- End the replay with a completion summary of reasoning patterns and decisions the player marked as worth reconsidering.
 - Explain why the rank calculation produced the data leader, and label any replay-pick rationale as editorial inference because the replay records the choice rather than the drafter's intent.
 - Show attributable card-performance evidence after a Hobbit answer without exposing it before the guess.
 - Browse rated sets in All cards by colour or exact tier, then enlarge a card in place without changing views.
