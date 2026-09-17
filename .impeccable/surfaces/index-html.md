@@ -28,11 +28,11 @@ The Set-Specific Field Guide Shelf: one shared preparation shell with stable Tra
 
 **THESIS:** A temporary catch-up rail turns preview dates into "what changed since I last looked" without turning All cards into a permanent filter dashboard.
 
-**OWN-WORLD:** The rail belongs inside the Reality Fracture Echoverse dossier: cool paper, ink-indigo binding, Atkinson control copy, clipped three-pixel corners, and restrained violet seams. Hobbit remains untouched; without content, the control still reads as one dossier annotation.
+**OWN-WORLD:** The catch-up rail belongs inside the Reality Fracture Echoverse dossier: cool paper, ink-indigo binding, Atkinson control copy, clipped three-pixel corners, and restrained violet seams. The rated Hobbit atlas adds its own compact colour/tier arrangement control in forest cloth and warm paper without borrowing dossier styling.
 
-**STORY:** A player opens All cards, selects the last preview date they saw, and gets only the cards added afterward. They can browse the remaining colour groups, enlarge cards, and share the filtered URL. Selecting the newest date produces an explicit caught-up state with one route back to every card.
+**STORY:** A player opens All cards. In a preview set they can select the last preview date they saw and browse only newer cards. In a rated set they can keep the familiar colour atlas or switch to the exact tier order. Both paths preserve enlargement and shareable URL state.
 
-**FIRST VIEWPORT:** The rail sits directly below the All cards introduction and above the sticky colour jumps. Desktop holds summary left and date control right; mobile stacks them. Its signature interaction filters in place while rewriting the visible count, colour groups, and shareable URL without changing views.
+**FIRST VIEWPORT:** The applicable control sits directly below the All cards introduction and above the sticky grouping jumps. Desktop keeps it compact; mobile stacks it cleanly. Filtering or regrouping happens in place while rewriting visible sections and shareable URL state without changing views.
 
 **FORM:** Compact dossier catch-up rail, ranked first in the grounded form list and pinned by the existing brief plus the user's request. Surface concept seed key: 5c7b4531. This is a code-led extension of the incumbent surface, so it has no separate comp.
 

@@ -551,6 +551,7 @@ body[data-theme="fracture"] .dataset-stamp strong {
 .archetype-section-heading h3,
 .atlas-heading h2,
 .color-section-heading h3,
+.tier-section-heading h3,
 .trainer-copy h3 {
   font-family: var(--display);
   font-weight: 700;
@@ -561,6 +562,7 @@ body[data-theme="fracture"] .archetypes-heading h2,
 body[data-theme="fracture"] .archetype-section-heading h3,
 body[data-theme="fracture"] .atlas-heading h2,
 body[data-theme="fracture"] .color-section-heading h3,
+body[data-theme="fracture"] .tier-section-heading h3,
 body[data-theme="fracture"] .trainer-copy h3 {
   font-weight: 900;
   text-transform: uppercase;
@@ -1852,7 +1854,8 @@ body[data-theme="fracture"] .trainer-image-wrap img {
 .leaf-heading,
 .result-bar,
 .alternatives-heading,
-.color-section-heading {
+.color-section-heading,
+.tier-section-heading {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -2425,6 +2428,54 @@ body[data-theme="fracture"] .atlas-emblem {
   border-color: var(--binding);
 }
 
+.atlas-grouping {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin-top: 24px;
+  padding: 12px 0 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.atlas-grouping > span {
+  color: var(--muted);
+  font-size: .72rem;
+  font-weight: 700;
+}
+
+.atlas-grouping-options {
+  display: inline-grid;
+  grid-template-columns: repeat(2, minmax(96px, 1fr));
+  gap: 4px;
+  padding: 4px;
+  background: var(--surface-deep);
+  border-radius: var(--control-radius);
+}
+
+.atlas-grouping-options button {
+  min-height: 44px;
+  padding: 0 14px;
+  color: var(--muted);
+  background: transparent;
+  border: 0;
+  border-radius: var(--control-radius);
+  font-size: .72rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.atlas-grouping-options button:hover {
+  color: var(--ink);
+  background: color-mix(in srgb, var(--surface-light) 58%, transparent);
+}
+
+.atlas-grouping-options button[aria-pressed="true"] {
+  color: var(--on-binding);
+  background: var(--binding);
+  box-shadow: 0 4px 12px rgba(8, 9, 16, .18);
+}
+
 .atlas-empty {
   display: grid;
   justify-items: start;
@@ -2495,6 +2546,14 @@ body[data-theme="fracture"] .color-jump {
   font-variant-numeric: tabular-nums;
 }
 
+.tier-jump {
+  grid-template-columns: auto auto;
+}
+
+.tier-jump .tier {
+  min-width: 38px;
+}
+
 .mana-symbol {
   display: inline-grid;
   flex: 0 0 auto;
@@ -2514,6 +2573,12 @@ body[data-theme="fracture"] .color-jump {
 .mana-symbol--jump {
   width: 20px;
   height: 20px;
+  border-width: 1px;
+}
+
+.mana-symbol--meta {
+  width: 18px;
+  height: 18px;
   border-width: 1px;
 }
 
@@ -2542,22 +2607,30 @@ body[data-theme="fracture"] .mana-symbol {
   padding-top: 16px;
 }
 
-.color-section {
+.color-section,
+.tier-section {
   scroll-margin-top: calc(var(--tab-height) + 80px);
   padding: 58px 0 28px;
 }
 
-.color-section-heading {
+.color-section-heading,
+.tier-section-heading {
   align-items: center;
   padding-bottom: 16px;
   border-bottom: 3px solid var(--group-ink);
 }
 
-.color-section-heading > div {
+.tier-section-heading {
+  border-bottom-color: var(--tier-color);
+}
+
+.color-section-heading > div,
+.tier-section-heading > div {
   flex: 1 1 auto;
 }
 
-.color-section-heading h3 {
+.color-section-heading h3,
+.tier-section-heading h3 {
   margin-bottom: 0;
   color: var(--group-ink);
   font-size: clamp(2.4rem, 5vw, 4rem);
@@ -2566,10 +2639,24 @@ body[data-theme="fracture"] .mana-symbol {
 }
 
 .color-section-heading p,
+.tier-section-heading p,
 .color-range {
   margin: 5px 0 0;
   color: var(--muted);
   font-size: .76rem;
+}
+
+.tier-section-heading h3 {
+  color: var(--ink);
+}
+
+.tier-section-mark {
+  min-width: 64px;
+  min-height: 48px;
+  padding-inline: 14px;
+  border-radius: var(--control-radius);
+  font-family: var(--display);
+  font-size: 1.7rem;
 }
 
 .color-range {
@@ -3362,13 +3449,24 @@ body[data-theme="fracture"] .card-preview-copy h2 {
     width: 100%;
   }
 
+  .atlas-grouping {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .atlas-grouping-options {
+    width: 100%;
+  }
+
   .color-navigation {
     top: var(--tab-height);
     margin-inline: -16px;
     padding: 11px 16px;
   }
 
-  .color-section {
+  .color-section,
+  .tier-section {
     scroll-margin-top: calc(var(--tab-height) + 66px);
     padding-top: 44px;
   }
@@ -3379,6 +3477,10 @@ body[data-theme="fracture"] .card-preview-copy h2 {
   }
 
   .color-section-heading h3 {
+    font-size: 2.25rem;
+  }
+
+  .tier-section-heading h3 {
     font-size: 2.25rem;
   }
 

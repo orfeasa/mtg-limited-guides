@@ -10,7 +10,7 @@
     <link rel="icon" href="assets/icon-32.png" sizes="32x32" type="image/png">
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
     <link rel="manifest" href="manifest.webmanifest">
-    <link rel="stylesheet" href="styles.css?v=limited-prep-7">
+    <link rel="stylesheet" href="styles.css?v=limited-prep-10">
   </head>
   <body data-theme="fracture">
     <!--
@@ -261,6 +261,13 @@
               <select id="preview-since"></select>
             </label>
           </div>
+          <div id="atlas-grouping" class="atlas-grouping" role="group" aria-labelledby="atlas-grouping-label" hidden>
+            <span id="atlas-grouping-label">Arrange cards</span>
+            <div class="atlas-grouping-options">
+              <button type="button" data-atlas-grouping="colour" aria-pressed="true">By colour</button>
+              <button type="button" data-atlas-grouping="tier" aria-pressed="false">By tier</button>
+            </div>
+          </div>
           <nav id="color-navigation" class="color-navigation" aria-label="Filter cards by colour"></nav>
           <div id="atlas-empty" class="atlas-empty" hidden>
             <strong>You are caught up.</strong>
@@ -297,6 +304,6 @@
     </dialog>
     <noscript><p class="noscript">This preparation tool requires JavaScript.</p></noscript>
     <script src="data.js?v=limited-prep-7"></script>
-    <script src="app.js?v=limited-prep-11"></script>
+    <script src="app.js?v=limited-prep-13"></script>
   </body>
 </html>

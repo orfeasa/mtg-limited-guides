@@ -31,6 +31,8 @@
     { label: "Filler", tiers: ["D+", "D", "D-", "F"] },
   ];
   const tierOrder = tierFamilies.flatMap((family) => family.tiers);
+  const atlasTierOrder = [...tierOrder, "?"];
+  const validAtlasGroupings = new Set(["colour", "tier"]);
   const colorGroups = [
     { id: "W", name: "White", note: "Plains" },
     { id: "U", name: "Blue", note: "Islands" },
@@ -106,6 +108,7 @@
     previewCatchup: $("#preview-catchup"),
     previewSince: $("#preview-since"),
     previewCatchupSummary: $("#preview-catchup-summary"),
+    atlasGrouping: $("#atlas-grouping"),
     colorNavigation: $("#color-navigation"),
     atlasEmpty: $("#atlas-empty"),
     clearPreviewFilter: $("#clear-preview-filter"),
@@ -144,6 +147,7 @@
   let decisionIndex = 0;
   let decisionChoice = null;
   let atlasSince = "";
+  let atlasGrouping = params.get("group") === "tier" ? "tier" : "colour";
   let archetypeFormat = params.get("format") === "sealed" ? "sealed" : "draft";
   let progress = emptyProgress();
   let toastTimer = null;
@@ -289,6 +293,8 @@
     else url.searchParams.delete("format");
     if (currentView === "atlas" && previewCatchupAvailable() && atlasSince) url.searchParams.set("since", atlasSince);
     else url.searchParams.delete("since");
+    if (currentView === "atlas" && ratingIsAvailable() && atlasGrouping === "tier") url.searchParams.set("group", "tier");
+    else url.searchParams.delete("group");
     url.hash = "";
     history[replace ? "replaceState" : "pushState"](null, "", url);
   }
@@ -368,7 +374,7 @@
     elements.atlasTitle.textContent = currentSet.stage === "preview" ? "The revealed card file" : "The complete card atlas";
     elements.atlasCopy.textContent = currentSet.stage === "preview"
       ? `${currentSet.cardCount} revealed cards, grouped by colour. Select a card to enlarge it.`
-      : `All ${currentSet.cardCount} ranked cards, grouped by colour. Select a card to enlarge it.`;
+      : `All ${currentSet.cardCount} ranked cards. Arrange by colour or tier, then select a card to enlarge it.`;
 
     if (archetypesAvailable()) {
       elements.archetypesTitle.textContent = `${currentSet.archetypes.archetypes.length} roads through the set`;
@@ -876,34 +882,69 @@
       ? cards.filter((card) => card.firstSeenAt > atlasSince)
       : cards;
     renderPreviewCatchup(visibleCards);
-    const counts = new Map(colorGroups.map((group) => [group.id, 0]));
-    visibleCards.forEach((card) => counts.set(card.color, (counts.get(card.color) || 0) + 1));
-    elements.colorNavigation.replaceChildren(...colorGroups.filter((group) => counts.get(group.id)).map((group) => {
+    if (!ratingIsAvailable()) atlasGrouping = "colour";
+    elements.atlasGrouping.hidden = !ratingIsAvailable();
+    elements.atlasGrouping.querySelectorAll("[data-atlas-grouping]").forEach((button) => {
+      button.setAttribute("aria-pressed", String(button.dataset.atlasGrouping === atlasGrouping));
+    });
+    elements.atlasCopy.textContent = currentSet.stage === "preview"
+      ? `${currentSet.cardCount} revealed cards, grouped by colour. Select a card to enlarge it.`
+      : `All ${currentSet.cardCount} ranked cards, grouped by ${atlasGrouping}. Select a card to enlarge it.`;
+
+    const groups = atlasGrouping === "tier"
+      ? atlasTierOrder.map((tier) => ({
+          id: tier,
+          cards: visibleCards.filter((card) => (card.tier || "?") === tier).sort((a, b) => a.rank - b.rank),
+        })).filter((group) => group.cards.length > 0)
+      : colorGroups.map((group) => ({
+          ...group,
+          cards: visibleCards.filter((card) => card.color === group.id).sort((a, b) => {
+            if (Number.isFinite(a.rank) && Number.isFinite(b.rank)) return a.rank - b.rank;
+            return Number.parseInt(a.collectorNumber, 10) - Number.parseInt(b.collectorNumber, 10);
+          }),
+        })).filter((group) => group.cards.length > 0);
+
+    elements.colorNavigation.setAttribute("aria-label", atlasGrouping === "tier" ? "Jump to card tier" : "Jump to card colour");
+    elements.colorNavigation.replaceChildren(...groups.map((group) => {
       const button = document.createElement("button");
       button.type = "button";
-      button.className = "color-jump";
-      button.dataset.color = group.id;
-      button.innerHTML = `${manaSymbol(group.id, "mana-symbol--jump")}<strong>${group.name}</strong><span>${counts.get(group.id)}</span>`;
-      button.addEventListener("click", () => document.querySelector(`#color-${group.id}`)?.scrollIntoView({ behavior: prefersReducedMotion ? "auto" : "smooth", block: "start" }));
+      const isTierGroup = atlasGrouping === "tier";
+      const sectionId = isTierGroup ? `tier-${group.id.replace("+", "plus").replace("-", "minus").replace("?", "unrated")}` : `color-${group.id}`;
+      button.className = isTierGroup ? "color-jump tier-jump" : "color-jump";
+      button.dataset[isTierGroup ? "tier" : "color"] = group.id;
+      const cardCountLabel = `${group.cards.length} ${group.cards.length === 1 ? "card" : "cards"}`;
+      button.setAttribute("aria-label", isTierGroup
+        ? `Jump to ${group.id === "?" ? "unrated cards" : `tier ${group.id}`}, ${cardCountLabel}`
+        : `Jump to ${group.name}, ${cardCountLabel}`);
+      button.innerHTML = isTierGroup
+        ? `<span class="tier ${group.id === "?" ? "tier-pending" : ""}" style="--tier-color:${tierColors[group.id] || tierColors["?"]}">${escapeHtml(group.id)}</span><span>${group.cards.length}</span>`
+        : `${manaSymbol(group.id, "mana-symbol--jump")}<strong>${group.name}</strong><span>${group.cards.length}</span>`;
+      button.addEventListener("click", () => document.querySelector(`#${sectionId}`)?.scrollIntoView({ behavior: prefersReducedMotion ? "auto" : "smooth", block: "start" }));
       return button;
     }));
     elements.colorNavigation.hidden = visibleCards.length === 0;
     elements.atlasEmpty.hidden = visibleCards.length !== 0;
 
-    elements.cardAtlas.replaceChildren(...colorGroups.map((group) => {
-      const groupCards = visibleCards.filter((card) => card.color === group.id).sort((a, b) => {
-        if (Number.isFinite(a.rank) && Number.isFinite(b.rank)) return a.rank - b.rank;
-        return Number.parseInt(a.collectorNumber, 10) - Number.parseInt(b.collectorNumber, 10);
-      });
-      if (groupCards.length === 0) return null;
+    elements.cardAtlas.replaceChildren(...groups.map((group) => {
+      const isTierGroup = atlasGrouping === "tier";
+      const groupCards = group.cards;
       const section = document.createElement("section");
-      section.id = `color-${group.id}`;
-      section.className = "color-section";
-      section.dataset.color = group.id;
-      const range = ratingIsAvailable()
-        ? `#${groupCards[0].rank}–#${groupCards.at(-1).rank}`
+      const sectionId = isTierGroup ? `tier-${group.id.replace("+", "plus").replace("-", "minus").replace("?", "unrated")}` : `color-${group.id}`;
+      section.id = sectionId;
+      section.className = isTierGroup ? "tier-section" : "color-section";
+      section.dataset[isTierGroup ? "tier" : "color"] = group.id;
+      const range = Number.isFinite(groupCards[0].rank)
+        ? groupCards[0].rank === groupCards.at(-1).rank
+          ? `#${groupCards[0].rank}`
+          : `#${groupCards[0].rank}–#${groupCards.at(-1).rank}`
         : `${groupCards.length} revealed`;
-      section.innerHTML = `<header class="color-section-heading">${manaSymbol(group.id, "mana-symbol--section")}<div><h3>${group.name}</h3><p>${group.note} · ${groupCards.length} cards</p></div><span class="color-range">${range}</span></header>`;
+      if (isTierGroup) {
+        const family = tierFamilies.find((item) => item.tiers.includes(group.id))?.label || "No assigned tier";
+        section.style.setProperty("--tier-color", tierColors[group.id] || tierColors["?"]);
+        section.innerHTML = `<header class="tier-section-heading"><span class="tier tier-section-mark ${group.id === "?" ? "tier-pending" : ""}">${escapeHtml(group.id)}</span><div><h3>${escapeHtml(group.id === "?" ? "Unrated" : family)}</h3><p>${escapeHtml(group.id === "?" ? "No assigned tier" : `Tier ${group.id}`)} · ${groupCards.length} ${groupCards.length === 1 ? "card" : "cards"}</p></div><span class="color-range">${range}</span></header>`;
+      } else {
+        section.innerHTML = `<header class="color-section-heading">${manaSymbol(group.id, "mana-symbol--section")}<div><h3>${group.name}</h3><p>${group.note} · ${groupCards.length} cards</p></div><span class="color-range">${range}</span></header>`;
+      }
       const grid = document.createElement("div");
       grid.className = "atlas-grid";
       grid.replaceChildren(...groupCards.map((card) => {
@@ -914,13 +955,18 @@
         button.dataset.color = card.color;
         button.setAttribute("aria-label", `Enlarge ${card.name}`);
         const leading = card.rank ? `#${card.rank}` : `${currentSet.code} ${card.collectorNumber}`;
-        const meta = card.tier ? `Tier ${card.tier}` : `${card.rarity || "Preview"}`;
-        button.innerHTML = `<img src="${escapeHtml(card.image)}" alt="" width="80" height="112"><span class="atlas-card-copy"><span class="atlas-card-rank">${escapeHtml(leading)}</span><strong>${escapeHtml(card.name)}</strong><span class="atlas-card-meta"><span class="tier ${card.tier ? "" : "tier-pending"}" style="--tier-color:${tierColors[card.tier] || tierColors["?"]}">${escapeHtml(card.tier || "Preview")}</span><span>${escapeHtml(meta)}</span></span></span>`;
+        const color = colorGroups.find((item) => item.id === card.color);
+        const meta = isTierGroup
+          ? `${manaSymbol(card.color, "mana-symbol--meta")}<span>${escapeHtml(color?.name || "Colourless")}</span>`
+          : currentSet.stage === "preview"
+            ? `<span class="tier tier-pending" style="--tier-color:${tierColors["?"]}">Preview</span><span>${escapeHtml(card.rarity || "Unrated")}</span>`
+            : `<span class="tier ${cardIsRated(card) ? "" : "tier-pending"}" style="--tier-color:${tierColors[card.tier] || tierColors["?"]}">${escapeHtml(cardIsRated(card) ? card.tier : "Unrated")}</span>`;
+        button.innerHTML = `<img src="${escapeHtml(card.image)}" alt="" width="80" height="112"><span class="atlas-card-copy"><span class="atlas-card-rank">${escapeHtml(leading)}</span><strong>${escapeHtml(card.name)}</strong><span class="atlas-card-meta">${meta}</span></span>`;
         return button;
       }));
       section.append(grid);
       return section;
-    }).filter(Boolean));
+    }));
   }
 
   function activateView(view, { focus = false, updateHistory = true } = {}) {
@@ -953,6 +999,9 @@
     if (requestedFormat && currentSet.archetypes?.formats?.[requestedFormat]) archetypeFormat = requestedFormat;
     else if (!currentSet.archetypes?.formats?.[archetypeFormat]) archetypeFormat = "draft";
     atlasSince = updateHistory ? "" : params.get("set") === currentSet.id ? params.get("since") || "" : "";
+    atlasGrouping = !updateHistory && params.get("set") === currentSet.id && params.get("group") === "tier" && ratingIsAvailable()
+      ? "tier"
+      : "colour";
     progress = readProgress();
     elements.trainerColor.value = progress.color || "all";
     renderGradeOptions();
@@ -1025,6 +1074,16 @@
     atlasSince = elements.previewSince.value;
     renderAtlas();
     updateUrl();
+  });
+
+  elements.atlasGrouping.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-atlas-grouping]");
+    const grouping = button?.dataset.atlasGrouping;
+    if (!validAtlasGroupings.has(grouping) || !ratingIsAvailable() || grouping === atlasGrouping) return;
+    atlasGrouping = grouping;
+    renderAtlas();
+    updateUrl();
+    elements.liveRegion.textContent = `All cards arranged by ${grouping}.`;
   });
 
   elements.clearPreviewFilter.addEventListener("click", () => {

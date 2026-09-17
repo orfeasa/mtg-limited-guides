@@ -41,7 +41,7 @@ Used in the days before a prerelease or draft, alone or with friends. A player m
 - Show the complete pack and drafted pool before a pick, then separate the player's choice, the historical replay pick, and the current raw-data leader.
 - Explain why the rank calculation produced the data leader, and label any replay-pick rationale as editorial inference because the replay records the choice rather than the drafter's intent.
 - Show attributable card-performance evidence after a Hobbit answer without exposing it before the guess.
-- Enlarge a card in place from All cards without changing views.
+- Browse rated sets in All cards by colour or exact tier, then enlarge a card in place without changing views.
 - No cookies, analytics, required account, or deck-builder framing.
 - Deploy as an atomic static release and remain useful if installed or revisited offline.
 - Preserve source attribution and capture dates for every ranking or preview snapshot.
