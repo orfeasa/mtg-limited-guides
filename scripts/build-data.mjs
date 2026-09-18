@@ -156,11 +156,16 @@ const sets = manifest.sets.map((set) => {
   const adapt = setAdapters[set.adapter];
   if (!adapt) throw new Error(`No card-data adapter configured for set ${set.id}`);
   const { cards, previewCapturedAt } = adapt(set);
+  for (const card of cards) {
+    const type = (card.typeLine || "").split("—")[0];
+    if ((/\bBasic\b/.test(type) && /\bLand\b/.test(type)) || (!card.typeLine && (basicLandNames.has(card.name) || card.name === "Wastes" || /^Snow-Covered (Plains|Island|Swamp|Mountain|Forest)$/.test(card.name)))) card.isBasicLand = true;
+  }
   const prep = set.prepFile ? readJson(set.prepFile) : null;
   validatePrep(prep, { ...set, cards });
   return {
     ...set,
     cardCount: cards.length,
+    browseCardCount: cards.filter((card) => !card.isBasicLand).length,
     previewCapturedAt,
     draftDecisions: adaptDraftDecisions(set, cards),
     archetypes: adaptArchetypes(set, cards),

@@ -22,6 +22,13 @@ for (const set of data.sets) {
   if (ids.has(set.id)) throw new Error(`Duplicate set ID: ${set.id}`);
   ids.add(set.id);
   if (!Array.isArray(set.cards) || set.cards.length === 0) throw new Error(`No cards for ${set.id}`);
+  const basics = new Set(["Plains", "Island", "Swamp", "Mountain", "Forest", "Wastes", "Snow-Covered Plains", "Snow-Covered Island", "Snow-Covered Swamp", "Snow-Covered Mountain", "Snow-Covered Forest"]);
+  for (const card of set.cards) {
+    const type = (card.typeLine || "").split("—")[0].split(/\s+/);
+    const expected = card.typeLine ? type.includes("Basic") && type.includes("Land") : basics.has(card.name);
+    if (Boolean(card.isBasicLand) !== expected) throw new Error(`Incorrect basic-land classification: ${card.name}`);
+  }
+  if (set.browseCardCount !== set.cards.filter((card) => !card.isBasicLand).length) throw new Error(`Incorrect browser count for ${set.id}`);
   if (!set.lifecycle?.source || !Object.hasOwn(set.lifecycle, "ratingsConfirmedAt")) throw new Error(`Missing lifecycle evidence for ${set.id}`);
   for (const date of [set.releaseDate, set.prereleaseDate, set.arenaDate, set.previewEndsOn, set.lifecycle.fullSetConfirmedAt, set.lifecycle.ratingsConfirmedAt].filter(Boolean)) {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || new Date(`${date}T12:00:00Z`).toISOString().slice(0, 10) !== date) throw new Error(`Invalid lifecycle date for ${set.id}: ${date}`);

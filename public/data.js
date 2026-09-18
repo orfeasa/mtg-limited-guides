@@ -48,6 +48,7 @@ window.LIMITED_PREP_DATA = {
         "url": "https://mtga.untapped.gg/limited/draft/the-hobbit/pick-order"
       },
       "cardCount": 188,
+      "browseCardCount": 188,
       "previewCapturedAt": null,
       "draftDecisions": {
         "source": "https://www.17lands.com/draft/6fe0176985684194bdea13ba61f6856f",
@@ -4285,6 +4286,7 @@ window.LIMITED_PREP_DATA = {
       },
       "officialUrl": "https://magic.wizards.com/en/products/reality-fracture/card-image-gallery",
       "cardCount": 281,
+      "browseCardCount": 276,
       "previewCapturedAt": "2026-09-17T23:32:42.929Z",
       "draftDecisions": null,
       "archetypes": {
@@ -12215,7 +12217,8 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/281/plains?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "isBasicLand": true
         },
         {
           "id": "d8184e92-54e6-4ddc-86e8-67f5c5eb079d",
@@ -12239,7 +12242,8 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/283/island?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "isBasicLand": true
         },
         {
           "id": "30693b85-550d-4c98-8c5b-4fd4e91c9f28",
@@ -12263,7 +12267,8 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/285/swamp?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "isBasicLand": true
         },
         {
           "id": "16671d98-6f00-477b-a010-d2905c94eb65",
@@ -12287,7 +12292,8 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/287/mountain?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "isBasicLand": true
         },
         {
           "id": "790dcf48-ab51-4b10-9933-6b7e3baf0f52",
@@ -12311,7 +12317,8 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/394/forest?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "isBasicLand": true
         }
       ]
     }

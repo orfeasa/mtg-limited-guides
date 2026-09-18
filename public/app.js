@@ -336,7 +336,11 @@
   }
 
   function previewDates() {
-    return [...new Set(cards.map((card) => card.firstSeenAt).filter(Boolean))].sort();
+    return [...new Set(browseCards().map((card) => card.firstSeenAt).filter(Boolean))].sort();
+  }
+
+  function browseCards() {
+    return cards.filter((card) => !card.isBasicLand);
   }
 
   function previewCatchupAvailable() {
@@ -445,13 +449,10 @@
     elements.productSubtitle.textContent = state.training ? currentSet.subtitle
       : `${state.complete ? "Full card file available. Ratings pending." : "Discover the cards as they are revealed."}${nextEvent ? ` ${nextEvent[0]} · ${dateLabel(nextEvent[1])}.` : ""}`;
     elements.setSelect.value = currentSet.id;
-    elements.datasetCount.textContent = String(currentSet.cardCount);
+    elements.datasetCount.textContent = String(currentSet.browseCardCount);
     elements.datasetUnit.textContent = state.complete ? "cards" : "revealed";
     elements.datasetDate.textContent = state.training ? "observed data" : state.complete ? "full card file" : "previews";
     elements.atlasTitle.textContent = state.atlasLabel;
-    elements.atlasCopy.textContent = currentSet.stage === "preview"
-      ? `${currentSet.cardCount} revealed cards, grouped by colour. Select a card to enlarge it.`
-      : `All ${currentSet.cardCount} ranked cards. Arrange by colour or tier, then select a card to enlarge it.`;
 
     if (archetypesAvailable()) {
       elements.archetypesTitle.textContent = `${currentSet.archetypes.archetypes.length} roads through the set`;
@@ -1155,10 +1156,10 @@
 
     const allOption = document.createElement("option");
     allOption.value = "";
-    allOption.textContent = `All ${cards.length} revealed cards`;
+    allOption.textContent = `All ${currentSet.browseCardCount} revealed cards`;
     const dateOptions = dates.map((date) => {
       const option = document.createElement("option");
-      const newerCount = cards.filter((card) => card.firstSeenAt > date).length;
+      const newerCount = browseCards().filter((card) => card.firstSeenAt > date).length;
       option.value = date;
       option.textContent = `New since ${shortDateLabel(date)} · ${newerCount} ${newerCount === 1 ? "card" : "cards"}`;
       return option;
@@ -1167,15 +1168,15 @@
     elements.previewSince.value = atlasSince;
     elements.previewCatchupSummary.textContent = atlasSince
       ? `Showing ${visibleCards.length} ${visibleCards.length === 1 ? "card" : "cards"} added after ${shortDateLabel(atlasSince)}.`
-      : `Showing all ${cards.length} revealed cards.`;
+      : `Showing all ${currentSet.browseCardCount} revealed cards.`;
   }
 
   function renderAtlas() {
     const catchupAvailable = previewCatchupAvailable();
     if (!catchupAvailable || (atlasSince && !previewDates().includes(atlasSince))) atlasSince = "";
     const visibleCards = catchupAvailable && atlasSince
-      ? cards.filter((card) => card.firstSeenAt > atlasSince)
-      : cards;
+      ? browseCards().filter((card) => card.firstSeenAt > atlasSince)
+      : browseCards();
     renderPreviewCatchup(visibleCards);
     if (!ratingIsAvailable()) atlasGrouping = "colour";
     elements.atlasGrouping.hidden = !ratingIsAvailable();
@@ -1183,8 +1184,8 @@
       button.setAttribute("aria-pressed", String(button.dataset.atlasGrouping === atlasGrouping));
     });
     elements.atlasCopy.textContent = !ratingIsAvailable()
-      ? `${lifecycle().complete ? "The full" : "The revealed"} ${currentSet.cardCount}-card file, grouped by colour. Select a card to enlarge it.${lifecycle().released ? " Ratings are pending." : ""}`
-      : `All ${currentSet.cardCount} ranked cards, grouped by ${atlasGrouping}. Select a card to enlarge it.`;
+      ? `${currentSet.browseCardCount} ${lifecycle().complete ? "cards" : "revealed cards"}, grouped by colour.${currentSet.browseCardCount < currentSet.cardCount ? " Basic lands omitted." : ""} Select a card to enlarge it.${lifecycle().released ? " Ratings are pending." : ""}`
+      : `${currentSet.browseCardCount} ranked cards, grouped by ${atlasGrouping}.${currentSet.browseCardCount < currentSet.cardCount ? " Basic lands omitted." : ""} Select a card to enlarge it.`;
 
     const groups = atlasGrouping === "tier"
       ? atlasTierOrder.map((tier) => ({
