@@ -1090,7 +1090,7 @@ body[data-theme="fracture"] .trainer-image-wrap img {
 
 .format-ledger dt {
   color: var(--on-binding-muted);
-  font-size: .62rem;
+  font-size: .7rem;
 }
 
 .format-ledger dd {
@@ -1111,7 +1111,7 @@ body[data-theme="fracture"] .trainer-image-wrap img {
 .format-ledger span {
   margin-top: 5px;
   color: var(--on-binding-muted);
-  font-size: .62rem;
+  font-size: .7rem;
   line-height: 1.25;
 }
 
@@ -1218,7 +1218,7 @@ body[data-theme="fracture"] .trainer-image-wrap img {
   display: block;
   margin-bottom: 3px;
   color: var(--accent-dark);
-  font-size: .68rem;
+  font-size: .7rem;
   font-weight: 700;
 }
 
@@ -1234,7 +1234,7 @@ body[data-theme="fracture"] .trainer-image-wrap img {
   flex: 0 0 auto;
   margin: 0;
   color: var(--muted);
-  font-size: .68rem;
+  font-size: .72rem;
   text-align: right;
 }
 
@@ -1279,7 +1279,7 @@ body[data-theme="fracture"] .trainer-image-wrap img {
 .archetype-signposts h4 {
   margin: 0 0 10px;
   color: var(--muted);
-  font-size: .65rem;
+  font-size: .7rem;
 }
 
 .archetype-priorities ol {
@@ -1316,7 +1316,7 @@ body[data-theme="fracture"] .trainer-image-wrap img {
   display: block;
   margin: 0 0 5px;
   color: var(--accent-dark);
-  font-size: .65rem;
+  font-size: .7rem;
   font-weight: 700;
 }
 
@@ -1372,7 +1372,7 @@ body[data-theme="fracture"] .trainer-image-wrap img {
 .archetype-signpost span {
   margin-top: 3px;
   color: var(--muted);
-  font-size: .62rem;
+  font-size: .7rem;
 }
 
 .archetype-sources {
@@ -3598,7 +3598,7 @@ body[data-theme="fracture"] .card-preview-copy h2 {
   }
 
   .format-ledger div {
-    padding: 10px 0;
+    padding: 12px 8px;
     border-right: 0;
     border-bottom: 1px solid color-mix(in srgb, var(--on-binding) 28%, transparent);
   }

@@ -339,7 +339,7 @@ The system should feel authored, trustworthy, and ready before an event. Data ma
 - One shared preparation sequence expressed as a shelf of set-owned field guides.
 - Atkinson Hyperlegible Next for working text, controls, metadata, and dense card information.
 - Hobbit’s rounded cloth-and-map atlas beside Reality Fracture’s clipped, electrically seamed dossier.
-- Stable Training and All cards markers, with Archetypes and Draft decisions appearing only when their required evidence exists.
+- Stable Training and All cards markers, with Archetypes appearing once an official plan map and editorial notes exist, and Draft decisions appearing only when grounded scenarios exist.
 - Persisted Training queues, exact-tier scores, and per-scenario decision, reason, reveal, and reflection state with explicit unrated preview states.
 - Hobbit’s post-answer observed-evidence ledger and adjacent-rank context without implying deck intelligence.
 - Hobbit’s Draft review explains the rank calculation behind the data leader and labels each replay rationale as editorial inference rather than the drafter’s known intent.
@@ -414,7 +414,7 @@ The same rule applies to archetypes: official intent, Draft observations, Sealed
 
 ## Layout
 
-The system is one multi-volume field-guide shell capped at 1440px. A 164px binding leads with the selected set, subtitle, set picker, share action, and data-maturity stamp. The most recent release opens by default. Training and All cards are stable sticky page markers; Archetypes joins when a set has an attributable plan map plus separate Draft and Sealed observations, while Draft decisions joins only for sets with grounded scenarios. The markers sit on a 62px line, then open directly into a broad surface. The first Training viewport is one focused card-rating workspace rather than a split dashboard.
+The system is one multi-volume field-guide shell capped at 1440px. A 164px binding leads with the selected set, subtitle, set picker, share action, and data-maturity stamp. The most recent release opens by default. Training and All cards are stable sticky page markers; Archetypes joins when a set has an attributable plan map, verified signposts, and complete editorial notes, while Draft decisions joins only for sets with grounded scenarios. Draft and Sealed observations can arrive later as a visibly separate evidence layer. The markers sit on a 62px line, then open directly into a broad surface. The first Training viewport is one focused card-rating workspace rather than a split dashboard.
 
 Training centres one readable card-and-answer object at a 1040px maximum, with browser-local progress inline below it. Archetypes uses one broad format field note, a sticky route strip, and ruled full-width chapters rather than a grid of equal cards; each chapter keeps the plan and format read beside two recognisable signposts. Draft decisions places seat and historical-pool context in ruled binding rows, the complete pack in a seven-column map-leaf grid, a staged reason-and-lock step below the pack, and the revealed evidence in a flat three-column ledger followed by a keep/change reflection. All cards uses a single broad leaf, a compact colour/tier arrangement switch for rated sets, sticky navigation for the selected grouping, an auto-filling grid with a 230px minimum, and an in-place image lightbox. Major surfaces share a continuous binding/page shadow; rows remain flat and separated by rules.
 
@@ -422,7 +422,7 @@ At 860px, the header becomes a grid, Training progress stacks below its heading,
 
 **The First-Viewport Rule.** The latest set and data maturity lead in the binding; the available compact markers then yield to focused preparation.
 
-**The Stable-Shell Rule.** Training and All cards retain their order and behaviour across sets. Archetypes may appear after Training only with its official map and both format observations; Draft decisions may appear after it only with grounded pack-and-pool evidence.
+**The Stable-Shell Rule.** Training and All cards retain their order and behaviour across sets. Archetypes may appear after Training with an official map, verified signposts, and authored Draft/Sealed guidance; missing observations must read as pending rather than zero or implied weakness. Draft decisions may appear after it only with grounded pack-and-pool evidence.
 
 **The Preparation-Only Rule.** Layout supports recognition, rehearsal, and browsing. It must never acquire deck zones, curve charts, counts-by-card, or other deck-builder composition.
 
@@ -480,10 +480,10 @@ Shared components keep behavior, semantics, target sizes, and information order 
 
 ### Archetypes
 
-- **Availability:** The marker and panel are absent when the official plan map or either format observation is not publication-ready.
-- **Format First:** A literal Draft/Sealed switch controls one headline, one guidance note, the current two-colour leader, supported-lane share, and total sample. Direct links preserve the selected format.
+- **Availability:** The marker and panel are absent until the official plan map, verified signposts, and format-specific editorial notes are publication-ready. Observations may remain pending before play begins, but every ranking, leader, sample, and percentage must stay absent until attributable results exist.
+- **Format First:** A literal Draft/Sealed switch controls one headline and one guidance note. When observations exist it also shows the current two-colour leader, supported-lane share, and total sample; before then the same ledger states that those results are pending. Direct links preserve the selected format.
 - **Routes, Not Rankings:** Supported archetypes remain in the official order. Their observed rank and sample are attached to the route but never replace its plan, structural priorities, or format-specific read.
-- **All-Pair Honesty:** The format leader may be an unsupported pair. State that plainly rather than hiding evidence that challenges the official map.
+- **All-Pair Honesty:** Once observations exist, the format leader may be an unsupported pair. State that plainly rather than hiding evidence that challenges the official map. Before observations, do not rank the official plans.
 - **Signposts:** Two verified local card images anchor each route and open in the existing focused lightbox. They are recognition aids, not a promise that drawing a gold card makes the deck viable.
 
 ### Training Card and Progress Ledger

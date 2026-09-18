@@ -98,6 +98,7 @@
     formatSample: $("#format-sample"),
     archetypeNavigation: $("#archetype-navigation"),
     archetypeList: $("#archetype-list"),
+    archetypeEvidenceNote: $("#archetype-evidence-note"),
     archetypeOfficialSource: $("#archetype-official-source"),
     archetypeDataSource: $("#archetype-data-source"),
     decisionPage: $(".decisions-page"),
@@ -438,7 +439,9 @@
 
     if (archetypesAvailable()) {
       elements.archetypesTitle.textContent = `${currentSet.archetypes.archetypes.length} roads through the set`;
-      elements.archetypesCopy.textContent = "Official plans, tested against format-specific results. Learn what each deck needs before deciding whether your cards actually support it.";
+      elements.archetypesCopy.textContent = currentSet.archetypes.status === "observed"
+        ? "Official plans, tested against format-specific results. Learn what each deck needs before deciding whether your cards actually support it."
+        : "The official colour-pair map, with practical plans and signposts from the complete card file. Draft and Sealed results remain visibly pending.";
     }
 
     const decisionTab = viewTabs.find((tab) => tab.dataset.view === "decisions");
@@ -460,7 +463,7 @@
 
   function renderFooterSource() {
     const refreshedAt = currentView === "archetypes" && archetypesAvailable()
-      ? archetypeFormatData()?.observed?.capturedAt
+      ? archetypeFormatData()?.observed?.capturedAt || currentSet.archetypes.authoredAt
       : currentView === "decisions" && draftDecisionsAvailable()
         ? currentSet.draftDecisions.capturedAt
         : currentSet.stage === "preview"
@@ -471,9 +474,12 @@
 
     if (currentView === "archetypes" && archetypesAvailable()) {
       const format = archetypeFormatData();
-      elements.footerSource.textContent = `${currentSet.archetypes.official.label} · ${format.source.label} · ${format.source.scope}`;
-      elements.sourceLink.href = format.source.url;
-      elements.sourceLink.textContent = `View ${format.shortLabel.toLowerCase()} data`;
+      const observationsAvailable = format.observed?.status === "available";
+      elements.footerSource.textContent = observationsAvailable
+        ? `${currentSet.archetypes.official.label} · ${format.source.label} · ${format.source.scope}`
+        : `${currentSet.archetypes.official.label} · ${format.shortLabel} observations pending`;
+      elements.sourceLink.href = observationsAvailable ? format.source.url : currentSet.archetypes.official.url;
+      elements.sourceLink.textContent = observationsAvailable ? `View ${format.shortLabel.toLowerCase()} data` : "View official archetype map";
       return;
     }
 
@@ -649,8 +655,9 @@
     if (!archetypesAvailable()) return;
     const format = archetypeFormatData();
     if (!format) return;
-    const observed = format.observed;
-    const topPair = observed.pairs.find((pair) => pair.id === observed.topPair);
+    const observed = format.observed || { status: "pending", pairs: [] };
+    const observationsAvailable = observed.status === "available" && observed.pairs.length > 0;
+    const topPair = observationsAvailable ? observed.pairs.find((pair) => pair.id === observed.topPair) : null;
     const topSupport = topPair?.supported ? "supported plan" : "not an official archetype";
 
     elements.archetypeFormatSwitch.querySelectorAll("[data-archetype-format]").forEach((button) => {
@@ -659,12 +666,23 @@
     });
     elements.formatHeadline.textContent = format.headline;
     elements.formatGuidance.textContent = format.guidance;
-    elements.formatLeader.innerHTML = `<strong>${escapeHtml(pairLabel(topPair))}</strong><span>${topPair.winRate.toFixed(1)}% · ${escapeHtml(topSupport)}</span>`;
-    elements.formatSupportedShare.innerHTML = `<strong>${observed.supportedShare.toFixed(1)}%</strong><span>of two-colour games</span>`;
-    elements.formatSample.innerHTML = `<strong>${numberFormatter.format(observed.twoColourGames)}</strong><span>games in snapshot</span>`;
+    elements.formatLeader.innerHTML = observationsAvailable
+      ? `<strong>${escapeHtml(pairLabel(topPair))}</strong><span>${topPair.winRate.toFixed(1)}% · ${escapeHtml(topSupport)}</span>`
+      : "<strong>Not known</strong><span>no recorded games yet</span>";
+    elements.formatSupportedShare.innerHTML = observationsAvailable
+      ? `<strong>${observed.supportedShare.toFixed(1)}%</strong><span>of two-colour games</span>`
+      : `<strong>${currentSet.archetypes.archetypes.length}</strong><span>official colour-pair plans</span>`;
+    elements.formatSample.innerHTML = observationsAvailable
+      ? `<strong>${numberFormatter.format(observed.twoColourGames)}</strong><span>games in snapshot</span>`
+      : "<strong>Pending</strong><span>after Arena play begins</span>";
     elements.archetypeOfficialSource.href = currentSet.archetypes.official.url;
+    elements.archetypeOfficialSource.textContent = "View official archetype map";
     elements.archetypeDataSource.href = format.source.url;
     elements.archetypeDataSource.textContent = `View ${format.shortLabel} observations`;
+    elements.archetypeDataSource.hidden = !observationsAvailable;
+    elements.archetypeEvidenceNote.textContent = observationsAvailable
+      ? "Intended plans and observed results are separate evidence. Win rates describe games recorded by 17Lands users; compare pairs within one format rather than treating the number as your expected result."
+      : "This page shows Wizards' intended plans plus editorial preparation notes. Draft and Sealed observations are pending; no archetype is ranked or recommended yet.";
 
     elements.archetypeNavigation.replaceChildren(...currentSet.archetypes.archetypes.map((archetype) => {
       const button = document.createElement("button");
@@ -681,16 +699,20 @@
       section.className = "archetype-section";
       section.dataset.pair = archetype.id;
       const signposts = archetype.signposts.map((card) => {
-        const rank = Number.isFinite(card.rank) ? `#${card.rank} · Tier ${card.tier}` : "Official signpost";
+        const rank = Number.isFinite(card.rank) ? `#${card.rank} · Tier ${card.tier}` : "Archetype signpost";
         return `<button class="archetype-signpost" type="button" data-card-id="${escapeHtml(card.cardId)}" aria-label="Enlarge ${escapeHtml(card.name)}"><img src="${escapeHtml(card.trainingImage)}" alt="" width="210" height="294"><span><strong>${escapeHtml(card.name)}</strong><span>${escapeHtml(rank)}</span></span></button>`;
       }).join("");
+      const result = stats
+        ? `<strong>#${stats.supportedRank} of ${currentSet.archetypes.archetypes.length}</strong><span>${stats.winRate.toFixed(1)}% · ${numberFormatter.format(stats.games)} games</span>`
+        : "<strong>Official plan</strong><span>results pending</span>";
+      const family = archetype.family ? `<span class="archetype-kicker">${escapeHtml(archetype.family)}</span>` : "";
       section.innerHTML = `
         <header class="archetype-section-heading">
           <div class="archetype-identity">
             <span class="archetype-route">${archetype.colors.map((color) => manaSymbol(color, "mana-symbol--archetype")).join("")}</span>
-            <div><h3>${escapeHtml(archetype.name)}</h3><p class="archetype-mechanic">${escapeHtml(archetype.mechanic)}</p></div>
+            <div>${family}<h3>${escapeHtml(archetype.name)}</h3><p class="archetype-mechanic">${escapeHtml(archetype.mechanic)}</p></div>
           </div>
-          <div class="archetype-result"><strong>#${stats.supportedRank} of ${currentSet.archetypes.archetypes.length}</strong><span>${stats.winRate.toFixed(1)}% · ${numberFormatter.format(stats.games)} games</span></div>
+          <div class="archetype-result">${result}</div>
         </header>
         <div class="archetype-body">
           <div class="archetype-guidance">

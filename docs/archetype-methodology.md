@@ -42,8 +42,10 @@ Copy `data/archetypes.template.json` to a set-specific file and add its filename
 
 The top-level `status` describes the editorial state:
 
-- `provisional` while the official map or field notes are still being established;
+- `provisional` once the official map, signposts, and field notes are publication-ready but one or both observed format snapshots are still pending;
 - `observed` once both format snapshots and all field notes have been checked.
+
+A provisional guide may be published before play begins. It must omit leaders, ranks, win rates, and samples, and say plainly that observations are pending. Never use zero games as if it were a result.
 
 Each format has its own source context, guidance, and `observed` snapshot. The sync script replaces only that snapshot; it does not overwrite the official source or editorial notes.
 

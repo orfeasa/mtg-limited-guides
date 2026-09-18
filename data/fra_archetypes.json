@@ -1,0 +1,296 @@
+{
+  "version": 1,
+  "set": "FRA",
+  "status": "provisional",
+  "authoredAt": "2026-09-18",
+  "official": {
+    "label": "Wizards of the Coast set design guide",
+    "url": "https://magic.wizards.com/en/news/feature/enter-the-echoverse-with-reality-fracture-design"
+  },
+  "formats": {
+    "draft": {
+      "label": "Premier Draft",
+      "shortLabel": "Draft",
+      "eventType": "PremierDraft",
+      "headline": "Start with the official map, not a tier list.",
+      "guidance": "Wizards has published all ten intended lanes. Use these plans to recognise signals and structural needs; observed pick and win-rate data will be added after Arena play begins.",
+      "source": {
+        "label": "17Lands deck colour data",
+        "url": "https://www.17lands.com/deck_color_data?expansion=FRA&format=PremierDraft&time_period=ALL_TIME",
+        "scope": "17Lands users · all ranks · all time"
+      },
+      "observed": {
+        "status": "pending",
+        "capturedAt": null,
+        "twoColourGames": 0,
+        "supportedGames": 0,
+        "supportedShare": null,
+        "topPair": null,
+        "pairs": []
+      }
+    },
+    "sealed": {
+      "label": "Sealed",
+      "shortLabel": "Sealed",
+      "eventType": "Sealed",
+      "headline": "Test the pool you opened against ten complete plans.",
+      "guidance": "Use the map to check for enablers, payoffs, interaction, and curve. With no recorded Sealed results yet, bombs and colour depth matter more than assumptions about pair strength.",
+      "source": {
+        "label": "17Lands deck colour data",
+        "url": "https://www.17lands.com/deck_color_data?expansion=FRA&format=Sealed&time_period=ALL_TIME",
+        "scope": "17Lands users · all ranks · all time"
+      },
+      "observed": {
+        "status": "pending",
+        "capturedAt": null,
+        "twoColourGames": 0,
+        "supportedGames": 0,
+        "supportedShare": null,
+        "topPair": null,
+        "pairs": []
+      }
+    }
+  },
+  "archetypes": [
+    {
+      "id": "WU",
+      "colors": [
+        "W",
+        "U"
+      ],
+      "family": "Hexhaven school",
+      "name": "Surveil",
+      "mechanic": "Surveil · +1/+1 counters",
+      "plan": "Scry or surveil early and often, improving your draws while turning white's counter creatures into an evasive tempo board.",
+      "priorities": [
+        "Repeatable or low-cost scry and surveil",
+        "Creatures that reward the first selection trigger each turn",
+        "Tempo and evasion that convert counters into damage"
+      ],
+      "signposts": [
+        "Desperate Futurescribe",
+        "Prudent Fateseer // Peer Review"
+      ],
+      "formatNotes": {
+        "draft": "Count enablers before payoffs. A lane full of card selection but short on board presence can sculpt its draws and still fall behind.",
+        "sealed": "Look for selection attached to cards you already want to play, plus a real aerial finish; do not stretch the mana for weak trigger pieces."
+      }
+    },
+    {
+      "id": "UB",
+      "colors": [
+        "U",
+        "B"
+      ],
+      "family": "Hexhaven school",
+      "name": "Threshold",
+      "mechanic": "Threshold · graveyard",
+      "plan": "Fill the graveyard to seven cards, then turn threshold creatures and flashback spells into a second wave of value.",
+      "priorities": [
+        "Self-mill attached to useful spells and creatures",
+        "Threshold or graveyard payoffs worth enabling",
+        "Removal and blockers that buy time for the engine"
+      ],
+      "signposts": [
+        "Void Extrapolator // Omit Variables",
+        "Recursive Recruitment"
+      ],
+      "formatNotes": {
+        "draft": "Prioritise self-mill that still affects the game. The deck needs enough payoffs to reward seven cards in the graveyard, not just ways to get there.",
+        "sealed": "Long games make threshold realistic, but the pool still needs early interaction and enough recursion or flashback to justify the setup."
+      }
+    },
+    {
+      "id": "BR",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "family": "Hexhaven school",
+      "name": "Face Burn",
+      "mechanic": "Noncombat damage · prowess",
+      "plan": "Deal small bursts of noncombat damage to switch on evasive and recursive threats, then keep the opponent under constant pressure.",
+      "priorities": [
+        "Cheap, reliable ways to damage the opponent outside combat",
+        "Payoffs that become evasive, recursive, or larger",
+        "Removal and card flow that keep triggers coming"
+      ],
+      "signposts": [
+        "Stingerquill Voxmancer // Vicious Verse",
+        "Grim Repriser"
+      ],
+      "formatNotes": {
+        "draft": "The one-point Vicious Verse effects matter when they unlock several payoffs. Without that density, take independently strong Rakdos cards instead.",
+        "sealed": "Demand repeatable or plentiful triggers before treating face burn as an engine; occasional direct damage alone will not hold the deck together."
+      }
+    },
+    {
+      "id": "RG",
+      "colors": [
+        "R",
+        "G"
+      ],
+      "family": "Hexhaven school",
+      "name": "Ramp",
+      "mechanic": "Extra mana · go big",
+      "plan": "Build Heartwood tokens and extra mana, survive the early turns, then spend the advantage on oversized threats and flexible finishers.",
+      "priorities": [
+        "Ramp that advances the board or fixes both colours",
+        "Large payoffs that justify spending early picks on mana",
+        "Cheap interaction and bodies that bridge to the top end"
+      ],
+      "signposts": [
+        "Heartwood Crafter // Soul Tether",
+        "Craftwork Crusher"
+      ],
+      "formatNotes": {
+        "draft": "Do not take ramp without destinations. Count the expensive cards you are accelerating into and the early plays that stop faster decks.",
+        "sealed": "This is most convincing when the pool has genuine bombs or deep top-end power, enough early defence, and mana that can cast everything on time."
+      }
+    },
+    {
+      "id": "GW",
+      "colors": [
+        "G",
+        "W"
+      ],
+      "family": "Hexhaven school",
+      "name": "Life Gain",
+      "mechanic": "Life gain · +1/+1 counters",
+      "plan": "Gain life in small repeatable bursts, then convert each trigger into cards, counters, and vigilant pressure.",
+      "priorities": [
+        "Repeatable life gain attached to playable cards",
+        "Payoffs that turn each trigger into material advantage",
+        "Protection or interaction that preserves the growing board"
+      ],
+      "signposts": [
+        "Bloombrute",
+        "Vigorbloom Vanguard // Seed Suture"
+      ],
+      "formatNotes": {
+        "draft": "Treat life gain as an engine only when enablers and payoffs are both flowing. Incidental life without board impact is not a reason to commit.",
+        "sealed": "The plan can emerge from redundant incidental gain, but the final deck still needs a curve, interaction, and enough threats to use the extra time."
+      }
+    },
+    {
+      "id": "WB",
+      "colors": [
+        "W",
+        "B"
+      ],
+      "family": "Planeswalker pair",
+      "name": "Attrition",
+      "mechanic": "Sacrifice · graveyard value",
+      "plan": "Trade creatures and planeswalkers, recycle graveyard value, and win after both boards have been stripped down.",
+      "priorities": [
+        "Replaceable bodies and useful death triggers",
+        "Efficient removal and profitable sacrifice outlets",
+        "Recursion or resilient threats that win the long game"
+      ],
+      "signposts": [
+        "Edgar, Ancient Bloodlord",
+        "Twisted Fates"
+      ],
+      "formatNotes": {
+        "draft": "Attrition needs enough disposable material to make every trade favourable. Avoid sacrifice cards that ask you to spend real threats for too little return.",
+        "sealed": "A deep removal suite and repeatable value can make this an excellent long-game shell; two powerful colours alone do not guarantee the engine."
+      }
+    },
+    {
+      "id": "BG",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "family": "Planeswalker pair",
+      "name": "Midrange",
+      "mechanic": "Graveyard value · go big",
+      "plan": "Use self-mill and durable creatures to turn the graveyard into mana, scaling removal, and oversized midgame threats.",
+      "priorities": [
+        "Self-mill that finds lands or leaves useful cards behind",
+        "Efficient creatures and removal across the curve",
+        "A few finishers that break open stalled boards"
+      ],
+      "signposts": [
+        "Hapatra, the Desert Fang",
+        "Primal Witchstalker"
+      ],
+      "formatNotes": {
+        "draft": "The broad card quality makes this flexible, but the best versions still use the graveyard rather than becoming a pile of unrelated expensive cards.",
+        "sealed": "This plan suits deep pools with removal and sturdy threats. Make sure the self-mill improves your resources instead of merely risking key answers."
+      }
+    },
+    {
+      "id": "GU",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "family": "Planeswalker pair",
+      "name": "Jace",
+      "mechanic": "Empower Jace · loyalty payoffs",
+      "plan": "Empower Jace repeatedly, then turn loyalty activations into unblockable attacks, extra cards, and large board swings.",
+      "priorities": [
+        "Reliable early ways to create and empower Jace",
+        "Payoffs for loyalty counters or activated abilities",
+        "Creatures that protect Jace and convert the value into pressure"
+      ],
+      "signposts": [
+        "Kiora of Salt and Sand",
+        "Mind Meanderer"
+      ],
+      "formatNotes": {
+        "draft": "Jace-specific payoffs are demanding. Count both empower cards and ways to defend the token before taking the narrow rewards highly.",
+        "sealed": "The ceiling is high when the pool can create Jace reliably; without that redundancy, favour the independently playable green and blue cards."
+      }
+    },
+    {
+      "id": "UR",
+      "colors": [
+        "U",
+        "R"
+      ],
+      "family": "Planeswalker pair",
+      "name": "Spellslinger",
+      "mechanic": "Noncreature spells · prowess",
+      "plan": "Chain efficient noncreature spells to grow attackers and create evasive material, then finish with one concentrated tempo swing.",
+      "priorities": [
+        "Cheap spells that replace themselves or affect the board",
+        "Creatures and token makers that reward every spell",
+        "Enough card flow to avoid running out of triggers"
+      ],
+      "signposts": [
+        "Saheeli, Jewel of Avishkar",
+        "Twinned Vision"
+      ],
+      "formatNotes": {
+        "draft": "Balance enablers and payoffs as you draft. Too many creatures dilute the engine, while too many situational spells leave nothing worth enhancing.",
+        "sealed": "Prefer interaction and card draw over narrow tricks. The deck needs a stable board and enough payoff creatures to turn spell volume into a win."
+      }
+    },
+    {
+      "id": "RW",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "family": "Planeswalker pair",
+      "name": "Aggro",
+      "mechanic": "+1/+1 counters · combat pressure",
+      "plan": "Curve out, place counters on new attackers, and use combat boosts or equipment to keep damage flowing before slower engines stabilise.",
+      "priorities": [
+        "A dense curve of useful two- and three-mana creatures",
+        "Counter payoffs that add pressure without losing tempo",
+        "Removal, combat tricks, or reach that clear the final attack"
+      ],
+      "signposts": [
+        "Mabel, Valley Hero",
+        "Warrior's Blades"
+      ],
+      "formatNotes": {
+        "draft": "Aggro depends on density. Prioritise the curve and efficient pressure before expensive cards that merely share the colours.",
+        "sealed": "Only choose this plan when the pool can attack on schedule; a few strong red-white rares will not turn a slow creature base into an aggro deck."
+      }
+    }
+  ]
+}

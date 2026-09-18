@@ -36,8 +36,11 @@ for (const set of data.sets) {
     if (set.archetypes.set !== set.code || !Array.isArray(set.archetypes.archetypes) || set.archetypes.archetypes.length === 0) {
       throw new Error(`Invalid archetype data for ${set.id}`);
     }
-    if (set.archetypes.status !== "observed" || !set.archetypes.official?.label || !set.archetypes.official?.url) {
+    if (!["provisional", "observed"].includes(set.archetypes.status) || !set.archetypes.official?.label || !set.archetypes.official?.url) {
       throw new Error(`Archetype evidence is not publication-ready for ${set.id}`);
+    }
+    if (set.archetypes.authoredAt && Number.isNaN(Date.parse(set.archetypes.authoredAt))) {
+      throw new Error(`Invalid archetype authored date for ${set.id}`);
     }
     const archetypeIds = new Set();
     for (const archetype of set.archetypes.archetypes) {
@@ -54,10 +57,16 @@ for (const set of data.sets) {
     }
     for (const formatId of ["draft", "sealed"]) {
       const format = set.archetypes.formats?.[formatId];
-      if (!format?.label || !format?.shortLabel || !format?.eventType || !format?.headline || !format?.source?.label || !format?.source?.url || !format?.source?.scope || !format?.guidance || format.observed?.status !== "available") {
-        throw new Error(`Archetype ${formatId} evidence is unavailable for ${set.id}`);
+      if (!format?.label || !format?.shortLabel || !format?.eventType || !format?.headline || !format?.source?.label || !format?.source?.url || !format?.source?.scope || !format?.guidance || !["pending", "available"].includes(format.observed?.status)) {
+        throw new Error(`Archetype ${formatId} evidence is invalid for ${set.id}`);
       }
       const observed = format.observed;
+      if (observed.status === "pending") {
+        if (set.archetypes.status === "observed" || observed.capturedAt !== null || observed.twoColourGames !== 0 || observed.supportedGames !== 0 || observed.supportedShare !== null || observed.topPair !== null || !Array.isArray(observed.pairs) || observed.pairs.length !== 0) {
+          throw new Error(`Pending ${formatId} evidence contains results for ${set.id}`);
+        }
+        continue;
+      }
       if (!observed.capturedAt || Number.isNaN(Date.parse(observed.capturedAt)) || !Array.isArray(observed.pairs) || observed.pairs.length !== 10) {
         throw new Error(`Expected a dated ten-pair ${formatId} snapshot for ${set.id}`);
       }
@@ -114,6 +123,9 @@ for (const scenario of hobbit.draftDecisions.scenarios) {
 }
 
 const fracture = data.sets.find((set) => set.id === "fra");
+if (fracture.archetypes?.status !== "provisional" || fracture.archetypes?.archetypes?.length !== 10) {
+  throw new Error("Expected ten provisional Reality Fracture archetypes");
+}
 if (fracture.rating.status !== "pending") throw new Error("Reality Fracture must remain explicitly unrated during preview season");
 if (fracture.cards.some((card) => card.rank || card.tier)) throw new Error("Reality Fracture preview cards must not have invented ratings");
 if (fracture.cards.some((card) => !card.trainingImage)) throw new Error("Reality Fracture preview cards need readable study images");

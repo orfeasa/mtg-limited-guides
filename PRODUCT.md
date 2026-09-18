@@ -31,7 +31,7 @@ Used in the days before a prerelease or draft, alone or with friends. A player m
 - Support multiple sets through a shared static data contract.
 - Give each set a distinct visual theme without changing the core navigation.
 - Open the latest set by default while preserving direct links to any set.
-- Make Training and All cards the stable preparation modes; add Archetypes once the official plan map and format observations are authored, and Draft decisions only to sets with grounded pack-and-pool evidence.
+- Make Training and All cards the stable preparation modes; add Archetypes once the official plan map, signposts, and editorial field notes are authored, keeping Draft and Sealed observations explicitly pending until real games exist; add Draft decisions only to sets with grounded pack-and-pool evidence.
 - Keep official archetype intent, observed results, and editorial guidance visibly distinct.
 - Preserve separate Premier Draft and Sealed observations, including all ten two-colour pairs and their sample sizes.
 - Keep rating-dependent training absent when a complete, attributable Limited evaluation is unavailable.
@@ -51,7 +51,7 @@ Used in the days before a prerelease or draft, alone or with friends. A player m
 ## Evidence on Hand
 
 - The Hobbit: five official archetype plans from the Wizards prerelease guide; separate 17Lands Premier Draft and Sealed two-colour observations captured on 8 September 2026; verified 188-card pick-order and performance snapshots captured from Untapped.gg on 17 September 2026 across 750,000 matches; matching local thumbnail/readable image pairs; and 18 real pack-and-pool states from a public 17Lands 7–2 Premier Draft replay.
-- Reality Fracture: current Scryfall preview index and local thumbnail/readable image pairs, without invented Limited ratings.
+- Reality Fracture: complete 281-card Scryfall preview index and local thumbnail/readable image pairs; Wizards' official ten-pair Draft map with authored signposts and separate Draft/Sealed preparation notes; no invented Limited ratings or observed archetype results.
 - Official Reality Fracture release milestones and Play Booster notes captured in set metadata.
 
 ## Product Principles
