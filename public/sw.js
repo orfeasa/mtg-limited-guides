@@ -1,5 +1,5 @@
 /* Generated static cache manifest. */
-const CACHE = "limited-prep-38f7e3c8efed";
+const CACHE = "limited-prep-b2f513db598f";
 const ASSETS = [
   "./",
   "./index.html",
@@ -488,6 +488,15 @@ const ASSETS = [
   "./assets/cards/fra/790dcf48-ab51-4b10-9933-6b7e3baf0f52.jpg"
 ];
 
+const fetchAndCache = async (request) => {
+  const response = await fetch(request);
+  if (response.ok) {
+    const cache = await caches.open(CACHE);
+    await cache.put(request, response.clone());
+  }
+  return response;
+};
+
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(
     ASSETS.map((asset) => new Request(asset, { cache: "reload" }))
@@ -504,11 +513,23 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
+
+  const networkFirst = event.request.mode === "navigate"
+    || ["document", "script", "style", "manifest"].includes(event.request.destination);
+
+  if (networkFirst) {
+    event.respondWith(
+      fetchAndCache(event.request).catch(async () => {
+        const cached = await caches.match(event.request, { ignoreSearch: true });
+        if (cached) return cached;
+        if (event.request.mode === "navigate") return caches.match("./index.html");
+        throw new Error("No offline response for " + event.request.url);
+      })
+    );
+    return;
+  }
+
   event.respondWith(
-    caches.match(event.request).then((cached) => cached || fetch(event.request).then((response) => {
-      const copy = response.clone();
-      caches.open(CACHE).then((cache) => cache.put(event.request, copy));
-      return response;
-    }))
+    caches.match(event.request).then((cached) => cached || fetchAndCache(event.request))
   );
 });
