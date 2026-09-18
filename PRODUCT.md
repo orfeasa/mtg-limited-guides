@@ -31,7 +31,7 @@ Used in the days before a prerelease or draft, alone or with friends. A player m
 - Support multiple sets through a shared static data contract.
 - Give each set a distinct visual theme without changing the core navigation.
 - Open the latest set by default while preserving direct links to any set.
-- Follow `docs/set-lifecycle.md`: Previews during reveals; Archetypes after the full file and authored plans are verified; All cards replaces Previews when the full card file is confirmed; Training requires complete attributable ratings. Default to the most useful available task. Draft decisions additionally requires grounded pack-and-pool evidence.
+- Follow `docs/set-lifecycle.md`: Previews during reveals; published Prerelease prep after full reveal; Archetypes after the full file and authored plans are verified; All cards replaces Previews when the full card file is confirmed; Training requires complete attributable ratings. Default to Training when supported, otherwise published prep, Archetypes, then the card browser. Draft decisions additionally requires grounded pack-and-pool evidence.
 - Keep official archetype intent, observed results, and editorial guidance visibly distinct.
 - Preserve separate Premier Draft and Sealed observations, including all ten two-colour pairs and their sample sizes.
 - Keep rating-dependent training absent when a complete, attributable Limited evaluation is unavailable.
@@ -59,6 +59,7 @@ Used in the days before a prerelease or draft, alone or with friends. A player m
 - Preparation, not deck construction, is the primary job.
 - Every interaction should improve card recognition or decision fluency.
 - Archetypes are plans to test against a draft lane or opened pool, not instructions to force a colour pair.
+- Prerelease prep teaches rules, key-card recognition, interaction, and deck construction before ratings exist. Separate Sealed/Draft advice, labelled editorial card assessments, objective retryable exercises, and a local deck checklist follow `docs/prep-authoring.md`. Keep the guide available after release; it does not become obsolete when results arrive.
 - Rankings are a baseline; grounded decisions must expose what came from current aggregate data, what the historical drafter took, and what still requires contextual judgement.
 - Unknown and incomplete information stays visibly unknown.
 - The tool should remain private by default, easy to share by link, and operational without an account.

@@ -1,0 +1,22 @@
+import assert from "node:assert/strict";
+import fs from "node:fs";
+import vm from "node:vm";
+import { validatePrep } from "./prep-schema.mjs";
+const context = { window: {} };
+vm.runInNewContext(fs.readFileSync(new URL("../public/data.js", import.meta.url), "utf8"), context);
+const set = context.window.LIMITED_PREP_DATA.sets.find((set) => set.prep);
+validatePrep(set.prep, set);
+const invalid = (mutate) => {
+  const guide = structuredClone(set.prep);
+  mutate(guide);
+  assert.throws(() => validatePrep(guide, set));
+};
+invalid((g) => { g.keyCards[0].card = "Unknown card"; });
+invalid((g) => { g.interactions[0].card = "Bestial Incursion"; });
+invalid((g) => { g.exercises[0].answer = 99; });
+invalid((g) => { g.exercises[1].id = g.exercises[0].id; });
+invalid((g) => { g.formats.sealed.steps = []; });
+invalid((g) => { g.sources = []; });
+invalid((g) => { g.publishedAt = "2026-02-30"; });
+invalid((g) => { g.keyCards[0].watch = ""; });
+console.log(`Verified preparation content and 8 invalid-content rejection cases (${set.prep.keyCards.length} key cards, ${set.prep.exercises.length} exercises).`);

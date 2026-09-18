@@ -8,7 +8,7 @@
   const params = new URLSearchParams(location.search);
   const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const numberFormatter = new Intl.NumberFormat("en-GB");
-  const validViews = new Set(["training", "archetypes", "decisions", "atlas"]);
+  const validViews = new Set(["training", "prep", "archetypes", "decisions", "atlas"]);
   const bandLabels = {
     top: "Top pick · S/A range",
     strong: "Strong · B range",
@@ -185,6 +185,12 @@
   let atlasSince = "";
   let atlasGrouping = params.get("group") === "tier" ? "tier" : "colour";
   let archetypeFormat = params.get("format") === "sealed" ? "sealed" : "draft";
+  let prepFormat = params.get("format") === "draft" ? "draft" : "sealed";
+  const prepGuide = window.LIMITED_PREP_GUIDE.create(document.querySelector("#prep-content"), {
+    openCard: (id) => openCardPreview(id),
+    formatChanged: (format) => { prepFormat = format; updateUrl(); },
+    openArchetypes: () => { archetypeFormat = prepFormat; renderArchetypes(); activateView("archetypes", { focus: true }); },
+  });
   let progress = emptyProgress();
   let toastTimer = null;
 
@@ -352,6 +358,7 @@
       url.searchParams.delete("decision");
     }
     if (currentView === "archetypes" && archetypesAvailable()) url.searchParams.set("format", archetypeFormat);
+    else if (currentView === "prep") url.searchParams.set("format", prepFormat);
     else url.searchParams.delete("format");
     if (currentView === "atlas" && previewCatchupAvailable() && atlasSince) url.searchParams.set("since", atlasSince);
     else url.searchParams.delete("since");
@@ -465,6 +472,7 @@
     }
     const trainingTab = viewTabs.find((tab) => tab.dataset.view === "training");
     trainingTab.hidden = !state.training;
+    viewTabs.find((tab) => tab.dataset.view === "prep").hidden = !state.prep;
     viewTabs.find((tab) => tab.dataset.view === "atlas").querySelector("span").textContent = state.atlasLabel;
     const viewCount = state.views.length;
     document.documentElement.style.setProperty("--view-count", String(viewCount));
@@ -474,6 +482,14 @@
   }
 
   function renderFooterSource() {
+    if (currentView === "prep" && lifecycle().prep) {
+      elements.footerRefreshed.hidden = false;
+      elements.footerRefreshed.textContent = `Guide reviewed ${dateLabel(currentSet.prep.authoredAt)}`;
+      elements.footerSource.textContent = "Rules references and editorial preparation notes";
+      elements.sourceLink.href = currentSet.prep.sources[0].url;
+      elements.sourceLink.textContent = "Read the mechanics";
+      return;
+    }
     const refreshedAt = currentView === "archetypes" && archetypesAvailable()
       ? archetypeFormatData()?.observed?.capturedAt || currentSet.archetypes.authoredAt
       : currentView === "decisions" && draftDecisionsAvailable()
@@ -1271,6 +1287,7 @@
     cardById = new Map(cards.map((card) => [card.id, card]));
     if (!useRouteState) currentView = lifecycle().defaultView;
     const requestedFormat = useRouteState ? routeParams.get("format") : null;
+    prepFormat = requestedFormat === "draft" ? "draft" : "sealed";
     if (requestedFormat && currentSet.archetypes?.formats?.[requestedFormat]) archetypeFormat = requestedFormat;
     else if (!currentSet.archetypes?.formats?.[archetypeFormat]) archetypeFormat = "draft";
     atlasSince = useRouteState ? routeParams.get("since") || "" : "";
@@ -1298,6 +1315,7 @@
     updateProgress();
     renderTrainer();
     renderArchetypes();
+    prepGuide.render(lifecycle().prep ? currentSet : null, prepFormat);
     renderDecision();
     renderAtlas();
     activateView(currentView, { updateHistory: false });

@@ -8,13 +8,14 @@
       && set.rating?.status === "available" && Boolean(set.rating.source && set.rating.url && set.rating.capturedAt)
       && set.cards.length > 0 && set.cards.every((card) => Number.isFinite(card.rank) && Boolean(card.tier));
     const archetypes = complete && Boolean(set.archetypes?.archetypes?.length);
+    const prep = complete && set.prep?.status === "published" && reached(set.prep.publishedAt);
     const decisions = training && Boolean(set.draftDecisions?.scenarios?.length);
     return {
-      complete, released, training, archetypes, decisions,
+      complete, released, training, prep, archetypes, decisions,
       stage: training ? "observed" : complete ? "complete" : "preview",
       atlasLabel: complete ? "All cards" : "Previews",
-      defaultView: training ? "training" : archetypes ? "archetypes" : "atlas",
-      views: [training && "training", archetypes && "archetypes", decisions && "decisions", "atlas"].filter(Boolean),
+      defaultView: training ? "training" : prep ? "prep" : archetypes ? "archetypes" : "atlas",
+      views: [training && "training", prep && "prep", archetypes && "archetypes", decisions && "decisions", "atlas"].filter(Boolean),
     };
   }
   window.SET_LIFECYCLE = { resolve };

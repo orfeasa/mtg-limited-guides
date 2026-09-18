@@ -1044,6 +1044,7 @@ window.LIMITED_PREP_DATA = {
           }
         ]
       },
+      "prep": null,
       "cards": [
         {
           "id": "hob-1",
@@ -4249,6 +4250,7 @@ window.LIMITED_PREP_DATA = {
       "adapter": "preview",
       "dataFile": "fra_preview.json",
       "archetypesFile": "fra_archetypes.json",
+      "prepFile": "fra_prep.json",
       "name": "Reality Fracture",
       "productName": "Reality Fracture Field File",
       "theme": "fracture",
@@ -4718,6 +4720,419 @@ window.LIMITED_PREP_DATA = {
               "draft": "Aggro depends on density. Prioritise the curve and efficient pressure before expensive cards that merely share the colours.",
               "sealed": "Only choose this plan when the pool can attack on schedule; a few strong red-white rares will not turn a slow creature base into an aggro deck."
             }
+          }
+        ]
+      },
+      "prep": {
+        "version": 1,
+        "set": "FRA",
+        "status": "published",
+        "publishedAt": "2026-09-18",
+        "authoredAt": "2026-09-18",
+        "assessment": "Early card selections and deck-building advice are our assessment of the rules text, not measured performance. Revisit them as games and results arrive.",
+        "sources": [
+          {
+            "label": "Wizards: Reality Fracture mechanics",
+            "url": "https://magic.wizards.com/en/news/feature/reality-fracture-mechanics"
+          },
+          {
+            "label": "Official card gallery",
+            "url": "https://magic.wizards.com/en/products/reality-fracture/card-image-gallery"
+          },
+          {
+            "label": "Sealed Deck basics",
+            "url": "https://magic.wizards.com/en/formats/sealed-deck"
+          }
+        ],
+        "formats": {
+          "sealed": {
+            "intro": "Opening a prerelease pool? Start with the cards you have: find two colours with enough early plays, answers, and ways to win. Use the archetypes to connect those cards, not to force a deck your pool cannot support.",
+            "steps": [
+              {
+                "title": "Lay out your options",
+                "text": "Sort your pool by colour. Separate broadly useful creatures and answers from cards that need a particular engine. Note your strongest threats, but compare the whole colour rather than choosing it for one rare."
+              },
+              {
+                "title": "Compare two-colour decks",
+                "text": "Lay out the plausible pairs by mana cost. Which can affect the board early, answer a large creature or planeswalker, and still win a long game? A spectacular top end does not repair a deck with nothing to do in the first turns."
+              },
+              {
+                "title": "Count support, not just payoffs",
+                "text": "For a graveyard deck, count ways to fill the graveyard. For artifact payoffs, count artifacts you can actually deploy. For Jace engines, count empower cards and creatures that can protect your planeswalkers."
+              },
+              {
+                "title": "Make the mana work",
+                "text": "Prefer a reliable two-colour base. Consider a splash only when the payoff justifies it and your pool provides fixing; a double-coloured early spell is a poor splash. Room of Refuge fixes one chosen colour, while Heartwood only supplies red or green."
+              }
+            ]
+          },
+          "draft": {
+            "intro": "Preparing to draft? Learn the flexible cards first, then the support each colour pair needs. Use this guide to recognise options; a pick still depends on the pack, your curve, and the cards already in your pool.",
+            "steps": [
+              {
+                "title": "Begin with flexible cards",
+                "text": "Early in a draft, useful creatures and efficient answers leave more routes open than a narrow payoff. Compare a card's actual casting requirements, not just its colour or rarity."
+              },
+              {
+                "title": "Look for repeated opportunities",
+                "text": "Several useful cards arriving in one colour are more informative than one late gold card. Keep checking whether a possible second colour provides the creatures and interaction your deck needs."
+              },
+              {
+                "title": "Draft the missing pieces",
+                "text": "Once your plan is taking shape, count its enablers. A prepare payoff wants prepare spells; an artifact engine needs artifacts. Another payoff may help less than an early creature, removal spell, or fixing."
+              },
+              {
+                "title": "Build for the games you must play",
+                "text": "Check your curve before adding another expensive spell. Avoid stretching the mana for every powerful card you see. Use the archetype notes to understand your deck's plan, then select the cards that make it happen."
+              }
+            ]
+          }
+        },
+        "mechanics": [
+          {
+            "id": "empower",
+            "title": "Empower Jace: build a resource you can spend",
+            "text": "Empower adds loyalty to one Jace token you control, creating one first if needed. A nontoken Jace does not count. The token offers −1 to surveil 1 or −3 to draw a card.",
+            "tip": "Plan both the activation and the defence: an exposed planeswalker can be attacked. Spending its last loyalty normally sends it to the graveyard.",
+            "cards": [
+              "Arcane Amphisbaena"
+            ]
+          },
+          {
+            "id": "prepare",
+            "title": "Prepare: the creature brings another spell",
+            "text": "A prepared permanent makes its prepare spell available as a copy in exile. Pay the spell's cost and respect its timing. Casting it unprepares the permanent; losing the permanent first loses the uncast copy.",
+            "tip": "Budget mana for both halves. When removal is likely, consider whether you can use the prepared spell before risking the creature.",
+            "cards": [
+              "Fatehold Chronologist // Peer Review"
+            ]
+          },
+          {
+            "id": "heartwood",
+            "title": "Heartwood: repeatable red or green mana",
+            "text": "A Heartwood is a red and green artifact token that taps for red or green mana. Unlike a Treasure, using its mana ability does not sacrifice it.",
+            "tip": "It supports expensive spells and artifact payoffs, but does not fix blue, black, or white. Check whether the effect that creates it says it enters tapped.",
+            "cards": [
+              "Hungering Puppetbeast"
+            ]
+          },
+          {
+            "id": "graveyard",
+            "title": "Your graveyard is part of your hand",
+            "text": "Flashback gives a spell another use from the graveyard for its listed flashback cost; the spell is then exiled when it leaves the stack. Threshold checks for seven or more cards in your graveyard.",
+            "tip": "Do not double-count resources: flashing back a card can drop you below threshold. Twinned Vision also requires a discard when you use its flashback cost.",
+            "cards": [
+              "Twinned Vision",
+              "Void Extrapolator // Omit Variables"
+            ]
+          }
+        ],
+        "roles": [
+          {
+            "id": "threats",
+            "label": "Bomb candidates"
+          },
+          {
+            "id": "foundation",
+            "label": "Commons & uncommons"
+          },
+          {
+            "id": "answers",
+            "label": "Removal"
+          },
+          {
+            "id": "engines",
+            "label": "Build-arounds"
+          },
+          {
+            "id": "mana",
+            "label": "Fixing"
+          }
+        ],
+        "keyCards": [
+          {
+            "card": "Hungering Puppetbeast",
+            "role": "threats",
+            "why": "Brings its own Heartwood and can turn artifacts into lasting growth plus protection or evasion.",
+            "watch": "Each activation costs one mana and another artifact. Keeping an artifact and mana available matters."
+          },
+          {
+            "card": "Chandra, Torch of Defiance",
+            "role": "threats",
+            "why": "Offers removal, mana, and a continuing source of cards or damage from one permanent.",
+            "watch": "Double red asks for a real red base. Four damage does not answer every threat; protect her from attacks."
+          },
+          {
+            "card": "Garruk, Veiled Butcher",
+            "role": "threats",
+            "why": "Can shrink a creature or turn a sacrifice into a trampling Beast, with more options on later turns.",
+            "watch": "Costs five mana including double black. The sacrifice mode also affects you; plan what you can give up."
+          },
+          {
+            "card": "Arcane Amphisbaena",
+            "role": "foundation",
+            "why": "An early deathtouch creature can discourage attacks while empower adds a separate resource.",
+            "watch": "A useful defensive role does not make it a fast clock. Think about how your deck eventually wins."
+          },
+          {
+            "card": "Fatehold Chronologist // Peer Review",
+            "role": "foundation",
+            "why": "A flying creature plus a prepared token-making spell gives you multiple uses for one card.",
+            "watch": "The second spell costs mana and disappears if the creature leaves before you cast it."
+          },
+          {
+            "card": "Bestial Incursion",
+            "role": "foundation",
+            "why": "A 4/4 trampling token, then another through flashback, gives a green deck something to do in a long game.",
+            "watch": "The second cast costs six mana. Do not let this replace the early plays your deck needs."
+          },
+          {
+            "card": "Budding Insurgent",
+            "role": "foundation",
+            "why": "A creature with a built-in answer to an artifact or enchantment keeps a narrow effect useful in more games.",
+            "watch": "Its sacrifice ability is sorcery-speed; you cannot use it as a surprise during combat."
+          },
+          {
+            "card": "Generous Revival",
+            "role": "foundation",
+            "why": "Returns an inexpensive creature with an extra counter and offers a second use through flashback.",
+            "watch": "Needs a creature with mana value three or less in your graveyard. Check that your deck supplies enough targets."
+          },
+          {
+            "card": "Twinned Vision",
+            "role": "foundation",
+            "why": "Offers a cheap spell now and another cast from the graveyard later, useful for spell-based plans.",
+            "watch": "The flashback cost includes discarding a card. Drawing two on that cast is not two free cards."
+          },
+          {
+            "card": "Void Extrapolator // Omit Variables",
+            "role": "foundation",
+            "why": "Provides an early creature and a prepared self-mill spell to help reach threshold.",
+            "watch": "The threshold bonus needs seven graveyard cards. Outside a graveyard plan, compare it with your other early creatures."
+          },
+          {
+            "card": "Whiplash Wordsmith // Vicious Verse",
+            "role": "foundation",
+            "why": "Its prepared spell can enable its own flying and haste, giving a burn-oriented deck a way to attack through a crowded board.",
+            "watch": "You need additional noncombat damage on later turns to keep enabling those abilities. Include the prepared spell's mana cost in your attack plan."
+          },
+          {
+            "card": "Memory Trap",
+            "role": "answers",
+            "why": "Answers an opposing nonland permanent, including a planeswalker, rather than only a creature.",
+            "watch": "The permanent returns when this enchantment leaves. Consider opposing enchantment removal."
+          },
+          {
+            "card": "Extended Absence",
+            "role": "answers",
+            "why": "Instant-speed exile handles creatures or planeswalkers and prevents ordinary graveyard recursion.",
+            "watch": "Four mana is a meaningful turn. Leave it up when the flexibility is worth delaying your own play."
+          },
+          {
+            "card": "Last Gasp",
+            "role": "answers",
+            "why": "Two-mana instant interaction can remove a small creature or change combat by shrinking a larger one.",
+            "watch": "−3/−3 is not unconditional removal. Check toughness and possible protection or pump."
+          },
+          {
+            "card": "Wrath of the Bloodmane",
+            "role": "answers",
+            "why": "Four damage at instant speed can answer a creature or planeswalker, with a discount when you control a legendary creature.",
+            "watch": "The discount is conditional and four damage has a ceiling."
+          },
+          {
+            "card": "Yoshimaru, Scrappy Stray",
+            "role": "answers",
+            "why": "Adds a creature while offering a fight with another creature you already control.",
+            "watch": "Needs another suitable creature. Damage, deathtouch, and opposing removal can change whether the fight is favourable."
+          },
+          {
+            "card": "Vigorbloom Charm",
+            "role": "answers",
+            "why": "Can protect a permanent, replace itself, or grow a creature before it fights.",
+            "watch": "The fight needs your creature to survive. The green-white cost is a commitment to both colours."
+          },
+          {
+            "card": "Prudent Fateseer // Peer Review",
+            "role": "engines",
+            "why": "Turns scrying or surveilling into a team attack boost; its prepared spell supplies a token and surveil.",
+            "watch": "Needs creatures to attack with and repeatable ways to trigger it. The boost triggers only once each turn."
+          },
+          {
+            "card": "Woodwork Prodigy // Soul Tether",
+            "role": "engines",
+            "why": "Can prepare again on your upkeep, offering repeated Heartwood production over several turns.",
+            "watch": "Each Soul Tether still costs mana. You need time and worthwhile uses for the extra mana or artifacts."
+          },
+          {
+            "card": "Way of the Mind Sculptor",
+            "role": "engines",
+            "why": "Adds loyalty and rewards loyalty activations that remove two or more counters with an extra card.",
+            "watch": "A five-mana enchantment needs a stable board and suitable loyalty abilities. It does not stop an attack itself."
+          },
+          {
+            "card": "Room of Refuge",
+            "role": "mana",
+            "why": "A land that can supply your chosen colour, with a late-game use when you no longer need the mana.",
+            "watch": "Enters tapped and the colour is chosen once. Too many tapped lands can slow your opening turns."
+          },
+          {
+            "card": "Murmuring Volume",
+            "role": "mana",
+            "why": "Produces any colour and can turn an unwanted card into a new draw later.",
+            "watch": "Costs three mana before it helps. It is not a substitute for enough lands of your main colours."
+          }
+        ],
+        "interactions": [
+          {
+            "card": "Academic Ascent",
+            "note": "+2/+2 and flying can change a block; empower also leaves a resource behind."
+          },
+          {
+            "card": "Prophesied End",
+            "note": "Destroys any creature, but its controller draws if that creature was not attacking."
+          },
+          {
+            "card": "Teyo, Lightshield Expert",
+            "note": "Flash: can give a permanent hexproof for the turn and add a counter to a creature or planeswalker."
+          },
+          {
+            "card": "Icy Reception",
+            "note": "Can tax a creature or legendary spell by three mana, or give a creature −5/−0 for the turn."
+          },
+          {
+            "card": "Countersculpt",
+            "note": "Usually needs an extra mana unless its behold-a-Jace additional cost is met. Read the full cost before planning a turn."
+          },
+          {
+            "card": "Last Gasp",
+            "note": "−3/−3 can kill outright or make a seemingly safe combat trade go badly."
+          },
+          {
+            "card": "Extended Absence",
+            "note": "Exiles a creature or planeswalker. A death trigger will not trigger just from being exiled."
+          },
+          {
+            "card": "Essence Burn",
+            "note": "Five damage, but only to a black or green creature or planeswalker. A matchup-specific answer."
+          },
+          {
+            "card": "Wrath of the Bloodmane",
+            "note": "Four damage to a creature or planeswalker; costs one mana less with a legendary creature in play."
+          },
+          {
+            "card": "Konstrari Charm",
+            "note": "Can give two +1/+1 counters and trample, or deal six damage to a flying creature."
+          },
+          {
+            "card": "Vigorbloom Charm",
+            "note": "Can protect a permanent with hexproof and indestructible, or add a counter before a fight."
+          }
+        ],
+        "checklist": [
+          {
+            "id": "size",
+            "text": "I have at least 40 cards. I am aiming for 40 so I draw my best cards more often."
+          },
+          {
+            "id": "lands",
+            "text": "I have checked my lands and coloured sources. About 17 lands is a starting point, adjusted for my curve and mana sources."
+          },
+          {
+            "id": "early",
+            "text": "I can affect the board in the early turns, not just cast powerful late spells."
+          },
+          {
+            "id": "win",
+            "text": "I can explain how this deck wins and which cards help that plan."
+          },
+          {
+            "id": "answers",
+            "text": "I know what my removal can target, what it costs, and which threats it cannot answer."
+          },
+          {
+            "id": "support",
+            "text": "My build-arounds have enough support; my splash is backed by fixing."
+          },
+          {
+            "id": "sideboard",
+            "text": "I know my sideboard options, including colour-specific answers and artifact, enchantment, or flying hate."
+          },
+          {
+            "id": "table",
+            "text": "I have sleeves, dice or loyalty counters, and a way to represent this set's tokens. I can ask the event judge about unfamiliar interactions."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "jace-token",
+            "question": "You control a nontoken Jace planeswalker and no Jace tokens. You empower Jace 2. What happens?",
+            "options": [
+              "Put two loyalty on the nontoken Jace",
+              "Create a Jace token and put two loyalty on it",
+              "Choose either option"
+            ],
+            "answer": 1,
+            "explanation": "Empower specifically checks for a Jace token. Your nontoken planeswalker does not meet that condition.",
+            "cards": [
+              "Arcane Amphisbaena"
+            ]
+          },
+          {
+            "id": "prepare-leaves",
+            "question": "Your prepared Fatehold Chronologist leaves the battlefield before you cast Peer Review. Can you still cast that prepared copy?",
+            "options": [
+              "Yes, until the end of the turn",
+              "Yes, whenever I can pay for it",
+              "No, the uncast copy ceases to exist"
+            ],
+            "answer": 2,
+            "explanation": "The prepared copy is tied to that permanent. This question is about a copy not yet cast, not a spell already on the stack.",
+            "cards": [
+              "Fatehold Chronologist // Peer Review"
+            ]
+          },
+          {
+            "id": "removal-cost",
+            "question": "You want to cast Silence the Echo without sacrificing a creature or planeswalker. With no cost-changing effects, how much mana do you need?",
+            "options": [
+              "Two mana: one generic and one black",
+              "Five mana: four generic and one black",
+              "You cannot cast it without a sacrifice"
+            ],
+            "answer": 1,
+            "explanation": "The additional cost allows paying three mana instead of sacrificing. Add that to the printed cost of one generic and one black.",
+            "cards": [
+              "Silence the Echo"
+            ]
+          },
+          {
+            "id": "last-gasp",
+            "question": "An undamaged 4/4 creature has no other relevant abilities or effects. You cast Last Gasp on it. What is it when the spell resolves?",
+            "options": [
+              "A 1/1 until end of turn",
+              "A 4/4 with three damage marked",
+              "A creature with zero toughness"
+            ],
+            "answer": 0,
+            "explanation": "−3/−3 changes power and toughness. The creature is now 1/1 and does not die just from this effect.",
+            "cards": [
+              "Last Gasp"
+            ]
+          },
+          {
+            "id": "heartwood-mana",
+            "question": "You tap an untapped Heartwood for green mana using its printed mana ability. What happens to the token?",
+            "options": [
+              "It is sacrificed like a Treasure",
+              "It stays on the battlefield, tapped",
+              "It becomes a Forest"
+            ],
+            "answer": 1,
+            "explanation": "Heartwood's mana ability has a tap cost, not a sacrifice cost. It can provide mana again after it untaps.",
+            "cards": [
+              "Hungering Puppetbeast"
+            ]
           }
         ]
       },

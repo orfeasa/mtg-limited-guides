@@ -3,6 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
+import { validatePrep } from "./prep-schema.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.dirname(here);
@@ -155,12 +156,15 @@ const sets = manifest.sets.map((set) => {
   const adapt = setAdapters[set.adapter];
   if (!adapt) throw new Error(`No card-data adapter configured for set ${set.id}`);
   const { cards, previewCapturedAt } = adapt(set);
+  const prep = set.prepFile ? readJson(set.prepFile) : null;
+  validatePrep(prep, { ...set, cards });
   return {
     ...set,
     cardCount: cards.length,
     previewCapturedAt,
     draftDecisions: adaptDraftDecisions(set, cards),
     archetypes: adaptArchetypes(set, cards),
+    prep,
     cards,
   };
 });
@@ -175,6 +179,7 @@ const cacheFiles = [
   "./data.js",
   "./app.js",
   "./lifecycle.js",
+  "./prep.js",
   "./manifest.webmanifest",
   "./assets/icon.svg",
   "./assets/icon-32.png",

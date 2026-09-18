@@ -3,6 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
 import { fileURLToPath } from "node:url";
+import { validatePrep } from "./prep-schema.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.dirname(here);
@@ -17,6 +18,7 @@ if (!Array.isArray(data.sets) || data.sets.length < 2) throw new Error("Expected
 
 const ids = new Set();
 for (const set of data.sets) {
+  validatePrep(set.prep, set);
   if (ids.has(set.id)) throw new Error(`Duplicate set ID: ${set.id}`);
   ids.add(set.id);
   if (!Array.isArray(set.cards) || set.cards.length === 0) throw new Error(`No cards for ${set.id}`);

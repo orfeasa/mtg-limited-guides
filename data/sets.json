@@ -53,6 +53,7 @@
       "adapter": "preview",
       "dataFile": "fra_preview.json",
       "archetypesFile": "fra_archetypes.json",
+      "prepFile": "fra_prep.json",
       "name": "Reality Fracture",
       "productName": "Reality Fracture Field File",
       "theme": "fracture",
