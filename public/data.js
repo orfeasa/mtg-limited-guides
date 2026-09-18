@@ -4285,9 +4285,9 @@ window.LIMITED_PREP_DATA = {
         "url": "https://scryfall.com/sets/fra"
       },
       "officialUrl": "https://magic.wizards.com/en/products/reality-fracture/card-image-gallery",
-      "cardCount": 281,
-      "browseCardCount": 276,
-      "previewCapturedAt": "2026-09-17T23:32:42.929Z",
+      "cardCount": 285,
+      "browseCardCount": 280,
+      "previewCapturedAt": "2026-09-18T23:32:47.094Z",
       "draftDecisions": null,
       "archetypes": {
         "version": 1,
@@ -5140,32 +5140,6 @@ window.LIMITED_PREP_DATA = {
       },
       "cards": [
         {
-          "id": "c3ff8dd3-88a8-49dc-a59b-e2748680623c",
-          "name": "Emrakul, the Exigent Doom",
-          "firstSeenAt": "2026-09-11",
-          "collectorNumber": "1",
-          "color": "C",
-          "colors": [],
-          "manaCost": "{10}",
-          "manaValue": 10,
-          "typeLine": "Legendary Creature — Eldrazi",
-          "oracleText": "When you cast this spell, untap all lands you control.\nFlying, trample\nWard—Sacrifice three permanents.\n{3}, Exile this card from your hand: Target land gains \"{T}: Add {C}{C}\" until this card is cast from exile. You may cast this card for as long as it remains exiled.",
-          "rarity": "mythic",
-          "keywords": [
-            "Flying",
-            "Trample",
-            "Ward"
-          ],
-          "image": "assets/cards/fra/c3ff8dd3-88a8-49dc-a59b-e2748680623c.jpg",
-          "trainingImage": "assets/cards-large/fra/c3ff8dd3-88a8-49dc-a59b-e2748680623c.jpg",
-          "imageSource": "https://cards.scryfall.io/small/front/c/3/c3ff8dd3-88a8-49dc-a59b-e2748680623c.jpg",
-          "trainingImageSource": "https://cards.scryfall.io/normal/front/c/3/c3ff8dd3-88a8-49dc-a59b-e2748680623c.jpg",
-          "scryfallUrl": "https://scryfall.com/card/fra/1/emrakul-the-exigent-doom?utm_source=api",
-          "rank": null,
-          "tier": null,
-          "band": "unrated"
-        },
-        {
           "id": "730d8c28-1e58-4b8e-89e9-445d154d2e83",
           "name": "Academic Ascent",
           "firstSeenAt": "2026-09-08",
@@ -5196,8 +5170,9 @@ window.LIMITED_PREP_DATA = {
           "name": "Blossom-Blessed Angel // Seed Suture",
           "firstSeenAt": "2026-09-17",
           "collectorNumber": "3",
-          "color": "W",
+          "color": "M",
           "colors": [
+            "G",
             "W"
           ],
           "manaCost": "{3}{W} // {G/W}",
@@ -5433,11 +5408,11 @@ window.LIMITED_PREP_DATA = {
           "oracleText": "Create three 2/2 colorless Wizard Soldier creature tokens named Cadet. Empower Jace 2. (Put two loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")\nBasic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
           "rarity": "common",
           "keywords": [
-            "Surveil",
-            "Landcycling",
             "Basic landcycling",
-            "Typecycling",
-            "Cycling"
+            "Cycling",
+            "Landcycling",
+            "Surveil",
+            "Typecycling"
           ],
           "image": "assets/cards/fra/3b6ac80e-c726-4bd0-893a-e666041a04a6.jpg",
           "trainingImage": "assets/cards-large/fra/3b6ac80e-c726-4bd0-893a-e666041a04a6.jpg",
@@ -5623,30 +5598,6 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
-          "id": "9e72f397-2384-40f1-882b-f627664d97df",
-          "name": "Return to the Light Realms",
-          "firstSeenAt": "2026-09-08",
-          "collectorNumber": "20",
-          "color": "W",
-          "colors": [
-            "W"
-          ],
-          "manaCost": "{7}{W}{W}",
-          "manaValue": 9,
-          "typeLine": "Sorcery",
-          "oracleText": "Return all nonland permanent cards from your graveyard to the battlefield.",
-          "rarity": "mythic",
-          "keywords": [],
-          "image": "assets/cards/fra/9e72f397-2384-40f1-882b-f627664d97df.jpg",
-          "trainingImage": "assets/cards-large/fra/9e72f397-2384-40f1-882b-f627664d97df.jpg",
-          "imageSource": "https://cards.scryfall.io/small/front/9/e/9e72f397-2384-40f1-882b-f627664d97df.jpg",
-          "trainingImageSource": "https://cards.scryfall.io/normal/front/9/e/9e72f397-2384-40f1-882b-f627664d97df.jpg",
-          "scryfallUrl": "https://scryfall.com/card/fra/20/return-to-the-light-realms?utm_source=api",
-          "rank": null,
-          "tier": null,
-          "band": "unrated"
-        },
-        {
           "id": "e29095de-59ec-4562-ba8e-73f952e457ae",
           "name": "Shatterwing Pegasus",
           "firstSeenAt": "2026-09-13",
@@ -5718,6 +5669,32 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/6/3/63f82985-c9c2-4d0a-ac4f-560166bebd9f.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/6/3/63f82985-c9c2-4d0a-ac4f-560166bebd9f.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/23/unflinching-hortimancer?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "25000a17-b701-4d69-b2ef-2c74029199d3",
+          "name": "Your Fate Ends Here",
+          "firstSeenAt": "2026-09-18",
+          "collectorNumber": "24",
+          "color": "W",
+          "colors": [
+            "W"
+          ],
+          "manaCost": "{2}{W}",
+          "manaValue": 3,
+          "typeLine": "Instant",
+          "oracleText": "Destroy target creature or planeswalker with mana value 3 or greater. Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+          "rarity": "uncommon",
+          "keywords": [
+            "Surveil"
+          ],
+          "image": "assets/cards/fra/25000a17-b701-4d69-b2ef-2c74029199d3.jpg",
+          "trainingImage": "assets/cards-large/fra/25000a17-b701-4d69-b2ef-2c74029199d3.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/2/5/25000a17-b701-4d69-b2ef-2c74029199d3.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/2/5/25000a17-b701-4d69-b2ef-2c74029199d3.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/24/your-fate-ends-here?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -6051,30 +6028,6 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/a/0/a08c7ec2-4c6a-4db2-85a7-41afe8731523.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/a/0/a08c7ec2-4c6a-4db2-85a7-41afe8731523.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/37/proteges-awakening?utm_source=api",
-          "rank": null,
-          "tier": null,
-          "band": "unrated"
-        },
-        {
-          "id": "51d86875-420d-4e82-b69c-4feeb99c9428",
-          "name": "Seasoned Cryomancer",
-          "firstSeenAt": "2026-09-16",
-          "collectorNumber": "38",
-          "color": "U",
-          "colors": [
-            "U"
-          ],
-          "manaCost": "{1}{U}{U}",
-          "manaValue": 3,
-          "typeLine": "Creature — Human Wizard",
-          "oracleText": "When this creature enters, draw two cards, then discard two cards. When you discard one or more nonland cards this way, tap up to that many target creatures and put a stun counter on each of them.\n{3}{U}{U}, Exile this card from your graveyard: Draw two cards.",
-          "rarity": "mythic",
-          "keywords": [],
-          "image": "assets/cards/fra/51d86875-420d-4e82-b69c-4feeb99c9428.jpg",
-          "trainingImage": "assets/cards-large/fra/51d86875-420d-4e82-b69c-4feeb99c9428.jpg",
-          "imageSource": "https://cards.scryfall.io/small/front/5/1/51d86875-420d-4e82-b69c-4feeb99c9428.jpg",
-          "trainingImageSource": "https://cards.scryfall.io/normal/front/5/1/51d86875-420d-4e82-b69c-4feeb99c9428.jpg",
-          "scryfallUrl": "https://scryfall.com/card/fra/38/seasoned-cryomancer?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -6446,33 +6399,6 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/4/e/4ec912d5-cbe7-4d07-9ece-b03ac02d3055.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/4/e/4ec912d5-cbe7-4d07-9ece-b03ac02d3055.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/52/dark-matter-manipulator?utm_source=api",
-          "rank": null,
-          "tier": null,
-          "band": "unrated"
-        },
-        {
-          "id": "ec454979-3839-4be3-a34a-9d25482948ba",
-          "name": "Darklight Phoenix",
-          "firstSeenAt": "2026-09-16",
-          "collectorNumber": "53",
-          "color": "B",
-          "colors": [
-            "B"
-          ],
-          "manaCost": "{3}{B}",
-          "manaValue": 4,
-          "typeLine": "Creature — Phoenix",
-          "oracleText": "Flying, haste\nAt the beginning of combat on your turn, if two or more creatures died this turn, return this card from your graveyard to the battlefield.",
-          "rarity": "mythic",
-          "keywords": [
-            "Flying",
-            "Haste"
-          ],
-          "image": "assets/cards/fra/ec454979-3839-4be3-a34a-9d25482948ba.jpg",
-          "trainingImage": "assets/cards-large/fra/ec454979-3839-4be3-a34a-9d25482948ba.jpg",
-          "imageSource": "https://cards.scryfall.io/small/front/e/c/ec454979-3839-4be3-a34a-9d25482948ba.jpg",
-          "trainingImageSource": "https://cards.scryfall.io/normal/front/e/c/ec454979-3839-4be3-a34a-9d25482948ba.jpg",
-          "scryfallUrl": "https://scryfall.com/card/fra/53/darklight-phoenix?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -6914,7 +6840,7 @@ window.LIMITED_PREP_DATA = {
           "manaCost": "{B}{B}",
           "manaValue": 2,
           "typeLine": "Sorcery",
-          "oracleText": "Choose one —\n• You lose 2 life. Destroy target creature or planeswalker.\n• You lose 2 life. Empower Jace 6. (Put six loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[-1]: Surveil 1\" and \"[-3]: Draw a card.\")",
+          "oracleText": "Choose one —\n• You lose 2 life. Destroy target creature or planeswalker.\n• You lose 2 life. Empower Jace 6. (Put six loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")",
           "rarity": "rare",
           "keywords": [
             "Surveil"
@@ -6948,6 +6874,30 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/d/9/d9039a58-2f17-4b8a-b714-3a2f0b46f057.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/d/9/d9039a58-2f17-4b8a-b714-3a2f0b46f057.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/72/ajanis-anguish?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "7d3b720d-f27c-462a-8f80-15748e5086e1",
+          "name": "Artifist Acumen",
+          "firstSeenAt": "2026-09-18",
+          "collectorNumber": "73",
+          "color": "R",
+          "colors": [
+            "R"
+          ],
+          "manaCost": "{R}",
+          "manaValue": 1,
+          "typeLine": "Sorcery",
+          "oracleText": "Creatures you control gain first strike until end of turn.\nDraw a card.",
+          "rarity": "common",
+          "keywords": [],
+          "image": "assets/cards/fra/7d3b720d-f27c-462a-8f80-15748e5086e1.jpg",
+          "trainingImage": "assets/cards-large/fra/7d3b720d-f27c-462a-8f80-15748e5086e1.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/7/d/7d3b720d-f27c-462a-8f80-15748e5086e1.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/7/d/7d3b720d-f27c-462a-8f80-15748e5086e1.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/73/artifist-acumen?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -7871,30 +7821,6 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
-          "id": "eaf9dc77-c83b-49cf-84be-6bd791cb925e",
-          "name": "Omnipresence",
-          "firstSeenAt": "2026-09-16",
-          "collectorNumber": "110",
-          "color": "G",
-          "colors": [
-            "G"
-          ],
-          "manaCost": "{5}{G}{G}{G}",
-          "manaValue": 8,
-          "typeLine": "Enchantment",
-          "oracleText": "You may cast spells with mana value less than or equal to the number of creatures you control from your hand without paying their mana costs.",
-          "rarity": "mythic",
-          "keywords": [],
-          "image": "assets/cards/fra/eaf9dc77-c83b-49cf-84be-6bd791cb925e.jpg",
-          "trainingImage": "assets/cards-large/fra/eaf9dc77-c83b-49cf-84be-6bd791cb925e.jpg",
-          "imageSource": "https://cards.scryfall.io/small/front/e/a/eaf9dc77-c83b-49cf-84be-6bd791cb925e.jpg",
-          "trainingImageSource": "https://cards.scryfall.io/normal/front/e/a/eaf9dc77-c83b-49cf-84be-6bd791cb925e.jpg",
-          "scryfallUrl": "https://scryfall.com/card/fra/110/omnipresence?utm_source=api",
-          "rank": null,
-          "tier": null,
-          "band": "unrated"
-        },
-        {
           "id": "6b8789a6-3b63-4198-af5f-c2f2f49fafd9",
           "name": "Puppet Crafting",
           "firstSeenAt": "2026-09-16",
@@ -8481,8 +8407,8 @@ window.LIMITED_PREP_DATA = {
           "rarity": "common",
           "keywords": [
             "Flying",
-            "Surveil",
-            "Prepared"
+            "Prepared",
+            "Surveil"
           ],
           "image": "assets/cards/fra/29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b.jpg",
           "trainingImage": "assets/cards-large/fra/29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b.jpg",
@@ -10338,6 +10264,32 @@ window.LIMITED_PREP_DATA = {
           "band": "unrated"
         },
         {
+          "id": "7ca95235-6e54-4ff8-bc2e-6a3d483ff007",
+          "name": "Tomik, Orzhov Lawmage",
+          "firstSeenAt": "2026-09-18",
+          "collectorNumber": "206",
+          "color": "W",
+          "colors": [
+            "W"
+          ],
+          "manaCost": "{1}{W}",
+          "manaValue": 2,
+          "typeLine": "Legendary Creature — Human Advisor",
+          "oracleText": "Flying\nPlaneswalkers you control have \"No more than one creature can attack this planeswalker each combat.\"\n{T}: Target creature with a +1/+1 counter on it gains flying until end of turn.",
+          "rarity": "uncommon",
+          "keywords": [
+            "Flying"
+          ],
+          "image": "assets/cards/fra/7ca95235-6e54-4ff8-bc2e-6a3d483ff007.jpg",
+          "trainingImage": "assets/cards-large/fra/7ca95235-6e54-4ff8-bc2e-6a3d483ff007.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/7/c/7ca95235-6e54-4ff8-bc2e-6a3d483ff007.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/7/c/7ca95235-6e54-4ff8-bc2e-6a3d483ff007.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/206/tomik-orzhov-lawmage?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
           "id": "50326a2a-7e10-464b-a97e-e880bda0558c",
           "name": "Way of the Healer",
           "firstSeenAt": "2026-09-11",
@@ -10375,7 +10327,7 @@ window.LIMITED_PREP_DATA = {
           "manaCost": "{2}{W}",
           "manaValue": 3,
           "typeLine": "Legendary Enchantment",
-          "oracleText": "When Way of the Mentor enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[-1]: Surveil 1\" and \"[-3]: Draw a card.\")\nWhenever you gain life, put a loyalty counter on each planeswalker you control.",
+          "oracleText": "When Way of the Mentor enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")\nWhenever you gain life, put a loyalty counter on each planeswalker you control.",
           "rarity": "uncommon",
           "keywords": [
             "Surveil"
@@ -10776,7 +10728,7 @@ window.LIMITED_PREP_DATA = {
           "manaCost": "{4}{U}",
           "manaValue": 5,
           "typeLine": "Legendary Enchantment",
-          "oracleText": "When Way of the Mind Sculptor enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[-1]: Surveil 1\" and \"[-3]: Draw a card.\")\nWhenever you activate a loyalty ability, if you removed two or more loyalty counters to activate it, draw a card.",
+          "oracleText": "When Way of the Mind Sculptor enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")\nWhenever you activate a loyalty ability, if you removed two or more loyalty counters to activate it, draw a card.",
           "rarity": "uncommon",
           "keywords": [
             "Surveil"
@@ -11161,7 +11113,7 @@ window.LIMITED_PREP_DATA = {
           "manaCost": "{1}{B}",
           "manaValue": 2,
           "typeLine": "Legendary Enchantment",
-          "oracleText": "When Way of the Necromancer enters, empower Jace 2. (Put two loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[-1]: Surveil 1\" and \"[-3]: Draw a card.\")\nWhenever a creature you control dies, put a loyalty counter on each planeswalker you control.",
+          "oracleText": "When Way of the Necromancer enters, empower Jace 2. (Put two loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")\nWhenever a creature you control dies, put a loyalty counter on each planeswalker you control.",
           "rarity": "uncommon",
           "keywords": [
             "Surveil"
@@ -11495,6 +11447,32 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/d/f/df818900-ce5e-4b0d-a927-c975cbef7eda.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/d/f/df818900-ce5e-4b0d-a927-c975cbef7eda.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/252/tetsuko-umezawa-pursuer?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "5c5afd5f-6f37-4c3e-83f0-68fdcea98810",
+          "name": "Tomik, Izzet Sparkmage",
+          "firstSeenAt": "2026-09-18",
+          "collectorNumber": "253",
+          "color": "R",
+          "colors": [
+            "R"
+          ],
+          "manaCost": "{1}{R}",
+          "manaValue": 2,
+          "typeLine": "Legendary Creature — Human Wizard",
+          "oracleText": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nIf a source you control would deal noncombat damage to an opponent or a permanent an opponent controls, it deals that much damage plus 1 instead.",
+          "rarity": "uncommon",
+          "keywords": [
+            "Prowess"
+          ],
+          "image": "assets/cards/fra/5c5afd5f-6f37-4c3e-83f0-68fdcea98810.jpg",
+          "trainingImage": "assets/cards-large/fra/5c5afd5f-6f37-4c3e-83f0-68fdcea98810.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/5/c/5c5afd5f-6f37-4c3e-83f0-68fdcea98810.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/5/c/5c5afd5f-6f37-4c3e-83f0-68fdcea98810.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/253/tomik-izzet-sparkmage?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated"
@@ -11841,7 +11819,7 @@ window.LIMITED_PREP_DATA = {
           "manaCost": "{2}{G}",
           "manaValue": 3,
           "typeLine": "Legendary Enchantment",
-          "oracleText": "When Way of the Paradox enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[-1]: Surveil 1\" and \"[-3]: Draw a card.\")\nWhenever you activate a loyalty ability, you gain 1 life. You may play an additional land this turn.",
+          "oracleText": "When Way of the Paradox enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[−1]: Surveil 1\" and \"[−3]: Draw a card.\")\nWhenever you activate a loyalty ability, you gain 1 life. You may play an additional land this turn.",
           "rarity": "uncommon",
           "keywords": [
             "Surveil"
@@ -12296,10 +12274,10 @@ window.LIMITED_PREP_DATA = {
           "isBasicLand": true
         },
         {
-          "id": "790dcf48-ab51-4b10-9933-6b7e3baf0f52",
+          "id": "613bc075-2fe4-421f-bfec-3786a5e37797",
           "name": "Forest",
           "firstSeenAt": "2026-09-08",
-          "collectorNumber": "394",
+          "collectorNumber": "289",
           "color": "G",
           "colors": [
             "G"
@@ -12310,15 +12288,140 @@ window.LIMITED_PREP_DATA = {
           "oracleText": "({T}: Add {G}.)",
           "rarity": "common",
           "keywords": [],
-          "image": "assets/cards/fra/790dcf48-ab51-4b10-9933-6b7e3baf0f52.jpg",
-          "trainingImage": "assets/cards-large/fra/790dcf48-ab51-4b10-9933-6b7e3baf0f52.jpg",
-          "imageSource": "https://cards.scryfall.io/small/front/7/9/790dcf48-ab51-4b10-9933-6b7e3baf0f52.jpg",
-          "trainingImageSource": "https://cards.scryfall.io/normal/front/7/9/790dcf48-ab51-4b10-9933-6b7e3baf0f52.jpg",
-          "scryfallUrl": "https://scryfall.com/card/fra/394/forest?utm_source=api",
+          "image": "assets/cards/fra/613bc075-2fe4-421f-bfec-3786a5e37797.jpg",
+          "trainingImage": "assets/cards-large/fra/613bc075-2fe4-421f-bfec-3786a5e37797.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/6/1/613bc075-2fe4-421f-bfec-3786a5e37797.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/6/1/613bc075-2fe4-421f-bfec-3786a5e37797.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/289/forest?utm_source=api",
           "rank": null,
           "tier": null,
           "band": "unrated",
           "isBasicLand": true
+        },
+        {
+          "id": "ee609b68-5c9c-43e0-aff4-eb1bbc8b2911",
+          "name": "Emrakul, the Exigent Doom",
+          "firstSeenAt": "2026-09-11",
+          "collectorNumber": "438",
+          "color": "C",
+          "colors": [],
+          "manaCost": "{10}",
+          "manaValue": 10,
+          "typeLine": "Legendary Creature — Eldrazi",
+          "oracleText": "When you cast this spell, untap all lands you control.\nFlying, trample\nWard—Sacrifice three permanents.\n{3}, Exile this card from your hand: Target land gains \"{T}: Add {C}{C}\" until this card is cast from exile. You may cast this card for as long as it remains exiled.",
+          "rarity": "mythic",
+          "keywords": [
+            "Flying",
+            "Trample",
+            "Ward"
+          ],
+          "image": "assets/cards/fra/ee609b68-5c9c-43e0-aff4-eb1bbc8b2911.jpg",
+          "trainingImage": "assets/cards-large/fra/ee609b68-5c9c-43e0-aff4-eb1bbc8b2911.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/e/e/ee609b68-5c9c-43e0-aff4-eb1bbc8b2911.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/e/e/ee609b68-5c9c-43e0-aff4-eb1bbc8b2911.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/438/emrakul-the-exigent-doom?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "65e9f4df-02e5-4ac7-86da-795688bfb66f",
+          "name": "Return to the Light Realms",
+          "firstSeenAt": "2026-09-08",
+          "collectorNumber": "440",
+          "color": "W",
+          "colors": [
+            "W"
+          ],
+          "manaCost": "{7}{W}{W}",
+          "manaValue": 9,
+          "typeLine": "Sorcery",
+          "oracleText": "Return all nonland permanent cards from your graveyard to the battlefield.",
+          "rarity": "mythic",
+          "keywords": [],
+          "image": "assets/cards/fra/65e9f4df-02e5-4ac7-86da-795688bfb66f.jpg",
+          "trainingImage": "assets/cards-large/fra/65e9f4df-02e5-4ac7-86da-795688bfb66f.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/6/5/65e9f4df-02e5-4ac7-86da-795688bfb66f.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/6/5/65e9f4df-02e5-4ac7-86da-795688bfb66f.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/440/return-to-the-light-realms?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "f1a15a83-2f74-4513-ae4b-4cdc17016a84",
+          "name": "Seasoned Cryomancer",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "441",
+          "color": "U",
+          "colors": [
+            "U"
+          ],
+          "manaCost": "{1}{U}{U}",
+          "manaValue": 3,
+          "typeLine": "Creature — Human Wizard",
+          "oracleText": "When this creature enters, draw two cards, then discard two cards. When you discard one or more nonland cards this way, tap up to that many target creatures and put a stun counter on each of them.\n{3}{U}{U}, Exile this card from your graveyard: Draw two cards.",
+          "rarity": "mythic",
+          "keywords": [],
+          "image": "assets/cards/fra/f1a15a83-2f74-4513-ae4b-4cdc17016a84.jpg",
+          "trainingImage": "assets/cards-large/fra/f1a15a83-2f74-4513-ae4b-4cdc17016a84.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/f/1/f1a15a83-2f74-4513-ae4b-4cdc17016a84.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/f/1/f1a15a83-2f74-4513-ae4b-4cdc17016a84.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/441/seasoned-cryomancer?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "16c5f0f3-2578-40d3-9012-6eaef17fa0b1",
+          "name": "Darklight Phoenix",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "444",
+          "color": "B",
+          "colors": [
+            "B"
+          ],
+          "manaCost": "{3}{B}",
+          "manaValue": 4,
+          "typeLine": "Creature — Phoenix",
+          "oracleText": "Flying, haste\nAt the beginning of combat on your turn, if two or more creatures died this turn, return this card from your graveyard to the battlefield.",
+          "rarity": "mythic",
+          "keywords": [
+            "Flying",
+            "Haste"
+          ],
+          "image": "assets/cards/fra/16c5f0f3-2578-40d3-9012-6eaef17fa0b1.jpg",
+          "trainingImage": "assets/cards-large/fra/16c5f0f3-2578-40d3-9012-6eaef17fa0b1.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/1/6/16c5f0f3-2578-40d3-9012-6eaef17fa0b1.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/1/6/16c5f0f3-2578-40d3-9012-6eaef17fa0b1.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/444/darklight-phoenix?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
+        },
+        {
+          "id": "91e787cb-a9b0-4353-86b4-a4340122fd2f",
+          "name": "Omnipresence",
+          "firstSeenAt": "2026-09-16",
+          "collectorNumber": "448",
+          "color": "G",
+          "colors": [
+            "G"
+          ],
+          "manaCost": "{5}{G}{G}{G}",
+          "manaValue": 8,
+          "typeLine": "Enchantment",
+          "oracleText": "You may cast spells with mana value less than or equal to the number of creatures you control from your hand without paying their mana costs.",
+          "rarity": "mythic",
+          "keywords": [],
+          "image": "assets/cards/fra/91e787cb-a9b0-4353-86b4-a4340122fd2f.jpg",
+          "trainingImage": "assets/cards-large/fra/91e787cb-a9b0-4353-86b4-a4340122fd2f.jpg",
+          "imageSource": "https://cards.scryfall.io/small/front/9/1/91e787cb-a9b0-4353-86b4-a4340122fd2f.jpg",
+          "trainingImageSource": "https://cards.scryfall.io/normal/front/9/1/91e787cb-a9b0-4353-86b4-a4340122fd2f.jpg",
+          "scryfallUrl": "https://scryfall.com/card/fra/448/omnipresence?utm_source=api",
+          "rank": null,
+          "tier": null,
+          "band": "unrated"
         }
       ]
     }
