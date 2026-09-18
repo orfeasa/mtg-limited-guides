@@ -14,7 +14,7 @@
       complete, released, training, prep, archetypes, decisions,
       stage: training ? "observed" : complete ? "complete" : "preview",
       atlasLabel: complete ? "All cards" : "Previews",
-      defaultView: training ? "training" : prep ? "prep" : archetypes ? "archetypes" : "atlas",
+      defaultView: training ? "training" : "atlas",
       views: [training && "training", prep && "prep", archetypes && "archetypes", decisions && "decisions", "atlas"].filter(Boolean),
     };
   }

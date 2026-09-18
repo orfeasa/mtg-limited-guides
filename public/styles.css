@@ -4059,6 +4059,9 @@ body[data-theme="fracture"] .card-preview-copy h2 {
   }
 }
 
+.atlas-prep-invitation { margin: 0 0 24px; line-height: 1.6; }
+.atlas-prep-invitation a { display: inline-block; padding: 8px 0; color: var(--accent-dark); font-weight: 700; text-underline-offset: 3px; }
+.atlas-prep-invitation a:hover { color: var(--ink); }
 .prep-page { padding: clamp(22px, 4vw, 48px); }
 .prep-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 28px; }
 .prep-heading h2 { margin: 0; font: 700 clamp(2.5rem, 5vw, 4.7rem)/.98 var(--display); letter-spacing: -.03em; text-wrap: balance; }

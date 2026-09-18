@@ -477,7 +477,7 @@ Shared components keep behavior, semantics, target sizes, and information order 
 
 ### Navigation
 
-- **Set-Aware Page Markers:** Hide unavailable modes. Training leads with verified ratings, followed by published Prerelease prep, authored Archetypes, and optional Draft decisions with real scenarios. Previews/All cards stays last. Inactive markers use the soft binding; the selected marker rises from 50px to 58px and changes to the light metal token. Reality Fracture opens published prep while ratings are unavailable; rated sets open Training.
+- **Set-Aware Page Markers:** Hide unavailable modes. Training leads with verified ratings, followed by published Prerelease prep, authored Archetypes, and optional Draft decisions with real scenarios. Previews/All cards stays last. Inactive markers use the soft binding; the selected marker rises from 50px to 58px and changes to the light metal token. Unrated sets open Previews/All cards; rated sets open Training. A published guide adds a short “Preparing for prerelease? Start here” invitation below the card-browser heading, using the existing accent link style.
 - **Training Owns Rehearsal:** Card recognition and exact-tier practice live together in Training.
 - **Mobile:** All available markers remain visible in the sticky grid; five modes use two rows. Icons support but never replace the literal labels.
 

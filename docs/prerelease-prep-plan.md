@@ -7,7 +7,7 @@ Arrive able to recognise the set's mechanics, important threats and answers, bui
 ## Agreed scope
 
 1. A reusable, sourced preparation guide, first authored for Reality Fracture.
-2. Prerelease prep as the default full-reveal view when a published guide exists and ratings do not. Keep Archetypes and All cards; preserve Hobbit's existing views.
+2. Prerelease prep as an optional full-reveal guide. Following reader feedback, All cards is the unrated landing page with a visible invitation to prep; rated sets still open Training. Keep Archetypes and preserve Hobbit's existing views.
 3. Mechanics with card examples; reasoned key-card selections; an instant-speed interaction reference; separate Sealed/Draft colour-selection guidance; a locally saved deck checklist.
 4. Objective rules exercises with explanations and unlimited retries, separate from rating Training and its saved progress.
 5. Validate references, publication readiness, lifecycle transitions, keyboard/mobile behaviour, local persistence, and rated-set regressions before delivery.

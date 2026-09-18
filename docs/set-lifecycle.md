@@ -5,13 +5,13 @@ One policy applies to every set. The full card reveal, retail release, and usabl
 | State | Tabs in order | Default | Player task |
 | --- | --- | --- | --- |
 | Cards still being revealed | Previews | Previews | Browse newly revealed cards and catch up by date |
-| Full card file confirmed, before retail release | Prerelease prep, Archetypes, All cards | Prerelease prep | Learn mechanics, key cards, interactions, and how to build a deck |
-| Retail released, ratings still pending | Prerelease prep, Archetypes, All cards | Prerelease prep | Keep preparing from the complete file and authored guidance |
+| Full card file confirmed, before retail release | Prerelease prep, Archetypes, All cards | All cards | Browse the complete file; choose prep to learn mechanics, key cards, interactions, and how to build a deck |
+| Retail released, ratings still pending | Prerelease prep, Archetypes, All cards | All cards | Keep preparing from the complete file and authored guidance |
 | Complete attributable ratings verified | Training, Prerelease prep, Archetypes, All cards | Training | Practise ratings; retain rules and deck-building preparation |
 
-Prerelease prep is optional: require the full card file plus a validated guide with `status: published` and a reached `publishedAt` date. If unavailable, use Archetypes, then the card browser. Never publish an empty guide just to fill a tab. The name describes the preparation task, not an expiry date: retain this reference after release. Default to Sealed in prep, preserve explicit Draft links, and never infer a player's format from the calendar. See [prep authoring](prep-authoring.md).
+Prerelease prep is optional: require the full card file plus a validated guide with `status: published` and a reached `publishedAt` date. All unrated sets open the card browser, whether or not a prep guide or archetypes exist. All cards offers “Preparing for prerelease? Start here” only when a published prep guide is available. Never publish an empty guide just to fill a tab. The name describes the preparation task, not an expiry date: retain this reference after release. Default to Sealed in prep, preserve explicit Draft links, and never infer a player's format from the calendar. See [prep authoring](prep-authoring.md).
 
-Archetypes requires a confirmed full card file, a sourced official map, verified signposts, and authored Draft/Sealed notes. If those are missing, omit the tab and default to the card browser. Real archetype results can arrive separately from card ratings. Show their source, format, sample, and capture date only when present. Before then, explain pending results once; omit empty leader/sample ledgers.
+Archetypes requires a confirmed full card file, a sourced official map, verified signposts, and authored Draft/Sealed notes. If those are missing, omit the tab; the unrated default remains the card browser. Real archetype results can arrive separately from card ratings. Show their source, format, sample, and capture date only when present. Before then, explain pending results once; omit empty leader/sample ledgers.
 
 Draft decisions is an optional tab between Archetypes and the card browser, available with Training and verified real pack-and-pool scenarios. Preserve the existing Hobbit replay and progress. A set with all capabilities has five tabs; mobile navigation wraps rather than compressing their labels.
 

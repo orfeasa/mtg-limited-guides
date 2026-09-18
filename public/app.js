@@ -473,6 +473,8 @@
     const trainingTab = viewTabs.find((tab) => tab.dataset.view === "training");
     trainingTab.hidden = !state.training;
     viewTabs.find((tab) => tab.dataset.view === "prep").hidden = !state.prep;
+    $("#atlas-prep-invitation").hidden = !state.prep;
+    $("#atlas-prep-link").href = `?set=${encodeURIComponent(currentSet.id)}&view=prep&format=sealed`;
     viewTabs.find((tab) => tab.dataset.view === "atlas").querySelector("span").textContent = state.atlasLabel;
     const viewCount = state.views.length;
     document.documentElement.style.setProperty("--view-count", String(viewCount));
@@ -1331,6 +1333,13 @@
   }));
 
   elements.setSelect.addEventListener("change", () => selectSet(elements.setSelect.value));
+  $("#atlas-prep-link").addEventListener("click", (event) => {
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    prepFormat = "sealed";
+    prepGuide.render(currentSet, prepFormat);
+    activateView("prep", { focus: true });
+  });
   elements.shareSet.addEventListener("click", () => {
     updateUrl();
     sharePage({ title: currentSet.productName, text: `Prepare for ${currentSet.name} Limited with me.`, url: location.href });

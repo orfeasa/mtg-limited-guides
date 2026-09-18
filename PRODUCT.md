@@ -31,7 +31,7 @@ Used in the days before a prerelease or draft, alone or with friends. A player m
 - Support multiple sets through a shared static data contract.
 - Give each set a distinct visual theme without changing the core navigation.
 - Open the latest set by default while preserving direct links to any set.
-- Follow `docs/set-lifecycle.md`: Previews during reveals; published Prerelease prep after full reveal; Archetypes after the full file and authored plans are verified; All cards replaces Previews when the full card file is confirmed; Training requires complete attributable ratings. Default to Training when supported, otherwise published prep, Archetypes, then the card browser. Draft decisions additionally requires grounded pack-and-pool evidence.
+- Follow `docs/set-lifecycle.md`: Previews during reveals; published Prerelease prep after full reveal; Archetypes after the full file and authored plans are verified; All cards replaces Previews when the full card file is confirmed; Training requires complete attributable ratings. Default to Training when supported; otherwise open the card browser and offer a link to published prep. Draft decisions additionally requires grounded pack-and-pool evidence.
 - Keep official archetype intent, observed results, and editorial guidance visibly distinct.
 - Preserve separate Premier Draft and Sealed observations, including all ten two-colour pairs and their sample sizes.
 - Keep rating-dependent training absent when a complete, attributable Limited evaluation is unavailable.
