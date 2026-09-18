@@ -12,8 +12,8 @@
       "label": "Premier Draft",
       "shortLabel": "Draft",
       "eventType": "PremierDraft",
-      "headline": "Start with the official map, not a tier list.",
-      "guidance": "Wizards has published all ten intended lanes. Use these plans to recognise signals and structural needs; observed pick and win-rate data will be added after Arena play begins.",
+      "headline": "Find your deck’s plan",
+      "guidance": "Explore the ten colour pairs, their key cards, and what each deck needs to work.",
       "source": {
         "label": "17Lands deck colour data",
         "url": "https://www.17lands.com/deck_color_data?expansion=FRA&format=PremierDraft&time_period=ALL_TIME",
