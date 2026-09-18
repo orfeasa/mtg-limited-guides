@@ -12,6 +12,11 @@ window.LIMITED_PREP_DATA = {
       "productName": "The Hobbit Limited Atlas",
       "theme": "hobbit",
       "stage": "observed",
+      "lifecycle": {
+        "fullSetConfirmedAt": "2026-09-08",
+        "ratingsConfirmedAt": "2026-09-17",
+        "source": "https://magic.wizards.com/en/news/feature/the-hobbit-prerelease-guide"
+      },
       "releaseDate": "2026-08-14",
       "subtitle": "An expedition atlas for learning the set before the next draft.",
       "guideTitle": "Know the road before the first pack",
@@ -4247,7 +4252,12 @@ window.LIMITED_PREP_DATA = {
       "name": "Reality Fracture",
       "productName": "Reality Fracture Field File",
       "theme": "fracture",
-      "stage": "preview",
+      "stage": "complete",
+      "lifecycle": {
+        "fullSetConfirmedAt": "2026-09-18",
+        "ratingsConfirmedAt": null,
+        "source": "https://magic.wizards.com/en/products/reality-fracture/card-image-gallery"
+      },
       "releaseDate": "2026-10-02",
       "prereleaseDate": "2026-09-25",
       "arenaDate": "2026-09-29",

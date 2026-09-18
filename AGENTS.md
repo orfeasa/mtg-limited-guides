@@ -1,5 +1,9 @@
 # Repository working instructions
 
+## Set lifecycle and UX
+
+Read `docs/set-lifecycle.md` before adding a set, changing navigation, refreshing evidence, or changing milestone dates. `data/sets.json` owns milestone dates and confirmation evidence; `public/lifecycle.js` owns tab policy. Run `node scripts/verify-lifecycle.mjs` after rebuilding. Do not invent a data-availability date or unlock Training on a calendar milestone alone.
+
 ## Delivery default
 
 After every user-requested change in this repository:

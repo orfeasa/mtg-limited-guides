@@ -422,7 +422,7 @@ At 860px, the header becomes a grid, Training progress stacks below its heading,
 
 **The First-Viewport Rule.** The latest set and data maturity lead in the binding; the available compact markers then yield to focused preparation.
 
-**The Stable-Shell Rule.** Training and All cards retain their order and behaviour across sets. Archetypes may appear after Training with an official map, verified signposts, and authored Draft/Sealed guidance; missing observations must read as pending rather than zero or implied weakness. Draft decisions may appear after it only with grounded pack-and-pool evidence.
+**The Stable-Shell Rule.** Follow `docs/set-lifecycle.md`. Show only useful modes in the order Training, Archetypes, optional Draft decisions, card browser. Training requires complete ratings; Archetypes requires the verified full file and authored plans. The browser is Previews before retail release and All cards afterwards. Default to Training, then Archetypes, then browsing according to availability.
 
 **The Preparation-Only Rule.** Layout supports recognition, rehearsal, and browsing. It must never acquire deck zones, curve charts, counts-by-card, or other deck-builder composition.
 
@@ -474,14 +474,14 @@ Shared components keep behavior, semantics, target sizes, and information order 
 
 ### Navigation
 
-- **Set-Aware Page Markers:** Training and All cards are fixed at the beginning and end. Archetypes follows Training when available; Draft decisions follows Archetypes when available. Inactive markers use the soft binding; the selected marker rises from 50px to 58px and changes to the light metal token.
+- **Set-Aware Page Markers:** Hide unavailable modes. Training leads with verified ratings, Archetypes follows the complete reveal, and optional Draft decisions requires real scenarios. Previews/All cards stays last. Inactive markers use the soft binding; the selected marker rises from 50px to 58px and changes to the light metal token.
 - **Training Owns Rehearsal:** Card recognition and exact-tier practice live together in Training.
 - **Mobile:** All available markers remain visible in one sticky row. Icons support but never replace the literal labels.
 
 ### Archetypes
 
 - **Availability:** The marker and panel are absent until the official plan map, verified signposts, and format-specific editorial notes are publication-ready. Observations may remain pending before play begins, but every ranking, leader, sample, and percentage must stay absent until attributable results exist.
-- **Format First:** A literal Draft/Sealed switch controls one headline and one guidance note. When observations exist it also shows the current two-colour leader, supported-lane share, and total sample; before then the same ledger states that those results are pending. Direct links preserve the selected format.
+- **Format First:** A literal Draft/Sealed switch controls the headline and guidance. Show the leader/share/sample ledger only with observations; explain pending results in prose. Direct links preserve the selected format.
 - **Routes, Not Rankings:** Supported archetypes remain in the official order. Their observed rank and sample are attached to the route but never replace its plan, structural priorities, or format-specific read.
 - **All-Pair Honesty:** Once observations exist, the format leader may be an unsupported pair. State that plainly rather than hiding evidence that challenges the official map. Before observations, do not rank the official plans.
 - **Signposts:** Two verified local card images anchor each route and open in the existing focused lightbox. They are recognition aids, not a promise that drawing a gold card makes the deck viable.
@@ -493,7 +493,7 @@ Shared components keep behavior, semantics, target sizes, and information order 
 - **Exact-Tier Choices:** Rated cards use four horizontal families—Top picks (`S`, `A+`, `A`, `A-`), Strong (`B+`, `B`, `B-`), Playable (`C+`, `C`, `C-`), and Filler (`D+`, `D`, `D-`, `F`). Each 44px choice uses one lightly tinted tier fill and one three-pixel tier-colour edge.
 - **Answer:** Reveal exposes exact rank, exact tier, the broader family label, and whether the call was exact, missed, or manually revealed. Correct and chosen-wrong buttons remain explicit while unchosen tiers recede.
 - **Observed Evidence:** Hobbit answers continue into a three-column ledger—In-hand WR, Usually gone by, and In-hand games—followed by source/capture context and the immediately adjacent ranked cards. Evidence stays visually subordinate to the answer and continues to call ranking a baseline.
-- **Reality Fracture Preview:** The larger local preview image, card name, type, oracle text, rarity, and collector number remain available. With no attributable ratings, no tier quiz, rank answer, or observed evidence ledger is shown.
+- **Unrated Sets:** Omit Training entirely. Use the card browser and authored Archetypes when the full file is verified.
 - **Progress:** Cards seen, exact-tier correct/attempt totals, current card, colour filter, shuffled queue, revealed-answer state, selected tier, and each decision's pick, reason, reveal phase, and reflection persist per set in browser-local storage. A missed or manually revealed card is inserted after three intervening cards; reset is explicit and confirmed. Legacy reviewed-only markers are preserved as history but do not become fabricated completed responses.
 
 ### Draft Decisions
@@ -517,7 +517,7 @@ Shared components keep behavior, semantics, target sizes, and information order 
 ### Grade Choices and Rating Locks
 
 - **Exact-Tier Families:** Four ruled rows group fourteen exact tier buttons as Top picks, Strong, Playable, and Filler. The rows stay four columns wide where possible and retain compact touch targets on mobile.
-- **Training Preview State:** Reality Fracture keeps Training open as an unrated card reader and omits the tier quiz entirely.
+- **Training Availability:** Complete attributable ratings and their verification milestone are required; calendar dates alone cannot enable it.
 ### Chips and Card Index
 
 - **Rating Tier:** Compact categorical pill with white text; pending uses the light metal surface and binding text.

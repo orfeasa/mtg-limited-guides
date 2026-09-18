@@ -20,6 +20,12 @@ for (const set of data.sets) {
   if (ids.has(set.id)) throw new Error(`Duplicate set ID: ${set.id}`);
   ids.add(set.id);
   if (!Array.isArray(set.cards) || set.cards.length === 0) throw new Error(`No cards for ${set.id}`);
+  if (!set.lifecycle?.source || !Object.hasOwn(set.lifecycle, "ratingsConfirmedAt")) throw new Error(`Missing lifecycle evidence for ${set.id}`);
+  for (const date of [set.releaseDate, set.prereleaseDate, set.arenaDate, set.previewEndsOn, set.lifecycle.fullSetConfirmedAt, set.lifecycle.ratingsConfirmedAt].filter(Boolean)) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || new Date(`${date}T12:00:00Z`).toISOString().slice(0, 10) !== date) throw new Error(`Invalid lifecycle date for ${set.id}: ${date}`);
+  }
+  if (set.rating.status === "available" && (!set.lifecycle.ratingsConfirmedAt || !set.rating.source || !set.rating.url || !set.rating.capturedAt || set.cards.some((card) => !Number.isFinite(card.rank) || !card.tier))) throw new Error(`Incomplete training evidence for ${set.id}`);
+  if (set.lifecycle.ratingsConfirmedAt && (!set.lifecycle.fullSetConfirmedAt || set.rating.status !== "available")) throw new Error(`Ratings milestone lacks confirmed evidence for ${set.id}`);
 
   const cardIds = new Set();
   for (const card of set.cards) {
@@ -123,11 +129,10 @@ for (const scenario of hobbit.draftDecisions.scenarios) {
 }
 
 const fracture = data.sets.find((set) => set.id === "fra");
-if (fracture.archetypes?.status !== "provisional" || fracture.archetypes?.archetypes?.length !== 10) {
+if (!["provisional", "observed"].includes(fracture.archetypes?.status) || fracture.archetypes?.archetypes?.length !== 10) {
   throw new Error("Expected ten provisional Reality Fracture archetypes");
 }
-if (fracture.rating.status !== "pending") throw new Error("Reality Fracture must remain explicitly unrated during preview season");
-if (fracture.cards.some((card) => card.rank || card.tier)) throw new Error("Reality Fracture preview cards must not have invented ratings");
+if (fracture.rating.status === "pending" && fracture.cards.some((card) => card.rank || card.tier)) throw new Error("Pending cards must not have invented ratings");
 if (fracture.cards.some((card) => !card.trainingImage)) throw new Error("Reality Fracture preview cards need readable study images");
 if (!/^\d{4}-\d{2}-\d{2}$/.test(fracture.previewEndsOn) || Number.isNaN(Date.parse(`${fracture.previewEndsOn}T12:00:00Z`))) {
   throw new Error("Reality Fracture needs a valid preview end date");
@@ -138,6 +143,5 @@ if (fracture.cards.some((card) => !/^\d{4}-\d{2}-\d{2}$/.test(card.firstSeenAt) 
 if (fracture.cards.some((card) => card.firstSeenAt > fracture.previewCapturedAt.slice(0, 10))) {
   throw new Error("Reality Fracture first-seen dates cannot follow the preview capture");
 }
-if (fracture.draftDecisions) throw new Error("Reality Fracture must not expose draft decisions before grounded data exists");
 
 console.log(`Verified ${data.sets.length} sets and ${data.sets.reduce((sum, set) => sum + set.cards.length, 0)} cards.`);

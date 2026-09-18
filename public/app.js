@@ -168,7 +168,7 @@
   const latestSet = [...dataset.sets].sort((left, right) => String(right.releaseDate || "").localeCompare(String(left.releaseDate || "")))[0];
   const requestedView = params.get("view") === "study" ? "training" : params.get("view");
   let currentSet = setById.get(params.get("set")) || latestSet;
-  let currentView = validViews.has(requestedView) ? requestedView : "training";
+  let currentView = validViews.has(requestedView) ? requestedView : window.SET_LIFECYCLE.resolve(currentSet).defaultView;
   let previewCardId = null;
   let previewTouchStart = null;
   let previewOpener = null;
@@ -281,6 +281,7 @@
   }
 
   function saveProgress() {
+    if (!ratingIsAvailable()) return;
     progress.currentCard = trainerCardId;
     progress.color = elements.trainerColor.value;
     progress.trainerRevealed = trainerRevealed;
@@ -334,7 +335,7 @@
 
   function previewCatchupAvailable() {
     const previewEnd = Date.parse(`${currentSet.previewEndsOn || ""}T23:59:59Z`);
-    return currentSet.stage === "preview"
+    return !lifecycle().complete
       && Number.isFinite(previewEnd)
       && Date.now() <= previewEnd
       && previewDates().length > 1;
@@ -393,15 +394,19 @@
   }
 
   function ratingIsAvailable() {
-    return currentSet.rating.status === "available";
+    return lifecycle().training;
+  }
+
+  function lifecycle() {
+    return window.SET_LIFECYCLE.resolve(currentSet);
   }
 
   function draftDecisionsAvailable() {
-    return Array.isArray(currentSet.draftDecisions?.scenarios) && currentSet.draftDecisions.scenarios.length > 0;
+    return lifecycle().decisions;
   }
 
   function archetypesAvailable() {
-    return Array.isArray(currentSet.archetypes?.archetypes) && currentSet.archetypes.archetypes.length > 0;
+    return lifecycle().archetypes;
   }
 
   function archetypeFormatData() {
@@ -427,12 +432,16 @@
     document.title = `${currentSet.name} · Limited Field Guides`;
     document.querySelector('meta[name="theme-color"]')?.setAttribute("content", currentSet.theme === "fracture" ? "#171426" : "#263c31");
     elements.productName.textContent = currentSet.productName;
-    elements.productSubtitle.textContent = currentSet.subtitle;
+    const state = lifecycle();
+    const nextEvent = [["Prerelease", currentSet.prereleaseDate], ["Arena", currentSet.arenaDate], ["Release", currentSet.releaseDate]]
+      .find(([, date]) => date && date >= new Date().toISOString().slice(0, 10));
+    elements.productSubtitle.textContent = state.training ? currentSet.subtitle
+      : `${state.complete ? "Full card file available. Ratings pending." : "Discover the cards as they are revealed."}${nextEvent ? ` ${nextEvent[0]} · ${dateLabel(nextEvent[1])}.` : ""}`;
     elements.setSelect.value = currentSet.id;
     elements.datasetCount.textContent = String(currentSet.cardCount);
-    elements.datasetUnit.textContent = currentSet.stage === "preview" ? "revealed" : "cards";
-    elements.datasetDate.textContent = currentSet.stage === "preview" ? "preview file" : "observed data";
-    elements.atlasTitle.textContent = currentSet.stage === "preview" ? "The revealed card file" : "The complete card atlas";
+    elements.datasetUnit.textContent = state.complete ? "cards" : "revealed";
+    elements.datasetDate.textContent = state.training ? "observed data" : state.complete ? "full card file" : "previews";
+    elements.atlasTitle.textContent = state.released ? "All cards" : "Previews";
     elements.atlasCopy.textContent = currentSet.stage === "preview"
       ? `${currentSet.cardCount} revealed cards, grouped by colour. Select a card to enlarge it.`
       : `All ${currentSet.cardCount} ranked cards. Arrange by colour or tier, then select a card to enlarge it.`;
@@ -454,7 +463,10 @@
       archetypesTab.hidden = !archetypesAvailable();
       archetypesTab.tabIndex = -1;
     }
-    const viewCount = 2 + Number(draftDecisionsAvailable()) + Number(archetypesAvailable());
+    const trainingTab = viewTabs.find((tab) => tab.dataset.view === "training");
+    trainingTab.hidden = !state.training;
+    viewTabs.find((tab) => tab.dataset.view === "atlas").querySelector("span").textContent = state.atlasLabel;
+    const viewCount = state.views.length;
     document.documentElement.style.setProperty("--view-count", String(viewCount));
     document.documentElement.dataset.viewCount = String(viewCount);
 
@@ -466,7 +478,7 @@
       ? archetypeFormatData()?.observed?.capturedAt || currentSet.archetypes.authoredAt
       : currentView === "decisions" && draftDecisionsAvailable()
         ? currentSet.draftDecisions.capturedAt
-        : currentSet.stage === "preview"
+        : !ratingIsAvailable()
           ? currentSet.previewCapturedAt
           : currentSet.performance?.capturedAt || currentSet.rating.capturedAt;
     elements.footerRefreshed.textContent = refreshedAt ? `Last refreshed ${dateLabel(refreshedAt)}` : "";
@@ -489,11 +501,11 @@
       elements.sourceLink.textContent = "View draft replay";
       return;
     }
-    elements.footerSource.textContent = currentSet.stage === "preview"
+    elements.footerSource.textContent = !ratingIsAvailable()
       ? currentSet.cardSource.label
       : `${currentSet.rating.source} pick order · ${currentSet.rating.rankRange} · ${currentSet.rating.archetype}`;
     elements.sourceLink.href = currentSet.cardSource.url;
-    elements.sourceLink.textContent = currentSet.stage === "preview" ? "View preview source" : "View ranking source";
+    elements.sourceLink.textContent = !ratingIsAvailable() ? "View card source" : "View ranking source";
   }
 
   function cardIsRated(card) {
@@ -559,6 +571,7 @@
   }
 
   function renderTrainer() {
+    if (!ratingIsAvailable()) return;
     const card = cardById.get(trainerCardId) || (ratingIsAvailable() ? takeTrainerCard() : cards[0]);
     if (!card) return;
     trainerCardId = card.id;
@@ -657,6 +670,7 @@
     if (!format) return;
     const observed = format.observed || { status: "pending", pairs: [] };
     const observationsAvailable = observed.status === "available" && observed.pairs.length > 0;
+    elements.formatLeader.closest("dl").hidden = !observationsAvailable;
     const topPair = observationsAvailable ? observed.pairs.find((pair) => pair.id === observed.topPair) : null;
     const topSupport = topPair?.supported ? "supported plan" : "not an official archetype";
 
@@ -1150,8 +1164,8 @@
     elements.atlasGrouping.querySelectorAll("[data-atlas-grouping]").forEach((button) => {
       button.setAttribute("aria-pressed", String(button.dataset.atlasGrouping === atlasGrouping));
     });
-    elements.atlasCopy.textContent = currentSet.stage === "preview"
-      ? `${currentSet.cardCount} revealed cards, grouped by colour. Select a card to enlarge it.`
+    elements.atlasCopy.textContent = !ratingIsAvailable()
+      ? `${lifecycle().complete ? "The full" : "The revealed"} ${currentSet.cardCount}-card file, grouped by colour. Select a card to enlarge it.${lifecycle().released ? " Ratings are pending." : ""}`
       : `All ${currentSet.cardCount} ranked cards, grouped by ${atlasGrouping}. Select a card to enlarge it.`;
 
     const groups = atlasGrouping === "tier"
@@ -1221,8 +1235,8 @@
         const color = colorGroups.find((item) => item.id === card.color);
         const meta = isTierGroup
           ? `${manaSymbol(card.color, "mana-symbol--meta")}<span>${escapeHtml(color?.name || "Colourless")}</span>`
-          : currentSet.stage === "preview"
-            ? `<span class="tier tier-pending" style="--tier-color:${tierColors["?"]}">Preview</span><span>${escapeHtml(card.rarity || "Unrated")}</span>`
+          : !ratingIsAvailable()
+            ? `<span>${escapeHtml(card.rarity || "Unrated")}</span>`
             : `<span class="tier ${cardIsRated(card) ? "" : "tier-pending"}" style="--tier-color:${tierColors[card.tier] || tierColors["?"]}">${escapeHtml(cardIsRated(card) ? card.tier : "Unrated")}</span>`;
         button.innerHTML = `<img src="${escapeHtml(card.image)}" alt="" width="80" height="112"><span class="atlas-card-copy"><span class="atlas-card-rank">${escapeHtml(leading)}</span><strong>${escapeHtml(card.name)}</strong><span class="atlas-card-meta">${meta}</span></span>`;
         return button;
@@ -1233,10 +1247,7 @@
   }
 
   function activateView(view, { focus = false, updateHistory = true } = {}) {
-    const canActivate = validViews.has(view)
-      && (view !== "decisions" || draftDecisionsAvailable())
-      && (view !== "archetypes" || archetypesAvailable());
-    currentView = canActivate ? view : "training";
+    currentView = lifecycle().views.includes(view) ? view : lifecycle().defaultView;
     views.forEach((panel, id) => { panel.hidden = id !== currentView; });
     viewTabs.forEach((tab) => {
       const selected = tab.dataset.view === currentView;
@@ -1258,8 +1269,7 @@
     currentSet = nextSet;
     cards = [...currentSet.cards];
     cardById = new Map(cards.map((card) => [card.id, card]));
-    if (currentView === "decisions" && !draftDecisionsAvailable()) currentView = "training";
-    if (currentView === "archetypes" && !archetypesAvailable()) currentView = "training";
+    if (!useRouteState) currentView = lifecycle().defaultView;
     const requestedFormat = useRouteState ? routeParams.get("format") : null;
     if (requestedFormat && currentSet.archetypes?.formats?.[requestedFormat]) archetypeFormat = requestedFormat;
     else if (!currentSet.archetypes?.formats?.[archetypeFormat]) archetypeFormat = "draft";
@@ -1297,7 +1307,8 @@
   elements.setSelect.replaceChildren(...dataset.sets.map((set) => {
     const option = document.createElement("option");
     option.value = set.id;
-    option.textContent = `${set.name}${set.stage === "preview" ? " · preview" : ""}`;
+    const state = window.SET_LIFECYCLE.resolve(set);
+    option.textContent = `${set.name}${!state.complete ? " · previews" : !state.released ? " · full reveal" : ""}`;
     return option;
   }));
 

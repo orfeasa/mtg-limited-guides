@@ -174,6 +174,7 @@ const cacheFiles = [
   "./styles.css",
   "./data.js",
   "./app.js",
+  "./lifecycle.js",
   "./manifest.webmanifest",
   "./assets/icon.svg",
   "./assets/icon-32.png",

@@ -1,11 +1,12 @@
 /* Generated static cache manifest. */
-const CACHE = "limited-prep-b2f513db598f";
+const CACHE = "limited-prep-a6a86c5aec59";
 const ASSETS = [
   "./",
   "./index.html",
   "./styles.css",
   "./data.js",
   "./app.js",
+  "./lifecycle.js",
   "./manifest.webmanifest",
   "./assets/icon.svg",
   "./assets/icon-32.png",
