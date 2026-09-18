@@ -422,7 +422,7 @@ At 860px, the header becomes a grid, Training progress stacks below its heading,
 
 **The First-Viewport Rule.** The latest set and data maturity lead in the binding; the available compact markers then yield to focused preparation.
 
-**The Stable-Shell Rule.** Follow `docs/set-lifecycle.md`. Show only useful modes in the order Training, Archetypes, optional Draft decisions, card browser. Training requires complete ratings; Archetypes requires the verified full file and authored plans. The browser is Previews before retail release and All cards afterwards. Default to Training, then Archetypes, then browsing according to availability.
+**The Stable-Shell Rule.** Follow `docs/set-lifecycle.md`. Show only useful modes in the order Training, Archetypes, optional Draft decisions, card browser. Training requires complete ratings; Archetypes requires the verified full file and authored plans. The browser is Previews while reveals are incomplete and All cards once the full file is confirmed. Default to Training, then Archetypes, then browsing according to availability.
 
 **The Preparation-Only Rule.** Layout supports recognition, rehearsal, and browsing. It must never acquire deck zones, curve charts, counts-by-card, or other deck-builder composition.
 

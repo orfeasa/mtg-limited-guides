@@ -5,7 +5,7 @@ One policy applies to every set. The full card reveal, retail release, and usabl
 | State | Tabs in order | Default | Player task |
 | --- | --- | --- | --- |
 | Cards still being revealed | Previews | Previews | Browse newly revealed cards and catch up by date |
-| Full card file confirmed, before retail release | Archetypes, Previews | Archetypes | Learn intended decks and recognise their cards |
+| Full card file confirmed, before retail release | Archetypes, All cards | Archetypes | Learn intended decks and recognise their cards |
 | Retail released, ratings still pending | Archetypes, All cards | Archetypes | Prepare from the complete card file and official plans |
 | Complete attributable ratings verified | Training, Archetypes, All cards | Training | Practise ratings and inspect their evidence |
 
@@ -23,7 +23,7 @@ Draft decisions is an optional fourth tab between Archetypes and the card browse
 - `lifecycle.ratingsConfirmedAt`: actual verification day of the currently published complete rating snapshot; null until usable. It is not a prediction or necessarily the first date ratings ever existed.
 - `lifecycle.source`: official milestone/full-set evidence URL. Rating provenance remains in `rating.source`, `rating.url`, and `rating.capturedAt`.
 
-All dates use ISO YYYY-MM-DD. Calendar presentation changes at midnight UTC on page load. Previews becomes All cards on `releaseDate` even if ratings remain pending. Neither release nor Arena launch enables Training: every indexed card must have a real rank/tier and the source and capture date must be present. A later tab open after a date change should reload the page. Stored progress survives hidden tabs and returns when the evidence is available.
+All dates use ISO YYYY-MM-DD. Calendar presentation changes at midnight UTC on page load. Previews becomes All cards when `lifecycle.fullSetConfirmedAt` confirms the complete file, even before retail release. Retail release does not change the tabs. Neither release nor Arena launch enables Training: every indexed card must have a real rank/tier and the source and capture date must be present. A later tab open after a date change should reload the page. Stored progress survives hidden tabs and returns when the evidence is available.
 
 The existing `stage` field is a descriptive snapshot (`preview`, `complete`, `observed`); it does not control navigation. `public/lifecycle.js` derives capabilities from dated evidence and actual content. Do not fork this logic per set, hardcode today's set into the app, or gate future ratings with permanent FRA-specific validation.
 

@@ -12,7 +12,7 @@
     return {
       complete, released, training, archetypes, decisions,
       stage: training ? "observed" : complete ? "complete" : "preview",
-      atlasLabel: released ? "All cards" : "Previews",
+      atlasLabel: complete ? "All cards" : "Previews",
       defaultView: training ? "training" : archetypes ? "archetypes" : "atlas",
       views: [training && "training", archetypes && "archetypes", decisions && "decisions", "atlas"].filter(Boolean),
     };

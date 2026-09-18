@@ -441,7 +441,7 @@
     elements.datasetCount.textContent = String(currentSet.cardCount);
     elements.datasetUnit.textContent = state.complete ? "cards" : "revealed";
     elements.datasetDate.textContent = state.training ? "observed data" : state.complete ? "full card file" : "previews";
-    elements.atlasTitle.textContent = state.released ? "All cards" : "Previews";
+    elements.atlasTitle.textContent = state.atlasLabel;
     elements.atlasCopy.textContent = currentSet.stage === "preview"
       ? `${currentSet.cardCount} revealed cards, grouped by colour. Select a card to enlarge it.`
       : `All ${currentSet.cardCount} ranked cards. Arrange by colour or tier, then select a card to enlarge it.`;

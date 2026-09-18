@@ -16,7 +16,10 @@ assert.equal(resolve(previews, "2027-01-01").archetypes, false, "Dates cannot ce
 assert.equal(resolve(previews, "2027-01-01").training, false, "Release cannot create ratings");
 assert.equal(resolve(fra, "2026-09-18").views.join(","), "archetypes,atlas");
 assert.equal(resolve(fra, "2026-09-18").defaultView, "archetypes");
-assert.equal(resolve(fra, "2026-10-01").atlasLabel, "Previews");
+assert.equal(resolve(fra, "2026-09-17").atlasLabel, "Previews");
+assert.equal(resolve(fra, "2026-09-18").atlasLabel, "All cards");
+assert.equal(resolve(fra, "2026-10-01").atlasLabel, "All cards");
+assert.equal(resolve(previews, "2027-01-01").atlasLabel, "Previews", "Retail release cannot certify the full file");
 assert.equal(resolve(fra, "2026-10-02").atlasLabel, "All cards");
 assert.equal(resolve(fra, "2026-10-02").training, false);
 assert.equal(resolve(hob, "2026-09-18").views.join(","), "training,archetypes,decisions,atlas");
