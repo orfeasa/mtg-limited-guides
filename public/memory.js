@@ -14,6 +14,7 @@
     for (const name of names) {
       text = text.split(name).join("This card");
       text = text.split(name.split(",")[0]).join("This card");
+      if (card.typeLine.includes("Legendary")) text = text.split(name.split(/,| the /)[0]).join("This card");
     }
     return text || "No rules abilities.";
   };
