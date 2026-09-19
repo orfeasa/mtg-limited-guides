@@ -10,7 +10,7 @@
     <link rel="icon" href="assets/icon-32.png" sizes="32x32" type="image/png">
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
     <link rel="manifest" href="manifest.webmanifest">
-    <link rel="stylesheet" href="styles.css?v=limited-prep-19">
+    <link rel="stylesheet" href="styles.css?v=limited-prep-20">
   </head>
   <body data-theme="fracture">
     <!--
@@ -78,6 +78,7 @@
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h11l3 3v13H5zM8 9h8M8 13h8M8 17h5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
         <span>Training</span>
       </button>
+      <button class="view-tab" type="button" role="tab" aria-selected="false" aria-controls="memory-view" tabindex="-1" data-view="memory" hidden><span>Card memory</span></button>
       <button class="view-tab" type="button" role="tab" aria-selected="false" aria-controls="prep-view" tabindex="-1" data-view="prep" hidden>
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v16H4zM7 8l1 1 2-2M12 8h5M7 14l1 1 2-2M12 14h5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
         <span>Prerelease prep</span>
@@ -97,6 +98,7 @@
     </nav>
 
     <main id="main">
+      <section id="memory-view" class="view-panel" role="tabpanel" aria-label="Card memory" hidden><div id="memory-content" class="surface-page memory-page"></div></section>
       <section id="prep-view" class="view-panel" role="tabpanel" aria-label="Prerelease prep" hidden>
         <div id="prep-content" class="prep-page surface-page"></div>
       </section>
@@ -371,8 +373,9 @@
     </dialog>
     <noscript><p class="noscript">This preparation tool requires JavaScript.</p></noscript>
     <script src="data.js?v=limited-prep-15"></script>
-    <script src="lifecycle.js?v=4"></script>
+    <script src="lifecycle.js?v=5"></script>
     <script src="prep.js?v=2"></script>
-    <script src="app.js?v=limited-prep-27"></script>
+    <script src="memory.js?v=1"></script>
+    <script src="app.js?v=limited-prep-28"></script>
   </body>
 </html>

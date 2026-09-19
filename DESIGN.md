@@ -572,3 +572,7 @@ Shared components keep behavior, semantics, target sizes, and information order 
 - **Don't** reintroduce rank-only pick comparisons without full-pack and drafted-pool context.
 - **Don't** turn Draft decisions into a binary score or imply the replay pick is automatically correct.
 - **Don't** hide state, card identity, colour grouping, or navigation behind icons alone.
+
+## Card memory trial
+
+A separate Card memory tab extends the existing paper/ink surface for complete sets with imported rules text. Match visible name and artwork to one of three rules-text answers; reveal the full card, requeue misses, and finish a saved run of all nonbasic cards. Ratings training and its progress remain separate. Use the existing responsive shell and native buttons; no new visual theme or raster assets.

@@ -5,9 +5,9 @@ One policy applies to every set. The full card reveal, retail release, and usabl
 | State | Tabs in order | Default | Player task |
 | --- | --- | --- | --- |
 | Cards still being revealed | Previews | Previews | Browse newly revealed cards and catch up by date |
-| Full card file confirmed, before retail release | Prerelease prep, Archetypes, All cards | All cards | Browse the complete file; choose prep to learn mechanics, key cards, interactions, and how to build a deck |
-| Retail released, ratings still pending | Prerelease prep, Archetypes, All cards | All cards | Keep preparing from the complete file and authored guidance |
-| Complete attributable ratings verified | Training, Prerelease prep, Archetypes, All cards | Training | Practise ratings; retain rules and deck-building preparation |
+| Full card file confirmed, before retail release | Card memory (when supported), Prerelease prep, Archetypes, All cards | All cards | Browse the complete file; choose prep to learn mechanics, key cards, interactions, and how to build a deck |
+| Retail released, ratings still pending | Card memory (when supported), Prerelease prep, Archetypes, All cards | All cards | Keep preparing from the complete file and authored guidance |
+| Complete attributable ratings verified | Training, Card memory (when supported), Prerelease prep, Archetypes, All cards | Training | Practise ratings; retain rules and deck-building preparation |
 
 Prerelease prep is optional: require the full card file plus a validated guide with `status: published` and a reached `publishedAt` date. All unrated sets open the card browser, whether or not a prep guide or archetypes exist. All cards offers “Preparing for prerelease? Start here” only when a published prep guide is available. Never publish an empty guide just to fill a tab. The name describes the preparation task, not an expiry date: retain this reference after release. Default to Sealed in prep, preserve explicit Draft links and Two-Headed Giant links (`format=2hg`) when authored team content exists, and never infer a player's format from the calendar. See [prep authoring](prep-authoring.md).
 
@@ -58,3 +58,7 @@ These are a readable snapshot of the manifest, not a second configuration. Unkno
 4. Import attributable ratings only when complete; record verification and capture dates separately.
 5. Build and run data, lifecycle, and prep checks. Test direct links, default landing, set switching, visible tabs, keyboard navigation, card enlargement, desktop/mobile layout, and the existing rated set. For prep, test format isolation, filters, checklist reload, incorrect/correct answers, and retries.
 6. Follow AGENTS.md delivery and independently verify the live UI and served files.
+
+## Card memory
+
+The separate `memory` view requires a confirmed full file and imported rules text for every card (an empty string is valid for a vanilla creature). It does not require or fabricate ratings. It leaves the default landing and rating Training gate unchanged. The game omits basic lands, uses three distinct rules-text choices from the file, normalizes self-references, and favours distractors of similar colour, type and cost. Art/name cues remain visible; answers reveal the complete image. Incorrect or skipped cards return after up to three other cards. Unique correct cards count once toward a finite run, saved separately per set and content revision. A completed run measures recognition rather than lasting mastery; another run is optional.

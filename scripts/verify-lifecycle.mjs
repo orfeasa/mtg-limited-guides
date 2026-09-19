@@ -14,7 +14,7 @@ previews.rating.status = "pending";
 assert.equal(resolve(previews, "2026-09-17").views.join(","), "atlas");
 assert.equal(resolve(previews, "2027-01-01").archetypes, false, "Dates cannot certify a complete card file");
 assert.equal(resolve(previews, "2027-01-01").training, false, "Release cannot create ratings");
-assert.equal(resolve(fra, "2026-09-18").views.join(","), "prep,archetypes,atlas");
+assert.equal(resolve(fra, "2026-09-18").views.join(","), "memory,prep,archetypes,atlas");
 assert.equal(resolve(fra, "2026-09-18").defaultView, "atlas");
 assert.equal(resolve(fra, "2026-10-02").defaultView, "atlas", "Release does not change the landing without ratings");
 assert.equal(resolve(previews, "2026-09-17").defaultView, "atlas");

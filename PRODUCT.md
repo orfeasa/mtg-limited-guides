@@ -67,3 +67,7 @@ Used in the days before a prerelease or draft, alone or with friends. A player m
 ## Accessibility & Inclusion
 
 Keyboard-operable controls, visible focus states, semantic status updates, sufficient contrast, reduced-motion support, and touch targets suitable for mobile drafting.
+
+## Card memory trial
+
+A separate Card memory tab extends the existing paper/ink surface for complete sets with imported rules text. Match visible name and artwork to one of three rules-text answers; reveal the full card, requeue misses, and finish a saved run of all nonbasic cards. Ratings training and its progress remain separate. Use the existing responsive shell and native buttons; no new visual theme or raster assets.

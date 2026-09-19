@@ -8,7 +8,7 @@
   const params = new URLSearchParams(location.search);
   const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const numberFormatter = new Intl.NumberFormat("en-GB");
-  const validViews = new Set(["training", "prep", "archetypes", "decisions", "atlas"]);
+  const validViews = new Set(["training", "memory", "prep", "archetypes", "decisions", "atlas"]);
   const bandLabels = {
     top: "Top pick · S/A range",
     strong: "Strong · B range",
@@ -473,6 +473,7 @@
     }
     const trainingTab = viewTabs.find((tab) => tab.dataset.view === "training");
     trainingTab.hidden = !state.training;
+    viewTabs.find((tab) => tab.dataset.view === "memory").hidden = !state.memory;
     viewTabs.find((tab) => tab.dataset.view === "prep").hidden = !state.prep;
     $("#atlas-prep-invitation").hidden = !state.prep;
     $("#atlas-prep-link").href = `?set=${encodeURIComponent(currentSet.id)}&view=prep&format=sealed`;
@@ -1319,6 +1320,7 @@
     renderTrainer();
     renderArchetypes();
     prepGuide.render(lifecycle().prep ? currentSet : null, prepFormat);
+    window.CARD_MEMORY.mount(document.querySelector("#memory-content"), lifecycle().memory ? currentSet : null);
     renderDecision();
     renderAtlas();
     activateView(currentView, { updateHistory: false });

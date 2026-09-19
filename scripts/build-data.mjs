@@ -185,6 +185,7 @@ const cacheFiles = [
   "./app.js",
   "./lifecycle.js",
   "./prep.js",
+  "./memory.js",
   "./manifest.webmanifest",
   "./assets/icon.svg",
   "./assets/icon-32.png",
