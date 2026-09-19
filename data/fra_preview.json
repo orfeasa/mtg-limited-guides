@@ -1,10 +1,33 @@
 {
   "set": "FRA",
-  "source": "https://api.scryfall.com/cards/search?order=spoiled&q=set%3Afra&unique=cards",
-  "capturedAt": "2026-09-18T23:32:47.094Z",
+  "source": "https://api.scryfall.com/cards/search?order=set&q=set%3Afra&unique=prints",
+  "capturedAt": "2026-09-19T17:51:47.966Z",
   "partial": true,
   "count": 285,
   "cards": [
+    {
+      "id": "c3ff8dd3-88a8-49dc-a59b-e2748680623c",
+      "name": "Emrakul, the Exigent Doom",
+      "firstSeenAt": "2026-09-11",
+      "collectorNumber": "1",
+      "color": "C",
+      "colors": [],
+      "manaCost": "{10}",
+      "manaValue": 10,
+      "typeLine": "Legendary Creature — Eldrazi",
+      "oracleText": "When you cast this spell, untap all lands you control.\nFlying, trample\nWard—Sacrifice three permanents.\n{3}, Exile this card from your hand: Target land gains \"{T}: Add {C}{C}\" until this card is cast from exile. You may cast this card for as long as it remains exiled.",
+      "rarity": "mythic",
+      "keywords": [
+        "Flying",
+        "Trample",
+        "Ward"
+      ],
+      "image": "assets/cards/fra/c3ff8dd3-88a8-49dc-a59b-e2748680623c.jpg",
+      "trainingImage": "assets/cards-large/fra/c3ff8dd3-88a8-49dc-a59b-e2748680623c.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/c/3/c3ff8dd3-88a8-49dc-a59b-e2748680623c.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/c/3/c3ff8dd3-88a8-49dc-a59b-e2748680623c.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/1/emrakul-the-exigent-doom?utm_source=api"
+    },
     {
       "id": "730d8c28-1e58-4b8e-89e9-445d154d2e83",
       "name": "Academic Ascent",
@@ -410,6 +433,27 @@
       "scryfallUrl": "https://scryfall.com/card/fra/19/repurposed-enforcer?utm_source=api"
     },
     {
+      "id": "9e72f397-2384-40f1-882b-f627664d97df",
+      "name": "Return to the Light Realms",
+      "firstSeenAt": "2026-09-08",
+      "collectorNumber": "20",
+      "color": "W",
+      "colors": [
+        "W"
+      ],
+      "manaCost": "{7}{W}{W}",
+      "manaValue": 9,
+      "typeLine": "Sorcery",
+      "oracleText": "Return all nonland permanent cards from your graveyard to the battlefield.",
+      "rarity": "mythic",
+      "keywords": [],
+      "image": "assets/cards/fra/9e72f397-2384-40f1-882b-f627664d97df.jpg",
+      "trainingImage": "assets/cards-large/fra/9e72f397-2384-40f1-882b-f627664d97df.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/9/e/9e72f397-2384-40f1-882b-f627664d97df.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/9/e/9e72f397-2384-40f1-882b-f627664d97df.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/20/return-to-the-light-realms?utm_source=api"
+    },
+    {
       "id": "e29095de-59ec-4562-ba8e-73f952e457ae",
       "name": "Shatterwing Pegasus",
       "firstSeenAt": "2026-09-13",
@@ -794,6 +838,27 @@
       "scryfallUrl": "https://scryfall.com/card/fra/37/proteges-awakening?utm_source=api"
     },
     {
+      "id": "51d86875-420d-4e82-b69c-4feeb99c9428",
+      "name": "Seasoned Cryomancer",
+      "firstSeenAt": "2026-09-16",
+      "collectorNumber": "38",
+      "color": "U",
+      "colors": [
+        "U"
+      ],
+      "manaCost": "{1}{U}{U}",
+      "manaValue": 3,
+      "typeLine": "Creature — Human Wizard",
+      "oracleText": "When this creature enters, draw two cards, then discard two cards. When you discard one or more nonland cards this way, tap up to that many target creatures and put a stun counter on each of them.\n{3}{U}{U}, Exile this card from your graveyard: Draw two cards.",
+      "rarity": "mythic",
+      "keywords": [],
+      "image": "assets/cards/fra/51d86875-420d-4e82-b69c-4feeb99c9428.jpg",
+      "trainingImage": "assets/cards-large/fra/51d86875-420d-4e82-b69c-4feeb99c9428.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/5/1/51d86875-420d-4e82-b69c-4feeb99c9428.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/5/1/51d86875-420d-4e82-b69c-4feeb99c9428.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/38/seasoned-cryomancer?utm_source=api"
+    },
+    {
       "id": "7e5a640b-fd88-4b5a-9dfc-1d8f5a5cef41",
       "name": "Semester Foreseer // Peer Review",
       "firstSeenAt": "2026-09-12",
@@ -1121,6 +1186,30 @@
       "imageSource": "https://cards.scryfall.io/small/front/4/e/4ec912d5-cbe7-4d07-9ece-b03ac02d3055.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/4/e/4ec912d5-cbe7-4d07-9ece-b03ac02d3055.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/52/dark-matter-manipulator?utm_source=api"
+    },
+    {
+      "id": "ec454979-3839-4be3-a34a-9d25482948ba",
+      "name": "Darklight Phoenix",
+      "firstSeenAt": "2026-09-16",
+      "collectorNumber": "53",
+      "color": "B",
+      "colors": [
+        "B"
+      ],
+      "manaCost": "{3}{B}",
+      "manaValue": 4,
+      "typeLine": "Creature — Phoenix",
+      "oracleText": "Flying, haste\nAt the beginning of combat on your turn, if two or more creatures died this turn, return this card from your graveyard to the battlefield.",
+      "rarity": "mythic",
+      "keywords": [
+        "Flying",
+        "Haste"
+      ],
+      "image": "assets/cards/fra/ec454979-3839-4be3-a34a-9d25482948ba.jpg",
+      "trainingImage": "assets/cards-large/fra/ec454979-3839-4be3-a34a-9d25482948ba.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/e/c/ec454979-3839-4be3-a34a-9d25482948ba.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/e/c/ec454979-3839-4be3-a34a-9d25482948ba.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/53/darklight-phoenix?utm_source=api"
     },
     {
       "id": "eb4b6ed8-782e-4473-abc9-d50bf2275c6a",
@@ -2370,6 +2459,27 @@
       "imageSource": "https://cards.scryfall.io/small/front/0/7/073f4998-a204-447b-93d5-746ae87fd6a1.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/0/7/073f4998-a204-447b-93d5-746ae87fd6a1.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/109/inspired-tethermage?utm_source=api"
+    },
+    {
+      "id": "eaf9dc77-c83b-49cf-84be-6bd791cb925e",
+      "name": "Omnipresence",
+      "firstSeenAt": "2026-09-16",
+      "collectorNumber": "110",
+      "color": "G",
+      "colors": [
+        "G"
+      ],
+      "manaCost": "{5}{G}{G}{G}",
+      "manaValue": 8,
+      "typeLine": "Enchantment",
+      "oracleText": "You may cast spells with mana value less than or equal to the number of creatures you control from your hand without paying their mana costs.",
+      "rarity": "mythic",
+      "keywords": [],
+      "image": "assets/cards/fra/eaf9dc77-c83b-49cf-84be-6bd791cb925e.jpg",
+      "trainingImage": "assets/cards-large/fra/eaf9dc77-c83b-49cf-84be-6bd791cb925e.jpg",
+      "imageSource": "https://cards.scryfall.io/small/front/e/a/eaf9dc77-c83b-49cf-84be-6bd791cb925e.jpg",
+      "trainingImageSource": "https://cards.scryfall.io/normal/front/e/a/eaf9dc77-c83b-49cf-84be-6bd791cb925e.jpg",
+      "scryfallUrl": "https://scryfall.com/card/fra/110/omnipresence?utm_source=api"
     },
     {
       "id": "6b8789a6-3b63-4198-af5f-c2f2f49fafd9",
@@ -6318,116 +6428,6 @@
       "imageSource": "https://cards.scryfall.io/small/front/6/1/613bc075-2fe4-421f-bfec-3786a5e37797.jpg",
       "trainingImageSource": "https://cards.scryfall.io/normal/front/6/1/613bc075-2fe4-421f-bfec-3786a5e37797.jpg",
       "scryfallUrl": "https://scryfall.com/card/fra/289/forest?utm_source=api"
-    },
-    {
-      "id": "ee609b68-5c9c-43e0-aff4-eb1bbc8b2911",
-      "name": "Emrakul, the Exigent Doom",
-      "firstSeenAt": "2026-09-11",
-      "collectorNumber": "438",
-      "color": "C",
-      "colors": [],
-      "manaCost": "{10}",
-      "manaValue": 10,
-      "typeLine": "Legendary Creature — Eldrazi",
-      "oracleText": "When you cast this spell, untap all lands you control.\nFlying, trample\nWard—Sacrifice three permanents.\n{3}, Exile this card from your hand: Target land gains \"{T}: Add {C}{C}\" until this card is cast from exile. You may cast this card for as long as it remains exiled.",
-      "rarity": "mythic",
-      "keywords": [
-        "Flying",
-        "Trample",
-        "Ward"
-      ],
-      "image": "assets/cards/fra/ee609b68-5c9c-43e0-aff4-eb1bbc8b2911.jpg",
-      "trainingImage": "assets/cards-large/fra/ee609b68-5c9c-43e0-aff4-eb1bbc8b2911.jpg",
-      "imageSource": "https://cards.scryfall.io/small/front/e/e/ee609b68-5c9c-43e0-aff4-eb1bbc8b2911.jpg",
-      "trainingImageSource": "https://cards.scryfall.io/normal/front/e/e/ee609b68-5c9c-43e0-aff4-eb1bbc8b2911.jpg",
-      "scryfallUrl": "https://scryfall.com/card/fra/438/emrakul-the-exigent-doom?utm_source=api"
-    },
-    {
-      "id": "65e9f4df-02e5-4ac7-86da-795688bfb66f",
-      "name": "Return to the Light Realms",
-      "firstSeenAt": "2026-09-08",
-      "collectorNumber": "440",
-      "color": "W",
-      "colors": [
-        "W"
-      ],
-      "manaCost": "{7}{W}{W}",
-      "manaValue": 9,
-      "typeLine": "Sorcery",
-      "oracleText": "Return all nonland permanent cards from your graveyard to the battlefield.",
-      "rarity": "mythic",
-      "keywords": [],
-      "image": "assets/cards/fra/65e9f4df-02e5-4ac7-86da-795688bfb66f.jpg",
-      "trainingImage": "assets/cards-large/fra/65e9f4df-02e5-4ac7-86da-795688bfb66f.jpg",
-      "imageSource": "https://cards.scryfall.io/small/front/6/5/65e9f4df-02e5-4ac7-86da-795688bfb66f.jpg",
-      "trainingImageSource": "https://cards.scryfall.io/normal/front/6/5/65e9f4df-02e5-4ac7-86da-795688bfb66f.jpg",
-      "scryfallUrl": "https://scryfall.com/card/fra/440/return-to-the-light-realms?utm_source=api"
-    },
-    {
-      "id": "f1a15a83-2f74-4513-ae4b-4cdc17016a84",
-      "name": "Seasoned Cryomancer",
-      "firstSeenAt": "2026-09-16",
-      "collectorNumber": "441",
-      "color": "U",
-      "colors": [
-        "U"
-      ],
-      "manaCost": "{1}{U}{U}",
-      "manaValue": 3,
-      "typeLine": "Creature — Human Wizard",
-      "oracleText": "When this creature enters, draw two cards, then discard two cards. When you discard one or more nonland cards this way, tap up to that many target creatures and put a stun counter on each of them.\n{3}{U}{U}, Exile this card from your graveyard: Draw two cards.",
-      "rarity": "mythic",
-      "keywords": [],
-      "image": "assets/cards/fra/f1a15a83-2f74-4513-ae4b-4cdc17016a84.jpg",
-      "trainingImage": "assets/cards-large/fra/f1a15a83-2f74-4513-ae4b-4cdc17016a84.jpg",
-      "imageSource": "https://cards.scryfall.io/small/front/f/1/f1a15a83-2f74-4513-ae4b-4cdc17016a84.jpg",
-      "trainingImageSource": "https://cards.scryfall.io/normal/front/f/1/f1a15a83-2f74-4513-ae4b-4cdc17016a84.jpg",
-      "scryfallUrl": "https://scryfall.com/card/fra/441/seasoned-cryomancer?utm_source=api"
-    },
-    {
-      "id": "16c5f0f3-2578-40d3-9012-6eaef17fa0b1",
-      "name": "Darklight Phoenix",
-      "firstSeenAt": "2026-09-16",
-      "collectorNumber": "444",
-      "color": "B",
-      "colors": [
-        "B"
-      ],
-      "manaCost": "{3}{B}",
-      "manaValue": 4,
-      "typeLine": "Creature — Phoenix",
-      "oracleText": "Flying, haste\nAt the beginning of combat on your turn, if two or more creatures died this turn, return this card from your graveyard to the battlefield.",
-      "rarity": "mythic",
-      "keywords": [
-        "Flying",
-        "Haste"
-      ],
-      "image": "assets/cards/fra/16c5f0f3-2578-40d3-9012-6eaef17fa0b1.jpg",
-      "trainingImage": "assets/cards-large/fra/16c5f0f3-2578-40d3-9012-6eaef17fa0b1.jpg",
-      "imageSource": "https://cards.scryfall.io/small/front/1/6/16c5f0f3-2578-40d3-9012-6eaef17fa0b1.jpg",
-      "trainingImageSource": "https://cards.scryfall.io/normal/front/1/6/16c5f0f3-2578-40d3-9012-6eaef17fa0b1.jpg",
-      "scryfallUrl": "https://scryfall.com/card/fra/444/darklight-phoenix?utm_source=api"
-    },
-    {
-      "id": "91e787cb-a9b0-4353-86b4-a4340122fd2f",
-      "name": "Omnipresence",
-      "firstSeenAt": "2026-09-16",
-      "collectorNumber": "448",
-      "color": "G",
-      "colors": [
-        "G"
-      ],
-      "manaCost": "{5}{G}{G}{G}",
-      "manaValue": 8,
-      "typeLine": "Enchantment",
-      "oracleText": "You may cast spells with mana value less than or equal to the number of creatures you control from your hand without paying their mana costs.",
-      "rarity": "mythic",
-      "keywords": [],
-      "image": "assets/cards/fra/91e787cb-a9b0-4353-86b4-a4340122fd2f.jpg",
-      "trainingImage": "assets/cards-large/fra/91e787cb-a9b0-4353-86b4-a4340122fd2f.jpg",
-      "imageSource": "https://cards.scryfall.io/small/front/9/1/91e787cb-a9b0-4353-86b4-a4340122fd2f.jpg",
-      "trainingImageSource": "https://cards.scryfall.io/normal/front/9/1/91e787cb-a9b0-4353-86b4-a4340122fd2f.jpg",
-      "scryfallUrl": "https://scryfall.com/card/fra/448/omnipresence?utm_source=api"
     }
   ]
 }

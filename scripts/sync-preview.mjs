@@ -9,7 +9,7 @@ const setCode = (process.argv[2] || "fra").toLowerCase();
 const outputPath = path.join(root, "data", `${setCode}_preview.json`);
 const imageDirectory = path.join(root, "public", "assets", "cards", setCode);
 const trainingImageDirectory = path.join(root, "public", "assets", "cards-large", setCode);
-const apiUrl = `https://api.scryfall.com/cards/search?order=spoiled&q=set%3A${encodeURIComponent(setCode)}&unique=cards`;
+const apiUrl = `https://api.scryfall.com/cards/search?order=set&q=set%3A${encodeURIComponent(setCode)}&unique=prints`;
 const userAgent = "mtg-limited-guides/1.0 (https://github.com/orfeasa/mtg-limited-guides)";
 
 const stableSourceUrl = (value) => {
@@ -55,7 +55,7 @@ const captureDate = capturedAt.slice(0, 10);
 const cardRecords = [];
 let nextPage = apiUrl;
 while (nextPage) {
-  const response = await fetch(nextPage, { headers: { "User-Agent": userAgent, Accept: "application/json" } });
+  const response = await fetch(nextPage, { signal: AbortSignal.timeout(30000), headers: { "User-Agent": userAgent, Accept: "application/json" } });
   if (!response.ok) throw new Error(`Scryfall request failed: ${response.status}`);
 
   const payload = await response.json();
@@ -74,9 +74,19 @@ const classify = (identity) => {
   return "M";
 };
 
+// Main-set printings have the lowest collector number. Fetch every printing
+// before deduplicating: Scryfall's unique=cards can select alternate artwork.
+const collectorNumberOrder = new Intl.Collator("en", { numeric: true, sensitivity: "base" });
+cardRecords.sort((left, right) => collectorNumberOrder.compare(left.collector_number, right.collector_number));
+const mainPrintings = new Map();
+for (const card of cardRecords) {
+  const identity = card.oracle_id || card.name;
+  if (!mainPrintings.has(identity)) mainPrintings.set(identity, card);
+}
+
 const cards = [];
 let changedAssets = 0;
-for (const card of cardRecords) {
+for (const card of mainPrintings.values()) {
   const imageUris = card.image_uris || card.card_faces?.[0]?.image_uris;
   const imageUrl = imageUris?.small;
   const trainingImageUrl = imageUris?.normal || imageUris?.large || imageUrl;
@@ -88,14 +98,14 @@ for (const card of cardRecords) {
   const imageName = `${card.id}.jpg`;
   const imagePath = path.join(imageDirectory, imageName);
   const trainingImagePath = path.join(trainingImageDirectory, imageName);
-  const imageResponse = await fetch(imageUrl, { headers: { "User-Agent": userAgent } });
+  const imageResponse = await fetch(imageUrl, { signal: AbortSignal.timeout(30000), headers: { "User-Agent": userAgent } });
   if (!imageResponse.ok) throw new Error(`Image request failed for ${card.name}: ${imageResponse.status}`);
   const imageBuffer = Buffer.from(await imageResponse.arrayBuffer());
   if (await writeFileIfChanged(imagePath, withSourceComment(imageBuffer, imageSource, "preview card thumbnail"))) {
     changedAssets += 1;
   }
 
-  const trainingImageResponse = await fetch(trainingImageUrl, { headers: { "User-Agent": userAgent } });
+  const trainingImageResponse = await fetch(trainingImageUrl, { signal: AbortSignal.timeout(30000), headers: { "User-Agent": userAgent } });
   if (!trainingImageResponse.ok) throw new Error(`Training image request failed for ${card.name}: ${trainingImageResponse.status}`);
   const trainingImageBuffer = Buffer.from(await trainingImageResponse.arrayBuffer());
   if (await writeFileIfChanged(trainingImagePath, withSourceComment(trainingImageBuffer, trainingImageSource, "readable card image"))) {
@@ -124,7 +134,6 @@ for (const card of cardRecords) {
   });
 }
 
-const collectorNumberOrder = new Intl.Collator("en", { numeric: true, sensitivity: "base" });
 cards.sort((left, right) => (
   collectorNumberOrder.compare(left.collectorNumber, right.collectorNumber)
   || left.name.localeCompare(right.name)
