@@ -23,6 +23,7 @@ node scripts/verify-data.mjs
 node scripts/verify-lifecycle.mjs
 node scripts/verify-prep.mjs
 node scripts/verify-memory.mjs
+node scripts/verify-archetype-study.mjs
 
 if ! git diff --quiet -- public/data.js public/sw.js; then
   echo "Generated public data is stale. Commit the rebuilt files before deploying." >&2

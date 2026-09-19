@@ -4265,7 +4265,7 @@ window.LIMITED_PREP_DATA = {
       "prereleaseDate": "2026-09-25",
       "arenaDate": "2026-09-29",
       "previewEndsOn": "2026-09-18",
-      "subtitle": "A live Echoverse dossier, expanding as preview season unfolds.",
+      "subtitle": "A complete Echoverse field guide for card recognition and Limited preparation.",
       "guideTitle": "Study what is known. Keep the unknown visible.",
       "guideBody": "Preview cards are indexed now. Rating training will unlock only when a complete, attributable Limited evaluation exists—so provisional information is never presented as settled advice.",
       "guideFacts": [
@@ -4281,7 +4281,7 @@ window.LIMITED_PREP_DATA = {
         "url": null
       },
       "cardSource": {
-        "label": "Scryfall preview index",
+        "label": "Scryfall card file",
         "url": "https://scryfall.com/sets/fra"
       },
       "officialUrl": "https://magic.wizards.com/en/products/reality-fracture/card-image-gallery",
@@ -4293,7 +4293,7 @@ window.LIMITED_PREP_DATA = {
         "version": 1,
         "set": "FRA",
         "status": "provisional",
-        "authoredAt": "2026-09-18",
+        "authoredAt": "2026-09-20",
         "official": {
           "label": "Wizards of the Coast set design guide",
           "url": "https://magic.wizards.com/en/news/feature/enter-the-echoverse-with-reality-fracture-design"
@@ -4723,6 +4723,12 @@ window.LIMITED_PREP_DATA = {
               "sealed": "Only choose this plan when the pool can attack on schedule; a few strong red-white rares will not turn a slow creature base into an aggro deck."
             }
           }
+        ],
+        "sources": [
+          {
+            "label": "Wizards: Reality Fracture Prerelease Guide",
+            "url": "https://magic.wizards.com/en/news/feature/reality-fracture-prerelease-guide"
+          }
         ]
       },
       "prep": {
@@ -4730,9 +4736,17 @@ window.LIMITED_PREP_DATA = {
         "set": "FRA",
         "status": "published",
         "publishedAt": "2026-09-18",
-        "authoredAt": "2026-09-19",
+        "authoredAt": "2026-09-20",
         "assessment": "Early card selections and deck-building advice are our assessment of the rules text, not measured performance. Revisit them as games and results arrive.",
         "sources": [
+          {
+            "label": "Wizards: Reality Fracture Prerelease Guide",
+            "url": "https://magic.wizards.com/en/news/feature/reality-fracture-prerelease-guide"
+          },
+          {
+            "label": "Wizards: Reality Fracture design",
+            "url": "https://magic.wizards.com/en/news/feature/enter-the-echoverse-with-reality-fracture-design"
+          },
           {
             "label": "Wizards: Reality Fracture mechanics",
             "url": "https://magic.wizards.com/en/news/feature/reality-fracture-mechanics"

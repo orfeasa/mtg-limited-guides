@@ -43,3 +43,9 @@ const incompleteRatings = structuredClone(hob);
 incompleteRatings.cards[0].tier = null;
 assert.equal(resolve(incompleteRatings, "2026-09-18").training, false);
 console.log("Verified preview, full reveal, release, rated, and incomplete-evidence lifecycle transitions.");
+
+const initialHtml = fs.readFileSync('public/index.html', 'utf8');
+assert(!/Five roads|expanding as preview season unfolds|>22<|>281</.test(initialHtml));
+assert(/id="training-view"[^>]*hidden/.test(initialHtml));
+assert(/data-view="training"[^>]*hidden/.test(initialHtml));
+console.log('Verified neutral initial set markup and hidden rating Training.');

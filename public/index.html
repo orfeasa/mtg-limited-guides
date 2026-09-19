@@ -10,7 +10,7 @@
     <link rel="icon" href="assets/icon-32.png" sizes="32x32" type="image/png">
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
     <link rel="manifest" href="manifest.webmanifest">
-    <link rel="stylesheet" href="styles.css?v=limited-prep-21">
+    <link rel="stylesheet" href="styles.css?v=limited-prep-22">
   </head>
   <body data-theme="fracture">
     <!--
@@ -39,8 +39,8 @@
             </g>
           </svg>
           <div>
-            <h1 id="product-name">Reality Fracture Field File</h1>
-            <p id="product-subtitle">A live Echoverse dossier, expanding as preview season unfolds.</p>
+            <h1 id="product-name">Limited Field Guides</h1>
+            <p id="product-subtitle">Learn the cards, understand the plans, and prepare for Limited.</p>
           </div>
         </div>
 
@@ -54,9 +54,9 @@
             <span>Share</span>
           </button>
           <div id="dataset-stamp" class="dataset-stamp">
-            <strong id="dataset-count">22</strong>
-            <span id="dataset-unit">revealed</span>
-            <span id="dataset-date">preview file</span>
+            <strong id="dataset-count"></strong>
+            <span id="dataset-unit"></span>
+            <span id="dataset-date"></span>
           </div>
         </div>
       </div>
@@ -74,7 +74,7 @@
     </header>
 
     <nav class="view-tabs" aria-label="Preparation views" role="tablist">
-      <button class="view-tab" type="button" role="tab" aria-selected="true" aria-controls="training-view" data-view="training">
+      <button class="view-tab" type="button" role="tab" aria-selected="true" aria-controls="training-view" data-view="training" hidden>
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h11l3 3v13H5zM8 9h8M8 13h8M8 17h5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
         <span>Training</span>
       </button>
@@ -102,7 +102,7 @@
       <section id="prep-view" class="view-panel" role="tabpanel" aria-label="Prerelease prep" hidden>
         <div id="prep-content" class="prep-page surface-page"></div>
       </section>
-      <section id="training-view" class="view-panel" role="tabpanel">
+      <section id="training-view" class="view-panel" role="tabpanel" hidden>
         <div class="trainer-stage training-page surface-page">
           <section aria-labelledby="trainer-title">
             <div class="trainer-toolbar">
@@ -165,8 +165,8 @@
         <div class="archetypes-page surface-page">
           <header class="archetypes-heading">
             <div>
-              <h2 id="archetypes-title">Five roads through the set</h2>
-              <p id="archetypes-copy">Official plans, tested against format-specific results. Learn what each deck needs before deciding whether your cards actually support it.</p>
+              <h2 id="archetypes-title">Colour-pair plans</h2>
+              <p id="archetypes-copy">Learn the authored plans and check the available evidence for each format.</p>
             </div>
             <div id="archetype-format-switch" class="archetype-format-switch" role="group" aria-label="Archetype format">
               <button type="button" data-archetype-format="draft" aria-pressed="true">Draft</button>
@@ -174,6 +174,8 @@
             </div>
           </header>
 
+          <button id="archetype-study-toggle" type="button" class="secondary-action" aria-pressed="false" aria-controls="archetype-study-content">Study archetypes</button>
+          <section id="archetype-study-content" class="archetype-study" aria-label="Archetype recall" hidden></section>
           <section class="format-field-note" aria-labelledby="format-headline">
             <div class="format-field-copy">
               <h3 id="format-headline"></h3>
@@ -193,6 +195,7 @@
             <p id="archetype-evidence-note">Intended plans and observed results are separate evidence. Win rates describe games recorded by 17Lands users; compare pairs within one format rather than treating the number as your expected result.</p>
             <div class="archetype-source-links">
               <a id="archetype-official-source" href="#" target="_blank" rel="noreferrer">Official archetype guide</a>
+              <span id="archetype-additional-sources"></span>
               <a id="archetype-data-source" href="#" target="_blank" rel="noreferrer">Format data</a>
             </div>
           </footer>
@@ -371,11 +374,12 @@
         </div>
       </div>
     </dialog>
-    <noscript><p class="noscript">This preparation tool requires JavaScript.</p></noscript>
-    <script src="data.js?v=limited-prep-15"></script>
+    <noscript><p class="noscript">Enable JavaScript to choose a set, study its cards and archetypes, and save preparation progress on this browser.</p></noscript>
+    <script src="data.js?v=limited-prep-16"></script>
     <script src="lifecycle.js?v=5"></script>
-    <script src="prep.js?v=2"></script>
-    <script src="memory.js?v=2"></script>
-    <script src="app.js?v=limited-prep-28"></script>
+    <script src="prep.js?v=3"></script>
+    <script src="memory.js?v=3"></script>
+    <script src="archetype-study.js?v=1"></script>
+    <script src="app.js?v=limited-prep-29"></script>
   </body>
 </html>

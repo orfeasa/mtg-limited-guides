@@ -4181,3 +4181,32 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
   .memory-stage { grid-template-columns: 1fr; gap: 12px; }
   .memory-stage > div:first-child { width: min(100%, 250px); margin-inline: auto; }
 }
+
+/* Study controls reuse the guide's native controls and ruled reading layout. */
+.prep-study-path { margin-block: 24px; padding-block: 20px; border-block: 1px solid var(--line); }
+.prep-study-path h3 { margin: 0 0 12px; }
+.prep-study-path ol { display: flex; flex-wrap: wrap; gap: 12px 36px; padding-left: 24px; margin: 0; }
+.prep-study-path li { padding-left: 4px; }
+.prep-study-path li::marker { font-weight: 700; }
+.prep-study-path a, .prep-study-link { color: var(--accent-dark); text-underline-offset: 4px; display: inline-block; padding-block: 10px; }
+.study-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-block: 20px; }
+.study-controls label { font-weight: 700; }
+.study-controls select { max-width: 100%; min-height: 44px; padding: 10px 32px 10px 12px; font: inherit; color: var(--ink); background: var(--surface-light); border: 1px solid var(--line); border-radius: 3px; }
+.archetype-study { margin-block: 24px; border-block: 1px solid var(--line); padding-block: 8px 24px; }
+.archetype-study p, .study-answer ol { max-width: 70ch; }
+.study-prompt { margin-top: 24px; }
+.study-answer { margin-block: 24px; }
+.study-answer li { margin-block: 8px; }
+.study-answer .archetype-signpost-grid { max-width: 480px; }
+.study-actions { display: flex; gap: 12px; margin-block: 24px; }
+.study-status, .memory-context { font-weight: 700; }
+.memory-context { border-top: 1px solid var(--line); padding-top: 16px; }
+.memory-interaction { line-height: 1.6; }
+@media (max-width: 700px) {
+  .prep-study-path ol { display: block; }
+  .study-controls { display: grid; grid-template-columns: 1fr; gap: 8px; }
+  .study-controls select + label { margin-top: 8px; }
+}
+
+.archetype-study button, #archetype-study-toggle, .memory-page button { min-height: 44px; }
+.study-prompt, .study-answer, .memory-prompt { scroll-margin-top: calc(var(--tab-height) + 24px); }

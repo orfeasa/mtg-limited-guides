@@ -5,6 +5,7 @@ A set-by-set Magic: The Gathering Limited preparation tool. Each set keeps its o
 ## What it does
 
 - Card rating training with browser-local progress
+- Archetype recall in both directions and Card memory study sets, including essentials, interactions and repeatedly missed cards
 - Official archetype plans interpreted against separate Premier Draft and Sealed observations
 - Full-pack draft decisions that capture your independent pick and reason before revealing the historical line, statistical baseline, and an authored takeaway
 - A complete card index grouped by colour or, for rated sets, exact tier, with in-place card magnification
@@ -18,7 +19,7 @@ Preparation progress stays only in the current browser through `localStorage`, i
 The current guides are:
 
 - **The Hobbit** — five official archetype plans with separate Draft and Sealed field data, a complete 188-card observed Premier Draft ranking refreshed from 750,000 matches, and 18 real draft decisions from a public 17Lands 7–2 replay.
-- **Reality Fracture** — live preview file with unrated card reading and browsing; rating training will become available only after a complete evaluation is captured.
+- **Reality Fracture** — complete card file with Sealed prerelease preparation, active archetype recall, filtered Card memory and an interaction watchlist; rating training remains unavailable until a complete attributable evaluation is captured.
 
 ## Run locally
 
@@ -47,6 +48,10 @@ The former `hobbit.orfeasa.com` hostname is retired rather than redirected. Brow
 ```sh
 node scripts/build-data.mjs
 node scripts/verify-data.mjs
+node scripts/verify-lifecycle.mjs
+node scripts/verify-prep.mjs
+node scripts/verify-memory.mjs
+node scripts/verify-archetype-study.mjs
 ```
 
 `scripts/build-data.mjs` regenerates `public/data.js` and the service-worker asset list from the captured JSON source files in `data/`.

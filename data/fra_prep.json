@@ -3,9 +3,11 @@
   "set": "FRA",
   "status": "published",
   "publishedAt": "2026-09-18",
-  "authoredAt": "2026-09-19",
+  "authoredAt": "2026-09-20",
   "assessment": "Early card selections and deck-building advice are our assessment of the rules text, not measured performance. Revisit them as games and results arrive.",
   "sources": [
+    {"label": "Wizards: Reality Fracture Prerelease Guide", "url": "https://magic.wizards.com/en/news/feature/reality-fracture-prerelease-guide"},
+    {"label": "Wizards: Reality Fracture design", "url": "https://magic.wizards.com/en/news/feature/enter-the-echoverse-with-reality-fracture-design"},
     {"label": "Wizards: Reality Fracture mechanics", "url": "https://magic.wizards.com/en/news/feature/reality-fracture-mechanics"},
     {"label": "Official card gallery", "url": "https://magic.wizards.com/en/products/reality-fracture/card-image-gallery"},
     {"label": "Sealed Deck basics", "url": "https://magic.wizards.com/en/formats/sealed-deck"}

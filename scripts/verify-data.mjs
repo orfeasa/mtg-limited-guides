@@ -57,6 +57,10 @@ for (const set of data.sets) {
     if (set.archetypes.authoredAt && Number.isNaN(Date.parse(set.archetypes.authoredAt))) {
       throw new Error(`Invalid archetype authored date for ${set.id}`);
     }
+    if (set.archetypes.sources !== undefined && (!Array.isArray(set.archetypes.sources)
+      || set.archetypes.sources.some(source => !source.label || !/^https:\/\//.test(source.url)))) {
+      throw new Error(`Invalid additional archetype sources for ${set.id}`);
+    }
     const archetypeIds = new Set();
     for (const archetype of set.archetypes.archetypes) {
       if (!/^[WUBRG]{2}$/.test(archetype.id) || archetypeIds.has(archetype.id)) throw new Error(`Invalid archetype ID in ${set.id}: ${archetype.id}`);

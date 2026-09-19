@@ -2,7 +2,7 @@
   "version": 1,
   "set": "FRA",
   "status": "provisional",
-  "authoredAt": "2026-09-18",
+  "authoredAt": "2026-09-20",
   "official": {
     "label": "Wizards of the Coast set design guide",
     "url": "https://magic.wizards.com/en/news/feature/enter-the-echoverse-with-reality-fracture-design"
@@ -291,6 +291,12 @@
         "draft": "Aggro depends on density. Prioritise the curve and efficient pressure before expensive cards that merely share the colours.",
         "sealed": "Only choose this plan when the pool can attack on schedule; a few strong red-white rares will not turn a slow creature base into an aggro deck."
       }
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wizards: Reality Fracture Prerelease Guide",
+      "url": "https://magic.wizards.com/en/news/feature/reality-fracture-prerelease-guide"
     }
   ]
 }

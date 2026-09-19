@@ -186,6 +186,24 @@
   let atlasGrouping = params.get("group") === "tier" ? "tier" : "colour";
   let archetypeFormat = params.get("format") === "sealed" ? "sealed" : "draft";
   let prepFormat = "sealed";
+  let archetypeStudy = false;
+  let memoryStudySet = "all";
+  let memoryColour = "all";
+  function mountMemory() {
+    const selection = window.CARD_MEMORY.mount($("#memory-content"), lifecycle().memory ? { ...currentSet, prep: lifecycle().prep ? currentSet.prep : null, archetypes: lifecycle().archetypes ? currentSet.archetypes : null } : null, {
+      studySet: memoryStudySet, colour: memoryColour,
+      changed: (next) => { memoryStudySet = next.studySet; memoryColour = next.colour; updateUrl(); },
+    });
+    if (selection) { memoryStudySet = selection.studySet; memoryColour = selection.colour; }
+  }
+  function renderArchetypeStudy() {
+    $("#archetype-study-toggle").setAttribute("aria-pressed", String(archetypeStudy));
+    $("#archetype-study-toggle").textContent = archetypeStudy ? "Back to reference" : "Study archetypes";
+    $("#archetype-study-content").hidden = !archetypeStudy;
+    elements.archetypeNavigation.hidden = archetypeStudy;
+    elements.archetypeList.hidden = archetypeStudy;
+    if (archetypeStudy) window.ARCHETYPE_STUDY.mount($("#archetype-study-content"), currentSet, { format: archetypeFormat, openCard: openCardPreview });
+  }
   const prepGuide = window.LIMITED_PREP_GUIDE.create(document.querySelector("#prep-content"), {
     openCard: (id) => openCardPreview(id),
     formatChanged: (format) => { prepFormat = format; updateUrl(); },
@@ -362,13 +380,20 @@
       url.searchParams.delete("decision");
     }
     if (currentView === "archetypes" && archetypesAvailable()) url.searchParams.set("format", archetypeFormat);
-    else if (currentView === "prep") url.searchParams.set("format", prepFormat);
+    else if (["prep", "memory"].includes(currentView)) url.searchParams.set("format", prepFormat);
     else url.searchParams.delete("format");
     if (currentView === "atlas" && previewCatchupAvailable() && atlasSince) url.searchParams.set("since", atlasSince);
     else url.searchParams.delete("since");
     if (currentView === "atlas" && ratingIsAvailable() && atlasGrouping === "tier") url.searchParams.set("group", "tier");
     else url.searchParams.delete("group");
-    url.hash = "";
+    if (currentView === "archetypes" && archetypeStudy) url.searchParams.set("study", "1");
+    else url.searchParams.delete("study");
+    if (currentView === "memory") {
+      url.searchParams.set("studySet", memoryStudySet);
+      if (memoryColour !== "all") url.searchParams.set("colour", memoryColour);
+      else url.searchParams.delete("colour");
+    } else { url.searchParams.delete("studySet"); url.searchParams.delete("colour"); }
+    if (currentView !== "prep" || !["#prep-play-around", "#prep-checklist", "#prep-practice", "#prep-mechanics", "#prep-cards", "#prep-colours"].includes(url.hash)) url.hash = "";
     history[replace ? "replaceState" : "pushState"](null, "", url);
   }
 
@@ -491,7 +516,7 @@
       elements.footerRefreshed.textContent = `Guide reviewed ${dateLabel(currentSet.prep.authoredAt)}`;
       elements.footerSource.textContent = "Rules references and editorial preparation notes";
       elements.sourceLink.href = currentSet.prep.sources[0].url;
-      elements.sourceLink.textContent = "Read the mechanics";
+      elements.sourceLink.textContent = "Read the preparation sources";
       return;
     }
     const refreshedAt = currentView === "archetypes" && archetypesAvailable()
@@ -688,6 +713,7 @@
     if (!archetypesAvailable()) return;
     const format = archetypeFormatData();
     if (!format) return;
+    renderArchetypeStudy();
     const observed = format.observed || { status: "pending", pairs: [] };
     const observationsAvailable = observed.status === "available" && observed.pairs.length > 0;
     elements.formatLeader.closest("dl").hidden = !observationsAvailable;
@@ -709,6 +735,7 @@
     elements.formatSample.innerHTML = observationsAvailable
       ? `<strong>${numberFormatter.format(observed.twoColourGames)}</strong><span>games in snapshot</span>`
       : "<strong>Pending</strong><span>after Arena play begins</span>";
+    $("#archetype-additional-sources").innerHTML = (currentSet.archetypes.sources || []).map(source => `<a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.label)}</a>`).join(" ");
     elements.archetypeOfficialSource.href = currentSet.archetypes.official.url;
     elements.archetypeOfficialSource.textContent = "View official archetype map";
     elements.archetypeDataSource.href = format.source.url;
@@ -1267,6 +1294,10 @@
   }
 
   function activateView(view, { focus = false, updateHistory = true } = {}) {
+    if (view === "archetypes" && currentView === "prep" && archetypesAvailable()) {
+      archetypeFormat = prepFormat === "draft" ? "draft" : "sealed";
+      renderArchetypes();
+    }
     currentView = lifecycle().views.includes(view) ? view : lifecycle().defaultView;
     views.forEach((panel, id) => { panel.hidden = id !== currentView; });
     viewTabs.forEach((tab) => {
@@ -1294,6 +1325,9 @@
     prepFormat = requestedFormat === "2hg" && currentSet.prep?.twoHeadedGiant ? "2hg" : requestedFormat === "draft" ? "draft" : "sealed";
     if (requestedFormat && currentSet.archetypes?.formats?.[requestedFormat]) archetypeFormat = requestedFormat;
     else if (!currentSet.archetypes?.formats?.[archetypeFormat]) archetypeFormat = "draft";
+    archetypeStudy = useRouteState && routeParams.get("study") === "1";
+    memoryStudySet = useRouteState ? routeParams.get("studySet") || "all" : "all";
+    memoryColour = useRouteState ? routeParams.get("colour") || "all" : "all";
     atlasSince = useRouteState ? routeParams.get("since") || "" : "";
     atlasGrouping = useRouteState && routeParams.get("group") === "tier" && ratingIsAvailable()
       ? "tier"
@@ -1320,7 +1354,7 @@
     renderTrainer();
     renderArchetypes();
     prepGuide.render(lifecycle().prep ? currentSet : null, prepFormat);
-    window.CARD_MEMORY.mount(document.querySelector("#memory-content"), lifecycle().memory ? currentSet : null);
+    mountMemory();
     renderDecision();
     renderAtlas();
     activateView(currentView, { updateHistory: false });
@@ -1352,6 +1386,9 @@
     if (button) answerTrainer(button.dataset.grade);
   });
   elements.revealCard.addEventListener("click", () => answerTrainer(null));
+  $("#archetype-study-toggle").addEventListener("click", () => {
+    archetypeStudy = !archetypeStudy; renderArchetypeStudy(); updateUrl();
+  });
   elements.archetypeFormatSwitch.addEventListener("click", (event) => {
     const button = event.target.closest("[data-archetype-format]");
     if (!button || !currentSet.archetypes?.formats?.[button.dataset.archetypeFormat]) return;
@@ -1517,6 +1554,7 @@
 
   selectSet(currentSet.id, { updateHistory: false });
   updateUrl();
+  if (currentView === "prep" && location.hash) document.querySelector(location.hash)?.scrollIntoView({ block: "start" });
 
   if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
     window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js", { updateViaCache: "none" }).catch(() => {}));

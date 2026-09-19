@@ -73,3 +73,6 @@ Each format has its own source context, guidance, and `observed` snapshot. The s
 ## Refresh policy
 
 Refresh observations when the format has materially more play, after a balance or collation change, or before an event where stale guidance would be misleading. The captured timestamp must travel with the data. If one format is unavailable, keep that format visibly pending rather than copying the other format's results or inventing a conclusion.
+
+
+Additional official references may be retained in an archetype file's optional `sources` array (`label`, HTTPS `url`). These supplement `official`; they do not replace the original attribution or turn editorial signpost choices into the publisher's exact pictured-card list. The shared Archetypes view links both. Active recall uses the existing name, mechanic, plan, priorities, format notes and signposts, without authoring another question bank or ranking the plans.

@@ -51,7 +51,7 @@ Used in the days before a prerelease or draft, alone or with friends. A player m
 ## Evidence on Hand
 
 - The Hobbit: five official archetype plans from the Wizards prerelease guide; separate 17Lands Premier Draft and Sealed two-colour observations captured on 8 September 2026; verified 188-card pick-order and performance snapshots captured from Untapped.gg on 17 September 2026 across 750,000 matches; matching local thumbnail/readable image pairs; and 18 real pack-and-pool states from a public 17Lands 7–2 Premier Draft replay.
-- Reality Fracture: complete 281-card Scryfall preview index and local thumbnail/readable image pairs; Wizards' official ten-pair Draft map with authored signposts and separate Draft/Sealed preparation notes; no invented Limited ratings or observed archetype results.
+- Reality Fracture: complete Scryfall card file and local thumbnail/readable image pairs; Wizards' official ten-pair Draft map with authored signposts and separate Draft/Sealed preparation notes; no invented Limited ratings or observed archetype results.
 - Official Reality Fracture release milestones and Play Booster notes captured in set metadata.
 
 ## Product Principles
@@ -68,6 +68,12 @@ Used in the days before a prerelease or draft, alone or with friends. A player m
 
 Keyboard-operable controls, visible focus states, semantic status updates, sufficient contrast, reduced-motion support, and touch targets suitable for mobile drafting.
 
-## Card memory trial
+## Prerelease study
 
-A separate Card memory tab extends the existing paper/ink surface for complete sets with imported rules text. Match visible name and artwork to one of three rules-text answers; reveal the full card, requeue misses, and finish a saved run of all nonbasic cards. Ratings training and its progress remain separate. Use the existing responsive shell and native buttons; no new visual theme or raster assets.
+A separate Card memory tab extends the existing paper/ink surface for complete sets with imported rules text. Match visible name and artwork to one of three rules-text answers; reveal the full card, requeue misses, and finish a saved run of a selected study set. Ratings training and its progress remain separate. Use the existing responsive shell and native buttons; no new visual theme or raster assets.
+
+The recommended preparation order is Archetypes → Card memory → What to play around → Deck checklist / quick practice. Prep links preserve the set and format; Sealed is the default for normal prerelease preparation. All cards stays a browser.
+
+Archetype study offers colours-to-plan and theme-to-colours recall, reveals the authored plan, priorities and signposts, and lets players mark Got it or Again. Progress is local per set, content and direction; misses return after up to three questions. This is self-assessment, never an archetype ranking.
+
+Card memory supports Prerelease essentials (the union of key cards, interaction watchlist and signposts), Commons & uncommons (rarity), Interactions, All cards and Weak cards, intersected with a colour filter. Only revealed answers show authored signpost/role labels and interaction costs/restrictions. Lightweight per-card attempts and misses persist per set. Weak cards means at least two lifetime misses, with fixed membership for each run; this is not spaced repetition. Rating Training and Hobbit evidence gates remain unchanged.
