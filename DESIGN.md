@@ -576,3 +576,5 @@ Shared components keep behavior, semantics, target sizes, and information order 
 ## Card memory trial
 
 A separate Card memory tab extends the existing paper/ink surface for complete sets with imported rules text. Match visible name and artwork to one of three rules-text answers; reveal the full card, requeue misses, and finish a saved run of all nonbasic cards. Ratings training and its progress remain separate. Use the existing responsive shell and native buttons; no new visual theme or raster assets.
+
+Card memory preserves the full card silhouette, artwork, type line, and printed power/toughness or starting loyalty. Opaque text-box masks use separate standard, planeswalker, and prepared-spell geometry; answering removes them. Mobile retains the full image rather than cropping it.

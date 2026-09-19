@@ -85,8 +85,16 @@
         const stage = el("div", null, "memory-stage");
         const figure = el("div");
         const frame = el("div", null, `memory-image${state.revealed ? " is-revealed" : ""}`);
-        const img = el("img"); img.src = card.trainingImage || card.image; img.alt = `${card.name} — ${state.revealed ? "complete card" : "name and artwork; rules hidden"}`;
-        frame.append(img); figure.append(frame, el("h3", card.name));
+        frame.dataset.layout = card.name.includes(" // ") ? "prepared" : card.typeLine.includes("Planeswalker") ? "planeswalker" : "standard";
+        frame.dataset.hasStats = String(/Creature|Planeswalker|Vehicle/.test(card.typeLine));
+        const img = el("img"); img.src = card.trainingImage || card.image; img.alt = `${card.name} — ${state.revealed ? "complete card" : "name, artwork, type and stats visible; rules hidden"}`;
+        frame.append(img);
+        if (!state.revealed) {
+          const mask = el("span", "Rules text hidden", "memory-rules-mask");
+          frame.append(mask);
+          if (frame.dataset.layout === "prepared") frame.append(el("span", null, "memory-spell-mask"));
+        }
+        figure.append(frame, el("h3", card.name));
         const quiz = el("div", null, "memory-quiz");
         quiz.append(el("h3", "Which rules text belongs to this card?"));
         const answers = el("div", null, "memory-options");
