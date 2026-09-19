@@ -34,3 +34,11 @@ Checklists and answers are local only, isolated by set, guide version/review dat
 5. Bump changed browser asset query versions, including generated data. Follow AGENTS.md for delivery and verify the live site separately.
 
 Reviewed sample pools, a Sealed simulator, and subjective deck-choice exercises are future work. They need authentic or clearly labelled synthetic pools, documented collation assumptions, and reviewed explanations; they are not implied by this guide.
+
+## Two-Headed Giant
+
+An optional `twoHeadedGiant` object adds one preparation format button beside Sealed and Draft (`format=2hg`), without new top-level navigation or subtabs. It contains `intro`, HTTPS `sources`, `rules` (stable ID, title, text), `cards` (exact card name and note), `checklist`, and objective `exercises` using the existing exercise shape. All collections are validated before publication. Keep `publishedAt` as the original publication date and advance `authoredAt` when reviewing a revision. Omit the object for sets without reviewed team content.
+
+Team progress has its own format namespace. Explain shared life versus individual players, mulligans, combined combat, targeting and controller-specific effects. Review each card against its full text, include relevant scenario assumptions, and distinguish strategic advice from rules. No 2HG rankings or observed results are implied.
+
+Verified the first FRA team guide on 19 September 2026: five rules essentials, seven card notes, seven checklist items and five exercises. Build/data/lifecycle checks and 13 negative schema cases passed. Browser checks covered the direct team link, Sealed/Draft switching and isolated progress, reload persistence, wrong/correct answers and retries, checklist-only reset, card enlargement/Escape/focus return, mobile layout at 390 CSS pixels, desktop layout, and Hobbit Training. Independent visual review: ship; opening viewport screenshots and lower-section source reviewed. Existing design tokens and components are retained.

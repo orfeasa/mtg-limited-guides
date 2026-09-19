@@ -185,7 +185,7 @@
   let atlasSince = "";
   let atlasGrouping = params.get("group") === "tier" ? "tier" : "colour";
   let archetypeFormat = params.get("format") === "sealed" ? "sealed" : "draft";
-  let prepFormat = params.get("format") === "draft" ? "draft" : "sealed";
+  let prepFormat = "sealed";
   const prepGuide = window.LIMITED_PREP_GUIDE.create(document.querySelector("#prep-content"), {
     openCard: (id) => openCardPreview(id),
     formatChanged: (format) => { prepFormat = format; updateUrl(); },
@@ -1290,7 +1290,7 @@
     cardById = new Map(cards.map((card) => [card.id, card]));
     if (!useRouteState) currentView = lifecycle().defaultView;
     const requestedFormat = useRouteState ? routeParams.get("format") : null;
-    prepFormat = requestedFormat === "draft" ? "draft" : "sealed";
+    prepFormat = requestedFormat === "2hg" && currentSet.prep?.twoHeadedGiant ? "2hg" : requestedFormat === "draft" ? "draft" : "sealed";
     if (requestedFormat && currentSet.archetypes?.formats?.[requestedFormat]) archetypeFormat = requestedFormat;
     else if (!currentSet.archetypes?.formats?.[archetypeFormat]) archetypeFormat = "draft";
     atlasSince = useRouteState ? routeParams.get("since") || "" : "";

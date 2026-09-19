@@ -4730,7 +4730,7 @@ window.LIMITED_PREP_DATA = {
         "set": "FRA",
         "status": "published",
         "publishedAt": "2026-09-18",
-        "authoredAt": "2026-09-18",
+        "authoredAt": "2026-09-19",
         "assessment": "Early card selections and deck-building advice are our assessment of the rules text, not measured performance. Revisit them as games and results arrive.",
         "sources": [
           {
@@ -4957,7 +4957,7 @@ window.LIMITED_PREP_DATA = {
           {
             "card": "Prudent Fateseer // Peer Review",
             "role": "engines",
-            "why": "Turns scrying or surveilling into a team attack boost; its prepared spell supplies a token and surveil.",
+            "why": "Turns scrying or surveilling into an attack boost for your creatures; its prepared spell supplies a token and surveil.",
             "watch": "Needs creatures to attack with and repeatable ways to trigger it. The boost triggers only once each turn."
           },
           {
@@ -5136,7 +5136,177 @@ window.LIMITED_PREP_DATA = {
               "Hungering Puppetbeast"
             ]
           }
-        ]
+        ],
+        "twoHeadedGiant": {
+          "intro": "Playing a Two-Headed Giant prerelease? Build two decks from your shared pool, then plan each turn together. Start with these team rules and the Reality Fracture cards whose wording changes your decisions.",
+          "sources": [
+            {
+              "label": "Wizards: Two-Headed Giant",
+              "url": "https://magic.wizards.com/en/formats/two-headed-giant"
+            },
+            {
+              "label": "Comprehensive Rules: 103.5c, 805 and 810",
+              "url": "https://magic.wizards.com/en/rules"
+            }
+          ],
+          "rules": [
+            {
+              "id": "shared-turn",
+              "title": "One life total, two players",
+              "text": "Your team starts at 30 life and takes its turns together. Hands, mana, libraries, graveyards and control of permanents stay separate. You can discuss your hands and plans, but cannot spend your partner’s mana or activate their permanents."
+            },
+            {
+              "id": "opening",
+              "title": "A free first mulligan for each player",
+              "text": "Each player’s first mulligan does not reduce their hand size. Decide keeps together: check what each hand contributes. The starting team skips its first draw step, so neither player on that team draws then."
+            },
+            {
+              "id": "wording",
+              "title": "Read “each opponent” and “you” literally",
+              "text": "You have two opponents. An effect dealing 1 damage to each opponent normally reduces their team’s life by 2. “You gain 1 life” adds only 1 to your team’s total. Your partner gaining life does not mean you gained life for your own triggers."
+            },
+            {
+              "id": "combat",
+              "title": "Plan one combat together",
+              "text": "Declare your team’s attackers together and specify which opponent or planeswalker each attacks. Either defending player’s creatures can block attackers aimed at their teammate, subject to normal blocking restrictions. Talk through removal and tricks before declaring attacks; check both opponents’ available mana."
+            },
+            {
+              "id": "ownership",
+              "title": "Your partner’s board is not yours",
+              "text": "“Target creature” can include your partner’s creature if it is otherwise a legal target. “Target creature you control” cannot. Empower uses your Jace tokens, threshold counts your graveyard, and a bonus to creatures you control does not boost your partner’s army."
+            }
+          ],
+          "cards": [
+            {
+              "card": "Extended Absence",
+              "note": "With a legal target when it resolves and no prevention or replacement effects, it exiles one creature or planeswalker, deals 1 to each opponent (2 off their team total), and gains you 1 life. The life gain is not doubled."
+            },
+            {
+              "card": "Rank Rat",
+              "note": "Its entry trigger makes each opponent discard one card. That can take two cards from the opposing team, but an opponent with an empty hand cannot discard."
+            },
+            {
+              "card": "Screeching Soulbreaker",
+              "note": "Its attack trigger deals 1 to each opponent and gains you 1 life even if it is later blocked. Count that separately from combat damage; prevention can still change the result."
+            },
+            {
+              "card": "Academic Ascent",
+              "note": "Can give your partner’s creature +2/+2 and flying. You still empower your own Jace token, not theirs. Agree on the attack before spending the trick."
+            },
+            {
+              "card": "Vigorbloom Charm",
+              "note": "Its protection target and your fighter must be permanents or creatures you control. It cannot protect your partner’s creature or use that creature as your fighter."
+            },
+            {
+              "card": "Prudent Fateseer // Peer Review",
+              "note": "Your scry or surveil triggers its bonus once each turn, affecting only creatures you control. Your partner’s surveil does not trigger it and their attackers do not receive the bonus."
+            },
+            {
+              "card": "Garruk, Veiled Butcher",
+              "note": "The −2 makes every player sacrifice a creature, including your partner. Only you create the Beast, and only if you sacrificed a creature this way. Discuss your partner’s loss before activating."
+            }
+          ],
+          "checklist": [
+            {
+              "id": "pool",
+              "text": "We pooled our cards and compared two complete decks before allocating the strongest cards. Each deck has at least 40 cards; aiming for 40 is advice, not an upper limit."
+            },
+            {
+              "id": "mana",
+              "text": "We checked each deck’s curve, coloured sources and early plays separately. Around 17 lands per 40-card deck is a starting point, adjusted for its needs."
+            },
+            {
+              "id": "plans",
+              "text": "We can explain how both decks contribute to winning. We have not forced an aggro/control split or put every expensive threat in one deck."
+            },
+            {
+              "id": "support",
+              "text": "We kept each engine with its enablers: our graveyards, artifacts, Jace tokens and “you control” payoffs are not shared."
+            },
+            {
+              "id": "answers",
+              "text": "We allocated removal and fixing deliberately, and know which answers or tricks can help the other player’s board."
+            },
+            {
+              "id": "communicate",
+              "text": "We will discuss keeps, mana to leave open, attacks and blocks before committing. We know which effects also hit our teammate."
+            },
+            {
+              "id": "ready",
+              "text": "We have a shared life tracker, separate tokens and loyalty counters, and have checked the organiser’s pool contents and round rules."
+            }
+          ],
+          "exercises": [
+            {
+              "id": "team-drain",
+              "question": "Both teams are at 30. Your Extended Absence resolves with a legal target. No effects change damage or life gain. What are the new life totals?",
+              "options": [
+                "Your team 31; opposing team 28",
+                "Your team 32; opposing team 28",
+                "Your team 31; opposing team 29"
+              ],
+              "answer": 0,
+              "explanation": "Each opponent takes 1 damage, reducing their shared total by 2. Only you gain 1 life, adding 1 to your team total.",
+              "cards": [
+                "Extended Absence"
+              ]
+            },
+            {
+              "id": "team-target",
+              "question": "Your partner controls a creature with no targeting restrictions. Can your Academic Ascent target it?",
+              "options": [
+                "No, only your creatures",
+                "Yes; you empower your own Jace",
+                "Yes; your partner also gets the empower"
+              ],
+              "answer": 1,
+              "explanation": "The target says “creature”, without “you control”. The spell’s controller still performs empower using their own Jace tokens.",
+              "cards": [
+                "Academic Ascent"
+              ]
+            },
+            {
+              "id": "team-protect",
+              "question": "An opponent targets your partner’s creature with removal. Can your Vigorbloom Charm’s protection mode target that creature?",
+              "options": [
+                "Yes, because you share a turn",
+                "No, you do not control it"
+              ],
+              "answer": 1,
+              "explanation": "The protection mode requires a permanent you control. Being teammates does not share control of permanents.",
+              "cards": [
+                "Vigorbloom Charm"
+              ]
+            },
+            {
+              "id": "team-block",
+              "question": "A ground creature attacks your partner. You control an untapped Rank Rat. No effects restrict blocking. Can your Rat block that attacker?",
+              "options": [
+                "Yes",
+                "No, only your partner can block"
+              ],
+              "answer": 0,
+              "explanation": "The defending team blocks together. Your creatures can block attackers aimed at your teammate when normal blocking requirements are met.",
+              "cards": [
+                "Rank Rat"
+              ]
+            },
+            {
+              "id": "team-surveil",
+              "question": "You control Prudent Fateseer. Only your partner surveils, and nothing else relevant happens. Does your Fateseer trigger?",
+              "options": [
+                "Yes, and it boosts both armies",
+                "Yes, but only your creatures",
+                "No"
+              ],
+              "answer": 2,
+              "explanation": "Its trigger says “you scry or surveil”. Your partner is a different player. Even when you trigger it yourself, only creatures you control get the bonus.",
+              "cards": [
+                "Prudent Fateseer // Peer Review"
+              ]
+            }
+          ]
+        }
       },
       "cards": [
         {

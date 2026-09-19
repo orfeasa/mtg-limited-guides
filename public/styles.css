@@ -4147,3 +4147,10 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
     animation-iteration-count: 1 !important;
   }
 }
+
+/* The team guide is one additional preparation format, with no nested tabs. */
+.prep-heading { flex-wrap: wrap; }
+.prep-format-switch { display: flex; flex-wrap: wrap; max-width: 100%; }
+.prep-format-switch button { flex: 1 1 auto; padding-inline: 12px; }
+.prep-team-rules article { padding: 18px 0; border-bottom: 1px solid var(--line); }
+.prep-team-rules p { max-width: 72ch; margin-bottom: 0; }

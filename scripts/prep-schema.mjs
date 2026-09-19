@@ -12,7 +12,7 @@ export function validatePrep(guide, set) {
   check(guide.version === 1 && guide.set === set.code, "wrong version or set");
   check(["draft", "published"].includes(guide.status), "invalid publication status");
   check(date(guide.authoredAt), "invalid authoring date");
-  if (guide.status === "published") check(date(guide.publishedAt) && guide.publishedAt >= guide.authoredAt, "invalid publication date");
+  if (guide.status === "published") check(date(guide.publishedAt), "invalid publication date");
   check(prose(guide.assessment), "missing editorial boundary");
   check(guide.sources?.length > 0 && guide.sources.every((s) => prose(s.label) && /^https:\/\//.test(s.url)), "missing sources");
   for (const format of ["sealed", "draft"]) {
@@ -47,5 +47,24 @@ export function validatePrep(guide, set) {
     check(Number.isInteger(q.answer) && q.answer >= 0 && q.answer < q.options.length, "invalid answer");
     check(q.cards?.length > 0, "exercise missing card references");
     q.cards.forEach(ref);
+  }
+  if (guide.twoHeadedGiant !== undefined) {
+    const team = guide.twoHeadedGiant;
+    check(team && prose(team.intro), "missing team introduction");
+    check(team.sources?.length > 0 && team.sources.every((s) => prose(s.label) && /^https:\/\//.test(s.url)), "missing team sources");
+    for (const collection of ["rules", "checklist", "exercises"]) {
+      const items = team[collection];
+      check(Array.isArray(items) && items.length > 0 && unique(items, "id") && items.every((item) => /^[a-z0-9-]+$/.test(item.id)), `invalid team ${collection} IDs`);
+    }
+    check(team.rules.every((r) => prose(r.title) && prose(r.text)), "incomplete team rule");
+    check(team.cards?.length > 0 && unique(team.cards, "card"), "invalid team cards");
+    for (const item of team.cards) { ref(item.card); check(prose(item.note), "missing team card note"); }
+    check(team.checklist.every((item) => prose(item.text)), "empty team checklist text");
+    for (const q of team.exercises) {
+      check(prose(q.question) && prose(q.explanation) && q.options?.length >= 2 && q.options.every(prose) && new Set(q.options).size === q.options.length, "incomplete team exercise");
+      check(Number.isInteger(q.answer) && q.answer >= 0 && q.answer < q.options.length, "invalid team answer");
+      check(q.cards?.length > 0, "team exercise missing card references");
+      q.cards.forEach(ref);
+    }
   }
 }
