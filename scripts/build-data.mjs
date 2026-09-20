@@ -219,8 +219,12 @@ const ASSETS = ${JSON.stringify(cacheFiles, null, 2)};
 const fetchAndCache = async (request) => {
   const response = await fetch(request);
   if (response.ok) {
-    const cache = await caches.open(CACHE);
-    await cache.put(request, response.clone());
+    try {
+      const cache = await caches.open(CACHE);
+      await cache.put(request, response.clone());
+    } catch {
+      // Offline storage is optional; always deliver a successful network response.
+    }
   }
   return response;
 };
@@ -228,7 +232,9 @@ const fetchAndCache = async (request) => {
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(
     ASSETS.map((asset) => new Request(asset, { cache: "reload" }))
-  )));
+  )).catch(() => {
+    // Allow the updated worker to activate even when offline storage is full.
+  }));
   self.skipWaiting();
 });
 
@@ -258,7 +264,8 @@ self.addEventListener("fetch", (event) => {
   }
 
   event.respondWith(
-    caches.match(event.request).then((cached) => cached || fetchAndCache(event.request))
+    caches.match(event.request).catch(() => undefined)
+      .then((cached) => cached || fetchAndCache(event.request))
   );
 });
 `;
