@@ -178,7 +178,9 @@
         const answers = el("div", null, "memory-options");
         for (const option of state.options) {
           const choice = button(option, () => answer(option), "memory-option");
-          choice.innerHTML = window.CARD_RULES.render(option);
+          // Imported face-name headings are not rules text. Hide their anonymised
+          // labels only at display time so saved answers still match unchanged.
+          choice.innerHTML = window.CARD_RULES.render(option.replace(/^This card — /gm, ""));
           choice.disabled = state.revealed;
           if (state.revealed && option === effect(card)) { choice.dataset.result = "correct"; choice.prepend(el("strong", "Correct answer · ")); }
           else if (state.revealed && option === state.selected) { choice.dataset.result = "wrong"; choice.prepend(el("strong", "Your answer · ")); }

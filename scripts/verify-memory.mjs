@@ -102,3 +102,17 @@ for (const card of cards) {
   for (const match of html.matchAll(/src="([^"]+)"/g)) assert(fs.existsSync(`public/${match[1]}`),match[1]);
 }
 console.log('Verified rules symbols, loyalty costs, reminder/ability italics, escaping and local asset coverage.');
+
+// Prepared face headings must disappear without changing saved answer strings.
+const prepared=cards.filter(c=>c.name.includes(" // "));
+reload().mount(root,{...set,id:'prepared-headings',cards:prepared});
+const preparedOptions=nodes().filter(n=>n.className==='memory-option');
+assert.equal(preparedOptions.length,3);
+for(const option of preparedOptions) {
+  assert(option.textContent.includes('This card — '));
+  assert(!option.innerHTML.includes('This card — '));
+  assert(option.innerHTML.includes('\n\n'));
+}
+click(preparedOptions[0].textContent);
+assert(nodes().some(n=>n.className==='primary-action memory-next'));
+console.log('Verified prepared face headings are hidden while stored answers and paragraph breaks remain intact.');
