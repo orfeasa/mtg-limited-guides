@@ -12,6 +12,7 @@ class Node {
 const storage=new Map();
 const ctx={window:{confirm:()=>true},document:{createElement:t=>new Node(t)},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)}};
 vm.runInNewContext(fs.readFileSync('public/data.js','utf8'),ctx);
+vm.runInNewContext(fs.readFileSync('public/rules-text.js','utf8'),ctx);
 const set=ctx.window.LIMITED_PREP_DATA.sets.find(s=>s.id==='fra');
 const hob=ctx.window.LIMITED_PREP_DATA.sets.find(s=>s.id==='hob');
 const root=new Node('root');

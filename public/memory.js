@@ -107,7 +107,10 @@
     }
     const el = (tag, text, className) => {
       const node = document.createElement(tag);
-      if (text) node.textContent = text;
+      if (text) {
+        node.textContent = text;
+        if (/\{[^}]+\}|\[[+−-]?(?:\d+|X)\]|(?:^|\n)[+−-]?(?:\d+|X):/.test(text)) node.innerHTML = window.CARD_RULES.inline(text);
+      }
       if (className) node.className = className;
       return node;
     };
@@ -192,12 +195,11 @@
           const context = metadata(set, card);
           if (context.labels.length) quiz.append(el("p", context.labels.join(" · "), "memory-context"));
           if (context.interaction) quiz.append(el("p", `${card.manaCost} · ${context.interaction.note}`, "memory-interaction"));
-          if (context.labels.length) quiz.append(el("p", "Context from authored preparation notes; card roles are editorial, not ratings.", "prep-assessment"));
           feedback.setAttribute("role", "status"); quiz.append(feedback, button(state.queue.length ? "Next card" : "Finish run", () => next(true), "primary-action memory-next"));
         } else quiz.append(button("Don’t know — show me", () => answer(null)));
         stage.append(figure, quiz); root.append(stage);
       }
-      root.append(el("p", persistent ? "Run saved on this browser. Clearing a run measures recognition, not permanent mastery. Basic lands are omitted." : "Storage unavailable. Keep this page open to retain your run.", "memory-note"));
+      if (!persistent) root.append(el("p", "Storage unavailable. Keep this page open to retain your run.", "memory-note"));
       root.append(button(card ? "Restart this run" : "Play again", () => {
         if (card && !window.confirm("Restart this Card memory run? Other preparation progress stays saved.")) return;
         pool = filterCards(set, studySet, colour, attempts); state = fresh(); next(true);

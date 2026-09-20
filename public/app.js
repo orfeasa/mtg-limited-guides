@@ -630,7 +630,7 @@
     elements.trainerImage.alt = `${card.name} card`;
     elements.trainerName.textContent = card.name;
     elements.trainerType.textContent = card.typeLine || "";
-    elements.trainerOracle.textContent = card.oracleText || "";
+    elements.trainerOracle.innerHTML = window.CARD_RULES.render(card.oracleText || "");
     elements.trainerAnswer.hidden = true;
     elements.trainerAnswer.replaceChildren();
     elements.gradeOptions.querySelectorAll("button").forEach((button) => {
@@ -724,8 +724,8 @@
       const selected = button.dataset.archetypeFormat === archetypeFormat;
       button.setAttribute("aria-pressed", String(selected));
     });
-    elements.formatHeadline.textContent = format.headline;
-    elements.formatGuidance.textContent = format.guidance;
+    elements.formatHeadline.innerHTML = window.CARD_RULES.inline(format.headline);
+    elements.formatGuidance.innerHTML = window.CARD_RULES.inline(format.guidance);
     elements.formatLeader.innerHTML = observationsAvailable
       ? `<strong>${escapeHtml(pairLabel(topPair))}</strong><span>${topPair.winRate.toFixed(1)}% · ${escapeHtml(topSupport)}</span>`
       : "<strong>Not known</strong><span>no recorded games yet</span>";
@@ -771,15 +771,15 @@
         <header class="archetype-section-heading">
           <div class="archetype-identity">
             <span class="archetype-route">${archetype.colors.map((color) => manaSymbol(color, "mana-symbol--archetype")).join("")}</span>
-            <div>${family}<h3>${escapeHtml(archetype.name)}</h3><p class="archetype-mechanic">${escapeHtml(archetype.mechanic)}</p></div>
+            <div>${family}<h3>${escapeHtml(archetype.name)}</h3><p class="archetype-mechanic">${window.CARD_RULES.inline(archetype.mechanic)}</p></div>
           </div>
           <div class="archetype-result">${result}</div>
         </header>
         <div class="archetype-body">
           <div class="archetype-guidance">
-            <p class="archetype-plan">${escapeHtml(archetype.plan)}</p>
-            <div class="archetype-priorities"><h4>What the deck needs</h4><ol>${archetype.priorities.map((priority) => `<li>${escapeHtml(priority)}</li>`).join("")}</ol></div>
-            <div class="archetype-format-note"><h4>${escapeHtml(format.shortLabel)} read</h4><p>${escapeHtml(archetype.formatNotes[archetypeFormat])}</p></div>
+            <p class="archetype-plan">${window.CARD_RULES.inline(archetype.plan)}</p>
+            <div class="archetype-priorities"><h4>What the deck needs</h4><ol>${archetype.priorities.map((priority) => `<li>${window.CARD_RULES.inline(priority)}</li>`).join("")}</ol></div>
+            <div class="archetype-format-note"><h4>${escapeHtml(format.shortLabel)} read</h4><p>${window.CARD_RULES.inline(archetype.formatNotes[archetypeFormat])}</p></div>
           </div>
           <div class="archetype-signposts"><h4>Cards to recognise</h4><div class="archetype-signpost-grid">${signposts}</div></div>
         </div>`;
@@ -928,7 +928,7 @@
     const dataRead = leaderCard
       ? `The exercise takes the highest card left in the current Untapped ranking. ${leaderCard.name} is #${leaderCard.rank}, ${rankLead}.${winRateContext} Pool fit is not part of this calculation.`
       : "No card in this pack has a current rank, so the exercise does not manufacture a statistical leader.";
-    const ledgerItem = (label, name, meta, explanation) => `<div><dt>${escapeHtml(label)}</dt><dd><strong class="decision-ledger-name">${escapeHtml(name)}</strong>${meta ? `<span class="decision-ledger-meta">${escapeHtml(meta.rank)} · ${escapeHtml(meta.detail)}</span>` : ""}<span class="decision-ledger-reason"><strong>${escapeHtml(explanation.label)}</strong><span>${escapeHtml(explanation.text)}</span><small>${escapeHtml(explanation.boundary)}</small></span></dd></div>`;
+    const ledgerItem = (label, name, meta, explanation) => `<div><dt>${escapeHtml(label)}</dt><dd><strong class="decision-ledger-name">${escapeHtml(name)}</strong>${meta ? `<span class="decision-ledger-meta">${escapeHtml(meta.rank)} · ${escapeHtml(meta.detail)}</span>` : ""}<span class="decision-ledger-reason"><strong>${escapeHtml(explanation.label)}</strong><span>${window.CARD_RULES.inline(explanation.text)}</span><small>${window.CARD_RULES.inline(explanation.boundary)}</small></span></dd></div>`;
     elements.decisionLedger.innerHTML = [
       ledgerItem("Your decision", response.initialPick, choice, {
         label: "What drove your pick",
@@ -947,7 +947,7 @@
       }),
     ].join("");
 
-    elements.decisionLesson.textContent = scenario.lesson;
+    elements.decisionLesson.innerHTML = window.CARD_RULES.inline(scenario.lesson);
     if (!leaderCard) {
       elements.decisionCoaching.textContent = "Use the authored takeaway and the historical context without treating missing data as evidence for either card.";
     } else if (scenario.replayPick === leaderCard.name) {
@@ -1017,8 +1017,8 @@
 
     const read = poolRead(scenario.pool);
     elements.decisionCoordinate.textContent = `Pack ${scenario.pack} · Pick ${scenario.pick}`;
-    elements.poolDirection.textContent = read.direction;
-    elements.poolSummary.textContent = read.summary;
+    elements.poolDirection.innerHTML = window.CARD_RULES.inline(read.direction);
+    elements.poolSummary.innerHTML = window.CARD_RULES.inline(read.summary);
     renderDecisionPool(scenario);
     hydrateDecisionState();
 

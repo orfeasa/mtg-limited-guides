@@ -42,7 +42,10 @@
     try { if (localStorage.getItem(preferenceKey) === "theme") direction = "theme"; } catch { persistent = false; }
     const el = (tag, text, className) => {
       const node = document.createElement(tag);
-      if (text) node.textContent = text;
+      if (text) {
+        node.textContent = text;
+        if (/\{[^}]+\}|\[[+−-]?(?:\d+|X)\]|(?:^|\n)[+−-]?(?:\d+|X):/.test(text)) node.innerHTML = window.CARD_RULES.inline(text);
+      }
       if (className) node.className = className;
       return node;
     };
@@ -98,7 +101,7 @@
           root.append(actions);
         }
       } else root.append(el("h3", "All plans recalled", "study-prompt"), el("p", "Try the reverse direction, or repeat this run another day."));
-      root.append(el("p", persistent ? "Progress saved on this browser, separately for each set and recall direction." : "Storage unavailable. Progress lasts while this page stays open."));
+      if (!persistent) root.append(el("p", "Storage unavailable. Progress lasts while this page stays open."));
       root.append(button("Restart archetype run", () => {
         if (state.current && !window.confirm("Restart this archetype recall run?")) return;
         state = fresh(ids); advance(state); save(); render(true);

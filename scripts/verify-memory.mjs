@@ -68,6 +68,7 @@ const missed=interactionState().current;
 assert(!nodes().some(n=>n.className==='memory-context'));
 click('Don’t know — show me');
 assert(nodes().some(n=>n.className==='memory-context'));assert(nodes().some(n=>n.className==='memory-interaction'));
+assert.match(nodes().find(n=>n.className==='memory-interaction').innerHTML, /rules-symbol/);
 const attemptKey='card-memory:attempts:v1:fra';
 const beforeAttempts=JSON.parse(storage.get(attemptKey))[missed];
 reload().mount(root,set,{studySet:'interactions'});
@@ -116,3 +117,7 @@ for(const option of preparedOptions) {
 click(preparedOptions[0].textContent);
 assert(nodes().some(n=>n.className==='primary-action memory-next'));
 console.log('Verified prepared face headings are hidden while stored answers and paragraph breaks remain intact.');
+
+assert.match(ctx.window.CARD_RULES.inline('−2: Draw.\n0: Gain life.\n+X: Add {R}.'), /rules-loyalty/);
+assert.equal((ctx.window.CARD_RULES.inline('−2: Draw.\n0: Gain life.\n+X: Add {R}.').match(/rules-loyalty/g)||[]).length,3);
+assert(!ctx.window.CARD_RULES.inline('Notes (with parentheses)').includes('<em>'));

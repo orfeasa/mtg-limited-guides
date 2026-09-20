@@ -341,7 +341,7 @@
   };
   const escape = text => String(text).replace(/[&<>"']/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
   function inline(text) {
-    return text.split(/(\{[^}]+\}|\[[+−-]?(?:\d+|X)\])/g).map(token => {
+    return text.replace(/(^|\n)([+−-]?(?:\d+|X)):/g, "$1[$2]:").split(/(\{[^}]+\}|\[[+−-]?(?:\d+|X)\])/g).map(token => {
       const symbol = symbols[token];
       if (symbol) return `<img class="rules-symbol" src="assets/symbols/${symbol.file}" alt="${escape(symbol.label)}" title="${escape(token)}" width="16" height="16">`;
       if (/^\[[+−-]?(?:\d+|X)\]$/.test(token)) {
@@ -356,7 +356,6 @@
     // Oracle text is plain text. Parentheses mark reminder text; only known
     // ability words get italics, not modal instructions or prepared-spell names.
     return String(text).split("\n").map(line => {
-      line = line.replace(/^([+−-]?(?:\d+|X)):/, "[$1]:");
       const ability = line.match(/^(Threshold|Landfall|Domain|Exhaust)(?= — )/);
       const prefix = ability ? `<em>${ability[0]}</em>` : "";
       if (ability) line = line.slice(ability[0].length);
@@ -368,5 +367,5 @@
       return html + inline(line.slice(start));
     }).join("\n");
   }
-  window.CARD_RULES = { render };
+  window.CARD_RULES = { render, inline };
 })();

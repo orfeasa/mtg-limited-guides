@@ -580,3 +580,5 @@ A separate Card memory tab extends the existing paper/ink surface for complete s
 Card memory preserves the full card silhouette, artwork, type line, and printed power/toughness or starting loyalty. Opaque text-box masks use separate standard, planeswalker, and prepared-spell geometry; answering removes them. Mobile retains the full image rather than cropping it.
 
 Card memory answer options use locally cached Scryfall symbols for mana and tap costs, shield-shaped loyalty badges, and italic reminder text and ability words. Rules paragraphs retain their original line breaks; formatting does not alter answer matching or saved progress.
+
+The same local symbol renderer handles costs and notation in preparation metadata, play-around notes, exercises, archetype guidance and study, and draft-decision explanations. Trainer Oracle text uses full rules formatting. Explanatory prose keeps its existing typography, including non-reminder parentheses.
