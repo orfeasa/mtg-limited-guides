@@ -13,6 +13,7 @@ class Node {
 const storage=new Map();
 const ctx={window:{confirm:()=>true}, document:{createElement:t=>new Node(t)},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)}};
 vm.runInNewContext(fs.readFileSync('public/data.js','utf8'),ctx);
+vm.runInNewContext(fs.readFileSync('public/rules-text.js','utf8'),ctx);
 vm.runInNewContext(fs.readFileSync('public/memory.js','utf8'),ctx);
 const game=ctx.window.CARD_MEMORY, set=ctx.window.LIMITED_PREP_DATA.sets.find(s=>s.id==='fra');
 const cards=set.cards.filter(c=>!c.isBasicLand);
@@ -84,3 +85,20 @@ const greenState=JSON.parse(storage.get([...storage.keys()].find(k=>k.endsWith('
 assert(greenState.pool.every(id=>green.some(c=>c.id===id)));
 assert.equal(JSON.parse(storage.get(interactionKey)).current,missed);
 console.log(`Verified ${essentials.size} derived essentials, 11 interactions, rarity/colour intersections, answer-only context, attempt persistence, Weak cards and set/filter isolation.`);
+
+const render=ctx.window.CARD_RULES.render;
+assert.match(render('{2}{R}{U/R}{T}'), /rules-symbol/);
+assert.equal((render('{2}{R}{U/R}{T}').match(/<img /g)||[]).length,4);
+assert.match(render('−X: Tap a creature.\n[−1]: Draw.'), /data-direction="down"[^>]*>−X<\/span>:/);
+assert.equal((render('+1: A\n0: B\n−2: C').match(/rules-loyalty/g)||[]).length,3);
+assert.match(render('Flying (This creature flies.)'), /<em>\(This creature flies\.\)<\/em>/);
+assert.match(render('(Pay {2}. (Only once.))'), /<em>\(Pay <img .*\(Only once\.\)\)<\/em>/);
+assert.match(render('Landfall — Do something.'), /^<em>Landfall<\/em> —/);
+assert(!render('Choose one —\n• Draw a card.').includes('<em>'));
+assert.match(render('<img src=x onerror=alert(1)> {UNKNOWN}'), /^&lt;img/);
+for (const card of cards) {
+  const html=render(card.oracleText);
+  assert(!/\{[^}]+\}/.test(html.replace(/title="[^"]*"/g,'')), card.name);
+  for (const match of html.matchAll(/src="([^"]+)"/g)) assert(fs.existsSync(`public/${match[1]}`),match[1]);
+}
+console.log('Verified rules symbols, loyalty costs, reminder/ability italics, escaping and local asset coverage.');

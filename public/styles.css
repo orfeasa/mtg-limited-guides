@@ -4210,3 +4210,9 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
 
 .archetype-study button, #archetype-study-toggle, .memory-page button { min-height: 44px; }
 .study-prompt, .study-answer, .memory-prompt { scroll-margin-top: calc(var(--tab-height) + 24px); }
+
+/* Printed-card notation stays inline with the answer's readable rules text. */
+.rules-symbol { display: inline-block; width: 1em; height: 1em; vertical-align: -0.12em; margin-inline: 0.06em; }
+.rules-loyalty { font-style: normal; display: inline-block; min-width: 2em; padding: 0.08em 0.25em 0.2em; text-align: center; font-size: 0.85em; font-weight: 700; line-height: 1.2; color: var(--surface); background: var(--ink); vertical-align: baseline; clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%); }
+.rules-loyalty[data-direction="up"] { padding: 0.2em 0.25em 0.08em; clip-path: polygon(50% 0, 100% 25%, 100% 100%, 0 100%, 0 25%); }
+.rules-loyalty[data-direction="zero"] { clip-path: none; }

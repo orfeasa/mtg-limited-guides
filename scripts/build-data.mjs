@@ -186,6 +186,8 @@ const cacheFiles = [
   "./lifecycle.js",
   "./prep.js",
   "./memory.js",
+  "./rules-text.js",
+  ...fs.readdirSync(path.join(publicDir, "assets/symbols")).filter(file => file.endsWith(".svg")).sort().map(file => `./assets/symbols/${file}`),
   "./archetype-study.js",
   "./manifest.webmanifest",
   "./assets/icon.svg",
