@@ -13,7 +13,7 @@
       "stage": "observed",
       "lifecycle": {
         "fullSetConfirmedAt": "2026-09-08",
-        "ratingsConfirmedAt": "2026-09-17",
+        "ratingsConfirmedAt": "2026-09-20",
         "source": "https://magic.wizards.com/en/news/feature/the-hobbit-prerelease-guide"
       },
       "releaseDate": "2026-08-14",
@@ -29,8 +29,8 @@
         "status": "available",
         "label": "Observed draft data",
         "source": "Untapped.gg",
-        "capturedAt": "2026-09-17",
-        "matches": 750000,
+        "capturedAt": "2026-09-20",
+        "matches": 760000,
         "rankRange": "Bronze–Platinum",
         "archetype": "All archetypes",
         "stat": "In Hand WR",
@@ -38,8 +38,8 @@
       },
       "performance": {
         "source": "Untapped.gg",
-        "capturedAt": "2026-09-17T13:12:26.373Z",
-        "matches": 753422,
+        "capturedAt": "2026-09-20T10:53:04.277Z",
+        "matches": 769560,
         "label": "Observed card evidence"
       },
       "cardSource": {

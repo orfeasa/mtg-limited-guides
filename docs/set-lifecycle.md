@@ -35,7 +35,7 @@ The existing `stage` field is a descriptive snapshot (`preview`, `complete`, `ob
 | Set | Final scheduled reveal | Full file verified | Prerelease | Arena | Retail release | Current ratings verified |
 | --- | --- | --- | --- | --- | --- | --- |
 | Reality Fracture | 2026-09-18 | 2026-09-18 | 2026-09-25 | 2026-09-29 | 2026-10-02 | Pending |
-| The Hobbit | Not recorded | 2026-09-08 | Not recorded | Not recorded | 2026-08-14 | 2026-09-17 |
+| The Hobbit | Not recorded | 2026-09-08 | Not recorded | Not recorded | 2026-08-14 | 2026-09-20 |
 
 These are a readable snapshot of the manifest, not a second configuration. Unknown historical dates are not guessed. No automatic fetch or monitoring service is implied by these dates; existing refresh workflows must check the milestones and update the evidence.
 

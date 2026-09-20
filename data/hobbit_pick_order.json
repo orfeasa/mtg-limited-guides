@@ -1,26 +1,275 @@
 {
   "source": "https://mtga.untapped.gg/limited/draft/the-hobbit/pick-order",
-  "captured_at": "2026-09-17T13:12:34Z",
-  "page_last_updated": "about 3 hours before capture",
-  "total_matches": "750,000",
+  "captured_at": "2026-09-20T10:53:42.273480Z",
+  "page_last_updated": "about 1 hour before capture",
+  "total_matches": "760,000",
   "format": "Premier Draft",
   "rank_range": "Bronze-Platinum",
   "archetype": "All Archetypes",
   "tiering_stat": "In Hand WR",
   "sections": [
-    {"tier":"A+","names":["Fíli the Pathfinder","An Unexpected Party","Beorn the Fierce"]},
-    {"tier":"A","names":["Smaug the Magnificent","Thorin, Mountain-king","Bard's Company","Chief Warg's Company","Gollum, Riddle Master"]},
-    {"tier":"A-","names":["Kíli the Resourceful","Dáin Ironfoot","Thranduil's Company","Celebrate the Mountain-king","Head of the Hunt","Desolation Prowler","Dáin's Company"]},
-    {"tier":"B+","names":["Rhovanion Rampager","Great Gilded Boat","Bothersome Noisemaker","Crude Bent Blade","Mirkwood Pathmaker","Burn, Burn, Tree and Fern","Dancing from Dark to Dawn"]},
-    {"tier":"B","names":["Stone by Sunlight","Bejeweled Warg","The Arkenstone","Gollum, Silent Slinker","Gandalf, Spark Starter","Nasty Little Rabbit","The Mountain-king's Return","Stone-Giant of High Pass","Nighthowl Pursuer","Dwalin, Weaponmaster","Pinecone Strike","Down, Down to Goblin-town","Bilbo, Luckwearer","The Sackville-Bagginses","Gandalf, Goblins' Bane","The Eagles Are Coming!","Thranduil, Sindarin Liege","Misty Mountains Raider"]},
-    {"tier":"B-","names":["Tom, Bert, and William","Settle the Wreckage","The Lonely Mountain","Bilbo's Deadly Slice","The Misty Mountains Cold","The Queen of Dale","Ravening Warg","Dori, Bearer of Friends","Great Ugly-Looking Goblin","Iron Hills Blacksmith","Patient Instructor","Stir Up Trouble","Goblin Plate Mail","Long Lake Nuisance","Bilbo, Thief in the Night","Bard the Bowman"]},
-    {"tier":"C+","names":["Glóin the Mighty","Large Bear","Quarrel","Gollum the Abandoned","The Great Goblin","Plunder the Trollshaws","Smaug, the Great Calamity","Down in the Valley","Master's Councillors","Dwarven Mauler","Smaug, Wicked Worm","Gnashing of Teeth","Gundabad Opportunist","Attercop","Thorin Oakenshield","Dwarven Mattock","Dreaded Bat-Cloud","Duskwatch Hunter","Lakeshore Apothecary","Front Porch Sentries","Hobbit Hole","Bofur, Reliable Guardian","Bilbo Baggins, Burglar"]},
-    {"tier":"C","names":["Rage into the Valley","Troll Negotiations","Bolg of the North","Tidings of War","Stony-Voiced Goblins","Goblin-town","Esgaroth Garrison","Magnificent End","Óin the Brave","Bombur, Gentle Dreamer","Gathering of Darkness","Ragged Short Spear","Mirkwood","Beorn's Hospitality","Roads Go Ever, Ever On","Bifur, Melodic Rider","Ordinary Bear","Fearsome Goblin Pair","Ori, Keeper of Songs","The Master of Lake-town","Uneasy Partings","Wargling","Lake-town","Dwarven Provisioner","Old Fat Spider","Eagle's Rescue","Mirkwood Nurturer","Galion, Elvenking's Butler","Thrór's Map","Enchanted River's Grasp","Iron Hills"]},
-    {"tier":"C-","names":["Warg Tactics","Wood Elves","Boughside Wanderers","Elven Passage","Nori, Teller of Tales","Dáin, Lord of the Iron Hills","Gigantic Big Bear","Guardian of the Halls","Wilderland Scrounger","Reverent Howl","Radagast of Rhosgobel","Goblin-town Flunkies","Sound the Trumpets","Dwarven Shortsword","Most Decrepit Old Bird","The Chief Warg","Lake-town Toymaker","Elvenking's Harper","Snowslope Hunter","Well-Worn Spatula","Azog, Moria's Ruin","Woodland Weavemaster","Desolation of Smaug","Long-Bodied Grey Dog"]},
-    {"tier":"D+","names":["Elvenking's Halls","The Lord of the Eagles","Silvan Reveler","Confusticate and Bebother","Great Fierce Bee","Velvetwing Butterflies","Along the Crooked Way","Old Thrush","Cantankerous Keepers","Troop of Ponies","Part in Friendship","Bolg's Company","The Notary Hobbits","Eagle of the Great Shelf","Ravenhill Flock","Smaug's Fury","Iron Hills Stalwart","Belladonna Took"]},
-    {"tier":"D","names":["Balin, Loremaster","Old Fat Spider Can't See Me","Beorn, Reluctant Host","The Black Arrow","Little Bear","Elrond, Moon-Reader","My Precious","Bard, King of Dale","Inside Information","Elven Raft-Steerer","Lake-town Mariners","Orcrist, Goblin-cleaver","Lake-town Lookout","Vow to Erebor","Thranduil's Decree","Gandalf, Wandering Wizard","Sting, Bilbo's Sword"]},
-    {"tier":"D-","names":["Desert Were-Worm","Riddles in the Dark","Moment of Glory","Giant's Boulder","Thranduil, the Elvenking","Thorin's Last Stand","Key to the Side-Door","Bilbo's Gambit"]},
-    {"tier":"F","names":["Mirkwood Meditator","Through the Forest Gate","Roll-Roll-Roll-Roll","Uncover the Moon-Letters","Supper for Spiders","Gleaming Splendor","Getaway Barrel","Glamdring, Foe-hammer","Wizard's Staff","Last Light of Durin's Day"]},
-    {"tier":"?","names":["Fateful Discovery"]}
+    {
+      "tier": "S",
+      "names": [
+        "Fíli the Pathfinder"
+      ]
+    },
+    {
+      "tier": "A+",
+      "names": [
+        "An Unexpected Party",
+        "Beorn the Fierce"
+      ]
+    },
+    {
+      "tier": "A",
+      "names": [
+        "Smaug the Magnificent",
+        "Thorin, Mountain-king",
+        "Bard's Company",
+        "Gollum, Riddle Master",
+        "Chief Warg's Company"
+      ]
+    },
+    {
+      "tier": "A-",
+      "names": [
+        "Kíli the Resourceful",
+        "Dáin Ironfoot",
+        "Thranduil's Company",
+        "Celebrate the Mountain-king",
+        "Head of the Hunt",
+        "Dáin's Company",
+        "Desolation Prowler"
+      ]
+    },
+    {
+      "tier": "B+",
+      "names": [
+        "Rhovanion Rampager",
+        "Great Gilded Boat",
+        "Bothersome Noisemaker",
+        "Crude Bent Blade",
+        "Burn, Burn, Tree and Fern",
+        "Mirkwood Pathmaker",
+        "Dancing from Dark to Dawn"
+      ]
+    },
+    {
+      "tier": "B",
+      "names": [
+        "Bejeweled Warg",
+        "Stone by Sunlight",
+        "The Arkenstone",
+        "Gollum, Silent Slinker",
+        "Gandalf, Spark Starter",
+        "Nasty Little Rabbit",
+        "The Mountain-king's Return",
+        "Nighthowl Pursuer",
+        "Stone-Giant of High Pass",
+        "Dwalin, Weaponmaster",
+        "Pinecone Strike",
+        "Down, Down to Goblin-town",
+        "Bilbo, Luckwearer",
+        "The Sackville-Bagginses",
+        "Gandalf, Goblins' Bane",
+        "The Eagles Are Coming!",
+        "Thranduil, Sindarin Liege",
+        "Misty Mountains Raider"
+      ]
+    },
+    {
+      "tier": "B-",
+      "names": [
+        "Tom, Bert, and William",
+        "Settle the Wreckage",
+        "The Lonely Mountain",
+        "The Misty Mountains Cold",
+        "Bilbo's Deadly Slice",
+        "The Queen of Dale",
+        "Dori, Bearer of Friends",
+        "Ravening Warg",
+        "Great Ugly-Looking Goblin",
+        "Iron Hills Blacksmith",
+        "Patient Instructor",
+        "Goblin Plate Mail",
+        "Stir Up Trouble",
+        "Bilbo, Thief in the Night",
+        "Long Lake Nuisance"
+      ]
+    },
+    {
+      "tier": "C+",
+      "names": [
+        "Bard the Bowman",
+        "Glóin the Mighty",
+        "Large Bear",
+        "Gollum the Abandoned",
+        "Quarrel",
+        "Plunder the Trollshaws",
+        "The Great Goblin",
+        "Smaug, the Great Calamity",
+        "Down in the Valley",
+        "Master's Councillors",
+        "Dwarven Mauler",
+        "Smaug, Wicked Worm",
+        "Gnashing of Teeth",
+        "Gundabad Opportunist",
+        "Thorin Oakenshield",
+        "Dwarven Mattock",
+        "Attercop",
+        "Dreaded Bat-Cloud",
+        "Lakeshore Apothecary",
+        "Duskwatch Hunter",
+        "Front Porch Sentries",
+        "Hobbit Hole",
+        "Bofur, Reliable Guardian",
+        "Bilbo Baggins, Burglar",
+        "Rage into the Valley"
+      ]
+    },
+    {
+      "tier": "C",
+      "names": [
+        "Bolg of the North",
+        "Troll Negotiations",
+        "Tidings of War",
+        "Stony-Voiced Goblins",
+        "Goblin-town",
+        "Esgaroth Garrison",
+        "Óin the Brave",
+        "Magnificent End",
+        "Mirkwood",
+        "Bombur, Gentle Dreamer",
+        "Ragged Short Spear",
+        "Gathering of Darkness",
+        "Beorn's Hospitality",
+        "Bifur, Melodic Rider",
+        "Roads Go Ever, Ever On",
+        "Fearsome Goblin Pair",
+        "The Master of Lake-town",
+        "Ori, Keeper of Songs",
+        "Ordinary Bear",
+        "Uneasy Partings",
+        "Wargling",
+        "Lake-town",
+        "Dwarven Provisioner",
+        "Old Fat Spider",
+        "Eagle's Rescue",
+        "Mirkwood Nurturer",
+        "Thrór's Map",
+        "Galion, Elvenking's Butler",
+        "Enchanted River's Grasp",
+        "Iron Hills"
+      ]
+    },
+    {
+      "tier": "C-",
+      "names": [
+        "Warg Tactics",
+        "Wood Elves",
+        "Boughside Wanderers",
+        "Elven Passage",
+        "Dáin, Lord of the Iron Hills",
+        "Nori, Teller of Tales",
+        "Gigantic Big Bear",
+        "Guardian of the Halls",
+        "Radagast of Rhosgobel",
+        "Wilderland Scrounger",
+        "Reverent Howl",
+        "Goblin-town Flunkies",
+        "Sound the Trumpets",
+        "Elvenking's Harper",
+        "The Chief Warg",
+        "Dwarven Shortsword",
+        "Most Decrepit Old Bird",
+        "Lake-town Toymaker",
+        "Well-Worn Spatula",
+        "Snowslope Hunter",
+        "Azog, Moria's Ruin",
+        "Woodland Weavemaster",
+        "Desolation of Smaug",
+        "Long-Bodied Grey Dog"
+      ]
+    },
+    {
+      "tier": "D+",
+      "names": [
+        "Elvenking's Halls",
+        "Silvan Reveler",
+        "Confusticate and Bebother",
+        "The Lord of the Eagles",
+        "Great Fierce Bee",
+        "Old Thrush",
+        "Velvetwing Butterflies",
+        "Along the Crooked Way",
+        "Troop of Ponies",
+        "Part in Friendship",
+        "Cantankerous Keepers",
+        "Bolg's Company",
+        "The Notary Hobbits",
+        "Eagle of the Great Shelf",
+        "Ravenhill Flock",
+        "Smaug's Fury",
+        "Iron Hills Stalwart",
+        "Belladonna Took"
+      ]
+    },
+    {
+      "tier": "D",
+      "names": [
+        "Balin, Loremaster",
+        "Old Fat Spider Can't See Me",
+        "Beorn, Reluctant Host",
+        "The Black Arrow",
+        "Little Bear",
+        "My Precious",
+        "Elrond, Moon-Reader",
+        "Bard, King of Dale",
+        "Inside Information",
+        "Orcrist, Goblin-cleaver",
+        "Elven Raft-Steerer",
+        "Lake-town Mariners",
+        "Lake-town Lookout",
+        "Vow to Erebor",
+        "Thranduil's Decree",
+        "Gandalf, Wandering Wizard",
+        "Sting, Bilbo's Sword"
+      ]
+    },
+    {
+      "tier": "D-",
+      "names": [
+        "Desert Were-Worm",
+        "Riddles in the Dark",
+        "Moment of Glory",
+        "Giant's Boulder",
+        "Thranduil, the Elvenking",
+        "Thorin's Last Stand",
+        "Key to the Side-Door",
+        "Bilbo's Gambit"
+      ]
+    },
+    {
+      "tier": "F",
+      "names": [
+        "Mirkwood Meditator",
+        "Through the Forest Gate",
+        "Roll-Roll-Roll-Roll",
+        "Uncover the Moon-Letters",
+        "Supper for Spiders",
+        "Gleaming Splendor",
+        "Getaway Barrel",
+        "Glamdring, Foe-hammer",
+        "Wizard's Staff",
+        "Last Light of Durin's Day"
+      ]
+    },
+    {
+      "tier": "?",
+      "names": [
+        "Fateful Discovery"
+      ]
+    }
   ]
 }
