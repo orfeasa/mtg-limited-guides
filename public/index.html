@@ -340,6 +340,19 @@
               <button type="button" data-atlas-grouping="tier" aria-pressed="false">By tier</button>
             </div>
           </div>
+          <div class="atlas-tools">
+            <label id="atlas-sort-field" for="atlas-sort"><span>Within each colour</span>
+              <select id="atlas-sort">
+                <option value="mana">Mana value</option>
+                <option value="type">Creatures / non-creatures</option>
+                <option value="rarity">Rarity</option>
+                <option value="name">Name</option>
+                <option value="rating">Rating</option>
+              </select>
+            </label>
+            <label for="atlas-search"><span>Find a card</span><input id="atlas-search" type="search" placeholder="Search card names" autocomplete="off"></label>
+          </div>
+          <p id="atlas-results" class="atlas-results" role="status"></p>
           <nav id="color-navigation" class="color-navigation" aria-label="Filter cards by colour"></nav>
           <div id="atlas-empty" class="atlas-empty" hidden>
             <strong>You are caught up.</strong>

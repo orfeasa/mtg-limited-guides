@@ -4216,3 +4216,13 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
 .rules-loyalty { font-style: normal; display: inline-block; min-width: 2em; padding: 0.08em 0.25em 0.2em; text-align: center; font-size: 0.85em; font-weight: 700; line-height: 1.2; color: var(--surface); background: var(--ink); vertical-align: baseline; clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%); }
 .rules-loyalty[data-direction="up"] { padding: 0.2em 0.25em 0.08em; clip-path: polygon(50% 0, 100% 25%, 100% 100%, 0 100%, 0 25%); }
 .rules-loyalty[data-direction="zero"] { clip-path: none; }
+
+/* Card browsing controls follow the active set's paper and ink. */
+.atlas-tools { display: flex; flex-wrap: wrap; gap: 16px 24px; margin-top: 24px; }
+.atlas-tools label { display: flex; flex: 1 1 240px; flex-direction: column; gap: 6px; min-width: 0; color: var(--ink); font-size: .85rem; }
+.atlas-tools input, .atlas-tools select { width: 100%; min-height: 44px; padding: 10px 12px; border: 1px solid var(--line); border-radius: var(--control-radius); background: var(--surface-light); color: var(--ink); }
+.atlas-tools input::placeholder { color: var(--muted); opacity: 1; }
+.atlas-tools input:hover, .atlas-tools select:hover { border-color: var(--ink); }
+.atlas-results { color: var(--muted); font-size: .85rem; }
+.atlas-results:empty { display: none; }
+.atlas-subheading { margin: 28px 0 12px; color: var(--ink); font-size: 1rem; }

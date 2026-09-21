@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-08T12:58:47Z",
+  "generatedAt": "2026-09-21T09:08:39.274582+00:00",
   "title": "Design System: Limited Field Guides",
   "extensions": {
     "brandAssets": {
@@ -126,7 +126,9 @@
       "fracture-micro-cut": {
         "role": "Reality Fracture colour-jump and emblem pre-clip",
         "canonical": "2px",
-        "aliases": ["2px"]
+        "aliases": [
+          "2px"
+        ]
       },
       "pill": {
         "role": "pill",
@@ -362,9 +364,16 @@
     {
       "name": "Atlas Card Row",
       "kind": "card",
-      "description": "Compact colour-grouped card entry that shows rank for rated sets or collector identity for previews.",
-      "html": "<button class=\"ds-atlas-card\" type=\"button\"><span class=\"ds-atlas-image\">CARD</span><span><b>#12</b><strong>An Unexpected Party</strong><small><em>A-</em> Tier A-</small></span></button>",
+      "description": "Compact colour-grouped entry with verified rank or mana value, plus rarity for unrated cards. Collector numbers appear in enlarged-card details.",
+      "html": "<button class=\"ds-atlas-card\" type=\"button\"><span class=\"ds-atlas-image\">CARD</span><span><b>#12</b><strong>An Unexpected Party</strong><small><em>A-</em></small></span></button>",
       "css": ".ds-atlas-card { display:grid; grid-template-columns:64px minmax(0,1fr); align-items:center; gap:12px; min-height:112px; padding:11px 5px; color:var(--ink); text-align:left; background:transparent; border:0; border-bottom:1px solid var(--line); font-family:var(--body); cursor:pointer; } .ds-atlas-card:hover { background:color-mix(in srgb,var(--surface-light) 68%,transparent); } .ds-atlas-card:focus-visible { outline:3px solid var(--focus); outline-offset:3px; } .ds-atlas-image { display:grid; place-items:center; width:64px; aspect-ratio:125.3/176.4; color:var(--muted); background:var(--surface-deep); border-radius:4px; box-shadow:0 5px 13px rgba(8,9,16,.2); font-size:.58rem; font-weight:700; } .ds-atlas-card > span:last-child { display:grid; gap:4px; min-width:0; } .ds-atlas-card b { color:#254a5b; font:700 1.2rem/1 var(--display); } .ds-atlas-card strong { font-size:.9rem; } .ds-atlas-card small { color:var(--muted); font-size:.68rem; } .ds-atlas-card em { display:inline-grid; place-items:center; min-width:34px; min-height:24px; margin-right:5px; color:#fff; background:#a55d40; border-radius:999px; font-style:normal; font-weight:700; }"
+    },
+    {
+      "name": "Card Browser Controls",
+      "kind": "input",
+      "description": "Search card names and choose the order within each colour.",
+      "html": "<label class=\"ds-atlas-label\">Find a card<input class=\"ds-atlas-input\" type=\"search\" placeholder=\"Search card names\"></label>",
+      "css": ".ds-atlas-label { display: flex; flex-direction: column; gap: 6px; color: var(--ink); font-size: .85rem; } .ds-atlas-input { min-height: 44px; padding: 10px 12px; border: 1px solid var(--line); border-radius: var(--control-radius); background: var(--surface-light); color: var(--ink); } .ds-atlas-input:hover { border-color: var(--ink); } .ds-atlas-input:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }"
     }
   ],
   "narrative": {
@@ -374,9 +383,11 @@
       "One shared preparation sequence expressed as a shelf of set-owned field guides.",
       "Atkinson Hyperlegible Next for working text, controls, metadata, and dense card information.",
       "Hobbit’s rounded cloth-and-map atlas beside Reality Fracture’s clipped, electrically seamed dossier.",
-      "Stable Training and All cards markers, with Archetypes and Draft decisions appearing only when their required evidence exists.",
-      "Persisted Training queues, exact-tier scores, and reviewed-decision state with explicit unrated preview states.",
+      "Evidence-gated markers: Training with complete ratings, Prerelease prep with a published guide and confirmed full file, Archetypes with an official plan map and editorial notes, and Draft decisions with grounded scenarios. The card browser stays available as Previews or All cards.",
+      "Authored preparation uses five reading sections plus quick rules practice, with separate Sealed/Draft guidance and local checklist and answer state.",
+      "Persisted Training queues, exact-tier scores, and per-scenario decision, reason, reveal, and reflection state with explicit unrated preview states.",
       "Hobbit’s post-answer observed-evidence ledger and adjacent-rank context without implying deck intelligence.",
+      "Hobbit’s Draft review explains the rank calculation behind the data leader and labels each replay rationale as editorial inference rather than the drafter’s known intent.",
       "Broad surfaces and flat rows gathered into one handled volume rather than a field of dashboard cards."
     ],
     "rules": [
