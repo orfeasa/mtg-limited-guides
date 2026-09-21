@@ -45,7 +45,7 @@ These are a readable snapshot of the manifest, not a second configuration. Unkno
 - Keep route IDs stable: `atlas` displays either Previews or All cards. Old `training`/`study` and unavailable mode links resolve to the set's useful default and rewrite the URL.
 - Selecting a different set opens its useful default; explicit valid deep links retain their selected view and Draft/Sealed format.
 - Use a short header status and the next known event date. Full reveal must stop saying the file is still expanding. Avoid repeating Preview on every card.
-- Only incomplete preview sets show the catch-up rail. A complete file uses ordinary colour browsing; rated sets also offer exact tiers.
+- Only incomplete preview sets show the catch-up rail. A complete file defaults to colour grouping. All card browsers support independent filtering, grouping, and sorting when the necessary metadata exists; rated sets also offer exact tiers. Missing type, rarity, or mana-value metadata must hide those choices rather than fabricate classifications.
 - Omit basic lands from Previews/All cards, colour/tier counts, catch-up dates/counts, and the header card count. Keep nonbasic lands. Preserve the full imported card file and its completeness evidence; `browseCardCount` describes the browser scope, not source completeness.
 - Keep local readable images, accessible card enlargement, focus return, touch/keyboard navigation, source links, and per-set progress.
 - Preserve the existing themed shell. Stage changes alter available tasks and honest copy, not the entire visual language.

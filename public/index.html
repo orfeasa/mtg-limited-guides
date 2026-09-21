@@ -333,24 +333,26 @@
               <select id="preview-since"></select>
             </label>
           </div>
-          <div id="atlas-grouping" class="atlas-grouping" role="group" aria-labelledby="atlas-grouping-label" hidden>
-            <span id="atlas-grouping-label">Arrange cards</span>
-            <div class="atlas-grouping-options">
-              <button type="button" data-atlas-grouping="colour" aria-pressed="true">By colour</button>
-              <button type="button" data-atlas-grouping="tier" aria-pressed="false">By tier</button>
-            </div>
-          </div>
-          <div class="atlas-tools">
-            <label id="atlas-sort-field" for="atlas-sort"><span>Within each colour</span>
-              <select id="atlas-sort">
-                <option value="mana">Mana value</option>
-                <option value="type">Creatures / non-creatures</option>
-                <option value="rarity">Rarity</option>
-                <option value="name">Name</option>
-                <option value="rating">Rating</option>
-              </select>
-            </label>
+          <div class="atlas-tools atlas-filters">
             <label for="atlas-search"><span>Find a card</span><input id="atlas-search" type="search" placeholder="Search card names" autocomplete="off"></label>
+            <label for="atlas-colour"><span>Colour</span><select id="atlas-colour">
+              <option value="all">All colours</option><option value="W">White</option><option value="U">Blue</option><option value="B">Black</option><option value="R">Red</option><option value="G">Green</option><option value="M">Multicolour</option><option value="C">Colourless</option>
+            </select></label>
+            <label id="atlas-type-field" for="atlas-type"><span>Type</span><select id="atlas-type">
+              <option value="all">All types</option><option value="Creatures">Creatures</option><option value="Non-creatures">Non-creatures</option><option value="Lands">Lands</option>
+            </select></label>
+            <label id="atlas-rarity-field" for="atlas-rarity"><span>Rarity</span><select id="atlas-rarity">
+              <option value="all">All rarities</option><option value="common">Common</option><option value="uncommon">Uncommon</option><option value="rare">Rare</option><option value="mythic">Mythic</option>
+            </select></label>
+          </div>
+          <div class="atlas-tools atlas-arrangement">
+            <label for="atlas-grouping"><span>Group by</span><select id="atlas-grouping">
+              <option value="colour">Colour</option><option value="type">Creatures / non-creatures</option><option value="rarity">Rarity</option><option value="none">None</option><option value="tier">Tier</option>
+            </select></label>
+            <label id="atlas-sort-field" for="atlas-sort"><span>Sort by</span><select id="atlas-sort">
+              <option value="mana">Mana value</option><option value="name">Name</option><option value="rating">Rating</option>
+            </select></label>
+            <button id="atlas-clear-filters" class="text-button" type="button" hidden>Clear filters</button>
           </div>
           <p id="atlas-results" class="atlas-results" role="status"></p>
           <nav id="color-navigation" class="color-navigation" aria-label="Filter cards by colour"></nav>

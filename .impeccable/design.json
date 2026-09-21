@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-21T09:31:56.123954+00:00",
+  "generatedAt": "2026-09-21T09:53:21.630070+00:00",
   "title": "Design System: Limited Field Guides",
   "extensions": {
     "brandAssets": {
@@ -371,7 +371,7 @@
     {
       "name": "Card Browser Controls",
       "kind": "input",
-      "description": "Search card names and choose the order within each colour.",
+      "description": "Independent name, colour, type and rarity filters, a single grouping level, and a separate sort order; responsive native controls use the active set theme.",
       "html": "<label class=\"ds-atlas-label\">Find a card<input class=\"ds-atlas-input\" type=\"search\" placeholder=\"Search card names\"></label>",
       "css": ".ds-atlas-label { display: flex; flex-direction: column; gap: 6px; color: var(--ink); font-size: .85rem; } .ds-atlas-input { min-height: 44px; padding: 10px 12px; border: 1px solid var(--line); border-radius: var(--control-radius); background: var(--surface-light); color: var(--ink); } .ds-atlas-input:hover { border-color: var(--ink); } .ds-atlas-input:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }"
     }
