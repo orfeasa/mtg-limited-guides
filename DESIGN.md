@@ -535,7 +535,7 @@ Shared components keep behavior, semantics, target sizes, and information order 
 - **Rating Tier:** Compact categorical pill with white text; pending uses the light metal surface and binding text.
 - **Colour Jump:** Each colour uses a recognisable mana symbol alongside its literal label. Hobbit uses a pill and circular emblem; Reality Fracture uses the intentional two-pixel cut and polygon emblem.
 - **Atlas Arrangement:** Rated sets default to colour and offer a literal By colour / By tier switch. Tier mode follows the exact captured tier order, keeps rank order within each tier, and uses card colour as the secondary cue. Preview-only sets remain grouped by colour.
-- **Atlas Card:** Compact image-and-copy row led by rank or mana value (lands are labelled Land); collector numbers belong in enlarged-card details. Colour mode shows one tier badge with no repeated tier text; tier mode replaces that redundant badge with the card colour. Unrated cards show rarity. Selecting a row opens the readable local image in a focused lightbox without changing views.
+- **Atlas Card:** Compact image-and-copy row led by inline mana symbols and the card name in larger text, with the full type line below in smaller text. Cards without a mana cost show only the name; missing type metadata is omitted. Rarity retains its existing treatment. Ranks and collector numbers belong in enlarged-card details. Small screens use one column to keep costs, names, and type lines readable. Colour mode shows one tier badge with no repeated tier text; tier mode replaces that redundant badge with the card colour. Unrated cards show rarity. Selecting a row opens the readable local image in a focused lightbox without changing views.
 
 ### Card Browser Controls
 

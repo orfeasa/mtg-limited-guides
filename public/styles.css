@@ -2299,7 +2299,7 @@ kbd {
 
 .card-thumb,
 .pack-item img,
-.atlas-card img {
+.atlas-card > img {
   height: auto;
   aspect-ratio: auto 5 / 7;
   object-fit: contain;
@@ -2983,7 +2983,7 @@ body[data-theme="fracture"] .mana-symbol {
   background: color-mix(in srgb, var(--surface-light) 68%, transparent);
 }
 
-.atlas-card img {
+.atlas-card > img {
   width: 64px;
 }
 
@@ -3846,7 +3846,7 @@ body[data-theme="fracture"] .card-preview-copy h2 {
     padding-block: 9px;
   }
 
-  .atlas-card img {
+  .atlas-card > img {
     width: 50px;
   }
 
@@ -4226,3 +4226,13 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
 .atlas-results { color: var(--muted); font-size: .85rem; }
 .atlas-results:empty { display: none; }
 .atlas-subheading { margin: 28px 0 12px; color: var(--ink); font-size: 1rem; }
+
+.atlas-card-copy > strong { display: block; margin-top: 0; overflow: visible; font-size: 1rem; line-height: 1.3; }
+.atlas-card-cost { white-space: nowrap; }
+.atlas-card-cost .rules-symbol { width: 1em; height: 1em; }
+.atlas-card-type { display: block; margin-top: 6px; color: var(--muted); font-size: .8rem; line-height: 1.35; }
+@media (max-width: 700px) {
+  .atlas-grid { grid-template-columns: minmax(0, 1fr); }
+}
+
+.atlas-card-meta > span:last-child { display: inline; }

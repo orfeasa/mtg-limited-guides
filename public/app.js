@@ -1303,14 +1303,14 @@
         button.dataset.cardId = card.id;
         button.dataset.color = card.color;
         button.setAttribute("aria-label", `Enlarge ${card.name}`);
-        const leading = card.rank ? `#${card.rank}` : /\bLand\b/.test(card.typeLine || "") && !/\bCreature\b/.test(card.typeLine || "") ? "Land" : `Mana value ${card.manaValue ?? "—"}`;
+        const cost = card.manaCost ? `<span class="atlas-card-cost">${window.CARD_RULES.inline(card.manaCost)}</span> ` : "";
         const color = colorGroups.find((item) => item.id === card.color);
         const meta = isTierGroup
           ? `${manaSymbol(card.color, "mana-symbol--meta")}<span>${escapeHtml(color?.name || "Colourless")}</span>`
           : !ratingIsAvailable()
             ? `<span>${escapeHtml(card.rarity || "Unrated")}</span>`
             : `<span class="tier ${cardIsRated(card) ? "" : "tier-pending"}" style="--tier-color:${tierColors[card.tier] || tierColors["?"]}">${escapeHtml(cardIsRated(card) ? card.tier : "Unrated")}</span>`;
-        button.innerHTML = `<img src="${escapeHtml(card.image)}" alt="" width="80" height="112"><span class="atlas-card-copy"><span class="atlas-card-rank">${escapeHtml(leading)}</span><strong>${escapeHtml(card.name)}</strong><span class="atlas-card-meta">${meta}</span></span>`;
+        button.innerHTML = `<img src="${escapeHtml(card.image)}" alt="" width="80" height="112"><span class="atlas-card-copy"><strong>${cost}${escapeHtml(card.name)}</strong>${card.typeLine ? `<span class="atlas-card-type">${escapeHtml(card.typeLine)}</span>` : ""}<span class="atlas-card-meta">${meta}</span></span>`;
         return button;
       }));
       if (!isTierGroup && ["type", "rarity"].includes(effectiveAtlasSort)) {

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-21T09:08:39.274582+00:00",
+  "generatedAt": "2026-09-21T09:31:56.123954+00:00",
   "title": "Design System: Limited Field Guides",
   "extensions": {
     "brandAssets": {
@@ -364,8 +364,8 @@
     {
       "name": "Atlas Card Row",
       "kind": "card",
-      "description": "Compact colour-grouped entry with verified rank or mana value, plus rarity for unrated cards. Collector numbers appear in enlarged-card details.",
-      "html": "<button class=\"ds-atlas-card\" type=\"button\"><span class=\"ds-atlas-image\">CARD</span><span><b>#12</b><strong>An Unexpected Party</strong><small><em>A-</em></small></span></button>",
+      "description": "Mana cost and card name form the main line, with smaller type text beneath and rarity retained. Missing metadata is omitted.",
+      "html": "<button class=\"ds-atlas-card\" type=\"button\"><span class=\"ds-atlas-image\">CARD</span><span><strong>An Unexpected Party</strong><small><em>A-</em></small></span></button>",
       "css": ".ds-atlas-card { display:grid; grid-template-columns:64px minmax(0,1fr); align-items:center; gap:12px; min-height:112px; padding:11px 5px; color:var(--ink); text-align:left; background:transparent; border:0; border-bottom:1px solid var(--line); font-family:var(--body); cursor:pointer; } .ds-atlas-card:hover { background:color-mix(in srgb,var(--surface-light) 68%,transparent); } .ds-atlas-card:focus-visible { outline:3px solid var(--focus); outline-offset:3px; } .ds-atlas-image { display:grid; place-items:center; width:64px; aspect-ratio:125.3/176.4; color:var(--muted); background:var(--surface-deep); border-radius:4px; box-shadow:0 5px 13px rgba(8,9,16,.2); font-size:.58rem; font-weight:700; } .ds-atlas-card > span:last-child { display:grid; gap:4px; min-width:0; } .ds-atlas-card b { color:#254a5b; font:700 1.2rem/1 var(--display); } .ds-atlas-card strong { font-size:.9rem; } .ds-atlas-card small { color:var(--muted); font-size:.68rem; } .ds-atlas-card em { display:inline-grid; place-items:center; min-width:34px; min-height:24px; margin-right:5px; color:#fff; background:#a55d40; border-radius:999px; font-style:normal; font-weight:700; }"
     },
     {
