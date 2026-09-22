@@ -182,7 +182,7 @@
   let decisionReason = null;
   let decisionStage = "choose";
   let decisionSummaryVisible = false;
-  const atlasSortOptions = new Set(["mana", "name", "rating"]);
+  const atlasSortOptions = new Set(["mana", "name", "rarity", "rating"]);
   let atlasSort = "mana";
   let atlasGrouping = "colour";
   let atlasSize = "compact";
@@ -1223,6 +1223,10 @@
   const atlasRarities = ["common", "uncommon", "rare", "mythic"];
   let effectiveAtlasSort = "mana";
   function atlasCompare(a, b) {
+    if (effectiveAtlasSort === "rarity") {
+      const rarityOrder = (card) => atlasRarities.includes(card.rarity) ? atlasRarities.indexOf(card.rarity) : atlasRarities.length;
+      return rarityOrder(a) - rarityOrder(b) || atlasManaCompare(a, b);
+    }
     if (effectiveAtlasSort === "name") return atlasNameCompare(a, b);
     if (effectiveAtlasSort === "rating" && ratingIsAvailable()) return a.rank - b.rank || atlasNameCompare(a, b);
     return atlasManaCompare(a, b);
@@ -1235,7 +1239,7 @@
       ? browseCards().filter((card) => card.firstSeenAt > atlasSince)
       : browseCards();
     const metadataAvailable = browseCards().every((card) => Number.isFinite(card.manaValue) && card.typeLine && card.rarity);
-    const allowedSorts = metadataAvailable ? ["mana", "name"] : ["name"];
+    const allowedSorts = metadataAvailable ? ["mana", "name", "rarity"] : ["name"];
     const allowedGroups = metadataAvailable ? ["colour", "type", "rarity", "none"] : ["colour", "none"];
     if (ratingIsAvailable()) { allowedSorts.push("rating"); allowedGroups.push("tier"); }
     if (!allowedGroups.includes(atlasGrouping)) atlasGrouping = "colour";
