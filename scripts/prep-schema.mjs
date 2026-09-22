@@ -49,6 +49,24 @@ export function validatePrep(guide, set) {
     check(q.cards?.length > 0, "exercise missing card references");
     q.cards.forEach(ref);
   }
+  if (guide.decisions !== undefined) {
+    check(Array.isArray(guide.decisions) && guide.decisions.length > 0 && unique([...guide.exercises,...guide.decisions], "id"), "invalid decision IDs");
+    for (const q of guide.decisions) {
+      check(/^[a-z0-9-]+$/.test(q.id) && prose(q.title) && prose(q.question), "incomplete decision");
+      check(q.options?.length >= 2 && q.options.every(prose) && new Set(q.options).size === q.options.length, "invalid decision options");
+      check(Number.isInteger(q.answer) && q.answer >= 0 && q.answer < q.options.length, "invalid decision answer");
+      check(q.reasoning?.length === q.options.length && q.reasoning.every(prose) && q.explanation === q.reasoning[q.answer], "missing decision reasoning");
+      check(q.basis === "authored-scenario-from-reviews-and-rules" && q.cards?.length > 0, "missing decision basis");
+      q.cards.forEach(ref);
+      check(q.reviewBasis?.length === q.cards.length, "incomplete decision sources");
+      q.cards.forEach((name,i) => {
+        const card = set.cards.find(c => c.name === name);
+        const note = set.earlyEvidence?.byCard[card.id]?.teaching;
+        const basis = q.reviewBasis[i];
+        check(note && basis.cardId === card.id && basis.basisSha256 === note.basisSha256 && JSON.stringify(basis.reviewSectionIds) === JSON.stringify(note.reviewSectionIds), "stale or unrelated decision sources");
+      });
+    }
+  }
   if (guide.twoHeadedGiant !== undefined) {
     const team = guide.twoHeadedGiant;
     check(team && prose(team.intro), "missing team introduction");

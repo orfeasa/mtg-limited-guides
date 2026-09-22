@@ -34,3 +34,8 @@ No defensible “bad cards” list follows from this sample. Jim leaves Medic's 
 Two games, one produced episode, three players, repeated use of Jim's deck. Kenji reports flooding, and both players discuss unfamiliar card text. The sample is selected for inspectability, not representative performance. No win rates, grades, exhaustive draw counts, unseen-hand reconstruction or causal estimates are justified.
 
 The immediately useful output is a set of timestamped Sealed interaction lessons and provisional card observations. Ratings would need much wider independent game coverage. A future extraction should retain source, time, deck, observed action, support cards, result, ambiguity and interpretation separately.
+
+
+## Frame-verification retry for the study expansion
+
+On 22 September, retried the episode at 57:52 (`t=3472s`) to inspect the narrated Danitha / Seed Suture / Bloombrute interaction. The browser loaded the correct episode but playback remained on a ten-second pre-roll at 0:00 after starting it; the seek control was disabled and Skip was not visible. No gameplay frame was verified. The existing observations therefore retain their automatic-caption status. The ten new practice situations are authored from reviews and card rules, not presented as reconstructed game decisions. Frame-verified examples remain outstanding.

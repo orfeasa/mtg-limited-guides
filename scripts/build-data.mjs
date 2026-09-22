@@ -162,7 +162,8 @@ const sets = manifest.sets.map((set) => {
     if ((/\bBasic\b/.test(type) && /\bLand\b/.test(type)) || (!card.typeLine && (basicLandNames.has(card.name) || card.name === "Wastes" || /^Snow-Covered (Plains|Island|Swamp|Mountain|Forest)$/.test(card.name)))) card.isBasicLand = true;
   }
   const prep = set.prepFile ? readJson(set.prepFile) : null;
-  validatePrep(prep, { ...set, cards });
+  const earlyEvidence = set.earlyEvidenceDir ? compileEarlyEvidence(path.join(dataDir, set.earlyEvidenceDir), cards, readJson(set.archetypesFile).archetypes.map(a => a.id)) : null;
+  validatePrep(prep, { ...set, cards, earlyEvidence });
   return {
     ...set,
     cardCount: cards.length,
@@ -171,7 +172,7 @@ const sets = manifest.sets.map((set) => {
     draftDecisions: adaptDraftDecisions(set, cards),
     archetypes: adaptArchetypes(set, cards),
     prep,
-    earlyEvidence: set.earlyEvidenceDir ? compileEarlyEvidence(path.join(dataDir, set.earlyEvidenceDir), cards, readJson(set.archetypesFile).archetypes.map(a => a.id)) : null,
+    earlyEvidence,
     cards,
   };
 });
@@ -188,6 +189,7 @@ const cacheFiles = [
   "./lifecycle.js",
   "./prep.js",
   "./prep-journey.js",
+  "./review-queue.js",
   "./early-evidence.js",
   "./memory.js",
   "./rules-text.js",

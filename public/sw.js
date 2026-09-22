@@ -1,5 +1,5 @@
 /* Generated static cache manifest. */
-const CACHE = "limited-prep-7fbe2897a06a";
+const CACHE = "limited-prep-f9b5dc57da58";
 const ASSETS = [
   "./",
   "./index.html",
@@ -9,6 +9,7 @@ const ASSETS = [
   "./lifecycle.js",
   "./prep.js",
   "./prep-journey.js",
+  "./review-queue.js",
   "./early-evidence.js",
   "./memory.js",
   "./rules-text.js",

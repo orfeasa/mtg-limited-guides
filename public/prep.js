@@ -29,11 +29,11 @@
       saved = sessionStates.get(key) || saved;
       const checked = guide.checklist.filter((item) => Array.isArray(saved?.checked) && saved.checked.includes(item.id)).map((item) => item.id);
       const answers = {};
-      for (const q of guide.exercises) {
+      for (const q of [...guide.exercises, ...(guide.decisions || [])]) {
         const answer = saved?.answers?.[q.id];
         if (Number.isInteger(answer) && answer >= 0 && answer < q.options.length) answers[q.id] = answer;
       }
-      return { checked, answers };
+      return { checked, answers, decisionIndex: Number.isInteger(saved?.decisionIndex) && saved.decisionIndex >= 0 && saved.decisionIndex < (guide.decisions?.length || 0) ? saved.decisionIndex : 0 };
     }
     function renderFormat() {
       root.querySelectorAll("[data-prep-format]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.prepFormat === format)));
@@ -49,7 +49,7 @@
       root.querySelector("#prep-key-cards").innerHTML = selected.map((item) => {
         const card = cards.get(item.card);
         const teaching = set.earlyEvidence?.byCard[card.id]?.teaching;
-        return `<article class="prep-card-row">${cardButton(item.card, true)}<div><p class="prep-card-meta">${escape(colours[card.color])} · ${escape(card.rarity)} · ${text(card.manaCost || "Land")}</p><h4>${text(teaching?.role || "Why know it")}</h4><p>${text(teaching?.why || item.why)}</p>${teaching ? `<h4>When it gets better</h4><p>${text(teaching.better)}</p>` : ""}<h4>What can go wrong</h4><p>${text(teaching?.watch || item.watch)}</p>${teaching?.disagreement ? `<details class="prep-review-difference"><summary>Where reviewers differ</summary><p>${text(teaching.disagreement)}</p></details>` : ""}</div></article>`;
+        return `<article class="prep-card-row">${cardButton(item.card, true)}<div>${window.PREP_REVIEW?.button(set, "card", card.id) || ""}<p class="prep-card-meta">${escape(colours[card.color])} · ${escape(card.rarity)} · ${text(card.manaCost || "Land")}</p><h4>${text(teaching?.role || "Why know it")}</h4><p>${text(teaching?.why || item.why)}</p>${teaching ? `<h4>When it gets better</h4><p>${text(teaching.better)}</p>` : ""}<h4>What can go wrong</h4><p>${text(teaching?.watch || item.watch)}</p>${teaching?.disagreement ? `<details class="prep-review-difference"><summary>Where reviewers differ</summary><p>${text(teaching.disagreement)}</p></details>` : ""}</div></article>`;
       }).join("");
     }
     function renderInteractions() {
@@ -65,11 +65,24 @@
     function updateChecklist() {
       root.querySelector("#prep-check-count").textContent = `${state.checked.length} of ${guide.checklist.length} checked`;
     }
+    const explanation = q => {
+      const chosen = state.answers[q.id];
+      if (!Number.isInteger(chosen)) return "";
+      const correct = chosen === q.answer;
+      return `<p><strong>${correct ? "Correct." : `The answer is: ${text(q.options[q.answer])}.`}</strong> ${text(q.reasoning?.[chosen] || q.explanation)}</p>${!correct && q.reasoning ? `<p>${text(q.explanation)}</p>` : ""}${format !== "2hg" && set.earlyEvidence?.teaching ? window.PREP_REVIEW.button(set, "question", q.id) : ""}`;
+    };
+    function renderDecisions(focus = false) {
+      const host = root.querySelector("#prep-decisions");
+      if (!host || !guide.decisions?.length) return;
+      const q = guide.decisions[state.decisionIndex];
+      const done = guide.decisions.filter(q => Number.isInteger(state.answers[q.id])).length;
+      host.innerHTML = `<div class="prep-decision-heading"><h4>${text(q.title)}</h4><span>${state.decisionIndex + 1} of ${guide.decisions.length} · ${done} answered</span></div>${renderExercise(q)}<div class="prep-decision-nav"><button type="button" data-decision-move="-1" ${state.decisionIndex === 0 ? "disabled" : ""}>Previous situation</button><button type="button" data-decision-move="1" ${state.decisionIndex === guide.decisions.length - 1 ? "disabled" : ""}>Next situation</button></div>`;
+      if (focus) { const legend = host.querySelector("legend"); legend.tabIndex = -1; legend.focus({preventScroll:true}); host.scrollIntoView({block:"start",behavior:"instant"}); }
+    }
     function renderExercise(q) {
       const chosen = state.answers[q.id];
       const answered = Number.isInteger(chosen);
-      const correct = chosen === q.answer;
-      return `<fieldset id="prep-question-${q.id}" class="prep-question"><legend>${text(q.question)}</legend>${references(q.cards)}<div class="prep-options">${q.options.map((option, index) => `<button type="button" data-prep-answer="${q.id}" data-answer="${index}" aria-pressed="${chosen === index}" ${answered ? "disabled" : ""}>${text(option)}</button>`).join("")}</div><div class="prep-feedback" role="status">${answered ? `<p><strong>${correct ? "Correct." : `The answer is: ${text(q.options[q.answer])}.`}</strong> ${text(q.explanation)}</p>` : ""}</div><button type="button" class="prep-retry" data-prep-retry="${q.id}" ${answered ? "" : "hidden"}>Try again</button></fieldset>`;
+      return `<fieldset id="prep-question-${q.id}" class="prep-question"><legend>${text(q.question)}</legend>${references(q.cards)}<div class="prep-options">${q.options.map((option, index) => `<button type="button" data-prep-answer="${q.id}" data-answer="${index}" aria-pressed="${chosen === index}" ${answered ? "disabled" : ""}>${text(option)}</button>`).join("")}</div><div class="prep-feedback" role="status">${explanation(q)}</div><button type="button" class="prep-retry" data-prep-retry="${q.id}" ${answered ? "" : "hidden"}>Try again</button></fieldset>`;
     }
     function updateExercise(q) {
       const node = root.querySelector(`#prep-question-${q.id}`);
@@ -80,7 +93,7 @@
         b.setAttribute("aria-pressed", String(Number(b.dataset.answer) === chosen));
       });
       const feedback = node.querySelector(".prep-feedback");
-      feedback.innerHTML = answered ? text(`${chosen === q.answer ? "Correct." : `The answer is: ${q.options[q.answer]}.`} ${q.explanation}`) : "";
+      feedback.innerHTML = explanation(q);
       const retry = node.querySelector("[data-prep-retry]");
       retry.hidden = !answered;
       if (answered) retry.focus({ preventScroll: true });
@@ -91,7 +104,7 @@
       if (!set) { root.replaceChildren(); return; }
       format = nextFormat === "2hg" && set.prep.twoHeadedGiant ? "2hg" : nextFormat === "draft" ? "draft" : "sealed";
       const team = format === "2hg" ? set.prep.twoHeadedGiant : null;
-      guide = team ? { ...set.prep, checklist: team.checklist, exercises: team.exercises, sources: [...set.prep.sources, ...team.sources] } : set.prep;
+      guide = team ? { ...set.prep, checklist: team.checklist, exercises: team.exercises, decisions: [], sources: [...set.prep.sources, ...team.sources] } : set.prep;
       cards = new Map(set.cards.map((c) => [c.name, c]));
       // Revision namespaces prevent old answers/checks being misapplied to changed content.
       key = `limited-prep:guide:${set.id}:v${guide.version}:${guide.progressRevision || guide.authoredAt}:${format}`;
@@ -103,20 +116,23 @@
         <section class="prep-section" aria-labelledby="prep-team-cards"><h3 id="prep-team-cards">Cards to discuss with your partner</h3><ul class="prep-interactions">${team.cards.map((item) => `<li><div>${cardButton(item.card)}</div><p>${text(item.note)}</p></li>`).join("")}</ul></section>` : `
         <p id="prep-format-intro" class="prep-intro"></p>
         ${set.earlyEvidence?.teaching ? `<section id="prep-journey" class="prep-journey" aria-label="Your preparation path"></section>` : set.archetypes && window.SET_LIFECYCLE.resolve(set).memory ? `<section class="prep-study-path" aria-labelledby="prep-path-title"><h3 id="prep-path-title">Recommended preparation</h3><ol><li><a href="?set=${encodeURIComponent(set.id)}&view=archetypes&format=${format}&study=1">Archetypes</a></li><li><a href="?set=${encodeURIComponent(set.id)}&view=memory&format=${format}&studySet=essentials">Card memory</a></li><li><a href="#prep-play-around">What to play around</a></li><li><a href="#prep-checklist">Deck checklist</a> / <a href="#prep-practice">quick practice</a></li></ol></section>` : ""}
+        ${set.earlyEvidence?.teaching ? '<section id="prep-review-queue" aria-label="Your review list"></section>' : ""}
         <nav class="prep-jumps" aria-label="In this preparation guide" ${set.earlyEvidence?.teaching ? "hidden" : ""}><a href="#prep-mechanics">Mechanics</a><a href="#prep-cards">Cards to know</a>${set.earlyEvidence ? '<a href="#prep-combinations">Combinations</a>' : ""}<a href="#prep-play-around">Play around</a><a href="#prep-colours">Find your colours</a><a href="#prep-checklist">Deck checklist</a><a href="#prep-practice">Quick practice</a></nav>
         <section id="prep-mechanics" class="prep-section" aria-labelledby="prep-mechanics-title"><h3 id="prep-mechanics-title">How this set works</h3><p>Open a card name to read the example.</p><div class="prep-mechanics">${guide.mechanics.map((item, index) => `<details ${index === 0 ? "open" : ""}><summary>${text(item.title)}</summary><p>${text(item.text)}</p><p class="prep-tip">${text(item.tip)}</p>${references(item.cards)}</details>`).join("")}</div></section>
-        <section id="prep-cards" class="prep-section" aria-labelledby="prep-cards-title"><h3 id="prep-cards-title">Cards to know</h3><p>Start with cards you are more likely to open, then explore threats, answers, and engines. Open a card for its full reviews.</p><p class="prep-assessment">Early Limited opinions interpreted for preparation, not measured Sealed results.</p><div class="prep-filter"><label for="prep-role">Look for</label><select id="prep-role"><option value="all">All key cards</option>${guide.roles.map((r) => `<option value="${r.id}" ${r.id === "foundation" ? "selected" : ""}>${escape(r.label)}</option>`).join("")}</select><span id="prep-card-count" role="status"></span></div><div id="prep-key-cards"></div></section>
+        <section id="prep-cards" class="prep-section" aria-labelledby="prep-cards-title"><h3 id="prep-cards-title">Cards to know</h3><p>Start with cards you are more likely to open, then explore threats, answers, and engines. Open any card for its takeaway and full reviews.</p><p class="prep-assessment">Early Limited opinions interpreted for preparation, not measured Sealed results.</p><div class="prep-filter"><label for="prep-role">Look for</label><select id="prep-role"><option value="all">All key cards</option>${guide.roles.map((r) => `<option value="${r.id}" ${r.id === "foundation" ? "selected" : ""}>${escape(r.label)}</option>`).join("")}</select><span id="prep-card-count" role="status"></span></div><div id="prep-key-cards"></div>${set.earlyEvidence?.teaching ? `<p><a href="?set=${encodeURIComponent(set.id)}&view=atlas">Explore guidance for all ${set.earlyEvidence.teaching.cards} cards</a></p>` : ""}</section>
         ${window.EARLY_EVIDENCE.prep(set)}
         <section id="prep-play-around" class="prep-section" aria-labelledby="prep-play-title"><h3 id="prep-play-title">What to play around</h3><p>A short watchlist of instant-speed interaction, grouped by colour and printed mana cost. Check additional costs and discounts; open mana is a possibility, not proof of a trick.</p>${window.SET_LIFECYCLE.resolve(set).memory ? `<p><a class="prep-study-link" href="?set=${encodeURIComponent(set.id)}&view=memory&format=${format}&studySet=interactions">Practise these interactions in Card memory</a></p>` : ""}<div class="prep-filter"><label for="prep-colour">Opponent's colours</label><select id="prep-colour"><option value="all">All colours</option>${Object.entries(colours).filter(([c]) => !["M", "C"].includes(c)).map(([c, name]) => `<option value="${c}">${name}</option>`).join("")}</select><span id="prep-interaction-count" role="status"></span></div><ul id="prep-interactions" class="prep-interactions"></ul></section>
         <section id="prep-colours" class="prep-section" aria-labelledby="prep-colours-title"><h3 id="prep-colours-title">Find your colours</h3><ol id="prep-colour-steps" class="prep-steps"></ol><button id="prep-archetypes" type="button" class="primary-button" ${set.archetypes ? "" : "hidden"}></button></section>
         `}
         <section id="prep-checklist" class="prep-section" aria-labelledby="prep-check-title"><h3 id="prep-check-title">${team ? "Build two decks together" : "Before your first game"}</h3><p id="prep-check-count" role="status"></p><div class="prep-checks">${guide.checklist.map((item) => `<label><input type="checkbox" data-prep-check="${item.id}" ${state.checked.includes(item.id) ? "checked" : ""}><span>${text(item.text)}</span></label>`).join("")}</div><button type="button" id="prep-reset-checks" class="prep-retry">Clear this checklist</button><p id="prep-storage" class="prep-assessment" ${persistent ? "hidden" : ""}>${persistent ? "" : "Storage is unavailable. Your checks will last only while this page stays open."}</p></section>
-        <section id="prep-practice" class="prep-section" aria-labelledby="prep-practice-title"><h3 id="prep-practice-title">Quick practice</h3><p>${guide.exercises.length} short rules checks. Read the card if you need to, choose an answer, and try again as often as you like.</p>${guide.exercises.map(renderExercise).join("")}</section>
+        <section id="prep-practice" class="prep-section" aria-labelledby="prep-practice-title"><h3 id="prep-practice-title">${guide.decisions?.length ? "Practise a situation" : "Quick practice"}</h3>${guide.decisions?.length ? `<p>Use the cards and the situation to choose an answer. These are authored examples based on the reviews and rules.</p><div id="prep-decisions"></div><details id="prep-rules-checks"><summary>${guide.exercises.length} quick rules checks</summary>${guide.exercises.map(renderExercise).join("")}</details>` : `<p>${guide.exercises.length} short rules checks. Read the card if you need to, choose an answer, and try again as often as you like.</p>${guide.exercises.map(renderExercise).join("")}`} </section>
         ${!team && set.earlyEvidence?.teaching ? `<div id="prep-journey-actions"></div>` : ""}
         <aside class="prep-sources" aria-label="Guide sources"><h3>Keep learning</h3><p>Guide reviewed ${escape(guide.authoredAt)}.</p><ul>${guide.sources.map((source) => `<li><a href="${escape(source.url)}" target="_blank" rel="noopener noreferrer">${escape(source.label)}</a></li>`).join("")}</ul></aside>`;
       renderFormat();
       if (!team) { renderKeyCards(); renderInteractions(); }
       updateChecklist();
+      renderDecisions();
+      window.PREP_REVIEW?.mount(root.querySelector("#prep-review-queue"), set);
       journey = !team && set.earlyEvidence?.teaching ? window.PREP_JOURNEY.mount(root, set, format) : null;
     }
     root.addEventListener("click", (event) => {
@@ -135,12 +151,20 @@
         root.querySelectorAll("[data-prep-check]").forEach((input) => { input.checked = false; });
         updateChecklist(); save();
       }
+      if (target.dataset.decisionMove) {
+        state.decisionIndex = Math.max(0, Math.min(guide.decisions.length - 1, state.decisionIndex + Number(target.dataset.decisionMove)));
+        save(); renderDecisions(true);
+      }
       const questionId = target.dataset.prepAnswer || target.dataset.prepRetry;
       if (questionId) {
-        const q = guide.exercises.find((q) => q.id === questionId);
+        const q = [...guide.exercises, ...(guide.decisions || [])].find((q) => q.id === questionId);
+        if (!q) return;
         if (target.dataset.prepRetry) delete state.answers[q.id];
         else state.answers[q.id] = Number(target.dataset.answer);
+        if (!target.dataset.prepRetry && state.answers[q.id] !== q.answer && format !== "2hg" && set.earlyEvidence?.teaching) window.PREP_REVIEW.add(set, "question", q.id);
         updateExercise(q); save();
+        const count = root.querySelector(".prep-decision-heading span");
+        if (count) count.textContent = `${state.decisionIndex + 1} of ${guide.decisions.length} · ${guide.decisions.filter(q => Number.isInteger(state.answers[q.id])).length} answered`;
       }
     });
     root.addEventListener("change", (event) => {
@@ -150,6 +174,23 @@
         state.checked = [...root.querySelectorAll("[data-prep-check]:checked")].map((input) => input.dataset.prepCheck);
         updateChecklist(); save();
       }
+    });
+    window.addEventListener("prep-review-question", event => {
+      if (!root.getClientRects().length || event.detail.setId !== set?.id || format === "2hg") return;
+      const id = event.detail.id;
+      const index = guide.decisions?.findIndex(q => q.id === id) ?? -1;
+      delete state.answers[id];
+      if (index >= 0) { state.decisionIndex = index; renderDecisions(); }
+      else {
+        const q = guide.exercises.find(q => q.id === id);
+        if (!q) return;
+        const checks = root.querySelector("#prep-rules-checks");
+        if (checks) checks.open = true;
+        updateExercise(q);
+      }
+      save(); journey?.show("prep-practice");
+      const node = root.querySelector(`#prep-question-${id} legend`);
+      node.tabIndex = -1; node.focus({preventScroll:true}); node.scrollIntoView({block:"start",behavior:"instant"});
     });
     window.addEventListener("hashchange", () => { if (root.getClientRects().length) journey?.applyHash(); });
     return { render };

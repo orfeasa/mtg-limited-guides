@@ -23,7 +23,7 @@
   function combination(set, id, { pictures = false, recall = false } = {}) {
     const evidence = set.earlyEvidence;
     const item = evidence.combinations[id];
-    return `${cardLinks(set, item.cardIds, pictures)}<p>${text(item.explanation)}</p><p class="evidence-condition"><strong>Check first:</strong> ${text(item.requirements)}</p>
+    return `${window.PREP_REVIEW?.button(set, 'combination', id) || ''}${cardLinks(set, item.cardIds, pictures)}<p>${text(item.explanation)}</p><p class="evidence-condition"><strong>Check first:</strong> ${text(item.requirements)}</p>
       ${recall && item.question ? `<p class="evidence-question">${text(item.question)}</p><details class="evidence-answer"><summary>Reveal answer</summary><p>${text(item.answer)}</p></details>` : ''}
       <details class="evidence-sources"><summary>Why this lesson?</summary><p>Our reading of the card rules, informed by these early reviews:</p><ul>${item.sourceClaimIds.map(id => claim(evidence, id)).join('')}</ul>
       ${item.gameObservationIds.length ? `<p>Also narrated in Sealed footage (automatic captions; frames unverified):</p><ul>${item.gameObservationIds.map(id => {
@@ -52,7 +52,7 @@
     const notes = row.notes.filter(id => evidence.claims[id].kind !== 'archetype' && evidence.claims[id].paraphrase);
     const teaching = row.teaching;
     const reviews = row.reviews || [];
-    return `${teaching ? `<h3>${text(teaching.role)}</h3><p>${text(teaching.why)}</p><h4>When it gets better</h4><p>${text(teaching.better)}</p><h4>What can go wrong</h4><p>${text(teaching.watch)}</p>${teaching.disagreement ? `<h4>Where reviewers differ</h4><p>${text(teaching.disagreement)}</p>` : ''}<p class="evidence-caption">Our reading of the reviews and card rules.</p>` : '<h3>Early assessments</h3>'}
+    return `${window.PREP_REVIEW?.button(set, 'card', id) || ''}${teaching ? `<h3>${text(teaching.role)}</h3><p>${text(teaching.why)}</p><h4>When it gets better</h4><p>${text(teaching.better)}</p><h4>What can go wrong</h4><p>${text(teaching.watch)}</p>${teaching.disagreement ? `<h4>Where reviewers differ</h4><p>${text(teaching.disagreement)}</p>` : ''}<p class="evidence-caption">Our reading of the reviews and card rules.</p>` : '<h3>Early assessments</h3>'}
     <details class="evidence-full-reviews" ${teaching ? '' : 'open'}><summary>Read the reviews</summary><p class="evidence-caption">Limited opinions · captured ${escape(evidence.reviewedAt)} · original scales, no combined score.</p>
     ${reviews.map((r, i) => {
       const g = row.grades.find(g => g.sourceId === r.sourceId);
@@ -65,5 +65,5 @@
       return `<li><p>${text(o.observation)}</p><p>${text(o.interpretation)}</p>${sourceLink(evidence, o)} · ${escape(o.timeLabel)}</li>`;
     }).join('')}</ul></details>` : ''}`;
   }
-  window.EARLY_EVIDENCE = { prep, archetype, card };
+  window.EARLY_EVIDENCE = { prep, archetype, card, combination };
 })();

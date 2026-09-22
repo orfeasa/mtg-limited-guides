@@ -4349,3 +4349,31 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
 
 .prep-journey .primary-button, .journey-actions .primary-button { padding: 12px 18px; border: 1px solid var(--accent-dark); background: var(--accent-dark); color: var(--surface-light); font: 700 1rem var(--body); cursor: pointer; }
 .prep-journey .primary-button:hover, .journey-actions .primary-button:hover { background: var(--binding); }
+
+/* Revisit specific learning needs without leaving the preparation path. */
+.prep-review-mark { margin: .35rem 0 .65rem; padding: .5rem .75rem; border: 1px solid var(--line); border-radius: 8px; background: var(--surface-light); color: var(--ink); cursor: pointer; }
+.prep-review-mark[aria-pressed="true"] { background: var(--surface); color: var(--accent-dark); border-color: var(--accent-dark); }
+.prep-review-list { margin: 1.25rem 0 2rem; padding: 1rem 0; border-block: 1px solid var(--line); }
+.prep-review-list > summary { font-weight: 700; cursor: pointer; }
+.prep-review-list ul { list-style: none; padding: 0; }
+.prep-review-list li { display: flex; align-items: start; justify-content: space-between; gap: 1rem; padding: 1rem 0; border-bottom: 1px solid var(--line); }
+.prep-review-list li > div { min-width: 0; }
+.prep-review-list li > button { flex-shrink: 0; }
+.prep-review-list li p { margin: .5rem 0; }
+.prep-review-list summary, .prep-question legend { scroll-margin-top: calc(var(--tab-height, 62px) + 24px); }
+.prep-decision-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-top: 1.5rem; }
+.prep-decision-heading h4 { font-size: 1.25rem; margin: 0; }
+.prep-decision-heading span { color: var(--muted); font-size: .875rem; font-variant-numeric: tabular-nums; }
+.prep-decision-nav { display: flex; justify-content: space-between; gap: 1rem; margin: 1rem 0 2rem; }
+.prep-decision-nav button { padding: .7rem 1rem; border: 1px solid var(--line); border-radius: 8px; background: var(--surface-light); color: var(--ink); cursor: pointer; }
+.prep-decision-nav button:disabled { opacity: .45; cursor: default; }
+#prep-rules-checks > summary { font-weight: 700; cursor: pointer; padding: 1rem 0; }
+@media (max-width: 560px) {
+  .prep-decision-heading { display: block; }
+  .prep-review-list li { flex-direction: column; }
+  .prep-decision-nav button { flex: 1; }
+}
+#prep-decisions, .prep-review-list > ul { max-width: 72ch; }
+.prep-review-control { display: block; }
+.prep-review-storage:not([hidden]) { display: block; color: var(--ink); margin-bottom: .75rem; }
+#prep-decisions { scroll-margin-top: calc(var(--tab-height, 62px) + 24px); }

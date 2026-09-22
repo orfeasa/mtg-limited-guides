@@ -90,7 +90,7 @@
       if (step) { move(step.id, false, false); focusLesson(section); }
     };
     render(); applyHash();
-    return { applyHash };
+    return { applyHash, show: section => { const step = steps.find(s => s.sections.includes(section)); if (step) move(step.id); } };
   }
   window.PREP_JOURNEY = { mount, clean, steps };
 })();

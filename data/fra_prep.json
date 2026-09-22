@@ -275,5 +275,380 @@
         ]
       }
     ]
-  }
+  },
+  "decisions": [
+    {
+      "id": "support-titanbones",
+      "title": "Check the support",
+      "question": "Your green deck has Titanbones but no repeatable lifegain. Which discovery in the rest of your pool most directly improves its case for inclusion?",
+      "cards": [
+        "Titanbones, Towering Heart",
+        "Greenhouse Propagator"
+      ],
+      "options": [
+        "Another expensive creature with no lifegain",
+        "Greenhouse Propagator and several creatures to follow it",
+        "A single card that gains life but does nothing else"
+      ],
+      "answer": 1,
+      "reasoning": [
+        "More expensive creatures do not supply the trigger Titanbones needs, and compete for space at the top of the curve.",
+        "Propagator can gain life as creatures enter, repeatedly growing Titanbones while also contributing mana. You still need to cast and keep both creatures in play.",
+        "One isolated lifegain spell is less reliable support and may cost a card without improving your board. Look for useful cards that enable the payoff through normal play."
+      ],
+      "explanation": "Propagator can gain life as creatures enter, repeatedly growing Titanbones while also contributing mana. You still need to cast and keep both creatures in play.",
+      "basis": "authored-scenario-from-reviews-and-rules",
+      "reviewBasis": [
+        {
+          "cardId": "edea6f70-a5a7-475d-b7f2-97933d0f32cf",
+          "basisSha256": "5dd945296fd4f626ec270aebc37a92acdb6da49b47b4811087ff552101ff0324",
+          "reviewSectionIds": [
+            "draftsim:188",
+            "zone-green:31"
+          ]
+        },
+        {
+          "cardId": "a56e0f91-b128-4693-a949-53cb403f4fbf",
+          "basisSha256": "fd89aa849445ea01304ab8bebce3d786122626fc841590741c6fbe02d326fb4f",
+          "reviewSectionIds": [
+            "draftsim:169",
+            "zone-green:12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bloombrute-once",
+      "title": "Count the payoff",
+      "question": "Bloombrute already drew you a card from Greenhouse Propagator this turn. You can cast Seed Suture now, but do not need its counter for this combat. Will casting it now produce a second Bloombrute draw?",
+      "cards": [
+        "Bloombrute",
+        "Greenhouse Propagator",
+        "Emergency Phytomedic // Seed Suture"
+      ],
+      "options": [
+        "Yes, every lifegain event draws",
+        "No; the counter and life still happen, but Bloombrute has already triggered this turn",
+        "No, so the spell cannot be cast"
+      ],
+      "answer": 1,
+      "reasoning": [
+        "Bloombrute is limited to one draw trigger each turn, even if separate spells or abilities gain life.",
+        "The spell remains useful for its counter and life, but saving it for another legal casting opportunity may allow a fresh Bloombrute trigger. Do not count a second draw this turn.",
+        "The once-per-turn restriction belongs to Bloombrute, not to Seed Suture. You can cast the spell normally."
+      ],
+      "explanation": "The spell remains useful for its counter and life, but saving it for another legal casting opportunity may allow a fresh Bloombrute trigger. Do not count a second draw this turn.",
+      "basis": "authored-scenario-from-reviews-and-rules",
+      "reviewBasis": [
+        {
+          "cardId": "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8",
+          "basisSha256": "e765b3e9380fd889807840b5539dae221506d62b501a18ccc98f493b6cbd68b1",
+          "reviewSectionIds": [
+            "draftsim:198",
+            "zone-multicolor:4"
+          ]
+        },
+        {
+          "cardId": "a56e0f91-b128-4693-a949-53cb403f4fbf",
+          "basisSha256": "fd89aa849445ea01304ab8bebce3d786122626fc841590741c6fbe02d326fb4f",
+          "reviewSectionIds": [
+            "draftsim:169",
+            "zone-green:12"
+          ]
+        },
+        {
+          "cardId": "de94d388-919d-44ff-baef-8c90a417ac6d",
+          "basisSha256": "d1ca3e04e530d196f1269d9425eca700a32ecebb7dd476d0bfaa9f91d05bc5b8",
+          "reviewSectionIds": [
+            "draftsim:205",
+            "zone-multicolor:11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "restricted-ramp",
+      "title": "Plan the mana",
+      "question": "You have two untapped Forests and an untapped Heartwood Crafter that can tap. Which three-mana play can its mana help pay for?",
+      "cards": [
+        "Heartwood Crafter // Soul Tether",
+        "Compel Brutality"
+      ],
+      "options": [
+        "A three-mana creature spell from your hand",
+        "The Crafter’s prepared Soul Tether",
+        "Any green spell, regardless of where you cast it"
+      ],
+      "answer": 1,
+      "reasoning": [
+        "The mana cannot be spent to cast a spell from your hand. Treating this as an ordinary mana creature leads to incorrect curves.",
+        "A prepared spell is cast as a copy from outside your hand, so the restricted mana can pay its generic cost. Soul Tether then supplies a normal red-green mana source.",
+        "The restriction is about casting from hand, not the colour of the spell. The two Forests must still supply any required coloured mana."
+      ],
+      "explanation": "A prepared spell is cast as a copy from outside your hand, so the restricted mana can pay its generic cost. Soul Tether then supplies a normal red-green mana source.",
+      "basis": "authored-scenario-from-reviews-and-rules",
+      "reviewBasis": [
+        {
+          "cardId": "910a1f41-17fd-4ab0-9597-7151e79dc760",
+          "basisSha256": "aeea82d32e30412394388a39b78aea26d343409b52e07664bc4495c69c062d47",
+          "reviewSectionIds": [
+            "draftsim:170",
+            "zone-green:13"
+          ]
+        },
+        {
+          "cardId": "bd32d736-7a58-46b9-90b4-2cac3c3e80a1",
+          "basisSha256": "4be9327f8c287dd2eaee328a4ae750434b16fa6d3613728f0243c29a5d9eaf9a",
+          "reviewSectionIds": [
+            "draftsim:162",
+            "zone-green:5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "threshold-tradeoff",
+      "title": "Keep an engine online",
+      "question": "You have exactly seven cards in your graveyard and want Theorix Metamage to attack in the air. Before declaring attackers, you can exile a graveyard card for an unrelated effect. What should you check?",
+      "cards": [
+        "Theorix Metamage // Omit Variables",
+        "Gallia, Tragic Host"
+      ],
+      "options": [
+        "Threshold stays on once reached",
+        "Whether the exiled card is a creature; only creatures count",
+        "Whether you can return to seven cards before relying on flying"
+      ],
+      "answer": 2,
+      "reasoning": [
+        "Threshold is continuously checked, not permanently unlocked. Dropping to six removes the bonus.",
+        "All cards count toward threshold. Exiling any one of the seven drops the total to six.",
+        "Graveyard resources compete with threshold. At six cards the Metamage loses flying and its power bonus; count the resulting graveyard before planning the attack."
+      ],
+      "explanation": "Graveyard resources compete with threshold. At six cards the Metamage loses flying and its power bonus; count the resulting graveyard before planning the attack.",
+      "basis": "authored-scenario-from-reviews-and-rules",
+      "reviewBasis": [
+        {
+          "cardId": "fb6bad96-841d-4738-8e62-92f346f914fd",
+          "basisSha256": "90418cc9a2064b4ee662dc003d8bad5840f7aee8cd214e377a0c1e473f3271ca",
+          "reviewSectionIds": [
+            "draftsim:237",
+            "zone-multicolor:43"
+          ]
+        },
+        {
+          "cardId": "498fa810-8522-4020-b773-52ad404c9f65",
+          "basisSha256": "7f834726ae8321adfd02a8f9ae0cf46589fdfe854213a5696dabee6838666302",
+          "reviewSectionIds": [
+            "draftsim:88",
+            "zone-black:10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "removal-after-value",
+      "title": "Evaluate what removal leaves",
+      "question": "Your opponent casts Kiora and gets a Dragon. You can then put Memory Trap on Kiora. What does that answer leave behind?",
+      "cards": [
+        "Kiora of Fire and Ashes",
+        "Memory Trap"
+      ],
+      "options": [
+        "The existing Dragon remains, but Kiora cannot use its Dragon-making ability while trapped",
+        "The Dragon disappears when Kiora loses abilities",
+        "Memory Trap reverses Kiora’s arrival trigger"
+      ],
+      "answer": 0,
+      "reasoning": [
+        "Memory Trap shuts down future use of Kiora’s abilities. It does not remove the separate token already created, which is why arrival value makes a threat harder to answer completely.",
+        "The Dragon is an independent token, not something that lasts only while Kiora has abilities.",
+        "An already-resolved arrival trigger is not undone by later removing abilities. You still need a plan for the Dragon."
+      ],
+      "explanation": "Memory Trap shuts down future use of Kiora’s abilities. It does not remove the separate token already created, which is why arrival value makes a threat harder to answer completely.",
+      "basis": "authored-scenario-from-reviews-and-rules",
+      "reviewBasis": [
+        {
+          "cardId": "08657053-86f9-4c52-abf0-d9cdd443ae3b",
+          "basisSha256": "149eb40ae54e9324f9aafff1fdb6c495aa598a7932680024d0c4fb65bff624c7",
+          "reviewSectionIds": [
+            "draftsim:139",
+            "zone-red:22"
+          ]
+        },
+        {
+          "cardId": "2f5345ae-4489-4d05-b2d5-c71285254f05",
+          "basisSha256": "e763ef99131287fee3c139bd4a4f6bc1f89f91bf682fa9896e13adb57afe06f3",
+          "reviewSectionIds": [
+            "draftsim:21",
+            "zone-white:21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "colour-sideboard",
+      "title": "Use the sideboard",
+      "question": "After game one, you have seen only blue and black creatures and planeswalkers from your opponent. What is the reason to leave Flourishing Grapple out unless new information changes the matchup?",
+      "cards": [
+        "Flourishing Grapple"
+      ],
+      "options": [
+        "It cannot deal damage in Limited",
+        "None of the observed threats are eligible red or white targets",
+        "Sideboard cards cannot be changed between games"
+      ],
+      "answer": 1,
+      "reasoning": [
+        "It can deal damage, but only with the required creatures and an eligible opposing target.",
+        "Its colour restriction matters more than its cheap cost. Against the threats you have actually seen, it has no legal opposing target; reassess if a red or white threat appears.",
+        "Sealed sideboarding lets you adapt between games. The issue is the card’s suitability for this opponent, not a ban on changing your deck."
+      ],
+      "explanation": "Its colour restriction matters more than its cheap cost. Against the threats you have actually seen, it has no legal opposing target; reassess if a red or white threat appears.",
+      "basis": "authored-scenario-from-reviews-and-rules",
+      "reviewBasis": [
+        {
+          "cardId": "f71958e9-6d6d-4393-8b49-567103b50877",
+          "basisSha256": "a1add6845f2139b49c61ad077af7e35dbb8ecbbe12ee2448017eb545df796638",
+          "reviewSectionIds": [
+            "draftsim:165",
+            "zone-green:8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "loyalty-time",
+      "title": "Budget turns as well as counters",
+      "question": "You cast Way of the Healer and create a new Jace token with five loyalty. You use its granted minus-two ability to make a Cadet. Can you also use that Jace to draw a card this turn?",
+      "cards": [
+        "Way of the Healer"
+      ],
+      "options": [
+        "Yes, because three loyalty remains",
+        "Yes, because the two abilities have different names",
+        "No; that planeswalker has already used a loyalty ability this turn"
+      ],
+      "answer": 2,
+      "reasoning": [
+        "Enough counters pay the cost, but do not override the one-loyalty-activation-per-turn limit.",
+        "Different loyalty abilities still share the same activation limit for that planeswalker.",
+        "You must wait for a later legal activation opportunity. Protecting the Jace is part of receiving the remaining value; the enchantment does not supply every benefit immediately."
+      ],
+      "explanation": "You must wait for a later legal activation opportunity. Protecting the Jace is part of receiving the remaining value; the enchantment does not supply every benefit immediately.",
+      "basis": "authored-scenario-from-reviews-and-rules",
+      "reviewBasis": [
+        {
+          "cardId": "50326a2a-7e10-464b-a97e-e880bda0558c",
+          "basisSha256": "aa65f96c9b46a597767a602348fbf13ab2381f3fc55caddc7a5a7ef5cadbf8d6",
+          "reviewSectionIds": [
+            "draftsim:35",
+            "zone-white:35"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conditional-removal",
+      "title": "Notice removal’s dependency",
+      "question": "You need Compel Brutality to kill an opposing creature using your only creature’s power. The opponent has mana open and a removal spell could kill your creature in response. What is the risk?",
+      "cards": [
+        "Compel Brutality"
+      ],
+      "options": [
+        "The damage is guaranteed once you choose the mode",
+        "The spell needs your chosen creature to remain available to deal damage",
+        "The opponent cannot respond because this is your turn"
+      ],
+      "answer": 1,
+      "reasoning": [
+        "Choosing a mode does not lock in guaranteed damage from a creature that is removed before resolution.",
+        "If your creature is gone, it cannot deal this damage. Consider whether you can protect the source, choose the planeswalker mode if available, or wait for a safer window.",
+        "Players can normally respond to spells on either player’s turn; sorcery timing does not prevent responses."
+      ],
+      "explanation": "If your creature is gone, it cannot deal this damage. Consider whether you can protect the source, choose the planeswalker mode if available, or wait for a safer window.",
+      "basis": "authored-scenario-from-reviews-and-rules",
+      "reviewBasis": [
+        {
+          "cardId": "bd32d736-7a58-46b9-90b4-2cac3c3e80a1",
+          "basisSha256": "4be9327f8c287dd2eaee328a4ae750434b16fa6d3613728f0243c29a5d9eaf9a",
+          "reviewSectionIds": [
+            "draftsim:162",
+            "zone-green:5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "karn-sideboard",
+      "title": "Check your own deck too",
+      "question": "The opponent has strong creature arrival triggers, so you consider Karn, Argent Defender. Your deck also relies on empower arrival triggers. What is the key tradeoff?",
+      "cards": [
+        "Karn, Argent Defender",
+        "Arcane Amphisbaena"
+      ],
+      "options": [
+        "Karn stops only opposing triggers",
+        "Your own empower arrival triggers also stop while Karn is present",
+        "Karn prevents every creature from entering prepared"
+      ],
+      "answer": 1,
+      "reasoning": [
+        "Karn’s restriction applies to the battlefield, not only the opponent’s cards.",
+        "The sideboard effect is symmetrical. Weigh the opponent’s lost value against your own; entering prepared itself is not a triggered ability and is not stopped.",
+        "Entering prepared is not a triggered ability. Distinguish that wording from abilities beginning with when or whenever."
+      ],
+      "explanation": "The sideboard effect is symmetrical. Weigh the opponent’s lost value against your own; entering prepared itself is not a triggered ability and is not stopped.",
+      "basis": "authored-scenario-from-reviews-and-rules",
+      "reviewBasis": [
+        {
+          "cardId": "1ebbbddb-2dc3-4194-b72b-13bcebe2ab89",
+          "basisSha256": "1144ead68c99facf778761ee25b2e9d53c0461103377ffdfebc72befc81dd335",
+          "reviewSectionIds": [
+            "draftsim:255",
+            "zone-artifacts-and-lands:7"
+          ]
+        },
+        {
+          "cardId": "1bf923c4-f0b7-4271-978c-fd2e79fe1cc8",
+          "basisSha256": "bb416135e21d0ff3f047ffd73c1612944946daeb7b9acea703f9018b9e117417",
+          "reviewSectionIds": [
+            "draftsim:158",
+            "zone-green:1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ajani-sweep",
+      "title": "Read the exception precisely",
+      "question": "Ajani Unrelenting is in play. Both players have Cadets, and you have a nontoken creature with three toughness and no other protection. What does Ajani’s minus-three do to those creatures?",
+      "cards": [
+        "Ajani Unrelenting"
+      ],
+      "options": [
+        "Spare all tokens and damage only nontoken creatures",
+        "Spare your Cadets, but deal four to opposing Cadets and your nontoken creature",
+        "Spare all of your creatures"
+      ],
+      "answer": 1,
+      "reasoning": [
+        "The exception is tokens you control, not every token on the battlefield.",
+        "Your Cadets are exempt. Opposing tokens and your own nontoken creatures take the damage, so plan the sweep around the actual survivors.",
+        "Your nontoken creatures are not exempt. The card can produce a favourable sweep without being completely one-sided."
+      ],
+      "explanation": "Your Cadets are exempt. Opposing tokens and your own nontoken creatures take the damage, so plan the sweep around the actual survivors.",
+      "basis": "authored-scenario-from-reviews-and-rules",
+      "reviewBasis": [
+        {
+          "cardId": "bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5",
+          "basisSha256": "17af28260d674e5702ef9b0c7542a74383383b0cf72cf1edfeea256fb9cbb012",
+          "reviewSectionIds": [
+            "draftsim:118",
+            "zone-red:2"
+          ]
+        }
+      ]
+    }
+  ]
 }

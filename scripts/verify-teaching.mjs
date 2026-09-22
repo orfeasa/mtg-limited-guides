@@ -8,7 +8,7 @@ const corpus = read('data/research/fra/extraction/licensed/card-evidence.json');
 const teaching = read('data/research/fra/teaching/cards.json');
 const result = compileEarlyEvidence('data/research/fra', cards, read('data/fra_archetypes.json').archetypes.map(a=>a.id));
 assert.equal(Object.values(result.byCard).filter(c=>c.reviews.length===2).length,280);
-assert.equal(Object.values(result.byCard).filter(c=>c.teaching).length,24);
+assert.equal(Object.values(result.byCard).filter(c=>c.teaching).length,280);
 for (const item of read('data/fra_prep.json').keyCards) assert(teaching.cards.some(c=>c.name===item.card));
 const invalid = mutate => {
   const next = structuredClone(teaching); const nextCorpus = structuredClone(corpus);
@@ -17,6 +17,7 @@ const invalid = mutate => {
 };
 invalid(t=>{t.cards[0].reviewSectionIds[0]='unrelated-source';});
 invalid(t=>{t.cards[0].watch='';});
+invalid(t=>{t.cards.pop();});
 invalid(t=>{t.cards.push(t.cards[0]);});
 invalid((t,c)=>{c.cards.pop();});
 invalid((t,c)=>{c.cards.find(c=>c.cardId===t.cards[0].cardId).reviewAssessments[0].assessmentText+=' Changed source.';});
@@ -31,12 +32,12 @@ for(const c of corpus.cards) {
  assert(!html.includes('no card-specific explanation'));
  for (const a of c.reviewAssessments) assert(html.includes(a.author));
 }
-const example=corpus.cards.find(c=>!result.byCard[c.cardId].teaching);
+const example=corpus.cards[0];
 set.earlyEvidence.byCard[example.cardId].reviews[0].text='<img src=x onerror=alert(1)>';
 assert(ctx.window.EARLY_EVIDENCE.card(set,example.cardId).includes('&lt;img'));
 assert(!ctx.window.EARLY_EVIDENCE.card(set,example.cardId).includes('<img src=x'));
 assert.equal(ctx.window.EARLY_EVIDENCE.card(ctx.window.LIMITED_PREP_DATA.sets.find(s=>s.id==='hob'),'hob-1'),'');
-console.log('Verified 280 full-review presentations, 24 grounded teaching records, missing/stale-source rejection and safe source-text rendering.');
+console.log('Verified 280 full-review presentations, 280 grounded teaching records, missing/stale-source rejection and safe source-text rendering.');
 
 // Exercise the actual journey controller against its small DOM contract.
 class Node {

@@ -47,6 +47,7 @@ export function attachTeaching(result, corpus, teaching, cards) {
     assert.equal(note.basisSha256, crypto.createHash('sha256').update(basis).digest('hex'), `Stale teaching basis for ${note.name}`);
     row.teaching = note;
   }
+  assert.equal(authored.size, seen.size, "Missing all-card teaching");
   result.teaching = { version: teaching.version, reviewedAt: teaching.reviewedAt, cards: authored.size };
 }
 export function validateAndCompile(sources, synthesis, pilot, cards, archetypeIds) {
