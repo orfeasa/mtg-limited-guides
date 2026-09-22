@@ -2,6 +2,10 @@
 
 Captured 2026-09-22. Attributed source records are in `sources/`; our rules-based combination synthesis is in `synthesis.json`. The website consumes both through a validated `earlyEvidence` payload. See [coverage.md](coverage.md) for the exact boundaries and [coverage.json](coverage.json) for all 280 card joins.
 
+## Extraction-first follow-up
+
+The user has deferred further website work, including the question of a separate tab. The new [extraction workspace](extraction/README.md) indexes both written reviewers’ commentary passages for every main-set nonbasic card and preserves selected explicit relationships. It does not claim complete substantive-assessment extraction. No public assets change in this pass.
+
 ## Source register and examination scope
 
 | Source | Reviewer / dependency group | Examined and persisted |
@@ -29,7 +33,7 @@ Every one of the 280 nonbasic main-set cards has a grade from two distinct bylin
 
 Preserve the original scales. Neither a mean nor dividing by the maximum establishes comparable meanings, confidence, win rate or a pick order. No numerical consensus, empirical tier or Training unlock is produced. Reviews cover Draft or general Limited; these are not separate Sealed grades. Sealed sample selection, repeated decks, unknown hands and automatic-caption errors preclude causal strength claims. An unobserved card has missing gameplay evidence, not a low score.
 
-## Website presentation
+## Existing website presentation — further decisions deferred
 
 Primary task: learn the set before an event. Keep existing tabs.
 

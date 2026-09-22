@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "status": "research-only",
+  "selection": "Selected explicit relationships, not complete narrative extraction. Types describe the reviewer claim, not a verified performance effect.",
+  "records": [
+    {
+      "id": "review-relation-01",
+      "sourceId": "draftsim",
+      "passageId": "draftsim:5:p1",
+      "relationshipType": "synergy",
+      "cardIds": [
+        "d5cb9810-3c2d-4ae4-b8b6-0155ca3f47ad",
+        "50a0e5f0-3c39-4f16-9a73-eec8ef71f12e"
+      ],
+      "paraphrase": "Targeting-spell support improves Danitha; equipment density is limited.",
+      "status": "passage-read",
+      "evidenceType": "reviewer-opinion",
+      "gameplayVerified": false
+    },
+    {
+      "id": "review-relation-02",
+      "sourceId": "draftsim",
+      "passageId": "draftsim:11:p1",
+      "relationshipType": "conditional-build-around",
+      "cardIds": [
+        "a9f3aa55-908f-42db-8135-4201433df850",
+        "5d4a8e5f-0024-4da3-a2f5-edb48b12e733"
+      ],
+      "paraphrase": "Large-toughness support suggested; baseline cost criticized.",
+      "status": "passage-read",
+      "evidenceType": "reviewer-opinion",
+      "gameplayVerified": false
+    },
+    {
+      "id": "review-relation-03",
+      "sourceId": "zone-artifacts-and-lands",
+      "passageId": "zone-artifacts-and-lands:3:p1",
+      "relationshipType": "comparison",
+      "cardIds": [
+        "024bce1e-a5f3-4292-bc17-d0355a5d65e1",
+        "4d4b3bf7-a149-4099-b97d-4e36a87dfa60"
+      ],
+      "paraphrase": "Both criticized for their rate.",
+      "status": "passage-read",
+      "evidenceType": "reviewer-opinion",
+      "gameplayVerified": false
+    },
+    {
+      "id": "review-relation-04",
+      "sourceId": "zone-artifacts-and-lands",
+      "passageId": "zone-artifacts-and-lands:3:p2",
+      "relationshipType": "answer-target",
+      "cardIds": [
+        "024bce1e-a5f3-4292-bc17-d0355a5d65e1",
+        "2f5345ae-4489-4d05-b2d5-c71285254f05"
+      ],
+      "paraphrase": "Trap identified as a removal target.",
+      "status": "passage-read",
+      "evidenceType": "reviewer-opinion",
+      "gameplayVerified": false
+    },
+    {
+      "id": "review-relation-05",
+      "sourceId": "zone-artifacts-and-lands",
+      "passageId": "zone-artifacts-and-lands:16:p1",
+      "relationshipType": "shared-cost",
+      "cardIds": [
+        "9128ce00-6744-4d36-bfbe-ef75d78110b0",
+        "4a771010-b397-4849-ac9b-08e4dd5d6a72"
+      ],
+      "paraphrase": "Both require accepting a colourless land slot.",
+      "status": "passage-read",
+      "evidenceType": "reviewer-opinion",
+      "gameplayVerified": false
+    },
+    {
+      "id": "review-relation-06",
+      "sourceId": "zone-black",
+      "passageId": "zone-black:6:p2",
+      "relationshipType": "support-requirement",
+      "cardIds": [
+        "4ec912d5-cbe7-4d07-9ece-b03ac02d3055",
+        "498fa810-8522-4020-b773-52ad404c9f65"
+      ],
+      "paraphrase": "Graveyard payoffs needed; milling alone insufficient.",
+      "status": "passage-read",
+      "evidenceType": "reviewer-opinion",
+      "gameplayVerified": false
+    },
+    {
+      "id": "review-relation-07",
+      "sourceId": "zone-black",
+      "passageId": "zone-black:7:p1",
+      "relationshipType": "enabler",
+      "cardIds": [
+        "ec454979-3839-4be3-a34a-9d25482948ba",
+        "f1d274db-751b-4414-a38d-762198168e91"
+      ],
+      "paraphrase": "Sacrifice spell enables the precombat death requirement.",
+      "status": "passage-read",
+      "evidenceType": "reviewer-opinion",
+      "gameplayVerified": false
+    },
+    {
+      "id": "review-relation-08",
+      "sourceId": "zone-black",
+      "passageId": "zone-black:38:p4",
+      "relationshipType": "vulnerability",
+      "cardIds": [
+        "9670f754-f41f-45ac-8e8b-025ad2c0f66b",
+        "2381d123-d8c7-4822-98fe-b1c365beb5ed",
+        "11ba4fdd-cc03-4bb6-a493-91a9785771d0"
+      ],
+      "paraphrase": "Growth does not remove vulnerability to these answers.",
+      "status": "passage-read",
+      "evidenceType": "reviewer-opinion",
+      "gameplayVerified": false
+    },
+    {
+      "id": "review-relation-09",
+      "sourceId": "zone-blue",
+      "passageId": "zone-blue:10:p2",
+      "relationshipType": "counterplay",
+      "cardIds": [
+        "85faaa9d-4656-4365-871d-7cba53ed0996",
+        "a5988272-faaa-463d-a0a1-a8e96b946bad"
+      ],
+      "paraphrase": "Untapping can restore an enchanted creature’s use.",
+      "status": "passage-read",
+      "evidenceType": "reviewer-opinion",
+      "gameplayVerified": false
+    },
+    {
+      "id": "review-relation-10",
+      "sourceId": "zone-blue",
+      "passageId": "zone-blue:26:p2",
+      "relationshipType": "vulnerability",
+      "cardIds": [
+        "08ffbd51-2bd3-4262-8809-09576ce2b6f5",
+        "a5988272-faaa-463d-a0a1-a8e96b946bad",
+        "2f5345ae-4489-4d05-b2d5-c71285254f05"
+      ],
+      "paraphrase": "Nonlethal answers avoid having to kill it twice.",
+      "status": "passage-read",
+      "evidenceType": "reviewer-opinion",
+      "gameplayVerified": false
+    },
+    {
+      "id": "review-relation-11",
+      "sourceId": "zone-green",
+      "passageId": "zone-green:1:p1",
+      "relationshipType": "synergy",
+      "cardIds": [
+        "1bf923c4-f0b7-4271-978c-fd2e79fe1cc8",
+        "bd32d736-7a58-46b9-90b4-2cac3c3e80a1"
+      ],
+      "paraphrase": "Deathtouch supports its creature-damage mode.",
+      "status": "passage-read",
+      "evidenceType": "reviewer-opinion",
+      "gameplayVerified": false
+    },
+    {
+      "id": "review-relation-12",
+      "sourceId": "zone-green",
+      "passageId": "zone-green:22:p2",
+      "relationshipType": "tutor-target",
+      "cardIds": [
+        "ff0bc30f-9d20-458e-808f-bdc2825905a5",
+        "2f5345ae-4489-4d05-b2d5-c71285254f05",
+        "a5988272-faaa-463d-a0a1-a8e96b946bad"
+      ],
+      "paraphrase": "These enchantments are suggested tutor targets.",
+      "status": "passage-read",
+      "evidenceType": "reviewer-opinion",
+      "gameplayVerified": false
+    },
+    {
+      "id": "review-relation-13",
+      "sourceId": "zone-green",
+      "passageId": "zone-green:29:p3",
+      "relationshipType": "enabler",
+      "cardIds": [
+        "8be5ee47-8f8a-4e3c-b1a1-9ca0e1fdec7f",
+        "02ee7817-40af-4fcf-a2df-eb218b669281"
+      ],
+      "paraphrase": "Graveyard stocking accelerates growth.",
+      "status": "passage-read",
+      "evidenceType": "reviewer-opinion",
+      "gameplayVerified": false
+    },
+    {
+      "id": "review-relation-14",
+      "sourceId": "zone-multicolor",
+      "passageId": "zone-multicolor:22:p1",
+      "relationshipType": "relative-evaluation",
+      "cardIds": [
+        "7d29dfa1-9582-47bc-8f42-62b611bdcc4e",
+        "cfc54011-647e-4428-bcdb-59400e1da49d"
+      ],
+      "paraphrase": "Fatehold preferred.",
+      "status": "passage-read",
+      "evidenceType": "reviewer-opinion",
+      "gameplayVerified": false
+    },
+    {
+      "id": "review-relation-15",
+      "sourceId": "zone-red",
+      "passageId": "zone-red:7:p4",
+      "relationshipType": "relative-evaluation",
+      "cardIds": [
+        "40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd",
+        "20bb8c55-4b0b-425f-8201-b54fa2fdde86",
+        "bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5"
+      ],
+      "paraphrase": "The latter two combine protection and advantage.",
+      "status": "passage-read",
+      "evidenceType": "reviewer-opinion",
+      "gameplayVerified": false
+    },
+    {
+      "id": "review-relation-16",
+      "sourceId": "zone-red",
+      "passageId": "zone-red:9:p3",
+      "relationshipType": "enabler",
+      "cardIds": [
+        "f3307da2-6dad-4ef2-9614-a7d34f38088e",
+        "eb4b6ed8-782e-4473-abc9-d50bf2275c6a"
+      ],
+      "paraphrase": "Drain supplies an additional trigger.",
+      "status": "passage-read",
+      "evidenceType": "reviewer-opinion",
+      "gameplayVerified": false
+    }
+  ]
+}

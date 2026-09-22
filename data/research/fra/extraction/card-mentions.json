@@ -1,0 +1,363 @@
+{
+  "status": "research-only",
+  "warning": "These are literal card references, not inferred synergies, matchups, or recommendations.",
+  "records": [
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:5:p1",
+      "subjectCardId": "d5cb9810-3c2d-4ae4-b8b6-0155ca3f47ad",
+      "mentionedCardId": "50a0e5f0-3c39-4f16-9a73-eec8ef71f12e",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:11:p1",
+      "subjectCardId": "a9f3aa55-908f-42db-8135-4201433df850",
+      "mentionedCardId": "5d4a8e5f-0024-4da3-a2f5-edb48b12e733",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:35:p2",
+      "subjectCardId": "50326a2a-7e10-464b-a97e-e880bda0558c",
+      "mentionedCardId": "6047b14c-91d5-4f8e-af3f-057a541e2546",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:41:p1",
+      "subjectCardId": "240f58ab-944c-4f4c-9df9-5f40b132bf3e",
+      "mentionedCardId": "40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:53:p1",
+      "subjectCardId": "282588b9-3656-453b-aa25-2419e078ddc1",
+      "mentionedCardId": "a252cb01-537b-4afe-9abc-81a98c4a1439",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:60:p1",
+      "subjectCardId": "a08c7ec2-4c6a-4db2-85a7-41afe8731523",
+      "mentionedCardId": "282588b9-3656-453b-aa25-2419e078ddc1",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:77:p1",
+      "subjectCardId": "f45ba926-6496-4bd4-96eb-663946d56bbf",
+      "mentionedCardId": "a9f3aa55-908f-42db-8135-4201433df850",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:80:p1",
+      "subjectCardId": "4fcc913e-f736-460a-b24b-022fa2e861b9",
+      "mentionedCardId": "f1d274db-751b-4414-a38d-762198168e91",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:85:p1",
+      "subjectCardId": "ec454979-3839-4be3-a34a-9d25482948ba",
+      "mentionedCardId": "f1d274db-751b-4414-a38d-762198168e91",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:85:p1",
+      "subjectCardId": "ec454979-3839-4be3-a34a-9d25482948ba",
+      "mentionedCardId": "9670f754-f41f-45ac-8e8b-025ad2c0f66b",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:94:p1",
+      "subjectCardId": "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff",
+      "mentionedCardId": "8d754b96-5e44-45af-9c7a-b0da59fbe4c3",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:94:p1",
+      "subjectCardId": "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff",
+      "mentionedCardId": "2381d123-d8c7-4822-98fe-b1c365beb5ed",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:94:p1",
+      "subjectCardId": "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff",
+      "mentionedCardId": "d48bfb8a-d135-45f3-be99-4694b4b9ab93",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:102:p1",
+      "subjectCardId": "453cfde7-c460-4b55-9472-b714e16f24bb",
+      "mentionedCardId": "cd56f047-6bdc-4e83-8a7c-923ebad26302",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:111:p1",
+      "subjectCardId": "2f47ddf7-35b6-4205-8045-f057914c5f64",
+      "mentionedCardId": "4ff6da82-d7dd-4b59-b7e6-30670cea7169",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:114:p1",
+      "subjectCardId": "12dd46b2-e892-4660-b120-55766fd4d878",
+      "mentionedCardId": "4ff6da82-d7dd-4b59-b7e6-30670cea7169",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:120:p1",
+      "subjectCardId": "bd8db649-1dba-457d-8327-e1f1da1aab36",
+      "mentionedCardId": "04c816fb-5951-4db1-8834-ed3f0b36bfe1",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:129:p1",
+      "subjectCardId": "112f8478-bd89-4a14-9721-8ab750613129",
+      "mentionedCardId": "dd3faaf4-45ca-4714-8dbe-37102ec131cf",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:129:p1",
+      "subjectCardId": "112f8478-bd89-4a14-9721-8ab750613129",
+      "mentionedCardId": "f3869752-eade-4e7a-8dd1-68cafb9e10be",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:147:p1",
+      "subjectCardId": "ba920f23-f05c-410e-8516-c93abedf1d4d",
+      "mentionedCardId": "f27d50f0-d76e-4ce1-a8d9-d997af6a5b41",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:165:p1",
+      "subjectCardId": "f71958e9-6d6d-4393-8b49-567103b50877",
+      "mentionedCardId": "bd32d736-7a58-46b9-90b4-2cac3c3e80a1",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:170:p1",
+      "subjectCardId": "910a1f41-17fd-4ab0-9597-7151e79dc760",
+      "mentionedCardId": "c1a00020-7c14-4503-a057-5763704bb83e",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:192:p2",
+      "subjectCardId": "a252cb01-537b-4afe-9abc-81a98c4a1439",
+      "mentionedCardId": "74087795-0b38-4fd2-9841-147583baca41",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:192:p2",
+      "subjectCardId": "a252cb01-537b-4afe-9abc-81a98c4a1439",
+      "mentionedCardId": "8151f5f5-e9f6-4fbe-b543-f456ebf22aa5",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:214:p1",
+      "subjectCardId": "3abcae65-5b21-4c98-adad-34b8bc76ea3a",
+      "mentionedCardId": "c63d5b0e-ee72-42ed-aa7e-484ba84507cd",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:214:p1",
+      "subjectCardId": "3abcae65-5b21-4c98-adad-34b8bc76ea3a",
+      "mentionedCardId": "a349800f-b634-4e74-a9d9-185df37ad909",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:224:p1",
+      "subjectCardId": "cf0eec8c-0475-4050-8144-481a9bb13a0f",
+      "mentionedCardId": "986f9e98-9d8d-428b-9187-860745cf3269",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:224:p1",
+      "subjectCardId": "cf0eec8c-0475-4050-8144-481a9bb13a0f",
+      "mentionedCardId": "07572be0-6610-493c-a21e-14b78e9805c9",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "draftsim",
+      "passageId": "draftsim:244:p1",
+      "subjectCardId": "f3869752-eade-4e7a-8dd1-68cafb9e10be",
+      "mentionedCardId": "28d84ef6-e190-46d4-882d-1cea5e111e2a",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-artifacts-and-lands",
+      "passageId": "zone-artifacts-and-lands:3:p1",
+      "subjectCardId": "024bce1e-a5f3-4292-bc17-d0355a5d65e1",
+      "mentionedCardId": "4d4b3bf7-a149-4099-b97d-4e36a87dfa60",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-artifacts-and-lands",
+      "passageId": "zone-artifacts-and-lands:3:p2",
+      "subjectCardId": "024bce1e-a5f3-4292-bc17-d0355a5d65e1",
+      "mentionedCardId": "2f5345ae-4489-4d05-b2d5-c71285254f05",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-artifacts-and-lands",
+      "passageId": "zone-artifacts-and-lands:16:p1",
+      "subjectCardId": "9128ce00-6744-4d36-bfbe-ef75d78110b0",
+      "mentionedCardId": "4a771010-b397-4849-ac9b-08e4dd5d6a72",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-artifacts-and-lands",
+      "passageId": "zone-artifacts-and-lands:16:p2",
+      "subjectCardId": "9128ce00-6744-4d36-bfbe-ef75d78110b0",
+      "mentionedCardId": "4a771010-b397-4849-ac9b-08e4dd5d6a72",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-black",
+      "passageId": "zone-black:6:p2",
+      "subjectCardId": "4ec912d5-cbe7-4d07-9ece-b03ac02d3055",
+      "mentionedCardId": "498fa810-8522-4020-b773-52ad404c9f65",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-black",
+      "passageId": "zone-black:7:p1",
+      "subjectCardId": "ec454979-3839-4be3-a34a-9d25482948ba",
+      "mentionedCardId": "f1d274db-751b-4414-a38d-762198168e91",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-black",
+      "passageId": "zone-black:38:p4",
+      "subjectCardId": "9670f754-f41f-45ac-8e8b-025ad2c0f66b",
+      "mentionedCardId": "2381d123-d8c7-4822-98fe-b1c365beb5ed",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-black",
+      "passageId": "zone-black:38:p4",
+      "subjectCardId": "9670f754-f41f-45ac-8e8b-025ad2c0f66b",
+      "mentionedCardId": "11ba4fdd-cc03-4bb6-a493-91a9785771d0",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-blue",
+      "passageId": "zone-blue:10:p2",
+      "subjectCardId": "85faaa9d-4656-4365-871d-7cba53ed0996",
+      "mentionedCardId": "a5988272-faaa-463d-a0a1-a8e96b946bad",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-blue",
+      "passageId": "zone-blue:26:p2",
+      "subjectCardId": "08ffbd51-2bd3-4262-8809-09576ce2b6f5",
+      "mentionedCardId": "2f5345ae-4489-4d05-b2d5-c71285254f05",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-blue",
+      "passageId": "zone-blue:26:p2",
+      "subjectCardId": "08ffbd51-2bd3-4262-8809-09576ce2b6f5",
+      "mentionedCardId": "a5988272-faaa-463d-a0a1-a8e96b946bad",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-green",
+      "passageId": "zone-green:1:p1",
+      "subjectCardId": "1bf923c4-f0b7-4271-978c-fd2e79fe1cc8",
+      "mentionedCardId": "bd32d736-7a58-46b9-90b4-2cac3c3e80a1",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-green",
+      "passageId": "zone-green:22:p2",
+      "subjectCardId": "ff0bc30f-9d20-458e-808f-bdc2825905a5",
+      "mentionedCardId": "2f5345ae-4489-4d05-b2d5-c71285254f05",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-green",
+      "passageId": "zone-green:22:p2",
+      "subjectCardId": "ff0bc30f-9d20-458e-808f-bdc2825905a5",
+      "mentionedCardId": "a5988272-faaa-463d-a0a1-a8e96b946bad",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-green",
+      "passageId": "zone-green:29:p3",
+      "subjectCardId": "8be5ee47-8f8a-4e3c-b1a1-9ca0e1fdec7f",
+      "mentionedCardId": "02ee7817-40af-4fcf-a2df-eb218b669281",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-multicolor",
+      "passageId": "zone-multicolor:22:p1",
+      "subjectCardId": "7d29dfa1-9582-47bc-8f42-62b611bdcc4e",
+      "mentionedCardId": "cfc54011-647e-4428-bcdb-59400e1da49d",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-multicolor",
+      "passageId": "zone-multicolor:42:p1",
+      "subjectCardId": "2835c9aa-0904-44db-8da2-e8c4e04201aa",
+      "mentionedCardId": "7d29dfa1-9582-47bc-8f42-62b611bdcc4e",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-red",
+      "passageId": "zone-red:7:p4",
+      "subjectCardId": "40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd",
+      "mentionedCardId": "20bb8c55-4b0b-425f-8201-b54fa2fdde86",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-red",
+      "passageId": "zone-red:7:p4",
+      "subjectCardId": "40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd",
+      "mentionedCardId": "bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-red",
+      "passageId": "zone-red:9:p3",
+      "subjectCardId": "f3307da2-6dad-4ef2-9614-a7d34f38088e",
+      "mentionedCardId": "eb4b6ed8-782e-4473-abc9-d50bf2275c6a",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-red",
+      "passageId": "zone-red:25:p2",
+      "subjectCardId": "4404d9d4-9cdd-4dad-a4f6-574d90db5052",
+      "mentionedCardId": "738667a1-c184-43ea-829f-49fbb69b6fc0",
+      "relationshipType": "unclassified-mention"
+    },
+    {
+      "sourceId": "zone-red",
+      "passageId": "zone-red:38:p2",
+      "subjectCardId": "6d86e410-20c4-4248-96bf-5780ece6274a",
+      "mentionedCardId": "11ba4fdd-cc03-4bb6-a493-91a9785771d0",
+      "relationshipType": "unclassified-mention"
+    }
+  ]
+}
