@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-21T09:53:21.630070+00:00",
+  "generatedAt": "2026-09-22T07:47:21.546512+00:00",
   "title": "Design System: Limited Field Guides",
   "extensions": {
     "brandAssets": {
@@ -19,57 +19,156 @@
       "hobbit-binding": {
         "role": "neutral",
         "displayName": "Forest Cloth",
-        "tonalRamp": ["#0d1712", "#16271f", "#263c31", "#3d5a49", "#607668", "#89998e", "#c0cbc3", "#eef2ef"]
+        "tonalRamp": [
+          "#0d1712",
+          "#16271f",
+          "#263c31",
+          "#3d5a49",
+          "#607668",
+          "#89998e",
+          "#c0cbc3",
+          "#eef2ef"
+        ]
       },
       "hobbit-surface": {
         "role": "neutral",
         "displayName": "Map Leaf",
-        "tonalRamp": ["#211e16", "#403a2b", "#746a50", "#a79a77", "#d7c6a0", "#eee4ca", "#f8f2df", "#fffdf7"]
+        "tonalRamp": [
+          "#211e16",
+          "#403a2b",
+          "#746a50",
+          "#a79a77",
+          "#d7c6a0",
+          "#eee4ca",
+          "#f8f2df",
+          "#fffdf7"
+        ]
       },
       "hobbit-accent": {
         "role": "primary",
         "displayName": "Oxblood Route",
-        "tonalRamp": ["#27100c", "#4b2017", "#773224", "#a44832", "#bd6c57", "#d69b8b", "#ebcac2", "#faeeeb"]
+        "tonalRamp": [
+          "#27100c",
+          "#4b2017",
+          "#773224",
+          "#a44832",
+          "#bd6c57",
+          "#d69b8b",
+          "#ebcac2",
+          "#faeeeb"
+        ]
       },
       "hobbit-metal-light": {
         "role": "secondary",
         "displayName": "Brass Page Flag",
-        "tonalRamp": ["#2a220f", "#51431f", "#846d35", "#b48c43", "#d9bd74", "#e7d69f", "#f2e8c8", "#fcf8ec"]
+        "tonalRamp": [
+          "#2a220f",
+          "#51431f",
+          "#846d35",
+          "#b48c43",
+          "#d9bd74",
+          "#e7d69f",
+          "#f2e8c8",
+          "#fcf8ec"
+        ]
       },
       "hobbit-signal": {
         "role": "tertiary",
         "displayName": "River Blue",
-        "tonalRamp": ["#101d20", "#22383e", "#35545c", "#466c75", "#688993", "#94abb1", "#c5d2d5", "#eef4f5"]
+        "tonalRamp": [
+          "#101d20",
+          "#22383e",
+          "#35545c",
+          "#466c75",
+          "#688993",
+          "#94abb1",
+          "#c5d2d5",
+          "#eef4f5"
+        ]
       },
       "fracture-binding": {
         "role": "neutral",
         "displayName": "Ink Indigo Binding",
-        "tonalRamp": ["#090914", "#171426", "#27223a", "#39304f", "#594d72", "#7e7396", "#b5aec5", "#f1eff5"]
+        "tonalRamp": [
+          "#090914",
+          "#171426",
+          "#27223a",
+          "#39304f",
+          "#594d72",
+          "#7e7396",
+          "#b5aec5",
+          "#f1eff5"
+        ]
       },
       "fracture-surface": {
         "role": "neutral",
         "displayName": "Cool Dossier Paper",
-        "tonalRamp": ["#151722", "#2b2e3c", "#4a5063", "#6d7488", "#9aa3b4", "#cbd3e0", "#e5e9f1", "#f5f7fb"]
+        "tonalRamp": [
+          "#151722",
+          "#2b2e3c",
+          "#4a5063",
+          "#6d7488",
+          "#9aa3b4",
+          "#cbd3e0",
+          "#e5e9f1",
+          "#f5f7fb"
+        ]
       },
       "fracture-accent": {
         "role": "primary",
         "displayName": "Fracture Violet",
-        "tonalRamp": ["#160b31", "#2a1658", "#4c2a9e", "#7147d5", "#8f6fe1", "#ae97e9", "#d3c7f3", "#f1edfb"]
+        "tonalRamp": [
+          "#160b31",
+          "#2a1658",
+          "#4c2a9e",
+          "#7147d5",
+          "#8f6fe1",
+          "#ae97e9",
+          "#d3c7f3",
+          "#f1edfb"
+        ]
       },
       "fracture-metal": {
         "role": "secondary",
         "displayName": "Electric Pink",
-        "tonalRamp": ["#33101a", "#5a2030", "#8f3c53", "#d15f79", "#df8197", "#eaa9b7", "#f4d0d8", "#fceff2"]
+        "tonalRamp": [
+          "#33101a",
+          "#5a2030",
+          "#8f3c53",
+          "#d15f79",
+          "#df8197",
+          "#eaa9b7",
+          "#f4d0d8",
+          "#fceff2"
+        ]
       },
       "fracture-metal-light": {
         "role": "secondary",
         "displayName": "Electric Cyan",
-        "tonalRamp": ["#062d32", "#0c5059", "#147984", "#159caf", "#38bdc9", "#6be0ed", "#a9eef4", "#e8fbfd"]
+        "tonalRamp": [
+          "#062d32",
+          "#0c5059",
+          "#147984",
+          "#159caf",
+          "#38bdc9",
+          "#6be0ed",
+          "#a9eef4",
+          "#e8fbfd"
+        ]
       },
       "fracture-signal": {
         "role": "tertiary",
         "displayName": "Signal Cyan",
-        "tonalRamp": ["#06262b", "#0b444c", "#106a76", "#159caf", "#35b9c7", "#6dd5df", "#acecf1", "#e9fafb"]
+        "tonalRamp": [
+          "#06262b",
+          "#0b444c",
+          "#106a76",
+          "#159caf",
+          "#35b9c7",
+          "#6dd5df",
+          "#acecf1",
+          "#e9fafb"
+        ]
       },
       "tier-pending": {
         "role": "primary",
@@ -364,16 +463,16 @@
     {
       "name": "Atlas Card Row",
       "kind": "card",
-      "description": "Mana cost and card name form the main line, with smaller type text beneath and rarity retained. Missing metadata is omitted.",
-      "html": "<button class=\"ds-atlas-card\" type=\"button\"><span class=\"ds-atlas-image\">CARD</span><span><strong>An Unexpected Party</strong><small><em>A-</em></small></span></button>",
-      "css": ".ds-atlas-card { display:grid; grid-template-columns:64px minmax(0,1fr); align-items:center; gap:12px; min-height:112px; padding:11px 5px; color:var(--ink); text-align:left; background:transparent; border:0; border-bottom:1px solid var(--line); font-family:var(--body); cursor:pointer; } .ds-atlas-card:hover { background:color-mix(in srgb,var(--surface-light) 68%,transparent); } .ds-atlas-card:focus-visible { outline:3px solid var(--focus); outline-offset:3px; } .ds-atlas-image { display:grid; place-items:center; width:64px; aspect-ratio:125.3/176.4; color:var(--muted); background:var(--surface-deep); border-radius:4px; box-shadow:0 5px 13px rgba(8,9,16,.2); font-size:.58rem; font-weight:700; } .ds-atlas-card > span:last-child { display:grid; gap:4px; min-width:0; } .ds-atlas-card b { color:#254a5b; font:700 1.2rem/1 var(--display); } .ds-atlas-card strong { font-size:.9rem; } .ds-atlas-card small { color:var(--muted); font-size:.68rem; } .ds-atlas-card em { display:inline-grid; place-items:center; min-width:34px; min-height:24px; margin-right:5px; color:#fff; background:#a55d40; border-radius:999px; font-style:normal; font-weight:700; }"
+      "description": "Compact thumbnail rows show mana cost and name, full type line, and rarity or verified tier; selecting a card opens its readable image in place.",
+      "html": "<button class=\"ds-atlas-card\" type=\"button\"><span class=\"ds-atlas-image\">CARD</span><span><strong>Academic Ascent</strong><span class=\"ds-atlas-type\">Instant</span><small>Common</small></span></button>",
+      "css": ".ds-atlas-card { display:grid; grid-template-columns:64px minmax(0,1fr); align-items:center; gap:12px; min-height:112px; padding:11px 5px; color:var(--ink); text-align:left; background:transparent; border:0; border-bottom:1px solid var(--line); font-family:var(--body); cursor:pointer; } .ds-atlas-card:hover { background:color-mix(in srgb,var(--surface-light) 68%,transparent); } .ds-atlas-card:focus-visible { outline:3px solid var(--focus); outline-offset:3px; } .ds-atlas-image { display:grid; place-items:center; width:64px; aspect-ratio:125.3/176.4; color:var(--muted); background:var(--surface-deep); border-radius:4px; box-shadow:0 5px 13px rgba(8,9,16,.2); font-size:.58rem; font-weight:700; } .ds-atlas-card > span:last-child { display:grid; gap:4px; min-width:0; } .ds-atlas-card b { color:#254a5b; font:700 1.2rem/1 var(--display); } .ds-atlas-card strong { font-size:1rem;line-height:1.3; } .ds-atlas-card small { color:var(--muted); font-size:.68rem; } .ds-atlas-card em { display:inline-grid; place-items:center; min-width:34px; min-height:24px; margin-right:5px; color:#fff; background:#a55d40; border-radius:999px; font-style:normal; font-weight:700; } .ds-atlas-type { display:block; margin-top:6px; color:var(--muted); font-size:.8rem; line-height:1.35; }"
     },
     {
       "name": "Card Browser Controls",
       "kind": "input",
-      "description": "Independent name, colour, type and rarity filters, a single grouping level, and a separate sort order; responsive native controls use the active set theme.",
-      "html": "<label class=\"ds-atlas-label\">Find a card<input class=\"ds-atlas-input\" type=\"search\" placeholder=\"Search card names\"></label>",
-      "css": ".ds-atlas-label { display: flex; flex-direction: column; gap: 6px; color: var(--ink); font-size: .85rem; } .ds-atlas-input { min-height: 44px; padding: 10px 12px; border: 1px solid var(--line); border-radius: var(--control-radius); background: var(--surface-light); color: var(--ink); } .ds-atlas-input:hover { border-color: var(--ink); } .ds-atlas-input:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }"
+      "description": "Independent name, colour, type and rarity filters; grouping; mana value, name, rarity or verified rating sorting; and locally remembered Compact or Large card size. Large uses four desktop columns, two below 860px, and one below 700px.",
+      "html": "<div class=\"ds-atlas-controls\"><label class=\"ds-atlas-label\">Group by<select class=\"ds-atlas-input\"><option>Colour</option><option>Creatures / non-creatures</option><option>Rarity</option><option>None</option></select></label><label class=\"ds-atlas-label\">Sort by<select class=\"ds-atlas-input\"><option>Mana value</option><option>Name</option><option>Rarity</option></select></label><label class=\"ds-atlas-label\">Card size<select class=\"ds-atlas-input\"><option>Compact</option><option>Large</option></select></label></div>",
+      "css": ".ds-atlas-label { display: flex; flex-direction: column; gap: 6px; color: var(--ink); font-size: .85rem; } .ds-atlas-input { min-height: 44px; padding: 10px 12px; border: 1px solid var(--line); border-radius: var(--control-radius); background: var(--surface-light); color: var(--ink); } .ds-atlas-input:hover { border-color: var(--ink); } .ds-atlas-input:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; } .ds-atlas-controls { display:flex; flex-wrap:wrap; gap:16px; } .ds-atlas-controls .ds-atlas-label { flex:1 1 160px; }"
     }
   ],
   "narrative": {
@@ -428,7 +527,7 @@
       },
       {
         "name": "The Stable-Shell Rule",
-        "body": "Training and All cards retain their order and behaviour across sets. Archetypes may appear after Training only with its official map and both format observations; Draft decisions may appear after it only with grounded pack-and-pool evidence.",
+        "body": "Follow `docs/set-lifecycle.md`. Show only useful modes in the order Training, Prerelease prep, Archetypes, Draft decisions, card browser. Training requires complete attributable ratings; prep requires the confirmed full file and a published guide whose publication date has arrived; Archetypes requires the verified full file and authored plans. The browser is Previews while reveals are incomplete and All cards once the full file is confirmed. Default to Training, then published prep, then Archetypes, then browsing according to availability. Prep remains available after ratings arrive.",
         "section": "layout"
       },
       {
