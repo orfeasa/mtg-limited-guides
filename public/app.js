@@ -1437,7 +1437,7 @@
     const option = document.createElement("option");
     option.value = set.id;
     const state = window.SET_LIFECYCLE.resolve(set);
-    option.textContent = `${set.name}${!state.complete ? " · previews" : !state.released ? " · full reveal" : ""}`;
+    option.textContent = `${set.name}${!state.complete ? " · previews" : ""}`;
     return option;
   }));
 
