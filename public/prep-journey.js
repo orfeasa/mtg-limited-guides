@@ -6,7 +6,7 @@
     { id: 'cards', title: 'Recognise important cards', sections: ['prep-cards'] },
     { id: 'connections', title: 'Find cards that work together', sections: ['prep-combinations', 'prep-colours'] },
     { id: 'interaction', title: 'Prepare for opposing plays', sections: ['prep-play-around'] },
-    { id: 'practice', title: 'Check what you remember', sections: ['prep-practice', 'prep-checklist'] },
+    { id: 'practice', title: 'Check what you remember', sections: ['prep-practice'] },
   ];
   const ids = steps.map(s => s.id);
   const clean = value => ({
@@ -85,7 +85,7 @@
     };
     // Retain incoming guide anchors and browser Back/Forward between lessons.
     const applyHash = () => {
-      const section = location.hash.slice(1);
+      const section = location.hash === '#prep-checklist' ? 'prep-practice' : location.hash.slice(1);
       const step = steps.find(s => s.sections.includes(section));
       if (step) { move(step.id, false, false); focusLesson(section); }
     };

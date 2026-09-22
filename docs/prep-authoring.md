@@ -62,3 +62,6 @@ Author concise teaching in `data/research/<set>/teaching/cards.json`, with both 
 Card details share these takeaways with the prep rows. Card memory reveals selected strategic context only after an answer. Related cards open in the same dialog with a return control that restores the preceding card's disclosure state and scroll position. The research corpus is preserved independently of the public teaching selection.
 
 For additive guide updates that preserve all existing question IDs, answers and checklist meanings, retain `progressRevision` while advancing `authoredAt`. Changed meanings must advance the progress revision. The September 22 update keeps the September 20 namespace so existing checks and answers survive the three added questions.
+
+
+The normal Sealed/Draft prep path omits the “Before your first game” checklist: this surface is for learning before the event. The final lesson contains practice only. Old checklist anchors open practice, and stored answers keep their existing namespace. The separate Two-Headed Giant “Build two decks together” section remains in its team guide.
