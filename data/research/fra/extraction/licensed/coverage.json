@@ -1,0 +1,63 @@
+{
+  "set": "FRA",
+  "capturedAt": "2026-09-22",
+  "cards": 280,
+  "cardsWithTwoFullReviewTexts": 280,
+  "cardsWithTwoIndividualPassages": 265,
+  "cardsUsingCyclePassages": 15,
+  "cardReviewerAssessments": 560,
+  "uniqueReviewSections": 534,
+  "reviewParagraphs": 1117,
+  "writtenDocuments": 8,
+  "writtenReviewerGroups": [
+    "andrew-quinn",
+    "j2sjosh"
+  ],
+  "articleTextBlocks": 2516,
+  "additionalSpecialGuestReviews": 10,
+  "transcriptSources": 4,
+  "captionSegments": 6543,
+  "exactTranscriptMentions": 156,
+  "cardsWithExactTranscriptMentions": 70,
+  "videos": [
+    {
+      "sourceId": "nicolai-guide",
+      "segments": 1280,
+      "firstCaptionStartSeconds": 0,
+      "lastCaptionStartSeconds": 2064,
+      "videoDurationSeconds": 2068,
+      "tailSeconds": 4
+    },
+    {
+      "sourceId": "llu261",
+      "segments": 999,
+      "firstCaptionStartSeconds": 0,
+      "lastCaptionStartSeconds": 1977,
+      "videoDurationSeconds": 1982,
+      "tailSeconds": 5
+    },
+    {
+      "sourceId": "tcc110",
+      "segments": 3655,
+      "firstCaptionStartSeconds": 0,
+      "lastCaptionStartSeconds": 6224,
+      "videoDurationSeconds": 6228,
+      "tailSeconds": 4
+    },
+    {
+      "sourceId": "nicolai-prerelease",
+      "segments": 609,
+      "firstCaptionStartSeconds": 0,
+      "lastCaptionStartSeconds": 1010,
+      "videoDurationSeconds": 1011,
+      "tailSeconds": 1
+    }
+  ],
+  "limitations": [
+    "Original reviewer prose retained; our cross-source synthesis is deferred.",
+    "Land-cycle paragraphs shared across their members; not separate per-card essays.",
+    "Automatic captions retain errors; exact-name matching undercounts misspelled references.",
+    "Limited Resources 872 has no available captions; LRR PrePreRelease archive not located.",
+    "Only the historical two-game sample is manually annotated; transcript retention is not game-by-game analysis."
+  ]
+}

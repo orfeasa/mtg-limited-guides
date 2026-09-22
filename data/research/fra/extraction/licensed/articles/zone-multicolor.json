@@ -1,0 +1,4553 @@
+{
+  "id": "zone-multicolor",
+  "sourceUrl": "https://mtgazone.com/reality-fracture-fra-limited-set-review-multicolor/",
+  "author": "J2SJosh",
+  "dependencyGroup": "j2sjosh",
+  "capturedAt": "2026-09-22",
+  "importedAt": "2026-09-22",
+  "permissionId": "user-reported-noncommercial-permissions-2026-09-22",
+  "sourceCaptureSha256": "5fc0a80b5f99702cd01f8f30ed8c9cc98a39cc65901a4ddc17e78af40c881c74",
+  "kind": "written-review",
+  "format": "Limited-unspecified",
+  "scale": {
+    "min": 0,
+    "max": 5
+  },
+  "normalization": "HTML/entities/citation wrappers and whitespace normalized; prose not summarized or corrected.",
+  "articleBlocks": [
+    {
+      "kind": "heading",
+      "indexedLine": 441,
+      "text": "# Reality Fracture (FRA) Limited Set Review: Multicolor"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 443,
+      "text": "J2SJosh reviews and rates every card from Realty Fracture (FRA) for limited!"
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 445,
+      "text": "* Limited"
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 446,
+      "text": "* FRA Grades Limited Set Reviews Reality Fracture"
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 447,
+      "text": "* j2sjosh"
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 448,
+      "text": "* September 21, 2026"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 450,
+      "text": "Hey everyone! Reality itself has fractured thanks to Jace apparently deciding that being a powerful mind mage wasn’t enough and that what he really needed was an extended stay in Arkham Asylum."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 451,
+      "text": "He’s gone and created a world in the idealized image of what he thinks perfection should look like. Apparently, in Jace’s perfect reality, I’m still sitting here writing Magic articles every time a new set drops, so clearly the man’s vision has some flaws."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 452,
+      "text": "Back in actual reality, I finally reached the point where I didn’t feel completely burned out and decided to make the questionable life choice of jumping back into this again. Not only am I doing the full Limited review for Reality Fracture, but I’m also going to be starting a new weekly article once the set releases."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 453,
+      "text": "The easiest way to describe it is basically a variety show in article form focused on whatever nonsense is happening in the Limited world of Magic that week. Sometimes I’ll be breaking down archetypes. Sometimes I’ll dig into the data. Sometimes I’ll probably rant about a card everyone keeps first-picking even though the numbers are practically begging them to stop."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 455,
+      "text": "And sometimes it’ll just be whatever I feel like talking about."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 456,
+      "text": "I’ve been given pretty much complete freedom to do whatever I want with it, which feels like an irresponsible amount of power to hand me."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 458,
+      "text": "What could possibly go wrong?"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 460,
+      "text": "Here’s the usual grading scale:"
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 461,
+      "text": "* 5.0: Disgustingly powerful and basically unbeatable. Either answer it the turn it comes down or start packing up your cards."
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 462,
+      "text": "* 4.5: An incredible bomb that can completely take over a game, but still gives your opponent a slim chance to fight back."
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 463,
+      "text": "* 4.0: Great rares, the absolute best uncommons, or extremely premium removal. Cards I’m very happy to first pick."
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 464,
+      "text": "* 3.5: Excellent role-players or removal spells that basically never get cut."
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 465,
+      "text": "* 3.0: Good playables that I’m almost never cutting from my deck."
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 466,
+      "text": "* 2.5: Solid playables and roughly the bar I hope nearly every card in my deck can reach."
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 467,
+      "text": "* 2.0: Mediocre filler. These are normally fighting for those last few spots in the 20th-23rd card range."
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 468,
+      "text": "* 1.5: Replaceable and generally below-average filler. This can also include decent sideboard cards or cards that need a very specific deck."
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 469,
+      "text": "* 1.0: Bad filler that gets cut most of the time. There may be a deck that wants it, but I’m not happy when mine does."
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 470,
+      "text": "* 0.5: I’m very unhappy to main deck this, but there might be some fringe sideboard application. These are cards that could be useful in the perfect situation but are bad almost everywhere else."
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 471,
+      "text": "* 0.0: Completely unplayable in basically every possible situation. Thankfully, they rarely print cards this bad anymore."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 472,
+      "text": "A Note on Ratings"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 474,
+      "text": "These grades aren’t meant to exist in a vacuum. Limited cards can move considerably depending on the deck around them. A 2.0 role-player might become a 3.0 in the archetype that actually wants it, while a supposedly powerful card can drop quickly if your deck can’t support it."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 476,
+      "text": "I’ll try to grade cards based on their average performance while pointing out the ones that have especially high or low ceilings depending on synergy."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 479,
+      "text": "## Aerid Konstrari"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 484,
+      "text": "### Rating: 4.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 486,
+      "text": "This is already a fantastic rate for a huge flyer, and then they decided to toss in a Heartwood token for good measure."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 488,
+      "text": "Even if your opponent immediately kills it, you’re still left with a second Heartwood token. That’s obviously not the outcome you’re hoping for, but it’s a hell of a lot better than spending your mana just to get completely blown out."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 489,
+      "text": "The real fun starts when Aerid actually gets to stick around and start smashing. Once you’re pumping this thing up, your opponent’s life total can disappear in a hurry."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 491,
+      "text": "Great rate, built-in value, and a very real ability to end the game quickly. That’s exactly what I want out of a 4.5."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 492,
+      "text": "## Avatar of Burgeoning Echoes"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 497,
+      "text": "### Rating: 4.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 499,
+      "text": "I’m sure the -10 will come up every once in a while and make somebody feel like a genius, but that’s not really why I’m excited about this card."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 501,
+      "text": "The real value is getting to Empower Jace for the low cost of playing a land every turn while already having an above-rate body on the battlefield. That’s the kind of repeatable value that starts looking innocent and then suddenly you realize Jace has been printing cards for three turns."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 502,
+      "text": "The ultimate is cute. The engine is what makes this a 4.0."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 503,
+      "text": "## Blessed Ghoul"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 508,
+      "text": "### Rating: 1.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 510,
+      "text": "Blessed Ghoul feels like a bit of an oxymoron, but who am I to judge his life choices?"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 512,
+      "text": "We’ve seen plenty of variations on this card before. It’s repeatable sacrifice fodder, repeatable blocking fodder, and generally a mildly annoying thing that keeps coming back for a little more mana than I’d like to spend."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 513,
+      "text": "The lifelink does matter quite a bit if your deck is loaded with life gain triggers, though. In that shell, repeatedly dragging this thing back out of the graveyard can start setting off enough extra nonsense to make the cost worthwhile."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 515,
+      "text": "Most decks won’t care. The right one absolutely will."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 516,
+      "text": "## Bloombrute"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 521,
+      "text": "### Rating: 3.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 523,
+      "text": "Now this is the kind of payoff I want for jumping through all those life gain hoops."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 525,
+      "text": "You really can’t go wrong with turning your triggers into extra cards, especially when the creature carrying the ability is already perfectly on rate. It even has a way to help turn itself on later in the game, which keeps it from relying entirely on the rest of your deck."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 527,
+      "text": "Good body, real card advantage, and built-in support for its own nonsense."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 529,
+      "text": "Yeah, this sounds pretty brutal."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 530,
+      "text": "### Charge the Sanctum"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 535,
+      "text": "### Rating: 1.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 537,
+      "text": "I’m normally pretty low on Trumpet Blast effects, but this one gets a little more interesting thanks to the single-target mode."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 539,
+      "text": "Giving one creature +2/+0, first strike, and a +1/+1 counter can completely flip a combat that looked unwinnable a second ago."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 541,
+      "text": "I’m still not thrilled about spending three mana on a combat trick, but this has enough flexibility that I can potentially see it doing some work."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 542,
+      "text": "### Clash of Elements"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 547,
+      "text": "### Rating: 3.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 549,
+      "text": "Three mana for an instant-speed Time Ebb is already a steal, even when you have to pay two different colors for it."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 551,
+      "text": "Then your opponent gets the lovely choice of either accepting that card heading to the bottom of their deck or taking two damage if they really want that card back. Neither option is exactly making their day better."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 553,
+      "text": "### Craftwork Crusher"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 558,
+      "text": "### Rating: 3.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 560,
+      "text": "Is this expensive? Absolutely."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 562,
+      "text": "Is it color intensive? Obviously."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 564,
+      "text": "Is it also a giant tank with a ridiculous pile of value stapled onto it? Yep, and that’s why I’m still perfectly happy paying the price."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 566,
+      "text": "Getting to pick two between killing a creature or planeswalker, making a 2/2, or drawing a card would already be a strong package. Doing that while also dropping a massive trampler onto the battlefield is the kind of thing that can crush a game in short order."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 567,
+      "text": "### Denzilore Fatehold"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 572,
+      "text": "### Rating: 4.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 574,
+      "text": "The baseline is already great. You’re getting a flash flyer at a solid rate that can randomly ambush an unsuspecting attacker and completely wreck combat."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 576,
+      "text": "The real nonsense starts when every scry and surveil suddenly turns into a +1/+1 counter for your entire team."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 577,
+      "text": "That can snowball out of control absurdly fast in a set where those effects are already floating around everywhere. You’re not even being asked to play bad cards to enable it—you’re just getting rewarded for doing things your deck probably wanted to do anyway."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 579,
+      "text": "If this sticks around for more than a turn or two, things are going to get stupid in a hurry."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 580,
+      "text": "### Desperate Futurescribe"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 585,
+      "text": "### Rating: 3.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 587,
+      "text": "So far, all of the signpost uncommons have been really strong, and you certainly don’t need to be desperate to slam this one."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 589,
+      "text": "The baseline rate is already solid, and you’re probably going to have enough incidental scrying and surveilling floating around to keep the bonus turned on without trying too hard."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 591,
+      "text": "That means the upside should stick around well into the future instead of being some cute little bonus you only get once."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 592,
+      "text": "### Edgar, Ancient Bloodlord"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 597,
+      "text": "### Rating: 3.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 599,
+      "text": "Edgar is a wonderful little dumpster for any extra creatures you have laying around."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 601,
+      "text": "Feed him something you don’t need anymore and he gets bigger, gains menace, and even gives you a lifegain trigger for your troubles. That’s a pretty solid collection of upside for a creature that’s already slightly overstatted as a two-drop."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 603,
+      "text": "He’s not doing anything completely ridiculous, but turning your spare cardboard into a growing threat is a deal I’m happy to make."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 604,
+      "text": "### Emergency Phytomedic"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 609,
+      "text": "### Rating: 2.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 611,
+      "text": "We’ve seen plenty of two-mana 1/1s that come down and toss a +1/+1 counter onto something, but this feels a couple of steps above the usual version."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 613,
+      "text": "You can still play it that way if you really need to. The much more appealing line is getting it down as a one-drop and then keeping that counter ability in your pocket for only one mana later. That flexibility feels so much better."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 614,
+      "text": "The life gain trigger looks small, but in the right deck it’s just another little piece of value stacking on top of everything else."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 616,
+      "text": "There’s a lot more going on here than you’d expect from such an unassuming card."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 617,
+      "text": "### Entrust the Spark"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 622,
+      "text": "### Rating: 1.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 624,
+      "text": "This is awfully close to wandering into never play this territory."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 626,
+      "text": "The only thing barely keeping it alive is that having an Empowered Jace token isn’t exactly difficult in this format, and there are enough completely busted planeswalkers running around that the effect can occasionally matter."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 628,
+      "text": "Still, I’d entrust this card with one very important job: keeping the rest of my sideboard company."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 629,
+      "text": "### Fatehold Charm"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 634,
+      "text": "### Rating: 3.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 636,
+      "text": "This Charm sure does give you a whole pile of good options depending on what the game calls for."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 638,
+      "text": "Need to basically cycle it while tossing in some Empower Jace value? Done. Need to bounce a creature or spell and completely screw up your opponent’s plans? Also done. Need to pump the whole team and turn a normal attack into a math problem from hell? It has you covered there too."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 639,
+      "text": "None of the modes need to be busted when you get this much flexibility packed into one card. Fatehold Charm is going to have your back in a whole lot of different situations."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 640,
+      "text": "### Fatehold Chronologist"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 646,
+      "text": "### Rating: 2.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 648,
+      "text": "On one side, you’ve got a cheap little dorky flyer. On the other, you get a slightly overcosted Bear with a surveil thrown in for your trouble."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 650,
+      "text": "Neither half is exactly setting the world on fire, but getting both has some real value."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 651,
+      "text": "### Ferocity of the Hunt"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 656,
+      "text": "### Rating: 1.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 658,
+      "text": "I love having one copy of this type of effect when it costs a single mana. At one, it slides into a deck pretty painlessly. At two, I need a much better reason, which means I’m really looking to hunt down some creatures that have strong ETBs."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 660,
+      "text": "The nice part is that the deathtouch sticks around. If you manage to slap this onto a first striker and surprise someone in combat, they’re going to be absolutely miserable."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 661,
+      "text": "There’s some sneaky upside here, but at two mana I need the rest of my deck to help justify it."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 662,
+      "text": "### Frostbite Pyromental"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 667,
+      "text": "### Rating: 1.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 669,
+      "text": "This is a weird one to grade because it costs the same amount as Divination , and the dream outcome is basically drawing two cards while sneaking in four damage. That sounds great on paper."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 670,
+      "text": "The problem is that the whole plan falls apart pretty quickly if your opponent has a giant blocker just chilling in the way. It can also eat a removal spell before doing anything useful, and not every deck is trying to race your opponent down to zero as quickly as possible. That’s without mentioning the difficulty of the casting cost."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 672,
+      "text": "There are definitely games where this will feel amazing. There are also going to be plenty where I’d rather cut out all the extra steps and just cast a draw-two."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 673,
+      "text": "### Grim Repriser"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 678,
+      "text": "### Rating: 2.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 680,
+      "text": "This signpost uncommon is looking a little grim compared to some of the others I’ve graded so far."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 682,
+      "text": "That doesn’t mean it’s bad. A 2/2 prowess creature for two mana is already a perfectly solid card, and I’d expect to run this in almost every Rakdos deck."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 684,
+      "text": "The problem is that it doesn’t really become something special unless you have reliable ways to bring it back and squeeze extra value out of it. Without that, it’s good—but not something I’m spending a premium pick on."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 685,
+      "text": "### Hapatra, the Desert Fang"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 690,
+      "text": "### Rating: 3.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 692,
+      "text": "Golgarbage has never exactly struggled to put cards into the graveyard, so turning this on shouldn’t be asking for much."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 694,
+      "text": "Once you do, this is basically Ravenous Chupacabra except the removal effect can even get around indestructible. That’s the kind of sentence that tends to get my attention pretty quickly."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 696,
+      "text": "### Ingris Stingerquill"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 701,
+      "text": "### Rating: 4.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 703,
+      "text": "Another mythic Sphinx is really good. I am absolutely shocked. Stunned, even."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 705,
+      "text": "This one comes down cheap and turns your entire squad, including itself, into pingers whenever they attack. That kind of passive damage adds up ridiculously fast and makes racing basically impossible."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 707,
+      "text": "And because apparently that wasn’t enough, you can also start pooping out hasty bodies for a very reasonable cost—and the ability doesn’t even require a tap."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 708,
+      "text": "Cheap threat, immediate pressure, and a built-in army factory. Yeah, this thing is disgusting."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 709,
+      "text": "### Karn, Gilded Guardian"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 714,
+      "text": "### Rating: 1.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 716,
+      "text": "There just aren’t that many colored artifacts in the set, so you’re probably topping out at drawing two cards off a couple of Heartwood Tokens most of the time."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 718,
+      "text": "Getting that value stapled onto a 5/5 with vigilance and trample certainly sounds nice, but that mana cost is asking you to jump through a whole lot of hoops. Even worse, you can do all that work and still end up drawing absolutely nothing when Karn finally hits the battlefield."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 719,
+      "text": "### Kiora of Salt and Sand"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 724,
+      "text": "### Rating: 2.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 726,
+      "text": "The body is perfectly decent, but Kiora really needs some help from the rest of your deck before she starts doing anything exciting."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 728,
+      "text": "Empowering Jace isn’t particularly difficult in this format, but getting all the way up to eight is a very different story. Making a Kraken sounds great, but there’s a whole lot of nonsense that has to go right before we get there."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 729,
+      "text": "The floor is playable. The ceiling is fun. I’m just not drafting the card assuming the Kraken factory is actually going to open."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 730,
+      "text": "## Konstrari Charm"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 735,
+      "text": "### Rating: 2.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 737,
+      "text": "Man, Fatehold Charm puts this thing to shame. SHAME."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 739,
+      "text": "It’s really hard to imagine a spot where spending two mana and an entire card just to make three colorless mana is the correct play unless it immediately sets up lethal or some other completely disgusting turn."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 741,
+      "text": "The damage-to-a-flyer mode is mostly sideboard material, which leaves this functioning as a two-mana combat trick most of the time."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 742,
+      "text": "Granted, it’s a pretty good trick for the cost. It’s just hard to get excited when the other Charm showed up to the party wearing a tuxedo and this one brought a polo shirt."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 743,
+      "text": "### Konstrari Improviser"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 748,
+      "text": "### Rating: 2.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 750,
+      "text": "A Bear that basically lets you cast a Manalith off of it is perfectly respectable curve filler."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 752,
+      "text": "The real value comes when you have some bigger threats you’re trying to get onto the battlefield with a little extra swiftness. In those decks, this can smooth out your curve and help you jump ahead without playing a dedicated ramp spell."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 754,
+      "text": "Nothing flashy, but it does a useful job at a reasonable price."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 755,
+      "text": "## Kwia Vigorbloom"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 760,
+      "text": "### Rating: 4.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 762,
+      "text": "I honestly couldn’t care less about the Lotus token. That just feels like fancy packaging designed to make the kids think they’re getting something extra. It’s the rest of the card that has my attention."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 764,
+      "text": "I usually hesitate to rate anything this highly when it can eat a removal spell without leaving behind extra value, but this thing is basically impossible to race. A 6/6 with flying, vigilance, and lifelink can swing the game so violently that your opponent might need a seatbelt."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 765,
+      "text": "It even has ward 2, so dealing with it isn’t exactly convenient either."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 766,
+      "text": "## Mabel, Valley Hero"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 771,
+      "text": "### Rating: 3.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 773,
+      "text": "Mabel usually comes in as a 2/3, which isn’t exactly where you want to be for three mana these days."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 775,
+      "text": "The real reason to care is everything that comes afterward. Once your future creatures start entering the battlefield bigger, Mabel starts looking a whole lot more impressive."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 777,
+      "text": "That’s when Mabel can actually prove they’re a Valley Hero instead of just another slightly underwhelming three-drop."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 778,
+      "text": "## Mind Meanderer"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 783,
+      "text": "### Rating: 3.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 785,
+      "text": "It’s a little pricey, but this is still a solid piece of top end that can fight something when it enters and then start winning through the air."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 787,
+      "text": "Most of the time, it’s basically going to play like a Serra Angel because having an Empowered Jace around is hardly asking for much in this set."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 789,
+      "text": "Removal stapled to an evasive threat is always a combination I’m interested in, even if I have to pay a little extra for it."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 790,
+      "text": "## Null Summoner"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 795,
+      "text": "### Rating: 4.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 797,
+      "text": "The value is already there when you’re getting a four-power creature that basically casts Coercion on your opponent on the way in. That’s a pretty disgusting two-for-one before we even start talking about the upside."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 799,
+      "text": "Threshold can push things even further, although there’s a decent chance your opponent’s hand is already running on fumes by the time you get there. Hard to rip apart a hand that doesn’t exist anymore."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 800,
+      "text": "Still, that’s a pretty minor complaint. Big body, immediate card advantage, and some bonus ceiling if everything lines up. This is a great card."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 801,
+      "text": "## Paradox Shaper"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 806,
+      "text": "### Rating: 2.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 808,
+      "text": "There are definitely decks that are going to want this card. For example, you 100% want this if you’re running multiple Threshold cards or have a ton of the cards you can exile form your graveyard for value."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 810,
+      "text": "In theory, you can mill away most of your deck and eventually start choosing exactly what you want to draw every turn. That sounds great."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 811,
+      "text": "In reality, you’re probably going to spend several turns milling yourself while falling behind on board, only for Paradox Shaper to get removed right when it was finally about to do something useful. That means you better have that value available in your graveyard to maximize this."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 812,
+      "text": "## Primal Witchstalker"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 817,
+      "text": "### Rating: 3.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 819,
+      "text": "This is another one that really makes you wish Evolving Wilds had made the trip into this set."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 821,
+      "text": "Even without it, milling four gives you a pretty decent shot at hitting a land, and there’s a good chance you dump some other graveyard goodies along the way."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 823,
+      "text": "That makes this a nice mix of value and synergy without asking you to do anything too ridiculous. If your deck already cares about the graveyard, it gets even better."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 824,
+      "text": "## Proctor of Potential"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 829,
+      "text": "### Rating: 4.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 831,
+      "text": "On its own, this does a great job smoothing out your draws without asking much more from you than simply curving out with creatures. That gets even easier when you keep getting to sculpt what you draw next."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 833,
+      "text": "The real potential shows up when your deck is packed with cards that trigger every time you surveil. At that point, this stops being simple card selection and starts turning on a whole pile of extra nonsense."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 835,
+      "text": "Good by itself. Potentially disgusting in the right shell."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 836,
+      "text": "## Prudent Fateseer"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 841,
+      "text": "### Rating: 2.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 843,
+      "text": "This is usually going to be a two-for-one unless your opponent decides they really need to spend a removal spell on your 1/4."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 845,
+      "text": "How much value you get beyond that is going to vary wildly depending on how wide your deck goes and how many reliable ways you have to trigger the ability."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 847,
+      "text": "The floor is already respectable, but the right deck can squeeze a lot more out of it."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 848,
+      "text": "## Recursive Recruitment"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 853,
+      "text": "### Rating: 3.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 855,
+      "text": "This is one of those cards where I’m already wondering if 3.5 is a little too conservative."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 857,
+      "text": "Making two 2/2s for four mana is already a perfectly solid Limited card. Then you get to flash it back later and make the next batch even bigger, which is where things start getting kind of stupid."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 859,
+      "text": "The first cast is good value. The second one is where this starts looking like an absolute beating."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 861,
+      "text": "I’m starting at 3.5, but I would not be shocked if this ends up playing like a 4.0."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 862,
+      "text": "## Saheeli, Jewel of Avishkar"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 867,
+      "text": "### Rating: 4.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 869,
+      "text": "Well, this is going to get real stupid, real fast."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 871,
+      "text": "If you’re in Izzet, you’re probably already in the spells deck, which means untapping with Saheeli can immediately start pooping out a few hasty Thopters while you do what your deck wanted to do anyway."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 873,
+      "text": "The part I really love is that this isn’t restricted to once per turn. Every spell just keeps adding more nonsense to the board, and suddenly your opponent has a tiny Thopter infestation problem."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 874,
+      "text": "## Solarium Sentry"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 879,
+      "text": "### Rating: 3.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 881,
+      "text": "I remember when people freaked out because Watchwolf existed. Now we get that card with a relevant ability stapled on and everyone just shrugs because apparently this is what Limited looks like now."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 883,
+      "text": "You obviously want life gain triggers to really maximize Solarium Sentry, but you don’t need to go completely overboard. Even a little incidental life gain can start adding up when the body is already above rate before any of the synergy kicks in."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 884,
+      "text": "## Solitary Cell"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 889,
+      "text": "### Rating: 3.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 891,
+      "text": "The second half of this card might as well be blank in about 90% of situations, so the grade is almost entirely riding on that first ability."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 893,
+      "text": "Two mana to remove something that costs three or less is a perfectly reasonable deal in Limited. The only real knock is that being two colors makes it a little harder to slot into just any deck."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 895,
+      "text": "Nothing flashy here, but efficient removal is efficient removal."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 896,
+      "text": "## Stingerquill Charm"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 901,
+      "text": "### Rating: 3.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 903,
+      "text": "Another busted Charm where all three modes are actually good. What a concept."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 905,
+      "text": "Lightning Strike is always going to be a great card. First strike plus deathtouch can turn basically any random creature into a removal spell, and it gets especially nasty when your opponent tries to gang block and you do something so disgusting that you better put the kids to bed first."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 907,
+      "text": "And if none of that is what you need, you can always just poop out a 2/2 with haste and add to the board."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 908,
+      "text": "There really isn’t a bad option here. This one is going to sting."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 909,
+      "text": "## Stingerquill Voxmancer"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 914,
+      "text": "### Rating: 2.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 916,
+      "text": "This isn’t exactly going to beat your opponent down on its own, but it can usually sneak in a hit or two early."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 918,
+      "text": "More importantly, it gives you a pile of triggers for dealing noncombat damage to your opponent. It even gives aggressive decks a little extra reach when they’re struggling to close things out. And if your opponent decides to spend a real removal spell on your one-drop, that’s a trade you’re probably pretty happy to make."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 919,
+      "text": "Especially when there’s a decent chance you picked this thing up on the wheel."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 920,
+      "text": "## Stinging Vitriol"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 925,
+      "text": "### Rating: 3.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 927,
+      "text": "I’m sure there are going to be games where the two damage actually matters, and it’s nice that this still does something when you rip it off the top after your opponent has already emptied their hand."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 929,
+      "text": "The real reason I’m interested, though, is much simpler: it’s a two-mana catch-all discard spell."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 931,
+      "text": "Getting to strip basically anything before it becomes a problem is already strong. The random burn is just a little extra sting on top."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 932,
+      "text": "## Tam, the Possibility"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 937,
+      "text": "### Rating: 1.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 939,
+      "text": "Is there a possibility that some deck is going to want this? Of course. That deck is probably going to be extremely rare, though."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 941,
+      "text": "Maybe you’re the brave soul who finally innovates the five-color Planeswalker pile and Tam becomes the glue holding your beautiful disaster together."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 943,
+      "text": "In most decks, though, this is just an underwhelming body whose main contribution is mucking up the ground for a while."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 945,
+      "text": "The possibility is there. I’m just not betting my draft on it."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 946,
+      "text": "## Tam’s Resistance"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 951,
+      "text": "### Rating: 1.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 953,
+      "text": "If you’re actively looking for more ways to Empower Jace, then this is something you can talk yourself into playing."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 955,
+      "text": "Otherwise, even with the cantrip attached, a sorcery-speed +1/+1 effect just isn’t really a modern Limited card anymore."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 957,
+      "text": "The Jace synergy is doing basically all of the heavy lifting here. Without it, this is the kind of card that makes you wonder what year the design file came from."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 958,
+      "text": "## Tenured Tethermage"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 963,
+      "text": "### Rating: 3.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 965,
+      "text": "I like this as a ramp spell that just so happens to toss a land into your graveyard, which is actually a feature in this set instead of an unfortunate side effect."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 967,
+      "text": "The fact that it can start growing itself afterward is a nice bonus, but it begins life absolutely teeny tiny. That leaves it extremely vulnerable to basically anything your opponent feels like pointing at it."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 968,
+      "text": "If it survives, though, you’re getting ramp, graveyard synergy, and a threat that can eventually grow into something relevant. That’s a pretty solid package for three mana."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 969,
+      "text": "## Theorix Charm"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 974,
+      "text": "### Rating: 2.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 976,
+      "text": "Another solid Charm with multiple decent options. I still don’t know what Konstrari Charm did to deserve its fate, but apparently somebody on the design team had beef."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 978,
+      "text": "I do think the first mode should have just been Quench instead of limiting it to noncreature spells. The -2/-2 mode sort of covers you against smaller creatures, but you’re still hanging out to dry against anything bigger or anything with a nasty ETB."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 979,
+      "text": "Even the mill-three-and-draw mode is perfectly respectable because it basically gets you four cards closer to Threshold while replacing itself."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 981,
+      "text": "Nothing here is completely busted, but having three useful options adds up to a card I’m pretty happy playing."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 982,
+      "text": "## Theorix Metamage"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 987,
+      "text": "### Rating: 2.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 989,
+      "text": "How much the self-mill matters is really going to depend on whether your deck has other ways to reach Threshold and enough payoffs to care once you get there."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 991,
+      "text": "A 3/3 flyer for three mana is already a solid deal, even if you have to jump through a minor hoop to turn it on."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 993,
+      "text": "Basically, I’m looking at this as closer to a 2.5 in graveyard decks such as Dimir and a 1.5 almost everywhere else. Split the difference, slap a 2.0 on it, and call it a day."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 994,
+      "text": "## Twinned Vision"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 999,
+      "text": "### Rating: 2.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1001,
+      "text": "Think Twice was always a perfectly reasonable card and even managed to see some Constructed play back in the day. This is basically that with a rummage stapled on for a little extra value."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1003,
+      "text": "It’s not doing anything flashy, but spell-heavy decks are going to appreciate the cheap card flow."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1005,
+      "text": "I can see the vision here. It’s just not exactly 20/20."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 1006,
+      "text": "## Twisted Fates"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 1011,
+      "text": "### Rating: 3.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1013,
+      "text": "Kill anything and pump your whole team? Yes please."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1015,
+      "text": "Don’t get it twisted, this card is sick. Removal is already premium, and stapling a team-wide combat boost onto it can turn a normal exchange into an absolute beating."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1017,
+      "text": "I’m starting at 3.5, but this feels like the kind of card that could creep up to a 4.0 once we actually get a couple weeks of games in."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 1019,
+      "text": "## Uldaros Theorix"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 1024,
+      "text": "### Rating: 4.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1026,
+      "text": "It shouldn’t be particularly difficult to stock your graveyard in Dimir, and this gives you some premium options for turning all that junk into actual value."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1028,
+      "text": "Getting an extra dude and a removal spell tacked onto an already massive 5/5 flyer sounds like a pretty damn effective way to flip a game completely in your favor."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 1030,
+      "text": "## Vigorbloom Charm"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 1035,
+      "text": "### Rating: 3.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1037,
+      "text": "Charms are good, mmkay."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1039,
+      "text": "Protecting a key creature, cycling while picking up some life in the colors that actually care about lifegain triggers, or tossing on a +1/+1 counter and fighting something are all pretty great things to be doing for only two mana."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1041,
+      "text": "None of the modes are wasted, and that kind of flexibility is exactly what makes these Charms so strong."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 1042,
+      "text": "## Vigorbloom Vanguard"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 1047,
+      "text": "### Rating: 2.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1049,
+      "text": "This rating might look a little high at first, but I think the whole is better than the sum of its parts."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1051,
+      "text": "A generic bear isn’t exactly something to write home about these days, but for just one more mana you can turn it into a 3/3 with vigilance. Better yet, that +1/+1 counter can go on any creature, which can seriously mess with combat math."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1053,
+      "text": "Then, just to squeeze out a little more value, you gain a life and trigger one of the many life-gain payoffs floating around the set."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1054,
+      "text": "None of those things are amazing on their own, but together they make this a really solid Limited card."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 1055,
+      "text": "## Vindictive Triumph"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 1060,
+      "text": "### Rating: 2.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1062,
+      "text": "This is some pretty awkward three-mana removal to cast, even if it does hit almost anything."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1064,
+      "text": "The bonus mode asks for a lot more to really shine. You need to hit something that costs three or less, and ideally it has a useful ETB so you’re actually getting meaningful value out of bringing it back."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1066,
+      "text": "The token even enters tapped, so there aren’t any cute surprise-blocking blowouts hiding here."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 1067,
+      "text": "## Vraska, Soul of Stone"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 1072,
+      "text": "### Rating: 3.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1074,
+      "text": "I’m always a little wary of three-color cards in Draft. There are enough fixing lands floating around in this format to make it work, but asking for three different colors still comes with a real cost, and I’m knocking the grade down a little because of it."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1076,
+      "text": "The best home feels like the Izzet spells deck splashing just enough white to get Vraska online."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 1077,
+      "text": "## Vraska, the Cutting Glare"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 1082,
+      "text": "### Rating: 4.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1084,
+      "text": "Won’t the real Vraska please stand up? This is much more in line with the Gorgon we all remember."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1086,
+      "text": "A 4/4 deathtouch for three mana is already a really good deal, even if it isn’t quite game-changing on its own. It’s a nice option to have when you’re curving out, assuming that pretty intense mana cost cooperates."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1087,
+      "text": "The real power shows up once you hit six lands and get to destroy basically any permanent. Sure, they get a Treasure, but at that stage of the game I’m not losing much sleep over it compared to them losing the best thing on their board."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1089,
+      "text": "Early, she’s an efficient threat. Late, she’s efficient removal stapled to an efficient threat. That’s the Vraska I signed up for."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 1090,
+      "text": "## Warrior’s Blades"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 1095,
+      "text": "### Rating: 2.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1097,
+      "text": "We already saw with Crude Bent Blade how effective Equipment can be when it kills something on the way in. The problem here is that Warrior's Blades costs one more mana to cast and one more to equip, and those little taxes add up quickly."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1099,
+      "text": "On the plus side, this is basically casting Lightning Helix instead of Diabolic Edict , which is usually going to work in this card’s favor. You get to choose what dies while also picking up some life."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1100,
+      "text": "Still, the extra mana is enough to keep me from getting too excited. I’m fine playing one, but I definitely don’t want my deck turning into a Warrior's Blades outlet store."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 1101,
+      "text": "## Whiplash Wordsmith"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 1106,
+      "text": "### Rating: 1.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1108,
+      "text": "It’s not particularly hard to deal noncombat damage in Rakdos, and this even gives you its own one-shot enabler if you want to give it haste and get swinging immediately."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1110,
+      "text": "The problem is that we’re all the way up at five mana for that option, and that’s a little more than I want to pay for what this is ultimately doing. Expensive cards need to earn their keep, and this one is mostly showing up because it knows the right people."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1111,
+      "text": "It’s a reasonable role player in Rakdos, especially if you have plenty of noncombat damage triggers, but I don’t see it getting much work anywhere else."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 1112,
+      "text": "## Woodwork Prodigy"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 1117,
+      "text": "### Rating: 2.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1119,
+      "text": "This can certainly go up in value if your deck is looking to ramp or has a good mana sink to dump all that extra mana into."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1121,
+      "text": "I also really appreciate that the tokens don’t enter tapped, because that effectively makes them cost two mana instead of forcing you to pay three and wait around before they actually do anything."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1123,
+      "text": "It’s not flashy, but in the right deck this can quietly do a lot of useful work."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 1126,
+      "text": "## Wrap Up"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1128,
+      "text": "Thanks for reading! I’ll be back tomorrow with my Review of the Limited Archetypes of Reality Fracture. Until then, stay classy people!"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1130,
+      "text": "If you have any questions, let me know in the comments below."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 1132,
+      "text": "You can also find me at:"
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 1134,
+      "text": "* Discord"
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 1135,
+      "text": "* Twitter†twitter.com"
+    }
+  ],
+  "cardReviews": [
+    {
+      "id": "zone-multicolor:1",
+      "heading": "Aerid Konstrari",
+      "cardIds": [
+        "f17d2792-b075-4c47-ad38-e7a7eaee5f8c"
+      ],
+      "scope": "card",
+      "grade": 4.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:1:p1",
+          "locator": {
+            "indexedLine": 486
+          },
+          "textSha256": "f09f9db8140bc08a11a946b3d3f3d097500c91191bccbdd032aa8cfcf9bf5afe",
+          "wordCount": 23,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "mana-ramp",
+            "tokens"
+          ],
+          "text": "This is already a fantastic rate for a huge flyer, and then they decided to toss in a Heartwood token for good measure."
+        },
+        {
+          "id": "zone-multicolor:1:p2",
+          "locator": {
+            "indexedLine": 488
+          },
+          "textSha256": "59232f9eedc4f10c0e8aa068fc69c4f4e85c527d0e862a59c497b937cb8312cc",
+          "wordCount": 41,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "mana-ramp",
+            "removal",
+            "tokens"
+          ],
+          "text": "Even if your opponent immediately kills it, you’re still left with a second Heartwood token. That’s obviously not the outcome you’re hoping for, but it’s a hell of a lot better than spending your mana just to get completely blown out."
+        },
+        {
+          "id": "zone-multicolor:1:p3",
+          "locator": {
+            "indexedLine": 489
+          },
+          "textSha256": "1a32ad56589f29bc0c270a341479cbb87924cd1a997a5c4a887e9143372514a4",
+          "wordCount": 29,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "The real fun starts when Aerid actually gets to stick around and start smashing. Once you’re pumping this thing up, your opponent’s life total can disappear in a hurry."
+        },
+        {
+          "id": "zone-multicolor:1:p4",
+          "locator": {
+            "indexedLine": 491
+          },
+          "textSha256": "3bee3e15575e1f03aa6893ac8cf7b229ebac960069c4303f9928950933de0eaf",
+          "wordCount": 23,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Great rate, built-in value, and a very real ability to end the game quickly. That’s exactly what I want out of a 4.5."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:2",
+      "heading": "Avatar of Burgeoning Echoes",
+      "cardIds": [
+        "5905995b-7a20-4602-a7cc-90aa5089a082"
+      ],
+      "scope": "card",
+      "grade": 4.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:2:p1",
+          "locator": {
+            "indexedLine": 499
+          },
+          "textSha256": "b2f544d7ac7da814aea65548156ea9be30f11ed27ae0faf30ae30eea89fa26bb",
+          "wordCount": 29,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "I’m sure the -10 will come up every once in a while and make somebody feel like a genius, but that’s not really why I’m excited about this card."
+        },
+        {
+          "id": "zone-multicolor:2:p2",
+          "locator": {
+            "indexedLine": 501
+          },
+          "textSha256": "e99cb9489b3fc013cc4308368ce7124edb3e85a48ecc3b64b35d9e6f78d42749",
+          "wordCount": 50,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "empower"
+          ],
+          "text": "The real value is getting to Empower Jace for the low cost of playing a land every turn while already having an above-rate body on the battlefield. That’s the kind of repeatable value that starts looking innocent and then suddenly you realize Jace has been printing cards for three turns."
+        },
+        {
+          "id": "zone-multicolor:2:p3",
+          "locator": {
+            "indexedLine": 502
+          },
+          "textSha256": "e07a003abf62785ffd01437cb8d09a9b4cd45daaeb451fe9b53b310f1c5ab5a6",
+          "wordCount": 12,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "The ultimate is cute. The engine is what makes this a 4.0."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:3",
+      "heading": "Blessed Ghoul",
+      "cardIds": [
+        "bb975803-9bf2-401e-9414-d272df314398"
+      ],
+      "scope": "card",
+      "grade": 1.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:3:p1",
+          "locator": {
+            "indexedLine": 510
+          },
+          "textSha256": "e89077096580091e1a10584be8ecbd41aa640f19ca33215ed36de2d5d4ab1a07",
+          "wordCount": 18,
+          "mentionedCardIds": [
+            "bb975803-9bf2-401e-9414-d272df314398"
+          ],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Blessed Ghoul feels like a bit of an oxymoron, but who am I to judge his life choices?"
+        },
+        {
+          "id": "zone-multicolor:3:p2",
+          "locator": {
+            "indexedLine": 512
+          },
+          "textSha256": "0387c44039abe92ec047fc40d03d1a444156a9b44bd41658238e287caa027e71",
+          "wordCount": 36,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "combat",
+            "sacrifice"
+          ],
+          "text": "We’ve seen plenty of variations on this card before. It’s repeatable sacrifice fodder, repeatable blocking fodder, and generally a mildly annoying thing that keeps coming back for a little more mana than I’d like to spend."
+        },
+        {
+          "id": "zone-multicolor:3:p3",
+          "locator": {
+            "indexedLine": 513
+          },
+          "textSha256": "dc36a24e735bbdaebbf4c1daee8276e919f4bc37969cb02aedc35d8657b632d0",
+          "wordCount": 41,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "graveyard",
+            "lifegain"
+          ],
+          "text": "The lifelink does matter quite a bit if your deck is loaded with life gain triggers, though. In that shell, repeatedly dragging this thing back out of the graveyard can start setting off enough extra nonsense to make the cost worthwhile."
+        },
+        {
+          "id": "zone-multicolor:3:p4",
+          "locator": {
+            "indexedLine": 515
+          },
+          "textSha256": "4127f8c02faf5b62d5ad1b1ee3d5f1c33fdddc71043a3d129d5051afbf9d0272",
+          "wordCount": 9,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Most decks won’t care. The right one absolutely will."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:4",
+      "heading": "Bloombrute",
+      "cardIds": [
+        "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8"
+      ],
+      "scope": "card",
+      "grade": 3.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:4:p1",
+          "locator": {
+            "indexedLine": 523
+          },
+          "textSha256": "8bb9a74bcc31384b9703e5a18f69edbb0d6787e3949ef61b9ed2920006fe0fcc",
+          "wordCount": 17,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "lifegain"
+          ],
+          "text": "Now this is the kind of payoff I want for jumping through all those life gain hoops."
+        },
+        {
+          "id": "zone-multicolor:4:p2",
+          "locator": {
+            "indexedLine": 525
+          },
+          "textSha256": "b271c8a008bdfbb8464878bdf44b2826e9a6e697899f50ae2ed76c8c88d07a4c",
+          "wordCount": 50,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "You really can’t go wrong with turning your triggers into extra cards, especially when the creature carrying the ability is already perfectly on rate. It even has a way to help turn itself on later in the game, which keeps it from relying entirely on the rest of your deck."
+        },
+        {
+          "id": "zone-multicolor:4:p3",
+          "locator": {
+            "indexedLine": 527
+          },
+          "textSha256": "89dcba26079bc20c6fe74ee5e5d3b197ede7a11fa701235a7b2431c649f80ba9",
+          "wordCount": 12,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Good body, real card advantage, and built-in support for its own nonsense."
+        },
+        {
+          "id": "zone-multicolor:4:p4",
+          "locator": {
+            "indexedLine": 529
+          },
+          "textSha256": "8863f8554e468e7e195715c92bbefc87d4da11d370c03d2860d5dc7af549f334",
+          "wordCount": 5,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Yeah, this sounds pretty brutal."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:5",
+      "heading": "Charge the Sanctum",
+      "cardIds": [
+        "87b40df5-5c0a-41f5-a09c-a04f17066a91"
+      ],
+      "scope": "card",
+      "grade": 1.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:5:p1",
+          "locator": {
+            "indexedLine": 537
+          },
+          "textSha256": "8c5b8f57ecd993535905d7bfe45dfbf18bce9385f855847a67316062485a7b4c",
+          "wordCount": 21,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "I’m normally pretty low on Trumpet Blast effects, but this one gets a little more interesting thanks to the single-target mode."
+        },
+        {
+          "id": "zone-multicolor:5:p2",
+          "locator": {
+            "indexedLine": 539
+          },
+          "textSha256": "774c553cf2f0c8da7bbfd9660ada685b3e3dbd52b18020d5dfad9d9d3cffde2f",
+          "wordCount": 21,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "counters",
+            "combat"
+          ],
+          "text": "Giving one creature +2/+0, first strike, and a +1/+1 counter can completely flip a combat that looked unwinnable a second ago."
+        },
+        {
+          "id": "zone-multicolor:5:p3",
+          "locator": {
+            "indexedLine": 541
+          },
+          "textSha256": "45e98c1f78daed213ba7aaaeb7565d9b4e31ba2d52866b47c26ff4668e35bc5d",
+          "wordCount": 26,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "combat"
+          ],
+          "text": "I’m still not thrilled about spending three mana on a combat trick, but this has enough flexibility that I can potentially see it doing some work."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:6",
+      "heading": "Clash of Elements",
+      "cardIds": [
+        "b61bcef7-5832-45e6-a2bc-26d4f23707fc"
+      ],
+      "scope": "card",
+      "grade": 3.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:6:p1",
+          "locator": {
+            "indexedLine": 549
+          },
+          "textSha256": "9dbb598ae7b6edfc6ccac82e9d49e66fe4a3bdab329a98a69ce00600444be484",
+          "wordCount": 22,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Three mana for an instant-speed Time Ebb is already a steal, even when you have to pay two different colors for it."
+        },
+        {
+          "id": "zone-multicolor:6:p2",
+          "locator": {
+            "indexedLine": 551
+          },
+          "textSha256": "1f22eb4f2b1d8263f3642fafae01c388fffd263037557da92558c26e5c81f378",
+          "wordCount": 38,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Then your opponent gets the lovely choice of either accepting that card heading to the bottom of their deck or taking two damage if they really want that card back. Neither option is exactly making their day better."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:7",
+      "heading": "Craftwork Crusher",
+      "cardIds": [
+        "03f9839c-aa07-4ee7-847b-091e47ab80c4"
+      ],
+      "scope": "card",
+      "grade": 3.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:7:p1",
+          "locator": {
+            "indexedLine": 560
+          },
+          "textSha256": "4b01ddcaf18b64cc3ae7038be2d58fd60ce8d7f96bb2d60e86098bb158ee2e6c",
+          "wordCount": 4,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Is this expensive? Absolutely."
+        },
+        {
+          "id": "zone-multicolor:7:p2",
+          "locator": {
+            "indexedLine": 562
+          },
+          "textSha256": "55f813c18eaf6ed428771ffdec685817604f544b860029fd2ae13e7c5065f0eb",
+          "wordCount": 5,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Is it color intensive? Obviously."
+        },
+        {
+          "id": "zone-multicolor:7:p3",
+          "locator": {
+            "indexedLine": 564
+          },
+          "textSha256": "c701d81b4c79f120218871c97053788929db39e895657239a1591cee2b5eca34",
+          "wordCount": 26,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Is it also a giant tank with a ridiculous pile of value stapled onto it? Yep, and that’s why I’m still perfectly happy paying the price."
+        },
+        {
+          "id": "zone-multicolor:7:p4",
+          "locator": {
+            "indexedLine": 566
+          },
+          "textSha256": "59cb8cc601c26006d9f6bccddf776ea94cfe8e51f7825ef949798e316f4224e8",
+          "wordCount": 47,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "card-draw",
+            "removal"
+          ],
+          "text": "Getting to pick two between killing a creature or planeswalker, making a 2/2, or drawing a card would already be a strong package. Doing that while also dropping a massive trampler onto the battlefield is the kind of thing that can crush a game in short order."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:8",
+      "heading": "Denzilore Fatehold",
+      "cardIds": [
+        "986f9e98-9d8d-428b-9187-860745cf3269"
+      ],
+      "scope": "card",
+      "grade": 4.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:8:p1",
+          "locator": {
+            "indexedLine": 574
+          },
+          "textSha256": "c32c3ac98fcba423c1261e61b5cfb7ef879f5438f1a8c400ba43609d5f73f56c",
+          "wordCount": 25,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "combat"
+          ],
+          "text": "The baseline is already great. You’re getting a flash flyer at a solid rate that can randomly ambush an unsuspecting attacker and completely wreck combat."
+        },
+        {
+          "id": "zone-multicolor:8:p2",
+          "locator": {
+            "indexedLine": 576
+          },
+          "textSha256": "ab9fb89a62a623ceaeede3e5c9ef711687b3940e85f994a1e64fb3751a29a5d4",
+          "wordCount": 19,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "selection",
+            "counters"
+          ],
+          "text": "The real nonsense starts when every scry and surveil suddenly turns into a +1/+1 counter for your entire team."
+        },
+        {
+          "id": "zone-multicolor:8:p3",
+          "locator": {
+            "indexedLine": 577
+          },
+          "textSha256": "12fcc115bfedceacfd25bbd5679de82a6e1332cad5a658f89da034be7dfae69a",
+          "wordCount": 44,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "That can snowball out of control absurdly fast in a set where those effects are already floating around everywhere. You’re not even being asked to play bad cards to enable it—you’re just getting rewarded for doing things your deck probably wanted to do anyway."
+        },
+        {
+          "id": "zone-multicolor:8:p4",
+          "locator": {
+            "indexedLine": 579
+          },
+          "textSha256": "bda039fa24caa70cdb6d58ed2fa385983d42aa176de4e8d6a566b285aeb26626",
+          "wordCount": 20,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "If this sticks around for more than a turn or two, things are going to get stupid in a hurry."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:9",
+      "heading": "Desperate Futurescribe",
+      "cardIds": [
+        "cfaa3ebd-5c21-4e99-a0dd-8426d19b53a5"
+      ],
+      "scope": "card",
+      "grade": 3.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:9:p1",
+          "locator": {
+            "indexedLine": 587
+          },
+          "textSha256": "c43efdb239889c26c70bf882d75a7435a89decfc264d59bf1118304f354c1a02",
+          "wordCount": 23,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "So far, all of the signpost uncommons have been really strong, and you certainly don’t need to be desperate to slam this one."
+        },
+        {
+          "id": "zone-multicolor:9:p2",
+          "locator": {
+            "indexedLine": 589
+          },
+          "textSha256": "3b2a26c49d5a0153086ae9c18d5bdcc7b4e88159daaa9c1c027c052385ec63fa",
+          "wordCount": 29,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "selection"
+          ],
+          "text": "The baseline rate is already solid, and you’re probably going to have enough incidental scrying and surveilling floating around to keep the bonus turned on without trying too hard."
+        },
+        {
+          "id": "zone-multicolor:9:p3",
+          "locator": {
+            "indexedLine": 591
+          },
+          "textSha256": "1d68334c8bad4e689c8ef84b6fb83e2f8de3cd057d82332f97d2d6726622af4d",
+          "wordCount": 22,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "That means the upside should stick around well into the future instead of being some cute little bonus you only get once."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:10",
+      "heading": "Edgar, Ancient Bloodlord",
+      "cardIds": [
+        "7c619fed-2394-4efc-8cdc-6df5f51c1f57"
+      ],
+      "scope": "card",
+      "grade": 3.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:10:p1",
+          "locator": {
+            "indexedLine": 599
+          },
+          "textSha256": "33cd1390c9ad612b467b5b8e31faca2e2c90b6ca235790289a7e0af0bb15762b",
+          "wordCount": 14,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Edgar is a wonderful little dumpster for any extra creatures you have laying around."
+        },
+        {
+          "id": "zone-multicolor:10:p2",
+          "locator": {
+            "indexedLine": 601
+          },
+          "textSha256": "5f39373cbc9f94b4618deb1d40b681d222b7726ccc3476ab234ee1c6db8f9f00",
+          "wordCount": 40,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "lifegain",
+            "evasion"
+          ],
+          "text": "Feed him something you don’t need anymore and he gets bigger, gains menace, and even gives you a lifegain trigger for your troubles. That’s a pretty solid collection of upside for a creature that’s already slightly overstatted as a two-drop."
+        },
+        {
+          "id": "zone-multicolor:10:p3",
+          "locator": {
+            "indexedLine": 603
+          },
+          "textSha256": "57dc31ba7f8c44f11c5fd20809f48019e5502d5b50f27c319d06e062a619b5dd",
+          "wordCount": 22,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "He’s not doing anything completely ridiculous, but turning your spare cardboard into a growing threat is a deal I’m happy to make."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:11",
+      "heading": "Emergency Phytomedic",
+      "cardIds": [
+        "de94d388-919d-44ff-baef-8c90a417ac6d"
+      ],
+      "scope": "card",
+      "grade": 2.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:11:p1",
+          "locator": {
+            "indexedLine": 611
+          },
+          "textSha256": "38fee63d133705dc9a137a20e144a5faf9a85175ae4c54c5c9ede2e945e59d7c",
+          "wordCount": 27,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "counters"
+          ],
+          "text": "We’ve seen plenty of two-mana 1/1s that come down and toss a +1/+1 counter onto something, but this feels a couple of steps above the usual version."
+        },
+        {
+          "id": "zone-multicolor:11:p2",
+          "locator": {
+            "indexedLine": 613
+          },
+          "textSha256": "ba1c3b43f99372035a5749b3ba7d305922b8dbee2e575f19a0727c2f4e500667",
+          "wordCount": 44,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "You can still play it that way if you really need to. The much more appealing line is getting it down as a one-drop and then keeping that counter ability in your pocket for only one mana later. That flexibility feels so much better."
+        },
+        {
+          "id": "zone-multicolor:11:p3",
+          "locator": {
+            "indexedLine": 614
+          },
+          "textSha256": "32a0be6ee030543cb1d3d26ee65469585ccdb994554c1331356b13eddca6412e",
+          "wordCount": 24,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "lifegain"
+          ],
+          "text": "The life gain trigger looks small, but in the right deck it’s just another little piece of value stacking on top of everything else."
+        },
+        {
+          "id": "zone-multicolor:11:p4",
+          "locator": {
+            "indexedLine": 616
+          },
+          "textSha256": "f1dfd59dd0ed2438abc82ad9a1b7b4bd124248291e3b27877111830a533ed68d",
+          "wordCount": 15,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "There’s a lot more going on here than you’d expect from such an unassuming card."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:12",
+      "heading": "Entrust the Spark",
+      "cardIds": [
+        "ca894d25-b9fc-4cd6-8746-70d8c2868721"
+      ],
+      "scope": "card",
+      "grade": 1.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:12:p1",
+          "locator": {
+            "indexedLine": 624
+          },
+          "textSha256": "fce326d2ddc9b9e0750cff65e93bf79d357d28a03a241b06350d40cd711f9236",
+          "wordCount": 11,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "This is awfully close to wandering into never play this territory."
+        },
+        {
+          "id": "zone-multicolor:12:p2",
+          "locator": {
+            "indexedLine": 626
+          },
+          "textSha256": "d87ffedb33e82e207387c4d4169c6d65be5a31b595dbce730f83e7402bf191a3",
+          "wordCount": 35,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "empower",
+            "tokens"
+          ],
+          "text": "The only thing barely keeping it alive is that having an Empowered Jace token isn’t exactly difficult in this format, and there are enough completely busted planeswalkers running around that the effect can occasionally matter."
+        },
+        {
+          "id": "zone-multicolor:12:p3",
+          "locator": {
+            "indexedLine": 628
+          },
+          "textSha256": "85a8f0b0604944a3d2287673daabed9c8a72ffeeb1b429251fb88061204d52f7",
+          "wordCount": 17,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "sideboard"
+          ],
+          "text": "Still, I’d entrust this card with one very important job: keeping the rest of my sideboard company."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:13",
+      "heading": "Fatehold Charm",
+      "cardIds": [
+        "cfc54011-647e-4428-bcdb-59400e1da49d"
+      ],
+      "scope": "card",
+      "grade": 3.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:13:p1",
+          "locator": {
+            "indexedLine": 636
+          },
+          "textSha256": "a7f6431fa31224fc80e8ef89f82e64b8333b5748138d3dcd1d513a79b0e97b51",
+          "wordCount": 19,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "This Charm sure does give you a whole pile of good options depending on what the game calls for."
+        },
+        {
+          "id": "zone-multicolor:13:p2",
+          "locator": {
+            "indexedLine": 638
+          },
+          "textSha256": "55fa830abe95bdda51d8f48ddfcdaa531ca033d1476740e05af5adb3b4db8466",
+          "wordCount": 52,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "empower",
+            "combat"
+          ],
+          "text": "Need to basically cycle it while tossing in some Empower Jace value? Done. Need to bounce a creature or spell and completely screw up your opponent’s plans? Also done. Need to pump the whole team and turn a normal attack into a math problem from hell? It has you covered there too."
+        },
+        {
+          "id": "zone-multicolor:13:p3",
+          "locator": {
+            "indexedLine": 639
+          },
+          "textSha256": "9993bcab29a14f3418bd91206fcfb92aea2ca92a7c2fe6434c34d951d86205a2",
+          "wordCount": 33,
+          "mentionedCardIds": [
+            "cfc54011-647e-4428-bcdb-59400e1da49d"
+          ],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "None of the modes need to be busted when you get this much flexibility packed into one card. Fatehold Charm is going to have your back in a whole lot of different situations."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:14",
+      "heading": "Fatehold Chronologist",
+      "cardIds": [
+        "29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b"
+      ],
+      "scope": "card",
+      "grade": 2.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:14:p1",
+          "locator": {
+            "indexedLine": 648
+          },
+          "textSha256": "6ec4158118160aa04d1c8ef92069035f28ee0cad7f20d9f596d0f07ca0b3a016",
+          "wordCount": 27,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "selection"
+          ],
+          "text": "On one side, you’ve got a cheap little dorky flyer. On the other, you get a slightly overcosted Bear with a surveil thrown in for your trouble."
+        },
+        {
+          "id": "zone-multicolor:14:p2",
+          "locator": {
+            "indexedLine": 650
+          },
+          "textSha256": "31b2bab2fc7f718380f6cab8622d97e25489ccfee284fb284c838ddd99eafa9e",
+          "wordCount": 16,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Neither half is exactly setting the world on fire, but getting both has some real value."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:15",
+      "heading": "Ferocity of the Hunt",
+      "cardIds": [
+        "a9793ce9-5a0b-41fe-b9ad-02f6f7da2481"
+      ],
+      "scope": "card",
+      "grade": 1.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:15:p1",
+          "locator": {
+            "indexedLine": 658
+          },
+          "textSha256": "fdc7538103ce9efccd3d66e3dc44e9fcaebf79a2e39d416c3c5be40ecfc9307c",
+          "wordCount": 47,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "I love having one copy of this type of effect when it costs a single mana. At one, it slides into a deck pretty painlessly. At two, I need a much better reason, which means I’m really looking to hunt down some creatures that have strong ETBs."
+        },
+        {
+          "id": "zone-multicolor:15:p2",
+          "locator": {
+            "indexedLine": 660
+          },
+          "textSha256": "f1af857213795b8b76ce227730ec3598e550302e32be838291dbb9859f27e072",
+          "wordCount": 30,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "combat"
+          ],
+          "text": "The nice part is that the deathtouch sticks around. If you manage to slap this onto a first striker and surprise someone in combat, they’re going to be absolutely miserable."
+        },
+        {
+          "id": "zone-multicolor:15:p3",
+          "locator": {
+            "indexedLine": 661
+          },
+          "textSha256": "4b85b16124d10271c286821b083af329c41e14643eccbb40805dc17c449c1120",
+          "wordCount": 20,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "There’s some sneaky upside here, but at two mana I need the rest of my deck to help justify it."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:16",
+      "heading": "Frostbite Pyromental",
+      "cardIds": [
+        "7a44581f-8fc4-457d-888a-1e211090ee7e"
+      ],
+      "scope": "card",
+      "grade": 1.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:16:p1",
+          "locator": {
+            "indexedLine": 669
+          },
+          "textSha256": "e8113a7f91446e10ec919a8ac7b8ca1ff55deb653be2ab27fc0f614ebd5e78c5",
+          "wordCount": 35,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "card-draw"
+          ],
+          "text": "This is a weird one to grade because it costs the same amount as Divination , and the dream outcome is basically drawing two cards while sneaking in four damage. That sounds great on paper."
+        },
+        {
+          "id": "zone-multicolor:16:p2",
+          "locator": {
+            "indexedLine": 670
+          },
+          "textSha256": "e08e6714acc504e6c40a24213fa78fe2430067c7cb495aa991e3fa800c5ae904",
+          "wordCount": 60,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "removal",
+            "combat"
+          ],
+          "text": "The problem is that the whole plan falls apart pretty quickly if your opponent has a giant blocker just chilling in the way. It can also eat a removal spell before doing anything useful, and not every deck is trying to race your opponent down to zero as quickly as possible. That’s without mentioning the difficulty of the casting cost."
+        },
+        {
+          "id": "zone-multicolor:16:p3",
+          "locator": {
+            "indexedLine": 672
+          },
+          "textSha256": "e906a2c1fcfd095cc4d78fa849eca0e0081109be7b17787348c3ce49e4a4ecc2",
+          "wordCount": 30,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "card-draw"
+          ],
+          "text": "There are definitely games where this will feel amazing. There are also going to be plenty where I’d rather cut out all the extra steps and just cast a draw-two."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:17",
+      "heading": "Grim Repriser",
+      "cardIds": [
+        "8295c48c-b4dd-4bc1-a206-04cf12b79bbd"
+      ],
+      "scope": "card",
+      "grade": 2.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:17:p1",
+          "locator": {
+            "indexedLine": 680
+          },
+          "textSha256": "56b359549e78e1548cedd16b9ad4053024ba69ecd19726754e5c3fbfa58c726c",
+          "wordCount": 18,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "This signpost uncommon is looking a little grim compared to some of the others I’ve graded so far."
+        },
+        {
+          "id": "zone-multicolor:17:p2",
+          "locator": {
+            "indexedLine": 682
+          },
+          "textSha256": "0d53bf814ce1d7d64e2bed646450f85dbfb38bc66f3b44a8dfb9619ba2ca4c72",
+          "wordCount": 29,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "That doesn’t mean it’s bad. A 2/2 prowess creature for two mana is already a perfectly solid card, and I’d expect to run this in almost every Rakdos deck."
+        },
+        {
+          "id": "zone-multicolor:17:p3",
+          "locator": {
+            "indexedLine": 684
+          },
+          "textSha256": "45a16f3eb949c6fd3b3ee1a60e50a7912422cd64b1731f2f82d1c048dda0b79f",
+          "wordCount": 38,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "The problem is that it doesn’t really become something special unless you have reliable ways to bring it back and squeeze extra value out of it. Without that, it’s good—but not something I’m spending a premium pick on."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:18",
+      "heading": "Hapatra, the Desert Fang",
+      "cardIds": [
+        "cf7c1534-af41-4991-b3c3-f0a34ae330b5"
+      ],
+      "scope": "card",
+      "grade": 3.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:18:p1",
+          "locator": {
+            "indexedLine": 692
+          },
+          "textSha256": "7db43cd5dacbe634062993b836422b371101589492ce18d5f8f6b79661d18a93",
+          "wordCount": 20,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "graveyard"
+          ],
+          "text": "Golgarbage has never exactly struggled to put cards into the graveyard, so turning this on shouldn’t be asking for much."
+        },
+        {
+          "id": "zone-multicolor:18:p2",
+          "locator": {
+            "indexedLine": 694
+          },
+          "textSha256": "f0c2118fbf88476c46f0f4e1b3fa08bb90421d4a9ad99383386f7193f3b34582",
+          "wordCount": 30,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "removal"
+          ],
+          "text": "Once you do, this is basically Ravenous Chupacabra except the removal effect can even get around indestructible. That’s the kind of sentence that tends to get my attention pretty quickly."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:19",
+      "heading": "Ingris Stingerquill",
+      "cardIds": [
+        "6471b135-33a8-4005-9a07-ebb74e0bf145"
+      ],
+      "scope": "card",
+      "grade": 4.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:19:p1",
+          "locator": {
+            "indexedLine": 703
+          },
+          "textSha256": "f97832bbc96d76d5ad857b9d6a3b868f079376150ad0e70f95952c1f74148851",
+          "wordCount": 12,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Another mythic Sphinx is really good. I am absolutely shocked. Stunned, even."
+        },
+        {
+          "id": "zone-multicolor:19:p2",
+          "locator": {
+            "indexedLine": 705
+          },
+          "textSha256": "24e7aad58e767564259a360799cab3879d94eaa8d77303dfbe088cf81ef0cc2b",
+          "wordCount": 31,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "combat"
+          ],
+          "text": "This one comes down cheap and turns your entire squad, including itself, into pingers whenever they attack. That kind of passive damage adds up ridiculously fast and makes racing basically impossible."
+        },
+        {
+          "id": "zone-multicolor:19:p3",
+          "locator": {
+            "indexedLine": 707
+          },
+          "textSha256": "c3a14a3c44145329c1d5b9e506530ae17370620ead29574d23796c5da046235c",
+          "wordCount": 26,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "And because apparently that wasn’t enough, you can also start pooping out hasty bodies for a very reasonable cost—and the ability doesn’t even require a tap."
+        },
+        {
+          "id": "zone-multicolor:19:p4",
+          "locator": {
+            "indexedLine": 708
+          },
+          "textSha256": "b581551f868ef4d279ba3cebc0b08e281b9aa452eb9f0a6cf593c808d789d02a",
+          "wordCount": 14,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Cheap threat, immediate pressure, and a built-in army factory. Yeah, this thing is disgusting."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:20",
+      "heading": "Karn, Gilded Guardian",
+      "cardIds": [
+        "3abcae65-5b21-4c98-adad-34b8bc76ea3a"
+      ],
+      "scope": "card",
+      "grade": 1.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:20:p1",
+          "locator": {
+            "indexedLine": 716
+          },
+          "textSha256": "25ff4de14f2f7ed1e955852b3c9859e55665ff71208ab3f86e2a67e609e2b5bd",
+          "wordCount": 29,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "mana-ramp",
+            "card-draw",
+            "artifacts",
+            "tokens"
+          ],
+          "text": "There just aren’t that many colored artifacts in the set, so you’re probably topping out at drawing two cards off a couple of Heartwood Tokens most of the time."
+        },
+        {
+          "id": "zone-multicolor:20:p2",
+          "locator": {
+            "indexedLine": 718
+          },
+          "textSha256": "ca66297639e552ef761a4a59810d45a1a44bafa855c23cd00dd61d8c3d50948c",
+          "wordCount": 50,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "card-draw"
+          ],
+          "text": "Getting that value stapled onto a 5/5 with vigilance and trample certainly sounds nice, but that mana cost is asking you to jump through a whole lot of hoops. Even worse, you can do all that work and still end up drawing absolutely nothing when Karn finally hits the battlefield."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:21",
+      "heading": "Kiora of Salt and Sand",
+      "cardIds": [
+        "8151f5f5-e9f6-4fbe-b543-f456ebf22aa5"
+      ],
+      "scope": "card",
+      "grade": 2.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:21:p1",
+          "locator": {
+            "indexedLine": 726
+          },
+          "textSha256": "b69e129284520c03893aaa477618c9ede49c27781b63102df403a6969ba5ddf1",
+          "wordCount": 23,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "The body is perfectly decent, but Kiora really needs some help from the rest of your deck before she starts doing anything exciting."
+        },
+        {
+          "id": "zone-multicolor:21:p2",
+          "locator": {
+            "indexedLine": 728
+          },
+          "textSha256": "71ade64d844e1129ed1a728546a0159f8b104789a5326a5bef7ba8cdd79fd55b",
+          "wordCount": 42,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Empowering Jace isn’t particularly difficult in this format, but getting all the way up to eight is a very different story. Making a Kraken sounds great, but there’s a whole lot of nonsense that has to go right before we get there."
+        },
+        {
+          "id": "zone-multicolor:21:p3",
+          "locator": {
+            "indexedLine": 729
+          },
+          "textSha256": "6b109e0803a8ddfa1f90bac97c55b7a1e4dd0c9b30bbb8f1ef899a58206cdb9e",
+          "wordCount": 23,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "draft"
+          ],
+          "text": "The floor is playable. The ceiling is fun. I’m just not drafting the card assuming the Kraken factory is actually going to open."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:22",
+      "heading": "Konstrari Charm",
+      "cardIds": [
+        "7d29dfa1-9582-47bc-8f42-62b611bdcc4e"
+      ],
+      "scope": "card",
+      "grade": 2.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:22:p1",
+          "locator": {
+            "indexedLine": 737
+          },
+          "textSha256": "3c43ae96318288ac3f47a4df901646b25ab60a91c51ab928f3b5052ef9890c1b",
+          "wordCount": 9,
+          "mentionedCardIds": [
+            "cfc54011-647e-4428-bcdb-59400e1da49d"
+          ],
+          "relatedCardIds": [
+            "cfc54011-647e-4428-bcdb-59400e1da49d"
+          ],
+          "topicMentions": [],
+          "text": "Man, Fatehold Charm puts this thing to shame. SHAME."
+        },
+        {
+          "id": "zone-multicolor:22:p2",
+          "locator": {
+            "indexedLine": 739
+          },
+          "textSha256": "056a24cd1299acc771a669b20c4fbf575e1b8105a6a3d7792b10ed1e59283220",
+          "wordCount": 37,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "It’s really hard to imagine a spot where spending two mana and an entire card just to make three colorless mana is the correct play unless it immediately sets up lethal or some other completely disgusting turn."
+        },
+        {
+          "id": "zone-multicolor:22:p3",
+          "locator": {
+            "indexedLine": 741
+          },
+          "textSha256": "eaac21dac02419c860546e99e108536ccda4295cb995b27544a93a9b6944523e",
+          "wordCount": 20,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "combat",
+            "sideboard"
+          ],
+          "text": "The damage-to-a-flyer mode is mostly sideboard material, which leaves this functioning as a two-mana combat trick most of the time."
+        },
+        {
+          "id": "zone-multicolor:22:p4",
+          "locator": {
+            "indexedLine": 742
+          },
+          "textSha256": "831bea648c2c001e839333fbeb89e771341f3ceee547580449230d832bd883ea",
+          "wordCount": 34,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Granted, it’s a pretty good trick for the cost. It’s just hard to get excited when the other Charm showed up to the party wearing a tuxedo and this one brought a polo shirt."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:23",
+      "heading": "Konstrari Improviser",
+      "cardIds": [
+        "42e28bd2-486b-45d4-8840-6e33c19c2d57"
+      ],
+      "scope": "card",
+      "grade": 2.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:23:p1",
+          "locator": {
+            "indexedLine": 750
+          },
+          "textSha256": "d1d033d52f594b6c59558f5fb5c43d471942c77f534ea8baee7458c10aa0ab49",
+          "wordCount": 17,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "A Bear that basically lets you cast a Manalith off of it is perfectly respectable curve filler."
+        },
+        {
+          "id": "zone-multicolor:23:p2",
+          "locator": {
+            "indexedLine": 752
+          },
+          "textSha256": "99475cab4db4f5347ed1f057beb457b542b023b8b44285b4f6a70827f683dc88",
+          "wordCount": 42,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "mana-ramp"
+          ],
+          "text": "The real value comes when you have some bigger threats you’re trying to get onto the battlefield with a little extra swiftness. In those decks, this can smooth out your curve and help you jump ahead without playing a dedicated ramp spell."
+        },
+        {
+          "id": "zone-multicolor:23:p3",
+          "locator": {
+            "indexedLine": 754
+          },
+          "textSha256": "4c28b0e241c61277c8239d6f69997373895da16964cbb5236530353b85192346",
+          "wordCount": 12,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Nothing flashy, but it does a useful job at a reasonable price."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:24",
+      "heading": "Kwia Vigorbloom",
+      "cardIds": [
+        "2d6ff182-a853-4898-895b-072c89324ca7"
+      ],
+      "scope": "card",
+      "grade": 4.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:24:p1",
+          "locator": {
+            "indexedLine": 762
+          },
+          "textSha256": "c06a961a7716acb2c36116087675007795eb470e48b0752203a5e28a4c2bd674",
+          "wordCount": 35,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "tokens"
+          ],
+          "text": "I honestly couldn’t care less about the Lotus token. That just feels like fancy packaging designed to make the kids think they’re getting something extra. It’s the rest of the card that has my attention."
+        },
+        {
+          "id": "zone-multicolor:24:p2",
+          "locator": {
+            "indexedLine": 764
+          },
+          "textSha256": "c4540f100207a14eb3f1e90ee24442682b124ca2280063c2f07f7171db813bc2",
+          "wordCount": 48,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "lifegain",
+            "removal",
+            "evasion"
+          ],
+          "text": "I usually hesitate to rate anything this highly when it can eat a removal spell without leaving behind extra value, but this thing is basically impossible to race. A 6/6 with flying, vigilance, and lifelink can swing the game so violently that your opponent might need a seatbelt."
+        },
+        {
+          "id": "zone-multicolor:24:p3",
+          "locator": {
+            "indexedLine": 765
+          },
+          "textSha256": "8799299ab9b8e92b73e987c7e343d5aec758757482fd37c7e0ac795a6e5aa60c",
+          "wordCount": 13,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "It even has ward 2, so dealing with it isn’t exactly convenient either."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:25",
+      "heading": "Mabel, Valley Hero",
+      "cardIds": [
+        "47abea4b-9848-48aa-bc1b-f04f4799e920"
+      ],
+      "scope": "card",
+      "grade": 3.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:25:p1",
+          "locator": {
+            "indexedLine": 773
+          },
+          "textSha256": "717e02b9bdab8dd7aa9c469b83603ed3c68049102c2eebdde289a53863df51d4",
+          "wordCount": 20,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Mabel usually comes in as a 2/3, which isn’t exactly where you want to be for three mana these days."
+        },
+        {
+          "id": "zone-multicolor:25:p2",
+          "locator": {
+            "indexedLine": 775
+          },
+          "textSha256": "b4851d58b3fe8d58fba9508124122d66742ac0f646475d59d095984ee76d2f57",
+          "wordCount": 27,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "The real reason to care is everything that comes afterward. Once your future creatures start entering the battlefield bigger, Mabel starts looking a whole lot more impressive."
+        },
+        {
+          "id": "zone-multicolor:25:p3",
+          "locator": {
+            "indexedLine": 777
+          },
+          "textSha256": "71e69666a6f924a00a9c5602dc9b7b8b7965ce7a6b75d5441973fae1ad93451f",
+          "wordCount": 17,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "That’s when Mabel can actually prove they’re a Valley Hero instead of just another slightly underwhelming three-drop."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:26",
+      "heading": "Mind Meanderer",
+      "cardIds": [
+        "94c290ce-252c-42b3-bcb0-c1ef621df566"
+      ],
+      "scope": "card",
+      "grade": 3.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:26:p1",
+          "locator": {
+            "indexedLine": 785
+          },
+          "textSha256": "578046339975b7b2fb83777cebea39cfacbb8c5970ad45d6f8709dbb0f1f45d8",
+          "wordCount": 28,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "It’s a little pricey, but this is still a solid piece of top end that can fight something when it enters and then start winning through the air."
+        },
+        {
+          "id": "zone-multicolor:26:p2",
+          "locator": {
+            "indexedLine": 787
+          },
+          "textSha256": "d3bc45542abf6559f04f8be48db15deac268c5caecb3655c5f0d0c2e1bdbb084",
+          "wordCount": 27,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Most of the time, it’s basically going to play like a Serra Angel because having an Empowered Jace around is hardly asking for much in this set."
+        },
+        {
+          "id": "zone-multicolor:26:p3",
+          "locator": {
+            "indexedLine": 789
+          },
+          "textSha256": "57c956cfaccb456f90fc0664ed0117e3f58980548a8d6acc258e8badca694aca",
+          "wordCount": 24,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "removal",
+            "evasion"
+          ],
+          "text": "Removal stapled to an evasive threat is always a combination I’m interested in, even if I have to pay a little extra for it."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:27",
+      "heading": "Null Summoner",
+      "cardIds": [
+        "3afdc75a-1bf5-4f2f-84eb-d82f77a095cd"
+      ],
+      "scope": "card",
+      "grade": 4.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:27:p1",
+          "locator": {
+            "indexedLine": 797
+          },
+          "textSha256": "41b2d9a792a5b16997c6892b58502944c5632144e663e94c92c17b6c1068719e",
+          "wordCount": 35,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "The value is already there when you’re getting a four-power creature that basically casts Coercion on your opponent on the way in. That’s a pretty disgusting two-for-one before we even start talking about the upside."
+        },
+        {
+          "id": "zone-multicolor:27:p2",
+          "locator": {
+            "indexedLine": 799
+          },
+          "textSha256": "7bfac4c9bf776424a487a7c7504d144ca6bcee10827ea3e19a0cf7c332ffec0e",
+          "wordCount": 35,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "graveyard"
+          ],
+          "text": "Threshold can push things even further, although there’s a decent chance your opponent’s hand is already running on fumes by the time you get there. Hard to rip apart a hand that doesn’t exist anymore."
+        },
+        {
+          "id": "zone-multicolor:27:p3",
+          "locator": {
+            "indexedLine": 800
+          },
+          "textSha256": "84105846f95942a4de82e73d3acbd4ae392d9338e1c4bcb0f889b6a7cfb8cb25",
+          "wordCount": 24,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Still, that’s a pretty minor complaint. Big body, immediate card advantage, and some bonus ceiling if everything lines up. This is a great card."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:28",
+      "heading": "Paradox Shaper",
+      "cardIds": [
+        "e61b9d48-0ace-4453-afe0-a1024444bac0"
+      ],
+      "scope": "card",
+      "grade": 2.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:28:p1",
+          "locator": {
+            "indexedLine": 808
+          },
+          "textSha256": "37d3e54ff65c19b9414db81ba123d51dc64492770aa84128e3885b59bbfe7a7b",
+          "wordCount": 38,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "graveyard",
+            "removal"
+          ],
+          "text": "There are definitely decks that are going to want this card. For example, you 100% want this if you’re running multiple Threshold cards or have a ton of the cards you can exile form your graveyard for value."
+        },
+        {
+          "id": "zone-multicolor:28:p2",
+          "locator": {
+            "indexedLine": 810
+          },
+          "textSha256": "88aad50b96c94df380fc93dccb4898767f44f74fe4a8722d5cf510bf61cef7c4",
+          "wordCount": 25,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "card-draw",
+            "graveyard"
+          ],
+          "text": "In theory, you can mill away most of your deck and eventually start choosing exactly what you want to draw every turn. That sounds great."
+        },
+        {
+          "id": "zone-multicolor:28:p3",
+          "locator": {
+            "indexedLine": 811
+          },
+          "textSha256": "3dddd593b54144e2b64b086a60b0c63d65b1c9c0841aa89acf3b93c2f60b1fef",
+          "wordCount": 47,
+          "mentionedCardIds": [
+            "e61b9d48-0ace-4453-afe0-a1024444bac0"
+          ],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "graveyard"
+          ],
+          "text": "In reality, you’re probably going to spend several turns milling yourself while falling behind on board, only for Paradox Shaper to get removed right when it was finally about to do something useful. That means you better have that value available in your graveyard to maximize this."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:29",
+      "heading": "Primal Witchstalker",
+      "cardIds": [
+        "04e64af7-cca1-499e-8951-f386e84c8b5b"
+      ],
+      "scope": "card",
+      "grade": 3.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:29:p1",
+          "locator": {
+            "indexedLine": 819
+          },
+          "textSha256": "fce702761f632fb8a51598a1ce653831439e85a491d80dbaccfb91a527c90563",
+          "wordCount": 18,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "This is another one that really makes you wish Evolving Wilds had made the trip into this set."
+        },
+        {
+          "id": "zone-multicolor:29:p2",
+          "locator": {
+            "indexedLine": 821
+          },
+          "textSha256": "bf42c385dbf264504b164da7e7150ab62e72f7398befeb609adb8bfc148f5128",
+          "wordCount": 29,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "graveyard"
+          ],
+          "text": "Even without it, milling four gives you a pretty decent shot at hitting a land, and there’s a good chance you dump some other graveyard goodies along the way."
+        },
+        {
+          "id": "zone-multicolor:29:p3",
+          "locator": {
+            "indexedLine": 823
+          },
+          "textSha256": "617bf172cbb8428553549d0491b074788eb846b06ca6803249449d2f6871730d",
+          "wordCount": 30,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "graveyard"
+          ],
+          "text": "That makes this a nice mix of value and synergy without asking you to do anything too ridiculous. If your deck already cares about the graveyard, it gets even better."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:30",
+      "heading": "Proctor of Potential",
+      "cardIds": [
+        "cf0eec8c-0475-4050-8144-481a9bb13a0f"
+      ],
+      "scope": "card",
+      "grade": 4.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:30:p1",
+          "locator": {
+            "indexedLine": 831
+          },
+          "textSha256": "e13f7047fda5458d8af247446721d0b0ee1697e8eeb4276208330cde125c956d",
+          "wordCount": 38,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "card-draw"
+          ],
+          "text": "On its own, this does a great job smoothing out your draws without asking much more from you than simply curving out with creatures. That gets even easier when you keep getting to sculpt what you draw next."
+        },
+        {
+          "id": "zone-multicolor:30:p2",
+          "locator": {
+            "indexedLine": 833
+          },
+          "textSha256": "d95e38ae6b58f155c5863b5b622efafcb377bcd0d84c4664cf974c9ffb871355",
+          "wordCount": 37,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "selection"
+          ],
+          "text": "The real potential shows up when your deck is packed with cards that trigger every time you surveil. At that point, this stops being simple card selection and starts turning on a whole pile of extra nonsense."
+        },
+        {
+          "id": "zone-multicolor:30:p3",
+          "locator": {
+            "indexedLine": 835
+          },
+          "textSha256": "870ac837493bed9b07e7e14df222dc59fadfdd2d40e1a9eb91cff642680bd7a9",
+          "wordCount": 9,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Good by itself. Potentially disgusting in the right shell."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:31",
+      "heading": "Prudent Fateseer",
+      "cardIds": [
+        "6c1c790b-9e0e-4964-9ea3-554843907f06"
+      ],
+      "scope": "card",
+      "grade": 2.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:31:p1",
+          "locator": {
+            "indexedLine": 843
+          },
+          "textSha256": "83b44bdc8122257ae6222cf24818f9f0c14fd21dc3d4239a005b5829f8d2dd54",
+          "wordCount": 23,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "removal"
+          ],
+          "text": "This is usually going to be a two-for-one unless your opponent decides they really need to spend a removal spell on your 1/4."
+        },
+        {
+          "id": "zone-multicolor:31:p2",
+          "locator": {
+            "indexedLine": 845
+          },
+          "textSha256": "7df9d76cc48a5373ca731b8d3245a90a3393bf1c6ab5853abbcd8ffb4c6d55a5",
+          "wordCount": 30,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "How much value you get beyond that is going to vary wildly depending on how wide your deck goes and how many reliable ways you have to trigger the ability."
+        },
+        {
+          "id": "zone-multicolor:31:p3",
+          "locator": {
+            "indexedLine": 847
+          },
+          "textSha256": "293a30b3c991e13ad9139c80c6aa22a9c29512a615d557dce40ef66625e05f28",
+          "wordCount": 17,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "The floor is already respectable, but the right deck can squeeze a lot more out of it."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:32",
+      "heading": "Recursive Recruitment",
+      "cardIds": [
+        "68fddb6a-86d4-4ebb-907d-fdcaadebc4b3"
+      ],
+      "scope": "card",
+      "grade": 3.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:32:p1",
+          "locator": {
+            "indexedLine": 855
+          },
+          "textSha256": "afd524b26110e795ac62725493572834aba5856c2f28e6ed47caf50b11e8570d",
+          "wordCount": 17,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "This is one of those cards where I’m already wondering if 3.5 is a little too conservative."
+        },
+        {
+          "id": "zone-multicolor:32:p2",
+          "locator": {
+            "indexedLine": 857
+          },
+          "textSha256": "64755405cea178a5d11b7011806d2363077517f46e5e9fef0904609cec70bb81",
+          "wordCount": 37,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Making two 2/2s for four mana is already a perfectly solid Limited card. Then you get to flash it back later and make the next batch even bigger, which is where things start getting kind of stupid."
+        },
+        {
+          "id": "zone-multicolor:32:p3",
+          "locator": {
+            "indexedLine": 859
+          },
+          "textSha256": "3ac28b098717cc504b101adac0c622720840f64b6a356add8fee1872dabadb9a",
+          "wordCount": 18,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "The first cast is good value. The second one is where this starts looking like an absolute beating."
+        },
+        {
+          "id": "zone-multicolor:32:p4",
+          "locator": {
+            "indexedLine": 861
+          },
+          "textSha256": "97290fba08b562e109cde9514c7d7af90aa287af92fb04e13392b1e72ccae9d5",
+          "wordCount": 18,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "I’m starting at 3.5, but I would not be shocked if this ends up playing like a 4.0."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:33",
+      "heading": "Saheeli, Jewel of Avishkar",
+      "cardIds": [
+        "28d84ef6-e190-46d4-882d-1cea5e111e2a"
+      ],
+      "scope": "card",
+      "grade": 4.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:33:p1",
+          "locator": {
+            "indexedLine": 869
+          },
+          "textSha256": "38f24ce1d5edd21114e9b95a4acd605de87392ef8af90eb4852a85965e8b1220",
+          "wordCount": 10,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Well, this is going to get real stupid, real fast."
+        },
+        {
+          "id": "zone-multicolor:33:p2",
+          "locator": {
+            "indexedLine": 871
+          },
+          "textSha256": "ea928607fd832ea3bc52f14fe66f0643057d9338d66a4c1badbcab6a6cc90100",
+          "wordCount": 35,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "If you’re in Izzet, you’re probably already in the spells deck, which means untapping with Saheeli can immediately start pooping out a few hasty Thopters while you do what your deck wanted to do anyway."
+        },
+        {
+          "id": "zone-multicolor:33:p3",
+          "locator": {
+            "indexedLine": 873
+          },
+          "textSha256": "c335b426988fbe7a3c592f34cede46d898d63b90b0d0b4dc2192e5b18c6be5b1",
+          "wordCount": 34,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "The part I really love is that this isn’t restricted to once per turn. Every spell just keeps adding more nonsense to the board, and suddenly your opponent has a tiny Thopter infestation problem."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:34",
+      "heading": "Solarium Sentry",
+      "cardIds": [
+        "1ef12dcf-df50-4da6-8c4c-e2937ba9698e"
+      ],
+      "scope": "card",
+      "grade": 3.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:34:p1",
+          "locator": {
+            "indexedLine": 881
+          },
+          "textSha256": "ef39f65413b5fd10cf67f4336e596b695a95f5de1761624a3b7de2f213dd6755",
+          "wordCount": 33,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "I remember when people freaked out because Watchwolf existed. Now we get that card with a relevant ability stapled on and everyone just shrugs because apparently this is what Limited looks like now."
+        },
+        {
+          "id": "zone-multicolor:34:p2",
+          "locator": {
+            "indexedLine": 883
+          },
+          "textSha256": "154a4f296b45c6ce20c217c5f8c00716d76736871bf57f296bd0a50400a2af8f",
+          "wordCount": 43,
+          "mentionedCardIds": [
+            "1ef12dcf-df50-4da6-8c4c-e2937ba9698e"
+          ],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "lifegain"
+          ],
+          "text": "You obviously want life gain triggers to really maximize Solarium Sentry, but you don’t need to go completely overboard. Even a little incidental life gain can start adding up when the body is already above rate before any of the synergy kicks in."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:35",
+      "heading": "Solitary Cell",
+      "cardIds": [
+        "5142bbb6-194c-4b12-b11a-1a21c9fe81a6"
+      ],
+      "scope": "card",
+      "grade": 3.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:35:p1",
+          "locator": {
+            "indexedLine": 891
+          },
+          "textSha256": "21cbe57f03050c9d586c8ead49ea3b6e05439a28c30f27f730fdc82d137e76ca",
+          "wordCount": 27,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "The second half of this card might as well be blank in about 90% of situations, so the grade is almost entirely riding on that first ability."
+        },
+        {
+          "id": "zone-multicolor:35:p2",
+          "locator": {
+            "indexedLine": 893
+          },
+          "textSha256": "361b79f25c08df800e868a10b665ba3ecedf9a4f9adf812871c4cfd941b4e8e1",
+          "wordCount": 37,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Two mana to remove something that costs three or less is a perfectly reasonable deal in Limited. The only real knock is that being two colors makes it a little harder to slot into just any deck."
+        },
+        {
+          "id": "zone-multicolor:35:p3",
+          "locator": {
+            "indexedLine": 895
+          },
+          "textSha256": "2b496eb0f46d3b8220716d63c58b44b70c1d701b728ec50b471185dc3bb603d2",
+          "wordCount": 9,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "removal"
+          ],
+          "text": "Nothing flashy here, but efficient removal is efficient removal."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:36",
+      "heading": "Stingerquill Charm",
+      "cardIds": [
+        "81733ff7-e611-43ee-bf38-6bb700676017"
+      ],
+      "scope": "card",
+      "grade": 3.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:36:p1",
+          "locator": {
+            "indexedLine": 903
+          },
+          "textSha256": "0fe5facf13dd50f966156512ab076afee15d4102cca1de623fb66fa50a3e8f58",
+          "wordCount": 13,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Another busted Charm where all three modes are actually good. What a concept."
+        },
+        {
+          "id": "zone-multicolor:36:p2",
+          "locator": {
+            "indexedLine": 905
+          },
+          "textSha256": "fd6feff69c9dc06c7022ebb9bad4115b9a7cc2685ea4e461506157029d9981f7",
+          "wordCount": 51,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "removal",
+            "combat"
+          ],
+          "text": "Lightning Strike is always going to be a great card. First strike plus deathtouch can turn basically any random creature into a removal spell, and it gets especially nasty when your opponent tries to gang block and you do something so disgusting that you better put the kids to bed first."
+        },
+        {
+          "id": "zone-multicolor:36:p3",
+          "locator": {
+            "indexedLine": 907
+          },
+          "textSha256": "a6c6b9c04f47dc32997cb2ca204e57ad3f645fe4c13ff3518b91cafa66ef81d8",
+          "wordCount": 24,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "And if none of that is what you need, you can always just poop out a 2/2 with haste and add to the board."
+        },
+        {
+          "id": "zone-multicolor:36:p4",
+          "locator": {
+            "indexedLine": 908
+          },
+          "textSha256": "ab0045a20b0a7259e71551a19568bf6efb39fa682cf9ecdfe10cba972d5d6649",
+          "wordCount": 13,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "There really isn’t a bad option here. This one is going to sting."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:37",
+      "heading": "Stingerquill Voxmancer",
+      "cardIds": [
+        "84b1c268-3b8a-41b6-92e3-a2ce0cc3d738"
+      ],
+      "scope": "card",
+      "grade": 2.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:37:p1",
+          "locator": {
+            "indexedLine": 916
+          },
+          "textSha256": "11412c99a5a3c4031b3913fe255eeb46527576684e0bda025fd52abc09521ea0",
+          "wordCount": 23,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "This isn’t exactly going to beat your opponent down on its own, but it can usually sneak in a hit or two early."
+        },
+        {
+          "id": "zone-multicolor:37:p2",
+          "locator": {
+            "indexedLine": 918
+          },
+          "textSha256": "69eb3889678b73d8d9a9a96be92c38a30cdf39525332542700e24f02718fd868",
+          "wordCount": 55,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "removal",
+            "aggro"
+          ],
+          "text": "More importantly, it gives you a pile of triggers for dealing noncombat damage to your opponent. It even gives aggressive decks a little extra reach when they’re struggling to close things out. And if your opponent decides to spend a real removal spell on your one-drop, that’s a trade you’re probably pretty happy to make."
+        },
+        {
+          "id": "zone-multicolor:37:p3",
+          "locator": {
+            "indexedLine": 919
+          },
+          "textSha256": "2bcac26b2e11a8998a6611e47188143e636ffac57ca2498e7dd448e480d0c967",
+          "wordCount": 14,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Especially when there’s a decent chance you picked this thing up on the wheel."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:38",
+      "heading": "Stinging Vitriol",
+      "cardIds": [
+        "a7d78297-7411-4ec5-8931-a25146869d5b"
+      ],
+      "scope": "card",
+      "grade": 3.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:38:p1",
+          "locator": {
+            "indexedLine": 927
+          },
+          "textSha256": "d86ca44a36fcb3d552f7c8688013a29dad0aaba5fbc3c465fa7d3f11870435e1",
+          "wordCount": 37,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "I’m sure there are going to be games where the two damage actually matters, and it’s nice that this still does something when you rip it off the top after your opponent has already emptied their hand."
+        },
+        {
+          "id": "zone-multicolor:38:p2",
+          "locator": {
+            "indexedLine": 929
+          },
+          "textSha256": "6fa7702425b49a225cee93f892ccc7a5fa45fdab2b44f90cab8de3b309039705",
+          "wordCount": 15,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "The real reason I’m interested, though, is much simpler: it’s a two-mana catch-all discard spell."
+        },
+        {
+          "id": "zone-multicolor:38:p3",
+          "locator": {
+            "indexedLine": 931
+          },
+          "textSha256": "3cd808f2af7f9b5e4dca0d0ca2bcfb2668117e01327dd7e72cdd5eff08ce78fa",
+          "wordCount": 24,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Getting to strip basically anything before it becomes a problem is already strong. The random burn is just a little extra sting on top."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:39",
+      "heading": "Tam, the Possibility",
+      "cardIds": [
+        "6529d399-677e-45a6-ac3e-12a0b10f6c37"
+      ],
+      "scope": "card",
+      "grade": 1.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:39:p1",
+          "locator": {
+            "indexedLine": 939
+          },
+          "textSha256": "1041b21034e4dfcf2ffc46b51c2e4abc1f9cb191c76038e339112fc83664e4b9",
+          "wordCount": 24,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Is there a possibility that some deck is going to want this? Of course. That deck is probably going to be extremely rare, though."
+        },
+        {
+          "id": "zone-multicolor:39:p2",
+          "locator": {
+            "indexedLine": 941
+          },
+          "textSha256": "a5f3eece9eb59ef53437d9516a8f697bfe8de9138b172eb15847c32ac8143559",
+          "wordCount": 22,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Maybe you’re the brave soul who finally innovates the five-color Planeswalker pile and Tam becomes the glue holding your beautiful disaster together."
+        },
+        {
+          "id": "zone-multicolor:39:p3",
+          "locator": {
+            "indexedLine": 943
+          },
+          "textSha256": "83c3a447409c8faae336d145dd50420941b64c78230653906cc4507f31ead15f",
+          "wordCount": 21,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "In most decks, though, this is just an underwhelming body whose main contribution is mucking up the ground for a while."
+        },
+        {
+          "id": "zone-multicolor:39:p4",
+          "locator": {
+            "indexedLine": 945
+          },
+          "textSha256": "8fd6afbde90694f3cb71976b14ecc0022ca203a7a594fe97e1f750772868e9d7",
+          "wordCount": 12,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "draft"
+          ],
+          "text": "The possibility is there. I’m just not betting my draft on it."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:40",
+      "heading": "Tam’s Resistance",
+      "cardIds": [
+        "b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b"
+      ],
+      "scope": "card",
+      "grade": 1.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:40:p1",
+          "locator": {
+            "indexedLine": 953
+          },
+          "textSha256": "6515ab9cdc4082d57af70b78c4e8ae01906bcb65e524e71a8923766bd2280a6b",
+          "wordCount": 20,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "empower"
+          ],
+          "text": "If you’re actively looking for more ways to Empower Jace, then this is something you can talk yourself into playing."
+        },
+        {
+          "id": "zone-multicolor:40:p2",
+          "locator": {
+            "indexedLine": 955
+          },
+          "textSha256": "eb2e21449d75577964b8b37d33128edabee7ee5e3b0d82d5d3a407b642616fa2",
+          "wordCount": 18,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "counters"
+          ],
+          "text": "Otherwise, even with the cantrip attached, a sorcery-speed +1/+1 effect just isn’t really a modern Limited card anymore."
+        },
+        {
+          "id": "zone-multicolor:40:p3",
+          "locator": {
+            "indexedLine": 957
+          },
+          "textSha256": "4748987f6c024a021fc7b4190e2ed229b221bd82753daaee8d08858c87275080",
+          "wordCount": 31,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "The Jace synergy is doing basically all of the heavy lifting here. Without it, this is the kind of card that makes you wonder what year the design file came from."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:41",
+      "heading": "Tenured Tethermage",
+      "cardIds": [
+        "1703306d-6a3d-4ab8-bf58-a9992236ef0f"
+      ],
+      "scope": "card",
+      "grade": 3.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:41:p1",
+          "locator": {
+            "indexedLine": 965
+          },
+          "textSha256": "354d9a4ce87f54113120f6ce6269aba229ac8632639c3dfdde1d78546b79e2bf",
+          "wordCount": 32,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "mana-ramp",
+            "graveyard"
+          ],
+          "text": "I like this as a ramp spell that just so happens to toss a land into your graveyard, which is actually a feature in this set instead of an unfortunate side effect."
+        },
+        {
+          "id": "zone-multicolor:41:p2",
+          "locator": {
+            "indexedLine": 967
+          },
+          "textSha256": "1cfe7df6c3dbbab63bd0a8f9bf2e181e3a4c651baf550342739f3b7184366479",
+          "wordCount": 35,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "The fact that it can start growing itself afterward is a nice bonus, but it begins life absolutely teeny tiny. That leaves it extremely vulnerable to basically anything your opponent feels like pointing at it."
+        },
+        {
+          "id": "zone-multicolor:41:p3",
+          "locator": {
+            "indexedLine": 968
+          },
+          "textSha256": "8bc7b43df4e422ae171aef3a7ed83bc640ea3aad79f669b1c7bceb995b67dbf9",
+          "wordCount": 27,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "mana-ramp",
+            "graveyard"
+          ],
+          "text": "If it survives, though, you’re getting ramp, graveyard synergy, and a threat that can eventually grow into something relevant. That’s a pretty solid package for three mana."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:42",
+      "heading": "Theorix Charm",
+      "cardIds": [
+        "2835c9aa-0904-44db-8da2-e8c4e04201aa"
+      ],
+      "scope": "card",
+      "grade": 2.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:42:p1",
+          "locator": {
+            "indexedLine": 976
+          },
+          "textSha256": "9cd641a5b7abc80921b4ba7bad10389960e50942cc85908177868e02b6fda49c",
+          "wordCount": 28,
+          "mentionedCardIds": [
+            "7d29dfa1-9582-47bc-8f42-62b611bdcc4e"
+          ],
+          "relatedCardIds": [
+            "7d29dfa1-9582-47bc-8f42-62b611bdcc4e"
+          ],
+          "topicMentions": [],
+          "text": "Another solid Charm with multiple decent options. I still don’t know what Konstrari Charm did to deserve its fate, but apparently somebody on the design team had beef."
+        },
+        {
+          "id": "zone-multicolor:42:p2",
+          "locator": {
+            "indexedLine": 978
+          },
+          "textSha256": "f42169b1b3a3bf21b7a931777f5b4fd997be3aa7c9a8778cc9669b0ebdc23852",
+          "wordCount": 44,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "I do think the first mode should have just been Quench instead of limiting it to noncreature spells. The -2/-2 mode sort of covers you against smaller creatures, but you’re still hanging out to dry against anything bigger or anything with a nasty ETB."
+        },
+        {
+          "id": "zone-multicolor:42:p3",
+          "locator": {
+            "indexedLine": 979
+          },
+          "textSha256": "57e2b57ff444b2a4df621e8c2a8326ab2954762489163fd83e1a33978614fceb",
+          "wordCount": 20,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "card-draw",
+            "graveyard"
+          ],
+          "text": "Even the mill-three-and-draw mode is perfectly respectable because it basically gets you four cards closer to Threshold while replacing itself."
+        },
+        {
+          "id": "zone-multicolor:42:p4",
+          "locator": {
+            "indexedLine": 981
+          },
+          "textSha256": "7d17ebc6efcd7cc06b2580ef5a84896c69d26641a7ec3c9ed0e015c915686cd1",
+          "wordCount": 19,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Nothing here is completely busted, but having three useful options adds up to a card I’m pretty happy playing."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:43",
+      "heading": "Theorix Metamage",
+      "cardIds": [
+        "fb6bad96-841d-4738-8e62-92f346f914fd"
+      ],
+      "scope": "card",
+      "grade": 2.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:43:p1",
+          "locator": {
+            "indexedLine": 989
+          },
+          "textSha256": "47a268c4d81baa41752e6b6d15224f753cc195df8ff822d635490f9ad60ba2bd",
+          "wordCount": 29,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "graveyard"
+          ],
+          "text": "How much the self-mill matters is really going to depend on whether your deck has other ways to reach Threshold and enough payoffs to care once you get there."
+        },
+        {
+          "id": "zone-multicolor:43:p2",
+          "locator": {
+            "indexedLine": 991
+          },
+          "textSha256": "2fb63883bb4d13e96a2c3fb8cc3fd594597521c3757e7d10e12b60a0d7497314",
+          "wordCount": 25,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "A 3/3 flyer for three mana is already a solid deal, even if you have to jump through a minor hoop to turn it on."
+        },
+        {
+          "id": "zone-multicolor:43:p3",
+          "locator": {
+            "indexedLine": 993
+          },
+          "textSha256": "5171468deced94e619e87c4b75573467dc39feced644c3c9929ca3f3661c8c3a",
+          "wordCount": 35,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "graveyard"
+          ],
+          "text": "Basically, I’m looking at this as closer to a 2.5 in graveyard decks such as Dimir and a 1.5 almost everywhere else. Split the difference, slap a 2.0 on it, and call it a day."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:44",
+      "heading": "Twinned Vision",
+      "cardIds": [
+        "55f85984-0137-4899-8993-bbc8c4794d33"
+      ],
+      "scope": "card",
+      "grade": 2.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:44:p1",
+          "locator": {
+            "indexedLine": 1001
+          },
+          "textSha256": "43956b9356873a5cee90c42b87f0f48e432b34b8ded473ce1c29364584d0b0d2",
+          "wordCount": 34,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Think Twice was always a perfectly reasonable card and even managed to see some Constructed play back in the day. This is basically that with a rummage stapled on for a little extra value."
+        },
+        {
+          "id": "zone-multicolor:44:p2",
+          "locator": {
+            "indexedLine": 1003
+          },
+          "textSha256": "8a08fcde790254243554eff27b53188a088ce738d6022515154a78aac8c46676",
+          "wordCount": 16,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "It’s not doing anything flashy, but spell-heavy decks are going to appreciate the cheap card flow."
+        },
+        {
+          "id": "zone-multicolor:44:p3",
+          "locator": {
+            "indexedLine": 1005
+          },
+          "textSha256": "73a434dfe73a83e3ddbb5655c241a3f01faa17c9e459ee10fd61c36bd3820e0a",
+          "wordCount": 11,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "I can see the vision here. It’s just not exactly 20/20."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:45",
+      "heading": "Twisted Fates",
+      "cardIds": [
+        "c7c0765d-38fd-4d7b-bfb4-49b10ff5939b"
+      ],
+      "scope": "card",
+      "grade": 3.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:45:p1",
+          "locator": {
+            "indexedLine": 1013
+          },
+          "textSha256": "b2ff0e889b1c659564e0812032d062143e6a6d04a7baf9864b57f6b3c08e338f",
+          "wordCount": 9,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "removal"
+          ],
+          "text": "Kill anything and pump your whole team? Yes please."
+        },
+        {
+          "id": "zone-multicolor:45:p2",
+          "locator": {
+            "indexedLine": 1015
+          },
+          "textSha256": "dfb8774c215a26e39ba36ece867d525a0aebd9672a27ec9aecde5edd7fe4a115",
+          "wordCount": 29,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "removal",
+            "combat"
+          ],
+          "text": "Don’t get it twisted, this card is sick. Removal is already premium, and stapling a team-wide combat boost onto it can turn a normal exchange into an absolute beating."
+        },
+        {
+          "id": "zone-multicolor:45:p3",
+          "locator": {
+            "indexedLine": 1017
+          },
+          "textSha256": "413d5ea4c08cd45239d1f0136aff8ba4f2b8c9a784546cbd8339353dd13ef818",
+          "wordCount": 29,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "I’m starting at 3.5, but this feels like the kind of card that could creep up to a 4.0 once we actually get a couple weeks of games in."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:46",
+      "heading": "Uldaros Theorix",
+      "cardIds": [
+        "a7ad622a-42ff-48fa-ae95-12e0a5bd9387"
+      ],
+      "scope": "card",
+      "grade": 4.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:46:p1",
+          "locator": {
+            "indexedLine": 1026
+          },
+          "textSha256": "e176bff6bc677f37b0032cd17358f37eb06f435618421a7cd3d8ec46f710f3cb",
+          "wordCount": 26,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "graveyard"
+          ],
+          "text": "It shouldn’t be particularly difficult to stock your graveyard in Dimir, and this gives you some premium options for turning all that junk into actual value."
+        },
+        {
+          "id": "zone-multicolor:46:p2",
+          "locator": {
+            "indexedLine": 1028
+          },
+          "textSha256": "6f33bcf2276a4ca527956a44ceabea12eab51740e630870dfc638ba7f38a81f9",
+          "wordCount": 30,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "removal"
+          ],
+          "text": "Getting an extra dude and a removal spell tacked onto an already massive 5/5 flyer sounds like a pretty damn effective way to flip a game completely in your favor."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:47",
+      "heading": "Vigorbloom Charm",
+      "cardIds": [
+        "2b198e10-b507-4314-a29c-a219f06e48b7"
+      ],
+      "scope": "card",
+      "grade": 3.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:47:p1",
+          "locator": {
+            "indexedLine": 1037
+          },
+          "textSha256": "164eda8cb35ac35160c9170aa5f886a94bd99a362231687e21bd7774d8f218bb",
+          "wordCount": 4,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Charms are good, mmkay."
+        },
+        {
+          "id": "zone-multicolor:47:p2",
+          "locator": {
+            "indexedLine": 1039
+          },
+          "textSha256": "7e0eca794e915af3de0e707518dddb5e86d14363c96ae3ec5d8cf41ba17b7e52",
+          "wordCount": 40,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "lifegain",
+            "counters"
+          ],
+          "text": "Protecting a key creature, cycling while picking up some life in the colors that actually care about lifegain triggers, or tossing on a +1/+1 counter and fighting something are all pretty great things to be doing for only two mana."
+        },
+        {
+          "id": "zone-multicolor:47:p3",
+          "locator": {
+            "indexedLine": 1041
+          },
+          "textSha256": "55a5e497a9ac87533e20611e8805b9006c53424af0707f11dccde664ef3447a7",
+          "wordCount": 19,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "None of the modes are wasted, and that kind of flexibility is exactly what makes these Charms so strong."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:48",
+      "heading": "Vigorbloom Vanguard",
+      "cardIds": [
+        "acefc515-bf97-4dc0-b0f7-ae8ae5a61671"
+      ],
+      "scope": "card",
+      "grade": 2.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:48:p1",
+          "locator": {
+            "indexedLine": 1049
+          },
+          "textSha256": "6f85232b0787d75e6f239181818a38fb6b3f920fa8e6fdcd3e3a462e97f0e337",
+          "wordCount": 22,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "This rating might look a little high at first, but I think the whole is better than the sum of its parts."
+        },
+        {
+          "id": "zone-multicolor:48:p2",
+          "locator": {
+            "indexedLine": 1051
+          },
+          "textSha256": "43dfa1570d9696b35bb0634a78ef55c30ab90c28fa7d279bc7d3a55a695ddab9",
+          "wordCount": 44,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "counters",
+            "combat"
+          ],
+          "text": "A generic bear isn’t exactly something to write home about these days, but for just one more mana you can turn it into a 3/3 with vigilance. Better yet, that +1/+1 counter can go on any creature, which can seriously mess with combat math."
+        },
+        {
+          "id": "zone-multicolor:48:p3",
+          "locator": {
+            "indexedLine": 1053
+          },
+          "textSha256": "e9047132b75b06b225d1fcacfc5112a55b9055452319cfef2bb27a644ffce19d",
+          "wordCount": 25,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Then, just to squeeze out a little more value, you gain a life and trigger one of the many life-gain payoffs floating around the set."
+        },
+        {
+          "id": "zone-multicolor:48:p4",
+          "locator": {
+            "indexedLine": 1054
+          },
+          "textSha256": "5aca94fa4411689f8a5103b9a6301ded30832c688d9b594664d6155149a4de23",
+          "wordCount": 19,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "None of those things are amazing on their own, but together they make this a really solid Limited card."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:49",
+      "heading": "Vindictive Triumph",
+      "cardIds": [
+        "a803dbe7-153a-4e92-ad4d-c2babebe003d"
+      ],
+      "scope": "card",
+      "grade": 2.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:49:p1",
+          "locator": {
+            "indexedLine": 1062
+          },
+          "textSha256": "dfcea4dd1baf5fd53c545ed5b8549361f60762c05ea2b2335bbb649f62734176",
+          "wordCount": 16,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "removal"
+          ],
+          "text": "This is some pretty awkward three-mana removal to cast, even if it does hit almost anything."
+        },
+        {
+          "id": "zone-multicolor:49:p2",
+          "locator": {
+            "indexedLine": 1064
+          },
+          "textSha256": "696bbaa1782376156504887d1ef2f1f41d696710784c832df4ec260da2bb1ccd",
+          "wordCount": 39,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "The bonus mode asks for a lot more to really shine. You need to hit something that costs three or less, and ideally it has a useful ETB so you’re actually getting meaningful value out of bringing it back."
+        },
+        {
+          "id": "zone-multicolor:49:p3",
+          "locator": {
+            "indexedLine": 1066
+          },
+          "textSha256": "13acfa25b321cd941ff11393243e6e71ac097bf03bb46dd5452b0cef77cfb140",
+          "wordCount": 14,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "combat",
+            "tokens"
+          ],
+          "text": "The token even enters tapped, so there aren’t any cute surprise-blocking blowouts hiding here."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:50",
+      "heading": "Vraska, Soul of Stone",
+      "cardIds": [
+        "f3869752-eade-4e7a-8dd1-68cafb9e10be"
+      ],
+      "scope": "card",
+      "grade": 3.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:50:p1",
+          "locator": {
+            "indexedLine": 1074
+          },
+          "textSha256": "a491143dc9a675dace285bef2da39f8b594793da5e5b8a46c16ff1330b813962",
+          "wordCount": 47,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "mana-fixing",
+            "draft"
+          ],
+          "text": "I’m always a little wary of three-color cards in Draft. There are enough fixing lands floating around in this format to make it work, but asking for three different colors still comes with a real cost, and I’m knocking the grade down a little because of it."
+        },
+        {
+          "id": "zone-multicolor:50:p2",
+          "locator": {
+            "indexedLine": 1076
+          },
+          "textSha256": "a118e48c535236f2ed05523cd746021c15d7e9a18802505f23f1faac26b3b2a8",
+          "wordCount": 17,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "mana-fixing"
+          ],
+          "text": "The best home feels like the Izzet spells deck splashing just enough white to get Vraska online."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:51",
+      "heading": "Vraska, the Cutting Glare",
+      "cardIds": [
+        "5c28b012-5efb-488f-a1c1-09e2dddfd6ee"
+      ],
+      "scope": "card",
+      "grade": 4.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:51:p1",
+          "locator": {
+            "indexedLine": 1084
+          },
+          "textSha256": "be78b29b21adc56362a415b46c1d30aa91beefdb2e4419c2f8bcd722b2635d4e",
+          "wordCount": 19,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Won’t the real Vraska please stand up? This is much more in line with the Gorgon we all remember."
+        },
+        {
+          "id": "zone-multicolor:51:p2",
+          "locator": {
+            "indexedLine": 1086
+          },
+          "textSha256": "589b337e15502a24efde510cb7cd4e1528f4b86661fb852f7058f6554e626294",
+          "wordCount": 38,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "A 4/4 deathtouch for three mana is already a really good deal, even if it isn’t quite game-changing on its own. It’s a nice option to have when you’re curving out, assuming that pretty intense mana cost cooperates."
+        },
+        {
+          "id": "zone-multicolor:51:p3",
+          "locator": {
+            "indexedLine": 1087
+          },
+          "textSha256": "69d89446e392112f586cefcb29dc6a60fa8498c2ccb8bd19760892234c02b4d8",
+          "wordCount": 46,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "removal"
+          ],
+          "text": "The real power shows up once you hit six lands and get to destroy basically any permanent. Sure, they get a Treasure, but at that stage of the game I’m not losing much sleep over it compared to them losing the best thing on their board."
+        },
+        {
+          "id": "zone-multicolor:51:p4",
+          "locator": {
+            "indexedLine": 1089
+          },
+          "textSha256": "b1bfdecc40ba1ca4be6ad627dd4d1ce9e68b3517566890ea4f6d9a250ee03254",
+          "wordCount": 21,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "removal"
+          ],
+          "text": "Early, she’s an efficient threat. Late, she’s efficient removal stapled to an efficient threat. That’s the Vraska I signed up for."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:52",
+      "heading": "Warrior’s Blades",
+      "cardIds": [
+        "c63d5b0e-ee72-42ed-aa7e-484ba84507cd"
+      ],
+      "scope": "card",
+      "grade": 2.0,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:52:p1",
+          "locator": {
+            "indexedLine": 1097
+          },
+          "textSha256": "4318e50666207770cf5cbccfcec59012ab9161740ab5d687717ec47a7a66affb",
+          "wordCount": 45,
+          "mentionedCardIds": [
+            "c63d5b0e-ee72-42ed-aa7e-484ba84507cd"
+          ],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "removal",
+            "equipment"
+          ],
+          "text": "We already saw with Crude Bent Blade how effective Equipment can be when it kills something on the way in. The problem here is that Warrior's Blades costs one more mana to cast and one more to equip, and those little taxes add up quickly."
+        },
+        {
+          "id": "zone-multicolor:52:p2",
+          "locator": {
+            "indexedLine": 1099
+          },
+          "textSha256": "1ee7e72680b219f43e3e877c86b389089af28de6247412e0bcc9ac483a76eb23",
+          "wordCount": 37,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "On the plus side, this is basically casting Lightning Helix instead of Diabolic Edict , which is usually going to work in this card’s favor. You get to choose what dies while also picking up some life."
+        },
+        {
+          "id": "zone-multicolor:52:p3",
+          "locator": {
+            "indexedLine": 1100
+          },
+          "textSha256": "add7783a7a887a01688e243136ce5545617a1b62775dd1a3e1b4ec1e6ec3b733",
+          "wordCount": 31,
+          "mentionedCardIds": [
+            "c63d5b0e-ee72-42ed-aa7e-484ba84507cd"
+          ],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Still, the extra mana is enough to keep me from getting too excited. I’m fine playing one, but I definitely don’t want my deck turning into a Warrior's Blades outlet store."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:53",
+      "heading": "Whiplash Wordsmith",
+      "cardIds": [
+        "8096bc9a-a610-448f-bef2-7230e17e9777"
+      ],
+      "scope": "card",
+      "grade": 1.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:53:p1",
+          "locator": {
+            "indexedLine": 1108
+          },
+          "textSha256": "4ea8d90a86d9695b2039c57924ff108bb6f3d660e32cb55005701e0d8983e807",
+          "wordCount": 30,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "It’s not particularly hard to deal noncombat damage in Rakdos, and this even gives you its own one-shot enabler if you want to give it haste and get swinging immediately."
+        },
+        {
+          "id": "zone-multicolor:53:p2",
+          "locator": {
+            "indexedLine": 1110
+          },
+          "textSha256": "2271958645a278ad61cec486ac77263f90a30d4952548ac4497536aecfb9e06d",
+          "wordCount": 51,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "The problem is that we’re all the way up at five mana for that option, and that’s a little more than I want to pay for what this is ultimately doing. Expensive cards need to earn their keep, and this one is mostly showing up because it knows the right people."
+        },
+        {
+          "id": "zone-multicolor:53:p3",
+          "locator": {
+            "indexedLine": 1111
+          },
+          "textSha256": "b1a5c5aae6f8cb6b1a38bc5386305706555d6ed75a03e0809ae52f1557d8470a",
+          "wordCount": 26,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "It’s a reasonable role player in Rakdos, especially if you have plenty of noncombat damage triggers, but I don’t see it getting much work anywhere else."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-multicolor:54",
+      "heading": "Woodwork Prodigy",
+      "cardIds": [
+        "7d17f7e3-7b63-4674-9024-4fd1827f40ec"
+      ],
+      "scope": "card",
+      "grade": 2.5,
+      "paragraphs": [
+        {
+          "id": "zone-multicolor:54:p1",
+          "locator": {
+            "indexedLine": 1119
+          },
+          "textSha256": "24295d56a62e4bae9c133ffb39e9817a051dfa19e46a3a67f376dde883359e39",
+          "wordCount": 27,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "mana-ramp"
+          ],
+          "text": "This can certainly go up in value if your deck is looking to ramp or has a good mana sink to dump all that extra mana into."
+        },
+        {
+          "id": "zone-multicolor:54:p2",
+          "locator": {
+            "indexedLine": 1121
+          },
+          "textSha256": "6ae80cfc3cb6b57f68110701d27a013c5a525c26a54662b7a808e55b7a3de809",
+          "wordCount": 33,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "tokens"
+          ],
+          "text": "I also really appreciate that the tokens don’t enter tapped, because that effectively makes them cost two mana instead of forcing you to pay three and wait around before they actually do anything."
+        },
+        {
+          "id": "zone-multicolor:54:p3",
+          "locator": {
+            "indexedLine": 1123
+          },
+          "textSha256": "19ba12a3519b32b0776189f905586aef2f01c171d5ee9c68cef665c1077043ab",
+          "wordCount": 17,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "It’s not flashy, but in the right deck this can quietly do a lot of useful work."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    }
+  ],
+  "outsideMainSetReviews": []
+}

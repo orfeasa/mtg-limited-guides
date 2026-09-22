@@ -1,0 +1,1898 @@
+{
+  "id": "zone-artifacts-and-lands",
+  "sourceUrl": "https://mtgazone.com/reality-fracture-fra-limited-set-review-artifacts-and-lands/",
+  "author": "J2SJosh",
+  "dependencyGroup": "j2sjosh",
+  "capturedAt": "2026-09-22",
+  "importedAt": "2026-09-22",
+  "permissionId": "user-reported-noncommercial-permissions-2026-09-22",
+  "sourceCaptureSha256": "fbc933148840fdf42ce3da035f49e7e8af61b18217de754d60a29458fde8429b",
+  "kind": "written-review",
+  "format": "Limited-unspecified",
+  "scale": {
+    "min": 0,
+    "max": 5
+  },
+  "normalization": "HTML/entities/citation wrappers and whitespace normalized; prose not summarized or corrected.",
+  "articleBlocks": [
+    {
+      "kind": "heading",
+      "indexedLine": 441,
+      "text": "# Reality Fracture (FRA) Limited Set Review: Artifacts and Lands"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 443,
+      "text": "J2SJosh reviews and rates every card from Realty Fracture (FRA) for limited!"
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 445,
+      "text": "* Limited"
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 446,
+      "text": "* FRA Grades Limited Set Reviews Reality Fracture"
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 447,
+      "text": "* j2sjosh"
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 448,
+      "text": "* September 21, 2026"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 450,
+      "text": "Hey everyone! Reality itself has fractured thanks to Jace apparently deciding that being a powerful mind mage wasn’t enough and that what he really needed was an extended stay in Arkham Asylum."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 451,
+      "text": "He’s gone and created a world in the idealized image of what he thinks perfection should look like. Apparently, in Jace’s perfect reality, I’m still sitting here writing Magic articles every time a new set drops, so clearly the man’s vision has some flaws."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 452,
+      "text": "Back in actual reality, I finally reached the point where I didn’t feel completely burned out and decided to make the questionable life choice of jumping back into this again. Not only am I doing the full Limited review for Reality Fracture, but I’m also going to be starting a new weekly article once the set releases."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 453,
+      "text": "The easiest way to describe it is basically a variety show in article form focused on whatever nonsense is happening in the Limited world of Magic that week. Sometimes I’ll be breaking down archetypes. Sometimes I’ll dig into the data. Sometimes I’ll probably rant about a card everyone keeps first-picking even though the numbers are practically begging them to stop."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 455,
+      "text": "And sometimes it’ll just be whatever I feel like talking about."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 456,
+      "text": "I’ve been given pretty much complete freedom to do whatever I want with it, which feels like an irresponsible amount of power to hand me."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 458,
+      "text": "What could possibly go wrong?"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 460,
+      "text": "Here’s the usual grading scale:"
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 461,
+      "text": "* 5.0: Disgustingly powerful and basically unbeatable. Either answer it the turn it comes down or start packing up your cards."
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 462,
+      "text": "* 4.5: An incredible bomb that can completely take over a game, but still gives your opponent a slim chance to fight back."
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 463,
+      "text": "* 4.0: Great rares, the absolute best uncommons, or extremely premium removal. Cards I’m very happy to first pick."
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 464,
+      "text": "* 3.5: Excellent role-players or removal spells that basically never get cut."
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 465,
+      "text": "* 3.0: Good playables that I’m almost never cutting from my deck."
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 466,
+      "text": "* 2.5: Solid playables and roughly the bar I hope nearly every card in my deck can reach."
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 467,
+      "text": "* 2.0: Mediocre filler. These are normally fighting for those last few spots in the 20th-23rd card range."
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 468,
+      "text": "* 1.5: Replaceable and generally below-average filler. This can also include decent sideboard cards or cards that need a very specific deck."
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 469,
+      "text": "* 1.0: Bad filler that gets cut most of the time. There may be a deck that wants it, but I’m not happy when mine does."
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 470,
+      "text": "* 0.5: I’m very unhappy to main deck this, but there might be some fringe sideboard application. These are cards that could be useful in the perfect situation but are bad almost everywhere else."
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 471,
+      "text": "* 0.0: Completely unplayable in basically every possible situation. Thankfully, they rarely print cards this bad anymore."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 472,
+      "text": "A Note on Ratings"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 474,
+      "text": "These grades aren’t meant to exist in a vacuum. Limited cards can move considerably depending on the deck around them. A 2.0 role-player might become a 3.0 in the archetype that actually wants it, while a supposedly powerful card can drop quickly if your deck can’t support it."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 476,
+      "text": "I’ll try to grade cards based on their average performance while pointing out the ones that have especially high or low ceilings depending on synergy."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 479,
+      "text": "## Colorless"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 481,
+      "text": "## Emrakul, the Exigent Doom"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 486,
+      "text": "### Rating: 1.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 488,
+      "text": "I’ve always been a fan of Emrakul, both the character and the cards. This one doesn’t quite live up to the hype, though. It feels a little more like a nostalgia grab than an actual Limited bomb."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 490,
+      "text": "Even if you use the ability first, you’re still functionally paying nine mana for this. Untapping all your lands sounds great, but it probably matters less than you think because you’re likely going to be close to empty-handed by the time this actually hits the battlefield."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 491,
+      "text": "Sacrificing three permanents to target it with removal sounds like a massive cost, but that late in the game your opponent can probably just toss a few lands and move on with their life."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 493,
+      "text": "That’s a lot of setup for something I’m not convinced actually takes over the game."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 494,
+      "text": "## Artifacts"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 496,
+      "text": "## Afterthought Sentry"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 501,
+      "text": "### Rating: 2.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 503,
+      "text": "I fully expect to catch some heat for this grade, but this feels pretty far above the curve for a colorless two-drop."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 505,
+      "text": "Common artifact creatures are usually intentionally a little crappy so they can serve as emergency filler for whatever deck desperately needs another playable. This honestly feels like the kind of card that would normally have defender slapped on it just to remind you not to get too excited."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 506,
+      "text": "Instead, you get a perfectly reasonable bear that can gain flying for a manageable cost. Two-drops that are useful early and still have something relevant to do later tend to overperform, and getting all of that without committing to a color is a pretty big deal."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 508,
+      "text": "The second ability is also legitimately useful in this format with all the graveyard shenanigans floating around."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 509,
+      "text": "Maybe 2.5 ends up looking aggressive, but I have a feeling this little pile of colorless cardboard is going to make a lot more decks than people expect."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 510,
+      "text": "### Archive Arbiter"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 515,
+      "text": "### Rating: 2.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 517,
+      "text": "This is a great example of what I was talking about with Afterthought Sentry . It’s perfectly serviceable, but it feels like it either wants to cost one less mana or come with a slightly beefier body."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 519,
+      "text": "Not being able to hit creatures or lands is a bit of a frowny face, but there are still plenty of good targets floating around. Planeswalkers, Memory Trap , and other annoying noncreature permanents can all get lit up by this."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 520,
+      "text": "If you nail something important, this feels great. If you’re just playing it for a little life and a flyer, though, it starts to feel like you paid the artifact creature tax."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 521,
+      "text": "## Codie, Ravenous Codex"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 526,
+      "text": "### Rating: 1.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 528,
+      "text": "I’m not saying there won’t be five-color soup decks in this format because I can assure you there absolutely will be. The problem is that Codie wants you to have the whole damn pantry."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 530,
+      "text": "You need this, access to all five colors, and enough creatures with Prepared to really start abusing what it’s doing. That’s a pretty specific grocery list."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 531,
+      "text": "You can still run it as a 1/4 for three if you have multiple Prepared creatures and hope to squeeze out some extra triggers along the way, but that version is a whole lot less exciting."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 532,
+      "text": "## The Echoverse Fulcrum"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 537,
+      "text": "### Rating: 4.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 539,
+      "text": "It is a colorless sweeper, so obviously there were going to be some strings attached. Even at mythic, they weren’t just going to hand every deck a free Wrath and call it a day."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 541,
+      "text": "If you want to surprise your opponent with it, the full package is going to cost you seven mana, which is a hell of a lot for a sweeper."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 543,
+      "text": "If you want to loot early or spread the cost across two turns, then you’re basically putting up a giant neon sign that says “PLEASE STOP COMMITTING CREATURES TO THE BOARD.”"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 544,
+      "text": "The flexibility is still fantastic and being colorless is a huge deal, but every mode makes you pay for that privilege somehow."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 545,
+      "text": "## Eye of Jace"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 550,
+      "text": "### Rating: 1.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 552,
+      "text": "I need to be pretty deep in the sauce on graveyard value before I’m interested in playing this."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 554,
+      "text": "Surveiling every turn is certainly useful, but it’s not automatically worth spending an entire card on, even when the setup is cheap."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 556,
+      "text": "The part that really annoys me is that the second ability isn’t optional. Draining for two is rarely going to be better than just continuing to surveil and sculpt your draws over the course of the game."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 557,
+      "text": "If my deck is absolutely begging to fill the graveyard, I’ll consider it. Otherwise, Jace can creep on someone else with his eye."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 558,
+      "text": "## Karn, Argent Defender"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 563,
+      "text": "### Rating: 1.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 565,
+      "text": "This is dangerously close to being a sideboard-only card."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 567,
+      "text": "The saving grace is that the body is at least respectable on defense, so it’s not completely dead if your opponent isn’t leaning on ETBs."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 569,
+      "text": "The bigger issue is that the effect is symmetrical, which means Karn is perfectly willing to ruin your day right alongside your opponent’s. Make sure you’re not shutting off half your own deck in the process."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 571,
+      "text": "Useful in the right matchup. Pretty embarrassing everywhere else."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 572,
+      "text": "## Keeper of the Quiet Hour"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 577,
+      "text": "### Rating: 1.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 579,
+      "text": "I’m really tempted to give this the extra half point and bump it up to a 2.0, but two toughness is a pretty rough place to be on a three-drop."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 581,
+      "text": "If this Empowered Jace for just one more, we’d be having a completely different conversation. Getting him to three immediately would let you grip an extra card right away and push this dangerously close to busted-common territory."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 582,
+      "text": "As printed, it gets a lot better if you already have other ways to Empower Jace and can bridge that gap. There’s definitely value here, but the fragile body and being one counter short keep me from going any higher."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 583,
+      "text": "## Living Library"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 588,
+      "text": "### Rating: 1.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 590,
+      "text": "This is certainly one obnoxious way to tell aggressive decks to calm down."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 592,
+      "text": "Early on, it’s basically a two-mana brick wall that clogs up the ground. Later, it can cash itself in to deal with their best creature or planeswalker, which is a pretty respectable second career for something that started life as a speed bump."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 593,
+      "text": "The problem is that aggressive decks want absolutely nothing to do with this. If you’re trying to turn creatures sideways and end the game quickly, Living Library is mostly just sitting there reading while everyone else is fighting."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 594,
+      "text": "## Medic’s Kitesail"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 599,
+      "text": "### Rating: 1.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 601,
+      "text": "This really needed to be one mana cheaper to equip or give you a free equip the turn it enters. Those tiny differences matter a ton when it comes to Equipment because paying one extra mana over and over adds up fast."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 603,
+      "text": "As printed, I’m happy enough to play this in a deck loaded with life gain triggers where the extra value actually matters."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 605,
+      "text": "Everywhere else, I’m fading it pretty hard."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 606,
+      "text": "## Murmuring Volume"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 611,
+      "text": "### Rating: 1.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 613,
+      "text": "This grade is mostly a reminder that I’m rating cards based on how they fit into the average deck."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 615,
+      "text": "A whole lot of decks have absolutely no interest in playing a Manalith , even if this one can rummage away whatever garbage you’re stuck with later."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 617,
+      "text": "Five-color soup decks and slower control piles are a completely different story. Those decks will happily scoop this up for the fixing, and the rummage gives it something useful to do once you stop caring about the extra mana."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 618,
+      "text": "Pretty mediocre for most decks. Quietly important for the ones that actually want it."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 619,
+      "text": "## Traxos, Scourge Eternal"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 624,
+      "text": "### Rating: 2.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 626,
+      "text": "The stats are solid, and triggering the untap should be incredibly easy in almost any Limited deck."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 628,
+      "text": "Because of that, I’m barely even treating the drawback like a drawback. Most of the time, Traxos is going to play more like a creature with pseudo-vigilance than something you actually have to work around."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 630,
+      "text": "Nothing spectacular, but that’s a whole lot of body for the rate without much of a hoop to jump through."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 632,
+      "text": "## Lands"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 633,
+      "text": "## Planeswalker Lands"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 672,
+      "text": "### Rating: 2.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 674,
+      "text": "By now, you already know the value of a dual land in Limited. If it’s in your colors or helps enable a splash, you’re taking it over random filler while still passing it for anything actually strong."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 676,
+      "text": "Normally, requiring a planeswalker to be untapped would make the extra ability pretty unreliable. In Reality Fracture, though, that hurdle is about as low as it gets thanks to Empower Jace giving almost every deck access to a planeswalker."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 677,
+      "text": "That makes these a little more than your average fixing lands, even if you still shouldn’t be taking them over real power."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 678,
+      "text": "## Rare Slow Lands"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 698,
+      "text": "### Rating: 3.0/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 700,
+      "text": "These are going to enter untapped pretty reliably once you’re past the first couple of turns."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 702,
+      "text": "Even on turn one, the downside is barely a downside because most Limited decks aren’t exactly overflowing with one-drops they’re desperate to cast."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 704,
+      "text": "Good fixing with very little real cost attached is always something I’m happy to pick up, especially if it helps support a splash."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 705,
+      "text": "## Hall of Echoes"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 710,
+      "text": "### Rating: 2.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 712,
+      "text": "The cost of putting a colorless land in your deck is very real unless your mana base already has enough fixing to absorb it."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 714,
+      "text": "If you’re comfortably two colors with a couple of duals or other fixing lands, though, this goes up significantly. Getting an actual creature out of a land slot has a ton of value, especially when you’re flooding out and would otherwise be drawing blanks."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 716,
+      "text": "You just need to make sure your mana base can actually afford the luxury."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 717,
+      "text": "As the old saying goes: if you have to ask, you probably can’t afford it."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 718,
+      "text": "## Hexhaven Dueling Arena"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 723,
+      "text": "### Rating: 1.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 725,
+      "text": "I just talked about the very real cost of playing a colorless land with Hall of Echoes , so I don’t need to beat that horse again here."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 727,
+      "text": "The difference is that Hall of Echoes only asked you to have a creature before it started generating value. This one specifically needs a creature that can get Prepared, which narrows the number of decks that actually want it by quite a bit."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 728,
+      "text": "There are definitely builds where this can pop off and feel great. There are also plenty of decks that shouldn’t touch it with a ten-foot pole."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 730,
+      "text": "If your deck is built for it, go nuts. If not, don’t get cute and wreck your mana base for a dream."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 731,
+      "text": "## Roiling Canopy"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 736,
+      "text": "### Rating: 0.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 738,
+      "text": "If you’re mono-green, then sure, go nuts."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 740,
+      "text": "Outside of that, this just isn’t doing enough to justify entering tapped. Even in a normal two-color deck, you’re probably only sitting on around seven Forests once you count this as one of your green sources and factor in a random dual land."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 742,
+      "text": "That means the payoff is going to be way less reliable than it looks."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 744,
+      "text": "Mono-green can have its fun. Everyone else should probably leave this one in the binder."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 745,
+      "text": "## Room of Refuge"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 750,
+      "text": "### Rating: 2.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 752,
+      "text": "This is the Room of Refuge , not refuse, because it’s pretty far from garbage."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 754,
+      "text": "Functionally, it fills a lot of the same role as Evolving Wilds by entering tapped and fixing your mana. The big difference is that you don’t actually need to have a basic of the splash color sitting in your deck, which can matter in some weird corner cases."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 756,
+      "text": "It also has the upside of eventually turning into a couple of +1/+1 counters instead of just being a land forever."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 757,
+      "text": "It’s not technically a dual land, but I think there’s a pretty legitimate debate over which one you’d rather have."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 758,
+      "text": "## Theorist’s Sanctum"
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 764,
+      "text": "### Rating: 3.5/5"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 766,
+      "text": "Beholding Jace is a pretty small ask in a set that has his fingerprints all over basically everything."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 768,
+      "text": "That makes this fairly close to an Island with a very real upside attached. Once it’s online, you can keep squeezing extra value out of your land slot by Empowering Jace turn after turn."
+    },
+    {
+      "kind": "heading",
+      "indexedLine": 771,
+      "text": "## Wrap Up"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 773,
+      "text": "Thanks for reading! I’ll be back tomorrow with my limited review of the Multicolor cards of Reality Fracture. Until then, stay classy people!"
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 775,
+      "text": "If you have any questions, let me know in the comments below."
+    },
+    {
+      "kind": "paragraph",
+      "indexedLine": 777,
+      "text": "You can also find me at:"
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 779,
+      "text": "* Discord"
+    },
+    {
+      "kind": "list-item",
+      "indexedLine": 780,
+      "text": "* Twitter†twitter.com"
+    }
+  ],
+  "cardReviews": [
+    {
+      "id": "zone-artifacts-and-lands:1",
+      "heading": "Emrakul, the Exigent Doom",
+      "cardIds": [
+        "c3ff8dd3-88a8-49dc-a59b-e2748680623c"
+      ],
+      "scope": "card",
+      "grade": 1.5,
+      "paragraphs": [
+        {
+          "id": "zone-artifacts-and-lands:1:p1",
+          "locator": {
+            "indexedLine": 488
+          },
+          "textSha256": "7191f524c7dbf9c3fd71c64a40d760eca349a01f94162756eef8d6e1c2aa8476",
+          "wordCount": 37,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "I’ve always been a fan of Emrakul, both the character and the cards. This one doesn’t quite live up to the hype, though. It feels a little more like a nostalgia grab than an actual Limited bomb."
+        },
+        {
+          "id": "zone-artifacts-and-lands:1:p2",
+          "locator": {
+            "indexedLine": 490
+          },
+          "textSha256": "057cfcbd04e48b61d3e3ce1c0a95bfce4f9a07e5469d5c5502de5cb7e3a304b0",
+          "wordCount": 46,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Even if you use the ability first, you’re still functionally paying nine mana for this. Untapping all your lands sounds great, but it probably matters less than you think because you’re likely going to be close to empty-handed by the time this actually hits the battlefield."
+        },
+        {
+          "id": "zone-artifacts-and-lands:1:p3",
+          "locator": {
+            "indexedLine": 491
+          },
+          "textSha256": "3202f3e1185810fdcffb52b0004a7dad3eb4cb16aa88f401f07060e761c0e93a",
+          "wordCount": 34,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "removal",
+            "sacrifice"
+          ],
+          "text": "Sacrificing three permanents to target it with removal sounds like a massive cost, but that late in the game your opponent can probably just toss a few lands and move on with their life."
+        },
+        {
+          "id": "zone-artifacts-and-lands:1:p4",
+          "locator": {
+            "indexedLine": 493
+          },
+          "textSha256": "8f76988dfd695b6fcf8e5f0caef0a9f100a903257b14cff100faebfb5b5c60b4",
+          "wordCount": 15,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "That’s a lot of setup for something I’m not convinced actually takes over the game."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-artifacts-and-lands:2",
+      "heading": "Afterthought Sentry",
+      "cardIds": [
+        "4d4b3bf7-a149-4099-b97d-4e36a87dfa60"
+      ],
+      "scope": "card",
+      "grade": 2.5,
+      "paragraphs": [
+        {
+          "id": "zone-artifacts-and-lands:2:p1",
+          "locator": {
+            "indexedLine": 503
+          },
+          "textSha256": "c390f24b9fee66422c724725a3f0ad5f2d9823d9fe0533669d797ed09616a789",
+          "wordCount": 22,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "I fully expect to catch some heat for this grade, but this feels pretty far above the curve for a colorless two-drop."
+        },
+        {
+          "id": "zone-artifacts-and-lands:2:p2",
+          "locator": {
+            "indexedLine": 505
+          },
+          "textSha256": "54b3f2e5b0819f8dec46723cc0a4428b44b1291aa3b36c673269b66b8590c623",
+          "wordCount": 48,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "artifacts"
+          ],
+          "text": "Common artifact creatures are usually intentionally a little crappy so they can serve as emergency filler for whatever deck desperately needs another playable. This honestly feels like the kind of card that would normally have defender slapped on it just to remind you not to get too excited."
+        },
+        {
+          "id": "zone-artifacts-and-lands:2:p3",
+          "locator": {
+            "indexedLine": 506
+          },
+          "textSha256": "52dd38a17611a237ed5daa09c105ea9f6109e3036e0b3949410a30c0e6442887",
+          "wordCount": 46,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "evasion"
+          ],
+          "text": "Instead, you get a perfectly reasonable bear that can gain flying for a manageable cost. Two-drops that are useful early and still have something relevant to do later tend to overperform, and getting all of that without committing to a color is a pretty big deal."
+        },
+        {
+          "id": "zone-artifacts-and-lands:2:p4",
+          "locator": {
+            "indexedLine": 508
+          },
+          "textSha256": "1e5c3697d3f90be2ff768ca5979de08f76393d41dd19f3b711c5ba6161986996",
+          "wordCount": 17,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "graveyard"
+          ],
+          "text": "The second ability is also legitimately useful in this format with all the graveyard shenanigans floating around."
+        },
+        {
+          "id": "zone-artifacts-and-lands:2:p5",
+          "locator": {
+            "indexedLine": 509
+          },
+          "textSha256": "55d5eba8bbe27ca9d1538616d10127e98b783e06fc205a72b5fdfce8103afd29",
+          "wordCount": 28,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "aggro"
+          ],
+          "text": "Maybe 2.5 ends up looking aggressive, but I have a feeling this little pile of colorless cardboard is going to make a lot more decks than people expect."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-artifacts-and-lands:3",
+      "heading": "Archive Arbiter",
+      "cardIds": [
+        "024bce1e-a5f3-4292-bc17-d0355a5d65e1"
+      ],
+      "scope": "card",
+      "grade": 2.0,
+      "paragraphs": [
+        {
+          "id": "zone-artifacts-and-lands:3:p1",
+          "locator": {
+            "indexedLine": 517
+          },
+          "textSha256": "67d4f60c0837358b8257da5f94dad6696aff7d60a56993b41e0dcbd595cc2e86",
+          "wordCount": 37,
+          "mentionedCardIds": [
+            "4d4b3bf7-a149-4099-b97d-4e36a87dfa60"
+          ],
+          "relatedCardIds": [
+            "4d4b3bf7-a149-4099-b97d-4e36a87dfa60"
+          ],
+          "topicMentions": [],
+          "text": "This is a great example of what I was talking about with Afterthought Sentry . It’s perfectly serviceable, but it feels like it either wants to cost one less mana or come with a slightly beefier body."
+        },
+        {
+          "id": "zone-artifacts-and-lands:3:p2",
+          "locator": {
+            "indexedLine": 519
+          },
+          "textSha256": "bcd9162f3f5e0500a1c9b5cc5f6db24c63fd0e01f0859097f777b647ac86d111",
+          "wordCount": 41,
+          "mentionedCardIds": [
+            "2f5345ae-4489-4d05-b2d5-c71285254f05"
+          ],
+          "relatedCardIds": [
+            "2f5345ae-4489-4d05-b2d5-c71285254f05"
+          ],
+          "topicMentions": [],
+          "text": "Not being able to hit creatures or lands is a bit of a frowny face, but there are still plenty of good targets floating around. Planeswalkers, Memory Trap , and other annoying noncreature permanents can all get lit up by this."
+        },
+        {
+          "id": "zone-artifacts-and-lands:3:p3",
+          "locator": {
+            "indexedLine": 520
+          },
+          "textSha256": "2585ca031b4f81c45dbc172eaf5418d8339134b8e76ebcbcdffa5d01e9e44ce9",
+          "wordCount": 32,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "artifacts"
+          ],
+          "text": "If you nail something important, this feels great. If you’re just playing it for a little life and a flyer, though, it starts to feel like you paid the artifact creature tax."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-artifacts-and-lands:4",
+      "heading": "Codie, Ravenous Codex",
+      "cardIds": [
+        "c3192390-1518-49fc-8716-f2c7a0384f39"
+      ],
+      "scope": "card",
+      "grade": 1.5,
+      "paragraphs": [
+        {
+          "id": "zone-artifacts-and-lands:4:p1",
+          "locator": {
+            "indexedLine": 528
+          },
+          "textSha256": "63c9f9dcdeb5e32e919206116ee4952fa4fcfd0e22acbe1379bda7b3ae92ee71",
+          "wordCount": 34,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "I’m not saying there won’t be five-color soup decks in this format because I can assure you there absolutely will be. The problem is that Codie wants you to have the whole damn pantry."
+        },
+        {
+          "id": "zone-artifacts-and-lands:4:p2",
+          "locator": {
+            "indexedLine": 530
+          },
+          "textSha256": "c4519102f20e2d2c8b82bf2a7d522ac425a7d5d9fb4ad9eaf5e0facdf99a1d89",
+          "wordCount": 26,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "prepared"
+          ],
+          "text": "You need this, access to all five colors, and enough creatures with Prepared to really start abusing what it’s doing. That’s a pretty specific grocery list."
+        },
+        {
+          "id": "zone-artifacts-and-lands:4:p3",
+          "locator": {
+            "indexedLine": 531
+          },
+          "textSha256": "6f4aa770d13c4979a9d597e72e5f4320dc22dd81cab5f238985590c62e482146",
+          "wordCount": 36,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "prepared"
+          ],
+          "text": "You can still run it as a 1/4 for three if you have multiple Prepared creatures and hope to squeeze out some extra triggers along the way, but that version is a whole lot less exciting."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-artifacts-and-lands:5",
+      "heading": "The Echoverse Fulcrum",
+      "cardIds": [
+        "d71d250f-c0e0-44b2-877c-76f3bcab4f34"
+      ],
+      "scope": "card",
+      "grade": 4.0,
+      "paragraphs": [
+        {
+          "id": "zone-artifacts-and-lands:5:p1",
+          "locator": {
+            "indexedLine": 539
+          },
+          "textSha256": "6efc4c46f8714adf663872b21d77404ac4beff4868430e1c47640ed098772c6e",
+          "wordCount": 34,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "It is a colorless sweeper, so obviously there were going to be some strings attached. Even at mythic, they weren’t just going to hand every deck a free Wrath and call it a day."
+        },
+        {
+          "id": "zone-artifacts-and-lands:5:p2",
+          "locator": {
+            "indexedLine": 541
+          },
+          "textSha256": "bd0be16f60b514631fb3b903049abc2ac97bad3982cc656ea90a86b3bb914bc8",
+          "wordCount": 29,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "If you want to surprise your opponent with it, the full package is going to cost you seven mana, which is a hell of a lot for a sweeper."
+        },
+        {
+          "id": "zone-artifacts-and-lands:5:p3",
+          "locator": {
+            "indexedLine": 543
+          },
+          "textSha256": "f84c3864eb3b500ecc3b503613d48b70b53bc311747d1a094c3aecd8db57c8c0",
+          "wordCount": 31,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "If you want to loot early or spread the cost across two turns, then you’re basically putting up a giant neon sign that says “PLEASE STOP COMMITTING CREATURES TO THE BOARD.”"
+        },
+        {
+          "id": "zone-artifacts-and-lands:5:p4",
+          "locator": {
+            "indexedLine": 544
+          },
+          "textSha256": "2f64dd99e38d857878ce99312b01696551e4ecc8a762b5e3fabe58159ce062a7",
+          "wordCount": 22,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "The flexibility is still fantastic and being colorless is a huge deal, but every mode makes you pay for that privilege somehow."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-artifacts-and-lands:6",
+      "heading": "Eye of Jace",
+      "cardIds": [
+        "0edba64a-39cf-4a8d-ba20-4f7da10b6c3d"
+      ],
+      "scope": "card",
+      "grade": 1.0,
+      "paragraphs": [
+        {
+          "id": "zone-artifacts-and-lands:6:p1",
+          "locator": {
+            "indexedLine": 552
+          },
+          "textSha256": "e0198f4d6e0edb57acb351d0e41990dd67f02c8b6e63f579ece44c13cd0ddf06",
+          "wordCount": 18,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "graveyard"
+          ],
+          "text": "I need to be pretty deep in the sauce on graveyard value before I’m interested in playing this."
+        },
+        {
+          "id": "zone-artifacts-and-lands:6:p2",
+          "locator": {
+            "indexedLine": 554
+          },
+          "textSha256": "b759b9d24ea5759035ade22b3b335fa7e3828b1819f76950a4851c912c5a61b9",
+          "wordCount": 22,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "selection"
+          ],
+          "text": "Surveiling every turn is certainly useful, but it’s not automatically worth spending an entire card on, even when the setup is cheap."
+        },
+        {
+          "id": "zone-artifacts-and-lands:6:p3",
+          "locator": {
+            "indexedLine": 556
+          },
+          "textSha256": "9dce0a86c45440285915bca30b558643d52b5684f4b2c2f65e2053d810bebb67",
+          "wordCount": 37,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "card-draw",
+            "selection"
+          ],
+          "text": "The part that really annoys me is that the second ability isn’t optional. Draining for two is rarely going to be better than just continuing to surveil and sculpt your draws over the course of the game."
+        },
+        {
+          "id": "zone-artifacts-and-lands:6:p4",
+          "locator": {
+            "indexedLine": 557
+          },
+          "textSha256": "c5ac29139cfd579a7c2efef92b42e6f2ce6675aba97be12972242e3f8b5fa3b4",
+          "wordCount": 23,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "graveyard"
+          ],
+          "text": "If my deck is absolutely begging to fill the graveyard, I’ll consider it. Otherwise, Jace can creep on someone else with his eye."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-artifacts-and-lands:7",
+      "heading": "Karn, Argent Defender",
+      "cardIds": [
+        "1ebbbddb-2dc3-4194-b72b-13bcebe2ab89"
+      ],
+      "scope": "card",
+      "grade": 1.0,
+      "paragraphs": [
+        {
+          "id": "zone-artifacts-and-lands:7:p1",
+          "locator": {
+            "indexedLine": 565
+          },
+          "textSha256": "3918a6983e23e27e8d194aeee74fd6364b34fe33a6b9e417ea808720bbaf51ec",
+          "wordCount": 9,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "sideboard"
+          ],
+          "text": "This is dangerously close to being a sideboard-only card."
+        },
+        {
+          "id": "zone-artifacts-and-lands:7:p2",
+          "locator": {
+            "indexedLine": 567
+          },
+          "textSha256": "0ac788a0b4d023343a763f1c6dd5a455f4e937d082c1ec985b0dff9fe602e530",
+          "wordCount": 25,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "The saving grace is that the body is at least respectable on defense, so it’s not completely dead if your opponent isn’t leaning on ETBs."
+        },
+        {
+          "id": "zone-artifacts-and-lands:7:p3",
+          "locator": {
+            "indexedLine": 569
+          },
+          "textSha256": "8a342bc1227132d9ab1a95203f4661a00efc4b4bda8453ec752b1fe0958fc081",
+          "wordCount": 36,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "The bigger issue is that the effect is symmetrical, which means Karn is perfectly willing to ruin your day right alongside your opponent’s. Make sure you’re not shutting off half your own deck in the process."
+        },
+        {
+          "id": "zone-artifacts-and-lands:7:p4",
+          "locator": {
+            "indexedLine": 571
+          },
+          "textSha256": "ca3f78390e9493992598ff573ef24585c13606aa93774ffc623672ac554a179b",
+          "wordCount": 9,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Useful in the right matchup. Pretty embarrassing everywhere else."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-artifacts-and-lands:8",
+      "heading": "Keeper of the Quiet Hour",
+      "cardIds": [
+        "b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0"
+      ],
+      "scope": "card",
+      "grade": 1.5,
+      "paragraphs": [
+        {
+          "id": "zone-artifacts-and-lands:8:p1",
+          "locator": {
+            "indexedLine": 579
+          },
+          "textSha256": "af348d925545476d3a50a2f07244ee8056d8aa4877d60f34aafd9d56b2d396f0",
+          "wordCount": 30,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "I’m really tempted to give this the extra half point and bump it up to a 2.0, but two toughness is a pretty rough place to be on a three-drop."
+        },
+        {
+          "id": "zone-artifacts-and-lands:8:p2",
+          "locator": {
+            "indexedLine": 581
+          },
+          "textSha256": "2d2ede3d6b2bf320cc7b5f2f967765b1d22eed9ff505ce503769b4da7d24fc9b",
+          "wordCount": 37,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "If this Empowered Jace for just one more, we’d be having a completely different conversation. Getting him to three immediately would let you grip an extra card right away and push this dangerously close to busted-common territory."
+        },
+        {
+          "id": "zone-artifacts-and-lands:8:p3",
+          "locator": {
+            "indexedLine": 582
+          },
+          "textSha256": "c0d70c887ad1e406e744b29c8ab4f9c3e5e50a149324c58d61066834f8b278c2",
+          "wordCount": 40,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "empower"
+          ],
+          "text": "As printed, it gets a lot better if you already have other ways to Empower Jace and can bridge that gap. There’s definitely value here, but the fragile body and being one counter short keep me from going any higher."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-artifacts-and-lands:9",
+      "heading": "Living Library",
+      "cardIds": [
+        "5d4a8e5f-0024-4da3-a2f5-edb48b12e733"
+      ],
+      "scope": "card",
+      "grade": 1.5,
+      "paragraphs": [
+        {
+          "id": "zone-artifacts-and-lands:9:p1",
+          "locator": {
+            "indexedLine": 590
+          },
+          "textSha256": "396733b2b48df00a25e6b12e6cd1827f4b3ff17275ee88bea21f404059266e4b",
+          "wordCount": 13,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "aggro"
+          ],
+          "text": "This is certainly one obnoxious way to tell aggressive decks to calm down."
+        },
+        {
+          "id": "zone-artifacts-and-lands:9:p2",
+          "locator": {
+            "indexedLine": 592
+          },
+          "textSha256": "54d68b9af5addbca83749c7596420134988da5453566d98edd7ee667f3cd3cfc",
+          "wordCount": 43,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Early on, it’s basically a two-mana brick wall that clogs up the ground. Later, it can cash itself in to deal with their best creature or planeswalker, which is a pretty respectable second career for something that started life as a speed bump."
+        },
+        {
+          "id": "zone-artifacts-and-lands:9:p3",
+          "locator": {
+            "indexedLine": 593
+          },
+          "textSha256": "7b80a2a0490fbe50a0597caa65bbc249641ba0aa3031258ee8ce8680e74bd26b",
+          "wordCount": 38,
+          "mentionedCardIds": [
+            "5d4a8e5f-0024-4da3-a2f5-edb48b12e733"
+          ],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "aggro"
+          ],
+          "text": "The problem is that aggressive decks want absolutely nothing to do with this. If you’re trying to turn creatures sideways and end the game quickly, Living Library is mostly just sitting there reading while everyone else is fighting."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-artifacts-and-lands:10",
+      "heading": "Medic’s Kitesail",
+      "cardIds": [
+        "8b07409a-1dce-461d-95e4-1130521ff4c4"
+      ],
+      "scope": "card",
+      "grade": 1.5,
+      "paragraphs": [
+        {
+          "id": "zone-artifacts-and-lands:10:p1",
+          "locator": {
+            "indexedLine": 601
+          },
+          "textSha256": "ffb21e0b7319d9059f6cc22302c46ffd56ae1f059b0e3cdfa0f00bf296ad3c18",
+          "wordCount": 42,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "equipment"
+          ],
+          "text": "This really needed to be one mana cheaper to equip or give you a free equip the turn it enters. Those tiny differences matter a ton when it comes to Equipment because paying one extra mana over and over adds up fast."
+        },
+        {
+          "id": "zone-artifacts-and-lands:10:p2",
+          "locator": {
+            "indexedLine": 603
+          },
+          "textSha256": "2c71bd15545d011be87d7f2ee36700423b25dffb11dee95111a44a82457ebc9c",
+          "wordCount": 22,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "lifegain"
+          ],
+          "text": "As printed, I’m happy enough to play this in a deck loaded with life gain triggers where the extra value actually matters."
+        },
+        {
+          "id": "zone-artifacts-and-lands:10:p3",
+          "locator": {
+            "indexedLine": 605
+          },
+          "textSha256": "913d3a734ad5177a474955413542aaa09a6b9da356f6b1c60a32fde64c222e56",
+          "wordCount": 7,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Everywhere else, I’m fading it pretty hard."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-artifacts-and-lands:11",
+      "heading": "Murmuring Volume",
+      "cardIds": [
+        "d68eab2e-89dd-4377-b7af-01512b1804a0"
+      ],
+      "scope": "card",
+      "grade": 1.5,
+      "paragraphs": [
+        {
+          "id": "zone-artifacts-and-lands:11:p1",
+          "locator": {
+            "indexedLine": 613
+          },
+          "textSha256": "6c9cf0ed0165f924918eb45ef19eaf5d72b6627185f273210647c764f23727c0",
+          "wordCount": 19,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "This grade is mostly a reminder that I’m rating cards based on how they fit into the average deck."
+        },
+        {
+          "id": "zone-artifacts-and-lands:11:p2",
+          "locator": {
+            "indexedLine": 615
+          },
+          "textSha256": "5c73d8e3f2af395b21570677a55cd87fa3af39882e2f75f8f8170d96c44374fd",
+          "wordCount": 27,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "A whole lot of decks have absolutely no interest in playing a Manalith , even if this one can rummage away whatever garbage you’re stuck with later."
+        },
+        {
+          "id": "zone-artifacts-and-lands:11:p3",
+          "locator": {
+            "indexedLine": 617
+          },
+          "textSha256": "252a26f186ff47272a2034951fe340aa6d7587723e85cbee66b8c4808488d143",
+          "wordCount": 39,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "mana-fixing"
+          ],
+          "text": "Five-color soup decks and slower control piles are a completely different story. Those decks will happily scoop this up for the fixing, and the rummage gives it something useful to do once you stop caring about the extra mana."
+        },
+        {
+          "id": "zone-artifacts-and-lands:11:p4",
+          "locator": {
+            "indexedLine": 618
+          },
+          "textSha256": "ef92059927b786ff0c7e30248906d735dbe861c1c68afe50cee491c7d7e14f94",
+          "wordCount": 14,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Pretty mediocre for most decks. Quietly important for the ones that actually want it."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-artifacts-and-lands:12",
+      "heading": "Traxos, Scourge Eternal",
+      "cardIds": [
+        "05102c46-96f8-44a0-a1e6-e388fa5e0841"
+      ],
+      "scope": "card",
+      "grade": 2.0,
+      "paragraphs": [
+        {
+          "id": "zone-artifacts-and-lands:12:p1",
+          "locator": {
+            "indexedLine": 626
+          },
+          "textSha256": "4f3ccb86fa9f6d4885e7715958e213b2f4e70e898f0488f7efd7547c4863a3c7",
+          "wordCount": 17,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "The stats are solid, and triggering the untap should be incredibly easy in almost any Limited deck."
+        },
+        {
+          "id": "zone-artifacts-and-lands:12:p2",
+          "locator": {
+            "indexedLine": 628
+          },
+          "textSha256": "6ff6fb758b54133edd35ed77338ae00da62ba594c06aa6e2ed0114634fa604b2",
+          "wordCount": 35,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "card-draw"
+          ],
+          "text": "Because of that, I’m barely even treating the drawback like a drawback. Most of the time, Traxos is going to play more like a creature with pseudo-vigilance than something you actually have to work around."
+        },
+        {
+          "id": "zone-artifacts-and-lands:12:p3",
+          "locator": {
+            "indexedLine": 630
+          },
+          "textSha256": "c059519da118df5806357492c59ff0be20ad78b86a33da8eb42fcc46d6a30d6f",
+          "wordCount": 20,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Nothing spectacular, but that’s a whole lot of body for the rate without much of a hoop to jump through."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-artifacts-and-lands:13",
+      "heading": "Planeswalker Lands",
+      "cardIds": [
+        "3223e5db-5cc4-42f9-ae9e-ff58abc7c390",
+        "5140f962-62f3-40fd-a322-44896c7e2613",
+        "e6ca6c3e-f145-42d6-8a17-90770c15afaf",
+        "84ea799a-faa2-4ff1-a933-432d4ee31a3b",
+        "39c805e3-82cd-42a9-80fe-8d81712a94ea",
+        "93ac525e-1919-43dd-aba4-073b7e4c1768",
+        "6ede3143-69ac-4cbe-922a-d25b07c26da7",
+        "97bbbd23-ecb1-4407-ac14-dede08532a1e",
+        "b57d5be7-3157-4b49-aeb8-d7368ca7e9dd",
+        "db8c7bdd-76cd-4be0-ae0d-d430e9a5fe7a"
+      ],
+      "scope": "cycle",
+      "grade": 2.5,
+      "paragraphs": [
+        {
+          "id": "zone-artifacts-and-lands:13:p1",
+          "locator": {
+            "indexedLine": 674
+          },
+          "textSha256": "6dcaf1d7bc917f724556e9001fadd3ff9e46ba677b45799b5cc67bbffb837c2f",
+          "wordCount": 37,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "mana-fixing"
+          ],
+          "text": "By now, you already know the value of a dual land in Limited. If it’s in your colors or helps enable a splash, you’re taking it over random filler while still passing it for anything actually strong."
+        },
+        {
+          "id": "zone-artifacts-and-lands:13:p2",
+          "locator": {
+            "indexedLine": 676
+          },
+          "textSha256": "a017f884530f2014f24a4f84fe1e15855add00f48217ad677838e670fd2e011b",
+          "wordCount": 39,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "empower"
+          ],
+          "text": "Normally, requiring a planeswalker to be untapped would make the extra ability pretty unreliable. In Reality Fracture, though, that hurdle is about as low as it gets thanks to Empower Jace giving almost every deck access to a planeswalker."
+        },
+        {
+          "id": "zone-artifacts-and-lands:13:p3",
+          "locator": {
+            "indexedLine": 677
+          },
+          "textSha256": "136290cb9b563dd9b701e137a06d52d304321d81ee9bc7b18a8258920ebd39f8",
+          "wordCount": 22,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "mana-fixing"
+          ],
+          "text": "That makes these a little more than your average fixing lands, even if you still shouldn’t be taking them over real power."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-artifacts-and-lands:14",
+      "heading": "Rare Slow Lands",
+      "cardIds": [
+        "56dae4c4-3e71-4a32-979b-4e26d9c9e96c",
+        "a4e4966b-8963-4fac-a8bf-e778e063c7dd",
+        "178e61e4-472f-42cd-9d3b-4880c2acc527",
+        "e3c8a8b6-23ba-45ad-80d1-8e2dc79897f7",
+        "9e944c5b-68ac-4a30-bbd4-09a4288319ce"
+      ],
+      "scope": "cycle",
+      "grade": 3.0,
+      "paragraphs": [
+        {
+          "id": "zone-artifacts-and-lands:14:p1",
+          "locator": {
+            "indexedLine": 700
+          },
+          "textSha256": "b62d64aba899b5dd6c2354f8644e0b5c7a26f00eebde0022c54e8dfce1b16f15",
+          "wordCount": 16,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "These are going to enter untapped pretty reliably once you’re past the first couple of turns."
+        },
+        {
+          "id": "zone-artifacts-and-lands:14:p2",
+          "locator": {
+            "indexedLine": 702
+          },
+          "textSha256": "92e6e2524a1d40718d37447ca0d60c4493d1255bb03d743a65de9b3900d7d768",
+          "wordCount": 23,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Even on turn one, the downside is barely a downside because most Limited decks aren’t exactly overflowing with one-drops they’re desperate to cast."
+        },
+        {
+          "id": "zone-artifacts-and-lands:14:p3",
+          "locator": {
+            "indexedLine": 704
+          },
+          "textSha256": "f9c22b8e8e8b937aed89a46e9ff347c91efb83fc94a5d3dfba544cc1649d5c87",
+          "wordCount": 23,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "mana-fixing"
+          ],
+          "text": "Good fixing with very little real cost attached is always something I’m happy to pick up, especially if it helps support a splash."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-artifacts-and-lands:15",
+      "heading": "Hall of Echoes",
+      "cardIds": [
+        "4a771010-b397-4849-ac9b-08e4dd5d6a72"
+      ],
+      "scope": "card",
+      "grade": 2.5,
+      "paragraphs": [
+        {
+          "id": "zone-artifacts-and-lands:15:p1",
+          "locator": {
+            "indexedLine": 712
+          },
+          "textSha256": "17ee0dcc9790868a89250b36ac563b8e6055288b36f4778772c683072761095e",
+          "wordCount": 24,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "mana-fixing"
+          ],
+          "text": "The cost of putting a colorless land in your deck is very real unless your mana base already has enough fixing to absorb it."
+        },
+        {
+          "id": "zone-artifacts-and-lands:15:p2",
+          "locator": {
+            "indexedLine": 714
+          },
+          "textSha256": "d3d2e0e77809136ff0eeb6ad10e112846215eb5c89a5220842716f8f67a0b960",
+          "wordCount": 44,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "mana-fixing",
+            "card-draw"
+          ],
+          "text": "If you’re comfortably two colors with a couple of duals or other fixing lands, though, this goes up significantly. Getting an actual creature out of a land slot has a ton of value, especially when you’re flooding out and would otherwise be drawing blanks."
+        },
+        {
+          "id": "zone-artifacts-and-lands:15:p3",
+          "locator": {
+            "indexedLine": 716
+          },
+          "textSha256": "717b06ac46fdd95d1d1a7f990db7a932bd752cc39a27c30301a3e03e29d89b19",
+          "wordCount": 14,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "You just need to make sure your mana base can actually afford the luxury."
+        },
+        {
+          "id": "zone-artifacts-and-lands:15:p4",
+          "locator": {
+            "indexedLine": 717
+          },
+          "textSha256": "af11443fb6f319e93081bdfb2b3bdf317d0ae29dbf347302c0ec5f0fdbcb8cdc",
+          "wordCount": 15,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "As the old saying goes: if you have to ask, you probably can’t afford it."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-artifacts-and-lands:16",
+      "heading": "Hexhaven Dueling Arena",
+      "cardIds": [
+        "9128ce00-6744-4d36-bfbe-ef75d78110b0"
+      ],
+      "scope": "card",
+      "grade": 1.5,
+      "paragraphs": [
+        {
+          "id": "zone-artifacts-and-lands:16:p1",
+          "locator": {
+            "indexedLine": 725
+          },
+          "textSha256": "4746d912533e36e9e853676ed7ea244228f32408f3d1b1b421ce70f20910e318",
+          "wordCount": 28,
+          "mentionedCardIds": [
+            "4a771010-b397-4849-ac9b-08e4dd5d6a72"
+          ],
+          "relatedCardIds": [
+            "4a771010-b397-4849-ac9b-08e4dd5d6a72"
+          ],
+          "topicMentions": [],
+          "text": "I just talked about the very real cost of playing a colorless land with Hall of Echoes , so I don’t need to beat that horse again here."
+        },
+        {
+          "id": "zone-artifacts-and-lands:16:p2",
+          "locator": {
+            "indexedLine": 727
+          },
+          "textSha256": "f1fdc319fa7f7862aa3be9aae7a8f6deac38febf6df2b18b419079a76ddc7ba7",
+          "wordCount": 43,
+          "mentionedCardIds": [
+            "4a771010-b397-4849-ac9b-08e4dd5d6a72"
+          ],
+          "relatedCardIds": [
+            "4a771010-b397-4849-ac9b-08e4dd5d6a72"
+          ],
+          "topicMentions": [
+            "prepared"
+          ],
+          "text": "The difference is that Hall of Echoes only asked you to have a creature before it started generating value. This one specifically needs a creature that can get Prepared, which narrows the number of decks that actually want it by quite a bit."
+        },
+        {
+          "id": "zone-artifacts-and-lands:16:p3",
+          "locator": {
+            "indexedLine": 728
+          },
+          "textSha256": "e02050eece8b468678d422eac5b481a1e9ee0fc937ac38ab8fd4adb66934cf7d",
+          "wordCount": 26,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "There are definitely builds where this can pop off and feel great. There are also plenty of decks that shouldn’t touch it with a ten-foot pole."
+        },
+        {
+          "id": "zone-artifacts-and-lands:16:p4",
+          "locator": {
+            "indexedLine": 730
+          },
+          "textSha256": "bf658dc23dd2e87a3f1e65cda224beae514611d48a510c6fd7d1add8c11603b0",
+          "wordCount": 22,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "If your deck is built for it, go nuts. If not, don’t get cute and wreck your mana base for a dream."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-artifacts-and-lands:17",
+      "heading": "Roiling Canopy",
+      "cardIds": [
+        "db61361b-bd12-453e-abc2-bbe09b66e3d9"
+      ],
+      "scope": "card",
+      "grade": 0.5,
+      "paragraphs": [
+        {
+          "id": "zone-artifacts-and-lands:17:p1",
+          "locator": {
+            "indexedLine": 738
+          },
+          "textSha256": "c64f4ab6516985e7f867c830d4ffd0b7e517638161f96f2607509fbc1b4b8688",
+          "wordCount": 7,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "If you’re mono-green, then sure, go nuts."
+        },
+        {
+          "id": "zone-artifacts-and-lands:17:p2",
+          "locator": {
+            "indexedLine": 740
+          },
+          "textSha256": "bcad9a421e46234b4deefb9bad5e5440a173829cae4a1141d51471d1c5d9aee5",
+          "wordCount": 43,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Outside of that, this just isn’t doing enough to justify entering tapped. Even in a normal two-color deck, you’re probably only sitting on around seven Forests once you count this as one of your green sources and factor in a random dual land."
+        },
+        {
+          "id": "zone-artifacts-and-lands:17:p3",
+          "locator": {
+            "indexedLine": 742
+          },
+          "textSha256": "ed3e06ee14c8937851d412206b518db12fafe8f6c622f59a4a4483032fb8e2e3",
+          "wordCount": 14,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "That means the payoff is going to be way less reliable than it looks."
+        },
+        {
+          "id": "zone-artifacts-and-lands:17:p4",
+          "locator": {
+            "indexedLine": 744
+          },
+          "textSha256": "4c569cb31f5a0e503b594deb131d6757caa2674e9da0089ea96482a049c00496",
+          "wordCount": 15,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Mono-green can have its fun. Everyone else should probably leave this one in the binder."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-artifacts-and-lands:18",
+      "heading": "Room of Refuge",
+      "cardIds": [
+        "9a467560-6676-4fc2-9400-768a79650aa4"
+      ],
+      "scope": "card",
+      "grade": 2.5,
+      "paragraphs": [
+        {
+          "id": "zone-artifacts-and-lands:18:p1",
+          "locator": {
+            "indexedLine": 752
+          },
+          "textSha256": "82fe396a6a644b69fe3f781d5678714d6f4f5f44c1dc3ba2796601f4ce443f72",
+          "wordCount": 15,
+          "mentionedCardIds": [
+            "9a467560-6676-4fc2-9400-768a79650aa4"
+          ],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "This is the Room of Refuge , not refuse, because it’s pretty far from garbage."
+        },
+        {
+          "id": "zone-artifacts-and-lands:18:p2",
+          "locator": {
+            "indexedLine": 754
+          },
+          "textSha256": "00abafe2ca7f51c8cfc05343c51761bc3417b1f5750bb7ac7c480a5eedc790e3",
+          "wordCount": 48,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "mana-fixing"
+          ],
+          "text": "Functionally, it fills a lot of the same role as Evolving Wilds by entering tapped and fixing your mana. The big difference is that you don’t actually need to have a basic of the splash color sitting in your deck, which can matter in some weird corner cases."
+        },
+        {
+          "id": "zone-artifacts-and-lands:18:p3",
+          "locator": {
+            "indexedLine": 756
+          },
+          "textSha256": "10597db26fedc1879c1dff5537354b3b843aac48800b41d31c6cd5a4fbb080e3",
+          "wordCount": 21,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [
+            "counters"
+          ],
+          "text": "It also has the upside of eventually turning into a couple of +1/+1 counters instead of just being a land forever."
+        },
+        {
+          "id": "zone-artifacts-and-lands:18:p4",
+          "locator": {
+            "indexedLine": 757
+          },
+          "textSha256": "4b319cb5f783f1030b2cfa0e7cdad5da5a1681c208fb4ac9839d59aa97d9be07",
+          "wordCount": 20,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "It’s not technically a dual land, but I think there’s a pretty legitimate debate over which one you’d rather have."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "zone-artifacts-and-lands:19",
+      "heading": "Theorist’s Sanctum",
+      "cardIds": [
+        "22db5bba-46c9-4a26-821d-303ddb386ea4"
+      ],
+      "scope": "card",
+      "grade": 3.5,
+      "paragraphs": [
+        {
+          "id": "zone-artifacts-and-lands:19:p1",
+          "locator": {
+            "indexedLine": 766
+          },
+          "textSha256": "aa726f5517b45ce92ca8817c70c119872d643cd92a3397d067cdaeefa0086624",
+          "wordCount": 18,
+          "mentionedCardIds": [],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "Beholding Jace is a pretty small ask in a set that has his fingerprints all over basically everything."
+        },
+        {
+          "id": "zone-artifacts-and-lands:19:p2",
+          "locator": {
+            "indexedLine": 768
+          },
+          "textSha256": "d8324960773bdea191d64245816c2c5487a5ab54a155ae25a7237d9537763440",
+          "wordCount": 34,
+          "mentionedCardIds": [
+            "d8184e92-54e6-4ddc-86e8-67f5c5eb079d"
+          ],
+          "relatedCardIds": [],
+          "topicMentions": [],
+          "text": "That makes this fairly close to an Island with a very real upside attached. Once it’s online, you can keep squeezing extra value out of your land slot by Empowering Jace turn after turn."
+        }
+      ],
+      "semanticAssessmentStatus": "full-source-prose-retained",
+      "interpretationStatus": "not-synthesized",
+      "evidenceType": "reviewer-opinion"
+    }
+  ],
+  "outsideMainSetReviews": []
+}

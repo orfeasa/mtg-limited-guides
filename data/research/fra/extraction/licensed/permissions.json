@@ -1,0 +1,16 @@
+{
+  "id": "user-reported-noncommercial-permissions-2026-09-22",
+  "recordedAt": "2026-09-22",
+  "basis": "User reports acquiring permissions for all sources in this research task.",
+  "userStatements": [
+    "I've acquired the licenses for all of them, so you can proceed.",
+    "Yep it’s allowed. They said i can do whatever as long as i don’t make profit"
+  ],
+  "repositoryStorageAllowed": true,
+  "commercialUseAllowed": false,
+  "namedLicense": null,
+  "expiry": null,
+  "licenseDocumentsReceived": false,
+  "attributionPolicy": "Retain source URL, publisher/creator, captured date and passage/timestamp for every record.",
+  "scope": "Research extraction; website presentation deferred. Do not treat these materials as covered by a repository software license."
+}

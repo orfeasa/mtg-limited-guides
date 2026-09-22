@@ -1,0 +1,6420 @@
+{
+  "id": "nicolai-guide",
+  "sourceUrl": "https://www.youtube.com/watch?v=zNKov5PyYCg",
+  "author": "NicolaiBolas",
+  "dependencyGroup": "nicolaibolas",
+  "capturedAt": "2026-09-22",
+  "permissionId": "user-reported-noncommercial-permissions-2026-09-22",
+  "kind": "review-transcript",
+  "format": "Draft",
+  "captions": "auto-generated",
+  "language": "en",
+  "sourceCaptureSha256": "436a706756ce55d21aae7fa48655f92a7e9eda4ff92e0a0e72090a177489efc5",
+  "scope": "All segments in the available caption export, including introductions and outros.",
+  "completeness": "caption-export-complete; video-duration comparison recorded separately",
+  "videoDurationSeconds": 2068,
+  "framesVerified": false,
+  "segments": [
+    {
+      "id": "nicolai-guide:caption:1",
+      "startSeconds": 0,
+      "text": "In this reality fracture draft guide,"
+    },
+    {
+      "id": "nicolai-guide:caption:2",
+      "startSeconds": 2,
+      "text": "I'll be covering all of the information"
+    },
+    {
+      "id": "nicolai-guide:caption:3",
+      "startSeconds": 4,
+      "text": "you need to know before diving into the"
+    },
+    {
+      "id": "nicolai-guide:caption:4",
+      "startSeconds": 6,
+      "text": "format. I will be discussing the set"
+    },
+    {
+      "id": "nicolai-guide:caption:5",
+      "startSeconds": 8,
+      "text": "mechanics. I will provide archetype"
+    },
+    {
+      "id": "nicolai-guide:caption:6",
+      "startSeconds": 10,
+      "text": "overviews. I will go through the top"
+    },
+    {
+      "id": "nicolai-guide:caption:7",
+      "startSeconds": 12,
+      "text": "commons for each color. I will show you"
+    },
+    {
+      "id": "nicolai-guide:caption:8",
+      "startSeconds": 13,
+      "text": "combat tricks to be aware of, give you"
+    },
+    {
+      "id": "nicolai-guide:caption:9",
+      "startSeconds": 15,
+      "text": "some draft tips, and more. Kicking"
+    },
+    {
+      "id": "nicolai-guide:caption:10",
+      "startSeconds": 17,
+      "text": "things off with the set mechanics. First"
+    },
+    {
+      "id": "nicolai-guide:caption:11",
+      "startSeconds": 19,
+      "text": "up, we have empower Jace, which will be"
+    },
+    {
+      "id": "nicolai-guide:caption:12",
+      "startSeconds": 21,
+      "text": "followed by a number. So, in the case of"
+    },
+    {
+      "id": "nicolai-guide:caption:13",
+      "startSeconds": 23,
+      "text": "Prodigy's Awakening, it's three in a"
+    },
+    {
+      "id": "nicolai-guide:caption:14",
+      "startSeconds": 24,
+      "text": "blue for a sorcery that says empower"
+    },
+    {
+      "id": "nicolai-guide:caption:15",
+      "startSeconds": 26,
+      "text": "Jace 6 and draw a card. So because it"
+    },
+    {
+      "id": "nicolai-guide:caption:16",
+      "startSeconds": 29,
+      "text": "has empower J six that means you'll put"
+    },
+    {
+      "id": "nicolai-guide:caption:17",
+      "startSeconds": 30,
+      "text": "six loyalty counters on a Jace token you"
+    },
+    {
+      "id": "nicolai-guide:caption:18",
+      "startSeconds": 32,
+      "text": "control and if you don't control one"
+    },
+    {
+      "id": "nicolai-guide:caption:19",
+      "startSeconds": 34,
+      "text": "first create a blue J planainwalker"
+    },
+    {
+      "id": "nicolai-guide:caption:20",
+      "startSeconds": 36,
+      "text": "token with minus one surveill one and"
+    },
+    {
+      "id": "nicolai-guide:caption:21",
+      "startSeconds": 38,
+      "text": "minus three draw a card. A lot of"
+    },
+    {
+      "id": "nicolai-guide:caption:22",
+      "startSeconds": 40,
+      "text": "empower Jayce cards are going to say"
+    },
+    {
+      "id": "nicolai-guide:caption:23",
+      "startSeconds": 41,
+      "text": "empower Jace one or empower Jace two. So"
+    },
+    {
+      "id": "nicolai-guide:caption:24",
+      "startSeconds": 44,
+      "text": "you won't immediately have access to"
+    },
+    {
+      "id": "nicolai-guide:caption:25",
+      "startSeconds": 46,
+      "text": "that minus three to draw a card unless"
+    },
+    {
+      "id": "nicolai-guide:caption:26",
+      "startSeconds": 47,
+      "text": "you're able to combine them where you"
+    },
+    {
+      "id": "nicolai-guide:caption:27",
+      "startSeconds": 49,
+      "text": "play one empower card on one turn try to"
+    },
+    {
+      "id": "nicolai-guide:caption:28",
+      "startSeconds": 51,
+      "text": "protect your Jace play another empower"
+    },
+    {
+      "id": "nicolai-guide:caption:29",
+      "startSeconds": 52,
+      "text": "card on a future turn and then you can"
+    },
+    {
+      "id": "nicolai-guide:caption:30",
+      "startSeconds": 54,
+      "text": "maybe minus three your Jace to draw a"
+    },
+    {
+      "id": "nicolai-guide:caption:31",
+      "startSeconds": 55,
+      "text": "card. So you have a lot of decisions to"
+    },
+    {
+      "id": "nicolai-guide:caption:32",
+      "startSeconds": 57,
+      "text": "make on whether you want to protect your"
+    },
+    {
+      "id": "nicolai-guide:caption:33",
+      "startSeconds": 58,
+      "text": "Jaces to try to get to higher loyalties"
+    },
+    {
+      "id": "nicolai-guide:caption:34",
+      "startSeconds": 60,
+      "text": "to draw those cards, whether you want to"
+    },
+    {
+      "id": "nicolai-guide:caption:35",
+      "startSeconds": 62,
+      "text": "just immediately surveil, and then when"
+    },
+    {
+      "id": "nicolai-guide:caption:36",
+      "startSeconds": 63,
+      "text": "your opponent has a Jace, how to attack"
+    },
+    {
+      "id": "nicolai-guide:caption:37",
+      "startSeconds": 65,
+      "text": "the Jace, whether to attack their your"
+    },
+    {
+      "id": "nicolai-guide:caption:38",
+      "startSeconds": 66,
+      "text": "opponent directly instead. Lots of"
+    },
+    {
+      "id": "nicolai-guide:caption:39",
+      "startSeconds": 68,
+      "text": "decisions with these cards, but"
+    },
+    {
+      "id": "nicolai-guide:caption:40",
+      "startSeconds": 69,
+      "text": "fundamentally the mechanic itself is"
+    },
+    {
+      "id": "nicolai-guide:caption:41",
+      "startSeconds": 71,
+      "text": "pretty straightforward. If you don't"
+    },
+    {
+      "id": "nicolai-guide:caption:42",
+      "startSeconds": 73,
+      "text": "have a Jace, you create a Jace with that"
+    },
+    {
+      "id": "nicolai-guide:caption:43",
+      "startSeconds": 74,
+      "text": "much loyalty. If you already have a"
+    },
+    {
+      "id": "nicolai-guide:caption:44",
+      "startSeconds": 76,
+      "text": "Jace, when you empower Jace, you just"
+    },
+    {
+      "id": "nicolai-guide:caption:45",
+      "startSeconds": 77,
+      "text": "add extra loyalty to them. And then the"
+    },
+    {
+      "id": "nicolai-guide:caption:46",
+      "startSeconds": 79,
+      "text": "the like abilities on the Jace itself"
+    },
+    {
+      "id": "nicolai-guide:caption:47",
+      "startSeconds": 81,
+      "text": "are also pretty straightforward. And the"
+    },
+    {
+      "id": "nicolai-guide:caption:48",
+      "startSeconds": 83,
+      "text": "other mechanic in the set is prepare,"
+    },
+    {
+      "id": "nicolai-guide:caption:49",
+      "startSeconds": 85,
+      "text": "which is going to be found on creatures"
+    },
+    {
+      "id": "nicolai-guide:caption:50",
+      "startSeconds": 86,
+      "text": "and they will have a spell associated"
+    },
+    {
+      "id": "nicolai-guide:caption:51",
+      "startSeconds": 88,
+      "text": "with them that you can cast while the"
+    },
+    {
+      "id": "nicolai-guide:caption:52",
+      "startSeconds": 90,
+      "text": "creature is prepared. And then once you"
+    },
+    {
+      "id": "nicolai-guide:caption:53",
+      "startSeconds": 91,
+      "text": "cast the spell, the creature becomes"
+    },
+    {
+      "id": "nicolai-guide:caption:54",
+      "startSeconds": 93,
+      "text": "unprepared. And then some creatures can"
+    },
+    {
+      "id": "nicolai-guide:caption:55",
+      "startSeconds": 94,
+      "text": "reprepare themselves, but it's going to"
+    },
+    {
+      "id": "nicolai-guide:caption:56",
+      "startSeconds": 96,
+      "text": "be fairly straightforward. So a card"
+    },
+    {
+      "id": "nicolai-guide:caption:57",
+      "startSeconds": 97,
+      "text": "like blossom blessed angel is three in a"
+    },
+    {
+      "id": "nicolai-guide:caption:58",
+      "startSeconds": 99,
+      "text": "white for a two four with flying and"
+    },
+    {
+      "id": "nicolai-guide:caption:59",
+      "startSeconds": 101,
+      "text": "vigilance. It enters prepared and then"
+    },
+    {
+      "id": "nicolai-guide:caption:60",
+      "startSeconds": 103,
+      "text": "it has seed suture as its prepared"
+    },
+    {
+      "id": "nicolai-guide:caption:61",
+      "startSeconds": 104,
+      "text": "spell. So for green white hybrid, it's a"
+    },
+    {
+      "id": "nicolai-guide:caption:62",
+      "startSeconds": 106,
+      "text": "sorcery. Put a plus one plus one counter"
+    },
+    {
+      "id": "nicolai-guide:caption:63",
+      "startSeconds": 108,
+      "text": "on target creature. You gain one life"
+    },
+    {
+      "id": "nicolai-guide:caption:64",
+      "startSeconds": 109,
+      "text": "and then once you've cast that, it will"
+    },
+    {
+      "id": "nicolai-guide:caption:65",
+      "startSeconds": 111,
+      "text": "become unprepared. and so you will no"
+    },
+    {
+      "id": "nicolai-guide:caption:66",
+      "startSeconds": 112,
+      "text": "longer have access to that spell with"
+    },
+    {
+      "id": "nicolai-guide:caption:67",
+      "startSeconds": 114,
+      "text": "your Blossom Blessed Angel. Moving on to"
+    },
+    {
+      "id": "nicolai-guide:caption:68",
+      "startSeconds": 116,
+      "text": "the archetypes and first up we have"
+    },
+    {
+      "id": "nicolai-guide:caption:69",
+      "startSeconds": 118,
+      "text": "White Blue, which is a deck that cares"
+    },
+    {
+      "id": "nicolai-guide:caption:70",
+      "startSeconds": 119,
+      "text": "about surveilling. You get access to a"
+    },
+    {
+      "id": "nicolai-guide:caption:71",
+      "startSeconds": 121,
+      "text": "card like Desperate Future Scribe, which"
+    },
+    {
+      "id": "nicolai-guide:caption:72",
+      "startSeconds": 123,
+      "text": "is two white blue for a three four with"
+    },
+    {
+      "id": "nicolai-guide:caption:73",
+      "startSeconds": 124,
+      "text": "flying at the beginning of combat on"
+    },
+    {
+      "id": "nicolai-guide:caption:74",
+      "startSeconds": 126,
+      "text": "your turn. Another target creature you"
+    },
+    {
+      "id": "nicolai-guide:caption:75",
+      "startSeconds": 128,
+      "text": "control gets plus one plus one until end"
+    },
+    {
+      "id": "nicolai-guide:caption:76",
+      "startSeconds": 130,
+      "text": "of turn. If you've scribed or surveiled"
+    },
+    {
+      "id": "nicolai-guide:caption:77",
+      "startSeconds": 131,
+      "text": "this turn, put a plus one plus1 counter"
+    },
+    {
+      "id": "nicolai-guide:caption:78",
+      "startSeconds": 133,
+      "text": "on that creature instead. So, a nice big"
+    },
+    {
+      "id": "nicolai-guide:caption:79",
+      "startSeconds": 135,
+      "text": "flyer for four mana that can also buff"
+    },
+    {
+      "id": "nicolai-guide:caption:80",
+      "startSeconds": 137,
+      "text": "your creatures either temporarily or"
+    },
+    {
+      "id": "nicolai-guide:caption:81",
+      "startSeconds": 139,
+      "text": "permanently if you are able to surveil."
+    },
+    {
+      "id": "nicolai-guide:caption:82",
+      "startSeconds": 142,
+      "text": "You get access to Sahili Console of"
+    },
+    {
+      "id": "nicolai-guide:caption:83",
+      "startSeconds": 144,
+      "text": "Oversight, which is three white for a 44"
+    },
+    {
+      "id": "nicolai-guide:caption:84",
+      "startSeconds": 146,
+      "text": "flyer. Whenever you scry or surveil,"
+    },
+    {
+      "id": "nicolai-guide:caption:85",
+      "startSeconds": 148,
+      "text": "create a 1-1 colorless artifact creature"
+    },
+    {
+      "id": "nicolai-guide:caption:86",
+      "startSeconds": 150,
+      "text": "token with flying. This ability triggers"
+    },
+    {
+      "id": "nicolai-guide:caption:87",
+      "startSeconds": 152,
+      "text": "only once each turn. So, another big"
+    },
+    {
+      "id": "nicolai-guide:caption:88",
+      "startSeconds": 154,
+      "text": "flyer that also gets you more flyers"
+    },
+    {
+      "id": "nicolai-guide:caption:89",
+      "startSeconds": 156,
+      "text": "when you are able to surveil. And then,"
+    },
+    {
+      "id": "nicolai-guide:caption:90",
+      "startSeconds": 158,
+      "text": "Prudent Fates here is another nice card"
+    },
+    {
+      "id": "nicolai-guide:caption:91",
+      "startSeconds": 159,
+      "text": "for this deck. It's one white, blue,"
+    },
+    {
+      "id": "nicolai-guide:caption:92",
+      "startSeconds": 160,
+      "text": "white, blue for a four. This creature"
+    },
+    {
+      "id": "nicolai-guide:caption:93",
+      "startSeconds": 163,
+      "text": "enters prepared. Whenever you scrier or"
+    },
+    {
+      "id": "nicolai-guide:caption:94",
+      "startSeconds": 164,
+      "text": "surveil, creatures you control get plus"
+    },
+    {
+      "id": "nicolai-guide:caption:95",
+      "startSeconds": 166,
+      "text": "one plus O until end of turn. This"
+    },
+    {
+      "id": "nicolai-guide:caption:96",
+      "startSeconds": 167,
+      "text": "ability triggers only once each turn."
+    },
+    {
+      "id": "nicolai-guide:caption:97",
+      "startSeconds": 169,
+      "text": "And then it has the prepared spell pure"
+    },
+    {
+      "id": "nicolai-guide:caption:98",
+      "startSeconds": 170,
+      "text": "review, which is two white blue hybrid"
+    },
+    {
+      "id": "nicolai-guide:caption:99",
+      "startSeconds": 171,
+      "text": "for a sorcery. Create a two two"
+    },
+    {
+      "id": "nicolai-guide:caption:100",
+      "startSeconds": 173,
+      "text": "colorless wizard soldier creature token"
+    },
+    {
+      "id": "nicolai-guide:caption:101",
+      "startSeconds": 174,
+      "text": "named cadet surveil one. So it's not"
+    },
+    {
+      "id": "nicolai-guide:caption:102",
+      "startSeconds": 177,
+      "text": "only a surveile payoff because it can"
+    },
+    {
+      "id": "nicolai-guide:caption:103",
+      "startSeconds": 179,
+      "text": "buff your whole team with plus one pluso"
+    },
+    {
+      "id": "nicolai-guide:caption:104",
+      "startSeconds": 180,
+      "text": "when you surveil, but it also has that"
+    },
+    {
+      "id": "nicolai-guide:caption:105",
+      "startSeconds": 182,
+      "text": "peer review that it's going to make a"
+    },
+    {
+      "id": "nicolai-guide:caption:106",
+      "startSeconds": 184,
+      "text": "creature to make the plus one plus more"
+    },
+    {
+      "id": "nicolai-guide:caption:107",
+      "startSeconds": 186,
+      "text": "effective and also surveil one to work"
+    },
+    {
+      "id": "nicolai-guide:caption:108",
+      "startSeconds": 187,
+      "text": "with your synergies. And so it kind of"
+    },
+    {
+      "id": "nicolai-guide:caption:109",
+      "startSeconds": 188,
+      "text": "fuels itself for one use and then if you"
+    },
+    {
+      "id": "nicolai-guide:caption:110",
+      "startSeconds": 190,
+      "text": "have other surveil cards, it's going to"
+    },
+    {
+      "id": "nicolai-guide:caption:111",
+      "startSeconds": 192,
+      "text": "be even more effective in the future."
+    },
+    {
+      "id": "nicolai-guide:caption:112",
+      "startSeconds": 194,
+      "text": "And one archetype tip for drafting this"
+    },
+    {
+      "id": "nicolai-guide:caption:113",
+      "startSeconds": 196,
+      "text": "deck is the minus one on Jace tokens is"
+    },
+    {
+      "id": "nicolai-guide:caption:114",
+      "startSeconds": 198,
+      "text": "a good way to trigger your cards"
+    },
+    {
+      "id": "nicolai-guide:caption:115",
+      "startSeconds": 199,
+      "text": "consistently. So if you have those Jases"
+    },
+    {
+      "id": "nicolai-guide:caption:116",
+      "startSeconds": 201,
+      "text": "in play, you can just minus one them,"
+    },
+    {
+      "id": "nicolai-guide:caption:117",
+      "startSeconds": 203,
+      "text": "get in addition to the surveil one,"
+    },
+    {
+      "id": "nicolai-guide:caption:118",
+      "startSeconds": 205,
+      "text": "whatever other benefits your cards are"
+    },
+    {
+      "id": "nicolai-guide:caption:119",
+      "startSeconds": 206,
+      "text": "giving. And so that can make it"
+    },
+    {
+      "id": "nicolai-guide:caption:120",
+      "startSeconds": 208,
+      "text": "worthwhile. So that instead of being"
+    },
+    {
+      "id": "nicolai-guide:caption:121",
+      "startSeconds": 209,
+      "text": "like, okay, I kind of want a minus three"
+    },
+    {
+      "id": "nicolai-guide:caption:122",
+      "startSeconds": 211,
+      "text": "to draw a card, I'm going to instead"
+    },
+    {
+      "id": "nicolai-guide:caption:123",
+      "startSeconds": 212,
+      "text": "minus one, get a bunch of other"
+    },
+    {
+      "id": "nicolai-guide:caption:124",
+      "startSeconds": 213,
+      "text": "synergies. And then that keeps your"
+    },
+    {
+      "id": "nicolai-guide:caption:125",
+      "startSeconds": 214,
+      "text": "Jayce around longer so you can keep"
+    },
+    {
+      "id": "nicolai-guide:caption:126",
+      "startSeconds": 216,
+      "text": "using that minus one for multiple uh"
+    },
+    {
+      "id": "nicolai-guide:caption:127",
+      "startSeconds": 218,
+      "text": "uses which can be pretty effective for"
+    },
+    {
+      "id": "nicolai-guide:caption:128",
+      "startSeconds": 219,
+      "text": "enabling your synergies. Next up is Blue"
+    },
+    {
+      "id": "nicolai-guide:caption:129",
+      "startSeconds": 222,
+      "text": "Black, which is a deck that cares about"
+    },
+    {
+      "id": "nicolai-guide:caption:130",
+      "startSeconds": 223,
+      "text": "the graveyard. It has a card like"
+    },
+    {
+      "id": "nicolai-guide:caption:131",
+      "startSeconds": 225,
+      "text": "recursive recruitment which is two blue"
+    },
+    {
+      "id": "nicolai-guide:caption:132",
+      "startSeconds": 227,
+      "text": "black for a sorcery. Create two two"
+    },
+    {
+      "id": "nicolai-guide:caption:133",
+      "startSeconds": 229,
+      "text": "colorless wizard soldier creature tokens"
+    },
+    {
+      "id": "nicolai-guide:caption:134",
+      "startSeconds": 231,
+      "text": "named cadet. If this spell was cast from"
+    },
+    {
+      "id": "nicolai-guide:caption:135",
+      "startSeconds": 232,
+      "text": "a graveyard, put a plus one plus one"
+    },
+    {
+      "id": "nicolai-guide:caption:136",
+      "startSeconds": 234,
+      "text": "counter on each of them for every three"
+    },
+    {
+      "id": "nicolai-guide:caption:137",
+      "startSeconds": 235,
+      "text": "cards in your graveyard and then"
+    },
+    {
+      "id": "nicolai-guide:caption:138",
+      "startSeconds": 237,
+      "text": "flashback for six blue black. So, in the"
+    },
+    {
+      "id": "nicolai-guide:caption:139",
+      "startSeconds": 239,
+      "text": "early turns, you're getting a couple"
+    },
+    {
+      "id": "nicolai-guide:caption:140",
+      "startSeconds": 240,
+      "text": "creatures that can trade off, help you"
+    },
+    {
+      "id": "nicolai-guide:caption:141",
+      "startSeconds": 241,
+      "text": "get to the late game, and then late,"
+    },
+    {
+      "id": "nicolai-guide:caption:142",
+      "startSeconds": 243,
+      "text": "you're flashing it back hopefully with a"
+    },
+    {
+      "id": "nicolai-guide:caption:143",
+      "startSeconds": 245,
+      "text": "super well stocked graveyard to get a"
+    },
+    {
+      "id": "nicolai-guide:caption:144",
+      "startSeconds": 246,
+      "text": "couple of giant creatures. Paradox"
+    },
+    {
+      "id": "nicolai-guide:caption:145",
+      "startSeconds": 248,
+      "text": "Shaper is another nice card for this"
+    },
+    {
+      "id": "nicolai-guide:caption:146",
+      "startSeconds": 250,
+      "text": "deck, especially for enabling graveyard"
+    },
+    {
+      "id": "nicolai-guide:caption:147",
+      "startSeconds": 251,
+      "text": "synergies. It's one blue black hybrid"
+    },
+    {
+      "id": "nicolai-guide:caption:148",
+      "startSeconds": 253,
+      "text": "for a 1 three at the beginning of your"
+    },
+    {
+      "id": "nicolai-guide:caption:149",
+      "startSeconds": 254,
+      "text": "upkeep. If this creature isn't prepared,"
+    },
+    {
+      "id": "nicolai-guide:caption:150",
+      "startSeconds": 256,
+      "text": "it becomes prepared and then has two"
+    },
+    {
+      "id": "nicolai-guide:caption:151",
+      "startSeconds": 258,
+      "text": "generic mana put target card from your"
+    },
+    {
+      "id": "nicolai-guide:caption:152",
+      "startSeconds": 259,
+      "text": "graveyard on the bottom of your library."
+    },
+    {
+      "id": "nicolai-guide:caption:153",
+      "startSeconds": 260,
+      "text": "So if you get to the ultra late game and"
+    },
+    {
+      "id": "nicolai-guide:caption:154",
+      "startSeconds": 262,
+      "text": "have a super well stocked graveyard, you"
+    },
+    {
+      "id": "nicolai-guide:caption:155",
+      "startSeconds": 263,
+      "text": "can start putting cards that you really"
+    },
+    {
+      "id": "nicolai-guide:caption:156",
+      "startSeconds": 265,
+      "text": "want to redraw back on the bottom of"
+    },
+    {
+      "id": "nicolai-guide:caption:157",
+      "startSeconds": 266,
+      "text": "your deck and maybe even redraw those if"
+    },
+    {
+      "id": "nicolai-guide:caption:158",
+      "startSeconds": 268,
+      "text": "you get a super engine going. But it"
+    },
+    {
+      "id": "nicolai-guide:caption:159",
+      "startSeconds": 269,
+      "text": "also just every turn can maybe get emit"
+    },
+    {
+      "id": "nicolai-guide:caption:160",
+      "startSeconds": 271,
+      "text": "variables as a prepared spell. Sorcery"
+    },
+    {
+      "id": "nicolai-guide:caption:161",
+      "startSeconds": 273,
+      "text": "for blue black hybrid mill three cards."
+    },
+    {
+      "id": "nicolai-guide:caption:162",
+      "startSeconds": 276,
+      "text": "That's a way that you can fill your"
+    },
+    {
+      "id": "nicolai-guide:caption:163",
+      "startSeconds": 277,
+      "text": "graveyard to help fuel cards like"
+    },
+    {
+      "id": "nicolai-guide:caption:164",
+      "startSeconds": 279,
+      "text": "recursive recruitment. And then rewrite"
+    },
+    {
+      "id": "nicolai-guide:caption:165",
+      "startSeconds": 281,
+      "text": "regrets is another card that cares about"
+    },
+    {
+      "id": "nicolai-guide:caption:166",
+      "startSeconds": 282,
+      "text": "having a well stocked graveyard. For"
+    },
+    {
+      "id": "nicolai-guide:caption:167",
+      "startSeconds": 284,
+      "text": "three in a black you get a sorcery"
+    },
+    {
+      "id": "nicolai-guide:caption:168",
+      "startSeconds": 285,
+      "text": "return target creature or planeswalker"
+    },
+    {
+      "id": "nicolai-guide:caption:169",
+      "startSeconds": 287,
+      "text": "card with mana value six or less from"
+    },
+    {
+      "id": "nicolai-guide:caption:170",
+      "startSeconds": 289,
+      "text": "your graveyard to the battlefield."
+    },
+    {
+      "id": "nicolai-guide:caption:171",
+      "startSeconds": 290,
+      "text": "empower Jace 2. So if you just have this"
+    },
+    {
+      "id": "nicolai-guide:caption:172",
+      "startSeconds": 292,
+      "text": "card in your opening hand, it's going to"
+    },
+    {
+      "id": "nicolai-guide:caption:173",
+      "startSeconds": 293,
+      "text": "be hard to maybe find a good target for"
+    },
+    {
+      "id": "nicolai-guide:caption:174",
+      "startSeconds": 295,
+      "text": "it. But if you are filling your"
+    },
+    {
+      "id": "nicolai-guide:caption:175",
+      "startSeconds": 296,
+      "text": "graveyard by casting things like emit"
+    },
+    {
+      "id": "nicolai-guide:caption:176",
+      "startSeconds": 298,
+      "text": "variables to mill three cards"
+    },
+    {
+      "id": "nicolai-guide:caption:177",
+      "startSeconds": 299,
+      "text": "consistently, that sort of thing once"
+    },
+    {
+      "id": "nicolai-guide:caption:178",
+      "startSeconds": 301,
+      "text": "you have a full graveyard, being able to"
+    },
+    {
+      "id": "nicolai-guide:caption:179",
+      "startSeconds": 303,
+      "text": "bring back hopefully a six drop to get"
+    },
+    {
+      "id": "nicolai-guide:caption:180",
+      "startSeconds": 304,
+      "text": "maximum values from your rewrite regrets"
+    },
+    {
+      "id": "nicolai-guide:caption:181",
+      "startSeconds": 306,
+      "text": "is a real possibility. And so this is"
+    },
+    {
+      "id": "nicolai-guide:caption:182",
+      "startSeconds": 308,
+      "text": "the sort of card that gets a lot better"
+    },
+    {
+      "id": "nicolai-guide:caption:183",
+      "startSeconds": 310,
+      "text": "if you are able to fill your graveyard."
+    },
+    {
+      "id": "nicolai-guide:caption:184",
+      "startSeconds": 311,
+      "text": "And empower Jace 2 is also a nice upside"
+    },
+    {
+      "id": "nicolai-guide:caption:185",
+      "startSeconds": 313,
+      "text": "to have on this sort of effect. One tip"
+    },
+    {
+      "id": "nicolai-guide:caption:186",
+      "startSeconds": 315,
+      "text": "for drafting this strategy is cheap"
+    },
+    {
+      "id": "nicolai-guide:caption:187",
+      "startSeconds": 317,
+      "text": "defenses are key so you can survive to"
+    },
+    {
+      "id": "nicolai-guide:caption:188",
+      "startSeconds": 319,
+      "text": "leverage your graveyard. A card like"
+    },
+    {
+      "id": "nicolai-guide:caption:189",
+      "startSeconds": 320,
+      "text": "Mabel Bitter Recluse, which is a single"
+    },
+    {
+      "id": "nicolai-guide:caption:190",
+      "startSeconds": 322,
+      "text": "black mana for a one- one death touch."
+    },
+    {
+      "id": "nicolai-guide:caption:191",
+      "startSeconds": 323,
+      "text": "When Mabel enters, remove up to three"
+    },
+    {
+      "id": "nicolai-guide:caption:192",
+      "startSeconds": 325,
+      "text": "counters from another target creature or"
+    },
+    {
+      "id": "nicolai-guide:caption:193",
+      "startSeconds": 326,
+      "text": "planaineswalker. This sort of card, this"
+    },
+    {
+      "id": "nicolai-guide:caption:194",
+      "startSeconds": 328,
+      "text": "one mana 1 death touch body is really"
+    },
+    {
+      "id": "nicolai-guide:caption:195",
+      "startSeconds": 330,
+      "text": "nice for defending you so you can get to"
+    },
+    {
+      "id": "nicolai-guide:caption:196",
+      "startSeconds": 332,
+      "text": "the late game to leverage your graveyard"
+    },
+    {
+      "id": "nicolai-guide:caption:197",
+      "startSeconds": 334,
+      "text": "because if you're just spending your"
+    },
+    {
+      "id": "nicolai-guide:caption:198",
+      "startSeconds": 335,
+      "text": "turns casting spells that are going to"
+    },
+    {
+      "id": "nicolai-guide:caption:199",
+      "startSeconds": 336,
+      "text": "mill yourself, that's going to be really"
+    },
+    {
+      "id": "nicolai-guide:caption:200",
+      "startSeconds": 338,
+      "text": "tricky. So being to to survive"
+    },
+    {
+      "id": "nicolai-guide:caption:201",
+      "startSeconds": 340,
+      "text": "potentially and so having these cheap"
+    },
+    {
+      "id": "nicolai-guide:caption:202",
+      "startSeconds": 341,
+      "text": "defenses is essential. Next up is Black"
+    },
+    {
+      "id": "nicolai-guide:caption:203",
+      "startSeconds": 344,
+      "text": "Red, which is a deck that cares about"
+    },
+    {
+      "id": "nicolai-guide:caption:204",
+      "startSeconds": 345,
+      "text": "dealing non-combat damage to your"
+    },
+    {
+      "id": "nicolai-guide:caption:205",
+      "startSeconds": 347,
+      "text": "opponents. So, a card like Grim"
+    },
+    {
+      "id": "nicolai-guide:caption:206",
+      "startSeconds": 348,
+      "text": "Repriser, Black Red for a two- two with"
+    },
+    {
+      "id": "nicolai-guide:caption:207",
+      "startSeconds": 350,
+      "text": "Prowess, and then it has Black Red."
+    },
+    {
+      "id": "nicolai-guide:caption:208",
+      "startSeconds": 352,
+      "text": "Return this card from your graveyard to"
+    },
+    {
+      "id": "nicolai-guide:caption:209",
+      "startSeconds": 353,
+      "text": "the battlefield with a finality counter"
+    },
+    {
+      "id": "nicolai-guide:caption:210",
+      "startSeconds": 354,
+      "text": "on it. Activate only if an opponent has"
+    },
+    {
+      "id": "nicolai-guide:caption:211",
+      "startSeconds": 356,
+      "text": "been dealt non-combat damage this turn."
+    },
+    {
+      "id": "nicolai-guide:caption:212",
+      "startSeconds": 358,
+      "text": "So, being able to deal non-combat damage"
+    },
+    {
+      "id": "nicolai-guide:caption:213",
+      "startSeconds": 359,
+      "text": "gets you a nice recursive threat."
+    },
+    {
+      "id": "nicolai-guide:caption:214",
+      "startSeconds": 361,
+      "text": "Stinger Quill Voxmaner is a great way to"
+    },
+    {
+      "id": "nicolai-guide:caption:215",
+      "startSeconds": 363,
+      "text": "deal that non-combat damage to Black Red"
+    },
+    {
+      "id": "nicolai-guide:caption:216",
+      "startSeconds": 365,
+      "text": "Hybrid for a one-two at the beginning of"
+    },
+    {
+      "id": "nicolai-guide:caption:217",
+      "startSeconds": 366,
+      "text": "your upkeep. If this creature isn't"
+    },
+    {
+      "id": "nicolai-guide:caption:218",
+      "startSeconds": 368,
+      "text": "prepared, it becomes prepared. And then"
+    },
+    {
+      "id": "nicolai-guide:caption:219",
+      "startSeconds": 369,
+      "text": "it prepared spell is vicious verse for a"
+    },
+    {
+      "id": "nicolai-guide:caption:220",
+      "startSeconds": 371,
+      "text": "sorcery. Vicious Verse deals one damage"
+    },
+    {
+      "id": "nicolai-guide:caption:221",
+      "startSeconds": 373,
+      "text": "to target opponent. So that's non-combat"
+    },
+    {
+      "id": "nicolai-guide:caption:222",
+      "startSeconds": 375,
+      "text": "damage. It's not the highest of impact"
+    },
+    {
+      "id": "nicolai-guide:caption:223",
+      "startSeconds": 376,
+      "text": "spells, but if it's going to be used to"
+    },
+    {
+      "id": "nicolai-guide:caption:224",
+      "startSeconds": 377,
+      "text": "trigger cards like your grim repriser,"
+    },
+    {
+      "id": "nicolai-guide:caption:225",
+      "startSeconds": 379,
+      "text": "work with prowess, that sort of thing,"
+    },
+    {
+      "id": "nicolai-guide:caption:226",
+      "startSeconds": 381,
+      "text": "it can definitely be worthwhile. And"
+    },
+    {
+      "id": "nicolai-guide:caption:227",
+      "startSeconds": 383,
+      "text": "then Cth the Geommancer is another nice"
+    },
+    {
+      "id": "nicolai-guide:caption:228",
+      "startSeconds": 385,
+      "text": "card for this sort of deck. Two and a"
+    },
+    {
+      "id": "nicolai-guide:caption:229",
+      "startSeconds": 387,
+      "text": "red for a three- two with reach."
+    },
+    {
+      "id": "nicolai-guide:caption:230",
+      "startSeconds": 388,
+      "text": "Landfall. Whenever a land you control"
+    },
+    {
+      "id": "nicolai-guide:caption:231",
+      "startSeconds": 390,
+      "text": "enters, Cth deals one damage to each"
+    },
+    {
+      "id": "nicolai-guide:caption:232",
+      "startSeconds": 391,
+      "text": "opponent. If that land is a mountain,"
+    },
+    {
+      "id": "nicolai-guide:caption:233",
+      "startSeconds": 392,
+      "text": "add one. Add add red mana. And so being"
+    },
+    {
+      "id": "nicolai-guide:caption:234",
+      "startSeconds": 395,
+      "text": "able to deal one damage every time you"
+    },
+    {
+      "id": "nicolai-guide:caption:235",
+      "startSeconds": 396,
+      "text": "have a land enter can be a nice way to"
+    },
+    {
+      "id": "nicolai-guide:caption:236",
+      "startSeconds": 398,
+      "text": "trigger these cards that care about"
+    },
+    {
+      "id": "nicolai-guide:caption:237",
+      "startSeconds": 399,
+      "text": "dealing non-cambit damage to your"
+    },
+    {
+      "id": "nicolai-guide:caption:238",
+      "startSeconds": 400,
+      "text": "opponent without even having to spend"
+    },
+    {
+      "id": "nicolai-guide:caption:239",
+      "startSeconds": 402,
+      "text": "extra mana on them. One tip for drafting"
+    },
+    {
+      "id": "nicolai-guide:caption:240",
+      "startSeconds": 404,
+      "text": "this archetype is finding ways to"
+    },
+    {
+      "id": "nicolai-guide:caption:241",
+      "startSeconds": 405,
+      "text": "multiply the effectiveness of your pings"
+    },
+    {
+      "id": "nicolai-guide:caption:242",
+      "startSeconds": 407,
+      "text": "is key. So if you have a card like it"
+    },
+    {
+      "id": "nicolai-guide:caption:243",
+      "startSeconds": 410,
+      "text": "spark mage it's one and a red for a one"
+    },
+    {
+      "id": "nicolai-guide:caption:244",
+      "startSeconds": 411,
+      "text": "two with prowess. If a source you"
+    },
+    {
+      "id": "nicolai-guide:caption:245",
+      "startSeconds": 413,
+      "text": "control would deal non-combat damage to"
+    },
+    {
+      "id": "nicolai-guide:caption:246",
+      "startSeconds": 414,
+      "text": "an opponent or permanent an opponent"
+    },
+    {
+      "id": "nicolai-guide:caption:247",
+      "startSeconds": 416,
+      "text": "controls it deals that much damage plus"
+    },
+    {
+      "id": "nicolai-guide:caption:248",
+      "startSeconds": 417,
+      "text": "one instead. This is going to basically"
+    },
+    {
+      "id": "nicolai-guide:caption:249",
+      "startSeconds": 418,
+      "text": "double the effectiveness of your pings"
+    },
+    {
+      "id": "nicolai-guide:caption:250",
+      "startSeconds": 420,
+      "text": "making them deal two damage instead of"
+    },
+    {
+      "id": "nicolai-guide:caption:251",
+      "startSeconds": 421,
+      "text": "one. And that's going to be a really"
+    },
+    {
+      "id": "nicolai-guide:caption:252",
+      "startSeconds": 422,
+      "text": "nice way to get extra value from your"
+    },
+    {
+      "id": "nicolai-guide:caption:253",
+      "startSeconds": 425,
+      "text": "cards. And look for ways to get more"
+    },
+    {
+      "id": "nicolai-guide:caption:254",
+      "startSeconds": 426,
+      "text": "value from your pings than just dealing"
+    },
+    {
+      "id": "nicolai-guide:caption:255",
+      "startSeconds": 428,
+      "text": "one to your opponent. That's going to be"
+    },
+    {
+      "id": "nicolai-guide:caption:256",
+      "startSeconds": 430,
+      "text": "really essential to making this deck"
+    },
+    {
+      "id": "nicolai-guide:caption:257",
+      "startSeconds": 431,
+      "text": "work. Next up is Red Green, which is a"
+    },
+    {
+      "id": "nicolai-guide:caption:258",
+      "startSeconds": 434,
+      "text": "deck that cares about ramping and having"
+    },
+    {
+      "id": "nicolai-guide:caption:259",
+      "startSeconds": 435,
+      "text": "expensive activated abilities. You get a"
+    },
+    {
+      "id": "nicolai-guide:caption:260",
+      "startSeconds": 437,
+      "text": "card like craft workcrusher, which is"
+    },
+    {
+      "id": "nicolai-guide:caption:261",
+      "startSeconds": 439,
+      "text": "three red, red, green, green for a 75"
+    },
+    {
+      "id": "nicolai-guide:caption:262",
+      "startSeconds": 441,
+      "text": "with trample. When this creature enters,"
+    },
+    {
+      "id": "nicolai-guide:caption:263",
+      "startSeconds": 442,
+      "text": "choose two. This creature deals four"
+    },
+    {
+      "id": "nicolai-guide:caption:264",
+      "startSeconds": 444,
+      "text": "damage to target creature or"
+    },
+    {
+      "id": "nicolai-guide:caption:265",
+      "startSeconds": 445,
+      "text": "planaineswalker. Create a two two"
+    },
+    {
+      "id": "nicolai-guide:caption:266",
+      "startSeconds": 446,
+      "text": "colorless wizard soldier creature token"
+    },
+    {
+      "id": "nicolai-guide:caption:267",
+      "startSeconds": 448,
+      "text": "named cadet or draw a card. So being"
+    },
+    {
+      "id": "nicolai-guide:caption:268",
+      "startSeconds": 450,
+      "text": "able to choose two of those options"
+    },
+    {
+      "id": "nicolai-guide:caption:269",
+      "startSeconds": 451,
+      "text": "oftentimes you're going to deal four and"
+    },
+    {
+      "id": "nicolai-guide:caption:270",
+      "startSeconds": 453,
+      "text": "draw a card or deal four and make a two"
+    },
+    {
+      "id": "nicolai-guide:caption:271",
+      "startSeconds": 454,
+      "text": "two those sorts of things that's going"
+    },
+    {
+      "id": "nicolai-guide:caption:272",
+      "startSeconds": 456,
+      "text": "to be a massively powerful card but it"
+    },
+    {
+      "id": "nicolai-guide:caption:273",
+      "startSeconds": 458,
+      "text": "does cost seven mana so requires some"
+    },
+    {
+      "id": "nicolai-guide:caption:274",
+      "startSeconds": 460,
+      "text": "work to get there. Heartwood crafter can"
+    },
+    {
+      "id": "nicolai-guide:caption:275",
+      "startSeconds": 462,
+      "text": "help you do that. It's a single green"
+    },
+    {
+      "id": "nicolai-guide:caption:276",
+      "startSeconds": 463,
+      "text": "mana for a one- one. It enters prepared."
+    },
+    {
+      "id": "nicolai-guide:caption:277",
+      "startSeconds": 465,
+      "text": "You can tap to add colorless. This mana"
+    },
+    {
+      "id": "nicolai-guide:caption:278",
+      "startSeconds": 467,
+      "text": "can't be spent to cast spells from your"
+    },
+    {
+      "id": "nicolai-guide:caption:279",
+      "startSeconds": 468,
+      "text": "hand but it can be used to cast the"
+    },
+    {
+      "id": "nicolai-guide:caption:280",
+      "startSeconds": 470,
+      "text": "prepared spell which is soul tether to"
+    },
+    {
+      "id": "nicolai-guide:caption:281",
+      "startSeconds": 471,
+      "text": "red green hybrid. Create a heartwood"
+    },
+    {
+      "id": "nicolai-guide:caption:282",
+      "startSeconds": 473,
+      "text": "token which is a token that's red and"
+    },
+    {
+      "id": "nicolai-guide:caption:283",
+      "startSeconds": 475,
+      "text": "green and tap for red or green. So if"
+    },
+    {
+      "id": "nicolai-guide:caption:284",
+      "startSeconds": 476,
+      "text": "you play hardwood crafter on turn two"
+    },
+    {
+      "id": "nicolai-guide:caption:285",
+      "startSeconds": 478,
+      "text": "turn one on turn two you can cast soul"
+    },
+    {
+      "id": "nicolai-guide:caption:286",
+      "startSeconds": 480,
+      "text": "tether that's going to help you ramp up"
+    },
+    {
+      "id": "nicolai-guide:caption:287",
+      "startSeconds": 481,
+      "text": "so that you can can cast your seven"
+    },
+    {
+      "id": "nicolai-guide:caption:288",
+      "startSeconds": 483,
+      "text": "drops more consistently and it's it's"
+    },
+    {
+      "id": "nicolai-guide:caption:289",
+      "startSeconds": 485,
+      "text": "tap for colorless can also be used for"
+    },
+    {
+      "id": "nicolai-guide:caption:290",
+      "startSeconds": 488,
+      "text": "activated abilities. So a card like cura"
+    },
+    {
+      "id": "nicolai-guide:caption:291",
+      "startSeconds": 489,
+      "text": "of fire and ashes also works well here."
+    },
+    {
+      "id": "nicolai-guide:caption:292",
+      "startSeconds": 491,
+      "text": "It's four red red for a two. When kiora"
+    },
+    {
+      "id": "nicolai-guide:caption:293",
+      "startSeconds": 494,
+      "text": "enters create a five five red dragon"
+    },
+    {
+      "id": "nicolai-guide:caption:294",
+      "startSeconds": 495,
+      "text": "creature token with flying and then you"
+    },
+    {
+      "id": "nicolai-guide:caption:295",
+      "startSeconds": 497,
+      "text": "can spend eight mana to create a five"
+    },
+    {
+      "id": "nicolai-guide:caption:296",
+      "startSeconds": 499,
+      "text": "five red dragon creature token with"
+    },
+    {
+      "id": "nicolai-guide:caption:297",
+      "startSeconds": 501,
+      "text": "flying. So, an expensive activated"
+    },
+    {
+      "id": "nicolai-guide:caption:298",
+      "startSeconds": 502,
+      "text": "ability on a top- end card to help you"
+    },
+    {
+      "id": "nicolai-guide:caption:299",
+      "startSeconds": 504,
+      "text": "like leverage your mana advantage in the"
+    },
+    {
+      "id": "nicolai-guide:caption:300",
+      "startSeconds": 506,
+      "text": "late game. One archetype tip when"
+    },
+    {
+      "id": "nicolai-guide:caption:301",
+      "startSeconds": 508,
+      "text": "drafting this deck is using Heartwood"
+    },
+    {
+      "id": "nicolai-guide:caption:302",
+      "startSeconds": 509,
+      "text": "mana immediately is a good way to recoup"
+    },
+    {
+      "id": "nicolai-guide:caption:303",
+      "startSeconds": 512,
+      "text": "tempo. So, a card like woodwork prodigy"
+    },
+    {
+      "id": "nicolai-guide:caption:304",
+      "startSeconds": 513,
+      "text": "is two red green hybrid for a three-"
+    },
+    {
+      "id": "nicolai-guide:caption:305",
+      "startSeconds": 515,
+      "text": "three at the beginning of your upkeep."
+    },
+    {
+      "id": "nicolai-guide:caption:306",
+      "startSeconds": 516,
+      "text": "If this creature isn't prepared, it"
+    },
+    {
+      "id": "nicolai-guide:caption:307",
+      "startSeconds": 517,
+      "text": "becomes prepared and it can cast soul"
+    },
+    {
+      "id": "nicolai-guide:caption:308",
+      "startSeconds": 519,
+      "text": "tether. And if you are casting soul"
+    },
+    {
+      "id": "nicolai-guide:caption:309",
+      "startSeconds": 521,
+      "text": "tether, the heartwood token comes into"
+    },
+    {
+      "id": "nicolai-guide:caption:310",
+      "startSeconds": 522,
+      "text": "play untapped. So if you play like"
+    },
+    {
+      "id": "nicolai-guide:caption:311",
+      "startSeconds": 524,
+      "text": "woodwork prodigy on turn three, on turn"
+    },
+    {
+      "id": "nicolai-guide:caption:312",
+      "startSeconds": 525,
+      "text": "four if you can do something like cast"
+    },
+    {
+      "id": "nicolai-guide:caption:313",
+      "startSeconds": 527,
+      "text": "soul tether and then use that mana"
+    },
+    {
+      "id": "nicolai-guide:caption:314",
+      "startSeconds": 529,
+      "text": "immediately to help you cast a two drop"
+    },
+    {
+      "id": "nicolai-guide:caption:315",
+      "startSeconds": 530,
+      "text": "because you'll have like four mana from"
+    },
+    {
+      "id": "nicolai-guide:caption:316",
+      "startSeconds": 532,
+      "text": "your lands. Cast soul tether that"
+    },
+    {
+      "id": "nicolai-guide:caption:317",
+      "startSeconds": 534,
+      "text": "expends three but gets you one back and"
+    },
+    {
+      "id": "nicolai-guide:caption:318",
+      "startSeconds": 536,
+      "text": "so you'll have two. You can then use"
+    },
+    {
+      "id": "nicolai-guide:caption:319",
+      "startSeconds": 537,
+      "text": "that mana immediately. If you can do"
+    },
+    {
+      "id": "nicolai-guide:caption:320",
+      "startSeconds": 538,
+      "text": "that and find scenarios where you can do"
+    },
+    {
+      "id": "nicolai-guide:caption:321",
+      "startSeconds": 540,
+      "text": "that, that can help you avoid falling"
+    },
+    {
+      "id": "nicolai-guide:caption:322",
+      "startSeconds": 542,
+      "text": "behind too far while you're getting your"
+    },
+    {
+      "id": "nicolai-guide:caption:323",
+      "startSeconds": 544,
+      "text": "mana advantage so that when you do cast"
+    },
+    {
+      "id": "nicolai-guide:caption:324",
+      "startSeconds": 546,
+      "text": "your giant seven drops or big plays in"
+    },
+    {
+      "id": "nicolai-guide:caption:325",
+      "startSeconds": 548,
+      "text": "the late game, you aren't too far behind"
+    },
+    {
+      "id": "nicolai-guide:caption:326",
+      "startSeconds": 550,
+      "text": "for them to really catch you up. Next up"
+    },
+    {
+      "id": "nicolai-guide:caption:327",
+      "startSeconds": 552,
+      "text": "is Green White, which is a deck that"
+    },
+    {
+      "id": "nicolai-guide:caption:328",
+      "startSeconds": 553,
+      "text": "cares about life gain. You gain access"
+    },
+    {
+      "id": "nicolai-guide:caption:329",
+      "startSeconds": 555,
+      "text": "to a payoff like Bloom Brute, which is"
+    },
+    {
+      "id": "nicolai-guide:caption:330",
+      "startSeconds": 556,
+      "text": "two green white for a four. Whenever you"
+    },
+    {
+      "id": "nicolai-guide:caption:331",
+      "startSeconds": 559,
+      "text": "gain life, draw a card. This ability"
+    },
+    {
+      "id": "nicolai-guide:caption:332",
+      "startSeconds": 560,
+      "text": "triggers only once each turn and then it"
+    },
+    {
+      "id": "nicolai-guide:caption:333",
+      "startSeconds": 562,
+      "text": "has four green white target creature"
+    },
+    {
+      "id": "nicolai-guide:caption:334",
+      "startSeconds": 564,
+      "text": "gains trample and lifelink until end of"
+    },
+    {
+      "id": "nicolai-guide:caption:335",
+      "startSeconds": 566,
+      "text": "turn. So, it can kind of enable itself"
+    },
+    {
+      "id": "nicolai-guide:caption:336",
+      "startSeconds": 567,
+      "text": "if you have a creature that can attack"
+    },
+    {
+      "id": "nicolai-guide:caption:337",
+      "startSeconds": 568,
+      "text": "because the lifelink will let you draw"
+    },
+    {
+      "id": "nicolai-guide:caption:338",
+      "startSeconds": 570,
+      "text": "that card. Being able to turn life gain"
+    },
+    {
+      "id": "nicolai-guide:caption:339",
+      "startSeconds": 571,
+      "text": "into card draw is just fantastic. And"
+    },
+    {
+      "id": "nicolai-guide:caption:340",
+      "startSeconds": 573,
+      "text": "this is a great payoff for this deck."
+    },
+    {
+      "id": "nicolai-guide:caption:341",
+      "startSeconds": 575,
+      "text": "Titan Bones Towering Heart is another"
+    },
+    {
+      "id": "nicolai-guide:caption:342",
+      "startSeconds": 577,
+      "text": "nice card here. It's three and a green"
+    },
+    {
+      "id": "nicolai-guide:caption:343",
+      "startSeconds": 579,
+      "text": "for a 4- three with reach. Whenever you"
+    },
+    {
+      "id": "nicolai-guide:caption:344",
+      "startSeconds": 581,
+      "text": "gain life, put two plus one plus one"
+    },
+    {
+      "id": "nicolai-guide:caption:345",
+      "startSeconds": 582,
+      "text": "counters on Titan Bones. When you"
+    },
+    {
+      "id": "nicolai-guide:caption:346",
+      "startSeconds": 584,
+      "text": "discard this card, you gain three life."
+    },
+    {
+      "id": "nicolai-guide:caption:347",
+      "startSeconds": 585,
+      "text": "So, the relevant part is that it's a"
+    },
+    {
+      "id": "nicolai-guide:caption:348",
+      "startSeconds": 586,
+      "text": "four three for four that when you gain"
+    },
+    {
+      "id": "nicolai-guide:caption:349",
+      "startSeconds": 588,
+      "text": "life just gets really, really big"
+    },
+    {
+      "id": "nicolai-guide:caption:350",
+      "startSeconds": 589,
+      "text": "really, really fast. Putting two"
+    },
+    {
+      "id": "nicolai-guide:caption:351",
+      "startSeconds": 590,
+      "text": "counters on it whenever you gain life is"
+    },
+    {
+      "id": "nicolai-guide:caption:352",
+      "startSeconds": 592,
+      "text": "going to make it giant in a hurry if you"
+    },
+    {
+      "id": "nicolai-guide:caption:353",
+      "startSeconds": 594,
+      "text": "can enable it. And then emergency phtoic"
+    },
+    {
+      "id": "nicolai-guide:caption:354",
+      "startSeconds": 597,
+      "text": "is a nice enabler for this deck. It's"
+    },
+    {
+      "id": "nicolai-guide:caption:355",
+      "startSeconds": 598,
+      "text": "green white hybrid for a 1-1. It enters"
+    },
+    {
+      "id": "nicolai-guide:caption:356",
+      "startSeconds": 600,
+      "text": "prepared and then it can cast seed"
+    },
+    {
+      "id": "nicolai-guide:caption:357",
+      "startSeconds": 601,
+      "text": "suture as a sorcery. Put a plus on plus"
+    },
+    {
+      "id": "nicolai-guide:caption:358",
+      "startSeconds": 603,
+      "text": "one counter on target creature. You gain"
+    },
+    {
+      "id": "nicolai-guide:caption:359",
+      "startSeconds": 604,
+      "text": "one life. So often times you'll want to"
+    },
+    {
+      "id": "nicolai-guide:caption:360",
+      "startSeconds": 606,
+      "text": "wait to cast that seed suture until you"
+    },
+    {
+      "id": "nicolai-guide:caption:361",
+      "startSeconds": 608,
+      "text": "actually benefit from the life gain as"
+    },
+    {
+      "id": "nicolai-guide:caption:362",
+      "startSeconds": 610,
+      "text": "well as the counter. Though it's nice to"
+    },
+    {
+      "id": "nicolai-guide:caption:363",
+      "startSeconds": 612,
+      "text": "have the flexibility to be able to cast"
+    },
+    {
+      "id": "nicolai-guide:caption:364",
+      "startSeconds": 613,
+      "text": "that when you want. One archetype tip"
+    },
+    {
+      "id": "nicolai-guide:caption:365",
+      "startSeconds": 616,
+      "text": "for drafting this deck is cards that"
+    },
+    {
+      "id": "nicolai-guide:caption:366",
+      "startSeconds": 617,
+      "text": "gain you life multiple times are key"
+    },
+    {
+      "id": "nicolai-guide:caption:367",
+      "startSeconds": 619,
+      "text": "enablers to prioritize. So a card like"
+    },
+    {
+      "id": "nicolai-guide:caption:368",
+      "startSeconds": 621,
+      "text": "of the homestead which is two in a white"
+    },
+    {
+      "id": "nicolai-guide:caption:369",
+      "startSeconds": 622,
+      "text": "for a two three with landfall. Whenever"
+    },
+    {
+      "id": "nicolai-guide:caption:370",
+      "startSeconds": 624,
+      "text": "a land you control enters you gain one"
+    },
+    {
+      "id": "nicolai-guide:caption:371",
+      "startSeconds": 625,
+      "text": "life. Whenever a plains you control"
+    },
+    {
+      "id": "nicolai-guide:caption:372",
+      "startSeconds": 626,
+      "text": "enters put a plus and plus on counter on"
+    },
+    {
+      "id": "nicolai-guide:caption:373",
+      "startSeconds": 628,
+      "text": "target creature. If you have a card like"
+    },
+    {
+      "id": "nicolai-guide:caption:374",
+      "startSeconds": 629,
+      "text": "Cth, which is going to gain you life"
+    },
+    {
+      "id": "nicolai-guide:caption:375",
+      "startSeconds": 631,
+      "text": "consistently over time, that works"
+    },
+    {
+      "id": "nicolai-guide:caption:376",
+      "startSeconds": 633,
+      "text": "really well with your synergies,"
+    },
+    {
+      "id": "nicolai-guide:caption:377",
+      "startSeconds": 635,
+      "text": "especially because some cards are only"
+    },
+    {
+      "id": "nicolai-guide:caption:378",
+      "startSeconds": 637,
+      "text": "going to gain you life in one burst."
+    },
+    {
+      "id": "nicolai-guide:caption:379",
+      "startSeconds": 638,
+      "text": "Like if you cast a seed suture card that"
+    },
+    {
+      "id": "nicolai-guide:caption:380",
+      "startSeconds": 639,
+      "text": "just gains you the life one time, that's"
+    },
+    {
+      "id": "nicolai-guide:caption:381",
+      "startSeconds": 641,
+      "text": "a little bit trickier to use with your"
+    },
+    {
+      "id": "nicolai-guide:caption:382",
+      "startSeconds": 642,
+      "text": "synergies because it doesn't form like"
+    },
+    {
+      "id": "nicolai-guide:caption:383",
+      "startSeconds": 644,
+      "text": "an engine. Whereas cough can really form"
+    },
+    {
+      "id": "nicolai-guide:caption:384",
+      "startSeconds": 645,
+      "text": "an engine whenever you play land, you"
+    },
+    {
+      "id": "nicolai-guide:caption:385",
+      "startSeconds": 647,
+      "text": "gain a life, it triggers your other"
+    },
+    {
+      "id": "nicolai-guide:caption:386",
+      "startSeconds": 648,
+      "text": "cards. That can be really formidable. So"
+    },
+    {
+      "id": "nicolai-guide:caption:387",
+      "startSeconds": 650,
+      "text": "make sure you keep an eye out for these"
+    },
+    {
+      "id": "nicolai-guide:caption:388",
+      "startSeconds": 651,
+      "text": "sorts of cards. Next up is White Black,"
+    },
+    {
+      "id": "nicolai-guide:caption:389",
+      "startSeconds": 653,
+      "text": "which is a sort of attrition grindy deck"
+    },
+    {
+      "id": "nicolai-guide:caption:390",
+      "startSeconds": 655,
+      "text": "that's using a lot of small creatures."
+    },
+    {
+      "id": "nicolai-guide:caption:391",
+      "startSeconds": 656,
+      "text": "Edgar, ancient bloodlord is perfect for"
+    },
+    {
+      "id": "nicolai-guide:caption:392",
+      "startSeconds": 658,
+      "text": "this deck. It's white black for a two"
+    },
+    {
+      "id": "nicolai-guide:caption:393",
+      "startSeconds": 659,
+      "text": "three. Whenever another creature or"
+    },
+    {
+      "id": "nicolai-guide:caption:394",
+      "startSeconds": 661,
+      "text": "planaineswalker you control dies, you"
+    },
+    {
+      "id": "nicolai-guide:caption:395",
+      "startSeconds": 662,
+      "text": "gain one life and you can spend two"
+    },
+    {
+      "id": "nicolai-guide:caption:396",
+      "startSeconds": 664,
+      "text": "mana, sacrifice another creature or"
+    },
+    {
+      "id": "nicolai-guide:caption:397",
+      "startSeconds": 665,
+      "text": "planaineswalker, put a plus one plus one"
+    },
+    {
+      "id": "nicolai-guide:caption:398",
+      "startSeconds": 666,
+      "text": "counter on Edgar, he gains menace until"
+    },
+    {
+      "id": "nicolai-guide:caption:399",
+      "startSeconds": 668,
+      "text": "end of turn. So it kind of like nice"
+    },
+    {
+      "id": "nicolai-guide:caption:400",
+      "startSeconds": 670,
+      "text": "stat line is a two mana 2 three and can"
+    },
+    {
+      "id": "nicolai-guide:caption:401",
+      "startSeconds": 672,
+      "text": "grow and become menace and a little bit"
+    },
+    {
+      "id": "nicolai-guide:caption:402",
+      "startSeconds": 673,
+      "text": "harder to deal with if you are using"
+    },
+    {
+      "id": "nicolai-guide:caption:403",
+      "startSeconds": 676,
+      "text": "that ability a little bit in maybe the"
+    },
+    {
+      "id": "nicolai-guide:caption:404",
+      "startSeconds": 677,
+      "text": "mid game to make him maybe a three four"
+    },
+    {
+      "id": "nicolai-guide:caption:405",
+      "startSeconds": 679,
+      "text": "or just grow him over time. There's also"
+    },
+    {
+      "id": "nicolai-guide:caption:406",
+      "startSeconds": 680,
+      "text": "generous revival as two and a white for"
+    },
+    {
+      "id": "nicolai-guide:caption:407",
+      "startSeconds": 682,
+      "text": "a sorcery. return target creature card"
+    },
+    {
+      "id": "nicolai-guide:caption:408",
+      "startSeconds": 684,
+      "text": "with mana value three or less from your"
+    },
+    {
+      "id": "nicolai-guide:caption:409",
+      "startSeconds": 685,
+      "text": "graveyard to the battlefield with an"
+    },
+    {
+      "id": "nicolai-guide:caption:410",
+      "startSeconds": 687,
+      "text": "additional plus one plus one counter on"
+    },
+    {
+      "id": "nicolai-guide:caption:411",
+      "startSeconds": 688,
+      "text": "it and then flashback for four into"
+    },
+    {
+      "id": "nicolai-guide:caption:412",
+      "startSeconds": 689,
+      "text": "white. So again using these small"
+    },
+    {
+      "id": "nicolai-guide:caption:413",
+      "startSeconds": 691,
+      "text": "creatures and then bringing them back"
+    },
+    {
+      "id": "nicolai-guide:caption:414",
+      "startSeconds": 692,
+      "text": "for even more value and generous revival"
+    },
+    {
+      "id": "nicolai-guide:caption:415",
+      "startSeconds": 694,
+      "text": "kind of can do its thing twice where you"
+    },
+    {
+      "id": "nicolai-guide:caption:416",
+      "startSeconds": 696,
+      "text": "play it get a key creature back and then"
+    },
+    {
+      "id": "nicolai-guide:caption:417",
+      "startSeconds": 698,
+      "text": "it dies maybe again you flash back"
+    },
+    {
+      "id": "nicolai-guide:caption:418",
+      "startSeconds": 699,
+      "text": "generous revival bring the creature back"
+    },
+    {
+      "id": "nicolai-guide:caption:419",
+      "startSeconds": 701,
+      "text": "again. This sort of like recursion"
+    },
+    {
+      "id": "nicolai-guide:caption:420",
+      "startSeconds": 702,
+      "text": "attached to kind of small creatures is"
+    },
+    {
+      "id": "nicolai-guide:caption:421",
+      "startSeconds": 704,
+      "text": "what white black is doing. And then"
+    },
+    {
+      "id": "nicolai-guide:caption:422",
+      "startSeconds": 705,
+      "text": "Galia tragic host is another nice card"
+    },
+    {
+      "id": "nicolai-guide:caption:423",
+      "startSeconds": 707,
+      "text": "for this deck. one in a black for a"
+    },
+    {
+      "id": "nicolai-guide:caption:424",
+      "startSeconds": 708,
+      "text": "two-1 with menace. Then four in a black"
+    },
+    {
+      "id": "nicolai-guide:caption:425",
+      "startSeconds": 711,
+      "text": "exile another creature card from your"
+    },
+    {
+      "id": "nicolai-guide:caption:426",
+      "startSeconds": 712,
+      "text": "graveyard. Return this card from your"
+    },
+    {
+      "id": "nicolai-guide:caption:427",
+      "startSeconds": 714,
+      "text": "graveyard to the battlefield tapped with"
+    },
+    {
+      "id": "nicolai-guide:caption:428",
+      "startSeconds": 715,
+      "text": "a plus on plus one counter on her. So"
+    },
+    {
+      "id": "nicolai-guide:caption:429",
+      "startSeconds": 716,
+      "text": "you can keep doing that. So if Gallia"
+    },
+    {
+      "id": "nicolai-guide:caption:430",
+      "startSeconds": 718,
+      "text": "keeps trading off, which is going to"
+    },
+    {
+      "id": "nicolai-guide:caption:431",
+      "startSeconds": 719,
+      "text": "often happen cuz she has menace, so"
+    },
+    {
+      "id": "nicolai-guide:caption:432",
+      "startSeconds": 721,
+      "text": "she's kind of hard to block and then you"
+    },
+    {
+      "id": "nicolai-guide:caption:433",
+      "startSeconds": 722,
+      "text": "can keep bringing her back, that gives"
+    },
+    {
+      "id": "nicolai-guide:caption:434",
+      "startSeconds": 724,
+      "text": "you a nice little bit of recursion, a"
+    },
+    {
+      "id": "nicolai-guide:caption:435",
+      "startSeconds": 725,
+      "text": "little bit of value while pressuring"
+    },
+    {
+      "id": "nicolai-guide:caption:436",
+      "startSeconds": 726,
+      "text": "your opponent. And that brings me to my"
+    },
+    {
+      "id": "nicolai-guide:caption:437",
+      "startSeconds": 728,
+      "text": "archetype tip, which is leaning"
+    },
+    {
+      "id": "nicolai-guide:caption:438",
+      "startSeconds": 729,
+      "text": "aggressive will help you make the best"
+    },
+    {
+      "id": "nicolai-guide:caption:439",
+      "startSeconds": 730,
+      "text": "use of your card. So if you have the"
+    },
+    {
+      "id": "nicolai-guide:caption:440",
+      "startSeconds": 732,
+      "text": "gallas, if you have your Edgars that are"
+    },
+    {
+      "id": "nicolai-guide:caption:441",
+      "startSeconds": 735,
+      "text": "maybe gaining menace when you sacrifice"
+    },
+    {
+      "id": "nicolai-guide:caption:442",
+      "startSeconds": 736,
+      "text": "things, being able to leverage that more"
+    },
+    {
+      "id": "nicolai-guide:caption:443",
+      "startSeconds": 738,
+      "text": "effectively, menace especially is good"
+    },
+    {
+      "id": "nicolai-guide:caption:444",
+      "startSeconds": 739,
+      "text": "on offense. And a lot of these small"
+    },
+    {
+      "id": "nicolai-guide:caption:445",
+      "startSeconds": 740,
+      "text": "creatures maybe don't scale into the"
+    },
+    {
+      "id": "nicolai-guide:caption:446",
+      "startSeconds": 742,
+      "text": "game crazy well. Like they scale it"
+    },
+    {
+      "id": "nicolai-guide:caption:447",
+      "startSeconds": 743,
+      "text": "decently well if you have some synergies"
+    },
+    {
+      "id": "nicolai-guide:caption:448",
+      "startSeconds": 745,
+      "text": "around them, but leaning aggressive will"
+    },
+    {
+      "id": "nicolai-guide:caption:449",
+      "startSeconds": 746,
+      "text": "help you put your opponent on the back"
+    },
+    {
+      "id": "nicolai-guide:caption:450",
+      "startSeconds": 748,
+      "text": "foot and really pressure your opponents."
+    },
+    {
+      "id": "nicolai-guide:caption:451",
+      "startSeconds": 749,
+      "text": "And a card like Twisted Fates is a great"
+    },
+    {
+      "id": "nicolai-guide:caption:452",
+      "startSeconds": 751,
+      "text": "example of that. It's two white, white,"
+    },
+    {
+      "id": "nicolai-guide:caption:453",
+      "startSeconds": 752,
+      "text": "black for a sorcery, destroy target,"
+    },
+    {
+      "id": "nicolai-guide:caption:454",
+      "startSeconds": 754,
+      "text": "non-land permanent, put a plus and plus"
+    },
+    {
+      "id": "nicolai-guide:caption:455",
+      "startSeconds": 755,
+      "text": "one counter on each creature target"
+    },
+    {
+      "id": "nicolai-guide:caption:456",
+      "startSeconds": 757,
+      "text": "player control. So, if you have a bunch"
+    },
+    {
+      "id": "nicolai-guide:caption:457",
+      "startSeconds": 758,
+      "text": "of creatures in play and you're trying"
+    },
+    {
+      "id": "nicolai-guide:caption:458",
+      "startSeconds": 759,
+      "text": "to pressure your opponent and like"
+    },
+    {
+      "id": "nicolai-guide:caption:459",
+      "startSeconds": 761,
+      "text": "really damage them, buffing your whole"
+    },
+    {
+      "id": "nicolai-guide:caption:460",
+      "startSeconds": 763,
+      "text": "team can be really really swingy and"
+    },
+    {
+      "id": "nicolai-guide:caption:461",
+      "startSeconds": 764,
+      "text": "really fantastic. But, if you're just"
+    },
+    {
+      "id": "nicolai-guide:caption:462",
+      "startSeconds": 766,
+      "text": "filling your deck with a bunch of like"
+    },
+    {
+      "id": "nicolai-guide:caption:463",
+      "startSeconds": 767,
+      "text": "grindy removal spells and things like"
+    },
+    {
+      "id": "nicolai-guide:caption:464",
+      "startSeconds": 768,
+      "text": "that, then a card like Twisted Fates is"
+    },
+    {
+      "id": "nicolai-guide:caption:465",
+      "startSeconds": 770,
+      "text": "going to be less effective because you"
+    },
+    {
+      "id": "nicolai-guide:caption:466",
+      "startSeconds": 771,
+      "text": "might have fewer creatures in play to be"
+    },
+    {
+      "id": "nicolai-guide:caption:467",
+      "startSeconds": 773,
+      "text": "pressing your opponent. And so, if you"
+    },
+    {
+      "id": "nicolai-guide:caption:468",
+      "startSeconds": 774,
+      "text": "are able to lean a little bit aggressive"
+    },
+    {
+      "id": "nicolai-guide:caption:469",
+      "startSeconds": 775,
+      "text": "while being attrition, that's going to"
+    },
+    {
+      "id": "nicolai-guide:caption:470",
+      "startSeconds": 777,
+      "text": "be a little bit of more effective and"
+    },
+    {
+      "id": "nicolai-guide:caption:471",
+      "startSeconds": 779,
+      "text": "going to help you win games with this"
+    },
+    {
+      "id": "nicolai-guide:caption:472",
+      "startSeconds": 780,
+      "text": "strategy. Next up is Black Green, which"
+    },
+    {
+      "id": "nicolai-guide:caption:473",
+      "startSeconds": 782,
+      "text": "is another deck that cares about the"
+    },
+    {
+      "id": "nicolai-guide:caption:474",
+      "startSeconds": 783,
+      "text": "graveyard. Hpatra, the desert fang is"
+    },
+    {
+      "id": "nicolai-guide:caption:475",
+      "startSeconds": 785,
+      "text": "really nice. two black, black, green for"
+    },
+    {
+      "id": "nicolai-guide:caption:476",
+      "startSeconds": 787,
+      "text": "a three- three. When Hpatra enters, for"
+    },
+    {
+      "id": "nicolai-guide:caption:477",
+      "startSeconds": 789,
+      "text": "each opponent, put X plus put X minus"
+    },
+    {
+      "id": "nicolai-guide:caption:478",
+      "startSeconds": 791,
+      "text": "one minus one counters on up to one"
+    },
+    {
+      "id": "nicolai-guide:caption:479",
+      "startSeconds": 792,
+      "text": "target creature that player controls"
+    },
+    {
+      "id": "nicolai-guide:caption:480",
+      "startSeconds": 794,
+      "text": "where X is the greatest mana value among"
+    },
+    {
+      "id": "nicolai-guide:caption:481",
+      "startSeconds": 795,
+      "text": "cards in your graveyard. So, this can be"
+    },
+    {
+      "id": "nicolai-guide:caption:482",
+      "startSeconds": 797,
+      "text": "very good if you do have a big card in"
+    },
+    {
+      "id": "nicolai-guide:caption:483",
+      "startSeconds": 799,
+      "text": "your graveyard where you can like kill"
+    },
+    {
+      "id": "nicolai-guide:caption:484",
+      "startSeconds": 800,
+      "text": "your opponent's best creature or just a"
+    },
+    {
+      "id": "nicolai-guide:caption:485",
+      "startSeconds": 802,
+      "text": "five mana 33 if you don't have things in"
+    },
+    {
+      "id": "nicolai-guide:caption:486",
+      "startSeconds": 804,
+      "text": "your graveyard. So, you want to make"
+    },
+    {
+      "id": "nicolai-guide:caption:487",
+      "startSeconds": 805,
+      "text": "sure that you can fill your graveyard"
+    },
+    {
+      "id": "nicolai-guide:caption:488",
+      "startSeconds": 806,
+      "text": "and put big things into your graveyard"
+    },
+    {
+      "id": "nicolai-guide:caption:489",
+      "startSeconds": 808,
+      "text": "so that Hatra is going to be good. A"
+    },
+    {
+      "id": "nicolai-guide:caption:490",
+      "startSeconds": 809,
+      "text": "card like Primal Witchstalker really"
+    },
+    {
+      "id": "nicolai-guide:caption:491",
+      "startSeconds": 811,
+      "text": "helps that happen. one black green for a"
+    },
+    {
+      "id": "nicolai-guide:caption:492",
+      "startSeconds": 813,
+      "text": "2-1 with menace when this creature"
+    },
+    {
+      "id": "nicolai-guide:caption:493",
+      "startSeconds": 814,
+      "text": "enters mill four cards when you do"
+    },
+    {
+      "id": "nicolai-guide:caption:494",
+      "startSeconds": 816,
+      "text": "return target land card from your"
+    },
+    {
+      "id": "nicolai-guide:caption:495",
+      "startSeconds": 817,
+      "text": "graveyard to the battlefield tapped. So"
+    },
+    {
+      "id": "nicolai-guide:caption:496",
+      "startSeconds": 819,
+      "text": "it's going to ramp you. It's going to"
+    },
+    {
+      "id": "nicolai-guide:caption:497",
+      "startSeconds": 820,
+      "text": "fill your graveyard for cards like"
+    },
+    {
+      "id": "nicolai-guide:caption:498",
+      "startSeconds": 821,
+      "text": "Hpatra. It's going to be a two-1 menace"
+    },
+    {
+      "id": "nicolai-guide:caption:499",
+      "startSeconds": 823,
+      "text": "for three. Overall, a lot of things to"
+    },
+    {
+      "id": "nicolai-guide:caption:500",
+      "startSeconds": 825,
+      "text": "like about primal witch stalker. And"
+    },
+    {
+      "id": "nicolai-guide:caption:501",
+      "startSeconds": 826,
+      "text": "then something worth saving is another"
+    },
+    {
+      "id": "nicolai-guide:caption:502",
+      "startSeconds": 828,
+      "text": "nice enabler for this deck. It's one and"
+    },
+    {
+      "id": "nicolai-guide:caption:503",
+      "startSeconds": 829,
+      "text": "a green for an instant mill four cards."
+    },
+    {
+      "id": "nicolai-guide:caption:504",
+      "startSeconds": 831,
+      "text": "You may put a permanent card from among"
+    },
+    {
+      "id": "nicolai-guide:caption:505",
+      "startSeconds": 832,
+      "text": "them into your hand. You gain one life."
+    },
+    {
+      "id": "nicolai-guide:caption:506",
+      "startSeconds": 834,
+      "text": "So it's going to dig you four cards deep"
+    },
+    {
+      "id": "nicolai-guide:caption:507",
+      "startSeconds": 836,
+      "text": "for your key permanence while filling"
+    },
+    {
+      "id": "nicolai-guide:caption:508",
+      "startSeconds": 837,
+      "text": "your graveyard and even gaining you a"
+    },
+    {
+      "id": "nicolai-guide:caption:509",
+      "startSeconds": 838,
+      "text": "life to help against aggro. That's going"
+    },
+    {
+      "id": "nicolai-guide:caption:510",
+      "startSeconds": 840,
+      "text": "to be a really nice addition to your"
+    },
+    {
+      "id": "nicolai-guide:caption:511",
+      "startSeconds": 842,
+      "text": "decks. Black green also as an archetype"
+    },
+    {
+      "id": "nicolai-guide:caption:512",
+      "startSeconds": 844,
+      "text": "tip has a small theme of assembling"
+    },
+    {
+      "id": "nicolai-guide:caption:513",
+      "startSeconds": 845,
+      "text": "death touch plus trample. Uh and that"
+    },
+    {
+      "id": "nicolai-guide:caption:514",
+      "startSeconds": 847,
+      "text": "can be really nice for pushing damage in"
+    },
+    {
+      "id": "nicolai-guide:caption:515",
+      "startSeconds": 849,
+      "text": "the late game. Hunter's axe is a great"
+    },
+    {
+      "id": "nicolai-guide:caption:516",
+      "startSeconds": 851,
+      "text": "card for that sort of strategy. It's a"
+    },
+    {
+      "id": "nicolai-guide:caption:517",
+      "startSeconds": 852,
+      "text": "single green mana. Equipped creature"
+    },
+    {
+      "id": "nicolai-guide:caption:518",
+      "startSeconds": 854,
+      "text": "gets plus two plus and has whenever this"
+    },
+    {
+      "id": "nicolai-guide:caption:519",
+      "startSeconds": 855,
+      "text": "creature attacks, it gains your choice"
+    },
+    {
+      "id": "nicolai-guide:caption:520",
+      "startSeconds": 857,
+      "text": "of trample or death touch until end of"
+    },
+    {
+      "id": "nicolai-guide:caption:521",
+      "startSeconds": 858,
+      "text": "turn equipped for two mana. And so the"
+    },
+    {
+      "id": "nicolai-guide:caption:522",
+      "startSeconds": 860,
+      "text": "reason death touch plus trample is so"
+    },
+    {
+      "id": "nicolai-guide:caption:523",
+      "startSeconds": 861,
+      "text": "effective is if you have a big creature"
+    },
+    {
+      "id": "nicolai-guide:caption:524",
+      "startSeconds": 863,
+      "text": "with death touch and trample, it's"
+    },
+    {
+      "id": "nicolai-guide:caption:525",
+      "startSeconds": 864,
+      "text": "really hard to prevent a lot of damage"
+    },
+    {
+      "id": "nicolai-guide:caption:526",
+      "startSeconds": 865,
+      "text": "from getting through. Like if you have"
+    },
+    {
+      "id": "nicolai-guide:caption:527",
+      "startSeconds": 867,
+      "text": "like a 4-4 trampler in play and you put"
+    },
+    {
+      "id": "nicolai-guide:caption:528",
+      "startSeconds": 869,
+      "text": "a hunter axe on it to make it a 64"
+    },
+    {
+      "id": "nicolai-guide:caption:529",
+      "startSeconds": 870,
+      "text": "trampler that can attack with death"
+    },
+    {
+      "id": "nicolai-guide:caption:530",
+      "startSeconds": 872,
+      "text": "touch as well, your opponent maybe even"
+    },
+    {
+      "id": "nicolai-guide:caption:531",
+      "startSeconds": 874,
+      "text": "if they block it with a 4- four of their"
+    },
+    {
+      "id": "nicolai-guide:caption:532",
+      "startSeconds": 875,
+      "text": "own, you just have to deal one damage to"
+    },
+    {
+      "id": "nicolai-guide:caption:533",
+      "startSeconds": 877,
+      "text": "the four four and then you trample over"
+    },
+    {
+      "id": "nicolai-guide:caption:534",
+      "startSeconds": 878,
+      "text": "for the rest. And so it just does a lot"
+    },
+    {
+      "id": "nicolai-guide:caption:535",
+      "startSeconds": 879,
+      "text": "of damage and so being able to assemble"
+    },
+    {
+      "id": "nicolai-guide:caption:536",
+      "startSeconds": 881,
+      "text": "these sorts of mini combos can be really"
+    },
+    {
+      "id": "nicolai-guide:caption:537",
+      "startSeconds": 883,
+      "text": "nice in your black green decks. Next up"
+    },
+    {
+      "id": "nicolai-guide:caption:538",
+      "startSeconds": 886,
+      "text": "is Blue Green, which is a deck that"
+    },
+    {
+      "id": "nicolai-guide:caption:539",
+      "startSeconds": 887,
+      "text": "cares about empowering Jace. Kiora of"
+    },
+    {
+      "id": "nicolai-guide:caption:540",
+      "startSeconds": 889,
+      "text": "Salt and Sand is really nice for this."
+    },
+    {
+      "id": "nicolai-guide:caption:541",
+      "startSeconds": 890,
+      "text": "It's one blue green for a two four."
+    },
+    {
+      "id": "nicolai-guide:caption:542",
+      "startSeconds": 892,
+      "text": "Whenever you attack, if you activated a"
+    },
+    {
+      "id": "nicolai-guide:caption:543",
+      "startSeconds": 894,
+      "text": "loyalty ability this turn, untap target"
+    },
+    {
+      "id": "nicolai-guide:caption:544",
+      "startSeconds": 896,
+      "text": "attacking creature. It can't be blocked"
+    },
+    {
+      "id": "nicolai-guide:caption:545",
+      "startSeconds": 897,
+      "text": "this turn. Plain walkers you control"
+    },
+    {
+      "id": "nicolai-guide:caption:546",
+      "startSeconds": 899,
+      "text": "have minus 8. Create an 88 blue"
+    },
+    {
+      "id": "nicolai-guide:caption:547",
+      "startSeconds": 900,
+      "text": "leviathan creature token with hexroof."
+    },
+    {
+      "id": "nicolai-guide:caption:548",
+      "startSeconds": 902,
+      "text": "So, it's kind of nice for protecting"
+    },
+    {
+      "id": "nicolai-guide:caption:549",
+      "startSeconds": 904,
+      "text": "your Jaces because if you're activating"
+    },
+    {
+      "id": "nicolai-guide:caption:550",
+      "startSeconds": 906,
+      "text": "loyalty abilities, all of a sudden your"
+    },
+    {
+      "id": "nicolai-guide:caption:551",
+      "startSeconds": 908,
+      "text": "creatures are going to be able to untap"
+    },
+    {
+      "id": "nicolai-guide:caption:552",
+      "startSeconds": 909,
+      "text": "themselves and be unblockable. So, you"
+    },
+    {
+      "id": "nicolai-guide:caption:553",
+      "startSeconds": 911,
+      "text": "can pressure your opponent while using"
+    },
+    {
+      "id": "nicolai-guide:caption:554",
+      "startSeconds": 912,
+      "text": "your Jaces and protecting them. And"
+    },
+    {
+      "id": "nicolai-guide:caption:555",
+      "startSeconds": 914,
+      "text": "then, if you are able to stack up a ton"
+    },
+    {
+      "id": "nicolai-guide:caption:556",
+      "startSeconds": 915,
+      "text": "of loyalty counters, minus 8 to make an"
+    },
+    {
+      "id": "nicolai-guide:caption:557",
+      "startSeconds": 917,
+      "text": "88 with hex proof is really, really"
+    },
+    {
+      "id": "nicolai-guide:caption:558",
+      "startSeconds": 919,
+      "text": "strong. And there are some cards that"
+    },
+    {
+      "id": "nicolai-guide:caption:559",
+      "startSeconds": 920,
+      "text": "help you do that. For example, way of"
+    },
+    {
+      "id": "nicolai-guide:caption:560",
+      "startSeconds": 922,
+      "text": "the wild speaker is four in a green."
+    },
+    {
+      "id": "nicolai-guide:caption:561",
+      "startSeconds": 923,
+      "text": "When way of the wild speaker enters,"
+    },
+    {
+      "id": "nicolai-guide:caption:562",
+      "startSeconds": 925,
+      "text": "empower Jace 7. Planaineswalkers you"
+    },
+    {
+      "id": "nicolai-guide:caption:563",
+      "startSeconds": 928,
+      "text": "control have minus four. Create a 44"
+    },
+    {
+      "id": "nicolai-guide:caption:564",
+      "startSeconds": 929,
+      "text": "green beast creature token with trample."
+    },
+    {
+      "id": "nicolai-guide:caption:565",
+      "startSeconds": 931,
+      "text": "So if you have like cur in play and then"
+    },
+    {
+      "id": "nicolai-guide:caption:566",
+      "startSeconds": 932,
+      "text": "you play way of the wild speaker,"
+    },
+    {
+      "id": "nicolai-guide:caption:567",
+      "startSeconds": 934,
+      "text": "empower J7, maybe you can just make an"
+    },
+    {
+      "id": "nicolai-guide:caption:568",
+      "startSeconds": 935,
+      "text": "88 and that can be really scary. Or you"
+    },
+    {
+      "id": "nicolai-guide:caption:569",
+      "startSeconds": 937,
+      "text": "just use the minus four to make some"
+    },
+    {
+      "id": "nicolai-guide:caption:570",
+      "startSeconds": 938,
+      "text": "four fours and then use empower jases in"
+    },
+    {
+      "id": "nicolai-guide:caption:571",
+      "startSeconds": 940,
+      "text": "the future and all of a sudden having"
+    },
+    {
+      "id": "nicolai-guide:caption:572",
+      "startSeconds": 941,
+      "text": "that extra option on how to use your"
+    },
+    {
+      "id": "nicolai-guide:caption:573",
+      "startSeconds": 942,
+      "text": "Jace is really nice. And way of the wild"
+    },
+    {
+      "id": "nicolai-guide:caption:574",
+      "startSeconds": 945,
+      "text": "speaker adding so much loyalty can be"
+    },
+    {
+      "id": "nicolai-guide:caption:575",
+      "startSeconds": 946,
+      "text": "really good in this strategy. And then"
+    },
+    {
+      "id": "nicolai-guide:caption:576",
+      "startSeconds": 948,
+      "text": "mind meander is another nice card for"
+    },
+    {
+      "id": "nicolai-guide:caption:577",
+      "startSeconds": 949,
+      "text": "this deck. three green blue for a four"
+    },
+    {
+      "id": "nicolai-guide:caption:578",
+      "startSeconds": 951,
+      "text": "four with flying. It has vigilance as"
+    },
+    {
+      "id": "nicolai-guide:caption:579",
+      "startSeconds": 953,
+      "text": "long as you control a Jace Plan"
+    },
+    {
+      "id": "nicolai-guide:caption:580",
+      "startSeconds": 954,
+      "text": "planainwalker. So it can attack while"
+    },
+    {
+      "id": "nicolai-guide:caption:581",
+      "startSeconds": 955,
+      "text": "protecting your Planaineswalker still."
+    },
+    {
+      "id": "nicolai-guide:caption:582",
+      "startSeconds": 957,
+      "text": "And when this creature enters, it fights"
+    },
+    {
+      "id": "nicolai-guide:caption:583",
+      "startSeconds": 958,
+      "text": "up to one target creature and opponent"
+    },
+    {
+      "id": "nicolai-guide:caption:584",
+      "startSeconds": 960,
+      "text": "controls. So a nice little big creature"
+    },
+    {
+      "id": "nicolai-guide:caption:585",
+      "startSeconds": 961,
+      "text": "gets some value when it comes into play"
+    },
+    {
+      "id": "nicolai-guide:caption:586",
+      "startSeconds": 963,
+      "text": "by eating one of your opponent's smaller"
+    },
+    {
+      "id": "nicolai-guide:caption:587",
+      "startSeconds": 964,
+      "text": "or midsized creatures and then can also"
+    },
+    {
+      "id": "nicolai-guide:caption:588",
+      "startSeconds": 966,
+      "text": "protect your Jace while being a big"
+    },
+    {
+      "id": "nicolai-guide:caption:589",
+      "startSeconds": 967,
+      "text": "flyer. One tip when drafting this deck"
+    },
+    {
+      "id": "nicolai-guide:caption:590",
+      "startSeconds": 969,
+      "text": "is be careful leaving lots of loyalty on"
+    },
+    {
+      "id": "nicolai-guide:caption:591",
+      "startSeconds": 971,
+      "text": "your Jace. If you are going to play a"
+    },
+    {
+      "id": "nicolai-guide:caption:592",
+      "startSeconds": 973,
+      "text": "card that like empowers Jace seven and"
+    },
+    {
+      "id": "nicolai-guide:caption:593",
+      "startSeconds": 974,
+      "text": "then just keep it there to try and set"
+    },
+    {
+      "id": "nicolai-guide:caption:594",
+      "startSeconds": 976,
+      "text": "it for something in the future, your"
+    },
+    {
+      "id": "nicolai-guide:caption:595",
+      "startSeconds": 977,
+      "text": "opponent could just kill your Jace with"
+    },
+    {
+      "id": "nicolai-guide:caption:596",
+      "startSeconds": 978,
+      "text": "a card like extended absence, which is"
+    },
+    {
+      "id": "nicolai-guide:caption:597",
+      "startSeconds": 980,
+      "text": "three in a black for an instant, exile"
+    },
+    {
+      "id": "nicolai-guide:caption:598",
+      "startSeconds": 981,
+      "text": "target creature or planaineswalker."
+    },
+    {
+      "id": "nicolai-guide:caption:599",
+      "startSeconds": 983,
+      "text": "Extended absence deals one damage to"
+    },
+    {
+      "id": "nicolai-guide:caption:600",
+      "startSeconds": 985,
+      "text": "each opponent and you gain one life."
+    },
+    {
+      "id": "nicolai-guide:caption:601",
+      "startSeconds": 986,
+      "text": "These sorts of cards are in the format."
+    },
+    {
+      "id": "nicolai-guide:caption:602",
+      "startSeconds": 988,
+      "text": "Lots of colors have access to these"
+    },
+    {
+      "id": "nicolai-guide:caption:603",
+      "startSeconds": 989,
+      "text": "sorts of cards that can just take out a"
+    },
+    {
+      "id": "nicolai-guide:caption:604",
+      "startSeconds": 991,
+      "text": "planaineswalker and so you need to be"
+    },
+    {
+      "id": "nicolai-guide:caption:605",
+      "startSeconds": 992,
+      "text": "careful on leaving your planaineswalkers"
+    },
+    {
+      "id": "nicolai-guide:caption:606",
+      "startSeconds": 994,
+      "text": "on too high of a loyalty. Often it will"
+    },
+    {
+      "id": "nicolai-guide:caption:607",
+      "startSeconds": 995,
+      "text": "be best to try to get a plan to high"
+    },
+    {
+      "id": "nicolai-guide:caption:608",
+      "startSeconds": 998,
+      "text": "loyalty and immediately use that loyalty"
+    },
+    {
+      "id": "nicolai-guide:caption:609",
+      "startSeconds": 999,
+      "text": "in the same turn so that you can avoid"
+    },
+    {
+      "id": "nicolai-guide:caption:610",
+      "startSeconds": 1001,
+      "text": "this sort of nightmare scenario where"
+    },
+    {
+      "id": "nicolai-guide:caption:611",
+      "startSeconds": 1003,
+      "text": "you put a ton of loyalty on your Jace"
+    },
+    {
+      "id": "nicolai-guide:caption:612",
+      "startSeconds": 1004,
+      "text": "and then have it just die without"
+    },
+    {
+      "id": "nicolai-guide:caption:613",
+      "startSeconds": 1005,
+      "text": "getting any value. Next up is Blue Red,"
+    },
+    {
+      "id": "nicolai-guide:caption:614",
+      "startSeconds": 1008,
+      "text": "which is a deck that cares about casting"
+    },
+    {
+      "id": "nicolai-guide:caption:615",
+      "startSeconds": 1009,
+      "text": "non-creature spells. Sahily Jewel of"
+    },
+    {
+      "id": "nicolai-guide:caption:616",
+      "startSeconds": 1011,
+      "text": "Aishkar is really nice. Two blue red for"
+    },
+    {
+      "id": "nicolai-guide:caption:617",
+      "startSeconds": 1013,
+      "text": "a two four. Thus you control have haste"
+    },
+    {
+      "id": "nicolai-guide:caption:618",
+      "startSeconds": 1015,
+      "text": "and whenever you cast a non-creature"
+    },
+    {
+      "id": "nicolai-guide:caption:619",
+      "startSeconds": 1016,
+      "text": "spell, create a 1-1 colorless thopter"
+    },
+    {
+      "id": "nicolai-guide:caption:620",
+      "startSeconds": 1018,
+      "text": "artifact creature token with flying. So,"
+    },
+    {
+      "id": "nicolai-guide:caption:621",
+      "startSeconds": 1019,
+      "text": "if you can keep this thing in play, cast"
+    },
+    {
+      "id": "nicolai-guide:caption:622",
+      "startSeconds": 1021,
+      "text": "a few spells, it's going to make an army"
+    },
+    {
+      "id": "nicolai-guide:caption:623",
+      "startSeconds": 1023,
+      "text": "by itself, and that's going to be"
+    },
+    {
+      "id": "nicolai-guide:caption:624",
+      "startSeconds": 1024,
+      "text": "really, really effective. Plan for all"
+    },
+    {
+      "id": "nicolai-guide:caption:625",
+      "startSeconds": 1026,
+      "text": "outcomes is also great. Three in a blue"
+    },
+    {
+      "id": "nicolai-guide:caption:626",
+      "startSeconds": 1027,
+      "text": "for an enchantment. When this"
+    },
+    {
+      "id": "nicolai-guide:caption:627",
+      "startSeconds": 1028,
+      "text": "enchantment enters, the owner of up to"
+    },
+    {
+      "id": "nicolai-guide:caption:628",
+      "startSeconds": 1030,
+      "text": "one other target non-land permanent puts"
+    },
+    {
+      "id": "nicolai-guide:caption:629",
+      "startSeconds": 1032,
+      "text": "it on their choice of the top or bottom"
+    },
+    {
+      "id": "nicolai-guide:caption:630",
+      "startSeconds": 1033,
+      "text": "of their library. And whenever you cast"
+    },
+    {
+      "id": "nicolai-guide:caption:631",
+      "startSeconds": 1034,
+      "text": "your first non-creature spell each turn,"
+    },
+    {
+      "id": "nicolai-guide:caption:632",
+      "startSeconds": 1036,
+      "text": "empower Jace one. So, that when you cast"
+    },
+    {
+      "id": "nicolai-guide:caption:633",
+      "startSeconds": 1038,
+      "text": "your non-creature spells, you're"
+    },
+    {
+      "id": "nicolai-guide:caption:634",
+      "startSeconds": 1039,
+      "text": "empowering your Jace, which is also"
+    },
+    {
+      "id": "nicolai-guide:caption:635",
+      "startSeconds": 1041,
+      "text": "going to be quite effective. And if you"
+    },
+    {
+      "id": "nicolai-guide:caption:636",
+      "startSeconds": 1042,
+      "text": "have instance, you can cast a"
+    },
+    {
+      "id": "nicolai-guide:caption:637",
+      "startSeconds": 1044,
+      "text": "non-creature spell on your turn. And"
+    },
+    {
+      "id": "nicolai-guide:caption:638",
+      "startSeconds": 1045,
+      "text": "then when you cast a non-creature spell"
+    },
+    {
+      "id": "nicolai-guide:caption:639",
+      "startSeconds": 1046,
+      "text": "on your opponent's turn, that can also"
+    },
+    {
+      "id": "nicolai-guide:caption:640",
+      "startSeconds": 1047,
+      "text": "empower Jays kind of two two times in"
+    },
+    {
+      "id": "nicolai-guide:caption:641",
+      "startSeconds": 1049,
+      "text": "one cycle because it just says each turn"
+    },
+    {
+      "id": "nicolai-guide:caption:642",
+      "startSeconds": 1051,
+      "text": "which includes your opponent's turn. So"
+    },
+    {
+      "id": "nicolai-guide:caption:643",
+      "startSeconds": 1052,
+      "text": "it works really well with instance."
+    },
+    {
+      "id": "nicolai-guide:caption:644",
+      "startSeconds": 1054,
+      "text": "Clash of Elements is a fantastic instant"
+    },
+    {
+      "id": "nicolai-guide:caption:645",
+      "startSeconds": 1056,
+      "text": "for this deck. It's one blue red for an"
+    },
+    {
+      "id": "nicolai-guide:caption:646",
+      "startSeconds": 1057,
+      "text": "instant. Choose target nonland"
+    },
+    {
+      "id": "nicolai-guide:caption:647",
+      "startSeconds": 1059,
+      "text": "permanent. Its owner may put it on the"
+    },
+    {
+      "id": "nicolai-guide:caption:648",
+      "startSeconds": 1060,
+      "text": "top of their library. If they do Clash"
+    },
+    {
+      "id": "nicolai-guide:caption:649",
+      "startSeconds": 1062,
+      "text": "of Elements, deals two damage to them."
+    },
+    {
+      "id": "nicolai-guide:caption:650",
+      "startSeconds": 1063,
+      "text": "If they didn't put the card on the"
+    },
+    {
+      "id": "nicolai-guide:caption:651",
+      "startSeconds": 1064,
+      "text": "bottom of their li if they didn't put"
+    },
+    {
+      "id": "nicolai-guide:caption:652",
+      "startSeconds": 1066,
+      "text": "the card on the top of their library,"
+    },
+    {
+      "id": "nicolai-guide:caption:653",
+      "startSeconds": 1067,
+      "text": "they put it on the bottom. So really"
+    },
+    {
+      "id": "nicolai-guide:caption:654",
+      "startSeconds": 1069,
+      "text": "effective removal spell for just three"
+    },
+    {
+      "id": "nicolai-guide:caption:655",
+      "startSeconds": 1071,
+      "text": "mana. Sometimes we'll even deal a couple"
+    },
+    {
+      "id": "nicolai-guide:caption:656",
+      "startSeconds": 1073,
+      "text": "of points of damage to them. But"
+    },
+    {
+      "id": "nicolai-guide:caption:657",
+      "startSeconds": 1074,
+      "text": "overall, the sort of removal spell"
+    },
+    {
+      "id": "nicolai-guide:caption:658",
+      "startSeconds": 1075,
+      "text": "you're looking for in your deck that"
+    },
+    {
+      "id": "nicolai-guide:caption:659",
+      "startSeconds": 1076,
+      "text": "cares by casting a lot of non-creature"
+    },
+    {
+      "id": "nicolai-guide:caption:660",
+      "startSeconds": 1078,
+      "text": "spells and just being able to target any"
+    },
+    {
+      "id": "nicolai-guide:caption:661",
+      "startSeconds": 1080,
+      "text": "non-line permanent is again an example"
+    },
+    {
+      "id": "nicolai-guide:caption:662",
+      "startSeconds": 1082,
+      "text": "of one of those cards that can take out"
+    },
+    {
+      "id": "nicolai-guide:caption:663",
+      "startSeconds": 1083,
+      "text": "a Jace that has tons of loyalty on him"
+    },
+    {
+      "id": "nicolai-guide:caption:664",
+      "startSeconds": 1085,
+      "text": "as an example. But oftentimes the best"
+    },
+    {
+      "id": "nicolai-guide:caption:665",
+      "startSeconds": 1087,
+      "text": "way to use these sorts of cards is deal"
+    },
+    {
+      "id": "nicolai-guide:caption:666",
+      "startSeconds": 1088,
+      "text": "with your opponent's blockers and then"
+    },
+    {
+      "id": "nicolai-guide:caption:667",
+      "startSeconds": 1089,
+      "text": "attack your Jace or attack your opponent"
+    },
+    {
+      "id": "nicolai-guide:caption:668",
+      "startSeconds": 1091,
+      "text": "directly. Next, for the archetype tip,"
+    },
+    {
+      "id": "nicolai-guide:caption:669",
+      "startSeconds": 1093,
+      "text": "prepare spells or spells you can cast"
+    },
+    {
+      "id": "nicolai-guide:caption:670",
+      "startSeconds": 1094,
+      "text": "twice are good synergy enablers. So"
+    },
+    {
+      "id": "nicolai-guide:caption:671",
+      "startSeconds": 1096,
+      "text": "prepare spells are nice because they let"
+    },
+    {
+      "id": "nicolai-guide:caption:672",
+      "startSeconds": 1098,
+      "text": "you play creatures that also have"
+    },
+    {
+      "id": "nicolai-guide:caption:673",
+      "startSeconds": 1099,
+      "text": "non-creatures kind of attached to them"
+    },
+    {
+      "id": "nicolai-guide:caption:674",
+      "startSeconds": 1100,
+      "text": "because of their prepare spells. And"
+    },
+    {
+      "id": "nicolai-guide:caption:675",
+      "startSeconds": 1102,
+      "text": "then a card like Twin Division would"
+    },
+    {
+      "id": "nicolai-guide:caption:676",
+      "startSeconds": 1104,
+      "text": "normally not be super effective. It's"
+    },
+    {
+      "id": "nicolai-guide:caption:677",
+      "startSeconds": 1105,
+      "text": "one blue red hybrid. It says instant"
+    },
+    {
+      "id": "nicolai-guide:caption:678",
+      "startSeconds": 1107,
+      "text": "draw a card. If this spell wasn't cast"
+    },
+    {
+      "id": "nicolai-guide:caption:679",
+      "startSeconds": 1109,
+      "text": "from your hand, draw two cards instead."
+    },
+    {
+      "id": "nicolai-guide:caption:680",
+      "startSeconds": 1110,
+      "text": "And you can flash it back by playing"
+    },
+    {
+      "id": "nicolai-guide:caption:681",
+      "startSeconds": 1112,
+      "text": "paying one blue red blue red discard a"
+    },
+    {
+      "id": "nicolai-guide:caption:682",
+      "startSeconds": 1114,
+      "text": "card. So it's kind of like you just"
+    },
+    {
+      "id": "nicolai-guide:caption:683",
+      "startSeconds": 1115,
+      "text": "spend two mana to draw a card. But if"
+    },
+    {
+      "id": "nicolai-guide:caption:684",
+      "startSeconds": 1116,
+      "text": "you have a lot of non-creature spell"
+    },
+    {
+      "id": "nicolai-guide:caption:685",
+      "startSeconds": 1118,
+      "text": "payoffs, all of a sudden, Twin Division"
+    },
+    {
+      "id": "nicolai-guide:caption:686",
+      "startSeconds": 1119,
+      "text": "can be pretty nice because you can just"
+    },
+    {
+      "id": "nicolai-guide:caption:687",
+      "startSeconds": 1121,
+      "text": "draw a card while triggering all your"
+    },
+    {
+      "id": "nicolai-guide:caption:688",
+      "startSeconds": 1122,
+      "text": "non-creature cards and then flash it"
+    },
+    {
+      "id": "nicolai-guide:caption:689",
+      "startSeconds": 1124,
+      "text": "back, trigger all your non-creature"
+    },
+    {
+      "id": "nicolai-guide:caption:690",
+      "startSeconds": 1125,
+      "text": "cards again. And so Twin Division is one"
+    },
+    {
+      "id": "nicolai-guide:caption:691",
+      "startSeconds": 1126,
+      "text": "card, but and it's not maybe necessarily"
+    },
+    {
+      "id": "nicolai-guide:caption:692",
+      "startSeconds": 1129,
+      "text": "the highest impact, but it works with"
+    },
+    {
+      "id": "nicolai-guide:caption:693",
+      "startSeconds": 1130,
+      "text": "all your synergy pieces twice. And so"
+    },
+    {
+      "id": "nicolai-guide:caption:694",
+      "startSeconds": 1131,
+      "text": "that can be an effective way to enable"
+    },
+    {
+      "id": "nicolai-guide:caption:695",
+      "startSeconds": 1134,
+      "text": "your cards. So keep an eye out for those"
+    },
+    {
+      "id": "nicolai-guide:caption:696",
+      "startSeconds": 1135,
+      "text": "sorts of things once you have a lot of"
+    },
+    {
+      "id": "nicolai-guide:caption:697",
+      "startSeconds": 1136,
+      "text": "the payoffs. And then moving on to our"
+    },
+    {
+      "id": "nicolai-guide:caption:698",
+      "startSeconds": 1138,
+      "text": "final archetype, we have red white,"
+    },
+    {
+      "id": "nicolai-guide:caption:699",
+      "startSeconds": 1140,
+      "text": "which is an aggressive deck that cares"
+    },
+    {
+      "id": "nicolai-guide:caption:700",
+      "startSeconds": 1141,
+      "text": "about plus one plus one counter. So"
+    },
+    {
+      "id": "nicolai-guide:caption:701",
+      "startSeconds": 1143,
+      "text": "Mabel Valley hero is perfect for this"
+    },
+    {
+      "id": "nicolai-guide:caption:702",
+      "startSeconds": 1145,
+      "text": "deck. It's one red white for a one two."
+    },
+    {
+      "id": "nicolai-guide:caption:703",
+      "startSeconds": 1147,
+      "text": "Whenever Mabel or another creature you"
+    },
+    {
+      "id": "nicolai-guide:caption:704",
+      "startSeconds": 1148,
+      "text": "control enters, put a plus one plus one"
+    },
+    {
+      "id": "nicolai-guide:caption:705",
+      "startSeconds": 1150,
+      "text": "counter on target creature that entered"
+    },
+    {
+      "id": "nicolai-guide:caption:706",
+      "startSeconds": 1152,
+      "text": "this turn. So Mabel is going to enter in"
+    },
+    {
+      "id": "nicolai-guide:caption:707",
+      "startSeconds": 1153,
+      "text": "many cases going to be just a three mana"
+    },
+    {
+      "id": "nicolai-guide:caption:708",
+      "startSeconds": 1155,
+      "text": "2 three. But then when you play your"
+    },
+    {
+      "id": "nicolai-guide:caption:709",
+      "startSeconds": 1156,
+      "text": "future creatures, they're also going to"
+    },
+    {
+      "id": "nicolai-guide:caption:710",
+      "startSeconds": 1158,
+      "text": "enter and put counters onto themselves."
+    },
+    {
+      "id": "nicolai-guide:caption:711",
+      "startSeconds": 1159,
+      "text": "So, it's going to buff all of your"
+    },
+    {
+      "id": "nicolai-guide:caption:712",
+      "startSeconds": 1160,
+      "text": "future creatures, which is going to be"
+    },
+    {
+      "id": "nicolai-guide:caption:713",
+      "startSeconds": 1162,
+      "text": "very effective. Gallia, the Mary Maker"
+    },
+    {
+      "id": "nicolai-guide:caption:714",
+      "startSeconds": 1164,
+      "text": "is also really good for this deck. It's"
+    },
+    {
+      "id": "nicolai-guide:caption:715",
+      "startSeconds": 1166,
+      "text": "one and a red for a two-1 with haste."
+    },
+    {
+      "id": "nicolai-guide:caption:716",
+      "startSeconds": 1167,
+      "text": "Each other creature you control with a"
+    },
+    {
+      "id": "nicolai-guide:caption:717",
+      "startSeconds": 1169,
+      "text": "plus and plus encounter on it has haste."
+    },
+    {
+      "id": "nicolai-guide:caption:718",
+      "startSeconds": 1170,
+      "text": "And then one in a red tap, put a plus"
+    },
+    {
+      "id": "nicolai-guide:caption:719",
+      "startSeconds": 1172,
+      "text": "and plus encounter on target creature"
+    },
+    {
+      "id": "nicolai-guide:caption:720",
+      "startSeconds": 1173,
+      "text": "that enter this turn. So, this works"
+    },
+    {
+      "id": "nicolai-guide:caption:721",
+      "startSeconds": 1175,
+      "text": "really well with Mabel because then"
+    },
+    {
+      "id": "nicolai-guide:caption:722",
+      "startSeconds": 1176,
+      "text": "it'll give all those creatures that are"
+    },
+    {
+      "id": "nicolai-guide:caption:723",
+      "startSeconds": 1177,
+      "text": "entering with those counters haste. And"
+    },
+    {
+      "id": "nicolai-guide:caption:724",
+      "startSeconds": 1179,
+      "text": "then Galia can also enable itself thanks"
+    },
+    {
+      "id": "nicolai-guide:caption:725",
+      "startSeconds": 1180,
+      "text": "to its activated ability, being able to"
+    },
+    {
+      "id": "nicolai-guide:caption:726",
+      "startSeconds": 1182,
+      "text": "turn your other creatures into big"
+    },
+    {
+      "id": "nicolai-guide:caption:727",
+      "startSeconds": 1183,
+      "text": "hasters depending on what stage of the"
+    },
+    {
+      "id": "nicolai-guide:caption:728",
+      "startSeconds": 1185,
+      "text": "game you're at. And then, Warriors"
+    },
+    {
+      "id": "nicolai-guide:caption:729",
+      "startSeconds": 1186,
+      "text": "Blades is another really good card for"
+    },
+    {
+      "id": "nicolai-guide:caption:730",
+      "startSeconds": 1188,
+      "text": "this deck. two red white for an artifact"
+    },
+    {
+      "id": "nicolai-guide:caption:731",
+      "startSeconds": 1189,
+      "text": "equipment. When this equipment enters,"
+    },
+    {
+      "id": "nicolai-guide:caption:732",
+      "startSeconds": 1191,
+      "text": "it deals three damage to any target and"
+    },
+    {
+      "id": "nicolai-guide:caption:733",
+      "startSeconds": 1192,
+      "text": "you gain three life. Equipped creature"
+    },
+    {
+      "id": "nicolai-guide:caption:734",
+      "startSeconds": 1194,
+      "text": "gets plus two plus one. Equip three."
+    },
+    {
+      "id": "nicolai-guide:caption:735",
+      "startSeconds": 1196,
+      "text": "This ability costs one less to activate"
+    },
+    {
+      "id": "nicolai-guide:caption:736",
+      "startSeconds": 1198,
+      "text": "for each plus one plus one counter on"
+    },
+    {
+      "id": "nicolai-guide:caption:737",
+      "startSeconds": 1199,
+      "text": "the creature it targets. So, if you're"
+    },
+    {
+      "id": "nicolai-guide:caption:738",
+      "startSeconds": 1200,
+      "text": "targeting something with one counter on"
+    },
+    {
+      "id": "nicolai-guide:caption:739",
+      "startSeconds": 1202,
+      "text": "it, being able to equip two for plus two"
+    },
+    {
+      "id": "nicolai-guide:caption:740",
+      "startSeconds": 1203,
+      "text": "plus one after having dealt three to any"
+    },
+    {
+      "id": "nicolai-guide:caption:741",
+      "startSeconds": 1205,
+      "text": "target and gaining three life. Really,"
+    },
+    {
+      "id": "nicolai-guide:caption:742",
+      "startSeconds": 1207,
+      "text": "really nice card to help you continually"
+    },
+    {
+      "id": "nicolai-guide:caption:743",
+      "startSeconds": 1208,
+      "text": "pressure your opponent once you've"
+    },
+    {
+      "id": "nicolai-guide:caption:744",
+      "startSeconds": 1209,
+      "text": "gotten to that mid-stage of the game"
+    },
+    {
+      "id": "nicolai-guide:caption:745",
+      "startSeconds": 1210,
+      "text": "where maybe they have some big blockers."
+    },
+    {
+      "id": "nicolai-guide:caption:746",
+      "startSeconds": 1212,
+      "text": "All of a sudden, your creatures are"
+    },
+    {
+      "id": "nicolai-guide:caption:747",
+      "startSeconds": 1213,
+      "text": "going to get buffed by plus two plus one"
+    },
+    {
+      "id": "nicolai-guide:caption:748",
+      "startSeconds": 1214,
+      "text": "a lot of the time and be able to swing"
+    },
+    {
+      "id": "nicolai-guide:caption:749",
+      "startSeconds": 1216,
+      "text": "past whatever blockers your opponents"
+    },
+    {
+      "id": "nicolai-guide:caption:750",
+      "startSeconds": 1217,
+      "text": "have. And it can even be moved around"
+    },
+    {
+      "id": "nicolai-guide:caption:751",
+      "startSeconds": 1219,
+      "text": "pretty cheaply if you have some plus one"
+    },
+    {
+      "id": "nicolai-guide:caption:752",
+      "startSeconds": 1221,
+      "text": "plus one counters on your creatures. One"
+    },
+    {
+      "id": "nicolai-guide:caption:753",
+      "startSeconds": 1223,
+      "text": "tip when drafting this archetype is take"
+    },
+    {
+      "id": "nicolai-guide:caption:754",
+      "startSeconds": 1224,
+      "text": "your time to decide whether to attack"
+    },
+    {
+      "id": "nicolai-guide:caption:755",
+      "startSeconds": 1226,
+      "text": "Jace tokens or your opponent. Sometimes"
+    },
+    {
+      "id": "nicolai-guide:caption:756",
+      "startSeconds": 1228,
+      "text": "if your opponent has like a one loyalty"
+    },
+    {
+      "id": "nicolai-guide:caption:757",
+      "startSeconds": 1230,
+      "text": "Jace in play and you have like a three-"
+    },
+    {
+      "id": "nicolai-guide:caption:758",
+      "startSeconds": 1231,
+      "text": "three creature, it's more valuable to"
+    },
+    {
+      "id": "nicolai-guide:caption:759",
+      "startSeconds": 1233,
+      "text": "just deal three damage to your opponent"
+    },
+    {
+      "id": "nicolai-guide:caption:760",
+      "startSeconds": 1234,
+      "text": "versus stopping them from surveilling"
+    },
+    {
+      "id": "nicolai-guide:caption:761",
+      "startSeconds": 1236,
+      "text": "one. But there's other times going to be"
+    },
+    {
+      "id": "nicolai-guide:caption:762",
+      "startSeconds": 1237,
+      "text": "situations where it's better to attack"
+    },
+    {
+      "id": "nicolai-guide:caption:763",
+      "startSeconds": 1239,
+      "text": "your opponent's Jace to prevent them"
+    },
+    {
+      "id": "nicolai-guide:caption:764",
+      "startSeconds": 1240,
+      "text": "from like really stacking it up or"
+    },
+    {
+      "id": "nicolai-guide:caption:765",
+      "startSeconds": 1241,
+      "text": "because that you think they might have"
+    },
+    {
+      "id": "nicolai-guide:caption:766",
+      "startSeconds": 1242,
+      "text": "another card that can empower it so they"
+    },
+    {
+      "id": "nicolai-guide:caption:767",
+      "startSeconds": 1244,
+      "text": "could draw some cards from it, that sort"
+    },
+    {
+      "id": "nicolai-guide:caption:768",
+      "startSeconds": 1245,
+      "text": "of thing. It's important to spend time"
+    },
+    {
+      "id": "nicolai-guide:caption:769",
+      "startSeconds": 1247,
+      "text": "thinking about that because every point"
+    },
+    {
+      "id": "nicolai-guide:caption:770",
+      "startSeconds": 1249,
+      "text": "of damage you deal to your opponent is"
+    },
+    {
+      "id": "nicolai-guide:caption:771",
+      "startSeconds": 1250,
+      "text": "important, but so is stopping your"
+    },
+    {
+      "id": "nicolai-guide:caption:772",
+      "startSeconds": 1252,
+      "text": "opponent from doing shenanigans with"
+    },
+    {
+      "id": "nicolai-guide:caption:773",
+      "startSeconds": 1253,
+      "text": "Jace, getting surveillers, things of"
+    },
+    {
+      "id": "nicolai-guide:caption:774",
+      "startSeconds": 1254,
+      "text": "that nature. And so understand kind of"
+    },
+    {
+      "id": "nicolai-guide:caption:775",
+      "startSeconds": 1257,
+      "text": "just take the extra time to think about"
+    },
+    {
+      "id": "nicolai-guide:caption:776",
+      "startSeconds": 1258,
+      "text": "what your opponent's going to use their"
+    },
+    {
+      "id": "nicolai-guide:caption:777",
+      "startSeconds": 1259,
+      "text": "Jace for if they have one, and whether"
+    },
+    {
+      "id": "nicolai-guide:caption:778",
+      "startSeconds": 1261,
+      "text": "you really need to deal damage to them"
+    },
+    {
+      "id": "nicolai-guide:caption:779",
+      "startSeconds": 1262,
+      "text": "or whether you can afford to take the"
+    },
+    {
+      "id": "nicolai-guide:caption:780",
+      "startSeconds": 1263,
+      "text": "little side quest of just taking out"
+    },
+    {
+      "id": "nicolai-guide:caption:781",
+      "startSeconds": 1264,
+      "text": "their Jace token. So, a lot of the times"
+    },
+    {
+      "id": "nicolai-guide:caption:782",
+      "startSeconds": 1266,
+      "text": "you want to be able to remove a Jace"
+    },
+    {
+      "id": "nicolai-guide:caption:783",
+      "startSeconds": 1267,
+      "text": "token, but if it's like overkilling it"
+    },
+    {
+      "id": "nicolai-guide:caption:784",
+      "startSeconds": 1269,
+      "text": "by too much, like you have a four four"
+    },
+    {
+      "id": "nicolai-guide:caption:785",
+      "startSeconds": 1270,
+      "text": "creature and they have a two two loyalty"
+    },
+    {
+      "id": "nicolai-guide:caption:786",
+      "startSeconds": 1271,
+      "text": "Jace, like deciding what to do there,"
+    },
+    {
+      "id": "nicolai-guide:caption:787",
+      "startSeconds": 1273,
+      "text": "whether to deal four to their face or"
+    },
+    {
+      "id": "nicolai-guide:caption:788",
+      "startSeconds": 1274,
+      "text": "just take out their Jace. Those sorts of"
+    },
+    {
+      "id": "nicolai-guide:caption:789",
+      "startSeconds": 1276,
+      "text": "decisions are worth investing time into"
+    },
+    {
+      "id": "nicolai-guide:caption:790",
+      "startSeconds": 1277,
+      "text": "because they are going to be key when"
+    },
+    {
+      "id": "nicolai-guide:caption:791",
+      "startSeconds": 1279,
+      "text": "building the sort of aggressive deck"
+    },
+    {
+      "id": "nicolai-guide:caption:792",
+      "startSeconds": 1280,
+      "text": "that wants to pressure your opponent and"
+    },
+    {
+      "id": "nicolai-guide:caption:793",
+      "startSeconds": 1282,
+      "text": "doesn't want to waste too much time"
+    },
+    {
+      "id": "nicolai-guide:caption:794",
+      "startSeconds": 1283,
+      "text": "basically letting your opponent gain"
+    },
+    {
+      "id": "nicolai-guide:caption:795",
+      "startSeconds": 1284,
+      "text": "life from all of their empowered Jace"
+    },
+    {
+      "id": "nicolai-guide:caption:796",
+      "startSeconds": 1286,
+      "text": "cards. So, definitely put some time into"
+    },
+    {
+      "id": "nicolai-guide:caption:797",
+      "startSeconds": 1287,
+      "text": "thought thinking about how they're going"
+    },
+    {
+      "id": "nicolai-guide:caption:798",
+      "startSeconds": 1288,
+      "text": "to use their Jace tokens and whether you"
+    },
+    {
+      "id": "nicolai-guide:caption:799",
+      "startSeconds": 1289,
+      "text": "need to really kill them or whether you"
+    },
+    {
+      "id": "nicolai-guide:caption:800",
+      "startSeconds": 1291,
+      "text": "can just go face instead. Moving on to"
+    },
+    {
+      "id": "nicolai-guide:caption:801",
+      "startSeconds": 1293,
+      "text": "the top commons now that we have some"
+    },
+    {
+      "id": "nicolai-guide:caption:802",
+      "startSeconds": 1295,
+      "text": "context for the archetypes they're going"
+    },
+    {
+      "id": "nicolai-guide:caption:803",
+      "startSeconds": 1296,
+      "text": "to fit into. And kicking things off with"
+    },
+    {
+      "id": "nicolai-guide:caption:804",
+      "startSeconds": 1298,
+      "text": "white. At number one is memory trap. Two"
+    },
+    {
+      "id": "nicolai-guide:caption:805",
+      "startSeconds": 1300,
+      "text": "in a white for an enchantment. When it"
+    },
+    {
+      "id": "nicolai-guide:caption:806",
+      "startSeconds": 1301,
+      "text": "enters exile target non-land permanent"
+    },
+    {
+      "id": "nicolai-guide:caption:807",
+      "startSeconds": 1303,
+      "text": "and opponent controls until this"
+    },
+    {
+      "id": "nicolai-guide:caption:808",
+      "startSeconds": 1304,
+      "text": "enchantment leaves the battlefield. This"
+    },
+    {
+      "id": "nicolai-guide:caption:809",
+      "startSeconds": 1306,
+      "text": "is just going to be a great removal"
+    },
+    {
+      "id": "nicolai-guide:caption:810",
+      "startSeconds": 1307,
+      "text": "spell that white decks really want to"
+    },
+    {
+      "id": "nicolai-guide:caption:811",
+      "startSeconds": 1308,
+      "text": "have. At number two is surgical"
+    },
+    {
+      "id": "nicolai-guide:caption:812",
+      "startSeconds": 1310,
+      "text": "precision. One in a white for a sorcery."
+    },
+    {
+      "id": "nicolai-guide:caption:813",
+      "startSeconds": 1311,
+      "text": "Choose one. Destroy target creature with"
+    },
+    {
+      "id": "nicolai-guide:caption:814",
+      "startSeconds": 1313,
+      "text": "toughness four or greater. You gain one"
+    },
+    {
+      "id": "nicolai-guide:caption:815",
+      "startSeconds": 1314,
+      "text": "life or you draw a card and you gain two"
+    },
+    {
+      "id": "nicolai-guide:caption:816",
+      "startSeconds": 1316,
+      "text": "life. So just going to be able to"
+    },
+    {
+      "id": "nicolai-guide:caption:817",
+      "startSeconds": 1317,
+      "text": "destroy big creatures which is going to"
+    },
+    {
+      "id": "nicolai-guide:caption:818",
+      "startSeconds": 1319,
+      "text": "be really nice. And then if they don't"
+    },
+    {
+      "id": "nicolai-guide:caption:819",
+      "startSeconds": 1320,
+      "text": "have a big creature, you get to just"
+    },
+    {
+      "id": "nicolai-guide:caption:820",
+      "startSeconds": 1321,
+      "text": "draw a card and gain two life. And this"
+    },
+    {
+      "id": "nicolai-guide:caption:821",
+      "startSeconds": 1322,
+      "text": "is even more effective in decks that"
+    },
+    {
+      "id": "nicolai-guide:caption:822",
+      "startSeconds": 1324,
+      "text": "care about life gain. And then at number"
+    },
+    {
+      "id": "nicolai-guide:caption:823",
+      "startSeconds": 1326,
+      "text": "three is Hex Haven Battalion. Four white"
+    },
+    {
+      "id": "nicolai-guide:caption:824",
+      "startSeconds": 1328,
+      "text": "white for a sorcery. Create three two"
+    },
+    {
+      "id": "nicolai-guide:caption:825",
+      "startSeconds": 1330,
+      "text": "Cuddless Wizard Soldier creature tokens"
+    },
+    {
+      "id": "nicolai-guide:caption:826",
+      "startSeconds": 1331,
+      "text": "named Cadet Empower Jace 2. And then it"
+    },
+    {
+      "id": "nicolai-guide:caption:827",
+      "startSeconds": 1334,
+      "text": "has basic land cycling for two. So in"
+    },
+    {
+      "id": "nicolai-guide:caption:828",
+      "startSeconds": 1336,
+      "text": "the early turns, if you don't have"
+    },
+    {
+      "id": "nicolai-guide:caption:829",
+      "startSeconds": 1337,
+      "text": "enough land drops, you can cycle this"
+    },
+    {
+      "id": "nicolai-guide:caption:830",
+      "startSeconds": 1338,
+      "text": "away, which just helps smooth your draw"
+    },
+    {
+      "id": "nicolai-guide:caption:831",
+      "startSeconds": 1340,
+      "text": "out. And then in the late game, you're"
+    },
+    {
+      "id": "nicolai-guide:caption:832",
+      "startSeconds": 1342,
+      "text": "getting an entire army from just one"
+    },
+    {
+      "id": "nicolai-guide:caption:833",
+      "startSeconds": 1344,
+      "text": "card while empowering Jace 2, which is"
+    },
+    {
+      "id": "nicolai-guide:caption:834",
+      "startSeconds": 1346,
+      "text": "going to be really effective. And so"
+    },
+    {
+      "id": "nicolai-guide:caption:835",
+      "startSeconds": 1347,
+      "text": "overall, you get a really good late game"
+    },
+    {
+      "id": "nicolai-guide:caption:836",
+      "startSeconds": 1349,
+      "text": "card. and then also helps smooth your"
+    },
+    {
+      "id": "nicolai-guide:caption:837",
+      "startSeconds": 1350,
+      "text": "draws in the early game. And so that's"
+    },
+    {
+      "id": "nicolai-guide:caption:838",
+      "startSeconds": 1352,
+      "text": "going to be a nice card you're going to"
+    },
+    {
+      "id": "nicolai-guide:caption:839",
+      "startSeconds": 1353,
+      "text": "want to have in your white decks, too."
+    },
+    {
+      "id": "nicolai-guide:caption:840",
+      "startSeconds": 1355,
+      "text": "Moving on to blue. At number one is"
+    },
+    {
+      "id": "nicolai-guide:caption:841",
+      "startSeconds": 1357,
+      "text": "Mindseker Oculus. For two and a blue,"
+    },
+    {
+      "id": "nicolai-guide:caption:842",
+      "startSeconds": 1358,
+      "text": "it's a two-1 when this creature enters"
+    },
+    {
+      "id": "nicolai-guide:caption:843",
+      "startSeconds": 1360,
+      "text": "Empower Jace 4. So you play this three"
+    },
+    {
+      "id": "nicolai-guide:caption:844",
+      "startSeconds": 1362,
+      "text": "mana 2 one, but you empower Jace fours,"
+    },
+    {
+      "id": "nicolai-guide:caption:845",
+      "startSeconds": 1364,
+      "text": "you can kind of like immediately minus"
+    },
+    {
+      "id": "nicolai-guide:caption:846",
+      "startSeconds": 1366,
+      "text": "three to draw a card. So like a 2-1 for"
+    },
+    {
+      "id": "nicolai-guide:caption:847",
+      "startSeconds": 1368,
+      "text": "three that drew you a card and then left"
+    },
+    {
+      "id": "nicolai-guide:caption:848",
+      "startSeconds": 1369,
+      "text": "your Jace with one loyalty. That's a"
+    },
+    {
+      "id": "nicolai-guide:caption:849",
+      "startSeconds": 1370,
+      "text": "pretty good deal. And so Mineseker"
+    },
+    {
+      "id": "nicolai-guide:caption:850",
+      "startSeconds": 1372,
+      "text": "Oculus is going to be a great card. At"
+    },
+    {
+      "id": "nicolai-guide:caption:851",
+      "startSeconds": 1374,
+      "text": "number two is Surveillance Fantasm. For"
+    },
+    {
+      "id": "nicolai-guide:caption:852",
+      "startSeconds": 1375,
+      "text": "one and a blue, you get a two- three"
+    },
+    {
+      "id": "nicolai-guide:caption:853",
+      "startSeconds": 1377,
+      "text": "with defender, flying, and vigilance. As"
+    },
+    {
+      "id": "nicolai-guide:caption:854",
+      "startSeconds": 1378,
+      "text": "long as you've scried or surveiled this"
+    },
+    {
+      "id": "nicolai-guide:caption:855",
+      "startSeconds": 1380,
+      "text": "turn, this creature can attack as though"
+    },
+    {
+      "id": "nicolai-guide:caption:856",
+      "startSeconds": 1381,
+      "text": "it didn't have defender and then three"
+    },
+    {
+      "id": "nicolai-guide:caption:857",
+      "startSeconds": 1382,
+      "text": "in a blue surveil one. And so if you're"
+    },
+    {
+      "id": "nicolai-guide:caption:858",
+      "startSeconds": 1384,
+      "text": "trying to pressure opposing Jesus, this"
+    },
+    {
+      "id": "nicolai-guide:caption:859",
+      "startSeconds": 1386,
+      "text": "can be useful because maybe you just"
+    },
+    {
+      "id": "nicolai-guide:caption:860",
+      "startSeconds": 1388,
+      "text": "surveiled to a chip in for two on the"
+    },
+    {
+      "id": "nicolai-guide:caption:861",
+      "startSeconds": 1389,
+      "text": "Jace or protect your own Jace. This is"
+    },
+    {
+      "id": "nicolai-guide:caption:862",
+      "startSeconds": 1391,
+      "text": "super effective cuz defender, you don't"
+    },
+    {
+      "id": "nicolai-guide:caption:863",
+      "startSeconds": 1392,
+      "text": "even care about it being able to attack"
+    },
+    {
+      "id": "nicolai-guide:caption:864",
+      "startSeconds": 1393,
+      "text": "because you can just block as a two mana"
+    },
+    {
+      "id": "nicolai-guide:caption:865",
+      "startSeconds": 1394,
+      "text": "two three in the air. There's the"
+    },
+    {
+      "id": "nicolai-guide:caption:866",
+      "startSeconds": 1396,
+      "text": "ability in the late game when you just"
+    },
+    {
+      "id": "nicolai-guide:caption:867",
+      "startSeconds": 1398,
+      "text": "don't have anything to do with your"
+    },
+    {
+      "id": "nicolai-guide:caption:868",
+      "startSeconds": 1398,
+      "text": "mana. Being able to spend three in a"
+    },
+    {
+      "id": "nicolai-guide:caption:869",
+      "startSeconds": 1400,
+      "text": "blue to surveil one, that's really nice."
+    },
+    {
+      "id": "nicolai-guide:caption:870",
+      "startSeconds": 1401,
+      "text": "So it maintains its relevance into the"
+    },
+    {
+      "id": "nicolai-guide:caption:871",
+      "startSeconds": 1403,
+      "text": "late game and overall it's the sort of"
+    },
+    {
+      "id": "nicolai-guide:caption:872",
+      "startSeconds": 1404,
+      "text": "card that you're going to be happy"
+    },
+    {
+      "id": "nicolai-guide:caption:873",
+      "startSeconds": 1405,
+      "text": "playing in a wide variety of decks and"
+    },
+    {
+      "id": "nicolai-guide:caption:874",
+      "startSeconds": 1407,
+      "text": "is going to do great work for you. Then"
+    },
+    {
+      "id": "nicolai-guide:caption:875",
+      "startSeconds": 1410,
+      "text": "at number three is Icy Reception for one"
+    },
+    {
+      "id": "nicolai-guide:caption:876",
+      "startSeconds": 1411,
+      "text": "in a blue. It's an instant. Choose one"
+    },
+    {
+      "id": "nicolai-guide:caption:877",
+      "startSeconds": 1413,
+      "text": "counter target creature or legendary"
+    },
+    {
+      "id": "nicolai-guide:caption:878",
+      "startSeconds": 1415,
+      "text": "spell unless its controller pays three"
+    },
+    {
+      "id": "nicolai-guide:caption:879",
+      "startSeconds": 1416,
+      "text": "generic mana. Target creature gets minus"
+    },
+    {
+      "id": "nicolai-guide:caption:880",
+      "startSeconds": 1418,
+      "text": "five manus until end of turn. So"
+    },
+    {
+      "id": "nicolai-guide:caption:881",
+      "startSeconds": 1420,
+      "text": "generally this is going to function as a"
+    },
+    {
+      "id": "nicolai-guide:caption:882",
+      "startSeconds": 1421,
+      "text": "way to counter your opponent's"
+    },
+    {
+      "id": "nicolai-guide:caption:883",
+      "startSeconds": 1422,
+      "text": "creatures. Sometimes you can counter"
+    },
+    {
+      "id": "nicolai-guide:caption:884",
+      "startSeconds": 1423,
+      "text": "some legendary enchantments or at higher"
+    },
+    {
+      "id": "nicolai-guide:caption:885",
+      "startSeconds": 1425,
+      "text": "rarities you can counter their"
+    },
+    {
+      "id": "nicolai-guide:caption:886",
+      "startSeconds": 1426,
+      "text": "planaineswalkers, things of that nature."
+    },
+    {
+      "id": "nicolai-guide:caption:887",
+      "startSeconds": 1428,
+      "text": "And so it's going to be a pretty"
+    },
+    {
+      "id": "nicolai-guide:caption:888",
+      "startSeconds": 1429,
+      "text": "flexible counter spell that remains"
+    },
+    {
+      "id": "nicolai-guide:caption:889",
+      "startSeconds": 1430,
+      "text": "relevant for a large portion of the game"
+    },
+    {
+      "id": "nicolai-guide:caption:890",
+      "startSeconds": 1432,
+      "text": "because counter unless they pay three is"
+    },
+    {
+      "id": "nicolai-guide:caption:891",
+      "startSeconds": 1434,
+      "text": "usually going to stop what you care"
+    },
+    {
+      "id": "nicolai-guide:caption:892",
+      "startSeconds": 1435,
+      "text": "about. And then even once you get to the"
+    },
+    {
+      "id": "nicolai-guide:caption:893",
+      "startSeconds": 1436,
+      "text": "point where that no longer matters, it"
+    },
+    {
+      "id": "nicolai-guide:caption:894",
+      "startSeconds": 1438,
+      "text": "still has something it can do where you"
+    },
+    {
+      "id": "nicolai-guide:caption:895",
+      "startSeconds": 1440,
+      "text": "can give target creature minus 5 minus O"
+    },
+    {
+      "id": "nicolai-guide:caption:896",
+      "startSeconds": 1441,
+      "text": "until end of turn. So sometimes if you"
+    },
+    {
+      "id": "nicolai-guide:caption:897",
+      "startSeconds": 1443,
+      "text": "are on the offensive side of things, you"
+    },
+    {
+      "id": "nicolai-guide:caption:898",
+      "startSeconds": 1445,
+      "text": "attack your 3 creature into their 3, use"
+    },
+    {
+      "id": "nicolai-guide:caption:899",
+      "startSeconds": 1448,
+      "text": "icy reception, that can be effective or"
+    },
+    {
+      "id": "nicolai-guide:caption:900",
+      "startSeconds": 1449,
+      "text": "they attack you with their five and you"
+    },
+    {
+      "id": "nicolai-guide:caption:901",
+      "startSeconds": 1451,
+      "text": "like give it minus five minus O and then"
+    },
+    {
+      "id": "nicolai-guide:caption:902",
+      "startSeconds": 1452,
+      "text": "block it with all of your creatures."
+    },
+    {
+      "id": "nicolai-guide:caption:903",
+      "startSeconds": 1453,
+      "text": "That can be another way to use the card."
+    },
+    {
+      "id": "nicolai-guide:caption:904",
+      "startSeconds": 1455,
+      "text": "So, it's a nice little flexible blue"
+    },
+    {
+      "id": "nicolai-guide:caption:905",
+      "startSeconds": 1456,
+      "text": "card that's going to trade with uh"
+    },
+    {
+      "id": "nicolai-guide:caption:906",
+      "startSeconds": 1458,
+      "text": "usually going to be able to trade one"
+    },
+    {
+      "id": "nicolai-guide:caption:907",
+      "startSeconds": 1459,
+      "text": "for one with one of your opponent's"
+    },
+    {
+      "id": "nicolai-guide:caption:908",
+      "startSeconds": 1460,
+      "text": "cards, and that's going to be something"
+    },
+    {
+      "id": "nicolai-guide:caption:909",
+      "startSeconds": 1461,
+      "text": "you're pretty happy doing. Next up is"
+    },
+    {
+      "id": "nicolai-guide:caption:910",
+      "startSeconds": 1464,
+      "text": "black. And number one is extended"
+    },
+    {
+      "id": "nicolai-guide:caption:911",
+      "startSeconds": 1465,
+      "text": "absence. We already briefly mentioned"
+    },
+    {
+      "id": "nicolai-guide:caption:912",
+      "startSeconds": 1466,
+      "text": "it. It's three in a black for an instant"
+    },
+    {
+      "id": "nicolai-guide:caption:913",
+      "startSeconds": 1468,
+      "text": "exile target creature or"
+    },
+    {
+      "id": "nicolai-guide:caption:914",
+      "startSeconds": 1469,
+      "text": "planaineswalker. Extended absence deals"
+    },
+    {
+      "id": "nicolai-guide:caption:915",
+      "startSeconds": 1470,
+      "text": "one damage to each opponent and you gain"
+    },
+    {
+      "id": "nicolai-guide:caption:916",
+      "startSeconds": 1472,
+      "text": "one life. So, this is going to be just a"
+    },
+    {
+      "id": "nicolai-guide:caption:917",
+      "startSeconds": 1474,
+      "text": "great removal spell. Instant speed,"
+    },
+    {
+      "id": "nicolai-guide:caption:918",
+      "startSeconds": 1475,
+      "text": "gains you a little bit of life against"
+    },
+    {
+      "id": "nicolai-guide:caption:919",
+      "startSeconds": 1476,
+      "text": "aggro, deals one damage to your opponent"
+    },
+    {
+      "id": "nicolai-guide:caption:920",
+      "startSeconds": 1478,
+      "text": "to trigger some of your cards that care"
+    },
+    {
+      "id": "nicolai-guide:caption:921",
+      "startSeconds": 1480,
+      "text": "about dealing non-combat damage to your"
+    },
+    {
+      "id": "nicolai-guide:caption:922",
+      "startSeconds": 1482,
+      "text": "opponents. And so that can be a nice"
+    },
+    {
+      "id": "nicolai-guide:caption:923",
+      "startSeconds": 1483,
+      "text": "little effective removal spell. Add"
+    },
+    {
+      "id": "nicolai-guide:caption:924",
+      "startSeconds": 1485,
+      "text": "instant speed that does a ton of what"
+    },
+    {
+      "id": "nicolai-guide:caption:925",
+      "startSeconds": 1486,
+      "text": "you want. Last gasp is also really nice."
+    },
+    {
+      "id": "nicolai-guide:caption:926",
+      "startSeconds": 1488,
+      "text": "One in a black for an instant. Target"
+    },
+    {
+      "id": "nicolai-guide:caption:927",
+      "startSeconds": 1489,
+      "text": "creature gets minus three minus three"
+    },
+    {
+      "id": "nicolai-guide:caption:928",
+      "startSeconds": 1491,
+      "text": "until end of turn. Just cheap, efficient"
+    },
+    {
+      "id": "nicolai-guide:caption:929",
+      "startSeconds": 1493,
+      "text": "instant speed. Just what you're looking"
+    },
+    {
+      "id": "nicolai-guide:caption:930",
+      "startSeconds": 1494,
+      "text": "for in your removal spells. And then"
+    },
+    {
+      "id": "nicolai-guide:caption:931",
+      "startSeconds": 1496,
+      "text": "silence the echo is another removal"
+    },
+    {
+      "id": "nicolai-guide:caption:932",
+      "startSeconds": 1497,
+      "text": "spell. It's one in a black for a sorcery"
+    },
+    {
+      "id": "nicolai-guide:caption:933",
+      "startSeconds": 1499,
+      "text": "as an additional cost to cast this"
+    },
+    {
+      "id": "nicolai-guide:caption:934",
+      "startSeconds": 1500,
+      "text": "spell. Sacrifice a creature or"
+    },
+    {
+      "id": "nicolai-guide:caption:935",
+      "startSeconds": 1502,
+      "text": "planaineswalker or pay three generic"
+    },
+    {
+      "id": "nicolai-guide:caption:936",
+      "startSeconds": 1504,
+      "text": "mana. Destroy target creature or"
+    },
+    {
+      "id": "nicolai-guide:caption:937",
+      "startSeconds": 1505,
+      "text": "planaineswalker. So, if you have like a"
+    },
+    {
+      "id": "nicolai-guide:caption:938",
+      "startSeconds": 1508,
+      "text": "one loyalty Jace sitting around, you can"
+    },
+    {
+      "id": "nicolai-guide:caption:939",
+      "startSeconds": 1509,
+      "text": "sacrifice it to Silence the Echo to get"
+    },
+    {
+      "id": "nicolai-guide:caption:940",
+      "startSeconds": 1511,
+      "text": "an efficient removal spell for just one"
+    },
+    {
+      "id": "nicolai-guide:caption:941",
+      "startSeconds": 1512,
+      "text": "and a black. Or you can just get to the"
+    },
+    {
+      "id": "nicolai-guide:caption:942",
+      "startSeconds": 1514,
+      "text": "late game and spend five mana to kill"
+    },
+    {
+      "id": "nicolai-guide:caption:943",
+      "startSeconds": 1516,
+      "text": "something. Or maybe you have a small"
+    },
+    {
+      "id": "nicolai-guide:caption:944",
+      "startSeconds": 1517,
+      "text": "creature you don't really care about for"
+    },
+    {
+      "id": "nicolai-guide:caption:945",
+      "startSeconds": 1518,
+      "text": "some reason. Silence the Echo has a lot"
+    },
+    {
+      "id": "nicolai-guide:caption:946",
+      "startSeconds": 1520,
+      "text": "of little things that can maybe be"
+    },
+    {
+      "id": "nicolai-guide:caption:947",
+      "startSeconds": 1521,
+      "text": "sacrificed to be an efficient removal"
+    },
+    {
+      "id": "nicolai-guide:caption:948",
+      "startSeconds": 1522,
+      "text": "spell. And in the late game, it also"
+    },
+    {
+      "id": "nicolai-guide:caption:949",
+      "startSeconds": 1524,
+      "text": "just takes care of what you need for"
+    },
+    {
+      "id": "nicolai-guide:caption:950",
+      "startSeconds": 1525,
+      "text": "five mana. So, a nice card as well."
+    },
+    {
+      "id": "nicolai-guide:caption:951",
+      "startSeconds": 1527,
+      "text": "Moving on to red at number one is No"
+    },
+    {
+      "id": "nicolai-guide:caption:952",
+      "startSeconds": 1529,
+      "text": "Admittance. One and a red for a sorcery."
+    },
+    {
+      "id": "nicolai-guide:caption:953",
+      "startSeconds": 1531,
+      "text": "No admittance deals three damage to any"
+    },
+    {
+      "id": "nicolai-guide:caption:954",
+      "startSeconds": 1532,
+      "text": "target in power Jace one. So nice,"
+    },
+    {
+      "id": "nicolai-guide:caption:955",
+      "startSeconds": 1535,
+      "text": "cheap, efficient removal spell. Can even"
+    },
+    {
+      "id": "nicolai-guide:caption:956",
+      "startSeconds": 1536,
+      "text": "deal damage to your opponent's face in a"
+    },
+    {
+      "id": "nicolai-guide:caption:957",
+      "startSeconds": 1538,
+      "text": "pinch. Can deal damage to your"
+    },
+    {
+      "id": "nicolai-guide:caption:958",
+      "startSeconds": 1539,
+      "text": "opponent's Jace if you really need to"
+    },
+    {
+      "id": "nicolai-guide:caption:959",
+      "startSeconds": 1541,
+      "text": "and even empowers Jace one. So a really"
+    },
+    {
+      "id": "nicolai-guide:caption:960",
+      "startSeconds": 1543,
+      "text": "nice removal spell in red. And number"
+    },
+    {
+      "id": "nicolai-guide:caption:961",
+      "startSeconds": 1545,
+      "text": "two is wrath of the blood man. Two in a"
+    },
+    {
+      "id": "nicolai-guide:caption:962",
+      "startSeconds": 1547,
+      "text": "red for an instant. It costs one less to"
+    },
+    {
+      "id": "nicolai-guide:caption:963",
+      "startSeconds": 1548,
+      "text": "cast if you control a legendary"
+    },
+    {
+      "id": "nicolai-guide:caption:964",
+      "startSeconds": 1550,
+      "text": "creatures. Uh and wrath of the blood man"
+    },
+    {
+      "id": "nicolai-guide:caption:965",
+      "startSeconds": 1552,
+      "text": "deals four damage to target creature or"
+    },
+    {
+      "id": "nicolai-guide:caption:966",
+      "startSeconds": 1554,
+      "text": "planaineswalker. There's plenty of"
+    },
+    {
+      "id": "nicolai-guide:caption:967",
+      "startSeconds": 1555,
+      "text": "legendary creatures in this set. So this"
+    },
+    {
+      "id": "nicolai-guide:caption:968",
+      "startSeconds": 1556,
+      "text": "is often going to cost two mana and two"
+    },
+    {
+      "id": "nicolai-guide:caption:969",
+      "startSeconds": 1558,
+      "text": "mana to deal four damage to target"
+    },
+    {
+      "id": "nicolai-guide:caption:970",
+      "startSeconds": 1559,
+      "text": "creature or planaineswalker. Usually"
+    },
+    {
+      "id": "nicolai-guide:caption:971",
+      "startSeconds": 1561,
+      "text": "creature is really really effective and"
+    },
+    {
+      "id": "nicolai-guide:caption:972",
+      "startSeconds": 1563,
+      "text": "three damage is not that bad of a"
+    },
+    {
+      "id": "nicolai-guide:caption:973",
+      "startSeconds": 1564,
+      "text": "fallback plan. And then Heartstring"
+    },
+    {
+      "id": "nicolai-guide:caption:974",
+      "startSeconds": 1566,
+      "text": "Polar is three in a red for a 3-1 with"
+    },
+    {
+      "id": "nicolai-guide:caption:975",
+      "startSeconds": 1568,
+      "text": "trample. When this creature enters,"
+    },
+    {
+      "id": "nicolai-guide:caption:976",
+      "startSeconds": 1569,
+      "text": "create a two two colorless wizard"
+    },
+    {
+      "id": "nicolai-guide:caption:977",
+      "startSeconds": 1570,
+      "text": "soldier creature token named Cadet. So"
+    },
+    {
+      "id": "nicolai-guide:caption:978",
+      "startSeconds": 1572,
+      "text": "two bodies, both reasonably sized for"
+    },
+    {
+      "id": "nicolai-guide:caption:979",
+      "startSeconds": 1574,
+      "text": "four mana. That's going to be a really"
+    },
+    {
+      "id": "nicolai-guide:caption:980",
+      "startSeconds": 1576,
+      "text": "nice tool to have in your arsenal when"
+    },
+    {
+      "id": "nicolai-guide:caption:981",
+      "startSeconds": 1577,
+      "text": "building your red decks. And finally, we"
+    },
+    {
+      "id": "nicolai-guide:caption:982",
+      "startSeconds": 1580,
+      "text": "have green. And number one is compel"
+    },
+    {
+      "id": "nicolai-guide:caption:983",
+      "startSeconds": 1582,
+      "text": "brutality. For one and a green, it's"
+    },
+    {
+      "id": "nicolai-guide:caption:984",
+      "startSeconds": 1583,
+      "text": "instant. Choose one. Target creature you"
+    },
+    {
+      "id": "nicolai-guide:caption:985",
+      "startSeconds": 1585,
+      "text": "control deals damage equal to its power"
+    },
+    {
+      "id": "nicolai-guide:caption:986",
+      "startSeconds": 1586,
+      "text": "to target creature or planaineswalker an"
+    },
+    {
+      "id": "nicolai-guide:caption:987",
+      "startSeconds": 1588,
+      "text": "opponent controls. target"
+    },
+    {
+      "id": "nicolai-guide:caption:988",
+      "startSeconds": 1589,
+      "text": "planaineswalker you control deals damage"
+    },
+    {
+      "id": "nicolai-guide:caption:989",
+      "startSeconds": 1590,
+      "text": "equal to its loyalty to target creature"
+    },
+    {
+      "id": "nicolai-guide:caption:990",
+      "startSeconds": 1592,
+      "text": "or planaineswalker in opponent control."
+    },
+    {
+      "id": "nicolai-guide:caption:991",
+      "startSeconds": 1593,
+      "text": "So if you have a big Jace, you can have"
+    },
+    {
+      "id": "nicolai-guide:caption:992",
+      "startSeconds": 1595,
+      "text": "Jace deal damage to something. If you"
+    },
+    {
+      "id": "nicolai-guide:caption:993",
+      "startSeconds": 1596,
+      "text": "have a big creature, you can have that"
+    },
+    {
+      "id": "nicolai-guide:caption:994",
+      "startSeconds": 1597,
+      "text": "creature deal damage to something. And"
+    },
+    {
+      "id": "nicolai-guide:caption:995",
+      "startSeconds": 1598,
+      "text": "it also works really well with death"
+    },
+    {
+      "id": "nicolai-guide:caption:996",
+      "startSeconds": 1600,
+      "text": "touch, which arcane ais bayana at number"
+    },
+    {
+      "id": "nicolai-guide:caption:997",
+      "startSeconds": 1602,
+      "text": "two is going to provide. So one and a"
+    },
+    {
+      "id": "nicolai-guide:caption:998",
+      "startSeconds": 1604,
+      "text": "green for a one- one death touch when"
+    },
+    {
+      "id": "nicolai-guide:caption:999",
+      "startSeconds": 1606,
+      "text": "this creature enters empower a Jace,"
+    },
+    {
+      "id": "nicolai-guide:caption:1000",
+      "startSeconds": 1607,
+      "text": "too. So you're empowering your Jace."
+    },
+    {
+      "id": "nicolai-guide:caption:1001",
+      "startSeconds": 1608,
+      "text": "You're getting a death touch body that's"
+    },
+    {
+      "id": "nicolai-guide:caption:1002",
+      "startSeconds": 1610,
+      "text": "going to trade for whatever creature"
+    },
+    {
+      "id": "nicolai-guide:caption:1003",
+      "startSeconds": 1611,
+      "text": "your opponent is using to try and attack"
+    },
+    {
+      "id": "nicolai-guide:caption:1004",
+      "startSeconds": 1612,
+      "text": "your Jace. This is just going to be a"
+    },
+    {
+      "id": "nicolai-guide:caption:1005",
+      "startSeconds": 1614,
+      "text": "really nice tool to help you get some"
+    },
+    {
+      "id": "nicolai-guide:caption:1006",
+      "startSeconds": 1615,
+      "text": "advantage from your Jac's and protect"
+    },
+    {
+      "id": "nicolai-guide:caption:1007",
+      "startSeconds": 1617,
+      "text": "your Jace while you're maybe trying to"
+    },
+    {
+      "id": "nicolai-guide:caption:1008",
+      "startSeconds": 1618,
+      "text": "stack up the empower so you can maybe"
+    },
+    {
+      "id": "nicolai-guide:caption:1009",
+      "startSeconds": 1620,
+      "text": "get to a Jace minus three or some other"
+    },
+    {
+      "id": "nicolai-guide:caption:1010",
+      "startSeconds": 1621,
+      "text": "shenanigans with your Jace. And then at"
+    },
+    {
+      "id": "nicolai-guide:caption:1011",
+      "startSeconds": 1623,
+      "text": "number three is Beastial Incursion for"
+    },
+    {
+      "id": "nicolai-guide:caption:1012",
+      "startSeconds": 1625,
+      "text": "three in a green. It's a sorcery. Create"
+    },
+    {
+      "id": "nicolai-guide:caption:1013",
+      "startSeconds": 1626,
+      "text": "a 44 green beast creature token with"
+    },
+    {
+      "id": "nicolai-guide:caption:1014",
+      "startSeconds": 1628,
+      "text": "trample and then flashback for five in a"
+    },
+    {
+      "id": "nicolai-guide:caption:1015",
+      "startSeconds": 1630,
+      "text": "green. So if you have self mill in your"
+    },
+    {
+      "id": "nicolai-guide:caption:1016",
+      "startSeconds": 1632,
+      "text": "deck, this card is really really nice."
+    },
+    {
+      "id": "nicolai-guide:caption:1017",
+      "startSeconds": 1634,
+      "text": "If you just want to cast two giant"
+    },
+    {
+      "id": "nicolai-guide:caption:1018",
+      "startSeconds": 1635,
+      "text": "creatures, this card is really nice."
+    },
+    {
+      "id": "nicolai-guide:caption:1019",
+      "startSeconds": 1636,
+      "text": "It's going to get you just like a four-"
+    },
+    {
+      "id": "nicolai-guide:caption:1020",
+      "startSeconds": 1638,
+      "text": "four with trample is a card that must be"
+    },
+    {
+      "id": "nicolai-guide:caption:1021",
+      "startSeconds": 1639,
+      "text": "dealt with. and the fact that you get a"
+    },
+    {
+      "id": "nicolai-guide:caption:1022",
+      "startSeconds": 1640,
+      "text": "four mana 44 on the front side like when"
+    },
+    {
+      "id": "nicolai-guide:caption:1023",
+      "startSeconds": 1642,
+      "text": "you first cast it that's a pretty"
+    },
+    {
+      "id": "nicolai-guide:caption:1024",
+      "startSeconds": 1644,
+      "text": "reasonable rate and the flashback is not"
+    },
+    {
+      "id": "nicolai-guide:caption:1025",
+      "startSeconds": 1645,
+      "text": "too expensive. This is going to be a"
+    },
+    {
+      "id": "nicolai-guide:caption:1026",
+      "startSeconds": 1647,
+      "text": "really obnoxious card to deal with for"
+    },
+    {
+      "id": "nicolai-guide:caption:1027",
+      "startSeconds": 1649,
+      "text": "some decks and it works really well with"
+    },
+    {
+      "id": "nicolai-guide:caption:1028",
+      "startSeconds": 1651,
+      "text": "any self-mill shenanigans or if you use"
+    },
+    {
+      "id": "nicolai-guide:caption:1029",
+      "startSeconds": 1652,
+      "text": "like a Jace and surveil this into the"
+    },
+    {
+      "id": "nicolai-guide:caption:1030",
+      "startSeconds": 1654,
+      "text": "graveyard. It's almost like getting an"
+    },
+    {
+      "id": "nicolai-guide:caption:1031",
+      "startSeconds": 1655,
+      "text": "extra resource for free. Flashback works"
+    },
+    {
+      "id": "nicolai-guide:caption:1032",
+      "startSeconds": 1657,
+      "text": "really well with graveyard shenanigans"
+    },
+    {
+      "id": "nicolai-guide:caption:1033",
+      "startSeconds": 1658,
+      "text": "and there's plenty of decks that can do"
+    },
+    {
+      "id": "nicolai-guide:caption:1034",
+      "startSeconds": 1659,
+      "text": "that in this format and just four four"
+    },
+    {
+      "id": "nicolai-guide:caption:1035",
+      "startSeconds": 1661,
+      "text": "for four with trample and then flashback"
+    },
+    {
+      "id": "nicolai-guide:caption:1036",
+      "startSeconds": 1662,
+      "text": "to get a six mana four four with trample"
+    },
+    {
+      "id": "nicolai-guide:caption:1037",
+      "startSeconds": 1664,
+      "text": "is just a really good rate. Moving on to"
+    },
+    {
+      "id": "nicolai-guide:caption:1038",
+      "startSeconds": 1666,
+      "text": "some tricks and tips. These are the"
+    },
+    {
+      "id": "nicolai-guide:caption:1039",
+      "startSeconds": 1668,
+      "text": "combat tricks available in the set."
+    },
+    {
+      "id": "nicolai-guide:caption:1040",
+      "startSeconds": 1670,
+      "text": "White gets two mana for a plus2 plus2"
+    },
+    {
+      "id": "nicolai-guide:caption:1041",
+      "startSeconds": 1672,
+      "text": "effect. Blue we already mentioned has"
+    },
+    {
+      "id": "nicolai-guide:caption:1042",
+      "startSeconds": 1673,
+      "text": "icy reception for the minus 5 minus o"
+    },
+    {
+      "id": "nicolai-guide:caption:1043",
+      "startSeconds": 1675,
+      "text": "and then perfected theory which is one"
+    },
+    {
+      "id": "nicolai-guide:caption:1044",
+      "startSeconds": 1677,
+      "text": "mana to have target creature have base"
+    },
+    {
+      "id": "nicolai-guide:caption:1045",
+      "startSeconds": 1679,
+      "text": "power and toughness 1 one or base power"
+    },
+    {
+      "id": "nicolai-guide:caption:1046",
+      "startSeconds": 1681,
+      "text": "and toughness four five until end of"
+    },
+    {
+      "id": "nicolai-guide:caption:1047",
+      "startSeconds": 1682,
+      "text": "turn. Black has prof at uncommon which"
+    },
+    {
+      "id": "nicolai-guide:caption:1048",
+      "startSeconds": 1684,
+      "text": "can discard itself for black mana to"
+    },
+    {
+      "id": "nicolai-guide:caption:1049",
+      "startSeconds": 1686,
+      "text": "give a creature minus three minus one"
+    },
+    {
+      "id": "nicolai-guide:caption:1050",
+      "startSeconds": 1688,
+      "text": "until end of turn. Red has blazing"
+    },
+    {
+      "id": "nicolai-guide:caption:1051",
+      "startSeconds": 1689,
+      "text": "blazing crescendo to give plus three"
+    },
+    {
+      "id": "nicolai-guide:caption:1052",
+      "startSeconds": 1691,
+      "text": "plus one for two mana. Green has tether"
+    },
+    {
+      "id": "nicolai-guide:caption:1053",
+      "startSeconds": 1693,
+      "text": "mage's advantage to give plus two plus"
+    },
+    {
+      "id": "nicolai-guide:caption:1054",
+      "startSeconds": 1695,
+      "text": "two for one mana. And then there's some"
+    },
+    {
+      "id": "nicolai-guide:caption:1055",
+      "startSeconds": 1696,
+      "text": "hybrid mana cards. Ferocity of the hunt"
+    },
+    {
+      "id": "nicolai-guide:caption:1056",
+      "startSeconds": 1698,
+      "text": "can give plus one plus plus O and death"
+    },
+    {
+      "id": "nicolai-guide:caption:1057",
+      "startSeconds": 1700,
+      "text": "touch with flash as an enchantment. And"
+    },
+    {
+      "id": "nicolai-guide:caption:1058",
+      "startSeconds": 1701,
+      "text": "when the creature dies, it comes back"
+    },
+    {
+      "id": "nicolai-guide:caption:1059",
+      "startSeconds": 1702,
+      "text": "into play tapped and charge the sanctum"
+    },
+    {
+      "id": "nicolai-guide:caption:1060",
+      "startSeconds": 1704,
+      "text": "which can either give one all of your"
+    },
+    {
+      "id": "nicolai-guide:caption:1061",
+      "startSeconds": 1706,
+      "text": "creatures plus two plus O or one"
+    },
+    {
+      "id": "nicolai-guide:caption:1062",
+      "startSeconds": 1708,
+      "text": "creature plus plus two plus O first"
+    },
+    {
+      "id": "nicolai-guide:caption:1063",
+      "startSeconds": 1710,
+      "text": "strike and a plus one to counter. And"
+    },
+    {
+      "id": "nicolai-guide:caption:1064",
+      "startSeconds": 1711,
+      "text": "then there's some charms and uncommon."
+    },
+    {
+      "id": "nicolai-guide:caption:1065",
+      "startSeconds": 1713,
+      "text": "Fate hold charm has the mode creatures"
+    },
+    {
+      "id": "nicolai-guide:caption:1066",
+      "startSeconds": 1715,
+      "text": "you control get plus and plus two until"
+    },
+    {
+      "id": "nicolai-guide:caption:1067",
+      "startSeconds": 1716,
+      "text": "end of turn. Stinger quill charm has the"
+    },
+    {
+      "id": "nicolai-guide:caption:1068",
+      "startSeconds": 1718,
+      "text": "mode target creature gains first strike"
+    },
+    {
+      "id": "nicolai-guide:caption:1069",
+      "startSeconds": 1720,
+      "text": "and death touch until end of turn."
+    },
+    {
+      "id": "nicolai-guide:caption:1070",
+      "startSeconds": 1721,
+      "text": "Constari charm has the mode put two plus"
+    },
+    {
+      "id": "nicolai-guide:caption:1071",
+      "startSeconds": 1723,
+      "text": "and plus one counters on target"
+    },
+    {
+      "id": "nicolai-guide:caption:1072",
+      "startSeconds": 1724,
+      "text": "creature. gains trample until end of"
+    },
+    {
+      "id": "nicolai-guide:caption:1073",
+      "startSeconds": 1725,
+      "text": "turn. And then vigor bloom charm uh has"
+    },
+    {
+      "id": "nicolai-guide:caption:1074",
+      "startSeconds": 1728,
+      "text": "the mode target permanent you control"
+    },
+    {
+      "id": "nicolai-guide:caption:1075",
+      "startSeconds": 1729,
+      "text": "gains hex proof and indestructible until"
+    },
+    {
+      "id": "nicolai-guide:caption:1076",
+      "startSeconds": 1731,
+      "text": "end of turn or put a plus one counter on"
+    },
+    {
+      "id": "nicolai-guide:caption:1077",
+      "startSeconds": 1734,
+      "text": "target creature you control then it"
+    },
+    {
+      "id": "nicolai-guide:caption:1078",
+      "startSeconds": 1735,
+      "text": "fights target creature and opponent"
+    },
+    {
+      "id": "nicolai-guide:caption:1079",
+      "startSeconds": 1736,
+      "text": "controls. So those can both kind of be"
+    },
+    {
+      "id": "nicolai-guide:caption:1080",
+      "startSeconds": 1737,
+      "text": "used as combat tricks depending on the"
+    },
+    {
+      "id": "nicolai-guide:caption:1081",
+      "startSeconds": 1739,
+      "text": "situation. There's also some flash"
+    },
+    {
+      "id": "nicolai-guide:caption:1082",
+      "startSeconds": 1741,
+      "text": "creatures to be aware of in the set."
+    },
+    {
+      "id": "nicolai-guide:caption:1083",
+      "startSeconds": 1742,
+      "text": "White has tea light shield expert which"
+    },
+    {
+      "id": "nicolai-guide:caption:1084",
+      "startSeconds": 1744,
+      "text": "is two mana one with flash. When it"
+    },
+    {
+      "id": "nicolai-guide:caption:1085",
+      "startSeconds": 1746,
+      "text": "enters target permanent you control"
+    },
+    {
+      "id": "nicolai-guide:caption:1086",
+      "startSeconds": 1747,
+      "text": "gains hex proof until end of turn. Put a"
+    },
+    {
+      "id": "nicolai-guide:caption:1087",
+      "startSeconds": 1748,
+      "text": "plus impulse counter on it if it's"
+    },
+    {
+      "id": "nicolai-guide:caption:1088",
+      "startSeconds": 1749,
+      "text": "creature. Put a loyalty counter on it if"
+    },
+    {
+      "id": "nicolai-guide:caption:1089",
+      "startSeconds": 1751,
+      "text": "it's a planaineswalker. Blue has a"
+    },
+    {
+      "id": "nicolai-guide:caption:1090",
+      "startSeconds": 1752,
+      "text": "couple of flash threats. Divining"
+    },
+    {
+      "id": "nicolai-guide:caption:1091",
+      "startSeconds": 1754,
+      "text": "duelist at common is three mana for a"
+    },
+    {
+      "id": "nicolai-guide:caption:1092",
+      "startSeconds": 1755,
+      "text": "three- two with flash. When it enters,"
+    },
+    {
+      "id": "nicolai-guide:caption:1093",
+      "startSeconds": 1757,
+      "text": "you can choose one. Tap target creature,"
+    },
+    {
+      "id": "nicolai-guide:caption:1094",
+      "startSeconds": 1758,
+      "text": "untap target creature, draw a card, then"
+    },
+    {
+      "id": "nicolai-guide:caption:1095",
+      "startSeconds": 1760,
+      "text": "discard a card. And it also has Euro"
+    },
+    {
+      "id": "nicolai-guide:caption:1096",
+      "startSeconds": 1762,
+      "text": "hope of from the shadows at uncommon as"
+    },
+    {
+      "id": "nicolai-guide:caption:1097",
+      "startSeconds": 1764,
+      "text": "a single blue mana. When it enters,"
+    },
+    {
+      "id": "nicolai-guide:caption:1098",
+      "startSeconds": 1765,
+      "text": "choose one. Target creature gets minus x"
+    },
+    {
+      "id": "nicolai-guide:caption:1099",
+      "startSeconds": 1767,
+      "text": "minus o until end of turn where x is the"
+    },
+    {
+      "id": "nicolai-guide:caption:1100",
+      "startSeconds": 1769,
+      "text": "number of cards in your graveyard or"
+    },
+    {
+      "id": "nicolai-guide:caption:1101",
+      "startSeconds": 1770,
+      "text": "survey 2 and that's a one mana one with"
+    },
+    {
+      "id": "nicolai-guide:caption:1102",
+      "startSeconds": 1772,
+      "text": "flash. Uh teao diamond blade mage is in"
+    },
+    {
+      "id": "nicolai-guide:caption:1103",
+      "startSeconds": 1775,
+      "text": "black three and a black for a 3- one"
+    },
+    {
+      "id": "nicolai-guide:caption:1104",
+      "startSeconds": 1776,
+      "text": "with flash when it enters. Target"
+    },
+    {
+      "id": "nicolai-guide:caption:1105",
+      "startSeconds": 1778,
+      "text": "permanent you control gains death touch"
+    },
+    {
+      "id": "nicolai-guide:caption:1106",
+      "startSeconds": 1779,
+      "text": "until end of turn. Put a plus and plus"
+    },
+    {
+      "id": "nicolai-guide:caption:1107",
+      "startSeconds": 1780,
+      "text": "one counter on it if it's a creature."
+    },
+    {
+      "id": "nicolai-guide:caption:1108",
+      "startSeconds": 1782,
+      "text": "Put a loyalty counter on it if it's a"
+    },
+    {
+      "id": "nicolai-guide:caption:1109",
+      "startSeconds": 1783,
+      "text": "planaineswalker. And then green has"
+    },
+    {
+      "id": "nicolai-guide:caption:1110",
+      "startSeconds": 1784,
+      "text": "Edgar Moonlet Sovereign at uncommon."
+    },
+    {
+      "id": "nicolai-guide:caption:1111",
+      "startSeconds": 1787,
+      "text": "Three green for a four with flash. At"
+    },
+    {
+      "id": "nicolai-guide:caption:1112",
+      "startSeconds": 1789,
+      "text": "the beginning of your endstep if you"
+    },
+    {
+      "id": "nicolai-guide:caption:1113",
+      "startSeconds": 1790,
+      "text": "didn't cast a spell this turn, put two"
+    },
+    {
+      "id": "nicolai-guide:caption:1114",
+      "startSeconds": 1792,
+      "text": "plus one plus one counters on Edgar. And"
+    },
+    {
+      "id": "nicolai-guide:caption:1115",
+      "startSeconds": 1793,
+      "text": "then four in a green. Put a plus one"
+    },
+    {
+      "id": "nicolai-guide:caption:1116",
+      "startSeconds": 1794,
+      "text": "plus one counter on each creature you"
+    },
+    {
+      "id": "nicolai-guide:caption:1117",
+      "startSeconds": 1795,
+      "text": "control with a plus one plus one counter"
+    },
+    {
+      "id": "nicolai-guide:caption:1118",
+      "startSeconds": 1797,
+      "text": "on it. There are also some counter"
+    },
+    {
+      "id": "nicolai-guide:caption:1119",
+      "startSeconds": 1798,
+      "text": "spells to be aware of in the set. We"
+    },
+    {
+      "id": "nicolai-guide:caption:1120",
+      "startSeconds": 1800,
+      "text": "already talked about icy reception."
+    },
+    {
+      "id": "nicolai-guide:caption:1121",
+      "startSeconds": 1801,
+      "text": "That's the common counter spell. Then at"
+    },
+    {
+      "id": "nicolai-guide:caption:1122",
+      "startSeconds": 1802,
+      "text": "uncommon, there is counter sculpt for"
+    },
+    {
+      "id": "nicolai-guide:caption:1123",
+      "startSeconds": 1804,
+      "text": "blue. That's an additional cost to cast"
+    },
+    {
+      "id": "nicolai-guide:caption:1124",
+      "startSeconds": 1806,
+      "text": "this spell. Behold a Jace or pay one."
+    },
+    {
+      "id": "nicolai-guide:caption:1125",
+      "startSeconds": 1808,
+      "text": "and then counter target spell empower"
+    },
+    {
+      "id": "nicolai-guide:caption:1126",
+      "startSeconds": 1810,
+      "text": "Jace one. So if you have a Jace it's"
+    },
+    {
+      "id": "nicolai-guide:caption:1127",
+      "startSeconds": 1812,
+      "text": "just two mana to counter a spell which"
+    },
+    {
+      "id": "nicolai-guide:caption:1128",
+      "startSeconds": 1814,
+      "text": "is really really nice. If you don't have"
+    },
+    {
+      "id": "nicolai-guide:caption:1129",
+      "startSeconds": 1815,
+      "text": "a Jace you spend an extra mana and you"
+    },
+    {
+      "id": "nicolai-guide:caption:1130",
+      "startSeconds": 1816,
+      "text": "are are going to empower a Jace no"
+    },
+    {
+      "id": "nicolai-guide:caption:1131",
+      "startSeconds": 1818,
+      "text": "matter what. That's going to be a really"
+    },
+    {
+      "id": "nicolai-guide:caption:1132",
+      "startSeconds": 1819,
+      "text": "nice counter spell and one to be aware"
+    },
+    {
+      "id": "nicolai-guide:caption:1133",
+      "startSeconds": 1820,
+      "text": "of. And then kind of a sideboard card"
+    },
+    {
+      "id": "nicolai-guide:caption:1134",
+      "startSeconds": 1822,
+      "text": "precise redaction is one and a blue to"
+    },
+    {
+      "id": "nicolai-guide:caption:1135",
+      "startSeconds": 1824,
+      "text": "counter target white or black spell. So"
+    },
+    {
+      "id": "nicolai-guide:caption:1136",
+      "startSeconds": 1826,
+      "text": "probably only going to be seen in post"
+    },
+    {
+      "id": "nicolai-guide:caption:1137",
+      "startSeconds": 1827,
+      "text": "sideboard games. And then theorix charm"
+    },
+    {
+      "id": "nicolai-guide:caption:1138",
+      "startSeconds": 1829,
+      "text": "for blue black has the mode counter"
+    },
+    {
+      "id": "nicolai-guide:caption:1139",
+      "startSeconds": 1831,
+      "text": "target non-creature spell unless its"
+    },
+    {
+      "id": "nicolai-guide:caption:1140",
+      "startSeconds": 1832,
+      "text": "controller pays two mana. There are also"
+    },
+    {
+      "id": "nicolai-guide:caption:1141",
+      "startSeconds": 1835,
+      "text": "some discard spells to be aware of. So"
+    },
+    {
+      "id": "nicolai-guide:caption:1142",
+      "startSeconds": 1837,
+      "text": "there is rank rat and tiny bones pocket"
+    },
+    {
+      "id": "nicolai-guide:caption:1143",
+      "startSeconds": 1839,
+      "text": "nuisance. Rank rat one in a black. When"
+    },
+    {
+      "id": "nicolai-guide:caption:1144",
+      "startSeconds": 1841,
+      "text": "this creature enters each opponent"
+    },
+    {
+      "id": "nicolai-guide:caption:1145",
+      "startSeconds": 1842,
+      "text": "discards a card, it's a one-1. And tiny"
+    },
+    {
+      "id": "nicolai-guide:caption:1146",
+      "startSeconds": 1844,
+      "text": "bones pocket nuisance is two in a black"
+    },
+    {
+      "id": "nicolai-guide:caption:1147",
+      "startSeconds": 1846,
+      "text": "for a two- one. When it enters, each"
+    },
+    {
+      "id": "nicolai-guide:caption:1148",
+      "startSeconds": 1847,
+      "text": "opponent discards a card. When a player"
+    },
+    {
+      "id": "nicolai-guide:caption:1149",
+      "startSeconds": 1848,
+      "text": "discards one or more cards, tiny bones"
+    },
+    {
+      "id": "nicolai-guide:caption:1150",
+      "startSeconds": 1850,
+      "text": "deals one damage to each opponent. So"
+    },
+    {
+      "id": "nicolai-guide:caption:1151",
+      "startSeconds": 1852,
+      "text": "these two cards being in the format"
+    },
+    {
+      "id": "nicolai-guide:caption:1152",
+      "startSeconds": 1853,
+      "text": "means that if you're against a black"
+    },
+    {
+      "id": "nicolai-guide:caption:1153",
+      "startSeconds": 1854,
+      "text": "deck, then maybe holding an extra land"
+    },
+    {
+      "id": "nicolai-guide:caption:1154",
+      "startSeconds": 1856,
+      "text": "in your hand in the late game to protect"
+    },
+    {
+      "id": "nicolai-guide:caption:1155",
+      "startSeconds": 1858,
+      "text": "your key spells could be worthwhile. And"
+    },
+    {
+      "id": "nicolai-guide:caption:1156",
+      "startSeconds": 1860,
+      "text": "then solve for disappointment is a card"
+    },
+    {
+      "id": "nicolai-guide:caption:1157",
+      "startSeconds": 1861,
+      "text": "to be aware of. Uh it's one in a black"
+    },
+    {
+      "id": "nicolai-guide:caption:1158",
+      "startSeconds": 1863,
+      "text": "for a sorcery. Target opponent reveals"
+    },
+    {
+      "id": "nicolai-guide:caption:1159",
+      "startSeconds": 1864,
+      "text": "their hand. you choose a non-land"
+    },
+    {
+      "id": "nicolai-guide:caption:1160",
+      "startSeconds": 1866,
+      "text": "permanent card from it, that player"
+    },
+    {
+      "id": "nicolai-guide:caption:1161",
+      "startSeconds": 1867,
+      "text": "discards that card, empower Jace one."
+    },
+    {
+      "id": "nicolai-guide:caption:1162",
+      "startSeconds": 1869,
+      "text": "So, if you are sitting on a key"
+    },
+    {
+      "id": "nicolai-guide:caption:1163",
+      "startSeconds": 1871,
+      "text": "permanent card in the late game and you"
+    },
+    {
+      "id": "nicolai-guide:caption:1164",
+      "startSeconds": 1873,
+      "text": "think your opponent might have like this"
+    },
+    {
+      "id": "nicolai-guide:caption:1165",
+      "startSeconds": 1874,
+      "text": "sort of card in their deck, sometimes"
+    },
+    {
+      "id": "nicolai-guide:caption:1166",
+      "startSeconds": 1876,
+      "text": "it's worth casting your card and making"
+    },
+    {
+      "id": "nicolai-guide:caption:1167",
+      "startSeconds": 1877,
+      "text": "sure you deploy your threat before maybe"
+    },
+    {
+      "id": "nicolai-guide:caption:1168",
+      "startSeconds": 1879,
+      "text": "they can discard it. Though, uh, Solve"
+    },
+    {
+      "id": "nicolai-guide:caption:1169",
+      "startSeconds": 1881,
+      "text": "for Disappointment is the sort of card"
+    },
+    {
+      "id": "nicolai-guide:caption:1170",
+      "startSeconds": 1882,
+      "text": "that sometimes won't have a target. Like"
+    },
+    {
+      "id": "nicolai-guide:caption:1171",
+      "startSeconds": 1884,
+      "text": "you look at their hand, they have all"
+    },
+    {
+      "id": "nicolai-guide:caption:1172",
+      "startSeconds": 1885,
+      "text": "instance and sorceries in their hands."
+    },
+    {
+      "id": "nicolai-guide:caption:1173",
+      "startSeconds": 1887,
+      "text": "That can be a whiff and so it's the sort"
+    },
+    {
+      "id": "nicolai-guide:caption:1174",
+      "startSeconds": 1888,
+      "text": "of card you need to be careful about"
+    },
+    {
+      "id": "nicolai-guide:caption:1175",
+      "startSeconds": 1889,
+      "text": "playing. Next up is the manifixing in"
+    },
+    {
+      "id": "nicolai-guide:caption:1176",
+      "startSeconds": 1892,
+      "text": "the set. Slightly more than 50% of packs"
+    },
+    {
+      "id": "nicolai-guide:caption:1177",
+      "startSeconds": 1894,
+      "text": "will have one of these dual lands which"
+    },
+    {
+      "id": "nicolai-guide:caption:1178",
+      "startSeconds": 1896,
+      "text": "entertapped unless you control a"
+    },
+    {
+      "id": "nicolai-guide:caption:1179",
+      "startSeconds": 1897,
+      "text": "planaineswalker. So it's like a little"
+    },
+    {
+      "id": "nicolai-guide:caption:1180",
+      "startSeconds": 1898,
+      "text": "bit more than 50% of packs will have"
+    },
+    {
+      "id": "nicolai-guide:caption:1181",
+      "startSeconds": 1900,
+      "text": "these in the basic land slot. And so"
+    },
+    {
+      "id": "nicolai-guide:caption:1182",
+      "startSeconds": 1902,
+      "text": "these are going to be really good"
+    },
+    {
+      "id": "nicolai-guide:caption:1183",
+      "startSeconds": 1903,
+      "text": "manifixing for your decks. There is also"
+    },
+    {
+      "id": "nicolai-guide:caption:1184",
+      "startSeconds": 1905,
+      "text": "some manifixing as the land cycler. So"
+    },
+    {
+      "id": "nicolai-guide:caption:1185",
+      "startSeconds": 1907,
+      "text": "we already talked about hex haven"
+    },
+    {
+      "id": "nicolai-guide:caption:1186",
+      "startSeconds": 1909,
+      "text": "battalion but blue gains access to"
+    },
+    {
+      "id": "nicolai-guide:caption:1187",
+      "startSeconds": 1910,
+      "text": "undulating witness which has the basic"
+    },
+    {
+      "id": "nicolai-guide:caption:1188",
+      "startSeconds": 1912,
+      "text": "land cycling to discard this card."
+    },
+    {
+      "id": "nicolai-guide:caption:1189",
+      "startSeconds": 1913,
+      "text": "Search your library for a basic land"
+    },
+    {
+      "id": "nicolai-guide:caption:1190",
+      "startSeconds": 1915,
+      "text": "card. Reveal it put into your hand and"
+    },
+    {
+      "id": "nicolai-guide:caption:1191",
+      "startSeconds": 1916,
+      "text": "shuffle. And so that's going to be on a"
+    },
+    {
+      "id": "nicolai-guide:caption:1192",
+      "startSeconds": 1917,
+      "text": "five mana 3 five that can spend two to"
+    },
+    {
+      "id": "nicolai-guide:caption:1193",
+      "startSeconds": 1919,
+      "text": "give uh itself plus one minus one until"
+    },
+    {
+      "id": "nicolai-guide:caption:1194",
+      "startSeconds": 1921,
+      "text": "end of turn. Apex Witch Stalker is the"
+    },
+    {
+      "id": "nicolai-guide:caption:1195",
+      "startSeconds": 1923,
+      "text": "black variant of this which is a six"
+    },
+    {
+      "id": "nicolai-guide:caption:1196",
+      "startSeconds": 1924,
+      "text": "four menace for six. When it enters or"
+    },
+    {
+      "id": "nicolai-guide:caption:1197",
+      "startSeconds": 1927,
+      "text": "dies, you gain two life for four black."
+    },
+    {
+      "id": "nicolai-guide:caption:1198",
+      "startSeconds": 1929,
+      "text": "Awaken the Inferno is the four and a red"
+    },
+    {
+      "id": "nicolai-guide:caption:1199",
+      "startSeconds": 1931,
+      "text": "sorcery in red. It deals six damage to"
+    },
+    {
+      "id": "nicolai-guide:caption:1200",
+      "startSeconds": 1933,
+      "text": "target creature or planeswalker and"
+    },
+    {
+      "id": "nicolai-guide:caption:1201",
+      "startSeconds": 1934,
+      "text": "opponent controls. Put a plus and plus"
+    },
+    {
+      "id": "nicolai-guide:caption:1202",
+      "startSeconds": 1935,
+      "text": "encounter on up to one target creature"
+    },
+    {
+      "id": "nicolai-guide:caption:1203",
+      "startSeconds": 1937,
+      "text": "you control with basic land cycling. And"
+    },
+    {
+      "id": "nicolai-guide:caption:1204",
+      "startSeconds": 1939,
+      "text": "then the green one is vine lasher adept."
+    },
+    {
+      "id": "nicolai-guide:caption:1205",
+      "startSeconds": 1941,
+      "text": "Four green for a two four with reach."
+    },
+    {
+      "id": "nicolai-guide:caption:1206",
+      "startSeconds": 1943,
+      "text": "When this creature enters, put three"
+    },
+    {
+      "id": "nicolai-guide:caption:1207",
+      "startSeconds": 1944,
+      "text": "plus and plus encounters on target"
+    },
+    {
+      "id": "nicolai-guide:caption:1208",
+      "startSeconds": 1946,
+      "text": "creature. And then of course basic land"
+    },
+    {
+      "id": "nicolai-guide:caption:1209",
+      "startSeconds": 1948,
+      "text": "cycling. So those ones are going to be"
+    },
+    {
+      "id": "nicolai-guide:caption:1210",
+      "startSeconds": 1949,
+      "text": "good for mana fixing as well if you're"
+    },
+    {
+      "id": "nicolai-guide:caption:1211",
+      "startSeconds": 1950,
+      "text": "trying to splash. Uh, and then there's"
+    },
+    {
+      "id": "nicolai-guide:caption:1212",
+      "startSeconds": 1952,
+      "text": "also these cards that you can draft a"
+    },
+    {
+      "id": "nicolai-guide:caption:1213",
+      "startSeconds": 1954,
+      "text": "uh, in the packs. Room of refuge enters"
+    },
+    {
+      "id": "nicolai-guide:caption:1214",
+      "startSeconds": 1957,
+      "text": "tapped and as you as it enters you"
+    },
+    {
+      "id": "nicolai-guide:caption:1215",
+      "startSeconds": 1958,
+      "text": "choose a color, it can add one mana of"
+    },
+    {
+      "id": "nicolai-guide:caption:1216",
+      "startSeconds": 1960,
+      "text": "the chosen color. And then five tap"
+    },
+    {
+      "id": "nicolai-guide:caption:1217",
+      "startSeconds": 1962,
+      "text": "sacrifice this land. Put two plus one"
+    },
+    {
+      "id": "nicolai-guide:caption:1218",
+      "startSeconds": 1963,
+      "text": "plus encounters on target creature."
+    },
+    {
+      "id": "nicolai-guide:caption:1219",
+      "startSeconds": 1964,
+      "text": "Activate only as a sorcery. Murmuring"
+    },
+    {
+      "id": "nicolai-guide:caption:1220",
+      "startSeconds": 1967,
+      "text": "volume is three mana for a artifact"
+    },
+    {
+      "id": "nicolai-guide:caption:1221",
+      "startSeconds": 1969,
+      "text": "book. You can tap one to add one mana of"
+    },
+    {
+      "id": "nicolai-guide:caption:1222",
+      "startSeconds": 1971,
+      "text": "any color or two tap discard a card draw"
+    },
+    {
+      "id": "nicolai-guide:caption:1223",
+      "startSeconds": 1973,
+      "text": "a card. So it can give you some ramp"
+    },
+    {
+      "id": "nicolai-guide:caption:1224",
+      "startSeconds": 1974,
+      "text": "with some color fixing and then"
+    },
+    {
+      "id": "nicolai-guide:caption:1225",
+      "startSeconds": 1975,
+      "text": "eventually some card selection. And then"
+    },
+    {
+      "id": "nicolai-guide:caption:1226",
+      "startSeconds": 1977,
+      "text": "green and uncommon gets Fibil knows the"
+    },
+    {
+      "id": "nicolai-guide:caption:1227",
+      "startSeconds": 1979,
+      "text": "way x green for a star two uh where its"
+    },
+    {
+      "id": "nicolai-guide:caption:1228",
+      "startSeconds": 1982,
+      "text": "power is equal to the number of basic"
+    },
+    {
+      "id": "nicolai-guide:caption:1229",
+      "startSeconds": 1984,
+      "text": "lands uh types among lands you control."
+    },
+    {
+      "id": "nicolai-guide:caption:1230",
+      "startSeconds": 1986,
+      "text": "When fibth enters, search your library"
+    },
+    {
+      "id": "nicolai-guide:caption:1231",
+      "startSeconds": 1987,
+      "text": "for up to x basic land cards with"
+    },
+    {
+      "id": "nicolai-guide:caption:1232",
+      "startSeconds": 1989,
+      "text": "different names, reveal them, put them"
+    },
+    {
+      "id": "nicolai-guide:caption:1233",
+      "startSeconds": 1990,
+      "text": "into your hand, then shuffle. So he can"
+    },
+    {
+      "id": "nicolai-guide:caption:1234",
+      "startSeconds": 1992,
+      "text": "search up your splash colors if you are"
+    },
+    {
+      "id": "nicolai-guide:caption:1235",
+      "startSeconds": 1993,
+      "text": "splashing. And then loot the nexus a"
+    },
+    {
+      "id": "nicolai-guide:caption:1236",
+      "startSeconds": 1995,
+      "text": "little bit less reliable as a splash"
+    },
+    {
+      "id": "nicolai-guide:caption:1237",
+      "startSeconds": 1996,
+      "text": "enabler because if your opponent kills"
+    },
+    {
+      "id": "nicolai-guide:caption:1238",
+      "startSeconds": 1998,
+      "text": "him, then you lose access to your splash"
+    },
+    {
+      "id": "nicolai-guide:caption:1239",
+      "startSeconds": 2000,
+      "text": "color. But he does. It's two in a green"
+    },
+    {
+      "id": "nicolai-guide:caption:1240",
+      "startSeconds": 2002,
+      "text": "for a two-1. Tap, choose a color, add"
+    },
+    {
+      "id": "nicolai-guide:caption:1241",
+      "startSeconds": 2003,
+      "text": "one mana of that color for each"
+    },
+    {
+      "id": "nicolai-guide:caption:1242",
+      "startSeconds": 2005,
+      "text": "different power among creatures you"
+    },
+    {
+      "id": "nicolai-guide:caption:1243",
+      "startSeconds": 2006,
+      "text": "control. So, at the very least, he's"
+    },
+    {
+      "id": "nicolai-guide:caption:1244",
+      "startSeconds": 2008,
+      "text": "going to add one mana of any color"
+    },
+    {
+      "id": "nicolai-guide:caption:1245",
+      "startSeconds": 2009,
+      "text": "because he has power himself. I made"
+    },
+    {
+      "id": "nicolai-guide:caption:1246",
+      "startSeconds": 2011,
+      "text": "this sheet with all of the instant speed"
+    },
+    {
+      "id": "nicolai-guide:caption:1247",
+      "startSeconds": 2012,
+      "text": "effects in the set. There's a PDF linked"
+    },
+    {
+      "id": "nicolai-guide:caption:1248",
+      "startSeconds": 2015,
+      "text": "in the description down below that you"
+    },
+    {
+      "id": "nicolai-guide:caption:1249",
+      "startSeconds": 2016,
+      "text": "can find and download if you want to"
+    },
+    {
+      "id": "nicolai-guide:caption:1250",
+      "startSeconds": 2018,
+      "text": "have access to this whenever you want."
+    },
+    {
+      "id": "nicolai-guide:caption:1251",
+      "startSeconds": 2020,
+      "text": "The it includes all of the instant speed"
+    },
+    {
+      "id": "nicolai-guide:caption:1252",
+      "startSeconds": 2022,
+      "text": "combat tricks, instant speed removal"
+    },
+    {
+      "id": "nicolai-guide:caption:1253",
+      "startSeconds": 2023,
+      "text": "spells, cards that can discard"
+    },
+    {
+      "id": "nicolai-guide:caption:1254",
+      "startSeconds": 2025,
+      "text": "themselves at instant speed for effects,"
+    },
+    {
+      "id": "nicolai-guide:caption:1255",
+      "startSeconds": 2026,
+      "text": "and then just like all the instance in"
+    },
+    {
+      "id": "nicolai-guide:caption:1256",
+      "startSeconds": 2027,
+      "text": "the set in general. Also, if your"
+    },
+    {
+      "id": "nicolai-guide:caption:1257",
+      "startSeconds": 2028,
+      "text": "opponent's holding up some mana, even if"
+    },
+    {
+      "id": "nicolai-guide:caption:1258",
+      "startSeconds": 2030,
+      "text": "the thing doesn't necessarily directly"
+    },
+    {
+      "id": "nicolai-guide:caption:1259",
+      "startSeconds": 2031,
+      "text": "affect combat, maybe they have a card"
+    },
+    {
+      "id": "nicolai-guide:caption:1260",
+      "startSeconds": 2032,
+      "text": "that cares about casting a non-creature"
+    },
+    {
+      "id": "nicolai-guide:caption:1261",
+      "startSeconds": 2034,
+      "text": "spell. And so, you can just keep in mind"
+    },
+    {
+      "id": "nicolai-guide:caption:1262",
+      "startSeconds": 2035,
+      "text": "all of the cards that they might have in"
+    },
+    {
+      "id": "nicolai-guide:caption:1263",
+      "startSeconds": 2037,
+      "text": "a given situation at common or uncommon."
+    },
+    {
+      "id": "nicolai-guide:caption:1264",
+      "startSeconds": 2039,
+      "text": "And then I also made this sheet, which"
+    },
+    {
+      "id": "nicolai-guide:caption:1265",
+      "startSeconds": 2041,
+      "text": "will also be in the uh a PDF that you"
+    },
+    {
+      "id": "nicolai-guide:caption:1266",
+      "startSeconds": 2043,
+      "text": "can download which has the archetypes"
+    },
+    {
+      "id": "nicolai-guide:caption:1267",
+      "startSeconds": 2045,
+      "text": "and generally what they're trying to"
+    },
+    {
+      "id": "nicolai-guide:caption:1268",
+      "startSeconds": 2046,
+      "text": "accomplish as well as the top commons so"
+    },
+    {
+      "id": "nicolai-guide:caption:1269",
+      "startSeconds": 2048,
+      "text": "that you can be aware and be able to"
+    },
+    {
+      "id": "nicolai-guide:caption:1270",
+      "startSeconds": 2050,
+      "text": "have kind of easy access to this"
+    },
+    {
+      "id": "nicolai-guide:caption:1271",
+      "startSeconds": 2052,
+      "text": "information. Anyway, that is going to do"
+    },
+    {
+      "id": "nicolai-guide:caption:1272",
+      "startSeconds": 2053,
+      "text": "it for this video. Thank you so much for"
+    },
+    {
+      "id": "nicolai-guide:caption:1273",
+      "startSeconds": 2055,
+      "text": "watching. If you made it to the end,"
+    },
+    {
+      "id": "nicolai-guide:caption:1274",
+      "startSeconds": 2056,
+      "text": "remember to hit the thumbs up button,"
+    },
+    {
+      "id": "nicolai-guide:caption:1275",
+      "startSeconds": 2057,
+      "text": "subscribe for more, and comment if you"
+    },
+    {
+      "id": "nicolai-guide:caption:1276",
+      "startSeconds": 2058,
+      "text": "have any questions or feedback. And"
+    },
+    {
+      "id": "nicolai-guide:caption:1277",
+      "startSeconds": 2059,
+      "text": "leave #realitydrafter in the comments"
+    },
+    {
+      "id": "nicolai-guide:caption:1278",
+      "startSeconds": 2062,
+      "text": "section down below. That's going to do"
+    },
+    {
+      "id": "nicolai-guide:caption:1279",
+      "startSeconds": 2063,
+      "text": "it for this one, though. I hope you"
+    },
+    {
+      "id": "nicolai-guide:caption:1280",
+      "startSeconds": 2064,
+      "text": "enjoyed it and I will talk to you next"
+    }
+  ],
+  "lastCaptionStartSeconds": 2064
+}

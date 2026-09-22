@@ -1,10 +1,12 @@
 # Reality Fracture early evidence
 
-Captured 2026-09-22. Attributed source records are in `sources/`; our rules-based combination synthesis is in `synthesis.json`. The website consumes both through a validated `earlyEvidence` payload. See [coverage.md](coverage.md) for the exact boundaries and [coverage.json](coverage.json) for all 280 card joins.
+Captured 2026-09-22. **Full licensed extraction:** see [the research corpus](extraction/licensed/README.md) for 560 complete reviewer/card assessments, four caption exports, article context and three decklists. Website changes and synthesis are deferred.
+
+Attributed source records are in `sources/`; our rules-based combination synthesis is in `synthesis.json`. The website consumes both through a validated `earlyEvidence` payload. See [coverage.md](coverage.md) for the exact boundaries and [coverage.json](coverage.json) for all 280 card joins.
 
 ## Extraction-first follow-up
 
-The user has deferred further website work, including the question of a separate tab. The new [extraction workspace](extraction/README.md) indexes both written reviewers’ commentary passages for every main-set nonbasic card and preserves selected explicit relationships. It does not claim complete substantive-assessment extraction. No public assets change in this pass.
+The user has deferred further website work, including the question of a separate tab. The [licensed corpus](extraction/licensed/README.md) now retains the actual full assessment passages from both written reviewers for every main-set nonbasic card, alongside source context and captions. The earlier [passage index](extraction/README.md) remains as an integrity baseline. No public assets change in this pass.
 
 ## Source register and examination scope
 
@@ -29,7 +31,7 @@ Source records retain author, URL, capture date, format, original scale, scope a
 
 ## Coverage and limits
 
-Every one of the 280 nonbasic main-set cards has a grade from two distinct bylines. This is complete opinion-score coverage, not complete narrative or gameplay coverage. Extracted notes mention 56 cards; sampled games mention 16. All ten archetypes have advice from both video reviewers. Twelve combinations are authored; ten have recall questions.
+Every one of the 280 nonbasic main-set cards has a grade from two distinct bylines. This paragraph describes the existing website payload. The separate licensed research corpus now also has both reviewers’ complete narrative passages; gameplay analysis remains selective. Extracted notes mention 56 cards; sampled games mention 16. All ten archetypes have advice from both video reviewers. Twelve combinations are authored; ten have recall questions.
 
 Preserve the original scales. Neither a mean nor dividing by the maximum establishes comparable meanings, confidence, win rate or a pick order. No numerical consensus, empirical tier or Training unlock is produced. Reviews cover Draft or general Limited; these are not separate Sealed grades. Sealed sample selection, repeated decks, unknown hands and automatic-caption errors preclude causal strength claims. An unobserved card has missing gameplay evidence, not a low score.
 

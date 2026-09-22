@@ -1,0 +1,5015 @@
+{
+  "id": "llu261",
+  "sourceUrl": "https://www.youtube.com/watch?v=I1PPajMb938",
+  "author": "Limited Level-Ups",
+  "dependencyGroup": "limited-level-ups",
+  "capturedAt": "2026-09-22",
+  "permissionId": "user-reported-noncommercial-permissions-2026-09-22",
+  "kind": "review-transcript",
+  "format": "Limited-unspecified",
+  "captions": "auto-generated",
+  "language": "en",
+  "sourceCaptureSha256": "0e404efb561720264c114174eec5e2890c620d3740cc905ac8b4a984f220c88c",
+  "scope": "All segments in the available caption export, including introductions and outros.",
+  "completeness": "caption-export-complete; video-duration comparison recorded separately",
+  "videoDurationSeconds": 1982,
+  "framesVerified": false,
+  "segments": [
+    {
+      "id": "llu261:caption:1",
+      "startSeconds": 0,
+      "text": "Will Reality Fracture be the best"
+    },
+    {
+      "id": "llu261:caption:2",
+      "startSeconds": 1,
+      "text": "limited set of the year? Many people are"
+    },
+    {
+      "id": "llu261:caption:3",
+      "startSeconds": 3,
+      "text": "asking this. I have no idea. Obviously,"
+    },
+    {
+      "id": "llu261:caption:4",
+      "startSeconds": 5,
+      "text": "it's much too early to say, but it is a"
+    },
+    {
+      "id": "llu261:caption:5",
+      "startSeconds": 8,
+      "text": "full-size set with 10 color pairs, so"
+    },
+    {
+      "id": "llu261:caption:6",
+      "startSeconds": 10,
+      "text": "it's off to a better start than most of"
+    },
+    {
+      "id": "llu261:caption:7",
+      "startSeconds": 12,
+      "text": "the sets we've had this year. So, yeah,"
+    },
+    {
+      "id": "llu261:caption:8",
+      "startSeconds": 14,
+      "text": "we're talking about new set today."
+    },
+    {
+      "id": "llu261:caption:9",
+      "startSeconds": 15,
+      "text": "Always fun to talk about new cards."
+    },
+    {
+      "id": "llu261:caption:10",
+      "startSeconds": 17,
+      "text": "First thing I'll say is there's a lot"
+    },
+    {
+      "id": "llu261:caption:11",
+      "startSeconds": 19,
+      "text": "going on in this one. So, buckle up for"
+    },
+    {
+      "id": "llu261:caption:12",
+      "startSeconds": 20,
+      "text": "today's episode. Lots of different"
+    },
+    {
+      "id": "llu261:caption:13",
+      "startSeconds": 22,
+      "text": "themes, complex cards, which I think is"
+    },
+    {
+      "id": "llu261:caption:14",
+      "startSeconds": 25,
+      "text": "refreshing in a lot of ways after coming"
+    },
+    {
+      "id": "llu261:caption:15",
+      "startSeconds": 26,
+      "text": "off of The Hobbit, after coming off a"
+    },
+    {
+      "id": "llu261:caption:16",
+      "startSeconds": 28,
+      "text": "small set. Hopefully, this is one that"
+    },
+    {
+      "id": "llu261:caption:17",
+      "startSeconds": 29,
+      "text": "we can really go deep on, really sink"
+    },
+    {
+      "id": "llu261:caption:18",
+      "startSeconds": 31,
+      "text": "our teeth into. Before we jump into"
+    },
+    {
+      "id": "llu261:caption:19",
+      "startSeconds": 33,
+      "text": "today's episode, I want to give a quick"
+    },
+    {
+      "id": "llu261:caption:20",
+      "startSeconds": 35,
+      "text": "shout-out to this video's sponsor,"
+    },
+    {
+      "id": "llu261:caption:21",
+      "startSeconds": 36,
+      "text": "tcgplayer.com. TCGPlayer is the largest"
+    },
+    {
+      "id": "llu261:caption:22",
+      "startSeconds": 39,
+      "text": "online card marketplace out there. If"
+    },
+    {
+      "id": "llu261:caption:23",
+      "startSeconds": 41,
+      "text": "you're looking to buy cards, if you're"
+    },
+    {
+      "id": "llu261:caption:24",
+      "startSeconds": 42,
+      "text": "looking to sell cards, they have a"
+    },
+    {
+      "id": "llu261:caption:25",
+      "startSeconds": 43,
+      "text": "massive selection, they have a huge"
+    },
+    {
+      "id": "llu261:caption:26",
+      "startSeconds": 45,
+      "text": "number of vendors to choose from, and"
+    },
+    {
+      "id": "llu261:caption:27",
+      "startSeconds": 47,
+      "text": "they have a great customer support"
+    },
+    {
+      "id": "llu261:caption:28",
+      "startSeconds": 49,
+      "text": "system. So, for all your paper magical"
+    },
+    {
+      "id": "llu261:caption:29",
+      "startSeconds": 51,
+      "text": "needs, check it out. I've got a"
+    },
+    {
+      "id": "llu261:caption:30",
+      "startSeconds": 53,
+      "text": "affiliate link in the description of"
+    },
+    {
+      "id": "llu261:caption:31",
+      "startSeconds": 54,
+      "text": "this video if you want to support the"
+    },
+    {
+      "id": "llu261:caption:32",
+      "startSeconds": 55,
+      "text": "channel. And yeah, let's just jump into"
+    },
+    {
+      "id": "llu261:caption:33",
+      "startSeconds": 56,
+      "text": "talking about Reality Fracture."
+    },
+    {
+      "id": "llu261:caption:34",
+      "startSeconds": 65,
+      "text": "Okay, so in this set with a lot of"
+    },
+    {
+      "id": "llu261:caption:35",
+      "startSeconds": 67,
+      "text": "things going on, I think we can start"
+    },
+    {
+      "id": "llu261:caption:36",
+      "startSeconds": 69,
+      "text": "with the two main things happening this"
+    },
+    {
+      "id": "llu261:caption:37",
+      "startSeconds": 71,
+      "text": "set, the two headliners. And one's a bit"
+    },
+    {
+      "id": "llu261:caption:38",
+      "startSeconds": 73,
+      "text": "more thematic, one's a bit more"
+    },
+    {
+      "id": "llu261:caption:39",
+      "startSeconds": 75,
+      "text": "mechanical. The thematic one is the"
+    },
+    {
+      "id": "llu261:caption:40",
+      "startSeconds": 78,
+      "text": "Echoed Pairs. So, the whole flavor"
+    },
+    {
+      "id": "llu261:caption:41",
+      "startSeconds": 80,
+      "text": "concept for this set, if you haven't"
+    },
+    {
+      "id": "llu261:caption:42",
+      "startSeconds": 81,
+      "text": "seen this, is everyone's favorite sad"
+    },
+    {
+      "id": "llu261:caption:43",
+      "startSeconds": 84,
+      "text": "boy Jace has apparently created an"
+    },
+    {
+      "id": "llu261:caption:44",
+      "startSeconds": 87,
+      "text": "alternate reality, and they're calling"
+    },
+    {
+      "id": "llu261:caption:45",
+      "startSeconds": 88,
+      "text": "this the Echoverse. And in this"
+    },
+    {
+      "id": "llu261:caption:46",
+      "startSeconds": 90,
+      "text": "Echoverse, kind of like the Bizarro"
+    },
+    {
+      "id": "llu261:caption:47",
+      "startSeconds": 92,
+      "text": "World to our Multiverse, we have these"
+    },
+    {
+      "id": "llu261:caption:48",
+      "startSeconds": 93,
+      "text": "legendary creatures and planeswalkers"
+    },
+    {
+      "id": "llu261:caption:49",
+      "startSeconds": 95,
+      "text": "that pretty well. You know, we've seen"
+    },
+    {
+      "id": "llu261:caption:50",
+      "startSeconds": 97,
+      "text": "them a lot. Liliana, Thalia, Yargle,"
+    },
+    {
+      "id": "llu261:caption:51",
+      "startSeconds": 99,
+      "text": "Fblthp, you know, all these well-known"
+    },
+    {
+      "id": "llu261:caption:52",
+      "startSeconds": 101,
+      "text": "characters. And they get two cards in"
+    },
+    {
+      "id": "llu261:caption:53",
+      "startSeconds": 103,
+      "text": "this set. One of them will be just a"
+    },
+    {
+      "id": "llu261:caption:54",
+      "startSeconds": 105,
+      "text": "normal card, the Multiverse version of"
+    },
+    {
+      "id": "llu261:caption:55",
+      "startSeconds": 107,
+      "text": "the card, and then the Echoverse version"
+    },
+    {
+      "id": "llu261:caption:56",
+      "startSeconds": 108,
+      "text": "of the card will be a different color."
+    },
+    {
+      "id": "llu261:caption:57",
+      "startSeconds": 111,
+      "text": "And you know, the character itself is"
+    },
+    {
+      "id": "llu261:caption:58",
+      "startSeconds": 113,
+      "text": "kind of leading a different life. So,"
+    },
+    {
+      "id": "llu261:caption:59",
+      "startSeconds": 114,
+      "text": "the example here is Fblthp in Possibly"
+    },
+    {
+      "id": "llu261:caption:60",
+      "startSeconds": 117,
+      "text": "Lost. One and a blue for a legendary"
+    },
+    {
+      "id": "llu261:caption:61",
+      "startSeconds": 119,
+      "text": "uncommon. He's a 1/1. When one or more"
+    },
+    {
+      "id": "llu261:caption:62",
+      "startSeconds": 121,
+      "text": "opponents are dealt combat damage during"
+    },
+    {
+      "id": "llu261:caption:63",
+      "startSeconds": 123,
+      "text": "your turn, draw two cards. If your"
+    },
+    {
+      "id": "llu261:caption:64",
+      "startSeconds": 126,
+      "text": "library has no cards in it, you win the"
+    },
+    {
+      "id": "llu261:caption:65",
+      "startSeconds": 127,
+      "text": "game, and then Fblthp's owner shuffles"
+    },
+    {
+      "id": "llu261:caption:66",
+      "startSeconds": 129,
+      "text": "him into their library. So, that's the"
+    },
+    {
+      "id": "llu261:caption:67",
+      "startSeconds": 130,
+      "text": "multiverse version. The Echo Verse"
+    },
+    {
+      "id": "llu261:caption:68",
+      "startSeconds": 132,
+      "text": "version is Fblthp Knows the Way, which"
+    },
+    {
+      "id": "llu261:caption:69",
+      "startSeconds": 134,
+      "text": "is X green green for a legendary"
+    },
+    {
+      "id": "llu261:caption:70",
+      "startSeconds": 136,
+      "text": "uncommon. It's a star two. Says domain."
+    },
+    {
+      "id": "llu261:caption:71",
+      "startSeconds": 139,
+      "text": "Fblthp's power is equal to the number of"
+    },
+    {
+      "id": "llu261:caption:72",
+      "startSeconds": 141,
+      "text": "basic land types among lands you"
+    },
+    {
+      "id": "llu261:caption:73",
+      "startSeconds": 143,
+      "text": "control. And when Fblthp enters, search"
+    },
+    {
+      "id": "llu261:caption:74",
+      "startSeconds": 145,
+      "text": "your library for up to X basic land"
+    },
+    {
+      "id": "llu261:caption:75",
+      "startSeconds": 147,
+      "text": "cards with different names, reveal them,"
+    },
+    {
+      "id": "llu261:caption:76",
+      "startSeconds": 149,
+      "text": "put them into your hand, then shuffle."
+    },
+    {
+      "id": "llu261:caption:77",
+      "startSeconds": 150,
+      "text": "So, already, guys, that was a lot of"
+    },
+    {
+      "id": "llu261:caption:78",
+      "startSeconds": 151,
+      "text": "words. So, these are just uncommons."
+    },
+    {
+      "id": "llu261:caption:79",
+      "startSeconds": 153,
+      "text": "Kind of see what I'm getting at with a"
+    },
+    {
+      "id": "llu261:caption:80",
+      "startSeconds": 154,
+      "text": "lot going on in the complexity with"
+    },
+    {
+      "id": "llu261:caption:81",
+      "startSeconds": 156,
+      "text": "these cards. So, that's kind of the main"
+    },
+    {
+      "id": "llu261:caption:82",
+      "startSeconds": 158,
+      "text": "gimmick, and the main way that this"
+    },
+    {
+      "id": "llu261:caption:83",
+      "startSeconds": 160,
+      "text": "affects us drafters is you get to see"
+    },
+    {
+      "id": "llu261:caption:84",
+      "startSeconds": 163,
+      "text": "three of these per pack. And you're"
+    },
+    {
+      "id": "llu261:caption:85",
+      "startSeconds": 165,
+      "text": "like, wait, three, that's that's weird."
+    },
+    {
+      "id": "llu261:caption:86",
+      "startSeconds": 166,
+      "text": "I thought these were pairs. This is"
+    },
+    {
+      "id": "llu261:caption:87",
+      "startSeconds": 168,
+      "text": "true. So, what's going to happen is you"
+    },
+    {
+      "id": "llu261:caption:88",
+      "startSeconds": 170,
+      "text": "get one of the pairs, so the Fblthp"
+    },
+    {
+      "id": "llu261:caption:89",
+      "startSeconds": 172,
+      "text": "pair, for example, and you'll also get"
+    },
+    {
+      "id": "llu261:caption:90",
+      "startSeconds": 174,
+      "text": "one more half of a pair. And the reason"
+    },
+    {
+      "id": "llu261:caption:91",
+      "startSeconds": 178,
+      "text": "they're doing this, I think, is so when"
+    },
+    {
+      "id": "llu261:caption:92",
+      "startSeconds": 180,
+      "text": "you pick one pack one, take one of these"
+    },
+    {
+      "id": "llu261:caption:93",
+      "startSeconds": 182,
+      "text": "Echo Verse or Multiverse cards, you pass"
+    },
+    {
+      "id": "llu261:caption:94",
+      "startSeconds": 184,
+      "text": "your pack, the person next to you can't"
+    },
+    {
+      "id": "llu261:caption:95",
+      "startSeconds": 187,
+      "text": "just be like, oh, they took the blue"
+    },
+    {
+      "id": "llu261:caption:96",
+      "startSeconds": 188,
+      "text": "Fblthp, cuz there's a green Fblthp here."
+    },
+    {
+      "id": "llu261:caption:97",
+      "startSeconds": 190,
+      "text": "You know, I know exactly what happened"
+    },
+    {
+      "id": "llu261:caption:98",
+      "startSeconds": 191,
+      "text": "here. So, that additional half pair just"
+    },
+    {
+      "id": "llu261:caption:99",
+      "startSeconds": 193,
+      "text": "conceals some information about what the"
+    },
+    {
+      "id": "llu261:caption:100",
+      "startSeconds": 195,
+      "text": "person next to you is drafting. The"
+    },
+    {
+      "id": "llu261:caption:101",
+      "startSeconds": 197,
+      "text": "other big thing happening in this set is"
+    },
+    {
+      "id": "llu261:caption:102",
+      "startSeconds": 199,
+      "text": "the Empower Jace mechanic, which is sort"
+    },
+    {
+      "id": "llu261:caption:103",
+      "startSeconds": 202,
+      "text": "of like Jace Amass, conceptually,"
+    },
+    {
+      "id": "llu261:caption:104",
+      "startSeconds": 205,
+      "text": "anyways. So, as an example, we've got"
+    },
+    {
+      "id": "llu261:caption:105",
+      "startSeconds": 207,
+      "text": "Mindseeker Oculus. This is a common."
+    },
+    {
+      "id": "llu261:caption:106",
+      "startSeconds": 209,
+      "text": "It's two and a blue for a 2/1. And when"
+    },
+    {
+      "id": "llu261:caption:107",
+      "startSeconds": 211,
+      "text": "it enters, you empower Jace four, which"
+    },
+    {
+      "id": "llu261:caption:108",
+      "startSeconds": 214,
+      "text": "says, put four loyalty counters on a"
+    },
+    {
+      "id": "llu261:caption:109",
+      "startSeconds": 217,
+      "text": "Jace token you control. If you don't"
+    },
+    {
+      "id": "llu261:caption:110",
+      "startSeconds": 219,
+      "text": "control one, first create a blue Jace"
+    },
+    {
+      "id": "llu261:caption:111",
+      "startSeconds": 222,
+      "text": "planeswalker token with negative one,"
+    },
+    {
+      "id": "llu261:caption:112",
+      "startSeconds": 224,
+      "text": "surveil one, and negative three, draw"
+    },
+    {
+      "id": "llu261:caption:113",
+      "startSeconds": 227,
+      "text": "card. So, there are all these cards."
+    },
+    {
+      "id": "llu261:caption:114",
+      "startSeconds": 229,
+      "text": "Sometimes they're on spells, sometimes"
+    },
+    {
+      "id": "llu261:caption:115",
+      "startSeconds": 230,
+      "text": "they're on own"
+    },
+    {
+      "id": "llu261:caption:116",
+      "startSeconds": 232,
+      "text": "that'll will come with Empower Jace 2 or"
+    },
+    {
+      "id": "llu261:caption:117",
+      "startSeconds": 233,
+      "text": "Empower Jace 3. I think there's Empower"
+    },
+    {
+      "id": "llu261:caption:118",
+      "startSeconds": 236,
+      "text": "Jace 8 is the biggest thing I've seen so"
+    },
+    {
+      "id": "llu261:caption:119",
+      "startSeconds": 238,
+      "text": "far. Kind of tricky to evaluate, right?"
+    },
+    {
+      "id": "llu261:caption:120",
+      "startSeconds": 240,
+      "text": "Most obviously, the anchor point is,"
+    },
+    {
+      "id": "llu261:caption:121",
+      "startSeconds": 242,
+      "text": "okay, you see Empower Jace 3, you can"
+    },
+    {
+      "id": "llu261:caption:122",
+      "startSeconds": 245,
+      "text": "kind of just translate that into draw a"
+    },
+    {
+      "id": "llu261:caption:123",
+      "startSeconds": 247,
+      "text": "card, but even that's a little bit"
+    },
+    {
+      "id": "llu261:caption:124",
+      "startSeconds": 249,
+      "text": "fuzzy. Because unlike a normal card draw"
+    },
+    {
+      "id": "llu261:caption:125",
+      "startSeconds": 251,
+      "text": "spell, you also have to factor in the"
+    },
+    {
+      "id": "llu261:caption:126",
+      "startSeconds": 253,
+      "text": "dimension of time, right? Cuz you have a"
+    },
+    {
+      "id": "llu261:caption:127",
+      "startSeconds": 255,
+      "text": "bunch of unpowered Jace cards, you're"
+    },
+    {
+      "id": "llu261:caption:128",
+      "startSeconds": 257,
+      "text": "not just going to end up with a full"
+    },
+    {
+      "id": "llu261:caption:129",
+      "startSeconds": 258,
+      "text": "hand automatically. You have a a big"
+    },
+    {
+      "id": "llu261:caption:130",
+      "startSeconds": 260,
+      "text": "loyalty planeswalker, but you can only"
+    },
+    {
+      "id": "llu261:caption:131",
+      "startSeconds": 262,
+      "text": "draw an additional card each turn. So,"
+    },
+    {
+      "id": "llu261:caption:132",
+      "startSeconds": 264,
+      "text": "that's a small wrinkle. The other"
+    },
+    {
+      "id": "llu261:caption:133",
+      "startSeconds": 266,
+      "text": "wrinkle is that, well, this is on a"
+    },
+    {
+      "id": "llu261:caption:134",
+      "startSeconds": 267,
+      "text": "planeswalker. And a planeswalker can be"
+    },
+    {
+      "id": "llu261:caption:135",
+      "startSeconds": 270,
+      "text": "attacked, can be burned. That is another"
+    },
+    {
+      "id": "llu261:caption:136",
+      "startSeconds": 272,
+      "text": "question that I have going to the set."
+    },
+    {
+      "id": "llu261:caption:137",
+      "startSeconds": 274,
+      "text": "How often are you going to attack your"
+    },
+    {
+      "id": "llu261:caption:138",
+      "startSeconds": 276,
+      "text": "opponent's Jace's tokens, right? It's"
+    },
+    {
+      "id": "llu261:caption:139",
+      "startSeconds": 278,
+      "text": "just like, well, I could deny them a"
+    },
+    {
+      "id": "llu261:caption:140",
+      "startSeconds": 279,
+      "text": "card,"
+    },
+    {
+      "id": "llu261:caption:141",
+      "startSeconds": 281,
+      "text": "but they also might just have a lot of"
+    },
+    {
+      "id": "llu261:caption:142",
+      "startSeconds": 283,
+      "text": "Empower Jace cards, and maybe it's"
+    },
+    {
+      "id": "llu261:caption:143",
+      "startSeconds": 284,
+      "text": "better just to try to kill them, right?"
+    },
+    {
+      "id": "llu261:caption:144",
+      "startSeconds": 286,
+      "text": "Just get the game over with before they"
+    },
+    {
+      "id": "llu261:caption:145",
+      "startSeconds": 287,
+      "text": "can capitalize on all this card draw."
+    },
+    {
+      "id": "llu261:caption:146",
+      "startSeconds": 289,
+      "text": "These are all questions that I don't"
+    },
+    {
+      "id": "llu261:caption:147",
+      "startSeconds": 290,
+      "text": "have answers to you right now. They're"
+    },
+    {
+      "id": "llu261:caption:148",
+      "startSeconds": 291,
+      "text": "just things I'm thinking about, and I"
+    },
+    {
+      "id": "llu261:caption:149",
+      "startSeconds": 292,
+      "text": "kind of imagine with this mechanic,"
+    },
+    {
+      "id": "llu261:caption:150",
+      "startSeconds": 294,
+      "text": "because it's got some complexity to it,"
+    },
+    {
+      "id": "llu261:caption:151",
+      "startSeconds": 296,
+      "text": "we're not really going to get a great"
+    },
+    {
+      "id": "llu261:caption:152",
+      "startSeconds": 297,
+      "text": "feel for it until we actually get our"
+    },
+    {
+      "id": "llu261:caption:153",
+      "startSeconds": 299,
+      "text": "hands on the cards. I think this"
+    },
+    {
+      "id": "llu261:caption:154",
+      "startSeconds": 300,
+      "text": "mechanic would be a little bit boring if"
+    },
+    {
+      "id": "llu261:caption:155",
+      "startSeconds": 302,
+      "text": "it was just, oh, it's kind of a weird"
+    },
+    {
+      "id": "llu261:caption:156",
+      "startSeconds": 305,
+      "text": "way to draw cards. And so, luckily, it's"
+    },
+    {
+      "id": "llu261:caption:157",
+      "startSeconds": 307,
+      "text": "not that. Your Jace token has other"
+    },
+    {
+      "id": "llu261:caption:158",
+      "startSeconds": 309,
+      "text": "applications. So, another theme in this"
+    },
+    {
+      "id": "llu261:caption:159",
+      "startSeconds": 311,
+      "text": "set is it's a planeswalker-ish set."
+    },
+    {
+      "id": "llu261:caption:160",
+      "startSeconds": 313,
+      "text": "You're going to see some cards that care"
+    },
+    {
+      "id": "llu261:caption:161",
+      "startSeconds": 315,
+      "text": "about planeswalkers. And one of the main"
+    },
+    {
+      "id": "llu261:caption:162",
+      "startSeconds": 316,
+      "text": "ways that your Jace tokens are really"
+    },
+    {
+      "id": "llu261:caption:163",
+      "startSeconds": 318,
+      "text": "going to matter is because of the cycle"
+    },
+    {
+      "id": "llu261:caption:164",
+      "startSeconds": 320,
+      "text": "of ways. And I actually think it's a"
+    },
+    {
+      "id": "llu261:caption:165",
+      "startSeconds": 322,
+      "text": "it's a double cycle. I think there's two"
+    },
+    {
+      "id": "llu261:caption:166",
+      "startSeconds": 324,
+      "text": "cycles that are uncommon. So, each color"
+    },
+    {
+      "id": "llu261:caption:167",
+      "startSeconds": 326,
+      "text": "gets two of these cards. For example,"
+    },
+    {
+      "id": "llu261:caption:168",
+      "startSeconds": 328,
+      "text": "we've got Way of the Healer, which is"
+    },
+    {
+      "id": "llu261:caption:169",
+      "startSeconds": 330,
+      "text": "three and a white for a legendary"
+    },
+    {
+      "id": "llu261:caption:170",
+      "startSeconds": 331,
+      "text": "enchantment. When it enters, Empower"
+    },
+    {
+      "id": "llu261:caption:171",
+      "startSeconds": 334,
+      "text": "Jace 5, and planeswalkers you control"
+    },
+    {
+      "id": "llu261:caption:172",
+      "startSeconds": 337,
+      "text": "have -2, create a 2/2 colorless Wizard"
+    },
+    {
+      "id": "llu261:caption:173",
+      "startSeconds": 340,
+      "text": "Soldier token named Cadet, and you"
+    },
+    {
+      "id": "llu261:caption:174",
+      "startSeconds": 342,
+      "text": "surveil one. So, all of these way cards,"
+    },
+    {
+      "id": "llu261:caption:175",
+      "startSeconds": 345,
+      "text": "they Empower Jace when they enter, and"
+    },
+    {
+      "id": "llu261:caption:176",
+      "startSeconds": 347,
+      "text": "they give your Planeswalkers an"
+    },
+    {
+      "id": "llu261:caption:177",
+      "startSeconds": 348,
+      "text": "additional ability. And this card, by"
+    },
+    {
+      "id": "llu261:caption:178",
+      "startSeconds": 350,
+      "text": "the way, in particular, way of the"
+    },
+    {
+      "id": "llu261:caption:179",
+      "startSeconds": 351,
+      "text": "healer, seems pretty good. I think in"
+    },
+    {
+      "id": "llu261:caption:180",
+      "startSeconds": 353,
+      "text": "most cases you'd prefer to -2 make it"
+    },
+    {
+      "id": "llu261:caption:181",
+      "startSeconds": 355,
+      "text": "2/2 surveil one rather than -3 draw"
+    },
+    {
+      "id": "llu261:caption:182",
+      "startSeconds": 358,
+      "text": "card. Like it seems like a really nice"
+    },
+    {
+      "id": "llu261:caption:183",
+      "startSeconds": 360,
+      "text": "upgrade on Jace's base abilities. You'll"
+    },
+    {
+      "id": "llu261:caption:184",
+      "startSeconds": 362,
+      "text": "also see cards like Compel Brutality,"
+    },
+    {
+      "id": "llu261:caption:185",
+      "startSeconds": 363,
+      "text": "which is one and a green for an instant."
+    },
+    {
+      "id": "llu261:caption:186",
+      "startSeconds": 365,
+      "text": "You choose one. Target creature you"
+    },
+    {
+      "id": "llu261:caption:187",
+      "startSeconds": 367,
+      "text": "control deals damage equal to its power"
+    },
+    {
+      "id": "llu261:caption:188",
+      "startSeconds": 369,
+      "text": "to target creature or Planeswalker an"
+    },
+    {
+      "id": "llu261:caption:189",
+      "startSeconds": 371,
+      "text": "opponent controls or target Planeswalker"
+    },
+    {
+      "id": "llu261:caption:190",
+      "startSeconds": 374,
+      "text": "you control deals damage equal to its"
+    },
+    {
+      "id": "llu261:caption:191",
+      "startSeconds": 376,
+      "text": "loyalty to target creature or"
+    },
+    {
+      "id": "llu261:caption:192",
+      "startSeconds": 377,
+      "text": "Planeswalker an opponent controls. This"
+    },
+    {
+      "id": "llu261:caption:193",
+      "startSeconds": 379,
+      "text": "card seems really, really good, by the"
+    },
+    {
+      "id": "llu261:caption:194",
+      "startSeconds": 381,
+      "text": "way. It is so much less likely your"
+    },
+    {
+      "id": "llu261:caption:195",
+      "startSeconds": 382,
+      "text": "opponent can blow the spell out if you"
+    },
+    {
+      "id": "llu261:caption:196",
+      "startSeconds": 383,
+      "text": "target your Planeswalker rather than"
+    },
+    {
+      "id": "llu261:caption:197",
+      "startSeconds": 385,
+      "text": "targeting a creature. And maybe your"
+    },
+    {
+      "id": "llu261:caption:198",
+      "startSeconds": 388,
+      "text": "Planeswalker is just sitting with a ton"
+    },
+    {
+      "id": "llu261:caption:199",
+      "startSeconds": 389,
+      "text": "of loyalty and this is like a two-mana"
+    },
+    {
+      "id": "llu261:caption:200",
+      "startSeconds": 391,
+      "text": "deal eight or something. Next up, let's"
+    },
+    {
+      "id": "llu261:caption:201",
+      "startSeconds": 393,
+      "text": "talk about some archetypes and it is a"
+    },
+    {
+      "id": "llu261:caption:202",
+      "startSeconds": 396,
+      "text": "10-color pair set, but it's like"
+    },
+    {
+      "id": "llu261:caption:203",
+      "startSeconds": 398,
+      "text": "slightly weird. It's a little bit"
+    },
+    {
+      "id": "llu261:caption:204",
+      "startSeconds": 399,
+      "text": "off-kilter. So, the structure of this"
+    },
+    {
+      "id": "llu261:caption:205",
+      "startSeconds": 402,
+      "text": "set is somewhat divided into the enemy"
+    },
+    {
+      "id": "llu261:caption:206",
+      "startSeconds": 406,
+      "text": "color pairs and the allied color pairs."
+    },
+    {
+      "id": "llu261:caption:207",
+      "startSeconds": 408,
+      "text": "The decks for the allied color pairs are"
+    },
+    {
+      "id": "llu261:caption:208",
+      "startSeconds": 411,
+      "text": "the inverse of Strixhaven, right? So, in"
+    },
+    {
+      "id": "llu261:caption:209",
+      "startSeconds": 413,
+      "text": "Jace's alternate universe, uh Hexhaven"
+    },
+    {
+      "id": "llu261:caption:210",
+      "startSeconds": 415,
+      "text": "is what I think it's called. We've got"
+    },
+    {
+      "id": "llu261:caption:211",
+      "startSeconds": 416,
+      "text": "all these alternative schools. So,"
+    },
+    {
+      "id": "llu261:caption:212",
+      "startSeconds": 418,
+      "text": "instead of Quandrix and Lorehold,"
+    },
+    {
+      "id": "llu261:caption:213",
+      "startSeconds": 420,
+      "text": "they've got like these like really kind"
+    },
+    {
+      "id": "llu261:caption:214",
+      "startSeconds": 422,
+      "text": "of dorky names like Faithhold and"
+    },
+    {
+      "id": "llu261:caption:215",
+      "startSeconds": 424,
+      "text": "Theorex and Stinger Quill. That's a"
+    },
+    {
+      "id": "llu261:caption:216",
+      "startSeconds": 426,
+      "text": "little bit ham-fisted. But anyways,"
+    },
+    {
+      "id": "llu261:caption:217",
+      "startSeconds": 428,
+      "text": "almost like a Strixhaven set. Like just"
+    },
+    {
+      "id": "llu261:caption:218",
+      "startSeconds": 431,
+      "text": "think about uh the archetypes in a"
+    },
+    {
+      "id": "llu261:caption:219",
+      "startSeconds": 432,
+      "text": "Strixhaven set, what they're doing,"
+    },
+    {
+      "id": "llu261:caption:220",
+      "startSeconds": 434,
+      "text": "pretty similar to what's going on with"
+    },
+    {
+      "id": "llu261:caption:221",
+      "startSeconds": 436,
+      "text": "the allied color pairs. For the enemy"
+    },
+    {
+      "id": "llu261:caption:222",
+      "startSeconds": 439,
+      "text": "color pairs, their themes are not as"
+    },
+    {
+      "id": "llu261:caption:223",
+      "startSeconds": 443,
+      "text": "obvious, but according to WotC, just as"
+    },
+    {
+      "id": "llu261:caption:224",
+      "startSeconds": 446,
+      "text": "supported. And this sounds a little bit"
+    },
+    {
+      "id": "llu261:caption:225",
+      "startSeconds": 448,
+      "text": "like ELC, right? Sounds like Lorwyn"
+    },
+    {
+      "id": "llu261:caption:226",
+      "startSeconds": 450,
+      "text": "block. I I The vibe I get from it is"
+    },
+    {
+      "id": "llu261:caption:227",
+      "startSeconds": 453,
+      "text": "it's somewhere between a Lorwyn block"
+    },
+    {
+      "id": "llu261:caption:228",
+      "startSeconds": 456,
+      "text": "and a actual full evenly divided all the"
+    },
+    {
+      "id": "llu261:caption:229",
+      "startSeconds": 459,
+      "text": "10-color pairs are uh attended to"
+    },
+    {
+      "id": "llu261:caption:230",
+      "startSeconds": 462,
+      "text": "evenly. Now, Lorwyn and Shadowmoor was"
+    },
+    {
+      "id": "llu261:caption:231",
+      "startSeconds": 464,
+      "text": "an experiment and I would say mostly a"
+    },
+    {
+      "id": "llu261:caption:232",
+      "startSeconds": 466,
+      "text": "failed experiment where they tried to go"
+    },
+    {
+      "id": "llu261:caption:233",
+      "startSeconds": 468,
+      "text": "like, here are the supported color pairs"
+    },
+    {
+      "id": "llu261:caption:234",
+      "startSeconds": 470,
+      "text": "and here are the unsupported color"
+    },
+    {
+      "id": "llu261:caption:235",
+      "startSeconds": 471,
+      "text": "pairs. And the unsupported color pairs,"
+    },
+    {
+      "id": "llu261:caption:236",
+      "startSeconds": 473,
+      "text": "you draft sometimes, but it was really"
+    },
+    {
+      "id": "llu261:caption:237",
+      "startSeconds": 475,
+      "text": "like you almost never drafted the"
+    },
+    {
+      "id": "llu261:caption:238",
+      "startSeconds": 477,
+      "text": "unsupported pairs. It kind of felt like"
+    },
+    {
+      "id": "llu261:caption:239",
+      "startSeconds": 478,
+      "text": "a 90/10 split where if you were to draft"
+    },
+    {
+      "id": "llu261:caption:240",
+      "startSeconds": 481,
+      "text": "the set 100 times, you'd draft the"
+    },
+    {
+      "id": "llu261:caption:241",
+      "startSeconds": 482,
+      "text": "unsupported pairs maybe like 10 out of"
+    },
+    {
+      "id": "llu261:caption:242",
+      "startSeconds": 484,
+      "text": "those 100. I think in this one, it's"
+    },
+    {
+      "id": "llu261:caption:243",
+      "startSeconds": 486,
+      "text": "more of a 60/40 split where I think 60%"
+    },
+    {
+      "id": "llu261:caption:244",
+      "startSeconds": 490,
+      "text": "of the time you're going to be drafting"
+    },
+    {
+      "id": "llu261:caption:245",
+      "startSeconds": 492,
+      "text": "one of the schools and then 40% of the"
+    },
+    {
+      "id": "llu261:caption:246",
+      "startSeconds": 494,
+      "text": "time you're going to be drafting one of"
+    },
+    {
+      "id": "llu261:caption:247",
+      "startSeconds": 496,
+      "text": "the non-schools, the enemy color pairs."
+    },
+    {
+      "id": "llu261:caption:248",
+      "startSeconds": 499,
+      "text": "So, what are those enemy color pairs"
+    },
+    {
+      "id": "llu261:caption:249",
+      "startSeconds": 500,
+      "text": "doing? Well, one thing they actually"
+    },
+    {
+      "id": "llu261:caption:250",
+      "startSeconds": 502,
+      "text": "mentioned on one of the WotC streams is"
+    },
+    {
+      "id": "llu261:caption:251",
+      "startSeconds": 504,
+      "text": "they tried to design things where the"
+    },
+    {
+      "id": "llu261:caption:252",
+      "startSeconds": 506,
+      "text": "schools, the allied color pairs, are"
+    },
+    {
+      "id": "llu261:caption:253",
+      "startSeconds": 509,
+      "text": "more obvious. They're more just like,"
+    },
+    {
+      "id": "llu261:caption:254",
+      "startSeconds": 511,
+      "text": "oh, I see what this deck is doing just"
+    },
+    {
+      "id": "llu261:caption:255",
+      "startSeconds": 513,
+      "text": "by looking at the cards. For example,"
+    },
+    {
+      "id": "llu261:caption:256",
+      "startSeconds": 515,
+      "text": "green-white cares about life gain and"
+    },
+    {
+      "id": "llu261:caption:257",
+      "startSeconds": 518,
+      "text": "plus-one/plus-one counters. And as a"
+    },
+    {
+      "id": "llu261:caption:258",
+      "startSeconds": 521,
+      "text": "newer player or somebody less"
+    },
+    {
+      "id": "llu261:caption:259",
+      "startSeconds": 522,
+      "text": "experienced in limited, you can be like,"
+    },
+    {
+      "id": "llu261:caption:260",
+      "startSeconds": 523,
+      "text": "oh, green-white is clearly doing this"
+    },
+    {
+      "id": "llu261:caption:261",
+      "startSeconds": 525,
+      "text": "thing. And what it sounds like they were"
+    },
+    {
+      "id": "llu261:caption:262",
+      "startSeconds": 526,
+      "text": "saying is for the enemy color pairs,"
+    },
+    {
+      "id": "llu261:caption:263",
+      "startSeconds": 528,
+      "text": "their teams are not as obvious and they"
+    },
+    {
+      "id": "llu261:caption:264",
+      "startSeconds": 532,
+      "text": "kind of left it up to the drafters to"
+    },
+    {
+      "id": "llu261:caption:265",
+      "startSeconds": 534,
+      "text": "explore, right? It's just like, okay,"
+    },
+    {
+      "id": "llu261:caption:266",
+      "startSeconds": 535,
+      "text": "there's some stuff here and there are"
+    },
+    {
+      "id": "llu261:caption:267",
+      "startSeconds": 536,
+      "text": "some, yeah, things you can piece"
+    },
+    {
+      "id": "llu261:caption:268",
+      "startSeconds": 538,
+      "text": "together, some threads of like, oh,"
+    },
+    {
+      "id": "llu261:caption:269",
+      "startSeconds": 539,
+      "text": "red-white's kind of doing this, but it's"
+    },
+    {
+      "id": "llu261:caption:270",
+      "startSeconds": 542,
+      "text": "it's a bit more broad. It's a bit more"
+    },
+    {
+      "id": "llu261:caption:271",
+      "startSeconds": 544,
+      "text": "like drafter's choice. You got to kind"
+    },
+    {
+      "id": "llu261:caption:272",
+      "startSeconds": 546,
+      "text": "of piece things together. The synergy"
+    },
+    {
+      "id": "llu261:caption:273",
+      "startSeconds": 548,
+      "text": "cards are there. There's not as spelled"
+    },
+    {
+      "id": "llu261:caption:274",
+      "startSeconds": 550,
+      "text": "out is again the vibe I'm getting from"
+    },
+    {
+      "id": "llu261:caption:275",
+      "startSeconds": 552,
+      "text": "looking at the cards and hearing what"
+    },
+    {
+      "id": "llu261:caption:276",
+      "startSeconds": 553,
+      "text": "they've said so far. Now, I could see"
+    },
+    {
+      "id": "llu261:caption:277",
+      "startSeconds": 555,
+      "text": "this not working and it ends up feeling"
+    },
+    {
+      "id": "llu261:caption:278",
+      "startSeconds": 557,
+      "text": "a little more like Lorwyn and Shadowmoor"
+    },
+    {
+      "id": "llu261:caption:279",
+      "startSeconds": 558,
+      "text": "than not, but if this pans out, I think"
+    },
+    {
+      "id": "llu261:caption:280",
+      "startSeconds": 561,
+      "text": "that's really really cool. Like I think"
+    },
+    {
+      "id": "llu261:caption:281",
+      "startSeconds": 562,
+      "text": "it's a really cool way to structure a"
+    },
+    {
+      "id": "llu261:caption:282",
+      "startSeconds": 564,
+      "text": "set. Like, here's the obvious stuff and"
+    },
+    {
+      "id": "llu261:caption:283",
+      "startSeconds": 566,
+      "text": "if you're reading the signals and you"
+    },
+    {
+      "id": "llu261:caption:284",
+      "startSeconds": 568,
+      "text": "get the the good cards for black-white"
+    },
+    {
+      "id": "llu261:caption:285",
+      "startSeconds": 570,
+      "text": "for example and you know how to piece"
+    },
+    {
+      "id": "llu261:caption:286",
+      "startSeconds": 572,
+      "text": "things together, you know, you feel very"
+    },
+    {
+      "id": "llu261:caption:287",
+      "startSeconds": 573,
+      "text": "smart about yourself. You're like, ooh,"
+    },
+    {
+      "id": "llu261:caption:288",
+      "startSeconds": 575,
+      "text": "I'm doing this thing that maybe some"
+    },
+    {
+      "id": "llu261:caption:289",
+      "startSeconds": 576,
+      "text": "other people don't know how to draft."
+    },
+    {
+      "id": "llu261:caption:290",
+      "startSeconds": 577,
+      "text": "So, yeah, that that should be kind of"
+    },
+    {
+      "id": "llu261:caption:291",
+      "startSeconds": 579,
+      "text": "interesting if it does pan out that way,"
+    },
+    {
+      "id": "llu261:caption:292",
+      "startSeconds": 581,
+      "text": "and I hope it does. So, we'll start with"
+    },
+    {
+      "id": "llu261:caption:293",
+      "startSeconds": 582,
+      "text": "the schools, the allied color pairs, and"
+    },
+    {
+      "id": "llu261:caption:294",
+      "startSeconds": 585,
+      "text": "each of the schools get a uncommon gold"
+    },
+    {
+      "id": "llu261:caption:295",
+      "startSeconds": 587,
+      "text": "card, a uncommon hybrid card, and a"
+    },
+    {
+      "id": "llu261:caption:296",
+      "startSeconds": 591,
+      "text": "charm. So, I guess this is a secondary"
+    },
+    {
+      "id": "llu261:caption:297",
+      "startSeconds": 593,
+      "text": "uncommon gold card. And for the hybrid"
+    },
+    {
+      "id": "llu261:caption:298",
+      "startSeconds": 596,
+      "text": "cards, one of the things that they've"
+    },
+    {
+      "id": "llu261:caption:299",
+      "startSeconds": 597,
+      "text": "done is they're all prepared cards, like"
+    },
+    {
+      "id": "llu261:caption:300",
+      "startSeconds": 599,
+      "text": "from Strixhaven. And their prepared"
+    },
+    {
+      "id": "llu261:caption:301",
+      "startSeconds": 602,
+      "text": "spell is exclusive to the school. And"
+    },
+    {
+      "id": "llu261:caption:302",
+      "startSeconds": 606,
+      "text": "every single card from that school will"
+    },
+    {
+      "id": "llu261:caption:303",
+      "startSeconds": 608,
+      "text": "get the same prepared card. So, for"
+    },
+    {
+      "id": "llu261:caption:304",
+      "startSeconds": 610,
+      "text": "example here, Wood Weaver Prodigy is two"
+    },
+    {
+      "id": "llu261:caption:305",
+      "startSeconds": 613,
+      "text": "and a hybrid green red for a 3/3 that"
+    },
+    {
+      "id": "llu261:caption:306",
+      "startSeconds": 615,
+      "text": "says at the beginning of your upkeep, if"
+    },
+    {
+      "id": "llu261:caption:307",
+      "startSeconds": 616,
+      "text": "this creature isn't prepared, it becomes"
+    },
+    {
+      "id": "llu261:caption:308",
+      "startSeconds": 618,
+      "text": "prepared, and the prepared spell is Soul"
+    },
+    {
+      "id": "llu261:caption:309",
+      "startSeconds": 620,
+      "text": "Tether, two and a green red hybrid"
+    },
+    {
+      "id": "llu261:caption:310",
+      "startSeconds": 622,
+      "text": "sorcery, create a Heartwood token, which"
+    },
+    {
+      "id": "llu261:caption:311",
+      "startSeconds": 625,
+      "text": "is a token that is an artifact that taps"
+    },
+    {
+      "id": "llu261:caption:312",
+      "startSeconds": 627,
+      "text": "for red or green mana, and every single"
+    },
+    {
+      "id": "llu261:caption:313",
+      "startSeconds": 630,
+      "text": "green red prepared card will have this"
+    },
+    {
+      "id": "llu261:caption:314",
+      "startSeconds": 632,
+      "text": "exact same prepared spell. So, we get"
+    },
+    {
+      "id": "llu261:caption:315",
+      "startSeconds": 634,
+      "text": "some consistency of strategy, basically."
+    },
+    {
+      "id": "llu261:caption:316",
+      "startSeconds": 637,
+      "text": "And like this card points to, green"
+    },
+    {
+      "id": "llu261:caption:317",
+      "startSeconds": 639,
+      "text": "red's theme in this set is ramping, like"
+    },
+    {
+      "id": "llu261:caption:318",
+      "startSeconds": 641,
+      "text": "it's a actual try and true dedicated"
+    },
+    {
+      "id": "llu261:caption:319",
+      "startSeconds": 643,
+      "text": "ramp deck. And what are we ramping to,"
+    },
+    {
+      "id": "llu261:caption:320",
+      "startSeconds": 645,
+      "text": "you're asking? That's a great question."
+    },
+    {
+      "id": "llu261:caption:321",
+      "startSeconds": 646,
+      "text": "And get ready for this one. This uh this"
+    },
+    {
+      "id": "llu261:caption:322",
+      "startSeconds": 648,
+      "text": "is kind of a sicko. Before the English"
+    },
+    {
+      "id": "llu261:caption:323",
+      "startSeconds": 650,
+      "text": "name was revealed for this one, Scryfall"
+    },
+    {
+      "id": "llu261:caption:324",
+      "startSeconds": 652,
+      "text": "listed this as how to go X 0 at your"
+    },
+    {
+      "id": "llu261:caption:325",
+      "startSeconds": 655,
+      "text": "pre-release. Craftwork Crusher is three"
+    },
+    {
+      "id": "llu261:caption:326",
+      "startSeconds": 659,
+      "text": "red red green green for a 7/5 trample"
+    },
+    {
+      "id": "llu261:caption:327",
+      "startSeconds": 663,
+      "text": "artifact creature. When it enters, you"
+    },
+    {
+      "id": "llu261:caption:328",
+      "startSeconds": 665,
+      "text": "choose two. Either deal four damage to"
+    },
+    {
+      "id": "llu261:caption:329",
+      "startSeconds": 668,
+      "text": "target creature or planeswalker, make a"
+    },
+    {
+      "id": "llu261:caption:330",
+      "startSeconds": 670,
+      "text": "2/2 Cadet token, or draw a card. And"
+    },
+    {
+      "id": "llu261:caption:331",
+      "startSeconds": 673,
+      "text": "remember, this is a ramp archetype, so"
+    },
+    {
+      "id": "llu261:caption:332",
+      "startSeconds": 676,
+      "text": "this seven-mana card is going to come"
+    },
+    {
+      "id": "llu261:caption:333",
+      "startSeconds": 677,
+      "text": "down on six pretty often. This is the"
+    },
+    {
+      "id": "llu261:caption:334",
+      "startSeconds": 679,
+      "text": "kind of card that would absolutely have"
+    },
+    {
+      "id": "llu261:caption:335",
+      "startSeconds": 680,
+      "text": "been a rare five or six years ago. And"
+    },
+    {
+      "id": "llu261:caption:336",
+      "startSeconds": 683,
+      "text": "the charm also quite good. The charm"
+    },
+    {
+      "id": "llu261:caption:337",
+      "startSeconds": 685,
+      "text": "cycle in this set really strong. I think"
+    },
+    {
+      "id": "llu261:caption:338",
+      "startSeconds": 687,
+      "text": "stronger than the ones we saw in"
+    },
+    {
+      "id": "llu261:caption:339",
+      "startSeconds": 688,
+      "text": "Strixhaven. And I guess as a general"
+    },
+    {
+      "id": "llu261:caption:340",
+      "startSeconds": 690,
+      "text": "note, the gold cards in this set, they"
+    },
+    {
+      "id": "llu261:caption:341",
+      "startSeconds": 692,
+      "text": "they pushed them. Like these are some"
+    },
+    {
+      "id": "llu261:caption:342",
+      "startSeconds": 693,
+      "text": "really good gold cards. So, Constrari"
+    },
+    {
+      "id": "llu261:caption:343",
+      "startSeconds": 695,
+      "text": "Charm is green red for an instant."
+    },
+    {
+      "id": "llu261:caption:344",
+      "startSeconds": 697,
+      "text": "Choose one. Either deal six damage to"
+    },
+    {
+      "id": "llu261:caption:345",
+      "startSeconds": 699,
+      "text": "target creature with flying, put two"
+    },
+    {
+      "id": "llu261:caption:346",
+      "startSeconds": 701,
+      "text": "plus one plus one counters on target"
+    },
+    {
+      "id": "llu261:caption:347",
+      "startSeconds": 703,
+      "text": "creature and it gains trample until end"
+    },
+    {
+      "id": "llu261:caption:348",
+      "startSeconds": 704,
+      "text": "of turn, or add colorless colorless"
+    },
+    {
+      "id": "llu261:caption:349",
+      "startSeconds": 707,
+      "text": "colorless. So, it's kind of a a ritual."
+    },
+    {
+      "id": "llu261:caption:350",
+      "startSeconds": 710,
+      "text": "And this is I I like this card. That"
+    },
+    {
+      "id": "llu261:caption:351",
+      "startSeconds": 711,
+      "text": "second mode, plus two plus two counters"
+    },
+    {
+      "id": "llu261:caption:352",
+      "startSeconds": 714,
+      "text": "and trample, that's really good. Other"
+    },
+    {
+      "id": "llu261:caption:353",
+      "startSeconds": 715,
+      "text": "two modes, maybe a little bit less"
+    },
+    {
+      "id": "llu261:caption:354",
+      "startSeconds": 717,
+      "text": "often, but good when they're good. Next"
+    },
+    {
+      "id": "llu261:caption:355",
+      "startSeconds": 719,
+      "text": "up is a black red stinger quill. So,"
+    },
+    {
+      "id": "llu261:caption:356",
+      "startSeconds": 721,
+      "text": "Stinger Quill of Voxmanster is the"
+    },
+    {
+      "id": "llu261:caption:357",
+      "startSeconds": 723,
+      "text": "uncommon hybrid card. Single black red"
+    },
+    {
+      "id": "llu261:caption:358",
+      "startSeconds": 726,
+      "text": "hybrid for a one two. So, at the"
+    },
+    {
+      "id": "llu261:caption:359",
+      "startSeconds": 728,
+      "text": "beginning of your upkeep, if this"
+    },
+    {
+      "id": "llu261:caption:360",
+      "startSeconds": 729,
+      "text": "creature isn't prepared, it becomes"
+    },
+    {
+      "id": "llu261:caption:361",
+      "startSeconds": 730,
+      "text": "prepared and the prepared spell for"
+    },
+    {
+      "id": "llu261:caption:362",
+      "startSeconds": 732,
+      "text": "Stinger Quill is Vicious Verse. Single"
+    },
+    {
+      "id": "llu261:caption:363",
+      "startSeconds": 735,
+      "text": "mana sorcery deals one damage to target"
+    },
+    {
+      "id": "llu261:caption:364",
+      "startSeconds": 738,
+      "text": "opponent. So, black red is aggro that"
+    },
+    {
+      "id": "llu261:caption:365",
+      "startSeconds": 740,
+      "text": "cares about pinging, cares about dealing"
+    },
+    {
+      "id": "llu261:caption:366",
+      "startSeconds": 742,
+      "text": "non-creature damage to the opponent."
+    },
+    {
+      "id": "llu261:caption:367",
+      "startSeconds": 744,
+      "text": "Kind of like death by a thousand cuts"
+    },
+    {
+      "id": "llu261:caption:368",
+      "startSeconds": 746,
+      "text": "kind of deal. We've got the gold card"
+    },
+    {
+      "id": "llu261:caption:369",
+      "startSeconds": 748,
+      "text": "here, Grim Repriser, which is black red"
+    },
+    {
+      "id": "llu261:caption:370",
+      "startSeconds": 751,
+      "text": "for a two two prowess. Also has an"
+    },
+    {
+      "id": "llu261:caption:371",
+      "startSeconds": 753,
+      "text": "ability, black red, return this card"
+    },
+    {
+      "id": "llu261:caption:372",
+      "startSeconds": 755,
+      "text": "from the graveyard to the battlefield"
+    },
+    {
+      "id": "llu261:caption:373",
+      "startSeconds": 756,
+      "text": "with finality counter on it. Activate"
+    },
+    {
+      "id": "llu261:caption:374",
+      "startSeconds": 758,
+      "text": "this only if an opponent has been dealt"
+    },
+    {
+      "id": "llu261:caption:375",
+      "startSeconds": 760,
+      "text": "non-combat damage this turn. So, that's"
+    },
+    {
+      "id": "llu261:caption:376",
+      "startSeconds": 762,
+      "text": "where your prepared spell, Vicious"
+    },
+    {
+      "id": "llu261:caption:377",
+      "startSeconds": 764,
+      "text": "Verse, really comes in handy. And just"
+    },
+    {
+      "id": "llu261:caption:378",
+      "startSeconds": 765,
+      "text": "before we get into our next deck, if you"
+    },
+    {
+      "id": "llu261:caption:379",
+      "startSeconds": 767,
+      "text": "want to get a leg up on this set, if you"
+    },
+    {
+      "id": "llu261:caption:380",
+      "startSeconds": 768,
+      "text": "want to be crushing your drafts early,"
+    },
+    {
+      "id": "llu261:caption:381",
+      "startSeconds": 770,
+      "text": "you might want to consider checking out"
+    },
+    {
+      "id": "llu261:caption:382",
+      "startSeconds": 771,
+      "text": "the Patreon,"
+    },
+    {
+      "id": "llu261:caption:383",
+      "startSeconds": 772,
+      "text": "patreon.com/limitedlevelups."
+    },
+    {
+      "id": "llu261:caption:384",
+      "startSeconds": 774,
+      "text": "The best place to go if you want to"
+    },
+    {
+      "id": "llu261:caption:385",
+      "startSeconds": 775,
+      "text": "support the show and one of the better"
+    },
+    {
+      "id": "llu261:caption:386",
+      "startSeconds": 777,
+      "text": "places to go if you want to get better"
+    },
+    {
+      "id": "llu261:caption:387",
+      "startSeconds": 778,
+      "text": "at limited. There's a lot of rewards"
+    },
+    {
+      "id": "llu261:caption:388",
+      "startSeconds": 781,
+      "text": "over there that we want to give to you"
+    },
+    {
+      "id": "llu261:caption:389",
+      "startSeconds": 782,
+      "text": "if you choose to support us. Those range"
+    },
+    {
+      "id": "llu261:caption:390",
+      "startSeconds": 784,
+      "text": "from deck tech help, draft log review"
+    },
+    {
+      "id": "llu261:caption:391",
+      "startSeconds": 787,
+      "text": "help. There's coaching at higher tiers,"
+    },
+    {
+      "id": "llu261:caption:392",
+      "startSeconds": 789,
+      "text": "either one-on-one or group coaching."
+    },
+    {
+      "id": "llu261:caption:393",
+      "startSeconds": 791,
+      "text": "Lots of options over there. I've had a"
+    },
+    {
+      "id": "llu261:caption:394",
+      "startSeconds": 793,
+      "text": "lot of folks tell me they joined the"
+    },
+    {
+      "id": "llu261:caption:395",
+      "startSeconds": 794,
+      "text": "Patreon at the beginning of a new set"
+    },
+    {
+      "id": "llu261:caption:396",
+      "startSeconds": 796,
+      "text": "and they just felt like they weren't at"
+    },
+    {
+      "id": "llu261:caption:397",
+      "startSeconds": 798,
+      "text": "sea. You know, they felt like they were"
+    },
+    {
+      "id": "llu261:caption:398",
+      "startSeconds": 800,
+      "text": "getting on the right track. They had"
+    },
+    {
+      "id": "llu261:caption:399",
+      "startSeconds": 802,
+      "text": "people to talk to to kind of see if"
+    },
+    {
+      "id": "llu261:caption:400",
+      "startSeconds": 804,
+      "text": "their decks and their drafts were going"
+    },
+    {
+      "id": "llu261:caption:401",
+      "startSeconds": 805,
+      "text": "well. If that's at all something that"
+    },
+    {
+      "id": "llu261:caption:402",
+      "startSeconds": 806,
+      "text": "you're interested in, or you want to"
+    },
+    {
+      "id": "llu261:caption:403",
+      "startSeconds": 807,
+      "text": "support the show, check it out."
+    },
+    {
+      "id": "llu261:caption:404",
+      "startSeconds": 809,
+      "text": "patreon.com/unlimitedlevelups."
+    },
+    {
+      "id": "llu261:caption:405",
+      "startSeconds": 810,
+      "text": "Links in the description below. All"
+    },
+    {
+      "id": "llu261:caption:406",
+      "startSeconds": 812,
+      "text": "right, back to the show. Okay, next up"
+    },
+    {
+      "id": "llu261:caption:407",
+      "startSeconds": 814,
+      "text": "we have green white vigor bloom as"
+    },
+    {
+      "id": "llu261:caption:408",
+      "startSeconds": 816,
+      "text": "they're calling it. So, uncommon hybrid"
+    },
+    {
+      "id": "llu261:caption:409",
+      "startSeconds": 818,
+      "text": "card here, vigor bloom vanguard, one in"
+    },
+    {
+      "id": "llu261:caption:410",
+      "startSeconds": 821,
+      "text": "a green white hybrid for a 2-2. Enters"
+    },
+    {
+      "id": "llu261:caption:411",
+      "startSeconds": 823,
+      "text": "prepared and each creature you control"
+    },
+    {
+      "id": "llu261:caption:412",
+      "startSeconds": 825,
+      "text": "with a plus one plus one counter on it"
+    },
+    {
+      "id": "llu261:caption:413",
+      "startSeconds": 826,
+      "text": "has vigilance. The prepared spell for"
+    },
+    {
+      "id": "llu261:caption:414",
+      "startSeconds": 829,
+      "text": "vigor bloom, seed suture, single mana"
+    },
+    {
+      "id": "llu261:caption:415",
+      "startSeconds": 832,
+      "text": "sorcery, put a plus one plus one counter"
+    },
+    {
+      "id": "llu261:caption:416",
+      "startSeconds": 834,
+      "text": "on target creature. You gain one life."
+    },
+    {
+      "id": "llu261:caption:417",
+      "startSeconds": 836,
+      "text": "Okay, so green white, like I mentioned a"
+    },
+    {
+      "id": "llu261:caption:418",
+      "startSeconds": 838,
+      "text": "minute ago, doing life gain, also cares"
+    },
+    {
+      "id": "llu261:caption:419",
+      "startSeconds": 840,
+      "text": "a little bit about plus one plus one"
+    },
+    {
+      "id": "llu261:caption:420",
+      "startSeconds": 841,
+      "text": "counters. I think that's a secondary"
+    },
+    {
+      "id": "llu261:caption:421",
+      "startSeconds": 843,
+      "text": "theme. Mostly that I think you can think"
+    },
+    {
+      "id": "llu261:caption:422",
+      "startSeconds": 844,
+      "text": "of this as a green white creature deck"
+    },
+    {
+      "id": "llu261:caption:423",
+      "startSeconds": 846,
+      "text": "with your typical life gain payoffs."
+    },
+    {
+      "id": "llu261:caption:424",
+      "startSeconds": 848,
+      "text": "Gold card, broom brute, four mana for a"
+    },
+    {
+      "id": "llu261:caption:425",
+      "startSeconds": 851,
+      "text": "4-4. When you gain life, draw a card."
+    },
+    {
+      "id": "llu261:caption:426",
+      "startSeconds": 854,
+      "text": "This ability triggers only once per"
+    },
+    {
+      "id": "llu261:caption:427",
+      "startSeconds": 856,
+      "text": "turn. Also they six mana ability to give"
+    },
+    {
+      "id": "llu261:caption:428",
+      "startSeconds": 858,
+      "text": "something trample and life link until"
+    },
+    {
+      "id": "llu261:caption:429",
+      "startSeconds": 860,
+      "text": "end of turn. I'm always a bit skeptical"
+    },
+    {
+      "id": "llu261:caption:430",
+      "startSeconds": 862,
+      "text": "about expensive creatures without"
+    },
+    {
+      "id": "llu261:caption:431",
+      "startSeconds": 863,
+      "text": "immediate impact, but this one I think"
+    },
+    {
+      "id": "llu261:caption:432",
+      "startSeconds": 866,
+      "text": "will have immediate impact a good amount"
+    },
+    {
+      "id": "llu261:caption:433",
+      "startSeconds": 868,
+      "text": "of the time. There are a few cards that"
+    },
+    {
+      "id": "llu261:caption:434",
+      "startSeconds": 870,
+      "text": "say when a creature you control enters,"
+    },
+    {
+      "id": "llu261:caption:435",
+      "startSeconds": 871,
+      "text": "you gain a life. We've got one at rare,"
+    },
+    {
+      "id": "llu261:caption:436",
+      "startSeconds": 874,
+      "text": "the rare Liliana, white Liliana creature"
+    },
+    {
+      "id": "llu261:caption:437",
+      "startSeconds": 877,
+      "text": "is a soul sister variant. We also have a"
+    },
+    {
+      "id": "llu261:caption:438",
+      "startSeconds": 879,
+      "text": "common that does it, greenhouse"
+    },
+    {
+      "id": "llu261:caption:439",
+      "startSeconds": 881,
+      "text": "propagator, two in a green for a 2-3."
+    },
+    {
+      "id": "llu261:caption:440",
+      "startSeconds": 884,
+      "text": "Taps to add green mana and says whenever"
+    },
+    {
+      "id": "llu261:caption:441",
+      "startSeconds": 886,
+      "text": "another creature you control enters, you"
+    },
+    {
+      "id": "llu261:caption:442",
+      "startSeconds": 888,
+      "text": "gain a life. Okay, so you know, you got"
+    },
+    {
+      "id": "llu261:caption:443",
+      "startSeconds": 889,
+      "text": "your propagator, you got your broom"
+    },
+    {
+      "id": "llu261:caption:444",
+      "startSeconds": 890,
+      "text": "brute, you draw a card immediately. This"
+    },
+    {
+      "id": "llu261:caption:445",
+      "startSeconds": 892,
+      "text": "propagator is an interesting card too,"
+    },
+    {
+      "id": "llu261:caption:446",
+      "startSeconds": 894,
+      "text": "because"
+    },
+    {
+      "id": "llu261:caption:447",
+      "startSeconds": 895,
+      "text": "three mana mana dorks, okay, I'm a bit"
+    },
+    {
+      "id": "llu261:caption:448",
+      "startSeconds": 896,
+      "text": "cool on that. Your mana dork only making"
+    },
+    {
+      "id": "llu261:caption:449",
+      "startSeconds": 898,
+      "text": "green, I'm also a little bit cool on"
+    },
+    {
+      "id": "llu261:caption:450",
+      "startSeconds": 900,
+      "text": "that. But the life gain is pretty nice,"
+    },
+    {
+      "id": "llu261:caption:451",
+      "startSeconds": 902,
+      "text": "right? If this gains you four to five"
+    },
+    {
+      "id": "llu261:caption:452",
+      "startSeconds": 905,
+      "text": "life, like not even thinking about life"
+    },
+    {
+      "id": "llu261:caption:453",
+      "startSeconds": 907,
+      "text": "gain payoffs, that that's cool too. But"
+    },
+    {
+      "id": "llu261:caption:454",
+      "startSeconds": 909,
+      "text": "imagine this card even in a green red"
+    },
+    {
+      "id": "llu261:caption:455",
+      "startSeconds": 911,
+      "text": "ramp deck. This is one I can see kind of"
+    },
+    {
+      "id": "llu261:caption:456",
+      "startSeconds": 912,
+      "text": "going either way. It might end up being"
+    },
+    {
+      "id": "llu261:caption:457",
+      "startSeconds": 914,
+      "text": "quite good, might end up being a little"
+    },
+    {
+      "id": "llu261:caption:458",
+      "startSeconds": 915,
+      "text": "too dorky. One of your main payoffs here"
+    },
+    {
+      "id": "llu261:caption:459",
+      "startSeconds": 917,
+      "text": "for this green white deck is unflinching"
+    },
+    {
+      "id": "llu261:caption:460",
+      "startSeconds": 919,
+      "text": "hoardemaster, which is a common, one in"
+    },
+    {
+      "id": "llu261:caption:461",
+      "startSeconds": 921,
+      "text": "a white for a two-one with ward one. And"
+    },
+    {
+      "id": "llu261:caption:462",
+      "startSeconds": 924,
+      "text": "whenever you gain life, you put a plus"
+    },
+    {
+      "id": "llu261:caption:463",
+      "startSeconds": 926,
+      "text": "one plus one counter on this creature."
+    },
+    {
+      "id": "llu261:caption:464",
+      "startSeconds": 928,
+      "text": "So, it's in Ajani's Pridemate, and you"
+    },
+    {
+      "id": "llu261:caption:465",
+      "startSeconds": 929,
+      "text": "trade off a point of toughness for ward"
+    },
+    {
+      "id": "llu261:caption:466",
+      "startSeconds": 931,
+      "text": "one. I think that is generally an"
+    },
+    {
+      "id": "llu261:caption:467",
+      "startSeconds": 933,
+      "text": "unfavorable exchange, but not by a lot."
+    },
+    {
+      "id": "llu261:caption:468",
+      "startSeconds": 935,
+      "text": "Like, I think this card is a really nice"
+    },
+    {
+      "id": "llu261:caption:469",
+      "startSeconds": 937,
+      "text": "common payoff, especially because you"
+    },
+    {
+      "id": "llu261:caption:470",
+      "startSeconds": 939,
+      "text": "can pair it with"
+    },
+    {
+      "id": "llu261:caption:471",
+      "startSeconds": 942,
+      "text": "I'm going kind of deep on this green"
+    },
+    {
+      "id": "llu261:caption:472",
+      "startSeconds": 943,
+      "text": "white deck here, but Medics' Sidewinder,"
+    },
+    {
+      "id": "llu261:caption:473",
+      "startSeconds": 945,
+      "text": "which is a two mana equipment at common,"
+    },
+    {
+      "id": "llu261:caption:474",
+      "startSeconds": 948,
+      "text": "equip two. The equipped creature gets"
+    },
+    {
+      "id": "llu261:caption:475",
+      "startSeconds": 950,
+      "text": "plus one plus oh, has flying, and"
+    },
+    {
+      "id": "llu261:caption:476",
+      "startSeconds": 951,
+      "text": "whenever this creature attacks, you gain"
+    },
+    {
+      "id": "llu261:caption:477",
+      "startSeconds": 954,
+      "text": "one life. So, you put that on your Hoard"
+    },
+    {
+      "id": "llu261:caption:478",
+      "startSeconds": 955,
+      "text": "of Answer, and it just grows every"
+    },
+    {
+      "id": "llu261:caption:479",
+      "startSeconds": 956,
+      "text": "single turn. Also, this kitesail is a"
+    },
+    {
+      "id": "llu261:caption:480",
+      "startSeconds": 958,
+      "text": "way for your Bloom Hulk to get it to"
+    },
+    {
+      "id": "llu261:caption:481",
+      "startSeconds": 961,
+      "text": "trigger right away, right? Like, you"
+    },
+    {
+      "id": "llu261:caption:482",
+      "startSeconds": 962,
+      "text": "play it, you attack, you gain a life."
+    },
+    {
+      "id": "llu261:caption:483",
+      "startSeconds": 964,
+      "text": "One more card, not exclusively a green"
+    },
+    {
+      "id": "llu261:caption:484",
+      "startSeconds": 966,
+      "text": "white card, but has life gain on it, so"
+    },
+    {
+      "id": "llu261:caption:485",
+      "startSeconds": 968,
+      "text": "good time to talk about it. Surgical"
+    },
+    {
+      "id": "llu261:caption:486",
+      "startSeconds": 970,
+      "text": "Precision. This one's a common, one and"
+    },
+    {
+      "id": "llu261:caption:487",
+      "startSeconds": 972,
+      "text": "a white for a sorcery. Choose one."
+    },
+    {
+      "id": "llu261:caption:488",
+      "startSeconds": 974,
+      "text": "Destroy target creature with toughness"
+    },
+    {
+      "id": "llu261:caption:489",
+      "startSeconds": 976,
+      "text": "four or greater, you gain one life. The"
+    },
+    {
+      "id": "llu261:caption:490",
+      "startSeconds": 978,
+      "text": "other mode is you draw a card and you"
+    },
+    {
+      "id": "llu261:caption:491",
+      "startSeconds": 980,
+      "text": "gain two life. So, with Marvel"
+    },
+    {
+      "id": "llu261:caption:492",
+      "startSeconds": 983,
+      "text": "Superheroes, we had Murdock's Crusade."
+    },
+    {
+      "id": "llu261:caption:493",
+      "startSeconds": 985,
+      "text": "Very strong common, one of the best"
+    },
+    {
+      "id": "llu261:caption:494",
+      "startSeconds": 987,
+      "text": "commons in the set. That card, I think"
+    },
+    {
+      "id": "llu261:caption:495",
+      "startSeconds": 990,
+      "text": "is worse than this card, right? Like,"
+    },
+    {
+      "id": "llu261:caption:496",
+      "startSeconds": 991,
+      "text": "Murdock's Crusade had the teamwork"
+    },
+    {
+      "id": "llu261:caption:497",
+      "startSeconds": 993,
+      "text": "ability that was a little bit fake, the"
+    },
+    {
+      "id": "llu261:caption:498",
+      "startSeconds": 994,
+      "text": "destroy a enchantment that is four mana"
+    },
+    {
+      "id": "llu261:caption:499",
+      "startSeconds": 997,
+      "text": "value or larger. Surgical Precision has"
+    },
+    {
+      "id": "llu261:caption:500",
+      "startSeconds": 1000,
+      "text": "life gain tacked onto the good mode, and"
+    },
+    {
+      "id": "llu261:caption:501",
+      "startSeconds": 1002,
+      "text": "effectively has cycling, which is great"
+    },
+    {
+      "id": "llu261:caption:502",
+      "startSeconds": 1004,
+      "text": "on this kind of card, cuz Murdock's"
+    },
+    {
+      "id": "llu261:caption:503",
+      "startSeconds": 1005,
+      "text": "Crusade, for as good as it was, there"
+    },
+    {
+      "id": "llu261:caption:504",
+      "startSeconds": 1007,
+      "text": "were some moments where you're like,"
+    },
+    {
+      "id": "llu261:caption:505",
+      "startSeconds": 1008,
+      "text": "\"Ah, this can't actually hit anything.\""
+    },
+    {
+      "id": "llu261:caption:506",
+      "startSeconds": 1010,
+      "text": "So, yeah, just calling it now, I think"
+    },
+    {
+      "id": "llu261:caption:507",
+      "startSeconds": 1011,
+      "text": "Surgical Precision probably going to be"
+    },
+    {
+      "id": "llu261:caption:508",
+      "startSeconds": 1013,
+      "text": "one of the best commons. Next up is blue"
+    },
+    {
+      "id": "llu261:caption:509",
+      "startSeconds": 1014,
+      "text": "white fade hold, which is an aggro deck"
+    },
+    {
+      "id": "llu261:caption:510",
+      "startSeconds": 1016,
+      "text": "that cares about scrying and"
+    },
+    {
+      "id": "llu261:caption:511",
+      "startSeconds": 1017,
+      "text": "surveilling. Hybrid card, Prudent Fate"
+    },
+    {
+      "id": "llu261:caption:512",
+      "startSeconds": 1020,
+      "text": "Seer, one blue white hybrid, blue white"
+    },
+    {
+      "id": "llu261:caption:513",
+      "startSeconds": 1022,
+      "text": "hybrid for a one-four. Enters prepared,"
+    },
+    {
+      "id": "llu261:caption:514",
+      "startSeconds": 1025,
+      "text": "and whenever you scry or surveil,"
+    },
+    {
+      "id": "llu261:caption:515",
+      "startSeconds": 1027,
+      "text": "creatures you control get plus one plus"
+    },
+    {
+      "id": "llu261:caption:516",
+      "startSeconds": 1028,
+      "text": "oh. This ability triggers only once per"
+    },
+    {
+      "id": "llu261:caption:517",
+      "startSeconds": 1030,
+      "text": "turn, though. And the prepared spell is"
+    },
+    {
+      "id": "llu261:caption:518",
+      "startSeconds": 1032,
+      "text": "Peer Review, which is a sorcery, one and"
+    },
+    {
+      "id": "llu261:caption:519",
+      "startSeconds": 1034,
+      "text": "a blue white hybrid, you make a two-two"
+    },
+    {
+      "id": "llu261:caption:520",
+      "startSeconds": 1036,
+      "text": "token, and you surveil one. When we"
+    },
+    {
+      "id": "llu261:caption:521",
+      "startSeconds": 1038,
+      "text": "talked about the Jace mechanic, I didn't"
+    },
+    {
+      "id": "llu261:caption:522",
+      "startSeconds": 1039,
+      "text": "really talk about Jace's other ability,"
+    },
+    {
+      "id": "llu261:caption:523",
+      "startSeconds": 1041,
+      "text": "which is -1 to surveil one. So, if you"
+    },
+    {
+      "id": "llu261:caption:524",
+      "startSeconds": 1044,
+      "text": "need triggers for this deck, I think"
+    },
+    {
+      "id": "llu261:caption:525",
+      "startSeconds": 1046,
+      "text": "you're going to find them. Gold card"
+    },
+    {
+      "id": "llu261:caption:526",
+      "startSeconds": 1047,
+      "text": "here, don't actually have an English"
+    },
+    {
+      "id": "llu261:caption:527",
+      "startSeconds": 1049,
+      "text": "name on this just yet at the time of"
+    },
+    {
+      "id": "llu261:caption:528",
+      "startSeconds": 1050,
+      "text": "recording, but this is two blue white"
+    },
+    {
+      "id": "llu261:caption:529",
+      "startSeconds": 1052,
+      "text": "for a 3-4 flyer. At the beginning of"
+    },
+    {
+      "id": "llu261:caption:530",
+      "startSeconds": 1054,
+      "text": "combat on your turn, another target"
+    },
+    {
+      "id": "llu261:caption:531",
+      "startSeconds": 1055,
+      "text": "creature you control gets +1 +1 until"
+    },
+    {
+      "id": "llu261:caption:532",
+      "startSeconds": 1057,
+      "text": "end of turn, and if you have scried or"
+    },
+    {
+      "id": "llu261:caption:533",
+      "startSeconds": 1059,
+      "text": "surveilled, that creature gets a +1 +1"
+    },
+    {
+      "id": "llu261:caption:534",
+      "startSeconds": 1061,
+      "text": "counter instead. Okay, pretty good"
+    },
+    {
+      "id": "llu261:caption:535",
+      "startSeconds": 1063,
+      "text": "aggressive payoff. We also have a nice"
+    },
+    {
+      "id": "llu261:caption:536",
+      "startSeconds": 1066,
+      "text": "variant of the two mana blue defender"
+    },
+    {
+      "id": "llu261:caption:537",
+      "startSeconds": 1070,
+      "text": "that can attack if you've done something"
+    },
+    {
+      "id": "llu261:caption:538",
+      "startSeconds": 1071,
+      "text": "this turn. So, it's surveillance"
+    },
+    {
+      "id": "llu261:caption:539",
+      "startSeconds": 1073,
+      "text": "fantasm, the Jurd, the Jace bird as many"
+    },
+    {
+      "id": "llu261:caption:540",
+      "startSeconds": 1076,
+      "text": "are calling it. One and a blue for a 2-3"
+    },
+    {
+      "id": "llu261:caption:541",
+      "startSeconds": 1078,
+      "text": "defender vigilant flyer. And it can"
+    },
+    {
+      "id": "llu261:caption:542",
+      "startSeconds": 1081,
+      "text": "attack as long as you've scried or"
+    },
+    {
+      "id": "llu261:caption:543",
+      "startSeconds": 1083,
+      "text": "surveilled this turn, and for four mana,"
+    },
+    {
+      "id": "llu261:caption:544",
+      "startSeconds": 1085,
+      "text": "you can surveil. And one of the more"
+    },
+    {
+      "id": "llu261:caption:545",
+      "startSeconds": 1086,
+      "text": "interesting uncommons that has caught my"
+    },
+    {
+      "id": "llu261:caption:546",
+      "startSeconds": 1088,
+      "text": "eye, no pun intended, truly no pun"
+    },
+    {
+      "id": "llu261:caption:547",
+      "startSeconds": 1090,
+      "text": "intended, but I should intend this pun"
+    },
+    {
+      "id": "llu261:caption:548",
+      "startSeconds": 1092,
+      "text": "cuz it's so obvious. Eye of Jace is a"
+    },
+    {
+      "id": "llu261:caption:549",
+      "startSeconds": 1094,
+      "text": "single mana artifact at uncommon, and it"
+    },
+    {
+      "id": "llu261:caption:550",
+      "startSeconds": 1097,
+      "text": "says, \"At the beginning of your upkeep,"
+    },
+    {
+      "id": "llu261:caption:551",
+      "startSeconds": 1098,
+      "text": "you surveil one, and then if there are"
+    },
+    {
+      "id": "llu261:caption:552",
+      "startSeconds": 1100,
+      "text": "seven more cards in your graveyard,"
+    },
+    {
+      "id": "llu261:caption:553",
+      "startSeconds": 1102,
+      "text": "sacrifice this artifact, it deals two"
+    },
+    {
+      "id": "llu261:caption:554",
+      "startSeconds": 1103,
+      "text": "damage to each opponent, you gain two"
+    },
+    {
+      "id": "llu261:caption:555",
+      "startSeconds": 1105,
+      "text": "life.\" Interesting card. You read it for"
+    },
+    {
+      "id": "llu261:caption:556",
+      "startSeconds": 1107,
+      "text": "the first time, kind of reads like"
+    },
+    {
+      "id": "llu261:caption:557",
+      "startSeconds": 1108,
+      "text": "garbage, but think about this. Like,"
+    },
+    {
+      "id": "llu261:caption:558",
+      "startSeconds": 1112,
+      "text": "this is consistent filtering, it's"
+    },
+    {
+      "id": "llu261:caption:559",
+      "startSeconds": 1114,
+      "text": "consistent triggers for all of your"
+    },
+    {
+      "id": "llu261:caption:560",
+      "startSeconds": 1116,
+      "text": "stuff that you care about triggers for."
+    },
+    {
+      "id": "llu261:caption:561",
+      "startSeconds": 1118,
+      "text": "It deals two damage at the end of the"
+    },
+    {
+      "id": "llu261:caption:562",
+      "startSeconds": 1120,
+      "text": "day, which your aggro deck appreciates,"
+    },
+    {
+      "id": "llu261:caption:563",
+      "startSeconds": 1122,
+      "text": "and this set does have flashback cards"
+    },
+    {
+      "id": "llu261:caption:564",
+      "startSeconds": 1124,
+      "text": "to make this card a little bit better."
+    },
+    {
+      "id": "llu261:caption:565",
+      "startSeconds": 1126,
+      "text": "So, you know, the the whole risk of this"
+    },
+    {
+      "id": "llu261:caption:566",
+      "startSeconds": 1127,
+      "text": "card is it's not worth a card, right?"
+    },
+    {
+      "id": "llu261:caption:567",
+      "startSeconds": 1130,
+      "text": "It's just like a one mana thing, sure it"
+    },
+    {
+      "id": "llu261:caption:568",
+      "startSeconds": 1131,
+      "text": "gives you some selection, maybe it deals"
+    },
+    {
+      "id": "llu261:caption:569",
+      "startSeconds": 1133,
+      "text": "you some damage, but maybe that's not"
+    },
+    {
+      "id": "llu261:caption:570",
+      "startSeconds": 1134,
+      "text": "quite enough. If you ever surveil a"
+    },
+    {
+      "id": "llu261:caption:571",
+      "startSeconds": 1137,
+      "text": "flashback card with this, I think that's"
+    },
+    {
+      "id": "llu261:caption:572",
+      "startSeconds": 1138,
+      "text": "enough, right? And there's also other"
+    },
+    {
+      "id": "llu261:caption:573",
+      "startSeconds": 1139,
+      "text": "graveyard things going on in this set."
+    },
+    {
+      "id": "llu261:caption:574",
+      "startSeconds": 1141,
+      "text": "Ultimately, just an interesting card, a"
+    },
+    {
+      "id": "llu261:caption:575",
+      "startSeconds": 1143,
+      "text": "card that I'm excited to play with and"
+    },
+    {
+      "id": "llu261:caption:576",
+      "startSeconds": 1144,
+      "text": "see how it feels. I can see this being"
+    },
+    {
+      "id": "llu261:caption:577",
+      "startSeconds": 1147,
+      "text": "quite a bit better than it looks. I"
+    },
+    {
+      "id": "llu261:caption:578",
+      "startSeconds": 1148,
+      "text": "could also see it being like a 51% game"
+    },
+    {
+      "id": "llu261:caption:579",
+      "startSeconds": 1151,
+      "text": "and head win rate card on 17 lands, like"
+    },
+    {
+      "id": "llu261:caption:580",
+      "startSeconds": 1153,
+      "text": "one of the worst cards in the set. Well,"
+    },
+    {
+      "id": "llu261:caption:581",
+      "startSeconds": 1155,
+      "text": "just have to keep an eye on it and I"
+    },
+    {
+      "id": "llu261:caption:582",
+      "startSeconds": 1156,
+      "text": "guess I guess it's going to keep an eye"
+    },
+    {
+      "id": "llu261:caption:583",
+      "startSeconds": 1158,
+      "text": "on us as well. The last of the schools"
+    },
+    {
+      "id": "llu261:caption:584",
+      "startSeconds": 1160,
+      "text": "is blue black Theurges, which is doing"
+    },
+    {
+      "id": "llu261:caption:585",
+      "startSeconds": 1162,
+      "text": "some self mill. The uncommon hybrid is"
+    },
+    {
+      "id": "llu261:caption:586",
+      "startSeconds": 1164,
+      "text": "Paradox Shaper, one in a blue black"
+    },
+    {
+      "id": "llu261:caption:587",
+      "startSeconds": 1166,
+      "text": "hybrid for a 1-3. At the beginning of"
+    },
+    {
+      "id": "llu261:caption:588",
+      "startSeconds": 1168,
+      "text": "your upkeep, if this creature isn't"
+    },
+    {
+      "id": "llu261:caption:589",
+      "startSeconds": 1169,
+      "text": "prepared, it becomes prepared and has"
+    },
+    {
+      "id": "llu261:caption:590",
+      "startSeconds": 1172,
+      "text": "the ability to put target cards from"
+    },
+    {
+      "id": "llu261:caption:591",
+      "startSeconds": 1174,
+      "text": "your graveyard on the bottom of your"
+    },
+    {
+      "id": "llu261:caption:592",
+      "startSeconds": 1175,
+      "text": "library. The prepared spell for blue"
+    },
+    {
+      "id": "llu261:caption:593",
+      "startSeconds": 1177,
+      "text": "black is Omit Variables. Single black"
+    },
+    {
+      "id": "llu261:caption:594",
+      "startSeconds": 1180,
+      "text": "mana for a sorcery, mill three cards."
+    },
+    {
+      "id": "llu261:caption:595",
+      "startSeconds": 1182,
+      "text": "And that's you, right? It's not targeted"
+    },
+    {
+      "id": "llu261:caption:596",
+      "startSeconds": 1183,
+      "text": "mill, you're milling three cards."
+    },
+    {
+      "id": "llu261:caption:597",
+      "startSeconds": 1185,
+      "text": "Ultimately though, what is this deck"
+    },
+    {
+      "id": "llu261:caption:598",
+      "startSeconds": 1186,
+      "text": "doing? What are you actually trying to"
+    },
+    {
+      "id": "llu261:caption:599",
+      "startSeconds": 1187,
+      "text": "accomplish with the mill? Like I"
+    },
+    {
+      "id": "llu261:caption:600",
+      "startSeconds": 1189,
+      "text": "mentioned, there are flashback cards."
+    },
+    {
+      "id": "llu261:caption:601",
+      "startSeconds": 1191,
+      "text": "One of the gold cards, a good one,"
+    },
+    {
+      "id": "llu261:caption:602",
+      "startSeconds": 1192,
+      "text": "Recursive Recruitment, two black blue"
+    },
+    {
+      "id": "llu261:caption:603",
+      "startSeconds": 1194,
+      "text": "for a sorcery, creates two 2-2 wizard"
+    },
+    {
+      "id": "llu261:caption:604",
+      "startSeconds": 1198,
+      "text": "tokens named Cadet. And if this spell"
+    },
+    {
+      "id": "llu261:caption:605",
+      "startSeconds": 1200,
+      "text": "was cast from your graveyard, put a"
+    },
+    {
+      "id": "llu261:caption:606",
+      "startSeconds": 1201,
+      "text": "+1/+1 counter on each of them for every"
+    },
+    {
+      "id": "llu261:caption:607",
+      "startSeconds": 1204,
+      "text": "three cards in your graveyard. Flashback"
+    },
+    {
+      "id": "llu261:caption:608",
+      "startSeconds": 1206,
+      "text": "cost is hefty, it's eight mana, six blue"
+    },
+    {
+      "id": "llu261:caption:609",
+      "startSeconds": 1208,
+      "text": "black, but the up front is pretty good,"
+    },
+    {
+      "id": "llu261:caption:610",
+      "startSeconds": 1211,
+      "text": "four mana for two 2-2s, and then when"
+    },
+    {
+      "id": "llu261:caption:611",
+      "startSeconds": 1213,
+      "text": "you do get to flash it back, you're"
+    },
+    {
+      "id": "llu261:caption:612",
+      "startSeconds": 1214,
+      "text": "going to make like 5-5, 6-6, 7-7"
+    },
+    {
+      "id": "llu261:caption:613",
+      "startSeconds": 1217,
+      "text": "sometimes. Another way you're getting"
+    },
+    {
+      "id": "llu261:caption:614",
+      "startSeconds": 1218,
+      "text": "paid off is there are threshold cards,"
+    },
+    {
+      "id": "llu261:caption:615",
+      "startSeconds": 1220,
+      "text": "so cards that do something that kind of"
+    },
+    {
+      "id": "llu261:caption:616",
+      "startSeconds": 1222,
+      "text": "turn on once you get to seven cards in"
+    },
+    {
+      "id": "llu261:caption:617",
+      "startSeconds": 1224,
+      "text": "your graveyard. One example here, weird"
+    },
+    {
+      "id": "llu261:caption:618",
+      "startSeconds": 1226,
+      "text": "card, one of the strangest designs I've"
+    },
+    {
+      "id": "llu261:caption:619",
+      "startSeconds": 1228,
+      "text": "seen in a while is Loot the Anomaly,"
+    },
+    {
+      "id": "llu261:caption:620",
+      "startSeconds": 1230,
+      "text": "which is two in a black for a -2/4."
+    },
+    {
+      "id": "llu261:caption:621",
+      "startSeconds": 1234,
+      "text": "And it says, \"If Loot's power is"
+    },
+    {
+      "id": "llu261:caption:622",
+      "startSeconds": 1235,
+      "text": "negative, he assigns combat damage as"
+    },
+    {
+      "id": "llu261:caption:623",
+      "startSeconds": 1238,
+      "text": "though his power were positive.\" And"
+    },
+    {
+      "id": "llu261:caption:624",
+      "startSeconds": 1239,
+      "text": "once he gets to threshold, you can"
+    },
+    {
+      "id": "llu261:caption:625",
+      "startSeconds": 1241,
+      "text": "sacrifice a creature or a planeswalker,"
+    },
+    {
+      "id": "llu261:caption:626",
+      "startSeconds": 1243,
+      "text": "Loot gets -2/-0 until end of turn."
+    },
+    {
+      "id": "llu261:caption:627",
+      "startSeconds": 1245,
+      "text": "Activate that only if there are seven or"
+    },
+    {
+      "id": "llu261:caption:628",
+      "startSeconds": 1247,
+      "text": "more cards in your library. So, I mean,"
+    },
+    {
+      "id": "llu261:caption:629",
+      "startSeconds": 1249,
+      "text": "functionally, this is a three-mana 2/4"
+    },
+    {
+      "id": "llu261:caption:630",
+      "startSeconds": 1251,
+      "text": "that you can pump later. But the"
+    },
+    {
+      "id": "llu261:caption:631",
+      "startSeconds": 1253,
+      "text": "negative power thing is just you know, a"
+    },
+    {
+      "id": "llu261:caption:632",
+      "startSeconds": 1255,
+      "text": "weird way to go about it. It does have a"
+    },
+    {
+      "id": "llu261:caption:633",
+      "startSeconds": 1257,
+      "text": "cool combo though. Tetsuko Umezawa,"
+    },
+    {
+      "id": "llu261:caption:634",
+      "startSeconds": 1260,
+      "text": "which is a card from OG Dominaria if you"
+    },
+    {
+      "id": "llu261:caption:635",
+      "startSeconds": 1262,
+      "text": "played that, is also in this set, which"
+    },
+    {
+      "id": "llu261:caption:636",
+      "startSeconds": 1264,
+      "text": "is a one in a blue for a 1/3 legend."
+    },
+    {
+      "id": "llu261:caption:637",
+      "startSeconds": 1266,
+      "text": "Creatures you control with power or"
+    },
+    {
+      "id": "llu261:caption:638",
+      "startSeconds": 1267,
+      "text": "toughness one or less can't be blocked."
+    },
+    {
+      "id": "llu261:caption:639",
+      "startSeconds": 1270,
+      "text": "Okay, so yeah, you see the combo there."
+    },
+    {
+      "id": "llu261:caption:640",
+      "startSeconds": 1271,
+      "text": "Loot is basically always unblockable and"
+    },
+    {
+      "id": "llu261:caption:641",
+      "startSeconds": 1274,
+      "text": "you can pump loot once you get the"
+    },
+    {
+      "id": "llu261:caption:642",
+      "startSeconds": 1275,
+      "text": "threshold to just dome them for 10 or"
+    },
+    {
+      "id": "llu261:caption:643",
+      "startSeconds": 1277,
+      "text": "something. Okay, now we get to the enemy"
+    },
+    {
+      "id": "llu261:caption:644",
+      "startSeconds": 1280,
+      "text": "pairs. And these are ones that don't"
+    },
+    {
+      "id": "llu261:caption:645",
+      "startSeconds": 1281,
+      "text": "have a school associated with them."
+    },
+    {
+      "id": "llu261:caption:646",
+      "startSeconds": 1283,
+      "text": "These are the ones that are a little bit"
+    },
+    {
+      "id": "llu261:caption:647",
+      "startSeconds": 1285,
+      "text": "more broad. I think their approach to"
+    },
+    {
+      "id": "llu261:caption:648",
+      "startSeconds": 1287,
+      "text": "designing these was more here is a"
+    },
+    {
+      "id": "llu261:caption:649",
+      "startSeconds": 1291,
+      "text": "traditional magic archetype and we're"
+    },
+    {
+      "id": "llu261:caption:650",
+      "startSeconds": 1293,
+      "text": "going to let you figure out the rest."
+    },
+    {
+      "id": "llu261:caption:651",
+      "startSeconds": 1295,
+      "text": "So, just to like read them out all"
+    },
+    {
+      "id": "llu261:caption:652",
+      "startSeconds": 1297,
+      "text": "quickly here. It's blue red spell"
+    },
+    {
+      "id": "llu261:caption:653",
+      "startSeconds": 1299,
+      "text": "slingers, black green mid-range, white"
+    },
+    {
+      "id": "llu261:caption:654",
+      "startSeconds": 1301,
+      "text": "black attrition, red white aggro, and"
+    },
+    {
+      "id": "llu261:caption:655",
+      "startSeconds": 1304,
+      "text": "lastly blue green empower Jace."
+    },
+    {
+      "id": "llu261:caption:656",
+      "startSeconds": 1306,
+      "text": "Everybody's favorite classic magic"
+    },
+    {
+      "id": "llu261:caption:657",
+      "startSeconds": 1308,
+      "text": "limited archetype empowering Jace. I"
+    },
+    {
+      "id": "llu261:caption:658",
+      "startSeconds": 1310,
+      "text": "think it's more of like a blue green"
+    },
+    {
+      "id": "llu261:caption:659",
+      "startSeconds": 1312,
+      "text": "base multicolor deck. I think another"
+    },
+    {
+      "id": "llu261:caption:660",
+      "startSeconds": 1313,
+      "text": "way to think about the archetypes in"
+    },
+    {
+      "id": "llu261:caption:661",
+      "startSeconds": 1314,
+      "text": "this set is the five school archetypes."
+    },
+    {
+      "id": "llu261:caption:662",
+      "startSeconds": 1318,
+      "text": "They're very column A column B. Column"
+    },
+    {
+      "id": "llu261:caption:663",
+      "startSeconds": 1320,
+      "text": "A, here's my enabler, whether that be"
+    },
+    {
+      "id": "llu261:caption:664",
+      "startSeconds": 1323,
+      "text": "life gain or paying damage or scrying"
+    },
+    {
+      "id": "llu261:caption:665",
+      "startSeconds": 1325,
+      "text": "surveilling, and column B, here's my"
+    },
+    {
+      "id": "llu261:caption:666",
+      "startSeconds": 1326,
+      "text": "payoff for doing these things. The enemy"
+    },
+    {
+      "id": "llu261:caption:667",
+      "startSeconds": 1330,
+      "text": "color decks not as straightforward,"
+    },
+    {
+      "id": "llu261:caption:668",
+      "startSeconds": 1332,
+      "text": "right? They're a bit more like, hey, you"
+    },
+    {
+      "id": "llu261:caption:669",
+      "startSeconds": 1333,
+      "text": "got to know exactly what goes into"
+    },
+    {
+      "id": "llu261:caption:670",
+      "startSeconds": 1335,
+      "text": "making a good mid-range deck. What goes"
+    },
+    {
+      "id": "llu261:caption:671",
+      "startSeconds": 1337,
+      "text": "into making a good aggressive deck. How"
+    },
+    {
+      "id": "llu261:caption:672",
+      "startSeconds": 1339,
+      "text": "to draft a multicolor good stuff deck."
+    },
+    {
+      "id": "llu261:caption:673",
+      "startSeconds": 1341,
+      "text": "Blue red spells are I think a pretty"
+    },
+    {
+      "id": "llu261:caption:674",
+      "startSeconds": 1342,
+      "text": "good example of this where it's like,"
+    },
+    {
+      "id": "llu261:caption:675",
+      "startSeconds": 1343,
+      "text": "okay, you got to know what to do as the"
+    },
+    {
+      "id": "llu261:caption:676",
+      "startSeconds": 1344,
+      "text": "drafter and what your cards want because"
+    },
+    {
+      "id": "llu261:caption:677",
+      "startSeconds": 1346,
+      "text": "often times blue red can be red base"
+    },
+    {
+      "id": "llu261:caption:678",
+      "startSeconds": 1350,
+      "text": "spells aggro with some blue cards"
+    },
+    {
+      "id": "llu261:caption:679",
+      "startSeconds": 1352,
+      "text": "supporting that or blue base spell"
+    },
+    {
+      "id": "llu261:caption:680",
+      "startSeconds": 1355,
+      "text": "control with some red removal supporting"
+    },
+    {
+      "id": "llu261:caption:681",
+      "startSeconds": 1357,
+      "text": "that. Historically, blue red has been a"
+    },
+    {
+      "id": "llu261:caption:682",
+      "startSeconds": 1359,
+      "text": "limited archetype that can be easy to"
+    },
+    {
+      "id": "llu261:caption:683",
+      "startSeconds": 1361,
+      "text": "build wrong because if you have a deck"
+    },
+    {
+      "id": "llu261:caption:684",
+      "startSeconds": 1364,
+      "text": "that has the blue controlling spells"
+    },
+    {
+      "id": "llu261:caption:685",
+      "startSeconds": 1366,
+      "text": "payoffs and also the red aggressive"
+    },
+    {
+      "id": "llu261:caption:686",
+      "startSeconds": 1369,
+      "text": "spells payoffs, your deck is kind of not"
+    },
+    {
+      "id": "llu261:caption:687",
+      "startSeconds": 1371,
+      "text": "going to be very functional. And it's"
+    },
+    {
+      "id": "llu261:caption:688",
+      "startSeconds": 1372,
+      "text": "easy to just go, oh, both of these"
+    },
+    {
+      "id": "llu261:caption:689",
+      "startSeconds": 1373,
+      "text": "cards, they say spells on them, like"
+    },
+    {
+      "id": "llu261:caption:690",
+      "startSeconds": 1375,
+      "text": "they care about spells, they are spells"
+    },
+    {
+      "id": "llu261:caption:691",
+      "startSeconds": 1377,
+      "text": "maybe, let's put them in the same deck."
+    },
+    {
+      "id": "llu261:caption:692",
+      "startSeconds": 1378,
+      "text": "Essentially, these school decks, the"
+    },
+    {
+      "id": "llu261:caption:693",
+      "startSeconds": 1380,
+      "text": "allied decks, they have more guardrails"
+    },
+    {
+      "id": "llu261:caption:694",
+      "startSeconds": 1382,
+      "text": "to them. And I think the enemy ones, not"
+    },
+    {
+      "id": "llu261:caption:695",
+      "startSeconds": 1384,
+      "text": "so much. Anyways, that's how I'm seeing"
+    },
+    {
+      "id": "llu261:caption:696",
+      "startSeconds": 1386,
+      "text": "these enemy color pair decks right now."
+    },
+    {
+      "id": "llu261:caption:697",
+      "startSeconds": 1388,
+      "text": "Let's get into talking about them, and"
+    },
+    {
+      "id": "llu261:caption:698",
+      "startSeconds": 1389,
+      "text": "we will start with blue red. I think"
+    },
+    {
+      "id": "llu261:caption:699",
+      "startSeconds": 1391,
+      "text": "blue red's one of the cooler looking"
+    },
+    {
+      "id": "llu261:caption:700",
+      "startSeconds": 1392,
+      "text": "decks in the format, actually. So, two"
+    },
+    {
+      "id": "llu261:caption:701",
+      "startSeconds": 1395,
+      "text": "pretty good gold cards here. Clash of"
+    },
+    {
+      "id": "llu261:caption:702",
+      "startSeconds": 1397,
+      "text": "Elements, a nice removal spell, one blue"
+    },
+    {
+      "id": "llu261:caption:703",
+      "startSeconds": 1399,
+      "text": "red for an instant. Choose target"
+    },
+    {
+      "id": "llu261:caption:704",
+      "startSeconds": 1401,
+      "text": "non-land permanent, its owner may put it"
+    },
+    {
+      "id": "llu261:caption:705",
+      "startSeconds": 1403,
+      "text": "on the top of their library. If they do,"
+    },
+    {
+      "id": "llu261:caption:706",
+      "startSeconds": 1405,
+      "text": "Clash of Elements deals two damage to"
+    },
+    {
+      "id": "llu261:caption:707",
+      "startSeconds": 1407,
+      "text": "them, and if they didn't put that card"
+    },
+    {
+      "id": "llu261:caption:708",
+      "startSeconds": 1409,
+      "text": "on top of their library, they put it on"
+    },
+    {
+      "id": "llu261:caption:709",
+      "startSeconds": 1411,
+      "text": "the bottom. So, your classic four mana"
+    },
+    {
+      "id": "llu261:caption:710",
+      "startSeconds": 1413,
+      "text": "blue top or bottom removal spell, but it"
+    },
+    {
+      "id": "llu261:caption:711",
+      "startSeconds": 1416,
+      "text": "punishes them for keeping it on top, and"
+    },
+    {
+      "id": "llu261:caption:712",
+      "startSeconds": 1418,
+      "text": "it's three mana, right? Shaving off a"
+    },
+    {
+      "id": "llu261:caption:713",
+      "startSeconds": 1419,
+      "text": "whole mana from what we usually see. The"
+    },
+    {
+      "id": "llu261:caption:714",
+      "startSeconds": 1421,
+      "text": "other gold card is Saheeli, Sublime"
+    },
+    {
+      "id": "llu261:caption:715",
+      "startSeconds": 1423,
+      "text": "Artificer, which is two blue red for a"
+    },
+    {
+      "id": "llu261:caption:716",
+      "startSeconds": 1425,
+      "text": "2/4 legend. Thopters you control have"
+    },
+    {
+      "id": "llu261:caption:717",
+      "startSeconds": 1428,
+      "text": "haste, and whenever you cast a"
+    },
+    {
+      "id": "llu261:caption:718",
+      "startSeconds": 1429,
+      "text": "non-creature spell, create a 1/1 Thopter"
+    },
+    {
+      "id": "llu261:caption:719",
+      "startSeconds": 1432,
+      "text": "token with flying. And there's a few"
+    },
+    {
+      "id": "llu261:caption:720",
+      "startSeconds": 1433,
+      "text": "other cards that make Thopters in this"
+    },
+    {
+      "id": "llu261:caption:721",
+      "startSeconds": 1435,
+      "text": "set, too. I have reasonably high hopes"
+    },
+    {
+      "id": "llu261:caption:722",
+      "startSeconds": 1437,
+      "text": "for blue red being pretty good in this"
+    },
+    {
+      "id": "llu261:caption:723",
+      "startSeconds": 1438,
+      "text": "set. There are a few templates that,"
+    },
+    {
+      "id": "llu261:caption:724",
+      "startSeconds": 1441,
+      "text": "when they exist in a set, often really,"
+    },
+    {
+      "id": "llu261:caption:725",
+      "startSeconds": 1443,
+      "text": "really help blue red. So, one of them is"
+    },
+    {
+      "id": "llu261:caption:726",
+      "startSeconds": 1445,
+      "text": "Unsummon, single blue mana instant"
+    },
+    {
+      "id": "llu261:caption:727",
+      "startSeconds": 1447,
+      "text": "common, return target creature to its"
+    },
+    {
+      "id": "llu261:caption:728",
+      "startSeconds": 1449,
+      "text": "owner's hand. This card's been good for"
+    },
+    {
+      "id": "llu261:caption:729",
+      "startSeconds": 1450,
+      "text": "decades, it's still good today, and"
+    },
+    {
+      "id": "llu261:caption:730",
+      "startSeconds": 1452,
+      "text": "that's exactly what blue red wants. Just"
+    },
+    {
+      "id": "llu261:caption:731",
+      "startSeconds": 1455,
+      "text": "helps you keep pace, gets huge blockers"
+    },
+    {
+      "id": "llu261:caption:732",
+      "startSeconds": 1457,
+      "text": "out of the way. I'm a big believer in"
+    },
+    {
+      "id": "llu261:caption:733",
+      "startSeconds": 1459,
+      "text": "Unsummon being really good for blue red."
+    },
+    {
+      "id": "llu261:caption:734",
+      "startSeconds": 1461,
+      "text": "Another card, another card type that's"
+    },
+    {
+      "id": "llu261:caption:735",
+      "startSeconds": 1463,
+      "text": "good for blue red, is when you have"
+    },
+    {
+      "id": "llu261:caption:736",
+      "startSeconds": 1464,
+      "text": "flashback cards, number one, and also a"
+    },
+    {
+      "id": "llu261:caption:737",
+      "startSeconds": 1467,
+      "text": "card advantage spell at common, like a"
+    },
+    {
+      "id": "llu261:caption:738",
+      "startSeconds": 1469,
+      "text": "cheap card advantage spell that you can"
+    },
+    {
+      "id": "llu261:caption:739",
+      "startSeconds": 1470,
+      "text": "trigger your payoffs multiple times"
+    },
+    {
+      "id": "llu261:caption:740",
+      "startSeconds": 1472,
+      "text": "with. And we have a pretty good one in"
+    },
+    {
+      "id": "llu261:caption:741",
+      "startSeconds": 1474,
+      "text": "Twin Bolt Vision, one in a blue red"
+    },
+    {
+      "id": "llu261:caption:742",
+      "startSeconds": 1476,
+      "text": "hybrid for an instant at common. Draw a"
+    },
+    {
+      "id": "llu261:caption:743",
+      "startSeconds": 1478,
+      "text": "card, if this spell wasn't cast from"
+    },
+    {
+      "id": "llu261:caption:744",
+      "startSeconds": 1480,
+      "text": "your hand, you draw two cards instead."
+    },
+    {
+      "id": "llu261:caption:745",
+      "startSeconds": 1482,
+      "text": "And it has flashback for three mana, one"
+    },
+    {
+      "id": "llu261:caption:746",
+      "startSeconds": 1485,
+      "text": "blue red hybrid blue red hybrid, plus"
+    },
+    {
+      "id": "llu261:caption:747",
+      "startSeconds": 1487,
+      "text": "discarding a card. So, it is card"
+    },
+    {
+      "id": "llu261:caption:748",
+      "startSeconds": 1488,
+      "text": "advantage at the end of the day, right?"
+    },
+    {
+      "id": "llu261:caption:749",
+      "startSeconds": 1490,
+      "text": "You cast the card, you get your card"
+    },
+    {
+      "id": "llu261:caption:750",
+      "startSeconds": 1491,
+      "text": "back. When you flash it back, discard a"
+    },
+    {
+      "id": "llu261:caption:751",
+      "startSeconds": 1493,
+      "text": "card, draw two cards, you're net"
+    },
+    {
+      "id": "llu261:caption:752",
+      "startSeconds": 1495,
+      "text": "positive one card there. And that"
+    },
+    {
+      "id": "llu261:caption:753",
+      "startSeconds": 1497,
+      "text": "wording of if the spell wasn't cast in"
+    },
+    {
+      "id": "llu261:caption:754",
+      "startSeconds": 1499,
+      "text": "your hand, draw two cards instead."
+    },
+    {
+      "id": "llu261:caption:755",
+      "startSeconds": 1501,
+      "text": "That's going to come up once in a while,"
+    },
+    {
+      "id": "llu261:caption:756",
+      "startSeconds": 1502,
+      "text": "cuz there are cards that say, you know,"
+    },
+    {
+      "id": "llu261:caption:757",
+      "startSeconds": 1504,
+      "text": "the red template of exile some cards and"
+    },
+    {
+      "id": "llu261:caption:758",
+      "startSeconds": 1506,
+      "text": "you can cast those from exile. So, on"
+    },
+    {
+      "id": "llu261:caption:759",
+      "startSeconds": 1508,
+      "text": "the front side, you're going to be able"
+    },
+    {
+      "id": "llu261:caption:760",
+      "startSeconds": 1510,
+      "text": "to draw two cards sometimes. And the"
+    },
+    {
+      "id": "llu261:caption:761",
+      "startSeconds": 1511,
+      "text": "cherry on top for my excitement of blue"
+    },
+    {
+      "id": "llu261:caption:762",
+      "startSeconds": 1513,
+      "text": "red, not that it's going to come out"
+    },
+    {
+      "id": "llu261:caption:763",
+      "startSeconds": 1514,
+      "text": "very often, but the Splinter Twin combo"
+    },
+    {
+      "id": "llu261:caption:764",
+      "startSeconds": 1517,
+      "text": "is actually in this set. So, Splinter"
+    },
+    {
+      "id": "llu261:caption:765",
+      "startSeconds": 1519,
+      "text": "Twin is on the special guest list. So,"
+    },
+    {
+      "id": "llu261:caption:766",
+      "startSeconds": 1521,
+      "text": "it's it's going to be very rare. You're"
+    },
+    {
+      "id": "llu261:caption:767",
+      "startSeconds": 1523,
+      "text": "not going to see it very often. Splinter"
+    },
+    {
+      "id": "llu261:caption:768",
+      "startSeconds": 1524,
+      "text": "Twin a two red red enchantment aura"
+    },
+    {
+      "id": "llu261:caption:769",
+      "startSeconds": 1526,
+      "text": "enchanted creature. The enchanted"
+    },
+    {
+      "id": "llu261:caption:770",
+      "startSeconds": 1528,
+      "text": "creature has the ability tap, put a"
+    },
+    {
+      "id": "llu261:caption:771",
+      "startSeconds": 1530,
+      "text": "token that's a copy of this creature"
+    },
+    {
+      "id": "llu261:caption:772",
+      "startSeconds": 1531,
+      "text": "onto the battlefield. That token gains"
+    },
+    {
+      "id": "llu261:caption:773",
+      "startSeconds": 1533,
+      "text": "haste and you have to exile it at the"
+    },
+    {
+      "id": "llu261:caption:774",
+      "startSeconds": 1534,
+      "text": "beginning of your next end step. But,"
+    },
+    {
+      "id": "llu261:caption:775",
+      "startSeconds": 1536,
+      "text": "you put it on Divining Duelist, which is"
+    },
+    {
+      "id": "llu261:caption:776",
+      "startSeconds": 1538,
+      "text": "sort of your Pestermite Deceiver Exarch"
+    },
+    {
+      "id": "llu261:caption:777",
+      "startSeconds": 1540,
+      "text": "variant here. Three mana for a 3-2"
+    },
+    {
+      "id": "llu261:caption:778",
+      "startSeconds": 1543,
+      "text": "flash. When it enters, you either tap a"
+    },
+    {
+      "id": "llu261:caption:779",
+      "startSeconds": 1546,
+      "text": "creature, untap a creature, or draw"
+    },
+    {
+      "id": "llu261:caption:780",
+      "startSeconds": 1547,
+      "text": "card, discard a card. So, put the"
+    },
+    {
+      "id": "llu261:caption:781",
+      "startSeconds": 1549,
+      "text": "Splinter Twin on the Duelist, you tap"
+    },
+    {
+      "id": "llu261:caption:782",
+      "startSeconds": 1551,
+      "text": "it, make a copy of itself, you untap the"
+    },
+    {
+      "id": "llu261:caption:783",
+      "startSeconds": 1553,
+      "text": "copy with the Splinter Twin, and then"
+    },
+    {
+      "id": "llu261:caption:784",
+      "startSeconds": 1554,
+      "text": "you just keep doing that, make infinite"
+    },
+    {
+      "id": "llu261:caption:785",
+      "startSeconds": 1556,
+      "text": "hasty three power creatures. Black White"
+    },
+    {
+      "id": "llu261:caption:786",
+      "startSeconds": 1558,
+      "text": "Attrition up next with two really good"
+    },
+    {
+      "id": "llu261:caption:787",
+      "startSeconds": 1560,
+      "text": "gold cards as well. Edgar, Ancient"
+    },
+    {
+      "id": "llu261:caption:788",
+      "startSeconds": 1562,
+      "text": "Bloodlord is black white for a 2-3"
+    },
+    {
+      "id": "llu261:caption:789",
+      "startSeconds": 1564,
+      "text": "legendary. When another creature or"
+    },
+    {
+      "id": "llu261:caption:790",
+      "startSeconds": 1566,
+      "text": "planeswalker you control dies, you gain"
+    },
+    {
+      "id": "llu261:caption:791",
+      "startSeconds": 1568,
+      "text": "one life. You can also pay two mana to"
+    },
+    {
+      "id": "llu261:caption:792",
+      "startSeconds": 1570,
+      "text": "sacrifice a creature or a planeswalker,"
+    },
+    {
+      "id": "llu261:caption:793",
+      "startSeconds": 1572,
+      "text": "put a +1/+1 counter on Edgar, and he"
+    },
+    {
+      "id": "llu261:caption:794",
+      "startSeconds": 1574,
+      "text": "gains menace until end of turn. The"
+    },
+    {
+      "id": "llu261:caption:795",
+      "startSeconds": 1576,
+      "text": "other gold card, Twisted Fate, two white"
+    },
+    {
+      "id": "llu261:caption:796",
+      "startSeconds": 1578,
+      "text": "white black for a sorcery. Destroy"
+    },
+    {
+      "id": "llu261:caption:797",
+      "startSeconds": 1581,
+      "text": "target nonland permanent and put a +1/+1"
+    },
+    {
+      "id": "llu261:caption:798",
+      "startSeconds": 1583,
+      "text": "counter on each creature target player"
+    },
+    {
+      "id": "llu261:caption:799",
+      "startSeconds": 1586,
+      "text": "controls. Yeah, this is what I'm talking"
+    },
+    {
+      "id": "llu261:caption:800",
+      "startSeconds": 1587,
+      "text": "about. Really, really pushed gold cards"
+    },
+    {
+      "id": "llu261:caption:801",
+      "startSeconds": 1588,
+      "text": "this time around. So, yeah, Black White"
+    },
+    {
+      "id": "llu261:caption:802",
+      "startSeconds": 1590,
+      "text": "Attrition, it's your typical all right,"
+    },
+    {
+      "id": "llu261:caption:803",
+      "startSeconds": 1592,
+      "text": "I've got some tokens I'm going to"
+    },
+    {
+      "id": "llu261:caption:804",
+      "startSeconds": 1594,
+      "text": "sacrifice. I've got my two mana 1/1 that"
+    },
+    {
+      "id": "llu261:caption:805",
+      "startSeconds": 1596,
+      "text": "makes my opponent discard a card when it"
+    },
+    {
+      "id": "llu261:caption:806",
+      "startSeconds": 1598,
+      "text": "comes in. I think it's called Rankle, in"
+    },
+    {
+      "id": "llu261:caption:807",
+      "startSeconds": 1599,
+      "text": "this set. Just nickel and diming them,"
+    },
+    {
+      "id": "llu261:caption:808",
+      "startSeconds": 1602,
+      "text": "casting a bunch of 1.5 for 1s, and and"
+    },
+    {
+      "id": "llu261:caption:809",
+      "startSeconds": 1604,
+      "text": "eventually accruing an advantage. Also,"
+    },
+    {
+      "id": "llu261:caption:810",
+      "startSeconds": 1607,
+      "text": "speaking of attrition cards, something I"
+    },
+    {
+      "id": "llu261:caption:811",
+      "startSeconds": 1608,
+      "text": "just found hilarious going through this"
+    },
+    {
+      "id": "llu261:caption:812",
+      "startSeconds": 1609,
+      "text": "set is one of the best attrition cards"
+    },
+    {
+      "id": "llu261:caption:813",
+      "startSeconds": 1612,
+      "text": "we've had as of late is Cruel Bedlam"
+    },
+    {
+      "id": "llu261:caption:814",
+      "startSeconds": 1614,
+      "text": "Blade from The Hobbit. Three mana, your"
+    },
+    {
+      "id": "llu261:caption:815",
+      "startSeconds": 1616,
+      "text": "opponent sacrifices something and you"
+    },
+    {
+      "id": "llu261:caption:816",
+      "startSeconds": 1618,
+      "text": "get a plus two plus one equipment. They"
+    },
+    {
+      "id": "llu261:caption:817",
+      "startSeconds": 1620,
+      "text": "basically reprinted that card in this"
+    },
+    {
+      "id": "llu261:caption:818",
+      "startSeconds": 1622,
+      "text": "set, but this time they gave it the"
+    },
+    {
+      "id": "llu261:caption:819",
+      "startSeconds": 1624,
+      "text": "appropriate rarity. It is better,"
+    },
+    {
+      "id": "llu261:caption:820",
+      "startSeconds": 1626,
+      "text": "somehow it is a better card, but a"
+    },
+    {
+      "id": "llu261:caption:821",
+      "startSeconds": 1627,
+      "text": "Lich's Relic is a single black mana rare"
+    },
+    {
+      "id": "llu261:caption:822",
+      "startSeconds": 1630,
+      "text": "that when it comes in you can pay two"
+    },
+    {
+      "id": "llu261:caption:823",
+      "startSeconds": 1632,
+      "text": "mana to destroy target creature or"
+    },
+    {
+      "id": "llu261:caption:824",
+      "startSeconds": 1634,
+      "text": "planeswalker. And then the rest of the"
+    },
+    {
+      "id": "llu261:caption:825",
+      "startSeconds": 1636,
+      "text": "card is just Cruel Bedlam Blade. It's"
+    },
+    {
+      "id": "llu261:caption:826",
+      "startSeconds": 1637,
+      "text": "two mana to equip and gives the creature"
+    },
+    {
+      "id": "llu261:caption:827",
+      "startSeconds": 1639,
+      "text": "plus two plus one. So, I expect this to"
+    },
+    {
+      "id": "llu261:caption:828",
+      "startSeconds": 1642,
+      "text": "be one of the best rares in the set, but"
+    },
+    {
+      "id": "llu261:caption:829",
+      "startSeconds": 1643,
+      "text": "it's just so funny seeing these cards"
+    },
+    {
+      "id": "llu261:caption:830",
+      "startSeconds": 1645,
+      "text": "side by side. Black green mid range is"
+    },
+    {
+      "id": "llu261:caption:831",
+      "startSeconds": 1647,
+      "text": "up next and one of the defining"
+    },
+    {
+      "id": "llu261:caption:832",
+      "startSeconds": 1649,
+      "text": "qualities of mid range deck is I want"
+    },
+    {
+      "id": "llu261:caption:833",
+      "startSeconds": 1651,
+      "text": "all my cards to just be good on their"
+    },
+    {
+      "id": "llu261:caption:834",
+      "startSeconds": 1652,
+      "text": "own and luckily, you know, these gold"
+    },
+    {
+      "id": "llu261:caption:835",
+      "startSeconds": 1654,
+      "text": "cards they're delivering here. Aphemia,"
+    },
+    {
+      "id": "llu261:caption:836",
+      "startSeconds": 1656,
+      "text": "the Desert Fang is two black black green"
+    },
+    {
+      "id": "llu261:caption:837",
+      "startSeconds": 1659,
+      "text": "for a 3/3 legendary creature. When"
+    },
+    {
+      "id": "llu261:caption:838",
+      "startSeconds": 1661,
+      "text": "Aphemia enters, for each opponent put X"
+    },
+    {
+      "id": "llu261:caption:839",
+      "startSeconds": 1664,
+      "text": "-1/-1 counters on up to one target"
+    },
+    {
+      "id": "llu261:caption:840",
+      "startSeconds": 1666,
+      "text": "creature that player controls. A little"
+    },
+    {
+      "id": "llu261:caption:841",
+      "startSeconds": 1668,
+      "text": "bit of commander wording here, but"
+    },
+    {
+      "id": "llu261:caption:842",
+      "startSeconds": 1670,
+      "text": "basically this comes in and kill"
+    },
+    {
+      "id": "llu261:caption:843",
+      "startSeconds": 1671,
+      "text": "something or at least shrinks it real"
+    },
+    {
+      "id": "llu261:caption:844",
+      "startSeconds": 1673,
+      "text": "good. The other gold card here, Primal"
+    },
+    {
+      "id": "llu261:caption:845",
+      "startSeconds": 1675,
+      "text": "Witchstalker, one black green for a 2/1"
+    },
+    {
+      "id": "llu261:caption:846",
+      "startSeconds": 1677,
+      "text": "menace. When this creature enters, you"
+    },
+    {
+      "id": "llu261:caption:847",
+      "startSeconds": 1679,
+      "text": "mill four cards and when you do return"
+    },
+    {
+      "id": "llu261:caption:848",
+      "startSeconds": 1681,
+      "text": "target land card from your graveyard to"
+    },
+    {
+      "id": "llu261:caption:849",
+      "startSeconds": 1683,
+      "text": "the battlefield tapped. Both of these"
+    },
+    {
+      "id": "llu261:caption:850",
+      "startSeconds": 1685,
+      "text": "cards do have a little bit of a"
+    },
+    {
+      "id": "llu261:caption:851",
+      "startSeconds": 1687,
+      "text": "graveyard component as well. And once"
+    },
+    {
+      "id": "llu261:caption:852",
+      "startSeconds": 1689,
+      "text": "again, you know, flashback cards exist"
+    },
+    {
+      "id": "llu261:caption:853",
+      "startSeconds": 1691,
+      "text": "in the set. We have a pretty good one"
+    },
+    {
+      "id": "llu261:caption:854",
+      "startSeconds": 1692,
+      "text": "here in green, Burl Incursion, four mana"
+    },
+    {
+      "id": "llu261:caption:855",
+      "startSeconds": 1695,
+      "text": "for a sorcery at common, make a 4/4"
+    },
+    {
+      "id": "llu261:caption:856",
+      "startSeconds": 1697,
+      "text": "beast token with trample and then"
+    },
+    {
+      "id": "llu261:caption:857",
+      "startSeconds": 1699,
+      "text": "flashback for six mana. Red white aggro"
+    },
+    {
+      "id": "llu261:caption:858",
+      "startSeconds": 1701,
+      "text": "up next, the trend continues. We just"
+    },
+    {
+      "id": "llu261:caption:859",
+      "startSeconds": 1703,
+      "text": "get very strong gold cards. We have"
+    },
+    {
+      "id": "llu261:caption:860",
+      "startSeconds": 1704,
+      "text": "Warrior's Blade, two red white for an"
+    },
+    {
+      "id": "llu261:caption:861",
+      "startSeconds": 1706,
+      "text": "equipment. When the equipment enters, it"
+    },
+    {
+      "id": "llu261:caption:862",
+      "startSeconds": 1708,
+      "text": "deals three damage to any target and you"
+    },
+    {
+      "id": "llu261:caption:863",
+      "startSeconds": 1710,
+      "text": "gain three life. The equipped creature"
+    },
+    {
+      "id": "llu261:caption:864",
+      "startSeconds": 1711,
+      "text": "gets plus two plus one. The equip cost"
+    },
+    {
+      "id": "llu261:caption:865",
+      "startSeconds": 1714,
+      "text": "is three, but the ability costs one less"
+    },
+    {
+      "id": "llu261:caption:866",
+      "startSeconds": 1716,
+      "text": "to activate for each plus one plus one"
+    },
+    {
+      "id": "llu261:caption:867",
+      "startSeconds": 1718,
+      "text": "counter on the creature it targets. And"
+    },
+    {
+      "id": "llu261:caption:868",
+      "startSeconds": 1720,
+      "text": "the other gold card gives you counters."
+    },
+    {
+      "id": "llu261:caption:869",
+      "startSeconds": 1722,
+      "text": "Mabel, Valiant Hero is a one red white"
+    },
+    {
+      "id": "llu261:caption:870",
+      "startSeconds": 1724,
+      "text": "1/2. Says, \"When Mabel or another"
+    },
+    {
+      "id": "llu261:caption:871",
+      "startSeconds": 1727,
+      "text": "creature you control enters, put a plus"
+    },
+    {
+      "id": "llu261:caption:872",
+      "startSeconds": 1728,
+      "text": "one plus one counter on target creature"
+    },
+    {
+      "id": "llu261:caption:873",
+      "startSeconds": 1730,
+      "text": "that entered this turn.\" And then the"
+    },
+    {
+      "id": "llu261:caption:874",
+      "startSeconds": 1732,
+      "text": "last deck here, blue green empower Jace,"
+    },
+    {
+      "id": "llu261:caption:875",
+      "startSeconds": 1734,
+      "text": "which again, I think is kind of the base"
+    },
+    {
+      "id": "llu261:caption:876",
+      "startSeconds": 1737,
+      "text": "of a multi-color shell, where the idea"
+    },
+    {
+      "id": "llu261:caption:877",
+      "startSeconds": 1740,
+      "text": "is you're splashing the way enchantments"
+    },
+    {
+      "id": "llu261:caption:878",
+      "startSeconds": 1743,
+      "text": "to make your Jace planeswalker have a"
+    },
+    {
+      "id": "llu261:caption:879",
+      "startSeconds": 1744,
+      "text": "bunch of cool abilities. Kiora of the"
+    },
+    {
+      "id": "llu261:caption:880",
+      "startSeconds": 1746,
+      "text": "Sultai and Sand, first gold card here,"
+    },
+    {
+      "id": "llu261:caption:881",
+      "startSeconds": 1748,
+      "text": "really cool card. Unsure how good this"
+    },
+    {
+      "id": "llu261:caption:882",
+      "startSeconds": 1750,
+      "text": "is. I haven't thought about it too much"
+    },
+    {
+      "id": "llu261:caption:883",
+      "startSeconds": 1751,
+      "text": "to be honest, but I do like the looks of"
+    },
+    {
+      "id": "llu261:caption:884",
+      "startSeconds": 1753,
+      "text": "this card. One blue green for a two"
+    },
+    {
+      "id": "llu261:caption:885",
+      "startSeconds": 1755,
+      "text": "four. \"Whenever you attack, if you've"
+    },
+    {
+      "id": "llu261:caption:886",
+      "startSeconds": 1757,
+      "text": "activated a loyalty ability this turn,"
+    },
+    {
+      "id": "llu261:caption:887",
+      "startSeconds": 1759,
+      "text": "untap target attacking creature. It"
+    },
+    {
+      "id": "llu261:caption:888",
+      "startSeconds": 1761,
+      "text": "can't be blocked this turn. And"
+    },
+    {
+      "id": "llu261:caption:889",
+      "startSeconds": 1762,
+      "text": "planeswalkers you control have the"
+    },
+    {
+      "id": "llu261:caption:890",
+      "startSeconds": 1764,
+      "text": "ability negative eight, create a 8/8"
+    },
+    {
+      "id": "llu261:caption:891",
+      "startSeconds": 1767,
+      "text": "blue Leviathan creature token with"
+    },
+    {
+      "id": "llu261:caption:892",
+      "startSeconds": 1769,
+      "text": "hexproof.\" The second gold card here I"
+    },
+    {
+      "id": "llu261:caption:893",
+      "startSeconds": 1770,
+      "text": "can confidently say is a banger. It's"
+    },
+    {
+      "id": "llu261:caption:894",
+      "startSeconds": 1772,
+      "text": "going to be good. I don't have to think"
+    },
+    {
+      "id": "llu261:caption:895",
+      "startSeconds": 1773,
+      "text": "about it for very long. Mind Meanderer,"
+    },
+    {
+      "id": "llu261:caption:896",
+      "startSeconds": 1775,
+      "text": "three green blue blue for a 4/4 flying."
+    },
+    {
+      "id": "llu261:caption:897",
+      "startSeconds": 1778,
+      "text": "\"This creature has vigilance as long as"
+    },
+    {
+      "id": "llu261:caption:898",
+      "startSeconds": 1779,
+      "text": "you control a Jace planeswalker. And"
+    },
+    {
+      "id": "llu261:caption:899",
+      "startSeconds": 1781,
+      "text": "when this creature enters, it fights up"
+    },
+    {
+      "id": "llu261:caption:900",
+      "startSeconds": 1783,
+      "text": "to one target creature an opponent"
+    },
+    {
+      "id": "llu261:caption:901",
+      "startSeconds": 1784,
+      "text": "controls.\" Yeah, just a just a great"
+    },
+    {
+      "id": "llu261:caption:902",
+      "startSeconds": 1786,
+      "text": "card. I also really like the way they"
+    },
+    {
+      "id": "llu261:caption:903",
+      "startSeconds": 1788,
+      "text": "costed this card at three green blue"
+    },
+    {
+      "id": "llu261:caption:904",
+      "startSeconds": 1790,
+      "text": "blue. Means that the green player can't"
+    },
+    {
+      "id": "llu261:caption:905",
+      "startSeconds": 1793,
+      "text": "just snipe it up. Like the green red"
+    },
+    {
+      "id": "llu261:caption:906",
+      "startSeconds": 1794,
+      "text": "ramp player can't easily splash this"
+    },
+    {
+      "id": "llu261:caption:907",
+      "startSeconds": 1796,
+      "text": "card. Heads-up design choice there. And"
+    },
+    {
+      "id": "llu261:caption:908",
+      "startSeconds": 1798,
+      "text": "finally, let's take a look at some"
+    },
+    {
+      "id": "llu261:caption:909",
+      "startSeconds": 1799,
+      "text": "fixing that this set has to offer. So,"
+    },
+    {
+      "id": "llu261:caption:910",
+      "startSeconds": 1801,
+      "text": "we've got a new cycle of dual lands in"
+    },
+    {
+      "id": "llu261:caption:911",
+      "startSeconds": 1805,
+      "text": "the land slot. So, not exactly a common,"
+    },
+    {
+      "id": "llu261:caption:912",
+      "startSeconds": 1807,
+      "text": "but in that land slot. Meticulous"
+    },
+    {
+      "id": "llu261:caption:913",
+      "startSeconds": 1809,
+      "text": "Commons as an example. \"Enters tapped"
+    },
+    {
+      "id": "llu261:caption:914",
+      "startSeconds": 1811,
+      "text": "unless you control a planeswalker and"
+    },
+    {
+      "id": "llu261:caption:915",
+      "startSeconds": 1814,
+      "text": "taps for white or black.\" I'm floating"
+    },
+    {
+      "id": "llu261:caption:916",
+      "startSeconds": 1816,
+      "text": "the name \"duels of the planeswalker\" as"
+    },
+    {
+      "id": "llu261:caption:917",
+      "startSeconds": 1818,
+      "text": "a nickname for these kind of cards. I"
+    },
+    {
+      "id": "llu261:caption:918",
+      "startSeconds": 1820,
+      "text": "I'm very proud of myself for that one."
+    },
+    {
+      "id": "llu261:caption:919",
+      "startSeconds": 1821,
+      "text": "So, yeah, cool cycle there. We also have"
+    },
+    {
+      "id": "llu261:caption:920",
+      "startSeconds": 1824,
+      "text": "at common room of refuge, which enters"
+    },
+    {
+      "id": "llu261:caption:921",
+      "startSeconds": 1826,
+      "text": "tapped, you choose a color as it enters,"
+    },
+    {
+      "id": "llu261:caption:922",
+      "startSeconds": 1829,
+      "text": "and taps for that color. You can also"
+    },
+    {
+      "id": "llu261:caption:923",
+      "startSeconds": 1830,
+      "text": "sacrifice it for five mana to put two"
+    },
+    {
+      "id": "llu261:caption:924",
+      "startSeconds": 1832,
+      "text": "counters on a creature. Activate that"
+    },
+    {
+      "id": "llu261:caption:925",
+      "startSeconds": 1834,
+      "text": "only as a sorcery. We also have a cycle"
+    },
+    {
+      "id": "llu261:caption:926",
+      "startSeconds": 1836,
+      "text": "of land cyclers, and these are just like"
+    },
+    {
+      "id": "llu261:caption:927",
+      "startSeconds": 1838,
+      "text": "the Marvel superhero ones where they"
+    },
+    {
+      "id": "llu261:caption:928",
+      "startSeconds": 1840,
+      "text": "actually search for any basic land. it's"
+    },
+    {
+      "id": "llu261:caption:929",
+      "startSeconds": 1842,
+      "text": "not just uh the color of whatever they"
+    },
+    {
+      "id": "llu261:caption:930",
+      "startSeconds": 1844,
+      "text": "are. Two mana to basic land cycle them."
+    },
+    {
+      "id": "llu261:caption:931",
+      "startSeconds": 1846,
+      "text": "And some of them I'm really excited"
+    },
+    {
+      "id": "llu261:caption:932",
+      "startSeconds": 1848,
+      "text": "about. Like a couple of these I'm like,"
+    },
+    {
+      "id": "llu261:caption:933",
+      "startSeconds": 1850,
+      "text": "I would play this card even if it didn't"
+    },
+    {
+      "id": "llu261:caption:934",
+      "startSeconds": 1852,
+      "text": "have cycling. Hexahedron Paladin one of"
+    },
+    {
+      "id": "llu261:caption:935",
+      "startSeconds": 1854,
+      "text": "them here. Four white white for a"
+    },
+    {
+      "id": "llu261:caption:936",
+      "startSeconds": 1855,
+      "text": "sorcery. Create three 2/2 wizard tokens"
+    },
+    {
+      "id": "llu261:caption:937",
+      "startSeconds": 1859,
+      "text": "and empower Jace 2. And of course has"
+    },
+    {
+      "id": "llu261:caption:938",
+      "startSeconds": 1861,
+      "text": "basic land cycling. So, six mana, make"
+    },
+    {
+      "id": "llu261:caption:939",
+      "startSeconds": 1864,
+      "text": "three tokens, get a scry or whatever you"
+    },
+    {
+      "id": "llu261:caption:940",
+      "startSeconds": 1867,
+      "text": "want to convert that empower Jace 2"
+    },
+    {
+      "id": "llu261:caption:941",
+      "startSeconds": 1869,
+      "text": "into. Another nice one. I'm not going to"
+    },
+    {
+      "id": "llu261:caption:942",
+      "startSeconds": 1870,
+      "text": "read all of them here, but the second"
+    },
+    {
+      "id": "llu261:caption:943",
+      "startSeconds": 1872,
+      "text": "one here, I think this is the second"
+    },
+    {
+      "id": "llu261:caption:944",
+      "startSeconds": 1873,
+      "text": "best one. Awaken the Inferno, which is"
+    },
+    {
+      "id": "llu261:caption:945",
+      "startSeconds": 1876,
+      "text": "four and a red for a sorcery. It deals"
+    },
+    {
+      "id": "llu261:caption:946",
+      "startSeconds": 1878,
+      "text": "six damage to target creature or"
+    },
+    {
+      "id": "llu261:caption:947",
+      "startSeconds": 1879,
+      "text": "planeswalker an opponent controls. And"
+    },
+    {
+      "id": "llu261:caption:948",
+      "startSeconds": 1881,
+      "text": "then you put a plus one plus one counter"
+    },
+    {
+      "id": "llu261:caption:949",
+      "startSeconds": 1882,
+      "text": "on up to one target creature you"
+    },
+    {
+      "id": "llu261:caption:950",
+      "startSeconds": 1884,
+      "text": "control. I imagine this card is going to"
+    },
+    {
+      "id": "llu261:caption:951",
+      "startSeconds": 1886,
+      "text": "go a little bit overlooked early on cuz"
+    },
+    {
+      "id": "llu261:caption:952",
+      "startSeconds": 1888,
+      "text": "it sort of just reads like, \"Okay, six"
+    },
+    {
+      "id": "llu261:caption:953",
+      "startSeconds": 1890,
+      "text": "mana, deal six to something.\" It's like"
+    },
+    {
+      "id": "llu261:caption:954",
+      "startSeconds": 1892,
+      "text": "a very clunky red removal spell. We see"
+    },
+    {
+      "id": "llu261:caption:955",
+      "startSeconds": 1894,
+      "text": "these all the time. That counter is a"
+    },
+    {
+      "id": "llu261:caption:956",
+      "startSeconds": 1895,
+      "text": "big deal though. I I think that putting"
+    },
+    {
+      "id": "llu261:caption:957",
+      "startSeconds": 1898,
+      "text": "stats on board is always something that"
+    },
+    {
+      "id": "llu261:caption:958",
+      "startSeconds": 1901,
+      "text": "plays out better than it looks. Like"
+    },
+    {
+      "id": "llu261:caption:959",
+      "startSeconds": 1902,
+      "text": "even if it's just a counter on on a card"
+    },
+    {
+      "id": "llu261:caption:960",
+      "startSeconds": 1904,
+      "text": "like this. I would compare this to the"
+    },
+    {
+      "id": "llu261:caption:961",
+      "startSeconds": 1907,
+      "text": "black white gold card, the black white"
+    },
+    {
+      "id": "llu261:caption:962",
+      "startSeconds": 1909,
+      "text": "sorcery that is five mana destroy target"
+    },
+    {
+      "id": "llu261:caption:963",
+      "startSeconds": 1912,
+      "text": "non-land permanent. You put a counter on"
+    },
+    {
+      "id": "llu261:caption:964",
+      "startSeconds": 1913,
+      "text": "all the creatures you control. Obviously"
+    },
+    {
+      "id": "llu261:caption:965",
+      "startSeconds": 1915,
+      "text": "the black white card is a better card,"
+    },
+    {
+      "id": "llu261:caption:966",
+      "startSeconds": 1916,
+      "text": "but in a lot of circumstances, if you"
+    },
+    {
+      "id": "llu261:caption:967",
+      "startSeconds": 1918,
+      "text": "only have one creature, it's going to"
+    },
+    {
+      "id": "llu261:caption:968",
+      "startSeconds": 1920,
+      "text": "play out the exact same or very"
+    },
+    {
+      "id": "llu261:caption:969",
+      "startSeconds": 1921,
+      "text": "similarly to Awaken the Inferno here."
+    },
+    {
+      "id": "llu261:caption:970",
+      "startSeconds": 1924,
+      "text": "And that's going to do it for first"
+    },
+    {
+      "id": "llu261:caption:971",
+      "startSeconds": 1925,
+      "text": "impressions. Last thing I'll say is I'm"
+    },
+    {
+      "id": "llu261:caption:972",
+      "startSeconds": 1927,
+      "text": "hyped. I think this set looks really"
+    },
+    {
+      "id": "llu261:caption:973",
+      "startSeconds": 1929,
+      "text": "cool. So many cool cards. 2026 has not"
+    },
+    {
+      "id": "llu261:caption:974",
+      "startSeconds": 1932,
+      "text": "been the strongest year for limited, so"
+    },
+    {
+      "id": "llu261:caption:975",
+      "startSeconds": 1934,
+      "text": "hopefully we have a banger. It kind of"
+    },
+    {
+      "id": "llu261:caption:976",
+      "startSeconds": 1935,
+      "text": "gives me the vibes. I wonder if anybody"
+    },
+    {
+      "id": "llu261:caption:977",
+      "startSeconds": 1937,
+      "text": "else feels that. Kind of gives me the"
+    },
+    {
+      "id": "llu261:caption:978",
+      "startSeconds": 1938,
+      "text": "vibes of like one of the Dusk Legion,"
+    },
+    {
+      "id": "llu261:caption:979",
+      "startSeconds": 1942,
+      "text": "March of the Machine, Kamigawa: Neon"
+    },
+    {
+      "id": "llu261:caption:980",
+      "startSeconds": 1944,
+      "text": "Dynasty, Final Fantasy, one of those"
+    },
+    {
+      "id": "llu261:caption:981",
+      "startSeconds": 1946,
+      "text": "kind of sets where there's a lot going"
+    },
+    {
+      "id": "llu261:caption:982",
+      "startSeconds": 1947,
+      "text": "on, there's a lot of mixing and"
+    },
+    {
+      "id": "llu261:caption:983",
+      "startSeconds": 1948,
+      "text": "matching. Impossible to tell of course"
+    },
+    {
+      "id": "llu261:caption:984",
+      "startSeconds": 1950,
+      "text": "before we play, but I have high hopes."
+    },
+    {
+      "id": "llu261:caption:985",
+      "startSeconds": 1952,
+      "text": "Anyways, if you're looking to tune into"
+    },
+    {
+      "id": "llu261:caption:986",
+      "startSeconds": 1954,
+      "text": "the set review next week, we're doing"
+    },
+    {
+      "id": "llu261:caption:987",
+      "startSeconds": 1956,
+      "text": "the full set review. You know, it's the"
+    },
+    {
+      "id": "llu261:caption:988",
+      "startSeconds": 1957,
+      "text": "the primers are gone. That was just for"
+    },
+    {
+      "id": "llu261:caption:989",
+      "startSeconds": 1959,
+      "text": "small sets. We're doing the full every"
+    },
+    {
+      "id": "llu261:caption:990",
+      "startSeconds": 1961,
+      "text": "single card. We're going to be doing"
+    },
+    {
+      "id": "llu261:caption:991",
+      "startSeconds": 1962,
+      "text": "commons and uncommons Monday, posting"
+    },
+    {
+      "id": "llu261:caption:992",
+      "startSeconds": 1964,
+      "text": "that to the YouTube channel, and rares"
+    },
+    {
+      "id": "llu261:caption:993",
+      "startSeconds": 1967,
+      "text": "and mythics on Thursday after early"
+    },
+    {
+      "id": "llu261:caption:994",
+      "startSeconds": 1969,
+      "text": "access, after we got our hands on the"
+    },
+    {
+      "id": "llu261:caption:995",
+      "startSeconds": 1971,
+      "text": "cards. So, come back for that. If you're"
+    },
+    {
+      "id": "llu261:caption:996",
+      "startSeconds": 1972,
+      "text": "new here, like, subscribe, comment, all"
+    },
+    {
+      "id": "llu261:caption:997",
+      "startSeconds": 1974,
+      "text": "that good stuff. Check out the Patreon"
+    },
+    {
+      "id": "llu261:caption:998",
+      "startSeconds": 1975,
+      "text": "if you want to support the channel, and"
+    },
+    {
+      "id": "llu261:caption:999",
+      "startSeconds": 1977,
+      "text": "we'll see you next time. Bye, everybody."
+    }
+  ],
+  "lastCaptionStartSeconds": 1977
+}

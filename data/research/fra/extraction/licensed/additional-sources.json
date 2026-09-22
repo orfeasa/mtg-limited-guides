@@ -1,0 +1,36 @@
+{
+  "transcripts": [
+    {
+      "id": "nicolai-prerelease",
+      "videoId": "aJk9RSiccW4",
+      "url": "https://www.youtube.com/watch?v=aJk9RSiccW4",
+      "author": "NicolaiBolas",
+      "dependencyGroup": "nicolaibolas",
+      "kind": "review-transcript",
+      "format": "Draft-and-Sealed",
+      "title": "Look for These at Your Reality Fracture Prerelease!!!",
+      "videoDurationSeconds": 1011
+    }
+  ],
+  "unavailable": [
+    {
+      "id": "lr872",
+      "url": "https://lrcast.com/limited-resources-872-reality-fracture-set-review-commons-and-uncommons/",
+      "videoUrl": "https://www.youtube.com/watch?v=mLABrUxyTKw",
+      "author": "Marshall Sutcliffe and Luis Scott-Vargas",
+      "dependencyGroup": "limited-resources",
+      "videoDurationSeconds": 16918,
+      "checkedAt": "2026-09-22",
+      "status": "no-captions-available",
+      "reason": "The official episode page and YouTube video are accessible; caption export returned no transcript after the full player loaded. Audio has not been transcribed.",
+      "chapterStartSeconds": {"mechanics-and-archetypes": 0, "gold": 893, "green": 4579, "white": 7363, "blue": 9722, "black": 12105, "red": 13883, "artifacts-and-lands": 15816}
+    },
+    {
+      "id": "lrr-preprerelease",
+      "author": "LoadingReadyRun",
+      "checkedAt": "2026-09-22",
+      "status": "exact-archive-not-located",
+      "reason": "Search located preview discussion and a North 100 review, but not a verified Reality Fracture PrePreRelease archive. A Canadian Highlander review is not substituted for Limited evidence."
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # Review extraction workspace
 
+**Superseded by the [licensed extraction corpus](licensed/README.md).** The user has now reported noncommercial reuse permission, including repository storage. Full review prose, captions and decklists are retained there. The index-only state below is historical; it is preserved for audit and hash reconciliation.
+
 This is research-only material. It is not imported by the site build. Website presentation and navigation decisions are deferred.
 
 ## Actual state

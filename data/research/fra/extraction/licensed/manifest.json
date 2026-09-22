@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "set": "FRA",
+  "status": "research-only",
+  "permissionId": "user-reported-noncommercial-permissions-2026-09-22",
+  "sources": [
+    {
+      "id": "draftsim",
+      "path": "articles/draftsim.json",
+      "kind": "written-review"
+    },
+    {
+      "id": "zone-artifacts-and-lands",
+      "path": "articles/zone-artifacts-and-lands.json",
+      "kind": "written-review"
+    },
+    {
+      "id": "zone-black",
+      "path": "articles/zone-black.json",
+      "kind": "written-review"
+    },
+    {
+      "id": "zone-blue",
+      "path": "articles/zone-blue.json",
+      "kind": "written-review"
+    },
+    {
+      "id": "zone-green",
+      "path": "articles/zone-green.json",
+      "kind": "written-review"
+    },
+    {
+      "id": "zone-multicolor",
+      "path": "articles/zone-multicolor.json",
+      "kind": "written-review"
+    },
+    {
+      "id": "zone-red",
+      "path": "articles/zone-red.json",
+      "kind": "written-review"
+    },
+    {
+      "id": "zone-white",
+      "path": "articles/zone-white.json",
+      "kind": "written-review"
+    },
+    {
+      "id": "nicolai-guide",
+      "path": "transcripts/nicolai-guide.json",
+      "kind": "review-transcript"
+    },
+    {
+      "id": "llu261",
+      "path": "transcripts/llu261.json",
+      "kind": "review-transcript"
+    },
+    {
+      "id": "tcc110",
+      "path": "transcripts/tcc110.json",
+      "kind": "gameplay-transcript"
+    },
+    {
+      "id": "nicolai-prerelease",
+      "path": "transcripts/nicolai-prerelease.json",
+      "kind": "review-transcript"
+    }
+  ]
+}

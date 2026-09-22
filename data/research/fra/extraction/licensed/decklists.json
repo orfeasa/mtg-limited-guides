@@ -1,0 +1,2746 @@
+{
+  "status": "research-only",
+  "decks": [
+    {
+      "id": "jim-deck",
+      "sourceUrl": "https://archidekt.com/decks/26640427",
+      "sourceApiUrl": "https://archidekt.com/api/decks/26640427/",
+      "name": "Jim Davis Reality Fracture Sealed Pool",
+      "description": "",
+      "capturedAt": "2026-09-22",
+      "sourceCaptureSha256": "41a1af5dff24367dda5a6f1f849fac3263f524e333248beffa11d36efade5a74",
+      "dependencyGroup": "tcc110",
+      "permissionId": "user-reported-noncommercial-permissions-2026-09-22",
+      "interpretation": "Published main decks and unused pools; not proof of every in-game configuration or a judgement on cut cards.",
+      "cards": [
+        {
+          "name": "Plains",
+          "cardId": "a4eaecb8-066a-4c72-aa5d-5ed0614ba537",
+          "sourceOracleId": "bc71ebf6-2056-41f7-be35-b2e5c34afa99",
+          "quantity": 8,
+          "zone": "main",
+          "categories": [
+            "Land"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Forest",
+          "cardId": "613bc075-2fe4-421f-bfec-3786a5e37797",
+          "sourceOracleId": "b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6",
+          "quantity": 6,
+          "zone": "main",
+          "categories": [
+            "Land"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Swamp",
+          "cardId": "30693b85-550d-4c98-8c5b-4fd4e91c9f28",
+          "sourceOracleId": "56719f6a-1a6c-4c0a-8d21-18f7d7350b68",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Land"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Bloombrute",
+          "cardId": "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8",
+          "sourceOracleId": "b7040175-7411-43a8-9b46-dba1d7c2135d",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Gideon's Memorial",
+          "cardId": "768c0e64-9907-417a-a763-c836fdf36883",
+          "sourceOracleId": "c8f08704-7330-4fa9-b456-2e96aa252a2c",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Artifact"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Fateshaper Aspirant",
+          "cardId": "f0c8400d-824f-4d79-84bc-7615a0deb831",
+          "sourceOracleId": "bb3996b6-b68d-4ea1-b3dd-1600f8da2f1c",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Way of the Paradox",
+          "cardId": "98dc5470-507a-4364-8480-42607255e56c",
+          "sourceOracleId": "76771cd1-6b74-49bb-9421-8845fe344567",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Enchantment"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Gideon the Oathless",
+          "cardId": "c985b0d1-25bd-4069-aab7-a566ff27a8f6",
+          "sourceOracleId": "7afa530f-ea51-4bee-af3b-59b83ea5cb25",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Kwia Vigorbloom",
+          "cardId": "2d6ff182-a853-4898-895b-072c89324ca7",
+          "sourceOracleId": "07a28621-e617-46b0-af3e-2efb03b5056a",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Vinelasher Adept",
+          "cardId": "e5ed142b-2b61-4ef5-8b23-2db2a0a0319d",
+          "sourceOracleId": "b5918fb0-c33f-4e33-ac6d-8f94723d4296",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Emergency Phytomedic // Seed Suture",
+          "cardId": "de94d388-919d-44ff-baef-8c90a417ac6d",
+          "sourceOracleId": "7737ccdc-49f2-463e-8ffd-43ab98d11f45",
+          "quantity": 2,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Keeper of the Quiet Hour",
+          "cardId": "b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0",
+          "sourceOracleId": "ecdfee75-15fd-41ea-89d4-4bfc1fa4d032",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Surgical Precision",
+          "cardId": "d3acf176-ef02-4729-88c4-0f0dfbfdada4",
+          "sourceOracleId": "0caccec3-4942-499a-9434-0c94389afcf8",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Sorcery"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Yoshimaru, Beloved Companion",
+          "cardId": "384f3b7d-8d7f-41bf-bebd-64e8babe7fca",
+          "sourceOracleId": "c00a0be5-d9a9-4263-a87e-7bf2d128ab3a",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Memory Trap",
+          "cardId": "2f5345ae-4489-4d05-b2d5-c71285254f05",
+          "sourceOracleId": "70616a8c-9b6c-408e-8f3e-2c348ec136d8",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Enchantment"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Danitha, Sword of Hope",
+          "cardId": "d5cb9810-3c2d-4ae4-b8b6-0155ca3f47ad",
+          "sourceOracleId": "f7b754d3-9863-420d-895d-00e70b8b078a",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Restore with Empathy",
+          "cardId": "3546b93b-a7d1-451d-a369-22cc8ddcd00d",
+          "sourceOracleId": "cb1e697f-6689-4f0b-8725-61d51432b8dd",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Instant"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Arcane Amphisbaena",
+          "cardId": "1bf923c4-f0b7-4271-978c-fd2e79fe1cc8",
+          "sourceOracleId": "5c151e3b-fcf2-4adb-a60b-9eff0c360705",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Twisted Fates",
+          "cardId": "c7c0765d-38fd-4d7b-bfb4-49b10ff5939b",
+          "sourceOracleId": "3ce30a19-e716-478f-be89-e2d95753cfed",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Sorcery"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Unflinching Hortimancer",
+          "cardId": "63f82985-c9c2-4d0a-ac4f-560166bebd9f",
+          "sourceOracleId": "7cd0bd74-2463-4e9d-9802-69ac4ef6d543",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Formidable Commons",
+          "cardId": "e6ca6c3e-f145-42d6-8a17-90770c15afaf",
+          "sourceOracleId": "3e51c060-1e86-4a0e-8fee-8b7273161468",
+          "quantity": 2,
+          "zone": "main",
+          "categories": [
+            "Land"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Hexhaven Battalion",
+          "cardId": "3b6ac80e-c726-4bd0-893a-e666041a04a6",
+          "sourceOracleId": "158823ed-6015-437a-82b0-8dadb1e9aab2",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Sorcery"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Compel Brutality",
+          "cardId": "bd32d736-7a58-46b9-90b4-2cac3c3e80a1",
+          "sourceOracleId": "3a9059ac-c595-4e71-b704-b04d2d47db70",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Instant"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Greenhouse Propagator",
+          "cardId": "a56e0f91-b128-4693-a949-53cb403f4fbf",
+          "sourceOracleId": "b6b77cb9-49a5-4d1a-ae2d-02ae176dc1fa",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Massacre Girl, Most Wanted",
+          "cardId": "9028d31f-9c41-47e3-885b-6a869bca8178",
+          "sourceOracleId": "81f35914-73bf-429f-ba20-32e23ac30159",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Way of the Healer",
+          "cardId": "50326a2a-7e10-464b-a97e-e880bda0558c",
+          "sourceOracleId": "cb27dc83-85ee-4f54-b032-41cd1806d3ac",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Enchantment"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Something Worth Saving",
+          "cardId": "02ee7817-40af-4fcf-a2df-eb218b669281",
+          "sourceOracleId": "46cf0e3e-3c3e-4eb8-a71a-4b4b87744ced",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Generous Revival",
+          "cardId": "f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd",
+          "sourceOracleId": "f8601f5f-0f7c-4689-9d15-137f1e82c49c",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Academic Ascent",
+          "cardId": "730d8c28-1e58-4b8e-89e9-445d154d2e83",
+          "sourceOracleId": "406e853b-713f-4c89-9efb-aca74a11183f",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Flickering Hound",
+          "cardId": "686f3a25-305d-4f02-8972-eba7b8e9635f",
+          "sourceOracleId": "162421d2-8761-437f-bed9-578b61c96f1f",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Yuriko, Blade of the Mighty",
+          "cardId": "ccbe92a5-42bc-4228-9d5a-212df2f5dc15",
+          "sourceOracleId": "f89b0143-4b19-4ab1-a96b-356b21e435ef",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Shatterwing Pegasus",
+          "cardId": "e29095de-59ec-4562-ba8e-73f952e457ae",
+          "sourceOracleId": "7d6641e7-4d14-4a06-b588-0c752af529bd",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Face Yourself",
+          "cardId": "3ccf8f64-19bd-4fdf-b70a-30a042bacf2f",
+          "sourceOracleId": "3c0fe71c-bee1-41d3-aeb5-1723028eedde",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Heartstring Puller",
+          "cardId": "cbfe3354-7ced-4773-9a4e-a937ae9f94f8",
+          "sourceOracleId": "2cdcf65c-03d2-416f-8a3f-0322f75e8595",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Jiang Yanggu, Alone",
+          "cardId": "e8c1ce21-b77d-40bf-9ed1-478604e71f5f",
+          "sourceOracleId": "fa8b3557-b35a-4a68-ab85-cf09683f3bc5",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Way of the Pyromancer",
+          "cardId": "c1a00020-7c14-4503-a057-5763704bb83e",
+          "sourceOracleId": "68d3f547-674a-4d8a-b02f-01bc2f161916",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Hallway Heckler // Vicious Verse",
+          "cardId": "7e324816-552f-455d-97c4-5ea6b26d2e6e",
+          "sourceOracleId": "d1af8018-35b5-4b6f-93c8-1ed6bd8c92b1",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Wrath of the Bloodmane",
+          "cardId": "b5b55617-684a-4036-be9b-a3b24fc9cd5a",
+          "sourceOracleId": "c1994d6a-984d-4b75-9198-1f1822eab6eb",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Awaken the Inferno",
+          "cardId": "c596c4ec-8480-4be9-a45d-700398a126f6",
+          "sourceOracleId": "e729fce5-a1cf-4e95-9fd5-fccf4f704d31",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Blazing Crescendo",
+          "cardId": "8414a98c-0c79-4884-bc9b-061a6456b392",
+          "sourceOracleId": "6344c96a-efa5-4125-8219-d333228391cf",
+          "quantity": 3,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Way of the Deathbringer",
+          "cardId": "12dd46b2-e892-4660-b120-55766fd4d878",
+          "sourceOracleId": "54775625-bf44-4035-969e-7e70578c8b98",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Rewrite Regrets",
+          "cardId": "453cfde7-c460-4b55-9472-b714e16f24bb",
+          "sourceOracleId": "42565432-3a17-4274-87fc-016ab900e313",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Terminal Criticism",
+          "cardId": "7ebd7e38-b27c-4c6e-aaea-e8ee5ba5e5df",
+          "sourceOracleId": "213b0814-f768-4408-9cb7-6f5960bcbb7a",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Rank Rat",
+          "cardId": "4ff6da82-d7dd-4b59-b7e6-30670cea7169",
+          "sourceOracleId": "64e7ef06-ba30-4b19-9d44-ca77944cc930",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Way of the Necromancer",
+          "cardId": "a0ff9689-ea49-4fff-b37c-4abbaeb0f73d",
+          "sourceOracleId": "f3087daa-d2ff-4227-abff-3398da6297af",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Void Extrapolator // Omit Variables",
+          "cardId": "0eae2efb-bf25-48ee-9c07-9098008110ad",
+          "sourceOracleId": "517f84b5-cf99-410d-96ea-910740231dac",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Winter, Tormented Loner",
+          "cardId": "9670f754-f41f-45ac-8e8b-025ad2c0f66b",
+          "sourceOracleId": "84eaac2e-74ce-4a16-9faa-409df7c58eb3",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Solve for Disappointment",
+          "cardId": "7beaa8c9-1a2c-4c88-b579-91e371d8d9e3",
+          "sourceOracleId": "3241a3f5-7ae5-4497-9dd2-a55f3370a055",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Screeching Soulbreaker",
+          "cardId": "738667a1-c184-43ea-829f-49fbb69b6fc0",
+          "sourceOracleId": "47e33aa1-2f54-471c-a484-de13bcd2dceb",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Danitha, Spear of Agony",
+          "cardId": "6489814b-3d10-423e-988c-324740d36748",
+          "sourceOracleId": "4b5c7f11-75f2-4bad-86cd-f0232861f569",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Proft, Sinister Mastermind",
+          "cardId": "d36b0e06-cb82-4c48-bf35-e76f109116f6",
+          "sourceOracleId": "a350856c-87f2-4605-999f-4e26aa362a55",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Apex Witchstalker",
+          "cardId": "cd56f047-6bdc-4e83-8a7c-923ebad26302",
+          "sourceOracleId": "253d0cf7-65d3-4f13-aaf2-aae5bb60ac46",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Silence the Echo",
+          "cardId": "f1d274db-751b-4414-a38d-762198168e91",
+          "sourceOracleId": "43654381-c55c-4d6d-abfd-12932ceb5a4a",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Protege's Awakening",
+          "cardId": "a08c7ec2-4c6a-4db2-85a7-41afe8731523",
+          "sourceOracleId": "07617648-6490-4719-acec-7705671f7e01",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Sphinx's Approach",
+          "cardId": "f49be090-c745-40e5-bc1c-605b8d98acdf",
+          "sourceOracleId": "48b1ac27-430f-4fd9-a71b-6ad125c57fe3",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Cruel Calculations",
+          "cardId": "f76c4d8e-3e1f-4264-99af-1b8adb9a06be",
+          "sourceOracleId": "69b96fe5-9733-4b43-bd66-075742e142d9",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Yuriko, Hope from the Shadows",
+          "cardId": "45e81487-8b8c-480b-922a-eaa9edc7201d",
+          "sourceOracleId": "983f4fde-ab04-44f0-a294-c3b472de0b19",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Countersculpt",
+          "cardId": "145b928d-a7ff-4fe5-ae4d-bbae7b1d955b",
+          "sourceOracleId": "fc3353e9-fe24-4ca7-bff8-9da767f2903a",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Traxos, Academy Guardian",
+          "cardId": "a349800f-b634-4e74-a9d9-185df37ad909",
+          "sourceOracleId": "7b9a574f-6d56-421b-8fbd-94da1e6e3ce1",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Mindseeker Oculus",
+          "cardId": "f5324741-353a-4a70-adb2-b631b00806dd",
+          "sourceOracleId": "aa9547b3-e4e4-4557-9dd1-3aa9a7cb9937",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Semester Foreseer // Peer Review",
+          "cardId": "7e5a640b-fd88-4b5a-9dfc-1d8f5a5cef41",
+          "sourceOracleId": "21b8d59f-a90d-44ff-a2e3-9f439ac3e14a",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Perfected Theory",
+          "cardId": "d0ecae06-bc5a-4886-84df-c2900816f226",
+          "sourceOracleId": "d824a319-fa74-42e4-9cbe-dba1576d6bad",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Unsummon",
+          "cardId": "ddad9f16-52d5-49de-82b0-b1a5294a9c44",
+          "sourceOracleId": "837182db-1bf3-4a2c-bd01-1af9d9873561",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Plan for All Outcomes",
+          "cardId": "c4effc17-0d0e-423a-b5f2-597ea6c71f67",
+          "sourceOracleId": "7fd2cac5-cd29-4a47-9e89-9c6be39a0b67",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Undulating Witness",
+          "cardId": "0adbb4b2-a142-48da-8f4b-fa91529dbac4",
+          "sourceOracleId": "77b684b8-227b-40de-80b4-15d0e70914f4",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Divining Duelist",
+          "cardId": "960c7335-331d-488b-be68-2ad1c1c695dc",
+          "sourceOracleId": "d0ce03fa-2284-4217-85b2-4db6b8a88c94",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Proft, Consulting Detective",
+          "cardId": "b8466593-40fe-4557-89b2-760c1c92087b",
+          "sourceOracleId": "45473bdb-b96f-4213-a46d-b2dbdf6b5e56",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Theorix Metamage // Omit Variables",
+          "cardId": "fb6bad96-841d-4738-8e62-92f346f914fd",
+          "sourceOracleId": "92a0aa44-0ef7-4e6f-8288-7c33067c5fd1",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Entrust the Spark",
+          "cardId": "ca894d25-b9fc-4cd6-8746-70d8c2868721",
+          "sourceOracleId": "b796ecc8-a2e8-4ab9-8736-6825b650434d",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Grim Repriser",
+          "cardId": "8295c48c-b4dd-4bc1-a206-04cf12b79bbd",
+          "sourceOracleId": "e853e2fb-f90d-4934-aa70-c8d3cdf12e56",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Primal Witchstalker",
+          "cardId": "04e64af7-cca1-499e-8951-f386e84c8b5b",
+          "sourceOracleId": "c21fafaf-4510-4752-a501-606ae68e6699",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Fatehold Charm",
+          "cardId": "cfc54011-647e-4428-bcdb-59400e1da49d",
+          "sourceOracleId": "313aee0e-4090-4589-b323-a4edbda21c68",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Uldaros Theorix",
+          "cardId": "a7ad622a-42ff-48fa-ae95-12e0a5bd9387",
+          "sourceOracleId": "020d561b-2e5d-439e-9e6a-318d23e73542",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Medic's Kitesail",
+          "cardId": "8b07409a-1dce-461d-95e4-1130521ff4c4",
+          "sourceOracleId": "eacfe895-5106-437c-b8c1-2ff03c107744",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Eye of Jace",
+          "cardId": "0edba64a-39cf-4a8d-ba20-4f7da10b6c3d",
+          "sourceOracleId": "c8f802ad-4621-4f71-b52d-fbc55853dc88",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Codie, Ravenous Codex",
+          "cardId": "c3192390-1518-49fc-8716-f2c7a0384f39",
+          "sourceOracleId": "a17e414c-8de0-47fd-bcbc-540c7fec7642",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Afterthought Sentry",
+          "cardId": "4d4b3bf7-a149-4099-b97d-4e36a87dfa60",
+          "sourceOracleId": "f0c533a2-751a-4c5a-8cec-b83da3c8c62f",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Living Library",
+          "cardId": "5d4a8e5f-0024-4da3-a2f5-edb48b12e733",
+          "sourceOracleId": "81f022a7-fd19-4340-b8a0-6b11ab3e9d91",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Traxos, Scourge Eternal",
+          "cardId": "05102c46-96f8-44a0-a1e6-e388fa5e0841",
+          "sourceOracleId": "acf4abde-4034-4fcf-b531-78c935aecd8c",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Innovative Commons",
+          "cardId": "84ea799a-faa2-4ff1-a933-432d4ee31a3b",
+          "sourceOracleId": "6812e4d3-0034-4fc8-9ee9-520f76a0ea94",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Fatehold Annex",
+          "cardId": "5140f962-62f3-40fd-a322-44896c7e2613",
+          "sourceOracleId": "d35876a3-e891-43d3-a50c-69e8469497e0",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Theorist's Sanctum",
+          "cardId": "22db5bba-46c9-4a26-821d-303ddb386ea4",
+          "sourceOracleId": "37513bd8-7303-4ac6-a7a7-224184faf758",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        }
+      ],
+      "totals": {
+        "main": 40,
+        "sideboard": 58,
+        "maybeboard": 0
+      }
+    },
+    {
+      "id": "kenji-deck",
+      "sourceUrl": "https://archidekt.com/decks/26640645",
+      "sourceApiUrl": "https://archidekt.com/api/decks/26640645/",
+      "name": "Kenji Egashira \"NumotTheNummy\" Reality Fracture Sealed Pool",
+      "description": "",
+      "capturedAt": "2026-09-22",
+      "sourceCaptureSha256": "852d6aaf8063c1b1d27c5993044401ffc21e4f882e56592088145fa20eac8860",
+      "dependencyGroup": "tcc110",
+      "permissionId": "user-reported-noncommercial-permissions-2026-09-22",
+      "interpretation": "Published main decks and unused pools; not proof of every in-game configuration or a judgement on cut cards.",
+      "cards": [
+        {
+          "name": "Mountain",
+          "cardId": "16671d98-6f00-477b-a010-d2905c94eb65",
+          "sourceOracleId": "a3fb7228-e76b-4e96-a40e-20b5fed75685",
+          "quantity": 8,
+          "zone": "main",
+          "categories": [
+            "Land"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Plains",
+          "cardId": "a4eaecb8-066a-4c72-aa5d-5ed0614ba537",
+          "sourceOracleId": "bc71ebf6-2056-41f7-be35-b2e5c34afa99",
+          "quantity": 8,
+          "zone": "main",
+          "categories": [
+            "Land"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Stingcaster Mage",
+          "cardId": "2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460",
+          "sourceOracleId": "056b651e-e0e2-4333-9235-d1ffe8fcca29",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Tether Technician",
+          "cardId": "b75bbf46-a421-467a-9433-6cf22398a3a5",
+          "sourceOracleId": "a9d0657f-2c5e-4b6f-b8ae-d657cc0f7aef",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Vigorbloom Vanguard // Seed Suture",
+          "cardId": "acefc515-bf97-4dc0-b0f7-ae8ae5a61671",
+          "sourceOracleId": "bd416426-d037-45e3-9647-816bf982cbea",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Pia, Determined Rebuilder",
+          "cardId": "dd3faaf4-45ca-4714-8dbe-37102ec131cf",
+          "sourceOracleId": "a49c0c64-ea87-44f4-9acf-e7181962aeb2",
+          "quantity": 2,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Surgical Precision",
+          "cardId": "d3acf176-ef02-4729-88c4-0f0dfbfdada4",
+          "sourceOracleId": "0caccec3-4942-499a-9434-0c94389afcf8",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Sorcery"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Kiora of Fire and Ashes",
+          "cardId": "08657053-86f9-4c52-abf0-d9cdd443ae3b",
+          "sourceOracleId": "02b41d0e-82e7-4307-8cc4-8175ff78ea1f",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Campus Crier",
+          "cardId": "6047b14c-91d5-4f8e-af3f-057a541e2546",
+          "sourceOracleId": "c1a9d60f-a469-48f9-8f1c-3ca5ae86bd64",
+          "quantity": 2,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Solitary Cell",
+          "cardId": "5142bbb6-194c-4b12-b11a-1a21c9fe81a6",
+          "sourceOracleId": "66a22b35-3dc0-4a74-8474-e73293403de6",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Artifact"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Fatehold Chronologist // Peer Review",
+          "cardId": "29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b",
+          "sourceOracleId": "1063822f-47d3-42e9-8a21-f62b12609fe1",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Way of the Warlord",
+          "cardId": "6d86e410-20c4-4248-96bf-5780ece6274a",
+          "sourceOracleId": "10721d62-dc68-43b4-bfa2-dcb8cf8ea980",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Enchantment"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Warrior's Blades",
+          "cardId": "c63d5b0e-ee72-42ed-aa7e-484ba84507cd",
+          "sourceOracleId": "f47419a5-b975-4934-a987-ea064a0c7c1a",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Artifact"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Way of the Pyromancer",
+          "cardId": "c1a00020-7c14-4503-a057-5763704bb83e",
+          "sourceOracleId": "68d3f547-674a-4d8a-b02f-01bc2f161916",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Enchantment"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Saheeli, Consul of Oversight",
+          "cardId": "07572be0-6610-493c-a21e-14b78e9805c9",
+          "sourceOracleId": "dfa95c0e-393d-4b22-9de3-45a7efc0ba14",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Hexhaven Battalion",
+          "cardId": "3b6ac80e-c726-4bd0-893a-e666041a04a6",
+          "sourceOracleId": "158823ed-6015-437a-82b0-8dadb1e9aab2",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Sorcery"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Heartstring Puller",
+          "cardId": "cbfe3354-7ced-4773-9a4e-a937ae9f94f8",
+          "sourceOracleId": "2cdcf65c-03d2-416f-8a3f-0322f75e8595",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Awaken the Inferno",
+          "cardId": "c596c4ec-8480-4be9-a45d-700398a126f6",
+          "sourceOracleId": "e729fce5-a1cf-4e95-9fd5-fccf4f704d31",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Sorcery"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Fulminous Forte",
+          "cardId": "19acb2b5-3b3e-43f0-bd81-8426ed3d9c55",
+          "sourceOracleId": "2a29d028-d1a4-413f-9c01-d6842294420a",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Instant"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Woodwork Prodigy // Soul Tether",
+          "cardId": "7d17f7e3-7b63-4674-9024-4fd1827f40ec",
+          "sourceOracleId": "f3ed157f-a09b-405f-aec4-0e7a81d80fc8",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Enlightened Confidant",
+          "cardId": "483fcc58-cc6e-4452-a696-7b38e117c837",
+          "sourceOracleId": "a139eb7f-3853-490c-a839-35d0e5aed7b5",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Way of the Mentor",
+          "cardId": "1a59d5b1-12d6-486b-bd29-ca371359addd",
+          "sourceOracleId": "ce924285-f4c5-44e6-909b-f5f7d302ebaf",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Enchantment"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Blossom-Blessed Angel // Seed Suture",
+          "cardId": "5e77fbf0-9d1f-4e7d-a02e-43065d11b0d9",
+          "sourceOracleId": "cd61c26b-8d3c-4730-92f2-0d94d961bafd",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "No Admittance",
+          "cardId": "11ba4fdd-cc03-4bb6-a493-91a9785771d0",
+          "sourceOracleId": "d53ae01b-87e1-48e1-9fc3-23a734ce6622",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Sorcery"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Hallway Heckler // Vicious Verse",
+          "cardId": "7e324816-552f-455d-97c4-5ea6b26d2e6e",
+          "sourceOracleId": "d1af8018-35b5-4b6f-93c8-1ed6bd8c92b1",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Stingerquill Voxmancer // Vicious Verse",
+          "cardId": "84b1c268-3b8a-41b6-92e3-a2ce0cc3d738",
+          "sourceOracleId": "e8f755f7-ec93-4d2e-bffc-c719984fa13d",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Hexhaven Dueling Arena",
+          "cardId": "9128ce00-6744-4d36-bfbe-ef75d78110b0",
+          "sourceOracleId": "2cc075da-f79b-4050-84eb-2c1b9a30260c",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Fatehold Annex",
+          "cardId": "5140f962-62f3-40fd-a322-44896c7e2613",
+          "sourceOracleId": "d35876a3-e891-43d3-a50c-69e8469497e0",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Vigorbloom Annex",
+          "cardId": "db8c7bdd-76cd-4be0-ae0d-d430e9a5fe7a",
+          "sourceOracleId": "fcb35d42-bcd2-427c-9640-ff3602b79912",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Theorix Annex",
+          "cardId": "97bbbd23-ecb1-4407-ac14-dede08532a1e",
+          "sourceOracleId": "00ad5200-5179-4d1b-8bb3-a09e1b31be58",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Meticulous Commons",
+          "cardId": "93ac525e-1919-43dd-aba4-073b7e4c1768",
+          "sourceOracleId": "7fdd471f-ec95-4aa7-8f8a-ad8946de5ab4",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Academic Ascent",
+          "cardId": "730d8c28-1e58-4b8e-89e9-445d154d2e83",
+          "sourceOracleId": "406e853b-713f-4c89-9efb-aca74a11183f",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Konstrari Improviser // Soul Tether",
+          "cardId": "42e28bd2-486b-45d4-8840-6e33c19c2d57",
+          "sourceOracleId": "bad2e3b2-ad47-4e17-b35e-0fcc13e82937",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Skilled Battlecarver",
+          "cardId": "0e44f959-1322-4abd-b6eb-dea992307c0c",
+          "sourceOracleId": "4fc7c7a0-bfff-4833-a0d0-a38dc29e9dfb",
+          "quantity": 2,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Pyre Rhymer // Molten Tide",
+          "cardId": "2b0ebea0-86de-4da4-9fe8-dacc1e75c161",
+          "sourceOracleId": "8940f503-fc6d-4fae-be74-22c660cae1a7",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Blessed Ghoul",
+          "cardId": "bb975803-9bf2-401e-9414-d272df314398",
+          "sourceOracleId": "fe99d90e-4809-4310-a3f7-ceb540511d55",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Germinate Recruits",
+          "cardId": "1b5d7d19-b32a-4786-ae9a-00da5e6658ad",
+          "sourceOracleId": "2c3a1313-a66e-4317-9732-e4ff9288b0db",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Graft Surgeon",
+          "cardId": "32a7a905-11bf-4b66-a28e-1066a0e372b8",
+          "sourceOracleId": "fe7938ce-6289-4bf8-a8f5-85ecccbb7f86",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Charge the Sanctum",
+          "cardId": "87b40df5-5c0a-41f5-a09c-a04f17066a91",
+          "sourceOracleId": "9d835137-584c-46bd-952e-4b2812bba1a3",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Command the Stage",
+          "cardId": "f3307da2-6dad-4ef2-9614-a7d34f38088e",
+          "sourceOracleId": "13bfc51f-d079-40ef-a4ba-47d06d3150a3",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Artifist Acumen",
+          "cardId": "7d3b720d-f27c-462a-8f80-15748e5086e1",
+          "sourceOracleId": "129b41cf-8327-42f0-b186-1111b42c08ab",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Arni, Renowned Champion",
+          "cardId": "bd8db649-1dba-457d-8327-e1f1da1aab36",
+          "sourceOracleId": "1a929c4f-ae1f-44d9-a0a7-2ca2dc928dee",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Murmuring Volume",
+          "cardId": "d68eab2e-89dd-4377-b7af-01512b1804a0",
+          "sourceOracleId": "4baa7847-dfcc-4aa3-aa64-2deeaa3f013b",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Medic's Kitesail",
+          "cardId": "8b07409a-1dce-461d-95e4-1130521ff4c4",
+          "sourceOracleId": "eacfe895-5106-437c-b8c1-2ff03c107744",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Afterthought Sentry",
+          "cardId": "4d4b3bf7-a149-4099-b97d-4e36a87dfa60",
+          "sourceOracleId": "f0c533a2-751a-4c5a-8cec-b83da3c8c62f",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Solarium Sentry",
+          "cardId": "1ef12dcf-df50-4da6-8c4c-e2937ba9698e",
+          "sourceOracleId": "afddba56-f9a0-4917-8167-c9fd17ca9954",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Tam's Resistance",
+          "cardId": "b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b",
+          "sourceOracleId": "7500b7dc-588d-46bd-acc5-885dcd464668",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Kiora of Salt and Sand",
+          "cardId": "8151f5f5-e9f6-4fbe-b543-f456ebf22aa5",
+          "sourceOracleId": "e70bb7f8-8098-49c5-929c-68f63cd821c5",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Ferocity of the Hunt",
+          "cardId": "a9793ce9-5a0b-41fe-b9ad-02f6f7da2481",
+          "sourceOracleId": "747a1b36-eb4f-44e6-9e5a-bb1a0259a471",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Theorix Metamage // Omit Variables",
+          "cardId": "fb6bad96-841d-4738-8e62-92f346f914fd",
+          "sourceOracleId": "92a0aa44-0ef7-4e6f-8288-7c33067c5fd1",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Edgar, Ancient Bloodlord",
+          "cardId": "7c619fed-2394-4efc-8cdc-6df5f51c1f57",
+          "sourceOracleId": "cab2bc93-f38b-4301-ac42-05765615586b",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Recursive Recruitment",
+          "cardId": "68fddb6a-86d4-4ebb-907d-fdcaadebc4b3",
+          "sourceOracleId": "b73e35b0-b8c9-471a-bdff-f7dc8f453d7a",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Saheeli, Jewel of Avishkar",
+          "cardId": "28d84ef6-e190-46d4-882d-1cea5e111e2a",
+          "sourceOracleId": "83705258-1f42-41db-a32e-de99ffd759eb",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Hapatra, the Desert Fang",
+          "cardId": "cf7c1534-af41-4991-b3c3-f0a34ae330b5",
+          "sourceOracleId": "6894345f-52a6-46e4-b278-0783087daee1",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Silence the Echo",
+          "cardId": "f1d274db-751b-4414-a38d-762198168e91",
+          "sourceOracleId": "43654381-c55c-4d6d-abfd-12932ceb5a4a",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Apex Witchstalker",
+          "cardId": "cd56f047-6bdc-4e83-8a7c-923ebad26302",
+          "sourceOracleId": "253d0cf7-65d3-4f13-aaf2-aae5bb60ac46",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Cast Away Doubt",
+          "cardId": "3b5b28a4-0abd-4dc2-9856-c9a8d27f6a2d",
+          "sourceOracleId": "bcf29dd7-6d5a-4139-958e-7c59434c0770",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Rampart Hunter",
+          "cardId": "f4a80225-7459-4151-86bb-8fdea31c39a6",
+          "sourceOracleId": "0867755a-9fb9-42ad-897e-6206fbfbc1f8",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Tinybones, Pocket Nuisance",
+          "cardId": "2f47ddf7-35b6-4205-8045-f057914c5f64",
+          "sourceOracleId": "97dcf9fb-3f2f-4aa6-959a-e3c4889c1673",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Extrapolate the Impossible",
+          "cardId": "17fb6538-493c-41aa-ad13-3e63d3ad3317",
+          "sourceOracleId": "1f47c869-f4a9-43b0-aec0-8da4e3a3fec5",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Screeching Soulbreaker",
+          "cardId": "738667a1-c184-43ea-829f-49fbb69b6fc0",
+          "sourceOracleId": "47e33aa1-2f54-471c-a484-de13bcd2dceb",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Rewrite Regrets",
+          "cardId": "453cfde7-c460-4b55-9472-b714e16f24bb",
+          "sourceOracleId": "42565432-3a17-4274-87fc-016ab900e313",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Theoretical Necromancer",
+          "cardId": "e36a7908-1e22-494b-adb4-e72ac0974d62",
+          "sourceOracleId": "6c5ed756-b999-49f7-9a52-fb8196202f0f",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Greenhouse Propagator",
+          "cardId": "a56e0f91-b128-4693-a949-53cb403f4fbf",
+          "sourceOracleId": "b6b77cb9-49a5-4d1a-ae2d-02ae176dc1fa",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Ruric Thar, Magecrusher",
+          "cardId": "eed83302-dc2c-45f4-a4bd-af9da51edef5",
+          "sourceOracleId": "453b2b3c-7df5-4515-9565-82f603cf451b",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Jiang Yanggu, Never Alone",
+          "cardId": "f5a0bb3e-8119-4739-8684-e61d1d607dcb",
+          "sourceOracleId": "4ba661d7-1cb8-4fec-bfaa-5f2797235fcf",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Bestial Incursion",
+          "cardId": "e0de5f66-f0df-4866-9f73-104ce50411b4",
+          "sourceOracleId": "bc00f29a-e9d2-4b86-bb22-33b686ac4365",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Budding Insurgent",
+          "cardId": "18c59d60-2640-4576-9375-3ba38aa3ecb7",
+          "sourceOracleId": "723669e0-4a04-45ec-8c76-b1a369aa6892",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Titanbones, Towering Heart",
+          "cardId": "edea6f70-a5a7-475d-b7f2-97933d0f32cf",
+          "sourceOracleId": "510bccb1-61cd-49f1-a54a-80352653d1e3",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Edgar, Moonlit Sovereign",
+          "cardId": "dad6afc9-8505-4cdd-bf79-e9ba4670f2bb",
+          "sourceOracleId": "1917bda6-c0e1-4c80-8009-74c28cf6b8e9",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Inspired Tethermage",
+          "cardId": "073f4998-a204-447b-93d5-746ae87fd6a1",
+          "sourceOracleId": "80c2784b-f27d-4a51-9380-171eb32b961d",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Gardenize",
+          "cardId": "930b89c3-4433-48de-829f-20fc3dbfced9",
+          "sourceOracleId": "e74a2a4c-ca3c-49e8-9b0f-b4d1bb91fb54",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Pia, Aether Ascetic",
+          "cardId": "ff0bc30f-9d20-458e-808f-bdc2825905a5",
+          "sourceOracleId": "6519dc16-4960-4220-aaa8-7e4279743714",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Sureshot Sower",
+          "cardId": "b635389c-e286-4edb-80d1-23dbe4a18857",
+          "sourceOracleId": "5bbc9d7d-91bd-4a58-8d19-f7be650720b7",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Hapatra, the Desert Frost",
+          "cardId": "85faaa9d-4656-4365-871d-7cba53ed0996",
+          "sourceOracleId": "ac0f161a-e5ec-4a95-9f37-305bdf1ac900",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Undulating Witness",
+          "cardId": "0adbb4b2-a142-48da-8f4b-fa91529dbac4",
+          "sourceOracleId": "77b684b8-227b-40de-80b4-15d0e70914f4",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Mindseeker Oculus",
+          "cardId": "f5324741-353a-4a70-adb2-b631b00806dd",
+          "sourceOracleId": "aa9547b3-e4e4-4557-9dd1-3aa9a7cb9937",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Divining Duelist",
+          "cardId": "960c7335-331d-488b-be68-2ad1c1c695dc",
+          "sourceOracleId": "d0ce03fa-2284-4217-85b2-4db6b8a88c94",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Precise Redaction",
+          "cardId": "9244efad-35ab-45c0-b173-4bc68276cb67",
+          "sourceOracleId": "c251b676-0e98-4047-bed1-d72c83aa8da0",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Arni, Humble Scribe",
+          "cardId": "8e3a2239-9348-4639-9318-e9e35b2cf86b",
+          "sourceOracleId": "a680d1ab-99f2-43d0-b289-5fdba4083d03",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Semester Foreseer // Peer Review",
+          "cardId": "7e5a640b-fd88-4b5a-9dfc-1d8f5a5cef41",
+          "sourceOracleId": "21b8d59f-a90d-44ff-a2e3-9f439ac3e14a",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Icy Reception",
+          "cardId": "8d754b96-5e44-45af-9c7a-b0da59fbe4c3",
+          "sourceOracleId": "612c7807-be70-4e2f-afd2-3d3c03eddbbe",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        }
+      ],
+      "totals": {
+        "main": 40,
+        "sideboard": 59,
+        "maybeboard": 0
+      }
+    },
+    {
+      "id": "marshall-deck",
+      "sourceUrl": "https://archidekt.com/decks/26640835",
+      "sourceApiUrl": "https://archidekt.com/api/decks/26640835/",
+      "name": "Marshall Sutcliffe Reality Fractured Sealed Pool",
+      "description": "",
+      "capturedAt": "2026-09-22",
+      "sourceCaptureSha256": "037d8e774e688d34fad773d124729e11a2cb3b37cdf9916faaafffe981da2b67",
+      "dependencyGroup": "tcc110",
+      "permissionId": "user-reported-noncommercial-permissions-2026-09-22",
+      "interpretation": "Published main decks and unused pools; not proof of every in-game configuration or a judgement on cut cards.",
+      "cards": [
+        {
+          "name": "Mountain",
+          "cardId": "16671d98-6f00-477b-a010-d2905c94eb65",
+          "sourceOracleId": "a3fb7228-e76b-4e96-a40e-20b5fed75685",
+          "quantity": 5,
+          "zone": "main",
+          "categories": [
+            "Land"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Swamp",
+          "cardId": "30693b85-550d-4c98-8c5b-4fd4e91c9f28",
+          "sourceOracleId": "56719f6a-1a6c-4c0a-8d21-18f7d7350b68",
+          "quantity": 3,
+          "zone": "main",
+          "categories": [
+            "Land"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Forest",
+          "cardId": "613bc075-2fe4-421f-bfec-3786a5e37797",
+          "sourceOracleId": "b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6",
+          "quantity": 6,
+          "zone": "main",
+          "categories": [
+            "Land"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Extended Absence",
+          "cardId": "eb4b6ed8-782e-4473-abc9-d50bf2275c6a",
+          "sourceOracleId": "973fb1e3-83d5-4763-bea8-799b426a8848",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Instant"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Fblthp, Knows the Way",
+          "cardId": "28fbb55a-5c9d-45ee-bf42-a84b1048f5d2",
+          "sourceOracleId": "48b891b6-3175-4864-bb98-af131098c557",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Konstrari Annex",
+          "cardId": "39c805e3-82cd-42a9-80fe-8d81712a94ea",
+          "sourceOracleId": "31ea4f3f-392a-4319-a95b-eb28790a80e6",
+          "quantity": 2,
+          "zone": "main",
+          "categories": [
+            "Land"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Rockfall Vale",
+          "cardId": "e3c8a8b6-23ba-45ad-80d1-8e2dc79897f7",
+          "sourceOracleId": "185c70c1-8403-4ae5-b45d-3679d4ee092a",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Land"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Sureshot Sower",
+          "cardId": "b635389c-e286-4edb-80d1-23dbe4a18857",
+          "sourceOracleId": "5bbc9d7d-91bd-4a58-8d19-f7be650720b7",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Gallia, the Merrymaker",
+          "cardId": "f27d50f0-d76e-4ce1-a8d9-d997af6a5b41",
+          "sourceOracleId": "87f39199-3e4b-44fa-8406-62019eb43c10",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Verdant Kraken",
+          "cardId": "2bb7a8eb-227f-410b-859f-750ef0aea2f0",
+          "sourceOracleId": "83c61083-b357-4775-a855-5a9013cc2bdf",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Bestial Incursion",
+          "cardId": "e0de5f66-f0df-4866-9f73-104ce50411b4",
+          "sourceOracleId": "bc00f29a-e9d2-4b86-bb22-33b686ac4365",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Sorcery"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Hallway Heckler // Vicious Verse",
+          "cardId": "7e324816-552f-455d-97c4-5ea6b26d2e6e",
+          "sourceOracleId": "d1af8018-35b5-4b6f-93c8-1ed6bd8c92b1",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Way of the Wildspeaker",
+          "cardId": "a252cb01-537b-4afe-9abc-81a98c4a1439",
+          "sourceOracleId": "501580b9-692c-4804-be34-012a25ba8adf",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Enchantment"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Ajani's Anguish",
+          "cardId": "d9039a58-2f17-4b8a-b714-3a2f0b46f057",
+          "sourceOracleId": "4a37f4a0-2869-4f81-b51b-4c3e7e0e0671",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Enchantment"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Command the Stage",
+          "cardId": "f3307da2-6dad-4ef2-9614-a7d34f38088e",
+          "sourceOracleId": "13bfc51f-d079-40ef-a4ba-47d06d3150a3",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Sorcery"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Last Gasp",
+          "cardId": "2381d123-d8c7-4822-98fe-b1c365beb5ed",
+          "sourceOracleId": "a82c3860-4dd6-4ffd-aa8f-ab8df687db6c",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Removal"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Yoshimaru, Scrappy Stray",
+          "cardId": "b8dfd087-2434-42c6-ac4c-1decbcdde2db",
+          "sourceOracleId": "c87da757-3daa-4874-a1e4-be0aa2adcb28",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Heartwood Crafter // Soul Tether",
+          "cardId": "910a1f41-17fd-4ab0-9597-7151e79dc760",
+          "sourceOracleId": "c8b3a070-408e-4a8f-8597-6476eeec0a5f",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "No Admittance",
+          "cardId": "11ba4fdd-cc03-4bb6-a493-91a9785771d0",
+          "sourceOracleId": "d53ae01b-87e1-48e1-9fc3-23a734ce6622",
+          "quantity": 2,
+          "zone": "main",
+          "categories": [
+            "Sorcery"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Greenhouse Propagator",
+          "cardId": "a56e0f91-b128-4693-a949-53cb403f4fbf",
+          "sourceOracleId": "b6b77cb9-49a5-4d1a-ae2d-02ae176dc1fa",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Marwyn, the Clearcutter",
+          "cardId": "f93da73c-ca8b-438e-8387-6109dac3fc1a",
+          "sourceOracleId": "aff4e43d-cafa-47de-8e39-011f9254a26a",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Loot, the Nexus",
+          "cardId": "3cfa4fc6-4d90-4576-a83f-6496c7f21104",
+          "sourceOracleId": "a99ce9db-9b7d-45a0-bee7-0875fc62ca48",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Multiply by Zero",
+          "cardId": "90d684a4-9639-4792-8760-2011a7a85370",
+          "sourceOracleId": "d940611f-f84d-43fa-82d6-eecb4fb54164",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Instant"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Carnivorous Cultivator // Enroot",
+          "cardId": "79dd5c54-5ea5-47b5-8f9b-50ed57a5ea45",
+          "sourceOracleId": "db655c5a-06f6-42bc-8180-d9ca1c1d939a",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Ghalta the Unstoppable",
+          "cardId": "1d535b5f-c916-4f16-89a7-9477578826d2",
+          "sourceOracleId": "8e5ea773-a60b-4502-9db5-ce93fa61cc89",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Ajani Unrelenting",
+          "cardId": "bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5",
+          "sourceOracleId": "71620e92-45a4-49cb-94d5-348013ecf886",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Planeswalker"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Marwyn, the Preserver",
+          "cardId": "90f33f99-7bc5-42e1-815e-bfb4c2b74107",
+          "sourceOracleId": "eb03f6c1-c94f-4f09-b2e9-a55ce5533653",
+          "quantity": 1,
+          "zone": "main",
+          "categories": [
+            "Creature"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Hexhaven Battalion",
+          "cardId": "3b6ac80e-c726-4bd0-893a-e666041a04a6",
+          "sourceOracleId": "158823ed-6015-437a-82b0-8dadb1e9aab2",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Twinned Vision",
+          "cardId": "55f85984-0137-4899-8993-bbc8c4794d33",
+          "sourceOracleId": "fa1cc78f-26bc-4d5d-973b-7cb7d7490973",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Way of the Cryomancer",
+          "cardId": "838b0efb-7398-4df9-8fdf-b8af43b47938",
+          "sourceOracleId": "7d32c63d-aa9e-4f5d-a3e6-51377a786009",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Unsummon",
+          "cardId": "ddad9f16-52d5-49de-82b0-b1a5294a9c44",
+          "sourceOracleId": "837182db-1bf3-4a2c-bd01-1af9d9873561",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Fblthp, Impossibly Lost",
+          "cardId": "a3a2edbb-d144-4670-acad-17316cea98d2",
+          "sourceOracleId": "17e7212e-69d8-4014-af98-447baed2cae7",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Divining Duelist",
+          "cardId": "960c7335-331d-488b-be68-2ad1c1c695dc",
+          "sourceOracleId": "d0ce03fa-2284-4217-85b2-4db6b8a88c94",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Infinite Coursework",
+          "cardId": "a5988272-faaa-463d-a0a1-a8e96b946bad",
+          "sourceOracleId": "666b34b5-a0c2-43e3-befd-7c3979313682",
+          "quantity": 2,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Perfected Theory",
+          "cardId": "d0ecae06-bc5a-4886-84df-c2900816f226",
+          "sourceOracleId": "d824a319-fa74-42e4-9cbe-dba1576d6bad",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Cryotheory Adept",
+          "cardId": "9ba1f7ce-3404-4932-9795-22967707f762",
+          "sourceOracleId": "a9b3ee21-1af1-4e7e-8e48-d7c90d056f5c",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Undulating Witness",
+          "cardId": "0adbb4b2-a142-48da-8f4b-fa91529dbac4",
+          "sourceOracleId": "77b684b8-227b-40de-80b4-15d0e70914f4",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Theorix Annex",
+          "cardId": "97bbbd23-ecb1-4407-ac14-dede08532a1e",
+          "sourceOracleId": "00ad5200-5179-4d1b-8bb3-a09e1b31be58",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Theorix Metamage // Omit Variables",
+          "cardId": "fb6bad96-841d-4738-8e62-92f346f914fd",
+          "sourceOracleId": "92a0aa44-0ef7-4e6f-8288-7c33067c5fd1",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Cast Away Doubt",
+          "cardId": "3b5b28a4-0abd-4dc2-9856-c9a8d27f6a2d",
+          "sourceOracleId": "bcf29dd7-6d5a-4139-958e-7c59434c0770",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Teyo, Diamondblade Mage",
+          "cardId": "100c3b67-0c92-4224-b5ed-67789c612df7",
+          "sourceOracleId": "a3bfbe1a-7831-45bd-9e42-790c28f6054c",
+          "quantity": 2,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Gallia, Tragic Host",
+          "cardId": "498fa810-8522-4020-b773-52ad404c9f65",
+          "sourceOracleId": "58285b70-0d13-4723-b5a4-91fb6f9ccf03",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Loot, the Anomaly",
+          "cardId": "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff",
+          "sourceOracleId": "e0142e7d-7b0b-4290-a56c-5fa950fdccf8",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Rampart Hunter",
+          "cardId": "f4a80225-7459-4151-86bb-8fdea31c39a6",
+          "sourceOracleId": "0867755a-9fb9-42ad-897e-6206fbfbc1f8",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Winter, Tormented Loner",
+          "cardId": "9670f754-f41f-45ac-8e8b-025ad2c0f66b",
+          "sourceOracleId": "84eaac2e-74ce-4a16-9faa-409df7c58eb3",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Theoretical Necromancer",
+          "cardId": "e36a7908-1e22-494b-adb4-e72ac0974d62",
+          "sourceOracleId": "6c5ed756-b999-49f7-9a52-fb8196202f0f",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Chandra's Emberling",
+          "cardId": "3a64c5f4-9cfc-4d19-bd99-13d619b1aa9d",
+          "sourceOracleId": "d3576617-7867-4c3d-aa31-d6742483465b",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Stingerquill Voxmancer // Vicious Verse",
+          "cardId": "84b1c268-3b8a-41b6-92e3-a2ce0cc3d738",
+          "sourceOracleId": "e8f755f7-ec93-4d2e-bffc-c719984fa13d",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Pompous Battlemage // Improvised Act",
+          "cardId": "aa0f77ac-741a-444a-8bf0-a42c644726bf",
+          "sourceOracleId": "33e3793c-098f-4897-88f3-9f9ce9081e0f",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Artifist Acumen",
+          "cardId": "7d3b720d-f27c-462a-8f80-15748e5086e1",
+          "sourceOracleId": "129b41cf-8327-42f0-b186-1111b42c08ab",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Vraska's Final Mercy",
+          "cardId": "992bd991-7cfb-459f-bafd-9a44f3c925c5",
+          "sourceOracleId": "7799413d-e313-4a05-ad28-f4c926c26d28",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Solve for Disappointment",
+          "cardId": "7beaa8c9-1a2c-4c88-b579-91e371d8d9e3",
+          "sourceOracleId": "3241a3f5-7ae5-4497-9dd2-a55f3370a055",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Eardrum Rattler",
+          "cardId": "5f8771f9-8128-4818-a11d-41ea368cf697",
+          "sourceOracleId": "25151d18-8e73-4b0d-a8d2-e5fa291e5729",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Skilled Battlecarver",
+          "cardId": "0e44f959-1322-4abd-b6eb-dea992307c0c",
+          "sourceOracleId": "4fc7c7a0-bfff-4833-a0d0-a38dc29e9dfb",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Tethermage's Advantage",
+          "cardId": "38589a7c-9cfb-4bcc-845e-9dc205095853",
+          "sourceOracleId": "b4f89885-eeb9-46c7-9820-9758b624ca24",
+          "quantity": 2,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Ferocity of the Hunt",
+          "cardId": "a9793ce9-5a0b-41fe-b9ad-02f6f7da2481",
+          "sourceOracleId": "747a1b36-eb4f-44e6-9e5a-bb1a0259a471",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Inspired Tethermage",
+          "cardId": "073f4998-a204-447b-93d5-746ae87fd6a1",
+          "sourceOracleId": "80c2784b-f27d-4a51-9380-171eb32b961d",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Wrecking Gecko",
+          "cardId": "3d693cb0-681e-480a-8f70-07e94c39225c",
+          "sourceOracleId": "4a9e0294-c967-4e90-b776-6d3195034a23",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Saheeli, Consul of Oversight",
+          "cardId": "07572be0-6610-493c-a21e-14b78e9805c9",
+          "sourceOracleId": "dfa95c0e-393d-4b22-9de3-45a7efc0ba14",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Ghalta the Immovable",
+          "cardId": "a9f3aa55-908f-42db-8135-4201433df850",
+          "sourceOracleId": "0d496c6e-8f7b-420f-9197-dacd2feb528f",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Ajani Resolute",
+          "cardId": "a5e1a7dd-8c49-4435-935c-bcc78704082b",
+          "sourceOracleId": "0d60c095-4c6c-4618-8ef3-508f3d454efa",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Prophesied End",
+          "cardId": "1f95399a-9766-4f3d-aa6a-ece55e0530d9",
+          "sourceOracleId": "45f4d057-5134-40a2-9590-ddba73a65582",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Graft Surgeon",
+          "cardId": "32a7a905-11bf-4b66-a28e-1066a0e372b8",
+          "sourceOracleId": "fe7938ce-6289-4bf8-a8f5-85ecccbb7f86",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Fateshaper Aspirant",
+          "cardId": "f0c8400d-824f-4d79-84bc-7615a0deb831",
+          "sourceOracleId": "bb3996b6-b68d-4ea1-b3dd-1600f8da2f1c",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Campus Crier",
+          "cardId": "6047b14c-91d5-4f8e-af3f-057a541e2546",
+          "sourceOracleId": "c1a9d60f-a469-48f9-8f1c-3ca5ae86bd64",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Generous Revival",
+          "cardId": "f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd",
+          "sourceOracleId": "f8601f5f-0f7c-4689-9d15-137f1e82c49c",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Emergency Phytomedic // Seed Suture",
+          "cardId": "de94d388-919d-44ff-baef-8c90a417ac6d",
+          "sourceOracleId": "7737ccdc-49f2-463e-8ffd-43ab98d11f45",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Blessed Ghoul",
+          "cardId": "bb975803-9bf2-401e-9414-d272df314398",
+          "sourceOracleId": "fe99d90e-4809-4310-a3f7-ceb540511d55",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Fatehold Chronologist // Peer Review",
+          "cardId": "29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b",
+          "sourceOracleId": "1063822f-47d3-42e9-8a21-f62b12609fe1",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Academic Ascent",
+          "cardId": "730d8c28-1e58-4b8e-89e9-445d154d2e83",
+          "sourceOracleId": "406e853b-713f-4c89-9efb-aca74a11183f",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Desperate Futurescribe",
+          "cardId": "cfaa3ebd-5c21-4e99-a0dd-8426d19b53a5",
+          "sourceOracleId": "83c12f50-e5a1-479d-afab-edb0b40412f2",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Vigorbloom Charm",
+          "cardId": "2b198e10-b507-4314-a29c-a219f06e48b7",
+          "sourceOracleId": "826f17d1-3806-4579-8b1b-2082b7b03d69",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Bloombrute",
+          "cardId": "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8",
+          "sourceOracleId": "b7040175-7411-43a8-9b46-dba1d7c2135d",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Proctor of Potential",
+          "cardId": "cf0eec8c-0475-4050-8144-481a9bb13a0f",
+          "sourceOracleId": "c612ba0a-5134-45fa-a762-f4621bda4f83",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Saheeli, Jewel of Avishkar",
+          "cardId": "28d84ef6-e190-46d4-882d-1cea5e111e2a",
+          "sourceOracleId": "83705258-1f42-41db-a32e-de99ffd759eb",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Stingerquill Charm",
+          "cardId": "81733ff7-e611-43ee-bf38-6bb700676017",
+          "sourceOracleId": "987aadac-d6a6-4e50-9468-9e8e53cc5529",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Afterthought Sentry",
+          "cardId": "4d4b3bf7-a149-4099-b97d-4e36a87dfa60",
+          "sourceOracleId": "f0c533a2-751a-4c5a-8cec-b83da3c8c62f",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Archive Arbiter",
+          "cardId": "024bce1e-a5f3-4292-bc17-d0355a5d65e1",
+          "sourceOracleId": "36cb3d18-019c-464d-b591-8c87e1b81f31",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Eye of Jace",
+          "cardId": "0edba64a-39cf-4a8d-ba20-4f7da10b6c3d",
+          "sourceOracleId": "c8f802ad-4621-4f71-b52d-fbc55853dc88",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        },
+        {
+          "name": "Living Library",
+          "cardId": "5d4a8e5f-0024-4da3-a2f5-edb48b12e733",
+          "sourceOracleId": "81f022a7-fd19-4340-b8a0-6b11ab3e9d91",
+          "quantity": 1,
+          "zone": "sideboard",
+          "categories": [
+            "Sideboard"
+          ],
+          "notes": null
+        }
+      ],
+      "totals": {
+        "main": 40,
+        "sideboard": 56,
+        "maybeboard": 0
+      }
+    }
+  ]
+}
