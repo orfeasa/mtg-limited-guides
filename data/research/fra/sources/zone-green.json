@@ -1,0 +1,314 @@
+{
+  "id": "zone-green",
+  "author": "J2SJosh",
+  "dependencyGroup": "j2sjosh",
+  "url": "https://mtgazone.com/reality-fracture-fra-limited-set-review-green/",
+  "capturedAt": "2026-09-22",
+  "kind": "review",
+  "format": "Limited-unspecified",
+  "scale": {
+    "min": 0,
+    "max": 5
+  },
+  "examination": "All explicit numeric grades extracted; selected reasoning examined. This snapshot does not reproduce the article text.",
+  "captureSha256": "5368bd5b6141e70ea64d85908850713158f1d76e3e2decf6bb023ca9dcbe1336",
+  "assessments": [
+    {
+      "cardId": "1bf923c4-f0b7-4271-978c-fd2e79fe1cc8",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Arcane Amphisbaena"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "e0de5f66-f0df-4866-9f73-104ce50411b4",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Bestial Incursion"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "18c59d60-2640-4576-9375-3ba38aa3ecb7",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Budding Insurgent"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "79dd5c54-5ea5-47b5-8f9b-50ed57a5ea45",
+      "grade": 3.0,
+      "locator": {
+        "heading": "Carnivorous Cultivator"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "bd32d736-7a58-46b9-90b4-2cac3c3e80a1",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Compel Brutality"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "dad6afc9-8505-4cdd-bf79-e9ba4670f2bb",
+      "grade": 3.0,
+      "locator": {
+        "heading": "Edgar, Moonlit Sovereign"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "28fbb55a-5c9d-45ee-bf42-a84b1048f5d2",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Fblthp, Knows the Way"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "f71958e9-6d6d-4393-8b49-567103b50877",
+      "grade": 0.5,
+      "locator": {
+        "heading": "Flourishing Grapple"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "930b89c3-4433-48de-829f-20fc3dbfced9",
+      "grade": 0.0,
+      "locator": {
+        "heading": "Gardenize"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "90ca5812-ceb5-46bd-b049-aed7ff10e6af",
+      "grade": 5.0,
+      "locator": {
+        "heading": "Garruk, Curse Breaker"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "1d535b5f-c916-4f16-89a7-9477578826d2",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Ghalta the Unstoppable"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "a56e0f91-b128-4693-a949-53cb403f4fbf",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Greenhouse Propagator"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "910a1f41-17fd-4ab0-9597-7151e79dc760",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Heartwood Crafter"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "9a446cae-e93c-4574-8ffd-7688f9729a8a",
+      "grade": 3.5,
+      "locator": {
+        "heading": "Hexhaven Invigorator"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "3db2da7a-8088-4117-916b-f9c905d1b45b",
+      "grade": 4.0,
+      "locator": {
+        "heading": "Hungering Puppetbeast"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "a2cc5d0e-9643-4ee2-81de-fa2c3bd1ab09",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Hunter\u2019s Axe"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "073f4998-a204-447b-93d5-746ae87fd6a1",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Inspired Tethermage"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "f5a0bb3e-8119-4739-8684-e61d1d607dcb",
+      "grade": 3.5,
+      "locator": {
+        "heading": "Jiang Yanggu, Never Alone"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "3cfa4fc6-4d90-4576-a83f-6496c7f21104",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Loot, the Nexus"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "90f33f99-7bc5-42e1-815e-bfb4c2b74107",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Marwyn, the Preserver"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "eaf9dc77-c83b-49cf-84be-6bd791cb925e",
+      "grade": 0.0,
+      "locator": {
+        "heading": "Omnipresence"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "ff0bc30f-9d20-458e-808f-bdc2825905a5",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Pia, Aether Ascetic"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "6b8789a6-3b63-4198-af5f-c2f2f49fafd9",
+      "grade": 3.5,
+      "locator": {
+        "heading": "Puppet Crafting"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "3546b93b-a7d1-451d-a369-22cc8ddcd00d",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Restore with Empathy"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "eed83302-dc2c-45f4-a4bd-af9da51edef5",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Ruric Thar, Magecrusher"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "7c725702-8696-4e5a-8318-62f5e2616d52",
+      "grade": 4.0,
+      "locator": {
+        "heading": "Simulacrum Shaper"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "02ee7817-40af-4fcf-a2df-eb218b669281",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Something Worth Saving"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "b635389c-e286-4edb-80d1-23dbe4a18857",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Sureshot Sower"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "8be5ee47-8f8a-4e3c-b1a1-9ca0e1fdec7f",
+      "grade": 3.5,
+      "locator": {
+        "heading": "Tarmogoyf"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "38589a7c-9cfb-4bcc-845e-9dc205095853",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Tethermage\u2019s Advantage"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "edea6f70-a5a7-475d-b7f2-97933d0f32cf",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Titanbones, Towering Heart"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "98dc5470-507a-4364-8480-42607255e56c",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Way of the Paradox"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "a252cb01-537b-4afe-9abc-81a98c4a1439",
+      "grade": 3.5,
+      "locator": {
+        "heading": "Way of the Wildspeaker"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "2bb7a8eb-227f-410b-859f-750ef0aea2f0",
+      "grade": 4.5,
+      "locator": {
+        "heading": "Verdant Kraken"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "e5ed142b-2b61-4ef5-8b23-2db2a0a0319d",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Vinelasher Adept"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "3d693cb0-681e-480a-8f70-07e94c39225c",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Wrecking Gecko"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "b8dfd087-2434-42c6-ac4c-1decbcdde2db",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Yoshimaru, Scrappy Stray"
+      },
+      "scope": "card"
+    }
+  ],
+  "excludedOutsideMainSet": []
+}

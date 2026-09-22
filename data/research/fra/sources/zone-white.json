@@ -1,0 +1,330 @@
+{
+  "id": "zone-white",
+  "author": "J2SJosh",
+  "dependencyGroup": "j2sjosh",
+  "url": "https://mtgazone.com/reality-fracture-fra-limited-set-review-white/",
+  "capturedAt": "2026-09-22",
+  "kind": "review",
+  "format": "Limited-unspecified",
+  "scale": {
+    "min": 0,
+    "max": 5
+  },
+  "examination": "All explicit numeric grades extracted; selected reasoning examined. This snapshot does not reproduce the article text.",
+  "captureSha256": "979e4efeed2d8a54ee2cd41d3952b40ce4173cc83b83b248dae0af9990c682c5",
+  "assessments": [
+    {
+      "cardId": "730d8c28-1e58-4b8e-89e9-445d154d2e83",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Academic Ascent"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "a5e1a7dd-8c49-4435-935c-bcc78704082b",
+      "grade": 3.5,
+      "locator": {
+        "heading": "Ajani Resolute"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "5e77fbf0-9d1f-4e7d-a02e-43065d11b0d9",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Blossom-Blessed Angel"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "6047b14c-91d5-4f8e-af3f-057a541e2546",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Campus Crier"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "d5cb9810-3c2d-4ae4-b8b6-0155ca3f47ad",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Danitha, Sword of Hope"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "483fcc58-cc6e-4452-a696-7b38e117c837",
+      "grade": 3.5,
+      "locator": {
+        "heading": "Enlightened Confidant"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "f0c8400d-824f-4d79-84bc-7615a0deb831",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Fateshaper Aspirant"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "686f3a25-305d-4f02-8972-eba7b8e9635f",
+      "grade": 3.5,
+      "locator": {
+        "heading": "Flickering Hound"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Generous Revival"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "1b5d7d19-b32a-4786-ae9a-00da5e6658ad",
+      "grade": 1.0,
+      "locator": {
+        "heading": "Germinate Recruits"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "a9f3aa55-908f-42db-8135-4201433df850",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Ghalta the Immovable"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "768c0e64-9907-417a-a763-c836fdf36883",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Gideon\u2019s Memorial"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "32a7a905-11bf-4b66-a28e-1066a0e372b8",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Graft Surgeon"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "a53eb840-039d-4c45-b701-d58cb26b1a6c",
+      "grade": 4.0,
+      "locator": {
+        "heading": "Guiding Hydra"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "3b6ac80e-c726-4bd0-893a-e666041a04a6",
+      "grade": 3.0,
+      "locator": {
+        "heading": "Hexhaven Battalion"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "6f9f814b-8249-4e48-a05e-4c84060fe6fb",
+      "grade": 3.5,
+      "locator": {
+        "heading": "Kindred Judgment"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "920703fd-2a2f-454b-8829-af8f2afda4f4",
+      "grade": 3.5,
+      "locator": {
+        "heading": "Koth of the Homestead"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "70d8c400-87dc-4f15-808f-e54a95d779fc",
+      "grade": 4.0,
+      "locator": {
+        "heading": "Liliana the Faultless"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "490dae91-94ce-42a9-a11f-6c5e77c4e486",
+      "grade": 1.0,
+      "locator": {
+        "heading": "Loyal Tutor"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "86a3866e-68a8-402c-baf0-1908e98e3995",
+      "grade": 3.5,
+      "locator": {
+        "heading": "Lyra, Archangel of Dawn"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "2f5345ae-4489-4d05-b2d5-c71285254f05",
+      "grade": 3.0,
+      "locator": {
+        "heading": "Memory Trap"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "50a0e5f0-3c39-4f16-9a73-eec8ef71f12e",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Predictive Preparations"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "1f95399a-9766-4f3d-aa6a-ece55e0530d9",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Prophesied End"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "2c588954-c6eb-4aae-a2fa-0651ccf2d90a",
+      "grade": 0.5,
+      "locator": {
+        "heading": "Refute Destiny"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "35000e93-85d3-44f8-976a-5918ee4c71e0",
+      "grade": 3.5,
+      "locator": {
+        "heading": "Repurposed Enforcer"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "699874e3-1ccf-4a6c-8371-61040de82d08",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Rescue Girl, First Responder"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "9e72f397-2384-40f1-882b-f627664d97df",
+      "grade": 1.0,
+      "locator": {
+        "heading": "Return to the Light Realms"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "07572be0-6610-493c-a21e-14b78e9805c9",
+      "grade": 3.0,
+      "locator": {
+        "heading": "Saheeli, Consul of Oversight"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "e29095de-59ec-4562-ba8e-73f952e457ae",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Shatterwing Pegasus"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "d3acf176-ef02-4729-88c4-0f0dfbfdada4",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Surgical Precision"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "5f7521d7-9f1f-4f03-b2ea-dd2a1b1e4e5b",
+      "grade": 3.0,
+      "locator": {
+        "heading": "Teyo, Lightshield Expert"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "80226231-9e70-430e-aabc-f262f70b9226",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Thalia, the Survivor"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "7ca95235-6e54-4ff8-bc2e-6a3d483ff007",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Tomik, Orzhov Lawmage"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "63f82985-c9c2-4d0a-ac4f-560166bebd9f",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Unflinching Hortimancer"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "50326a2a-7e10-464b-a97e-e880bda0558c",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Way of the Healer"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "1a59d5b1-12d6-486b-bd29-ca371359addd",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Way of the Mentor"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "384f3b7d-8d7f-41bf-bebd-64e8babe7fca",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Yoshimaru, Beloved Companion"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "25000a17-b701-4d69-b2ef-2c74029199d3",
+      "grade": 3.5,
+      "locator": {
+        "heading": "Your Fate Ends Here"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "ccbe92a5-42bc-4228-9d5a-212df2f5dc15",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Yuriko, Blade of the Mighty"
+      },
+      "scope": "card"
+    }
+  ],
+  "excludedOutsideMainSet": []
+}

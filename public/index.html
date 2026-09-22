@@ -10,7 +10,7 @@
     <link rel="icon" href="assets/icon-32.png" sizes="32x32" type="image/png">
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
     <link rel="manifest" href="manifest.webmanifest">
-    <link rel="stylesheet" href="styles.css?v=limited-prep-25">
+    <link rel="stylesheet" href="styles.css?v=limited-prep-early-evidence-1">
   </head>
   <body data-theme="fracture">
     <!--
@@ -381,24 +381,26 @@
     <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
     <div id="live-region" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
     <dialog id="card-preview" class="card-preview" aria-labelledby="card-preview-name">
+      <button id="close-card-preview" class="card-preview-close" type="button" aria-label="Close enlarged card">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+      </button>
       <div class="card-preview-frame">
-        <button id="close-card-preview" class="card-preview-close" type="button" aria-label="Close enlarged card">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2"/></svg>
-        </button>
         <img id="card-preview-image" class="card-preview-image" src="assets/cards/fra/70d8c400-87dc-4f15-808f-e54a95d779fc.jpg" alt="" width="672" height="936">
         <div class="card-preview-copy">
           <h2 id="card-preview-name"></h2>
           <p id="card-preview-meta"></p>
         </div>
+        <section id="card-preview-evidence" class="card-preview-evidence" aria-label="Early card evidence" hidden></section>
       </div>
     </dialog>
     <noscript><p class="noscript">Enable JavaScript to choose a set, study its cards and archetypes, and save preparation progress on this browser.</p></noscript>
-    <script src="data.js?v=limited-prep-17"></script>
+    <script src="data.js?v=limited-prep-18"></script>
     <script src="lifecycle.js?v=5"></script>
     <script src="rules-text.js"></script>
-    <script src="prep.js?v=3"></script>
+    <script src="early-evidence.js?v=1"></script>
+    <script src="prep.js?v=4"></script>
     <script src="memory.js?v=3"></script>
     <script src="archetype-study.js?v=1"></script>
-    <script src="app.js?v=limited-prep-33"></script>
+    <script src="app.js?v=limited-prep-34"></script>
   </body>
 </html>

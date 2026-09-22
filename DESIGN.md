@@ -586,3 +586,8 @@ Card memory preserves the full card silhouette, artwork, type line, and printed 
 Card memory answer options use locally cached Scryfall symbols for mana and tap costs, shield-shaped loyalty badges, and italic reminder text and ability words. Rules paragraphs retain their original line breaks; formatting does not alter answer matching or saved progress.
 
 The same local symbol renderer handles costs and notation in preparation metadata, play-around notes, exercises, archetype guidance and study, and draft-decision explanations. Trainer Oracle text uses full rules formatting. Explanatory prose keeps its existing typography, including non-reminder parentheses.
+
+
+### Early Limited evidence
+
+Learning before an event is the primary task. Embed ten colour-pair combination lessons into Prerelease prep, with card images, conditions and a revealable recall answer. Archetypes expands reviewer context in place; enlarged card details shows the original reviewer grades and available context. Use the existing themed reading surface and native disclosures. No extra tab, averaged rating, or Training gate change. Two grades per nonbasic card do not imply complete prose or gameplay coverage. Keep attribution and transcript limitations available within the relevant lesson.

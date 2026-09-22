@@ -3,6 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
+import { compileEarlyEvidence } from "./early-evidence.mjs";
 import { validatePrep } from "./prep-schema.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
@@ -170,6 +171,7 @@ const sets = manifest.sets.map((set) => {
     draftDecisions: adaptDraftDecisions(set, cards),
     archetypes: adaptArchetypes(set, cards),
     prep,
+    earlyEvidence: set.earlyEvidenceDir ? compileEarlyEvidence(path.join(dataDir, set.earlyEvidenceDir), cards, readJson(set.archetypesFile).archetypes.map(a => a.id)) : null,
     cards,
   };
 });
@@ -185,6 +187,7 @@ const cacheFiles = [
   "./app.js",
   "./lifecycle.js",
   "./prep.js",
+  "./early-evidence.js",
   "./memory.js",
   "./rules-text.js",
   ...fs.readdirSync(path.join(publicDir, "assets/symbols")).filter(file => file.endsWith(".svg")).sort().map(file => `./assets/symbols/${file}`),

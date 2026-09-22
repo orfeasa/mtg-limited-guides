@@ -1046,6 +1046,7 @@ window.LIMITED_PREP_DATA = {
         ]
       },
       "prep": null,
+      "earlyEvidence": null,
       "cards": [
         {
           "id": "hob-1",
@@ -4285,6 +4286,7 @@ window.LIMITED_PREP_DATA = {
         "url": "https://scryfall.com/sets/fra"
       },
       "officialUrl": "https://magic.wizards.com/en/products/reality-fracture/card-image-gallery",
+      "earlyEvidenceDir": "research/fra",
       "cardCount": 285,
       "browseCardCount": 280,
       "previewCapturedAt": "2026-09-19T17:51:47.966Z",
@@ -5318,6 +5320,13175 @@ window.LIMITED_PREP_DATA = {
               "cards": [
                 "Prudent Fateseer // Peer Review"
               ]
+            }
+          ]
+        }
+      },
+      "earlyEvidence": {
+        "reviewedAt": "2026-09-22",
+        "sources": {
+          "draftsim": {
+            "id": "draftsim",
+            "author": "Andrew Quinn",
+            "dependencyGroup": "andrew-quinn",
+            "url": "https://draftsim.com/mtg-fra-limited-set-review/",
+            "capturedAt": "2026-09-22",
+            "kind": "review",
+            "format": "Limited-unspecified",
+            "scale": {
+              "min": 0,
+              "max": 10
+            },
+            "examination": "All explicit numeric grades extracted; selected reasoning examined. This snapshot does not reproduce the article text.",
+            "captureSha256": "52d90ba988bc73251a2e35df0320c1afa93f3a667819919da856559c720a0a9c",
+            "excludedOutsideMainSet": [
+              "Eye of Ugin",
+              "Austere Command",
+              "Flesh Duplicate",
+              "Consign to Memory",
+              "Sublime Epiphany",
+              "Consider",
+              "Necrodominance",
+              "Mind Twist",
+              "Splinter Twin",
+              "Root Maze"
+            ]
+          },
+          "llu261": {
+            "id": "llu261",
+            "url": "https://www.youtube.com/watch?v=I1PPajMb938",
+            "author": "Limited Level-Ups",
+            "dependencyGroup": "limited-level-ups",
+            "capturedAt": "2026-09-22",
+            "kind": "review-transcript",
+            "format": "Limited-unspecified",
+            "examination": "Read full automatic transcript. Selected short paraphrases retained; card names reconciled against canonical text. No video frames verified."
+          },
+          "nicolai-guide": {
+            "id": "nicolai-guide",
+            "url": "https://www.youtube.com/watch?v=zNKov5PyYCg",
+            "author": "NicolaiBolas",
+            "dependencyGroup": "nicolaibolas",
+            "capturedAt": "2026-09-22",
+            "kind": "review-transcript",
+            "format": "Draft",
+            "examination": "Read full automatic transcript. Selected short paraphrases retained; card names reconciled against canonical text. No video frames verified."
+          },
+          "tcc110": {
+            "id": "tcc110",
+            "url": "https://www.youtube.com/watch?v=3r3md8snmJo",
+            "author": "Tolarian Community College",
+            "dependencyGroup": "tcc110",
+            "kind": "gameplay-transcript",
+            "format": "Sealed",
+            "framesVerified": false,
+            "capturedAt": "2026-09-22",
+            "sample": {
+              "episodes": 1,
+              "games": 2,
+              "uniquePlayers": 3,
+              "repeatedDeck": "Jim Davis",
+              "representative": false
+            },
+            "examination": "Two transcript segments; see gameplay.md for scope and limitations."
+          },
+          "zone-artifacts-and-lands": {
+            "id": "zone-artifacts-and-lands",
+            "author": "J2SJosh",
+            "dependencyGroup": "j2sjosh",
+            "url": "https://mtgazone.com/reality-fracture-fra-limited-set-review-artifacts-and-lands/",
+            "capturedAt": "2026-09-22",
+            "kind": "review",
+            "format": "Limited-unspecified",
+            "scale": {
+              "min": 0,
+              "max": 5
+            },
+            "examination": "All explicit numeric grades extracted; selected reasoning examined. This snapshot does not reproduce the article text.",
+            "captureSha256": "fbc933148840fdf42ce3da035f49e7e8af61b18217de754d60a29458fde8429b",
+            "excludedOutsideMainSet": []
+          },
+          "zone-black": {
+            "id": "zone-black",
+            "author": "J2SJosh",
+            "dependencyGroup": "j2sjosh",
+            "url": "https://mtgazone.com/reality-fracture-fra-limited-set-review-black/",
+            "capturedAt": "2026-09-22",
+            "kind": "review",
+            "format": "Limited-unspecified",
+            "scale": {
+              "min": 0,
+              "max": 5
+            },
+            "examination": "All explicit numeric grades extracted; selected reasoning examined. This snapshot does not reproduce the article text.",
+            "captureSha256": "96581104821f495a2cabb5e43a18c1e19b3c0fa5454f0d9b60e0055ea737e8f3",
+            "excludedOutsideMainSet": []
+          },
+          "zone-blue": {
+            "id": "zone-blue",
+            "author": "J2SJosh",
+            "dependencyGroup": "j2sjosh",
+            "url": "https://mtgazone.com/reality-fracture-fra-limited-set-review-blue/",
+            "capturedAt": "2026-09-22",
+            "kind": "review",
+            "format": "Limited-unspecified",
+            "scale": {
+              "min": 0,
+              "max": 5
+            },
+            "examination": "All explicit numeric grades extracted; selected reasoning examined. This snapshot does not reproduce the article text.",
+            "captureSha256": "b7224c49ee4728a499010a4f30f75a7826a657a8148f2f7309e31992b4d2d0a4",
+            "excludedOutsideMainSet": []
+          },
+          "zone-green": {
+            "id": "zone-green",
+            "author": "J2SJosh",
+            "dependencyGroup": "j2sjosh",
+            "url": "https://mtgazone.com/reality-fracture-fra-limited-set-review-green/",
+            "capturedAt": "2026-09-22",
+            "kind": "review",
+            "format": "Limited-unspecified",
+            "scale": {
+              "min": 0,
+              "max": 5
+            },
+            "examination": "All explicit numeric grades extracted; selected reasoning examined. This snapshot does not reproduce the article text.",
+            "captureSha256": "5368bd5b6141e70ea64d85908850713158f1d76e3e2decf6bb023ca9dcbe1336",
+            "excludedOutsideMainSet": []
+          },
+          "zone-multicolor": {
+            "id": "zone-multicolor",
+            "author": "J2SJosh",
+            "dependencyGroup": "j2sjosh",
+            "url": "https://mtgazone.com/reality-fracture-fra-limited-set-review-multicolor/",
+            "capturedAt": "2026-09-22",
+            "kind": "review",
+            "format": "Limited-unspecified",
+            "scale": {
+              "min": 0,
+              "max": 5
+            },
+            "examination": "All explicit numeric grades extracted; selected reasoning examined. This snapshot does not reproduce the article text.",
+            "captureSha256": "5fc0a80b5f99702cd01f8f30ed8c9cc98a39cc65901a4ddc17e78af40c881c74",
+            "excludedOutsideMainSet": []
+          },
+          "zone-red": {
+            "id": "zone-red",
+            "author": "J2SJosh",
+            "dependencyGroup": "j2sjosh",
+            "url": "https://mtgazone.com/reality-fracture-fra-limited-set-review-red/",
+            "capturedAt": "2026-09-22",
+            "kind": "review",
+            "format": "Limited-unspecified",
+            "scale": {
+              "min": 0,
+              "max": 5
+            },
+            "examination": "All explicit numeric grades extracted; selected reasoning examined. This snapshot does not reproduce the article text.",
+            "captureSha256": "52c86eadcaf6a8b17246afc8beecd142769c0e429010583bfc5fdc68ff6e2c37",
+            "excludedOutsideMainSet": []
+          },
+          "zone-white": {
+            "id": "zone-white",
+            "author": "J2SJosh",
+            "dependencyGroup": "j2sjosh",
+            "url": "https://mtgazone.com/reality-fracture-fra-limited-set-review-white/",
+            "capturedAt": "2026-09-22",
+            "kind": "review",
+            "format": "Limited-unspecified",
+            "scale": {
+              "min": 0,
+              "max": 5
+            },
+            "examination": "All explicit numeric grades extracted; selected reasoning examined. This snapshot does not reproduce the article text.",
+            "captureSha256": "979e4efeed2d8a54ee2cd41d3952b40ce4173cc83b83b248dae0af9990c682c5",
+            "excludedOutsideMainSet": []
+          }
+        },
+        "byCard": {
+          "c3ff8dd3-88a8-49dc-a59b-e2748680623c": {
+            "grades": [
+              {
+                "cardId": "c3ff8dd3-88a8-49dc-a59b-e2748680623c",
+                "grade": 0,
+                "locator": {
+                  "heading": "Emrakul, the Exigent Doom"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "c3ff8dd3-88a8-49dc-a59b-e2748680623c",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Emrakul, the Exigent Doom"
+                },
+                "scope": "card",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "730d8c28-1e58-4b8e-89e9-445d154d2e83": {
+            "grades": [
+              {
+                "cardId": "730d8c28-1e58-4b8e-89e9-445d154d2e83",
+                "grade": 2,
+                "locator": {
+                  "heading": "Academic Ascent"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "730d8c28-1e58-4b8e-89e9-445d154d2e83",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Academic Ascent"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "5e77fbf0-9d1f-4e7d-a02e-43065d11b0d9": {
+            "grades": [
+              {
+                "cardId": "5e77fbf0-9d1f-4e7d-a02e-43065d11b0d9",
+                "grade": 3,
+                "locator": {
+                  "heading": "Blossom-Blessed Angel"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "5e77fbf0-9d1f-4e7d-a02e-43065d11b0d9",
+                "grade": 2,
+                "locator": {
+                  "heading": "Blossom-Blessed Angel"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "6047b14c-91d5-4f8e-af3f-057a541e2546": {
+            "grades": [
+              {
+                "cardId": "6047b14c-91d5-4f8e-af3f-057a541e2546",
+                "grade": 3,
+                "locator": {
+                  "heading": "Campus Crier"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "6047b14c-91d5-4f8e-af3f-057a541e2546",
+                "grade": 2,
+                "locator": {
+                  "heading": "Campus Crier"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "483fcc58-cc6e-4452-a696-7b38e117c837": {
+            "grades": [
+              {
+                "cardId": "483fcc58-cc6e-4452-a696-7b38e117c837",
+                "grade": 6,
+                "locator": {
+                  "heading": "Enlightened Confidant"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "483fcc58-cc6e-4452-a696-7b38e117c837",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Enlightened Confidant"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "f0c8400d-824f-4d79-84bc-7615a0deb831": {
+            "grades": [
+              {
+                "cardId": "f0c8400d-824f-4d79-84bc-7615a0deb831",
+                "grade": 3,
+                "locator": {
+                  "heading": "Fateshaper Aspirant"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "f0c8400d-824f-4d79-84bc-7615a0deb831",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Fateshaper Aspirant"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "686f3a25-305d-4f02-8972-eba7b8e9635f": {
+            "grades": [
+              {
+                "cardId": "686f3a25-305d-4f02-8972-eba7b8e9635f",
+                "grade": 5,
+                "locator": {
+                  "heading": "Flickering Hound"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "686f3a25-305d-4f02-8972-eba7b8e9635f",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Flickering Hound"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd": {
+            "grades": [
+              {
+                "cardId": "f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd",
+                "grade": 2,
+                "locator": {
+                  "heading": "Generous Revival"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Generous Revival"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-6"
+            ],
+            "observationIds": [],
+            "combinationIds": [
+              "lesson-wb"
+            ]
+          },
+          "1b5d7d19-b32a-4786-ae9a-00da5e6658ad": {
+            "grades": [
+              {
+                "cardId": "1b5d7d19-b32a-4786-ae9a-00da5e6658ad",
+                "grade": 1,
+                "locator": {
+                  "heading": "Germinate Recruits"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "1b5d7d19-b32a-4786-ae9a-00da5e6658ad",
+                "grade": 1,
+                "locator": {
+                  "heading": "Germinate Recruits"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "32a7a905-11bf-4b66-a28e-1066a0e372b8": {
+            "grades": [
+              {
+                "cardId": "32a7a905-11bf-4b66-a28e-1066a0e372b8",
+                "grade": 3,
+                "locator": {
+                  "heading": "Graft Surgeon"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "32a7a905-11bf-4b66-a28e-1066a0e372b8",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Graft Surgeon"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "a53eb840-039d-4c45-b701-d58cb26b1a6c": {
+            "grades": [
+              {
+                "cardId": "a53eb840-039d-4c45-b701-d58cb26b1a6c",
+                "grade": 9,
+                "locator": {
+                  "heading": "Guiding Hydra"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "a53eb840-039d-4c45-b701-d58cb26b1a6c",
+                "grade": 4,
+                "locator": {
+                  "heading": "Guiding Hydra"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "3b6ac80e-c726-4bd0-893a-e666041a04a6": {
+            "grades": [
+              {
+                "cardId": "3b6ac80e-c726-4bd0-893a-e666041a04a6",
+                "grade": 6,
+                "locator": {
+                  "heading": "Hexhaven Battalion"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "3b6ac80e-c726-4bd0-893a-e666041a04a6",
+                "grade": 3,
+                "locator": {
+                  "heading": "Hexhaven Battalion"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-13"
+            ],
+            "observationIds": [
+              "game-01"
+            ],
+            "combinationIds": []
+          },
+          "6f9f814b-8249-4e48-a05e-4c84060fe6fb": {
+            "grades": [
+              {
+                "cardId": "6f9f814b-8249-4e48-a05e-4c84060fe6fb",
+                "grade": 7,
+                "locator": {
+                  "heading": "Kindred Judgment"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "6f9f814b-8249-4e48-a05e-4c84060fe6fb",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Kindred Judgment"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "490dae91-94ce-42a9-a11f-6c5e77c4e486": {
+            "grades": [
+              {
+                "cardId": "490dae91-94ce-42a9-a11f-6c5e77c4e486",
+                "grade": 0,
+                "locator": {
+                  "heading": "Loyal Tutor"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "490dae91-94ce-42a9-a11f-6c5e77c4e486",
+                "grade": 1,
+                "locator": {
+                  "heading": "Loyal Tutor"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "2f5345ae-4489-4d05-b2d5-c71285254f05": {
+            "grades": [
+              {
+                "cardId": "2f5345ae-4489-4d05-b2d5-c71285254f05",
+                "grade": 6,
+                "locator": {
+                  "heading": "Memory Trap"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "2f5345ae-4489-4d05-b2d5-c71285254f05",
+                "grade": 3,
+                "locator": {
+                  "heading": "Memory Trap"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-11"
+            ],
+            "observationIds": [
+              "game-08"
+            ],
+            "combinationIds": []
+          },
+          "50a0e5f0-3c39-4f16-9a73-eec8ef71f12e": {
+            "grades": [
+              {
+                "cardId": "50a0e5f0-3c39-4f16-9a73-eec8ef71f12e",
+                "grade": 3,
+                "locator": {
+                  "heading": "Predictive Preparations"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "50a0e5f0-3c39-4f16-9a73-eec8ef71f12e",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Predictive Preparations"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "1f95399a-9766-4f3d-aa6a-ece55e0530d9": {
+            "grades": [
+              {
+                "cardId": "1f95399a-9766-4f3d-aa6a-ece55e0530d9",
+                "grade": 5,
+                "locator": {
+                  "heading": "Prophesied End"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "1f95399a-9766-4f3d-aa6a-ece55e0530d9",
+                "grade": 2,
+                "locator": {
+                  "heading": "Prophesied End"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "2c588954-c6eb-4aae-a2fa-0651ccf2d90a": {
+            "grades": [
+              {
+                "cardId": "2c588954-c6eb-4aae-a2fa-0651ccf2d90a",
+                "grade": 5,
+                "locator": {
+                  "heading": "Refute Destiny"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "2c588954-c6eb-4aae-a2fa-0651ccf2d90a",
+                "grade": 0.5,
+                "locator": {
+                  "heading": "Refute Destiny"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "35000e93-85d3-44f8-976a-5918ee4c71e0": {
+            "grades": [
+              {
+                "cardId": "35000e93-85d3-44f8-976a-5918ee4c71e0",
+                "grade": 5,
+                "locator": {
+                  "heading": "Repurposed Enforcer"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "35000e93-85d3-44f8-976a-5918ee4c71e0",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Repurposed Enforcer"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "9e72f397-2384-40f1-882b-f627664d97df": {
+            "grades": [
+              {
+                "cardId": "9e72f397-2384-40f1-882b-f627664d97df",
+                "grade": 0,
+                "locator": {
+                  "heading": "Return to the Light Realms"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "9e72f397-2384-40f1-882b-f627664d97df",
+                "grade": 1,
+                "locator": {
+                  "heading": "Return to the Light Realms"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "e29095de-59ec-4562-ba8e-73f952e457ae": {
+            "grades": [
+              {
+                "cardId": "e29095de-59ec-4562-ba8e-73f952e457ae",
+                "grade": 3,
+                "locator": {
+                  "heading": "Shatterwing Pegasus"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "e29095de-59ec-4562-ba8e-73f952e457ae",
+                "grade": 2,
+                "locator": {
+                  "heading": "Shatterwing Pegasus"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "d3acf176-ef02-4729-88c4-0f0dfbfdada4": {
+            "grades": [
+              {
+                "cardId": "d3acf176-ef02-4729-88c4-0f0dfbfdada4",
+                "grade": 4,
+                "locator": {
+                  "heading": "Surgical Precision"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "d3acf176-ef02-4729-88c4-0f0dfbfdada4",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Surgical Precision"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [
+              "llu261-12",
+              "nicolai-guide-12"
+            ],
+            "observationIds": [
+              "game-07"
+            ],
+            "combinationIds": []
+          },
+          "63f82985-c9c2-4d0a-ac4f-560166bebd9f": {
+            "grades": [
+              {
+                "cardId": "63f82985-c9c2-4d0a-ac4f-560166bebd9f",
+                "grade": 4,
+                "locator": {
+                  "heading": "Unflinching Hortimancer"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "63f82985-c9c2-4d0a-ac4f-560166bebd9f",
+                "grade": 2,
+                "locator": {
+                  "heading": "Unflinching Hortimancer"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [
+              "llu261-15"
+            ],
+            "observationIds": [],
+            "combinationIds": [
+              "evasive-growth"
+            ]
+          },
+          "25000a17-b701-4d69-b2ef-2c74029199d3": {
+            "grades": [
+              {
+                "cardId": "25000a17-b701-4d69-b2ef-2c74029199d3",
+                "grade": 6,
+                "locator": {
+                  "heading": "Your Fate Ends Here"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "25000a17-b701-4d69-b2ef-2c74029199d3",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Your Fate Ends Here"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "145b928d-a7ff-4fe5-ae4d-bbae7b1d955b": {
+            "grades": [
+              {
+                "cardId": "145b928d-a7ff-4fe5-ae4d-bbae7b1d955b",
+                "grade": 4,
+                "locator": {
+                  "heading": "Countersculpt"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "145b928d-a7ff-4fe5-ae4d-bbae7b1d955b",
+                "grade": 3,
+                "locator": {
+                  "heading": "Countersculpt"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "f76c4d8e-3e1f-4264-99af-1b8adb9a06be": {
+            "grades": [
+              {
+                "cardId": "f76c4d8e-3e1f-4264-99af-1b8adb9a06be",
+                "grade": 6,
+                "locator": {
+                  "heading": "Cruel Calculations"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "f76c4d8e-3e1f-4264-99af-1b8adb9a06be",
+                "grade": 0.5,
+                "locator": {
+                  "heading": "Cruel Calculations"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "9ba1f7ce-3404-4932-9795-22967707f762": {
+            "grades": [
+              {
+                "cardId": "9ba1f7ce-3404-4932-9795-22967707f762",
+                "grade": 3,
+                "locator": {
+                  "heading": "Crytheory Adept"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "9ba1f7ce-3404-4932-9795-22967707f762",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Cryotheory Adept"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "0853bb80-8664-432a-8457-600139fd96d5": {
+            "grades": [
+              {
+                "cardId": "0853bb80-8664-432a-8457-600139fd96d5",
+                "grade": 6,
+                "locator": {
+                  "heading": "Diviner of Victory"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "0853bb80-8664-432a-8457-600139fd96d5",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Diviner of Victory"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "960c7335-331d-488b-be68-2ad1c1c695dc": {
+            "grades": [
+              {
+                "cardId": "960c7335-331d-488b-be68-2ad1c1c695dc",
+                "grade": 3,
+                "locator": {
+                  "heading": "Divining Duelist"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "960c7335-331d-488b-be68-2ad1c1c695dc",
+                "grade": 2,
+                "locator": {
+                  "heading": "Divining Duelist"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "8d754b96-5e44-45af-9c7a-b0da59fbe4c3": {
+            "grades": [
+              {
+                "cardId": "8d754b96-5e44-45af-9c7a-b0da59fbe4c3",
+                "grade": 4,
+                "locator": {
+                  "heading": "Icy Reception"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "8d754b96-5e44-45af-9c7a-b0da59fbe4c3",
+                "grade": 2,
+                "locator": {
+                  "heading": "Icy Reception"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-16"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "a5988272-faaa-463d-a0a1-a8e96b946bad": {
+            "grades": [
+              {
+                "cardId": "a5988272-faaa-463d-a0a1-a8e96b946bad",
+                "grade": 5,
+                "locator": {
+                  "heading": "Infinite Coursework"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "a5988272-faaa-463d-a0a1-a8e96b946bad",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Infinite Coursework"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "282588b9-3656-453b-aa25-2419e078ddc1": {
+            "grades": [
+              {
+                "cardId": "282588b9-3656-453b-aa25-2419e078ddc1",
+                "grade": 5,
+                "locator": {
+                  "heading": "Jace’s Machinations"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "282588b9-3656-453b-aa25-2419e078ddc1",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Jace’s Machinations"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "f5324741-353a-4a70-adb2-b631b00806dd": {
+            "grades": [
+              {
+                "cardId": "f5324741-353a-4a70-adb2-b631b00806dd",
+                "grade": 6,
+                "locator": {
+                  "heading": "Mindseeker Oculus"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "f5324741-353a-4a70-adb2-b631b00806dd",
+                "grade": 3,
+                "locator": {
+                  "heading": "Mindseeker Oculus"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-14"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "d0ecae06-bc5a-4886-84df-c2900816f226": {
+            "grades": [
+              {
+                "cardId": "d0ecae06-bc5a-4886-84df-c2900816f226",
+                "grade": 1,
+                "locator": {
+                  "heading": "Perfected Theory"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "d0ecae06-bc5a-4886-84df-c2900816f226",
+                "grade": 2,
+                "locator": {
+                  "heading": "Perfected Theory"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "c4effc17-0d0e-423a-b5f2-597ea6c71f67": {
+            "grades": [
+              {
+                "cardId": "c4effc17-0d0e-423a-b5f2-597ea6c71f67",
+                "grade": 6,
+                "locator": {
+                  "heading": "Plan for All Outcomes"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "c4effc17-0d0e-423a-b5f2-597ea6c71f67",
+                "grade": 3,
+                "locator": {
+                  "heading": "Plan for All Outcomes"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "9244efad-35ab-45c0-b173-4bc68276cb67": {
+            "grades": [
+              {
+                "cardId": "9244efad-35ab-45c0-b173-4bc68276cb67",
+                "grade": 3,
+                "locator": {
+                  "heading": "Precise Redaction"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "9244efad-35ab-45c0-b173-4bc68276cb67",
+                "grade": 0.5,
+                "locator": {
+                  "heading": "Precise Redaction"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "a08c7ec2-4c6a-4db2-85a7-41afe8731523": {
+            "grades": [
+              {
+                "cardId": "a08c7ec2-4c6a-4db2-85a7-41afe8731523",
+                "grade": 3,
+                "locator": {
+                  "heading": "Protege’s Awakening"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "a08c7ec2-4c6a-4db2-85a7-41afe8731523",
+                "grade": 2,
+                "locator": {
+                  "heading": "Protege’s Awakening"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "51d86875-420d-4e82-b69c-4feeb99c9428": {
+            "grades": [
+              {
+                "cardId": "51d86875-420d-4e82-b69c-4feeb99c9428",
+                "grade": 8,
+                "locator": {
+                  "heading": "Seasoned Cryomancer"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "51d86875-420d-4e82-b69c-4feeb99c9428",
+                "grade": 4,
+                "locator": {
+                  "heading": "Seasoned Cryomancer"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "7e5a640b-fd88-4b5a-9dfc-1d8f5a5cef41": {
+            "grades": [
+              {
+                "cardId": "7e5a640b-fd88-4b5a-9dfc-1d8f5a5cef41",
+                "grade": 4,
+                "locator": {
+                  "heading": "Semester Foreseer"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "7e5a640b-fd88-4b5a-9dfc-1d8f5a5cef41",
+                "grade": 2,
+                "locator": {
+                  "heading": "Semester Foreseer"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "08ffbd51-2bd3-4262-8809-09576ce2b6f5": {
+            "grades": [
+              {
+                "cardId": "08ffbd51-2bd3-4262-8809-09576ce2b6f5",
+                "grade": 8,
+                "locator": {
+                  "heading": "Sphinx of False Conclusions"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "08ffbd51-2bd3-4262-8809-09576ce2b6f5",
+                "grade": 4,
+                "locator": {
+                  "heading": "Sphinx of False Conclusions"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "f49be090-c745-40e5-bc1c-605b8d98acdf": {
+            "grades": [
+              {
+                "cardId": "f49be090-c745-40e5-bc1c-605b8d98acdf",
+                "grade": 2,
+                "locator": {
+                  "heading": "Sphinx’s Approach"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "f49be090-c745-40e5-bc1c-605b8d98acdf",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Sphinx’s Approach"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "9df8a06d-c7de-49af-8c01-06dca3dfef4b": {
+            "grades": [
+              {
+                "cardId": "9df8a06d-c7de-49af-8c01-06dca3dfef4b",
+                "grade": 2,
+                "locator": {
+                  "heading": "Surveillance Phantasm"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "9df8a06d-c7de-49af-8c01-06dca3dfef4b",
+                "grade": 2,
+                "locator": {
+                  "heading": "Surveillance Phantasm"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [
+              "llu261-1",
+              "nicolai-guide-15"
+            ],
+            "observationIds": [],
+            "combinationIds": [
+              "lesson-wu"
+            ]
+          },
+          "20bb8c55-4b0b-425f-8201-b54fa2fdde86": {
+            "grades": [
+              {
+                "cardId": "20bb8c55-4b0b-425f-8201-b54fa2fdde86",
+                "grade": 10,
+                "locator": {
+                  "heading": "The Theorist, Jace Beleren"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "20bb8c55-4b0b-425f-8201-b54fa2fdde86",
+                "grade": 5,
+                "locator": {
+                  "heading": "The Theorist, Jace Beleren"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "710302ca-c4be-4069-8ce1-f531414c74e9": {
+            "grades": [
+              {
+                "cardId": "710302ca-c4be-4069-8ce1-f531414c74e9",
+                "grade": 4,
+                "locator": {
+                  "heading": "Theorist’s Proxy"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "710302ca-c4be-4069-8ce1-f531414c74e9",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Theorist’s Proxy"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "0adbb4b2-a142-48da-8f4b-fa91529dbac4": {
+            "grades": [
+              {
+                "cardId": "0adbb4b2-a142-48da-8f4b-fa91529dbac4",
+                "grade": 3,
+                "locator": {
+                  "heading": "Undulating Witness"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "0adbb4b2-a142-48da-8f4b-fa91529dbac4",
+                "grade": 2,
+                "locator": {
+                  "heading": "Undulating Witness"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "ddad9f16-52d5-49de-82b0-b1a5294a9c44": {
+            "grades": [
+              {
+                "cardId": "ddad9f16-52d5-49de-82b0-b1a5294a9c44",
+                "grade": 4,
+                "locator": {
+                  "heading": "Unsummon"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "ddad9f16-52d5-49de-82b0-b1a5294a9c44",
+                "grade": 2,
+                "locator": {
+                  "heading": "Unsummon"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "e3afedb1-bf9d-4e31-9700-433514cc29b1": {
+            "grades": [
+              {
+                "cardId": "e3afedb1-bf9d-4e31-9700-433514cc29b1",
+                "grade": 4,
+                "locator": {
+                  "heading": "Variable Chaser"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "e3afedb1-bf9d-4e31-9700-433514cc29b1",
+                "grade": 2,
+                "locator": {
+                  "heading": "Variable Chaser"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "cd56f047-6bdc-4e83-8a7c-923ebad26302": {
+            "grades": [
+              {
+                "cardId": "cd56f047-6bdc-4e83-8a7c-923ebad26302",
+                "grade": 3,
+                "locator": {
+                  "heading": "Apex Witchstalker"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "cd56f047-6bdc-4e83-8a7c-923ebad26302",
+                "grade": 2,
+                "locator": {
+                  "heading": "Apex Witchstalker"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "4fcc913e-f736-460a-b24b-022fa2e861b9": {
+            "grades": [
+              {
+                "cardId": "4fcc913e-f736-460a-b24b-022fa2e861b9",
+                "grade": 2,
+                "locator": {
+                  "heading": "Bloodline Recollector"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "4fcc913e-f736-460a-b24b-022fa2e861b9",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Bloodline Recollector"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "46974d94-e900-43e4-92b5-4fb9b9f7cf46": {
+            "grades": [
+              {
+                "cardId": "46974d94-e900-43e4-92b5-4fb9b9f7cf46",
+                "grade": 5,
+                "locator": {
+                  "heading": "Break Under Pressure"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "46974d94-e900-43e4-92b5-4fb9b9f7cf46",
+                "grade": 3,
+                "locator": {
+                  "heading": "Break Under Pressure"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "3b5b28a4-0abd-4dc2-9856-c9a8d27f6a2d": {
+            "grades": [
+              {
+                "cardId": "3b5b28a4-0abd-4dc2-9856-c9a8d27f6a2d",
+                "grade": 2,
+                "locator": {
+                  "heading": "Cast Away Doubt"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "3b5b28a4-0abd-4dc2-9856-c9a8d27f6a2d",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Cast Away Doubt"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "4ec912d5-cbe7-4d07-9ece-b03ac02d3055": {
+            "grades": [
+              {
+                "cardId": "4ec912d5-cbe7-4d07-9ece-b03ac02d3055",
+                "grade": 6,
+                "locator": {
+                  "heading": "Dark Matter Manipulator"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "4ec912d5-cbe7-4d07-9ece-b03ac02d3055",
+                "grade": 2,
+                "locator": {
+                  "heading": "Dark Matter Manipulator"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "ec454979-3839-4be3-a34a-9d25482948ba": {
+            "grades": [
+              {
+                "cardId": "ec454979-3839-4be3-a34a-9d25482948ba",
+                "grade": 6,
+                "locator": {
+                  "heading": "Darklight Phoenix"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "ec454979-3839-4be3-a34a-9d25482948ba",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Darklight Phoenix"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "eb4b6ed8-782e-4473-abc9-d50bf2275c6a": {
+            "grades": [
+              {
+                "cardId": "eb4b6ed8-782e-4473-abc9-d50bf2275c6a",
+                "grade": 4,
+                "locator": {
+                  "heading": "Extended Absence"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "eb4b6ed8-782e-4473-abc9-d50bf2275c6a",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Extended Absence"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-17"
+            ],
+            "observationIds": [
+              "game-10"
+            ],
+            "combinationIds": []
+          },
+          "17fb6538-493c-41aa-ad13-3e63d3ad3317": {
+            "grades": [
+              {
+                "cardId": "17fb6538-493c-41aa-ad13-3e63d3ad3317",
+                "grade": 0,
+                "locator": {
+                  "heading": "Extrapolate the Impossible"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "17fb6538-493c-41aa-ad13-3e63d3ad3317",
+                "grade": 0.5,
+                "locator": {
+                  "heading": "Extrapolate the Impossible"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "2381d123-d8c7-4822-98fe-b1c365beb5ed": {
+            "grades": [
+              {
+                "cardId": "2381d123-d8c7-4822-98fe-b1c365beb5ed",
+                "grade": 6,
+                "locator": {
+                  "heading": "Last Gasp"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "2381d123-d8c7-4822-98fe-b1c365beb5ed",
+                "grade": 3,
+                "locator": {
+                  "heading": "Last Gasp"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-18"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "b105511d-5022-4a84-b6ce-4bb433e93a62": {
+            "grades": [
+              {
+                "cardId": "b105511d-5022-4a84-b6ce-4bb433e93a62",
+                "grade": 7,
+                "locator": {
+                  "heading": "Lich’s Relic"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "b105511d-5022-4a84-b6ce-4bb433e93a62",
+                "grade": 4,
+                "locator": {
+                  "heading": "Lich’s Relic"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "90d684a4-9639-4792-8760-2011a7a85370": {
+            "grades": [
+              {
+                "cardId": "90d684a4-9639-4792-8760-2011a7a85370",
+                "grade": 6,
+                "locator": {
+                  "heading": "Multiply by Zero"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "90d684a4-9639-4792-8760-2011a7a85370",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Multiply by Zero"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "c4554f5b-791b-48f6-bf54-ad28699e1beb": {
+            "grades": [
+              {
+                "cardId": "c4554f5b-791b-48f6-bf54-ad28699e1beb",
+                "grade": 9,
+                "locator": {
+                  "heading": "Overwrite the Multiverse"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "c4554f5b-791b-48f6-bf54-ad28699e1beb",
+                "grade": 4,
+                "locator": {
+                  "heading": "Overwrite the Multiverse"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "f4a80225-7459-4151-86bb-8fdea31c39a6": {
+            "grades": [
+              {
+                "cardId": "f4a80225-7459-4151-86bb-8fdea31c39a6",
+                "grade": 2,
+                "locator": {
+                  "heading": "Rampart Hunter"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "f4a80225-7459-4151-86bb-8fdea31c39a6",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Rampart Hunter"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "4ff6da82-d7dd-4b59-b7e6-30670cea7169": {
+            "grades": [
+              {
+                "cardId": "4ff6da82-d7dd-4b59-b7e6-30670cea7169",
+                "grade": 4,
+                "locator": {
+                  "heading": "Rank Rat"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "4ff6da82-d7dd-4b59-b7e6-30670cea7169",
+                "grade": 2,
+                "locator": {
+                  "heading": "Rank Rat"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "453cfde7-c460-4b55-9472-b714e16f24bb": {
+            "grades": [
+              {
+                "cardId": "453cfde7-c460-4b55-9472-b714e16f24bb",
+                "grade": 3,
+                "locator": {
+                  "heading": "Rewrite Regrets"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "453cfde7-c460-4b55-9472-b714e16f24bb",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Rewrite Regrets"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "811719ad-b5a3-4d31-8c6f-5dbdfccf7c1f": {
+            "grades": [
+              {
+                "cardId": "811719ad-b5a3-4d31-8c6f-5dbdfccf7c1f",
+                "grade": 7,
+                "locator": {
+                  "heading": "Rise of the Deathbringer"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "811719ad-b5a3-4d31-8c6f-5dbdfccf7c1f",
+                "grade": 4,
+                "locator": {
+                  "heading": "Rise of the Deathbringer"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "2185c08f-bb4d-49d5-8b6c-c629a48bb61c": {
+            "grades": [
+              {
+                "cardId": "2185c08f-bb4d-49d5-8b6c-c629a48bb61c",
+                "grade": 5,
+                "locator": {
+                  "heading": "Sanctum Lurker"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "2185c08f-bb4d-49d5-8b6c-c629a48bb61c",
+                "grade": 4,
+                "locator": {
+                  "heading": "Sanctum Lurker"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "738667a1-c184-43ea-829f-49fbb69b6fc0": {
+            "grades": [
+              {
+                "cardId": "738667a1-c184-43ea-829f-49fbb69b6fc0",
+                "grade": 3,
+                "locator": {
+                  "heading": "Screeching Soulbreaker"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "738667a1-c184-43ea-829f-49fbb69b6fc0",
+                "grade": 2,
+                "locator": {
+                  "heading": "Screeching Soulbreaker"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "f1d274db-751b-4414-a38d-762198168e91": {
+            "grades": [
+              {
+                "cardId": "f1d274db-751b-4414-a38d-762198168e91",
+                "grade": 4,
+                "locator": {
+                  "heading": "Silence the Echo"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "f1d274db-751b-4414-a38d-762198168e91",
+                "grade": 2,
+                "locator": {
+                  "heading": "Silence the Echo"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-19"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "7beaa8c9-1a2c-4c88-b579-91e371d8d9e3": {
+            "grades": [
+              {
+                "cardId": "7beaa8c9-1a2c-4c88-b579-91e371d8d9e3",
+                "grade": 3,
+                "locator": {
+                  "heading": "Solve for Disappointment"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "7beaa8c9-1a2c-4c88-b579-91e371d8d9e3",
+                "grade": 2,
+                "locator": {
+                  "heading": "Solve for Disappointment"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "7ebd7e38-b27c-4c6e-aaea-e8ee5ba5e5df": {
+            "grades": [
+              {
+                "cardId": "7ebd7e38-b27c-4c6e-aaea-e8ee5ba5e5df",
+                "grade": 5,
+                "locator": {
+                  "heading": "Terminal Criticism"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "7ebd7e38-b27c-4c6e-aaea-e8ee5ba5e5df",
+                "grade": 0.5,
+                "locator": {
+                  "heading": "Terminal Criticism"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "e36a7908-1e22-494b-adb4-e72ac0974d62": {
+            "grades": [
+              {
+                "cardId": "e36a7908-1e22-494b-adb4-e72ac0974d62",
+                "grade": 4,
+                "locator": {
+                  "heading": "Theoretical Necromancer"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "e36a7908-1e22-494b-adb4-e72ac0974d62",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Theoretical Necromancer"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "0eae2efb-bf25-48ee-9c07-9098008110ad": {
+            "grades": [
+              {
+                "cardId": "0eae2efb-bf25-48ee-9c07-9098008110ad",
+                "grade": 4,
+                "locator": {
+                  "heading": "Void Extrapolator"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "0eae2efb-bf25-48ee-9c07-9098008110ad",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Void Extrapolator"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "992bd991-7cfb-459f-bafd-9a44f3c925c5": {
+            "grades": [
+              {
+                "cardId": "992bd991-7cfb-459f-bafd-9a44f3c925c5",
+                "grade": 6,
+                "locator": {
+                  "heading": "Vraska’s Final Mercy"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "992bd991-7cfb-459f-bafd-9a44f3c925c5",
+                "grade": 3,
+                "locator": {
+                  "heading": "Vraska’s Final Mercy"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "d9039a58-2f17-4b8a-b714-3a2f0b46f057": {
+            "grades": [
+              {
+                "cardId": "d9039a58-2f17-4b8a-b714-3a2f0b46f057",
+                "grade": 4,
+                "locator": {
+                  "heading": "Ajani’s Anguish"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "d9039a58-2f17-4b8a-b714-3a2f0b46f057",
+                "grade": 4,
+                "locator": {
+                  "heading": "Ajani’s Anguish"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "7d3b720d-f27c-462a-8f80-15748e5086e1": {
+            "grades": [
+              {
+                "cardId": "7d3b720d-f27c-462a-8f80-15748e5086e1",
+                "grade": 3,
+                "locator": {
+                  "heading": "Artifist Acumen"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "7d3b720d-f27c-462a-8f80-15748e5086e1",
+                "grade": 2,
+                "locator": {
+                  "heading": "Artifist Acumen"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "c596c4ec-8480-4be9-a45d-700398a126f6": {
+            "grades": [
+              {
+                "cardId": "c596c4ec-8480-4be9-a45d-700398a126f6",
+                "grade": 4,
+                "locator": {
+                  "heading": "Awaken the Inferno"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "c596c4ec-8480-4be9-a45d-700398a126f6",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Awaken the Inferno"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "8414a98c-0c79-4884-bc9b-061a6456b392": {
+            "grades": [
+              {
+                "cardId": "8414a98c-0c79-4884-bc9b-061a6456b392",
+                "grade": 3,
+                "locator": {
+                  "heading": "Blazing Crescendo"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "8414a98c-0c79-4884-bc9b-061a6456b392",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Blazing Crescendo"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "3a64c5f4-9cfc-4d19-bd99-13d619b1aa9d": {
+            "grades": [
+              {
+                "cardId": "3a64c5f4-9cfc-4d19-bd99-13d619b1aa9d",
+                "grade": 2,
+                "locator": {
+                  "heading": "Chandra’s Emberling"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "3a64c5f4-9cfc-4d19-bd99-13d619b1aa9d",
+                "grade": 2,
+                "locator": {
+                  "heading": "Chandra’s Emberling"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "f3307da2-6dad-4ef2-9614-a7d34f38088e": {
+            "grades": [
+              {
+                "cardId": "f3307da2-6dad-4ef2-9614-a7d34f38088e",
+                "grade": 6,
+                "locator": {
+                  "heading": "Command the Stage"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "f3307da2-6dad-4ef2-9614-a7d34f38088e",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Command the Stage"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "47793a51-08c6-4ad2-a7e5-a4484d83a5cd": {
+            "grades": [
+              {
+                "cardId": "47793a51-08c6-4ad2-a7e5-a4484d83a5cd",
+                "grade": 10,
+                "locator": {
+                  "heading": "Craterclaw Colossus"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "47793a51-08c6-4ad2-a7e5-a4484d83a5cd",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Craterclaw Colossus"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "8f827e50-0a08-4bc8-98b1-b26c9af15ef2": {
+            "grades": [
+              {
+                "cardId": "8f827e50-0a08-4bc8-98b1-b26c9af15ef2",
+                "grade": 8,
+                "locator": {
+                  "heading": "Curse-Marred Demon"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "8f827e50-0a08-4bc8-98b1-b26c9af15ef2",
+                "grade": 4,
+                "locator": {
+                  "heading": "Curse-Marred Demon"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "112f8478-bd89-4a14-9721-8ab750613129": {
+            "grades": [
+              {
+                "cardId": "112f8478-bd89-4a14-9721-8ab750613129",
+                "grade": 9,
+                "locator": {
+                  "heading": "Draconic Visitor"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "112f8478-bd89-4a14-9721-8ab750613129",
+                "grade": 4,
+                "locator": {
+                  "heading": "Draconic Visitor"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "5f8771f9-8128-4818-a11d-41ea368cf697": {
+            "grades": [
+              {
+                "cardId": "5f8771f9-8128-4818-a11d-41ea368cf697",
+                "grade": 3,
+                "locator": {
+                  "heading": "Eardrum Rattler"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "5f8771f9-8128-4818-a11d-41ea368cf697",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Eardrum Rattler"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "d2e958de-70de-4156-8f9b-b2c0c1ba704a": {
+            "grades": [
+              {
+                "cardId": "d2e958de-70de-4156-8f9b-b2c0c1ba704a",
+                "grade": 2,
+                "locator": {
+                  "heading": "Essence Burn"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "d2e958de-70de-4156-8f9b-b2c0c1ba704a",
+                "grade": 0.5,
+                "locator": {
+                  "heading": "Essence Burn"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "3ccf8f64-19bd-4fdf-b70a-30a042bacf2f": {
+            "grades": [
+              {
+                "cardId": "3ccf8f64-19bd-4fdf-b70a-30a042bacf2f",
+                "grade": 0,
+                "locator": {
+                  "heading": "Face Yourself"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "3ccf8f64-19bd-4fdf-b70a-30a042bacf2f",
+                "grade": 3,
+                "locator": {
+                  "heading": "Face Yourself"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "19acb2b5-3b3e-43f0-bd81-8426ed3d9c55": {
+            "grades": [
+              {
+                "cardId": "19acb2b5-3b3e-43f0-bd81-8426ed3d9c55",
+                "grade": 7,
+                "locator": {
+                  "heading": "Fulminous Forte"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "19acb2b5-3b3e-43f0-bd81-8426ed3d9c55",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Fulminous Forte"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "7e324816-552f-455d-97c4-5ea6b26d2e6e": {
+            "grades": [
+              {
+                "cardId": "7e324816-552f-455d-97c4-5ea6b26d2e6e",
+                "grade": 2,
+                "locator": {
+                  "heading": "Hallway Heckler"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "7e324816-552f-455d-97c4-5ea6b26d2e6e",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Hallway Heckler"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "cbfe3354-7ced-4773-9a4e-a937ae9f94f8": {
+            "grades": [
+              {
+                "cardId": "cbfe3354-7ced-4773-9a4e-a937ae9f94f8",
+                "grade": 4,
+                "locator": {
+                  "heading": "Heartstring Puller"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "cbfe3354-7ced-4773-9a4e-a937ae9f94f8",
+                "grade": 2,
+                "locator": {
+                  "heading": "Heartstring Puller"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-22"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "e600b33b-8916-43dd-95d3-d7cbf874933d": {
+            "grades": [
+              {
+                "cardId": "e600b33b-8916-43dd-95d3-d7cbf874933d",
+                "grade": 0,
+                "locator": {
+                  "heading": "Identity Echo"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "e600b33b-8916-43dd-95d3-d7cbf874933d",
+                "grade": 0.5,
+                "locator": {
+                  "heading": "Identity Echo"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "4404d9d4-9cdd-4dad-a4f6-574d90db5052": {
+            "grades": [
+              {
+                "cardId": "4404d9d4-9cdd-4dad-a4f6-574d90db5052",
+                "grade": 7,
+                "locator": {
+                  "heading": "Master of Barbs"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "4404d9d4-9cdd-4dad-a4f6-574d90db5052",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Master of Barbs"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "11ba4fdd-cc03-4bb6-a493-91a9785771d0": {
+            "grades": [
+              {
+                "cardId": "11ba4fdd-cc03-4bb6-a493-91a9785771d0",
+                "grade": 5,
+                "locator": {
+                  "heading": "No Admittance"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "11ba4fdd-cc03-4bb6-a493-91a9785771d0",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "No Admittance"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-20",
+              "review-13"
+            ],
+            "observationIds": [
+              "game-09"
+            ],
+            "combinationIds": []
+          },
+          "aa0f77ac-741a-444a-8bf0-a42c644726bf": {
+            "grades": [
+              {
+                "cardId": "aa0f77ac-741a-444a-8bf0-a42c644726bf",
+                "grade": 3,
+                "locator": {
+                  "heading": "Pompous Battlemage"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "aa0f77ac-741a-444a-8bf0-a42c644726bf",
+                "grade": 2,
+                "locator": {
+                  "heading": "Pompous Battlemage"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "2b0ebea0-86de-4da4-9fe8-dacc1e75c161": {
+            "grades": [
+              {
+                "cardId": "2b0ebea0-86de-4da4-9fe8-dacc1e75c161",
+                "grade": 4,
+                "locator": {
+                  "heading": "Pyre Rhymer"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "2b0ebea0-86de-4da4-9fe8-dacc1e75c161",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Pyre Rhymer"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "0e44f959-1322-4abd-b6eb-dea992307c0c": {
+            "grades": [
+              {
+                "cardId": "0e44f959-1322-4abd-b6eb-dea992307c0c",
+                "grade": 4,
+                "locator": {
+                  "heading": "Skilled Battlecarver"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "0e44f959-1322-4abd-b6eb-dea992307c0c",
+                "grade": 2,
+                "locator": {
+                  "heading": "Skilled Battlecarver"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460": {
+            "grades": [
+              {
+                "cardId": "2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460",
+                "grade": 8,
+                "locator": {
+                  "heading": "Stingcaster Mage"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460",
+                "grade": 4,
+                "locator": {
+                  "heading": "Stingcaster Mage"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "b75bbf46-a421-467a-9433-6cf22398a3a5": {
+            "grades": [
+              {
+                "cardId": "b75bbf46-a421-467a-9433-6cf22398a3a5",
+                "grade": 3,
+                "locator": {
+                  "heading": "Tether Technician"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "b75bbf46-a421-467a-9433-6cf22398a3a5",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Tether Technician"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "ad03ba90-2442-4a71-94df-2088b5b63662": {
+            "grades": [
+              {
+                "cardId": "ad03ba90-2442-4a71-94df-2088b5b63662",
+                "grade": 6,
+                "locator": {
+                  "heading": "Violent Echoes"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "ad03ba90-2442-4a71-94df-2088b5b63662",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Violent Echoes"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "b5b55617-684a-4036-be9b-a3b24fc9cd5a": {
+            "grades": [
+              {
+                "cardId": "b5b55617-684a-4036-be9b-a3b24fc9cd5a",
+                "grade": 5,
+                "locator": {
+                  "heading": "Wrath of the Bloodmane"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "b5b55617-684a-4036-be9b-a3b24fc9cd5a",
+                "grade": 3,
+                "locator": {
+                  "heading": "Wrath of the Bloodmane"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-21"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "1bf923c4-f0b7-4271-978c-fd2e79fe1cc8": {
+            "grades": [
+              {
+                "cardId": "1bf923c4-f0b7-4271-978c-fd2e79fe1cc8",
+                "grade": 4,
+                "locator": {
+                  "heading": "Arcane Amphisbaena"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "1bf923c4-f0b7-4271-978c-fd2e79fe1cc8",
+                "grade": 2,
+                "locator": {
+                  "heading": "Arcane Amphisbaena"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-24"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "e0de5f66-f0df-4866-9f73-104ce50411b4": {
+            "grades": [
+              {
+                "cardId": "e0de5f66-f0df-4866-9f73-104ce50411b4",
+                "grade": 4,
+                "locator": {
+                  "heading": "Bestial Incursion"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "e0de5f66-f0df-4866-9f73-104ce50411b4",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Bestial Incursion"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-25"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "18c59d60-2640-4576-9375-3ba38aa3ecb7": {
+            "grades": [
+              {
+                "cardId": "18c59d60-2640-4576-9375-3ba38aa3ecb7",
+                "grade": 2,
+                "locator": {
+                  "heading": "Budding Insurgent"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "18c59d60-2640-4576-9375-3ba38aa3ecb7",
+                "grade": 2,
+                "locator": {
+                  "heading": "Budding Insurgent"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "79dd5c54-5ea5-47b5-8f9b-50ed57a5ea45": {
+            "grades": [
+              {
+                "cardId": "79dd5c54-5ea5-47b5-8f9b-50ed57a5ea45",
+                "grade": 5,
+                "locator": {
+                  "heading": "Carnivorous Cultivator"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "79dd5c54-5ea5-47b5-8f9b-50ed57a5ea45",
+                "grade": 3,
+                "locator": {
+                  "heading": "Carnivorous Cultivator"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "bd32d736-7a58-46b9-90b4-2cac3c3e80a1": {
+            "grades": [
+              {
+                "cardId": "bd32d736-7a58-46b9-90b4-2cac3c3e80a1",
+                "grade": 5,
+                "locator": {
+                  "heading": "Compel Brutality"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "bd32d736-7a58-46b9-90b4-2cac3c3e80a1",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Compel Brutality"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-23"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "f71958e9-6d6d-4393-8b49-567103b50877": {
+            "grades": [
+              {
+                "cardId": "f71958e9-6d6d-4393-8b49-567103b50877",
+                "grade": 2,
+                "locator": {
+                  "heading": "Flourishing Grapple"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "f71958e9-6d6d-4393-8b49-567103b50877",
+                "grade": 0.5,
+                "locator": {
+                  "heading": "Flourishing Grapple"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [
+              "review-06"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "930b89c3-4433-48de-829f-20fc3dbfced9": {
+            "grades": [
+              {
+                "cardId": "930b89c3-4433-48de-829f-20fc3dbfced9",
+                "grade": 0,
+                "locator": {
+                  "heading": "Gardenize"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "930b89c3-4433-48de-829f-20fc3dbfced9",
+                "grade": 0,
+                "locator": {
+                  "heading": "Gardenize"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [
+              "review-03",
+              "review-09"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "a56e0f91-b128-4693-a949-53cb403f4fbf": {
+            "grades": [
+              {
+                "cardId": "a56e0f91-b128-4693-a949-53cb403f4fbf",
+                "grade": 4,
+                "locator": {
+                  "heading": "Greenhouse Propagator"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "a56e0f91-b128-4693-a949-53cb403f4fbf",
+                "grade": 2,
+                "locator": {
+                  "heading": "Greenhouse Propagator"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [
+              "llu261-11",
+              "llu261-14",
+              "review-01",
+              "review-07"
+            ],
+            "observationIds": [
+              "game-02",
+              "game-03",
+              "game-04",
+              "game-09"
+            ],
+            "combinationIds": [
+              "lesson-gw"
+            ]
+          },
+          "910a1f41-17fd-4ab0-9597-7151e79dc760": {
+            "grades": [
+              {
+                "cardId": "910a1f41-17fd-4ab0-9597-7151e79dc760",
+                "grade": 6,
+                "locator": {
+                  "heading": "Heartwood Crafter"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "910a1f41-17fd-4ab0-9597-7151e79dc760",
+                "grade": 2,
+                "locator": {
+                  "heading": "Heartwood Crafter"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-4",
+              "review-02",
+              "review-08"
+            ],
+            "observationIds": [],
+            "combinationIds": [
+              "lesson-rg"
+            ]
+          },
+          "9a446cae-e93c-4574-8ffd-7688f9729a8a": {
+            "grades": [
+              {
+                "cardId": "9a446cae-e93c-4574-8ffd-7688f9729a8a",
+                "grade": 1,
+                "locator": {
+                  "heading": "Hexhaven Invigorator"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "9a446cae-e93c-4574-8ffd-7688f9729a8a",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Hexhaven Invigorator"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "3db2da7a-8088-4117-916b-f9c905d1b45b": {
+            "grades": [
+              {
+                "cardId": "3db2da7a-8088-4117-916b-f9c905d1b45b",
+                "grade": 9,
+                "locator": {
+                  "heading": "Hungering Puppetbeast"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "3db2da7a-8088-4117-916b-f9c905d1b45b",
+                "grade": 4,
+                "locator": {
+                  "heading": "Hungering Puppetbeast"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "a2cc5d0e-9643-4ee2-81de-fa2c3bd1ab09": {
+            "grades": [
+              {
+                "cardId": "a2cc5d0e-9643-4ee2-81de-fa2c3bd1ab09",
+                "grade": 4,
+                "locator": {
+                  "heading": "Hunter’s Axe"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "a2cc5d0e-9643-4ee2-81de-fa2c3bd1ab09",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Hunter’s Axe"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "073f4998-a204-447b-93d5-746ae87fd6a1": {
+            "grades": [
+              {
+                "cardId": "073f4998-a204-447b-93d5-746ae87fd6a1",
+                "grade": 2,
+                "locator": {
+                  "heading": "Inspired Tethermage"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "073f4998-a204-447b-93d5-746ae87fd6a1",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Inspired Tethermage"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "eaf9dc77-c83b-49cf-84be-6bd791cb925e": {
+            "grades": [
+              {
+                "cardId": "eaf9dc77-c83b-49cf-84be-6bd791cb925e",
+                "grade": 0,
+                "locator": {
+                  "heading": "Omnipresence"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "eaf9dc77-c83b-49cf-84be-6bd791cb925e",
+                "grade": 0,
+                "locator": {
+                  "heading": "Omnipresence"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "6b8789a6-3b63-4198-af5f-c2f2f49fafd9": {
+            "grades": [
+              {
+                "cardId": "6b8789a6-3b63-4198-af5f-c2f2f49fafd9",
+                "grade": 6,
+                "locator": {
+                  "heading": "Puppet Crafting"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "6b8789a6-3b63-4198-af5f-c2f2f49fafd9",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Puppet Crafting"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "3546b93b-a7d1-451d-a369-22cc8ddcd00d": {
+            "grades": [
+              {
+                "cardId": "3546b93b-a7d1-451d-a369-22cc8ddcd00d",
+                "grade": 4,
+                "locator": {
+                  "heading": "Restore with Empathy"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "3546b93b-a7d1-451d-a369-22cc8ddcd00d",
+                "grade": 2,
+                "locator": {
+                  "heading": "Restore with Empathy"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [
+              "review-05",
+              "review-11"
+            ],
+            "observationIds": [
+              "game-05"
+            ],
+            "combinationIds": []
+          },
+          "7c725702-8696-4e5a-8318-62f5e2616d52": {
+            "grades": [
+              {
+                "cardId": "7c725702-8696-4e5a-8318-62f5e2616d52",
+                "grade": 7,
+                "locator": {
+                  "heading": "Simulacrum Shaper"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "7c725702-8696-4e5a-8318-62f5e2616d52",
+                "grade": 4,
+                "locator": {
+                  "heading": "Simulacrum Shaper"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "02ee7817-40af-4fcf-a2df-eb218b669281": {
+            "grades": [
+              {
+                "cardId": "02ee7817-40af-4fcf-a2df-eb218b669281",
+                "grade": 4,
+                "locator": {
+                  "heading": "Something Worth Saving"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "02ee7817-40af-4fcf-a2df-eb218b669281",
+                "grade": 2,
+                "locator": {
+                  "heading": "Something Worth Saving"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "b635389c-e286-4edb-80d1-23dbe4a18857": {
+            "grades": [
+              {
+                "cardId": "b635389c-e286-4edb-80d1-23dbe4a18857",
+                "grade": 3,
+                "locator": {
+                  "heading": "Sureshot Sower"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "b635389c-e286-4edb-80d1-23dbe4a18857",
+                "grade": 2,
+                "locator": {
+                  "heading": "Sureshot Sower"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "8be5ee47-8f8a-4e3c-b1a1-9ca0e1fdec7f": {
+            "grades": [
+              {
+                "cardId": "8be5ee47-8f8a-4e3c-b1a1-9ca0e1fdec7f",
+                "grade": 5,
+                "locator": {
+                  "heading": "Tarmogoyf"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "8be5ee47-8f8a-4e3c-b1a1-9ca0e1fdec7f",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Tarmogoyf"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "38589a7c-9cfb-4bcc-845e-9dc205095853": {
+            "grades": [
+              {
+                "cardId": "38589a7c-9cfb-4bcc-845e-9dc205095853",
+                "grade": 1,
+                "locator": {
+                  "heading": "Tethermage’s Advantage"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "38589a7c-9cfb-4bcc-845e-9dc205095853",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Tethermage’s Advantage"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "2bb7a8eb-227f-410b-859f-750ef0aea2f0": {
+            "grades": [
+              {
+                "cardId": "2bb7a8eb-227f-410b-859f-750ef0aea2f0",
+                "grade": 10,
+                "locator": {
+                  "heading": "Verdant Kraken"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "2bb7a8eb-227f-410b-859f-750ef0aea2f0",
+                "grade": 4.5,
+                "locator": {
+                  "heading": "Verdant Kraken"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "e5ed142b-2b61-4ef5-8b23-2db2a0a0319d": {
+            "grades": [
+              {
+                "cardId": "e5ed142b-2b61-4ef5-8b23-2db2a0a0319d",
+                "grade": 3,
+                "locator": {
+                  "heading": "Vinelasher Adept"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "e5ed142b-2b61-4ef5-8b23-2db2a0a0319d",
+                "grade": 2,
+                "locator": {
+                  "heading": "Vinelasher Adept"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "3d693cb0-681e-480a-8f70-07e94c39225c": {
+            "grades": [
+              {
+                "cardId": "3d693cb0-681e-480a-8f70-07e94c39225c",
+                "grade": 1,
+                "locator": {
+                  "heading": "Wrecking Gecko"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "3d693cb0-681e-480a-8f70-07e94c39225c",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Wrecking Gecko"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "f17d2792-b075-4c47-ad38-e7a7eaee5f8c": {
+            "grades": [
+              {
+                "cardId": "f17d2792-b075-4c47-ad38-e7a7eaee5f8c",
+                "grade": 9,
+                "locator": {
+                  "heading": "Aerid Konstrari"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "f17d2792-b075-4c47-ad38-e7a7eaee5f8c",
+                "grade": 4.5,
+                "locator": {
+                  "heading": "Aerid Konstrari"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "5905995b-7a20-4602-a7cc-90aa5089a082": {
+            "grades": [
+              {
+                "cardId": "5905995b-7a20-4602-a7cc-90aa5089a082",
+                "grade": 8,
+                "locator": {
+                  "heading": "Avatar of Burgeoning Echoes"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "5905995b-7a20-4602-a7cc-90aa5089a082",
+                "grade": 4,
+                "locator": {
+                  "heading": "Avatar of Burgeoning Echoes"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "bb975803-9bf2-401e-9414-d272df314398": {
+            "grades": [
+              {
+                "cardId": "bb975803-9bf2-401e-9414-d272df314398",
+                "grade": 3,
+                "locator": {
+                  "heading": "Blessed Ghoul"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "bb975803-9bf2-401e-9414-d272df314398",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Blessed Ghoul"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8": {
+            "grades": [
+              {
+                "cardId": "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8",
+                "grade": 7,
+                "locator": {
+                  "heading": "Bloombrute"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Bloombrute"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [
+              "llu261-5",
+              "llu261-14",
+              "nicolai-guide-5",
+              "review-12"
+            ],
+            "observationIds": [
+              "game-02",
+              "game-03",
+              "game-05",
+              "game-06",
+              "game-07"
+            ],
+            "combinationIds": [
+              "lesson-gw"
+            ]
+          },
+          "87b40df5-5c0a-41f5-a09c-a04f17066a91": {
+            "grades": [
+              {
+                "cardId": "87b40df5-5c0a-41f5-a09c-a04f17066a91",
+                "grade": 1,
+                "locator": {
+                  "heading": "Charge the Sanctum"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "87b40df5-5c0a-41f5-a09c-a04f17066a91",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Charge the Sanctum"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "b61bcef7-5832-45e6-a2bc-26d4f23707fc": {
+            "grades": [
+              {
+                "cardId": "b61bcef7-5832-45e6-a2bc-26d4f23707fc",
+                "grade": 6,
+                "locator": {
+                  "heading": "Clash of Elements"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "b61bcef7-5832-45e6-a2bc-26d4f23707fc",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Clash of Elements"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "03f9839c-aa07-4ee7-847b-091e47ab80c4": {
+            "grades": [
+              {
+                "cardId": "03f9839c-aa07-4ee7-847b-091e47ab80c4",
+                "grade": 8,
+                "locator": {
+                  "heading": "Craftwork Crusher"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "03f9839c-aa07-4ee7-847b-091e47ab80c4",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Craftwork Crusher"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [
+              "llu261-4"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "986f9e98-9d8d-428b-9187-860745cf3269": {
+            "grades": [
+              {
+                "cardId": "986f9e98-9d8d-428b-9187-860745cf3269",
+                "grade": 10,
+                "locator": {
+                  "heading": "Denzilore Fatehold"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "986f9e98-9d8d-428b-9187-860745cf3269",
+                "grade": 4.5,
+                "locator": {
+                  "heading": "Denzilore Fatehold"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "cfaa3ebd-5c21-4e99-a0dd-8426d19b53a5": {
+            "grades": [
+              {
+                "cardId": "cfaa3ebd-5c21-4e99-a0dd-8426d19b53a5",
+                "grade": 7,
+                "locator": {
+                  "heading": "Desperate Futurescribe"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "cfaa3ebd-5c21-4e99-a0dd-8426d19b53a5",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Desperate Futurescribe"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-1"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "de94d388-919d-44ff-baef-8c90a417ac6d": {
+            "grades": [
+              {
+                "cardId": "de94d388-919d-44ff-baef-8c90a417ac6d",
+                "grade": 3,
+                "locator": {
+                  "heading": "Emergency Phytomedic"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "de94d388-919d-44ff-baef-8c90a417ac6d",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Emergency Phytomedic"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-5"
+            ],
+            "observationIds": [
+              "game-02",
+              "game-05",
+              "game-06"
+            ],
+            "combinationIds": []
+          },
+          "ca894d25-b9fc-4cd6-8746-70d8c2868721": {
+            "grades": [
+              {
+                "cardId": "ca894d25-b9fc-4cd6-8746-70d8c2868721",
+                "grade": 0,
+                "locator": {
+                  "heading": "Entrust the Spark"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "ca894d25-b9fc-4cd6-8746-70d8c2868721",
+                "grade": 1,
+                "locator": {
+                  "heading": "Entrust the Spark"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "cfc54011-647e-4428-bcdb-59400e1da49d": {
+            "grades": [
+              {
+                "cardId": "cfc54011-647e-4428-bcdb-59400e1da49d",
+                "grade": 5,
+                "locator": {
+                  "heading": "Fatehold Charm"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "cfc54011-647e-4428-bcdb-59400e1da49d",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Fatehold Charm"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b": {
+            "grades": [
+              {
+                "cardId": "29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b",
+                "grade": 4,
+                "locator": {
+                  "heading": "Fatehold Chronologist"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b",
+                "grade": 2,
+                "locator": {
+                  "heading": "Fatehold Chronologist"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "a9793ce9-5a0b-41fe-b9ad-02f6f7da2481": {
+            "grades": [
+              {
+                "cardId": "a9793ce9-5a0b-41fe-b9ad-02f6f7da2481",
+                "grade": 1,
+                "locator": {
+                  "heading": "Ferocity of the Hunt"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "a9793ce9-5a0b-41fe-b9ad-02f6f7da2481",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Ferocity of the Hunt"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "7a44581f-8fc4-457d-888a-1e211090ee7e": {
+            "grades": [
+              {
+                "cardId": "7a44581f-8fc4-457d-888a-1e211090ee7e",
+                "grade": 1,
+                "locator": {
+                  "heading": "Frostbite Pyromental"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "7a44581f-8fc4-457d-888a-1e211090ee7e",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Frostbite Pyromental"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "8295c48c-b4dd-4bc1-a206-04cf12b79bbd": {
+            "grades": [
+              {
+                "cardId": "8295c48c-b4dd-4bc1-a206-04cf12b79bbd",
+                "grade": 5,
+                "locator": {
+                  "heading": "Grim Repriser"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "8295c48c-b4dd-4bc1-a206-04cf12b79bbd",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Grim Repriser"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [
+              "llu261-3",
+              "nicolai-guide-3"
+            ],
+            "observationIds": [],
+            "combinationIds": [
+              "lesson-br"
+            ]
+          },
+          "6471b135-33a8-4005-9a07-ebb74e0bf145": {
+            "grades": [
+              {
+                "cardId": "6471b135-33a8-4005-9a07-ebb74e0bf145",
+                "grade": 9,
+                "locator": {
+                  "heading": "Ingris Stingerquill"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "6471b135-33a8-4005-9a07-ebb74e0bf145",
+                "grade": 4.5,
+                "locator": {
+                  "heading": "Ingris Stingerquill"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "7d29dfa1-9582-47bc-8f42-62b611bdcc4e": {
+            "grades": [
+              {
+                "cardId": "7d29dfa1-9582-47bc-8f42-62b611bdcc4e",
+                "grade": 2,
+                "locator": {
+                  "heading": "Konstrari Charm"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "7d29dfa1-9582-47bc-8f42-62b611bdcc4e",
+                "grade": 2,
+                "locator": {
+                  "heading": "Konstrari Charm"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "42e28bd2-486b-45d4-8840-6e33c19c2d57": {
+            "grades": [
+              {
+                "cardId": "42e28bd2-486b-45d4-8840-6e33c19c2d57",
+                "grade": 4,
+                "locator": {
+                  "heading": "Konstrari Improviser"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "42e28bd2-486b-45d4-8840-6e33c19c2d57",
+                "grade": 2,
+                "locator": {
+                  "heading": "Konstrari Improviser"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "2d6ff182-a853-4898-895b-072c89324ca7": {
+            "grades": [
+              {
+                "cardId": "2d6ff182-a853-4898-895b-072c89324ca7",
+                "grade": 10,
+                "locator": {
+                  "heading": "Kwia Vigorbloom"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "2d6ff182-a853-4898-895b-072c89324ca7",
+                "grade": 4.5,
+                "locator": {
+                  "heading": "Kwia Vigorbloom"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "94c290ce-252c-42b3-bcb0-c1ef621df566": {
+            "grades": [
+              {
+                "cardId": "94c290ce-252c-42b3-bcb0-c1ef621df566",
+                "grade": 7,
+                "locator": {
+                  "heading": "Mind Meanderer"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "94c290ce-252c-42b3-bcb0-c1ef621df566",
+                "grade": 3,
+                "locator": {
+                  "heading": "Mind Meanderer"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [
+              "llu261-8"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "3afdc75a-1bf5-4f2f-84eb-d82f77a095cd": {
+            "grades": [
+              {
+                "cardId": "3afdc75a-1bf5-4f2f-84eb-d82f77a095cd",
+                "grade": 7,
+                "locator": {
+                  "heading": "Null Summoner"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "3afdc75a-1bf5-4f2f-84eb-d82f77a095cd",
+                "grade": 4,
+                "locator": {
+                  "heading": "Null Summoner"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "e61b9d48-0ace-4453-afe0-a1024444bac0": {
+            "grades": [
+              {
+                "cardId": "e61b9d48-0ace-4453-afe0-a1024444bac0",
+                "grade": 6,
+                "locator": {
+                  "heading": "Paradox Shaper"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "e61b9d48-0ace-4453-afe0-a1024444bac0",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Paradox Shaper"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [
+              "llu261-2",
+              "nicolai-guide-2"
+            ],
+            "observationIds": [],
+            "combinationIds": [
+              "lesson-ub"
+            ]
+          },
+          "04e64af7-cca1-499e-8951-f386e84c8b5b": {
+            "grades": [
+              {
+                "cardId": "04e64af7-cca1-499e-8951-f386e84c8b5b",
+                "grade": 6,
+                "locator": {
+                  "heading": "Primal Witchstalker"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "04e64af7-cca1-499e-8951-f386e84c8b5b",
+                "grade": 3,
+                "locator": {
+                  "heading": "Primal Witchstalker"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [
+              "llu261-7",
+              "nicolai-guide-7"
+            ],
+            "observationIds": [],
+            "combinationIds": [
+              "lesson-bg"
+            ]
+          },
+          "cf0eec8c-0475-4050-8144-481a9bb13a0f": {
+            "grades": [
+              {
+                "cardId": "cf0eec8c-0475-4050-8144-481a9bb13a0f",
+                "grade": 7,
+                "locator": {
+                  "heading": "Proctor of Potential"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "cf0eec8c-0475-4050-8144-481a9bb13a0f",
+                "grade": 4,
+                "locator": {
+                  "heading": "Proctor of Potential"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "6c1c790b-9e0e-4964-9ea3-554843907f06": {
+            "grades": [
+              {
+                "cardId": "6c1c790b-9e0e-4964-9ea3-554843907f06",
+                "grade": 4,
+                "locator": {
+                  "heading": "Prudent Fateseer"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "6c1c790b-9e0e-4964-9ea3-554843907f06",
+                "grade": 2,
+                "locator": {
+                  "heading": "Prudent Fateseer"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [
+              "llu261-1",
+              "nicolai-guide-1"
+            ],
+            "observationIds": [],
+            "combinationIds": [
+              "lesson-wu"
+            ]
+          },
+          "68fddb6a-86d4-4ebb-907d-fdcaadebc4b3": {
+            "grades": [
+              {
+                "cardId": "68fddb6a-86d4-4ebb-907d-fdcaadebc4b3",
+                "grade": 6,
+                "locator": {
+                  "heading": "Recursive Recruitment"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "68fddb6a-86d4-4ebb-907d-fdcaadebc4b3",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Recursive Recruitment"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [
+              "llu261-2",
+              "nicolai-guide-2"
+            ],
+            "observationIds": [],
+            "combinationIds": [
+              "lesson-ub"
+            ]
+          },
+          "1ef12dcf-df50-4da6-8c4c-e2937ba9698e": {
+            "grades": [
+              {
+                "cardId": "1ef12dcf-df50-4da6-8c4c-e2937ba9698e",
+                "grade": 4,
+                "locator": {
+                  "heading": "Solarium Sentry"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "1ef12dcf-df50-4da6-8c4c-e2937ba9698e",
+                "grade": 3,
+                "locator": {
+                  "heading": "Solarium Sentry"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "5142bbb6-194c-4b12-b11a-1a21c9fe81a6": {
+            "grades": [
+              {
+                "cardId": "5142bbb6-194c-4b12-b11a-1a21c9fe81a6",
+                "grade": 6,
+                "locator": {
+                  "heading": "Solitary Cell"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "5142bbb6-194c-4b12-b11a-1a21c9fe81a6",
+                "grade": 3,
+                "locator": {
+                  "heading": "Solitary Cell"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [
+              "game-04"
+            ],
+            "combinationIds": []
+          },
+          "81733ff7-e611-43ee-bf38-6bb700676017": {
+            "grades": [
+              {
+                "cardId": "81733ff7-e611-43ee-bf38-6bb700676017",
+                "grade": 7,
+                "locator": {
+                  "heading": "Stingerquill Charm"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "81733ff7-e611-43ee-bf38-6bb700676017",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Stingerquill Charm"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "84b1c268-3b8a-41b6-92e3-a2ce0cc3d738": {
+            "grades": [
+              {
+                "cardId": "84b1c268-3b8a-41b6-92e3-a2ce0cc3d738",
+                "grade": 6,
+                "locator": {
+                  "heading": "Stingerquill Voxmancer"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "84b1c268-3b8a-41b6-92e3-a2ce0cc3d738",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Stingerquill Voxmancer"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [
+              "llu261-3",
+              "nicolai-guide-3"
+            ],
+            "observationIds": [],
+            "combinationIds": [
+              "lesson-br"
+            ]
+          },
+          "a7d78297-7411-4ec5-8931-a25146869d5b": {
+            "grades": [
+              {
+                "cardId": "a7d78297-7411-4ec5-8931-a25146869d5b",
+                "grade": 5,
+                "locator": {
+                  "heading": "Stinging Vitriol"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "a7d78297-7411-4ec5-8931-a25146869d5b",
+                "grade": 3,
+                "locator": {
+                  "heading": "Stinging Vitriol"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b": {
+            "grades": [
+              {
+                "cardId": "b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b",
+                "grade": 2,
+                "locator": {
+                  "heading": "Tam’s Resistance"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Tam’s Resistance"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "1703306d-6a3d-4ab8-bf58-a9992236ef0f": {
+            "grades": [
+              {
+                "cardId": "1703306d-6a3d-4ab8-bf58-a9992236ef0f",
+                "grade": 8,
+                "locator": {
+                  "heading": "Tenured Tethermage"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "1703306d-6a3d-4ab8-bf58-a9992236ef0f",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Tenured Tethermage"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "2835c9aa-0904-44db-8da2-e8c4e04201aa": {
+            "grades": [
+              {
+                "cardId": "2835c9aa-0904-44db-8da2-e8c4e04201aa",
+                "grade": 4,
+                "locator": {
+                  "heading": "Theorix Charm"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "2835c9aa-0904-44db-8da2-e8c4e04201aa",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Theorix Charm"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "fb6bad96-841d-4738-8e62-92f346f914fd": {
+            "grades": [
+              {
+                "cardId": "fb6bad96-841d-4738-8e62-92f346f914fd",
+                "grade": 3,
+                "locator": {
+                  "heading": "Theorix Metamage"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "fb6bad96-841d-4738-8e62-92f346f914fd",
+                "grade": 2,
+                "locator": {
+                  "heading": "Theorix Metamage"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "55f85984-0137-4899-8993-bbc8c4794d33": {
+            "grades": [
+              {
+                "cardId": "55f85984-0137-4899-8993-bbc8c4794d33",
+                "grade": 3,
+                "locator": {
+                  "heading": "Twinned Vision"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "55f85984-0137-4899-8993-bbc8c4794d33",
+                "grade": 2,
+                "locator": {
+                  "heading": "Twinned Vision"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [
+              "llu261-9",
+              "nicolai-guide-9"
+            ],
+            "observationIds": [],
+            "combinationIds": [
+              "lesson-ur"
+            ]
+          },
+          "c7c0765d-38fd-4d7b-bfb4-49b10ff5939b": {
+            "grades": [
+              {
+                "cardId": "c7c0765d-38fd-4d7b-bfb4-49b10ff5939b",
+                "grade": 6,
+                "locator": {
+                  "heading": "Twisted Fates"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "c7c0765d-38fd-4d7b-bfb4-49b10ff5939b",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Twisted Fates"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [
+              "llu261-6"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "a7ad622a-42ff-48fa-ae95-12e0a5bd9387": {
+            "grades": [
+              {
+                "cardId": "a7ad622a-42ff-48fa-ae95-12e0a5bd9387",
+                "grade": 9,
+                "locator": {
+                  "heading": "Uldaros Theorix"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "a7ad622a-42ff-48fa-ae95-12e0a5bd9387",
+                "grade": 4.5,
+                "locator": {
+                  "heading": "Uldaros Theorix"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "2b198e10-b507-4314-a29c-a219f06e48b7": {
+            "grades": [
+              {
+                "cardId": "2b198e10-b507-4314-a29c-a219f06e48b7",
+                "grade": 6,
+                "locator": {
+                  "heading": "Vigorbloom Charm"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "2b198e10-b507-4314-a29c-a219f06e48b7",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Vigorbloom Charm"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "acefc515-bf97-4dc0-b0f7-ae8ae5a61671": {
+            "grades": [
+              {
+                "cardId": "acefc515-bf97-4dc0-b0f7-ae8ae5a61671",
+                "grade": 3,
+                "locator": {
+                  "heading": "Vigorbloom Vanguard"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "acefc515-bf97-4dc0-b0f7-ae8ae5a61671",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Vigorbloom Vanguard"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [
+              "llu261-5"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "a803dbe7-153a-4e92-ad4d-c2babebe003d": {
+            "grades": [
+              {
+                "cardId": "a803dbe7-153a-4e92-ad4d-c2babebe003d",
+                "grade": 7,
+                "locator": {
+                  "heading": "Vindictive Triumph"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "a803dbe7-153a-4e92-ad4d-c2babebe003d",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Vindictive Triumph"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "c63d5b0e-ee72-42ed-aa7e-484ba84507cd": {
+            "grades": [
+              {
+                "cardId": "c63d5b0e-ee72-42ed-aa7e-484ba84507cd",
+                "grade": 6,
+                "locator": {
+                  "heading": "Warrior’s Blades"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "c63d5b0e-ee72-42ed-aa7e-484ba84507cd",
+                "grade": 2,
+                "locator": {
+                  "heading": "Warrior’s Blades"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [
+              "llu261-10"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "8096bc9a-a610-448f-bef2-7230e17e9777": {
+            "grades": [
+              {
+                "cardId": "8096bc9a-a610-448f-bef2-7230e17e9777",
+                "grade": 2,
+                "locator": {
+                  "heading": "Whiplash Wordsmith"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "8096bc9a-a610-448f-bef2-7230e17e9777",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Whiplash Wordsmith"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "7d17f7e3-7b63-4674-9024-4fd1827f40ec": {
+            "grades": [
+              {
+                "cardId": "7d17f7e3-7b63-4674-9024-4fd1827f40ec",
+                "grade": 6,
+                "locator": {
+                  "heading": "Woodwork Prodigy"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "7d17f7e3-7b63-4674-9024-4fd1827f40ec",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Woodwork Prodigy"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [
+              "llu261-4",
+              "nicolai-guide-4"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "4d4b3bf7-a149-4099-b97d-4e36a87dfa60": {
+            "grades": [
+              {
+                "cardId": "4d4b3bf7-a149-4099-b97d-4e36a87dfa60",
+                "grade": 2,
+                "locator": {
+                  "heading": "Afterthought Sentry"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "4d4b3bf7-a149-4099-b97d-4e36a87dfa60",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Afterthought Sentry"
+                },
+                "scope": "card",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "024bce1e-a5f3-4292-bc17-d0355a5d65e1": {
+            "grades": [
+              {
+                "cardId": "024bce1e-a5f3-4292-bc17-d0355a5d65e1",
+                "grade": 3,
+                "locator": {
+                  "heading": "Archive Arbiter"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "024bce1e-a5f3-4292-bc17-d0355a5d65e1",
+                "grade": 2,
+                "locator": {
+                  "heading": "Archive Arbiter"
+                },
+                "scope": "card",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "c3192390-1518-49fc-8716-f2c7a0384f39": {
+            "grades": [
+              {
+                "cardId": "c3192390-1518-49fc-8716-f2c7a0384f39",
+                "grade": 4,
+                "locator": {
+                  "heading": "Codie, Ravenous Codex"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "c3192390-1518-49fc-8716-f2c7a0384f39",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Codie, Ravenous Codex"
+                },
+                "scope": "card",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "d71d250f-c0e0-44b2-877c-76f3bcab4f34": {
+            "grades": [
+              {
+                "cardId": "d71d250f-c0e0-44b2-877c-76f3bcab4f34",
+                "grade": 6,
+                "locator": {
+                  "heading": "The Echoverse Fulcrum"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "d71d250f-c0e0-44b2-877c-76f3bcab4f34",
+                "grade": 4,
+                "locator": {
+                  "heading": "The Echoverse Fulcrum"
+                },
+                "scope": "card",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "0edba64a-39cf-4a8d-ba20-4f7da10b6c3d": {
+            "grades": [
+              {
+                "cardId": "0edba64a-39cf-4a8d-ba20-4f7da10b6c3d",
+                "grade": 1,
+                "locator": {
+                  "heading": "Eye of Jace"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "0edba64a-39cf-4a8d-ba20-4f7da10b6c3d",
+                "grade": 1,
+                "locator": {
+                  "heading": "Eye of Jace"
+                },
+                "scope": "card",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [
+              "llu261-13"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0": {
+            "grades": [
+              {
+                "cardId": "b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0",
+                "grade": 1,
+                "locator": {
+                  "heading": "Keeper of the Quiet Hour"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Keeper of the Quiet Hour"
+                },
+                "scope": "card",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [
+              "game-09"
+            ],
+            "combinationIds": []
+          },
+          "5d4a8e5f-0024-4da3-a2f5-edb48b12e733": {
+            "grades": [
+              {
+                "cardId": "5d4a8e5f-0024-4da3-a2f5-edb48b12e733",
+                "grade": 2,
+                "locator": {
+                  "heading": "Living Library"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "5d4a8e5f-0024-4da3-a2f5-edb48b12e733",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Living Library"
+                },
+                "scope": "card",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "8b07409a-1dce-461d-95e4-1130521ff4c4": {
+            "grades": [
+              {
+                "cardId": "8b07409a-1dce-461d-95e4-1130521ff4c4",
+                "grade": 2,
+                "locator": {
+                  "heading": "Medic’s Kitesail"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "8b07409a-1dce-461d-95e4-1130521ff4c4",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Medic’s Kitesail"
+                },
+                "scope": "card",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [
+              "llu261-15"
+            ],
+            "observationIds": [],
+            "combinationIds": [
+              "evasive-growth"
+            ]
+          },
+          "d68eab2e-89dd-4377-b7af-01512b1804a0": {
+            "grades": [
+              {
+                "cardId": "d68eab2e-89dd-4377-b7af-01512b1804a0",
+                "grade": 3,
+                "locator": {
+                  "heading": "Murmuring Volume"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "d68eab2e-89dd-4377-b7af-01512b1804a0",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Murmuring Volume"
+                },
+                "scope": "card",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "3223e5db-5cc4-42f9-ae9e-ff58abc7c390": {
+            "grades": [
+              {
+                "cardId": "3223e5db-5cc4-42f9-ae9e-ff58abc7c390",
+                "grade": 4,
+                "locator": {
+                  "heading": "The “Commons/Annex” Planeswalker Dual Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "3223e5db-5cc4-42f9-ae9e-ff58abc7c390",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Planeswalker Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "56dae4c4-3e71-4a32-979b-4e26d9c9e96c": {
+            "grades": [
+              {
+                "cardId": "56dae4c4-3e71-4a32-979b-4e26d9c9e96c",
+                "grade": 4,
+                "locator": {
+                  "heading": "The “Slow” Dual Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "56dae4c4-3e71-4a32-979b-4e26d9c9e96c",
+                "grade": 3,
+                "locator": {
+                  "heading": "Rare Slow Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "5140f962-62f3-40fd-a322-44896c7e2613": {
+            "grades": [
+              {
+                "cardId": "5140f962-62f3-40fd-a322-44896c7e2613",
+                "grade": 4,
+                "locator": {
+                  "heading": "The “Commons/Annex” Planeswalker Dual Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "5140f962-62f3-40fd-a322-44896c7e2613",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Planeswalker Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "e6ca6c3e-f145-42d6-8a17-90770c15afaf": {
+            "grades": [
+              {
+                "cardId": "e6ca6c3e-f145-42d6-8a17-90770c15afaf",
+                "grade": 4,
+                "locator": {
+                  "heading": "The “Commons/Annex” Planeswalker Dual Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "e6ca6c3e-f145-42d6-8a17-90770c15afaf",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Planeswalker Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "4a771010-b397-4849-ac9b-08e4dd5d6a72": {
+            "grades": [
+              {
+                "cardId": "4a771010-b397-4849-ac9b-08e4dd5d6a72",
+                "grade": 2,
+                "locator": {
+                  "heading": "Hall of Echoes"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "4a771010-b397-4849-ac9b-08e4dd5d6a72",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Hall of Echoes"
+                },
+                "scope": "card",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "a4e4966b-8963-4fac-a8bf-e778e063c7dd": {
+            "grades": [
+              {
+                "cardId": "a4e4966b-8963-4fac-a8bf-e778e063c7dd",
+                "grade": 4,
+                "locator": {
+                  "heading": "The “Slow” Dual Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "a4e4966b-8963-4fac-a8bf-e778e063c7dd",
+                "grade": 3,
+                "locator": {
+                  "heading": "Rare Slow Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "9128ce00-6744-4d36-bfbe-ef75d78110b0": {
+            "grades": [
+              {
+                "cardId": "9128ce00-6744-4d36-bfbe-ef75d78110b0",
+                "grade": 1,
+                "locator": {
+                  "heading": "Hexhaven Dueling Arena"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "9128ce00-6744-4d36-bfbe-ef75d78110b0",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Hexhaven Dueling Arena"
+                },
+                "scope": "card",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "84ea799a-faa2-4ff1-a933-432d4ee31a3b": {
+            "grades": [
+              {
+                "cardId": "84ea799a-faa2-4ff1-a933-432d4ee31a3b",
+                "grade": 4,
+                "locator": {
+                  "heading": "The “Commons/Annex” Planeswalker Dual Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "84ea799a-faa2-4ff1-a933-432d4ee31a3b",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Planeswalker Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "39c805e3-82cd-42a9-80fe-8d81712a94ea": {
+            "grades": [
+              {
+                "cardId": "39c805e3-82cd-42a9-80fe-8d81712a94ea",
+                "grade": 4,
+                "locator": {
+                  "heading": "The “Commons/Annex” Planeswalker Dual Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "39c805e3-82cd-42a9-80fe-8d81712a94ea",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Planeswalker Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "93ac525e-1919-43dd-aba4-073b7e4c1768": {
+            "grades": [
+              {
+                "cardId": "93ac525e-1919-43dd-aba4-073b7e4c1768",
+                "grade": 4,
+                "locator": {
+                  "heading": "The “Commons/Annex” Planeswalker Dual Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "93ac525e-1919-43dd-aba4-073b7e4c1768",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Planeswalker Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "178e61e4-472f-42cd-9d3b-4880c2acc527": {
+            "grades": [
+              {
+                "cardId": "178e61e4-472f-42cd-9d3b-4880c2acc527",
+                "grade": 4,
+                "locator": {
+                  "heading": "The “Slow” Dual Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "178e61e4-472f-42cd-9d3b-4880c2acc527",
+                "grade": 3,
+                "locator": {
+                  "heading": "Rare Slow Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "e3c8a8b6-23ba-45ad-80d1-8e2dc79897f7": {
+            "grades": [
+              {
+                "cardId": "e3c8a8b6-23ba-45ad-80d1-8e2dc79897f7",
+                "grade": 4,
+                "locator": {
+                  "heading": "The “Slow” Dual Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "e3c8a8b6-23ba-45ad-80d1-8e2dc79897f7",
+                "grade": 3,
+                "locator": {
+                  "heading": "Rare Slow Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "db61361b-bd12-453e-abc2-bbe09b66e3d9": {
+            "grades": [
+              {
+                "cardId": "db61361b-bd12-453e-abc2-bbe09b66e3d9",
+                "grade": 0,
+                "locator": {
+                  "heading": "Roiling Canopy"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "db61361b-bd12-453e-abc2-bbe09b66e3d9",
+                "grade": 0.5,
+                "locator": {
+                  "heading": "Roiling Canopy"
+                },
+                "scope": "card",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "9a467560-6676-4fc2-9400-768a79650aa4": {
+            "grades": [
+              {
+                "cardId": "9a467560-6676-4fc2-9400-768a79650aa4",
+                "grade": 3,
+                "locator": {
+                  "heading": "Room of Refuge"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "9a467560-6676-4fc2-9400-768a79650aa4",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Room of Refuge"
+                },
+                "scope": "card",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "9e944c5b-68ac-4a30-bbd4-09a4288319ce": {
+            "grades": [
+              {
+                "cardId": "9e944c5b-68ac-4a30-bbd4-09a4288319ce",
+                "grade": 4,
+                "locator": {
+                  "heading": "The “Slow” Dual Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "9e944c5b-68ac-4a30-bbd4-09a4288319ce",
+                "grade": 3,
+                "locator": {
+                  "heading": "Rare Slow Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "6ede3143-69ac-4cbe-922a-d25b07c26da7": {
+            "grades": [
+              {
+                "cardId": "6ede3143-69ac-4cbe-922a-d25b07c26da7",
+                "grade": 4,
+                "locator": {
+                  "heading": "The “Commons/Annex” Planeswalker Dual Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "6ede3143-69ac-4cbe-922a-d25b07c26da7",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Planeswalker Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "22db5bba-46c9-4a26-821d-303ddb386ea4": {
+            "grades": [
+              {
+                "cardId": "22db5bba-46c9-4a26-821d-303ddb386ea4",
+                "grade": 7,
+                "locator": {
+                  "heading": "Theorist’s Sanctum"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "22db5bba-46c9-4a26-821d-303ddb386ea4",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Theorist’s Sanctum"
+                },
+                "scope": "card",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "97bbbd23-ecb1-4407-ac14-dede08532a1e": {
+            "grades": [
+              {
+                "cardId": "97bbbd23-ecb1-4407-ac14-dede08532a1e",
+                "grade": 4,
+                "locator": {
+                  "heading": "The “Commons/Annex” Planeswalker Dual Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "97bbbd23-ecb1-4407-ac14-dede08532a1e",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Planeswalker Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "b57d5be7-3157-4b49-aeb8-d7368ca7e9dd": {
+            "grades": [
+              {
+                "cardId": "b57d5be7-3157-4b49-aeb8-d7368ca7e9dd",
+                "grade": 4,
+                "locator": {
+                  "heading": "The “Commons/Annex” Planeswalker Dual Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "b57d5be7-3157-4b49-aeb8-d7368ca7e9dd",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Planeswalker Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "db8c7bdd-76cd-4be0-ae0d-d430e9a5fe7a": {
+            "grades": [
+              {
+                "cardId": "db8c7bdd-76cd-4be0-ae0d-d430e9a5fe7a",
+                "grade": 4,
+                "locator": {
+                  "heading": "The “Commons/Annex” Planeswalker Dual Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "db8c7bdd-76cd-4be0-ae0d-d430e9a5fe7a",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Planeswalker Lands"
+                },
+                "scope": "cycle",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "a5e1a7dd-8c49-4435-935c-bcc78704082b": {
+            "grades": [
+              {
+                "cardId": "a5e1a7dd-8c49-4435-935c-bcc78704082b",
+                "grade": 2,
+                "locator": {
+                  "heading": "Ajani Resolute"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "a5e1a7dd-8c49-4435-935c-bcc78704082b",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Ajani Resolute"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "d5cb9810-3c2d-4ae4-b8b6-0155ca3f47ad": {
+            "grades": [
+              {
+                "cardId": "d5cb9810-3c2d-4ae4-b8b6-0155ca3f47ad",
+                "grade": 4,
+                "locator": {
+                  "heading": "Danitha, Sword of Hope"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "d5cb9810-3c2d-4ae4-b8b6-0155ca3f47ad",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Danitha, Sword of Hope"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [
+              "game-06"
+            ],
+            "combinationIds": []
+          },
+          "a9f3aa55-908f-42db-8135-4201433df850": {
+            "grades": [
+              {
+                "cardId": "a9f3aa55-908f-42db-8135-4201433df850",
+                "grade": 2,
+                "locator": {
+                  "heading": "Ghalta the Immovable"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "a9f3aa55-908f-42db-8135-4201433df850",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Ghalta the Immovable"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "768c0e64-9907-417a-a763-c836fdf36883": {
+            "grades": [
+              {
+                "cardId": "768c0e64-9907-417a-a763-c836fdf36883",
+                "grade": 6,
+                "locator": {
+                  "heading": "Gideon’s Memorial"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "768c0e64-9907-417a-a763-c836fdf36883",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Gideon’s Memorial"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "920703fd-2a2f-454b-8829-af8f2afda4f4": {
+            "grades": [
+              {
+                "cardId": "920703fd-2a2f-454b-8829-af8f2afda4f4",
+                "grade": 4,
+                "locator": {
+                  "heading": "Koth of the Homestead"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "920703fd-2a2f-454b-8829-af8f2afda4f4",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Koth of the Homestead"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-5"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "70d8c400-87dc-4f15-808f-e54a95d779fc": {
+            "grades": [
+              {
+                "cardId": "70d8c400-87dc-4f15-808f-e54a95d779fc",
+                "grade": 7,
+                "locator": {
+                  "heading": "Liliana the Faultless"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "70d8c400-87dc-4f15-808f-e54a95d779fc",
+                "grade": 4,
+                "locator": {
+                  "heading": "Liliana the Faultless"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "86a3866e-68a8-402c-baf0-1908e98e3995": {
+            "grades": [
+              {
+                "cardId": "86a3866e-68a8-402c-baf0-1908e98e3995",
+                "grade": 8,
+                "locator": {
+                  "heading": "Lyra, Archangel of Dawn"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "86a3866e-68a8-402c-baf0-1908e98e3995",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Lyra, Archangel of Dawn"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "699874e3-1ccf-4a6c-8371-61040de82d08": {
+            "grades": [
+              {
+                "cardId": "699874e3-1ccf-4a6c-8371-61040de82d08",
+                "grade": 2,
+                "locator": {
+                  "heading": "Rescue Girl, First Responder"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "699874e3-1ccf-4a6c-8371-61040de82d08",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Rescue Girl, First Responder"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "07572be0-6610-493c-a21e-14b78e9805c9": {
+            "grades": [
+              {
+                "cardId": "07572be0-6610-493c-a21e-14b78e9805c9",
+                "grade": 7,
+                "locator": {
+                  "heading": "Saheeli, Consul of Oversight"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "07572be0-6610-493c-a21e-14b78e9805c9",
+                "grade": 3,
+                "locator": {
+                  "heading": "Saheeli, Consul of Oversight"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "5f7521d7-9f1f-4f03-b2ea-dd2a1b1e4e5b": {
+            "grades": [
+              {
+                "cardId": "5f7521d7-9f1f-4f03-b2ea-dd2a1b1e4e5b",
+                "grade": 6,
+                "locator": {
+                  "heading": "Teyo, Lightshield Expert"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "5f7521d7-9f1f-4f03-b2ea-dd2a1b1e4e5b",
+                "grade": 3,
+                "locator": {
+                  "heading": "Teyo, Lightshield Expert"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "80226231-9e70-430e-aabc-f262f70b9226": {
+            "grades": [
+              {
+                "cardId": "80226231-9e70-430e-aabc-f262f70b9226",
+                "grade": 3,
+                "locator": {
+                  "heading": "Thalia, the Survivor"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "80226231-9e70-430e-aabc-f262f70b9226",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Thalia, the Survivor"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "7ca95235-6e54-4ff8-bc2e-6a3d483ff007": {
+            "grades": [
+              {
+                "cardId": "7ca95235-6e54-4ff8-bc2e-6a3d483ff007",
+                "grade": 5,
+                "locator": {
+                  "heading": "Tomik, Orzhov Lawmage"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "7ca95235-6e54-4ff8-bc2e-6a3d483ff007",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Tomik, Orzhov Lawmage"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "50326a2a-7e10-464b-a97e-e880bda0558c": {
+            "grades": [
+              {
+                "cardId": "50326a2a-7e10-464b-a97e-e880bda0558c",
+                "grade": 6,
+                "locator": {
+                  "heading": "Way of the Healer"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "50326a2a-7e10-464b-a97e-e880bda0558c",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Way of the Healer"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "1a59d5b1-12d6-486b-bd29-ca371359addd": {
+            "grades": [
+              {
+                "cardId": "1a59d5b1-12d6-486b-bd29-ca371359addd",
+                "grade": 1,
+                "locator": {
+                  "heading": "Way of the Mentor"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "1a59d5b1-12d6-486b-bd29-ca371359addd",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Way of the Mentor"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "384f3b7d-8d7f-41bf-bebd-64e8babe7fca": {
+            "grades": [
+              {
+                "cardId": "384f3b7d-8d7f-41bf-bebd-64e8babe7fca",
+                "grade": 4,
+                "locator": {
+                  "heading": "Yoshimaru, Beloved Companion"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "384f3b7d-8d7f-41bf-bebd-64e8babe7fca",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Yoshimaru, Beloved Companion"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "ccbe92a5-42bc-4228-9d5a-212df2f5dc15": {
+            "grades": [
+              {
+                "cardId": "ccbe92a5-42bc-4228-9d5a-212df2f5dc15",
+                "grade": 4,
+                "locator": {
+                  "heading": "Yuriko, Blade of the Mighty"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "ccbe92a5-42bc-4228-9d5a-212df2f5dc15",
+                "grade": 2,
+                "locator": {
+                  "heading": "Yuriko, Blade of the Mighty"
+                },
+                "scope": "card",
+                "sourceId": "zone-white"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "8e3a2239-9348-4639-9318-e9e35b2cf86b": {
+            "grades": [
+              {
+                "cardId": "8e3a2239-9348-4639-9318-e9e35b2cf86b",
+                "grade": 5,
+                "locator": {
+                  "heading": "Arni, Humble Scribe"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "8e3a2239-9348-4639-9318-e9e35b2cf86b",
+                "grade": 3,
+                "locator": {
+                  "heading": "Arni, Humble Scribe"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "240f58ab-944c-4f4c-9df9-5f40b132bf3e": {
+            "grades": [
+              {
+                "cardId": "240f58ab-944c-4f4c-9df9-5f40b132bf3e",
+                "grade": 8,
+                "locator": {
+                  "heading": "Chandra, Chill of Compliance"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "240f58ab-944c-4f4c-9df9-5f40b132bf3e",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Chandra, Chill of Compliance"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "a3a2edbb-d144-4670-acad-17316cea98d2": {
+            "grades": [
+              {
+                "cardId": "a3a2edbb-d144-4670-acad-17316cea98d2",
+                "grade": 4,
+                "locator": {
+                  "heading": "Fblthp, Impossibly Lost"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "a3a2edbb-d144-4670-acad-17316cea98d2",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Fblthp, Impossibly Lost"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "9c334530-0880-46b5-a358-9603eee3cecf": {
+            "grades": [
+              {
+                "cardId": "9c334530-0880-46b5-a358-9603eee3cecf",
+                "grade": 5,
+                "locator": {
+                  "heading": "Geist of Saint Thalia"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "9c334530-0880-46b5-a358-9603eee3cecf",
+                "grade": 2,
+                "locator": {
+                  "heading": "Geist of Saint Thalia"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "85faaa9d-4656-4365-871d-7cba53ed0996": {
+            "grades": [
+              {
+                "cardId": "85faaa9d-4656-4365-871d-7cba53ed0996",
+                "grade": 5,
+                "locator": {
+                  "heading": "Hapatra, the Desert Frost"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "85faaa9d-4656-4365-871d-7cba53ed0996",
+                "grade": 3,
+                "locator": {
+                  "heading": "Hapatra, the Desert Frost"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "74087795-0b38-4fd2-9841-147583baca41": {
+            "grades": [
+              {
+                "cardId": "74087795-0b38-4fd2-9841-147583baca41",
+                "grade": 6,
+                "locator": {
+                  "heading": "Jace, Reality Sculptor"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "74087795-0b38-4fd2-9841-147583baca41",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Jace, Reality Sculptor"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "a5183681-447b-4023-91f7-00e9338f4417": {
+            "grades": [
+              {
+                "cardId": "a5183681-447b-4023-91f7-00e9338f4417",
+                "grade": 10,
+                "locator": {
+                  "heading": "Lyra, Tolarian Archangel"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "a5183681-447b-4023-91f7-00e9338f4417",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Lyra, Tolarian Archangel"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "b8466593-40fe-4557-89b2-760c1c92087b": {
+            "grades": [
+              {
+                "cardId": "b8466593-40fe-4557-89b2-760c1c92087b",
+                "grade": 6,
+                "locator": {
+                  "heading": "Proft, Consulting Detective"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "b8466593-40fe-4557-89b2-760c1c92087b",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Proft, Consulting Detective"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "00af4e87-5576-4a43-9422-4c35b2b66775": {
+            "grades": [
+              {
+                "cardId": "00af4e87-5576-4a43-9422-4c35b2b66775",
+                "grade": 4,
+                "locator": {
+                  "heading": "Ruric Thar, Biomagus"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "00af4e87-5576-4a43-9422-4c35b2b66775",
+                "grade": 3,
+                "locator": {
+                  "heading": "Ruric Thar, Biomagus"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "6d7d8fa7-ce69-4a8c-9af0-55571393a244": {
+            "grades": [
+              {
+                "cardId": "6d7d8fa7-ce69-4a8c-9af0-55571393a244",
+                "grade": 1,
+                "locator": {
+                  "heading": "Samut, Tyrant of Naktamun"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "6d7d8fa7-ce69-4a8c-9af0-55571393a244",
+                "grade": 2,
+                "locator": {
+                  "heading": "Samut, Tyrant of Naktamun"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "3983d71e-3c23-4b36-b331-08e0707d8245": {
+            "grades": [
+              {
+                "cardId": "3983d71e-3c23-4b36-b331-08e0707d8245",
+                "grade": 5,
+                "locator": {
+                  "heading": "Tetsuko Umezawa, Fugitive"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "3983d71e-3c23-4b36-b331-08e0707d8245",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Tetsuko Umezawa, Fugitive"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [
+              "llu261-16"
+            ],
+            "observationIds": [],
+            "combinationIds": [
+              "negative-power"
+            ]
+          },
+          "a349800f-b634-4e74-a9d9-185df37ad909": {
+            "grades": [
+              {
+                "cardId": "a349800f-b634-4e74-a9d9-185df37ad909",
+                "grade": 5,
+                "locator": {
+                  "heading": "Traxos, Academy Guardian"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "a349800f-b634-4e74-a9d9-185df37ad909",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Traxos, Academy Guardian"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "838b0efb-7398-4df9-8fdf-b8af43b47938": {
+            "grades": [
+              {
+                "cardId": "838b0efb-7398-4df9-8fdf-b8af43b47938",
+                "grade": 4,
+                "locator": {
+                  "heading": "Way of the Cryomancer"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "838b0efb-7398-4df9-8fdf-b8af43b47938",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Way of the Cryomancer"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "5838af68-66c3-4fe8-ab89-0a1721b0cfeb": {
+            "grades": [
+              {
+                "cardId": "5838af68-66c3-4fe8-ab89-0a1721b0cfeb",
+                "grade": 1,
+                "locator": {
+                  "heading": "Way of the Mind Sculptor"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "5838af68-66c3-4fe8-ab89-0a1721b0cfeb",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Way of the Mind Sculptor"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "f45ba926-6496-4bd4-96eb-663946d56bbf": {
+            "grades": [
+              {
+                "cardId": "f45ba926-6496-4bd4-96eb-663946d56bbf",
+                "grade": 1,
+                "locator": {
+                  "heading": "Yargle, Goliath of Otaria"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "f45ba926-6496-4bd4-96eb-663946d56bbf",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Yargle, Goliath of Otaria"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "45e81487-8b8c-480b-922a-eaa9edc7201d": {
+            "grades": [
+              {
+                "cardId": "45e81487-8b8c-480b-922a-eaa9edc7201d",
+                "grade": 4,
+                "locator": {
+                  "heading": "Yuriko, Hope from the Shadows"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "45e81487-8b8c-480b-922a-eaa9edc7201d",
+                "grade": 2,
+                "locator": {
+                  "heading": "Yuriko, Hope from the Shadows"
+                },
+                "scope": "card",
+                "sourceId": "zone-blue"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "6489814b-3d10-423e-988c-324740d36748": {
+            "grades": [
+              {
+                "cardId": "6489814b-3d10-423e-988c-324740d36748",
+                "grade": 4,
+                "locator": {
+                  "heading": "Danitha, Spear of Agony"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "6489814b-3d10-423e-988c-324740d36748",
+                "grade": 2,
+                "locator": {
+                  "heading": "Danitha, Spear of Agony"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "498fa810-8522-4020-b773-52ad404c9f65": {
+            "grades": [
+              {
+                "cardId": "498fa810-8522-4020-b773-52ad404c9f65",
+                "grade": 6,
+                "locator": {
+                  "heading": "Gallia, Tragic Host"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "498fa810-8522-4020-b773-52ad404c9f65",
+                "grade": 3,
+                "locator": {
+                  "heading": "Gallia, Tragic Host"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-6"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "d48bfb8a-d135-45f3-be99-4694b4b9ab93": {
+            "grades": [
+              {
+                "cardId": "d48bfb8a-d135-45f3-be99-4694b4b9ab93",
+                "grade": 9,
+                "locator": {
+                  "heading": "Garruk, Veiled Butcher"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "d48bfb8a-d135-45f3-be99-4694b4b9ab93",
+                "grade": 4.5,
+                "locator": {
+                  "heading": "Garruk, Veiled Butcher"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "c985b0d1-25bd-4069-aab7-a566ff27a8f6": {
+            "grades": [
+              {
+                "cardId": "c985b0d1-25bd-4069-aab7-a566ff27a8f6",
+                "grade": 6,
+                "locator": {
+                  "heading": "Gideon the Oathless"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "c985b0d1-25bd-4069-aab7-a566ff27a8f6",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Gideon the Oathless"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "1eb25a6c-d6b4-465d-990e-f1ab86b26b69": {
+            "grades": [
+              {
+                "cardId": "1eb25a6c-d6b4-465d-990e-f1ab86b26b69",
+                "grade": 6,
+                "locator": {
+                  "heading": "Liliana the Repentant"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "1eb25a6c-d6b4-465d-990e-f1ab86b26b69",
+                "grade": 3,
+                "locator": {
+                  "heading": "Liliana the Repentant"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff": {
+            "grades": [
+              {
+                "cardId": "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff",
+                "grade": 5,
+                "locator": {
+                  "heading": "Loot, the Anomaly"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Loot, the Anomaly"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [
+              "llu261-16"
+            ],
+            "observationIds": [],
+            "combinationIds": [
+              "negative-power"
+            ]
+          },
+          "b2a412b0-2ae4-4552-bc5e-70654b6b9b4e": {
+            "grades": [
+              {
+                "cardId": "b2a412b0-2ae4-4552-bc5e-70654b6b9b4e",
+                "grade": 4,
+                "locator": {
+                  "heading": "Mabel, Bitter Recluse"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "b2a412b0-2ae4-4552-bc5e-70654b6b9b4e",
+                "grade": 2,
+                "locator": {
+                  "heading": "Mabel, Bitter Recluse"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-2"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "9028d31f-9c41-47e3-885b-6a869bca8178": {
+            "grades": [
+              {
+                "cardId": "9028d31f-9c41-47e3-885b-6a869bca8178",
+                "grade": 6,
+                "locator": {
+                  "heading": "Massacre Girl, Most Wanted"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "9028d31f-9c41-47e3-885b-6a869bca8178",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Massacre Girl, Most Wanted"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [
+              "game-03"
+            ],
+            "combinationIds": []
+          },
+          "d36b0e06-cb82-4c48-bf35-e76f109116f6": {
+            "grades": [
+              {
+                "cardId": "d36b0e06-cb82-4c48-bf35-e76f109116f6",
+                "grade": 4,
+                "locator": {
+                  "heading": "Proft, Sinister Mastermind"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "d36b0e06-cb82-4c48-bf35-e76f109116f6",
+                "grade": 2,
+                "locator": {
+                  "heading": "Proft, Sinister Mastermind"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "100c3b67-0c92-4224-b5ed-67789c612df7": {
+            "grades": [
+              {
+                "cardId": "100c3b67-0c92-4224-b5ed-67789c612df7",
+                "grade": 3,
+                "locator": {
+                  "heading": "Teyo, Diamondblade Mage"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "100c3b67-0c92-4224-b5ed-67789c612df7",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Teyo, Diamondblade Mage"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "2f47ddf7-35b6-4205-8045-f057914c5f64": {
+            "grades": [
+              {
+                "cardId": "2f47ddf7-35b6-4205-8045-f057914c5f64",
+                "grade": 5,
+                "locator": {
+                  "heading": "Tinybones, Pocket Nuisance"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "2f47ddf7-35b6-4205-8045-f057914c5f64",
+                "grade": 2,
+                "locator": {
+                  "heading": "Tinybones, Pocket Nuisance"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "12dd46b2-e892-4660-b120-55766fd4d878": {
+            "grades": [
+              {
+                "cardId": "12dd46b2-e892-4660-b120-55766fd4d878",
+                "grade": 3,
+                "locator": {
+                  "heading": "Way of the Deathbringer"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "12dd46b2-e892-4660-b120-55766fd4d878",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Way of the Deathbringer"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "a0ff9689-ea49-4fff-b37c-4abbaeb0f73d": {
+            "grades": [
+              {
+                "cardId": "a0ff9689-ea49-4fff-b37c-4abbaeb0f73d",
+                "grade": 1,
+                "locator": {
+                  "heading": "Way of the Necromancer"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "a0ff9689-ea49-4fff-b37c-4abbaeb0f73d",
+                "grade": 1,
+                "locator": {
+                  "heading": "Way of the Necromancer"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "9670f754-f41f-45ac-8e8b-025ad2c0f66b": {
+            "grades": [
+              {
+                "cardId": "9670f754-f41f-45ac-8e8b-025ad2c0f66b",
+                "grade": 5,
+                "locator": {
+                  "heading": "Winter, Tormented Loner"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "9670f754-f41f-45ac-8e8b-025ad2c0f66b",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Winter, Tormented Loner"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "04c816fb-5951-4db1-8834-ed3f0b36bfe1": {
+            "grades": [
+              {
+                "cardId": "04c816fb-5951-4db1-8834-ed3f0b36bfe1",
+                "grade": 1,
+                "locator": {
+                  "heading": "Yargle, Glutton of Urborg"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "04c816fb-5951-4db1-8834-ed3f0b36bfe1",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Yargle, Glutton of Urborg"
+                },
+                "scope": "card",
+                "sourceId": "zone-black"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5": {
+            "grades": [
+              {
+                "cardId": "bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5",
+                "grade": 10,
+                "locator": {
+                  "heading": "Ajani Unrelenting"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5",
+                "grade": 5,
+                "locator": {
+                  "heading": "Ajani Unrelenting"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [
+              "game-10"
+            ],
+            "combinationIds": []
+          },
+          "bd8db649-1dba-457d-8327-e1f1da1aab36": {
+            "grades": [
+              {
+                "cardId": "bd8db649-1dba-457d-8327-e1f1da1aab36",
+                "grade": 3,
+                "locator": {
+                  "heading": "Arni, Renowned Champion"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "bd8db649-1dba-457d-8327-e1f1da1aab36",
+                "grade": 2,
+                "locator": {
+                  "heading": "Arni, Renowned Champion"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd": {
+            "grades": [
+              {
+                "cardId": "40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd",
+                "grade": 10,
+                "locator": {
+                  "heading": "Chandra, Torch of Defiance"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd",
+                "grade": 4.5,
+                "locator": {
+                  "heading": "Chandra, Torch of Defiance"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "f27d50f0-d76e-4ce1-a8d9-d997af6a5b41": {
+            "grades": [
+              {
+                "cardId": "f27d50f0-d76e-4ce1-a8d9-d997af6a5b41",
+                "grade": 4,
+                "locator": {
+                  "heading": "Gallia, the Merrymaker"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "f27d50f0-d76e-4ce1-a8d9-d997af6a5b41",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Gallia, the Merrymaker"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-10"
+            ],
+            "observationIds": [],
+            "combinationIds": [
+              "lesson-rw"
+            ]
+          },
+          "e8c1ce21-b77d-40bf-9ed1-478604e71f5f": {
+            "grades": [
+              {
+                "cardId": "e8c1ce21-b77d-40bf-9ed1-478604e71f5f",
+                "grade": 3,
+                "locator": {
+                  "heading": "Jiang Yanggu, Alone"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "e8c1ce21-b77d-40bf-9ed1-478604e71f5f",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Jiang Yanggu, Alone"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "08657053-86f9-4c52-abf0-d9cdd443ae3b": {
+            "grades": [
+              {
+                "cardId": "08657053-86f9-4c52-abf0-d9cdd443ae3b",
+                "grade": 6,
+                "locator": {
+                  "heading": "Kiora of Fire and Ashes"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "08657053-86f9-4c52-abf0-d9cdd443ae3b",
+                "grade": 4,
+                "locator": {
+                  "heading": "Kiora of Fire and Ashes"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-4"
+            ],
+            "observationIds": [
+              "game-08"
+            ],
+            "combinationIds": [
+              "lesson-rg"
+            ]
+          },
+          "54f64e95-5a97-4d7c-9939-7f33a3165562": {
+            "grades": [
+              {
+                "cardId": "54f64e95-5a97-4d7c-9939-7f33a3165562",
+                "grade": 4,
+                "locator": {
+                  "heading": "Koth, the Geomancer"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "54f64e95-5a97-4d7c-9939-7f33a3165562",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Koth, the Geomancer"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "f93da73c-ca8b-438e-8387-6109dac3fc1a": {
+            "grades": [
+              {
+                "cardId": "f93da73c-ca8b-438e-8387-6109dac3fc1a",
+                "grade": 4,
+                "locator": {
+                  "heading": "Marwyn, the Clearcutter"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "f93da73c-ca8b-438e-8387-6109dac3fc1a",
+                "grade": 3,
+                "locator": {
+                  "heading": "Marwyn, the Clearcutter"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "dd3faaf4-45ca-4714-8dbe-37102ec131cf": {
+            "grades": [
+              {
+                "cardId": "dd3faaf4-45ca-4714-8dbe-37102ec131cf",
+                "grade": 6,
+                "locator": {
+                  "heading": "Pia, Determined Rebuilder"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "dd3faaf4-45ca-4714-8dbe-37102ec131cf",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Pia, Determined Rebuilder"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "ba920f23-f05c-410e-8516-c93abedf1d4d": {
+            "grades": [
+              {
+                "cardId": "ba920f23-f05c-410e-8516-c93abedf1d4d",
+                "grade": 5,
+                "locator": {
+                  "heading": "Samut, Hazoret’s Champion"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "ba920f23-f05c-410e-8516-c93abedf1d4d",
+                "grade": 3,
+                "locator": {
+                  "heading": "Samut, Hazoret’s Champion"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "df818900-ce5e-4b0d-a927-c975cbef7eda": {
+            "grades": [
+              {
+                "cardId": "df818900-ce5e-4b0d-a927-c975cbef7eda",
+                "grade": 6,
+                "locator": {
+                  "heading": "Tetsuko Umezawa, Pursuer"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "df818900-ce5e-4b0d-a927-c975cbef7eda",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Tetsuko Umezawa, Pursuer"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "5c5afd5f-6f37-4c3e-83f0-68fdcea98810": {
+            "grades": [
+              {
+                "cardId": "5c5afd5f-6f37-4c3e-83f0-68fdcea98810",
+                "grade": 5,
+                "locator": {
+                  "heading": "Tomik, Izzet Sparkmage"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "5c5afd5f-6f37-4c3e-83f0-68fdcea98810",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Tomik, Izzet Sparkmage"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-3"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "c1a00020-7c14-4503-a057-5763704bb83e": {
+            "grades": [
+              {
+                "cardId": "c1a00020-7c14-4503-a057-5763704bb83e",
+                "grade": 5,
+                "locator": {
+                  "heading": "Way of the Pyromancer"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "c1a00020-7c14-4503-a057-5763704bb83e",
+                "grade": 1,
+                "locator": {
+                  "heading": "Way of the Pyromancer"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "6d86e410-20c4-4248-96bf-5780ece6274a": {
+            "grades": [
+              {
+                "cardId": "6d86e410-20c4-4248-96bf-5780ece6274a",
+                "grade": 6,
+                "locator": {
+                  "heading": "Way of the Warlord"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "6d86e410-20c4-4248-96bf-5780ece6274a",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Way of the Warlord"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "df8713cd-3f4b-43ef-adbd-e37c2617c617": {
+            "grades": [
+              {
+                "cardId": "df8713cd-3f4b-43ef-adbd-e37c2617c617",
+                "grade": 4,
+                "locator": {
+                  "heading": "Winter, Team Player"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "df8713cd-3f4b-43ef-adbd-e37c2617c617",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Winter, Team Player"
+                },
+                "scope": "card",
+                "sourceId": "zone-red"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "dad6afc9-8505-4cdd-bf79-e9ba4670f2bb": {
+            "grades": [
+              {
+                "cardId": "dad6afc9-8505-4cdd-bf79-e9ba4670f2bb",
+                "grade": 6,
+                "locator": {
+                  "heading": "Edgar, Moonlit Sovereign"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "dad6afc9-8505-4cdd-bf79-e9ba4670f2bb",
+                "grade": 3,
+                "locator": {
+                  "heading": "Edgar, Moonlit Sovereign"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "28fbb55a-5c9d-45ee-bf42-a84b1048f5d2": {
+            "grades": [
+              {
+                "cardId": "28fbb55a-5c9d-45ee-bf42-a84b1048f5d2",
+                "grade": 6,
+                "locator": {
+                  "heading": "Fblthp, Knows the Way"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "28fbb55a-5c9d-45ee-bf42-a84b1048f5d2",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Fblthp, Knows the Way"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "90ca5812-ceb5-46bd-b049-aed7ff10e6af": {
+            "grades": [
+              {
+                "cardId": "90ca5812-ceb5-46bd-b049-aed7ff10e6af",
+                "grade": 10,
+                "locator": {
+                  "heading": "Garruk, Curse Breaker"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "90ca5812-ceb5-46bd-b049-aed7ff10e6af",
+                "grade": 5,
+                "locator": {
+                  "heading": "Garruk, Curse Breaker"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [
+              "review-04",
+              "review-10"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "1d535b5f-c916-4f16-89a7-9477578826d2": {
+            "grades": [
+              {
+                "cardId": "1d535b5f-c916-4f16-89a7-9477578826d2",
+                "grade": 4,
+                "locator": {
+                  "heading": "Ghalta the Unstoppable"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "1d535b5f-c916-4f16-89a7-9477578826d2",
+                "grade": 2,
+                "locator": {
+                  "heading": "Ghalta the Unstoppable"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [
+              "review-14"
+            ],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "f5a0bb3e-8119-4739-8684-e61d1d607dcb": {
+            "grades": [
+              {
+                "cardId": "f5a0bb3e-8119-4739-8684-e61d1d607dcb",
+                "grade": 5,
+                "locator": {
+                  "heading": "Jiang Yanggu, Never Alone"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "f5a0bb3e-8119-4739-8684-e61d1d607dcb",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Jiang Yanggu, Never Alone"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "3cfa4fc6-4d90-4576-a83f-6496c7f21104": {
+            "grades": [
+              {
+                "cardId": "3cfa4fc6-4d90-4576-a83f-6496c7f21104",
+                "grade": 6,
+                "locator": {
+                  "heading": "Loot, the Nexus"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "3cfa4fc6-4d90-4576-a83f-6496c7f21104",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Loot, the Nexus"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "90f33f99-7bc5-42e1-815e-bfb4c2b74107": {
+            "grades": [
+              {
+                "cardId": "90f33f99-7bc5-42e1-815e-bfb4c2b74107",
+                "grade": 5,
+                "locator": {
+                  "heading": "Marwyn, the Preserver"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "90f33f99-7bc5-42e1-815e-bfb4c2b74107",
+                "grade": 2,
+                "locator": {
+                  "heading": "Marwyn, the Preserver"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "ff0bc30f-9d20-458e-808f-bdc2825905a5": {
+            "grades": [
+              {
+                "cardId": "ff0bc30f-9d20-458e-808f-bdc2825905a5",
+                "grade": 4,
+                "locator": {
+                  "heading": "Pia, Aether Ascetic"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "ff0bc30f-9d20-458e-808f-bdc2825905a5",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Pia, Aether Ascetic"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "eed83302-dc2c-45f4-a4bd-af9da51edef5": {
+            "grades": [
+              {
+                "cardId": "eed83302-dc2c-45f4-a4bd-af9da51edef5",
+                "grade": 7,
+                "locator": {
+                  "heading": "Ruric Thar, Magecrusher"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "eed83302-dc2c-45f4-a4bd-af9da51edef5",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Ruric Thar, Magecrusher"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "edea6f70-a5a7-475d-b7f2-97933d0f32cf": {
+            "grades": [
+              {
+                "cardId": "edea6f70-a5a7-475d-b7f2-97933d0f32cf",
+                "grade": 6,
+                "locator": {
+                  "heading": "Titanbones, Towering Heart"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "edea6f70-a5a7-475d-b7f2-97933d0f32cf",
+                "grade": 2,
+                "locator": {
+                  "heading": "Titanbones, Towering Heart"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "98dc5470-507a-4364-8480-42607255e56c": {
+            "grades": [
+              {
+                "cardId": "98dc5470-507a-4364-8480-42607255e56c",
+                "grade": 4,
+                "locator": {
+                  "heading": "Way of the Paradox"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "98dc5470-507a-4364-8480-42607255e56c",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Way of the Paradox"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "a252cb01-537b-4afe-9abc-81a98c4a1439": {
+            "grades": [
+              {
+                "cardId": "a252cb01-537b-4afe-9abc-81a98c4a1439",
+                "grade": 6,
+                "locator": {
+                  "heading": "Way of the Wildspeaker"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "a252cb01-537b-4afe-9abc-81a98c4a1439",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Way of the Wildspeaker"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [
+              "nicolai-guide-8"
+            ],
+            "observationIds": [],
+            "combinationIds": [
+              "lesson-gu"
+            ]
+          },
+          "b8dfd087-2434-42c6-ac4c-1decbcdde2db": {
+            "grades": [
+              {
+                "cardId": "b8dfd087-2434-42c6-ac4c-1decbcdde2db",
+                "grade": 7,
+                "locator": {
+                  "heading": "Yoshimaru, Scrappy Stray"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "b8dfd087-2434-42c6-ac4c-1decbcdde2db",
+                "grade": 2.5,
+                "locator": {
+                  "heading": "Yoshimaru, Scrappy Stray"
+                },
+                "scope": "card",
+                "sourceId": "zone-green"
+              }
+            ],
+            "notes": [],
+            "observationIds": [
+              "game-10"
+            ],
+            "combinationIds": []
+          },
+          "7c619fed-2394-4efc-8cdc-6df5f51c1f57": {
+            "grades": [
+              {
+                "cardId": "7c619fed-2394-4efc-8cdc-6df5f51c1f57",
+                "grade": 5,
+                "locator": {
+                  "heading": "Edgar, Ancient Bloodlord"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "7c619fed-2394-4efc-8cdc-6df5f51c1f57",
+                "grade": 3,
+                "locator": {
+                  "heading": "Edgar, Ancient Bloodlord"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [
+              "llu261-6",
+              "nicolai-guide-6"
+            ],
+            "observationIds": [],
+            "combinationIds": [
+              "lesson-wb"
+            ]
+          },
+          "cf7c1534-af41-4991-b3c3-f0a34ae330b5": {
+            "grades": [
+              {
+                "cardId": "cf7c1534-af41-4991-b3c3-f0a34ae330b5",
+                "grade": 7,
+                "locator": {
+                  "heading": "Hapatra, the Desert Fang"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "cf7c1534-af41-4991-b3c3-f0a34ae330b5",
+                "grade": 3.5,
+                "locator": {
+                  "heading": "Hapatra, the Desert Fang"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [
+              "llu261-7",
+              "nicolai-guide-7"
+            ],
+            "observationIds": [],
+            "combinationIds": [
+              "lesson-bg"
+            ]
+          },
+          "3abcae65-5b21-4c98-adad-34b8bc76ea3a": {
+            "grades": [
+              {
+                "cardId": "3abcae65-5b21-4c98-adad-34b8bc76ea3a",
+                "grade": 3,
+                "locator": {
+                  "heading": "Karn, Gilded Guardian"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "3abcae65-5b21-4c98-adad-34b8bc76ea3a",
+                "grade": 1.5,
+                "locator": {
+                  "heading": "Karn, Gilded Guardian"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "8151f5f5-e9f6-4fbe-b543-f456ebf22aa5": {
+            "grades": [
+              {
+                "cardId": "8151f5f5-e9f6-4fbe-b543-f456ebf22aa5",
+                "grade": 6,
+                "locator": {
+                  "heading": "Kiora of Salt and Sand"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "8151f5f5-e9f6-4fbe-b543-f456ebf22aa5",
+                "grade": 2,
+                "locator": {
+                  "heading": "Kiora of Salt and Sand"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [
+              "llu261-8",
+              "nicolai-guide-8"
+            ],
+            "observationIds": [],
+            "combinationIds": [
+              "lesson-gu"
+            ]
+          },
+          "47abea4b-9848-48aa-bc1b-f04f4799e920": {
+            "grades": [
+              {
+                "cardId": "47abea4b-9848-48aa-bc1b-f04f4799e920",
+                "grade": 4,
+                "locator": {
+                  "heading": "Mabel, Valley Hero"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "47abea4b-9848-48aa-bc1b-f04f4799e920",
+                "grade": 3,
+                "locator": {
+                  "heading": "Mabel, Valley Hero"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [
+              "llu261-10",
+              "nicolai-guide-10"
+            ],
+            "observationIds": [],
+            "combinationIds": [
+              "lesson-rw"
+            ]
+          },
+          "28d84ef6-e190-46d4-882d-1cea5e111e2a": {
+            "grades": [
+              {
+                "cardId": "28d84ef6-e190-46d4-882d-1cea5e111e2a",
+                "grade": 7,
+                "locator": {
+                  "heading": "Saheeli, Jewel of Avishkar"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "28d84ef6-e190-46d4-882d-1cea5e111e2a",
+                "grade": 4,
+                "locator": {
+                  "heading": "Saheeli, Jewel of Avishkar"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [
+              "llu261-9",
+              "nicolai-guide-9"
+            ],
+            "observationIds": [],
+            "combinationIds": [
+              "lesson-ur"
+            ]
+          },
+          "6529d399-677e-45a6-ac3e-12a0b10f6c37": {
+            "grades": [
+              {
+                "cardId": "6529d399-677e-45a6-ac3e-12a0b10f6c37",
+                "grade": 1,
+                "locator": {
+                  "heading": "Tam, the Possibility"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "6529d399-677e-45a6-ac3e-12a0b10f6c37",
+                "grade": 1,
+                "locator": {
+                  "heading": "Tam, the Possibility"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "f3869752-eade-4e7a-8dd1-68cafb9e10be": {
+            "grades": [
+              {
+                "cardId": "f3869752-eade-4e7a-8dd1-68cafb9e10be",
+                "grade": 6,
+                "locator": {
+                  "heading": "Vraska, Soul of Stone"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "f3869752-eade-4e7a-8dd1-68cafb9e10be",
+                "grade": 3,
+                "locator": {
+                  "heading": "Vraska, Soul of Stone"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "5c28b012-5efb-488f-a1c1-09e2dddfd6ee": {
+            "grades": [
+              {
+                "cardId": "5c28b012-5efb-488f-a1c1-09e2dddfd6ee",
+                "grade": 8,
+                "locator": {
+                  "heading": "Vraska, the Cutting Glare"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "5c28b012-5efb-488f-a1c1-09e2dddfd6ee",
+                "grade": 4,
+                "locator": {
+                  "heading": "Vraska, the Cutting Glare"
+                },
+                "scope": "card",
+                "sourceId": "zone-multicolor"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "1ebbbddb-2dc3-4194-b72b-13bcebe2ab89": {
+            "grades": [
+              {
+                "cardId": "1ebbbddb-2dc3-4194-b72b-13bcebe2ab89",
+                "grade": 1,
+                "locator": {
+                  "heading": "Karn, Argent Defender"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "1ebbbddb-2dc3-4194-b72b-13bcebe2ab89",
+                "grade": 1,
+                "locator": {
+                  "heading": "Karn, Argent Defender"
+                },
+                "scope": "card",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          },
+          "05102c46-96f8-44a0-a1e6-e388fa5e0841": {
+            "grades": [
+              {
+                "cardId": "05102c46-96f8-44a0-a1e6-e388fa5e0841",
+                "grade": 4,
+                "locator": {
+                  "heading": "Traxos, Scourge Eternal"
+                },
+                "scope": "card",
+                "sourceId": "draftsim"
+              },
+              {
+                "cardId": "05102c46-96f8-44a0-a1e6-e388fa5e0841",
+                "grade": 2,
+                "locator": {
+                  "heading": "Traxos, Scourge Eternal"
+                },
+                "scope": "card",
+                "sourceId": "zone-artifacts-and-lands"
+              }
+            ],
+            "notes": [],
+            "observationIds": [],
+            "combinationIds": []
+          }
+        },
+        "claims": {
+          "llu261-1": {
+            "id": "llu261-1",
+            "kind": "archetype",
+            "subject": "WU",
+            "startSeconds": 1014,
+            "paraphrase": "Surveil enables an aggressive board.",
+            "cardIds": [
+              "6c1c790b-9e0e-4964-9ea3-554843907f06",
+              "9df8a06d-c7de-49af-8c01-06dca3dfef4b"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "llu261"
+          },
+          "llu261-2": {
+            "id": "llu261-2",
+            "kind": "archetype",
+            "subject": "UB",
+            "startSeconds": 1160,
+            "paraphrase": "Mill towards flashback and threshold.",
+            "cardIds": [
+              "e61b9d48-0ace-4453-afe0-a1024444bac0",
+              "68fddb6a-86d4-4ebb-907d-fdcaadebc4b3"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "llu261"
+          },
+          "llu261-3": {
+            "id": "llu261-3",
+            "kind": "archetype",
+            "subject": "BR",
+            "startSeconds": 719,
+            "paraphrase": "Pings enable recursive pressure.",
+            "cardIds": [
+              "84b1c268-3b8a-41b6-92e3-a2ce0cc3d738",
+              "8295c48c-b4dd-4bc1-a206-04cf12b79bbd"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "llu261"
+          },
+          "llu261-4": {
+            "id": "llu261-4",
+            "kind": "archetype",
+            "subject": "RG",
+            "startSeconds": 637,
+            "paraphrase": "Dedicated ramp supports expensive threats.",
+            "cardIds": [
+              "7d17f7e3-7b63-4674-9024-4fd1827f40ec",
+              "03f9839c-aa07-4ee7-847b-091e47ab80c4"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "llu261"
+          },
+          "llu261-5": {
+            "id": "llu261-5",
+            "kind": "archetype",
+            "subject": "GW",
+            "startSeconds": 814,
+            "paraphrase": "Lifegain is primary; counters add support.",
+            "cardIds": [
+              "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8",
+              "acefc515-bf97-4dc0-b0f7-ae8ae5a61671"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "llu261"
+          },
+          "llu261-6": {
+            "id": "llu261-6",
+            "kind": "archetype",
+            "subject": "WB",
+            "startSeconds": 1558,
+            "paraphrase": "Small recurring advantages accumulate.",
+            "cardIds": [
+              "7c619fed-2394-4efc-8cdc-6df5f51c1f57",
+              "c7c0765d-38fd-4d7b-bfb4-49b10ff5939b"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "llu261"
+          },
+          "llu261-7": {
+            "id": "llu261-7",
+            "kind": "archetype",
+            "subject": "BG",
+            "startSeconds": 1645,
+            "paraphrase": "Individually useful cards with graveyard value.",
+            "cardIds": [
+              "04e64af7-cca1-499e-8951-f386e84c8b5b",
+              "cf7c1534-af41-4991-b3c3-f0a34ae330b5"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "llu261"
+          },
+          "llu261-8": {
+            "id": "llu261-8",
+            "kind": "archetype",
+            "subject": "GU",
+            "startSeconds": 1732,
+            "paraphrase": "Potential multicolour shell for loyalty abilities.",
+            "cardIds": [
+              "8151f5f5-e9f6-4fbe-b543-f456ebf22aa5",
+              "94c290ce-252c-42b3-bcb0-c1ef621df566"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "llu261"
+          },
+          "llu261-9": {
+            "id": "llu261-9",
+            "kind": "archetype",
+            "subject": "UR",
+            "startSeconds": 1321,
+            "paraphrase": "Choose a coherent aggressive or controlling plan.",
+            "cardIds": [
+              "55f85984-0137-4899-8993-bbc8c4794d33",
+              "28d84ef6-e190-46d4-882d-1cea5e111e2a"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "llu261"
+          },
+          "llu261-10": {
+            "id": "llu261-10",
+            "kind": "archetype",
+            "subject": "RW",
+            "startSeconds": 1701,
+            "paraphrase": "Counters connect threats and equipment.",
+            "cardIds": [
+              "47abea4b-9848-48aa-bc1b-f04f4799e920",
+              "c63d5b0e-ee72-42ed-aa7e-484ba84507cd"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "llu261"
+          },
+          "llu261-11": {
+            "id": "llu261-11",
+            "kind": "card",
+            "subject": "conditional",
+            "startSeconds": 874,
+            "paraphrase": "Ramp baseline uncertain; lifegain adds value.",
+            "cardIds": [
+              "a56e0f91-b128-4693-a949-53cb403f4fbf"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "llu261"
+          },
+          "llu261-12": {
+            "id": "llu261-12",
+            "kind": "card",
+            "subject": "positive",
+            "startSeconds": 968,
+            "paraphrase": "Promising flexible common.",
+            "cardIds": [
+              "d3acf176-ef02-4729-88c4-0f0dfbfdada4"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "llu261"
+          },
+          "llu261-13": {
+            "id": "llu261-13",
+            "kind": "card",
+            "subject": "uncertain",
+            "startSeconds": 1086,
+            "paraphrase": "Filtering and synergy may justify the slot.",
+            "cardIds": [
+              "0edba64a-39cf-4a8d-ba20-4f7da10b6c3d"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "llu261"
+          },
+          "llu261-14": {
+            "id": "llu261-14",
+            "kind": "combination",
+            "subject": "lifegain-draw",
+            "startSeconds": 868,
+            "paraphrase": "Propagator can trigger Bloombrute immediately.",
+            "cardIds": [
+              "a56e0f91-b128-4693-a949-53cb403f4fbf",
+              "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "llu261"
+          },
+          "llu261-15": {
+            "id": "llu261-15",
+            "kind": "combination",
+            "subject": "evasive-growth",
+            "startSeconds": 945,
+            "paraphrase": "Equipment supplies repeated lifegain and evasion.",
+            "cardIds": [
+              "8b07409a-1dce-461d-95e4-1130521ff4c4",
+              "63f82985-c9c2-4d0a-ac4f-560166bebd9f"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "llu261"
+          },
+          "llu261-16": {
+            "id": "llu261-16",
+            "kind": "combination",
+            "subject": "negative-power",
+            "startSeconds": 1257,
+            "paraphrase": "Negative power meets the unblockability condition.",
+            "cardIds": [
+              "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff",
+              "3983d71e-3c23-4b36-b331-08e0707d8245"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "llu261"
+          },
+          "nicolai-guide-1": {
+            "id": "nicolai-guide-1",
+            "kind": "archetype",
+            "subject": "WU",
+            "startSeconds": 194,
+            "paraphrase": "Use Jace surveils to trigger payoffs repeatedly.",
+            "cardIds": [
+              "6c1c790b-9e0e-4964-9ea3-554843907f06",
+              "cfaa3ebd-5c21-4e99-a0dd-8426d19b53a5"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-2": {
+            "id": "nicolai-guide-2",
+            "kind": "archetype",
+            "subject": "UB",
+            "startSeconds": 315,
+            "paraphrase": "Defend early while stocking the graveyard.",
+            "cardIds": [
+              "e61b9d48-0ace-4453-afe0-a1024444bac0",
+              "68fddb6a-86d4-4ebb-907d-fdcaadebc4b3",
+              "b2a412b0-2ae4-4552-bc5e-70654b6b9b4e"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-3": {
+            "id": "nicolai-guide-3",
+            "kind": "archetype",
+            "subject": "BR",
+            "startSeconds": 404,
+            "paraphrase": "Make each ping serve additional payoffs.",
+            "cardIds": [
+              "84b1c268-3b8a-41b6-92e3-a2ce0cc3d738",
+              "8295c48c-b4dd-4bc1-a206-04cf12b79bbd",
+              "5c5afd5f-6f37-4c3e-83f0-68fdcea98810"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-4": {
+            "id": "nicolai-guide-4",
+            "kind": "archetype",
+            "subject": "RG",
+            "startSeconds": 508,
+            "paraphrase": "Spend fresh Heartwood mana immediately to recover tempo.",
+            "cardIds": [
+              "7d17f7e3-7b63-4674-9024-4fd1827f40ec",
+              "910a1f41-17fd-4ab0-9597-7151e79dc760",
+              "08657053-86f9-4c52-abf0-d9cdd443ae3b"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-5": {
+            "id": "nicolai-guide-5",
+            "kind": "archetype",
+            "subject": "GW",
+            "startSeconds": 616,
+            "paraphrase": "Prioritise repeatable lifegain.",
+            "cardIds": [
+              "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8",
+              "920703fd-2a2f-454b-8829-af8f2afda4f4",
+              "de94d388-919d-44ff-baef-8c90a417ac6d"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-6": {
+            "id": "nicolai-guide-6",
+            "kind": "archetype",
+            "subject": "WB",
+            "startSeconds": 728,
+            "paraphrase": "Combine recursion with pressure.",
+            "cardIds": [
+              "7c619fed-2394-4efc-8cdc-6df5f51c1f57",
+              "f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd",
+              "498fa810-8522-4020-b773-52ad404c9f65"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-7": {
+            "id": "nicolai-guide-7",
+            "kind": "archetype",
+            "subject": "BG",
+            "startSeconds": 784,
+            "paraphrase": "Fill the graveyard with substantial threats.",
+            "cardIds": [
+              "04e64af7-cca1-499e-8951-f386e84c8b5b",
+              "cf7c1534-af41-4991-b3c3-f0a34ae330b5"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-8": {
+            "id": "nicolai-guide-8",
+            "kind": "archetype",
+            "subject": "GU",
+            "startSeconds": 969,
+            "paraphrase": "Spend loyalty before removal can erase it.",
+            "cardIds": [
+              "8151f5f5-e9f6-4fbe-b543-f456ebf22aa5",
+              "a252cb01-537b-4afe-9abc-81a98c4a1439"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-9": {
+            "id": "nicolai-guide-9",
+            "kind": "archetype",
+            "subject": "UR",
+            "startSeconds": 1093,
+            "paraphrase": "Prepared spells and flashback repeat payoff triggers.",
+            "cardIds": [
+              "55f85984-0137-4899-8993-bbc8c4794d33",
+              "28d84ef6-e190-46d4-882d-1cea5e111e2a"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-10": {
+            "id": "nicolai-guide-10",
+            "kind": "archetype",
+            "subject": "RW",
+            "startSeconds": 1223,
+            "paraphrase": "Weigh attacking Jace against maintaining life-total pressure.",
+            "cardIds": [
+              "47abea4b-9848-48aa-bc1b-f04f4799e920",
+              "f27d50f0-d76e-4ce1-a8d9-d997af6a5b41"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-11": {
+            "id": "nicolai-guide-11",
+            "kind": "common-ranking",
+            "subject": "W",
+            "startSeconds": 1298,
+            "paraphrase": "1",
+            "cardIds": [
+              "2f5345ae-4489-4d05-b2d5-c71285254f05"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-12": {
+            "id": "nicolai-guide-12",
+            "kind": "common-ranking",
+            "subject": "W",
+            "startSeconds": 1298,
+            "paraphrase": "2",
+            "cardIds": [
+              "d3acf176-ef02-4729-88c4-0f0dfbfdada4"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-13": {
+            "id": "nicolai-guide-13",
+            "kind": "common-ranking",
+            "subject": "W",
+            "startSeconds": 1298,
+            "paraphrase": "3",
+            "cardIds": [
+              "3b6ac80e-c726-4bd0-893a-e666041a04a6"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-14": {
+            "id": "nicolai-guide-14",
+            "kind": "common-ranking",
+            "subject": "U",
+            "startSeconds": 1355,
+            "paraphrase": "1",
+            "cardIds": [
+              "f5324741-353a-4a70-adb2-b631b00806dd"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-15": {
+            "id": "nicolai-guide-15",
+            "kind": "common-ranking",
+            "subject": "U",
+            "startSeconds": 1355,
+            "paraphrase": "2",
+            "cardIds": [
+              "9df8a06d-c7de-49af-8c01-06dca3dfef4b"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-16": {
+            "id": "nicolai-guide-16",
+            "kind": "common-ranking",
+            "subject": "U",
+            "startSeconds": 1355,
+            "paraphrase": "3",
+            "cardIds": [
+              "8d754b96-5e44-45af-9c7a-b0da59fbe4c3"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-17": {
+            "id": "nicolai-guide-17",
+            "kind": "common-ranking",
+            "subject": "B",
+            "startSeconds": 1464,
+            "paraphrase": "1",
+            "cardIds": [
+              "eb4b6ed8-782e-4473-abc9-d50bf2275c6a"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-18": {
+            "id": "nicolai-guide-18",
+            "kind": "common-ranking",
+            "subject": "B",
+            "startSeconds": 1464,
+            "paraphrase": "2",
+            "cardIds": [
+              "2381d123-d8c7-4822-98fe-b1c365beb5ed"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-19": {
+            "id": "nicolai-guide-19",
+            "kind": "common-ranking",
+            "subject": "B",
+            "startSeconds": 1464,
+            "paraphrase": "3",
+            "cardIds": [
+              "f1d274db-751b-4414-a38d-762198168e91"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-20": {
+            "id": "nicolai-guide-20",
+            "kind": "common-ranking",
+            "subject": "R",
+            "startSeconds": 1527,
+            "paraphrase": "1",
+            "cardIds": [
+              "11ba4fdd-cc03-4bb6-a493-91a9785771d0"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-21": {
+            "id": "nicolai-guide-21",
+            "kind": "common-ranking",
+            "subject": "R",
+            "startSeconds": 1527,
+            "paraphrase": "2",
+            "cardIds": [
+              "b5b55617-684a-4036-be9b-a3b24fc9cd5a"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-22": {
+            "id": "nicolai-guide-22",
+            "kind": "common-ranking",
+            "subject": "R",
+            "startSeconds": 1527,
+            "paraphrase": "3",
+            "cardIds": [
+              "cbfe3354-7ced-4773-9a4e-a937ae9f94f8"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-23": {
+            "id": "nicolai-guide-23",
+            "kind": "common-ranking",
+            "subject": "G",
+            "startSeconds": 1580,
+            "paraphrase": "1",
+            "cardIds": [
+              "bd32d736-7a58-46b9-90b4-2cac3c3e80a1"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-24": {
+            "id": "nicolai-guide-24",
+            "kind": "common-ranking",
+            "subject": "G",
+            "startSeconds": 1580,
+            "paraphrase": "2",
+            "cardIds": [
+              "1bf923c4-f0b7-4271-978c-fd2e79fe1cc8"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "nicolai-guide-25": {
+            "id": "nicolai-guide-25",
+            "kind": "common-ranking",
+            "subject": "G",
+            "startSeconds": 1580,
+            "paraphrase": "3",
+            "cardIds": [
+              "e0de5f66-f0df-4866-9f73-104ce50411b4"
+            ],
+            "evidenceType": "reviewer-opinion",
+            "sourceId": "nicolai-guide"
+          },
+          "review-01": {
+            "id": "review-01",
+            "sourceId": "zone-green",
+            "cardId": "a56e0f91-b128-4693-a949-53cb403f4fbf",
+            "cardName": "Greenhouse Propagator",
+            "locator": {
+              "heading": "Greenhouse Propagator"
+            },
+            "grade": 2,
+            "paraphrase": "Needs lifegain payoffs.",
+            "evidenceType": "reviewer-opinion",
+            "cardIds": [
+              "a56e0f91-b128-4693-a949-53cb403f4fbf"
+            ],
+            "kind": "card"
+          },
+          "review-02": {
+            "id": "review-02",
+            "sourceId": "zone-green",
+            "cardId": "910a1f41-17fd-4ab0-9597-7151e79dc760",
+            "cardName": "Heartwood Crafter // Soul Tether",
+            "locator": {
+              "heading": "Heartwood Crafter"
+            },
+            "grade": 2,
+            "paraphrase": "Restricted mana; support-dependent, poor late.",
+            "evidenceType": "reviewer-opinion",
+            "cardIds": [
+              "910a1f41-17fd-4ab0-9597-7151e79dc760"
+            ],
+            "kind": "card"
+          },
+          "review-03": {
+            "id": "review-03",
+            "sourceId": "zone-green",
+            "cardId": "930b89c3-4433-48de-829f-20fc3dbfced9",
+            "cardName": "Gardenize",
+            "locator": {
+              "heading": "Gardenize"
+            },
+            "grade": 0,
+            "paraphrase": "Setup delays an already-late mana payoff.",
+            "evidenceType": "reviewer-opinion",
+            "cardIds": [
+              "930b89c3-4433-48de-829f-20fc3dbfced9"
+            ],
+            "kind": "card"
+          },
+          "review-04": {
+            "id": "review-04",
+            "sourceId": "zone-green",
+            "cardId": "90ca5812-ceb5-46bd-b049-aed7ff10e6af",
+            "cardName": "Garruk, Curse Breaker",
+            "locator": {
+              "heading": "Garruk, Curse Breaker"
+            },
+            "grade": 5,
+            "paraphrase": "Self-protection and repeatable card advantage.",
+            "evidenceType": "reviewer-opinion",
+            "cardIds": [
+              "90ca5812-ceb5-46bd-b049-aed7ff10e6af"
+            ],
+            "kind": "card"
+          },
+          "review-05": {
+            "id": "review-05",
+            "sourceId": "zone-green",
+            "cardId": "3546b93b-a7d1-451d-a369-22cc8ddcd00d",
+            "cardName": "Restore with Empathy",
+            "locator": {
+              "heading": "Restore with Empathy"
+            },
+            "grade": 2,
+            "paraphrase": "Instant speed and life add flexibility.",
+            "evidenceType": "reviewer-opinion",
+            "cardIds": [
+              "3546b93b-a7d1-451d-a369-22cc8ddcd00d"
+            ],
+            "kind": "card"
+          },
+          "review-06": {
+            "id": "review-06",
+            "sourceId": "zone-green",
+            "cardId": "f71958e9-6d6d-4393-8b49-567103b50877",
+            "cardName": "Flourishing Grapple",
+            "locator": {
+              "heading": "Flourishing Grapple"
+            },
+            "grade": 0.5,
+            "paraphrase": "Matchup-specific sideboard option.",
+            "evidenceType": "reviewer-opinion",
+            "cardIds": [
+              "f71958e9-6d6d-4393-8b49-567103b50877"
+            ],
+            "kind": "card"
+          },
+          "review-07": {
+            "id": "review-07",
+            "sourceId": "draftsim",
+            "cardId": "a56e0f91-b128-4693-a949-53cb403f4fbf",
+            "cardName": "Greenhouse Propagator",
+            "locator": {
+              "heading": "Greenhouse Propagator"
+            },
+            "grade": 4,
+            "paraphrase": "Ramp and lifegain; assumes a slower format.",
+            "evidenceType": "reviewer-opinion",
+            "cardIds": [
+              "a56e0f91-b128-4693-a949-53cb403f4fbf"
+            ],
+            "kind": "card"
+          },
+          "review-08": {
+            "id": "review-08",
+            "sourceId": "draftsim",
+            "cardId": "910a1f41-17fd-4ab0-9597-7151e79dc760",
+            "cardName": "Heartwood Crafter // Soul Tether",
+            "locator": {
+              "heading": "Heartwood Crafter"
+            },
+            "grade": 6,
+            "paraphrase": "Values early ramp, especially Konstrari.",
+            "evidenceType": "reviewer-opinion",
+            "cardIds": [
+              "910a1f41-17fd-4ab0-9597-7151e79dc760"
+            ],
+            "kind": "card"
+          },
+          "review-09": {
+            "id": "review-09",
+            "sourceId": "draftsim",
+            "cardId": "930b89c3-4433-48de-829f-20fc3dbfced9",
+            "cardName": "Gardenize",
+            "locator": {
+              "heading": "Gardenize"
+            },
+            "grade": 0,
+            "paraphrase": "Unreliable, delayed mana.",
+            "evidenceType": "reviewer-opinion",
+            "cardIds": [
+              "930b89c3-4433-48de-829f-20fc3dbfced9"
+            ],
+            "kind": "card"
+          },
+          "review-10": {
+            "id": "review-10",
+            "sourceId": "draftsim",
+            "cardId": "90ca5812-ceb5-46bd-b049-aed7ff10e6af",
+            "cardName": "Garruk, Curse Breaker",
+            "locator": {
+              "heading": "Garruk, Curse Breaker"
+            },
+            "grade": 10,
+            "paraphrase": "Immediate body and draw.",
+            "evidenceType": "reviewer-opinion",
+            "cardIds": [
+              "90ca5812-ceb5-46bd-b049-aed7ff10e6af"
+            ],
+            "kind": "card"
+          },
+          "review-11": {
+            "id": "review-11",
+            "sourceId": "draftsim",
+            "cardId": "3546b93b-a7d1-451d-a369-22cc8ddcd00d",
+            "cardName": "Restore with Empathy",
+            "locator": {
+              "heading": "Restore with Empathy"
+            },
+            "grade": 4,
+            "paraphrase": "Life buffers recursion tempo cost.",
+            "evidenceType": "reviewer-opinion",
+            "cardIds": [
+              "3546b93b-a7d1-451d-a369-22cc8ddcd00d"
+            ],
+            "kind": "card"
+          },
+          "review-12": {
+            "id": "review-12",
+            "sourceId": "draftsim",
+            "cardId": "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8",
+            "cardName": "Bloombrute",
+            "locator": {
+              "heading": "Bloombrute"
+            },
+            "grade": 7,
+            "paraphrase": "Vigorbloom draw engine and racing payoff.",
+            "evidenceType": "reviewer-opinion",
+            "cardIds": [
+              "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8"
+            ],
+            "kind": "card"
+          },
+          "review-13": {
+            "id": "review-13",
+            "sourceId": "draftsim",
+            "cardId": "11ba4fdd-cc03-4bb6-a493-91a9785771d0",
+            "cardName": "No Admittance",
+            "locator": {
+              "heading": "No Admittance"
+            },
+            "grade": 5,
+            "paraphrase": "Efficient removal; sorcery restriction.",
+            "evidenceType": "reviewer-opinion",
+            "cardIds": [
+              "11ba4fdd-cc03-4bb6-a493-91a9785771d0"
+            ],
+            "kind": "card"
+          },
+          "review-14": {
+            "id": "review-14",
+            "sourceId": "draftsim",
+            "cardId": "1d535b5f-c916-4f16-89a7-9477578826d2",
+            "cardName": "Ghalta the Unstoppable",
+            "locator": {
+              "heading": "Ghalta the Unstoppable"
+            },
+            "grade": 4,
+            "paraphrase": null,
+            "evidenceType": "reviewer-opinion",
+            "cardIds": [
+              "1d535b5f-c916-4f16-89a7-9477578826d2"
+            ],
+            "kind": "card"
+          }
+        },
+        "observations": {
+          "game-01": {
+            "id": "game-01",
+            "sourceId": "tcc110",
+            "gameId": "jim-kenji",
+            "startSeconds": 2462,
+            "timeLabel": "41:02–41:32",
+            "cardIds": [
+              "3b6ac80e-c726-4bd0-893a-e666041a04a6"
+            ],
+            "cardNames": [
+              "Hexhaven Battalion"
+            ],
+            "observation": "Jim cycles Hexhaven Battalion for a Swamp.",
+            "interpretation": "Actual evidence of fixing a splash, not of Battalion's battlefield strength.",
+            "evidenceType": "narrated-sequence",
+            "ambiguity": "Automatic captions; no video-frame verification. Selected sequence, not exhaustive log."
+          },
+          "game-02": {
+            "id": "game-02",
+            "sourceId": "tcc110",
+            "gameId": "jim-kenji",
+            "startSeconds": 2662,
+            "timeLabel": "44:22–45:37",
+            "cardIds": [
+              "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8",
+              "a56e0f91-b128-4693-a949-53cb403f4fbf",
+              "de94d388-919d-44ff-baef-8c90a417ac6d"
+            ],
+            "cardNames": [
+              "Bloombrute",
+              "Greenhouse Propagator",
+              "Emergency Phytomedic // Seed Suture"
+            ],
+            "observation": "Bloombrute enters beside Greenhouse Propagator; Jim gains life and draws. Propagator then funds Emergency Phytomedic. A second life-gain event does not draw again.",
+            "interpretation": "Propagator supplies both mana and an engine trigger. Bloombrute's once-per-turn restriction matters.",
+            "evidenceType": "narrated-sequence",
+            "ambiguity": "Automatic captions; no video-frame verification. Selected sequence, not exhaustive log."
+          },
+          "game-03": {
+            "id": "game-03",
+            "sourceId": "tcc110",
+            "gameId": "jim-kenji",
+            "startSeconds": 2868,
+            "timeLabel": "47:48–48:05",
+            "cardIds": [
+              "9028d31f-9c41-47e3-885b-6a869bca8178",
+              "a56e0f91-b128-4693-a949-53cb403f4fbf",
+              "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8"
+            ],
+            "cardNames": [
+              "Massacre Girl, Most Wanted",
+              "Greenhouse Propagator",
+              "Bloombrute"
+            ],
+            "observation": "Massacre Girl enters; Propagator triggers life gain and another Bloombrute draw.",
+            "interpretation": "A normal creature deployment can also replenish the hand when the engine is assembled.",
+            "evidenceType": "narrated-sequence",
+            "ambiguity": "Automatic captions; no video-frame verification. Selected sequence, not exhaustive log."
+          },
+          "game-04": {
+            "id": "game-04",
+            "sourceId": "tcc110",
+            "gameId": "jim-kenji",
+            "startSeconds": 2953,
+            "timeLabel": "49:13–49:39",
+            "cardIds": [
+              "5142bbb6-194c-4b12-b11a-1a21c9fe81a6",
+              "a56e0f91-b128-4693-a949-53cb403f4fbf"
+            ],
+            "cardNames": [
+              "Solitary Cell",
+              "Greenhouse Propagator"
+            ],
+            "observation": "Solitary Cell targets Greenhouse Propagator.",
+            "interpretation": "Cheap support creatures can be meaningful removal targets; Cell's mana-value restriction limits its alternatives.",
+            "evidenceType": "narrated-sequence",
+            "ambiguity": "Automatic captions; no video-frame verification. Selected sequence, not exhaustive log."
+          },
+          "game-05": {
+            "id": "game-05",
+            "sourceId": "tcc110",
+            "gameId": "jim-kenji",
+            "startSeconds": 3306,
+            "timeLabel": "55:06–55:58",
+            "cardIds": [
+              "3546b93b-a7d1-451d-a369-22cc8ddcd00d",
+              "de94d388-919d-44ff-baef-8c90a417ac6d",
+              "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8"
+            ],
+            "cardNames": [
+              "Restore with Empathy",
+              "Emergency Phytomedic // Seed Suture",
+              "Bloombrute"
+            ],
+            "observation": "Restore with Empathy returns Emergency Phytomedic, gains four life and triggers a Bloombrute draw.",
+            "interpretation": "Recursion provides stabilization and additional cards in this shell; that extra draw depends on Bloombrute.",
+            "evidenceType": "narrated-sequence",
+            "ambiguity": "Automatic captions; no video-frame verification. Selected sequence, not exhaustive log."
+          },
+          "game-06": {
+            "id": "game-06",
+            "sourceId": "tcc110",
+            "gameId": "jim-kenji",
+            "startSeconds": 3472,
+            "timeLabel": "57:52–58:40",
+            "cardIds": [
+              "d5cb9810-3c2d-4ae4-b8b6-0155ca3f47ad",
+              "de94d388-919d-44ff-baef-8c90a417ac6d",
+              "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8"
+            ],
+            "cardNames": [
+              "Danitha, Sword of Hope",
+              "Emergency Phytomedic // Seed Suture",
+              "Bloombrute"
+            ],
+            "observation": "Jim casts Danitha before Seed Suture. Targeting draws through Danitha; resolving the spell gains life and draws through Bloombrute.",
+            "interpretation": "Strong, demonstrated interaction: Seed Suture adds a counter and life while triggering two draws. Requires both payoff creatures.",
+            "evidenceType": "narrated-sequence",
+            "ambiguity": "Automatic captions; no video-frame verification. Selected sequence, not exhaustive log."
+          },
+          "game-07": {
+            "id": "game-07",
+            "sourceId": "tcc110",
+            "gameId": "jim-kenji",
+            "startSeconds": 3595,
+            "timeLabel": "59:55–1:00:29",
+            "cardIds": [
+              "d3acf176-ef02-4729-88c4-0f0dfbfdada4",
+              "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8"
+            ],
+            "cardNames": [
+              "Surgical Precision",
+              "Bloombrute"
+            ],
+            "observation": "Kenji says knowledge of the lifelink ability would have changed his earlier removal choice. Jim then uses Surgical Precision's draw/life mode and draws again from Bloombrute.",
+            "interpretation": "Useful modal-spell synergy, but the engine's survival was influenced by unfamiliarity with the cards.",
+            "evidenceType": "narrated-sequence",
+            "ambiguity": "Automatic captions; no video-frame verification. Selected sequence, not exhaustive log."
+          },
+          "game-08": {
+            "id": "game-08",
+            "sourceId": "tcc110",
+            "gameId": "jim-kenji",
+            "startSeconds": 3732,
+            "timeLabel": "1:02:12–1:08:36",
+            "cardIds": [
+              "08657053-86f9-4c52-abf0-d9cdd443ae3b",
+              "2f5345ae-4489-4d05-b2d5-c71285254f05"
+            ],
+            "cardNames": [
+              "Kiora of Fire and Ashes",
+              "Memory Trap"
+            ],
+            "observation": "Kiora produces a Dragon on entry and another in response to Memory Trap. Jim attacks and the game ends in his favour.",
+            "interpretation": "Kiora retains value through removal. Losing this game is not evidence that Kiora is weak.",
+            "evidenceType": "narrated-sequence",
+            "ambiguity": "Automatic captions; no video-frame verification. Selected sequence, not exhaustive log."
+          },
+          "game-09": {
+            "id": "game-09",
+            "sourceId": "tcc110",
+            "gameId": "jim-marshall",
+            "startSeconds": 4462,
+            "timeLabel": "1:14:22–1:16:19",
+            "cardIds": [
+              "11ba4fdd-cc03-4bb6-a493-91a9785771d0",
+              "b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0",
+              "a56e0f91-b128-4693-a949-53cb403f4fbf"
+            ],
+            "cardNames": [
+              "No Admittance",
+              "Keeper of the Quiet Hour",
+              "Greenhouse Propagator"
+            ],
+            "observation": "Marshall's two No Admittance casts remove Keeper of the Quiet Hour and Greenhouse Propagator. Each is followed by a Jace surveil; Gallia maintains pressure.",
+            "interpretation": "Removal also improves draw quality and helps prevent Jim establishing his engine.",
+            "evidenceType": "narrated-sequence",
+            "ambiguity": "Automatic captions; no video-frame verification. Selected sequence, not exhaustive log."
+          },
+          "game-10": {
+            "id": "game-10",
+            "sourceId": "tcc110",
+            "gameId": "jim-marshall",
+            "startSeconds": 4814,
+            "timeLabel": "1:20:14–1:27:38",
+            "cardIds": [
+              "bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5",
+              "b8dfd087-2434-42c6-ac4c-1decbcdde2db",
+              "eb4b6ed8-782e-4473-abc9-d50bf2275c6a"
+            ],
+            "cardNames": [
+              "Ajani Unrelenting",
+              "Yoshimaru, Scrappy Stray",
+              "Extended Absence"
+            ],
+            "observation": "Ajani repeatedly generates Cadets. Yoshimaru enables a fight removing Danitha; Extended Absence exiles Massacre Girl; Marshall wins after further board development.",
+            "interpretation": "Ajani converts a protected board into a growing threat. Removal support is part of the result.",
+            "evidenceType": "narrated-sequence",
+            "ambiguity": "Automatic captions; no video-frame verification. Selected sequence, not exhaustive log."
+          }
+        },
+        "combinations": {
+          "lesson-wu": {
+            "id": "lesson-wu",
+            "archetypeIds": [
+              "WU"
+            ],
+            "cardIds": [
+              "6c1c790b-9e0e-4964-9ea3-554843907f06",
+              "9df8a06d-c7de-49af-8c01-06dca3dfef4b"
+            ],
+            "title": "Make selection affect combat",
+            "explanation": "Surveilling before combat both enables the flyer to attack and triggers the team power bonus.",
+            "requirements": "Fateseer triggers once per turn. Without another enabler, the Phantasm activation costs four mana.",
+            "question": "What should happen before you declare attackers?",
+            "answer": "Scry or surveil first so the permission and power bonus are active.",
+            "basis": "editorial-rules-analysis",
+            "sourceClaimIds": [
+              "nicolai-guide-1",
+              "llu261-1"
+            ],
+            "gameObservationIds": []
+          },
+          "lesson-ub": {
+            "id": "lesson-ub",
+            "archetypeIds": [
+              "UB"
+            ],
+            "cardIds": [
+              "e61b9d48-0ace-4453-afe0-a1024444bac0",
+              "68fddb6a-86d4-4ebb-907d-fdcaadebc4b3"
+            ],
+            "title": "Turn milling into a late-game board",
+            "explanation": "Repeated Omit Variables casts stock the graveyard for a larger Recruitment flashback.",
+            "requirements": "The flashback costs eight mana. Spend on defence too; milling alone does not stop attacks.",
+            "question": "What must the rest of this deck do while you fill the graveyard?",
+            "answer": "Provide early blockers and interaction so you can reach the expensive payoff.",
+            "basis": "editorial-rules-analysis",
+            "sourceClaimIds": [
+              "nicolai-guide-2",
+              "llu261-2"
+            ],
+            "gameObservationIds": []
+          },
+          "lesson-br": {
+            "id": "lesson-br",
+            "archetypeIds": [
+              "BR"
+            ],
+            "cardIds": [
+              "84b1c268-3b8a-41b6-92e3-a2ce0cc3d738",
+              "8295c48c-b4dd-4bc1-a206-04cf12b79bbd"
+            ],
+            "title": "Give a ping a second job",
+            "explanation": "Vicious Verse deals the noncombat damage required to return Repriser from the graveyard.",
+            "requirements": "Budget mana for both the spell and the return. A finality counter means the returned creature will be exiled if it would die.",
+            "question": "Can this return the same Repriser after it dies with a finality counter?",
+            "answer": "No. Finality replaces that death with exile.",
+            "basis": "editorial-rules-analysis",
+            "sourceClaimIds": [
+              "nicolai-guide-3",
+              "llu261-3"
+            ],
+            "gameObservationIds": []
+          },
+          "lesson-rg": {
+            "id": "lesson-rg",
+            "archetypeIds": [
+              "RG"
+            ],
+            "cardIds": [
+              "910a1f41-17fd-4ab0-9597-7151e79dc760",
+              "08657053-86f9-4c52-abf0-d9cdd443ae3b"
+            ],
+            "title": "Separate ramp from restricted mana",
+            "explanation": "Crafter can help pay for Soul Tether or Kiora’s activated ability. The Heartwood token can help cast cards from your hand.",
+            "requirements": "Crafter’s own mana cannot pay for Kiora from your hand. Kiora’s repeatable Dragon ability costs eight mana.",
+            "question": "Which mana source can help cast Kiora from your hand?",
+            "answer": "The Heartwood token can; Crafter’s restricted mana cannot.",
+            "basis": "editorial-rules-analysis",
+            "sourceClaimIds": [
+              "nicolai-guide-4",
+              "llu261-4"
+            ],
+            "gameObservationIds": []
+          },
+          "lesson-gw": {
+            "id": "lesson-gw",
+            "archetypeIds": [
+              "GW"
+            ],
+            "cardIds": [
+              "a56e0f91-b128-4693-a949-53cb403f4fbf",
+              "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8"
+            ],
+            "title": "Make lifegain replenish your hand",
+            "explanation": "With both creatures present, another creature entering gains life and can trigger a Bloombrute draw.",
+            "requirements": "Bloombrute draws only once each turn. A second creature that turn does not provide a second draw.",
+            "question": "Do two life-gain events in one turn draw two cards?",
+            "answer": "No. Bloombrute’s draw trigger is limited to once each turn.",
+            "basis": "editorial-rules-analysis",
+            "sourceClaimIds": [
+              "nicolai-guide-5",
+              "llu261-5"
+            ],
+            "gameObservationIds": [
+              "game-02",
+              "game-03"
+            ]
+          },
+          "lesson-wb": {
+            "id": "lesson-wb",
+            "archetypeIds": [
+              "WB"
+            ],
+            "cardIds": [
+              "7c619fed-2394-4efc-8cdc-6df5f51c1f57",
+              "f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd"
+            ],
+            "title": "Recover the creatures you trade away",
+            "explanation": "Edgar can sacrifice another creature; Revival can return an eligible small creature with an extra counter.",
+            "requirements": "Revival only returns creatures with mana value three or less. Count eligible targets, not just sacrifice outlets.",
+            "question": "Which targets should you check when considering Revival?",
+            "answer": "Creature cards with mana value three or less that can reach your graveyard.",
+            "basis": "editorial-rules-analysis",
+            "sourceClaimIds": [
+              "nicolai-guide-6",
+              "llu261-6"
+            ],
+            "gameObservationIds": []
+          },
+          "lesson-bg": {
+            "id": "lesson-bg",
+            "archetypeIds": [
+              "BG"
+            ],
+            "cardIds": [
+              "04e64af7-cca1-499e-8951-f386e84c8b5b",
+              "cf7c1534-af41-4991-b3c3-f0a34ae330b5"
+            ],
+            "title": "Check what actually reached the graveyard",
+            "explanation": "Witchstalker mills cards while potentially returning a land. A high-mana-value card in the graveyard increases Hapatra’s removal effect.",
+            "requirements": "Milling four is not a guarantee of a large target for Hapatra’s calculation. Check the graveyard before committing.",
+            "question": "What determines the size of Hapatra’s effect?",
+            "answer": "The greatest mana value among cards in your graveyard, not their number.",
+            "basis": "editorial-rules-analysis",
+            "sourceClaimIds": [
+              "nicolai-guide-7",
+              "llu261-7"
+            ],
+            "gameObservationIds": []
+          },
+          "lesson-gu": {
+            "id": "lesson-gu",
+            "archetypeIds": [
+              "GU"
+            ],
+            "cardIds": [
+              "8151f5f5-e9f6-4fbe-b543-f456ebf22aa5",
+              "a252cb01-537b-4afe-9abc-81a98c4a1439"
+            ],
+            "title": "Count loyalty before planning the payoff",
+            "explanation": "Way adds seven loyalty; Kiora grants a minus-eight ability. An existing loyalty counter can bridge the gap.",
+            "requirements": "A fresh seven-loyalty Jace cannot use minus eight. You also cannot activate the same planeswalker twice in one turn.",
+            "question": "Does Way alone create enough loyalty for Kiora’s minus eight?",
+            "answer": "No. You need at least one additional loyalty and an available loyalty activation.",
+            "basis": "editorial-rules-analysis",
+            "sourceClaimIds": [
+              "nicolai-guide-8",
+              "llu261-8"
+            ],
+            "gameObservationIds": []
+          },
+          "lesson-ur": {
+            "id": "lesson-ur",
+            "archetypeIds": [
+              "UR"
+            ],
+            "cardIds": [
+              "28d84ef6-e190-46d4-882d-1cea5e111e2a",
+              "55f85984-0137-4899-8993-bbc8c4794d33"
+            ],
+            "title": "Get two triggers from one card",
+            "explanation": "Casting Vision from hand and later using flashback can each trigger Saheeli to make a hasty Thopter.",
+            "requirements": "Flashback requires a discard as well as mana. Saheeli must be present when each spell is cast.",
+            "question": "What extra cost must you budget for the second cast?",
+            "answer": "A card to discard, in addition to the flashback mana.",
+            "basis": "editorial-rules-analysis",
+            "sourceClaimIds": [
+              "nicolai-guide-9",
+              "llu261-9"
+            ],
+            "gameObservationIds": []
+          },
+          "lesson-rw": {
+            "id": "lesson-rw",
+            "archetypeIds": [
+              "RW"
+            ],
+            "cardIds": [
+              "47abea4b-9848-48aa-bc1b-f04f4799e920",
+              "f27d50f0-d76e-4ce1-a8d9-d997af6a5b41"
+            ],
+            "title": "Turn new creatures into immediate attackers",
+            "explanation": "Mabel can put a counter on a creature entering this turn, allowing Gallia’s static ability to grant it haste.",
+            "requirements": "Resolve the counter trigger before attacking. Gallia grants this haste to other creatures, not herself; she already has haste.",
+            "question": "What links Mabel’s counters to your attack?",
+            "answer": "Gallia gives your other creatures with a +1/+1 counter haste.",
+            "basis": "editorial-rules-analysis",
+            "sourceClaimIds": [
+              "nicolai-guide-10",
+              "llu261-10"
+            ],
+            "gameObservationIds": []
+          },
+          "evasive-growth": {
+            "id": "evasive-growth",
+            "archetypeIds": [
+              "GW"
+            ],
+            "cardIds": [
+              "8b07409a-1dce-461d-95e4-1130521ff4c4",
+              "63f82985-c9c2-4d0a-ac4f-560166bebd9f"
+            ],
+            "title": "Grow while attacking in the air",
+            "explanation": "The equipment’s attack trigger gains life, which grows Hortimancer before blockers are declared.",
+            "requirements": "Pay the equip cost at sorcery speed. Attacking is enough to trigger lifegain; combat damage is not required.",
+            "basis": "editorial-rules-analysis",
+            "sourceClaimIds": [
+              "llu261-15"
+            ],
+            "gameObservationIds": []
+          },
+          "negative-power": {
+            "id": "negative-power",
+            "archetypeIds": [
+              "UB"
+            ],
+            "cardIds": [
+              "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff",
+              "3983d71e-3c23-4b36-b331-08e0707d8245"
+            ],
+            "title": "A negative power can still deal damage",
+            "explanation": "Tetsuko makes Loot unblockable while his power is one or less; Loot’s own ability changes how negative power assigns combat damage.",
+            "requirements": "Threshold needs seven cards in your graveyard. Increasing Loot’s power can change this interaction.",
+            "basis": "editorial-rules-analysis",
+            "sourceClaimIds": [
+              "llu261-16"
+            ],
+            "gameObservationIds": []
+          }
+        },
+        "archetypes": [
+          {
+            "id": "WU",
+            "claimIds": [
+              "nicolai-guide-1",
+              "llu261-1"
+            ],
+            "combinationIds": [
+              "lesson-wu"
+            ]
+          },
+          {
+            "id": "UB",
+            "claimIds": [
+              "nicolai-guide-2",
+              "llu261-2"
+            ],
+            "combinationIds": [
+              "lesson-ub",
+              "negative-power"
+            ]
+          },
+          {
+            "id": "BR",
+            "claimIds": [
+              "nicolai-guide-3",
+              "llu261-3"
+            ],
+            "combinationIds": [
+              "lesson-br"
+            ]
+          },
+          {
+            "id": "RG",
+            "claimIds": [
+              "nicolai-guide-4",
+              "llu261-4"
+            ],
+            "combinationIds": [
+              "lesson-rg"
+            ]
+          },
+          {
+            "id": "GW",
+            "claimIds": [
+              "nicolai-guide-5",
+              "llu261-5"
+            ],
+            "combinationIds": [
+              "lesson-gw",
+              "evasive-growth"
+            ]
+          },
+          {
+            "id": "WB",
+            "claimIds": [
+              "nicolai-guide-6",
+              "llu261-6"
+            ],
+            "combinationIds": [
+              "lesson-wb"
+            ]
+          },
+          {
+            "id": "BG",
+            "claimIds": [
+              "nicolai-guide-7",
+              "llu261-7"
+            ],
+            "combinationIds": [
+              "lesson-bg"
+            ]
+          },
+          {
+            "id": "GU",
+            "claimIds": [
+              "nicolai-guide-8",
+              "llu261-8"
+            ],
+            "combinationIds": [
+              "lesson-gu"
+            ]
+          },
+          {
+            "id": "UR",
+            "claimIds": [
+              "nicolai-guide-9",
+              "llu261-9"
+            ],
+            "combinationIds": [
+              "lesson-ur"
+            ]
+          },
+          {
+            "id": "RW",
+            "claimIds": [
+              "nicolai-guide-10",
+              "llu261-10"
+            ],
+            "combinationIds": [
+              "lesson-rw"
+            ]
+          }
+        ],
+        "lessonIds": [
+          "lesson-wu",
+          "lesson-ub",
+          "lesson-br",
+          "lesson-rg",
+          "lesson-gw",
+          "lesson-wb",
+          "lesson-bg",
+          "lesson-gu",
+          "lesson-ur",
+          "lesson-rw"
+        ],
+        "coverage": {
+          "capturedAt": "2026-09-22",
+          "scope": "Main-set nonbasic cards; basic lands and Special Guests excluded",
+          "cards": 280,
+          "cardsWithTwoReviewers": 280,
+          "grades": 560,
+          "cardsWithNotes": 56,
+          "cardsWithGameplay": 16,
+          "archetypes": 10,
+          "combinations": 12,
+          "games": 2,
+          "rows": [
+            {
+              "cardId": "c3ff8dd3-88a8-49dc-a59b-e2748680623c",
+              "name": "Emrakul, the Exigent Doom",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "730d8c28-1e58-4b8e-89e9-445d154d2e83",
+              "name": "Academic Ascent",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "5e77fbf0-9d1f-4e7d-a02e-43065d11b0d9",
+              "name": "Blossom-Blessed Angel // Seed Suture",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "6047b14c-91d5-4f8e-af3f-057a541e2546",
+              "name": "Campus Crier",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "483fcc58-cc6e-4452-a696-7b38e117c837",
+              "name": "Enlightened Confidant",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "f0c8400d-824f-4d79-84bc-7615a0deb831",
+              "name": "Fateshaper Aspirant",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "686f3a25-305d-4f02-8972-eba7b8e9635f",
+              "name": "Flickering Hound",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd",
+              "name": "Generous Revival",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-6"
+              ],
+              "observationIds": [],
+              "combinationIds": [
+                "lesson-wb"
+              ]
+            },
+            {
+              "cardId": "1b5d7d19-b32a-4786-ae9a-00da5e6658ad",
+              "name": "Germinate Recruits",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "32a7a905-11bf-4b66-a28e-1066a0e372b8",
+              "name": "Graft Surgeon",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "a53eb840-039d-4c45-b701-d58cb26b1a6c",
+              "name": "Guiding Hydra",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "3b6ac80e-c726-4bd0-893a-e666041a04a6",
+              "name": "Hexhaven Battalion",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-13"
+              ],
+              "observationIds": [
+                "game-01"
+              ],
+              "combinationIds": []
+            },
+            {
+              "cardId": "6f9f814b-8249-4e48-a05e-4c84060fe6fb",
+              "name": "Kindred Judgment",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "490dae91-94ce-42a9-a11f-6c5e77c4e486",
+              "name": "Loyal Tutor",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "2f5345ae-4489-4d05-b2d5-c71285254f05",
+              "name": "Memory Trap",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-11"
+              ],
+              "observationIds": [
+                "game-08"
+              ],
+              "combinationIds": []
+            },
+            {
+              "cardId": "50a0e5f0-3c39-4f16-9a73-eec8ef71f12e",
+              "name": "Predictive Preparations",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "1f95399a-9766-4f3d-aa6a-ece55e0530d9",
+              "name": "Prophesied End",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "2c588954-c6eb-4aae-a2fa-0651ccf2d90a",
+              "name": "Refute Destiny",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "35000e93-85d3-44f8-976a-5918ee4c71e0",
+              "name": "Repurposed Enforcer",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "9e72f397-2384-40f1-882b-f627664d97df",
+              "name": "Return to the Light Realms",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "e29095de-59ec-4562-ba8e-73f952e457ae",
+              "name": "Shatterwing Pegasus",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "d3acf176-ef02-4729-88c4-0f0dfbfdada4",
+              "name": "Surgical Precision",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-12",
+                "nicolai-guide-12"
+              ],
+              "observationIds": [
+                "game-07"
+              ],
+              "combinationIds": []
+            },
+            {
+              "cardId": "63f82985-c9c2-4d0a-ac4f-560166bebd9f",
+              "name": "Unflinching Hortimancer",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-15"
+              ],
+              "observationIds": [],
+              "combinationIds": [
+                "evasive-growth"
+              ]
+            },
+            {
+              "cardId": "25000a17-b701-4d69-b2ef-2c74029199d3",
+              "name": "Your Fate Ends Here",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "145b928d-a7ff-4fe5-ae4d-bbae7b1d955b",
+              "name": "Countersculpt",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "f76c4d8e-3e1f-4264-99af-1b8adb9a06be",
+              "name": "Cruel Calculations",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "9ba1f7ce-3404-4932-9795-22967707f762",
+              "name": "Cryotheory Adept",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "0853bb80-8664-432a-8457-600139fd96d5",
+              "name": "Diviner of Victory // Unwind History",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "960c7335-331d-488b-be68-2ad1c1c695dc",
+              "name": "Divining Duelist",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "8d754b96-5e44-45af-9c7a-b0da59fbe4c3",
+              "name": "Icy Reception",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-16"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "a5988272-faaa-463d-a0a1-a8e96b946bad",
+              "name": "Infinite Coursework",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "282588b9-3656-453b-aa25-2419e078ddc1",
+              "name": "Jace's Machinations",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "f5324741-353a-4a70-adb2-b631b00806dd",
+              "name": "Mindseeker Oculus",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-14"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "d0ecae06-bc5a-4886-84df-c2900816f226",
+              "name": "Perfected Theory",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "c4effc17-0d0e-423a-b5f2-597ea6c71f67",
+              "name": "Plan for All Outcomes",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "9244efad-35ab-45c0-b173-4bc68276cb67",
+              "name": "Precise Redaction",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "a08c7ec2-4c6a-4db2-85a7-41afe8731523",
+              "name": "Protege's Awakening",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "51d86875-420d-4e82-b69c-4feeb99c9428",
+              "name": "Seasoned Cryomancer",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "7e5a640b-fd88-4b5a-9dfc-1d8f5a5cef41",
+              "name": "Semester Foreseer // Peer Review",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "08ffbd51-2bd3-4262-8809-09576ce2b6f5",
+              "name": "Sphinx of False Conclusions",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "f49be090-c745-40e5-bc1c-605b8d98acdf",
+              "name": "Sphinx's Approach",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "9df8a06d-c7de-49af-8c01-06dca3dfef4b",
+              "name": "Surveillance Phantasm",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-1",
+                "nicolai-guide-15"
+              ],
+              "observationIds": [],
+              "combinationIds": [
+                "lesson-wu"
+              ]
+            },
+            {
+              "cardId": "20bb8c55-4b0b-425f-8201-b54fa2fdde86",
+              "name": "The Theorist, Jace Beleren",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "710302ca-c4be-4069-8ce1-f531414c74e9",
+              "name": "Theorist's Proxy",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "0adbb4b2-a142-48da-8f4b-fa91529dbac4",
+              "name": "Undulating Witness",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "ddad9f16-52d5-49de-82b0-b1a5294a9c44",
+              "name": "Unsummon",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "e3afedb1-bf9d-4e31-9700-433514cc29b1",
+              "name": "Variable Chaser // Arc of Fortune",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "cd56f047-6bdc-4e83-8a7c-923ebad26302",
+              "name": "Apex Witchstalker",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "4fcc913e-f736-460a-b24b-022fa2e861b9",
+              "name": "Bloodline Recollector // Ancestral Craving",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "46974d94-e900-43e4-92b5-4fb9b9f7cf46",
+              "name": "Break Under Pressure",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "3b5b28a4-0abd-4dc2-9856-c9a8d27f6a2d",
+              "name": "Cast Away Doubt",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "4ec912d5-cbe7-4d07-9ece-b03ac02d3055",
+              "name": "Dark Matter Manipulator",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "ec454979-3839-4be3-a34a-9d25482948ba",
+              "name": "Darklight Phoenix",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "eb4b6ed8-782e-4473-abc9-d50bf2275c6a",
+              "name": "Extended Absence",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-17"
+              ],
+              "observationIds": [
+                "game-10"
+              ],
+              "combinationIds": []
+            },
+            {
+              "cardId": "17fb6538-493c-41aa-ad13-3e63d3ad3317",
+              "name": "Extrapolate the Impossible",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "2381d123-d8c7-4822-98fe-b1c365beb5ed",
+              "name": "Last Gasp",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-18"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "b105511d-5022-4a84-b6ce-4bb433e93a62",
+              "name": "Lich's Relic",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "90d684a4-9639-4792-8760-2011a7a85370",
+              "name": "Multiply by Zero",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "c4554f5b-791b-48f6-bf54-ad28699e1beb",
+              "name": "Overwrite the Multiverse",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "f4a80225-7459-4151-86bb-8fdea31c39a6",
+              "name": "Rampart Hunter",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "4ff6da82-d7dd-4b59-b7e6-30670cea7169",
+              "name": "Rank Rat",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "453cfde7-c460-4b55-9472-b714e16f24bb",
+              "name": "Rewrite Regrets",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "811719ad-b5a3-4d31-8c6f-5dbdfccf7c1f",
+              "name": "Rise of the Deathbringer",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "2185c08f-bb4d-49d5-8b6c-c629a48bb61c",
+              "name": "Sanctum Lurker",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "738667a1-c184-43ea-829f-49fbb69b6fc0",
+              "name": "Screeching Soulbreaker",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "f1d274db-751b-4414-a38d-762198168e91",
+              "name": "Silence the Echo",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-19"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "7beaa8c9-1a2c-4c88-b579-91e371d8d9e3",
+              "name": "Solve for Disappointment",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "7ebd7e38-b27c-4c6e-aaea-e8ee5ba5e5df",
+              "name": "Terminal Criticism",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "e36a7908-1e22-494b-adb4-e72ac0974d62",
+              "name": "Theoretical Necromancer",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "0eae2efb-bf25-48ee-9c07-9098008110ad",
+              "name": "Void Extrapolator // Omit Variables",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "992bd991-7cfb-459f-bafd-9a44f3c925c5",
+              "name": "Vraska's Final Mercy",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "d9039a58-2f17-4b8a-b714-3a2f0b46f057",
+              "name": "Ajani's Anguish",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "7d3b720d-f27c-462a-8f80-15748e5086e1",
+              "name": "Artifist Acumen",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "c596c4ec-8480-4be9-a45d-700398a126f6",
+              "name": "Awaken the Inferno",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "8414a98c-0c79-4884-bc9b-061a6456b392",
+              "name": "Blazing Crescendo",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "3a64c5f4-9cfc-4d19-bd99-13d619b1aa9d",
+              "name": "Chandra's Emberling",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "f3307da2-6dad-4ef2-9614-a7d34f38088e",
+              "name": "Command the Stage",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "47793a51-08c6-4ad2-a7e5-a4484d83a5cd",
+              "name": "Craterclaw Colossus",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "8f827e50-0a08-4bc8-98b1-b26c9af15ef2",
+              "name": "Curse-Marred Demon",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "112f8478-bd89-4a14-9721-8ab750613129",
+              "name": "Draconic Visitor",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "5f8771f9-8128-4818-a11d-41ea368cf697",
+              "name": "Eardrum Rattler",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "d2e958de-70de-4156-8f9b-b2c0c1ba704a",
+              "name": "Essence Burn",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "3ccf8f64-19bd-4fdf-b70a-30a042bacf2f",
+              "name": "Face Yourself",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "19acb2b5-3b3e-43f0-bd81-8426ed3d9c55",
+              "name": "Fulminous Forte",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "7e324816-552f-455d-97c4-5ea6b26d2e6e",
+              "name": "Hallway Heckler // Vicious Verse",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "cbfe3354-7ced-4773-9a4e-a937ae9f94f8",
+              "name": "Heartstring Puller",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-22"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "e600b33b-8916-43dd-95d3-d7cbf874933d",
+              "name": "Identity Echo",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "4404d9d4-9cdd-4dad-a4f6-574d90db5052",
+              "name": "Master of Barbs",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "11ba4fdd-cc03-4bb6-a493-91a9785771d0",
+              "name": "No Admittance",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-20",
+                "review-13"
+              ],
+              "observationIds": [
+                "game-09"
+              ],
+              "combinationIds": []
+            },
+            {
+              "cardId": "aa0f77ac-741a-444a-8bf0-a42c644726bf",
+              "name": "Pompous Battlemage // Improvised Act",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "2b0ebea0-86de-4da4-9fe8-dacc1e75c161",
+              "name": "Pyre Rhymer // Molten Tide",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "0e44f959-1322-4abd-b6eb-dea992307c0c",
+              "name": "Skilled Battlecarver",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460",
+              "name": "Stingcaster Mage",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "b75bbf46-a421-467a-9433-6cf22398a3a5",
+              "name": "Tether Technician",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "ad03ba90-2442-4a71-94df-2088b5b63662",
+              "name": "Violent Echoes",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "b5b55617-684a-4036-be9b-a3b24fc9cd5a",
+              "name": "Wrath of the Bloodmane",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-21"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "1bf923c4-f0b7-4271-978c-fd2e79fe1cc8",
+              "name": "Arcane Amphisbaena",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-24"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "e0de5f66-f0df-4866-9f73-104ce50411b4",
+              "name": "Bestial Incursion",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-25"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "18c59d60-2640-4576-9375-3ba38aa3ecb7",
+              "name": "Budding Insurgent",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "79dd5c54-5ea5-47b5-8f9b-50ed57a5ea45",
+              "name": "Carnivorous Cultivator // Enroot",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "bd32d736-7a58-46b9-90b4-2cac3c3e80a1",
+              "name": "Compel Brutality",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-23"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "f71958e9-6d6d-4393-8b49-567103b50877",
+              "name": "Flourishing Grapple",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "review-06"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "930b89c3-4433-48de-829f-20fc3dbfced9",
+              "name": "Gardenize",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "review-03",
+                "review-09"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "a56e0f91-b128-4693-a949-53cb403f4fbf",
+              "name": "Greenhouse Propagator",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-11",
+                "llu261-14",
+                "review-01",
+                "review-07"
+              ],
+              "observationIds": [
+                "game-02",
+                "game-03",
+                "game-04",
+                "game-09"
+              ],
+              "combinationIds": [
+                "lesson-gw"
+              ]
+            },
+            {
+              "cardId": "910a1f41-17fd-4ab0-9597-7151e79dc760",
+              "name": "Heartwood Crafter // Soul Tether",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-4",
+                "review-02",
+                "review-08"
+              ],
+              "observationIds": [],
+              "combinationIds": [
+                "lesson-rg"
+              ]
+            },
+            {
+              "cardId": "9a446cae-e93c-4574-8ffd-7688f9729a8a",
+              "name": "Hexhaven Invigorator",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "3db2da7a-8088-4117-916b-f9c905d1b45b",
+              "name": "Hungering Puppetbeast",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "a2cc5d0e-9643-4ee2-81de-fa2c3bd1ab09",
+              "name": "Hunter's Axe",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "073f4998-a204-447b-93d5-746ae87fd6a1",
+              "name": "Inspired Tethermage",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "eaf9dc77-c83b-49cf-84be-6bd791cb925e",
+              "name": "Omnipresence",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "6b8789a6-3b63-4198-af5f-c2f2f49fafd9",
+              "name": "Puppet Crafting",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "3546b93b-a7d1-451d-a369-22cc8ddcd00d",
+              "name": "Restore with Empathy",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "review-05",
+                "review-11"
+              ],
+              "observationIds": [
+                "game-05"
+              ],
+              "combinationIds": []
+            },
+            {
+              "cardId": "7c725702-8696-4e5a-8318-62f5e2616d52",
+              "name": "Simulacrum Shaper",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "02ee7817-40af-4fcf-a2df-eb218b669281",
+              "name": "Something Worth Saving",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "b635389c-e286-4edb-80d1-23dbe4a18857",
+              "name": "Sureshot Sower",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "8be5ee47-8f8a-4e3c-b1a1-9ca0e1fdec7f",
+              "name": "Tarmogoyf",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "38589a7c-9cfb-4bcc-845e-9dc205095853",
+              "name": "Tethermage's Advantage",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "2bb7a8eb-227f-410b-859f-750ef0aea2f0",
+              "name": "Verdant Kraken",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "e5ed142b-2b61-4ef5-8b23-2db2a0a0319d",
+              "name": "Vinelasher Adept",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "3d693cb0-681e-480a-8f70-07e94c39225c",
+              "name": "Wrecking Gecko",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "f17d2792-b075-4c47-ad38-e7a7eaee5f8c",
+              "name": "Aerid Konstrari",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "5905995b-7a20-4602-a7cc-90aa5089a082",
+              "name": "Avatar of Burgeoning Echoes",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "bb975803-9bf2-401e-9414-d272df314398",
+              "name": "Blessed Ghoul",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8",
+              "name": "Bloombrute",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-5",
+                "llu261-14",
+                "nicolai-guide-5",
+                "review-12"
+              ],
+              "observationIds": [
+                "game-02",
+                "game-03",
+                "game-05",
+                "game-06",
+                "game-07"
+              ],
+              "combinationIds": [
+                "lesson-gw"
+              ]
+            },
+            {
+              "cardId": "87b40df5-5c0a-41f5-a09c-a04f17066a91",
+              "name": "Charge the Sanctum",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "b61bcef7-5832-45e6-a2bc-26d4f23707fc",
+              "name": "Clash of Elements",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "03f9839c-aa07-4ee7-847b-091e47ab80c4",
+              "name": "Craftwork Crusher",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-4"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "986f9e98-9d8d-428b-9187-860745cf3269",
+              "name": "Denzilore Fatehold",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "cfaa3ebd-5c21-4e99-a0dd-8426d19b53a5",
+              "name": "Desperate Futurescribe",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-1"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "de94d388-919d-44ff-baef-8c90a417ac6d",
+              "name": "Emergency Phytomedic // Seed Suture",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-5"
+              ],
+              "observationIds": [
+                "game-02",
+                "game-05",
+                "game-06"
+              ],
+              "combinationIds": []
+            },
+            {
+              "cardId": "ca894d25-b9fc-4cd6-8746-70d8c2868721",
+              "name": "Entrust the Spark",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "cfc54011-647e-4428-bcdb-59400e1da49d",
+              "name": "Fatehold Charm",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b",
+              "name": "Fatehold Chronologist // Peer Review",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "a9793ce9-5a0b-41fe-b9ad-02f6f7da2481",
+              "name": "Ferocity of the Hunt",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "7a44581f-8fc4-457d-888a-1e211090ee7e",
+              "name": "Frostbite Pyromental",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "8295c48c-b4dd-4bc1-a206-04cf12b79bbd",
+              "name": "Grim Repriser",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-3",
+                "nicolai-guide-3"
+              ],
+              "observationIds": [],
+              "combinationIds": [
+                "lesson-br"
+              ]
+            },
+            {
+              "cardId": "6471b135-33a8-4005-9a07-ebb74e0bf145",
+              "name": "Ingris Stingerquill",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "7d29dfa1-9582-47bc-8f42-62b611bdcc4e",
+              "name": "Konstrari Charm",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "42e28bd2-486b-45d4-8840-6e33c19c2d57",
+              "name": "Konstrari Improviser // Soul Tether",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "2d6ff182-a853-4898-895b-072c89324ca7",
+              "name": "Kwia Vigorbloom",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "94c290ce-252c-42b3-bcb0-c1ef621df566",
+              "name": "Mind Meanderer",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-8"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "3afdc75a-1bf5-4f2f-84eb-d82f77a095cd",
+              "name": "Null Summoner",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "e61b9d48-0ace-4453-afe0-a1024444bac0",
+              "name": "Paradox Shaper // Omit Variables",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-2",
+                "nicolai-guide-2"
+              ],
+              "observationIds": [],
+              "combinationIds": [
+                "lesson-ub"
+              ]
+            },
+            {
+              "cardId": "04e64af7-cca1-499e-8951-f386e84c8b5b",
+              "name": "Primal Witchstalker",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-7",
+                "nicolai-guide-7"
+              ],
+              "observationIds": [],
+              "combinationIds": [
+                "lesson-bg"
+              ]
+            },
+            {
+              "cardId": "cf0eec8c-0475-4050-8144-481a9bb13a0f",
+              "name": "Proctor of Potential",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "6c1c790b-9e0e-4964-9ea3-554843907f06",
+              "name": "Prudent Fateseer // Peer Review",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-1",
+                "nicolai-guide-1"
+              ],
+              "observationIds": [],
+              "combinationIds": [
+                "lesson-wu"
+              ]
+            },
+            {
+              "cardId": "68fddb6a-86d4-4ebb-907d-fdcaadebc4b3",
+              "name": "Recursive Recruitment",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-2",
+                "nicolai-guide-2"
+              ],
+              "observationIds": [],
+              "combinationIds": [
+                "lesson-ub"
+              ]
+            },
+            {
+              "cardId": "1ef12dcf-df50-4da6-8c4c-e2937ba9698e",
+              "name": "Solarium Sentry",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "5142bbb6-194c-4b12-b11a-1a21c9fe81a6",
+              "name": "Solitary Cell",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [
+                "game-04"
+              ],
+              "combinationIds": []
+            },
+            {
+              "cardId": "81733ff7-e611-43ee-bf38-6bb700676017",
+              "name": "Stingerquill Charm",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "84b1c268-3b8a-41b6-92e3-a2ce0cc3d738",
+              "name": "Stingerquill Voxmancer // Vicious Verse",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-3",
+                "nicolai-guide-3"
+              ],
+              "observationIds": [],
+              "combinationIds": [
+                "lesson-br"
+              ]
+            },
+            {
+              "cardId": "a7d78297-7411-4ec5-8931-a25146869d5b",
+              "name": "Stinging Vitriol",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b",
+              "name": "Tam's Resistance",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "1703306d-6a3d-4ab8-bf58-a9992236ef0f",
+              "name": "Tenured Tethermage",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "2835c9aa-0904-44db-8da2-e8c4e04201aa",
+              "name": "Theorix Charm",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "fb6bad96-841d-4738-8e62-92f346f914fd",
+              "name": "Theorix Metamage // Omit Variables",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "55f85984-0137-4899-8993-bbc8c4794d33",
+              "name": "Twinned Vision",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-9",
+                "nicolai-guide-9"
+              ],
+              "observationIds": [],
+              "combinationIds": [
+                "lesson-ur"
+              ]
+            },
+            {
+              "cardId": "c7c0765d-38fd-4d7b-bfb4-49b10ff5939b",
+              "name": "Twisted Fates",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-6"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "a7ad622a-42ff-48fa-ae95-12e0a5bd9387",
+              "name": "Uldaros Theorix",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "2b198e10-b507-4314-a29c-a219f06e48b7",
+              "name": "Vigorbloom Charm",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "acefc515-bf97-4dc0-b0f7-ae8ae5a61671",
+              "name": "Vigorbloom Vanguard // Seed Suture",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-5"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "a803dbe7-153a-4e92-ad4d-c2babebe003d",
+              "name": "Vindictive Triumph",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "c63d5b0e-ee72-42ed-aa7e-484ba84507cd",
+              "name": "Warrior's Blades",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-10"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "8096bc9a-a610-448f-bef2-7230e17e9777",
+              "name": "Whiplash Wordsmith // Vicious Verse",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "7d17f7e3-7b63-4674-9024-4fd1827f40ec",
+              "name": "Woodwork Prodigy // Soul Tether",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-4",
+                "nicolai-guide-4"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "4d4b3bf7-a149-4099-b97d-4e36a87dfa60",
+              "name": "Afterthought Sentry",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "024bce1e-a5f3-4292-bc17-d0355a5d65e1",
+              "name": "Archive Arbiter",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "c3192390-1518-49fc-8716-f2c7a0384f39",
+              "name": "Codie, Ravenous Codex",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "d71d250f-c0e0-44b2-877c-76f3bcab4f34",
+              "name": "The Echoverse Fulcrum",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "0edba64a-39cf-4a8d-ba20-4f7da10b6c3d",
+              "name": "Eye of Jace",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-13"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0",
+              "name": "Keeper of the Quiet Hour",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [
+                "game-09"
+              ],
+              "combinationIds": []
+            },
+            {
+              "cardId": "5d4a8e5f-0024-4da3-a2f5-edb48b12e733",
+              "name": "Living Library",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "8b07409a-1dce-461d-95e4-1130521ff4c4",
+              "name": "Medic's Kitesail",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-15"
+              ],
+              "observationIds": [],
+              "combinationIds": [
+                "evasive-growth"
+              ]
+            },
+            {
+              "cardId": "d68eab2e-89dd-4377-b7af-01512b1804a0",
+              "name": "Murmuring Volume",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "3223e5db-5cc4-42f9-ae9e-ff58abc7c390",
+              "name": "Dedicated Commons",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "56dae4c4-3e71-4a32-979b-4e26d9c9e96c",
+              "name": "Deserted Beach",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "5140f962-62f3-40fd-a322-44896c7e2613",
+              "name": "Fatehold Annex",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "e6ca6c3e-f145-42d6-8a17-90770c15afaf",
+              "name": "Formidable Commons",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "4a771010-b397-4849-ac9b-08e4dd5d6a72",
+              "name": "Hall of Echoes",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "a4e4966b-8963-4fac-a8bf-e778e063c7dd",
+              "name": "Haunted Ridge",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "9128ce00-6744-4d36-bfbe-ef75d78110b0",
+              "name": "Hexhaven Dueling Arena",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "84ea799a-faa2-4ff1-a933-432d4ee31a3b",
+              "name": "Innovative Commons",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "39c805e3-82cd-42a9-80fe-8d81712a94ea",
+              "name": "Konstrari Annex",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "93ac525e-1919-43dd-aba4-073b7e4c1768",
+              "name": "Meticulous Commons",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "178e61e4-472f-42cd-9d3b-4880c2acc527",
+              "name": "Overgrown Farmland",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "e3c8a8b6-23ba-45ad-80d1-8e2dc79897f7",
+              "name": "Rockfall Vale",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "db61361b-bd12-453e-abc2-bbe09b66e3d9",
+              "name": "Roiling Canopy",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "9a467560-6676-4fc2-9400-768a79650aa4",
+              "name": "Room of Refuge",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "9e944c5b-68ac-4a30-bbd4-09a4288319ce",
+              "name": "Shipwreck Marsh",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "6ede3143-69ac-4cbe-922a-d25b07c26da7",
+              "name": "Stingerquill Annex",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "22db5bba-46c9-4a26-821d-303ddb386ea4",
+              "name": "Theorist's Sanctum",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "97bbbd23-ecb1-4407-ac14-dede08532a1e",
+              "name": "Theorix Annex",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "b57d5be7-3157-4b49-aeb8-d7368ca7e9dd",
+              "name": "Transformative Commons",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "db8c7bdd-76cd-4be0-ae0d-d430e9a5fe7a",
+              "name": "Vigorbloom Annex",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "a5e1a7dd-8c49-4435-935c-bcc78704082b",
+              "name": "Ajani Resolute",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "d5cb9810-3c2d-4ae4-b8b6-0155ca3f47ad",
+              "name": "Danitha, Sword of Hope",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [
+                "game-06"
+              ],
+              "combinationIds": []
+            },
+            {
+              "cardId": "a9f3aa55-908f-42db-8135-4201433df850",
+              "name": "Ghalta the Immovable",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "768c0e64-9907-417a-a763-c836fdf36883",
+              "name": "Gideon's Memorial",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "920703fd-2a2f-454b-8829-af8f2afda4f4",
+              "name": "Koth of the Homestead",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-5"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "70d8c400-87dc-4f15-808f-e54a95d779fc",
+              "name": "Liliana the Faultless",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "86a3866e-68a8-402c-baf0-1908e98e3995",
+              "name": "Lyra, Archangel of Dawn",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "699874e3-1ccf-4a6c-8371-61040de82d08",
+              "name": "Rescue Girl, First Responder",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "07572be0-6610-493c-a21e-14b78e9805c9",
+              "name": "Saheeli, Consul of Oversight",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "5f7521d7-9f1f-4f03-b2ea-dd2a1b1e4e5b",
+              "name": "Teyo, Lightshield Expert",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "80226231-9e70-430e-aabc-f262f70b9226",
+              "name": "Thalia, the Survivor",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "7ca95235-6e54-4ff8-bc2e-6a3d483ff007",
+              "name": "Tomik, Orzhov Lawmage",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "50326a2a-7e10-464b-a97e-e880bda0558c",
+              "name": "Way of the Healer",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "1a59d5b1-12d6-486b-bd29-ca371359addd",
+              "name": "Way of the Mentor",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "384f3b7d-8d7f-41bf-bebd-64e8babe7fca",
+              "name": "Yoshimaru, Beloved Companion",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "ccbe92a5-42bc-4228-9d5a-212df2f5dc15",
+              "name": "Yuriko, Blade of the Mighty",
+              "sourceIds": [
+                "draftsim",
+                "zone-white"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "8e3a2239-9348-4639-9318-e9e35b2cf86b",
+              "name": "Arni, Humble Scribe",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "240f58ab-944c-4f4c-9df9-5f40b132bf3e",
+              "name": "Chandra, Chill of Compliance",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "a3a2edbb-d144-4670-acad-17316cea98d2",
+              "name": "Fblthp, Impossibly Lost",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "9c334530-0880-46b5-a358-9603eee3cecf",
+              "name": "Geist of Saint Thalia",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "85faaa9d-4656-4365-871d-7cba53ed0996",
+              "name": "Hapatra, the Desert Frost",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "74087795-0b38-4fd2-9841-147583baca41",
+              "name": "Jace, Reality Sculptor",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "a5183681-447b-4023-91f7-00e9338f4417",
+              "name": "Lyra, Tolarian Archangel",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "b8466593-40fe-4557-89b2-760c1c92087b",
+              "name": "Proft, Consulting Detective",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "00af4e87-5576-4a43-9422-4c35b2b66775",
+              "name": "Ruric Thar, Biomagus",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "6d7d8fa7-ce69-4a8c-9af0-55571393a244",
+              "name": "Samut, Tyrant of Naktamun",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "3983d71e-3c23-4b36-b331-08e0707d8245",
+              "name": "Tetsuko Umezawa, Fugitive",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-16"
+              ],
+              "observationIds": [],
+              "combinationIds": [
+                "negative-power"
+              ]
+            },
+            {
+              "cardId": "a349800f-b634-4e74-a9d9-185df37ad909",
+              "name": "Traxos, Academy Guardian",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "838b0efb-7398-4df9-8fdf-b8af43b47938",
+              "name": "Way of the Cryomancer",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "5838af68-66c3-4fe8-ab89-0a1721b0cfeb",
+              "name": "Way of the Mind Sculptor",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "f45ba926-6496-4bd4-96eb-663946d56bbf",
+              "name": "Yargle, Goliath of Otaria",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "45e81487-8b8c-480b-922a-eaa9edc7201d",
+              "name": "Yuriko, Hope from the Shadows",
+              "sourceIds": [
+                "draftsim",
+                "zone-blue"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "6489814b-3d10-423e-988c-324740d36748",
+              "name": "Danitha, Spear of Agony",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "498fa810-8522-4020-b773-52ad404c9f65",
+              "name": "Gallia, Tragic Host",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-6"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "d48bfb8a-d135-45f3-be99-4694b4b9ab93",
+              "name": "Garruk, Veiled Butcher",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "c985b0d1-25bd-4069-aab7-a566ff27a8f6",
+              "name": "Gideon the Oathless",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "1eb25a6c-d6b4-465d-990e-f1ab86b26b69",
+              "name": "Liliana the Repentant",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff",
+              "name": "Loot, the Anomaly",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-16"
+              ],
+              "observationIds": [],
+              "combinationIds": [
+                "negative-power"
+              ]
+            },
+            {
+              "cardId": "b2a412b0-2ae4-4552-bc5e-70654b6b9b4e",
+              "name": "Mabel, Bitter Recluse",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-2"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "9028d31f-9c41-47e3-885b-6a869bca8178",
+              "name": "Massacre Girl, Most Wanted",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [
+                "game-03"
+              ],
+              "combinationIds": []
+            },
+            {
+              "cardId": "d36b0e06-cb82-4c48-bf35-e76f109116f6",
+              "name": "Proft, Sinister Mastermind",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "100c3b67-0c92-4224-b5ed-67789c612df7",
+              "name": "Teyo, Diamondblade Mage",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "2f47ddf7-35b6-4205-8045-f057914c5f64",
+              "name": "Tinybones, Pocket Nuisance",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "12dd46b2-e892-4660-b120-55766fd4d878",
+              "name": "Way of the Deathbringer",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "a0ff9689-ea49-4fff-b37c-4abbaeb0f73d",
+              "name": "Way of the Necromancer",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "9670f754-f41f-45ac-8e8b-025ad2c0f66b",
+              "name": "Winter, Tormented Loner",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "04c816fb-5951-4db1-8834-ed3f0b36bfe1",
+              "name": "Yargle, Glutton of Urborg",
+              "sourceIds": [
+                "draftsim",
+                "zone-black"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5",
+              "name": "Ajani Unrelenting",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [
+                "game-10"
+              ],
+              "combinationIds": []
+            },
+            {
+              "cardId": "bd8db649-1dba-457d-8327-e1f1da1aab36",
+              "name": "Arni, Renowned Champion",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd",
+              "name": "Chandra, Torch of Defiance",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "f27d50f0-d76e-4ce1-a8d9-d997af6a5b41",
+              "name": "Gallia, the Merrymaker",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-10"
+              ],
+              "observationIds": [],
+              "combinationIds": [
+                "lesson-rw"
+              ]
+            },
+            {
+              "cardId": "e8c1ce21-b77d-40bf-9ed1-478604e71f5f",
+              "name": "Jiang Yanggu, Alone",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "08657053-86f9-4c52-abf0-d9cdd443ae3b",
+              "name": "Kiora of Fire and Ashes",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-4"
+              ],
+              "observationIds": [
+                "game-08"
+              ],
+              "combinationIds": [
+                "lesson-rg"
+              ]
+            },
+            {
+              "cardId": "54f64e95-5a97-4d7c-9939-7f33a3165562",
+              "name": "Koth, the Geomancer",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "f93da73c-ca8b-438e-8387-6109dac3fc1a",
+              "name": "Marwyn, the Clearcutter",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "dd3faaf4-45ca-4714-8dbe-37102ec131cf",
+              "name": "Pia, Determined Rebuilder",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "ba920f23-f05c-410e-8516-c93abedf1d4d",
+              "name": "Samut, Hazoret's Champion",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "df818900-ce5e-4b0d-a927-c975cbef7eda",
+              "name": "Tetsuko Umezawa, Pursuer",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "5c5afd5f-6f37-4c3e-83f0-68fdcea98810",
+              "name": "Tomik, Izzet Sparkmage",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-3"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "c1a00020-7c14-4503-a057-5763704bb83e",
+              "name": "Way of the Pyromancer",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "6d86e410-20c4-4248-96bf-5780ece6274a",
+              "name": "Way of the Warlord",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "df8713cd-3f4b-43ef-adbd-e37c2617c617",
+              "name": "Winter, Team Player",
+              "sourceIds": [
+                "draftsim",
+                "zone-red"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "dad6afc9-8505-4cdd-bf79-e9ba4670f2bb",
+              "name": "Edgar, Moonlit Sovereign",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "28fbb55a-5c9d-45ee-bf42-a84b1048f5d2",
+              "name": "Fblthp, Knows the Way",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "90ca5812-ceb5-46bd-b049-aed7ff10e6af",
+              "name": "Garruk, Curse Breaker",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "review-04",
+                "review-10"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "1d535b5f-c916-4f16-89a7-9477578826d2",
+              "name": "Ghalta the Unstoppable",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "review-14"
+              ],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "f5a0bb3e-8119-4739-8684-e61d1d607dcb",
+              "name": "Jiang Yanggu, Never Alone",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "3cfa4fc6-4d90-4576-a83f-6496c7f21104",
+              "name": "Loot, the Nexus",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "90f33f99-7bc5-42e1-815e-bfb4c2b74107",
+              "name": "Marwyn, the Preserver",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "ff0bc30f-9d20-458e-808f-bdc2825905a5",
+              "name": "Pia, Aether Ascetic",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "eed83302-dc2c-45f4-a4bd-af9da51edef5",
+              "name": "Ruric Thar, Magecrusher",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "edea6f70-a5a7-475d-b7f2-97933d0f32cf",
+              "name": "Titanbones, Towering Heart",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "98dc5470-507a-4364-8480-42607255e56c",
+              "name": "Way of the Paradox",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "a252cb01-537b-4afe-9abc-81a98c4a1439",
+              "name": "Way of the Wildspeaker",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "nicolai-guide-8"
+              ],
+              "observationIds": [],
+              "combinationIds": [
+                "lesson-gu"
+              ]
+            },
+            {
+              "cardId": "b8dfd087-2434-42c6-ac4c-1decbcdde2db",
+              "name": "Yoshimaru, Scrappy Stray",
+              "sourceIds": [
+                "draftsim",
+                "zone-green"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [
+                "game-10"
+              ],
+              "combinationIds": []
+            },
+            {
+              "cardId": "7c619fed-2394-4efc-8cdc-6df5f51c1f57",
+              "name": "Edgar, Ancient Bloodlord",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-6",
+                "nicolai-guide-6"
+              ],
+              "observationIds": [],
+              "combinationIds": [
+                "lesson-wb"
+              ]
+            },
+            {
+              "cardId": "cf7c1534-af41-4991-b3c3-f0a34ae330b5",
+              "name": "Hapatra, the Desert Fang",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-7",
+                "nicolai-guide-7"
+              ],
+              "observationIds": [],
+              "combinationIds": [
+                "lesson-bg"
+              ]
+            },
+            {
+              "cardId": "3abcae65-5b21-4c98-adad-34b8bc76ea3a",
+              "name": "Karn, Gilded Guardian",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "8151f5f5-e9f6-4fbe-b543-f456ebf22aa5",
+              "name": "Kiora of Salt and Sand",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-8",
+                "nicolai-guide-8"
+              ],
+              "observationIds": [],
+              "combinationIds": [
+                "lesson-gu"
+              ]
+            },
+            {
+              "cardId": "47abea4b-9848-48aa-bc1b-f04f4799e920",
+              "name": "Mabel, Valley Hero",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-10",
+                "nicolai-guide-10"
+              ],
+              "observationIds": [],
+              "combinationIds": [
+                "lesson-rw"
+              ]
+            },
+            {
+              "cardId": "28d84ef6-e190-46d4-882d-1cea5e111e2a",
+              "name": "Saheeli, Jewel of Avishkar",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [
+                "llu261-9",
+                "nicolai-guide-9"
+              ],
+              "observationIds": [],
+              "combinationIds": [
+                "lesson-ur"
+              ]
+            },
+            {
+              "cardId": "6529d399-677e-45a6-ac3e-12a0b10f6c37",
+              "name": "Tam, the Possibility",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "f3869752-eade-4e7a-8dd1-68cafb9e10be",
+              "name": "Vraska, Soul of Stone",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "5c28b012-5efb-488f-a1c1-09e2dddfd6ee",
+              "name": "Vraska, the Cutting Glare",
+              "sourceIds": [
+                "draftsim",
+                "zone-multicolor"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "1ebbbddb-2dc3-4194-b72b-13bcebe2ab89",
+              "name": "Karn, Argent Defender",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
+            },
+            {
+              "cardId": "05102c46-96f8-44a0-a1e6-e388fa5e0841",
+              "name": "Traxos, Scourge Eternal",
+              "sourceIds": [
+                "draftsim",
+                "zone-artifacts-and-lands"
+              ],
+              "reviewerGroups": [
+                "andrew-quinn",
+                "j2sjosh"
+              ],
+              "noteIds": [],
+              "observationIds": [],
+              "combinationIds": []
             }
           ]
         }

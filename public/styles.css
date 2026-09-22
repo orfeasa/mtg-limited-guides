@@ -4268,3 +4268,46 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
 @media (max-width: 700px) {
   .card-atlas[data-size="large"] .atlas-grid { grid-template-columns: minmax(0, 1fr); }
 }
+
+/* Early evidence shares the guide's reading hierarchy and existing card dialog. */
+.evidence-lessons { border-top: 1px solid var(--line); }
+.evidence-lesson { border-bottom: 1px solid var(--line); }
+.evidence-lesson > summary { padding: 16px 8px; cursor: pointer; font-weight: 700; }
+.evidence-pair { display: inline-block; min-width: 135px; color: var(--muted); font-weight: 400; }
+.evidence-lesson-body { max-width: 72ch; padding: 4px 8px 24px; }
+.evidence-cards { display: flex; flex-wrap: wrap; gap: 12px; margin: 16px 0; }
+.evidence-card { border: 0; padding: 4px 0; background: transparent; color: inherit; text-align: left; font: inherit; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+.evidence-card:hover { text-decoration-thickness: 2px; }
+.evidence-cards--pictured { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 460px; }
+.evidence-cards--pictured img { display: block; width: 100%; height: auto; margin-bottom: 8px; border-radius: 4px; }
+.evidence-cards--pictured .evidence-card { align-self: start; }
+.evidence-condition { color: var(--muted); }
+.evidence-question { margin-top: 24px; font-weight: 700; }
+.evidence-answer summary, .evidence-sources summary, .evidence-archetype summary, .evidence-related summary { cursor: pointer; padding: 12px 0; }
+.evidence-sources { margin-top: 16px; font-size: .9rem; }
+.evidence-sources li, .evidence-notes li, .evidence-related li, .evidence-archetype li { margin-bottom: 12px; }
+.evidence-attribution { display: block; font-size: .85em; margin-top: 4px; }
+.evidence-archetype { margin-top: 16px; border-top: 1px solid var(--line); }
+.evidence-archetype h4 { margin-top: 24px; }
+.card-preview.has-early-evidence { width: min(1060px, calc(100% - 28px)); }
+.has-early-evidence .card-preview-frame { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: start; column-gap: 28px; }
+.has-early-evidence .card-preview-image { grid-column: 1; grid-row: 1; }
+.has-early-evidence .card-preview-copy { grid-column: 1; grid-row: 2; }
+.card-preview-evidence { grid-column: 2; grid-row: 1 / span 2; min-width: 0; width: 100%; padding: 8px 0; text-align: left; font-size: .95rem; line-height: 1.5; }
+.card-preview-evidence h3 { font: 700 1.5rem var(--display); margin: 0 0 8px; }
+.card-preview-evidence a { color: inherit; text-underline-offset: 3px; }
+.card-preview-evidence .evidence-caption, .card-preview-evidence .evidence-condition { color: var(--on-binding-muted); }
+.evidence-caption { font-size: .85rem; }
+.evidence-grades { margin: 20px 0 12px; }
+.evidence-grades > div { display: flex; justify-content: space-between; gap: 16px; padding: 10px 0; border-bottom: 1px solid var(--on-binding-muted); }
+.evidence-grades dd { margin: 0; font-weight: 700; font-variant-numeric: tabular-nums; text-align: right; }
+.evidence-grades small { display: block; font-size: .75rem; font-weight: 400; }
+.evidence-related { border-top: 1px solid var(--on-binding-muted); }
+@media (max-width: 720px) {
+  .card-preview.has-early-evidence { width: calc(100% - 16px); }
+  .has-early-evidence .card-preview-frame { display: block; padding: 52px 16px 20px; }
+  .has-early-evidence .card-preview-image { margin: auto; max-height: 65dvh; }
+  .has-early-evidence .card-preview-copy { margin: 12px 0 24px; }
+  .card-preview-evidence { border-top: 1px solid var(--on-binding-muted); padding-top: 20px; }
+  .evidence-pair { display: block; margin-left: 18px; }
+}

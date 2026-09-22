@@ -798,6 +798,7 @@
             <p class="archetype-plan">${window.CARD_RULES.inline(archetype.plan)}</p>
             <div class="archetype-priorities"><h4>What the deck needs</h4><ol>${archetype.priorities.map((priority) => `<li>${window.CARD_RULES.inline(priority)}</li>`).join("")}</ol></div>
             <div class="archetype-format-note"><h4>${escapeHtml(format.shortLabel)} read</h4><p>${window.CARD_RULES.inline(archetype.formatNotes[archetypeFormat])}</p></div>
+            ${window.EARLY_EVIDENCE.archetype(currentSet, archetype.id)}
           </div>
           <div class="archetype-signposts"><h4>Cards to recognise</h4><div class="archetype-signpost-grid">${signposts}</div></div>
         </div>`;
@@ -1181,8 +1182,17 @@
       : cardIsRated(card)
       ? `#${card.rank} · Tier ${card.tier}`
       : `${card.rarity || "Preview"} · ${currentSet.code} #${card.collectorNumber || "—"}`;
+    const evidencePanel = document.getElementById("card-preview-evidence");
+    evidencePanel.innerHTML = hideDecisionRating || currentView === "memory" ? "" : window.EARLY_EVIDENCE.card(currentSet, card.id);
+    evidencePanel.hidden = !evidencePanel.innerHTML;
+    elements.cardPreview.classList.toggle("has-early-evidence", !evidencePanel.hidden);
     if (!elements.cardPreview.open) elements.cardPreview.showModal();
   }
+
+  document.addEventListener("click", event => {
+    const button = event.target.closest("[data-evidence-card]");
+    if (button) openCardPreview(button.dataset.evidenceCard);
+  });
 
   function navigateCardPreview(direction) {
     if (!elements.cardPreview.open || currentView !== "atlas") return;

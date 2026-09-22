@@ -86,7 +86,8 @@
         "label": "Scryfall card file",
         "url": "https://scryfall.com/sets/fra"
       },
-      "officialUrl": "https://magic.wizards.com/en/products/reality-fracture/card-image-gallery"
+      "officialUrl": "https://magic.wizards.com/en/products/reality-fracture/card-image-gallery",
+      "earlyEvidenceDir": "research/fra"
     }
   ]
 }

@@ -1,3 +1,5 @@
+> Historical pilot findings. Full-set opinion coverage and the implemented presentation are now documented in [README.md](README.md) and [coverage.md](coverage.md). The gameplay sample remains two games.
+
 # Pilot findings
 
 These are editorial inferences from the [attributed records](evidence.json), not new ratings.

@@ -1,0 +1,274 @@
+{
+  "id": "zone-artifacts-and-lands",
+  "author": "J2SJosh",
+  "dependencyGroup": "j2sjosh",
+  "url": "https://mtgazone.com/reality-fracture-fra-limited-set-review-artifacts-and-lands/",
+  "capturedAt": "2026-09-22",
+  "kind": "review",
+  "format": "Limited-unspecified",
+  "scale": {
+    "min": 0,
+    "max": 5
+  },
+  "examination": "All explicit numeric grades extracted; selected reasoning examined. This snapshot does not reproduce the article text.",
+  "captureSha256": "fbc933148840fdf42ce3da035f49e7e8af61b18217de754d60a29458fde8429b",
+  "assessments": [
+    {
+      "cardId": "c3ff8dd3-88a8-49dc-a59b-e2748680623c",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Emrakul, the Exigent Doom"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "4d4b3bf7-a149-4099-b97d-4e36a87dfa60",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Afterthought Sentry"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "024bce1e-a5f3-4292-bc17-d0355a5d65e1",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Archive Arbiter"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "c3192390-1518-49fc-8716-f2c7a0384f39",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Codie, Ravenous Codex"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "d71d250f-c0e0-44b2-877c-76f3bcab4f34",
+      "grade": 4.0,
+      "locator": {
+        "heading": "The Echoverse Fulcrum"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "0edba64a-39cf-4a8d-ba20-4f7da10b6c3d",
+      "grade": 1.0,
+      "locator": {
+        "heading": "Eye of Jace"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "1ebbbddb-2dc3-4194-b72b-13bcebe2ab89",
+      "grade": 1.0,
+      "locator": {
+        "heading": "Karn, Argent Defender"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Keeper of the Quiet Hour"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "5d4a8e5f-0024-4da3-a2f5-edb48b12e733",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Living Library"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "8b07409a-1dce-461d-95e4-1130521ff4c4",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Medic\u2019s Kitesail"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "d68eab2e-89dd-4377-b7af-01512b1804a0",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Murmuring Volume"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "05102c46-96f8-44a0-a1e6-e388fa5e0841",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Traxos, Scourge Eternal"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "3223e5db-5cc4-42f9-ae9e-ff58abc7c390",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Planeswalker Lands"
+      },
+      "scope": "cycle"
+    },
+    {
+      "cardId": "5140f962-62f3-40fd-a322-44896c7e2613",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Planeswalker Lands"
+      },
+      "scope": "cycle"
+    },
+    {
+      "cardId": "e6ca6c3e-f145-42d6-8a17-90770c15afaf",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Planeswalker Lands"
+      },
+      "scope": "cycle"
+    },
+    {
+      "cardId": "84ea799a-faa2-4ff1-a933-432d4ee31a3b",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Planeswalker Lands"
+      },
+      "scope": "cycle"
+    },
+    {
+      "cardId": "39c805e3-82cd-42a9-80fe-8d81712a94ea",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Planeswalker Lands"
+      },
+      "scope": "cycle"
+    },
+    {
+      "cardId": "93ac525e-1919-43dd-aba4-073b7e4c1768",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Planeswalker Lands"
+      },
+      "scope": "cycle"
+    },
+    {
+      "cardId": "6ede3143-69ac-4cbe-922a-d25b07c26da7",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Planeswalker Lands"
+      },
+      "scope": "cycle"
+    },
+    {
+      "cardId": "97bbbd23-ecb1-4407-ac14-dede08532a1e",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Planeswalker Lands"
+      },
+      "scope": "cycle"
+    },
+    {
+      "cardId": "b57d5be7-3157-4b49-aeb8-d7368ca7e9dd",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Planeswalker Lands"
+      },
+      "scope": "cycle"
+    },
+    {
+      "cardId": "db8c7bdd-76cd-4be0-ae0d-d430e9a5fe7a",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Planeswalker Lands"
+      },
+      "scope": "cycle"
+    },
+    {
+      "cardId": "56dae4c4-3e71-4a32-979b-4e26d9c9e96c",
+      "grade": 3.0,
+      "locator": {
+        "heading": "Rare Slow Lands"
+      },
+      "scope": "cycle"
+    },
+    {
+      "cardId": "a4e4966b-8963-4fac-a8bf-e778e063c7dd",
+      "grade": 3.0,
+      "locator": {
+        "heading": "Rare Slow Lands"
+      },
+      "scope": "cycle"
+    },
+    {
+      "cardId": "178e61e4-472f-42cd-9d3b-4880c2acc527",
+      "grade": 3.0,
+      "locator": {
+        "heading": "Rare Slow Lands"
+      },
+      "scope": "cycle"
+    },
+    {
+      "cardId": "e3c8a8b6-23ba-45ad-80d1-8e2dc79897f7",
+      "grade": 3.0,
+      "locator": {
+        "heading": "Rare Slow Lands"
+      },
+      "scope": "cycle"
+    },
+    {
+      "cardId": "9e944c5b-68ac-4a30-bbd4-09a4288319ce",
+      "grade": 3.0,
+      "locator": {
+        "heading": "Rare Slow Lands"
+      },
+      "scope": "cycle"
+    },
+    {
+      "cardId": "4a771010-b397-4849-ac9b-08e4dd5d6a72",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Hall of Echoes"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "9128ce00-6744-4d36-bfbe-ef75d78110b0",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Hexhaven Dueling Arena"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "db61361b-bd12-453e-abc2-bbe09b66e3d9",
+      "grade": 0.5,
+      "locator": {
+        "heading": "Roiling Canopy"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "9a467560-6676-4fc2-9400-768a79650aa4",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Room of Refuge"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "22db5bba-46c9-4a26-821d-303ddb386ea4",
+      "grade": 3.5,
+      "locator": {
+        "heading": "Theorist\u2019s Sanctum"
+      },
+      "scope": "card"
+    }
+  ],
+  "excludedOutsideMainSet": []
+}

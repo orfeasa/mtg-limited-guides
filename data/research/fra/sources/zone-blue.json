@@ -1,0 +1,330 @@
+{
+  "id": "zone-blue",
+  "author": "J2SJosh",
+  "dependencyGroup": "j2sjosh",
+  "url": "https://mtgazone.com/reality-fracture-fra-limited-set-review-blue/",
+  "capturedAt": "2026-09-22",
+  "kind": "review",
+  "format": "Limited-unspecified",
+  "scale": {
+    "min": 0,
+    "max": 5
+  },
+  "examination": "All explicit numeric grades extracted; selected reasoning examined. This snapshot does not reproduce the article text.",
+  "captureSha256": "b7224c49ee4728a499010a4f30f75a7826a657a8148f2f7309e31992b4d2d0a4",
+  "assessments": [
+    {
+      "cardId": "8e3a2239-9348-4639-9318-e9e35b2cf86b",
+      "grade": 3.0,
+      "locator": {
+        "heading": "Arni, Humble Scribe"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "240f58ab-944c-4f4c-9df9-5f40b132bf3e",
+      "grade": 3.5,
+      "locator": {
+        "heading": "Chandra, Chill of Compliance"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "145b928d-a7ff-4fe5-ae4d-bbae7b1d955b",
+      "grade": 3.0,
+      "locator": {
+        "heading": "Countersculpt"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "f76c4d8e-3e1f-4264-99af-1b8adb9a06be",
+      "grade": 0.5,
+      "locator": {
+        "heading": "Cruel Calculations"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "9ba1f7ce-3404-4932-9795-22967707f762",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Cryotheory Adept"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "0853bb80-8664-432a-8457-600139fd96d5",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Diviner of Victory"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "960c7335-331d-488b-be68-2ad1c1c695dc",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Divining Duelist"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "a3a2edbb-d144-4670-acad-17316cea98d2",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Fblthp, Impossibly Lost"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "9c334530-0880-46b5-a358-9603eee3cecf",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Geist of Saint Thalia"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "85faaa9d-4656-4365-871d-7cba53ed0996",
+      "grade": 3.0,
+      "locator": {
+        "heading": "Hapatra, the Desert Frost"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "8d754b96-5e44-45af-9c7a-b0da59fbe4c3",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Icy Reception"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "a5988272-faaa-463d-a0a1-a8e96b946bad",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Infinite Coursework"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "74087795-0b38-4fd2-9841-147583baca41",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Jace, Reality Sculptor"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "282588b9-3656-453b-aa25-2419e078ddc1",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Jace\u2019s Machinations"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "a5183681-447b-4023-91f7-00e9338f4417",
+      "grade": 3.5,
+      "locator": {
+        "heading": "Lyra, Tolarian Archangel"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "f5324741-353a-4a70-adb2-b631b00806dd",
+      "grade": 3.0,
+      "locator": {
+        "heading": "Mindseeker Oculus"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "d0ecae06-bc5a-4886-84df-c2900816f226",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Perfected Theory"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "c4effc17-0d0e-423a-b5f2-597ea6c71f67",
+      "grade": 3.0,
+      "locator": {
+        "heading": "Plan for All Outcomes"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "9244efad-35ab-45c0-b173-4bc68276cb67",
+      "grade": 0.5,
+      "locator": {
+        "heading": "Precise Redaction"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "b8466593-40fe-4557-89b2-760c1c92087b",
+      "grade": 3.5,
+      "locator": {
+        "heading": "Proft, Consulting Detective"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "a08c7ec2-4c6a-4db2-85a7-41afe8731523",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Protege\u2019s Awakening"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "00af4e87-5576-4a43-9422-4c35b2b66775",
+      "grade": 3.0,
+      "locator": {
+        "heading": "Ruric Thar, Biomagus"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "6d7d8fa7-ce69-4a8c-9af0-55571393a244",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Samut, Tyrant of Naktamun"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "51d86875-420d-4e82-b69c-4feeb99c9428",
+      "grade": 4.0,
+      "locator": {
+        "heading": "Seasoned Cryomancer"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "7e5a640b-fd88-4b5a-9dfc-1d8f5a5cef41",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Semester Foreseer"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "08ffbd51-2bd3-4262-8809-09576ce2b6f5",
+      "grade": 4.0,
+      "locator": {
+        "heading": "Sphinx of False Conclusions"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "f49be090-c745-40e5-bc1c-605b8d98acdf",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Sphinx\u2019s Approach"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "9df8a06d-c7de-49af-8c01-06dca3dfef4b",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Surveillance Phantasm"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "3983d71e-3c23-4b36-b331-08e0707d8245",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Tetsuko Umezawa, Fugitive"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "20bb8c55-4b0b-425f-8201-b54fa2fdde86",
+      "grade": 5.0,
+      "locator": {
+        "heading": "The Theorist, Jace Beleren"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "710302ca-c4be-4069-8ce1-f531414c74e9",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Theorist\u2019s Proxy"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "a349800f-b634-4e74-a9d9-185df37ad909",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Traxos, Academy Guardian"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "0adbb4b2-a142-48da-8f4b-fa91529dbac4",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Undulating Witness"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "ddad9f16-52d5-49de-82b0-b1a5294a9c44",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Unsummon"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "e3afedb1-bf9d-4e31-9700-433514cc29b1",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Variable Chaser"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "838b0efb-7398-4df9-8fdf-b8af43b47938",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Way of the Cryomancer"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "5838af68-66c3-4fe8-ab89-0a1721b0cfeb",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Way of the Mind Sculptor"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "f45ba926-6496-4bd4-96eb-663946d56bbf",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Yargle, Goliath of Otaria"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "45e81487-8b8c-480b-922a-eaa9edc7201d",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Yuriko, Hope from the Shadows"
+      },
+      "scope": "card"
+    }
+  ],
+  "excludedOutsideMainSet": []
+}

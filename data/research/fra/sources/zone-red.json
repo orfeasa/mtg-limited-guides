@@ -1,0 +1,338 @@
+{
+  "id": "zone-red",
+  "author": "J2SJosh",
+  "dependencyGroup": "j2sjosh",
+  "url": "https://mtgazone.com/reality-fracture-fra-limited-set-review-red/",
+  "capturedAt": "2026-09-22",
+  "kind": "review",
+  "format": "Limited-unspecified",
+  "scale": {
+    "min": 0,
+    "max": 5
+  },
+  "examination": "All explicit numeric grades extracted; selected reasoning examined. This snapshot does not reproduce the article text.",
+  "captureSha256": "52c86eadcaf6a8b17246afc8beecd142769c0e429010583bfc5fdc68ff6e2c37",
+  "assessments": [
+    {
+      "cardId": "d9039a58-2f17-4b8a-b714-3a2f0b46f057",
+      "grade": 4.0,
+      "locator": {
+        "heading": "Ajani\u2019s Anguish"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5",
+      "grade": 5.0,
+      "locator": {
+        "heading": "Ajani Unrelenting"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "bd8db649-1dba-457d-8327-e1f1da1aab36",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Arni, Renowned Champion"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "7d3b720d-f27c-462a-8f80-15748e5086e1",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Artifist Acumen"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "c596c4ec-8480-4be9-a45d-700398a126f6",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Awaken the Inferno"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "8414a98c-0c79-4884-bc9b-061a6456b392",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Blazing Crescendo"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd",
+      "grade": 4.5,
+      "locator": {
+        "heading": "Chandra, Torch of Defiance"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "3a64c5f4-9cfc-4d19-bd99-13d619b1aa9d",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Chandra\u2019s Emberling"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "f3307da2-6dad-4ef2-9614-a7d34f38088e",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Command the Stage"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "47793a51-08c6-4ad2-a7e5-a4484d83a5cd",
+      "grade": 3.5,
+      "locator": {
+        "heading": "Craterclaw Colossus"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "8f827e50-0a08-4bc8-98b1-b26c9af15ef2",
+      "grade": 4.0,
+      "locator": {
+        "heading": "Curse-Marred Demon"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "112f8478-bd89-4a14-9721-8ab750613129",
+      "grade": 4.0,
+      "locator": {
+        "heading": "Draconic Visitor"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "5f8771f9-8128-4818-a11d-41ea368cf697",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Eardrum Rattler"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "d2e958de-70de-4156-8f9b-b2c0c1ba704a",
+      "grade": 0.5,
+      "locator": {
+        "heading": "Essence Burn"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "3ccf8f64-19bd-4fdf-b70a-30a042bacf2f",
+      "grade": 3.0,
+      "locator": {
+        "heading": "Face Yourself"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "19acb2b5-3b3e-43f0-bd81-8426ed3d9c55",
+      "grade": 3.5,
+      "locator": {
+        "heading": "Fulminous Forte"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "f27d50f0-d76e-4ce1-a8d9-d997af6a5b41",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Gallia, the Merrymaker"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "7e324816-552f-455d-97c4-5ea6b26d2e6e",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Hallway Heckler"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "cbfe3354-7ced-4773-9a4e-a937ae9f94f8",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Heartstring Puller"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "e600b33b-8916-43dd-95d3-d7cbf874933d",
+      "grade": 0.5,
+      "locator": {
+        "heading": "Identity Echo"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "e8c1ce21-b77d-40bf-9ed1-478604e71f5f",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Jiang Yanggu, Alone"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "08657053-86f9-4c52-abf0-d9cdd443ae3b",
+      "grade": 4.0,
+      "locator": {
+        "heading": "Kiora of Fire and Ashes"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "54f64e95-5a97-4d7c-9939-7f33a3165562",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Koth, the Geomancer"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "f93da73c-ca8b-438e-8387-6109dac3fc1a",
+      "grade": 3.0,
+      "locator": {
+        "heading": "Marwyn, the Clearcutter"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "4404d9d4-9cdd-4dad-a4f6-574d90db5052",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Master of Barbs"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "11ba4fdd-cc03-4bb6-a493-91a9785771d0",
+      "grade": 3.5,
+      "locator": {
+        "heading": "No Admittance"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "dd3faaf4-45ca-4714-8dbe-37102ec131cf",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Pia, Determined Rebuilder"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "aa0f77ac-741a-444a-8bf0-a42c644726bf",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Pompous Battlemage"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "2b0ebea0-86de-4da4-9fe8-dacc1e75c161",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Pyre Rhymer"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "ba920f23-f05c-410e-8516-c93abedf1d4d",
+      "grade": 3.0,
+      "locator": {
+        "heading": "Samut, Hazoret\u2019s Champion"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "0e44f959-1322-4abd-b6eb-dea992307c0c",
+      "grade": 2.0,
+      "locator": {
+        "heading": "Skilled Battlecarver"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460",
+      "grade": 4.0,
+      "locator": {
+        "heading": "Stingcaster Mage"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "b75bbf46-a421-467a-9433-6cf22398a3a5",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Tether Technician"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "df818900-ce5e-4b0d-a927-c975cbef7eda",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Tetsuko Umezawa, Pursuer"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "5c5afd5f-6f37-4c3e-83f0-68fdcea98810",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Tomik, Izzet Sparkmage"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "ad03ba90-2442-4a71-94df-2088b5b63662",
+      "grade": 3.5,
+      "locator": {
+        "heading": "Violent Echoes"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "c1a00020-7c14-4503-a057-5763704bb83e",
+      "grade": 1.0,
+      "locator": {
+        "heading": "Way of the Pyromancer"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "6d86e410-20c4-4248-96bf-5780ece6274a",
+      "grade": 2.5,
+      "locator": {
+        "heading": "Way of the Warlord"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "df8713cd-3f4b-43ef-adbd-e37c2617c617",
+      "grade": 1.5,
+      "locator": {
+        "heading": "Winter, Team Player"
+      },
+      "scope": "card"
+    },
+    {
+      "cardId": "b5b55617-684a-4036-be9b-a3b24fc9cd5a",
+      "grade": 3.0,
+      "locator": {
+        "heading": "Wrath of the Bloodmane"
+      },
+      "scope": "card"
+    }
+  ],
+  "excludedOutsideMainSet": []
+}

@@ -1,42 +1,44 @@
 # Reality Fracture early evidence
 
-Captured 2026-09-22. Research pilot only; not consumed by the website build or Training. Start with the source register below, then inspect `evidence.json` and `gameplay.md`.
+Captured 2026-09-22. Attributed source records are in `sources/`; our rules-based combination synthesis is in `synthesis.json`. The website consumes both through a validated `earlyEvidence` payload. See [coverage.md](coverage.md) for the exact boundaries and [coverage.json](coverage.json) for all 280 card joins.
 
 ## Source register and examination scope
 
-| ID | Source | Author / dependency group | Examination |
-| --- | --- | --- | --- |
-| zone-green | [Green set review](https://mtgazone.com/reality-fracture-fra-limited-set-review-green/) | J2SJosh / j2sjosh | Read selected green entries; extracted six assessments with original 0–5 grades. |
-| draftsim | [Limited set review](https://draftsim.com/mtg-fra-limited-set-review/) | Andrew Quinn / andrew-quinn | Read introduction, scale and eight selected card entries; original 0–10 grades. Initial impressions, not results. |
-| tcc110 | [Shuffle Up & Play 110](https://www.youtube.com/watch?v=3r3md8snmJo) | Tolarian Community College / tcc110 | Read timestamped automatic captions for two Sealed games: 39:51–1:08:36 and 1:11:53–1:27:38. Ten selected sequences extracted. Video frames were not verified. |
-| jim-deck | [Jim Davis pool](https://archidekt.com/decks/26640427/jim_davis_reality_fracture_sealed_pool) | TCC episode context / tcc110 | Examined published main deck and sideboard: 40 cards, 17 lands, 14 creatures. |
-| kenji-deck | [Kenji Egashira pool](https://archidekt.com/decks/26640645/kenji_egashira_numotthenummy_reality_fracture_sealed_pool) | TCC episode context / tcc110 | Examined published main deck and sideboard: 40 cards, 16 lands, 14 creatures. |
-| marshall-deck | [Marshall Sutcliffe pool](https://archidekt.com/decks/26640835/marshall_sutcliffe_reality_fractured_sealed_pool) | TCC episode context / tcc110 | Examined published main deck and sideboard: 40 cards, 17 lands, 13 creatures, one planeswalker. |
+| Source | Reviewer / dependency group | Examined and persisted |
+| --- | --- | --- |
+| [Draftsim full review](https://draftsim.com/mtg-fra-limited-set-review/) | Andrew Quinn / andrew-quinn | All 280 main-set nonbasic grades on the original 0–10 scale; selected explanations. `sources/draftsim.json`. |
+| MTGAZone: [white](https://mtgazone.com/reality-fracture-fra-limited-set-review-white/), [blue](https://mtgazone.com/reality-fracture-fra-limited-set-review-blue/), [black](https://mtgazone.com/reality-fracture-fra-limited-set-review-black/), [red](https://mtgazone.com/reality-fracture-fra-limited-set-review-red/), [green](https://mtgazone.com/reality-fracture-fra-limited-set-review-green/), [multicolor](https://mtgazone.com/reality-fracture-fra-limited-set-review-multicolor/), [artifacts and lands](https://mtgazone.com/reality-fracture-fra-limited-set-review-artifacts-and-lands/) | J2SJosh / j2sjosh | All 280 grades on the original 0–5 scale. Seven articles count as one reviewer. `sources/zone-*.json`. Selected green explanations in the pilot. |
+| [Reality Fracture Draft Guide](https://www.youtube.com/watch?v=zNKov5PyYCg) | NicolaiBolas / nicolaibolas | Entire automatic transcript read; 25 selected timestamped claims: ten archetypes and fifteen common recommendations. `sources/nicolai-guide.json`. |
+| [Limited Level-Ups 261](https://www.youtube.com/watch?v=I1PPajMb938) | Limited Level-Ups / limited-level-ups | Entire automatic transcript read; 16 selected timestamped claims covering ten archetypes, card opinions and combinations. `sources/llu261.json`. |
+| [Shuffle Up & Play 110](https://www.youtube.com/watch?v=3r3md8snmJo) | Tolarian Community College / tcc110 | Captions for two Sealed games: 39:51–1:08:36 and 1:11:53–1:27:38. Ten selected narrated sequences. Frames unverified. `sources/tcc110.json` and [gameplay.md](gameplay.md). |
+| [Jim Davis pool](https://archidekt.com/decks/26640427/jim_davis_reality_fracture_sealed_pool), [Kenji Egashira pool](https://archidekt.com/decks/26640645/kenji_egashira_numotthenummy_reality_fracture_sealed_pool), [Marshall Sutcliffe pool](https://archidekt.com/decks/26640835/marshall_sutcliffe_reality_fractured_sealed_pool) | TCC episode context / tcc110 | Published main decks and sideboards examined to resolve captions. Context, not three extra reviewers; counts retained in `gameplay.md`. |
 
-The episode description identifies main decks as played and sideboards as unused pools. These snapshots help resolve captions, not infer that every cut is bad. Decklists and multiple games from this episode are dependent context, not additional reviewers. Different bylines establish distinct attributed opinions, not proven statistical independence.
+The earlier shortlist also included NicolaiBolas’s prerelease preview (same reviewer), Limited Resources 872, and LoadingReadyRun’s PrePreRelease. They remain candidates, not extracted sources. MyLimitedGrades did not expose an attributable dataset in the inspected page and contributes no vote. Discovery is not examination.
 
-## Method and limits
+## Extraction and reconciliation
 
-The cohort deliberately includes cards appearing in the sampled games, one disagreement candidate, and extreme positive/negative review examples. It is not representative of all cards. Written reviews address Limited generally; neither provides separate Sealed grades here. Preserve each author's scale; dividing by its maximum does not make the scales comparable. No averaged rating, win rate, confidence percentage or tier is calculated.
+Written-review heading/rating pairs were extracted from the retrieved Draftsim HTML and indexed MTGAZone article text, then joined by normalized card name to `fra_preview.json`. Prepared-card headings map to the creature face. The source typo “Crytheory Adept” maps to “Cryotheory Adept”; the original heading remains in the locator. Explicitly rated land cycles expand to their members with `scope: cycle`, preserving the group heading. Special Guests named by Draftsim remain explicitly excluded from this main-set cohort. Capture hashes identify the examined extracts; raw articles and full transcripts are not redistributed.
 
-`evidence.json` joins assessments and observations to canonical card IDs. Reviewer reasoning is a short paraphrase. Gameplay observations and our interpretations are separate. Timestamps are navigation anchors, not complete logs. The source transcript has misspelled names and unreliable speaker attribution; names were reconciled with decklists and the card file. Raw articles and full transcripts are not redistributed.
+Source records retain author, URL, capture date, format, original scale, scope and locator. `evidence.json` is the historical pilot: its fourteen grades are checked against the full extraction, and its short explanations are imported without counting duplicate votes. The ten gameplay observations are canonical in `sources/tcc110.json`; the pilot remains unchanged for audit history.
 
-Repeated triggers are events in one game, not independent card-performance samples. The same Jim deck appears twice. Flooding, unfamiliarity with card text, unknown hands, production selection and opponent decisions prevent causal conclusions. A loss does not establish a card is weak; an unobserved card has missing gameplay evidence.
+`synthesis.json` contains our own practical explanations. Reviewer archetype advice informs the lesson; it does not imply that the reviewer explicitly tested every exact pairing. Each combination identifies its supporting claims separately from any actual narrated game sequence. Card rules were checked against the canonical card file, including mana restrictions, finality, once-per-turn triggers and loyalty activation limits. The GU lesson explicitly requires additional loyalty: empower seven is insufficient for minus eight.
 
-## What to surface on the website — proposal for discussion
+## Coverage and limits
 
-Add an **Early assessments** section to existing card details. Keep the current navigation and rating Training gate. Show:
+Every one of the 280 nonbasic main-set cards has a grade from two distinct bylines. This is complete opinion-score coverage, not complete narrative or gameplay coverage. Extracted notes mention 56 cards; sampled games mention 16. All ten archetypes have advice from both video reviewers. Twelve combinations are authored; ten have recall questions.
 
-- A short contextual takeaway, with “review opinion” or “observed in Sealed”.
-- Individual reviewer grades with their original scales and dates.
-- Required support and important disagreements, rather than a blended score.
-- An expandable evidence list with source links and gameplay timestamps.
-- Coverage stated literally: two written reviewers, or one episode / two games. Do not call this high confidence.
+Preserve the original scales. Neither a mean nor dividing by the maximum establishes comparable meanings, confidence, win rate or a pick order. No numerical consensus, empirical tier or Training unlock is produced. Reviews cover Draft or general Limited; these are not separate Sealed grades. Sealed sample selection, repeated decks, unknown hands and automatic-caption errors preclude causal strength claims. An unobserved card has missing gameplay evidence, not a low score.
 
-Good pilot examples are a synergy-dependent card, a disagreement, and a shared negative assessment. The structured records permit those examples without publishing an unsupported set-wide ordering. Keep absent evidence absent; do not translate it to a low score. Once broad gameplay statistics arrive, show them separately by format and date.
+## Website presentation
 
-Before implementation, decide whether these notes belong only in card details or also as a small filter in All cards. Recommendation: start in card details; useful context is more defensible than an early pick-order sort.
+Primary task: learn the set before an event. Keep existing tabs.
 
-## Recheck
+- **Prerelease prep:** ten optional colour-pair lessons with readable card images, a practical requirement, a recall question and expandable attribution. The Two-Headed Giant guide remains separate.
+- **Archetypes:** expand early reviewer advice and applicable combinations within each existing archetype.
+- **Card details:** individual original grades for every nonbasic card; extracted explanations, combinations and narrated footage where available. Missing explanations are stated explicitly. Source links include article text locators or video timestamps.
 
-Run `node scripts/verify-early-evidence.mjs`. When adding material, record the actual examined scope, reviewer dependency group, original scale and direct locator. Revisit disagreements with additional independent reviews and games. This is a captured pilot, not automatic monitoring.
+This evidence is separate from rating Training and does not become a memorisation target. Card-memory previews retain their existing answer flow.
+
+## Recheck and extension
+
+Run `node scripts/verify-early-evidence.mjs`, `node scripts/verify-evidence-coverage.mjs`, then the normal build/lifecycle/data/UI checks. Add new records under `sources/`, reuse reviewer dependency groups, and link synthesis to stable IDs. Regenerate `coverage.json` using `compileEarlyEvidence(...).coverage` when records change. The build checks all joins before publication. This is a dated snapshot, not automatic monitoring.
