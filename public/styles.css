@@ -4249,3 +4249,22 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
   .atlas-filters label { flex: 1 1 140px; }
   .atlas-filters label:first-child { flex-basis: 100%; }
 }
+
+/* Readable card gallery; compact rows remain the default. */
+.card-atlas[data-size="large"] .atlas-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+.card-atlas[data-size="large"] .atlas-card {
+  grid-template-columns: minmax(0, 1fr);
+  align-content: start;
+  gap: 14px;
+  padding: 12px 5px;
+}
+.card-atlas[data-size="large"] .atlas-card > img { width: 100%; }
+@media (max-width: 860px) {
+  .card-atlas[data-size="large"] .atlas-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 700px) {
+  .card-atlas[data-size="large"] .atlas-grid { grid-template-columns: minmax(0, 1fr); }
+}

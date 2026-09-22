@@ -185,7 +185,9 @@
   const atlasSortOptions = new Set(["mana", "name", "rating"]);
   let atlasSort = "mana";
   let atlasGrouping = "colour";
+  let atlasSize = "compact";
   try {
+    if (localStorage.getItem("limited:atlas-size") === "large") atlasSize = "large";
     const savedSort = localStorage.getItem("limited:atlas-sort");
     const savedGroup = localStorage.getItem("limited:atlas-group");
     if (atlasSortOptions.has(savedSort)) atlasSort = savedSort;
@@ -1250,6 +1252,8 @@
     $("#atlas-type").value = atlasTypeFilter;
     $("#atlas-rarity").value = atlasRarity;
     $("#atlas-search").value = atlasSearch;
+    $("#atlas-size").value = atlasSize;
+    elements.cardAtlas.dataset.size = atlasSize;
     const visibleCards = dateCards.filter((card) =>
       card.name.toLocaleLowerCase().includes(atlasSearch.trim().toLocaleLowerCase())
       && (atlasColour === "all" || card.color === atlasColour)
@@ -1331,7 +1335,12 @@
           : !ratingIsAvailable()
             ? `<span>${escapeHtml(card.rarity || "Unrated")}</span>`
             : `<span class="tier ${cardIsRated(card) ? "" : "tier-pending"}" style="--tier-color:${tierColors[card.tier] || tierColors["?"]}">${escapeHtml(cardIsRated(card) ? card.tier : "Unrated")}</span>`;
-        button.innerHTML = `<img src="${escapeHtml(card.image)}" alt="" width="80" height="112"><span class="atlas-card-copy"><strong>${cost}${escapeHtml(card.name)}</strong>${card.typeLine ? `<span class="atlas-card-type">${escapeHtml(card.typeLine)}</span>` : ""}<span class="atlas-card-meta">${meta}</span></span>`;
+        button.innerHTML = `<img src="${escapeHtml(atlasSize === "large" ? card.trainingImage || card.image : card.image)}" alt="" width="80" height="112" loading="lazy" decoding="async"><span class="atlas-card-copy"><strong>${cost}${escapeHtml(card.name)}</strong>${card.typeLine ? `<span class="atlas-card-type">${escapeHtml(card.typeLine)}</span>` : ""}<span class="atlas-card-meta">${meta}</span></span>`;
+        const image = button.querySelector("img");
+        image.onerror = () => {
+          image.onerror = null;
+          image.src = card.image;
+        };
         return button;
       }));
       section.append(grid);
@@ -1492,6 +1501,12 @@
     atlasSince = elements.previewSince.value;
     renderAtlas();
     updateUrl();
+  });
+
+  $("#atlas-size").addEventListener("change", (event) => {
+    atlasSize = event.target.value === "large" ? "large" : "compact";
+    try { localStorage.setItem("limited:atlas-size", atlasSize); } catch {}
+    renderAtlas();
   });
 
   $("#atlas-sort").addEventListener("change", (event) => {

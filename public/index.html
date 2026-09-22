@@ -10,7 +10,7 @@
     <link rel="icon" href="assets/icon-32.png" sizes="32x32" type="image/png">
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
     <link rel="manifest" href="manifest.webmanifest">
-    <link rel="stylesheet" href="styles.css?v=limited-prep-23">
+    <link rel="stylesheet" href="styles.css?v=limited-prep-24">
   </head>
   <body data-theme="fracture">
     <!--
@@ -352,6 +352,9 @@
             <label id="atlas-sort-field" for="atlas-sort"><span>Sort by</span><select id="atlas-sort">
               <option value="mana">Mana value</option><option value="name">Name</option><option value="rating">Rating</option>
             </select></label>
+            <label for="atlas-size"><span>Card size</span><select id="atlas-size">
+              <option value="compact">Compact</option><option value="large">Large</option>
+            </select></label>
             <button id="atlas-clear-filters" class="text-button" type="button" hidden>Clear filters</button>
           </div>
           <p id="atlas-results" class="atlas-results" role="status"></p>
@@ -396,6 +399,6 @@
     <script src="prep.js?v=3"></script>
     <script src="memory.js?v=3"></script>
     <script src="archetype-study.js?v=1"></script>
-    <script src="app.js?v=limited-prep-30"></script>
+    <script src="app.js?v=limited-prep-31"></script>
   </body>
 </html>
