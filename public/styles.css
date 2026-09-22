@@ -4252,7 +4252,7 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
 
 /* Readable card gallery; compact rows remain the default. */
 .card-atlas[data-size="large"] .atlas-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 24px;
 }
 .card-atlas[data-size="large"] .atlas-card {
