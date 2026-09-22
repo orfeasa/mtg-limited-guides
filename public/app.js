@@ -1163,6 +1163,7 @@
     });
   }
 
+  const previewHistory = [];
   function openCardPreview(cardId) {
     const card = cardById.get(cardId);
     if (!card) return;
@@ -1184,14 +1185,26 @@
       : `${card.rarity || "Preview"} · ${currentSet.code} #${card.collectorNumber || "—"}`;
     const evidencePanel = document.getElementById("card-preview-evidence");
     evidencePanel.innerHTML = hideDecisionRating || currentView === "memory" ? "" : window.EARLY_EVIDENCE.card(currentSet, card.id);
+    if (previewHistory.length) evidencePanel.insertAdjacentHTML("afterbegin", '<button type="button" class="card-preview-back">Back to previous card</button>');
     evidencePanel.hidden = !evidencePanel.innerHTML;
+    elements.cardPreviewFrame.scrollTop = 0;
     elements.cardPreview.classList.toggle("has-early-evidence", !evidencePanel.hidden);
     if (!elements.cardPreview.open) elements.cardPreview.showModal();
   }
 
   document.addEventListener("click", event => {
     const button = event.target.closest("[data-evidence-card]");
-    if (button) openCardPreview(button.dataset.evidenceCard);
+    if (button) {
+      if (elements.cardPreview.open) previewHistory.push({ id: previewCardId, scroll: elements.cardPreviewFrame.scrollTop, open: [...document.querySelectorAll('#card-preview-evidence details')].map(d => d.open) });
+      openCardPreview(button.dataset.evidenceCard);
+    }
+    if (event.target.closest('.card-preview-back') && previewHistory.length) {
+      const previous = previewHistory.pop();
+      openCardPreview(previous.id);
+      document.querySelectorAll('#card-preview-evidence details').forEach((d,i) => { d.open = previous.open[i]; });
+      elements.cardPreviewFrame.scrollTop = previous.scroll;
+      document.getElementById('close-card-preview').focus({ preventScroll: true });
+    }
   });
 
   function navigateCardPreview(direction) {
@@ -1635,6 +1648,7 @@
   }, { passive: false });
   elements.cardPreviewFrame.addEventListener("touchcancel", () => { previewTouchStart = null; });
   elements.cardPreview.addEventListener("close", () => {
+    previewHistory.length = 0;
     previewTouchStart = null;
     previewOpener?.focus();
     previewOpener = null;

@@ -591,3 +591,9 @@ The same local symbol renderer handles costs and notation in preparation metadat
 ### Early Limited evidence
 
 Learning before an event is the primary task. Embed ten colour-pair combination lessons into Prerelease prep, with card images, conditions and a revealable recall answer. Archetypes expands reviewer context in place; enlarged card details shows the original reviewer grades and available context. Use the existing themed reading surface and native disclosures. No extra tab, averaged rating, or Training gate change. Two grades per nonbasic card do not imply complete prose or gameplay coverage. Keep attribution and transcript limitations available within the relevant lesson.
+
+## Prerelease reading path — 2026-09-22
+
+The existing Prerelease prep surface remains the learning home. A ruled five-step navigation and Start/Continue action lead into one lesson at a time; the footer provides previous, mark-for-review and explicit completion controls. The mobile path uses full-width text rows. Completion describes reading progress, not mastery, and remains separate from quiz and checklist state. Existing indigo dossier tokens and typography are retained.
+
+Card details lead with a concise role, support condition, downside and any selected reviewer disagreement. Full attributed reviews unfold below this teaching; all 280 nonbasic FRA cards have review access, while 24 priority cards currently have authored takeaways. Source grades remain inside review disclosure, without a combined score. Related-card navigation can return to the previous card and its reading position. Card memory adds strategic context only after revealing an answer. No new top-level tab or rating lifecycle gate is introduced.

@@ -1,3 +1,5 @@
+> Website teaching now uses the [curated teaching layer](teaching/README.md) and complete card review passages. Historical extraction-first notes below describe earlier delivery boundaries.
+
 # Reality Fracture early evidence
 
 Captured 2026-09-22. **Full licensed extraction:** see [the research corpus](extraction/licensed/README.md) for 560 complete reviewer/card assessments, four caption exports, article context and three decklists. Website changes and synthesis are deferred.

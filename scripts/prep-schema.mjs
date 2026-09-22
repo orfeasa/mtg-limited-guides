@@ -12,6 +12,7 @@ export function validatePrep(guide, set) {
   check(guide.version === 1 && guide.set === set.code, "wrong version or set");
   check(["draft", "published"].includes(guide.status), "invalid publication status");
   check(date(guide.authoredAt), "invalid authoring date");
+  if (guide.progressRevision !== undefined) check(date(guide.progressRevision), "invalid progress revision");
   if (guide.status === "published") check(date(guide.publishedAt), "invalid publication date");
   check(prose(guide.assessment), "missing editorial boundary");
   check(guide.sources?.length > 0 && guide.sources.every((s) => prose(s.label) && /^https:\/\//.test(s.url)), "missing sources");

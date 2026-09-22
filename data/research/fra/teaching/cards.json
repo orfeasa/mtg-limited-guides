@@ -1,0 +1,541 @@
+{
+  "version": 1,
+  "set": "FRA",
+  "reviewedAt": "2026-09-22",
+  "scope": "Curated priority cards; full original reviews remain available for every main-set nonbasic card. No universal verdict, averaged grade or statistical performance claim.",
+  "format": "Limited opinions interpreted for Sealed preparation; not measured Sealed results.",
+  "cards": [
+    {
+      "cardId": "1bf923c4-f0b7-4271-978c-fd2e79fe1cc8",
+      "name": "Arcane Amphisbaena",
+      "role": "Early defence",
+      "why": "A deathtouch blocker can protect your life total and a Jace token while adding two loyalty.",
+      "better": "Better when your deck needs time to develop an empower engine.",
+      "watch": "It discourages ground attacks but is not a quick way to win.",
+      "disagreement": "Quinn calls it a strong early play; Josh sees a useful but less exciting two-drop.",
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:158",
+        "zone-green:1"
+      ],
+      "paragraphIds": [
+        "draftsim:158:p1",
+        "zone-green:1:p1",
+        "zone-green:1:p2",
+        "zone-green:1:p3"
+      ],
+      "rulesCardId": "1bf923c4-f0b7-4271-978c-fd2e79fe1cc8",
+      "basisSha256": "bb416135e21d0ff3f047ffd73c1612944946daeb7b9acea703f9018b9e117417"
+    },
+    {
+      "cardId": "29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b",
+      "name": "Fatehold Chronologist // Peer Review",
+      "role": "Two bodies from one card",
+      "why": "A cheap flyer followed by Peer Review develops your board without spending another card.",
+      "better": "Best when you can spend the next turn on the prepared spell.",
+      "watch": "Both bodies are small, and the uncast prepared copy is lost if the creature leaves.",
+      "disagreement": null,
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:208",
+        "zone-multicolor:14"
+      ],
+      "paragraphIds": [
+        "draftsim:208:p1",
+        "zone-multicolor:14:p1",
+        "zone-multicolor:14:p2"
+      ],
+      "rulesCardId": "29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b",
+      "basisSha256": "772f78f2555bcbcf3d253399d241c468d8a0bb5143ad471bb3c65d00b5442a2e"
+    },
+    {
+      "cardId": "e0de5f66-f0df-4866-9f73-104ce50411b4",
+      "name": "Bestial Incursion",
+      "role": "Threat with a second use",
+      "why": "One card can produce two trampling 4/4s over separate turns.",
+      "better": "Self-mill or discard can give you access to the flashback without casting it from hand.",
+      "watch": "The second cast costs six mana; you still need early plays.",
+      "disagreement": null,
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:159",
+        "zone-green:2"
+      ],
+      "paragraphIds": [
+        "draftsim:159:p1",
+        "zone-green:2:p1",
+        "zone-green:2:p2"
+      ],
+      "rulesCardId": "e0de5f66-f0df-4866-9f73-104ce50411b4",
+      "basisSha256": "c01f7a633ebe4144b45c09691032c0e8a97e6e1d39e51fb33ba65ad19a11a75c"
+    },
+    {
+      "cardId": "18c59d60-2640-4576-9375-3ba38aa3ecb7",
+      "name": "Budding Insurgent",
+      "role": "Creature with utility",
+      "why": "Vigilance gives you a normal curve play with an artifact or enchantment answer attached.",
+      "better": "More useful when the opponent has an important target; a legendary enchantment also replaces the sacrificed card.",
+      "watch": "The sacrifice ability is sorcery-speed, and using it gives up your creature.",
+      "disagreement": "Quinn starts lower because he questions target availability; Josh values the acceptable body and incidental upside.",
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:160",
+        "zone-green:3"
+      ],
+      "paragraphIds": [
+        "draftsim:160:p1",
+        "zone-green:3:p1",
+        "zone-green:3:p2",
+        "zone-green:3:p3"
+      ],
+      "rulesCardId": "18c59d60-2640-4576-9375-3ba38aa3ecb7",
+      "basisSha256": "e32aa9e7ca3d38b1da06cfe23ce093f8eb9908783e27188a9416d1d4f22c98cc"
+    },
+    {
+      "cardId": "f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd",
+      "name": "Generous Revival",
+      "role": "Conditional recursion",
+      "why": "Returns a small creature with an extra counter and can be cast again through flashback.",
+      "better": "Look for useful creatures with mana value three or less, especially worthwhile enters abilities.",
+      "watch": "It needs a target already in the graveyard, and the five-mana flashback is slow.",
+      "disagreement": "Quinn is sceptical of the setup and mana cost; Josh sees a playable two-for-one in the right deck.",
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:9",
+        "zone-white:9"
+      ],
+      "paragraphIds": [
+        "draftsim:9:p1",
+        "zone-white:9:p1",
+        "zone-white:9:p2",
+        "zone-white:9:p3"
+      ],
+      "rulesCardId": "f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd",
+      "basisSha256": "9ee370a96ab1617df5abfe0a976b0d9709d1dbc71d53d2113e42af3aeb50524b"
+    },
+    {
+      "cardId": "55f85984-0137-4899-8993-bbc8c4794d33",
+      "name": "Twinned Vision",
+      "role": "Spell and graveyard support",
+      "why": "Provides two spell casts from one card, useful when casting spells generates additional value.",
+      "better": "Improves with spell payoffs or ways to discard or mill it.",
+      "watch": "The hand cast only draws one card; flashback also requires discarding a card.",
+      "disagreement": "Quinn wants discard or self-mill support; Josh is more receptive to its card flow in spell-heavy decks.",
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:238",
+        "zone-multicolor:44"
+      ],
+      "paragraphIds": [
+        "draftsim:238:p1",
+        "zone-multicolor:44:p1",
+        "zone-multicolor:44:p2",
+        "zone-multicolor:44:p3"
+      ],
+      "rulesCardId": "55f85984-0137-4899-8993-bbc8c4794d33",
+      "basisSha256": "1a86060d7c8a156b27e971253956dd42f45156d6492ad4e467fed82ba372ac4b"
+    },
+    {
+      "cardId": "0eae2efb-bf25-48ee-9c07-9098008110ad",
+      "name": "Void Extrapolator // Omit Variables",
+      "role": "Self-mill enabler",
+      "why": "An early creature that supplies a prepared mill spell and grows at threshold.",
+      "better": "Prioritise it when reaching seven graveyard cards benefits several cards in your deck.",
+      "watch": "Outside a graveyard plan, the body and self-mill are much less compelling.",
+      "disagreement": "Quinn highlights its importance to the self-mill deck; Josh puts more emphasis on how much support it needs.",
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:112",
+        "zone-black:34"
+      ],
+      "paragraphIds": [
+        "draftsim:112:p1",
+        "zone-black:34:p1",
+        "zone-black:34:p2",
+        "zone-black:34:p3"
+      ],
+      "rulesCardId": "0eae2efb-bf25-48ee-9c07-9098008110ad",
+      "basisSha256": "977b0939424dc666593d23a0ac922479a2e1aef75e6c71c6a81ce152e9fa74a7"
+    },
+    {
+      "cardId": "8096bc9a-a610-448f-bef2-7230e17e9777",
+      "name": "Whiplash Wordsmith // Vicious Verse",
+      "role": "Conditional evasive attacker",
+      "why": "Its prepared ping can enable flying and haste for an immediate attack.",
+      "better": "Other sources of noncombat damage can enable later attacks without relying on the one-shot prepared spell.",
+      "watch": "Casting the creature and its prepared spell in one turn costs five mana. Both reviewers question that rate.",
+      "disagreement": null,
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:247",
+        "zone-multicolor:53"
+      ],
+      "paragraphIds": [
+        "draftsim:247:p1",
+        "zone-multicolor:53:p1",
+        "zone-multicolor:53:p2",
+        "zone-multicolor:53:p3"
+      ],
+      "rulesCardId": "8096bc9a-a610-448f-bef2-7230e17e9777",
+      "basisSha256": "81ed20a6790b0b1f1029cec6ea03b29d4990432664dd53ed5250d6e7b4077791"
+    },
+    {
+      "cardId": "2f5345ae-4489-4d05-b2d5-c71285254f05",
+      "name": "Memory Trap",
+      "role": "Broad removal",
+      "why": "Three mana answers an opposing nonland permanent, including a planeswalker.",
+      "better": "Useful when your other answers cannot handle a particular permanent type.",
+      "watch": "The exiled permanent returns if the enchantment leaves the battlefield.",
+      "disagreement": null,
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:21",
+        "zone-white:21"
+      ],
+      "paragraphIds": [
+        "draftsim:21:p1",
+        "zone-white:21:p1",
+        "zone-white:21:p2"
+      ],
+      "rulesCardId": "2f5345ae-4489-4d05-b2d5-c71285254f05",
+      "basisSha256": "e763ef99131287fee3c139bd4a4f6bc1f89f91bf682fa9896e13adb57afe06f3"
+    },
+    {
+      "cardId": "eb4b6ed8-782e-4473-abc9-d50bf2275c6a",
+      "name": "Extended Absence",
+      "role": "Flexible exile removal",
+      "why": "Instant-speed exile answers a creature or planeswalker; the damage and life gain can also trigger payoffs.",
+      "better": "Especially useful alongside noncombat-damage or life-gain rewards.",
+      "watch": "Four-mana answers can crowd your curve. Leave room for cheaper interaction.",
+      "disagreement": "Both value it highly; Josh specifically cautions against loading up on too many four-mana removal spells.",
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:86",
+        "zone-black:8"
+      ],
+      "paragraphIds": [
+        "draftsim:86:p1",
+        "zone-black:8:p1",
+        "zone-black:8:p2",
+        "zone-black:8:p3"
+      ],
+      "rulesCardId": "eb4b6ed8-782e-4473-abc9-d50bf2275c6a",
+      "basisSha256": "c6033146f81ad8b4c5ead0558d72675e8f22ea1b3f6d9d34a9e2705b70a3c2b7"
+    },
+    {
+      "cardId": "2381d123-d8c7-4822-98fe-b1c365beb5ed",
+      "name": "Last Gasp",
+      "role": "Cheap interaction",
+      "why": "Efficiently removes small creatures or shrinks a larger creature during combat.",
+      "better": "A blocker or another source of damage can help finish a creature it cannot kill alone.",
+      "watch": "It gives −3/−3, so an undamaged 4/4 becomes a 1/1 and survives.",
+      "disagreement": null,
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:91",
+        "zone-black:13"
+      ],
+      "paragraphIds": [
+        "draftsim:91:p1",
+        "zone-black:13:p1",
+        "zone-black:13:p2"
+      ],
+      "rulesCardId": "2381d123-d8c7-4822-98fe-b1c365beb5ed",
+      "basisSha256": "be6d803db138d4b77306b24b409c5fd9a5982e253b51a47fa90aafb7570ff8f5"
+    },
+    {
+      "cardId": "b5b55617-684a-4036-be9b-a3b24fc9cd5a",
+      "name": "Wrath of the Bloodmane",
+      "role": "Creature or planeswalker removal",
+      "why": "Four damage can answer a creature or a Jace token even without the discount.",
+      "better": "A legendary creature reduces the cost by one generic mana.",
+      "watch": "An empower Jace token is a planeswalker, not a legendary creature, and does not enable the discount.",
+      "disagreement": "Quinn likes the undiscounted rate; Josh finds it less exciting than removal that also generates extra value.",
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:157",
+        "zone-red:40"
+      ],
+      "paragraphIds": [
+        "draftsim:157:p1",
+        "zone-red:40:p1",
+        "zone-red:40:p2",
+        "zone-red:40:p3"
+      ],
+      "rulesCardId": "b5b55617-684a-4036-be9b-a3b24fc9cd5a",
+      "basisSha256": "873c9d4b84564b4b673d10e87c738d0cb5bc289b1d5b752175eb7a0eb65ddcb5"
+    },
+    {
+      "cardId": "b8dfd087-2434-42c6-ac4c-1decbcdde2db",
+      "name": "Yoshimaru, Scrappy Stray",
+      "role": "Fight attached to a creature",
+      "why": "Adds a body while another creature you control fights an opposing creature.",
+      "better": "Best with a large creature or deathtoucher already on your battlefield.",
+      "watch": "Yoshimaru cannot be its own fighter. Opposing interaction can spoil the fight.",
+      "disagreement": "Quinn is particularly enthusiastic about recurring the enters ability; Josh stresses that fighting is riskier than one-sided damage.",
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:194",
+        "zone-green:37"
+      ],
+      "paragraphIds": [
+        "draftsim:194:p1",
+        "zone-green:37:p1",
+        "zone-green:37:p2",
+        "zone-green:37:p3",
+        "zone-green:37:p4"
+      ],
+      "rulesCardId": "b8dfd087-2434-42c6-ac4c-1decbcdde2db",
+      "basisSha256": "5300e3eda022d841b5a003e60d84e0aec0efe3e42a128634acb823814fa0a4ad"
+    },
+    {
+      "cardId": "2b198e10-b507-4314-a29c-a219f06e48b7",
+      "name": "Vigorbloom Charm",
+      "role": "Flexible interaction",
+      "why": "Can protect a permanent, draw a card and gain life, or grow a creature before it fights.",
+      "better": "Holding it up is useful when either protection or a fight would change the next exchange.",
+      "watch": "You need both colours, and the fight mode still needs a suitable creature.",
+      "disagreement": null,
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:241",
+        "zone-multicolor:47"
+      ],
+      "paragraphIds": [
+        "draftsim:241:p1",
+        "zone-multicolor:47:p1",
+        "zone-multicolor:47:p2",
+        "zone-multicolor:47:p3"
+      ],
+      "rulesCardId": "2b198e10-b507-4314-a29c-a219f06e48b7",
+      "basisSha256": "43ba269d130d0cb5a51da0dbb7d1f1397a1d9c722d42d44ed53c251ff14af891"
+    },
+    {
+      "cardId": "6c1c790b-9e0e-4964-9ea3-554843907f06",
+      "name": "Prudent Fateseer // Peer Review",
+      "role": "Go-wide support",
+      "why": "Peer Review supplies a second body, while scry or surveil can boost your team before combat.",
+      "better": "Gets better with several attackers and reliable ways to scry or surveil.",
+      "watch": "The +1/+0 boost happens only once each turn and does little on an empty board.",
+      "disagreement": "Quinn gives little credit to the small boost; Josh sees more upside when the deck can go wide and trigger it reliably.",
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:225",
+        "zone-multicolor:31"
+      ],
+      "paragraphIds": [
+        "draftsim:225:p1",
+        "zone-multicolor:31:p1",
+        "zone-multicolor:31:p2",
+        "zone-multicolor:31:p3"
+      ],
+      "rulesCardId": "6c1c790b-9e0e-4964-9ea3-554843907f06",
+      "basisSha256": "434b2ccbe325b1aa067d012b95f5a93197c17cf251c61c603bb8a161ad3ba5d8"
+    },
+    {
+      "cardId": "7d17f7e3-7b63-4674-9024-4fd1827f40ec",
+      "name": "Woodwork Prodigy // Soul Tether",
+      "role": "Repeatable ramp",
+      "why": "Can prepare again each upkeep and keep producing Heartwood tokens over multiple turns.",
+      "better": "Needs expensive spells, artifact uses or mana sinks worth accelerating into.",
+      "watch": "Each Soul Tether still costs three mana, and the creature supplies no payoff for the accumulated mana.",
+      "disagreement": "Quinn is very enthusiastic about repeated Heartwoods; Josh ties its value more closely to the deck’s ramp targets and mana sinks.",
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:248",
+        "zone-multicolor:54"
+      ],
+      "paragraphIds": [
+        "draftsim:248:p1",
+        "zone-multicolor:54:p1",
+        "zone-multicolor:54:p2",
+        "zone-multicolor:54:p3"
+      ],
+      "rulesCardId": "7d17f7e3-7b63-4674-9024-4fd1827f40ec",
+      "basisSha256": "07605458cfdc2898b4359e98bf0c3a0132c1e86874011c5b6f2697b0d9756673"
+    },
+    {
+      "cardId": "5838af68-66c3-4fe8-ab89-0a1721b0cfeb",
+      "name": "Way of the Mind Sculptor",
+      "role": "Empower build-around",
+      "why": "Adds loyalty and rewards loyalty activations that remove at least two counters.",
+      "better": "Additional empower sources or planeswalkers help turn the initial investment into repeated draws.",
+      "watch": "Five mana does not add a blocker. A weak board or too little support can leave this slow enchantment stranded.",
+      "disagreement": "Quinn doubts the investment will pay off; Josh sees a higher ceiling with additional empower support.",
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:76",
+        "zone-blue:37"
+      ],
+      "paragraphIds": [
+        "draftsim:76:p1",
+        "zone-blue:37:p1",
+        "zone-blue:37:p2",
+        "zone-blue:37:p3"
+      ],
+      "rulesCardId": "5838af68-66c3-4fe8-ab89-0a1721b0cfeb",
+      "basisSha256": "b8820c6e5d874b37f61913db7e046f43670b0bcf8e0d64cb79bdee61b9e7876b"
+    },
+    {
+      "cardId": "d68eab2e-89dd-4377-b7af-01512b1804a0",
+      "name": "Murmuring Volume",
+      "role": "Fixing for slower decks",
+      "why": "Supplies any colour and can exchange an unwanted card for a new draw later.",
+      "better": "Consider it for a slower deck that needs fixing, ramp or artifact support.",
+      "watch": "Spending turn three on a mana rock can leave you behind. Most straightforward two-colour decks may not need it.",
+      "disagreement": null,
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:259",
+        "zone-artifacts-and-lands:11"
+      ],
+      "paragraphIds": [
+        "draftsim:259:p1",
+        "zone-artifacts-and-lands:11:p1",
+        "zone-artifacts-and-lands:11:p2",
+        "zone-artifacts-and-lands:11:p3",
+        "zone-artifacts-and-lands:11:p4"
+      ],
+      "rulesCardId": "d68eab2e-89dd-4377-b7af-01512b1804a0",
+      "basisSha256": "542338df6daa8414bd36b11706fa74785016bb81d0afa42a7cf283d842d0dff7"
+    },
+    {
+      "cardId": "9a467560-6676-4fc2-9400-768a79650aa4",
+      "name": "Room of Refuge",
+      "role": "Flexible fixing",
+      "why": "Chooses the colour your mana base needs and offers a late use when another land is less valuable.",
+      "better": "Useful for a missing colour source without needing a basic of that colour in your deck.",
+      "watch": "It enters tapped, only makes the chosen colour, and its counter ability costs five mana plus the land itself.",
+      "disagreement": "Quinn usually prefers a dual land; Josh considers the fixing and late utility a closer comparison.",
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:266",
+        "zone-artifacts-and-lands:18"
+      ],
+      "paragraphIds": [
+        "draftsim:266:p1",
+        "zone-artifacts-and-lands:18:p1",
+        "zone-artifacts-and-lands:18:p2",
+        "zone-artifacts-and-lands:18:p3",
+        "zone-artifacts-and-lands:18:p4"
+      ],
+      "rulesCardId": "9a467560-6676-4fc2-9400-768a79650aa4",
+      "basisSha256": "3097c2d10a8848322fb6e5fd0b1274b77b1593ded66a70d8ddd8bd775615c843"
+    },
+    {
+      "cardId": "3db2da7a-8088-4117-916b-f9c905d1b45b",
+      "name": "Hungering Puppetbeast",
+      "role": "Threat with protection",
+      "why": "Brings the artifact it needs to grow and gain haste, trample or hexproof.",
+      "better": "Keeping one mana and another artifact available preserves the option to respond to removal.",
+      "watch": "Each activation consumes another artifact. Spending the Heartwood to attack immediately uses up that protection resource.",
+      "disagreement": null,
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:172",
+        "zone-green:15"
+      ],
+      "paragraphIds": [
+        "draftsim:172:p1",
+        "zone-green:15:p1",
+        "zone-green:15:p2",
+        "zone-green:15:p3"
+      ],
+      "rulesCardId": "3db2da7a-8088-4117-916b-f9c905d1b45b",
+      "basisSha256": "78b9279a4fbcbb9a754166bc7d63e1746c758797aeae016994d5f2a9d02a37ac"
+    },
+    {
+      "cardId": "d48bfb8a-d135-45f3-be99-4694b4b9ab93",
+      "name": "Garruk, Veiled Butcher",
+      "role": "Versatile planeswalker",
+      "why": "Can weaken an attacker, trade a small creature for a Beast, or attack the opponent’s hand.",
+      "better": "Small expendable creatures improve the sacrifice mode; a protected board lets him generate value over several turns.",
+      "watch": "The sacrifice mode affects you too, and −4/−1 does not kill most large creatures.",
+      "disagreement": null,
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:89",
+        "zone-black:11"
+      ],
+      "paragraphIds": [
+        "draftsim:89:p1",
+        "zone-black:11:p1",
+        "zone-black:11:p2",
+        "zone-black:11:p3",
+        "zone-black:11:p4"
+      ],
+      "rulesCardId": "d48bfb8a-d135-45f3-be99-4694b4b9ab93",
+      "basisSha256": "1b741a99aa497ac041f25f020be9ebb80651534faf3280b1097614fd907d59c3"
+    },
+    {
+      "cardId": "40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd",
+      "name": "Chandra, Torch of Defiance",
+      "role": "Removal and continuing value",
+      "why": "Can immediately deal four damage to a creature, then generate cards, damage or mana on later turns.",
+      "better": "A stable board and a reliable red base help you protect and cast her.",
+      "watch": "She cannot both use removal and her card-advantage ability in the same turn. Her removal targets creatures, not planeswalkers.",
+      "disagreement": "Both reviewers are enthusiastic. Josh reserves his highest grade for planeswalkers that generate value and protect themselves at the same time.",
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:124",
+        "zone-red:7"
+      ],
+      "paragraphIds": [
+        "draftsim:124:p1",
+        "zone-red:7:p1",
+        "zone-red:7:p2",
+        "zone-red:7:p3",
+        "zone-red:7:p4",
+        "zone-red:7:p5",
+        "zone-red:7:p6"
+      ],
+      "rulesCardId": "40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd",
+      "basisSha256": "03ce367038546d099aa39002c6fddd9b8e6cce174a37238e6ad8492e77d16577"
+    },
+    {
+      "cardId": "a56e0f91-b128-4693-a949-53cb403f4fbf",
+      "name": "Greenhouse Propagator",
+      "role": "Ramp and life-gain enabler",
+      "why": "Produces mana and turns later creatures entering into life-gain triggers.",
+      "better": "Life-gain payoffs make those triggers valuable beyond the extra life.",
+      "watch": "A three-mana ramp creature can be inefficient when the deck has no life-gain rewards.",
+      "disagreement": "Quinn expects several decks to want it; Josh wants multiple life-gain payoffs before valuing it highly.",
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:169",
+        "zone-green:12"
+      ],
+      "paragraphIds": [
+        "draftsim:169:p1",
+        "zone-green:12:p1",
+        "zone-green:12:p2",
+        "zone-green:12:p3"
+      ],
+      "rulesCardId": "a56e0f91-b128-4693-a949-53cb403f4fbf",
+      "basisSha256": "fd89aa849445ea01304ab8bebce3d786122626fc841590741c6fbe02d326fb4f"
+    },
+    {
+      "cardId": "c3ff8dd3-88a8-49dc-a59b-e2748680623c",
+      "name": "Emrakul, the Exigent Doom",
+      "role": "Expensive top end",
+      "why": "Flying, trample and a cast trigger that untaps your lands offer a spectacular late play.",
+      "better": "Requires a realistic route to ten mana and a deck that survives long enough to use it.",
+      "watch": "Both reviewers are sceptical: the mana investment is enormous, and an opponent may pay ward by sacrificing spare lands.",
+      "disagreement": null,
+      "basis": "editorial-reading-of-two-reviews-and-card-rules",
+      "reviewSectionIds": [
+        "draftsim:249",
+        "zone-artifacts-and-lands:1"
+      ],
+      "paragraphIds": [
+        "draftsim:249:p1",
+        "zone-artifacts-and-lands:1:p1",
+        "zone-artifacts-and-lands:1:p2",
+        "zone-artifacts-and-lands:1:p3",
+        "zone-artifacts-and-lands:1:p4"
+      ],
+      "rulesCardId": "c3ff8dd3-88a8-49dc-a59b-e2748680623c",
+      "basisSha256": "8f05c99178ccebcc7992b7fab1a08e24ae00042d73dcdb99766e79be7a519b82"
+    }
+  ]
+}

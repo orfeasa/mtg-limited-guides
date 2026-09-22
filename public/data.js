@@ -4738,7 +4738,8 @@ window.LIMITED_PREP_DATA = {
         "set": "FRA",
         "status": "published",
         "publishedAt": "2026-09-18",
-        "authoredAt": "2026-09-20",
+        "authoredAt": "2026-09-22",
+        "progressRevision": "2026-09-20",
         "assessment": "Early card selections and deck-building advice are our assessment of the rules text, not measured performance. Revisit them as games and results arrive.",
         "sources": [
           {
@@ -4865,6 +4866,10 @@ window.LIMITED_PREP_DATA = {
           {
             "id": "mana",
             "label": "Fixing"
+          },
+          {
+            "id": "conditional",
+            "label": "Check the support"
           }
         ],
         "keyCards": [
@@ -4999,6 +5004,18 @@ window.LIMITED_PREP_DATA = {
             "role": "mana",
             "why": "Produces any colour and can turn an unwanted card into a new draw later.",
             "watch": "Costs three mana before it helps. It is not a substitute for enough lands of your main colours."
+          },
+          {
+            "card": "Greenhouse Propagator",
+            "role": "conditional",
+            "why": "Produces mana and turns later creatures entering into life-gain triggers.",
+            "watch": "A three-mana ramp creature can be inefficient when the deck has no life-gain rewards."
+          },
+          {
+            "card": "Emrakul, the Exigent Doom",
+            "role": "conditional",
+            "why": "Flying, trample and a cast trigger that untaps your lands offer a spectacular late play.",
+            "watch": "Both reviewers are sceptical: the mana investment is enormous, and an opponent may pay ward by sacrificing spare lands."
           }
         ],
         "interactions": [
@@ -5151,6 +5168,48 @@ window.LIMITED_PREP_DATA = {
             "cards": [
               "Hungering Puppetbeast"
             ]
+          },
+          {
+            "id": "wrath-jace",
+            "cards": [
+              "Wrath of the Bloodmane"
+            ],
+            "question": "You control an empower Jace token but no legendary creatures. How much does Wrath of the Bloodmane cost?",
+            "options": [
+              "Two mana: one generic and one red",
+              "Three mana: two generic and one red",
+              "One red mana"
+            ],
+            "answer": 1,
+            "explanation": "The discount needs a legendary creature. A Jace token is a planeswalker, so it does not meet that condition."
+          },
+          {
+            "id": "vision-discard",
+            "cards": [
+              "Twinned Vision"
+            ],
+            "question": "You have enough mana to flash back Twinned Vision, but no cards in hand. Can you cast it for its flashback cost?",
+            "options": [
+              "Yes, drawing two pays for the discard",
+              "No, discarding a card is part of the cost",
+              "Yes, but you only draw one card"
+            ],
+            "answer": 1,
+            "explanation": "You must pay the discard before the spell resolves. The future draw cannot pay that cost."
+          },
+          {
+            "id": "puppetbeast-resource",
+            "cards": [
+              "Hungering Puppetbeast"
+            ],
+            "question": "Your only other artifact is an untapped Heartwood. With no floating mana or untapped lands, can it pay for Puppetbeast’s ability that grants hexproof?",
+            "options": [
+              "No, a tapped artifact cannot be sacrificed",
+              "Yes, tap it for mana, then sacrifice it to the ability",
+              "No, it only pays for spells"
+            ],
+            "answer": 1,
+            "explanation": "Heartwood can supply the one mana and then be sacrificed as the other cost. Keeping it available preserves this protection option."
           }
         ],
         "twoHeadedGiant": {
@@ -5529,7 +5588,53 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:249",
+                "paragraphIds": [
+                  "draftsim:249:p1"
+                ],
+                "text": "I guess we’re heading into an Eldrazi storyline for 2027, and I’m all here for it! Sadly, as cool as Emrakul, the Exigent Doom is, it isn’t worth trying to cast at all. Ten mana is, well, untenable. Konstrari could be good to help ramp into it with Heartwood tokens, but after you put in all the effort to get Emrakul into play, it just dies to removal. The ward cost looks impressive, but it’s easy enough to pay by sacrificing lands. I’m not saying Emrakul will be removed every time, but the fact that your opponent can deal with it is too much of a downside for me to want to go out of my way to play it.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:1",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:1:p1",
+                  "zone-artifacts-and-lands:1:p2",
+                  "zone-artifacts-and-lands:1:p3",
+                  "zone-artifacts-and-lands:1:p4"
+                ],
+                "text": "I’ve always been a fan of Emrakul, both the character and the cards. This one doesn’t quite live up to the hype, though. It feels a little more like a nostalgia grab than an actual Limited bomb.\n\nEven if you use the ability first, you’re still functionally paying nine mana for this. Untapping all your lands sounds great, but it probably matters less than you think because you’re likely going to be close to empty-handed by the time this actually hits the battlefield.\n\nSacrificing three permanents to target it with removal sounds like a massive cost, but that late in the game your opponent can probably just toss a few lands and move on with their life.\n\nThat’s a lot of setup for something I’m not convinced actually takes over the game.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "c3ff8dd3-88a8-49dc-a59b-e2748680623c",
+              "name": "Emrakul, the Exigent Doom",
+              "role": "Expensive top end",
+              "why": "Flying, trample and a cast trigger that untaps your lands offer a spectacular late play.",
+              "better": "Requires a realistic route to ten mana and a deck that survives long enough to use it.",
+              "watch": "Both reviewers are sceptical: the mana investment is enormous, and an opponent may pay ward by sacrificing spare lands.",
+              "disagreement": null,
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:249",
+                "zone-artifacts-and-lands:1"
+              ],
+              "paragraphIds": [
+                "draftsim:249:p1",
+                "zone-artifacts-and-lands:1:p1",
+                "zone-artifacts-and-lands:1:p2",
+                "zone-artifacts-and-lands:1:p3",
+                "zone-artifacts-and-lands:1:p4"
+              ],
+              "rulesCardId": "c3ff8dd3-88a8-49dc-a59b-e2748680623c",
+              "basisSha256": "8f05c99178ccebcc7992b7fab1a08e24ae00042d73dcdb99766e79be7a519b82"
+            }
           },
           "730d8c28-1e58-4b8e-89e9-445d154d2e83": {
             "grades": [
@@ -5554,7 +5659,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:1",
+                "paragraphIds": [
+                  "draftsim:1:p1"
+                ],
+                "text": "If a combat trick can draw you a card as well as kill something in combat, then that elevates it well into good playable territory. Empower Jace 2 basically makes Academic Ascent get you two thirds of the way there, which honestly feels very fair for a common. This still isn’t the most playable card in the world, but the empower ability definitely makes me more interested than I’d normally be.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:1",
+                "paragraphIds": [
+                  "zone-white:1:p1",
+                  "zone-white:1:p2",
+                  "zone-white:1:p3"
+                ],
+                "text": "Sometimes the smallest details are what separate a solid trick from filler. In this case, Academic Ascent really needed to Empower Jace for three instead of two.\n\nThat extra point would have allowed it to function as a cantrip instead of essentially giving you a double surveil. You’ll probably have plenty of other ways to Empower Jace, but needing another card before this actually replaces itself is a real drawback.\n\nIt’s one mana too expensive for the trick itself and one Empower short of providing enough extra value to make me interested.",
+                "scope": "card"
+              }
+            ]
           },
           "5e77fbf0-9d1f-4e7d-a02e-43065d11b0d9": {
             "grades": [
@@ -5579,7 +5706,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:3",
+                "paragraphIds": [
+                  "draftsim:3:p1"
+                ],
+                "text": "A 2/4 with flying and vigilance is perfectly fine, though a little under-statted for modern Limited. What really sells Blossom-Blessed Angel though is the Seed Suture spell, because you can now make it a 3/5 or buff something more relevant for very cheap. Basically, this adds a fair amount to the board while gaining life , so it shouldn’t be that bad, but it’s not exceptional either.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:3",
+                "paragraphIds": [
+                  "zone-white:3:p1",
+                  "zone-white:3:p2",
+                  "zone-white:3:p3"
+                ],
+                "text": "This does a wonderful job of clogging up the board while still being able to peck in for some damage through the air. Nothing spectacular, but sometimes being mildly annoying in multiple directions is a perfectly acceptable career path.\n\nI actually really like how the card is structured. If this were all stapled together as one five-mana package, I’d probably want nothing to do with it. Getting to spread the cost out makes it significantly easier to work with and keeps you from having another clunky five-drop rotting in your hand.\n\nYou even get a bonus life gain trigger thrown into the deal. It’s not going to blow anyone away, but there’s enough useful stuff here that I’m perfectly fine running it.",
+                "scope": "card"
+              }
+            ]
           },
           "6047b14c-91d5-4f8e-af3f-057a541e2546": {
             "grades": [
@@ -5604,7 +5753,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:4",
+                "paragraphIds": [
+                  "draftsim:4:p1"
+                ],
+                "text": "Campus Crier looks like a very solid common 2-drop to me. A 3/1 for 2 has proven to be very reasonable to play in most aggressive decks and 3 power is especially good at pressuring opposing Jace tokens. Plus, getting some free value out of it after it dies or when you surveil it away is just the icing on the cake!",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:4",
+                "paragraphIds": [
+                  "zone-white:4:p1",
+                  "zone-white:4:p2"
+                ],
+                "text": "I’m not going to cry about this one not giving you the full card back because you’re already getting a perfectly serviceable two-drop out of the deal.\n\nHow good a 3/1 for two is will depend a lot on how many 1/1 dorks your opponent is throwing around, but it definitely has the potential to trade up. It can also squeeze out a little extra value if it gets milled or discarded, which makes it a bit more useful than your average filler creature.",
+                "scope": "card"
+              }
+            ]
           },
           "483fcc58-cc6e-4452-a696-7b38e117c837": {
             "grades": [
@@ -5629,7 +5799,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:6",
+                "paragraphIds": [
+                  "draftsim:6:p1"
+                ],
+                "text": "Bob’s more enlightened cousin looks like they might be quite a bit stronger in Limited. Enlightened Confidant basically lets you draw a card at the end of your turn if its mana value is less than or equal to the amount of life you’ve gained this turn. Having lifelink is a good way to help you with that, assuming you can attack with them, but it’ll be the other lifegain sources from Vigorbloom that will really let this pop off. You really need to support this card, but since there’s an archetype here that’s perfectly built for it, that should be fairly easy to do.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:6",
+                "paragraphIds": [
+                  "zone-white:6:p1",
+                  "zone-white:6:p2",
+                  "zone-white:6:p3"
+                ],
+                "text": "The floor on this can’t be too low because, at the end of the day, it’s still a two-power lifelinker for two mana. Granted, that’s fallen a long way from the days when that alone would make people start getting excited.\n\nIf you’re behind and don’t have any other way to gain life, that’s basically all you’re getting here.\n\nThe reason it earns a 3.5 is the ceiling. If you’re ahead and have other ways to enable it, this can start taking over a game pretty quickly. That puts it right around the value of a strong uncommon: very good, very playable, but not something that’s going to make me slam the table and declare the draft over.",
+                "scope": "card"
+              }
+            ]
           },
           "f0c8400d-824f-4d79-84bc-7615a0deb831": {
             "grades": [
@@ -5654,7 +5846,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:7",
+                "paragraphIds": [
+                  "draftsim:7:p1"
+                ],
+                "text": "This common has a nice bit of potential. I’d imagine that nearly every deck in this format will have at least one legendary creature in it, thanks to the prevalence of the echoed pairs. As such, having a 5-drop like Fateshaper Aspirant to allow you to pick it back up again should be pretty good. It even has another option you can use if it’s more relevant at the time. Gravedigger variants are of course very good; it’s just the extra mana that holds this one back a little.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:7",
+                "paragraphIds": [
+                  "zone-white:7:p1",
+                  "zone-white:7:p2",
+                  "zone-white:7:p3"
+                ],
+                "text": "This feels like a card that’s fated to be a one-of in a whole lot of decks.\n\nI actually like most of the things it aspires to do, but five-drops can clog up your hand faster than Taco Bell clogs up…well, you know where this is going.\n\nThere are plenty of better uncommons and rares competing for that spot on the curve, so I’m never going to prioritize this. That said, I won’t be too upset when I have to run one.",
+                "scope": "card"
+              }
+            ]
           },
           "686f3a25-305d-4f02-8972-eba7b8e9635f": {
             "grades": [
@@ -5679,7 +5893,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:8",
+                "paragraphIds": [
+                  "draftsim:8:p1",
+                  "draftsim:8:p2"
+                ],
+                "text": "There was a TV commercial in the UK back in the 90s for Ronseal “Quick Drying Woodstain”. It used a rather obnoxious guy painting his fence panels and a slogan that became an instant hit across the country: “It does exactly what it says on the tin!”\n\nWell, that’s exactly what you get with Flickering Hound . It’s a hound… and it flickers stuff. It’s of course a color-shifted Displacer Kitten , except that since it triggers off of creature spells, it triggers more often in Limited. The only thing you need is some good creatures to be flickered, of which there are a few in the set, but I’d just be extremely wary of how bad a 4-mana 2/2 is when you don’t have them.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:8",
+                "paragraphIds": [
+                  "zone-white:8:p1",
+                  "zone-white:8:p2",
+                  "zone-white:8:p3"
+                ],
+                "text": "Your mileage is going to vary quite a bit on this one. The more ETB effects you have floating around, the more disgusting this gets.\n\nThere are going to be games where Flickering Hound plays like a straight-up 5.0 and buries your opponent in value. There are also going to be games where it hits the battlefield, immediately eats a two-mana removal spell, and makes you question some life choices.\n\nThe nice part is that it’s technically a build-around without really asking you to build around it. You already want to play good creatures with ETBs, so this mostly rewards you for doing something you were planning to do anyway.",
+                "scope": "card"
+              }
+            ]
           },
           "f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd": {
             "grades": [
@@ -5708,7 +5945,51 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [],
             "combinationIds": [
               "lesson-wb"
-            ]
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:9",
+                "paragraphIds": [
+                  "draftsim:9:p1"
+                ],
+                "text": "While getting to flash this back is a nice upgrade, Recommission was a card you didn’t play very often. This takes some setup, and Generous Revival doesn’t even let you cheat on the mana value of what you’re getting back. I’m sure there’ll be the odd deck in which this can shine, but this is quite a bit weaker than The Mountain-king Returns from The Hobbit .",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:9",
+                "paragraphIds": [
+                  "zone-white:9:p1",
+                  "zone-white:9:p2",
+                  "zone-white:9:p3"
+                ],
+                "text": "How generous this card actually feels is going to depend heavily on how many cheap creatures you have with ETB effects worth bringing back.\n\nEven without any fancy nonsense, it can still be a two-for-one, which is never a bad place to start. The problem is that the second half of the deal is pretty expensive, so apparently generosity has its limits.\n\nThere’s enough value here to make the card playable, but I’m going to want the right deck before I get too excited about it.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd",
+              "name": "Generous Revival",
+              "role": "Conditional recursion",
+              "why": "Returns a small creature with an extra counter and can be cast again through flashback.",
+              "better": "Look for useful creatures with mana value three or less, especially worthwhile enters abilities.",
+              "watch": "It needs a target already in the graveyard, and the five-mana flashback is slow.",
+              "disagreement": "Quinn is sceptical of the setup and mana cost; Josh sees a playable two-for-one in the right deck.",
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:9",
+                "zone-white:9"
+              ],
+              "paragraphIds": [
+                "draftsim:9:p1",
+                "zone-white:9:p1",
+                "zone-white:9:p2",
+                "zone-white:9:p3"
+              ],
+              "rulesCardId": "f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd",
+              "basisSha256": "9ee370a96ab1617df5abfe0a976b0d9709d1dbc71d53d2113e42af3aeb50524b"
+            }
           },
           "1b5d7d19-b32a-4786-ae9a-00da5e6658ad": {
             "grades": [
@@ -5733,7 +6014,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:10",
+                "paragraphIds": [
+                  "draftsim:10:p1"
+                ],
+                "text": "This card is tricky. Yes, we can all figure out ways to make five 2/2s with it, but how often will something like that actually happen in Limited? Vigorbloom has some great ways of gaining life, but they mostly cost a lot of mana, so paying 3 more to Germinate Recruits in the same turn sounds far too situational for my liking. This is a 1/10 in most scenarios and a 10/10 when it works.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:10",
+                "paragraphIds": [
+                  "zone-white:10:p1",
+                  "zone-white:10:p2"
+                ],
+                "text": "It’s going to take a very specific deck before I’m interested in playing this.\n\nA lot of the life gain cards in the set are handing out life one point at a time specifically to trigger your payoffs, which doesn’t exactly help this get where it wants to go. Maybe you can pair it with some giant lifelinkers and actually get paid off, but at that point it’s starting to sound an awful lot like a win-more scenario.",
+                "scope": "card"
+              }
+            ]
           },
           "32a7a905-11bf-4b66-a28e-1066a0e372b8": {
             "grades": [
@@ -5758,7 +6060,32 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:13",
+                "paragraphIds": [
+                  "draftsim:13:p1"
+                ],
+                "text": "Three-drop 3/3s need a little something extra to be good these days, so leaving behind a +1/+1 counter when it dies is just enough to be interested in Graft Surgeon . Better yet, if you put more counters on it with Seed Sutures or whatever else, it leaves all of those counters behind on something else, which is a pretty powerful ability if you set it up right. I’d imagine most white decks would be interested in it.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:13",
+                "paragraphIds": [
+                  "zone-white:13:p1",
+                  "zone-white:13:p2",
+                  "zone-white:13:p3",
+                  "zone-white:13:p4",
+                  "zone-white:13:p5",
+                  "zone-white:13:p6"
+                ],
+                "text": "Sometimes an entire review can be summed up in one word.\n\nMeh.\n\nMid.\n\nWhatever the current term is for, “Yep, that sure is a Magic card.”\n\nThere’s nothing offensively bad here, but there’s also absolutely nothing making me care. This will end up in some draft decks, get cut from others, occasionally do something useful, and then vanish from everyone’s memory five minutes after the format ends.\n\nCongratulations, Graft Surgeon . You are officially cardboard.",
+                "scope": "card"
+              }
+            ]
           },
           "a53eb840-039d-4c45-b701-d58cb26b1a6c": {
             "grades": [
@@ -5783,7 +6110,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:14",
+                "paragraphIds": [
+                  "draftsim:14:p1"
+                ],
+                "text": "Guiding Hydra , a.k.a. Ouroboroid at home, looks absolutely disgusting. If you cast this for around 4 or 5 mana, then you have several turns of putting a +1/+1 counter onto your whole team, which of course gets stronger with the more creatures you have out. You obviously need a lot of creatures to make this work to its full potential, but white looks to be quite good at that in Reality Fracture , so I don’t see that I’d ever not want to play this card.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:14",
+                "paragraphIds": [
+                  "zone-white:14:p1",
+                  "zone-white:14:p2",
+                  "zone-white:14:p3",
+                  "zone-white:14:p4"
+                ],
+                "text": "This can take over a game in a hurry if your deck goes even slightly wide. We’re not talking mega thick here, just having a normal amount of creatures on the battlefield is enough to make this thing get out of hand.\n\nSo why am I stopping at a 4.0?\n\nThe same old reason: it can hit the battlefield, immediately eat a removal spell, and leave you with absolutely nothing to show for it.\n\nIf it survives, though, your opponent is probably going to have a very bad time.",
+                "scope": "card"
+              }
+            ]
           },
           "3b6ac80e-c726-4bd0-893a-e666041a04a6": {
             "grades": [
@@ -5812,7 +6162,30 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [
               "game-01"
             ],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:15",
+                "paragraphIds": [
+                  "draftsim:15:p1",
+                  "draftsim:15:p2"
+                ],
+                "text": "In Kamigawa: Neon Dynasty , there was a card called Imperial Oath . This flew under the radar of many commentators at the time, as 6-mana commons tend not to pull their weight. Yet as the format evolved, players started to realize just how impactful it could be, especially when the scry 3 ability would set up your next turn for you. It ended up widely regarded as the best white common and one of the best commons overall.\n\nHexhaven Battalion has a lot of the same rewards on it. Three 2/2s is incredible, especially if you need to catch back up to your aggressive opponent, and the empower might even draw you a card in the right spot. Not to mention that landcycling lets you use it early in the game when you need to. This card looks amazing to me, and it’s my early pick for white’s best common.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:15",
+                "paragraphIds": [
+                  "zone-white:15:p1",
+                  "zone-white:15:p2",
+                  "zone-white:15:p3"
+                ],
+                "text": "This might seem a little high at first, but it reminds me quite a bit of a previously underrated card in Imperial Oath .\n\nThe slow double surveil isn’t quite on the same level as getting an immediate triple scry, which is part of why I have this rated a little lower. It’s also slightly less splashable, although landcycling helps make up for that by giving you some fixing when you need it.\n\nIt’s not flashy, but there’s a lot of quiet value packed into this card, and I think it’s going to play better than it looks.",
+                "scope": "card"
+              }
+            ]
           },
           "6f9f814b-8249-4e48-a05e-4c84060fe6fb": {
             "grades": [
@@ -5837,7 +6210,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:16",
+                "paragraphIds": [
+                  "draftsim:16:p1"
+                ],
+                "text": "Board wipes are often very powerful in Limited. Kindred Judgment costs 7 mana, which does make me a little cautious, but the fact that it’ll often be one-sided does bring me back around. This is a color-shifted version of Kindred Dominance , a long time Commander staple, which explains the hefty mana cost. Ultimately, I think you get what you’re paying for and it will be worth it, but it might end up that 7 mana is just a little too expensive.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:16",
+                "paragraphIds": [
+                  "zone-white:16:p1",
+                  "zone-white:16:p2",
+                  "zone-white:16:p3",
+                  "zone-white:16:p4"
+                ],
+                "text": "I’d be all in on this at six mana, but seven is an entirely different ballgame when it comes to sweepers.\n\nIt’s also not guaranteed to leave your best creature behind. There are going to be plenty of boards where you have to name a different creature type just to deal with whatever nonsense your opponent has assembled.\n\nWill this cause an impressive number of groans over the course of the format? Absolutely. Will it also spend plenty of games rotting in someone’s hand while they’re getting punched in the face? Also absolutely.\n\nThe ceiling is brutal, but seven mana is seven mana.",
+                "scope": "card"
+              }
+            ]
           },
           "490dae91-94ce-42a9-a11f-6c5e77c4e486": {
             "grades": [
@@ -5862,7 +6258,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:19",
+                "paragraphIds": [
+                  "draftsim:19:p1"
+                ],
+                "text": "Loyal Tutor is a great design for Constructed formats, but there’s no way you can afford to spend a whole card just to put a planeswalker card on top of your deck. There are some very powerful ones to find, but they’re also all mythics and are a lot worse if you have to go down on card advantage to find them.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:19",
+                "paragraphIds": [
+                  "zone-white:19:p1",
+                  "zone-white:19:p2",
+                  "zone-white:19:p3"
+                ],
+                "text": "I’m usually terrified for my sanity whenever someone starts a sentence with “hear me out.” That said, hear me out on this one…there are actually times I would play it.\n\nI’ve never been a big fan of tutors in Limited, and I’m even lower on ones that only put the card on top of your deck instead of directly into your hand.\n\nThere are some REALLY busted planeswalkers in this set, though, so I think it’s totally reasonable to jam this if you have a 5.0 lurking somewhere in your deck. At that point, I’m willing to make an exception.",
+                "scope": "card"
+              }
+            ]
           },
           "2f5345ae-4489-4d05-b2d5-c71285254f05": {
             "grades": [
@@ -5891,7 +6309,49 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [
               "game-08"
             ],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:21",
+                "paragraphIds": [
+                  "draftsim:21:p1"
+                ],
+                "text": "Whether you call it Banishing Light , Web Up , or of course Memory Trap , 3 mana to answer just about anything you want is a very good deal. This is an early frontrunner for white’s best common, but even if it isn’t, it should still be a premium pickup when you’re drafting white.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:21",
+                "paragraphIds": [
+                  "zone-white:21:p1",
+                  "zone-white:21:p2"
+                ],
+                "text": "In my memory, this type of card has never really been a trap. Oblivion Ring s are going to Oblivion Ring .\n\nThis is just a solid removal spell that can hit basically anything on your opponent’s side of the battlefield. There’s not much more you need to ask for out of a card like this, and you’re always going to be happy having a couple of them in your deck.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "2f5345ae-4489-4d05-b2d5-c71285254f05",
+              "name": "Memory Trap",
+              "role": "Broad removal",
+              "why": "Three mana answers an opposing nonland permanent, including a planeswalker.",
+              "better": "Useful when your other answers cannot handle a particular permanent type.",
+              "watch": "The exiled permanent returns if the enchantment leaves the battlefield.",
+              "disagreement": null,
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:21",
+                "zone-white:21"
+              ],
+              "paragraphIds": [
+                "draftsim:21:p1",
+                "zone-white:21:p1",
+                "zone-white:21:p2"
+              ],
+              "rulesCardId": "2f5345ae-4489-4d05-b2d5-c71285254f05",
+              "basisSha256": "e763ef99131287fee3c139bd4a4f6bc1f89f91bf682fa9896e13adb57afe06f3"
+            }
           },
           "50a0e5f0-3c39-4f16-9a73-eec8ef71f12e": {
             "grades": [
@@ -5916,7 +6376,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:22",
+                "paragraphIds": [
+                  "draftsim:22:p1"
+                ],
+                "text": "This is a nice little throwback to the very powerful Travel Preparations , a card that took Innistrad Limited by storm, but I think Predictive Preparations is a fair bit worse than Travel Prep. It’s only one color, but it’ll cost 2 extra mana to fully cast both sides of it. That said, there are some ways to support it here, especially in red/white, so it’ll probably be a strong common.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:22",
+                "paragraphIds": [
+                  "zone-white:22:p1",
+                  "zone-white:22:p2",
+                  "zone-white:22:p3"
+                ],
+                "text": "I predict this is going to see more play than it probably should because it reminds people of Travel Preparations .\n\nSure, this only requires one color, but you’re also paying twice as much to flash it back, which takes a lot of the shine off that comparison.\n\nThis feels like the kind of card I end up playing when my deck is kind of bad and my best plan is to pretend I’m the beatdown and hope I can run my opponent over before they start doing something actually powerful.",
+                "scope": "card"
+              }
+            ]
           },
           "1f95399a-9766-4f3d-aa6a-ece55e0530d9": {
             "grades": [
@@ -5941,7 +6423,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:23",
+                "paragraphIds": [
+                  "draftsim:23:p1"
+                ],
+                "text": "Two mana to destroy an attacking creature is a pretty solid removal spell for white, but it usually comes with drawbacks. What’s nice about Prophesied End is that additional flexibility to proactively destroy any creature when you really need it to. I really don’t want to give my opponent a free card, but if I can kill a potential blocker and attack for the win, I’ll absolutely do that.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:23",
+                "paragraphIds": [
+                  "zone-white:23:p1",
+                  "zone-white:23:p2"
+                ],
+                "text": "It doesn’t take a prophecy to see that this is going to end up squarely in the filler removal slot. You aren’t going to prioritize it if you already have a few solid pieces of removal, but it’s not completely embarrassing if you need some interaction.\n\nI’m much more likely to play this in a controlling deck than an aggressive one because giving your opponent an extra card is bad, mmkay.",
+                "scope": "card"
+              }
+            ]
           },
           "2c588954-c6eb-4aae-a2fa-0651ccf2d90a": {
             "grades": [
@@ -5966,7 +6469,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:24",
+                "paragraphIds": [
+                  "draftsim:24:p1"
+                ],
+                "text": "This cycle of allied color hosers looks pretty good. You might think these are only good as sideboard cards, but the variety of decks in Limited mean that 70% of the 2-color pairs will have targets for each of them. That said, Refute Destiny is going to be one of the stronger cards in this cycle because it can target Jace tokens against virtually any deck and not be dead. Even if you do only sideboard this, it’s probably the strongest card you’ll bring in for the right matchups. It’s so clean and efficient that it needs that attention.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:24",
+                "paragraphIds": [
+                  "zone-white:24:p1",
+                  "zone-white:24:p2",
+                  "zone-white:24:p3"
+                ],
+                "text": "It’s this card’s destiny to end up in the sideboard.\n\nIf you’re playing Bo1, this type of narrow answer should almost never make your starting deck. Of course, we all know exactly how this is going to go: someone is going to jam it into their deck without even reading the color restriction, and somehow it’ll line up perfectly to blow out one of my bombs.\n\nThat won’t make it good. It’ll just make me annoyed.",
+                "scope": "card"
+              }
+            ]
           },
           "35000e93-85d3-44f8-976a-5918ee4c71e0": {
             "grades": [
@@ -5991,7 +6516,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:25",
+                "paragraphIds": [
+                  "draftsim:25:p1"
+                ],
+                "text": "Creatures with 2 toughness trade off in combat very often, so the main question with Repurposed Enforcer is what can we get out of it if that’s the case? If this attacks unimpeded, you get a free Jace no matter what, which is very nice. If it’s going to die in combat, then as long as you’re getting to empower for 3 or greater, you’re doing very well on that exchange. I don’t think this card is great, but it does enough that it’s quite a bit better than your average 2-drop.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:25",
+                "paragraphIds": [
+                  "zone-white:25:p1",
+                  "zone-white:25:p2",
+                  "zone-white:25:p3"
+                ],
+                "text": "I actually think this is closer to a 3.25 than a 3.5, but I rounded up because I felt bad for him having to go through life like that.\n\nThere are definitely games where this comes down on turn two and lets you squeeze a pile of value out of it. The catch is that you really need the right combination of other creatures and removal spells around it to maximize that upside.\n\nThere are also going to be games where it feels pretty disappointing. It doesn’t do much when you’re on the back foot, and it gets significantly worse when it’s left trying to do everything on its own.",
+                "scope": "card"
+              }
+            ]
           },
           "9e72f397-2384-40f1-882b-f627664d97df": {
             "grades": [
@@ -6016,7 +6563,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:27",
+                "paragraphIds": [
+                  "draftsim:27:p1"
+                ],
+                "text": "While Return to the Light Realms is a really cool throwback, and I’m sure it’ll be a great card in Commander , a 9-mana spell with no guarantee of winning the game isn’t something we can afford to play in Limited.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:27",
+                "paragraphIds": [
+                  "zone-white:27:p1",
+                  "zone-white:27:p2"
+                ],
+                "text": "This costs nine freaking mana and doesn’t outright win the game when it resolves. That makes it very tempting to give it the old 0.0 and move on with my life.\n\nMy argument for the 1.0 is that there are going to be some decks that actually want this, especially out of the sideboard in slower matchups. The other nice thing is that so few decks will even consider playing it that, if you do want one, you should be able to pick it up pretty late whenever it gets opened at your table.",
+                "scope": "card"
+              }
+            ]
           },
           "e29095de-59ec-4562-ba8e-73f952e457ae": {
             "grades": [
@@ -6041,7 +6609,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:29",
+                "paragraphIds": [
+                  "draftsim:29:p1"
+                ],
+                "text": "Three-mana 2/3 creatures with flying have massively underperformed over the last few years. There’s nothing all that wrong with them, but they just don’t hit hard enough to compare with everything else. Shatterwing Pegasus however might be an exception, since the ability to pump your team for 5 mana is really strong and we’ve seen it do very well on 2-drops in other sets. I’d like to hedge on this one a bit, especially in a go-wide deck like red/white.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:29",
+                "paragraphIds": [
+                  "zone-white:29:p1",
+                  "zone-white:29:p2",
+                  "zone-white:29:p3"
+                ],
+                "text": "Five mana to pump your team is a pretty significant step down from the four-mana version we just had on Dwarven Provisioner , and that card was already considered extremely meh. That was also in a format where going wide was much easier, and the effect came stapled to a two-drop.\n\nWe’re also a long way removed from the days when a two-power flyer for three mana was considered a good rate.\n\nI’m not completely out on this, but I’m going to be pretty unhappy if I have to play more than one.",
+                "scope": "card"
+              }
+            ]
           },
           "d3acf176-ef02-4729-88c4-0f0dfbfdada4": {
             "grades": [
@@ -6071,7 +6661,29 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [
               "game-07"
             ],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:30",
+                "paragraphIds": [
+                  "draftsim:30:p1"
+                ],
+                "text": "Most good creatures worth killing have 4 toughness or greater anyway, making Surgical Precision a highly effective removal spell in the mid-to-late game. It won’t do much early on, but you can always cycle it if you need to, and both modes gain you life too, making this an especially good inclusion in Vigorbloom decks.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:30",
+                "paragraphIds": [
+                  "zone-white:30:p1",
+                  "zone-white:30:p2",
+                  "zone-white:30:p3"
+                ],
+                "text": "We all remember Murdock's Crusade being a massive overperformer in Marvel Super Heroes. I don’t think this is going to be quite as good because this format doesn’t have Power Up making it much easier to guarantee you have a target.\n\nThat said, getting to kill their biggest creature while also triggering some life gain can create a ridiculous swing in the game. It even has the nice fallback of basically being able to “cycle” for two mana while tossing in a couple points of life.\n\nThe ceiling is high enough that I’m happy to play it, even if it’s a little less reliable than its predecessor.",
+                "scope": "card"
+              }
+            ]
           },
           "63f82985-c9c2-4d0a-ac4f-560166bebd9f": {
             "grades": [
@@ -6100,6 +6712,27 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [],
             "combinationIds": [
               "evasive-growth"
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:34",
+                "paragraphIds": [
+                  "draftsim:34:p1"
+                ],
+                "text": "Ajani's Pridemate is a design that has proven itself time and time again in previous sets. Vigorbloom looks like one of the strongest lifegain themes we’ve seen in recent years, and Unflinching Hortimancer is going to be great in that deck. It’ll basically be unplayable outside of it, but that just means that when you’re drafting Vigorbloom, you should be able to take as many of these as you need.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:34",
+                "paragraphIds": [
+                  "zone-white:34:p1",
+                  "zone-white:34:p2"
+                ],
+                "text": "Don’t flinch when it comes to taking this if you’re in the life gain deck. It can be a pretty important piece there, even if it takes a couple of triggers before it really starts doing anything impressive.\n\nThe nice part is that you probably won’t have to fight too hard for it. Outside of that specific shell, this is mostly just filler, which should let you pick it up later than the life gain deck actually values it.",
+                "scope": "card"
+              }
             ]
           },
           "25000a17-b701-4d69-b2ef-2c74029199d3": {
@@ -6125,7 +6758,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:38",
+                "paragraphIds": [
+                  "draftsim:38:p1"
+                ],
+                "text": "While this can’t destroy 2-drops or Jace tokens, getting to destroy basically anything else at instant speed and get a free surveil sounds pretty incredible. Your Fate Ends Here is a very powerful removal spell for white and also one of the coolest names of any card in Reality Fracture .",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:38",
+                "paragraphIds": [
+                  "zone-white:38:p1",
+                  "zone-white:38:p2"
+                ],
+                "text": "Let’s be honest here: how often are you really pointing a three-mana removal spell at something that costs less than three? Not very.\n\nThat means this is basically Murder with upside. It can also hit planeswalkers, and you get a surveil tossed in for good measure.",
+                "scope": "card"
+              }
+            ]
           },
           "145b928d-a7ff-4fe5-ae4d-bbae7b1d955b": {
             "grades": [
@@ -6150,7 +6804,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:42",
+                "paragraphIds": [
+                  "draftsim:42:p1"
+                ],
+                "text": "On balance, Countersculpt is a pretty good variant of Cancel with an upside. The empower 1 will usually result in a free surveil, like Sinister Sabotage , and if you can get the mana discount on it because you have a bunch of other empower sources then it just gets even better.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:3",
+                "paragraphIds": [
+                  "zone-blue:3:p1",
+                  "zone-blue:3:p2"
+                ],
+                "text": "The times this is straight-up better than Counterspell are going to feel insane. The times it’s basically a better Cancel will be merely fine.\n\nThat said, I love when small bonuses get stapled onto a card that was already hovering around playability. Getting both the possible cost reduction and the Empower Jace upside pushes this from something I’d tolerate into something I’m actively happy to play.",
+                "scope": "card"
+              }
+            ]
           },
           "f76c4d8e-3e1f-4264-99af-1b8adb9a06be": {
             "grades": [
@@ -6175,7 +6850,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:43",
+                "paragraphIds": [
+                  "draftsim:43:p1"
+                ],
+                "text": "This is basically just a Theorix card, but it looks like a pretty powerful one at that. All you need to do is cast the Omit Variables prepared spell and this will draw you three cards, which is a great deal for 3 mana. Tack on some surveils or random other little mill effects and Cruel Calculations turns into a very powerful draw spell . The only thing you need to ask yourself is whether you can afford to play a draw spell in the first place, but this one definitely has the potential to go off.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:4",
+                "paragraphIds": [
+                  "zone-blue:4:p1",
+                  "zone-blue:4:p2"
+                ],
+                "text": "Most of the time, this is a stone-cold nothing for three mana, which makes me incredibly wary of putting it anywhere near my deck.\n\nThere are a few self-mill effects that can help enable it and squeeze a little more value out of the card, but the juice just isn’t worth the squeeze. My calculations say this should almost never be anywhere near your starting 40.",
+                "scope": "card"
+              }
+            ]
           },
           "9ba1f7ce-3404-4932-9795-22967707f762": {
             "grades": [
@@ -6200,7 +6896,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:44",
+                "paragraphIds": [
+                  "draftsim:44:p1"
+                ],
+                "text": "Casting this as a 2-drop with prowess feels pretty mediocre to be honest. I’m far more interested in the second ability though. If you’re milling yourself aggressively in Theorix, then Cryotheory Adept is a great card to hit, since it actually does something relevant from the graveyard, while also being something you can play on the board if you draw it.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:5",
+                "paragraphIds": [
+                  "zone-blue:5:p1",
+                  "zone-blue:5:p2"
+                ],
+                "text": "This would be significantly better with just one extra point of toughness. Starting at one makes it really difficult to protect this while also using your spells somewhere else, which is exactly where you’d like to be getting value from it.\n\nI do like the potential graveyard value, though. Being able to squeeze something extra out of it later keeps it from being a total dud, even if that part is a little pricey.",
+                "scope": "card"
+              }
+            ]
           },
           "0853bb80-8664-432a-8457-600139fd96d5": {
             "grades": [
@@ -6225,7 +6942,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:45",
+                "paragraphIds": [
+                  "draftsim:45:p1"
+                ],
+                "text": "Between its own prepared spell, Jace tokens, and the Fatehold archetype as a whole, Diviner of Victory may be able to attack as a 3/3 or even a 4/4 on certain turns. It also gives you a bit of interaction and requires an investment of only 1 mana, which makes it quite a powerful creature for any aggressive blue deck.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:6",
+                "paragraphIds": [
+                  "zone-blue:6:p1",
+                  "zone-blue:6:p2",
+                  "zone-blue:6:p3"
+                ],
+                "text": "This card feels so close to being great, but it comes up just a little short on almost every path.\n\nIt’s sort of a Man-o'-War , but it’s limited to creatures with mana value three or less while also costing double blue if you don’t pay in installments. It’s only a 1/1 on its own, even if it does have the potential to grow, and you can’t even bounce your own creatures to squeeze out some extra value.\n\nThat leaves you with a card I’ll happily play if I’m already in the colors, but it’s not something I’m going to get overly excited about.",
+                "scope": "card"
+              }
+            ]
           },
           "960c7335-331d-488b-be68-2ad1c1c695dc": {
             "grades": [
@@ -6250,7 +6989,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:46",
+                "paragraphIds": [
+                  "draftsim:46:p1"
+                ],
+                "text": "Getting to tap down a potential blocker on the end of your opponent’s turn is a great way to pressure an opposing Jace token, or simply get a bunch of damage in when your opponent may not have been expecting it. That’ll typically be the best use of Divining Duelist , and that’s honestly good enough a lot of the time. The fact that it has some extra abilities to use is really nice, and don’t forget that it’s technically possible to open a Splinter Twin , too.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:7",
+                "paragraphIds": [
+                  "zone-blue:7:p1",
+                  "zone-blue:7:p2",
+                  "zone-blue:7:p3"
+                ],
+                "text": "I’m usually pretty low on three-mana creatures with only two toughness because that’s a great way to spend three mana just to have your opponent trade up on mana with a cheaper creature.\n\nNone of the three abilities here are especially exciting on their own, but the modality does add some real value. The biggest perk is being able to hold up a counterspell and then drop this if your opponent decides not to give you anything worth countering.\n\nIt’s not flashy, but flexibility goes a long way toward making mediocre effects add up to a perfectly acceptable card.",
+                "scope": "card"
+              }
+            ]
           },
           "8d754b96-5e44-45af-9c7a-b0da59fbe4c3": {
             "grades": [
@@ -6277,7 +7038,30 @@ window.LIMITED_PREP_DATA = {
               "nicolai-guide-16"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:50",
+                "paragraphIds": [
+                  "draftsim:50:p1"
+                ],
+                "text": "A Mana Leak that only hits creatures and legendary spells is still pretty strong, since that should be most of the cards your opponents will play in the first place. However, unlike most counterspells , Icy Reception also has a way to deal with a creature that has already resolved. It doesn’t do it very well, because it’s only a combat trick, but it’s still a nice bit of extra flexibility that should make this a solid blue common.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:11",
+                "paragraphIds": [
+                  "zone-blue:11:p1",
+                  "zone-blue:11:p2",
+                  "zone-blue:11:p3",
+                  "zone-blue:11:p4"
+                ],
+                "text": "I really want to love this card because a cheap creature counterspell that can also double as a combat trick for only two mana sounds great.\n\nThe problem is that there are going to be plenty of spots where you desperately wish this were just an Essence Scatter or, better yet, a Mana Leak . A guy can dream, right?\n\nThis should do some solid work in the early game, but it gets considerably worse as the game goes long. Better players are also going to start sequencing around it once they know it exists, which makes it even harder to get full value.\n\nUseful, flexible, and cheap—but definitely not something I want to rely on as my primary interaction.",
+                "scope": "card"
+              }
+            ]
           },
           "a5988272-faaa-463d-a0a1-a8e96b946bad": {
             "grades": [
@@ -6302,7 +7086,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:51",
+                "paragraphIds": [
+                  "draftsim:51:p1"
+                ],
+                "text": "These new Claustrophobia effects have been pretty good lately. Removing the creature’s abilities was a very useful addition and getting rid of their prepared spell is a big upside for this set. Infinite Coursework I’m sure is something we all have nightmares about, but I’ll be pretty happy to see this one at least.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:12",
+                "paragraphIds": [
+                  "zone-blue:12:p1",
+                  "zone-blue:12:p2",
+                  "zone-blue:12:p3"
+                ],
+                "text": "Infinite Coursework sounds like one of the creative punishment divisions in hell. Granted, it goes on your opponent’s creature, so that’s their problem to deal with.\n\nThis style of removal has gotten noticeably better now that these effects tend to shut off abilities instead of just keeping the creature tapped. At three mana, this ends up feeling a lot like a less versatile Oblivion Ring .\n\nIt’s not flashy, but it’s efficient enough that I’m going to be perfectly happy playing it.",
+                "scope": "card"
+              }
+            ]
           },
           "282588b9-3656-453b-aa25-2419e078ddc1": {
             "grades": [
@@ -6327,7 +7133,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:53",
+                "paragraphIds": [
+                  "draftsim:53:p1"
+                ],
+                "text": "On its own, Jace's Machinations is an instant that draws you two cards, since you can -3 the Jace token on your opponent’s turn and again on yours, leaving behind a Jace with 2 loyalty. That’s a bit better than your average Quick Study effect, but not by a lot. Where it’s more interesting though is if you can combine it with one of the many ways to grant your Jace token a different ability. Way of the Wildspeaker for example would turn this into a 4/4 with flash and thereby make it a lot more powerful. While this is a playable card in any blue deck, a deck built around empower will love it.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:14",
+                "paragraphIds": [
+                  "zone-blue:14:p1",
+                  "zone-blue:14:p2",
+                  "zone-blue:14:p3"
+                ],
+                "text": "This should usually play out like an instant-speed Divination with some upside. You can cast it on your opponent’s end step, draw a card, untap, draw again, and still have two counters left over.\n\nThat’s already a really solid rate, but there’s also some extra room to get cute with it if you have any of the cards that add abilities to a Jace planeswalker.\n\nEven without doing anything fancy, I’m perfectly happy with the baseline here.",
+                "scope": "card"
+              }
+            ]
           },
           "f5324741-353a-4a70-adb2-b631b00806dd": {
             "grades": [
@@ -6354,7 +7182,28 @@ window.LIMITED_PREP_DATA = {
               "nicolai-guide-14"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:55",
+                "paragraphIds": [
+                  "draftsim:55:p1"
+                ],
+                "text": "I’d imagine that Mindseeker Oculus is the best blue common. Three mana creatures that draw a card when they enter are just very good, and this one even leaves you with a 1-loyalty Jace token. There’s basically no scenario when this is a bad play, and you can absolutely play as many of them as you find.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:16",
+                "paragraphIds": [
+                  "zone-blue:16:p1",
+                  "zone-blue:16:p2"
+                ],
+                "text": "I do love me some creatures with card advantage built in so I’ll definitely be seeking these out in draft.\n\nYou can immediately cash this in for a card and still have a surveil waiting for you on the next turn. That’s a pretty nice pile of value before you even start considering whatever other synergies your deck might have.",
+                "scope": "card"
+              }
+            ]
           },
           "d0ecae06-bc5a-4886-84df-c2900816f226": {
             "grades": [
@@ -6379,7 +7228,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:56",
+                "paragraphIds": [
+                  "draftsim:56:p1"
+                ],
+                "text": "While costing 1 mana and having the flexibility to buff your own creature or downgrade your opponent’s, Perfected Theory is still just a combat trick in the color least likely to want one in the first place. If you have a really aggressive blue deck, then maybe this can make the cut, but otherwise you shouldn’t bother.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:17",
+                "paragraphIds": [
+                  "zone-blue:17:p1",
+                  "zone-blue:17:p2",
+                  "zone-blue:17:p3",
+                  "zone-blue:17:p4"
+                ],
+                "text": "In theory, this feels like removal. Unfortunately, the plan is far from perfect.\n\nOutside of combat, it’s not doing much of anything, and using it can leave you wide open to getting blown out if your opponent has the right response. That’s a pretty big downside for something you’d like to rely on as interaction.\n\nStill, it only costs one mana, and cheap combat tricks have a habit of overperforming in Limited.\n\nI’m not excited to play it, but I’m also not going to be shocked when it causes a few blowouts of its own.",
+                "scope": "card"
+              }
+            ]
           },
           "c4effc17-0d0e-423a-b5f2-597ea6c71f67": {
             "grades": [
@@ -6404,7 +7276,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:57",
+                "paragraphIds": [
+                  "draftsim:57:p1"
+                ],
+                "text": "I often make fun of WotC for the fact that they’ve printed about two dozen different versions of the same blue removal spell in sets over the past four years or so. Well, Plan for All Outcomes is the newest version for Reality Fracture but also one of the best I’ve seen. It’s only sorcery speed, and that didn’t stop Trickster's Stratagem , but staying in play and letting you empower when you cast a noncreature spell each turn is incredible. This looks like a very strong build-around that any blue deck would be happy to play, thanks to the removal mode.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:18",
+                "paragraphIds": [
+                  "zone-blue:18:p1",
+                  "zone-blue:18:p2",
+                  "zone-blue:18:p3"
+                ],
+                "text": "The going rate for an Uneasy Partings effect is right around four mana these days, with the real value coming from whatever extra goodies get stapled onto it.\n\nYou give up instant speed here, but in exchange you get to Empower Jace every turn as long as you keep casting noncreature spells. That can add up to a pretty ridiculous amount of value if your deck is built to keep the triggers flowing.\n\nSeems like a pretty solid plan for most outcomes.",
+                "scope": "card"
+              }
+            ]
           },
           "9244efad-35ab-45c0-b173-4bc68276cb67": {
             "grades": [
@@ -6429,7 +7323,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:58",
+                "paragraphIds": [
+                  "draftsim:58:p1"
+                ],
+                "text": "As I said with the last color hoser, 70% of the 2-color pairs include white or black, so along with all the hybrid cards , you’ll find a target for this in most matches. That said, countering a spell is a lot worse than exiling a creature for the same amount of mana, so Precise Redaction looks a lot closer to being a sideboard card than anything else, but it’s cheap and efficient enough that I think I’d start it in the main and side it out when necessary. It’s also a lot better to main-deck if you have ways to discard it when it has no targets.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:19",
+                "paragraphIds": [
+                  "zone-blue:19:p1",
+                  "zone-blue:19:p2",
+                  "zone-blue:19:p3"
+                ],
+                "text": "This should be in precisely zero of your starting decks.\n\nI do appreciate seeing some old-school color hosers show up as sideboard options, but that’s exactly where this belongs. You do not want to be staring at this rotting in your hand while your opponent is over there playing Gruul and wondering why you voluntarily registered a blank piece of cardboard.\n\nBring it in when the matchup calls for it. Otherwise, leave it parked on the bench.",
+                "scope": "card"
+              }
+            ]
           },
           "a08c7ec2-4c6a-4db2-85a7-41afe8731523": {
             "grades": [
@@ -6454,7 +7370,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:60",
+                "paragraphIds": [
+                  "draftsim:60:p1"
+                ],
+                "text": "Just like with Jace's Machinations , this could just be a simple draw spell in most blue decks, but one built around empower could utilize it so much more. I wouldn’t be surprised if this card ended up overperforming, but for now, I’ll be a little more reserved on it and say it just looks fine.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:21",
+                "paragraphIds": [
+                  "zone-blue:21:p1",
+                  "zone-blue:21:p2",
+                  "zone-blue:21:p3"
+                ],
+                "text": "This is three cards for four mana, which is still a pretty solid deal even by today’s standards. Inflation, am I right? Or power creep. Whatever term you want to use.\n\nThe problem is that you only get two of those cards up front, and the last one creates a bit of a logjam with any other Empower Jace abilities you’re trying to activate.\n\nThe raw value is definitely there, but the delayed payoff keeps it from being something I’m especially excited about.",
+                "scope": "card"
+              }
+            ]
           },
           "51d86875-420d-4e82-b69c-4feeb99c9428": {
             "grades": [
@@ -6479,7 +7417,31 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:63",
+                "paragraphIds": [
+                  "draftsim:63:p1",
+                  "draftsim:63:p2"
+                ],
+                "text": "Modern Horizons ’ Seasoned Pyromancer has been a competitive staple pretty much ever since it got printed. It’s a bit niche, so it needs the right deck to work, but it’s very powerful when it finds one.\n\nIts color-shifted cousin Seasoned Cryomancer is a fair bit worse, but also better in some regards. When you play it, you’re forced to draw and discard, whereas you could bypass the discard on SPyro when your hand was empty. It’s still pretty good though, and the best ability it has is the last one, where you can draw two cards by exiling it from your graveyard. This puts you +2 on card advantage since you’re not spending a card, and you can even use it if you just mill it with Theorix cards. This is just a very solid blue card all round and it really shines in a good Theorix deck.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:24",
+                "paragraphIds": [
+                  "zone-blue:24:p1",
+                  "zone-blue:24:p2",
+                  "zone-blue:24:p3",
+                  "zone-blue:24:p4"
+                ],
+                "text": "“Seasoned” sure is a polite way of saying old, but in this case I think we can also let it mean spicy.\n\nYou can’t pull the same empty-handed nonsense that made Seasoned Pyromancer so absurd, but there’s still a ton going on here. You get to loot away whatever garbage you don’t need and toss around some stun counters.\n\nThe real juice is getting extra cards out of the graveyard. Whether this dies, gets milled, or somehow ends up down there through other shenanigans, there’s still value waiting for you.\n\nThat’s a whole lot of card for something that apparently just means “old.”",
+                "scope": "card"
+              }
+            ]
           },
           "7e5a640b-fd88-4b5a-9dfc-1d8f5a5cef41": {
             "grades": [
@@ -6504,7 +7466,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:64",
+                "paragraphIds": [
+                  "draftsim:64:p1"
+                ],
+                "text": "The comparison to make here is to Campus Composer , a pretty good card from Secrets of Strixhaven . Four mana for a 3/4 plus a surveil isn’t that good, but getting a free prepared spell out of it on a later turn, or perhaps the same turn, sounds really good. It’s also two instances of surveilling to trigger the Fatehold mechanic. I didn’t like Semester Foreseer at first, but I think it might be growing on me.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:25",
+                "paragraphIds": [
+                  "zone-blue:25:p1",
+                  "zone-blue:25:p2"
+                ],
+                "text": "I don’t foresee wanting to play very many copies of this, but I’m perfectly fine with the first one even if the price is a little higher than I’d like.\n\nIt feels like it costs about one mana too much, but that becomes a lot more acceptable when you’re getting both effects bundled together. It’s solid value, just not something I want clogging up my deck in multiples.",
+                "scope": "card"
+              }
+            ]
           },
           "08ffbd51-2bd3-4262-8809-09576ce2b6f5": {
             "grades": [
@@ -6529,7 +7512,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:65",
+                "paragraphIds": [
+                  "draftsim:65:p1"
+                ],
+                "text": "The reason why flashback is so good is because you get two bites of the apple out of a single card and that’s exactly what makes Sphinx of False Conclusions so good. As soon as it dies, you get another copy of it for free! You can just run it out and start to attack, but what also sounds like a useful play is flashing it in to trade for something in combat, then you still have the token left over when you’re done. However you play it, this is a very powerful rare that’s going to be very difficult to deal with profitably.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:26",
+                "paragraphIds": [
+                  "zone-blue:26:p1",
+                  "zone-blue:26:p2"
+                ],
+                "text": "I hope my conclusions about this one are true because I think the card is even better than it reads.\n\nAn instant-speed four-power flyer for four mana that loots when it attacks would already be a really good card. The fact that your opponent has to deal with this thing twice pushes it into bomb territory unless they have something like Infinite Coursework or Memory Trap that can shut it down without actually killing it.",
+                "scope": "card"
+              }
+            ]
           },
           "f49be090-c745-40e5-bc1c-605b8d98acdf": {
             "grades": [
@@ -6554,7 +7558,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:66",
+                "paragraphIds": [
+                  "draftsim:66:p1"
+                ],
+                "text": "You can basically ignore every line of text on this card other than “draw 2 cards”. This is simply a Quick Study that’s harder to cast, which is just barely still good enough. I think this is quite playable in a slower control deck, but I’d never play it in an aggressive deck.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:27",
+                "paragraphIds": [
+                  "zone-blue:27:p1",
+                  "zone-blue:27:p2",
+                  "zone-blue:27:p3"
+                ],
+                "text": "The whole “cast five of these” thing is absurd and should basically be ignored. First, you’d have to put at least five copies of this card in your deck. Then you’d need a Sphinx worth all that nonsense. It’s not happening.\n\nThis becomes a lot more palatable if you just approach it as an instant-speed Divination . That’s a perfectly reasonable effect, but requiring double blue makes it noticeably more awkward to cast.\n\nThat extra pip is enough to knock it down at least half a point for me.",
+                "scope": "card"
+              }
+            ]
           },
           "9df8a06d-c7de-49af-8c01-06dca3dfef4b": {
             "grades": [
@@ -6584,6 +7610,28 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [],
             "combinationIds": [
               "lesson-wu"
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:67",
+                "paragraphIds": [
+                  "draftsim:67:p1"
+                ],
+                "text": "I was always a fan of these 2-mana blue defender creatures , but they also used to be 3/3s. There was a very real reward for being able to attack with them. Recent ones like Surveillance Phantasm have lost a point of power and they just don’t have the edge they once had. After all, 2/3s for 2 aren’t all that uncommon, so you’re not really gaining anything. Yes, this one has flying and vigilance, but I’m still not all that impressed.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:28",
+                "paragraphIds": [
+                  "zone-blue:28:p1",
+                  "zone-blue:28:p2",
+                  "zone-blue:28:p3"
+                ],
+                "text": "It used to be a tradition for blue to get a slightly overstatted two-drop with defender in almost every set. Usually, it could attack once you jumped through whatever hoop the card asked for. Most of those ended up being curve filler that was pretty easy to cut.\n\nSo why do I have this one a little higher? The first reason is flying. That lets it peck in for damage while still holding back on defense thanks to vigilance, and it can also help block opposing small flyers.\n\nThe second reason is that it can trigger itself with a reasonably costed mana sink that also happens to enable a bunch of other cards in the set. Mana sinks aren’t quite as valuable as they used to be, but having one is still a nice bonus.",
+                "scope": "card"
+              }
             ]
           },
           "20bb8c55-4b0b-425f-8201-b54fa2fdde86": {
@@ -6609,7 +7657,33 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:69",
+                "paragraphIds": [
+                  "draftsim:69:p1",
+                  "draftsim:69:p2",
+                  "draftsim:69:p3"
+                ],
+                "text": "This is Jace’s set, so of course we get an incredibly powerful card to represent him.\n\nUnlike many previous Jace planeswalkers , The Theorist, Jace Beleren doesn't force you to choose between drawing extra cards and affecting the board. After all, why not have both? All of the best planeswalkers protect themselves, and both of Jace’s main loyalty abilities are capable of doing that. Meanwhile, every turn that passes with The Theorist still standing lets you draw another card to support it.\n\nThis Jace is a threat that absolutely must be dealt with, and it really doesn’t make that easy to do.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:30",
+                "paragraphIds": [
+                  "zone-blue:30:p1",
+                  "zone-blue:30:p2",
+                  "zone-blue:30:p3",
+                  "zone-blue:30:p4",
+                  "zone-blue:30:p5"
+                ],
+                "text": "It’s his set, so of course Jace was going to make himself completely ridiculous.\n\nHe can protect himself in two different ways without forcing you to choose between staying alive and generating card advantage, which is usually the little detail that keeps planeswalkers from becoming completely obnoxious.\n\nApparently Jace didn’t get that memo.\n\nThe ultimate isn’t even that far out of reach, so if your opponent can’t deal with him immediately, things are going to spiral out of control very quickly.\n\nI don’t know what else to tell you. This is a busted Limited card.",
+                "scope": "card"
+              }
+            ]
           },
           "710302ca-c4be-4069-8ce1-f531414c74e9": {
             "grades": [
@@ -6634,7 +7708,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:70",
+                "paragraphIds": [
+                  "draftsim:70:p1"
+                ],
+                "text": "This is a really weird card. The uncounterable ability is pretty much useless, so we’re really just looking at a 0/3 that empowers 3 when it enters, which isn’t bad. The empower 3 allows you to draw a card, which already makes Theorist's Proxy comparable to something like a Spirited Companion , but the high toughness also makes it better at protecting your Jace token should you need to build it up for a bigger loyalty ability. This is pretty good overall, but very uninspired for a rare. It feels more like a good common.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:31",
+                "paragraphIds": [
+                  "zone-blue:31:p1",
+                  "zone-blue:31:p2",
+                  "zone-blue:31:p3"
+                ],
+                "text": "I’m sure there will be a few times throughout the set’s existence where the ability actually matters. It’s just not going to happen often enough for me to factor it heavily into the grade.\n\nWhat I’m really basing this on is the theory that a two-mana 0/3 that basically draws a card when it enters the battlefield is pretty good.\n\nSometimes you don’t need anything fancy. Solid value is solid value.",
+                "scope": "card"
+              }
+            ]
           },
           "0adbb4b2-a142-48da-8f4b-fa91529dbac4": {
             "grades": [
@@ -6659,7 +7755,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:72",
+                "paragraphIds": [
+                  "draftsim:72:p1"
+                ],
+                "text": "I made the mistake in Marvel Super Heroes of massively undervaluing basic landcycling over islandcycling or mountaincycling. Undulating Witness isn’t a very good card to cast, but neither was A.I.M. Scientists , yet it was a very good card in that format. Fixing your mana is incredible, and you’ll sometimes play this just for that ability, then if you do happen to cast it, a big flying creature is hardly the worst thing to play.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:33",
+                "paragraphIds": [
+                  "zone-blue:33:p1",
+                  "zone-blue:33:p2",
+                  "zone-blue:33:p3",
+                  "zone-blue:33:p4"
+                ],
+                "text": "The card itself feels like pretty underwhelming curve filler. You usually have your pick of several mediocre options at five mana, and this one doesn’t exactly jump off the page.\n\nWhat makes it perfectly whelming—Young Justice reference for those of you with ball knowledge—is the basic landcycling.\n\nThat little bit of flexibility goes a long way. Early on, it can help fix your mana or make sure you hit your land drops, and later it can still function as a perfectly acceptable body.\n\nNot exciting, but definitely useful enough to make the cut.",
+                "scope": "card"
+              }
+            ]
           },
           "ddad9f16-52d5-49de-82b0-b1a5294a9c44": {
             "grades": [
@@ -6684,7 +7803,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:73",
+                "paragraphIds": [
+                  "draftsim:73:p1"
+                ],
+                "text": "I love to have an Unsummon around! I like bounce spells in general for their flexibility, but tack that onto a simple 1-mana spell and I’m salivating at the value I might be able to get from it. You can kill a token, punish double blocks, dodge removal, or just make a nice tempo play, all for just 1 mana. I definitely like these more than most, and I’ll be taking them quite often.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:34",
+                "paragraphIds": [
+                  "zone-blue:34:p1",
+                  "zone-blue:34:p2",
+                  "zone-blue:34:p3"
+                ],
+                "text": "Ermahgerd, a nonbasic land card from Alpha showing up in a 2026 set.\n\nWe’ve gotten about a billion variations on Unsummon over the years, but sometimes it’s best to just go old school. Sure, you’re technically going down a card, but one mana to protect your creature, blow out a combat trick, or just completely wreck your opponent’s tempo is still a bargain.\n\nSometimes the classics don’t need fixing.",
+                "scope": "card"
+              }
+            ]
           },
           "e3afedb1-bf9d-4e31-9700-433514cc29b1": {
             "grades": [
@@ -6709,7 +7850,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:74",
+                "paragraphIds": [
+                  "draftsim:74:p1"
+                ],
+                "text": "A 2/3 with flying and prowess is a very good rate for a 3-drop, but it’s hard to see Variable Chaser as much more than that. The Arc of Fortune spell is really cool to see, but Wheel of Fortune isn’t a card that I’d traditionally want to cast in a random deck. While it’s great to draw a new hand of seven cards, giving your opponent that same opportunity isn’t likely to go well, so I don’t think you should give them that chance.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:35",
+                "paragraphIds": [
+                  "zone-blue:35:p1",
+                  "zone-blue:35:p2",
+                  "zone-blue:35:p3"
+                ],
+                "text": "A 2/3 flyer for three mana isn’t much more than low-end curve filler these days.\n\nThe wheel effect needs a whole lot to go right before it becomes especially relevant. It’s symmetrical, which makes it even harder to really abuse, and this isn’t Cube where you’re setting up some ridiculous combo turn and cackling like a supervillain.\n\nThere’s just enough upside here to keep it above a 1.5, but most of the time you’re drafting this because you need a flyer, not because you’re planning to live the wheel dream.",
+                "scope": "card"
+              }
+            ]
           },
           "cd56f047-6bdc-4e83-8a7c-923ebad26302": {
             "grades": [
@@ -6734,7 +7897,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:79",
+                "paragraphIds": [
+                  "draftsim:79:p1"
+                ],
+                "text": "Basic landcycling can make just about any card good enough to play. Apex Witchstalker isn’t good enough on its own, but that buyout of getting to fix your mana is incredibly strong. It can still be a meaningful play on 6, but the main reason you’d play it at all is for the fixing.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:1",
+                "paragraphIds": [
+                  "zone-black:1:p1",
+                  "zone-black:1:p2",
+                  "zone-black:1:p3"
+                ],
+                "text": "This is another mediocre piece of top-end curve filler that becomes playable mostly because basic landcycling bails it out.\n\nIt obviously gets a little better in a deck packed with life gain triggers, where the extra life can actually matter instead of just being decorative text.\n\nStill, this isn’t something I’m going out of my way to stalk down in a draft.",
+                "scope": "card"
+              }
+            ]
           },
           "4fcc913e-f736-460a-b24b-022fa2e861b9": {
             "grades": [
@@ -6759,7 +7944,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:80",
+                "paragraphIds": [
+                  "draftsim:80:p1"
+                ],
+                "text": "This is a real far cry from Emeritus of Ideation . A 2-mana 2/2 with no relevant text obviously isn’t good enough these days. While I’d love to cast an Ancestral Craving, needing three creatures to die in a turn is a very tall order. Even sacrificing a creature to Silence the Echo won’t get you all the way there. Bloodline Recollector is a big miss for me, but I hope we can get it to work in Standard .",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:2",
+                "paragraphIds": [
+                  "zone-black:2:p1",
+                  "zone-black:2:p2",
+                  "zone-black:2:p3",
+                  "zone-black:2:p4"
+                ],
+                "text": "The only thing I’ll be recollecting is all the times I got excited about opening a mythic, only to realize it was this one.\n\nDon’t get me wrong, if you manage to get even one cast off this, it goes from being a generic Grizzly Bears to generating some absolutely ridiculous value.\n\nThe problem is that they come unprepared, and fixing that is going to take some actual work. By far the easiest way is to make a few trades in combat, then slam this post-combat so you can pop it off on the end step.\n\nWhen everything lines up, this can be fantastic. The issue is that when you’re behind, drawing a two-mana bear is usually about the last thing you want to see, which puts a pretty firm ceiling on its overall grade.",
+                "scope": "card"
+              }
+            ]
           },
           "46974d94-e900-43e4-92b5-4fb9b9f7cf46": {
             "grades": [
@@ -6784,7 +7992,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:81",
+                "paragraphIds": [
+                  "draftsim:81:p1"
+                ],
+                "text": "While it’s usually going to be better to just target and kill what you want to, at least Break Under Pressure should always kill your opponent’s biggest thing. In exchange for basically never hitting tokens, it does get around hexproof /ward and other ways to protect creatures, and it even gains you some life just to be sure. So yeah, nice removal spell.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:3",
+                "paragraphIds": [
+                  "zone-black:3:p1",
+                  "zone-black:3:p2"
+                ],
+                "text": "While this won’t always hit the exact target you want, it is at least guaranteed to take out the most expensive thing they have. Most of the time, that’s going to line up pretty well with what you wanted to kill anyway.\n\nThe baseline is already solid removal, but if you’re in a deck that cares about life gain triggers, I’d bump this up a bit. At that point, you’re getting interaction while also helping turn on the rest of your deck.",
+                "scope": "card"
+              }
+            ]
           },
           "3b5b28a4-0abd-4dc2-9856-c9a8d27f6a2d": {
             "grades": [
@@ -6809,7 +8038,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:82",
+                "paragraphIds": [
+                  "draftsim:82:p1"
+                ],
+                "text": "Read the Bones effects are a bit hit or miss these days, as playing a creature to affect the board is often going to be more desirable. Cast Away Doubt ’s upside is quite relevant in Reality Fracture though, as the 2 damage to your opponent is perfect for triggering the effects of Stingerquill cards. There are better spells to do that, but this isn’t horrible if you need more of them.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:4",
+                "paragraphIds": [
+                  "zone-black:4:p1",
+                  "zone-black:4:p2"
+                ],
+                "text": "Here’s the problem: aggressive decks usually don’t often want to take a turn off just to gain a little card advantage, while control decks usually don’t want to keep taking damage while they’re desperately trying to stabilize. It does at least provide a little extra reach for the aggressive decks.\n\nThat leaves Cast Away Doubt in a bit of an awkward middle ground and seriously limits how many copies you’re going to want. Still, I have no doubt that I’ll be casting exactly one of these in plenty of decks.",
+                "scope": "card"
+              }
+            ]
           },
           "4ec912d5-cbe7-4d07-9ece-b03ac02d3055": {
             "grades": [
@@ -6834,7 +8084,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:84",
+                "paragraphIds": [
+                  "draftsim:84:p1"
+                ],
+                "text": "Theorix is all about self-mill , so getting to mill three cards as early as turn 1 sounds like something they’ll be very interested in doing. On top of that, it shouldn’t take much effort to get to the first seven cards to make Dark Matter Manipulator a 3/2 and let it brawl in combat, especially if you cast an Omit Variables. This is an incredible enabler for any graveyard-based deck and Theorix especially.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:6",
+                "paragraphIds": [
+                  "zone-black:6:p1",
+                  "zone-black:6:p2",
+                  "zone-black:6:p3"
+                ],
+                "text": "There’s some real upside here in the right deck, but you almost definitely don’t want to just toss this into a random pile and hope for the best.\n\nEven having a few other mill cards isn’t enough to get me especially interested. What I really want are multiple cards that actually turn the graveyard into value, like Gallia, Tragic Host .\n\nIf your deck is built to take advantage of the cards you’re milling, this can do some work. If not, you can do better.",
+                "scope": "card"
+              }
+            ]
           },
           "ec454979-3839-4be3-a34a-9d25482948ba": {
             "grades": [
@@ -6859,7 +8131,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:85",
+                "paragraphIds": [
+                  "draftsim:85:p1"
+                ],
+                "text": "Arclight Phoenix is now a classic card with an impressive competitive record across multiple formats . The new Darklight Phoenix has a lot of potential too, so what does it look like in Limited? Casting it is fine, but milling it and reanimating it for free sounds better. Black has two great cards that enable it in Silence the Echo and Winter, Tormented Loner , but simply using two removal spells before combat will do the trick, too. This isn’t trivial to do, but even getting the phoenix to trigger once gives you some great value and makes it well worth the inclusion.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:7",
+                "paragraphIds": [
+                  "zone-black:7:p1",
+                  "zone-black:7:p2"
+                ],
+                "text": "You definitely want to be playing Silence the Echo if this is in your deck. That’s by far the cleanest way to make sure two creatures die before combat and turn the Phoenix back on. Otherwise, you’re going to have to get a little creative.\n\nIf your deck can reliably bring it back, there’s some real value here. If you don’t think that’s happening very often, though, then you’re basically drafting a hasty Snapping Drake .",
+                "scope": "card"
+              }
+            ]
           },
           "eb4b6ed8-782e-4473-abc9-d50bf2275c6a": {
             "grades": [
@@ -6888,7 +8181,51 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [
               "game-10"
             ],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:86",
+                "paragraphIds": [
+                  "draftsim:86:p1"
+                ],
+                "text": "There’s a lot of good removal in Reality Fracture , but there’ll always be a need to cleanly remove anything, and the extra damage ping is very welcome in Stingerquill. Extended Absence will always be a solid card in any black deck and is even potentially splashable.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:8",
+                "paragraphIds": [
+                  "zone-black:8:p1",
+                  "zone-black:8:p2",
+                  "zone-black:8:p3"
+                ],
+                "text": "This is exactly the kind of card that would have easily been the best common in a set five years ago. It’s still a top common now, but four-mana removal is a little harder to justify loading up on these days.\n\nA clean exile effect that also hits planeswalkers is already great, and the bonus drain is just gravy. If your deck cares about life gain triggers or dealing noncombat damage, that little extra value matters even more.\n\nI might not want a fistful of them, but I’ll still be taking these early.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "eb4b6ed8-782e-4473-abc9-d50bf2275c6a",
+              "name": "Extended Absence",
+              "role": "Flexible exile removal",
+              "why": "Instant-speed exile answers a creature or planeswalker; the damage and life gain can also trigger payoffs.",
+              "better": "Especially useful alongside noncombat-damage or life-gain rewards.",
+              "watch": "Four-mana answers can crowd your curve. Leave room for cheaper interaction.",
+              "disagreement": "Both value it highly; Josh specifically cautions against loading up on too many four-mana removal spells.",
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:86",
+                "zone-black:8"
+              ],
+              "paragraphIds": [
+                "draftsim:86:p1",
+                "zone-black:8:p1",
+                "zone-black:8:p2",
+                "zone-black:8:p3"
+              ],
+              "rulesCardId": "eb4b6ed8-782e-4473-abc9-d50bf2275c6a",
+              "basisSha256": "c6033146f81ad8b4c5ead0558d72675e8f22ea1b3f6d9d34a9e2705b70a3c2b7"
+            }
           },
           "17fb6538-493c-41aa-ad13-3e63d3ad3317": {
             "grades": [
@@ -6913,7 +8250,31 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:87",
+                "paragraphIds": [
+                  "draftsim:87:p1"
+                ],
+                "text": "In case you’re unaware, “outside the game” in Limited means anything in your Sealed/Draft pool that isn’t in your main deck. Not only should all your best cards be in your main deck already, but your opponent gets to give you the worst option of the two you show them. Having so little agency over what you can get from Extrapolate the Impossible makes it look pretty unplayable from where I’m standing.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:9",
+                "paragraphIds": [
+                  "zone-black:9:p1",
+                  "zone-black:9:p2",
+                  "zone-black:9:p3",
+                  "zone-black:9:p4",
+                  "zone-black:9:p5"
+                ],
+                "text": "This isn’t entirely impossible to play, but it’s getting dangerously close.\n\nI know it looks like some weird Demonic Tutor where your opponent has to choose the lesser of two evils, but that’s just not going to play nearly as well in Limited as it sounds.\n\nMost of the time, all of your actually good cards are already in your deck, so you probably don’t have two generically strong options sitting in the sideboard waiting to be fetched. Even when you do, you’re still paying two mana just to put one of them into your hand.\n\nYou can’t even grab two copies of the same card, so trying to use this as mana fixing gets awkward too. If you show them two different lands, they can just hand you the one you already have.\n\nThis is a whole lot of work to end up with a card (and not even the best one) you probably should have just put in your deck over this to begin with.",
+                "scope": "card"
+              }
+            ]
           },
           "2381d123-d8c7-4822-98fe-b1c365beb5ed": {
             "grades": [
@@ -6940,7 +8301,49 @@ window.LIMITED_PREP_DATA = {
               "nicolai-guide-18"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:91",
+                "paragraphIds": [
+                  "draftsim:91:p1"
+                ],
+                "text": "I always like to see Last Gasp in a set. -3/-3 is enough to kill a lot of creatures, and it can even take down bigger creatures by shrinking them as a combat trick. For 2 mana, this is one of the most efficient removal spells in FRA, and it’ll probably be the best black common.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:13",
+                "paragraphIds": [
+                  "zone-black:13:p1",
+                  "zone-black:13:p2"
+                ],
+                "text": "Last Gasp has made plenty of appearances over the years, and it’s never really been disappointing.\n\nIt’s cheap, efficient removal that can cleanly answer smaller creatures while still doubling as a combat trick against bigger monsters. There’s not much more you can ask for out of a two-mana common.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "2381d123-d8c7-4822-98fe-b1c365beb5ed",
+              "name": "Last Gasp",
+              "role": "Cheap interaction",
+              "why": "Efficiently removes small creatures or shrinks a larger creature during combat.",
+              "better": "A blocker or another source of damage can help finish a creature it cannot kill alone.",
+              "watch": "It gives −3/−3, so an undamaged 4/4 becomes a 1/1 and survives.",
+              "disagreement": null,
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:91",
+                "zone-black:13"
+              ],
+              "paragraphIds": [
+                "draftsim:91:p1",
+                "zone-black:13:p1",
+                "zone-black:13:p2"
+              ],
+              "rulesCardId": "2381d123-d8c7-4822-98fe-b1c365beb5ed",
+              "basisSha256": "be6d803db138d4b77306b24b409c5fd9a5982e253b51a47fa90aafb7570ff8f5"
+            }
           },
           "b105511d-5022-4a84-b6ce-4bb433e93a62": {
             "grades": [
@@ -6965,7 +8368,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:92",
+                "paragraphIds": [
+                  "draftsim:92:p1"
+                ],
+                "text": "Getting to destroy any creature for 3 mana is a great start for any spell, but Lich's Relic then sticks around and provides additional value. We’ve just seen how relevant Crude Bent Blade ended up being in The Hobbit , only this time this is targeted removal, which means it’s going to be even better.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:14",
+                "paragraphIds": [
+                  "zone-black:14:p1",
+                  "zone-black:14:p2",
+                  "zone-black:14:p3"
+                ],
+                "text": "Remember Crude Bent Blade ? This is basically that card after somebody decided it needed a massive upgrade.\n\nGetting to actually target the creature instead of letting your opponent choose what to sacrifice is a gigantic swing in the right direction. You’re no longer politely asking them to hand over their worst creature—you get to point at the thing ruining your day and make it disappear.\n\nYou even have the option to just play this cheaply when all you care about is the Equipment. That mode probably matters a lot more in Constructed against creatureless decks, but I’m never going to complain about having extra options.",
+                "scope": "card"
+              }
+            ]
           },
           "90d684a4-9639-4792-8760-2011a7a85370": {
             "grades": [
@@ -6990,7 +8415,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:97",
+                "paragraphIds": [
+                  "draftsim:97:p1"
+                ],
+                "text": "I’m a math guy. I have a degree in it, and I teach it for a living. As such, I was always puzzled by how Divide by Zero didn’t feel quite like the result of dividing by zero. Multiply by Zero on the other hand is brilliant. It’s a perfect representation of the name and a very powerful removal spell, able to kill any creature that doesn’t have a toughness buff of some kind, and it can at least shrink those creatures in combat.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:19",
+                "paragraphIds": [
+                  "zone-black:19:p1",
+                  "zone-black:19:p2",
+                  "zone-black:19:p3",
+                  "zone-black:19:p4"
+                ],
+                "text": "First off, I’m mildly disappointed this card isn’t atrocious so I could give Multiply by Zero the only truly appropriate grade: 0.0.\n\nUnfortunately, they had to go and make it good.\n\nThis is awfully close to the 4.0 range because a two-mana instant that can kill basically anything is just that damn efficient. The only thing really holding it back is the restriction against creatures with counters, which is going to matter just often enough to keep me from pushing it higher.\n\nStill, two mana to make something disappear is a rate I’m taking very early.",
+                "scope": "card"
+              }
+            ]
           },
           "c4554f5b-791b-48f6-bf54-ad28699e1beb": {
             "grades": [
@@ -7015,7 +8463,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:98",
+                "paragraphIds": [
+                  "draftsim:98:p1"
+                ],
+                "text": "The obvious comparison to make here would be to Sunfall . While Sunfall was one of the best cards in March of the Machine , Overwrite the Multiverse will likely fall short of that. Still, exiling all creatures and giving you an extra reward is an incredibly powerful ability, and this is going to be very strong regardless.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:20",
+                "paragraphIds": [
+                  "zone-black:20:p1",
+                  "zone-black:20:p2",
+                  "zone-black:20:p3"
+                ],
+                "text": "I might be a little lower on this than some other people. Don’t get me wrong, I’m still slamming it P1P1. I think it’s great—I just don’t think it belongs in the absolute top tier of bombs you can open. This was obviously designed to be a twisted version of Sunfall , but let me tell you: this is no Sunfall .\n\nThere’s a huge difference between a five-mana and a six-mana sweeper, especially when it comes to your ability to bait someone into overcommitting to the board. It also conveniently misses planeswalkers, which matters quite a bit in a set with plenty of them. Flavor-wise, it honestly feels like it should wipe those out too.\n\nThe Empower Jace upside is basically just gravy on top. You’re never going to complain about drawing a couple of extra cards after resetting the board.",
+                "scope": "card"
+              }
+            ]
           },
           "f4a80225-7459-4151-86bb-8fdea31c39a6": {
             "grades": [
@@ -7040,7 +8510,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:100",
+                "paragraphIds": [
+                  "draftsim:100:p1"
+                ],
+                "text": "Deathtouch gets weaker and weaker as a creature gets bigger. On a 4-drop like Rampart Hunter , it just looks mediocre and over-costed. The ETB ability might be enough to warrant playing it in some decks, but this looks like filler material at best.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:22",
+                "paragraphIds": [
+                  "zone-black:22:p1",
+                  "zone-black:22:p2"
+                ],
+                "text": "The ability seems like it would be at its best in either an extremely aggressive deck or one loaded with massive tramplers.\n\nThe problem is that neither of those decks is going to be especially excited about playing a Hill Giant just to get that little bit of upside. The ability has some use, but the body is simply too mediocre for me to get excited about it.",
+                "scope": "card"
+              }
+            ]
           },
           "4ff6da82-d7dd-4b59-b7e6-30670cea7169": {
             "grades": [
@@ -7065,7 +8556,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:101",
+                "paragraphIds": [
+                  "draftsim:101:p1"
+                ],
+                "text": "We see these cards in most sets these days. Making your opponent discard a card is very similar to you drawing one, especially when you play it early in a game to hinder your opponent’s development. While these vary in power level depending on the set surrounding them, it’s still likely that Rank Rat will be quite good.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:23",
+                "paragraphIds": [
+                  "zone-black:23:p1",
+                  "zone-black:23:p2",
+                  "zone-black:23:p3"
+                ],
+                "text": "Another spin on Ravenous Rats . This time it’s a Zombie and gets a little better in multiplayer, which are both pretty close to irrelevant changes for Limited.\n\nAggressive decks probably don’t want to start piling these up because a tiny body isn’t exactly helping you beat someone down. If your deck is looking for sacrifice fodder, though, the grade starts climbing pretty quickly.\n\nMaking your opponent discard a card and then feeding the leftover Rat to something else is exactly the kind of miserable little value chain those decks are looking for.",
+                "scope": "card"
+              }
+            ]
           },
           "453cfde7-c460-4b55-9472-b714e16f24bb": {
             "grades": [
@@ -7090,7 +8603,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:102",
+                "paragraphIds": [
+                  "draftsim:102:p1"
+                ],
+                "text": "Reanimation spells are rarely good enough in Limited. The simple fact is that you need something worth reanimating in the graveyard or it’s just uncastable. Rewrite Regrets might find a home in Reality Fracture thanks to the big landcycling creatures like Apex Witchstalker , especially since the empower ability is a nice bonus that other spells don’t normally give us.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:24",
+                "paragraphIds": [
+                  "zone-black:24:p1",
+                  "zone-black:24:p2",
+                  "zone-black:24:p3"
+                ],
+                "text": "I won’t have any regrets to rewrite when I take this. Maybe I’ll have a few about some of my grades later, but that’s future Josh’s problem.\n\nFour mana is usually about the point where I’m happy playing a reanimation spell straight up. This one can also bring back planeswalkers while tossing in a couple points of Empower Jace for good measure.\n\nThe six-mana restriction feels much more like a Constructed concern than something that’s going to come up very often in Limited. There’s even an entire cycle of landcyclers that are easy to get into your graveyard and conveniently cost six or less, giving you some natural targets without having to work too hard for them.",
+                "scope": "card"
+              }
+            ]
           },
           "811719ad-b5a3-4d31-8c6f-5dbdfccf7c1f": {
             "grades": [
@@ -7115,7 +8650,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:103",
+                "paragraphIds": [
+                  "draftsim:103:p1"
+                ],
+                "text": "-3/-3 to all creatures is a pretty reasonable board wipe, but at instant speed it gets even more powerful. Most sweepers have the downside of your opponent being the first player to commit to the board once you’ve played them, but Rise of the Deathbringer doesn’t have that problem. It can also be a big draw spell, and you can use it after blocking creatures in combat to finish some bigger creatures off, making it a very powerful spell all round.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:25",
+                "paragraphIds": [
+                  "zone-black:25:p1",
+                  "zone-black:25:p2",
+                  "zone-black:25:p3",
+                  "zone-black:25:p4"
+                ],
+                "text": "Five mana is a lot, but you don’t exactly see instant-speed sweepers every day. That timing can let you squeeze out one last juicy chunk of value by letting your opponent walk straight into it.\n\nThe catch is that -3/-3 isn’t going to clean up every big threat on the battlefield. Sometimes you’ll need to do a little blocking first to soften things up before pulling the trigger.\n\nThe fallback mode of cashing in some life for cards is also a really nice option when you’re the beatdown and don’t actually want to nuke the board.\n\nThat kind of flexibility on an already powerful effect is more than enough to keep this firmly in 4.0 territory.",
+                "scope": "card"
+              }
+            ]
           },
           "2185c08f-bb4d-49d5-8b6c-c629a48bb61c": {
             "grades": [
@@ -7140,7 +8698,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:104",
+                "paragraphIds": [
+                  "draftsim:104:p1"
+                ],
+                "text": "I never thought I’d be here, writing about a card that only cares about planeswalkers and yet still singing its praises. I guess that’s just the effect of this set. Making your Jace token stick around on 0 loyalty doesn’t matter too much, because you can always empower another one, but giving them a +2 ability actually matters a lot. It helps you to grow the Jace token each turn but also helps to trigger Stingerquill abilities at the same time. Sanctum Lurker isn’t exactly a bomb rare, but it does provide a good amount of value and is a great addition to any deck with a good number of empower cards.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:26",
+                "paragraphIds": [
+                  "zone-black:26:p1",
+                  "zone-black:26:p2",
+                  "zone-black:26:p3"
+                ],
+                "text": "This can immediately bump your Empowered Jace up to three while draining your opponent along the way.\n\nThat leaves Jace perfectly set up to draw you a card on the next turn without even having to worry about losing him when the loyalty hits zero. He’ll still be hanging around afterward, ready to start ticking back up again.\n\nThat’s a ridiculous amount of value packed into one card, especially when the drain is basically just gravy on top.",
+                "scope": "card"
+              }
+            ]
           },
           "738667a1-c184-43ea-829f-49fbb69b6fc0": {
             "grades": [
@@ -7165,7 +8745,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:105",
+                "paragraphIds": [
+                  "draftsim:105:p1"
+                ],
+                "text": "A cheap flier that guarantees at least 1 point of damage whenever it attacks is actually quite a pain to deal with. Thinking back to creatures like Vicious Conquistador , they demanded answers since letting them get into combat in the late game could be quite dangerous. Screeching Soulbreaker looks a bit too small, but this ability is strong and I think it’ll be better than it may initially look.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:27",
+                "paragraphIds": [
+                  "zone-black:27:p1",
+                  "zone-black:27:p2",
+                  "zone-black:27:p3"
+                ],
+                "text": "Do you have a bunch of cards that trigger off gaining life? If so, this can become a key enabler and I’d draft it more like a 2.5. The same applies if you have a bunch of cards that care about noncombat damage.\n\nIt’s still perfectly playable in the average deck, but it just won’t be doing nearly as much heavy lifting without those synergies around it.\n\nThe baseline is perfectly fine. The real value comes when the rest of your deck actually cares about what this card is doing.",
+                "scope": "card"
+              }
+            ]
           },
           "f1d274db-751b-4414-a38d-762198168e91": {
             "grades": [
@@ -7192,7 +8794,29 @@ window.LIMITED_PREP_DATA = {
               "nicolai-guide-19"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:106",
+                "paragraphIds": [
+                  "draftsim:106:p1"
+                ],
+                "text": "This is another removal spell design that we see again and again, but it looks a lot more relevant in Reality Fracture . A Jace token on 1 loyalty doesn’t do a lot for you in most situations other than just minus itself to surveil. Silence the Echo sacrificing it to get the cost reduction is a much better use of it, and of course you could always play it for 5 mana if you have to.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:28",
+                "paragraphIds": [
+                  "zone-black:28:p1",
+                  "zone-black:28:p2",
+                  "zone-black:28:p3"
+                ],
+                "text": "Five mana at sorcery speed is an awful lot to be paying for a removal spell in this economy.\n\nEven the discounted rate is two mana, and we just had Stir Up Trouble doing something similar for one mana with a bunch of easily sacrificed artifacts floating around to fuel it. You’re far less likely to have an extra planeswalker just chilling on the battlefield that you don’t mind tossing away. Even with Jace tokens getting thrown around, those still have plenty of value on their own.\n\nIt’s still removal, so I’m not completely out on it, but the rate and setup leave a lot to be desired.",
+                "scope": "card"
+              }
+            ]
           },
           "7beaa8c9-1a2c-4c88-b579-91e371d8d9e3": {
             "grades": [
@@ -7217,7 +8841,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:107",
+                "paragraphIds": [
+                  "draftsim:107:p1"
+                ],
+                "text": "We normally see Coercion effects for 3 mana in Limited sets, and they really suck if they don’t do anything else. At 2 mana, Solve for Disappointment might actually be a good card. It can be played early enough or alongside another spell, and it even empowers for a little bit of extra value on top.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:29",
+                "paragraphIds": [
+                  "zone-black:29:p1",
+                  "zone-black:29:p2",
+                  "zone-black:29:p3"
+                ],
+                "text": "I won’t be disappointed to have one of these in my deck, but it’s definitely not a card I want to start stacking up on.\n\nTaking any nonland card while also getting a surveil is right around the rate I want for two mana. One way to look at it is that this can effectively fill your two-drop slot instead of forcing you to play some random creature just to have something to do early.\n\nIt’s great on turn two, but you’re usually going to be pretty sad when you peel it off the top late in the game.",
+                "scope": "card"
+              }
+            ]
           },
           "7ebd7e38-b27c-4c6e-aaea-e8ee5ba5e5df": {
             "grades": [
@@ -7242,7 +8888,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:108",
+                "paragraphIds": [
+                  "draftsim:108:p1"
+                ],
+                "text": "Thanks to also being able to kill Jace tokens if needed, Terminal Criticism is another color hoser that I think is very much worth putting in your main deck. It’s obviously exceptional against any deck with blue or red creatures , but killing Jace is a great buyout that keeps it relevant against other decks, too.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:30",
+                "paragraphIds": [
+                  "zone-black:30:p1",
+                  "zone-black:30:p2"
+                ],
+                "text": "You’re going to get criticized pretty hard if you’re running something this narrow in your main deck.\n\nAs a sideboard card, though, it can be absolutely brutal when the matchup lines up. That makes it a great tool in traditional Limited, but if you’re living in Bo1 land, you can basically pretend this card doesn’t exist.",
+                "scope": "card"
+              }
+            ]
           },
           "e36a7908-1e22-494b-adb4-e72ac0974d62": {
             "grades": [
@@ -7267,7 +8934,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:110",
+                "paragraphIds": [
+                  "draftsim:110:p1"
+                ],
+                "text": "Three mana for a 4/1 with no keywords is pretty atrocious by modern standards, so of course we’re only interested in Theoretical Necromancer ’s ability. When you’re milling yourself, anything you mill that does something from the graveyard is like drawing a free card, and that’s exactly what this neat little creature does. I really want to be able to mill or discard it and get value from it, but I guess if you have to cast it then it should be able to find something to trade with.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:32",
+                "paragraphIds": [
+                  "zone-black:32:p1",
+                  "zone-black:32:p2",
+                  "zone-black:32:p3"
+                ],
+                "text": "They had a theory of a plan, and eventually decided becoming a necromancer was the right career choice. Clearly, things have not gone especially well.\n\nThis would be an amazing card if it actually Reanimate d something instead of just giving you a glorified Raise Dead . As printed, it’s fine, but definitely not exciting.\n\nIt gets noticeably better if your deck has self-mill or looting effects to drop this in the graveyard, but even then, it’s a little too expensive for what you’re actually getting.",
+                "scope": "card"
+              }
+            ]
           },
           "0eae2efb-bf25-48ee-9c07-9098008110ad": {
             "grades": [
@@ -7292,7 +8981,51 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:112",
+                "paragraphIds": [
+                  "draftsim:112:p1"
+                ],
+                "text": "I’ve been talking about the Theorix self-mill deck quite a lot and it needs some enablers. Void Extrapolator is a perfect one: As a simple 2-drop with access to Omit Variables, it can start to mill you as early as turn 3 and even gives itself a nice buff once you reach threshold. If you’re drafting Theorix, this is going to be one of the most important cards to pick up.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:34",
+                "paragraphIds": [
+                  "zone-black:34:p1",
+                  "zone-black:34:p2",
+                  "zone-black:34:p3"
+                ],
+                "text": "I feel like this really needed something like menace once you hit Threshold. It can be a key card in Dimir builds, but struggle elsewhere.\n\nA potential 3/3 for two mana is certainly respectable, and you can usually find a spot to sneak in the extra mana for the mill ability. The problem is that you’re still asking your deck to put in a decent amount of work before this becomes anything more than mediocre.\n\nThere’s some upside here, but I want a lot of graveyard synergy before I’m interested.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "0eae2efb-bf25-48ee-9c07-9098008110ad",
+              "name": "Void Extrapolator // Omit Variables",
+              "role": "Self-mill enabler",
+              "why": "An early creature that supplies a prepared mill spell and grows at threshold.",
+              "better": "Prioritise it when reaching seven graveyard cards benefits several cards in your deck.",
+              "watch": "Outside a graveyard plan, the body and self-mill are much less compelling.",
+              "disagreement": "Quinn highlights its importance to the self-mill deck; Josh puts more emphasis on how much support it needs.",
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:112",
+                "zone-black:34"
+              ],
+              "paragraphIds": [
+                "draftsim:112:p1",
+                "zone-black:34:p1",
+                "zone-black:34:p2",
+                "zone-black:34:p3"
+              ],
+              "rulesCardId": "0eae2efb-bf25-48ee-9c07-9098008110ad",
+              "basisSha256": "977b0939424dc666593d23a0ac922479a2e1aef75e6c71c6a81ce152e9fa74a7"
+            }
           },
           "992bd991-7cfb-459f-bafd-9a44f3c925c5": {
             "grades": [
@@ -7317,7 +9050,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:113",
+                "paragraphIds": [
+                  "draftsim:113:p1"
+                ],
+                "text": "Even at the cost of 2 life, killing any creature or planeswalker for 2 mana is a great deal. I don’t think you’ll empower 6 very often, but it’s a nice buyout to have late in a game. Either way, Vraska's Final Mercy is clearly very good, and double black isn’t enough to hold it back.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:35",
+                "paragraphIds": [
+                  "zone-black:35:p1",
+                  "zone-black:35:p2",
+                  "zone-black:35:p3"
+                ],
+                "text": "Two mana and two life to kill a creature is a solid deal, even if it is at sorcery speed.\n\nThe other half is basically a Sign in Blood where you have to wait around for the second card. That’s not an awful fallback plan, but this is almost always going to be used as the removal spell.\n\nI’d easily bump this up to a 3.5 if it were an instant or if one of those black pips got swapped for a generic mana.",
+                "scope": "card"
+              }
+            ]
           },
           "d9039a58-2f17-4b8a-b714-3a2f0b46f057": {
             "grades": [
@@ -7342,7 +9097,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:119",
+                "paragraphIds": [
+                  "draftsim:119:p1"
+                ],
+                "text": "Red plus X mana for X damage to any target is a spell that used to be incredible, but it hasn’t aged well as the game has evolved. Yes, you can finish off a player with that damage, but it’s so inefficient to kill a creature with it that it just ends up being quite weak. I don’t think being an enchantment with some very minor text changes the equation at all. At the end of day, Ajani's Anguish is fine and you could use it better in a Konstrari ramp deck , but a lot of red decks aren’t going to be interested in playing it.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:1",
+                "paragraphIds": [
+                  "zone-red:1:p1",
+                  "zone-red:1:p2",
+                  "zone-red:1:p3",
+                  "zone-red:1:p4"
+                ],
+                "text": "This probably looks a little high because an X-spell that deals damage to any target isn’t remotely as terrifying as it was back in the day. I promise I haven’t completely lost the plot, though. The flexibility to either clear out a blocker or just dome your opponent is still incredibly valuable.\n\nThe part that really pushes it for me is that it sticks around afterward and gives your creatures trample. That combination makes closing out the game a helluva lot easier because suddenly all those random chump blockers aren’t buying nearly as much time.\n\nI also have a feeling the data on this card is going to look noticeably worse than how it actually plays. Cards that force you to decide between firing them off aggressively or diamond-handing them for the perfect moment tend to get butchered by average players.\n\nThe card is powerful. The hard part is knowing when to pull the trigger.",
+                "scope": "card"
+              }
+            ]
           },
           "7d3b720d-f27c-462a-8f80-15748e5086e1": {
             "grades": [
@@ -7367,7 +9145,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:121",
+                "paragraphIds": [
+                  "draftsim:121:p1"
+                ],
+                "text": "Over the years, we’ve seen our fair share of 1-mana cantrip spells that grant a random keyword to a creature. Artifist Acumen looks a lot stronger than those previous cards simply because it grants first strike to all your creatures. Combined with the sheer number of prowess creatures in Reality Fracture , this looks like a card I’d want to pick up in multiples to enable that prowess deck.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:4",
+                "paragraphIds": [
+                  "zone-red:4:p1",
+                  "zone-red:4:p2",
+                  "zone-red:4:p3"
+                ],
+                "text": "This can fill a pretty useful role whether you’re in a spells deck looking for cheap triggers or an aggressive deck that doesn’t mind cashing it in for a little extra oomph in combat.\n\nIt’s never going to be a card you’re fighting people for early in the draft, but I think it’ll quietly do more work than it looks like it should.\n\nNot exciting. Not embarrassing. Just a useful little piece of cardboard that knows its job.",
+                "scope": "card"
+              }
+            ]
           },
           "c596c4ec-8480-4be9-a45d-700398a126f6": {
             "grades": [
@@ -7392,7 +9192,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:122",
+                "paragraphIds": [
+                  "draftsim:122:p1"
+                ],
+                "text": "Five-mana big burn spells are usually fine to play. You’ll often be happy to put one copy in your deck for the late game. Awaken the Inferno is a lot better than previous versions of this effect, since the main reason you’ll play it is to fix your mana in the early game. This is so rarely a dead card because it has applications at every point in the game and that’s very good to have around.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:5",
+                "paragraphIds": [
+                  "zone-red:5:p1",
+                  "zone-red:5:p2",
+                  "zone-red:5:p3"
+                ],
+                "text": "The base spell would be actively good at four mana, but it’s still perfectly reasonable at five.\n\nThe real thing helping it out is basic landcycling, which is usually worth about half a point by itself. Early on, it can bail you out of a sketchy hand or fix your colors, and later you can just cast the actual spell.\n\nThat kind of flexibility does a lot of work for an otherwise fairly ordinary five-mana card.",
+                "scope": "card"
+              }
+            ]
           },
           "8414a98c-0c79-4884-bc9b-061a6456b392": {
             "grades": [
@@ -7417,7 +9239,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:123",
+                "paragraphIds": [
+                  "draftsim:123:p1"
+                ],
+                "text": "Combat tricks aren’t particularly good these days, but Blazing Crescendo is one of the better ones. It doesn’t always win a combat for you, but it does replace itself a good amount of the time. I also like that it helps you to apply more pressure to a Jace token, so I wouldn’t be surprised if this saw a good amount of play.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:6",
+                "paragraphIds": [
+                  "zone-red:6:p1",
+                  "zone-red:6:p2",
+                  "zone-red:6:p3",
+                  "zone-red:6:p4"
+                ],
+                "text": "We’ve seen this card before, and it has always ended up as pretty middling filler.\n\nThe idea of a two-mana combat trick that replaces itself sounds great, but only getting to play the exiled card until your next turn makes things awkward. You’re often hesitant to fire this off early because there’s a real chance you won’t have the mana or opportunity to actually cash in on the extra card.\n\nIt also only adds one toughness, so the math has to line up pretty perfectly for it to actually save a creature in combat.\n\nThere’s enough here that I’ll play it when I need a trick, but I’m never going to be excited about it.",
+                "scope": "card"
+              }
+            ]
           },
           "3a64c5f4-9cfc-4d19-bd99-13d619b1aa9d": {
             "grades": [
@@ -7442,7 +9287,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:125",
+                "paragraphIds": [
+                  "draftsim:125:p1"
+                ],
+                "text": "Some variants on this design have seen play in the past, but the difficulty is even wanting to put a comparatively weak creature in a deck that has enough noncreature spells to support it. I’d assume that Chandra's Emberling just isn’t good enough at first, though it wouldn’t be that shocking if it was playable.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:8",
+                "paragraphIds": [
+                  "zone-red:8:p1",
+                  "zone-red:8:p2",
+                  "zone-red:8:p3"
+                ],
+                "text": "This can grow pretty quickly in the right deck, and there are definitely going to be builds where you draft it more like a premium common.\n\nYou can almost look at the ability like a mini combat trick that’s already sitting on the battlefield. That makes blocking it super awkward because your opponent has to account for it suddenly getting bigger at the worst possible time.\n\nThe baseline is fine, but the right deck can push this well above the 2.0 grade.",
+                "scope": "card"
+              }
+            ]
           },
           "f3307da2-6dad-4ef2-9614-a7d34f38088e": {
             "grades": [
@@ -7467,7 +9334,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:126",
+                "paragraphIds": [
+                  "draftsim:126:p1"
+                ],
+                "text": "No matter what it does when you cast it, the fact that Command the Stage is so free to get back into your hand makes it a premium spell to me. It then of course helps that it does something very relevant on the board. Sadly, there are virtually no wizards in red, but there are a lot of them in blue and of course the Cadet tokens also count, so I can’t imagine losing many games where you cast this a few times. Unless you curve a 2-drop wizard into this, the first cast could be a little rough, but this still looks like an incredible card to build around.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:9",
+                "paragraphIds": [
+                  "zone-red:9:p1",
+                  "zone-red:9:p2",
+                  "zone-red:9:p3"
+                ],
+                "text": "A 3/3 for three that pumps all of your other Wizard tokens is already a reasonable card on its own. Unfortunately this only pumps your OTHER wizard tokens so you’re only getting a 2/2 out of the deal.\n\nThe moment you bring this back once, though, we’re getting dangerously close to good. Anything beyond that starts wandering into excellent territory.\n\nSuddenly all of those random drains from cards like Extended Absence are looking a whole lot more interesting. If your deck has enough ways to keep triggering this, Command the Stage can turn into one hell of an encore.",
+                "scope": "card"
+              }
+            ]
           },
           "47793a51-08c6-4ad2-a7e5-a4484d83a5cd": {
             "grades": [
@@ -7492,7 +9381,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:127",
+                "paragraphIds": [
+                  "draftsim:127:p1"
+                ],
+                "text": "If you have no other artifacts in play, Craterclaw Colossus still counts itself, so it attacks as a 6/5 trampler on that turn and buffs your other creatures a little bit. That’s already kind of good, but what makes Craterclaw look really broken is the Konstrari deck. Heartwood tokens not only ramp you up to 7 mana and fix the triple red that you need, but they also count as extra artifacts in play towards the ability. On top of that, the Konstrari have a bunch of artifact creatures in their ranks that will also add to that total. In a good Konstrari deck, I can imagine Craterclaw coming down and giving +5/+0 to your team and just winning the game in one shot. This is the perfect win condition for Konstrari, and it might even be good enough in some other red decks, too.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:10",
+                "paragraphIds": [
+                  "zone-red:10:p1",
+                  "zone-red:10:p2",
+                  "zone-red:10:p3",
+                  "zone-red:10:p4"
+                ],
+                "text": "This is certainly no Craterhoof Behemoth , even if it does have some real potential in a deck that can flood the board with cheap artifacts and Heartwood tokens. That pretty firmly puts its best home in Gruul.\n\nIf you can consistently set that up, there’s something here. If not, this thing is just way too expensive, and the triple red certainly isn’t doing it any favors.\n\nTaking it early at least gives you the opportunity to build around it, which is probably the best way to maximize what this card is capable of doing.\n\nI also wouldn’t be surprised if the data ends up looking worse than the card actually is. This feels like exactly the kind of card people are going to jam into decks that have no business playing it just because the ceiling looks exciting.",
+                "scope": "card"
+              }
+            ]
           },
           "8f827e50-0a08-4bc8-98b1-b26c9af15ef2": {
             "grades": [
@@ -7517,7 +9429,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:128",
+                "paragraphIds": [
+                  "draftsim:128:p1"
+                ],
+                "text": "The bulk of the power in Curse-Marred Demon comes from it being a 4/4 with flying and trample for just 4 mana. The Gamble when it enters is of course very random, so it might improve the quality of your hand, or it might not. Of course, if it does let you keep a great card from your deck, then it’ll feel very powerful, but I guess what I’m saying is that you don’t need to rely on it. If you have two lands in hand, search for a good spell and then randomly discard that spell, you’re still doing well.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:11",
+                "paragraphIds": [
+                  "zone-red:11:p1",
+                  "zone-red:11:p2",
+                  "zone-red:11:p3",
+                  "zone-red:11:p4"
+                ],
+                "text": "A 4/4 flying trample creature for four mana is still an absurdly efficient rate and something I’m basically never cutting.\n\nThe Gamble effect is just bonus upside that will occasionally pay off in a huge way. Sure, sometimes the random discard is going to kick you directly in the teeth, but you were already getting a great creature before any of that nonsense.\n\nLittle hint: if you’re empty-handed, go grab something that can still generate value from the graveyard. Worst case, you can always grab a land and get it out of the way.\n\nGreat body, real upside, and just enough gambling to keep things interesting.",
+                "scope": "card"
+              }
+            ]
           },
           "112f8478-bd89-4a14-9721-8ab750613129": {
             "grades": [
@@ -7542,7 +9477,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:129",
+                "paragraphIds": [
+                  "draftsim:129:p1"
+                ],
+                "text": "The main artifact tokens to create in Reality Fracture are the Heartwood tokens, but there are so many of them that I can easily see Draconic Visitor going pretty wild with them if you get to untap. There are a few other nice synergies, such as with Pia, Determined Rebuilder or Vraska, Soul of Stone , but it’s also a 5/5 flying dragon for 5 mana, so you’d even play it without any of those combos.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:12",
+                "paragraphIds": [
+                  "zone-red:12:p1",
+                  "zone-red:12:p2"
+                ],
+                "text": "Another beefy flying rare with a pile of upside stapled onto it. Apparently Dragons showing up and just being huge isn’t enough anymore.\n\nThere aren’t a ton of Treasure or Food generators floating around to really abuse the ability, but turning your random Heartwood tokens into fresh Dragons is one hell of an upgrade.",
+                "scope": "card"
+              }
+            ]
           },
           "5f8771f9-8128-4818-a11d-41ea368cf697": {
             "grades": [
@@ -7567,7 +9523,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:130",
+                "paragraphIds": [
+                  "draftsim:130:p1"
+                ],
+                "text": "Cards like this provide you a little bit of late game inevitability but are generally too slow to make too much of an impact. What I really like about Eardrum Rattler though is how much it enables you to pressure Jace tokens and also how well it combines with some of the combat damage triggers we’ve seen. Since it’s just a 2-drop 2/2 as a starting point, I’d say it’s worth including in a lot of red decks.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:13",
+                "paragraphIds": [
+                  "zone-red:13:p1",
+                  "zone-red:13:p2"
+                ],
+                "text": "This type of card has been a low-end playable in formats a lot less powerful than this one.\n\nI’m not going to blow out your eardrums babbling about it, though, because this is never going to be more than curve filler. You’ll play it when you need something to fill the slot, and you’ll cut it the second you find something better.",
+                "scope": "card"
+              }
+            ]
           },
           "d2e958de-70de-4156-8f9b-b2c0c1ba704a": {
             "grades": [
@@ -7592,7 +9569,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:131",
+                "paragraphIds": [
+                  "draftsim:131:p1"
+                ],
+                "text": "Red has access to a lot of good burn spells in Reality Fracture , so I doubt you’ll need to worry too much about whether Essence Burn is worth a slot in your main deck. It is an excellent sideboard card, but I think it’ll miss a little too often to warrant main-decking.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:14",
+                "paragraphIds": [
+                  "zone-red:14:p1",
+                  "zone-red:14:p2",
+                  "zone-red:14:p3"
+                ],
+                "text": "There’s one of these in every color, so I feel like I’m starting to repeat myself.\n\nYou’re usually going to get burned if you put this in your main deck, but it can be a fantastic sideboard card when the matchup lines up.\n\nDraft it, stash it on the bench, and bring it in when it actually has something worth setting on fire.",
+                "scope": "card"
+              }
+            ]
           },
           "3ccf8f64-19bd-4fdf-b70a-30a042bacf2f": {
             "grades": [
@@ -7617,7 +9616,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:132",
+                "paragraphIds": [
+                  "draftsim:132:p1"
+                ],
+                "text": "If you’re spending 7 mana on a spell, you have to know that you’re getting a ton of value and/or basically winning the game when you play it. Face Yourself is capable of that, but only in very specific situations. In my opinion, it’s not worth putting this card into your deck. With no guarantee that you can copy useful creatures or permanently keep them, I’m not interested in a 7-mana sorcery that only might do something.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:15",
+                "paragraphIds": [
+                  "zone-red:15:p1",
+                  "zone-red:15:p2",
+                  "zone-red:15:p3"
+                ],
+                "text": "This is going to have a massive delta in how well it performs from game to game.\n\nThere are going to be times where it ends the game on the spot. There are going to be times where it drags you back into a game you had absolutely no business winning. And then there are going to be times where you pay seven mana to make a couple of creatures that disappear at the end of the turn.\n\nThe ceiling is enormous, but the floor is low enough that I’m not ready to push it any higher than this.",
+                "scope": "card"
+              }
+            ]
           },
           "19acb2b5-3b3e-43f0-bd81-8426ed3d9c55": {
             "grades": [
@@ -7642,7 +9663,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:133",
+                "paragraphIds": [
+                  "draftsim:133:p1"
+                ],
+                "text": "We just had Gnashing of Teeth in The Hobbit , and Fulminous Forte looks remarkably similar. It’s an excellent burn spell to clear out a big creature or finish off a few smaller ones, but the key selling point for me is that it’s an instant. That extra bit of flexibility over a sorcery makes a big difference and sells this to me as one of red’s best and most versatile cards.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:16",
+                "paragraphIds": [
+                  "zone-red:16:p1",
+                  "zone-red:16:p2"
+                ],
+                "text": "This would already be a 3.0 if all it did was deal five damage for three mana. That’s just a damn good rate.\n\nWhat pushes it higher is having the option to ping their entire side for one at instant speed. That’s the kind of mode that can sit quietly in your pocket until your opponent walks straight into a blowout.",
+                "scope": "card"
+              }
+            ]
           },
           "7e324816-552f-455d-97c4-5ea6b26d2e6e": {
             "grades": [
@@ -7667,7 +9709,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:135",
+                "paragraphIds": [
+                  "draftsim:135:p1"
+                ],
+                "text": "Three mana for a bigger Rummaging Goblin doesn’t sound all that appealing to me. Tacking on a Vicious Verse for free is nice, but decks that want that extra damage ping are probably going to want to be more aggressive than what a creature like Hallway Heckler is suited for.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:18",
+                "paragraphIds": [
+                  "zone-red:18:p1",
+                  "zone-red:18:p2",
+                  "zone-red:18:p3"
+                ],
+                "text": "You might get heckled for playing this guy too often.\n\nA three-mana rummager is perfectly fine, but without something like Madness around, it’s not doing anything especially exciting. The random point of damage will occasionally matter, and it’ll be hilarious when it actually finishes someone off, but most of the time it’s going to be pretty arbitrary.\n\nThis is functional curve filler with a little utility attached, nothing more.",
+                "scope": "card"
+              }
+            ]
           },
           "cbfe3354-7ced-4773-9a4e-a937ae9f94f8": {
             "grades": [
@@ -7694,7 +9758,29 @@ window.LIMITED_PREP_DATA = {
               "nicolai-guide-22"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:136",
+                "paragraphIds": [
+                  "draftsim:136:p1"
+                ],
+                "text": "We’ve seen quite a few 4-mana creatures over the years that give you a pair of 2/2s and they’ve always been fine. Turning one of those 2/2s into a 3/1 with trample, as Heartstring Puller is doing, raises the bar a fair bit and helps these two creatures to provide some extra utility over their predecessors.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:19",
+                "paragraphIds": [
+                  "zone-red:19:p1",
+                  "zone-red:19:p2",
+                  "zone-red:19:p3"
+                ],
+                "text": "Creatures that give you two bodies for a reasonable rate tend to pull on my heartstrings, and this one is no different.\n\nIt feels like a minor upgrade over the usual version of this effect thanks to the three-power trampler and the potential Wizard token synergies floating around the set.\n\nNothing here is going to blow you away, but getting multiple bodies with a little extra upside is exactly the kind of filler I’m perfectly happy running.",
+                "scope": "card"
+              }
+            ]
           },
           "e600b33b-8916-43dd-95d3-d7cbf874933d": {
             "grades": [
@@ -7719,7 +9805,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:137",
+                "paragraphIds": [
+                  "draftsim:137:p1"
+                ],
+                "text": "That’s a lot of text and mana to basically accomplish nothing. Nope, Identity Echo isn’t playable in the slightest, please don’t put this card into your deck.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:20",
+                "paragraphIds": [
+                  "zone-red:20:p1",
+                  "zone-red:20:p2"
+                ],
+                "text": "Maybe you can board this in against someone who showed you a ton of enchantment removal, but even then, I’m pretty sure you can find something better to do with the slot.\n\nThis has Constructed plant written all over it. Leave it there.",
+                "scope": "card"
+              }
+            ]
           },
           "4404d9d4-9cdd-4dad-a4f6-574d90db5052": {
             "grades": [
@@ -7744,7 +9851,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:142",
+                "paragraphIds": [
+                  "draftsim:142:p1"
+                ],
+                "text": "A 2/1 menace creature for 2 mana is already a pretty good start. Normally, the ability on Master of Barbs would look kind of situational, but thanks to the Stingerquill prepared spell, Vicious Verse, there should actually be a lot of ways to trigger it. As such, this puts a lot of extra pressure on an opponent, and it could easily close out a game by itself.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:25",
+                "paragraphIds": [
+                  "zone-red:25:p1",
+                  "zone-red:25:p2",
+                  "zone-red:25:p3"
+                ],
+                "text": "A two-power menace creature with a little bit of upside is certainly worth playing in an aggressive deck.\n\nYou’re probably not going to be Lightning Bolt ing your opponent’s face like this is Constructed, but there are still plenty of ways to trigger the ability. Something like Screeching Soulbreaker can suddenly turn into a team-wide pump effect, which gives this a little more reach than it first appears.\n\nThe baseline is already playable, and the right deck can squeeze some real value out of the bonus.",
+                "scope": "card"
+              }
+            ]
           },
           "11ba4fdd-cc03-4bb6-a493-91a9785771d0": {
             "grades": [
@@ -7774,7 +9903,28 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [
               "game-09"
             ],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:143",
+                "paragraphIds": [
+                  "draftsim:143:p1"
+                ],
+                "text": "Being a sorcery can be a bit of a downside, but 2 mana for 3 damage to any target is still a great return on your investment. You even get a free Jace token out of the deal. No Admittance is bound to be one of red’s better commons, even though it lacks some of the flexibility of a simple Lightning Strike .",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:26",
+                "paragraphIds": [
+                  "zone-red:26:p1",
+                  "zone-red:26:p2"
+                ],
+                "text": "This might seem a little high to some people, but stapling surveil onto an already efficient two-mana removal spell is pretty big game.\n\nCheap removal is always valuable, and getting to smooth out your next draw or help fuel graveyard synergies at the same time is exactly the kind of small bonus that adds up over a draft.",
+                "scope": "card"
+              }
+            ]
           },
           "aa0f77ac-741a-444a-8bf0-a42c644726bf": {
             "grades": [
@@ -7799,7 +9949,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:145",
+                "paragraphIds": [
+                  "draftsim:145:p1"
+                ],
+                "text": "I try never to underestimate a 1-drop, but a 1/1 with prowess and barely anything else doesn’t look particularly good to me. Prowess is a supported archetype in Reality Fracture , with lots of good 1-mana spells to trigger them, but Pompous Battlemage feels a little too reserved for my liking.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:28",
+                "paragraphIds": [
+                  "zone-red:28:p1",
+                  "zone-red:28:p2",
+                  "zone-red:28:p3"
+                ],
+                "text": "This feels like another card designed primarily for Constructed that just happens to have a minor role in Limited.\n\nA 1/1 prowess creature for one can range from pretty meh to legitimately solid depending on the deck around it. The ability to pitch a random card for a redraw is also useful when you’re digging for a land early or trying to turn an extra one into something useful later.\n\nIt’s not exciting, but there’s enough flexibility here to make it a perfectly reasonable playable.",
+                "scope": "card"
+              }
+            ]
           },
           "2b0ebea0-86de-4da4-9fe8-dacc1e75c161": {
             "grades": [
@@ -7824,7 +9996,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:146",
+                "paragraphIds": [
+                  "draftsim:146:p1"
+                ],
+                "text": "On the other hand, I much prefer a bulkier 3-mana 3/3 prowess creature. Pyre Rhymer doesn’t look like anything too special beyond its raw stats. High Tide was a very powerful spell and I’m sure Molten Tide will have some applications somewhere, but it won’t do a lot beyond triggering prowess.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:29",
+                "paragraphIds": [
+                  "zone-red:29:p1",
+                  "zone-red:29:p2",
+                  "zone-red:29:p3"
+                ],
+                "text": "I’m basically going to ignore the applications of the Molten Tide portion of this card because High Tide has never exactly been something you’re dying to play in a normal Limited format.\n\nThe one thing I will give that half is that it basically functions as a free spell to trigger prowess. Since it’s an instant, you don’t even have to cast it for that to matter. Just having it available can make blocking Pyre Rhymer awkward as hell because your opponent has to account for a pump at any time.\n\nThat little bit of free combat nonsense is enough to bump this up to a 2.5 for me.",
+                "scope": "card"
+              }
+            ]
           },
           "0e44f959-1322-4abd-b6eb-dea992307c0c": {
             "grades": [
@@ -7849,7 +10043,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:148",
+                "paragraphIds": [
+                  "draftsim:148:p1"
+                ],
+                "text": "First strike is such a pain to deal with on an attacking creature. Skilled Battlecarver is a creature you basically can’t block, as your opponent just has to attack with mana open and you have to treat it as though it has those power buffs from its ability. This is a very powerful 2-drop, but it’s best suited for aggressive decks, meaning it looks pretty mediocre in Konstrari builds.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:31",
+                "paragraphIds": [
+                  "zone-red:31:p1",
+                  "zone-red:31:p2"
+                ],
+                "text": "This certainly isn’t going to do you many favors on defense, but it’s a great two-drop for an aggressive deck.\n\nThe threat of pumping a first striker is often enough to make your opponent decide blocking just isn’t worth the headache. The nice part is that you don’t even have to spend the mana unless they actually force you to, which means you can keep developing your board while Battlecarver keeps sneaking in damage.",
+                "scope": "card"
+              }
+            ]
           },
           "2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460": {
             "grades": [
@@ -7874,7 +10089,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:149",
+                "paragraphIds": [
+                  "draftsim:149:p1"
+                ],
+                "text": "For a long time, Snapcaster Mage was one of Magic’s most powerful cards. No matter which spell you flashback with it, it should always be a two-for-one. Stingcaster Mage has most of the same utility as the original, just without flash. The best thing to do will typically be to flashback a removal spell and turn this into a makeshift Flametongue Kavu , but there are a lot of other options. You’re only held back by the spells you put in your deck. As long as you have plenty of good spells, this card should always be a great addition to your build.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:32",
+                "paragraphIds": [
+                  "zone-red:32:p1",
+                  "zone-red:32:p2",
+                  "zone-red:32:p3",
+                  "zone-red:32:p4"
+                ],
+                "text": "It’s really going to sting when this guy flashes back a removal spell and then immediately starts swinging.\n\nYou’d never be excited to play a plain 2/1 haste for two in a modern Limited deck, but there are absolutely situations where drawing exactly that body is still useful.\n\nOf course, once Stingcaster starts flashing back something actually busted, now you’re cooking with gas.\n\nThis has the kind of ceiling that can completely swing a game, and the floor is still perfectly functional.",
+                "scope": "card"
+              }
+            ]
           },
           "b75bbf46-a421-467a-9433-6cf22398a3a5": {
             "grades": [
@@ -7899,7 +10137,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:150",
+                "paragraphIds": [
+                  "draftsim:150:p1"
+                ],
+                "text": "You may have to discard a card to it, but getting to Shock something on entering is quite powerful. This is very far from being a Flametongue Kavu , since you’re not getting a two-for-one out of the exchange very often, but Tether Technician looks better than your average 5-drop and affects the board in a very meaningful way.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:33",
+                "paragraphIds": [
+                  "zone-red:33:p1",
+                  "zone-red:33:p2",
+                  "zone-red:33:p3"
+                ],
+                "text": "Another five-drop filler creature that you can probably do better than.\n\nThat said, there are absolutely going to be games where your opponent stabilizes at two life, you rip this off the top, and suddenly this mediocre piece of curve filler looks like an absolute hero.\n\nMost of the time, though, it’s still just a five-drop I’m hoping to replace with something better.",
+                "scope": "card"
+              }
+            ]
           },
           "ad03ba90-2442-4a71-94df-2088b5b63662": {
             "grades": [
@@ -7924,7 +10184,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:153",
+                "paragraphIds": [
+                  "draftsim:153:p1"
+                ],
+                "text": "The sweet spot here, as with every other empower card, is to empower 3, allowing you to draw an extra card. This means that Violent Echoes can either kill a smaller creature and draw a card for a sweet two-for-one, or just kill a bigger creature if necessary. Both options are great and being an instant makes it incredibly flexible, too.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:36",
+                "paragraphIds": [
+                  "zone-red:36:p1",
+                  "zone-red:36:p2"
+                ],
+                "text": "Four-mana removal isn’t what it used to be, but that equation changes in a hurry when you get to draw a card off of it.\n\nEven when you don’t get the full value, I don’t think you’re going to complain too much about blowing up a big creature and getting a surveil out of the deal. The floor is still solid removal, and the ceiling turns it into a pretty ridiculous two-for-one.",
+                "scope": "card"
+              }
+            ]
           },
           "b5b55617-684a-4036-be9b-a3b24fc9cd5a": {
             "grades": [
@@ -7951,7 +10232,51 @@ window.LIMITED_PREP_DATA = {
               "nicolai-guide-21"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:157",
+                "paragraphIds": [
+                  "draftsim:157:p1"
+                ],
+                "text": "You don’t need the cost reduction on Wrath of the Bloodmane for it to be good. Four damage for 3 mana is a good rate for a burn spell, and getting to hit planeswalkers also lets you take out Jace tokens. This is a very flexible spell for red, and I imagine it will be very good.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:40",
+                "paragraphIds": [
+                  "zone-red:40:p1",
+                  "zone-red:40:p2",
+                  "zone-red:40:p3"
+                ],
+                "text": "I guess I just really like a lot of the red removal in this set.\n\nI’m a little lower on this one, though, even if it can potentially deal four damage for only two mana. Getting that discount requires you to have a legendary creature around, and an Empower Jace token doesn’t count.\n\nIt also doesn’t come with any extra value stapled onto it. Four damage is still four damage, so I’m happy to play it, but it’s not quite as exciting as some of the other removal options in the set.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "b5b55617-684a-4036-be9b-a3b24fc9cd5a",
+              "name": "Wrath of the Bloodmane",
+              "role": "Creature or planeswalker removal",
+              "why": "Four damage can answer a creature or a Jace token even without the discount.",
+              "better": "A legendary creature reduces the cost by one generic mana.",
+              "watch": "An empower Jace token is a planeswalker, not a legendary creature, and does not enable the discount.",
+              "disagreement": "Quinn likes the undiscounted rate; Josh finds it less exciting than removal that also generates extra value.",
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:157",
+                "zone-red:40"
+              ],
+              "paragraphIds": [
+                "draftsim:157:p1",
+                "zone-red:40:p1",
+                "zone-red:40:p2",
+                "zone-red:40:p3"
+              ],
+              "rulesCardId": "b5b55617-684a-4036-be9b-a3b24fc9cd5a",
+              "basisSha256": "873c9d4b84564b4b673d10e87c738d0cb5bc289b1d5b752175eb7a0eb65ddcb5"
+            }
           },
           "1bf923c4-f0b7-4271-978c-fd2e79fe1cc8": {
             "grades": [
@@ -7978,7 +10303,51 @@ window.LIMITED_PREP_DATA = {
               "nicolai-guide-24"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:158",
+                "paragraphIds": [
+                  "draftsim:158:p1"
+                ],
+                "text": "A cheap deathtouch creature will always be on my radar to pick up in Limited. Two mana is a little more expensive than usual, but Arcane Amphisbaena comes with a free Jace token, which you could start to cash in right away, or you could protect it with this deathtoucher and then build up on a later turn. Either way, this is a really good early play.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:1",
+                "paragraphIds": [
+                  "zone-green:1:p1",
+                  "zone-green:1:p2",
+                  "zone-green:1:p3"
+                ],
+                "text": "A cheap deathtoucher can usually put in some work, especially when you pair it with cards like Compel Brutality . It can also just sit there and make your opponent think twice about sending their biggest ground pounder into combat.\n\nWe’ve been getting this type of body for one mana lately, so two is a little less exciting. That said, you do get to Empower Jace for two along the way, which makes the rate much easier to swallow.\n\nIt’s not flashy, but it’s a perfectly fine two-drop that can fill a useful role.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "1bf923c4-f0b7-4271-978c-fd2e79fe1cc8",
+              "name": "Arcane Amphisbaena",
+              "role": "Early defence",
+              "why": "A deathtouch blocker can protect your life total and a Jace token while adding two loyalty.",
+              "better": "Better when your deck needs time to develop an empower engine.",
+              "watch": "It discourages ground attacks but is not a quick way to win.",
+              "disagreement": "Quinn calls it a strong early play; Josh sees a useful but less exciting two-drop.",
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:158",
+                "zone-green:1"
+              ],
+              "paragraphIds": [
+                "draftsim:158:p1",
+                "zone-green:1:p1",
+                "zone-green:1:p2",
+                "zone-green:1:p3"
+              ],
+              "rulesCardId": "1bf923c4-f0b7-4271-978c-fd2e79fe1cc8",
+              "basisSha256": "bb416135e21d0ff3f047ffd73c1612944946daeb7b9acea703f9018b9e117417"
+            }
           },
           "e0de5f66-f0df-4866-9f73-104ce50411b4": {
             "grades": [
@@ -8005,7 +10374,49 @@ window.LIMITED_PREP_DATA = {
               "nicolai-guide-25"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:159",
+                "paragraphIds": [
+                  "draftsim:159:p1"
+                ],
+                "text": "This feels like a callback to Call of the Herd , a meta-defining card from back in Odyssey . While it’s clearly not that good of an effect anymore, getting to create two 4/4s out of a single card is still quite powerful. Better yet, if you were to discard or mill Bestial Incursion , you could get some free value by flashing it back from the graveyard.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:2",
+                "paragraphIds": [
+                  "zone-green:2:p1",
+                  "zone-green:2:p2"
+                ],
+                "text": "Not to harp on power creep again, but this is a straight-up better Shadowbeast Sighting which was a top common in Midnight Hunt.\n\nGranted, that format had a lot more cards that actively cared about the graveyard, and it was almost certainly slower than this one is going to be. Those things matter, but the comparison still says a lot about how far the baseline for Limited cards has moved.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "e0de5f66-f0df-4866-9f73-104ce50411b4",
+              "name": "Bestial Incursion",
+              "role": "Threat with a second use",
+              "why": "One card can produce two trampling 4/4s over separate turns.",
+              "better": "Self-mill or discard can give you access to the flashback without casting it from hand.",
+              "watch": "The second cast costs six mana; you still need early plays.",
+              "disagreement": null,
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:159",
+                "zone-green:2"
+              ],
+              "paragraphIds": [
+                "draftsim:159:p1",
+                "zone-green:2:p1",
+                "zone-green:2:p2"
+              ],
+              "rulesCardId": "e0de5f66-f0df-4866-9f73-104ce50411b4",
+              "basisSha256": "c01f7a633ebe4144b45c09691032c0e8a97e6e1d39e51fb33ba65ad19a11a75c"
+            }
           },
           "18c59d60-2640-4576-9375-3ba38aa3ecb7": {
             "grades": [
@@ -8030,7 +10441,51 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:160",
+                "paragraphIds": [
+                  "draftsim:160:p1"
+                ],
+                "text": "A 3/3 with vigilance is about average for a 3-drop, but not exciting. I think it really comes down to how many artifacts and enchantments you can remove with it. There don’t appear to be that many of them, so I’m starting low on Budding Insurgent for now, but it could definitely go up as the format goes on.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:3",
+                "paragraphIds": [
+                  "zone-green:3:p1",
+                  "zone-green:3:p2",
+                  "zone-green:3:p3"
+                ],
+                "text": "With all of “The Way” enchantments floating around, there’s a nonzero chance you actually get to draw a card when you cash this in on one of them.\n\nThe baseline rate is perfectly acceptable, and there’s enough incidental upside here to make it a little more interesting than generic curve filler.\n\nNothing spectacular, but a totally acceptable card.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "18c59d60-2640-4576-9375-3ba38aa3ecb7",
+              "name": "Budding Insurgent",
+              "role": "Creature with utility",
+              "why": "Vigilance gives you a normal curve play with an artifact or enchantment answer attached.",
+              "better": "More useful when the opponent has an important target; a legendary enchantment also replaces the sacrificed card.",
+              "watch": "The sacrifice ability is sorcery-speed, and using it gives up your creature.",
+              "disagreement": "Quinn starts lower because he questions target availability; Josh values the acceptable body and incidental upside.",
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:160",
+                "zone-green:3"
+              ],
+              "paragraphIds": [
+                "draftsim:160:p1",
+                "zone-green:3:p1",
+                "zone-green:3:p2",
+                "zone-green:3:p3"
+              ],
+              "rulesCardId": "18c59d60-2640-4576-9375-3ba38aa3ecb7",
+              "basisSha256": "e32aa9e7ca3d38b1da06cfe23ce093f8eb9908783e27188a9416d1d4f22c98cc"
+            }
           },
           "79dd5c54-5ea5-47b5-8f9b-50ed57a5ea45": {
             "grades": [
@@ -8055,7 +10510,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:161",
+                "paragraphIds": [
+                  "draftsim:161:p1"
+                ],
+                "text": "I can’t see anything I don’t like about Carnivorous Cultivator . A cheap deathtouch creature that probably draws you a land sounds very good. Of course, your opponent could just block and trade for it when you attack, but that will mean it’s at least trading up for something good, which I’ll definitely take.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:4",
+                "paragraphIds": [
+                  "zone-green:4:p1",
+                  "zone-green:4:p2"
+                ],
+                "text": "The rate on a 2/3 deathtoucher for two mana is already fantastic. Whether you get any extra value out of the ability remains to be seen, but you honestly don’t need much.\n\nIf this manages to draw you even a single card over the course of the game, it goes from solid to great in a hurry.",
+                "scope": "card"
+              }
+            ]
           },
           "bd32d736-7a58-46b9-90b4-2cac3c3e80a1": {
             "grades": [
@@ -8082,7 +10558,29 @@ window.LIMITED_PREP_DATA = {
               "nicolai-guide-23"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:162",
+                "paragraphIds": [
+                  "draftsim:162:p1"
+                ],
+                "text": "The generic bite spell of the set, Compel Brutality will be an important removal spell to pick up in every green deck. You should be wary of black and red, as their removal spells are very good in Reality Fracture and they will have ways to disrupt this, but it’s still a strong card, especially when you pair it with a deathtouch creature.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:5",
+                "paragraphIds": [
+                  "zone-green:5:p1",
+                  "zone-green:5:p2",
+                  "zone-green:5:p3"
+                ],
+                "text": "A bite spell is one of those bread-and-butter cards that most green decks are happy to have in Limited. It’s cheap removal, even if you usually need to take board position and potential tricks into consideration before firing it off.\n\nThese cards also tend to get some little set-specific twist, and this time around we get to let our planeswalkers punch creatures in the face.\n\nThat’s not exactly revolutionary, but it is useful enough to give the card a little extra flexibility.",
+                "scope": "card"
+              }
+            ]
           },
           "f71958e9-6d6d-4393-8b49-567103b50877": {
             "grades": [
@@ -8109,7 +10607,29 @@ window.LIMITED_PREP_DATA = {
               "review-06"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:165",
+                "paragraphIds": [
+                  "draftsim:165:p1"
+                ],
+                "text": "I think this last color hoser should also stay in your sideboard for the time being. Flourishing Grapple is clearly powerful in the right matchups, but it’s not that much different from Compel Brutality , so you probably shouldn’t go out of your way to run it. It can just stay as a powerful sideboard option.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:8",
+                "paragraphIds": [
+                  "zone-green:8:p1",
+                  "zone-green:8:p2",
+                  "zone-green:8:p3"
+                ],
+                "text": "You shouldn’t have to grapple with yourself over whether this belongs in your starting 40.\n\nIt doesn’t.\n\nThis is the kind of card that can absolutely flourish out of the sideboard when the matchup lines up, but main decking it is just asking to stare at a dead card at the worst possible time.",
+                "scope": "card"
+              }
+            ]
           },
           "930b89c3-4433-48de-829f-20fc3dbfced9": {
             "grades": [
@@ -8137,7 +10657,34 @@ window.LIMITED_PREP_DATA = {
               "review-09"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:166",
+                "paragraphIds": [
+                  "draftsim:166:p1"
+                ],
+                "text": "This color-shifted Black Market may cost 2 mana less, but that’s not enough to make an effect like this playable. You can never rely on Gardenize to actually give you any mana, since you need to have creatures die first. By the time it’s enabled, the mana will be a lot less useful to you, so spending 3 mana and a whole card on playing this just won’t be worth it.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:9",
+                "paragraphIds": [
+                  "zone-green:9:p1",
+                  "zone-green:9:p2",
+                  "zone-green:9:p3",
+                  "zone-green:9:p4",
+                  "zone-green:9:p5",
+                  "zone-green:9:p6",
+                  "zone-green:9:p7",
+                  "zone-green:9:p8"
+                ],
+                "text": "They really don’t print many cards anymore that I can confidently say should never make your deck, but congratulations Gardenize —you found a way.\n\nFirst, you have to spend three mana doing absolutely nothing. That’s already a giant red flag in Limited.\n\nThen you need to have creatures.\n\nThen those creatures need to die.\n\nThen, after jumping through all of those hoops and getting later into the game, your glorious payoff is…checks notes…more mana.\n\nYou know, right around the point where your hand is probably empty and mana is the resource you need the least.\n\nEven if your deck has a bunch of mana sinks, I still don’t want this anywhere near my starting 40.\n\nIf we were still doing the podcast, I’d 100% be betting Floridamun—go check out his Twitch stream—that he couldn’t trophy with this thing in his deck. And knowing him, he’d probably accept the bet just to spite me.",
+                "scope": "card"
+              }
+            ]
           },
           "a56e0f91-b128-4693-a949-53cb403f4fbf": {
             "grades": [
@@ -8174,7 +10721,51 @@ window.LIMITED_PREP_DATA = {
             ],
             "combinationIds": [
               "lesson-gw"
-            ]
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:169",
+                "paragraphIds": [
+                  "draftsim:169:p1"
+                ],
+                "text": "Acting as both a mana dork and a Soul Warden , a lot of decks will be happy to run Greenhouse Propagator . Turn 3 is definitely not my favorite time to be ramping , but Reality Fracture does look slow enough to accommodate that, and Soul Tether is also a 3-mana ramp spell, which leads me to believe this is actually what we’ll be doing in this set.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:12",
+                "paragraphIds": [
+                  "zone-green:12:p1",
+                  "zone-green:12:p2",
+                  "zone-green:12:p3"
+                ],
+                "text": "This is another card that basically asks one question: how many cards in your deck actually care about gaining life?\n\nIf you have multiple payoffs, this can become a key enabler and I’d value it quite a bit higher. If you don’t, then you’re mostly looking at a slightly overpriced ramp creature.\n\nThe right deck will want it badly. Everyone else can probably do better.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "a56e0f91-b128-4693-a949-53cb403f4fbf",
+              "name": "Greenhouse Propagator",
+              "role": "Ramp and life-gain enabler",
+              "why": "Produces mana and turns later creatures entering into life-gain triggers.",
+              "better": "Life-gain payoffs make those triggers valuable beyond the extra life.",
+              "watch": "A three-mana ramp creature can be inefficient when the deck has no life-gain rewards.",
+              "disagreement": "Quinn expects several decks to want it; Josh wants multiple life-gain payoffs before valuing it highly.",
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:169",
+                "zone-green:12"
+              ],
+              "paragraphIds": [
+                "draftsim:169:p1",
+                "zone-green:12:p1",
+                "zone-green:12:p2",
+                "zone-green:12:p3"
+              ],
+              "rulesCardId": "a56e0f91-b128-4693-a949-53cb403f4fbf",
+              "basisSha256": "fd89aa849445ea01304ab8bebce3d786122626fc841590741c6fbe02d326fb4f"
+            }
           },
           "910a1f41-17fd-4ab0-9597-7151e79dc760": {
             "grades": [
@@ -8205,6 +10796,28 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [],
             "combinationIds": [
               "lesson-rg"
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:170",
+                "paragraphIds": [
+                  "draftsim:170:p1"
+                ],
+                "text": "In addition to Way of the Pyromancer , I believe Heartwood Crafter is the only other way to ramp before turn 3. Given that, I think it has a premium. While it doesn’t function as a Llanowar Elves , it does cast its own Soul Tether ahead of schedule, as well as any other Soul Tether spells you want to cast. This is a very important card for Konstrari and something I’m very willing to take highly.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:13",
+                "paragraphIds": [
+                  "zone-green:13:p1",
+                  "zone-green:13:p2",
+                  "zone-green:13:p3"
+                ],
+                "text": "Not being able to cast spells from your hand with the mana from this is a pretty enormous drawback unless your deck is absolutely loaded with Adventure or Prepared cards. Turns out Magic gets a little harder when half your hand is just decorative cardboard.\n\nIf you do have enough support, though, this can be kind of filthy. Dropping it on turn one and firing off the ability on turn two can put you way ahead of your opponent before they’ve even had time to wonder what the hell just happened. It can even help you steal back the tempo when you’re on the draw.\n\nThe downside is that this thing ages like gas station sushi. Great on turn one, considerably less exciting on turn five, and absolutely miserable when you rip it off the top late in the game.",
+                "scope": "card"
+              }
             ]
           },
           "9a446cae-e93c-4574-8ffd-7688f9729a8a": {
@@ -8230,7 +10843,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:171",
+                "paragraphIds": [
+                  "draftsim:171:p1"
+                ],
+                "text": "Quad green is a prohibitively expensive mana cost. Even in Konstrari, where the Heartwood tokens would help to fix for it, there are going to be plenty of times when this will be stuck in your hand and you’re too far away from casting it. On top of that, what happens if you actually do get to cast Hexhaven Invigorator ? It has a powerful ability, but it could just die to a removal spell that isn’t based on damage and all that effort you spent to cast it will be wasted. Just like its black counterpart, Phyrexian Obliterator , this isn’t remotely good enough.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:14",
+                "paragraphIds": [
+                  "zone-green:14:p1",
+                  "zone-green:14:p2",
+                  "zone-green:14:p3",
+                  "zone-green:14:p4"
+                ],
+                "text": "Obviously, the biggest issue here is the quadruple-green casting cost. Of course, when has a casting cost ever stopped a Limited player from jamming a bomb into a deck with six Forests and saying, “I’ll probably get there”?\n\nBecause if you can actually cast this thing, a 6/6 vigilance for four mana is disgusting. Then, just for fun, every time it takes damage it goes rummaging through your deck for a pile of lands.\n\nAt 2GG, I’d probably have this around a 4.5 and call it a day. At GGGG, I’m knocking it down to a 3.5 because the mana is a very real restriction.\n\nThat won’t stop people from putting it into decks where it has absolutely no business being, but at least I warned you.",
+                "scope": "card"
+              }
+            ]
           },
           "3db2da7a-8088-4117-916b-f9c905d1b45b": {
             "grades": [
@@ -8255,7 +10891,51 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:172",
+                "paragraphIds": [
+                  "draftsim:172:p1"
+                ],
+                "text": "The ability to use the Heartwood token to pay for the second ability of Hungering Puppetbeast is absolutely incredible. You can basically play it as a 6/6 with haste for 5 mana, or leave the mana open to protect it from removal. While I’m not ecstatic at the thought of losing my Heartwood tokens to fuel it, it’s so absurdly big and difficult to deal with that I don’t think I’ll care too much.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:15",
+                "paragraphIds": [
+                  "zone-green:15:p1",
+                  "zone-green:15:p2",
+                  "zone-green:15:p3"
+                ],
+                "text": "You can tap and sacrifice the token immediately to come crashing in for six damage, which is a pretty rude way to introduce yourself.\n\nIf that’s not the right line, you can just hang onto the token for protection instead. Either way, you’re getting a big chonker with built-in versatility that can also cash in whatever random resources you have lying around.\n\nThat combination of raw stats, flexibility, and extra utility is exactly what I want out of a 4.0.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "3db2da7a-8088-4117-916b-f9c905d1b45b",
+              "name": "Hungering Puppetbeast",
+              "role": "Threat with protection",
+              "why": "Brings the artifact it needs to grow and gain haste, trample or hexproof.",
+              "better": "Keeping one mana and another artifact available preserves the option to respond to removal.",
+              "watch": "Each activation consumes another artifact. Spending the Heartwood to attack immediately uses up that protection resource.",
+              "disagreement": null,
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:172",
+                "zone-green:15"
+              ],
+              "paragraphIds": [
+                "draftsim:172:p1",
+                "zone-green:15:p1",
+                "zone-green:15:p2",
+                "zone-green:15:p3"
+              ],
+              "rulesCardId": "3db2da7a-8088-4117-916b-f9c905d1b45b",
+              "basisSha256": "78b9279a4fbcbb9a754166bc7d63e1746c758797aeae016994d5f2a9d02a37ac"
+            }
           },
           "a2cc5d0e-9643-4ee2-81de-fa2c3bd1ab09": {
             "grades": [
@@ -8280,7 +10960,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:173",
+                "paragraphIds": [
+                  "draftsim:173:p1"
+                ],
+                "text": "Much like an equipment that grants flying, granting trample is a huge bonus that helps your big, dumb creatures to get their damage through blockers. Hunter's Axe has a very reasonable rate of return and is a great way to break through opposing boards.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:16",
+                "paragraphIds": [
+                  "zone-green:16:p1",
+                  "zone-green:16:p2"
+                ],
+                "text": "Strangely enough, this might be one of the hardest cards in the set for me to rate properly.\n\nIf the equip cost were only one, I think this might actually be kind of disgusting. Of course, I’m also old enough to have Rancor and Bonesplitter permanently burned into my brain, so maybe nostalgia is doing some of the grading here.",
+                "scope": "card"
+              }
+            ]
           },
           "073f4998-a204-447b-93d5-746ae87fd6a1": {
             "grades": [
@@ -8305,7 +11006,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:174",
+                "paragraphIds": [
+                  "draftsim:174:p1"
+                ],
+                "text": "Inspired Tethermage is a great card to draw later in the game, as it provides a good amount of late game inevitability, but playing it early sounds pretty atrocious. Starting out as only a 3/2 is very poor, and the main way to trigger it is to empower, which you’ll need to do some other way. I can see this finding a home in blue/green, but it won’t make the cut a lot of the time.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:17",
+                "paragraphIds": [
+                  "zone-green:17:p1",
+                  "zone-green:17:p2",
+                  "zone-green:17:p3"
+                ],
+                "text": "Mana sinks just don’t inspire me the way they used to. Cards are so efficient and packed with value now that I’m treating that part more like bonus upside than a reason to draft this.\n\nWhat I do like is that it grows off every Empower Jace effect, and the fact that it can happen at instant speed makes combat significantly more awkward. There’s not even a once-per-turn restriction, so this can get out of hand if you really start chaining things together.\n\nMy biggest hangup is the two toughness. That leaves it fragile enough that all this potential upside might disappear before it ever gets going.",
+                "scope": "card"
+              }
+            ]
           },
           "eaf9dc77-c83b-49cf-84be-6bd791cb925e": {
             "grades": [
@@ -8330,7 +11053,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:178",
+                "paragraphIds": [
+                  "draftsim:178:p1"
+                ],
+                "text": "What kind of grade do you give to a card like Omnipresence , which is worse in just about every way than Omniscience , a card we’d also give a flat zero to?",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:21",
+                "paragraphIds": [
+                  "zone-green:21:p1",
+                  "zone-green:21:p2",
+                  "zone-green:21:p3",
+                  "zone-green:21:p4"
+                ],
+                "text": "I would say they really don’t print 0.0s anymore, but I’m pretty sure I already used that line recently. Apparently, Reality Fracture took that as a challenge.\n\nEight mana for an enchantment that lets you cast spells for free sounds exciting right up until you realize you also need to have a bunch of creatures lying around to make it work.\n\nAt that point, I think I’d rather just use that eight mana to…you know…cast my spells.\n\nThis is the kind of card that looks flashy, reads flashy, and then sits in your sideboard looking flashy.",
+                "scope": "card"
+              }
+            ]
           },
           "6b8789a6-3b63-4198-af5f-c2f2f49fafd9": {
             "grades": [
@@ -8355,7 +11101,31 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:180",
+                "paragraphIds": [
+                  "draftsim:180:p1",
+                  "draftsim:180:p2"
+                ],
+                "text": "Getting Ensoul Artifact back into Standard is a very interesting concept. That card was extremely powerful when it was first printed, and I reckon we’ve got the tools available to make it good again this time.\n\nIn the context of Reality Fracture , there are a good number of artifacts and enchantments for Puppet Crafting to combine with, including the Heartwood tokens out of Konstrari. There aren’t a lot of ways to enable it on turn 2 sadly, but the fact that it can keep coming back from the graveyard makes it a very potent threat in the format.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:23",
+                "paragraphIds": [
+                  "zone-green:23:p1",
+                  "zone-green:23:p2",
+                  "zone-green:23:p3",
+                  "zone-green:23:p4"
+                ],
+                "text": "Ensoul Artifact used to be a busted Constructed card. This is basically a juiced-up version of that effect, just in a color that’s a lot less naturally interested in having piles of artifacts lying around. Green does at least have plenty of enchantments to work with.\n\nThis is a Limited review, though, so the first thing I’m checking is whether there are any cheap indestructible permanents around to really break this. There aren’t. There also isn’t a huge supply of cheap Treasures or other disposable artifacts to turn into monsters.\n\nThat probably leaves Heartwood tokens as your best option for consistently turning this into a giant beatstick and getting your beat on.\n\nIt should go without saying, but I’m going to say it anyway: do not put this in your deck if you don’t actually have artifacts or enchantments to target. A 3.5 assumes you brought the puppets before trying to do the crafting.",
+                "scope": "card"
+              }
+            ]
           },
           "3546b93b-a7d1-451d-a369-22cc8ddcd00d": {
             "grades": [
@@ -8385,7 +11155,28 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [
               "game-05"
             ],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:181",
+                "paragraphIds": [
+                  "draftsim:181:p1"
+                ],
+                "text": "I’m a huge fan of Pulse of Murasa . It’s a card I’ve cast a lot in Pauper and won games on the back of. Spending 3 mana just to get something back from the graveyard is not usually a winning proposition, but gaining 4 life is a great buffer to help you stay alive having done so. I want to give Restore with Empathy a higher grade, but without any ways of recurring it and gaining even more life, I don’t think it’s as good as it could be.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:24",
+                "paragraphIds": [
+                  "zone-green:24:p1",
+                  "zone-green:24:p2"
+                ],
+                "text": "A Regrowth that can only grab permanents is obviously a little limited, but in green that’s usually what you were planning to get back anyway.\n\nWhat pushes this up for me is the instant speed and the four-life tacked on. Neither is earth-shattering, but together they add enough flexibility and value to bump this up about half a point.",
+                "scope": "card"
+              }
+            ]
           },
           "7c725702-8696-4e5a-8318-62f5e2616d52": {
             "grades": [
@@ -8410,7 +11201,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:183",
+                "paragraphIds": [
+                  "draftsim:183:p1"
+                ],
+                "text": "If we’re going to ramp on turn 3, it might as well be with Simulacrum Shaper . The classic Solemn Simulacrum always felt a little over-costed, but at 3 mana it’s absolutely perfect. A creature that Rampant Growth s on turn 3 has proven itself time and time again, but drawing a card when it dies is an absurd upgrade. I love this card, and I hope I get to cast it a lot.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:26",
+                "paragraphIds": [
+                  "zone-green:26:p1",
+                  "zone-green:26:p2",
+                  "zone-green:26:p3"
+                ],
+                "text": "Solemn Simulacrum has been a great card in both Limited and Constructed for about a billion years. Now you’re telling me I get a cheaper version? Sounds like a bargain to me.\n\nThe obvious catch is the double-green casting cost, which makes this noticeably harder to splash and a little less automatic than it first looks.\n\nIf this cost 2G instead of 1GG, I’d have no problem pushing it all the way up to a 4.5. As printed, it’s still an excellent card that I’m going to be very happy taking early.",
+                "scope": "card"
+              }
+            ]
           },
           "02ee7817-40af-4fcf-a2df-eb218b669281": {
             "grades": [
@@ -8435,7 +11248,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:184",
+                "paragraphIds": [
+                  "draftsim:184:p1"
+                ],
+                "text": "It may not be in the Theorix colors, but Something Worth Saving is a great way to fill your graveyard. It replaces itself immediately while loading four cards into your graveyard, and you won’t find many enablers better than that.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:27",
+                "paragraphIds": [
+                  "zone-green:27:p1",
+                  "zone-green:27:p2",
+                  "zone-green:27:p3"
+                ],
+                "text": "This does a bunch of little things that can add up to something pretty useful in the right deck.\n\nYou get some card selection, a little graveyard filling in a format with plenty of ways to profit from that, and a life gain trigger thrown in for good measure. None of those things are spectacular on their own, but there’s a pretty good chance at least one of them is doing something your deck actually cares about.\n\nThat makes this exactly the kind of unassuming glue card that helps hold a deck together.",
+                "scope": "card"
+              }
+            ]
           },
           "b635389c-e286-4edb-80d1-23dbe4a18857": {
             "grades": [
@@ -8460,7 +11295,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:185",
+                "paragraphIds": [
+                  "draftsim:185:p1"
+                ],
+                "text": "A 2-drop 3/1 is great for putting pressure on opposing Jace tokens, and reach also lets Sureshot Sower block really well. When you draw it late it’ll get a lot worse, but the ability to discard it and destroy a flying creature gives it a great extra purpose when you get to that point in a game.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:28",
+                "paragraphIds": [
+                  "zone-green:28:p1",
+                  "zone-green:28:p2",
+                  "zone-green:28:p3"
+                ],
+                "text": "Normally, “destroy target creature with flying” is code for “please leave me in the sideboard until further notice.”\n\nSureshot Sower gets to dodge that fate because it’s still a perfectly acceptable two-drop when your opponent forgot to bring any birds, dragons, angels, or other airborne nonsense.\n\nMost of the time, it’s just doing honest curve-filler work. Every once in a while, though, it gets to swat something expensive out of the sky.",
+                "scope": "card"
+              }
+            ]
           },
           "8be5ee47-8f8a-4e3c-b1a1-9ca0e1fdec7f": {
             "grades": [
@@ -8485,7 +11342,31 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:186",
+                "paragraphIds": [
+                  "draftsim:186:p1",
+                  "draftsim:186:p2"
+                ],
+                "text": "Ma BOI! I’ve only been able to make it to the Pro Tour once in my career and Tarmogoyf is one of the cards responsible for helping me get there.\n\nOnce considered one of the best creatures in the game , if you have ways to fill up your graveyard, it shouldn’t be hard to get Tarmogoyf up to around a 4/5 in the mid game. Since it always costs 2 mana, you can slot it into your curve at some point and it’ll be pretty strong. Of course, it’s only a big creature with no combat abilities, so it doesn’t do that much, but it should still be good enough in the right deck.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:29",
+                "paragraphIds": [
+                  "zone-green:29:p1",
+                  "zone-green:29:p2",
+                  "zone-green:29:p3",
+                  "zone-green:29:p4"
+                ],
+                "text": "Oh, how the mighty have fallen.\n\nThere was a time when Tarmogoyf showing up across the table made people start reconsidering their life choices. Now we’re looking at it in Limited and saying, “Yeah, that’s a pretty good two-drop.”\n\nIt’s still going to be a whole lot of stats for the low, low price of two mana. It may take a little while to really get beefy, but cards like Something Worth Saving can help stock the graveyard and get Goyf online faster.\n\nStill excellent. Just no longer the boogeyman it once was.",
+                "scope": "card"
+              }
+            ]
           },
           "38589a7c-9cfb-4bcc-845e-9dc205095853": {
             "grades": [
@@ -8510,7 +11391,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:187",
+                "paragraphIds": [
+                  "draftsim:187:p1"
+                ],
+                "text": "Even at 1 mana, combat tricks just aren’t good enough in green unless they can do a lot more than just +2/+2. If you’re really short on removal, then Tethermage's Advantage could make the cut, but there are so many better cards I hope I never have to.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:30",
+                "paragraphIds": [
+                  "zone-green:30:p1",
+                  "zone-green:30:p2",
+                  "zone-green:30:p3"
+                ],
+                "text": "Do you need a cheap combat trick and mostly just care about getting some extra stats? Cool, this does the job.\n\nThe reach and untap clauses will absolutely matter from time to time, but they also tempt you into casting this during combat while your opponent is sitting there with open mana and a suspicious amount of confidence.\n\nI don’t know about you, but I try to avoid buying a one-way ticket to Blowout City. The accommodations suck and somehow your opponent always gets upgraded to first class.",
+                "scope": "card"
+              }
+            ]
           },
           "2bb7a8eb-227f-410b-859f-750ef0aea2f0": {
             "grades": [
@@ -8535,7 +11438,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:189",
+                "paragraphIds": [
+                  "draftsim:189:p1"
+                ],
+                "text": "This bomb rare is a reference to Verdant Force , an extremely powerful rare in its own right. Verdant Kraken is a lot better, creating much more relevant tokens for 1 mana less. If your opponent can’t answer it before their turn begins, you’re getting a minimum of a 3/3 out of the deal, and then even more if they still can’t find a way to remove it. Two 3/3s every turn cycle will close out games very quickly and overwhelm your opponent with free advantage.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:34",
+                "paragraphIds": [
+                  "zone-green:34:p1",
+                  "zone-green:34:p2",
+                  "zone-green:34:p3",
+                  "zone-green:34:p4"
+                ],
+                "text": "I’ll be real here: I am very close to giving this a 5.0.\n\nThe only things holding me back are the seven-mana price tag and the fact that, if you’re not careful, your opponent can still kill it before you get any value. Make no mistake, though—this card is absolutely cracked.\n\nIf you never had the pleasure of playing against Verdant Force or Koma, Cosmos Serpent , you might not fully appreciate how miserable this kind of effect can be. Once the value engine starts rolling, the game stops feeling competitive and starts feeling like you’re slowly being buried under a pile of increasingly annoying cardboard.\n\nIf your opponent doesn’t deal with this immediately, there’s a very good chance the game is about to spiral completely out of control.",
+                "scope": "card"
+              }
+            ]
           },
           "e5ed142b-2b61-4ef5-8b23-2db2a0a0319d": {
             "grades": [
@@ -8560,7 +11486,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:190",
+                "paragraphIds": [
+                  "draftsim:190:p1"
+                ],
+                "text": "This looks like the weakest of the landcyclers, but it can still pack a punch. Of course, the main reason to play Vinelasher Adept at all will be to fix your mana, but if you end up playing it, sticking three +1/+1 counters on a creature is still a strong effect if you can find a good window for it.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:35",
+                "paragraphIds": [
+                  "zone-green:35:p1",
+                  "zone-green:35:p2",
+                  "zone-green:35:p3"
+                ],
+                "text": "I’m putting this right alongside the other low-end basic landcyclers.\n\nOn raw rate, it’s the kind of top-end card you only really consider when your deck is running out of better options. Basic landcycling does a lot of heavy lifting, though, because suddenly your mediocre late-game creature can also bail you out of a sketchy opener or fix your colors.\n\nThat flexibility drags it from “please don’t make me play this” into perfectly acceptable filler.",
+                "scope": "card"
+              }
+            ]
           },
           "3d693cb0-681e-480a-8f70-07e94c39225c": {
             "grades": [
@@ -8585,7 +11533,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:193",
+                "paragraphIds": [
+                  "draftsim:193:p1"
+                ],
+                "text": "There are a plethora of great ramp targets for Konstrari decks to play. Naturally, as a common, Wrecking Gecko is the worst by a lot. Your average green deck isn’t interested in what’s essentially just a 5/5 vanilla creature, and most ramp decks will be able to find something better.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:36",
+                "paragraphIds": [
+                  "zone-green:36:p1",
+                  "zone-green:36:p2"
+                ],
+                "text": "I guess this is what happens when you ignore the Gecko and don’t save 15% on your car insurance.\n\nAs a card, this is another chunky piece of top-end filler with a mana sink attached. Most of what it really brings to the table is keyword: chonker, although ward 2 does at least make your opponent work a little harder to get rid of it.",
+                "scope": "card"
+              }
+            ]
           },
           "f17d2792-b075-4c47-ad38-e7a7eaee5f8c": {
             "grades": [
@@ -8610,7 +11579,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:195",
+                "paragraphIds": [
+                  "draftsim:195:p1"
+                ],
+                "text": "You don’t need much to sell me on a 5/4 with flying for just 4 mana, but yeah, I’ll take a few extra abilities while we’re at it. Aerid Konstrari isn’t only a beefy creature that can close out games, it also ramps you with a Heartwood token and then has an activated ability that not only creates more of them but also speeds up the clock and kills your opponent faster? This card is absolutely incredible and a great first pick to cement you into what might be the best Hexhaven school.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:1",
+                "paragraphIds": [
+                  "zone-multicolor:1:p1",
+                  "zone-multicolor:1:p2",
+                  "zone-multicolor:1:p3",
+                  "zone-multicolor:1:p4"
+                ],
+                "text": "This is already a fantastic rate for a huge flyer, and then they decided to toss in a Heartwood token for good measure.\n\nEven if your opponent immediately kills it, you’re still left with a second Heartwood token. That’s obviously not the outcome you’re hoping for, but it’s a hell of a lot better than spending your mana just to get completely blown out.\n\nThe real fun starts when Aerid actually gets to stick around and start smashing. Once you’re pumping this thing up, your opponent’s life total can disappear in a hurry.\n\nGreat rate, built-in value, and a very real ability to end the game quickly. That’s exactly what I want out of a 4.5.",
+                "scope": "card"
+              }
+            ]
           },
           "5905995b-7a20-4602-a7cc-90aa5089a082": {
             "grades": [
@@ -8635,7 +11627,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:196",
+                "paragraphIds": [
+                  "draftsim:196:p1"
+                ],
+                "text": "One of my favorite Limited cards of all time was Tatyova, Benthic Druid . Drawing a card every time you played a land was an absolute dream. Avatar of Burgeoning Echoes doesn’t do the exact same thing, but empower 2 on landfall is very close to drawing a card. Even if you just surveil with the Jace token straight away, your opponent has to be able to finish it off for your next land drop not to turn into a free card. Plus, with this not costing any mana to empower, it’s very easy to spend your mana on something that can empower the Jace token and let you draw a card. I don’t put a lot of stock in the -10 loyalty ability here, because it seems really over-costed to me, but the rest of the card looks pretty awesome.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:2",
+                "paragraphIds": [
+                  "zone-multicolor:2:p1",
+                  "zone-multicolor:2:p2",
+                  "zone-multicolor:2:p3"
+                ],
+                "text": "I’m sure the -10 will come up every once in a while and make somebody feel like a genius, but that’s not really why I’m excited about this card.\n\nThe real value is getting to Empower Jace for the low cost of playing a land every turn while already having an above-rate body on the battlefield. That’s the kind of repeatable value that starts looking innocent and then suddenly you realize Jace has been printing cards for three turns.\n\nThe ultimate is cute. The engine is what makes this a 4.0.",
+                "scope": "card"
+              }
+            ]
           },
           "bb975803-9bf2-401e-9414-d272df314398": {
             "grades": [
@@ -8660,7 +11674,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:197",
+                "paragraphIds": [
+                  "draftsim:197:p1"
+                ],
+                "text": "I’ve always been a big fan of Sanitarium Skeleton , so swapping out that second point of toughness for lifelink sounds like a fair trade. In Reality Fracture in particular, I think this is a great way to get value out of milling yourself and a cheap lifelink creature helps to trigger various Vigorbloom triggers. Blessed Ghoul looks to me like a card we will want to play in these graveyard shenanigans decks.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:3",
+                "paragraphIds": [
+                  "zone-multicolor:3:p1",
+                  "zone-multicolor:3:p2",
+                  "zone-multicolor:3:p3",
+                  "zone-multicolor:3:p4"
+                ],
+                "text": "Blessed Ghoul feels like a bit of an oxymoron, but who am I to judge his life choices?\n\nWe’ve seen plenty of variations on this card before. It’s repeatable sacrifice fodder, repeatable blocking fodder, and generally a mildly annoying thing that keeps coming back for a little more mana than I’d like to spend.\n\nThe lifelink does matter quite a bit if your deck is loaded with life gain triggers, though. In that shell, repeatedly dragging this thing back out of the graveyard can start setting off enough extra nonsense to make the cost worthwhile.\n\nMost decks won’t care. The right one absolutely will.",
+                "scope": "card"
+              }
+            ]
           },
           "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8": {
             "grades": [
@@ -8698,6 +11735,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "combinationIds": [
               "lesson-gw"
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:198",
+                "paragraphIds": [
+                  "draftsim:198:p1"
+                ],
+                "text": "I often say that the best build around cards in Limited are usually the ones that draw a card whenever you do the thing, so of course I like Bloombrute . Not only does it draw you cards pretty freely, but the activated ability will help you win any damage race while continuing to guarantee your card draws. This card is awesome and likely one of the best reasons to go into Vigorbloom.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:4",
+                "paragraphIds": [
+                  "zone-multicolor:4:p1",
+                  "zone-multicolor:4:p2",
+                  "zone-multicolor:4:p3",
+                  "zone-multicolor:4:p4"
+                ],
+                "text": "Now this is the kind of payoff I want for jumping through all those life gain hoops.\n\nYou really can’t go wrong with turning your triggers into extra cards, especially when the creature carrying the ability is already perfectly on rate. It even has a way to help turn itself on later in the game, which keeps it from relying entirely on the rest of your deck.\n\nGood body, real card advantage, and built-in support for its own nonsense.\n\nYeah, this sounds pretty brutal.",
+                "scope": "card"
+              }
             ]
           },
           "87b40df5-5c0a-41f5-a09c-a04f17066a91": {
@@ -8723,7 +11783,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:199",
+                "paragraphIds": [
+                  "draftsim:199:p1"
+                ],
+                "text": "I’ve never been a fan of Trumpet Blast effects or mediocre combat tricks. Giving you the option of one or the other doesn’t change my mind on that, especially when you make it cost 3 mana. I’d imagine that Charge the Sanctum isn’t a card you want to play if you can help it.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:5",
+                "paragraphIds": [
+                  "zone-multicolor:5:p1",
+                  "zone-multicolor:5:p2",
+                  "zone-multicolor:5:p3"
+                ],
+                "text": "I’m normally pretty low on Trumpet Blast effects, but this one gets a little more interesting thanks to the single-target mode.\n\nGiving one creature +2/+0, first strike, and a +1/+1 counter can completely flip a combat that looked unwinnable a second ago.\n\nI’m still not thrilled about spending three mana on a combat trick, but this has enough flexibility that I can potentially see it doing some work.",
+                "scope": "card"
+              }
+            ]
           },
           "b61bcef7-5832-45e6-a2bc-26d4f23707fc": {
             "grades": [
@@ -8748,7 +11830,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:200",
+                "paragraphIds": [
+                  "draftsim:200:p1"
+                ],
+                "text": "They just couldn’t help themselves, could they? Wizards prints a spell like this in every set, and now Reality Fracture has two of them! I mean, I’m complaining a little, but this card is still very good. We usually see these effects at 4 mana, so the mana discount is nice. Plus, the blue/red deck in this format looks to be an aggressive tempo-based strategy , which Clash of Elements is perfectly suited for.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:6",
+                "paragraphIds": [
+                  "zone-multicolor:6:p1",
+                  "zone-multicolor:6:p2"
+                ],
+                "text": "Three mana for an instant-speed Time Ebb is already a steal, even when you have to pay two different colors for it.\n\nThen your opponent gets the lovely choice of either accepting that card heading to the bottom of their deck or taking two damage if they really want that card back. Neither option is exactly making their day better.",
+                "scope": "card"
+              }
+            ]
           },
           "03f9839c-aa07-4ee7-847b-091e47ab80c4": {
             "grades": [
@@ -8775,7 +11878,30 @@ window.LIMITED_PREP_DATA = {
               "llu261-4"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:201",
+                "paragraphIds": [
+                  "draftsim:201:p1"
+                ],
+                "text": "Oh, dear lord…. Anyone who knows me personally will probably know that I enjoy ramp. I first saw this card shortly after I’d parked my car and I practically screamed with excitement. The only thing Craftwork Crusher doesn’t do that I’d want it to is to gain life, but that hardly matters when it’s an automatic three-for-one every time you play it. I mean… 7 mana is obviously a lot, but when you’re killing a creature, drawing a card, and making a 7/5, what else were you going to spend 7 mana on? This card is just absolutely ridiculous, and it makes me really excited to draft Konstrari.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:7",
+                "paragraphIds": [
+                  "zone-multicolor:7:p1",
+                  "zone-multicolor:7:p2",
+                  "zone-multicolor:7:p3",
+                  "zone-multicolor:7:p4"
+                ],
+                "text": "Is this expensive? Absolutely.\n\nIs it color intensive? Obviously.\n\nIs it also a giant tank with a ridiculous pile of value stapled onto it? Yep, and that’s why I’m still perfectly happy paying the price.\n\nGetting to pick two between killing a creature or planeswalker, making a 2/2, or drawing a card would already be a strong package. Doing that while also dropping a massive trampler onto the battlefield is the kind of thing that can crush a game in short order.",
+                "scope": "card"
+              }
+            ]
           },
           "986f9e98-9d8d-428b-9187-860745cf3269": {
             "grades": [
@@ -8800,7 +11926,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:202",
+                "paragraphIds": [
+                  "draftsim:202:p1"
+                ],
+                "text": "I keep looking at this card and trying to find any downsides, but apart from the 3-color pips in its casting cost, I’m failing. Flash enables Denzilore Fatehold to swoop in during combat for an easy two-for-one, or just at the end of a turn to avoid sorcery-speed removal. Jace tokens are a very easy source of surveilling for no mana, meaning the likelihood of being able to trigger its ability two or even three times in a turn is relatively high. This card is just obscene, and I can’t imagine being able to win the game against anyone who plays it right.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:8",
+                "paragraphIds": [
+                  "zone-multicolor:8:p1",
+                  "zone-multicolor:8:p2",
+                  "zone-multicolor:8:p3",
+                  "zone-multicolor:8:p4"
+                ],
+                "text": "The baseline is already great. You’re getting a flash flyer at a solid rate that can randomly ambush an unsuspecting attacker and completely wreck combat.\n\nThe real nonsense starts when every scry and surveil suddenly turns into a +1/+1 counter for your entire team.\n\nThat can snowball out of control absurdly fast in a set where those effects are already floating around everywhere. You’re not even being asked to play bad cards to enable it—you’re just getting rewarded for doing things your deck probably wanted to do anyway.\n\nIf this sticks around for more than a turn or two, things are going to get stupid in a hurry.",
+                "scope": "card"
+              }
+            ]
           },
           "cfaa3ebd-5c21-4e99-a0dd-8426d19b53a5": {
             "grades": [
@@ -8827,7 +11976,29 @@ window.LIMITED_PREP_DATA = {
               "nicolai-guide-1"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:203",
+                "paragraphIds": [
+                  "draftsim:203:p1"
+                ],
+                "text": "Luminarch Aspirant is still one of the most broken rares we’ve seen in the last decade. While Desperate Futurescribe needs some setup to come close to that, the fact that it’s an uncommon creature that can do that is remarkable. Not to mention it’s also just a 3/4 with flying, which is a great deal for 4 mana.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:9",
+                "paragraphIds": [
+                  "zone-multicolor:9:p1",
+                  "zone-multicolor:9:p2",
+                  "zone-multicolor:9:p3"
+                ],
+                "text": "So far, all of the signpost uncommons have been really strong, and you certainly don’t need to be desperate to slam this one.\n\nThe baseline rate is already solid, and you’re probably going to have enough incidental scrying and surveilling floating around to keep the bonus turned on without trying too hard.\n\nThat means the upside should stick around well into the future instead of being some cute little bonus you only get once.",
+                "scope": "card"
+              }
+            ]
           },
           "de94d388-919d-44ff-baef-8c90a417ac6d": {
             "grades": [
@@ -8858,7 +12029,30 @@ window.LIMITED_PREP_DATA = {
               "game-05",
               "game-06"
             ],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:205",
+                "paragraphIds": [
+                  "draftsim:205:p1"
+                ],
+                "text": "A 2-mana 1/1 that gives something a +1/+1 counter when it enters is typically a good card in Limited. Emergency Phytomedic is pretty much that same card, but with the upsides of being a 1-drop , being hybrid green/white, and also gaining you a bit of life. This all seems very reasonable and this should be a nice early play for any deck that can cast it.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:11",
+                "paragraphIds": [
+                  "zone-multicolor:11:p1",
+                  "zone-multicolor:11:p2",
+                  "zone-multicolor:11:p3",
+                  "zone-multicolor:11:p4"
+                ],
+                "text": "We’ve seen plenty of two-mana 1/1s that come down and toss a +1/+1 counter onto something, but this feels a couple of steps above the usual version.\n\nYou can still play it that way if you really need to. The much more appealing line is getting it down as a one-drop and then keeping that counter ability in your pocket for only one mana later. That flexibility feels so much better.\n\nThe life gain trigger looks small, but in the right deck it’s just another little piece of value stacking on top of everything else.\n\nThere’s a lot more going on here than you’d expect from such an unassuming card.",
+                "scope": "card"
+              }
+            ]
           },
           "ca894d25-b9fc-4cd6-8746-70d8c2868721": {
             "grades": [
@@ -8883,7 +12077,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:206",
+                "paragraphIds": [
+                  "draftsim:206:p1"
+                ],
+                "text": "Despite all of the Jace tokens, most decks in this format aren’t going to have any planeswalkers in them, meaning Entrust the Spark won’t do anything. Even if you did have a deck with a good planeswalker and this, is it even worth two-for-oneing yourself to get it into play? No, I don’t think it is.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:12",
+                "paragraphIds": [
+                  "zone-multicolor:12:p1",
+                  "zone-multicolor:12:p2",
+                  "zone-multicolor:12:p3"
+                ],
+                "text": "This is awfully close to wandering into never play this territory.\n\nThe only thing barely keeping it alive is that having an Empowered Jace token isn’t exactly difficult in this format, and there are enough completely busted planeswalkers running around that the effect can occasionally matter.\n\nStill, I’d entrust this card with one very important job: keeping the rest of my sideboard company.",
+                "scope": "card"
+              }
+            ]
           },
           "cfc54011-647e-4428-bcdb-59400e1da49d": {
             "grades": [
@@ -8908,7 +12124,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:207",
+                "paragraphIds": [
+                  "draftsim:207:p1"
+                ],
+                "text": "When looking over these charms , I figured Fatehold Charm would probably have Consider as one of its modes, so the mode of drawing a card and empowering 2 is a very nice surprise. Anyway, every charm in this cycle has a removal mode of some kind, making them all pretty useful. This one functions as Unsubstantiate , which is a pretty bad spell on its own, but when you factor in the ability to cycle or to buff your team in combat, I think you’ve got a very potent card.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:13",
+                "paragraphIds": [
+                  "zone-multicolor:13:p1",
+                  "zone-multicolor:13:p2",
+                  "zone-multicolor:13:p3"
+                ],
+                "text": "This Charm sure does give you a whole pile of good options depending on what the game calls for.\n\nNeed to basically cycle it while tossing in some Empower Jace value? Done. Need to bounce a creature or spell and completely screw up your opponent’s plans? Also done. Need to pump the whole team and turn a normal attack into a math problem from hell? It has you covered there too.\n\nNone of the modes need to be busted when you get this much flexibility packed into one card. Fatehold Charm is going to have your back in a whole lot of different situations.",
+                "scope": "card"
+              }
+            ]
           },
           "29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b": {
             "grades": [
@@ -8933,7 +12171,49 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:208",
+                "paragraphIds": [
+                  "draftsim:208:p1"
+                ],
+                "text": "You wouldn’t think I’d be interested in a Storm Crow , but Fatehold Chronologist is a great design to work well with its Peer Review spell. Curving this on turn 2 into Peer Review on 3 is just a good start to any game you play. While both creatures you get are very small, the fact that they came from just one card played is great.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:14",
+                "paragraphIds": [
+                  "zone-multicolor:14:p1",
+                  "zone-multicolor:14:p2"
+                ],
+                "text": "On one side, you’ve got a cheap little dorky flyer. On the other, you get a slightly overcosted Bear with a surveil thrown in for your trouble.\n\nNeither half is exactly setting the world on fire, but getting both has some real value.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b",
+              "name": "Fatehold Chronologist // Peer Review",
+              "role": "Two bodies from one card",
+              "why": "A cheap flyer followed by Peer Review develops your board without spending another card.",
+              "better": "Best when you can spend the next turn on the prepared spell.",
+              "watch": "Both bodies are small, and the uncast prepared copy is lost if the creature leaves.",
+              "disagreement": null,
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:208",
+                "zone-multicolor:14"
+              ],
+              "paragraphIds": [
+                "draftsim:208:p1",
+                "zone-multicolor:14:p1",
+                "zone-multicolor:14:p2"
+              ],
+              "rulesCardId": "29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b",
+              "basisSha256": "772f78f2555bcbcf3d253399d241c468d8a0bb5143ad471bb3c65d00b5442a2e"
+            }
           },
           "a9793ce9-5a0b-41fe-b9ad-02f6f7da2481": {
             "grades": [
@@ -8958,7 +12238,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:209",
+                "paragraphIds": [
+                  "draftsim:209:p1"
+                ],
+                "text": "WotC keeps printing these cards in one form or another, and I’m never impressed by them. If everything goes right, you’re effectively looking at a 2-mana spell that destroys an opponent’s creature and lets yours retrigger its enters ability. That sounds amazing when you frame it that way, but that’s only the best-case scenario. When you factor in that you can only do it in combat and that the creature you want to kill can’t just fly over you, have first strike, or anything like that, now it’s looking a lot worse. In practice, these don’t work often enough, and you shouldn’t bother playing them.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:15",
+                "paragraphIds": [
+                  "zone-multicolor:15:p1",
+                  "zone-multicolor:15:p2",
+                  "zone-multicolor:15:p3"
+                ],
+                "text": "I love having one copy of this type of effect when it costs a single mana. At one, it slides into a deck pretty painlessly. At two, I need a much better reason, which means I’m really looking to hunt down some creatures that have strong ETBs.\n\nThe nice part is that the deathtouch sticks around. If you manage to slap this onto a first striker and surprise someone in combat, they’re going to be absolutely miserable.\n\nThere’s some sneaky upside here, but at two mana I need the rest of my deck to help justify it.",
+                "scope": "card"
+              }
+            ]
           },
           "7a44581f-8fc4-457d-888a-1e211090ee7e": {
             "grades": [
@@ -8983,7 +12285,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:210",
+                "paragraphIds": [
+                  "draftsim:210:p1",
+                  "draftsim:210:p2"
+                ],
+                "text": "Let’s say you had a spell that cost and just said you draw two cards and dealt 4 damage to your opponent? Would it even be that good? While the effect is an upgrade over Divination , you wouldn’t be able to cast it reliably because of how prohibitive the mana cost is.\n\nNow what if the spell weren’t guaranteed to do either of those? In fact, the later in the game it gets, the more likely it fails. To me, that’s exactly what Frostbite Pyromental is. Just like the card it’s based on, Lightning Skelemental , it’s probably just not worth trying to play.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:16",
+                "paragraphIds": [
+                  "zone-multicolor:16:p1",
+                  "zone-multicolor:16:p2",
+                  "zone-multicolor:16:p3"
+                ],
+                "text": "This is a weird one to grade because it costs the same amount as Divination , and the dream outcome is basically drawing two cards while sneaking in four damage. That sounds great on paper.\n\nThe problem is that the whole plan falls apart pretty quickly if your opponent has a giant blocker just chilling in the way. It can also eat a removal spell before doing anything useful, and not every deck is trying to race your opponent down to zero as quickly as possible. That’s without mentioning the difficulty of the casting cost.\n\nThere are definitely games where this will feel amazing. There are also going to be plenty where I’d rather cut out all the extra steps and just cast a draw-two.",
+                "scope": "card"
+              }
+            ]
           },
           "8295c48c-b4dd-4bc1-a206-04cf12b79bbd": {
             "grades": [
@@ -9013,6 +12338,28 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [],
             "combinationIds": [
               "lesson-br"
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:211",
+                "paragraphIds": [
+                  "draftsim:211:p1"
+                ],
+                "text": "For a deck built around these extra damage pings, Grim Repriser is a great 2-drop. 2/2 and prowess is a decent body, and getting a second go of it later on is really strong. It’s like a good 2-drop creature that can flash itself back if you enable it, which is pretty good overall.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:17",
+                "paragraphIds": [
+                  "zone-multicolor:17:p1",
+                  "zone-multicolor:17:p2",
+                  "zone-multicolor:17:p3"
+                ],
+                "text": "This signpost uncommon is looking a little grim compared to some of the others I’ve graded so far.\n\nThat doesn’t mean it’s bad. A 2/2 prowess creature for two mana is already a perfectly solid card, and I’d expect to run this in almost every Rakdos deck.\n\nThe problem is that it doesn’t really become something special unless you have reliable ways to bring it back and squeeze extra value out of it. Without that, it’s good—but not something I’m spending a premium pick on.",
+                "scope": "card"
+              }
             ]
           },
           "6471b135-33a8-4005-9a07-ebb74e0bf145": {
@@ -9038,7 +12385,32 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:213",
+                "paragraphIds": [
+                  "draftsim:213:p1",
+                  "draftsim:213:p2",
+                  "draftsim:213:p3"
+                ],
+                "text": "One of the keys to a good Stingerquill deck will be the ability to deal noncombat damage without spending any mana. So, what better way is there to do that than with Ingris Stingerquill ?\n\nKind of like a Hellrider without the haste, Ingris provides a huge amount of unchecked damage from the moment it hits the board and doesn’t even need to attack. If your opponent doesn’t remove it, this sphinx can just sit back and churn out Cadet tokens each turn if you’d like, and it’s even a great play late in the game, as for 7 total mana it can also give itself haste.\n\nIngris is a little bit too vulnerable to removal for my liking, but it’s cheap and powerful enough that that only counts against it a little bit, it’s still broken.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:19",
+                "paragraphIds": [
+                  "zone-multicolor:19:p1",
+                  "zone-multicolor:19:p2",
+                  "zone-multicolor:19:p3",
+                  "zone-multicolor:19:p4"
+                ],
+                "text": "Another mythic Sphinx is really good. I am absolutely shocked. Stunned, even.\n\nThis one comes down cheap and turns your entire squad, including itself, into pingers whenever they attack. That kind of passive damage adds up ridiculously fast and makes racing basically impossible.\n\nAnd because apparently that wasn’t enough, you can also start pooping out hasty bodies for a very reasonable cost—and the ability doesn’t even require a tap.\n\nCheap threat, immediate pressure, and a built-in army factory. Yeah, this thing is disgusting.",
+                "scope": "card"
+              }
+            ]
           },
           "7d29dfa1-9582-47bc-8f42-62b611bdcc4e": {
             "grades": [
@@ -9063,7 +12435,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:216",
+                "paragraphIds": [
+                  "draftsim:216:p1"
+                ],
+                "text": "I swear, red/green always gets the short end of the stick when it comes to charms. Gruul Charm was abysmal and now Konstrari Charm is easily the worst of this cycle. I honestly think this is leaning much closer to sideboard territory than anything else, and then you bring it in to attack flying creatures . I don’t want a fairly weak combat trick, and I definitely don’t want a bad ritual spell, so what else is there to do?",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:22",
+                "paragraphIds": [
+                  "zone-multicolor:22:p1",
+                  "zone-multicolor:22:p2",
+                  "zone-multicolor:22:p3",
+                  "zone-multicolor:22:p4"
+                ],
+                "text": "Man, Fatehold Charm puts this thing to shame. SHAME.\n\nIt’s really hard to imagine a spot where spending two mana and an entire card just to make three colorless mana is the correct play unless it immediately sets up lethal or some other completely disgusting turn.\n\nThe damage-to-a-flyer mode is mostly sideboard material, which leaves this functioning as a two-mana combat trick most of the time.\n\nGranted, it’s a pretty good trick for the cost. It’s just hard to get excited when the other Charm showed up to the party wearing a tuxedo and this one brought a polo shirt.",
+                "scope": "card"
+              }
+            ]
           },
           "42e28bd2-486b-45d4-8840-6e33c19c2d57": {
             "grades": [
@@ -9088,7 +12483,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:217",
+                "paragraphIds": [
+                  "draftsim:217:p1"
+                ],
+                "text": "Getting to cast Konstrari Improviser on turn 2 and then a Soul Tether on the following turn sounds like a great way to start a game. While this is obviously good in a Konstrari deck, the fact that this is hybrid red/green allows you to play it in a variety of decks that might also want an effect like this.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:23",
+                "paragraphIds": [
+                  "zone-multicolor:23:p1",
+                  "zone-multicolor:23:p2",
+                  "zone-multicolor:23:p3"
+                ],
+                "text": "A Bear that basically lets you cast a Manalith off of it is perfectly respectable curve filler.\n\nThe real value comes when you have some bigger threats you’re trying to get onto the battlefield with a little extra swiftness. In those decks, this can smooth out your curve and help you jump ahead without playing a dedicated ramp spell.\n\nNothing flashy, but it does a useful job at a reasonable price.",
+                "scope": "card"
+              }
+            ]
           },
           "2d6ff182-a853-4898-895b-072c89324ca7": {
             "grades": [
@@ -9113,7 +12530,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:218",
+                "paragraphIds": [
+                  "draftsim:218:p1"
+                ],
+                "text": "Flying, vigilance, lifelink, 6/6. Seriously, what more do you even want? Do you need me to tell you that Kwia Vigorbloom is going to win you games of Limited? I should hope not. Kwia is massive and kind of hard to kill, and it dominates combat from the moment it enters. The Black Lotus tokens it creates are a funny touch, but really not necessary to make this one of the silliest bombs in the set.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:24",
+                "paragraphIds": [
+                  "zone-multicolor:24:p1",
+                  "zone-multicolor:24:p2",
+                  "zone-multicolor:24:p3"
+                ],
+                "text": "I honestly couldn’t care less about the Lotus token. That just feels like fancy packaging designed to make the kids think they’re getting something extra. It’s the rest of the card that has my attention.\n\nI usually hesitate to rate anything this highly when it can eat a removal spell without leaving behind extra value, but this thing is basically impossible to race. A 6/6 with flying, vigilance, and lifelink can swing the game so violently that your opponent might need a seatbelt.\n\nIt even has ward 2, so dealing with it isn’t exactly convenient either.",
+                "scope": "card"
+              }
+            ]
           },
           "94c290ce-252c-42b3-bcb0-c1ef621df566": {
             "grades": [
@@ -9140,7 +12579,29 @@ window.LIMITED_PREP_DATA = {
               "llu261-8"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:220",
+                "paragraphIds": [
+                  "draftsim:220:p1"
+                ],
+                "text": "I loved getting to play Affectionate Indrik back in Guilds of Ravnica , so give it flying and an extra ability and you know I’m still going to love it. Double blue plus a green is a little difficult to pay, and it does make this a lot less splashable , but Mind Meanderer is an instant two-for-one and a great reason to draft blue/green.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:26",
+                "paragraphIds": [
+                  "zone-multicolor:26:p1",
+                  "zone-multicolor:26:p2",
+                  "zone-multicolor:26:p3"
+                ],
+                "text": "It’s a little pricey, but this is still a solid piece of top end that can fight something when it enters and then start winning through the air.\n\nMost of the time, it’s basically going to play like a Serra Angel because having an Empowered Jace around is hardly asking for much in this set.\n\nRemoval stapled to an evasive threat is always a combination I’m interested in, even if I have to pay a little extra for it.",
+                "scope": "card"
+              }
+            ]
           },
           "3afdc75a-1bf5-4f2f-84eb-d82f77a095cd": {
             "grades": [
@@ -9165,7 +12626,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:221",
+                "paragraphIds": [
+                  "draftsim:221:p1"
+                ],
+                "text": "I really like this card, and I definitely have a Commander deck for it to slot right into. Stealing an opponent’s card and then potentially getting to cast it for yourself is pretty busted, kind of like a Thought-Knot Seer crossed with Hostage Taker . The main downside to Null Summoner though is that the later the game goes, the less likely your opponent is to actually have a card in hand for you to steal. That said, if it all goes right, this is a self-contained three-for-one, which is too powerful to ignore.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:27",
+                "paragraphIds": [
+                  "zone-multicolor:27:p1",
+                  "zone-multicolor:27:p2",
+                  "zone-multicolor:27:p3"
+                ],
+                "text": "The value is already there when you’re getting a four-power creature that basically casts Coercion on your opponent on the way in. That’s a pretty disgusting two-for-one before we even start talking about the upside.\n\nThreshold can push things even further, although there’s a decent chance your opponent’s hand is already running on fumes by the time you get there. Hard to rip apart a hand that doesn’t exist anymore.\n\nStill, that’s a pretty minor complaint. Big body, immediate card advantage, and some bonus ceiling if everything lines up. This is a great card.",
+                "scope": "card"
+              }
+            ]
           },
           "e61b9d48-0ace-4453-afe0-a1024444bac0": {
             "grades": [
@@ -9195,6 +12678,28 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [],
             "combinationIds": [
               "lesson-ub"
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:222",
+                "paragraphIds": [
+                  "draftsim:222:p1"
+                ],
+                "text": "Strategy enablers usually don’t shine anywhere near as much as the cool payoffs you get, but I think Paradox Shaper is an exception to that. It’s only a vanilla creature when you play it, but as each turn passes, it keeps preparing itself, allowing you to keep filling your graveyard turn after turn. It even works well in the late game to restock your deck with some of your best cards and stop yourself from decking out. I’m very impressed with the amount of graveyard support there is in this set, and that makes me really happy to see an enabler as strong as this one.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:28",
+                "paragraphIds": [
+                  "zone-multicolor:28:p1",
+                  "zone-multicolor:28:p2",
+                  "zone-multicolor:28:p3"
+                ],
+                "text": "There are definitely decks that are going to want this card. For example, you 100% want this if you’re running multiple Threshold cards or have a ton of the cards you can exile form your graveyard for value.\n\nIn theory, you can mill away most of your deck and eventually start choosing exactly what you want to draw every turn. That sounds great.\n\nIn reality, you’re probably going to spend several turns milling yourself while falling behind on board, only for Paradox Shaper to get removed right when it was finally about to do something useful. That means you better have that value available in your graveyard to maximize this.",
+                "scope": "card"
+              }
             ]
           },
           "04e64af7-cca1-499e-8951-f386e84c8b5b": {
@@ -9225,6 +12730,28 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [],
             "combinationIds": [
               "lesson-bg"
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:223",
+                "paragraphIds": [
+                  "draftsim:223:p1"
+                ],
+                "text": "Speaking of strong enablers for graveyard-based decks, Primal Witchstalker is just incredible. Milling four on entering is a really good number, and you’re very likely to hit a land to ramp you as well. Even better, the land you get doesn’t have to be from among the four you milled; any other ways that you milled yourself before playing this will also contribute, so you might already know if you’re guaranteed to hit one. Ramping on 3 with a good body attached is great, and fueling the graveyard too is even better.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:29",
+                "paragraphIds": [
+                  "zone-multicolor:29:p1",
+                  "zone-multicolor:29:p2",
+                  "zone-multicolor:29:p3"
+                ],
+                "text": "This is another one that really makes you wish Evolving Wilds had made the trip into this set.\n\nEven without it, milling four gives you a pretty decent shot at hitting a land, and there’s a good chance you dump some other graveyard goodies along the way.\n\nThat makes this a nice mix of value and synergy without asking you to do anything too ridiculous. If your deck already cares about the graveyard, it gets even better.",
+                "scope": "card"
+              }
             ]
           },
           "cf0eec8c-0475-4050-8144-481a9bb13a0f": {
@@ -9250,7 +12777,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:224",
+                "paragraphIds": [
+                  "draftsim:224:p1"
+                ],
+                "text": "Getting to surveil without spending mana is going to really make the Fatehold deck come alive, and that’s exactly what Proctor of Potential does for you. It’s already great as a 2-drop 3/1 that surveils when it enters and can replay itself out of the graveyard, but then consider how it synergizes with other cards from this color pair. Now, Saheeli, Consul of Oversight and Denzilore Fatehold will immediately trigger their own abilities when they enter, as will anything else you can think of that cares about surveilling. This is just a very powerful enabler for Fatehold and one I’d be glad to take early.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:30",
+                "paragraphIds": [
+                  "zone-multicolor:30:p1",
+                  "zone-multicolor:30:p2",
+                  "zone-multicolor:30:p3"
+                ],
+                "text": "On its own, this does a great job smoothing out your draws without asking much more from you than simply curving out with creatures. That gets even easier when you keep getting to sculpt what you draw next.\n\nThe real potential shows up when your deck is packed with cards that trigger every time you surveil. At that point, this stops being simple card selection and starts turning on a whole pile of extra nonsense.\n\nGood by itself. Potentially disgusting in the right shell.",
+                "scope": "card"
+              }
+            ]
           },
           "6c1c790b-9e0e-4964-9ea3-554843907f06": {
             "grades": [
@@ -9280,7 +12829,51 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [],
             "combinationIds": [
               "lesson-wu"
-            ]
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:225",
+                "paragraphIds": [
+                  "draftsim:225:p1"
+                ],
+                "text": "Giving +1/+0 to your team is a depressingly minor reward for doing what Fatehold wants, especially when it can only happen once each turn. Most of the power behind Prudent Fateseer comes from the fact that it has Peer Review as a prepared spell, so it’s actually two creatures in one card, but I don’t give it much credit beyond that.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:31",
+                "paragraphIds": [
+                  "zone-multicolor:31:p1",
+                  "zone-multicolor:31:p2",
+                  "zone-multicolor:31:p3"
+                ],
+                "text": "This is usually going to be a two-for-one unless your opponent decides they really need to spend a removal spell on your 1/4.\n\nHow much value you get beyond that is going to vary wildly depending on how wide your deck goes and how many reliable ways you have to trigger the ability.\n\nThe floor is already respectable, but the right deck can squeeze a lot more out of it.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "6c1c790b-9e0e-4964-9ea3-554843907f06",
+              "name": "Prudent Fateseer // Peer Review",
+              "role": "Go-wide support",
+              "why": "Peer Review supplies a second body, while scry or surveil can boost your team before combat.",
+              "better": "Gets better with several attackers and reliable ways to scry or surveil.",
+              "watch": "The +1/+0 boost happens only once each turn and does little on an empty board.",
+              "disagreement": "Quinn gives little credit to the small boost; Josh sees more upside when the deck can go wide and trigger it reliably.",
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:225",
+                "zone-multicolor:31"
+              ],
+              "paragraphIds": [
+                "draftsim:225:p1",
+                "zone-multicolor:31:p1",
+                "zone-multicolor:31:p2",
+                "zone-multicolor:31:p3"
+              ],
+              "rulesCardId": "6c1c790b-9e0e-4964-9ea3-554843907f06",
+              "basisSha256": "434b2ccbe325b1aa067d012b95f5a93197c17cf251c61c603bb8a161ad3ba5d8"
+            }
           },
           "68fddb6a-86d4-4ebb-907d-fdcaadebc4b3": {
             "grades": [
@@ -9310,6 +12903,29 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [],
             "combinationIds": [
               "lesson-ub"
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:226",
+                "paragraphIds": [
+                  "draftsim:226:p1"
+                ],
+                "text": "Four mana for a pair of 2/2s is a reasonable spell to cast, even if it’s a bit weird to see in blue/black. Then, while 8 mana is a lot to get to, Recursive Recruitment is well worth the cost. It’ll basically give you a pair of creatures that should be around 6/6 or 7/7 depending on how much you’ve milled yourself. This may not be as good as something like Spider Spawning , but it’s still a fantastic reward for playing a grindy game and stalling out to the point where you can cast it.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:32",
+                "paragraphIds": [
+                  "zone-multicolor:32:p1",
+                  "zone-multicolor:32:p2",
+                  "zone-multicolor:32:p3",
+                  "zone-multicolor:32:p4"
+                ],
+                "text": "This is one of those cards where I’m already wondering if 3.5 is a little too conservative.\n\nMaking two 2/2s for four mana is already a perfectly solid Limited card. Then you get to flash it back later and make the next batch even bigger, which is where things start getting kind of stupid.\n\nThe first cast is good value. The second one is where this starts looking like an absolute beating.\n\nI’m starting at 3.5, but I would not be shocked if this ends up playing like a 4.0.",
+                "scope": "card"
+              }
             ]
           },
           "1ef12dcf-df50-4da6-8c4c-e2937ba9698e": {
@@ -9335,7 +12951,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:228",
+                "paragraphIds": [
+                  "draftsim:228:p1"
+                ],
+                "text": "Most cards in your average Limited deck are going to cost more than 2 mana, but the prevalance of cheap prepare spells means Solarium Sentry will actually trigger a good bit. Regardless it's still reasonably good to cast a 3/3 for 2 mana, and you might get some free lifegain every now and again, but that’s about it. When you’re matched up against a deck like blue/red prowess though, its stock goes way up because now it should trigger off of most of their spells, making it incredibly hard for the opponent to race.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:34",
+                "paragraphIds": [
+                  "zone-multicolor:34:p1",
+                  "zone-multicolor:34:p2"
+                ],
+                "text": "I remember when people freaked out because Watchwolf existed. Now we get that card with a relevant ability stapled on and everyone just shrugs because apparently this is what Limited looks like now.\n\nYou obviously want life gain triggers to really maximize Solarium Sentry, but you don’t need to go completely overboard. Even a little incidental life gain can start adding up when the body is already above rate before any of the synergy kicks in.",
+                "scope": "card"
+              }
+            ]
           },
           "5142bbb6-194c-4b12-b11a-1a21c9fe81a6": {
             "grades": [
@@ -9362,7 +12999,29 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [
               "game-04"
             ],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:229",
+                "paragraphIds": [
+                  "draftsim:229:p1"
+                ],
+                "text": "Glass Casket has proven itself to be a solid removal spell in past sets. Solitary Cell should be just as good. Costing an additional color of mana is bad, but that seems like a fair trade for being able to answer noncreature permanents too, especially Jace tokens. I don’t put a lot of value in the ability to trade your legends for extra cards, but I guess you’ll take it if you have multiple copies of some.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:35",
+                "paragraphIds": [
+                  "zone-multicolor:35:p1",
+                  "zone-multicolor:35:p2",
+                  "zone-multicolor:35:p3"
+                ],
+                "text": "The second half of this card might as well be blank in about 90% of situations, so the grade is almost entirely riding on that first ability.\n\nTwo mana to remove something that costs three or less is a perfectly reasonable deal in Limited. The only real knock is that being two colors makes it a little harder to slot into just any deck.\n\nNothing flashy here, but efficient removal is efficient removal.",
+                "scope": "card"
+              }
+            ]
           },
           "81733ff7-e611-43ee-bf38-6bb700676017": {
             "grades": [
@@ -9387,7 +13046,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:230",
+                "paragraphIds": [
+                  "draftsim:230:p1"
+                ],
+                "text": "Stingerquill Charm is my pick for the best charm in this cycle. All three modes are incredible, especially with the base rate of just being Lightning Strike . This really is the perfect charm, and I don’t know what else I could say about it.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:36",
+                "paragraphIds": [
+                  "zone-multicolor:36:p1",
+                  "zone-multicolor:36:p2",
+                  "zone-multicolor:36:p3",
+                  "zone-multicolor:36:p4"
+                ],
+                "text": "Another busted Charm where all three modes are actually good. What a concept.\n\nLightning Strike is always going to be a great card. First strike plus deathtouch can turn basically any random creature into a removal spell, and it gets especially nasty when your opponent tries to gang block and you do something so disgusting that you better put the kids to bed first.\n\nAnd if none of that is what you need, you can always just poop out a 2/2 with haste and add to the board.\n\nThere really isn’t a bad option here. This one is going to sting.",
+                "scope": "card"
+              }
+            ]
           },
           "84b1c268-3b8a-41b6-92e3-a2ce0cc3d738": {
             "grades": [
@@ -9417,6 +13099,28 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [],
             "combinationIds": [
               "lesson-br"
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:231",
+                "paragraphIds": [
+                  "draftsim:231:p1"
+                ],
+                "text": "This looks like an incredibly annoying creature. The Stingerquill archetype is based around sources of noncombat damage in the first place, and Stingerquill Voxmancer preparing itself every turn means it can give you noncombat damage every turn. All of that on a 1-mana creature sounds really exceptional to me.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:37",
+                "paragraphIds": [
+                  "zone-multicolor:37:p1",
+                  "zone-multicolor:37:p2",
+                  "zone-multicolor:37:p3"
+                ],
+                "text": "This isn’t exactly going to beat your opponent down on its own, but it can usually sneak in a hit or two early.\n\nMore importantly, it gives you a pile of triggers for dealing noncombat damage to your opponent. It even gives aggressive decks a little extra reach when they’re struggling to close things out. And if your opponent decides to spend a real removal spell on your one-drop, that’s a trade you’re probably pretty happy to make.\n\nEspecially when there’s a decent chance you picked this thing up on the wheel.",
+                "scope": "card"
+              }
             ]
           },
           "a7d78297-7411-4ec5-8931-a25146869d5b": {
@@ -9442,7 +13146,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:232",
+                "paragraphIds": [
+                  "draftsim:232:p1"
+                ],
+                "text": "Thoughtseize effects tend to be very hit or miss in Limited, usually because they’re over-costed. Stinging Vitriol certainly looks like one of the better ones. Two mana is very reasonable for this effect, and you’ll always get the 2 damage out of it anyway, so it’ll also trigger your Stingerquill synergies. There are a lot of better cards, seeing as this doesn’t affect the board, but it does seem like it has its place.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:38",
+                "paragraphIds": [
+                  "zone-multicolor:38:p1",
+                  "zone-multicolor:38:p2",
+                  "zone-multicolor:38:p3"
+                ],
+                "text": "I’m sure there are going to be games where the two damage actually matters, and it’s nice that this still does something when you rip it off the top after your opponent has already emptied their hand.\n\nThe real reason I’m interested, though, is much simpler: it’s a two-mana catch-all discard spell.\n\nGetting to strip basically anything before it becomes a problem is already strong. The random burn is just a little extra sting on top.",
+                "scope": "card"
+              }
+            ]
           },
           "b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b": {
             "grades": [
@@ -9467,7 +13193,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:234",
+                "paragraphIds": [
+                  "draftsim:234:p1"
+                ],
+                "text": "Since Tam's Resistance empowers 4, it’s always at least going to draw you a card. It may not do a lot else, but the fact that it cantrips adds a certain level of legitimacy: While a +1/+1 counter and vigilance isn’t worth spending your time and mana on, that card draw is all it takes to make it worthwhile.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:40",
+                "paragraphIds": [
+                  "zone-multicolor:40:p1",
+                  "zone-multicolor:40:p2",
+                  "zone-multicolor:40:p3"
+                ],
+                "text": "If you’re actively looking for more ways to Empower Jace, then this is something you can talk yourself into playing.\n\nOtherwise, even with the cantrip attached, a sorcery-speed +1/+1 effect just isn’t really a modern Limited card anymore.\n\nThe Jace synergy is doing basically all of the heavy lifting here. Without it, this is the kind of card that makes you wonder what year the design file came from.",
+                "scope": "card"
+              }
+            ]
           },
           "1703306d-6a3d-4ab8-bf58-a9992236ef0f": {
             "grades": [
@@ -9492,7 +13240,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:235",
+                "paragraphIds": [
+                  "draftsim:235:p1"
+                ],
+                "text": "There are a bunch of creatures in Reality Fracture that ramp you for 3 mana, but Tenured Tethermage might be the best of the lot. On top of ramping you, it also slowly grows itself into a massive threat. Thanks to the threat of activation, you don’t even need to use it that often. Just attack with your artifacts open, let your opponent take the damage, and then you can use your Heartwood s on something else. This is one of the best enablers for Konstrari that I can see, so you bet I’m excited to give it a try.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:41",
+                "paragraphIds": [
+                  "zone-multicolor:41:p1",
+                  "zone-multicolor:41:p2",
+                  "zone-multicolor:41:p3"
+                ],
+                "text": "I like this as a ramp spell that just so happens to toss a land into your graveyard, which is actually a feature in this set instead of an unfortunate side effect.\n\nThe fact that it can start growing itself afterward is a nice bonus, but it begins life absolutely teeny tiny. That leaves it extremely vulnerable to basically anything your opponent feels like pointing at it.\n\nIf it survives, though, you’re getting ramp, graveyard synergy, and a threat that can eventually grow into something relevant. That’s a pretty solid package for three mana.",
+                "scope": "card"
+              }
+            ]
           },
           "2835c9aa-0904-44db-8da2-e8c4e04201aa": {
             "grades": [
@@ -9517,7 +13287,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:236",
+                "paragraphIds": [
+                  "draftsim:236:p1"
+                ],
+                "text": "Each of the modes on Theorix Charm are good in principle, but they’re all highly inefficient. Each mode is essentially a 1-mana spell, Spell Pierce , Disfigure , and Mental Note . Well, close enough anyway. While each of those is very good at 1 mana, they’re considerably worse at 2. The combination of all three does count for something, but not enough for me to be particularly high on this charm.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:42",
+                "paragraphIds": [
+                  "zone-multicolor:42:p1",
+                  "zone-multicolor:42:p2",
+                  "zone-multicolor:42:p3",
+                  "zone-multicolor:42:p4"
+                ],
+                "text": "Another solid Charm with multiple decent options. I still don’t know what Konstrari Charm did to deserve its fate, but apparently somebody on the design team had beef.\n\nI do think the first mode should have just been Quench instead of limiting it to noncreature spells. The -2/-2 mode sort of covers you against smaller creatures, but you’re still hanging out to dry against anything bigger or anything with a nasty ETB.\n\nEven the mill-three-and-draw mode is perfectly respectable because it basically gets you four cards closer to Threshold while replacing itself.\n\nNothing here is completely busted, but having three useful options adds up to a card I’m pretty happy playing.",
+                "scope": "card"
+              }
+            ]
           },
           "fb6bad96-841d-4738-8e62-92f346f914fd": {
             "grades": [
@@ -9542,7 +13335,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:237",
+                "paragraphIds": [
+                  "draftsim:237:p1"
+                ],
+                "text": "If you’re looking for a way to mill yourself, then Theorix Metamage is a pretty good option. For a total of 4 mana, you get most of the way towards a 3/3 with flying and three more cards in your graveyard. It looks very easy to fill your graveyard if you want to do so, making Metamage a good inclusion in any graveyard-based deck.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:43",
+                "paragraphIds": [
+                  "zone-multicolor:43:p1",
+                  "zone-multicolor:43:p2",
+                  "zone-multicolor:43:p3"
+                ],
+                "text": "How much the self-mill matters is really going to depend on whether your deck has other ways to reach Threshold and enough payoffs to care once you get there.\n\nA 3/3 flyer for three mana is already a solid deal, even if you have to jump through a minor hoop to turn it on.\n\nBasically, I’m looking at this as closer to a 2.5 in graveyard decks such as Dimir and a 1.5 almost everywhere else. Split the difference, slap a 2.0 on it, and call it a day.",
+                "scope": "card"
+              }
+            ]
           },
           "55f85984-0137-4899-8993-bbc8c4794d33": {
             "grades": [
@@ -9572,7 +13387,51 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [],
             "combinationIds": [
               "lesson-ur"
-            ]
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:238",
+                "paragraphIds": [
+                  "draftsim:238:p1"
+                ],
+                "text": "This is kind of a cool design, but I don’t think it’s as good as it might look. Only drawing a card for 2 mana isn’t a good idea. What could be good is milling or discarding this and then recasting it for a bit of extra value. As such, I’d happily play Twinned Vision in a deck that could accommodate that, but probably not in much else.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:44",
+                "paragraphIds": [
+                  "zone-multicolor:44:p1",
+                  "zone-multicolor:44:p2",
+                  "zone-multicolor:44:p3"
+                ],
+                "text": "Think Twice was always a perfectly reasonable card and even managed to see some Constructed play back in the day. This is basically that with a rummage stapled on for a little extra value.\n\nIt’s not doing anything flashy, but spell-heavy decks are going to appreciate the cheap card flow.\n\nI can see the vision here. It’s just not exactly 20/20.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "55f85984-0137-4899-8993-bbc8c4794d33",
+              "name": "Twinned Vision",
+              "role": "Spell and graveyard support",
+              "why": "Provides two spell casts from one card, useful when casting spells generates additional value.",
+              "better": "Improves with spell payoffs or ways to discard or mill it.",
+              "watch": "The hand cast only draws one card; flashback also requires discarding a card.",
+              "disagreement": "Quinn wants discard or self-mill support; Josh is more receptive to its card flow in spell-heavy decks.",
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:238",
+                "zone-multicolor:44"
+              ],
+              "paragraphIds": [
+                "draftsim:238:p1",
+                "zone-multicolor:44:p1",
+                "zone-multicolor:44:p2",
+                "zone-multicolor:44:p3"
+              ],
+              "rulesCardId": "55f85984-0137-4899-8993-bbc8c4794d33",
+              "basisSha256": "1a86060d7c8a156b27e971253956dd42f45156d6492ad4e467fed82ba372ac4b"
+            }
           },
           "c7c0765d-38fd-4d7b-bfb4-49b10ff5939b": {
             "grades": [
@@ -9599,7 +13458,29 @@ window.LIMITED_PREP_DATA = {
               "llu261-6"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:239",
+                "paragraphIds": [
+                  "draftsim:239:p1"
+                ],
+                "text": "Five mana is quite a lot to pay for a removal spell, but distributing a few +1/+1 counters sounds like a good enough bonus to make that cost worth paying. Imagine a board stall and you have a Twisted Fates . You destroy the biggest creature on the opponent’s board, then your board grows and also gets a potentially profitable attack in. Sounds like a good plan to me.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:45",
+                "paragraphIds": [
+                  "zone-multicolor:45:p1",
+                  "zone-multicolor:45:p2",
+                  "zone-multicolor:45:p3"
+                ],
+                "text": "Kill anything and pump your whole team? Yes please.\n\nDon’t get it twisted, this card is sick. Removal is already premium, and stapling a team-wide combat boost onto it can turn a normal exchange into an absolute beating.\n\nI’m starting at 3.5, but this feels like the kind of card that could creep up to a 4.0 once we actually get a couple weeks of games in.",
+                "scope": "card"
+              }
+            ]
           },
           "a7ad622a-42ff-48fa-ae95-12e0a5bd9387": {
             "grades": [
@@ -9624,7 +13505,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:240",
+                "paragraphIds": [
+                  "draftsim:240:p1"
+                ],
+                "text": "Our last sphinx and it’s still a massive bomb. Uldaros Theorix lets you recast a 6-drop from your graveyard, or perhaps a pair of 3s, or whatever other combination you can find. Simply casting Uldaros gives you an immediate two/three-for-one depending on the situation, and if you’re filling your graveyard as we’ve seen that Theorix is very capable of doing, that just gives you a lot more options for what to do with it. All five of these legendary sphinxes are phenomenal cards and will all be great starts to any draft in this format.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:46",
+                "paragraphIds": [
+                  "zone-multicolor:46:p1",
+                  "zone-multicolor:46:p2"
+                ],
+                "text": "It shouldn’t be particularly difficult to stock your graveyard in Dimir, and this gives you some premium options for turning all that junk into actual value.\n\nGetting an extra dude and a removal spell tacked onto an already massive 5/5 flyer sounds like a pretty damn effective way to flip a game completely in your favor.",
+                "scope": "card"
+              }
+            ]
           },
           "2b198e10-b507-4314-a29c-a219f06e48b7": {
             "grades": [
@@ -9649,7 +13551,51 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:241",
+                "paragraphIds": [
+                  "draftsim:241:p1"
+                ],
+                "text": "An instant speed fight spell with a +1/+1 counter attached is a very powerful form of removal. To me, that’s the most useful mode on Vigorbloom Charm , yet it also protects a creature from removal and you can even cycle it when you need to. This is one of the better Hexhaven charms, and definitely a good early pick.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:47",
+                "paragraphIds": [
+                  "zone-multicolor:47:p1",
+                  "zone-multicolor:47:p2",
+                  "zone-multicolor:47:p3"
+                ],
+                "text": "Charms are good, mmkay.\n\nProtecting a key creature, cycling while picking up some life in the colors that actually care about lifegain triggers, or tossing on a +1/+1 counter and fighting something are all pretty great things to be doing for only two mana.\n\nNone of the modes are wasted, and that kind of flexibility is exactly what makes these Charms so strong.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "2b198e10-b507-4314-a29c-a219f06e48b7",
+              "name": "Vigorbloom Charm",
+              "role": "Flexible interaction",
+              "why": "Can protect a permanent, draw a card and gain life, or grow a creature before it fights.",
+              "better": "Holding it up is useful when either protection or a fight would change the next exchange.",
+              "watch": "You need both colours, and the fight mode still needs a suitable creature.",
+              "disagreement": null,
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:241",
+                "zone-multicolor:47"
+              ],
+              "paragraphIds": [
+                "draftsim:241:p1",
+                "zone-multicolor:47:p1",
+                "zone-multicolor:47:p2",
+                "zone-multicolor:47:p3"
+              ],
+              "rulesCardId": "2b198e10-b507-4314-a29c-a219f06e48b7",
+              "basisSha256": "43ba269d130d0cb5a51da0dbb7d1f1397a1d9c722d42d44ed53c251ff14af891"
+            }
           },
           "acefc515-bf97-4dc0-b0f7-ae8ae5a61671": {
             "grades": [
@@ -9676,7 +13622,30 @@ window.LIMITED_PREP_DATA = {
               "llu261-5"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:242",
+                "paragraphIds": [
+                  "draftsim:242:p1"
+                ],
+                "text": "Just like its common counterpart, 3 mana total for a 2/2 plus a +1/+1 counter wherever you want it is a good card, but I’m not seeing anything here that improves that. The point of lifegain, the vigilance, these aren’t the kinds of bonuses that can elevate Vigorbloom Vanguard beyond the level of a simple common, despite being uncommon.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:48",
+                "paragraphIds": [
+                  "zone-multicolor:48:p1",
+                  "zone-multicolor:48:p2",
+                  "zone-multicolor:48:p3",
+                  "zone-multicolor:48:p4"
+                ],
+                "text": "This rating might look a little high at first, but I think the whole is better than the sum of its parts.\n\nA generic bear isn’t exactly something to write home about these days, but for just one more mana you can turn it into a 3/3 with vigilance. Better yet, that +1/+1 counter can go on any creature, which can seriously mess with combat math.\n\nThen, just to squeeze out a little more value, you gain a life and trigger one of the many life-gain payoffs floating around the set.\n\nNone of those things are amazing on their own, but together they make this a really solid Limited card.",
+                "scope": "card"
+              }
+            ]
           },
           "a803dbe7-153a-4e92-ad4d-c2babebe003d": {
             "grades": [
@@ -9701,7 +13670,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:243",
+                "paragraphIds": [
+                  "draftsim:243:p1"
+                ],
+                "text": "Three mana to cleanly exile any creature is a good start. After all, Unmake is a strong removal spell. There are enough restrictions on Vindictive Triumph to control the power of the rest of the spell, but it’s still a good bonus. You can get an ETB trigger, or you could cast it on your opponent’s end step and get an attack in on your turn before the creature is exiled. The bulk of this card’s power level is still rooted in getting to answer any creature, but adding in some additional applications is nice to see.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:49",
+                "paragraphIds": [
+                  "zone-multicolor:49:p1",
+                  "zone-multicolor:49:p2",
+                  "zone-multicolor:49:p3"
+                ],
+                "text": "This is some pretty awkward three-mana removal to cast, even if it does hit almost anything.\n\nThe bonus mode asks for a lot more to really shine. You need to hit something that costs three or less, and ideally it has a useful ETB so you’re actually getting meaningful value out of bringing it back.\n\nThe token even enters tapped, so there aren’t any cute surprise-blocking blowouts hiding here.",
+                "scope": "card"
+              }
+            ]
           },
           "c63d5b0e-ee72-42ed-aa7e-484ba84507cd": {
             "grades": [
@@ -9728,7 +13719,29 @@ window.LIMITED_PREP_DATA = {
               "llu261-10"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:246",
+                "paragraphIds": [
+                  "draftsim:246:p1"
+                ],
+                "text": "Lightning Helix on a stick is a pretty powerful card, even if that stick is only an equipment, not a creature. With Warrior's Blades , you can kill a creature and then have a relevant permanent on the board, not to mention the nice buffer to your life total. It obviously gets better if you have some +1/+1 counters on your creatures to reduce the equip cost, but the Helix is front-loaded on the spell, so you get most of it right away anyway.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:52",
+                "paragraphIds": [
+                  "zone-multicolor:52:p1",
+                  "zone-multicolor:52:p2",
+                  "zone-multicolor:52:p3"
+                ],
+                "text": "We already saw with Crude Bent Blade how effective Equipment can be when it kills something on the way in. The problem here is that Warrior's Blades costs one more mana to cast and one more to equip, and those little taxes add up quickly.\n\nOn the plus side, this is basically casting Lightning Helix instead of Diabolic Edict , which is usually going to work in this card’s favor. You get to choose what dies while also picking up some life.\n\nStill, the extra mana is enough to keep me from getting too excited. I’m fine playing one, but I definitely don’t want my deck turning into a Warrior's Blades outlet store.",
+                "scope": "card"
+              }
+            ]
           },
           "8096bc9a-a610-448f-bef2-7230e17e9777": {
             "grades": [
@@ -9753,7 +13766,51 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:247",
+                "paragraphIds": [
+                  "draftsim:247:p1"
+                ],
+                "text": "Five mana for a 3/3 with flying and haste can be good on occasion, but it’s mostly mediocre. Stingerquill is probably the most aggressive archetype in Reality Fracture , so it’s far more interested in creatures that are cheaper than Whiplash Wordsmith .",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:53",
+                "paragraphIds": [
+                  "zone-multicolor:53:p1",
+                  "zone-multicolor:53:p2",
+                  "zone-multicolor:53:p3"
+                ],
+                "text": "It’s not particularly hard to deal noncombat damage in Rakdos, and this even gives you its own one-shot enabler if you want to give it haste and get swinging immediately.\n\nThe problem is that we’re all the way up at five mana for that option, and that’s a little more than I want to pay for what this is ultimately doing. Expensive cards need to earn their keep, and this one is mostly showing up because it knows the right people.\n\nIt’s a reasonable role player in Rakdos, especially if you have plenty of noncombat damage triggers, but I don’t see it getting much work anywhere else.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "8096bc9a-a610-448f-bef2-7230e17e9777",
+              "name": "Whiplash Wordsmith // Vicious Verse",
+              "role": "Conditional evasive attacker",
+              "why": "Its prepared ping can enable flying and haste for an immediate attack.",
+              "better": "Other sources of noncombat damage can enable later attacks without relying on the one-shot prepared spell.",
+              "watch": "Casting the creature and its prepared spell in one turn costs five mana. Both reviewers question that rate.",
+              "disagreement": null,
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:247",
+                "zone-multicolor:53"
+              ],
+              "paragraphIds": [
+                "draftsim:247:p1",
+                "zone-multicolor:53:p1",
+                "zone-multicolor:53:p2",
+                "zone-multicolor:53:p3"
+              ],
+              "rulesCardId": "8096bc9a-a610-448f-bef2-7230e17e9777",
+              "basisSha256": "81ed20a6790b0b1f1029cec6ea03b29d4990432664dd53ed5250d6e7b4077791"
+            }
           },
           "7d17f7e3-7b63-4674-9024-4fd1827f40ec": {
             "grades": [
@@ -9781,7 +13838,51 @@ window.LIMITED_PREP_DATA = {
               "nicolai-guide-4"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:248",
+                "paragraphIds": [
+                  "draftsim:248:p1"
+                ],
+                "text": "One of my favorite Limited cards in recent years is Svella, Ice Shaper . Sure, Woodwork Prodigy doesn’t give you something to spend your excess mana on, but it does let you cast Soul Tether over and over. There are only a handful of cards in the set that create these hallmark tokens for Konstrari’s artifact ramp strategy, so having a card that can keep churning them out each turn sounds incredibly powerful to me.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:54",
+                "paragraphIds": [
+                  "zone-multicolor:54:p1",
+                  "zone-multicolor:54:p2",
+                  "zone-multicolor:54:p3"
+                ],
+                "text": "This can certainly go up in value if your deck is looking to ramp or has a good mana sink to dump all that extra mana into.\n\nI also really appreciate that the tokens don’t enter tapped, because that effectively makes them cost two mana instead of forcing you to pay three and wait around before they actually do anything.\n\nIt’s not flashy, but in the right deck this can quietly do a lot of useful work.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "7d17f7e3-7b63-4674-9024-4fd1827f40ec",
+              "name": "Woodwork Prodigy // Soul Tether",
+              "role": "Repeatable ramp",
+              "why": "Can prepare again each upkeep and keep producing Heartwood tokens over multiple turns.",
+              "better": "Needs expensive spells, artifact uses or mana sinks worth accelerating into.",
+              "watch": "Each Soul Tether still costs three mana, and the creature supplies no payoff for the accumulated mana.",
+              "disagreement": "Quinn is very enthusiastic about repeated Heartwoods; Josh ties its value more closely to the deck’s ramp targets and mana sinks.",
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:248",
+                "zone-multicolor:54"
+              ],
+              "paragraphIds": [
+                "draftsim:248:p1",
+                "zone-multicolor:54:p1",
+                "zone-multicolor:54:p2",
+                "zone-multicolor:54:p3"
+              ],
+              "rulesCardId": "7d17f7e3-7b63-4674-9024-4fd1827f40ec",
+              "basisSha256": "07605458cfdc2898b4359e98bf0c3a0132c1e86874011c5b6f2697b0d9756673"
+            }
           },
           "4d4b3bf7-a149-4099-b97d-4e36a87dfa60": {
             "grades": [
@@ -9806,7 +13907,31 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:250",
+                "paragraphIds": [
+                  "draftsim:250:p1"
+                ],
+                "text": "A 2/2 is the bare minimum that we want to see on a 2-drop that isn’t going to grow by itself. We never see colorless creatures of this size, so I’m interested to see how Afterthought Sentry plays out, but I’d imagine that aggressive decks will be able to find better options in their own colors.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:2",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:2:p1",
+                  "zone-artifacts-and-lands:2:p2",
+                  "zone-artifacts-and-lands:2:p3",
+                  "zone-artifacts-and-lands:2:p4",
+                  "zone-artifacts-and-lands:2:p5"
+                ],
+                "text": "I fully expect to catch some heat for this grade, but this feels pretty far above the curve for a colorless two-drop.\n\nCommon artifact creatures are usually intentionally a little crappy so they can serve as emergency filler for whatever deck desperately needs another playable. This honestly feels like the kind of card that would normally have defender slapped on it just to remind you not to get too excited.\n\nInstead, you get a perfectly reasonable bear that can gain flying for a manageable cost. Two-drops that are useful early and still have something relevant to do later tend to overperform, and getting all of that without committing to a color is a pretty big deal.\n\nThe second ability is also legitimately useful in this format with all the graveyard shenanigans floating around.\n\nMaybe 2.5 ends up looking aggressive, but I have a feeling this little pile of colorless cardboard is going to make a lot more decks than people expect.",
+                "scope": "card"
+              }
+            ]
           },
           "024bce1e-a5f3-4292-bc17-d0355a5d65e1": {
             "grades": [
@@ -9831,7 +13956,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:251",
+                "paragraphIds": [
+                  "draftsim:251:p1"
+                ],
+                "text": "Archive Arbiter looks surprisingly good for a colorless artifact creature . A 4/4 flier plus gain 4 life sounds pretty reasonable, even if it’s a little below rate by today’s standards. The fact that any deck can use this if they need it gives it some extra points, and it can even answer Jace tokens if you need it to. So yeah, it seems pretty nice.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:3",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:3:p1",
+                  "zone-artifacts-and-lands:3:p2",
+                  "zone-artifacts-and-lands:3:p3"
+                ],
+                "text": "This is a great example of what I was talking about with Afterthought Sentry . It’s perfectly serviceable, but it feels like it either wants to cost one less mana or come with a slightly beefier body.\n\nNot being able to hit creatures or lands is a bit of a frowny face, but there are still plenty of good targets floating around. Planeswalkers, Memory Trap , and other annoying noncreature permanents can all get lit up by this.\n\nIf you nail something important, this feels great. If you’re just playing it for a little life and a flyer, though, it starts to feel like you paid the artifact creature tax.",
+                "scope": "card"
+              }
+            ]
           },
           "c3192390-1518-49fc-8716-f2c7a0384f39": {
             "grades": [
@@ -9856,7 +14003,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:252",
+                "paragraphIds": [
+                  "draftsim:252:p1"
+                ],
+                "text": "I’m not putting a lot of stock in the 5-color ability of Codie, Ravenous Codex . Rather, the idea of a 1/4 in play that copies your prepared spells actually sounds pretty good. In particular, copying Soul Tether or Peer Review seems particularly strong, or maybe an Ancestral Craving if you get really lucky. If you can get some real value this way, Codie should be worth playing.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:4",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:4:p1",
+                  "zone-artifacts-and-lands:4:p2",
+                  "zone-artifacts-and-lands:4:p3"
+                ],
+                "text": "I’m not saying there won’t be five-color soup decks in this format because I can assure you there absolutely will be. The problem is that Codie wants you to have the whole damn pantry.\n\nYou need this, access to all five colors, and enough creatures with Prepared to really start abusing what it’s doing. That’s a pretty specific grocery list.\n\nYou can still run it as a 1/4 for three if you have multiple Prepared creatures and hope to squeeze out some extra triggers along the way, but that version is a whole lot less exciting.",
+                "scope": "card"
+              }
+            ]
           },
           "d71d250f-c0e0-44b2-877c-76f3bcab4f34": {
             "grades": [
@@ -9881,7 +14050,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:253",
+                "paragraphIds": [
+                  "draftsim:253:p1"
+                ],
+                "text": "A colorless board wipe shouldn’t be underestimated. Any deck can play this and clear out the board if they need to. The major downside to The Echoverse Fulcrum is that unless you pay the full 7 mana in the same turn, your opponent will see the wrath coming and can try to play around it. Funnily enough, this can also work to your advantage, allowing you to extend your board while your opponent is scared to extend theirs. This does look powerful of course, but I’m not sure it’s the slam dunk pick it might appear to be at first.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:5",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:5:p1",
+                  "zone-artifacts-and-lands:5:p2",
+                  "zone-artifacts-and-lands:5:p3",
+                  "zone-artifacts-and-lands:5:p4"
+                ],
+                "text": "It is a colorless sweeper, so obviously there were going to be some strings attached. Even at mythic, they weren’t just going to hand every deck a free Wrath and call it a day.\n\nIf you want to surprise your opponent with it, the full package is going to cost you seven mana, which is a hell of a lot for a sweeper.\n\nIf you want to loot early or spread the cost across two turns, then you’re basically putting up a giant neon sign that says “PLEASE STOP COMMITTING CREATURES TO THE BOARD.”\n\nThe flexibility is still fantastic and being colorless is a huge deal, but every mode makes you pay for that privilege somehow.",
+                "scope": "card"
+              }
+            ]
           },
           "0edba64a-39cf-4a8d-ba20-4f7da10b6c3d": {
             "grades": [
@@ -9908,7 +14100,30 @@ window.LIMITED_PREP_DATA = {
               "llu261-13"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:254",
+                "paragraphIds": [
+                  "draftsim:254:p1"
+                ],
+                "text": "Surveilling every turn isn’t a terrible ability, but Eye of Jace will never get you a full card’s worth of value if you play it. I can maybe see using it in a very focused Theorix deck, but I wouldn’t be happy about it.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:6",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:6:p1",
+                  "zone-artifacts-and-lands:6:p2",
+                  "zone-artifacts-and-lands:6:p3",
+                  "zone-artifacts-and-lands:6:p4"
+                ],
+                "text": "I need to be pretty deep in the sauce on graveyard value before I’m interested in playing this.\n\nSurveiling every turn is certainly useful, but it’s not automatically worth spending an entire card on, even when the setup is cheap.\n\nThe part that really annoys me is that the second ability isn’t optional. Draining for two is rarely going to be better than just continuing to surveil and sculpt your draws over the course of the game.\n\nIf my deck is absolutely begging to fill the graveyard, I’ll consider it. Otherwise, Jace can creep on someone else with his eye.",
+                "scope": "card"
+              }
+            ]
           },
           "b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0": {
             "grades": [
@@ -9935,7 +14150,29 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [
               "game-09"
             ],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:256",
+                "paragraphIds": [
+                  "draftsim:256:p1"
+                ],
+                "text": "Keeper of the Quiet Hour is considerably better than the usual 3-drop artifact creatures that do a little bit of scrying or surveilling, since topping up your existing Jace token to draw a card sounds very appealing. I could see running this if you need one more playable in a Jace-centered deck, but it’s still not something I’d be excited to play.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:8",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:8:p1",
+                  "zone-artifacts-and-lands:8:p2",
+                  "zone-artifacts-and-lands:8:p3"
+                ],
+                "text": "I’m really tempted to give this the extra half point and bump it up to a 2.0, but two toughness is a pretty rough place to be on a three-drop.\n\nIf this Empowered Jace for just one more, we’d be having a completely different conversation. Getting him to three immediately would let you grip an extra card right away and push this dangerously close to busted-common territory.\n\nAs printed, it gets a lot better if you already have other ways to Empower Jace and can bridge that gap. There’s definitely value here, but the fragile body and being one counter short keep me from going any higher.",
+                "scope": "card"
+              }
+            ]
           },
           "5d4a8e5f-0024-4da3-a2f5-edb48b12e733": {
             "grades": [
@@ -9960,7 +14197,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:257",
+                "paragraphIds": [
+                  "draftsim:257:p1"
+                ],
+                "text": "I instinctively want to say this is bad, but a 0/4 does actually block for your Jace tokens pretty well and can then deal with an annoying creature in the late game. Living Library isn’t something I’ll go out of my way for, but it may be able to find a home in a good blue/green Jace deck.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:9",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:9:p1",
+                  "zone-artifacts-and-lands:9:p2",
+                  "zone-artifacts-and-lands:9:p3"
+                ],
+                "text": "This is certainly one obnoxious way to tell aggressive decks to calm down.\n\nEarly on, it’s basically a two-mana brick wall that clogs up the ground. Later, it can cash itself in to deal with their best creature or planeswalker, which is a pretty respectable second career for something that started life as a speed bump.\n\nThe problem is that aggressive decks want absolutely nothing to do with this. If you’re trying to turn creatures sideways and end the game quickly, Living Library is mostly just sitting there reading while everyone else is fighting.",
+                "scope": "card"
+              }
+            ]
           },
           "8b07409a-1dce-461d-95e4-1130521ff4c4": {
             "grades": [
@@ -9989,6 +14248,28 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [],
             "combinationIds": [
               "evasive-growth"
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:258",
+                "paragraphIds": [
+                  "draftsim:258:p1"
+                ],
+                "text": "The ability to give a creature flying tends to be pretty strong, especially if you have a deck that might struggle with breaking out of a board stall. Medic's Kitesail is something that you won’t always want to play, but every now and again you’ll have the right deck for it and it should do its job well enough.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:10",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:10:p1",
+                  "zone-artifacts-and-lands:10:p2",
+                  "zone-artifacts-and-lands:10:p3"
+                ],
+                "text": "This really needed to be one mana cheaper to equip or give you a free equip the turn it enters. Those tiny differences matter a ton when it comes to Equipment because paying one extra mana over and over adds up fast.\n\nAs printed, I’m happy enough to play this in a deck loaded with life gain triggers where the extra value actually matters.\n\nEverywhere else, I’m fading it pretty hard.",
+                "scope": "card"
+              }
             ]
           },
           "d68eab2e-89dd-4377-b7af-01512b1804a0": {
@@ -10014,7 +14295,53 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:259",
+                "paragraphIds": [
+                  "draftsim:259:p1"
+                ],
+                "text": "Mana rocks have been performing well in recent sets due to their additional abilities getting considerably better than they used to be. I don’t think Murmuring Volume quite stacks up against the rest of them, but it’s worth noting that Konstrari are trying to ramp with artifacts and this is definitely a way to do that. Plus, it does seem like a 5-color deck might be available, and this can enable that.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:11",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:11:p1",
+                  "zone-artifacts-and-lands:11:p2",
+                  "zone-artifacts-and-lands:11:p3",
+                  "zone-artifacts-and-lands:11:p4"
+                ],
+                "text": "This grade is mostly a reminder that I’m rating cards based on how they fit into the average deck.\n\nA whole lot of decks have absolutely no interest in playing a Manalith , even if this one can rummage away whatever garbage you’re stuck with later.\n\nFive-color soup decks and slower control piles are a completely different story. Those decks will happily scoop this up for the fixing, and the rummage gives it something useful to do once you stop caring about the extra mana.\n\nPretty mediocre for most decks. Quietly important for the ones that actually want it.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "d68eab2e-89dd-4377-b7af-01512b1804a0",
+              "name": "Murmuring Volume",
+              "role": "Fixing for slower decks",
+              "why": "Supplies any colour and can exchange an unwanted card for a new draw later.",
+              "better": "Consider it for a slower deck that needs fixing, ramp or artifact support.",
+              "watch": "Spending turn three on a mana rock can leave you behind. Most straightforward two-colour decks may not need it.",
+              "disagreement": null,
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:259",
+                "zone-artifacts-and-lands:11"
+              ],
+              "paragraphIds": [
+                "draftsim:259:p1",
+                "zone-artifacts-and-lands:11:p1",
+                "zone-artifacts-and-lands:11:p2",
+                "zone-artifacts-and-lands:11:p3",
+                "zone-artifacts-and-lands:11:p4"
+              ],
+              "rulesCardId": "d68eab2e-89dd-4377-b7af-01512b1804a0",
+              "basisSha256": "542338df6daa8414bd36b11706fa74785016bb81d0afa42a7cf283d842d0dff7"
+            }
           },
           "3223e5db-5cc4-42f9-ae9e-ff58abc7c390": {
             "grades": [
@@ -10039,7 +14366,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:261",
+                "paragraphIds": [
+                  "draftsim:261:p1"
+                ],
+                "text": "This is definitely a cycle I never could have imagined. Planeswalkers are littered throughout this set, and while these lands will never enter untapped on early turns, they certainly can later. As with all cycles of common dual lands , you should pick these up if you need fixing and prioritize them over medium-level commons, but not over premium cards like removal or the more powerful legends.",
+                "scope": "cycle"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:13",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:13:p1",
+                  "zone-artifacts-and-lands:13:p2",
+                  "zone-artifacts-and-lands:13:p3"
+                ],
+                "text": "By now, you already know the value of a dual land in Limited. If it’s in your colors or helps enable a splash, you’re taking it over random filler while still passing it for anything actually strong.\n\nNormally, requiring a planeswalker to be untapped would make the extra ability pretty unreliable. In Reality Fracture, though, that hurdle is about as low as it gets thanks to Empower Jace giving almost every deck access to a planeswalker.\n\nThat makes these a little more than your average fixing lands, even if you still shouldn’t be taking them over real power.",
+                "scope": "cycle"
+              }
+            ]
           },
           "56dae4c4-3e71-4a32-979b-4e26d9c9e96c": {
             "grades": [
@@ -10064,7 +14413,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:262",
+                "paragraphIds": [
+                  "draftsim:262:p1"
+                ],
+                "text": "Games of Limited last for long enough that these duals basically have no downside and should enter untapped almost every time. If you're in their color combination and there’s no premium card for your deck in the pack, you should absolutely take these.",
+                "scope": "cycle"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:14",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:14:p1",
+                  "zone-artifacts-and-lands:14:p2",
+                  "zone-artifacts-and-lands:14:p3"
+                ],
+                "text": "These are going to enter untapped pretty reliably once you’re past the first couple of turns.\n\nEven on turn one, the downside is barely a downside because most Limited decks aren’t exactly overflowing with one-drops they’re desperate to cast.\n\nGood fixing with very little real cost attached is always something I’m happy to pick up, especially if it helps support a splash.",
+                "scope": "cycle"
+              }
+            ]
           },
           "5140f962-62f3-40fd-a322-44896c7e2613": {
             "grades": [
@@ -10089,7 +14460,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:261",
+                "paragraphIds": [
+                  "draftsim:261:p1"
+                ],
+                "text": "This is definitely a cycle I never could have imagined. Planeswalkers are littered throughout this set, and while these lands will never enter untapped on early turns, they certainly can later. As with all cycles of common dual lands , you should pick these up if you need fixing and prioritize them over medium-level commons, but not over premium cards like removal or the more powerful legends.",
+                "scope": "cycle"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:13",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:13:p1",
+                  "zone-artifacts-and-lands:13:p2",
+                  "zone-artifacts-and-lands:13:p3"
+                ],
+                "text": "By now, you already know the value of a dual land in Limited. If it’s in your colors or helps enable a splash, you’re taking it over random filler while still passing it for anything actually strong.\n\nNormally, requiring a planeswalker to be untapped would make the extra ability pretty unreliable. In Reality Fracture, though, that hurdle is about as low as it gets thanks to Empower Jace giving almost every deck access to a planeswalker.\n\nThat makes these a little more than your average fixing lands, even if you still shouldn’t be taking them over real power.",
+                "scope": "cycle"
+              }
+            ]
           },
           "e6ca6c3e-f145-42d6-8a17-90770c15afaf": {
             "grades": [
@@ -10114,7 +14507,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:261",
+                "paragraphIds": [
+                  "draftsim:261:p1"
+                ],
+                "text": "This is definitely a cycle I never could have imagined. Planeswalkers are littered throughout this set, and while these lands will never enter untapped on early turns, they certainly can later. As with all cycles of common dual lands , you should pick these up if you need fixing and prioritize them over medium-level commons, but not over premium cards like removal or the more powerful legends.",
+                "scope": "cycle"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:13",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:13:p1",
+                  "zone-artifacts-and-lands:13:p2",
+                  "zone-artifacts-and-lands:13:p3"
+                ],
+                "text": "By now, you already know the value of a dual land in Limited. If it’s in your colors or helps enable a splash, you’re taking it over random filler while still passing it for anything actually strong.\n\nNormally, requiring a planeswalker to be untapped would make the extra ability pretty unreliable. In Reality Fracture, though, that hurdle is about as low as it gets thanks to Empower Jace giving almost every deck access to a planeswalker.\n\nThat makes these a little more than your average fixing lands, even if you still shouldn’t be taking them over real power.",
+                "scope": "cycle"
+              }
+            ]
           },
           "4a771010-b397-4849-ac9b-08e4dd5d6a72": {
             "grades": [
@@ -10139,7 +14554,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:263",
+                "paragraphIds": [
+                  "draftsim:263:p1"
+                ],
+                "text": "While creature lands are usually very good to put in your deck, even if they’re colorless, one that relies on you having something in play to copy doesn’t sound very appealing. On top of that, it costs far too much to activate Hall of Echoes , effectively costing you 6 mana when you include itself. While copying a massive creature of course sounds good, the times when you have nothing or only something bad to copy I think will outweigh them.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:15",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:15:p1",
+                  "zone-artifacts-and-lands:15:p2",
+                  "zone-artifacts-and-lands:15:p3",
+                  "zone-artifacts-and-lands:15:p4"
+                ],
+                "text": "The cost of putting a colorless land in your deck is very real unless your mana base already has enough fixing to absorb it.\n\nIf you’re comfortably two colors with a couple of duals or other fixing lands, though, this goes up significantly. Getting an actual creature out of a land slot has a ton of value, especially when you’re flooding out and would otherwise be drawing blanks.\n\nYou just need to make sure your mana base can actually afford the luxury.\n\nAs the old saying goes: if you have to ask, you probably can’t afford it.",
+                "scope": "card"
+              }
+            ]
           },
           "a4e4966b-8963-4fac-a8bf-e778e063c7dd": {
             "grades": [
@@ -10164,7 +14602,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:262",
+                "paragraphIds": [
+                  "draftsim:262:p1"
+                ],
+                "text": "Games of Limited last for long enough that these duals basically have no downside and should enter untapped almost every time. If you're in their color combination and there’s no premium card for your deck in the pack, you should absolutely take these.",
+                "scope": "cycle"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:14",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:14:p1",
+                  "zone-artifacts-and-lands:14:p2",
+                  "zone-artifacts-and-lands:14:p3"
+                ],
+                "text": "These are going to enter untapped pretty reliably once you’re past the first couple of turns.\n\nEven on turn one, the downside is barely a downside because most Limited decks aren’t exactly overflowing with one-drops they’re desperate to cast.\n\nGood fixing with very little real cost attached is always something I’m happy to pick up, especially if it helps support a splash.",
+                "scope": "cycle"
+              }
+            ]
           },
           "9128ce00-6744-4d36-bfbe-ef75d78110b0": {
             "grades": [
@@ -10189,7 +14649,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:264",
+                "paragraphIds": [
+                  "draftsim:264:p1"
+                ],
+                "text": "Colorless lands come with a very real cost when you put them in your mana base. While some have an ability that’s worth paying that cost, Hexhaven Dueling Arena does not. I thought Skycoach Waypoint might have been good enough, but it ended up being pretty bad, so I imagine the same is true here.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:16",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:16:p1",
+                  "zone-artifacts-and-lands:16:p2",
+                  "zone-artifacts-and-lands:16:p3",
+                  "zone-artifacts-and-lands:16:p4"
+                ],
+                "text": "I just talked about the very real cost of playing a colorless land with Hall of Echoes , so I don’t need to beat that horse again here.\n\nThe difference is that Hall of Echoes only asked you to have a creature before it started generating value. This one specifically needs a creature that can get Prepared, which narrows the number of decks that actually want it by quite a bit.\n\nThere are definitely builds where this can pop off and feel great. There are also plenty of decks that shouldn’t touch it with a ten-foot pole.\n\nIf your deck is built for it, go nuts. If not, don’t get cute and wreck your mana base for a dream.",
+                "scope": "card"
+              }
+            ]
           },
           "84ea799a-faa2-4ff1-a933-432d4ee31a3b": {
             "grades": [
@@ -10214,7 +14697,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:261",
+                "paragraphIds": [
+                  "draftsim:261:p1"
+                ],
+                "text": "This is definitely a cycle I never could have imagined. Planeswalkers are littered throughout this set, and while these lands will never enter untapped on early turns, they certainly can later. As with all cycles of common dual lands , you should pick these up if you need fixing and prioritize them over medium-level commons, but not over premium cards like removal or the more powerful legends.",
+                "scope": "cycle"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:13",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:13:p1",
+                  "zone-artifacts-and-lands:13:p2",
+                  "zone-artifacts-and-lands:13:p3"
+                ],
+                "text": "By now, you already know the value of a dual land in Limited. If it’s in your colors or helps enable a splash, you’re taking it over random filler while still passing it for anything actually strong.\n\nNormally, requiring a planeswalker to be untapped would make the extra ability pretty unreliable. In Reality Fracture, though, that hurdle is about as low as it gets thanks to Empower Jace giving almost every deck access to a planeswalker.\n\nThat makes these a little more than your average fixing lands, even if you still shouldn’t be taking them over real power.",
+                "scope": "cycle"
+              }
+            ]
           },
           "39c805e3-82cd-42a9-80fe-8d81712a94ea": {
             "grades": [
@@ -10239,7 +14744,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:261",
+                "paragraphIds": [
+                  "draftsim:261:p1"
+                ],
+                "text": "This is definitely a cycle I never could have imagined. Planeswalkers are littered throughout this set, and while these lands will never enter untapped on early turns, they certainly can later. As with all cycles of common dual lands , you should pick these up if you need fixing and prioritize them over medium-level commons, but not over premium cards like removal or the more powerful legends.",
+                "scope": "cycle"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:13",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:13:p1",
+                  "zone-artifacts-and-lands:13:p2",
+                  "zone-artifacts-and-lands:13:p3"
+                ],
+                "text": "By now, you already know the value of a dual land in Limited. If it’s in your colors or helps enable a splash, you’re taking it over random filler while still passing it for anything actually strong.\n\nNormally, requiring a planeswalker to be untapped would make the extra ability pretty unreliable. In Reality Fracture, though, that hurdle is about as low as it gets thanks to Empower Jace giving almost every deck access to a planeswalker.\n\nThat makes these a little more than your average fixing lands, even if you still shouldn’t be taking them over real power.",
+                "scope": "cycle"
+              }
+            ]
           },
           "93ac525e-1919-43dd-aba4-073b7e4c1768": {
             "grades": [
@@ -10264,7 +14791,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:261",
+                "paragraphIds": [
+                  "draftsim:261:p1"
+                ],
+                "text": "This is definitely a cycle I never could have imagined. Planeswalkers are littered throughout this set, and while these lands will never enter untapped on early turns, they certainly can later. As with all cycles of common dual lands , you should pick these up if you need fixing and prioritize them over medium-level commons, but not over premium cards like removal or the more powerful legends.",
+                "scope": "cycle"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:13",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:13:p1",
+                  "zone-artifacts-and-lands:13:p2",
+                  "zone-artifacts-and-lands:13:p3"
+                ],
+                "text": "By now, you already know the value of a dual land in Limited. If it’s in your colors or helps enable a splash, you’re taking it over random filler while still passing it for anything actually strong.\n\nNormally, requiring a planeswalker to be untapped would make the extra ability pretty unreliable. In Reality Fracture, though, that hurdle is about as low as it gets thanks to Empower Jace giving almost every deck access to a planeswalker.\n\nThat makes these a little more than your average fixing lands, even if you still shouldn’t be taking them over real power.",
+                "scope": "cycle"
+              }
+            ]
           },
           "178e61e4-472f-42cd-9d3b-4880c2acc527": {
             "grades": [
@@ -10289,7 +14838,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:262",
+                "paragraphIds": [
+                  "draftsim:262:p1"
+                ],
+                "text": "Games of Limited last for long enough that these duals basically have no downside and should enter untapped almost every time. If you're in their color combination and there’s no premium card for your deck in the pack, you should absolutely take these.",
+                "scope": "cycle"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:14",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:14:p1",
+                  "zone-artifacts-and-lands:14:p2",
+                  "zone-artifacts-and-lands:14:p3"
+                ],
+                "text": "These are going to enter untapped pretty reliably once you’re past the first couple of turns.\n\nEven on turn one, the downside is barely a downside because most Limited decks aren’t exactly overflowing with one-drops they’re desperate to cast.\n\nGood fixing with very little real cost attached is always something I’m happy to pick up, especially if it helps support a splash.",
+                "scope": "cycle"
+              }
+            ]
           },
           "e3c8a8b6-23ba-45ad-80d1-8e2dc79897f7": {
             "grades": [
@@ -10314,7 +14885,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:262",
+                "paragraphIds": [
+                  "draftsim:262:p1"
+                ],
+                "text": "Games of Limited last for long enough that these duals basically have no downside and should enter untapped almost every time. If you're in their color combination and there’s no premium card for your deck in the pack, you should absolutely take these.",
+                "scope": "cycle"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:14",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:14:p1",
+                  "zone-artifacts-and-lands:14:p2",
+                  "zone-artifacts-and-lands:14:p3"
+                ],
+                "text": "These are going to enter untapped pretty reliably once you’re past the first couple of turns.\n\nEven on turn one, the downside is barely a downside because most Limited decks aren’t exactly overflowing with one-drops they’re desperate to cast.\n\nGood fixing with very little real cost attached is always something I’m happy to pick up, especially if it helps support a splash.",
+                "scope": "cycle"
+              }
+            ]
           },
           "db61361b-bd12-453e-abc2-bbe09b66e3d9": {
             "grades": [
@@ -10339,7 +14932,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:265",
+                "paragraphIds": [
+                  "draftsim:265:p1"
+                ],
+                "text": "A green-shifted Valakut, the Molten Pinnacle is kind of cool, but Roiling Canopy does literally nothing until you reach your sixth forest in play. That won’t happen unless you warp your entire draft around forcing mono-green, so since it enters tapped, that makes it strictly worse than a forest and you should never play it.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:17",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:17:p1",
+                  "zone-artifacts-and-lands:17:p2",
+                  "zone-artifacts-and-lands:17:p3",
+                  "zone-artifacts-and-lands:17:p4"
+                ],
+                "text": "If you’re mono-green, then sure, go nuts.\n\nOutside of that, this just isn’t doing enough to justify entering tapped. Even in a normal two-color deck, you’re probably only sitting on around seven Forests once you count this as one of your green sources and factor in a random dual land.\n\nThat means the payoff is going to be way less reliable than it looks.\n\nMono-green can have its fun. Everyone else should probably leave this one in the binder.",
+                "scope": "card"
+              }
+            ]
           },
           "9a467560-6676-4fc2-9400-768a79650aa4": {
             "grades": [
@@ -10364,7 +14980,53 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:266",
+                "paragraphIds": [
+                  "draftsim:266:p1"
+                ],
+                "text": "We’ve seen plenty of these lands before and they’re always fine. I’d rather have a dual land most of the time, but the fact that you can play Room of Refuge in any deck sometimes gives it an edge. The utility ability is a nice bonus, but pretty expensive to make too much of an impact.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:18",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:18:p1",
+                  "zone-artifacts-and-lands:18:p2",
+                  "zone-artifacts-and-lands:18:p3",
+                  "zone-artifacts-and-lands:18:p4"
+                ],
+                "text": "This is the Room of Refuge , not refuse, because it’s pretty far from garbage.\n\nFunctionally, it fills a lot of the same role as Evolving Wilds by entering tapped and fixing your mana. The big difference is that you don’t actually need to have a basic of the splash color sitting in your deck, which can matter in some weird corner cases.\n\nIt also has the upside of eventually turning into a couple of +1/+1 counters instead of just being a land forever.\n\nIt’s not technically a dual land, but I think there’s a pretty legitimate debate over which one you’d rather have.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "9a467560-6676-4fc2-9400-768a79650aa4",
+              "name": "Room of Refuge",
+              "role": "Flexible fixing",
+              "why": "Chooses the colour your mana base needs and offers a late use when another land is less valuable.",
+              "better": "Useful for a missing colour source without needing a basic of that colour in your deck.",
+              "watch": "It enters tapped, only makes the chosen colour, and its counter ability costs five mana plus the land itself.",
+              "disagreement": "Quinn usually prefers a dual land; Josh considers the fixing and late utility a closer comparison.",
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:266",
+                "zone-artifacts-and-lands:18"
+              ],
+              "paragraphIds": [
+                "draftsim:266:p1",
+                "zone-artifacts-and-lands:18:p1",
+                "zone-artifacts-and-lands:18:p2",
+                "zone-artifacts-and-lands:18:p3",
+                "zone-artifacts-and-lands:18:p4"
+              ],
+              "rulesCardId": "9a467560-6676-4fc2-9400-768a79650aa4",
+              "basisSha256": "3097c2d10a8848322fb6e5fd0b1274b77b1593ded66a70d8ddd8bd775615c843"
+            }
           },
           "9e944c5b-68ac-4a30-bbd4-09a4288319ce": {
             "grades": [
@@ -10389,7 +15051,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:262",
+                "paragraphIds": [
+                  "draftsim:262:p1"
+                ],
+                "text": "Games of Limited last for long enough that these duals basically have no downside and should enter untapped almost every time. If you're in their color combination and there’s no premium card for your deck in the pack, you should absolutely take these.",
+                "scope": "cycle"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:14",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:14:p1",
+                  "zone-artifacts-and-lands:14:p2",
+                  "zone-artifacts-and-lands:14:p3"
+                ],
+                "text": "These are going to enter untapped pretty reliably once you’re past the first couple of turns.\n\nEven on turn one, the downside is barely a downside because most Limited decks aren’t exactly overflowing with one-drops they’re desperate to cast.\n\nGood fixing with very little real cost attached is always something I’m happy to pick up, especially if it helps support a splash.",
+                "scope": "cycle"
+              }
+            ]
           },
           "6ede3143-69ac-4cbe-922a-d25b07c26da7": {
             "grades": [
@@ -10414,7 +15098,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:261",
+                "paragraphIds": [
+                  "draftsim:261:p1"
+                ],
+                "text": "This is definitely a cycle I never could have imagined. Planeswalkers are littered throughout this set, and while these lands will never enter untapped on early turns, they certainly can later. As with all cycles of common dual lands , you should pick these up if you need fixing and prioritize them over medium-level commons, but not over premium cards like removal or the more powerful legends.",
+                "scope": "cycle"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:13",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:13:p1",
+                  "zone-artifacts-and-lands:13:p2",
+                  "zone-artifacts-and-lands:13:p3"
+                ],
+                "text": "By now, you already know the value of a dual land in Limited. If it’s in your colors or helps enable a splash, you’re taking it over random filler while still passing it for anything actually strong.\n\nNormally, requiring a planeswalker to be untapped would make the extra ability pretty unreliable. In Reality Fracture, though, that hurdle is about as low as it gets thanks to Empower Jace giving almost every deck access to a planeswalker.\n\nThat makes these a little more than your average fixing lands, even if you still shouldn’t be taking them over real power.",
+                "scope": "cycle"
+              }
+            ]
           },
           "22db5bba-46c9-4a26-821d-303ddb386ea4": {
             "grades": [
@@ -10439,7 +15145,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:267",
+                "paragraphIds": [
+                  "draftsim:267:p1"
+                ],
+                "text": "Powerful utility lands are often very good pick-ups in Limited. Theorist's Sanctum is very close to being a strict upgrade over an island, especially if you have a deck that empowers a lot. As such, picking it in a draft is essentially like taking a spell that goes in one of your land slots instead of one of your spell slots. That utility shouldn’t be underestimated, and it’s what makes me want to take this very highly.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:19",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:19:p1",
+                  "zone-artifacts-and-lands:19:p2"
+                ],
+                "text": "Beholding Jace is a pretty small ask in a set that has his fingerprints all over basically everything.\n\nThat makes this fairly close to an Island with a very real upside attached. Once it’s online, you can keep squeezing extra value out of your land slot by Empowering Jace turn after turn.",
+                "scope": "card"
+              }
+            ]
           },
           "97bbbd23-ecb1-4407-ac14-dede08532a1e": {
             "grades": [
@@ -10464,7 +15191,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:261",
+                "paragraphIds": [
+                  "draftsim:261:p1"
+                ],
+                "text": "This is definitely a cycle I never could have imagined. Planeswalkers are littered throughout this set, and while these lands will never enter untapped on early turns, they certainly can later. As with all cycles of common dual lands , you should pick these up if you need fixing and prioritize them over medium-level commons, but not over premium cards like removal or the more powerful legends.",
+                "scope": "cycle"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:13",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:13:p1",
+                  "zone-artifacts-and-lands:13:p2",
+                  "zone-artifacts-and-lands:13:p3"
+                ],
+                "text": "By now, you already know the value of a dual land in Limited. If it’s in your colors or helps enable a splash, you’re taking it over random filler while still passing it for anything actually strong.\n\nNormally, requiring a planeswalker to be untapped would make the extra ability pretty unreliable. In Reality Fracture, though, that hurdle is about as low as it gets thanks to Empower Jace giving almost every deck access to a planeswalker.\n\nThat makes these a little more than your average fixing lands, even if you still shouldn’t be taking them over real power.",
+                "scope": "cycle"
+              }
+            ]
           },
           "b57d5be7-3157-4b49-aeb8-d7368ca7e9dd": {
             "grades": [
@@ -10489,7 +15238,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:261",
+                "paragraphIds": [
+                  "draftsim:261:p1"
+                ],
+                "text": "This is definitely a cycle I never could have imagined. Planeswalkers are littered throughout this set, and while these lands will never enter untapped on early turns, they certainly can later. As with all cycles of common dual lands , you should pick these up if you need fixing and prioritize them over medium-level commons, but not over premium cards like removal or the more powerful legends.",
+                "scope": "cycle"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:13",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:13:p1",
+                  "zone-artifacts-and-lands:13:p2",
+                  "zone-artifacts-and-lands:13:p3"
+                ],
+                "text": "By now, you already know the value of a dual land in Limited. If it’s in your colors or helps enable a splash, you’re taking it over random filler while still passing it for anything actually strong.\n\nNormally, requiring a planeswalker to be untapped would make the extra ability pretty unreliable. In Reality Fracture, though, that hurdle is about as low as it gets thanks to Empower Jace giving almost every deck access to a planeswalker.\n\nThat makes these a little more than your average fixing lands, even if you still shouldn’t be taking them over real power.",
+                "scope": "cycle"
+              }
+            ]
           },
           "db8c7bdd-76cd-4be0-ae0d-d430e9a5fe7a": {
             "grades": [
@@ -10514,7 +15285,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:261",
+                "paragraphIds": [
+                  "draftsim:261:p1"
+                ],
+                "text": "This is definitely a cycle I never could have imagined. Planeswalkers are littered throughout this set, and while these lands will never enter untapped on early turns, they certainly can later. As with all cycles of common dual lands , you should pick these up if you need fixing and prioritize them over medium-level commons, but not over premium cards like removal or the more powerful legends.",
+                "scope": "cycle"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:13",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:13:p1",
+                  "zone-artifacts-and-lands:13:p2",
+                  "zone-artifacts-and-lands:13:p3"
+                ],
+                "text": "By now, you already know the value of a dual land in Limited. If it’s in your colors or helps enable a splash, you’re taking it over random filler while still passing it for anything actually strong.\n\nNormally, requiring a planeswalker to be untapped would make the extra ability pretty unreliable. In Reality Fracture, though, that hurdle is about as low as it gets thanks to Empower Jace giving almost every deck access to a planeswalker.\n\nThat makes these a little more than your average fixing lands, even if you still shouldn’t be taking them over real power.",
+                "scope": "cycle"
+              }
+            ]
           },
           "a5e1a7dd-8c49-4435-935c-bcc78704082b": {
             "grades": [
@@ -10539,7 +15332,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:2",
+                "paragraphIds": [
+                  "draftsim:2:p1"
+                ],
+                "text": "While Ajani Resolute is probably my favorite design in this set, answering the question “What would Ajani's Pridemate look like as a planeswalker ?”, it sadly feels very lackluster for Limited play. Vigorbloom is of course a lifegain archetype, but the fact that you need to have gained life at least three times before Ajani can use its -4 and survive makes me think this isn’t where we want to be. I’d love to be wrong though.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:2",
+                "paragraphIds": [
+                  "zone-white:2:p1",
+                  "zone-white:2:p2",
+                  "zone-white:2:p3",
+                  "zone-white:2:p4"
+                ],
+                "text": "Two-mana planeswalkers are always a dangerous design space, even in Constructed, so seeing one show up in Limited immediately gets my attention.\n\nThankfully, Ajani isn’t going to protect himself very well right away unless you already have another source of life gain. That means a turn-two Ajani on the play is certainly scary, but it’s not an automatic “well, I guess this game is over” moment.\n\nThe ultimate also isn’t quite game-ending, and actually getting there in Limited is going to be significantly harder unless your draft comes together perfectly.\n\nStill, this is potentially a very powerful card for only two mana.",
+                "scope": "card"
+              }
+            ]
           },
           "d5cb9810-3c2d-4ae4-b8b6-0155ca3f47ad": {
             "grades": [
@@ -10566,7 +15382,28 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [
               "game-06"
             ],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:5",
+                "paragraphIds": [
+                  "draftsim:5:p1"
+                ],
+                "text": "There are only a couple of equipment cards in Reality Fracture , but a fair few spells that target your creatures. Danitha, Sword of Hope isn’t supported well enough for you to consider it a solid build-around, but there are enough synergies that it should at least be a playable card in the right deck. For example, it does seem especially nice alongside Predictive Preparations .",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:5",
+                "paragraphIds": [
+                  "zone-white:5:p1",
+                  "zone-white:5:p2"
+                ],
+                "text": "There’s a pretty large delta on this card because it can be almost unplayable if your deck doesn’t properly support it. You really want a healthy number of cheap Equipment, Auras, combat tricks, and other spells that target your own creatures. If you can consistently trigger Danitha without going out of your way, she can turn those cards into an excellent card advantage engine without costing you much tempo.\n\nIf you only have a couple ways to trigger her, though, you’re basically looking at a 2/2 first striker for three. This is one of those cards where the rating is going to depend heavily on the deck around it. You’re going to have to make the call on which version of Danitha you’re actually getting.",
+                "scope": "card"
+              }
+            ]
           },
           "a9f3aa55-908f-42db-8135-4201433df850": {
             "grades": [
@@ -10591,7 +15428,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:11",
+                "paragraphIds": [
+                  "draftsim:11:p1"
+                ],
+                "text": "Nine mana is obviously far too much to pay for what’s essentially just a 7/7 vanilla creature. Even if you have a 4-toughness creature in play, which is by no means trivial to set up, Ghalta the Immovable is only a vanilla creature , albeit a big one. This one goes off the cuff of normal archetypes a fair bit, but maybe every now and then you try to spice up your drafts with Ghalta and a couple Living Library cards.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:11",
+                "paragraphIds": [
+                  "zone-white:11:p1",
+                  "zone-white:11:p2",
+                  "zone-white:11:p3"
+                ],
+                "text": "While you’ll usually be able to cast this for less than nine mana, you can’t completely ignore that massive starting cost. There are definitely going to be games where it gets stranded in your hand while you stare at it wishing it was basically anything else.\n\nRealistically, you’re often going to have two- or three-toughness creatures helping reduce the cost, which means you’re still paying somewhere around six or seven mana for it. Functionally, a 7/7 for that price just isn’t anything to get excited about.\n\nThere will certainly be decks that can do a better job of cheating the cost down, but I’m not going out of my way to draft around it.",
+                "scope": "card"
+              }
+            ]
           },
           "768c0e64-9907-417a-a763-c836fdf36883": {
             "grades": [
@@ -10616,7 +15475,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:12",
+                "paragraphIds": [
+                  "draftsim:12:p1"
+                ],
+                "text": "Cards that work with planeswalkers in your deck usually get a flat 0/10. Even with seven of them in the set, they’re all mythics, so you can never rely on having them. That said, Gideon's Memorial does so much more than that. We can simply ignore the second ability and this is still an Intangible Virtue that you could also use as a mediocre removal spell. Both of those modes together make this a pretty good card if you have tokens and more like a 3/10 if you can only use it as removal.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:12",
+                "paragraphIds": [
+                  "zone-white:12:p1",
+                  "zone-white:12:p2"
+                ],
+                "text": "Jace must have had beef with Gideon if he did him dirty like this. This card does a lot of different things without doing any of them particularly well.\n\nI’m sure there are going to be decks that make a pile of creature tokens while also having a planeswalker they really want to ramp out, but I don’t see too many of those floating around. Most of the time, this is probably just going to be two mana to deal four damage to a creature that’s in combat.",
+                "scope": "card"
+              }
+            ]
           },
           "920703fd-2a2f-454b-8829-af8f2afda4f4": {
             "grades": [
@@ -10643,7 +15523,30 @@ window.LIMITED_PREP_DATA = {
               "nicolai-guide-5"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:17",
+                "paragraphIds": [
+                  "draftsim:17:p1"
+                ],
+                "text": "Koth of the Homestead is pretty unassuming, but it provides a consistent source of lifegain for the Vigorbloom decks. I doubt I’d want to play it outside of Vigorbloom, because getting the +1/+1 counters isn’t reliable enough, but this Koth should still shine there.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:17",
+                "paragraphIds": [
+                  "zone-white:17:p1",
+                  "zone-white:17:p2",
+                  "zone-white:17:p3",
+                  "zone-white:17:p4"
+                ],
+                "text": "Continuous source of life gain triggers? Check.\n\nPumps up your dudes whenever you play a Plains? Also check.\n\nDoes all of that for three mana? Yeah, I’ll take that deal before somebody realizes they priced it wrong.\n\nThis does exactly what the life gain deck wants while still providing plenty of value on its own. That’s the kind of uncommon I’m more than happy to build around.",
+                "scope": "card"
+              }
+            ]
           },
           "70d8c400-87dc-4f15-808f-e54a95d779fc": {
             "grades": [
@@ -10668,7 +15571,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:18",
+                "paragraphIds": [
+                  "draftsim:18:p1"
+                ],
+                "text": "Considering we have Vigorbloom really wanting lifegain sources, Liliana the Faultless looks like an exceptional Soul Warden for that archetype to function. Not only does it enable those synergies, but it also helps you by protecting your other creatures from removal spells. While not a bomb rare by any means, there’s a lot to like on this Liliana, and it comes down as early as turn 1.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:18",
+                "paragraphIds": [
+                  "zone-white:18:p1",
+                  "zone-white:18:p2",
+                  "zone-white:18:p3",
+                  "zone-white:18:p4"
+                ],
+                "text": "We’re not even going to get into how messed up it is that Jace’s idealized version of his ex is literally called the Faultless. Then you read the flavor text — “All mistakes can be fixed. Even you.” — and somehow it gets even worse.\n\nAs for the actual card, this is an absurdly good one-drop. It can generate a steady stream of relevant life gain triggers while also giving you a way to protect your other creatures by pitching a card.\n\nThe catch is that Liliana can’t protect herself, which keeps her from feeling completely ridiculous.\n\nStill, for one mana, you’re getting a lot of value packed into a very cheap package.",
+                "scope": "card"
+              }
+            ]
           },
           "86a3866e-68a8-402c-baf0-1908e98e3995": {
             "grades": [
@@ -10693,7 +15619,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:20",
+                "paragraphIds": [
+                  "draftsim:20:p1"
+                ],
+                "text": "I misread this card originally and thought that it buffed all of your creatures. Sadly that’s not the case, but Lyra, Archangel of Dawn is still able to buff itself, which makes it a 3-mana 3/3 flying Ajani's Pridemate when white has access to a lot of sources of lifegain. That sounds pretty incredible to me.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:20",
+                "paragraphIds": [
+                  "zone-white:20:p1",
+                  "zone-white:20:p2"
+                ],
+                "text": "There aren’t a ton of Angels flying around Reality Fracture, so Lyra is mostly going to be pumping herself. Fortunately, there are plenty of ways to gain life, so she shouldn’t have too much trouble getting large and in charge.\n\nEven at the base level, though, a 3/3 flyer for three is already a perfectly solid card. Anything beyond that is just gravy.",
+                "scope": "card"
+              }
+            ]
           },
           "699874e3-1ccf-4a6c-8371-61040de82d08": {
             "grades": [
@@ -10718,7 +15665,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:26",
+                "paragraphIds": [
+                  "draftsim:26:p1"
+                ],
+                "text": "Rescue Girl, First Responder is one of the cooler Echoverse characters since it’s such a staunch departure from the original Massacre Girl . The design is a neat throwback too, because you tap it to Rescue a creature. Unfortunately, restricting it to only your turn stops it from being good enough here, but if you have a lot of good ETB abilities, I could see finding a spot for Rescue Girl.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:26",
+                "paragraphIds": [
+                  "zone-white:26:p1",
+                  "zone-white:26:p2",
+                  "zone-white:26:p3"
+                ],
+                "text": "This grade is definitely assuming you have a healthy number of ETBs that you’re interested in abusing. If you do, Rescue Girl can generate some pretty nice value by letting you reuse them.\n\nThe big knock is the “only during your turn” restriction. That keeps her from doing the coolest version of this effect and actually rescuing your creatures from removal.\n\nSo she’s less of a first responder and more of a scheduled follow-up appointment, but there’s still enough value here in the right deck.",
+                "scope": "card"
+              }
+            ]
           },
           "07572be0-6610-493c-a21e-14b78e9805c9": {
             "grades": [
@@ -10743,7 +15712,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:28",
+                "paragraphIds": [
+                  "draftsim:28:p1"
+                ],
+                "text": "If Saheeli, Consul of Oversight is good in this format, I’m going to enjoy drafting this set a lot . Strong build-arounds are a hallmark of good Limited environments, and this Saheeli looks like a very good one. Creating a thopter token every time you scry or surveil is incredible in Fatehold, but it also synergizes incredibly with the Jace tokens, so it might just be good enough to top the curve in any white deck. It’s also a huge flier, so even if you don’t have anything to trigger Saheeli right away, it’s not exactly a dead card.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:28",
+                "paragraphIds": [
+                  "zone-white:28:p1",
+                  "zone-white:28:p2",
+                  "zone-white:28:p3"
+                ],
+                "text": "I could go on another rant about power creep here, but I’m pretty sure you’ve heard that speech enough times already.\n\nHow good Saheeli ends up being is really going to depend on how many random scrys and surveils your deck is already generating. If those effects are happening naturally, she can quietly squeeze out a ton of extra value without asking you to do anything weird.\n\nIf they aren’t, she’s still fine, just considerably less exciting. This is one of those cards where your deck is going to decide whether she’s merely solid or legitimately great.",
+                "scope": "card"
+              }
+            ]
           },
           "5f7521d7-9f1f-4f03-b2ea-dd2a1b1e4e5b": {
             "grades": [
@@ -10768,7 +15759,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:31",
+                "paragraphIds": [
+                  "draftsim:31:p1"
+                ],
+                "text": "We’ve seen our fair share of protection spells over the years, but none quite as good as this. Some, like Shardmage's Rescue , provide some additional benefit beyond stopping a removal spell, but Teyo, Lightshield Expert not only gives a +1/+1 counter (or loyalty counter), but a whole body for you to use to your advantage. As a creature, you can also flicker Teyo or recur it with far more ease than other protection spells, which makes this a very unique card and one that I’d be happy to include in basically any white deck.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:31",
+                "paragraphIds": [
+                  "zone-white:31:p1",
+                  "zone-white:31:p2",
+                  "zone-white:31:p3"
+                ],
+                "text": "This is one of those incredibly unassuming cards that is going to cause a ridiculous number of random blowouts.\n\nSometimes it’s going to completely wreck a removal spell. Other times, it’ll pump a creature just enough to flip combat in your favor and make your opponent regret all of their decisions.\n\nThe fact that it leaves an extra body behind afterward is just gravy. This doesn’t look flashy, but it’s going to put in a lot more work than people expect.",
+                "scope": "card"
+              }
+            ]
           },
           "80226231-9e70-430e-aabc-f262f70b9226": {
             "grades": [
@@ -10793,7 +15806,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:32",
+                "paragraphIds": [
+                  "draftsim:32:p1"
+                ],
+                "text": "Thalia, the Survivor is a bit too small for a 4-drop, so its abilities really need to do the heavy lifting. Lifelink is incredibly powerful and we don’t often see it on bigger creatures because of that. Making noncreature spells cost 1 mana extra isn’t that big of a deal, but it might be annoying every now and again. Thalia isn’t too bad, but it looks below average for an uncommon legend .",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:32",
+                "paragraphIds": [
+                  "zone-white:32:p1",
+                  "zone-white:32:p2",
+                  "zone-white:32:p3"
+                ],
+                "text": "A 3/4 lifelinker for four is about the rate you’d expect to pay for one these days, so the baseline is perfectly acceptable.\n\nThe ability is really going to depend on your opponent’s deck. Against a spell-heavy deck, it can be downright crippling. Against a deck that’s mostly creatures, they might barely even notice it’s there.\n\nThat makes her a solid playable with some matchups where she’ll perform well above this grade.",
+                "scope": "card"
+              }
+            ]
           },
           "7ca95235-6e54-4ff8-bc2e-6a3d483ff007": {
             "grades": [
@@ -10818,7 +15853,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:33",
+                "paragraphIds": [
+                  "draftsim:33:p1"
+                ],
+                "text": "Starting out as a 2/1 flier for 2 mana means Tomik, Orzhov Lawmage doesn’t have to do much else to be interesting. It actually doesn’t do a lot else, but it does protect your Jace tokens pretty effectively and it can launch creatures into the air every now and again. Mainly, it’s a good, efficient creature on the board with a little bit of late game flexibility.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:33",
+                "paragraphIds": [
+                  "zone-white:33:p1",
+                  "zone-white:33:p2"
+                ],
+                "text": "You really can’t go too wrong with a two-power flyer for two mana. That’s already a perfectly acceptable rate before you even start looking at the extra text.\n\nThe first ability obviously needs a planeswalker around before it matters, so I’m treating that as more of a bonus than part of the baseline. The second one is a lot easier to turn on since all it asks is that you have another creature with a +1/+1 counter hanging around.",
+                "scope": "card"
+              }
+            ]
           },
           "50326a2a-7e10-464b-a97e-e880bda0558c": {
             "grades": [
@@ -10843,7 +15899,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:35",
+                "paragraphIds": [
+                  "draftsim:35:p1",
+                  "draftsim:35:p2"
+                ],
+                "text": "This cycle of legendary enchantments is really intriguing. As powerful as the empower mechanic can be, only getting to surveil or draw limits what the Jace tokens can do, so giving them better abilities sounds very lucrative.\n\nWay of the Healer starts out by giving you up to two 2/2s from the Jace token it creates, which will be better than drawing cards on average, but then it just sticks in play and makes every empower ability you use a lot stronger. A card like Campus Crier looks a lot stronger since you can exile it from your graveyard to create a 2/2 as well as surveil . These enchantments look strong, and this one looks particularly good.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:35",
+                "paragraphIds": [
+                  "zone-white:35:p1",
+                  "zone-white:35:p2",
+                  "zone-white:35:p3"
+                ],
+                "text": "This is where the Empower Jace ability really starts to show its limitations. I’d be significantly higher on this card if you could get all of the value in the same turn.\n\nBeing able to make two 2/2s with a surveil or a 2/2 with a cantrip would make this a really strong modal card. Having to wait between those chunks of value holds it back quite a bit, especially if you’re playing other Empower Jace cards that are competing for the same time gating.\n\nThere’s still enough here to make it a solid playable, but it’s definitely slower and clunkier than it looks at first glance.",
+                "scope": "card"
+              }
+            ]
           },
           "1a59d5b1-12d6-486b-bd29-ca371359addd": {
             "grades": [
@@ -10868,7 +15947,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:36",
+                "paragraphIds": [
+                  "draftsim:36:p1"
+                ],
+                "text": "Compared to the last card, an enchantment that isn’t giving a relevant ability to your Jace s sounds a lot worse. Way of the Mentor does at least replace itself, but I don’t think that decks with lots of lifegain are all that interested in empowering Jace. This just looks like a card with no home, but maybe we can create one for it and it’ll be only mediocre?",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:36",
+                "paragraphIds": [
+                  "zone-white:36:p1",
+                  "zone-white:36:p2"
+                ],
+                "text": "I don’t like this nearly as much as some of the other Empower Jace enchantments. It doesn’t add some cool unique ability, so the entire value of the card really comes down to how many counters you can squeeze out of it.\n\nGaining life isn’t especially difficult in this set, but you’re probably not going to have many planeswalkers beyond the Jace token itself. That means all of your Empower effects are competing for the same place to dump their value, and that bottleneck can get crowded pretty quickly.",
+                "scope": "card"
+              }
+            ]
           },
           "384f3b7d-8d7f-41bf-bebd-64e8babe7fca": {
             "grades": [
@@ -10893,7 +15993,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:37",
+                "paragraphIds": [
+                  "draftsim:37:p1"
+                ],
+                "text": "When we’ve seen these kinds of effects in the past, like on Winding Constrictor or Conclave Mentor , they’ve been pretty strong. While Yoshimaru, Beloved Companion is mono-colored, costing 1 extra mana prices it out of your curve a little too much. Casting Yoshimaru on turn 3 means you’re waiting until turn 4 before you can make use of it, and that might honestly not be good enough if that’s your best case scenario. Still, there’s a lot of potential here, so I’ll try Yoshimaru out at first and see if I’m right.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:37",
+                "paragraphIds": [
+                  "zone-white:37:p1",
+                  "zone-white:37:p2",
+                  "zone-white:37:p3"
+                ],
+                "text": "I’m not saying Yoshimaru is a bad dog. He’s a very good boy. He just happens to be a slightly underwhelming Magic card.\n\nAt two mana, I’d be looking at this as a premium uncommon. At three, I need a pretty specific deck before I’m excited to put him in my 40.\n\nThat said, card grade aside, he still gets all the pets. Some things are more important than Limited efficiency.",
+                "scope": "card"
+              }
+            ]
           },
           "ccbe92a5-42bc-4228-9d5a-212df2f5dc15": {
             "grades": [
@@ -10918,7 +16040,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:39",
+                "paragraphIds": [
+                  "draftsim:39:p1"
+                ],
+                "text": "Stopping your opponent from doing anything in the middle of combat is a pretty powerful ability, but also stopping you from doing anything feels like it cancels that out. This doesn’t allow you to use a combat trick or anything to sway the combat in your favor. What I do like is that while only one creature can attack to get double strike , you can still send other creatures at your opponent’s Jace token in the same combat. Still, Yuriko, Blade of the Mighty doesn’t really stand out to me.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-white",
+                "sectionId": "zone-white:39",
+                "paragraphIds": [
+                  "zone-white:39:p1",
+                  "zone-white:39:p2"
+                ],
+                "text": "You never really have to worry about tricks while Yuriko is on the battlefield, so you’re free to attack with a lot more information than usual.\n\nThat double strike can also be mighty nice when you’ve got an evasive creature or some big chonker with trample rumbling into the red zone. The ceiling is definitely there, but you need the right creature around to really take advantage of it.",
+                "scope": "card"
+              }
+            ]
           },
           "8e3a2239-9348-4639-9318-e9e35b2cf86b": {
             "grades": [
@@ -10943,7 +16086,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:40",
+                "paragraphIds": [
+                  "draftsim:40:p1"
+                ],
+                "text": "Merfolk Looter variants used to be a mainstay of Limited, and at some point they just stopped being printed very often. Arni, Humble Scribe is a pretty effective one, despite being a 3-drop. The fact that you can probably use it twice in a turn thanks to its creaturefall trigger will let you churn through your deck pretty quickly, which will be especially good in Theorix to fill your graveyard. I like Arni a fair bit, it’ll be interesting to see where it lands.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:1",
+                "paragraphIds": [
+                  "zone-blue:1:p1",
+                  "zone-blue:1:p2",
+                  "zone-blue:1:p3",
+                  "zone-blue:1:p4"
+                ],
+                "text": "Let’s start with the good. This is a looter that doesn’t cost any mana to activate, and people tend to forget just how powerful that effect can be. Arni can even loot multiple times in the same turn just for doing something you were probably planning to do anyway: playing creatures.\n\nThere are also plenty of cards in the set that generate extra value from the graveyard, along with all the self-mill shenanigans floating around. Arni lines up beautifully with that strategy because suddenly discarding a card can feel a whole lot less like a cost.\n\nThe downside is that a three-mana looter is significantly worse than a two-mana one. By turn three, you’d usually like to be developing your board with something that can actually rumble into the red zone, and Arni’s small body makes that difficult.\n\nStill, this is a good card with the potential to become great in the right deck.",
+                "scope": "card"
+              }
+            ]
           },
           "240f58ab-944c-4f4c-9df9-5f40b132bf3e": {
             "grades": [
@@ -10968,7 +16134,31 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:41",
+                "paragraphIds": [
+                  "draftsim:41:p1",
+                  "draftsim:41:p2",
+                  "draftsim:41:p3"
+                ],
+                "text": "Chandra’s Echoverse double has a lot to live up to. Chandra, Chill of Compliance was modelled as a completely blue counterpart to Chandra, Torch of Defiance .\n\nWhile it’s not quite as good, it still hits pretty hard. The -X ability lets blue Chandra deal with a creature on the board, if only temporarily. From there, its plus abilities can put you ahead on cards or mana, whichever you happen to need the most. It’s not as good at defending itself as other planeswalkers are, but this Chandra does cost 3 mana, so it’s also able to come down earlier in the game when that’s less of an issue.\n\nOverall, I really like this Chandra and I think it’ll play out quite well. It just isn’t one of the top-level threats in this set.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:2",
+                "paragraphIds": [
+                  "zone-blue:2:p1",
+                  "zone-blue:2:p2",
+                  "zone-blue:2:p3"
+                ],
+                "text": "I’m pretty chill on Chandra unless you’ve managed to assemble the spells deck. If you have, she might end up performing more like a 4.5.\n\nIn a normal Limited deck, getting to surveil every turn is certainly useful, but you’re probably not going to be hitting a ton of free cards off it. She can also help protect herself from a creature, although that mode is fairly limited and starts chewing through her loyalty pretty quickly if you want it to have a meaningful impact.\n\nSo, while Chandra is solid on her own, she really needs the right deck before things start heating up.",
+                "scope": "card"
+              }
+            ]
           },
           "a3a2edbb-d144-4670-acad-17316cea98d2": {
             "grades": [
@@ -10993,7 +16183,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:47",
+                "paragraphIds": [
+                  "draftsim:47:p1"
+                ],
+                "text": "Everyone’s favorite little lost homunculus is back! Fblthp, Impossibly Lost has a lot of text, but it basically amounts to a 2-mana spell that draws you two cards if you can deal combat damage to your opponent, kind of like when you cast Chart a Course . However, unlike Chart a Course , Fblthp’s only a vanilla 1/1 if you can’t enable it, which is quite a bit worse. Still, getting to draw those cards is a good effect to have, and you only need a few ways to enable this before it looks quite good. You might even draw it again and draw more cards later in the game.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:8",
+                "paragraphIds": [
+                  "zone-blue:8:p1",
+                  "zone-blue:8:p2",
+                  "zone-blue:8:p3"
+                ],
+                "text": "I would windmill slam a two-mana card that draws two cards with absolutely no questions asked. Unfortunately, this one asks a few too many questions for my liking.\n\nIf you have a free attack, then it can be really good. If you don’t, then congratulations—you just played a two-mana 1/1 in 2026.\n\nIt’s not impossible that you pull off the alternate win condition, but that feels much more like a “tell your buddies about it afterward” moment than something you should actually expect to happen.",
+                "scope": "card"
+              }
+            ]
           },
           "9c334530-0880-46b5-a358-9603eee3cecf": {
             "grades": [
@@ -11018,7 +16230,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:48",
+                "paragraphIds": [
+                  "draftsim:48:p1"
+                ],
+                "text": "We’ve seen plenty of cost reduction permanents in the past, and they’ve never really panned out. Geist of Saint Thalia however is a 2-drop, making it very comparable to a simple mana dork. If you have a deck built around noncreature spells, this is a useful way to accelerate out a 4-drop on turn 3 or to cast multiple spells in a turn much sooner than normal.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:9",
+                "paragraphIds": [
+                  "zone-blue:9:p1",
+                  "zone-blue:9:p2",
+                  "zone-blue:9:p3"
+                ],
+                "text": "This is another card that’s going to have a massive range of effectiveness depending on the deck around it.\n\nIn a spell-heavy deck, this could be one of the key cards that helps pull you ahead by generating mana tempo over the course of the game. If you only have a few noncreature spells, though, you’re basically just looking at a slightly underpowered flyer.\n\nThe ceiling is definitely there, but you need the right shell to actually reach it.",
+                "scope": "card"
+              }
+            ]
           },
           "85faaa9d-4656-4365-871d-7cba53ed0996": {
             "grades": [
@@ -11043,7 +16277,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:49",
+                "paragraphIds": [
+                  "draftsim:49:p1"
+                ],
+                "text": "I’m in for a big 4-drop Frost Lynx . Blue looks kind of aggressive in Reality Fracture , so a powerful tempo play like Hapatra, the Desert Frost looks really well positioned. I’m saying this a lot, but it’s also really good for pressuring a Jace token.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:10",
+                "paragraphIds": [
+                  "zone-blue:10:p1",
+                  "zone-blue:10:p2",
+                  "zone-blue:10:p3"
+                ],
+                "text": "I was torn between a 2.5 and a 3.0 on this one, but I ended up leaning a little higher.\n\nA four-power Frost Lynx for four mana is already a solid card, but adding the ability to untap any creature pushes it over the top for me. Whether you’re using it to get around something like Infinite Coursework or just giving one of your creatures pseudo-vigilance, there’s enough versatility here to get some real work done.\n\nIt’s a little pricey, but the combination of tempo, stats, and flexibility makes me happy to play it.",
+                "scope": "card"
+              }
+            ]
           },
           "74087795-0b38-4fd2-9841-147583baca41": {
             "grades": [
@@ -11068,7 +16324,31 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:52",
+                "paragraphIds": [
+                  "draftsim:52:p1"
+                ],
+                "text": "It may make my job a lot harder to review it, but I love how different this planeswalker design is. As with other ‘walkers, the most important thing for them to do is protect themselves. The -3 ability on Jace, Reality Sculptor does this perfectly, but it can only really be done once before you uptick it. The +1 ability also potentially lets you draw a card right away if you have enough islands in play. All of that is fine, but nothing too special compared to other planeswalkers. It’s also worth noting that in a blue/green empower deck, this might actually be a legitimate win condition. We’ve seen cards with very large empower numbers, so getting your Jace token up to about 20 loyalty honestly doesn’t sound too difficult. This is definitely something I’ll be looking to try for myself!",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:13",
+                "paragraphIds": [
+                  "zone-blue:13:p1",
+                  "zone-blue:13:p2",
+                  "zone-blue:13:p3",
+                  "zone-blue:13:p4",
+                  "zone-blue:13:p5"
+                ],
+                "text": "This version of Jace is definitely lagging behind the other one in the set.\n\nYou need to be pretty heavily blue to get much out of the first ability, and even then you’re still dealing with the built-in time gate on Empower Jace abilities. There’s value there, but it’s not exactly coming at lightning speed.\n\nThe second ability is much better at stopping an incoming horde, but it also eats up most of Jace’s starting loyalty. If you fire it off, you’d better have some kind of defensive plan ready because he’s not going to have much gas left in the tank.\n\nThe third ability feels more like a pipe dream than something I’m going to waste space doing the math for. Somebody will absolutely pull it off, just like people used to pop off Door to Nothingness .\n\nIt’ll make for a really cool story when it happens. I just wouldn’t build my game plan around expecting it.",
+                "scope": "card"
+              }
+            ]
           },
           "a5183681-447b-4023-91f7-00e9338f4417": {
             "grades": [
@@ -11093,7 +16373,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:54",
+                "paragraphIds": [
+                  "draftsim:54:p1"
+                ],
+                "text": "Lyra, Tolarian Archangel is basically a Resplendent Angel that’s been shifted into blue. A 3/3 flier for 3 mana is already great, and if you ever get to activate its ability for 5 mana, you’re completely running away with the game. You get to draw two extra cards and create another 3/3 flier in the end step . This is a truly absurd rare, and I expect to lose to it quite a bit in this format.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:15",
+                "paragraphIds": [
+                  "zone-blue:15:p1",
+                  "zone-blue:15:p2",
+                  "zone-blue:15:p3"
+                ],
+                "text": "I’m really close to giving this a 4.0, but I’m landing here because there are going to be games where she just eats a removal spell the second she hits the battlefield.\n\nThe big question is how you’re going to trigger the extra card draw, and Lyra conveniently answers that herself. She gives you a built-in way to grip dem cards while also tossing in a bonus Angel at your end step.\n\nIf she sticks around for even a little while, things can get out of hand very quickly.",
+                "scope": "card"
+              }
+            ]
           },
           "b8466593-40fe-4557-89b2-760c1c92087b": {
             "grades": [
@@ -11118,7 +16420,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:59",
+                "paragraphIds": [
+                  "draftsim:59:p1"
+                ],
+                "text": "If you’re drafting Fatehold and have plenty of ways to scry and surveil, then Proft, Consulting Detective is one of your best payoffs. It does cost an additional 2 mana to draw your extra card, but I’d say that’s a price well worth paying. That holds Proft back a little, especially when Peer Review already costs 3 mana to cast, but even getting to draw once or twice makes this a card well worth playing.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:20",
+                "paragraphIds": [
+                  "zone-blue:20:p1",
+                  "zone-blue:20:p2",
+                  "zone-blue:20:p3"
+                ],
+                "text": "You don’t need to consult a detective to figure out that you want plenty of scry and surveil cards in your deck to maximize this.\n\nThe grade might seem a little high at first, but you’re already getting an on-rate two-drop before factoring in the upside. If your deck can reliably trigger Proft, he can start generating extra value later in the game without asking you to play cards you wouldn’t already want.\n\nThat combination of a solid floor and very real upside makes me pretty happy to take him early.",
+                "scope": "card"
+              }
+            ]
           },
           "00af4e87-5576-4a43-9422-4c35b2b66775": {
             "grades": [
@@ -11143,7 +16467,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:61",
+                "paragraphIds": [
+                  "draftsim:61:p1"
+                ],
+                "text": "Sometimes, you just need something to close out a game. Ruric Thar, Biomagus is pretty good at doing just that. A huge flier that gets +2/+2 whenever you cast a noncreature spell and replaces itself if your opponent tries to target it is going to be pretty hard to deal with. You’re only going to ever want one of these, as they do nothing in the early game, but if your control deck needs a win condition, this can serve that purpose pretty well.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:22",
+                "paragraphIds": [
+                  "zone-blue:22:p1",
+                  "zone-blue:22:p2"
+                ],
+                "text": "Now this is a card that really makes you feel the power creep. Back in my day, Mahamoti Djinn was a legitimate bomb. This feels like a significantly better version of that card, and somehow, we’re still only calling it solid.\n\nThat says a lot more about modern Limited than it does about Runic Thar. It’s still a big evasive threat that can take over a game if unanswered, but the bar for expensive finishers has gotten ridiculously high.",
+                "scope": "card"
+              }
+            ]
           },
           "6d7d8fa7-ce69-4a8c-9af0-55571393a244": {
             "grades": [
@@ -11168,7 +16513,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:62",
+                "paragraphIds": [
+                  "draftsim:62:p1"
+                ],
+                "text": "As interesting as it is to see the return of split second , making it so your opponent can’t respond to your spells is rarely going to be relevant. I view Samut, Tyrant of Naktamun as basically nothing more than a vanilla 2/1, which you should basically never play.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:23",
+                "paragraphIds": [
+                  "zone-blue:23:p1",
+                  "zone-blue:23:p2",
+                  "zone-blue:23:p3"
+                ],
+                "text": "There are definitely going to be games where Split Second absolutely wrexxors your opponent out of nowhere. There are also going to be plenty of games where it barely changes how the card would have played out anyway.\n\nThe baseline is just good enough that I’m happy putting Samut in my deck, and the ability gives it some very real upside against anyone trying to hold up counterspells or other instant-speed nonsense.\n\nMost of the time it’ll be fine. Every once in a while, though, somebody is going to stare at the cards in their hand and realize they don’t get to do anything about it.",
+                "scope": "card"
+              }
+            ]
           },
           "3983d71e-3c23-4b36-b331-08e0707d8245": {
             "grades": [
@@ -11197,6 +16564,28 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [],
             "combinationIds": [
               "negative-power"
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:68",
+                "paragraphIds": [
+                  "draftsim:68:p1"
+                ],
+                "text": "We’ve seen Tetsuko Umezawa, Fugitive a couple of times before and it’s been pretty good each time. It already makes itself unblockable , and while I can’t predict what other creatures it’ll be able to buff, even making anything else unblockable is a good effect for 2 mana.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:29",
+                "paragraphIds": [
+                  "zone-blue:29:p1",
+                  "zone-blue:29:p2",
+                  "zone-blue:29:p3"
+                ],
+                "text": "I wasn’t really expecting too many straight-up reprints in this set, but here we are.\n\nTetsuko saw a decent amount of play back in its original release, but there just aren’t enough creatures running around in this format that actually benefit from the ability. When it works, it can make combat incredibly annoying for your opponent, but most decks just aren’t going to have enough creatures that benefit from it to justify the slot.\n\nThat leaves it as more of a niche synergy card than something I’m actively looking to play.",
+                "scope": "card"
+              }
             ]
           },
           "a349800f-b634-4e74-a9d9-185df37ad909": {
@@ -11222,7 +16611,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:71",
+                "paragraphIds": [
+                  "draftsim:71:p1"
+                ],
+                "text": "I’m a big fan of this card. I love defensive creatures that don’t accomplish much and Traxos, Academy Guardian is exactly that. Its huge 5-toughness body should allow it to block just about anything, it can attack and still defend you, and getting to cast it for 2 mana feels like a dream. I might be overrating it a bit, but this is how good I expect it to be in decks that I draft.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:32",
+                "paragraphIds": [
+                  "zone-blue:32:p1",
+                  "zone-blue:32:p2",
+                  "zone-blue:32:p3"
+                ],
+                "text": "Casting a noncreature spell isn’t exactly asking you to solve the mysteries of the universe, and getting this thing down for two mana is an absolute bargain.\n\nThis is definitely the kind of card Sir Mix-a-Lot would approve of. That big ol’ backside can shut down attacks from both the ground and the air while still waddling into the red zone to poke in for a point or two.\n\nIt’s not flashy, but two mana for a defensive roadblock this efficient is a deal I’m perfectly happy to take.",
+                "scope": "card"
+              }
+            ]
           },
           "838b0efb-7398-4df9-8fdf-b8af43b47938": {
             "grades": [
@@ -11247,7 +16658,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:75",
+                "paragraphIds": [
+                  "draftsim:75:p1",
+                  "draftsim:75:p2"
+                ],
+                "text": "This is kind of difficult to evaluate without having played the set. On the one hand, you can immediately -3 your Jace token and draw a card, or you can leave it on 5 so that you can copy a spell on the following turn, but neither of those options do anything to affect the board.\n\nThat would lead me to believe that Way of the Cryomancer is unplayable, but there’s so much potential here that I’m doubting it. Surely this can do some work? We’re going to be wanting to protect our Jace tokens anyway, and there’s a lot of powerful spells that we could copy.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:36",
+                "paragraphIds": [
+                  "zone-blue:36:p1",
+                  "zone-blue:36:p2"
+                ],
+                "text": "The place where this can really shine is using its ability to copy spells that also Empower Jace. That can start snowballing out of control pretty quickly if you’re able to keep the token alive.\n\nThe downside is that it does ask you to have the right mix of spells and enough protection to keep the engine going. When everything lines up, though, there’s some very real upside here.",
+                "scope": "card"
+              }
+            ]
           },
           "5838af68-66c3-4fe8-ab89-0a1721b0cfeb": {
             "grades": [
@@ -11272,7 +16705,51 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:76",
+                "paragraphIds": [
+                  "draftsim:76:p1"
+                ],
+                "text": "It’s not that I inherently dislike this effect, but 5 mana is a lot to pay. If I’m spending 5 mana to draw some extra cards, I’d better be drawing at least three or four, which not only is Way of the Mind Sculptor not guaranteed to do on its own, but it’ll take several turns to give you that advantage. This already lands in the build-around territory for me, and even then I don’t think it’ll play out very well.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:37",
+                "paragraphIds": [
+                  "zone-blue:37:p1",
+                  "zone-blue:37:p2",
+                  "zone-blue:37:p3"
+                ],
+                "text": "Remember, we’re grading these based on how they fit into the average deck. At baseline, this is basically a draw two that leaves behind a couple points of Empower Jace. That’s fine, but you’re usually going to want more for five mana.\n\nIf you can find just one more point of Empower from somewhere else, though, suddenly you’re drawing another couple of cards the next turn and things can start snowballing pretty quickly.\n\nThe problem is that it needs those other Empower sources—or additional planeswalkers—to go from “fine” to actually “good.” The ceiling is definitely there, but the average deck isn’t always going to reach it.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "5838af68-66c3-4fe8-ab89-0a1721b0cfeb",
+              "name": "Way of the Mind Sculptor",
+              "role": "Empower build-around",
+              "why": "Adds loyalty and rewards loyalty activations that remove at least two counters.",
+              "better": "Additional empower sources or planeswalkers help turn the initial investment into repeated draws.",
+              "watch": "Five mana does not add a blocker. A weak board or too little support can leave this slow enchantment stranded.",
+              "disagreement": "Quinn doubts the investment will pay off; Josh sees a higher ceiling with additional empower support.",
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:76",
+                "zone-blue:37"
+              ],
+              "paragraphIds": [
+                "draftsim:76:p1",
+                "zone-blue:37:p1",
+                "zone-blue:37:p2",
+                "zone-blue:37:p3"
+              ],
+              "rulesCardId": "5838af68-66c3-4fe8-ab89-0a1721b0cfeb",
+              "basisSha256": "b8820c6e5d874b37f61913db7e046f43670b0bcf8e0d64cb79bdee61b9e7876b"
+            }
           },
           "f45ba926-6496-4bd4-96eb-663946d56bbf": {
             "grades": [
@@ -11297,7 +16774,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:77",
+                "paragraphIds": [
+                  "draftsim:77:p1"
+                ],
+                "text": "Yes, it’s hilarious to see a blue Yargle and all that’s changed is they’ve swapped its power and toughness, but a 5-drop vanilla creature isn’t really what we’re after. A 3/9 can obviously be quite good at blocking and playing defense for your Jace s or other planeswalkers, but I don’t think Yargle, Goliath of Otaria is going to be playable enough. Maybe if you want to make Ghalta the Immovable work, this will be the way to do it.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:38",
+                "paragraphIds": [
+                  "zone-blue:38:p1",
+                  "zone-blue:38:p2",
+                  "zone-blue:38:p3",
+                  "zone-blue:38:p4"
+                ],
+                "text": "I can definitely see the vision of Sir Mix-a-Lot playing a bunch of these. Unless you share his appreciation for rear ends, though, you might be a little less interested.\n\nDid I really make two big-butt jokes in one article? Don’t judge me. The material was right there.\n\nI do love the continuation of Yargle getting completely ridiculous stat lines without any actual abilities. This version isn’t going to be dealing much damage, but it’s also going to be incredibly annoying to kill in combat outside of something with deathtouch.\n\nThat makes it a decent roadblock, but not something I’m particularly excited to spend a card on.",
+                "scope": "card"
+              }
+            ]
           },
           "45e81487-8b8c-480b-922a-eaa9edc7201d": {
             "grades": [
@@ -11322,7 +16822,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:78",
+                "paragraphIds": [
+                  "draftsim:78:p1"
+                ],
+                "text": "I’m a big fan of creatures like this. A tricksy 1-drop that can shrink an attacking creature and eat it in the same combat is pretty legit. Yuriko, Hope from the Shadows doesn’t do this particularly consistently, but it does also have the buyout of getting to surveil 2, which can also trigger Fatehold cards, so this ninja seems pretty good on balance.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-blue",
+                "sectionId": "zone-blue:39",
+                "paragraphIds": [
+                  "zone-blue:39:p1",
+                  "zone-blue:39:p2",
+                  "zone-blue:39:p3"
+                ],
+                "text": "This is one of those cards that reads like it should probably be a 1.0 or 1.5, but I have a feeling it’s going to play better than that.\n\nI love one-mana tricks, and this one even leaves behind a body. The only real ask is that you have some cards in your graveyard, which shouldn’t be too difficult in most games. Even if you don’t, you can still use it to surveil and help set things up while possibly getting some sick triggers.\n\nIt’s not flashy, but there’s enough cheap utility packed in here that I think it’ll overperform its first impression.",
+                "scope": "card"
+              }
+            ]
           },
           "6489814b-3d10-423e-988c-324740d36748": {
             "grades": [
@@ -11347,7 +16869,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:83",
+                "paragraphIds": [
+                  "draftsim:83:p1"
+                ],
+                "text": "Removal spells are the most obvious way to trigger Danitha, Spear of Agony , so as long as you have plenty of them, it’ll probably be a solid inclusion. However, this Danitha’s starting size holds it back for me a bit, because it really needs to pick up a counter or two before you can feel good about having spent 3 mana on it.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:5",
+                "paragraphIds": [
+                  "zone-black:5:p1",
+                  "zone-black:5:p2",
+                  "zone-black:5:p3"
+                ],
+                "text": "You definitely don’t want to be running this if you don’t have enough ways to trigger it. Of course, if your black deck somehow doesn’t have any removal spells, you probably have bigger problems anyway.\n\nThe nice part is that instant-speed interaction can do double duty by pumping Danitha at the same time. First strike makes that especially nasty because it can turn combat into a nightmare for your opponent if you’re holding up the right backup.\n\nThe floor is pretty mediocre, but there’s enough synergy here that the right deck can make her a real pain to deal with.",
+                "scope": "card"
+              }
+            ]
           },
           "498fa810-8522-4020-b773-52ad404c9f65": {
             "grades": [
@@ -11374,7 +16918,29 @@ window.LIMITED_PREP_DATA = {
               "nicolai-guide-6"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:88",
+                "paragraphIds": [
+                  "draftsim:88:p1"
+                ],
+                "text": "A 2/1 menace creature for 2 isn’t too bad, but not something I’m going out of my way to pick up early in a draft. I’m very impressed however at Gallia, Tragic Host ’s potential inclusion in graveyard-centric decks like Theorix, where you can mill this satyr or discard it for value and then pull it out of the graveyard without costing anything from your hand or field. Something that’s notably missing from its ability is a finality counter; Gallia can keep coming back again and again, which makes it a very annoying threat in the right deck.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:10",
+                "paragraphIds": [
+                  "zone-black:10:p1",
+                  "zone-black:10:p2",
+                  "zone-black:10:p3"
+                ],
+                "text": "We all know Gallia loves to party, and apparently becoming a Zombie isn’t going to change that. She’s already a two-power menace creature for two mana, which is an easy include in basically any aggressive deck.\n\nThe party doesn’t end there, though. Gallia can crack open a Red Bull and rally back to the battlefield as long as you have another creature in the graveyard.\n\nSince that ability works from the graveyard, you can even squeeze out some extra value if she gets milled or discarded. That gives an already solid two-drop a nice bit of resilience.",
+                "scope": "card"
+              }
+            ]
           },
           "d48bfb8a-d135-45f3-be99-4694b4b9ab93": {
             "grades": [
@@ -11399,7 +16965,53 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:89",
+                "paragraphIds": [
+                  "draftsim:89:p1"
+                ],
+                "text": "All planeswalkers need to protect themselves and Garruk, Veiled Butcher has that covered a few times over. Both its +2 and -2 abilities affect the board in a very meaningful way, and it starts on enough loyalty that its +2 will also take it out of range of a lot of attacks. The -3 ability is also very powerful and a great option to use on an empty or stalled board. Overall, Garruk is very powerful, and while it doesn’t quite reach the heights of some of the other planeswalkers in Reality Fracture , it’s still extremely good.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:11",
+                "paragraphIds": [
+                  "zone-black:11:p1",
+                  "zone-black:11:p2",
+                  "zone-black:11:p3",
+                  "zone-black:11:p4"
+                ],
+                "text": "This doesn’t read as overwhelmingly powerful, but Garruk is good in so many different situations that I’m still very high on him.\n\nGiving something -4/-1 might not outright kill many creatures, but it will usually put them on the sidelines for a turn. The sacrifice ability is going to swing wildly depending on your opponent’s board, but turning one of your random dorks into a 4/4 can be a massive upgrade.\n\nThen there’s the occasional Mind Rot mode, which can turn into actual factual card advantage when your opponent doesn’t have two real cards in hand.\n\nNone of the abilities look completely busted on their own, but having this many useful options on one card is exactly what makes Garruk so strong in Limited.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "d48bfb8a-d135-45f3-be99-4694b4b9ab93",
+              "name": "Garruk, Veiled Butcher",
+              "role": "Versatile planeswalker",
+              "why": "Can weaken an attacker, trade a small creature for a Beast, or attack the opponent’s hand.",
+              "better": "Small expendable creatures improve the sacrifice mode; a protected board lets him generate value over several turns.",
+              "watch": "The sacrifice mode affects you too, and −4/−1 does not kill most large creatures.",
+              "disagreement": null,
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:89",
+                "zone-black:11"
+              ],
+              "paragraphIds": [
+                "draftsim:89:p1",
+                "zone-black:11:p1",
+                "zone-black:11:p2",
+                "zone-black:11:p3",
+                "zone-black:11:p4"
+              ],
+              "rulesCardId": "d48bfb8a-d135-45f3-be99-4694b4b9ab93",
+              "basisSha256": "1b741a99aa497ac041f25f020be9ebb80651534faf3280b1097614fd907d59c3"
+            }
           },
           "c985b0d1-25bd-4069-aab7-a566ff27a8f6": {
             "grades": [
@@ -11424,7 +17036,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:90",
+                "paragraphIds": [
+                  "draftsim:90:p1"
+                ],
+                "text": "The ward cost of “discard a card” is very powerful here, as an opponent is basically forced to two-for-one themself to deal with Gideon the Oathless . If they just leave Gideon alone though, its damage pings will add up over time and put a lot of pressure on without the opponent realizing until it’s too late. Although Gideon isn’t a huge bomb or anything, it seems to provide just enough to be a very annoying creature and a welcome addition to any deck, particularly aggressive ones.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:12",
+                "paragraphIds": [
+                  "zone-black:12:p1",
+                  "zone-black:12:p2",
+                  "zone-black:12:p3"
+                ],
+                "text": "Why does Jace have so much beef with all these former planeswalkers? He must really have it out for Gideon considering the guy literally sacrificed himself to save Liliana. Now we’ve got a former hero wandering around bitter and hating on everybody. Sounds like Jace is projecting a bit.\n\nThe card itself is a little disappointing considering Gideon’s legacy. Most of the time, you’re getting a 3/3 for three that can chip in for a few extra points over the course of the game.\n\nIt’s still a perfectly solid playable, just not nearly as exciting as the name and story make it sound.",
+                "scope": "card"
+              }
+            ]
           },
           "1eb25a6c-d6b4-465d-990e-f1ab86b26b69": {
             "grades": [
@@ -11449,7 +17083,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:93",
+                "paragraphIds": [
+                  "draftsim:93:p1"
+                ],
+                "text": "Black’s graveyard themes in this set look very well-supported for once. Liliana the Repentant serves as both a powerful enabler for these strategies and a big payoff once you’ve milled yourself a bunch of times. Theorix decks are going to love it, but any black deck apart from an aggressive Stingerquill one will be very happy to play this Liliana.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:15",
+                "paragraphIds": [
+                  "zone-black:15:p1",
+                  "zone-black:15:p2",
+                  "zone-black:15:p3"
+                ],
+                "text": "This grade can definitely go up if your deck is built around keeping a well-stocked graveyard. The flip side is that drawing Liliana too late can make her considerably less impressive if you’re about to deck yourself.\n\nSix mana is about one more than I really want to pay for a Reanimate spell, even if it does toss another counter onto Lili in the process.\n\nAt least you get the bear up front, so you’re not completely out of luck if you decide you don’t want to wait for her to do her necromancer thing.",
+                "scope": "card"
+              }
+            ]
           },
           "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff": {
             "grades": [
@@ -11478,6 +17134,29 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [],
             "combinationIds": [
               "negative-power"
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:94",
+                "paragraphIds": [
+                  "draftsim:94:p1"
+                ],
+                "text": "This set is full of weird and wacky designs, yet Loot, the Anomaly manages to stand out even among them. Relying on having negative power is an interesting dynamic, and it lets you combine Loot with cards like Icy Reception , Last Gasp , or the +2 ability from Garruk, Veiled Butcher . But that’s not what makes Loot so good. Instead, it’s the threshold ability, which basically turns this beast into a Nantuko Husk . This is extremely powerful, and you can even use it at instant speed, so you can attack and then use it several times after your opponent declares no blocks.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:16",
+                "paragraphIds": [
+                  "zone-black:16:p1",
+                  "zone-black:16:p2",
+                  "zone-black:16:p3",
+                  "zone-black:16:p4"
+                ],
+                "text": "Let me get this straight. Cards named Loot have spent a lot of time being completely busted, and this one shows up as basically a 2/4 for three mana. What happened here?\n\nOnce you hit Threshold, it turns into a sacrifice outlet, which at least gives it something to do. Even then, though, you’re only getting two extra power every time you feed something to it.\n\nThat’s not nothing, but it’s also nowhere near enough to get me excited. Not my cup of tea.\n\nSide note: You probably don’t want to use combat tricks on Loot very often. Making his power 0 instead of a negative is no bueno.",
+                "scope": "card"
+              }
             ]
           },
           "b2a412b0-2ae4-4552-bc5e-70654b6b9b4e": {
@@ -11505,7 +17184,29 @@ window.LIMITED_PREP_DATA = {
               "nicolai-guide-2"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:95",
+                "paragraphIds": [
+                  "draftsim:95:p1"
+                ],
+                "text": "I doubt a 1-mana 1/1 with deathtouch will ever be bad. That’s really all you want out of Mabel, Bitter Recluse , but denying your opponent a future card draw from their Jace token is a nice bonus to have access to, plus it might even be able to snipe down something bigger.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:17",
+                "paragraphIds": [
+                  "zone-black:17:p1",
+                  "zone-black:17:p2",
+                  "zone-black:17:p3"
+                ],
+                "text": "If your deck wants a 1/1 deathtouch for one, then Mabel certainly provides that.\n\nThe other ability is much harder to evaluate because it’s going to range from doing absolutely nothing to completely wrecking someone depending on the matchup and board state. That kind of variance makes it tough to give her much credit for it in the baseline grade.\n\nMost of the time, I’m treating this as a cheap deathtoucher with some occasional upside.",
+                "scope": "card"
+              }
+            ]
           },
           "9028d31f-9c41-47e3-885b-6a869bca8178": {
             "grades": [
@@ -11532,7 +17233,29 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [
               "game-03"
             ],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:96",
+                "paragraphIds": [
+                  "draftsim:96:p1"
+                ],
+                "text": "Massacre Girl, Most Wanted is perhaps the biggest Blood Artist variant we’ve ever seen. Even at 5 mana, pinging your opponent every time one of your creatures dies is a very powerful ability. Better yet, it grows with every damage ping from itself and from other damage sources you might have. Your opponent needs to deal with it, and becoming an 8/8 after a few triggers just makes Massacre Girl that much harder to kill.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:18",
+                "paragraphIds": [
+                  "zone-black:18:p1",
+                  "zone-black:18:p2",
+                  "zone-black:18:p3"
+                ],
+                "text": "Another legend with multiple busted previous versions showing up as a bit of a disappointment.\n\nThis is definitely better off than Loot, but five mana is still five mana, and that slot gets crowded fast. The upside is real enough that I can see this outperforming a lot of the other generic five-drops floating around.\n\nI’m not slamming it early, but I’ll be perfectly happy to play it if my deck can actually take advantage of what it’s doing. That means it’s best home will probably be Rakdos where you can easily grow her while benefiting from all of those noncombat damage triggers.",
+                "scope": "card"
+              }
+            ]
           },
           "d36b0e06-cb82-4c48-bf35-e76f109116f6": {
             "grades": [
@@ -11557,7 +17280,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:99",
+                "paragraphIds": [
+                  "draftsim:99:p1"
+                ],
+                "text": "I just have to say, making an Echoverse version of Proft as a Moriarty-esque figure is a brilliant design. Being unable to cast it until you hit threshold is a very big ask. While there are a lot of self-mill enablers in Reality Fracture , you’re not guaranteed to hit threshold early in every game you play. Proft, Sinister Mastermind is clearly quite powerful if you can resolve it, I’d just be very wary of times when Proft is stuck in your hand and you’re unable to cast it.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:21",
+                "paragraphIds": [
+                  "zone-black:21:p1",
+                  "zone-black:21:p2",
+                  "zone-black:21:p3"
+                ],
+                "text": "Obviously, a 5/5 menace for three mana is an absurd rate. How you’re supposed to reliably hit threshold fast enough in this format is another question entirely. Dimir and Golgari can probably get it done easily while the other combinations might run into more trouble.\n\nThe fallback of discarding Proft to shrink a creature does give you something to do when he’s stuck in your hand, but I’d be much higher on that mode if it could knock off two toughness instead of one.\n\nThere’s definitely upside here, but the setup makes me nervous enough that I’m not ready to treat him like the monster his stats suggest.",
+                "scope": "card"
+              }
+            ]
           },
           "100c3b67-0c92-4224-b5ed-67789c612df7": {
             "grades": [
@@ -11582,7 +17327,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:109",
+                "paragraphIds": [
+                  "draftsim:109:p1"
+                ],
+                "text": "Teyo, Diamondblade Mage looks like the kind of design that WotC was too scared to make better. Creatures that act as combat tricks when they flash in, like Briarpack Alpha , have been very good historically. Only giving a single +1/+1 counter and deathtouch isn’t the best trick in the world, and being only a 3/1 for 4 mana itself isn’t very impressive. This isn’t to say this Teyo is completely useless, but I just don’t feel like going out of my way to pick it in a draft.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:31",
+                "paragraphIds": [
+                  "zone-black:31:p1",
+                  "zone-black:31:p2"
+                ],
+                "text": "This is going to perform a lot better if you have a few first strikers floating around.\n\nThe +1/+1 counter can turn what your opponent thought was a fair trade into a complete disaster, and Teyo can also just give himself deathtouch when needed. A 4/2 deathtoucher feels a whole lot more appropriate for the casting cost than the base body does.",
+                "scope": "card"
+              }
+            ]
           },
           "2f47ddf7-35b6-4205-8045-f057914c5f64": {
             "grades": [
@@ -11607,7 +17373,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:111",
+                "paragraphIds": [
+                  "draftsim:111:p1"
+                ],
+                "text": "Much like the Rank Rat , Tinybones, Pocket Nuisance is a good value card to give you some early card advantage while affecting the board. The extra damage ping is very welcome too, as we’ve seen a lot of ways in which that can benefit you.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:33",
+                "paragraphIds": [
+                  "zone-black:33:p1",
+                  "zone-black:33:p2",
+                  "zone-black:33:p3"
+                ],
+                "text": "How much discard are you realistically going to be playing? It’s not like your opponent is showing up with some dedicated cycling deck either, so that second ability is almost always just going to be one damage when Tinybones enters plus an occasional ping off a landcycler.\n\nThat basically leaves you with a Ravenous Rats that costs an extra mana in exchange for an extra point of power.\n\nThat’s fine. It’s playable. It’s also pretty obvious this card had Commander in mind long before anyone started worrying about how good it would be in Limited.",
+                "scope": "card"
+              }
+            ]
           },
           "12dd46b2-e892-4660-b120-55766fd4d878": {
             "grades": [
@@ -11632,7 +17420,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:114",
+                "paragraphIds": [
+                  "draftsim:114:p1"
+                ],
+                "text": "Turning one of your creatures into a potentially better one is considerably worse than just creating a new one altogether. It’d be quite nice to curve a turn-2 Rank Rat into a turn-3 Way of the Deathbringer , but this -2 ability isn’t always going to be as good as that, so this is one of the more mediocre enchantments in this cycle .",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:36",
+                "paragraphIds": [
+                  "zone-black:36:p1",
+                  "zone-black:36:p2",
+                  "zone-black:36:p3"
+                ],
+                "text": "I’m not going to stoop quite as low as making Mandalorian references for all of these Way cards. Maybe that is the way.\n\nI certainly don’t mind upgrading a couple of random tokens into 4/4s. The problem is that you need all the pieces in place to make that happen while still having enough Empower Jace available to actually cash in on it.\n\nThe payoff is real, but there’s just a little too much setup involved for me to get excited about it.",
+                "scope": "card"
+              }
+            ]
           },
           "a0ff9689-ea49-4fff-b37c-4abbaeb0f73d": {
             "grades": [
@@ -11657,7 +17467,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:115",
+                "paragraphIds": [
+                  "draftsim:115:p1"
+                ],
+                "text": "Way of the Necromancer just does so little for what you’ve spent on it. You’re not necessarily guaranteed to have many creatures die, and it only does something if you have a planeswalker out when they die in the first place. It’s not unplayable, but it’s definitely not good.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:37",
+                "paragraphIds": [
+                  "zone-black:37:p1",
+                  "zone-black:37:p2",
+                  "zone-black:37:p3"
+                ],
+                "text": "You need way too many things to go your way before this generates enough value to be worth the trouble. You need creatures, at least one planeswalker, and this on the battlefield. Then you need those creatures to die while your planeswalker somehow survives through everything.\n\nI’m positive there will eventually be a game where I get absolutely ranched by this because every piece lines up perfectly. There are going to be a lot more games where my opponent plays it, it barely does anything, and they wish it had stayed in the sideboard.\n\nThat’s just too many hoops for me to want anything to do with it. This is not the way.",
+                "scope": "card"
+              }
+            ]
           },
           "9670f754-f41f-45ac-8e8b-025ad2c0f66b": {
             "grades": [
@@ -11682,7 +17514,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:116",
+                "paragraphIds": [
+                  "draftsim:116:p1"
+                ],
+                "text": "This is a pretty good way to design a legendary Fleshbag Marauder . Usually, making each player sacrifice a creature is a little too situational, as your opponent could have something in play that they don’t mind losing. As such, giving up a creature of yours to do that seems useless. Winter, Tormented Loner solves that problem by giving you the choice. You could just run it out as a big vanilla creature if the timing isn’t right for its first ability , and I think that makes it quite a bit better.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:38",
+                "paragraphIds": [
+                  "zone-black:38:p1",
+                  "zone-black:38:p2",
+                  "zone-black:38:p3",
+                  "zone-black:38:p4"
+                ],
+                "text": "I initially read this as Tormented Loser and had a much darker writeup prepared for it. Loner is a little better, but still not exactly where one wants to be.\n\nOh yeah, you’re here for card reviews and not my random rambles…\n\nWinter can sacrifice itself if you don’t have anything else lying around, but at that point you’re still paying three mana for an edict effect. That’s just not what I’m looking for.\n\nIt does have the potential to get pretty beefy on the front end, but even then it still dies to something as simple as Last Gasp or No Admittance . There’s some upside here, but not enough for me to be especially interested.",
+                "scope": "card"
+              }
+            ]
           },
           "04c816fb-5951-4db1-8834-ed3f0b36bfe1": {
             "grades": [
@@ -11707,7 +17562,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:117",
+                "paragraphIds": [
+                  "draftsim:117:p1"
+                ],
+                "text": "It may be a 9/3, but it’s still just a vanilla creature. Yargle, Glutton of Urborg has always been a funny card, but that doesn’t make it good in Limited.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-black",
+                "sectionId": "zone-black:39",
+                "paragraphIds": [
+                  "zone-black:39:p1",
+                  "zone-black:39:p2"
+                ],
+                "text": "Good ol’ Yargle showing up after Yargle Day to try to Yargle your opponent in the middle of nowhere.\n\nHonestly, you probably shouldn’t be playing this card very often, and it’s definitely closer to a 1.0 than a 2.0. It’s a big pile of stats, but for five mana it dies to almost anything and gives you absolutely no extra value when it does.",
+                "scope": "card"
+              }
+            ]
           },
           "bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5": {
             "grades": [
@@ -11734,7 +17610,33 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [
               "game-10"
             ],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:118",
+                "paragraphIds": [
+                  "draftsim:118:p1",
+                  "draftsim:118:p2",
+                  "draftsim:118:p3",
+                  "draftsim:118:p4"
+                ],
+                "text": "Ajani Unrelenting is one of the most disgusting planeswalker cards I think I’ve ever read. Six-mana planeswalkers have to do a lot to be useful, and Ajani passes that bar by a mile.\n\nThe most important abilities are its trigger to create a Cadet token every time you activate a loyalty ability and the -3 to wipe the board. I’m assuming that you’ll use the -3 ability a lot of the time you play Ajani, and the fact that you get the Cadet token as well as wiping the board seems truly absurd.\n\nOn top of that, it’s reasonably likely you’ll have a Jace token hanging around, and using one of its abilities also nets you a Cadet token. Ajani can even be aggressive by coming down and using its +1 to make a Cadet token and give it +1/+0 and haste , along with a second token if you again happen to have the aforementioned Jace token.\n\nThe biggest downside here is that the fact that Ajani doesn’t kill tokens is both good and bad because it won’t kill opposing tokens, but until we play with the set, it’s hard to know just how much of a downside that’ll be.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:2",
+                "paragraphIds": [
+                  "zone-red:2:p1",
+                  "zone-red:2:p2",
+                  "zone-red:2:p3",
+                  "zone-red:2:p4"
+                ],
+                "text": "Yes, I am well aware that this costs six mana. I am also aware that it is completely busted in half.\n\nNo matter which option you choose, you get a 2/2 thrown in for free. Those 2/2s come from other planeswalkers as well since the card doesn’t actually specify Ajani so usign your Empowered Jace token gives you a dude too.\n\nPumping your entire team, making a dude, and giving them haste is absurd. Drawing a pile of cards while making a dude is absurd. Oh, and just in case those weren’t enough, Ajani also comes with a built-in board wipe that conveniently leaves your token creatures alone including the one it makes.\n\nYou really can’t ask for much more out of a Limited card before R&D has to come in and confiscate it.",
+                "scope": "card"
+              }
+            ]
           },
           "bd8db649-1dba-457d-8327-e1f1da1aab36": {
             "grades": [
@@ -11759,7 +17661,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:120",
+                "paragraphIds": [
+                  "draftsim:120:p1"
+                ],
+                "text": "While it’s funny to imagine what happens when you play Yargle, Glutton of Urborg and attack with your 10/5 trampling Arni, Renowned Champion , you should also consider the case where it isn’t triggering at all. For every time it attacks and deals a lot of damage, there are likely a few more times when it’s a 1/5 and can barely do anything and that inconsistency really holds it back.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:3",
+                "paragraphIds": [
+                  "zone-red:3:p1",
+                  "zone-red:3:p2",
+                  "zone-red:3:p3"
+                ],
+                "text": "I feel like this could be really good at three mana, but four pushes it firmly into “depends on the deck” territory.\n\nThere are going to be builds where Arni does some serious work because you have enough large creatures to make the ability matter. There are also going to be plenty of decks that want absolutely nothing to do with him because they simply don’t have enough beef lying around.\n\nThe upside is real, but you need the right roster before this Champion actually feels renowned.",
+                "scope": "card"
+              }
+            ]
           },
           "40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd": {
             "grades": [
@@ -11784,7 +17708,57 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:124",
+                "paragraphIds": [
+                  "draftsim:124:p1"
+                ],
+                "text": "Chandra, Torch of Defiance is one of my favorite planeswalkers of all time. When it was originally printed in Kaladesh , it was an absolute house in Standard and was basically the best card in the format up until it rotated. It’s no worse in Limited either, because it can immediately affect the board by killing off a creature and then provides a steady stream of card advantage after that point. You need to do something to protect Chandra a little after the turn it comes down, but that shouldn’t be too hard when it draws you an extra card each turn. I’m so excited to see it back, and I can’t wait to bust out my original playset and win more games with it!",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:7",
+                "paragraphIds": [
+                  "zone-red:7:p1",
+                  "zone-red:7:p2",
+                  "zone-red:7:p3",
+                  "zone-red:7:p4",
+                  "zone-red:7:p5",
+                  "zone-red:7:p6"
+                ],
+                "text": "I know what you’re thinking. Josh has finally lost his marbles, or someone at the old folks’ home forgot to bring him his meds.\n\nWe already know how good this card is. Chandra has been around for years, and she’s been completely ridiculous for most of that time. So by now you’re probably wondering why she didn’t get the full 5.0.\n\nHere’s the thing: a 5.0 is relative to the set it’s in.\n\nChandra can either generate card advantage or protect herself. The Theorist, Jace Beleren and Ajani Unrelenting can do both at the same time, which puts them on another level.\n\nI’m not saying I’m passing Chandra. Outside of some truly absurd double-mythic pack, I’m slamming her every single time.\n\nI’m just saying that, somehow, Reality Fracture managed to print some planeswalkers that make Chandra, Torch of Defiance look merely excellent.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd",
+              "name": "Chandra, Torch of Defiance",
+              "role": "Removal and continuing value",
+              "why": "Can immediately deal four damage to a creature, then generate cards, damage or mana on later turns.",
+              "better": "A stable board and a reliable red base help you protect and cast her.",
+              "watch": "She cannot both use removal and her card-advantage ability in the same turn. Her removal targets creatures, not planeswalkers.",
+              "disagreement": "Both reviewers are enthusiastic. Josh reserves his highest grade for planeswalkers that generate value and protect themselves at the same time.",
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:124",
+                "zone-red:7"
+              ],
+              "paragraphIds": [
+                "draftsim:124:p1",
+                "zone-red:7:p1",
+                "zone-red:7:p2",
+                "zone-red:7:p3",
+                "zone-red:7:p4",
+                "zone-red:7:p5",
+                "zone-red:7:p6"
+              ],
+              "rulesCardId": "40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd",
+              "basisSha256": "03ce367038546d099aa39002c6fddd9b8e6cce174a37238e6ad8492e77d16577"
+            }
           },
           "f27d50f0-d76e-4ce1-a8d9-d997af6a5b41": {
             "grades": [
@@ -11813,6 +17787,28 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [],
             "combinationIds": [
               "lesson-rw"
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:134",
+                "paragraphIds": [
+                  "draftsim:134:p1"
+                ],
+                "text": "Two-drop creatures that can give haste to your other creatures entering, like Axgard Cavalry , have been reasonable in the past. Gallia, the Merrymaker is a souped-up version of that same effect, but in exchange for giving an extra +1/+1, it costs mana to use, which often isn’t going to work very well. Gallia is at least a 2/1 with haste itself, and it doesn’t need to be the one to give the counters in order to grant haste, so it seems useful in a few ways.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:17",
+                "paragraphIds": [
+                  "zone-red:17:p1",
+                  "zone-red:17:p2",
+                  "zone-red:17:p3"
+                ],
+                "text": "Ain’t no party like a Gallia party, cuz a Gallia party don’t stop.\n\nGallia makes sure every new attendee downs a couple of Red Bulls on the way in, pumps up the jams, and heads straight into the red zone. It does cost a couple of extra mana to hand out that boost, but Gallia is already a perfectly serviceable two-drop before she starts adding some late-game value.\n\nThat’s exactly the kind of flexibility I like out of an aggressive card.",
+                "scope": "card"
+              }
             ]
           },
           "e8c1ce21-b77d-40bf-9ed1-478604e71f5f": {
@@ -11838,7 +17834,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:138",
+                "paragraphIds": [
+                  "draftsim:138:p1",
+                  "draftsim:138:p2"
+                ],
+                "text": "Jiang Yanggu, Alone , or to give him his proper title, Jiang Wick, is perhaps the victim of Jace’s gravest crime in creating the Echoverse. He’s killed Mowu! How dare he!\n\nSadly, it looks like Jiang isn’t quite sad enough, because this card looks very mediocre to me. It’s cool that you can play it and immediately trigger it by attacking with something else, but it’s also a replaceable 5-drop and the ability only has a minimal impact.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:21",
+                "paragraphIds": [
+                  "zone-red:21:p1",
+                  "zone-red:21:p2"
+                ],
+                "text": "I assume we’re all just calling this guy John Wick. Something clearly happened to his dog, and now half the multiverse is about to find out why that was a terrible idea.\n\nAs a card, there’s some potential here, but it’s a little too pricey for my liking. You can only fit so many five-drops into a Limited deck, and most of the ones competing for that slot are going to be doing something more impactful than this dude.",
+                "scope": "card"
+              }
+            ]
           },
           "08657053-86f9-4c52-abf0-d9cdd443ae3b": {
             "grades": [
@@ -11869,6 +17887,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "combinationIds": [
               "lesson-rg"
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:139",
+                "paragraphIds": [
+                  "draftsim:139:p1"
+                ],
+                "text": "Urbis Protector was a solid playable back in the day, and Kiora of Fire and Ashes is considerably better already. When you play it, the obvious threat is the 5/5 dragon token, but if your opponent can’t deal with Kiora itself, it’ll just churn out more 5/5s in the later turns. This is a great ramp payoff for Konstrari, and one I’m very excited to try out for myself.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:22",
+                "paragraphIds": [
+                  "zone-red:22:p1",
+                  "zone-red:22:p2",
+                  "zone-red:22:p3",
+                  "zone-red:22:p4"
+                ],
+                "text": "This is a wonderful example of just how much power creep has changed Limited over the years.\n\nBack in my day, a 5/5 flyer for six mana was a certified bomb. You opened that thing, slammed it on the table, and started mentally filling out your Top 8 paperwork. Now they staple a 2/2 onto it and we’re supposed to say, “Yeah, seems pretty good.”.\n\nYou can even bounce the 2/2 and replay it to make another Dragon. And that’s before we get into the mana sink that lets you start cranking out even more big ol’ Dragons.\n\nThis is still a great uncommon, but it’s not quite the ridiculous bomb it would have been back in my day when we rode dinosaurs to school and a Shivan Dragon was considered a legitimate threat.",
+                "scope": "card"
+              }
             ]
           },
           "54f64e95-5a97-4d7c-9939-7f33a3165562": {
@@ -11894,7 +17935,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:140",
+                "paragraphIds": [
+                  "draftsim:140:p1"
+                ],
+                "text": "Koth, the Geomancer is a cool rendition of this classic character that pulls a little bit of double duty. In a Stingerquill deck, it’s a reliable source of noncombat damage to enable your other cards. In Konstrari, it’s a pseudo mana dork that potentially ramps you into your bigger plays. It doesn’t make a huge impact in either of these decks, but it does have potential and flexibility, so this Koth seems like a card I’d be happy to take late in a pack.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:23",
+                "paragraphIds": [
+                  "zone-red:23:p1",
+                  "zone-red:23:p2",
+                  "zone-red:23:p3"
+                ],
+                "text": "This can be really nice when you play it on curve, untap, drop a Mountain, and jump straight into a five-drop. That’s the kind of start that can put you comfortably ahead without doing anything especially fancy.\n\nIt can also give you some much-needed reach if you’re struggling to drag yourself across the finish line.\n\nThe problem is that Koth is a little too fragile for me to go much higher. There’s definitely value here, but I don’t love investing too much into something that can get knocked over by a stiff breeze.",
+                "scope": "card"
+              }
+            ]
           },
           "f93da73c-ca8b-438e-8387-6109dac3fc1a": {
             "grades": [
@@ -11919,7 +17982,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:141",
+                "paragraphIds": [
+                  "draftsim:141:p1"
+                ],
+                "text": "Just being a 1-mana 2/1 already makes Marwyn, the Clearcutter a reasonable card to play. When you get to the late game, turning your Heartwood tokens and excess lands into more cards is something that should help you turn the corner, but only being a vanilla creature up to that point means it’s fairly limited in scope.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:24",
+                "paragraphIds": [
+                  "zone-red:24:p1",
+                  "zone-red:24:p2",
+                  "zone-red:24:p3"
+                ],
+                "text": "Savannah Lions certainly aren’t what they used to be, but they’re still a perfectly nice way to kick off a game—especially when they don’t become completely useless later.\n\nMarwyn lets you cash in extra artifacts or lands for fresh cards once they’ve outlived their usefulness. That gives an already efficient one-drop a surprising amount of staying power.\n\nThat’s a whole lot of utility packed into something this cheap.",
+                "scope": "card"
+              }
+            ]
           },
           "dd3faaf4-45ca-4714-8dbe-37102ec131cf": {
             "grades": [
@@ -11944,7 +18029,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:144",
+                "paragraphIds": [
+                  "draftsim:144:p1"
+                ],
+                "text": "A 2/2 plus a 1/1 flier is excellent for 3 mana. You should play Pia, Determined Rebuilder in every red deck, but it’s Konstrari that will be able to utilize it the most, as they can give Pia the artifacts needed to activate its ability. It may be expensive to activate, but the ability to use it at instant speed means you can wait for your creature to go unblocked before you use it and deal a lot of free damage.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:27",
+                "paragraphIds": [
+                  "zone-red:27:p1",
+                  "zone-red:27:p2",
+                  "zone-red:27:p3"
+                ],
+                "text": "While I usually prefer my Preening Champion s to have the 2/2 portion flying, I can still work with what Pia is building here.\n\nThe six-mana ability is dangerously close to being a nothing burger, but I’m sure there will be games where simply threatening the activation makes combat awkward enough to matter.\n\nThe body and extra piece are doing most of the heavy lifting, though. The ability is more of a bonus than a reason to draft her.",
+                "scope": "card"
+              }
+            ]
           },
           "ba920f23-f05c-410e-8516-c93abedf1d4d": {
             "grades": [
@@ -11969,7 +18076,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:147",
+                "paragraphIds": [
+                  "draftsim:147:p1"
+                ],
+                "text": "Samut, Hazoret's Champion looks weirdly similar to Gallia, the Merrymaker . They’re both hasty 2-drops that can give haste to your other creatures. On balance, Samut looks quite a bit better, since you don’t have to put any work into it, but not so much better that I’d be picking it highly.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:30",
+                "paragraphIds": [
+                  "zone-red:30:p1",
+                  "zone-red:30:p2",
+                  "zone-red:30:p3"
+                ],
+                "text": "This is another one where people may question how high I am on it, but giving everything haste is a legitimately game-changing effect.\n\nThe best part is that you’re not even going down a card to get it because the ability is stapled onto a perfectly serviceable Grizzly Bears . That means you can develop your board while turning every creature you draw afterward into an immediate threat.\n\nThat’s exactly the kind of nonsense I want in an aggressive creature deck.",
+                "scope": "card"
+              }
+            ]
           },
           "df818900-ce5e-4b0d-a927-c975cbef7eda": {
             "grades": [
@@ -11994,7 +18123,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:151",
+                "paragraphIds": [
+                  "draftsim:151:p1"
+                ],
+                "text": "Double strike plus prowess is a pretty deadly combination to have on one creature. While you need to support it to maximize its potential, Tetsuko Umezawa, Pursuer is a very powerful and aggressive creature that demands an answer of some kind and even punishes chump blocks with its last ability.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:34",
+                "paragraphIds": [
+                  "zone-red:34:p1",
+                  "zone-red:34:p2",
+                  "zone-red:34:p3"
+                ],
+                "text": "The random pings are actually pretty relevant because they punish your opponent when they inevitably start chump blocking this thing.\n\nA double striker with prowess is already a very real threat, and once you start stacking a couple of triggers on it, Tetsuko can hit them like an RKO out of nowhere.\n\nIt’s the kind of card that looks manageable right up until combat math suddenly turns into a complete disaster. The only reason its not higher is that it dies to removal with no extra value.",
+                "scope": "card"
+              }
+            ]
           },
           "5c5afd5f-6f37-4c3e-83f0-68fdcea98810": {
             "grades": [
@@ -12021,7 +18172,29 @@ window.LIMITED_PREP_DATA = {
               "nicolai-guide-3"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:152",
+                "paragraphIds": [
+                  "draftsim:152:p1"
+                ],
+                "text": "I’m interested to see where this potential blue/red prowess will land, but if it’s any good, Tomik, Izzet Sparkmage will surely be a part of it. Adding 1 to your noncombat damage sources might not sound impressive, but when you consider just how many sources we have that do 1 damage each, Tomik effectively doubles our noncombat damage . On top of that, it’s a 2-drop with prowess, so a great early play to get the ball rolling.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:35",
+                "paragraphIds": [
+                  "zone-red:35:p1",
+                  "zone-red:35:p2",
+                  "zone-red:35:p3"
+                ],
+                "text": "This feels much more like a low-end Constructed engine than something I’m especially excited about in Limited.\n\nYou can definitely bump the grade if your deck has a bunch of ways to randomly ping your opponent and keep the triggers flowing which is conveniently the plan for Rakdos. The prowess helps too, but the base body leaves quite a bit to be desired.\n\nThere’s a deck where this can do some real work. I’m just not convinced the average draft deck is going to be that deck.",
+                "scope": "card"
+              }
+            ]
           },
           "c1a00020-7c14-4503-a057-5763704bb83e": {
             "grades": [
@@ -12046,7 +18219,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:154",
+                "paragraphIds": [
+                  "draftsim:154:p1"
+                ],
+                "text": "When evaluating this card, it’s worth noting that there are no 2-drop mana dorks in Reality Fracture . Konstrari decks mostly ramp beginning on turn 3, and Way of the Pyromancer is one of the only ways to do that a turn earlier. Of course, having your Jace token act as a mana dork is a lot worse than it being a creature, since it’s a lot more vulnerable, but with there being so few other ways to do this early, it should be worth the risk.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:37",
+                "paragraphIds": [
+                  "zone-red:37:p1",
+                  "zone-red:37:p2",
+                  "zone-red:37:p3"
+                ],
+                "text": "Must resist cheap Mandalorian references…well, for now. I’m 100% doing them when we hit green, but at least I’ll have the excuse of Grogu flavor when we get there.\n\nOh yeah, the actual card. To quote Mr. Horse: “No sir, I don’t like it.”\n\nYou only get to Empower Jace for two, which means this doesn’t even replace itself, and the ability you get for all that trouble is pretty mediocre. If I’m spending a card on one of these Way enchantments, I need a much better payoff than this.",
+                "scope": "card"
+              }
+            ]
           },
           "6d86e410-20c4-4248-96bf-5780ece6274a": {
             "grades": [
@@ -12071,7 +18266,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:155",
+                "paragraphIds": [
+                  "draftsim:155:p1"
+                ],
+                "text": "-4 loyalty just for 2 damage sounds a bit excessive to me, but the ability is powerful enough on its own. Way of the Warlord fronts you a 5 loyalty Jace so you’ll be able to use the ability immediately (as do all of these enchantments). I mean, one way to view this is simply as a 2-damage removal spell that leaves behind a relevant enchantment and a Jace token, which sounds very good on its own. After that, any empower ability you use can turn into removal, which makes this start to look like a very strong pick for any deck with multiple sources of empower.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:38",
+                "paragraphIds": [
+                  "zone-red:38:p1",
+                  "zone-red:38:p2"
+                ],
+                "text": "On its own, this can come down, pop a creature and your opponent for two damage each, and still leave you with a surveil afterward. That’s a pretty solid pile of value.\n\nThe problem is that there’s a huge difference between dealing two damage and three, especially when this also costs one more mana than No Admittance.",
+                "scope": "card"
+              }
+            ]
           },
           "df8713cd-3f4b-43ef-adbd-e37c2617c617": {
             "grades": [
@@ -12096,7 +18312,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:156",
+                "paragraphIds": [
+                  "draftsim:156:p1"
+                ],
+                "text": "While there is a go-wide theme in red/white, it’s not particularly well established, so we won’t be able to enable Winter, Team Player quite as easily as convoke creatures in other sets. Still, you might be able to curve into it, and it does have a very relevant ability, so I’m definitely going to play it. I’m just not taking this Winter highly in a draft yet.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-red",
+                "sectionId": "zone-red:39",
+                "paragraphIds": [
+                  "zone-red:39:p1",
+                  "zone-red:39:p2",
+                  "zone-red:39:p3"
+                ],
+                "text": "Unlike Game of Thrones, Winter is not coming—at least not to my draft deck. He can play for a team, just not mine.\n\nTerrible jokes aside, this feels like it would be a perfectly serviceable card at three mana even without convoke. The problem is that the actual payoff wants you to go wide while playing a healthy number of noncreature spells.\n\nThose two plans don’t exactly hold hands and skip through the meadow together. I’m sure there’s a deck where everything lines up, but I’m not interested in doing that much roster construction to make an otherwise mediocre card work.",
+                "scope": "card"
+              }
+            ]
           },
           "dad6afc9-8505-4cdd-bf79-e9ba4670f2bb": {
             "grades": [
@@ -12121,7 +18359,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:163",
+                "paragraphIds": [
+                  "draftsim:163:p1"
+                ],
+                "text": "Seeing Edgar Markov reimagined as a werewolf in the Echoverse is pretty sweet. Most of the power of Edgar, Moonlit Sovereign comes from the ability to flash it in and eat an attacker in combat. After that, it doesn’t need to do much else at all, but it’s nice that it can continue to grow and stay relevant as you move into the late game.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:6",
+                "paragraphIds": [
+                  "zone-green:6:p1",
+                  "zone-green:6:p2",
+                  "zone-green:6:p3"
+                ],
+                "text": "Apparently, Edgar switched from Team Edward to Team Jacob. I could keep going with the Twilight jokes, but my wife reads these and it’s not worth the debate when I know which team she is on.\n\nI’m a sucker for big creatures with flash because they give you a real chance to ambush an unsuspecting attacker and completely blow-up combat. That alone pushes Edgar above the usual pile of interchangeable five-drops for me.\n\nMana sinks aren’t as exciting as they used to be, but this one at least gives you something productive to do if you passed the turn without casting a spell. Getting to grow Edgar instead of completely wasting the mana is a nice fallback.",
+                "scope": "card"
+              }
+            ]
           },
           "28fbb55a-5c9d-45ee-bf42-a84b1048f5d2": {
             "grades": [
@@ -12146,7 +18406,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:164",
+                "paragraphIds": [
+                  "draftsim:164:p1",
+                  "draftsim:164:p2"
+                ],
+                "text": "Finally, a version of Fblthp who thought to bring a map with him.\n\nDespite costing double green, the bare minimum that Fblthp, Knows the Way can be is a 3-mana 2/2 that adds a basic land to your hand. So basically, a Civic Wayfinder . That’s excellent already, and put more mana into it and you can search for potentially even more lands . Fblthp is great early and late, and it’s also a great enabler for a 5-color deck.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:7",
+                "paragraphIds": [
+                  "zone-green:7:p1",
+                  "zone-green:7:p2",
+                  "zone-green:7:p3"
+                ],
+                "text": "I’ll start by saying that I’m genuinely happy for Fblthp. After all these years, the little guy finally knows where he’s going. Easily the best change Jace made to reality.\n\nThis is going to be at its best in heavy-green multicolor nonsense decks where you’re trying to grab a pile of different basics and splash whatever shiny cards caught your eye during the draft.\n\nIf you’re just playing a normal two-color deck, though, you’re probably topping out at finding one of each basic type you need, which is a whole lot less exciting.",
+                "scope": "card"
+              }
+            ]
           },
           "90ca5812-ceb5-46bd-b049-aed7ff10e6af": {
             "grades": [
@@ -12174,7 +18457,31 @@ window.LIMITED_PREP_DATA = {
               "review-10"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:167",
+                "paragraphIds": [
+                  "draftsim:167:p1"
+                ],
+                "text": "This new Garruk is a great throwback to the original Garruk Wildspeaker . Each of the abilities are very similar to the original’s, but amplified to match the extra mana that Garruk, Curse Breaker costs. On top of that, we get a free Garruk's Uprising , which makes all the difference. Now, you can immediately create a 4/4 and draw a card at the same time. Then on future turns, whatever other big plays you make will draw you more cards without even using Garruk’s loyalty abilities. This is just about everything I want in a green planeswalker , and it looks like one of the best cards in the set.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:10",
+                "paragraphIds": [
+                  "zone-green:10:p1",
+                  "zone-green:10:p2",
+                  "zone-green:10:p3",
+                  "zone-green:10:p4",
+                  "zone-green:10:p5"
+                ],
+                "text": "Hey look, another planeswalker that generates card advantage while protecting itself. At this point, that seems to be the easiest way to earn a 5.0 in this set.\n\nA 4/4 trampler for five mana that draws you a card when it enters would already be a perfectly playable Limited card. Leaving behind a planeswalker that can keep doing it over and over again is where things start getting ridiculous.\n\nBut wait, there’s more.\n\nYou can even use the ultimate the turn Garruk comes down to basically Overrun your opponent and potentially end the game on the spot.\n\nThis is good when you’re ahead, good when you’re behind, and good when the board is stalled. That’s pretty much the definition of a Limited bomb.",
+                "scope": "card"
+              }
+            ]
           },
           "1d535b5f-c916-4f16-89a7-9477578826d2": {
             "grades": [
@@ -12201,7 +18508,29 @@ window.LIMITED_PREP_DATA = {
               "review-14"
             ],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:168",
+                "paragraphIds": [
+                  "draftsim:168:p1"
+                ],
+                "text": "Ghalta the Unstoppable has all the same issues as its white counterpart, but with one key upside. An 8/8 with trample that gives trample to all your creatures is a lot more impactful than a glorified 7/7 vanilla creature. Even though you need another creature on the battlefield to be able to cast this Ghalta, this one does at least seem worth the effort.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:11",
+                "paragraphIds": [
+                  "zone-green:11:p1",
+                  "zone-green:11:p2",
+                  "zone-green:11:p3"
+                ],
+                "text": "I don’t know if we’re talking Shaq-in-his-prime levels of unstoppable here. Sharptooth might be overselling himself a little considering there are plenty of cards in this set that can stop him just fine.\n\nIf you already have a 3/3 on the battlefield, you’re looking at six mana, which is right around the going rate for this kind of giant chonker these days. That’s a pretty small hoop to jump through.\n\nThe problem comes when things aren’t going according to plan. Suddenly this thing costs approximately all of your mana and spends half the game rotting in your hand. Getting him dirt cheap later sounds great, but by that point you probably already have enough mana that the discount matters a whole lot less.",
+                "scope": "card"
+              }
+            ]
           },
           "f5a0bb3e-8119-4739-8684-e61d1d607dcb": {
             "grades": [
@@ -12226,7 +18555,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:175",
+                "paragraphIds": [
+                  "draftsim:175:p1",
+                  "draftsim:175:p2"
+                ],
+                "text": "And peace is restored. Jiang Yanggu, Never Alone and his best friend Mowu, together as they should be.\n\nA 2/2 plus a 3/3 is a great deal for 4 mana, and the ability to untap your tokens might also be very relevant, especially when you can untap your Heartwood tokens.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:18",
+                "paragraphIds": [
+                  "zone-green:18:p1",
+                  "zone-green:18:p2",
+                  "zone-green:18:p3"
+                ],
+                "text": "I’ve already said how much I love cards that give you more than one reasonably sized body, and this one goes a step further by giving you a total of 5/5 worth of stats for four mana. That’s just a really good rate.\n\nThe doggo even brings pseudo-vigilance along for the ride, and the rest of your tokens get to join in on the fun.\n\nMultiple bodies, above-rate stats, and some extra utility stapled on top. That’s a package I’m very happy to take.",
+                "scope": "card"
+              }
+            ]
           },
           "3cfa4fc6-4d90-4576-a83f-6496c7f21104": {
             "grades": [
@@ -12251,7 +18603,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:176",
+                "paragraphIds": [
+                  "draftsim:176:p1"
+                ],
+                "text": "Mana dorks at 3 mana tend to be a little underwhelming, but if they tap for more than 1 mana they really mean business. Loot, the Nexus is only guaranteed to tap for 1 mana, but with the potential to tap for 2, 3, or even more, it stands out as a premium green uncommon, particularly in Konstrari.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:19",
+                "paragraphIds": [
+                  "zone-green:19:p1",
+                  "zone-green:19:p2",
+                  "zone-green:19:p3",
+                  "zone-green:19:p4"
+                ],
+                "text": "Are you playing multicolor shenanigans? Then go ahead and bump this little dude up because he can fix for basically anything.\n\nHe can even double-ramp you early as long as you have another creature with a different power, which can lead to some pretty gross starts.\n\nWould I like him more at two mana? Of course. But then we’d probably be talking about some Constructed nonsense instead of a solid Limited card.\n\nAt three, he’s still doing enough useful things that I’m happy to play him, especially in the decks trying to get a little greedy with their mana.",
+                "scope": "card"
+              }
+            ]
           },
           "90f33f99-7bc5-42e1-815e-bfb4c2b74107": {
             "grades": [
@@ -12276,7 +18651,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:177",
+                "paragraphIds": [
+                  "draftsim:177:p1"
+                ],
+                "text": "We can ignore the first ability, because it has no relevance in Reality Fracture from what I can see. A 3/2 for 2 mana is a decent size for a creature already, and if you’re able to fill up your graveyard, getting to draw a land from your graveyard for 2 mana is a very powerful ability. It requires a good amount of setup, but Marwyn, the Preserver can be a great card advantage engine in the right deck.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:20",
+                "paragraphIds": [
+                  "zone-green:20:p1",
+                  "zone-green:20:p2",
+                  "zone-green:20:p3"
+                ],
+                "text": "If only they had printed an Evolving Wilds in this set. Alas, you’re probably going to have to mill a land or two if you want to squeeze any extra value out of Marwyn.\n\nMaking your lands hexproof is about as exciting as it sounds in Limited, which is to say it’s probably not coming up very often.\n\nThe good news is that the baseline stats are perfectly acceptable for the rate. If you ever actually get a land back with this, you’re already comfortably in the green.",
+                "scope": "card"
+              }
+            ]
           },
           "ff0bc30f-9d20-458e-808f-bdc2825905a5": {
             "grades": [
@@ -12301,7 +18698,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:179",
+                "paragraphIds": [
+                  "draftsim:179:p1"
+                ],
+                "text": "You can’t always run Pia, Aether Ascetic , but this set has quite a few powerful enchantments, including the cycle of “Way” enchantments and multiple removal spells. If you have enough good targets for it, you can definitely run this as a way to find them. Also, while the discard means this is even on card advantage, you could also use this as an opportunity to discard something useful, such as one of the many cards we’ve seen that do something from the graveyard.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:22",
+                "paragraphIds": [
+                  "zone-green:22:p1",
+                  "zone-green:22:p2",
+                  "zone-green:22:p3"
+                ],
+                "text": "This is dangerously close to unplayable if your deck doesn’t have any enchantments to support it.\n\nIf you do, though, Pia can be a perfectly solid contributor. You don’t even need to be doing anything especially fancy—getting to tutor up cards like Memory Trap or Infinite Coursework is already enough to make this worthwhile.\n\nJust make sure the enchantments are actually there before you start pretending this is a real Magic card.",
+                "scope": "card"
+              }
+            ]
           },
           "eed83302-dc2c-45f4-a4bd-af9da51edef5": {
             "grades": [
@@ -12326,7 +18745,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:182",
+                "paragraphIds": [
+                  "draftsim:182:p1"
+                ],
+                "text": "I was very high on Karakyk Guardian in Tarkir: Dragonstorm , and it turned out to be one of the best uncommons in the entire set. Ruric Thar, Magecrusher may not be able to fly, but this combination of abilities is extremely powerful, and I can’t see it landing much lower than the Guardian did. Even better, the extra toughness goes very well with vigilance because it’ll dominate virtually any board it’s played on.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:25",
+                "paragraphIds": [
+                  "zone-green:25:p1",
+                  "zone-green:25:p2",
+                  "zone-green:25:p3"
+                ],
+                "text": "I don’t really know why, but this just feels like it should have haste. At least it does a decent job protecting itself from pesky removal until it gets a chance to actually connect.\n\nVigilance and reach on something this large are a pretty big deal because your opponent can’t just shrug and try to race you in the air. Trample also helps make sure they can’t park some random 1/1 in front of it and take a leisurely stroll through Chumpblock City.\n\nThere’s a lot of useful text here, even if I’m still mildly offended it doesn’t get to smash immediately.",
+                "scope": "card"
+              }
+            ]
           },
           "edea6f70-a5a7-475d-b7f2-97933d0f32cf": {
             "grades": [
@@ -12351,7 +18792,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:188",
+                "paragraphIds": [
+                  "draftsim:188:p1"
+                ],
+                "text": "Ajani's Pridemate is a tried and tested formula that really works. A bigger one that picks up two +1/+1 counters whenever you gain life sounds like a nice upgrade. Titanbones, Towering Heart looks like an excellent payoff for Vigorbloom decks, and something I’d probably look to take early and try to make work.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:31",
+                "paragraphIds": [
+                  "zone-green:31:p1",
+                  "zone-green:31:p2",
+                  "zone-green:31:p3",
+                  "zone-green:31:p4"
+                ],
+                "text": "There’s going to be a massive — get it, because he’s a titan? I r clever — difference in how good this card is from deck to deck.\n\nOn its own, it’s a slightly under-statted creature that you’re probably hoping never actually makes your final 40. If you have multiple reliable ways to gain life, though, Titanbones can grow out of control surprisingly fast.\n\nEven when everything comes together, you’re still left with one very large vanilla creature. It can be chump blocked forever or completely undone by a single removal spell.\n\nThe ceiling is certainly there, but I’m going to need a lot of life gain before I’m interested.",
+                "scope": "card"
+              }
+            ]
           },
           "98dc5470-507a-4364-8480-42607255e56c": {
             "grades": [
@@ -12376,7 +18840,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:191",
+                "paragraphIds": [
+                  "draftsim:191:p1"
+                ],
+                "text": "The second ability on Way of the Paradox doesn’t look like much, but when you combine it with the -3 to draw a card on your Jace token, this basically becomes a slightly more expensive Explore . That’s not too bad, and then it sits in play and provides a little extra advantage for the next few turns. Sounds like a good deal to me.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:32",
+                "paragraphIds": [
+                  "zone-green:32:p1",
+                  "zone-green:32:p2",
+                  "zone-green:32:p3",
+                  "zone-green:32:p4"
+                ],
+                "text": "This is not the way.\n\nThe real paradox is why this ended up in your deck in the first place. I’m not really interested in a three mana Explore even if it has a little extra thrown in.\n\nThe life gain trigger can certainly be useful in the right shell, but tying it to a planeswalker activation makes the whole thing a lot shakier than I want. You’re already asking for multiple pieces to be in place before this starts doing anything meaningful.\n\nThere’s some synergy here, but not nearly enough for me to want to spend a card on it.",
+                "scope": "card"
+              }
+            ]
           },
           "a252cb01-537b-4afe-9abc-81a98c4a1439": {
             "grades": [
@@ -12405,6 +18892,31 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [],
             "combinationIds": [
               "lesson-gu"
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:192",
+                "paragraphIds": [
+                  "draftsim:192:p1",
+                  "draftsim:192:p2"
+                ],
+                "text": "Just on its own, Way of the Wildspeaker gives you a 4/4 and a 3-loyalty Jace token for just 5 mana. That’s good, but not exactly worthy of this high grade.\n\nWhat really stands out to me is the context. This is a green card that empowers 7. In a blue/green empower deck, this large number doesn’t appear on many cards, and with rewards like Kiora of Salt and Sand and Jace, Reality Sculptor available, that goes a long way towards their totals. Overall, this looks like an incredibly strong build around for that deck.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:33",
+                "paragraphIds": [
+                  "zone-green:33:p1",
+                  "zone-green:33:p2",
+                  "zone-green:33:p3",
+                  "zone-green:33:p4",
+                  "zone-green:33:p5"
+                ],
+                "text": "Finally, Mando can say the line: “This is the way.”\n\nGrogu would probably approve too, although there’s a decent chance he’s just distracted because he stole another cookie. Kids these days, am I right?\n\nEmpower seven is a massive amount of juice. You can immediately cash some of it in for a 4/4 and still have enough left over to draw a card on the next turn.\n\nAnd if you have another Empower Jace card lying around, you can just keep feeding the machine and poop out another 4/4.\n\nThat’s the kind of snowball potential I actually want out of one of these Way enchantments.",
+                "scope": "card"
+              }
             ]
           },
           "b8dfd087-2434-42c6-ac4c-1decbcdde2db": {
@@ -12432,7 +18944,53 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [
               "game-10"
             ],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:194",
+                "paragraphIds": [
+                  "draftsim:194:p1"
+                ],
+                "text": "Over the years, I’ve seen many creatures that fight something when they enter, but none that do it this way. Green has plenty of large creatures in Reality Fracture , and Yoshimaru, Scrappy Stray will let you use them to fight an opposing creature. Two-mana fight spells are fine, but attach them to the ETB ability of a creature and now we have a card that you can recur, flicker, and whatever else. This looks like a very impressive creature, much like a green Flametongue Kavu with an extra step involved.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-green",
+                "sectionId": "zone-green:37",
+                "paragraphIds": [
+                  "zone-green:37:p1",
+                  "zone-green:37:p2",
+                  "zone-green:37:p3",
+                  "zone-green:37:p4"
+                ],
+                "text": "Someone needs to rescue this poor pup. We can’t just have Yoshimaru running the streets like this.\n\nA fight spell is obviously worse than a bite spell, but getting the effect stapled onto a body for only two mana makes the whole package a lot more appealing. You’re getting interaction without completely sacrificing board presence, which is exactly where I want to be.\n\nThere’s even some extra value waiting around for later if you end up with spare mana.\n\nGood dog. Solid card.",
+                "scope": "card"
+              }
+            ],
+            "teaching": {
+              "cardId": "b8dfd087-2434-42c6-ac4c-1decbcdde2db",
+              "name": "Yoshimaru, Scrappy Stray",
+              "role": "Fight attached to a creature",
+              "why": "Adds a body while another creature you control fights an opposing creature.",
+              "better": "Best with a large creature or deathtoucher already on your battlefield.",
+              "watch": "Yoshimaru cannot be its own fighter. Opposing interaction can spoil the fight.",
+              "disagreement": "Quinn is particularly enthusiastic about recurring the enters ability; Josh stresses that fighting is riskier than one-sided damage.",
+              "basis": "editorial-reading-of-two-reviews-and-card-rules",
+              "reviewSectionIds": [
+                "draftsim:194",
+                "zone-green:37"
+              ],
+              "paragraphIds": [
+                "draftsim:194:p1",
+                "zone-green:37:p1",
+                "zone-green:37:p2",
+                "zone-green:37:p3",
+                "zone-green:37:p4"
+              ],
+              "rulesCardId": "b8dfd087-2434-42c6-ac4c-1decbcdde2db",
+              "basisSha256": "5300e3eda022d841b5a003e60d84e0aec0efe3e42a128634acb823814fa0a4ad"
+            }
           },
           "7c619fed-2394-4efc-8cdc-6df5f51c1f57": {
             "grades": [
@@ -12462,6 +19020,28 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [],
             "combinationIds": [
               "lesson-wb"
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:204",
+                "paragraphIds": [
+                  "draftsim:204:p1"
+                ],
+                "text": "Jace tokens with 1 loyalty aren’t especially useful. Sure, surveil 1 is a good thing to do, but if you don’t have another source of empower on the horizon, it’s definitely desirable to find a better use of them. Edgar, Ancient Bloodlord does exactly that, letting you turn these tokens into something much more useful, as well as any throwaway creatures you might have. There aren’t a lot of sacrifice outlets in Reality Fracture , but Edgar looks like a very good one to have.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:10",
+                "paragraphIds": [
+                  "zone-multicolor:10:p1",
+                  "zone-multicolor:10:p2",
+                  "zone-multicolor:10:p3"
+                ],
+                "text": "Edgar is a wonderful little dumpster for any extra creatures you have laying around.\n\nFeed him something you don’t need anymore and he gets bigger, gains menace, and even gives you a lifegain trigger for your troubles. That’s a pretty solid collection of upside for a creature that’s already slightly overstatted as a two-drop.\n\nHe’s not doing anything completely ridiculous, but turning your spare cardboard into a growing threat is a deal I’m happy to make.",
+                "scope": "card"
+              }
             ]
           },
           "cf7c1534-af41-4991-b3c3-f0a34ae330b5": {
@@ -12492,6 +19072,27 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [],
             "combinationIds": [
               "lesson-bg"
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:212",
+                "paragraphIds": [
+                  "draftsim:212:p1"
+                ],
+                "text": "This reminds me a lot of Cloud of Darkness from Final Fantasy , one of the best uncommons in that set. Of course, if you have a 4- or 5-drop in your graveyard, Hapatra, the Desert Fang can enter and kill most creatures in the format. Green/black looks pretty good at filling the graveyard since most of Theorix’s graveyard enablers are black anyway. Also, this is incredibly splashable as a big payoff in a Theorix deck. I often refer to Nekrataal as one of the cornerstone broken cards in Limited history, and Hapatra is doing a very good approximation of that effect.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:18",
+                "paragraphIds": [
+                  "zone-multicolor:18:p1",
+                  "zone-multicolor:18:p2"
+                ],
+                "text": "Golgarbage has never exactly struggled to put cards into the graveyard, so turning this on shouldn’t be asking for much.\n\nOnce you do, this is basically Ravenous Chupacabra except the removal effect can even get around indestructible. That’s the kind of sentence that tends to get my attention pretty quickly.",
+                "scope": "card"
+              }
             ]
           },
           "3abcae65-5b21-4c98-adad-34b8bc76ea3a": {
@@ -12517,7 +19118,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:214",
+                "paragraphIds": [
+                  "draftsim:214:p1"
+                ],
+                "text": "Okay, so hear me out. FRA technically contains some artifacts in each color. Most notably of course are the Heartwood tokens that are red and green. Let’s say you had one of those in play. You then only need something like Warrior's Blades or Traxos, Academy Guardian and Karn, Gilded Guardian will draw three cards when it enters. That’s a very intriguing proposition, and I’m sure I’ll try it at some point, but I’m sure there are easier ways to draw a bunch of cards.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:20",
+                "paragraphIds": [
+                  "zone-multicolor:20:p1",
+                  "zone-multicolor:20:p2"
+                ],
+                "text": "There just aren’t that many colored artifacts in the set, so you’re probably topping out at drawing two cards off a couple of Heartwood Tokens most of the time.\n\nGetting that value stapled onto a 5/5 with vigilance and trample certainly sounds nice, but that mana cost is asking you to jump through a whole lot of hoops. Even worse, you can do all that work and still end up drawing absolutely nothing when Karn finally hits the battlefield.",
+                "scope": "card"
+              }
+            ]
           },
           "8151f5f5-e9f6-4fbe-b543-f456ebf22aa5": {
             "grades": [
@@ -12547,6 +19169,28 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [],
             "combinationIds": [
               "lesson-gu"
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:215",
+                "paragraphIds": [
+                  "draftsim:215:p1"
+                ],
+                "text": "A 3-mana 2/4 is a great creature to help defend your Jace tokens, and of course the -8 loyalty ability is a great reward for stacking up your empower spells. The first ability on Kiora of Salt and Sand also lets you pressure opposing Jace tokens. Since it doesn’t have an ability that lets you empower, this isn’t the best blue/green payoff in the world, but these 8/8 hexproof tokens should be more than enough to win a game if you can create even one.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:21",
+                "paragraphIds": [
+                  "zone-multicolor:21:p1",
+                  "zone-multicolor:21:p2",
+                  "zone-multicolor:21:p3"
+                ],
+                "text": "The body is perfectly decent, but Kiora really needs some help from the rest of your deck before she starts doing anything exciting.\n\nEmpowering Jace isn’t particularly difficult in this format, but getting all the way up to eight is a very different story. Making a Kraken sounds great, but there’s a whole lot of nonsense that has to go right before we get there.\n\nThe floor is playable. The ceiling is fun. I’m just not drafting the card assuming the Kraken factory is actually going to open.",
+                "scope": "card"
+              }
             ]
           },
           "47abea4b-9848-48aa-bc1b-f04f4799e920": {
@@ -12577,6 +19221,28 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [],
             "combinationIds": [
               "lesson-rw"
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:219",
+                "paragraphIds": [
+                  "draftsim:219:p1"
+                ],
+                "text": "You can essentially view Mabel, Valley Hero as a 2/3 for 3 mana that lets every creature you play pick up a +1/+1 counter when it enters. That’s about it, barring some shenanigans with multiple creatures entering in the same turn. That’s a fine effect to have, but it’s not a particularly exciting one. +1/+1 counters is supposed to be the red/white theme, but it doesn’t seem to be incredibly well supported, so I just don’t see this being all that useful. Poor Mabel.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:25",
+                "paragraphIds": [
+                  "zone-multicolor:25:p1",
+                  "zone-multicolor:25:p2",
+                  "zone-multicolor:25:p3"
+                ],
+                "text": "Mabel usually comes in as a 2/3, which isn’t exactly where you want to be for three mana these days.\n\nThe real reason to care is everything that comes afterward. Once your future creatures start entering the battlefield bigger, Mabel starts looking a whole lot more impressive.\n\nThat’s when Mabel can actually prove they’re a Valley Hero instead of just another slightly underwhelming three-drop.",
+                "scope": "card"
+              }
             ]
           },
           "28d84ef6-e190-46d4-882d-1cea5e111e2a": {
@@ -12607,6 +19273,28 @@ window.LIMITED_PREP_DATA = {
             "observationIds": [],
             "combinationIds": [
               "lesson-ur"
+            ],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:227",
+                "paragraphIds": [
+                  "draftsim:227:p1"
+                ],
+                "text": "Murmuring Mystic is one of my favorite Limited cards of all time. I drafted Guilds of Ravnica dozens of times, and it was the card I always wanted to see the most. Saheeli, Jewel of Avishkar is remarkably similar to that, and even though I’d rather have the fifth point of toughness that the Mystic had, there’s still plenty to love about this new version.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:33",
+                "paragraphIds": [
+                  "zone-multicolor:33:p1",
+                  "zone-multicolor:33:p2",
+                  "zone-multicolor:33:p3"
+                ],
+                "text": "Well, this is going to get real stupid, real fast.\n\nIf you’re in Izzet, you’re probably already in the spells deck, which means untapping with Saheeli can immediately start pooping out a few hasty Thopters while you do what your deck wanted to do anyway.\n\nThe part I really love is that this isn’t restricted to once per turn. Every spell just keeps adding more nonsense to the board, and suddenly your opponent has a tiny Thopter infestation problem.",
+                "scope": "card"
+              }
             ]
           },
           "6529d399-677e-45a6-ac3e-12a0b10f6c37": {
@@ -12632,7 +19320,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:233",
+                "paragraphIds": [
+                  "draftsim:233:p1"
+                ],
+                "text": "This rating is entirely based on Tam, the Possibility being a 2/4 creature for 3 mana. Neither of Tam’s abilities are remotely useful. While we will often have planeswalkers on the battlefield, the eight high-rarity planeswalker cards in Reality Fracture still aren’t going to be in our decks very often. Proliferating is a good ability, but costing all five colors is obscenely expensive. It’s sad to see such a pivotal character in the story get such a useless card for Limited, but there we go.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:39",
+                "paragraphIds": [
+                  "zone-multicolor:39:p1",
+                  "zone-multicolor:39:p2",
+                  "zone-multicolor:39:p3",
+                  "zone-multicolor:39:p4"
+                ],
+                "text": "Is there a possibility that some deck is going to want this? Of course. That deck is probably going to be extremely rare, though.\n\nMaybe you’re the brave soul who finally innovates the five-color Planeswalker pile and Tam becomes the glue holding your beautiful disaster together.\n\nIn most decks, though, this is just an underwhelming body whose main contribution is mucking up the ground for a while.\n\nThe possibility is there. I’m just not betting my draft on it.",
+                "scope": "card"
+              }
+            ]
           },
           "f3869752-eade-4e7a-8dd1-68cafb9e10be": {
             "grades": [
@@ -12657,7 +19368,28 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:244",
+                "paragraphIds": [
+                  "draftsim:244:p1"
+                ],
+                "text": "It mainly matters that the tokens you create from Vraska, Soul of Stone are 1/1s. Also being treasures is interesting, but it’s rarely good to sacrifice board presence for a bit of mana. Besides, you’ll have to wait a turn to sacrifice them after creating them thanks to summoning sickness. This is a 2-color set, but there’s enough color fixing available that this Vraska should be worth casting in a spell-heavy deck, just like Saheeli, Jewel of Avishkar .",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:50",
+                "paragraphIds": [
+                  "zone-multicolor:50:p1",
+                  "zone-multicolor:50:p2"
+                ],
+                "text": "I’m always a little wary of three-color cards in Draft. There are enough fixing lands floating around in this format to make it work, but asking for three different colors still comes with a real cost, and I’m knocking the grade down a little because of it.\n\nThe best home feels like the Izzet spells deck splashing just enough white to get Vraska online.",
+                "scope": "card"
+              }
+            ]
           },
           "5c28b012-5efb-488f-a1c1-09e2dddfd6ee": {
             "grades": [
@@ -12682,7 +19414,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:245",
+                "paragraphIds": [
+                  "draftsim:245:p1"
+                ],
+                "text": "It requires a little bit of setup, but Vraska, the Cutting Glare is as close to a Ravenous Chupacabra as you’re going to get. It’s also a 4/4 with deathtouch, so it’ll likely trade off for multiple permanents whenever you play it. This is a pretty simple design, but a very powerful one in Limited.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-multicolor",
+                "sectionId": "zone-multicolor:51",
+                "paragraphIds": [
+                  "zone-multicolor:51:p1",
+                  "zone-multicolor:51:p2",
+                  "zone-multicolor:51:p3",
+                  "zone-multicolor:51:p4"
+                ],
+                "text": "Won’t the real Vraska please stand up? This is much more in line with the Gorgon we all remember.\n\nA 4/4 deathtouch for three mana is already a really good deal, even if it isn’t quite game-changing on its own. It’s a nice option to have when you’re curving out, assuming that pretty intense mana cost cooperates.\n\nThe real power shows up once you hit six lands and get to destroy basically any permanent. Sure, they get a Treasure, but at that stage of the game I’m not losing much sleep over it compared to them losing the best thing on their board.\n\nEarly, she’s an efficient threat. Late, she’s efficient removal stapled to an efficient threat. That’s the Vraska I signed up for.",
+                "scope": "card"
+              }
+            ]
           },
           "1ebbbddb-2dc3-4194-b72b-13bcebe2ab89": {
             "grades": [
@@ -12707,7 +19462,30 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:255",
+                "paragraphIds": [
+                  "draftsim:255:p1"
+                ],
+                "text": "It’s quite funny that Karn, Argent Defender looks like a great card to get off of Karn, the Great Creator . This card screams “sideboard me”, and I sincerely doubt it’ll be anything more than that in Limited either.",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:7",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:7:p1",
+                  "zone-artifacts-and-lands:7:p2",
+                  "zone-artifacts-and-lands:7:p3",
+                  "zone-artifacts-and-lands:7:p4"
+                ],
+                "text": "This is dangerously close to being a sideboard-only card.\n\nThe saving grace is that the body is at least respectable on defense, so it’s not completely dead if your opponent isn’t leaning on ETBs.\n\nThe bigger issue is that the effect is symmetrical, which means Karn is perfectly willing to ruin your day right alongside your opponent’s. Make sure you’re not shutting off half your own deck in the process.\n\nUseful in the right matchup. Pretty embarrassing everywhere else.",
+                "scope": "card"
+              }
+            ]
           },
           "05102c46-96f8-44a0-a1e6-e388fa5e0841": {
             "grades": [
@@ -12732,7 +19510,29 @@ window.LIMITED_PREP_DATA = {
             ],
             "notes": [],
             "observationIds": [],
-            "combinationIds": []
+            "combinationIds": [],
+            "reviews": [
+              {
+                "sourceId": "draftsim",
+                "sectionId": "draftsim:260",
+                "paragraphIds": [
+                  "draftsim:260:p1"
+                ],
+                "text": "A 5/4 trampler for just 4 mana hits incredibly hard. Needing you to cast a creature or artifact spell to untap it is a pretty big downside, but unlike the original Traxos, Scourge of Kroog , Traxos, Scourge Eternal at least enters untapped, so you get that first attack without needing to cast another spell. The tradeoff for that of course is that Traxos isn’t that much bigger than 4-mana creatures normally are, so I think this is only good in decks that don’t have access to creatures of this size (nongreen ones basically).",
+                "scope": "card"
+              },
+              {
+                "sourceId": "zone-artifacts-and-lands",
+                "sectionId": "zone-artifacts-and-lands:12",
+                "paragraphIds": [
+                  "zone-artifacts-and-lands:12:p1",
+                  "zone-artifacts-and-lands:12:p2",
+                  "zone-artifacts-and-lands:12:p3"
+                ],
+                "text": "The stats are solid, and triggering the untap should be incredibly easy in almost any Limited deck.\n\nBecause of that, I’m barely even treating the drawback like a drawback. Most of the time, Traxos is going to play more like a creature with pseudo-vigilance than something you actually have to work around.\n\nNothing spectacular, but that’s a whole lot of body for the rate without much of a hoop to jump through.",
+                "scope": "card"
+              }
+            ]
           }
         },
         "claims": {
@@ -18491,6 +25291,11 @@ window.LIMITED_PREP_DATA = {
               "combinationIds": []
             }
           ]
+        },
+        "teaching": {
+          "version": 1,
+          "reviewedAt": "2026-09-22",
+          "cards": 24
         }
       },
       "cards": [

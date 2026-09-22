@@ -3,7 +3,8 @@
   "set": "FRA",
   "status": "published",
   "publishedAt": "2026-09-18",
-  "authoredAt": "2026-09-20",
+  "authoredAt": "2026-09-22",
+  "progressRevision": "2026-09-20",
   "assessment": "Early card selections and deck-building advice are our assessment of the rules text, not measured performance. Revisit them as games and results arrive.",
   "sources": [
     {"label": "Wizards: Reality Fracture Prerelease Guide", "url": "https://magic.wizards.com/en/news/feature/reality-fracture-prerelease-guide"},
@@ -43,7 +44,8 @@
     {"id":"foundation","label":"Commons & uncommons"},
     {"id":"answers","label":"Removal"},
     {"id":"engines","label":"Build-arounds"},
-    {"id":"mana","label":"Fixing"}
+    {"id":"mana","label":"Fixing"},
+    {"id":"conditional","label":"Check the support"}
   ],
   "keyCards": [
     {"card":"Hungering Puppetbeast","role":"threats","why":"Brings its own Heartwood and can turn artifacts into lasting growth plus protection or evasion.","watch":"Each activation costs one mana and another artifact. Keeping an artifact and mana available matters."},
@@ -67,7 +69,9 @@
     {"card":"Woodwork Prodigy // Soul Tether","role":"engines","why":"Can prepare again on your upkeep, offering repeated Heartwood production over several turns.","watch":"Each Soul Tether still costs mana. You need time and worthwhile uses for the extra mana or artifacts."},
     {"card":"Way of the Mind Sculptor","role":"engines","why":"Adds loyalty and rewards loyalty activations that remove two or more counters with an extra card.","watch":"A five-mana enchantment needs a stable board and suitable loyalty abilities. It does not stop an attack itself."},
     {"card":"Room of Refuge","role":"mana","why":"A land that can supply your chosen colour, with a late-game use when you no longer need the mana.","watch":"Enters tapped and the colour is chosen once. Too many tapped lands can slow your opening turns."},
-    {"card":"Murmuring Volume","role":"mana","why":"Produces any colour and can turn an unwanted card into a new draw later.","watch":"Costs three mana before it helps. It is not a substitute for enough lands of your main colours."}
+    {"card":"Murmuring Volume","role":"mana","why":"Produces any colour and can turn an unwanted card into a new draw later.","watch":"Costs three mana before it helps. It is not a substitute for enough lands of your main colours."},
+    {"card": "Greenhouse Propagator", "role": "conditional", "why": "Produces mana and turns later creatures entering into life-gain triggers.", "watch": "A three-mana ramp creature can be inefficient when the deck has no life-gain rewards."},
+    {"card": "Emrakul, the Exigent Doom", "role": "conditional", "why": "Flying, trample and a cast trigger that untaps your lands offer a spectacular late play.", "watch": "Both reviewers are sceptical: the mana investment is enormous, and an opponent may pay ward by sacrificing spare lands."}
   ],
   "interactions": [
     {"card":"Academic Ascent","note":"+2/+2 and flying can change a block; empower also leaves a resource behind."},
@@ -97,7 +101,10 @@
     {"id":"prepare-leaves","question":"Your prepared Fatehold Chronologist leaves the battlefield before you cast Peer Review. Can you still cast that prepared copy?","options":["Yes, until the end of the turn","Yes, whenever I can pay for it","No, the uncast copy ceases to exist"],"answer":2,"explanation":"The prepared copy is tied to that permanent. This question is about a copy not yet cast, not a spell already on the stack.","cards":["Fatehold Chronologist // Peer Review"]},
     {"id":"removal-cost","question":"You want to cast Silence the Echo without sacrificing a creature or planeswalker. With no cost-changing effects, how much mana do you need?","options":["Two mana: one generic and one black","Five mana: four generic and one black","You cannot cast it without a sacrifice"],"answer":1,"explanation":"The additional cost allows paying three mana instead of sacrificing. Add that to the printed cost of one generic and one black.","cards":["Silence the Echo"]},
     {"id":"last-gasp","question":"An undamaged 4/4 creature has no other relevant abilities or effects. You cast Last Gasp on it. What is it when the spell resolves?","options":["A 1/1 until end of turn","A 4/4 with three damage marked","A creature with zero toughness"],"answer":0,"explanation":"−3/−3 changes power and toughness. The creature is now 1/1 and does not die just from this effect.","cards":["Last Gasp"]},
-    {"id":"heartwood-mana","question":"You tap an untapped Heartwood for green mana using its printed mana ability. What happens to the token?","options":["It is sacrificed like a Treasure","It stays on the battlefield, tapped","It becomes a Forest"],"answer":1,"explanation":"Heartwood's mana ability has a tap cost, not a sacrifice cost. It can provide mana again after it untaps.","cards":["Hungering Puppetbeast"]}
+    {"id":"heartwood-mana","question":"You tap an untapped Heartwood for green mana using its printed mana ability. What happens to the token?","options":["It is sacrificed like a Treasure","It stays on the battlefield, tapped","It becomes a Forest"],"answer":1,"explanation":"Heartwood's mana ability has a tap cost, not a sacrifice cost. It can provide mana again after it untaps.","cards":["Hungering Puppetbeast"]},
+    {"id": "wrath-jace", "cards": ["Wrath of the Bloodmane"], "question": "You control an empower Jace token but no legendary creatures. How much does Wrath of the Bloodmane cost?", "options": ["Two mana: one generic and one red", "Three mana: two generic and one red", "One red mana"], "answer": 1, "explanation": "The discount needs a legendary creature. A Jace token is a planeswalker, so it does not meet that condition."},
+    {"id": "vision-discard", "cards": ["Twinned Vision"], "question": "You have enough mana to flash back Twinned Vision, but no cards in hand. Can you cast it for its flashback cost?", "options": ["Yes, drawing two pays for the discard", "No, discarding a card is part of the cost", "Yes, but you only draw one card"], "answer": 1, "explanation": "You must pay the discard before the spell resolves. The future draw cannot pay that cost."},
+    {"id": "puppetbeast-resource", "cards": ["Hungering Puppetbeast"], "question": "Your only other artifact is an untapped Heartwood. With no floating mana or untapped lands, can it pay for Puppetbeast’s ability that grants hexproof?", "options": ["No, a tapped artifact cannot be sacrificed", "Yes, tap it for mana, then sacrifice it to the ability", "No, it only pays for spells"], "answer": 1, "explanation": "Heartwood can supply the one mana and then be sacrificed as the other cost. Keeping it available preserves this protection option."}
   ],
   "twoHeadedGiant": {
     "intro": "Playing a Two-Headed Giant prerelease? Build two decks from your shared pool, then plan each turn together. Start with these team rules and the Reality Fracture cards whose wording changes your decisions.",

@@ -187,6 +187,7 @@ const cacheFiles = [
   "./app.js",
   "./lifecycle.js",
   "./prep.js",
+  "./prep-journey.js",
   "./early-evidence.js",
   "./memory.js",
   "./rules-text.js",

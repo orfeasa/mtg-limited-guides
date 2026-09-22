@@ -195,6 +195,10 @@
           const context = metadata(set, card);
           if (context.labels.length) quiz.append(el("p", context.labels.join(" · "), "memory-context"));
           if (context.interaction) quiz.append(el("p", `${card.manaCost} · ${context.interaction.note}`, "memory-interaction"));
+          const teaching = set.earlyEvidence?.byCard[card.id]?.teaching;
+          if (teaching) {
+            quiz.append(el("h4", teaching.role), el("p", teaching.why), el("p", `Watch for: ${teaching.watch}`, "memory-interaction"));
+          }
           feedback.setAttribute("role", "status"); quiz.append(feedback, button(state.queue.length ? "Next card" : "Finish run", () => next(true), "primary-action memory-next"));
         } else quiz.append(button("Don’t know — show me", () => answer(null)));
         stage.append(figure, quiz); root.append(stage);

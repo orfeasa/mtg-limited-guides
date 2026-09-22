@@ -66,8 +66,11 @@ const interactionKey=[...storage.keys()].find(k=>k.endsWith(':interactions:all')
 const interactionState=()=>JSON.parse(storage.get(interactionKey));
 const missed=interactionState().current;
 assert(!nodes().some(n=>n.className==='memory-context'));
+assert(!nodes().some(n=>n.textContent===set.earlyEvidence.byCard[gasp.id].teaching.why));
 click('Don’t know — show me');
 assert(nodes().some(n=>n.className==='memory-context'));assert(nodes().some(n=>n.className==='memory-interaction'));
+const revealedTeaching=set.earlyEvidence.byCard[interactionState().current]?.teaching;
+if(revealedTeaching) assert(nodes().some(n=>n.textContent===revealedTeaching.why));
 assert.match(nodes().find(n=>n.className==='memory-interaction').innerHTML, /rules-symbol/);
 const attemptKey='card-memory:attempts:v1:fra';
 const beforeAttempts=JSON.parse(storage.get(attemptKey))[missed];

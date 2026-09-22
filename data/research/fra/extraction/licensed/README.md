@@ -1,6 +1,6 @@
 # Licensed source extraction
 
-This directory contains the actual review prose and available video captions, not only passage hashes or numerical grades. It is research-only and is not loaded by the website. Website presentation and cross-source synthesis remain deferred.
+This directory contains the actual review prose and available video captions, not only passage hashes or numerical grades. This directory preserves the research corpus. The website now includes the per-card review passages and the curated teaching in [../../teaching/](../../teaching/); complete article context and automatic-caption exports remain research-only. Wider synthesis is still separate authoring work.
 
 ## Permission
 
@@ -61,7 +61,7 @@ Canonical card joins use the existing grade extraction's verified names and expl
 
 Captions are automatic and may garble card names or omit speech. All available segments are retained, but this does not imply a human reviewed every game or verified video frames. Name matching spans caption boundaries but deliberately does not guess phonetic aliases. The 156 matches are a lower bound on mentions, not an exhaustive semantic map. The two historically annotated games remain the only manually analysed gameplay sample.
 
-Original source text is distinct from our opinion: `extraction: full-source-prose` does not mean we endorse the review. Cross-source reconciliation, contradiction adjudication, role taxonomy and website copy are later work. Original scales are never averaged.
+Original source text is distinct from our opinion: `extraction: full-source-prose` does not mean we endorse the review. Selected priority-card reconciliation and website copy now live in `../../teaching/`; broader reconciliation and transcript interpretation remain later work. Original scales are never averaged.
 
 ## Use and reproduce
 

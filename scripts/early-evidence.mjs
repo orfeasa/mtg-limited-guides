@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 
 // Reviewer identity, not article count, determines coverage. This payload never
 // supplies ranks, tiers, or lifecycle rating confirmation.
@@ -9,7 +10,44 @@ export function compileEarlyEvidence(directory, cards, archetypeIds) {
   const sources = fs.readdirSync(path.join(directory, 'sources')).filter(f => f.endsWith('.json')).sort().map(f => read(`sources/${f}`));
   const synthesis = read('synthesis.json');
   const pilot = read('evidence.json');
-  return validateAndCompile(sources, synthesis, pilot, cards, archetypeIds);
+  const result = validateAndCompile(sources, synthesis, pilot, cards, archetypeIds);
+  const corpus = read('extraction/licensed/card-evidence.json');
+  const teaching = read('teaching/cards.json');
+  attachTeaching(result, corpus, teaching, cards);
+  return result;
+}
+// Publish reviewed teaching separately from attributed source text. A card with
+// two source passages is not automatically a card with an editorial verdict.
+export function attachTeaching(result, corpus, teaching, cards) {
+  const known = new Map(cards.map(c => [c.id, c]));
+  const seen = new Set();
+  for (const card of corpus.cards) {
+    assert(result.byCard[card.cardId] && !seen.has(card.cardId), `Invalid review join ${card.cardId}`);
+    seen.add(card.cardId);
+    assert.equal(card.name, known.get(card.cardId).name);
+    assert.equal(new Set(card.reviewAssessments.map(a => a.dependencyGroup)).size, 2);
+    result.byCard[card.cardId].reviews = card.reviewAssessments.map(a => {
+      assert(a.assessmentText && a.paragraphIds.length && result.sources[a.sourceId]);
+      assert.equal(result.byCard[card.cardId].grades.find(g => g.sourceId === a.sourceId)?.grade, a.grade);
+      return { sourceId: a.sourceId, sectionId: a.sectionId, paragraphIds: a.paragraphIds, text: a.assessmentText, scope: a.scope };
+    });
+  }
+  assert.equal(seen.size, Object.keys(result.byCard).length, 'Missing full reviews');
+  const authored = new Set();
+  for (const note of teaching.cards) {
+    assert(!authored.has(note.cardId), 'Duplicate teaching card');
+    authored.add(note.cardId);
+    const row = result.byCard[note.cardId];
+    assert(row && note.name === known.get(note.cardId).name && note.rulesCardId === note.cardId);
+    for (const field of ['role', 'why', 'better', 'watch']) assert(note[field]?.trim(), `Missing teaching ${field}`);
+    assert.equal(note.basis, 'editorial-reading-of-two-reviews-and-card-rules');
+    assert.deepEqual(note.reviewSectionIds, row.reviews.map(r => r.sectionId));
+    assert.deepEqual(note.paragraphIds, row.reviews.flatMap(r => r.paragraphIds));
+    const basis = [known.get(note.cardId).oracleText, ...row.reviews.map(r => r.text)].join('\n\n---\n\n');
+    assert.equal(note.basisSha256, crypto.createHash('sha256').update(basis).digest('hex'), `Stale teaching basis for ${note.name}`);
+    row.teaching = note;
+  }
+  result.teaching = { version: teaching.version, reviewedAt: teaching.reviewedAt, cards: authored.size };
 }
 export function validateAndCompile(sources, synthesis, pilot, cards, archetypeIds) {
   const known = new Map(cards.map(c => [c.id, c]));

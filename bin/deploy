@@ -22,6 +22,8 @@ node scripts/build-data.mjs
 node scripts/verify-data.mjs
 node scripts/verify-lifecycle.mjs
 node scripts/verify-prep.mjs
+node scripts/verify-teaching.mjs
+node scripts/verify-licensed-research.mjs
 node scripts/verify-memory.mjs
 node scripts/verify-service-worker.mjs
 node scripts/verify-archetype-study.mjs

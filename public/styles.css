@@ -4311,3 +4311,41 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
   .card-preview-evidence { border-top: 1px solid var(--on-binding-muted); padding-top: 20px; }
   .evidence-pair { display: block; margin-left: 18px; }
 }
+
+/* A reading route in the existing field guide, not a second navigation tab. */
+.prep-journey { margin-block: 24px 32px; padding-block: 20px; border-block: 1px solid var(--line); }
+.journey-heading { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.journey-heading h3 { margin: 0; font: 700 1.5rem var(--display); }
+.journey-heading p { margin: 8px 0 16px; color: var(--muted); }
+.prep-journey ol { display: flex; list-style: none; gap: 0; margin: 8px 0 0; padding: 0; }
+.prep-journey li { flex: 1; min-width: 0; }
+.prep-journey nav button { width: 100%; height: 100%; padding: 12px; border: 0; border-bottom: 2px solid var(--line); background: transparent; color: var(--ink); text-align: left; font: inherit; cursor: pointer; }
+.prep-journey nav button[aria-current] { background: var(--surface-deep); border-color: var(--accent-dark); font-weight: 700; }
+.prep-journey nav button:hover { background: var(--surface-light); }
+.prep-journey nav small { display: block; margin-top: 6px; color: var(--muted); font-size: .8rem; font-weight: 400; }
+.journey-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 24px; padding-top: 24px; border-top: 1px solid var(--line); }
+.journey-actions button { padding: 12px 16px; cursor: pointer; font: inherit; }
+.journey-actions button:not(.primary-button) { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+.journey-actions button[aria-pressed="true"] { background: var(--surface-deep); border-color: var(--accent-dark); }
+.journey-actions button:disabled { opacity: .55; cursor: default; }
+.journey-note { color: var(--muted); font-size: .85rem; }
+.prep-section h3 { scroll-margin-top: calc(var(--tab-height) + 24px); }
+.prep-review-difference summary { padding-block: 12px; cursor: pointer; }
+.evidence-full-reviews { margin-block: 24px; border-block: 1px solid var(--on-binding-muted); }
+.evidence-full-reviews summary { cursor: pointer; padding-block: 14px; }
+.evidence-review { border-top: 1px solid var(--on-binding-muted); }
+.evidence-review-text { max-width: 70ch; overflow-wrap: anywhere; }
+.card-preview-evidence h4 { margin: 24px 0 6px; }
+.card-preview-evidence h4 + p { margin-top: 0; }
+.card-preview-back { display: block; margin-bottom: 20px; padding: 10px 0; border: 0; background: transparent; color: var(--on-binding); text-decoration: underline; text-underline-offset: 4px; font: inherit; cursor: pointer; }
+@media (max-width: 700px) {
+  .journey-heading { align-items: flex-start; flex-direction: column; gap: 0; }
+  .prep-journey ol { flex-direction: column; margin-top: 20px; }
+  .prep-journey nav button { display: flex; justify-content: space-between; align-items: center; gap: 12px; min-height: 52px; padding: 10px; border-bottom-width: 1px; }
+  .prep-journey nav small { flex-shrink: 0; margin: 0; }
+  .journey-actions { align-items: stretch; }
+  .journey-actions .primary-button { flex-basis: 100%; }
+}
+
+.prep-journey .primary-button, .journey-actions .primary-button { padding: 12px 18px; border: 1px solid var(--accent-dark); background: var(--accent-dark); color: var(--surface-light); font: 700 1rem var(--body); cursor: pointer; }
+.prep-journey .primary-button:hover, .journey-actions .primary-button:hover { background: var(--binding); }
