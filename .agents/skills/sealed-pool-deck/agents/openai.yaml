@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sealed Pool Deck"
+  short_description: "Build a sealed deck from pool photos and repo evidence"
+  default_prompt: "Use $sealed-pool-deck to identify my photographed sealed pool and recommend the strongest supported deck with a mana base and sideboard plan."
