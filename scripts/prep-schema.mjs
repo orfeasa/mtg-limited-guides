@@ -20,7 +20,7 @@ export function validatePrep(guide, set) {
     const content = guide.formats?.[format];
     check(prose(content?.intro) && content.steps?.length > 0 && content.steps.every((s) => prose(s.title) && prose(s.text)), `missing ${format} guidance`);
   }
-  for (const collection of ["mechanics", "roles", "checklist", "exercises"]) {
+  for (const collection of ["mechanics", "roles", "exercises"]) {
     const items = guide[collection];
     check(Array.isArray(items) && items.length > 0 && unique(items, "id") && items.every((item) => /^[a-z0-9-]+$/.test(item.id)), `invalid ${collection} IDs`);
   }
@@ -42,7 +42,6 @@ export function validatePrep(guide, set) {
     const card = set.cards.find((c) => c.name === item.card);
     check(prose(item.note) && (card.typeLine.includes("Instant") || card.keywords.includes("Flash")), `not instant-speed: ${item.card}`);
   }
-  check(guide.checklist.every((item) => prose(item.text)), "empty checklist text");
   for (const q of guide.exercises) {
     check(prose(q.question) && prose(q.explanation) && q.options?.length >= 2 && q.options.every(prose) && new Set(q.options).size === q.options.length, "incomplete exercise");
     check(Number.isInteger(q.answer) && q.answer >= 0 && q.answer < q.options.length, "invalid answer");
@@ -71,14 +70,13 @@ export function validatePrep(guide, set) {
     const team = guide.twoHeadedGiant;
     check(team && prose(team.intro), "missing team introduction");
     check(team.sources?.length > 0 && team.sources.every((s) => prose(s.label) && /^https:\/\//.test(s.url)), "missing team sources");
-    for (const collection of ["rules", "checklist", "exercises"]) {
+    for (const collection of ["rules", "exercises"]) {
       const items = team[collection];
       check(Array.isArray(items) && items.length > 0 && unique(items, "id") && items.every((item) => /^[a-z0-9-]+$/.test(item.id)), `invalid team ${collection} IDs`);
     }
     check(team.rules.every((r) => prose(r.title) && prose(r.text)), "incomplete team rule");
     check(team.cards?.length > 0 && unique(team.cards, "card"), "invalid team cards");
     for (const item of team.cards) { ref(item.card); check(prose(item.note), "missing team card note"); }
-    check(team.checklist.every((item) => prose(item.text)), "empty team checklist text");
     for (const q of team.exercises) {
       check(prose(q.question) && prose(q.explanation) && q.options?.length >= 2 && q.options.every(prose) && new Set(q.options).size === q.options.length, "incomplete team exercise");
       check(Number.isInteger(q.answer) && q.answer >= 0 && q.answer < q.options.length, "invalid team answer");

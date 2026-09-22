@@ -131,7 +131,6 @@
       record.attempts++;
       if (value !== effect(byId.get(state.current))) {
         record.misses++;
-        if (set.earlyEvidence?.teaching) window.PREP_REVIEW?.add(set, "card", state.current);
       }
       if (value === effect(byId.get(state.current))) {
         if (!state.cleared.includes(state.current)) state.cleared.push(state.current);
@@ -200,7 +199,6 @@
           if (context.interaction) quiz.append(el("p", `${card.manaCost} · ${context.interaction.note}`, "memory-interaction"));
           const teaching = set.earlyEvidence?.byCard[card.id]?.teaching;
           if (teaching) {
-            if (window.PREP_REVIEW) { const mark = el("div"); mark.innerHTML = window.PREP_REVIEW.button(set, "card", card.id); quiz.append(mark); }
             quiz.append(el("h4", teaching.role), el("p", teaching.why), el("p", `Watch for: ${teaching.watch}`, "memory-interaction"));
           }
           feedback.setAttribute("role", "status"); quiz.append(feedback, button(state.queue.length ? "Next card" : "Finish run", () => next(true), "primary-action memory-next"));

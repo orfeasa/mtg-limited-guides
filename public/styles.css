@@ -4103,9 +4103,6 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
 .prep-steps p { margin: 0; }
 #prep-archetypes, .prep-retry { min-height: 44px; padding: 8px 16px; border: 1px solid var(--line); border-radius: 3px; font: 700 .94rem var(--body); cursor: pointer; color: var(--ink); background: var(--surface-light); }
 #prep-archetypes { color: var(--on-binding); background: var(--binding); border-color: var(--binding); }
-.prep-checks { max-width: 76ch; margin-bottom: 18px; }
-.prep-checks label { display: flex; align-items: flex-start; gap: 14px; padding: 14px 0; line-height: 1.6; cursor: pointer; border-bottom: 1px solid var(--line); }
-.prep-checks input { flex: 0 0 auto; width: 20px; height: 20px; margin-top: 3px; accent-color: var(--accent-dark); }
 .prep-question { min-width: 0; border: 0; border-top: 1px solid var(--line); padding: 22px 0 28px; margin: 28px 0 0; max-width: 76ch; }
 .prep-question legend { padding-right: 16px; font-weight: 700; line-height: 1.6; }
 .prep-options { display: grid; gap: 8px; margin: 14px 0; }
@@ -4316,19 +4313,15 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
 .prep-journey { margin-block: 24px 32px; padding-block: 20px; border-block: 1px solid var(--line); }
 .journey-heading { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
 .journey-heading h3 { margin: 0; font: 700 1.5rem var(--display); }
-.journey-heading p { margin: 8px 0 16px; color: var(--muted); }
 .prep-journey ol { display: flex; list-style: none; gap: 0; margin: 8px 0 0; padding: 0; }
 .prep-journey li { flex: 1; min-width: 0; }
 .prep-journey nav button { width: 100%; height: 100%; padding: 12px; border: 0; border-bottom: 2px solid var(--line); background: transparent; color: var(--ink); text-align: left; font: inherit; cursor: pointer; }
 .prep-journey nav button[aria-current] { background: var(--surface-deep); border-color: var(--accent-dark); font-weight: 700; }
 .prep-journey nav button:hover { background: var(--surface-light); }
-.prep-journey nav small { display: block; margin-top: 6px; color: var(--muted); font-size: .8rem; font-weight: 400; }
 .journey-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 24px; padding-top: 24px; border-top: 1px solid var(--line); }
 .journey-actions button { padding: 12px 16px; cursor: pointer; font: inherit; }
 .journey-actions button:not(.primary-button) { background: transparent; color: var(--ink); border: 1px solid var(--line); }
-.journey-actions button[aria-pressed="true"] { background: var(--surface-deep); border-color: var(--accent-dark); }
 .journey-actions button:disabled { opacity: .55; cursor: default; }
-.journey-note { color: var(--muted); font-size: .85rem; }
 .prep-section h3 { scroll-margin-top: calc(var(--tab-height) + 24px); }
 .prep-review-difference summary { padding-block: 12px; cursor: pointer; }
 .evidence-full-reviews { margin-block: 24px; border-block: 1px solid var(--on-binding-muted); }
@@ -4342,7 +4335,6 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
   .journey-heading { align-items: flex-start; flex-direction: column; gap: 0; }
   .prep-journey ol { flex-direction: column; margin-top: 20px; }
   .prep-journey nav button { display: flex; justify-content: space-between; align-items: center; gap: 12px; min-height: 52px; padding: 10px; border-bottom-width: 1px; }
-  .prep-journey nav small { flex-shrink: 0; margin: 0; }
   .journey-actions { align-items: stretch; }
   .journey-actions .primary-button { flex-basis: 100%; }
 }
@@ -4350,17 +4342,8 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
 .prep-journey .primary-button, .journey-actions .primary-button { padding: 12px 18px; border: 1px solid var(--accent-dark); background: var(--accent-dark); color: var(--surface-light); font: 700 1rem var(--body); cursor: pointer; }
 .prep-journey .primary-button:hover, .journey-actions .primary-button:hover { background: var(--binding); }
 
-/* Revisit specific learning needs without leaving the preparation path. */
-.prep-review-mark { margin: .35rem 0 .65rem; padding: .5rem .75rem; border: 1px solid var(--line); border-radius: 8px; background: var(--surface-light); color: var(--ink); cursor: pointer; }
-.prep-review-mark[aria-pressed="true"] { background: var(--surface); color: var(--accent-dark); border-color: var(--accent-dark); }
-.prep-review-list { margin: 1.25rem 0 2rem; padding: 1rem 0; border-block: 1px solid var(--line); }
-.prep-review-list > summary { font-weight: 700; cursor: pointer; }
-.prep-review-list ul { list-style: none; padding: 0; }
-.prep-review-list li { display: flex; align-items: start; justify-content: space-between; gap: 1rem; padding: 1rem 0; border-bottom: 1px solid var(--line); }
-.prep-review-list li > div { min-width: 0; }
-.prep-review-list li > button { flex-shrink: 0; }
-.prep-review-list li p { margin: .5rem 0; }
-.prep-review-list summary, .prep-question legend { scroll-margin-top: calc(var(--tab-height, 62px) + 24px); }
+/* Situational practice. */
+.prep-question legend { scroll-margin-top: calc(var(--tab-height, 62px) + 24px); }
 .prep-decision-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-top: 1.5rem; }
 .prep-decision-heading h4 { font-size: 1.25rem; margin: 0; }
 .prep-decision-heading span { color: var(--muted); font-size: .875rem; font-variant-numeric: tabular-nums; }
@@ -4370,10 +4353,7 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
 #prep-rules-checks > summary { font-weight: 700; cursor: pointer; padding: 1rem 0; }
 @media (max-width: 560px) {
   .prep-decision-heading { display: block; }
-  .prep-review-list li { flex-direction: column; }
   .prep-decision-nav button { flex: 1; }
 }
-#prep-decisions, .prep-review-list > ul { max-width: 72ch; }
-.prep-review-control { display: block; }
-.prep-review-storage:not([hidden]) { display: block; color: var(--ink); margin-bottom: .75rem; }
+#prep-decisions { max-width: 72ch; }
 #prep-decisions { scroll-margin-top: calc(var(--tab-height, 62px) + 24px); }

@@ -86,16 +86,6 @@
     {"card":"Konstrari Charm","note":"Can give two +1/+1 counters and trample, or deal six damage to a flying creature."},
     {"card":"Vigorbloom Charm","note":"Can protect a permanent with hexproof and indestructible, or add a counter before a fight."}
   ],
-  "checklist": [
-    {"id":"size","text":"I have at least 40 cards. I am aiming for 40 so I draw my best cards more often."},
-    {"id":"lands","text":"I have checked my lands and coloured sources. About 17 lands is a starting point, adjusted for my curve and mana sources."},
-    {"id":"early","text":"I can affect the board in the early turns, not just cast powerful late spells."},
-    {"id":"win","text":"I can explain how this deck wins and which cards help that plan."},
-    {"id":"answers","text":"I know what my removal can target, what it costs, and which threats it cannot answer."},
-    {"id":"support","text":"My build-arounds have enough support; my splash is backed by fixing."},
-    {"id":"sideboard","text":"I know my sideboard options, including colour-specific answers and artifact, enchantment, or flying hate."},
-    {"id":"table","text":"I have sleeves, dice or loyalty counters, and a way to represent this set's tokens. I can ask the event judge about unfamiliar interactions."}
-  ],
   "exercises": [
     {"id":"jace-token","question":"You control a nontoken Jace planeswalker and no Jace tokens. You empower Jace 2. What happens?","options":["Put two loyalty on the nontoken Jace","Create a Jace token and put two loyalty on it","Choose either option"],"answer":1,"explanation":"Empower specifically checks for a Jace token. Your nontoken planeswalker does not meet that condition.","cards":["Arcane Amphisbaena"]},
     {"id":"prepare-leaves","question":"Your prepared Fatehold Chronologist leaves the battlefield before you cast Peer Review. Can you still cast that prepared copy?","options":["Yes, until the end of the turn","Yes, whenever I can pay for it","No, the uncast copy ceases to exist"],"answer":2,"explanation":"The prepared copy is tied to that permanent. This question is about a copy not yet cast, not a spell already on the stack.","cards":["Fatehold Chronologist // Peer Review"]},
@@ -173,36 +163,6 @@
       {
         "card": "Garruk, Veiled Butcher",
         "note": "The −2 makes every player sacrifice a creature, including your partner. Only you create the Beast, and only if you sacrificed a creature this way. Discuss your partner’s loss before activating."
-      }
-    ],
-    "checklist": [
-      {
-        "id": "pool",
-        "text": "We pooled our cards and compared two complete decks before allocating the strongest cards. Each deck has at least 40 cards; aiming for 40 is advice, not an upper limit."
-      },
-      {
-        "id": "mana",
-        "text": "We checked each deck’s curve, coloured sources and early plays separately. Around 17 lands per 40-card deck is a starting point, adjusted for its needs."
-      },
-      {
-        "id": "plans",
-        "text": "We can explain how both decks contribute to winning. We have not forced an aggro/control split or put every expensive threat in one deck."
-      },
-      {
-        "id": "support",
-        "text": "We kept each engine with its enablers: our graveyards, artifacts, Jace tokens and “you control” payoffs are not shared."
-      },
-      {
-        "id": "answers",
-        "text": "We allocated removal and fixing deliberately, and know which answers or tricks can help the other player’s board."
-      },
-      {
-        "id": "communicate",
-        "text": "We will discuss keeps, mana to leave open, attacks and blocks before committing. We know which effects also hit our teammate."
-      },
-      {
-        "id": "ready",
-        "text": "We have a shared life tracker, separate tokens and loyalty counters, and have checked the organiser’s pool contents and round rules."
       }
     ],
     "exercises": [

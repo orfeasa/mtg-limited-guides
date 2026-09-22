@@ -45,25 +45,21 @@ class Node {
   querySelector(s){if(!this.nodes.has(s))this.nodes.set(s,new Node());return this.nodes.get(s);}
   focus(){} scrollIntoView(){} insertAdjacentHTML(_,s){this.innerHTML+=s;}
 }
-const storage=new Map();const root=new Node();
-const browser={window:{},location:{hash:'',pathname:'/',search:'?view=prep'},history:{replaceState(){}},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)}};
+
+const root=new Node();
+const browser={window:{},location:{hash:'',pathname:'/',search:'?view=prep'},history:{replaceState(){}}};
 vm.runInNewContext(fs.readFileSync('public/prep-journey.js','utf8'),browser);
 const api=browser.window.PREP_JOURNEY;
 const host=root.querySelector('#prep-journey'),footer=root.querySelector('#prep-journey-actions');
 const click=(node,dataset)=>node.onclick({target:{closest:()=>({dataset})}});
-const mount=(format='sealed')=>api.mount(root,set,format);
-const key='limited-prep:journey:fra:v1:sealed';
-storage.set(key,'corrupt json'); mount();assert(host.innerHTML.includes('0 of 5'));
-click(host,{journey:'continue'});click(footer,{journey:'complete'});click(footer,{journey:'review'});
-mount();assert(host.innerHTML.includes('1 of 5 lessons completed · 1 marked for review'));
+api.mount(root);
+assert(!root.querySelector('#prep-mechanics').hidden);
+click(footer,{journey:'next'});
 assert(root.querySelector('#prep-mechanics').hidden);assert(!root.querySelector('#prep-cards').hidden);
-click(footer,{journey:'complete'});assert(host.innerHTML.includes('2 of 5 lessons completed · 1 marked for review'));
-mount('draft');assert(host.innerHTML.includes('0 of 5'));mount();assert(host.innerHTML.includes('2 of 5'));
-click(footer,{journey:'complete'});click(footer,{journey:'complete'});click(footer,{journey:'complete'});
-assert(host.innerHTML.includes('5 of 5'));click(footer,{journey:'complete'});assert(host.innerHTML.includes('4 of 5'));
-browser.location.hash='#prep-play-around';mount();assert(!root.querySelector('#prep-play-around').hidden);
-assert(root.querySelector('#prep-practice').hidden);
-browser.localStorage.setItem=()=>{throw new Error('quota');};click(footer,{journey:'review'});mount();assert(host.innerHTML.includes('Storage unavailable'));
-const clean=JSON.parse(JSON.stringify(api.clean({current:'unknown',completed:['cards','cards','bad'],review:'cards'})));
-assert.deepEqual(clean,{current:'mechanics',started:false,completed:['cards'],review:[]});
-console.log('Verified journey completion, review retention, reload, format isolation, corrupt/blocked storage, and incoming guide anchors.');
+click(footer,{journey:'previous'});assert(!root.querySelector('#prep-mechanics').hidden);
+click(host,{step:'connections'});assert(!root.querySelector('#prep-combinations').hidden);assert(!root.querySelector('#prep-colours').hidden);
+browser.location.hash='#prep-play-around';api.mount(root);
+assert(!root.querySelector('#prep-play-around').hidden);assert(root.querySelector('#prep-practice').hidden);
+browser.location.hash='#prep-checklist';api.mount(root);assert(!root.querySelector('#prep-practice').hidden);
+assert(!/completed|Mark for review|Storage unavailable/.test(host.innerHTML+footer.innerHTML));
+console.log('Verified lesson navigation and incoming guide anchors without browser storage or completion tracking.');
