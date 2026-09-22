@@ -1,0 +1,421 @@
+{
+  "schemaVersion": 1,
+  "set": "FRA",
+  "capturedAt": "2026-09-22",
+  "status": "research-only",
+  "selection": "Purposive pilot; incomplete card and source coverage.",
+  "sources": [
+    {
+      "id": "zone-green",
+      "url": "https://mtgazone.com/reality-fracture-fra-limited-set-review-green/",
+      "author": "J2SJosh",
+      "dependencyGroup": "j2sjosh",
+      "kind": "review",
+      "format": "Limited-unspecified",
+      "scale": {
+        "min": 0,
+        "max": 5
+      }
+    },
+    {
+      "id": "draftsim",
+      "url": "https://draftsim.com/mtg-fra-limited-set-review/",
+      "author": "Andrew Quinn",
+      "dependencyGroup": "andrew-quinn",
+      "kind": "review",
+      "format": "Limited-unspecified",
+      "scale": {
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "tcc110",
+      "url": "https://www.youtube.com/watch?v=3r3md8snmJo",
+      "author": "Tolarian Community College",
+      "dependencyGroup": "tcc110",
+      "kind": "gameplay-transcript",
+      "format": "Sealed",
+      "framesVerified": false
+    }
+  ],
+  "assessments": [
+    {
+      "id": "review-01",
+      "sourceId": "zone-green",
+      "cardId": "a56e0f91-b128-4693-a949-53cb403f4fbf",
+      "cardName": "Greenhouse Propagator",
+      "locator": {
+        "heading": "Greenhouse Propagator"
+      },
+      "grade": 2,
+      "paraphrase": "Needs lifegain payoffs.",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "review-02",
+      "sourceId": "zone-green",
+      "cardId": "910a1f41-17fd-4ab0-9597-7151e79dc760",
+      "cardName": "Heartwood Crafter // Soul Tether",
+      "locator": {
+        "heading": "Heartwood Crafter"
+      },
+      "grade": 2,
+      "paraphrase": "Restricted mana; support-dependent, poor late.",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "review-03",
+      "sourceId": "zone-green",
+      "cardId": "930b89c3-4433-48de-829f-20fc3dbfced9",
+      "cardName": "Gardenize",
+      "locator": {
+        "heading": "Gardenize"
+      },
+      "grade": 0,
+      "paraphrase": "Setup delays an already-late mana payoff.",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "review-04",
+      "sourceId": "zone-green",
+      "cardId": "90ca5812-ceb5-46bd-b049-aed7ff10e6af",
+      "cardName": "Garruk, Curse Breaker",
+      "locator": {
+        "heading": "Garruk, Curse Breaker"
+      },
+      "grade": 5,
+      "paraphrase": "Self-protection and repeatable card advantage.",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "review-05",
+      "sourceId": "zone-green",
+      "cardId": "3546b93b-a7d1-451d-a369-22cc8ddcd00d",
+      "cardName": "Restore with Empathy",
+      "locator": {
+        "heading": "Restore with Empathy"
+      },
+      "grade": 2,
+      "paraphrase": "Instant speed and life add flexibility.",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "review-06",
+      "sourceId": "zone-green",
+      "cardId": "f71958e9-6d6d-4393-8b49-567103b50877",
+      "cardName": "Flourishing Grapple",
+      "locator": {
+        "heading": "Flourishing Grapple"
+      },
+      "grade": 0.5,
+      "paraphrase": "Matchup-specific sideboard option.",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "review-07",
+      "sourceId": "draftsim",
+      "cardId": "a56e0f91-b128-4693-a949-53cb403f4fbf",
+      "cardName": "Greenhouse Propagator",
+      "locator": {
+        "heading": "Greenhouse Propagator"
+      },
+      "grade": 4,
+      "paraphrase": "Ramp and lifegain; assumes a slower format.",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "review-08",
+      "sourceId": "draftsim",
+      "cardId": "910a1f41-17fd-4ab0-9597-7151e79dc760",
+      "cardName": "Heartwood Crafter // Soul Tether",
+      "locator": {
+        "heading": "Heartwood Crafter"
+      },
+      "grade": 6,
+      "paraphrase": "Values early ramp, especially Konstrari.",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "review-09",
+      "sourceId": "draftsim",
+      "cardId": "930b89c3-4433-48de-829f-20fc3dbfced9",
+      "cardName": "Gardenize",
+      "locator": {
+        "heading": "Gardenize"
+      },
+      "grade": 0,
+      "paraphrase": "Unreliable, delayed mana.",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "review-10",
+      "sourceId": "draftsim",
+      "cardId": "90ca5812-ceb5-46bd-b049-aed7ff10e6af",
+      "cardName": "Garruk, Curse Breaker",
+      "locator": {
+        "heading": "Garruk, Curse Breaker"
+      },
+      "grade": 10,
+      "paraphrase": "Immediate body and draw.",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "review-11",
+      "sourceId": "draftsim",
+      "cardId": "3546b93b-a7d1-451d-a369-22cc8ddcd00d",
+      "cardName": "Restore with Empathy",
+      "locator": {
+        "heading": "Restore with Empathy"
+      },
+      "grade": 4,
+      "paraphrase": "Life buffers recursion tempo cost.",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "review-12",
+      "sourceId": "draftsim",
+      "cardId": "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8",
+      "cardName": "Bloombrute",
+      "locator": {
+        "heading": "Bloombrute"
+      },
+      "grade": 7,
+      "paraphrase": "Vigorbloom draw engine and racing payoff.",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "review-13",
+      "sourceId": "draftsim",
+      "cardId": "11ba4fdd-cc03-4bb6-a493-91a9785771d0",
+      "cardName": "No Admittance",
+      "locator": {
+        "heading": "No Admittance"
+      },
+      "grade": 5,
+      "paraphrase": "Efficient removal; sorcery restriction.",
+      "evidenceType": "reviewer-opinion"
+    },
+    {
+      "id": "review-14",
+      "sourceId": "draftsim",
+      "cardId": "1d535b5f-c916-4f16-89a7-9477578826d2",
+      "cardName": "Ghalta the Unstoppable",
+      "locator": {
+        "heading": "Ghalta the Unstoppable"
+      },
+      "grade": 4,
+      "paraphrase": null,
+      "evidenceType": "reviewer-opinion"
+    }
+  ],
+  "observations": [
+    {
+      "id": "game-01",
+      "sourceId": "tcc110",
+      "gameId": "jim-kenji",
+      "startSeconds": 2462,
+      "timeLabel": "41:02\u201341:32",
+      "cardIds": [
+        "3b6ac80e-c726-4bd0-893a-e666041a04a6"
+      ],
+      "cardNames": [
+        "Hexhaven Battalion"
+      ],
+      "observation": "Jim cycles Hexhaven Battalion for a Swamp.",
+      "interpretation": "Actual evidence of fixing a splash, not of Battalion's battlefield strength.",
+      "evidenceType": "narrated-sequence",
+      "ambiguity": "Automatic captions; no video-frame verification. Selected sequence, not exhaustive log."
+    },
+    {
+      "id": "game-02",
+      "sourceId": "tcc110",
+      "gameId": "jim-kenji",
+      "startSeconds": 2662,
+      "timeLabel": "44:22\u201345:37",
+      "cardIds": [
+        "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8",
+        "a56e0f91-b128-4693-a949-53cb403f4fbf",
+        "de94d388-919d-44ff-baef-8c90a417ac6d"
+      ],
+      "cardNames": [
+        "Bloombrute",
+        "Greenhouse Propagator",
+        "Emergency Phytomedic // Seed Suture"
+      ],
+      "observation": "Bloombrute enters beside Greenhouse Propagator; Jim gains life and draws. Propagator then funds Emergency Phytomedic. A second life-gain event does not draw again.",
+      "interpretation": "Propagator supplies both mana and an engine trigger. Bloombrute's once-per-turn restriction matters.",
+      "evidenceType": "narrated-sequence",
+      "ambiguity": "Automatic captions; no video-frame verification. Selected sequence, not exhaustive log."
+    },
+    {
+      "id": "game-03",
+      "sourceId": "tcc110",
+      "gameId": "jim-kenji",
+      "startSeconds": 2868,
+      "timeLabel": "47:48\u201348:05",
+      "cardIds": [
+        "9028d31f-9c41-47e3-885b-6a869bca8178",
+        "a56e0f91-b128-4693-a949-53cb403f4fbf",
+        "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8"
+      ],
+      "cardNames": [
+        "Massacre Girl, Most Wanted",
+        "Greenhouse Propagator",
+        "Bloombrute"
+      ],
+      "observation": "Massacre Girl enters; Propagator triggers life gain and another Bloombrute draw.",
+      "interpretation": "A normal creature deployment can also replenish the hand when the engine is assembled.",
+      "evidenceType": "narrated-sequence",
+      "ambiguity": "Automatic captions; no video-frame verification. Selected sequence, not exhaustive log."
+    },
+    {
+      "id": "game-04",
+      "sourceId": "tcc110",
+      "gameId": "jim-kenji",
+      "startSeconds": 2953,
+      "timeLabel": "49:13\u201349:39",
+      "cardIds": [
+        "5142bbb6-194c-4b12-b11a-1a21c9fe81a6",
+        "a56e0f91-b128-4693-a949-53cb403f4fbf"
+      ],
+      "cardNames": [
+        "Solitary Cell",
+        "Greenhouse Propagator"
+      ],
+      "observation": "Solitary Cell targets Greenhouse Propagator.",
+      "interpretation": "Cheap support creatures can be meaningful removal targets; Cell's mana-value restriction limits its alternatives.",
+      "evidenceType": "narrated-sequence",
+      "ambiguity": "Automatic captions; no video-frame verification. Selected sequence, not exhaustive log."
+    },
+    {
+      "id": "game-05",
+      "sourceId": "tcc110",
+      "gameId": "jim-kenji",
+      "startSeconds": 3306,
+      "timeLabel": "55:06\u201355:58",
+      "cardIds": [
+        "3546b93b-a7d1-451d-a369-22cc8ddcd00d",
+        "de94d388-919d-44ff-baef-8c90a417ac6d",
+        "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8"
+      ],
+      "cardNames": [
+        "Restore with Empathy",
+        "Emergency Phytomedic // Seed Suture",
+        "Bloombrute"
+      ],
+      "observation": "Restore with Empathy returns Emergency Phytomedic, gains four life and triggers a Bloombrute draw.",
+      "interpretation": "Recursion provides stabilization and additional cards in this shell; that extra draw depends on Bloombrute.",
+      "evidenceType": "narrated-sequence",
+      "ambiguity": "Automatic captions; no video-frame verification. Selected sequence, not exhaustive log."
+    },
+    {
+      "id": "game-06",
+      "sourceId": "tcc110",
+      "gameId": "jim-kenji",
+      "startSeconds": 3472,
+      "timeLabel": "57:52\u201358:40",
+      "cardIds": [
+        "d5cb9810-3c2d-4ae4-b8b6-0155ca3f47ad",
+        "de94d388-919d-44ff-baef-8c90a417ac6d",
+        "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8"
+      ],
+      "cardNames": [
+        "Danitha, Sword of Hope",
+        "Emergency Phytomedic // Seed Suture",
+        "Bloombrute"
+      ],
+      "observation": "Jim casts Danitha before Seed Suture. Targeting draws through Danitha; resolving the spell gains life and draws through Bloombrute.",
+      "interpretation": "Strong, demonstrated interaction: Seed Suture adds a counter and life while triggering two draws. Requires both payoff creatures.",
+      "evidenceType": "narrated-sequence",
+      "ambiguity": "Automatic captions; no video-frame verification. Selected sequence, not exhaustive log."
+    },
+    {
+      "id": "game-07",
+      "sourceId": "tcc110",
+      "gameId": "jim-kenji",
+      "startSeconds": 3595,
+      "timeLabel": "59:55\u20131:00:29",
+      "cardIds": [
+        "d3acf176-ef02-4729-88c4-0f0dfbfdada4",
+        "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8"
+      ],
+      "cardNames": [
+        "Surgical Precision",
+        "Bloombrute"
+      ],
+      "observation": "Kenji says knowledge of the lifelink ability would have changed his earlier removal choice. Jim then uses Surgical Precision's draw/life mode and draws again from Bloombrute.",
+      "interpretation": "Useful modal-spell synergy, but the engine's survival was influenced by unfamiliarity with the cards.",
+      "evidenceType": "narrated-sequence",
+      "ambiguity": "Automatic captions; no video-frame verification. Selected sequence, not exhaustive log."
+    },
+    {
+      "id": "game-08",
+      "sourceId": "tcc110",
+      "gameId": "jim-kenji",
+      "startSeconds": 3732,
+      "timeLabel": "1:02:12\u20131:08:36",
+      "cardIds": [
+        "08657053-86f9-4c52-abf0-d9cdd443ae3b",
+        "2f5345ae-4489-4d05-b2d5-c71285254f05"
+      ],
+      "cardNames": [
+        "Kiora of Fire and Ashes",
+        "Memory Trap"
+      ],
+      "observation": "Kiora produces a Dragon on entry and another in response to Memory Trap. Jim attacks and the game ends in his favour.",
+      "interpretation": "Kiora retains value through removal. Losing this game is not evidence that Kiora is weak.",
+      "evidenceType": "narrated-sequence",
+      "ambiguity": "Automatic captions; no video-frame verification. Selected sequence, not exhaustive log."
+    },
+    {
+      "id": "game-09",
+      "sourceId": "tcc110",
+      "gameId": "jim-marshall",
+      "startSeconds": 4462,
+      "timeLabel": "1:14:22\u20131:16:19",
+      "cardIds": [
+        "11ba4fdd-cc03-4bb6-a493-91a9785771d0",
+        "b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0",
+        "a56e0f91-b128-4693-a949-53cb403f4fbf"
+      ],
+      "cardNames": [
+        "No Admittance",
+        "Keeper of the Quiet Hour",
+        "Greenhouse Propagator"
+      ],
+      "observation": "Marshall's two No Admittance casts remove Keeper of the Quiet Hour and Greenhouse Propagator. Each is followed by a Jace surveil; Gallia maintains pressure.",
+      "interpretation": "Removal also improves draw quality and helps prevent Jim establishing his engine.",
+      "evidenceType": "narrated-sequence",
+      "ambiguity": "Automatic captions; no video-frame verification. Selected sequence, not exhaustive log."
+    },
+    {
+      "id": "game-10",
+      "sourceId": "tcc110",
+      "gameId": "jim-marshall",
+      "startSeconds": 4814,
+      "timeLabel": "1:20:14\u20131:27:38",
+      "cardIds": [
+        "bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5",
+        "b8dfd087-2434-42c6-ac4c-1decbcdde2db",
+        "eb4b6ed8-782e-4473-abc9-d50bf2275c6a"
+      ],
+      "cardNames": [
+        "Ajani Unrelenting",
+        "Yoshimaru, Scrappy Stray",
+        "Extended Absence"
+      ],
+      "observation": "Ajani repeatedly generates Cadets. Yoshimaru enables a fight removing Danitha; Extended Absence exiles Massacre Girl; Marshall wins after further board development.",
+      "interpretation": "Ajani converts a protected board into a growing threat. Removal support is part of the result.",
+      "evidenceType": "narrated-sequence",
+      "ambiguity": "Automatic captions; no video-frame verification. Selected sequence, not exhaustive log."
+    }
+  ],
+  "gameSample": {
+    "episodes": 1,
+    "games": 2,
+    "uniquePlayers": 3,
+    "repeatedDeck": "Jim Davis",
+    "representative": false
+  }
+}
