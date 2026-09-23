@@ -20,12 +20,11 @@
     const card = set.cards.find(c => c.id === id);
     return `<button type="button" class="evidence-card" data-evidence-card="${escape(id)}">${pictures ? `<img src="${escape(card.trainingImage || card.image)}" data-fallback-image="${escape(card.image)}" alt="" loading="lazy" width="244" height="340">` : ''}<span>${escape(card.name)}</span></button>`;
   }).join('')}</div>`;
-  function combination(set, id, { pictures = false, recall = false } = {}) {
+  function combination(set, id, { pictures = false } = {}) {
     const evidence = set.earlyEvidence;
     const item = evidence.combinations[id];
     return `${cardLinks(set, item.cardIds, pictures)}<p>${text(item.explanation)}</p><p class="evidence-condition"><strong>Check first:</strong> ${text(item.requirements)}</p>
-      ${recall && item.question ? `<p class="evidence-question">${text(item.question)}</p><details class="evidence-answer"><summary>Reveal answer</summary><p>${text(item.answer)}</p></details>` : ''}
-      <details class="evidence-sources"><summary>Why this lesson?</summary><p>Our reading of the card rules, informed by these early reviews:</p><ul>${item.sourceClaimIds.map(id => claim(evidence, id)).join('')}</ul>
+      <details class="evidence-sources"><summary>Sources</summary><p>Our reading of the card rules, informed by these early reviews:</p><ul>${item.sourceClaimIds.map(id => claim(evidence, id)).join('')}</ul>
       ${item.gameObservationIds.length ? `<p>Also narrated in Sealed footage (automatic captions; frames unverified):</p><ul>${item.gameObservationIds.map(id => {
         const row = evidence.observations[id];
         return `<li>${text(row.observation)} ${sourceLink(evidence, row)} · ${escape(row.timeLabel)}</li>`;
@@ -34,9 +33,9 @@
   function prep(set) {
     const evidence = set.earlyEvidence;
     if (!evidence) return '';
-    return `<section id="prep-combinations" class="prep-section" aria-labelledby="prep-combinations-title"><h3 id="prep-combinations-title">See how the cards work together</h3><p>Choose a colour pair. Read the cards, then test the timing or deck requirement that makes the combination work.</p><div class="evidence-lessons">${evidence.lessonIds.map(id => {
+    return `<section id="prep-combinations" class="prep-section" aria-labelledby="prep-combinations-title"><h3 id="prep-combinations-title">See how the cards work together</h3><p>Choose a colour pair. Explore how the cards interact and what each combination needs.</p><div class="evidence-lessons">${evidence.lessonIds.map(id => {
       const item = evidence.combinations[id];
-      return `<details class="evidence-lesson"><summary><span class="evidence-pair">${escape(pair(item.archetypeIds[0]))}</span> ${escape(item.title)}</summary><div class="evidence-lesson-body">${combination(set, id, { pictures: true, recall: true })}</div></details>`;
+      return `<details class="evidence-lesson"><summary><span class="evidence-pair">${escape(pair(item.archetypeIds[0]))}</span> ${escape(item.title)}</summary><div class="evidence-lesson-body">${combination(set, id, { pictures: true })}</div></details>`;
     }).join('')}</div></section>`;
   }
   function archetype(set, id) {

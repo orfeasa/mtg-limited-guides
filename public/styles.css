@@ -4279,8 +4279,7 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
 .evidence-cards--pictured img { display: block; width: 100%; height: auto; margin-bottom: 8px; border-radius: 4px; }
 .evidence-cards--pictured .evidence-card { align-self: start; }
 .evidence-condition { color: var(--muted); }
-.evidence-question { margin-top: 24px; font-weight: 700; }
-.evidence-answer summary, .evidence-sources summary, .evidence-archetype summary, .evidence-related summary { cursor: pointer; padding: 12px 0; }
+.evidence-sources summary, .evidence-archetype summary, .evidence-related summary { cursor: pointer; padding: 12px 0; }
 .evidence-sources { margin-top: 16px; font-size: .9rem; }
 .evidence-sources li, .evidence-notes li, .evidence-related li, .evidence-archetype li { margin-bottom: 12px; }
 .evidence-attribution { display: block; font-size: .85em; margin-top: 4px; }
