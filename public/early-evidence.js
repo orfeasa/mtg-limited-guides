@@ -18,7 +18,7 @@
   };
   const cardLinks = (set, ids, pictures = false) => `<div class="evidence-cards ${pictures ? 'evidence-cards--pictured' : ''}">${ids.map(id => {
     const card = set.cards.find(c => c.id === id);
-    return `<button type="button" class="evidence-card" data-evidence-card="${escape(id)}">${pictures ? `<img src="${escape(card.image)}" alt="" loading="lazy" width="244" height="340">` : ''}<span>${escape(card.name)}</span></button>`;
+    return `<button type="button" class="evidence-card" data-evidence-card="${escape(id)}">${pictures ? `<img src="${escape(card.trainingImage || card.image)}" data-fallback-image="${escape(card.image)}" alt="" loading="lazy" width="244" height="340">` : ''}<span>${escape(card.name)}</span></button>`;
   }).join('')}</div>`;
   function combination(set, id, { pictures = false, recall = false } = {}) {
     const evidence = set.earlyEvidence;

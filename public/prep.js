@@ -11,7 +11,7 @@
     const sessionStates = new Map();
     const cardButton = (name, illustrated = false) => {
       const card = cards.get(name);
-      return `<button type="button" class="prep-card-link${illustrated ? " prep-card-image" : ""}" data-prep-card="${escape(card.id)}" aria-label="Enlarge ${escape(name)}">${illustrated ? `<img src="${escape(card.image)}" alt="" loading="lazy" width="146" height="204">` : ""}<span>${escape(name)}</span></button>`;
+      return `<button type="button" class="prep-card-link${illustrated ? " prep-card-image" : ""}" data-prep-card="${escape(card.id)}" aria-label="Enlarge ${escape(name)}">${illustrated ? `<img src="${escape(card.trainingImage || card.image)}" data-fallback-image="${escape(card.image)}" alt="" loading="lazy" width="146" height="204">` : ""}<span>${escape(name)}</span></button>`;
     };
     const references = (names) => `<div class="prep-examples">${names.map((name) => cardButton(name)).join("")}</div>`;
     const save = () => {
@@ -128,6 +128,12 @@
       renderDecisions();
       journey = !team && set.earlyEvidence?.teaching ? window.PREP_JOURNEY.mount(root, set, format) : null;
     }
+    root.addEventListener("error", (event) => {
+      const image = event.target;
+      if (image instanceof HTMLImageElement && image.dataset.fallbackImage && image.getAttribute("src") !== image.dataset.fallbackImage) {
+        image.src = image.dataset.fallbackImage;
+      }
+    }, true);
     root.addEventListener("click", (event) => {
       const target = event.target.closest("button");
       if (!target || !set) return;
