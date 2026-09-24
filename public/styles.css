@@ -4367,7 +4367,9 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
 .journey-actions button:disabled { opacity: .55; cursor: default; }
 .prep-section h3 { scroll-margin-top: calc(var(--tab-height) + 24px); }
 .prep-review-difference summary { padding-block: 12px; cursor: pointer; }
-.evidence-full-reviews { margin-block: 24px; border-block: 1px solid var(--on-binding-muted); }
+.evidence-full-reviews { margin-block: 24px; padding-top: 18px; border-block: 1px solid var(--on-binding-muted); }
+.evidence-full-reviews > h4 { margin: 0 0 6px; }
+.evidence-full-reviews > .evidence-caption { margin: 0 0 12px; }
 .evidence-full-reviews summary { cursor: pointer; padding-block: 14px; }
 .evidence-review { border-top: 1px solid var(--on-binding-muted); }
 .evidence-review-text { max-width: 70ch; overflow-wrap: anywhere; }

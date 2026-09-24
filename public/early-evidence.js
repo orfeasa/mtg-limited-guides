@@ -52,11 +52,11 @@
     const teaching = row.teaching;
     const reviews = row.reviews || [];
     return `${teaching ? `<h3>${text(teaching.role)}</h3><p>${text(teaching.why)}</p><h4>When it gets better</h4><p>${text(teaching.better)}</p><h4>What can go wrong</h4><p>${text(teaching.watch)}</p>${teaching.disagreement ? `<h4>Where reviewers differ</h4><p>${text(teaching.disagreement)}</p>` : ''}<p class="evidence-caption">Our reading of the reviews and card rules.</p>` : '<h3>Early assessments</h3>'}
-    <details class="evidence-full-reviews" ${teaching ? '' : 'open'}><summary>Read the reviews</summary><p class="evidence-caption">Limited opinions · captured ${escape(evidence.reviewedAt)} · original scales, no combined score.</p>
+    <section class="evidence-full-reviews"><h4>Reviews</h4><p class="evidence-caption">Limited opinions · captured ${escape(evidence.reviewedAt)} · original scales, no combined score.</p>
     ${reviews.map((r, i) => {
       const g = row.grades.find(g => g.sourceId === r.sourceId);
       return `<details class="evidence-review" ${!teaching && i === 0 ? 'open' : ''}><summary>${escape(evidence.sources[r.sourceId].author)} · ${g.grade} / ${evidence.sources[r.sourceId].scale.max}${r.scope === 'cycle' ? ' · shared cycle review' : ''}</summary><div class="evidence-review-text">${r.text.split('\n\n').map(p => `<p>${escape(p)}</p>`).join('')}</div><p>${sourceLink(evidence, g)} · <span>Original review</span></p></details>`;
-    }).join('')}</details>
+    }).join('')}</section>
     ${notes.length ? `<details class="evidence-related"><summary>More early advice</summary><ul class="evidence-notes">${notes.map(id => claim(evidence, id)).join('')}</ul></details>` : ''}
     ${row.combinationIds.map(id => `<details class="evidence-related"><summary>${escape(evidence.combinations[id].title)}</summary>${combination(set, id)}</details>`).join('')}
     ${row.observationIds.length ? `<details class="evidence-related"><summary>From the Sealed games</summary><p class="evidence-caption">Selected automatic-caption sequences; video frames unverified.</p><ul>${row.observationIds.map(id => {

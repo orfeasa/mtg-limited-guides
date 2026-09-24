@@ -28,7 +28,9 @@ vm.runInNewContext(fs.readFileSync('public/early-evidence.js','utf8'),ctx);
 const set=ctx.window.LIMITED_PREP_DATA.sets.find(s=>s.id==='fra');
 for(const c of corpus.cards) {
  const html=ctx.window.EARLY_EVIDENCE.card(set,c.cardId);
- assert(html.includes('Read the reviews'));
+ assert(html.includes('<section class="evidence-full-reviews"><h4>Reviews</h4>'));
+ assert(!html.includes('<summary>Read the reviews</summary>'));
+ assert.equal((html.match(/<details class="evidence-review"/g)||[]).length,c.reviewAssessments.length);
  assert(!html.includes('no card-specific explanation'));
  for (const a of c.reviewAssessments) assert(html.includes(a.author));
 }
