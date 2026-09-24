@@ -827,8 +827,28 @@ body[data-theme="fracture"] .trainer-image-wrap img {
 
 .grade-options.grade-options--review button { min-height: 64px; --tier-color: var(--accent); }
 .grade-options.grade-options--review span { text-transform: none; letter-spacing: normal; }
-.trainer-review-evidence { margin-top: 16px; font-size: 1rem; line-height: 1.5; }
-.trainer-review-evidence h3, .trainer-review-evidence h4 { margin: 20px 0 8px; font-size: 1.1rem; }
+.trainer-review-evidence { margin-top: 16px; color: var(--ink); font-size: 1rem; line-height: 1.5; }
+.trainer-copy .trainer-review-evidence h3, .trainer-copy .trainer-review-evidence h4 {
+  max-width: none;
+  margin: 20px 0 8px;
+  font-family: var(--body);
+  font-size: 1.05rem;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-transform: none;
+}
+.expert-training .trainer-image-wrap { align-self: start; }
+.expert-training .trainer-copy { display: flex; flex-direction: column; }
+.expert-training .trainer-actions { order: 1; }
+.expert-training .trainer-answer { order: 2; }
+@media (max-width: 700px) {
+  .expert-training .trainer-toolbar { display: flex; flex-wrap: wrap; }
+  .expert-training .trainer-toolbar > div { width: 100%; }
+  .expert-training #trainer-title { font-size: 2rem; }
+  .expert-training .trainer-card { grid-template-columns: minmax(0, 1fr); }
+  .expert-training .trainer-image-wrap { width: min(100%, 244px); justify-self: center; }
+  .expert-training .grade-options span { display: block; font-size: .74rem; }
+}
 
 .grade-family {
   display: grid;

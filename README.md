@@ -19,7 +19,7 @@ Preparation progress stays only in the current browser through `localStorage`, i
 The current guides are:
 
 - **The Hobbit** — five official archetype plans with separate Draft and Sealed field data, a complete 188-card observed Premier Draft ranking refreshed from 760,000 matches, and 18 real draft decisions from a public 17Lands 7–2 replay.
-- **Reality Fracture** — complete card file with Sealed prerelease preparation, active archetype recall, filtered Card memory and an interaction watchlist; rating training remains unavailable until a complete attributable evaluation is captured.
+- **Reality Fracture** — complete card file with Sealed prerelease preparation, active archetype recall, filtered Card memory and an interaction watchlist. Training uses J2SJosh’s complete MTGAZone expert review captured 22 September 2026, retaining its original 0–5 scale and showing both reviewers after each answer. Observed rankings remain pending.
 
 ## Run locally
 

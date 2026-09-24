@@ -11,6 +11,7 @@ const publicDir = path.join(root, "public");
 const source = fs.readFileSync(path.join(publicDir, "data.js"), "utf8");
 const context = { window: {} };
 vm.runInNewContext(source, context);
+vm.runInNewContext(fs.readFileSync(path.join(publicDir, 'lifecycle.js'), 'utf8'), context);
 
 const data = context.window.LIMITED_PREP_DATA;
 if (!data || data.version !== 1) throw new Error("Missing versioned Limited Prep data");
@@ -35,6 +36,7 @@ for (const set of data.sets) {
   }
   if (set.rating.status === "available" && (!set.lifecycle.ratingsConfirmedAt || !set.rating.source || !set.rating.url || !set.rating.capturedAt || set.cards.some((card) => !Number.isFinite(card.rank) || !card.tier))) throw new Error(`Incomplete training evidence for ${set.id}`);
   if (set.lifecycle.ratingsConfirmedAt && (!set.lifecycle.fullSetConfirmedAt || set.rating.status !== "available")) throw new Error(`Ratings milestone lacks confirmed evidence for ${set.id}`);
+  if (set.reviewTraining?.status === 'available' && !context.window.SET_LIFECYCLE.resolve(set, '9999-12-31').reviewTraining) throw new Error(`Incomplete expert training evidence for ${set.id}`);
 
   const cardIds = new Set();
   for (const card of set.cards) {

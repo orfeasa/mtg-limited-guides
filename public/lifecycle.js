@@ -15,6 +15,8 @@
         const source = set.earlyEvidence?.sources?.[card.reviewSourceId];
         return review.options?.some(option => option.value === card.reviewGrade)
           && source?.dependencyGroup === review.reviewerGroup
+          && source.author === review.author && source.capturedAt === review.capturedAt
+          && source.scale?.min === 0 && source.scale?.max === 5
           && set.earlyEvidence.byCard[card.id]?.grades.some(grade => grade.sourceId === card.reviewSourceId && String(grade.grade) === card.reviewGrade);
       });
     const training = ratings || Boolean(reviewTraining);

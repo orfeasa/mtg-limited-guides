@@ -1,4 +1,5 @@
 > Website teaching now uses the [curated teaching layer](teaching/README.md) and complete card review passages. Historical extraction-first notes below describe earlier delivery boundaries.
+> Update, 24 September: Training now uses J2SJosh’s original 0–5 grades as an explicitly attributed expert-review exercise. The earlier notes below about keeping reviews outside Training describe the previous product boundary. No averaged score, empirical tier or pick-order rank is produced.
 
 # Reality Fracture early evidence
 

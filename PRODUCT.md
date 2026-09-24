@@ -24,19 +24,20 @@ The product is a reusable preparation shelf rather than a generic stats dashboar
 
 ## Operating Context
 
-Used in the days before a prerelease or draft, alone or with friends. A player may train exact-tier recall, work through a grounded draft state, or browse and enlarge cards from the set. The interaction must work well with keyboard, mouse, and touch.
+Used in the days before a prerelease or draft, alone or with friends. A player may practise attributed expert-grade or observed exact-tier recall, work through a grounded draft state, or browse and enlarge cards from the set. The interaction must work well with keyboard, mouse, and touch.
 
 ## Capabilities and Constraints
 
 - Support multiple sets through a shared static data contract.
 - Give each set a distinct visual theme without changing the core navigation.
 - Open the latest set by default while preserving direct links to any set.
-- Follow `docs/set-lifecycle.md`: Previews during reveals; published Prerelease prep after full reveal; Archetypes after the full file and authored plans are verified; All cards replaces Previews when the full card file is confirmed; Training requires complete attributable ratings. Default to Training when supported; otherwise open the card browser and offer a link to published prep. Draft decisions additionally requires grounded pack-and-pool evidence.
+- Follow `docs/set-lifecycle.md`: Previews during reveals; published Prerelease prep after full reveal; Archetypes after the full file and authored plans are verified; All cards replaces Previews when the full card file is confirmed; Training requires complete attributable observed ratings or a verified complete expert-grade cohort. Calendar dates alone never unlock Training. Default to Training when supported; otherwise open the card browser and offer a link to published prep. Draft decisions additionally requires observed rankings and grounded pack-and-pool evidence.
 - Keep official archetype intent, observed results, and editorial guidance visibly distinct.
 - Preserve separate Premier Draft and Sealed observations, including all ten two-colour pairs and their sample sizes.
 - Keep rating-dependent training absent when a complete, attributable Limited evaluation is unavailable.
 - Store preparation progress per set in browser-local storage.
-- Preserve the current training card, colour filter, exact-tier score, remaining queue, revealed answer, and requeued misses across browser sessions.
+- Preserve the current training card, colour filter, exact-tier or review-grade score, remaining queue, revealed answer, and requeued misses across browser sessions. Expert review progress is separate from observed Training and Card memory, keyed by set, reviewer group, and capture date.
+- Identify Training as Expert review or Observed draft data. Reality Fracture asks for J2SJosh’s original numerical grade on the 0–5 scale; reveal both reviewers’ attributed grades and available teaching only after an answer or manual reveal. Preserve disagreement without averaging grades or inventing tiers, ranks, or empirical evidence.
 - Preserve each draft decision's independent pick, reason, reveal phase, and keep/change reflection without turning the exercise into a score.
 - Make the fixed historical replay explicit, show its complete pack and drafted pool before a pick, and hide rankings, performance data, and replay hints until the player locks a card and reason.
 - After the lock, separate the player's recorded judgement, the historical replay pick, the current rank-only data leader, and an authored scenario takeaway.
@@ -51,7 +52,7 @@ Used in the days before a prerelease or draft, alone or with friends. A player m
 ## Evidence on Hand
 
 - The Hobbit: five official archetype plans from the Wizards prerelease guide; separate 17Lands Premier Draft and Sealed two-colour observations captured on 8 September 2026; verified 188-card pick-order and performance snapshots captured from Untapped.gg on 17 September 2026 across 750,000 matches; matching local thumbnail/readable image pairs; and 18 real pack-and-pool states from a public 17Lands 7–2 Premier Draft replay.
-- Reality Fracture: complete Scryfall card file and local thumbnail/readable image pairs; Wizards' official ten-pair Draft map with authored signposts and separate Draft/Sealed preparation notes; no invented Limited ratings or observed archetype results.
+- Reality Fracture: complete Scryfall card file and local thumbnail/readable image pairs; Wizards' official ten-pair Draft map with authored signposts and separate Draft/Sealed preparation notes; complete attributed J2SJosh numerical grades for Expert review Training, with both reviewers’ original grades and available teaching after reveal; no invented ranks, tiers, or observed archetype results.
 - Official Reality Fracture release milestones and Play Booster notes captured in set metadata.
 
 ## Product Principles
@@ -76,4 +77,4 @@ The recommended preparation order is Archetypes → Card memory → What to play
 
 Archetype study offers colours-to-plan and theme-to-colours recall, reveals the authored plan, priorities and signposts, and lets players mark Got it or Again. Progress is local per set, content and direction; misses return after up to three questions. This is self-assessment, never an archetype ranking.
 
-Card memory supports Prerelease essentials (the union of key cards, interaction watchlist and signposts), Commons & uncommons (rarity), Interactions, All cards and Weak cards, intersected with a colour filter. Only revealed answers show authored signpost/role labels and interaction costs/restrictions. Lightweight per-card attempts and misses persist per set. Weak cards means at least two lifetime misses, with fixed membership for each run; this is not spaced repetition. Rating Training and Hobbit evidence gates remain unchanged.
+Card memory supports Prerelease essentials (the union of key cards, interaction watchlist and signposts), Commons & uncommons (rarity), Interactions, All cards and Weak cards, intersected with a colour filter. Only revealed answers show authored signpost/role labels and interaction costs/restrictions. Lightweight per-card attempts and misses persist per set. Weak cards means at least two lifetime misses, with fixed membership for each run; this is not spaced repetition. Card memory does not unlock Training; observed ratings and expert grades retain their separate evidence gates.

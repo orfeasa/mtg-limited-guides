@@ -603,6 +603,7 @@
   }
 
   function renderGradeOptions() {
+    $("#training-view").classList.toggle("expert-training", expertTraining());
     $("#trainer-title").textContent = expertTraining() ? "Training · Expert review" : "Training · Observed draft data";
     elements.gradeScore.previousElementSibling.textContent = expertTraining() ? "Review grade calls" : "Tier calls";
     elements.gradeOptions.classList.toggle("grade-options--review", expertTraining());
