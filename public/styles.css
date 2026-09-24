@@ -863,6 +863,13 @@ body[data-theme="fracture"] .trainer-image-wrap img {
   background: #8c413b;
 }
 
+.grade-options button[data-result="close"] {
+  color: var(--ink);
+  background: var(--surface-light);
+  box-shadow: inset 0 0 0 3px var(--signal);
+  font-weight: 700;
+}
+
 .grade-options button[data-result="muted"] {
   opacity: .48;
 }
