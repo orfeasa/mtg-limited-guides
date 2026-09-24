@@ -1045,6 +1045,7 @@ window.LIMITED_PREP_DATA = {
           }
         ]
       },
+      "earlyDraftSignals": null,
       "prep": null,
       "earlyEvidence": null,
       "cards": [
@@ -4287,6 +4288,7 @@ window.LIMITED_PREP_DATA = {
       },
       "officialUrl": "https://magic.wizards.com/en/products/reality-fracture/card-image-gallery",
       "earlyEvidenceDir": "research/fra",
+      "earlyDraftSignalsFile": "research/fra/early-draft-signals.json",
       "reviewTraining": {
         "status": "available",
         "confirmedAt": "2026-09-24",
@@ -4787,6 +4789,156 @@ window.LIMITED_PREP_DATA = {
             "url": "https://magic.wizards.com/en/news/feature/reality-fracture-prerelease-guide"
           }
         ]
+      },
+      "earlyDraftSignals": {
+        "version": 1,
+        "source": {
+          "label": "Untapped.gg Reality Fracture Early Access card data",
+          "url": "https://mtga.untapped.gg/limited/draft/reality-fracture/card-data",
+          "format": "Early Access Premier Draft",
+          "capturedAt": "2026-09-24T17:57:36Z",
+          "totalMatchesApprox": 1400,
+          "qualification": "Very small early sample; card results may change materially. Draft evidence does not establish Sealed performance."
+        },
+        "method": {
+          "eligibleCards": 104,
+          "minimumInHandGames": 60,
+          "minimumAbsoluteDiscrepancyPoints": 60,
+          "description": "Within the eligible cohort, each review scale and in-hand win rate were converted separately to percentile ranks. Expert percentile is the mean of the two review percentiles; discrepancy is the data percentile minus the expert percentile."
+        },
+        "count": 13,
+        "byCard": {
+          "a9793ce9-5a0b-41fe-b9ad-02f6f7da2481": {
+            "cardId": "a9793ce9-5a0b-41fe-b9ad-02f6f7da2481",
+            "name": "Ferocity of the Hunt",
+            "direction": "higher",
+            "inHandWinRate": 65.2,
+            "inHandGames": 66,
+            "dataPercentile": 97,
+            "expertPercentile": 5,
+            "discrepancyPoints": 92
+          },
+          "b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0": {
+            "cardId": "b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0",
+            "name": "Keeper of the Quiet Hour",
+            "direction": "higher",
+            "inHandWinRate": 58.1,
+            "inHandGames": 93,
+            "dataPercentile": 78,
+            "expertPercentile": 5,
+            "discrepancyPoints": 72
+          },
+          "b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b": {
+            "cardId": "b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b",
+            "name": "Tam's Resistance",
+            "direction": "higher",
+            "inHandWinRate": 57.3,
+            "inHandGames": 124,
+            "dataPercentile": 73,
+            "expertPercentile": 9,
+            "discrepancyPoints": 64
+          },
+          "9df8a06d-c7de-49af-8c01-06dca3dfef4b": {
+            "cardId": "9df8a06d-c7de-49af-8c01-06dca3dfef4b",
+            "name": "Surveillance Phantasm",
+            "direction": "higher",
+            "inHandWinRate": 60.3,
+            "inHandGames": 141,
+            "dataPercentile": 84,
+            "expertPercentile": 22,
+            "discrepancyPoints": 63
+          },
+          "073f4998-a204-447b-93d5-746ae87fd6a1": {
+            "cardId": "073f4998-a204-447b-93d5-746ae87fd6a1",
+            "name": "Inspired Tethermage",
+            "direction": "higher",
+            "inHandWinRate": 57,
+            "inHandGames": 100,
+            "dataPercentile": 71,
+            "expertPercentile": 9,
+            "discrepancyPoints": 62
+          },
+          "98dc5470-507a-4364-8480-42607255e56c": {
+            "cardId": "98dc5470-507a-4364-8480-42607255e56c",
+            "name": "Way of the Paradox",
+            "direction": "higher",
+            "inHandWinRate": 61.6,
+            "inHandGames": 73,
+            "dataPercentile": 89,
+            "expertPercentile": 27,
+            "discrepancyPoints": 62
+          },
+          "5838af68-66c3-4fe8-ab89-0a1721b0cfeb": {
+            "cardId": "5838af68-66c3-4fe8-ab89-0a1721b0cfeb",
+            "name": "Way of the Mind Sculptor",
+            "direction": "higher",
+            "inHandWinRate": 56.8,
+            "inHandGames": 74,
+            "dataPercentile": 66,
+            "expertPercentile": 5,
+            "discrepancyPoints": 61
+          },
+          "2f5345ae-4489-4d05-b2d5-c71285254f05": {
+            "cardId": "2f5345ae-4489-4d05-b2d5-c71285254f05",
+            "name": "Memory Trap",
+            "direction": "lower",
+            "inHandWinRate": 43.6,
+            "inHandGames": 179,
+            "dataPercentile": 6,
+            "expertPercentile": 82,
+            "discrepancyPoints": -76
+          },
+          "b8466593-40fe-4557-89b2-760c1c92087b": {
+            "cardId": "b8466593-40fe-4557-89b2-760c1c92087b",
+            "name": "Proft, Consulting Detective",
+            "direction": "lower",
+            "inHandWinRate": 48,
+            "inHandGames": 75,
+            "dataPercentile": 18,
+            "expertPercentile": 88,
+            "discrepancyPoints": -70
+          },
+          "11ba4fdd-cc03-4bb6-a493-91a9785771d0": {
+            "cardId": "11ba4fdd-cc03-4bb6-a493-91a9785771d0",
+            "name": "No Admittance",
+            "direction": "lower",
+            "inHandWinRate": 46.4,
+            "inHandGames": 97,
+            "dataPercentile": 11,
+            "expertPercentile": 79,
+            "discrepancyPoints": -69
+          },
+          "50326a2a-7e10-464b-a97e-e880bda0558c": {
+            "cardId": "50326a2a-7e10-464b-a97e-e880bda0558c",
+            "name": "Way of the Healer",
+            "direction": "lower",
+            "inHandWinRate": 43.5,
+            "inHandGames": 85,
+            "dataPercentile": 5,
+            "expertPercentile": 73,
+            "discrepancyPoints": -68
+          },
+          "e61b9d48-0ace-4453-afe0-a1024444bac0": {
+            "cardId": "e61b9d48-0ace-4453-afe0-a1024444bac0",
+            "name": "Paradox Shaper // Omit Variables",
+            "direction": "lower",
+            "inHandWinRate": 45.3,
+            "inHandGames": 64,
+            "dataPercentile": 7,
+            "expertPercentile": 73,
+            "discrepancyPoints": -67
+          },
+          "7d17f7e3-7b63-4674-9024-4fd1827f40ec": {
+            "cardId": "7d17f7e3-7b63-4674-9024-4fd1827f40ec",
+            "name": "Woodwork Prodigy // Soul Tether",
+            "direction": "lower",
+            "inHandWinRate": 45.7,
+            "inHandGames": 81,
+            "dataPercentile": 9,
+            "expertPercentile": 73,
+            "discrepancyPoints": -65
+          }
+        }
       },
       "prep": {
         "version": 1,

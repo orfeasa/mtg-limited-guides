@@ -678,7 +678,14 @@
     if (expertTraining()) {
       const evidence = currentSet.earlyEvidence;
       const row = evidence.byCard[card.id];
-      return `<div class="trainer-review-evidence"><p>${row.grades.map(grade => `${escapeHtml(evidence.sources[grade.sourceId].author)}: <strong>${grade.grade}/${evidence.sources[grade.sourceId].scale.max}</strong>`).join(" · ")}</p>${window.EARLY_EVIDENCE.card(currentSet, card.id)}</div>`;
+      const earlyDraft = currentSet.earlyDraftSignals;
+      const signal = earlyDraft?.byCard?.[card.id];
+      const signalMarkup = signal ? `<section class="trainer-draft-signal" data-signal="${escapeHtml(signal.direction)}" aria-label="Very early Draft signal">
+        <div class="trainer-draft-signal-heading"><strong>Early Draft signal</strong><span>${signal.direction === "higher" ? "Ranks much higher than the initial reviews in this snapshot" : "Ranks much lower than the initial reviews in this snapshot"}</span></div>
+        <dl><div><dt>In-hand win rate</dt><dd>${signal.inHandWinRate.toFixed(1)}%</dd></div><div><dt>Games in hand</dt><dd>${numberFormatter.format(signal.inHandGames)}</dd></div></dl>
+        <p>Very small ${escapeHtml(earlyDraft.source.format)} sample · about ${numberFormatter.format(earlyDraft.source.totalMatchesApprox)} total matches · captured ${dateLabel(earlyDraft.source.capturedAt)}. This is an early flag, not a new rating, and does not establish Sealed performance. <a href="${escapeHtml(earlyDraft.source.url)}" target="_blank" rel="noopener noreferrer">View source</a></p>
+      </section>` : "";
+      return `<div class="trainer-review-evidence"><p>${row.grades.map(grade => `${escapeHtml(evidence.sources[grade.sourceId].author)}: <strong>${grade.grade}/${evidence.sources[grade.sourceId].scale.max}</strong>`).join(" · ")}</p>${signalMarkup}${window.EARLY_EVIDENCE.card(currentSet, card.id)}</div>`;
     }
     if (!card.stats) return "";
     const winRate = Number.isFinite(card.stats.inHandWinRate) ? `${card.stats.inHandWinRate.toFixed(1)}%` : "—";

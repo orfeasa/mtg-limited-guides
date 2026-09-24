@@ -23,6 +23,8 @@ Reality Fracture expert review was verified on 2026-09-24 against J2SJosh’s co
 
 Expert Training accepts a 0.5 difference within the same displayed grade row as close and does not requeue it. Cross-row differences, differences greater than 0.5, and manual reveals are misses and return after three intervening cards. Exact-answer scoring remains exact, matching Hobbit's treatment of accepted close calls. Rendering and evaluation share the same row definitions; `scripts/verify-training-tolerance.mjs` checks all 121 numerical answer pairs and the Hobbit modifier boundaries.
 
+A partial gameplay snapshot may appear only after an Expert Training answer as supplementary context for cards with a materially different early signal. It must name the format, capture date, sample and source, and must remain visibly provisional. Partial results do not create a new grade, tier, rank, ratings milestone or observed-Training capability; Draft results must not be presented as Sealed evidence.
+
 `data/sets.json` is canonical:
 
 - `previewEndsOn`: scheduled final reveal day; check the official gallery and sync the card file then. Reaching it does not prove completeness.

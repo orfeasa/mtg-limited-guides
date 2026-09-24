@@ -158,5 +158,23 @@ if (fracture.cards.some((card) => !/^\d{4}-\d{2}-\d{2}$/.test(card.firstSeenAt) 
 if (fracture.cards.some((card) => card.firstSeenAt > fracture.previewCapturedAt.slice(0, 10))) {
   throw new Error("Reality Fracture first-seen dates cannot follow the preview capture");
 }
+const signals = fracture.earlyDraftSignals;
+if (fracture.rating.status !== "pending" || signals?.count !== 13 || Object.keys(signals.byCard || {}).length !== signals.count) {
+  throw new Error("Reality Fracture needs 13 early Draft signals without promoting them to ratings");
+}
+if (!/^https:\/\//.test(signals.source?.url || "") || !signals.source?.capturedAt || signals.source?.format !== "Early Access Premier Draft" || signals.source?.totalMatchesApprox !== 1400) {
+  throw new Error("Reality Fracture early Draft signals need complete source context");
+}
+const fractureIds = new Set(fracture.cards.map((card) => card.id));
+for (const signal of Object.values(signals.byCard)) {
+  if (!fractureIds.has(signal.cardId) || !["higher", "lower"].includes(signal.direction)
+    || !Number.isFinite(signal.inHandWinRate) || !Number.isInteger(signal.inHandGames)
+    || signal.inHandGames < signals.method.minimumInHandGames
+    || Math.abs(signal.discrepancyPoints - (signal.dataPercentile - signal.expertPercentile)) > 1
+    || Math.abs(signal.discrepancyPoints) < signals.method.minimumAbsoluteDiscrepancyPoints
+    || (signal.direction === "higher") !== (signal.discrepancyPoints > 0)) {
+    throw new Error(`Invalid Reality Fracture early Draft signal: ${signal.name}`);
+  }
+}
 
 console.log(`Verified ${data.sets.length} sets and ${data.sets.reduce((sum, set) => sum + set.cards.length, 0)} cards.`);

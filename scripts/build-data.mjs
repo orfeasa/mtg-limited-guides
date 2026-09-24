@@ -153,6 +153,47 @@ function adaptArchetypes(set, cards) {
   };
 }
 
+function adaptEarlyDraftSignals(set, cards) {
+  if (!set.earlyDraftSignalsFile) return null;
+  const source = readJson(set.earlyDraftSignalsFile);
+  if (source.set !== set.code || source.version !== 1) {
+    throw new Error(`Early draft signals ${set.earlyDraftSignalsFile} do not match ${set.code}`);
+  }
+  if (!/^https:\/\//.test(source.source?.url || "") || !source.source?.capturedAt || !source.source?.format || !Number.isInteger(source.source?.totalMatchesApprox)
+    || !Number.isInteger(source.method?.eligibleCards) || !Number.isInteger(source.method?.minimumInHandGames)
+    || !Number.isInteger(source.method?.minimumAbsoluteDiscrepancyPoints) || !source.method?.description) {
+    throw new Error(`Early draft signals for ${set.id} need complete provenance`);
+  }
+  const known = new Map(cards.map((card) => [card.id, card]));
+  const byCard = {};
+  for (const signal of source.signals || []) {
+    const card = known.get(signal.cardId);
+    if (!card || card.name !== signal.name || byCard[signal.cardId]) {
+      throw new Error(`Invalid early draft signal card: ${signal.name || signal.cardId}`);
+    }
+    if (!['higher', 'lower'].includes(signal.direction)
+      || !Number.isFinite(signal.inHandWinRate) || signal.inHandWinRate < 0 || signal.inHandWinRate > 100
+      || !Number.isInteger(signal.inHandGames) || signal.inHandGames < source.method.minimumInHandGames
+      || !Number.isFinite(signal.dataPercentile) || signal.dataPercentile < 0 || signal.dataPercentile > 100
+      || !Number.isFinite(signal.expertPercentile) || signal.expertPercentile < 0 || signal.expertPercentile > 100
+      || !Number.isFinite(signal.discrepancyPoints)
+      || Math.abs(signal.discrepancyPoints - (signal.dataPercentile - signal.expertPercentile)) > 1
+      || Math.abs(signal.discrepancyPoints) < source.method.minimumAbsoluteDiscrepancyPoints
+      || (signal.direction === 'higher') !== (signal.discrepancyPoints > 0)) {
+      throw new Error(`Invalid early draft signal values: ${signal.name}`);
+    }
+    byCard[signal.cardId] = signal;
+  }
+  if (Object.keys(byCard).length === 0) throw new Error(`No early draft signals for ${set.id}`);
+  return {
+    version: source.version,
+    source: source.source,
+    method: source.method,
+    count: Object.keys(byCard).length,
+    byCard,
+  };
+}
+
 const sets = manifest.sets.map((set) => {
   const adapt = setAdapters[set.adapter];
   if (!adapt) throw new Error(`No card-data adapter configured for set ${set.id}`);
@@ -184,6 +225,7 @@ const sets = manifest.sets.map((set) => {
     previewCapturedAt,
     draftDecisions: adaptDraftDecisions(set, cards),
     archetypes: adaptArchetypes(set, cards),
+    earlyDraftSignals: adaptEarlyDraftSignals(set, cards),
     prep,
     earlyEvidence,
     cards,

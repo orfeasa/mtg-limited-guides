@@ -52,7 +52,7 @@ Used in the days before a prerelease or draft, alone or with friends. A player m
 ## Evidence on Hand
 
 - The Hobbit: five official archetype plans from the Wizards prerelease guide; separate 17Lands Premier Draft and Sealed two-colour observations captured on 8 September 2026; verified 188-card pick-order and performance snapshots captured from Untapped.gg on 17 September 2026 across 750,000 matches; matching local thumbnail/readable image pairs; and 18 real pack-and-pool states from a public 17Lands 7–2 Premier Draft replay.
-- Reality Fracture: complete Scryfall card file and local thumbnail/readable image pairs; Wizards' official ten-pair Draft map with authored signposts and separate Draft/Sealed preparation notes; complete attributed J2SJosh numerical grades for Expert review Training, with both reviewers’ original grades and available teaching after reveal; no invented ranks, tiers, or observed archetype results.
+- Reality Fracture: complete Scryfall card file and local thumbnail/readable image pairs; Wizards' official ten-pair Draft map with authored signposts and separate Draft/Sealed preparation notes; complete attributed J2SJosh numerical grades for Expert review Training, with both reviewers’ original grades and available teaching after reveal; and a very small Early Access Premier Draft snapshot shown only after reveal for materially discrepant cards, without inventing ranks, tiers, observed Training or Sealed claims.
 - Official Reality Fracture release milestones and Play Booster notes captured in set metadata.
 
 ## Product Principles

@@ -88,6 +88,7 @@
       },
       "officialUrl": "https://magic.wizards.com/en/products/reality-fracture/card-image-gallery",
       "earlyEvidenceDir": "research/fra",
+      "earlyDraftSignalsFile": "research/fra/early-draft-signals.json",
       "reviewTraining": {
         "status": "available",
         "confirmedAt": "2026-09-24",
