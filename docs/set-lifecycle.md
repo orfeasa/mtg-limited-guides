@@ -17,6 +17,10 @@ Draft decisions is an optional tab between Archetypes and the card browser, avai
 
 ## Dates and evidence
 
+Training also supports a complete attributed expert review. Its heading identifies “Expert review” or “Observed draft data”. Expert review requires `reviewTraining` provenance, a reached `confirmedAt`, and a grade joined to that reviewer for every nonbasic card. Basic lands are excluded from the exercise. Original numerical scales are preserved; expert grades create no pick-order ranks, statistical tiers, or Draft decisions capability. The review snapshot has its own progress namespace. `ratingsConfirmedAt` continues to describe the ranked snapshot; FRA's observed ratings remain pending.
+
+Reality Fracture expert review was verified on 2026-09-24 against J2SJosh’s complete MTGAZone assessments captured 2026-09-22. All 280 nonbasic cards are covered, including explicit land-cycle grades. Training asks for the original 0–5 grade and reveals both reviewers’ original assessments afterward. Grade labels summarize the source’s scale; they are not a merged evaluation. Both expert and observed Training open by default when their evidence is complete.
+
 `data/sets.json` is canonical:
 
 - `previewEndsOn`: scheduled final reveal day; check the official gallery and sync the card file then. Reaching it does not prove completeness.

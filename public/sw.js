@@ -1,5 +1,5 @@
 /* Generated static cache manifest. */
-const CACHE = "limited-prep-6338d645f5a8";
+const CACHE = "limited-prep-18ca6e31f045";
 const ASSETS = [
   "./",
   "./index.html",

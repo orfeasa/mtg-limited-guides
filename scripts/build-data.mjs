@@ -163,6 +163,19 @@ const sets = manifest.sets.map((set) => {
   }
   const prep = set.prepFile ? readJson(set.prepFile) : null;
   const earlyEvidence = set.earlyEvidenceDir ? compileEarlyEvidence(path.join(dataDir, set.earlyEvidenceDir), cards, readJson(set.archetypesFile).archetypes.map(a => a.id)) : null;
+  if (set.reviewTraining) {
+    const training = set.reviewTraining;
+    if (!training.author || !training.url || !training.capturedAt || !training.confirmedAt) throw new Error('Missing review training provenance');
+    for (const card of cards.filter(c => !c.isBasicLand)) {
+      const grades = earlyEvidence?.byCard[card.id]?.grades.filter(g => earlyEvidence.sources[g.sourceId].dependencyGroup === training.reviewerGroup);
+      if (grades?.length !== 1) throw new Error(`Missing or duplicate training review: ${card.name}`);
+      const grade = grades[0];
+      const source = earlyEvidence.sources[grade.sourceId];
+      if (source.capturedAt !== training.capturedAt || source.scale.min !== 0 || source.scale.max !== 5 || !training.options.some(o => o.value === String(grade.grade))) throw new Error(`Invalid training grade: ${card.name}`);
+      card.reviewGrade = String(grade.grade);
+      card.reviewSourceId = grade.sourceId;
+    }
+  }
   validatePrep(prep, { ...set, cards, earlyEvidence });
   return {
     ...set,

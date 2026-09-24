@@ -4287,6 +4287,61 @@ window.LIMITED_PREP_DATA = {
       },
       "officialUrl": "https://magic.wizards.com/en/products/reality-fracture/card-image-gallery",
       "earlyEvidenceDir": "research/fra",
+      "reviewTraining": {
+        "status": "available",
+        "confirmedAt": "2026-09-24",
+        "capturedAt": "2026-09-22",
+        "reviewerGroup": "j2sjosh",
+        "author": "J2SJosh",
+        "source": "MTGAZone",
+        "url": "https://mtgazone.com/reality-fracture-fra-limited-set-review-white/",
+        "options": [
+          {
+            "value": "5",
+            "label": "Exceptional bomb"
+          },
+          {
+            "value": "4.5",
+            "label": "Game-taking bomb"
+          },
+          {
+            "value": "4",
+            "label": "Premium pick"
+          },
+          {
+            "value": "3.5",
+            "label": "Excellent role-player"
+          },
+          {
+            "value": "3",
+            "label": "Good playable"
+          },
+          {
+            "value": "2.5",
+            "label": "Solid playable"
+          },
+          {
+            "value": "2",
+            "label": "Mediocre filler"
+          },
+          {
+            "value": "1.5",
+            "label": "Replaceable / narrow"
+          },
+          {
+            "value": "1",
+            "label": "Bad filler"
+          },
+          {
+            "value": "0.5",
+            "label": "Fringe use"
+          },
+          {
+            "value": "0",
+            "label": "Unplayable"
+          }
+        ]
+      },
       "cardCount": 285,
       "browseCardCount": 280,
       "previewCapturedAt": "2026-09-19T17:51:47.966Z",
@@ -31311,7 +31366,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/1/emrakul-the-exigent-doom?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "730d8c28-1e58-4b8e-89e9-445d154d2e83",
@@ -31337,7 +31394,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/2/academic-ascent?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "5e77fbf0-9d1f-4e7d-a02e-43065d11b0d9",
@@ -31366,7 +31425,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/3/blossom-blessed-angel-seed-suture?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "6047b14c-91d5-4f8e-af3f-057a541e2546",
@@ -31392,7 +31453,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/4/campus-crier?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "483fcc58-cc6e-4452-a696-7b38e117c837",
@@ -31419,7 +31482,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/5/enlightened-confidant?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "f0c8400d-824f-4d79-84bc-7615a0deb831",
@@ -31443,7 +31508,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/6/fateshaper-aspirant?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "686f3a25-305d-4f02-8972-eba7b8e9635f",
@@ -31467,7 +31534,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/7/flickering-hound?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "f82f181b-a43b-4cec-b8f6-f6c1dd4c64fd",
@@ -31493,7 +31562,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/8/generous-revival?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "1b5d7d19-b32a-4786-ae9a-00da5e6658ad",
@@ -31517,7 +31588,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/9/germinate-recruits?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "32a7a905-11bf-4b66-a28e-1066a0e372b8",
@@ -31541,7 +31614,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/10/graft-surgeon?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "a53eb840-039d-4c45-b701-d58cb26b1a6c",
@@ -31565,7 +31640,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/11/guiding-hydra?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "3b6ac80e-c726-4bd0-893a-e666041a04a6",
@@ -31595,7 +31672,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/12/hexhaven-battalion?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "6f9f814b-8249-4e48-a05e-4c84060fe6fb",
@@ -31619,7 +31698,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/13/kindred-judgment?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "490dae91-94ce-42a9-a11f-6c5e77c4e486",
@@ -31643,7 +31724,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/14/loyal-tutor?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "2f5345ae-4489-4d05-b2d5-c71285254f05",
@@ -31667,7 +31750,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/15/memory-trap?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "50a0e5f0-3c39-4f16-9a73-eec8ef71f12e",
@@ -31693,7 +31778,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/16/predictive-preparations?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "1f95399a-9766-4f3d-aa6a-ece55e0530d9",
@@ -31717,7 +31804,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/17/prophesied-end?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "2c588954-c6eb-4aae-a2fa-0651ccf2d90a",
@@ -31743,7 +31832,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/18/refute-destiny?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "0.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "35000e93-85d3-44f8-976a-5918ee4c71e0",
@@ -31769,7 +31860,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/19/repurposed-enforcer?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "9e72f397-2384-40f1-882b-f627664d97df",
@@ -31793,7 +31886,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/20/return-to-the-light-realms?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "e29095de-59ec-4562-ba8e-73f952e457ae",
@@ -31819,7 +31914,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/21/shatterwing-pegasus?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "d3acf176-ef02-4729-88c4-0f0dfbfdada4",
@@ -31843,7 +31940,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/22/surgical-precision?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "63f82985-c9c2-4d0a-ac4f-560166bebd9f",
@@ -31869,7 +31968,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/23/unflinching-hortimancer?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "25000a17-b701-4d69-b2ef-2c74029199d3",
@@ -31895,7 +31996,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/24/your-fate-ends-here?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "145b928d-a7ff-4fe5-ae4d-bbae7b1d955b",
@@ -31922,7 +32025,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/25/countersculpt?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "f76c4d8e-3e1f-4264-99af-1b8adb9a06be",
@@ -31946,7 +32051,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/26/cruel-calculations?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "0.5",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "9ba1f7ce-3404-4932-9795-22967707f762",
@@ -31972,7 +32079,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/27/cryotheory-adept?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "0853bb80-8664-432a-8457-600139fd96d5",
@@ -31999,7 +32108,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/28/diviner-of-victory-unwind-history?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "960c7335-331d-488b-be68-2ad1c1c695dc",
@@ -32025,7 +32136,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/29/divining-duelist?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "8d754b96-5e44-45af-9c7a-b0da59fbe4c3",
@@ -32049,7 +32162,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/30/icy-reception?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "a5988272-faaa-463d-a0a1-a8e96b946bad",
@@ -32076,7 +32191,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/31/infinite-coursework?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "282588b9-3656-453b-aa25-2419e078ddc1",
@@ -32102,7 +32219,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/32/jaces-machinations?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "f5324741-353a-4a70-adb2-b631b00806dd",
@@ -32128,7 +32247,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/33/mindseeker-oculus?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "d0ecae06-bc5a-4886-84df-c2900816f226",
@@ -32152,7 +32273,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/34/perfected-theory?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "c4effc17-0d0e-423a-b5f2-597ea6c71f67",
@@ -32178,7 +32301,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/35/plan-for-all-outcomes?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "9244efad-35ab-45c0-b173-4bc68276cb67",
@@ -32202,7 +32327,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/36/precise-redaction?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "0.5",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "a08c7ec2-4c6a-4db2-85a7-41afe8731523",
@@ -32228,7 +32355,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/37/proteges-awakening?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "51d86875-420d-4e82-b69c-4feeb99c9428",
@@ -32252,7 +32381,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/38/seasoned-cryomancer?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "7e5a640b-fd88-4b5a-9dfc-1d8f5a5cef41",
@@ -32280,7 +32411,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/39/semester-foreseer-peer-review?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "08ffbd51-2bd3-4262-8809-09576ce2b6f5",
@@ -32307,7 +32440,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/40/sphinx-of-false-conclusions?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "f49be090-c745-40e5-bc1c-605b8d98acdf",
@@ -32331,7 +32466,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/41/sphinxs-approach?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "9df8a06d-c7de-49af-8c01-06dca3dfef4b",
@@ -32360,7 +32497,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/42/surveillance-phantasm?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "20bb8c55-4b0b-425f-8201-b54fa2fdde86",
@@ -32384,7 +32523,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/43/the-theorist-jace-beleren?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "5",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "710302ca-c4be-4069-8ce1-f531414c74e9",
@@ -32411,7 +32552,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/44/theorists-proxy?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "0adbb4b2-a142-48da-8f4b-fa91529dbac4",
@@ -32441,7 +32584,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/45/undulating-witness?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "ddad9f16-52d5-49de-82b0-b1a5294a9c44",
@@ -32465,7 +32610,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/46/unsummon?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "e3afedb1-bf9d-4e31-9700-433514cc29b1",
@@ -32493,7 +32640,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/47/variable-chaser-arc-of-fortune?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "cd56f047-6bdc-4e83-8a7c-923ebad26302",
@@ -32523,7 +32672,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/48/apex-witchstalker?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "4fcc913e-f736-460a-b24b-022fa2e861b9",
@@ -32549,7 +32700,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/49/bloodline-recollector-ancestral-craving?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "46974d94-e900-43e4-92b5-4fb9b9f7cf46",
@@ -32573,7 +32726,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/50/break-under-pressure?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "3b5b28a4-0abd-4dc2-9856-c9a8d27f6a2d",
@@ -32597,7 +32752,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/51/cast-away-doubt?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "4ec912d5-cbe7-4d07-9ece-b03ac02d3055",
@@ -32623,7 +32780,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/52/dark-matter-manipulator?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "ec454979-3839-4be3-a34a-9d25482948ba",
@@ -32650,7 +32809,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/53/darklight-phoenix?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "eb4b6ed8-782e-4473-abc9-d50bf2275c6a",
@@ -32674,7 +32835,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/54/extended-absence?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "17fb6538-493c-41aa-ad13-3e63d3ad3317",
@@ -32698,7 +32861,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/55/extrapolate-the-impossible?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "0.5",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "2381d123-d8c7-4822-98fe-b1c365beb5ed",
@@ -32722,7 +32887,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/56/last-gasp?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "b105511d-5022-4a84-b6ce-4bb433e93a62",
@@ -32748,7 +32915,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/57/lichs-relic?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "90d684a4-9639-4792-8760-2011a7a85370",
@@ -32772,7 +32941,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/58/multiply-by-zero?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "c4554f5b-791b-48f6-bf54-ad28699e1beb",
@@ -32798,7 +32969,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/59/overwrite-the-multiverse?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "f4a80225-7459-4151-86bb-8fdea31c39a6",
@@ -32824,7 +32997,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/60/rampart-hunter?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "4ff6da82-d7dd-4b59-b7e6-30670cea7169",
@@ -32848,7 +33023,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/61/rank-rat?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "453cfde7-c460-4b55-9472-b714e16f24bb",
@@ -32874,7 +33051,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/62/rewrite-regrets?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "811719ad-b5a3-4d31-8c6f-5dbdfccf7c1f",
@@ -32898,7 +33077,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/63/rise-of-the-deathbringer?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "2185c08f-bb4d-49d5-8b6c-c629a48bb61c",
@@ -32922,7 +33103,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/64/sanctum-lurker?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "738667a1-c184-43ea-829f-49fbb69b6fc0",
@@ -32948,7 +33131,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/65/screeching-soulbreaker?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "f1d274db-751b-4414-a38d-762198168e91",
@@ -32972,7 +33157,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/66/silence-the-echo?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "7beaa8c9-1a2c-4c88-b579-91e371d8d9e3",
@@ -32998,7 +33185,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/67/solve-for-disappointment?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "7ebd7e38-b27c-4c6e-aaea-e8ee5ba5e5df",
@@ -33022,7 +33211,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/68/terminal-criticism?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "0.5",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "e36a7908-1e22-494b-adb4-e72ac0974d62",
@@ -33046,7 +33237,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/69/theoretical-necromancer?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "0eae2efb-bf25-48ee-9c07-9098008110ad",
@@ -33075,7 +33268,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/70/void-extrapolator-omit-variables?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "992bd991-7cfb-459f-bafd-9a44f3c925c5",
@@ -33101,7 +33296,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/71/vraskas-final-mercy?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "d9039a58-2f17-4b8a-b714-3a2f0b46f057",
@@ -33125,7 +33322,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/72/ajanis-anguish?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "7d3b720d-f27c-462a-8f80-15748e5086e1",
@@ -33149,7 +33348,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/73/artifist-acumen?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "c596c4ec-8480-4be9-a45d-700398a126f6",
@@ -33178,7 +33379,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/74/awaken-the-inferno?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "8414a98c-0c79-4884-bc9b-061a6456b392",
@@ -33202,7 +33405,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/75/blazing-crescendo?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "3a64c5f4-9cfc-4d19-bd99-13d619b1aa9d",
@@ -33228,7 +33433,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/76/chandras-emberling?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "f3307da2-6dad-4ef2-9614-a7d34f38088e",
@@ -33252,7 +33459,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/77/command-the-stage?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "47793a51-08c6-4ad2-a7e5-a4484d83a5cd",
@@ -33278,7 +33487,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/78/craterclaw-colossus?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "8f827e50-0a08-4bc8-98b1-b26c9af15ef2",
@@ -33305,7 +33516,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/79/curse-marred-demon?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "112f8478-bd89-4a14-9721-8ab750613129",
@@ -33331,7 +33544,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/80/draconic-visitor?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "5f8771f9-8128-4818-a11d-41ea368cf697",
@@ -33355,7 +33570,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/81/eardrum-rattler?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "d2e958de-70de-4156-8f9b-b2c0c1ba704a",
@@ -33379,7 +33596,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/82/essence-burn?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "0.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "3ccf8f64-19bd-4fdf-b70a-30a042bacf2f",
@@ -33403,7 +33622,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/83/face-yourself?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "19acb2b5-3b3e-43f0-bd81-8426ed3d9c55",
@@ -33427,7 +33648,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/84/fulminous-forte?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "7e324816-552f-455d-97c4-5ea6b26d2e6e",
@@ -33454,7 +33677,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/85/hallway-heckler-vicious-verse?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "cbfe3354-7ced-4773-9a4e-a937ae9f94f8",
@@ -33480,7 +33705,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/86/heartstring-puller?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "e600b33b-8916-43dd-95d3-d7cbf874933d",
@@ -33504,7 +33731,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/87/identity-echo?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "0.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "4404d9d4-9cdd-4dad-a4f6-574d90db5052",
@@ -33530,7 +33759,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/88/master-of-barbs?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "11ba4fdd-cc03-4bb6-a493-91a9785771d0",
@@ -33556,7 +33787,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/89/no-admittance?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "aa0f77ac-741a-444a-8bf0-a42c644726bf",
@@ -33583,7 +33816,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/90/pompous-battlemage-improvised-act?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "2b0ebea0-86de-4da4-9fe8-dacc1e75c161",
@@ -33610,7 +33845,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/91/pyre-rhymer-molten-tide?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "0e44f959-1322-4abd-b6eb-dea992307c0c",
@@ -33634,7 +33871,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/92/skilled-battlecarver?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460",
@@ -33660,7 +33899,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/93/stingcaster-mage?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "b75bbf46-a421-467a-9433-6cf22398a3a5",
@@ -33686,7 +33927,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/94/tether-technician?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "ad03ba90-2442-4a71-94df-2088b5b63662",
@@ -33712,7 +33955,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/95/violent-echoes?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "b5b55617-684a-4036-be9b-a3b24fc9cd5a",
@@ -33736,7 +33981,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/96/wrath-of-the-bloodmane?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "1bf923c4-f0b7-4271-978c-fd2e79fe1cc8",
@@ -33763,7 +34010,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/97/arcane-amphisbaena?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "e0de5f66-f0df-4866-9f73-104ce50411b4",
@@ -33789,7 +34038,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/98/bestial-incursion?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "18c59d60-2640-4576-9375-3ba38aa3ecb7",
@@ -33815,7 +34066,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/99/budding-insurgent?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "79dd5c54-5ea5-47b5-8f9b-50ed57a5ea45",
@@ -33842,7 +34095,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/100/carnivorous-cultivator-enroot?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "bd32d736-7a58-46b9-90b4-2cac3c3e80a1",
@@ -33866,7 +34121,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/101/compel-brutality?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "f71958e9-6d6d-4393-8b49-567103b50877",
@@ -33890,7 +34147,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/102/flourishing-grapple?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "0.5",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "930b89c3-4433-48de-829f-20fc3dbfced9",
@@ -33914,7 +34173,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/103/gardenize?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "0",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "a56e0f91-b128-4693-a949-53cb403f4fbf",
@@ -33938,7 +34199,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/104/greenhouse-propagator?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "910a1f41-17fd-4ab0-9597-7151e79dc760",
@@ -33965,7 +34228,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/105/heartwood-crafter-soul-tether?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "9a446cae-e93c-4574-8ffd-7688f9729a8a",
@@ -33991,7 +34256,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/106/hexhaven-invigorator?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "3db2da7a-8088-4117-916b-f9c905d1b45b",
@@ -34015,7 +34282,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/107/hungering-puppetbeast?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "a2cc5d0e-9643-4ee2-81de-fa2c3bd1ab09",
@@ -34041,7 +34310,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/108/hunters-axe?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "073f4998-a204-447b-93d5-746ae87fd6a1",
@@ -34067,7 +34338,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/109/inspired-tethermage?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "eaf9dc77-c83b-49cf-84be-6bd791cb925e",
@@ -34091,7 +34364,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/110/omnipresence?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "0",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "6b8789a6-3b63-4198-af5f-c2f2f49fafd9",
@@ -34117,7 +34392,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/111/puppet-crafting?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "3546b93b-a7d1-451d-a369-22cc8ddcd00d",
@@ -34141,7 +34418,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/112/restore-with-empathy?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "7c725702-8696-4e5a-8318-62f5e2616d52",
@@ -34165,7 +34444,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/113/simulacrum-shaper?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "02ee7817-40af-4fcf-a2df-eb218b669281",
@@ -34191,7 +34472,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/114/something-worth-saving?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "b635389c-e286-4edb-80d1-23dbe4a18857",
@@ -34217,7 +34500,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/115/sureshot-sower?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "8be5ee47-8f8a-4e3c-b1a1-9ca0e1fdec7f",
@@ -34241,7 +34526,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/116/tarmogoyf?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "38589a7c-9cfb-4bcc-845e-9dc205095853",
@@ -34265,7 +34552,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/117/tethermages-advantage?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "2bb7a8eb-227f-410b-859f-750ef0aea2f0",
@@ -34289,7 +34578,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/118/verdant-kraken?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4.5",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "e5ed142b-2b61-4ef5-8b23-2db2a0a0319d",
@@ -34319,7 +34610,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/119/vinelasher-adept?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "3d693cb0-681e-480a-8f70-07e94c39225c",
@@ -34345,7 +34638,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/120/wrecking-gecko?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "f17d2792-b075-4c47-ad38-e7a7eaee5f8c",
@@ -34372,7 +34667,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/121/aerid-konstrari?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "5905995b-7a20-4602-a7cc-90aa5089a082",
@@ -34400,7 +34697,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/122/avatar-of-burgeoning-echoes?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "bb975803-9bf2-401e-9414-d272df314398",
@@ -34427,7 +34726,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/123/blessed-ghoul?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "6b804503-9c70-4b1f-bb13-a65fb6dd3ef8",
@@ -34452,7 +34753,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/124/bloombrute?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "87b40df5-5c0a-41f5-a09c-a04f17066a91",
@@ -34477,7 +34780,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/125/charge-the-sanctum?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "b61bcef7-5832-45e6-a2bc-26d4f23707fc",
@@ -34502,7 +34807,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/126/clash-of-elements?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "03f9839c-aa07-4ee7-847b-091e47ab80c4",
@@ -34529,7 +34836,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/127/craftwork-crusher?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "986f9e98-9d8d-428b-9187-860745cf3269",
@@ -34557,7 +34866,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/128/denzilore-fatehold?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "cfaa3ebd-5c21-4e99-a0dd-8426d19b53a5",
@@ -34584,7 +34895,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/129/desperate-futurescribe?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "de94d388-919d-44ff-baef-8c90a417ac6d",
@@ -34611,7 +34924,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/130/emergency-phytomedic-seed-suture?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "ca894d25-b9fc-4cd6-8746-70d8c2868721",
@@ -34636,7 +34951,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/131/entrust-the-spark?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "cfc54011-647e-4428-bcdb-59400e1da49d",
@@ -34661,7 +34978,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/132/fatehold-charm?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "29e7ec16-0c16-48aa-8e09-ce6e0d5bd40b",
@@ -34690,7 +35009,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/133/fatehold-chronologist-peer-review?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "a9793ce9-5a0b-41fe-b9ad-02f6f7da2481",
@@ -34718,7 +35039,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/134/ferocity-of-the-hunt?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "7a44581f-8fc4-457d-888a-1e211090ee7e",
@@ -34746,7 +35069,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/135/frostbite-pyromental?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "8295c48c-b4dd-4bc1-a206-04cf12b79bbd",
@@ -34773,7 +35098,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/136/grim-repriser?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "6471b135-33a8-4005-9a07-ebb74e0bf145",
@@ -34800,7 +35127,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/137/ingris-stingerquill?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "7d29dfa1-9582-47bc-8f42-62b611bdcc4e",
@@ -34825,7 +35154,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/138/konstrari-charm?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "42e28bd2-486b-45d4-8840-6e33c19c2d57",
@@ -34852,7 +35183,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/139/konstrari-improviser-soul-tether?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "2d6ff182-a853-4898-895b-072c89324ca7",
@@ -34882,7 +35215,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/140/kwia-vigorbloom?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "94c290ce-252c-42b3-bcb0-c1ef621df566",
@@ -34910,7 +35245,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/141/mind-meanderer?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "3afdc75a-1bf5-4f2f-84eb-d82f77a095cd",
@@ -34937,7 +35274,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/142/null-summoner?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "e61b9d48-0ace-4453-afe0-a1024444bac0",
@@ -34965,7 +35304,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/143/paradox-shaper-omit-variables?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "04e64af7-cca1-499e-8951-f386e84c8b5b",
@@ -34993,7 +35334,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/144/primal-witchstalker?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "cf0eec8c-0475-4050-8144-481a9bb13a0f",
@@ -35020,7 +35363,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/145/proctor-of-potential?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "6c1c790b-9e0e-4964-9ea3-554843907f06",
@@ -35048,7 +35393,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/146/prudent-fateseer-peer-review?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "68fddb6a-86d4-4ebb-907d-fdcaadebc4b3",
@@ -35075,7 +35422,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/147/recursive-recruitment?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "1ef12dcf-df50-4da6-8c4c-e2937ba9698e",
@@ -35100,7 +35449,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/148/solarium-sentry?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "5142bbb6-194c-4b12-b11a-1a21c9fe81a6",
@@ -35125,7 +35476,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/149/solitary-cell?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "81733ff7-e611-43ee-bf38-6bb700676017",
@@ -35150,7 +35503,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/150/stingerquill-charm?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "84b1c268-3b8a-41b6-92e3-a2ce0cc3d738",
@@ -35177,7 +35532,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/151/stingerquill-voxmancer-vicious-verse?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "a7d78297-7411-4ec5-8931-a25146869d5b",
@@ -35202,7 +35559,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/152/stinging-vitriol?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b",
@@ -35229,7 +35588,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/153/tams-resistance?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "1703306d-6a3d-4ab8-bf58-a9992236ef0f",
@@ -35254,7 +35615,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/154/tenured-tethermage?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "2835c9aa-0904-44db-8da2-e8c4e04201aa",
@@ -35281,7 +35644,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/155/theorix-charm?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "fb6bad96-841d-4738-8e62-92f346f914fd",
@@ -35310,7 +35675,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/156/theorix-metamage-omit-variables?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "55f85984-0137-4899-8993-bbc8c4794d33",
@@ -35337,7 +35704,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/157/twinned-vision?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "c7c0765d-38fd-4d7b-bfb4-49b10ff5939b",
@@ -35362,7 +35731,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/158/twisted-fates?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "a7ad622a-42ff-48fa-ae95-12e0a5bd9387",
@@ -35389,7 +35760,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/159/uldaros-theorix?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "2b198e10-b507-4314-a29c-a219f06e48b7",
@@ -35416,7 +35789,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/160/vigorbloom-charm?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "acefc515-bf97-4dc0-b0f7-ae8ae5a61671",
@@ -35443,7 +35818,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/161/vigorbloom-vanguard-seed-suture?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "a803dbe7-153a-4e92-ad4d-c2babebe003d",
@@ -35468,7 +35845,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/162/vindictive-triumph?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "c63d5b0e-ee72-42ed-aa7e-484ba84507cd",
@@ -35495,7 +35874,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/163/warriors-blades?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "8096bc9a-a610-448f-bef2-7230e17e9777",
@@ -35522,7 +35903,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/164/whiplash-wordsmith-vicious-verse?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "7d17f7e3-7b63-4674-9024-4fd1827f40ec",
@@ -35549,7 +35932,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/165/woodwork-prodigy-soul-tether?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "4d4b3bf7-a149-4099-b97d-4e36a87dfa60",
@@ -35571,7 +35956,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/166/afterthought-sentry?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "024bce1e-a5f3-4292-bc17-d0355a5d65e1",
@@ -35595,7 +35982,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/167/archive-arbiter?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "c3192390-1518-49fc-8716-f2c7a0384f39",
@@ -35625,7 +36014,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/168/codie-ravenous-codex?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "d71d250f-c0e0-44b2-877c-76f3bcab4f34",
@@ -35647,7 +36038,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/169/the-echoverse-fulcrum?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "0edba64a-39cf-4a8d-ba20-4f7da10b6c3d",
@@ -35671,7 +36064,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/170/eye-of-jace?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0",
@@ -35695,7 +36090,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/171/keeper-of-the-quiet-hour?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "5d4a8e5f-0024-4da3-a2f5-edb48b12e733",
@@ -35717,7 +36114,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/172/living-library?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "8b07409a-1dce-461d-95e4-1130521ff4c4",
@@ -35741,7 +36140,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/173/medics-kitesail?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "d68eab2e-89dd-4377-b7af-01512b1804a0",
@@ -35763,7 +36164,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/174/murmuring-volume?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "3223e5db-5cc4-42f9-ae9e-ff58abc7c390",
@@ -35788,7 +36191,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/175/dedicated-commons?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "56dae4c4-3e71-4a32-979b-4e26d9c9e96c",
@@ -35813,7 +36218,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/176/deserted-beach?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "5140f962-62f3-40fd-a322-44896c7e2613",
@@ -35838,7 +36245,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/177/fatehold-annex?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "e6ca6c3e-f145-42d6-8a17-90770c15afaf",
@@ -35863,7 +36272,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/178/formidable-commons?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "4a771010-b397-4849-ac9b-08e4dd5d6a72",
@@ -35885,7 +36296,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/179/hall-of-echoes?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "a4e4966b-8963-4fac-a8bf-e778e063c7dd",
@@ -35910,7 +36323,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/180/haunted-ridge?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "9128ce00-6744-4d36-bfbe-ef75d78110b0",
@@ -35934,7 +36349,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/181/hexhaven-dueling-arena?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "84ea799a-faa2-4ff1-a933-432d4ee31a3b",
@@ -35959,7 +36376,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/182/innovative-commons?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "39c805e3-82cd-42a9-80fe-8d81712a94ea",
@@ -35984,7 +36403,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/183/konstrari-annex?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "93ac525e-1919-43dd-aba4-073b7e4c1768",
@@ -36009,7 +36430,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/184/meticulous-commons?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "178e61e4-472f-42cd-9d3b-4880c2acc527",
@@ -36034,7 +36457,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/185/overgrown-farmland?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "e3c8a8b6-23ba-45ad-80d1-8e2dc79897f7",
@@ -36059,7 +36484,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/186/rockfall-vale?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "db61361b-bd12-453e-abc2-bbe09b66e3d9",
@@ -36083,7 +36510,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/187/roiling-canopy?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "0.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "9a467560-6676-4fc2-9400-768a79650aa4",
@@ -36105,7 +36534,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/188/room-of-refuge?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "9e944c5b-68ac-4a30-bbd4-09a4288319ce",
@@ -36130,7 +36561,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/189/shipwreck-marsh?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "6ede3143-69ac-4cbe-922a-d25b07c26da7",
@@ -36155,7 +36588,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/190/stingerquill-annex?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "22db5bba-46c9-4a26-821d-303ddb386ea4",
@@ -36181,7 +36616,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/191/theorists-sanctum?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "97bbbd23-ecb1-4407-ac14-dede08532a1e",
@@ -36206,7 +36643,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/192/theorix-annex?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "b57d5be7-3157-4b49-aeb8-d7368ca7e9dd",
@@ -36231,7 +36670,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/193/transformative-commons?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "db8c7bdd-76cd-4be0-ae0d-d430e9a5fe7a",
@@ -36256,7 +36697,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/194/vigorbloom-annex?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "a5e1a7dd-8c49-4435-935c-bcc78704082b",
@@ -36280,7 +36723,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/195/ajani-resolute?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "d5cb9810-3c2d-4ae4-b8b6-0155ca3f47ad",
@@ -36306,7 +36751,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/196/danitha-sword-of-hope?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "a9f3aa55-908f-42db-8135-4201433df850",
@@ -36330,7 +36777,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/197/ghalta-the-immovable?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "768c0e64-9907-417a-a763-c836fdf36883",
@@ -36354,7 +36803,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/198/gideons-memorial?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "920703fd-2a2f-454b-8829-af8f2afda4f4",
@@ -36380,7 +36831,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/199/koth-of-the-homestead?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "70d8c400-87dc-4f15-808f-e54a95d779fc",
@@ -36404,7 +36857,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/200/liliana-the-faultless?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "86a3866e-68a8-402c-baf0-1908e98e3995",
@@ -36430,7 +36885,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/201/lyra-archangel-of-dawn?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "699874e3-1ccf-4a6c-8371-61040de82d08",
@@ -36456,7 +36913,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/202/rescue-girl-first-responder?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "07572be0-6610-493c-a21e-14b78e9805c9",
@@ -36482,7 +36941,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/203/saheeli-consul-of-oversight?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "5f7521d7-9f1f-4f03-b2ea-dd2a1b1e4e5b",
@@ -36508,7 +36969,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/204/teyo-lightshield-expert?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "80226231-9e70-430e-aabc-f262f70b9226",
@@ -36534,7 +36997,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/205/thalia-the-survivor?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "7ca95235-6e54-4ff8-bc2e-6a3d483ff007",
@@ -36560,7 +37025,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/206/tomik-orzhov-lawmage?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "50326a2a-7e10-464b-a97e-e880bda0558c",
@@ -36586,7 +37053,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/207/way-of-the-healer?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "1a59d5b1-12d6-486b-bd29-ca371359addd",
@@ -36612,7 +37081,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/208/way-of-the-mentor?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "384f3b7d-8d7f-41bf-bebd-64e8babe7fca",
@@ -36636,7 +37107,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/209/yoshimaru-beloved-companion?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "ccbe92a5-42bc-4228-9d5a-212df2f5dc15",
@@ -36660,7 +37133,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/210/yuriko-blade-of-the-mighty?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-white"
         },
         {
           "id": "8e3a2239-9348-4639-9318-e9e35b2cf86b",
@@ -36684,7 +37159,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/211/arni-humble-scribe?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "240f58ab-944c-4f4c-9df9-5f40b132bf3e",
@@ -36710,7 +37187,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/212/chandra-chill-of-compliance?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "a3a2edbb-d144-4670-acad-17316cea98d2",
@@ -36734,7 +37213,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/213/fblthp-impossibly-lost?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "9c334530-0880-46b5-a358-9603eee3cecf",
@@ -36760,7 +37241,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/214/geist-of-saint-thalia?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "85faaa9d-4656-4365-871d-7cba53ed0996",
@@ -36784,7 +37267,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/215/hapatra-the-desert-frost?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "74087795-0b38-4fd2-9841-147583baca41",
@@ -36808,7 +37293,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/216/jace-reality-sculptor?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "a5183681-447b-4023-91f7-00e9338f4417",
@@ -36834,7 +37321,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/217/lyra-tolarian-archangel?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "b8466593-40fe-4557-89b2-760c1c92087b",
@@ -36858,7 +37347,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/218/proft-consulting-detective?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "00af4e87-5576-4a43-9422-4c35b2b66775",
@@ -36885,7 +37376,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/219/ruric-thar-biomagus?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "6d7d8fa7-ce69-4a8c-9af0-55571393a244",
@@ -36909,7 +37402,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/220/samut-tyrant-of-naktamun?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "3983d71e-3c23-4b36-b331-08e0707d8245",
@@ -36933,7 +37428,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/221/tetsuko-umezawa-fugitive?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "a349800f-b634-4e74-a9d9-185df37ad909",
@@ -36961,7 +37458,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/222/traxos-academy-guardian?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "838b0efb-7398-4df9-8fdf-b8af43b47938",
@@ -36987,7 +37486,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/223/way-of-the-cryomancer?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "5838af68-66c3-4fe8-ab89-0a1721b0cfeb",
@@ -37013,7 +37514,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/224/way-of-the-mind-sculptor?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "f45ba926-6496-4bd4-96eb-663946d56bbf",
@@ -37037,7 +37540,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/225/yargle-goliath-of-otaria?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "45e81487-8b8c-480b-922a-eaa9edc7201d",
@@ -37064,7 +37569,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/226/yuriko-hope-from-the-shadows?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-blue"
         },
         {
           "id": "6489814b-3d10-423e-988c-324740d36748",
@@ -37090,7 +37597,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/227/danitha-spear-of-agony?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "498fa810-8522-4020-b773-52ad404c9f65",
@@ -37116,7 +37625,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/228/gallia-tragic-host?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "d48bfb8a-d135-45f3-be99-4694b4b9ab93",
@@ -37140,7 +37651,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/229/garruk-veiled-butcher?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4.5",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "c985b0d1-25bd-4069-aab7-a566ff27a8f6",
@@ -37166,7 +37679,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/230/gideon-the-oathless?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "1eb25a6c-d6b4-465d-990e-f1ab86b26b69",
@@ -37193,7 +37708,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/231/liliana-the-repentant?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "4f6fd2fa-8bc8-4743-bbc8-b56475d64eff",
@@ -37219,7 +37736,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/232/loot-the-anomaly?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "b2a412b0-2ae4-4552-bc5e-70654b6b9b4e",
@@ -37245,7 +37764,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/233/mabel-bitter-recluse?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "9028d31f-9c41-47e3-885b-6a869bca8178",
@@ -37269,7 +37790,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/234/massacre-girl-most-wanted?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "d36b0e06-cb82-4c48-bf35-e76f109116f6",
@@ -37296,7 +37819,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/235/proft-sinister-mastermind?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "100c3b67-0c92-4224-b5ed-67789c612df7",
@@ -37322,7 +37847,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/236/teyo-diamondblade-mage?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "2f47ddf7-35b6-4205-8045-f057914c5f64",
@@ -37346,7 +37873,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/237/tinybones-pocket-nuisance?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "12dd46b2-e892-4660-b120-55766fd4d878",
@@ -37372,7 +37901,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/238/way-of-the-deathbringer?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "a0ff9689-ea49-4fff-b37c-4abbaeb0f73d",
@@ -37398,7 +37929,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/239/way-of-the-necromancer?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "9670f754-f41f-45ac-8e8b-025ad2c0f66b",
@@ -37422,7 +37955,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/240/winter-tormented-loner?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "04c816fb-5951-4db1-8834-ed3f0b36bfe1",
@@ -37446,7 +37981,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/241/yargle-glutton-of-urborg?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-black"
         },
         {
           "id": "bc3c096f-7f6c-474c-a2c8-75d3e6ddd6f5",
@@ -37470,7 +38007,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/242/ajani-unrelenting?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "bd8db649-1dba-457d-8327-e1f1da1aab36",
@@ -37496,7 +38035,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/243/arni-renowned-champion?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd",
@@ -37520,7 +38061,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/244/chandra-torch-of-defiance?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "f27d50f0-d76e-4ce1-a8d9-d997af6a5b41",
@@ -37546,7 +38089,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/245/gallia-the-merrymaker?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "e8c1ce21-b77d-40bf-9ed1-478604e71f5f",
@@ -37572,7 +38117,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/246/jiang-yanggu-alone?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "08657053-86f9-4c52-abf0-d9cdd443ae3b",
@@ -37596,7 +38143,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/247/kiora-of-fire-and-ashes?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "54f64e95-5a97-4d7c-9939-7f33a3165562",
@@ -37623,7 +38172,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/248/koth-the-geomancer?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "f93da73c-ca8b-438e-8387-6109dac3fc1a",
@@ -37647,7 +38198,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/249/marwyn-the-clearcutter?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "dd3faaf4-45ca-4714-8dbe-37102ec131cf",
@@ -37671,7 +38224,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/250/pia-determined-rebuilder?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "ba920f23-f05c-410e-8516-c93abedf1d4d",
@@ -37695,7 +38250,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/251/samut-hazorets-champion?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "df818900-ce5e-4b0d-a927-c975cbef7eda",
@@ -37722,7 +38279,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/252/tetsuko-umezawa-pursuer?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "5c5afd5f-6f37-4c3e-83f0-68fdcea98810",
@@ -37748,7 +38307,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/253/tomik-izzet-sparkmage?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "c1a00020-7c14-4503-a057-5763704bb83e",
@@ -37774,7 +38335,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/254/way-of-the-pyromancer?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "6d86e410-20c4-4248-96bf-5780ece6274a",
@@ -37800,7 +38363,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/255/way-of-the-warlord?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "df8713cd-3f4b-43ef-adbd-e37c2617c617",
@@ -37826,7 +38391,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/256/winter-team-player?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-red"
         },
         {
           "id": "dad6afc9-8505-4cdd-bf79-e9ba4670f2bb",
@@ -37852,7 +38419,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/257/edgar-moonlit-sovereign?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "28fbb55a-5c9d-45ee-bf42-a84b1048f5d2",
@@ -37878,7 +38447,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/258/fblthp-knows-the-way?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "90ca5812-ceb5-46bd-b049-aed7ff10e6af",
@@ -37902,7 +38473,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/259/garruk-curse-breaker?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "5",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "1d535b5f-c916-4f16-89a7-9477578826d2",
@@ -37928,7 +38501,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/260/ghalta-the-unstoppable?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "f5a0bb3e-8119-4739-8684-e61d1d607dcb",
@@ -37952,7 +38527,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/261/jiang-yanggu-never-alone?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "3cfa4fc6-4d90-4576-a83f-6496c7f21104",
@@ -37976,7 +38553,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/262/loot-the-nexus?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "90f33f99-7bc5-42e1-815e-bfb4c2b74107",
@@ -38000,7 +38579,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/263/marwyn-the-preserver?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "ff0bc30f-9d20-458e-808f-bdc2825905a5",
@@ -38024,7 +38605,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/264/pia-aether-ascetic?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "eed83302-dc2c-45f4-a4bd-af9da51edef5",
@@ -38052,7 +38635,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/265/ruric-thar-magecrusher?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "edea6f70-a5a7-475d-b7f2-97933d0f32cf",
@@ -38078,7 +38663,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/266/titanbones-towering-heart?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "98dc5470-507a-4364-8480-42607255e56c",
@@ -38104,7 +38691,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/267/way-of-the-paradox?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "a252cb01-537b-4afe-9abc-81a98c4a1439",
@@ -38130,7 +38719,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/268/way-of-the-wildspeaker?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "b8dfd087-2434-42c6-ac4c-1decbcdde2db",
@@ -38156,7 +38747,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/269/yoshimaru-scrappy-stray?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2.5",
+          "reviewSourceId": "zone-green"
         },
         {
           "id": "7c619fed-2394-4efc-8cdc-6df5f51c1f57",
@@ -38181,7 +38774,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/270/edgar-ancient-bloodlord?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "cf7c1534-af41-4991-b3c3-f0a34ae330b5",
@@ -38206,7 +38801,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/271/hapatra-the-desert-fang?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "3abcae65-5b21-4c98-adad-34b8bc76ea3a",
@@ -38237,7 +38834,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/272/karn-gilded-guardian?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1.5",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "8151f5f5-e9f6-4fbe-b543-f456ebf22aa5",
@@ -38262,7 +38861,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/273/kiora-of-salt-and-sand?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "47abea4b-9848-48aa-bc1b-f04f4799e920",
@@ -38287,7 +38888,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/274/mabel-valley-hero?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "28d84ef6-e190-46d4-882d-1cea5e111e2a",
@@ -38312,7 +38915,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/275/saheeli-jewel-of-avishkar?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "6529d399-677e-45a6-ac3e-12a0b10f6c37",
@@ -38342,7 +38947,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/276/tam-the-possibility?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "f3869752-eade-4e7a-8dd1-68cafb9e10be",
@@ -38370,7 +38977,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/277/vraska-soul-of-stone?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "3",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "5c28b012-5efb-488f-a1c1-09e2dddfd6ee",
@@ -38398,7 +39007,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/278/vraska-the-cutting-glare?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "4",
+          "reviewSourceId": "zone-multicolor"
         },
         {
           "id": "1ebbbddb-2dc3-4194-b72b-13bcebe2ab89",
@@ -38420,7 +39031,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/279/karn-argent-defender?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "1",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "05102c46-96f8-44a0-a1e6-e388fa5e0841",
@@ -38444,7 +39057,9 @@ window.LIMITED_PREP_DATA = {
           "scryfallUrl": "https://scryfall.com/card/fra/280/traxos-scourge-eternal?utm_source=api",
           "rank": null,
           "tier": null,
-          "band": "unrated"
+          "band": "unrated",
+          "reviewGrade": "2",
+          "reviewSourceId": "zone-artifacts-and-lands"
         },
         {
           "id": "a4eaecb8-066a-4c72-aa5d-5ed0614ba537",

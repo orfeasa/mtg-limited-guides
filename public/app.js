@@ -245,6 +245,7 @@
   }
 
   function progressKey() {
+    if (expertTraining()) return `limited-prep:review:${currentSet.id}:${currentSet.reviewTraining.reviewerGroup}:${currentSet.reviewTraining.capturedAt}`;
     return `limited-prep:v1:${currentSet.id}`;
   }
 
@@ -291,7 +292,7 @@
       delete next.pickAttempts;
       delete next.pickCorrect;
       next.trainerRevealed = Boolean(next.trainerRevealed);
-      next.trainerGuess = next.trainerGuess === null || tierOrder.includes(next.trainerGuess) ? next.trainerGuess : null;
+      next.trainerGuess = next.trainerGuess === null || trainerOptions().includes(next.trainerGuess) ? next.trainerGuess : null;
       return next;
     } catch {
       // Try the final single-set trainer format once so existing Hobbit work is not lost.
@@ -320,7 +321,7 @@
   }
 
   function saveProgress() {
-    if (!ratingIsAvailable()) return;
+    if (!lifecycle().training) return;
     progress.currentCard = trainerCardId;
     progress.color = elements.trainerColor.value;
     progress.trainerRevealed = trainerRevealed;
@@ -448,8 +449,13 @@
   }
 
   function ratingIsAvailable() {
-    return lifecycle().training;
+    return lifecycle().ratings;
   }
+
+  function expertTraining() { return lifecycle().reviewTraining && !lifecycle().ratings; }
+  function trainerOptions() { return expertTraining() ? currentSet.reviewTraining.options.map(o => o.value) : tierOrder; }
+  function trainerAnswer(card) { return expertTraining() ? card.reviewGrade : card.tier; }
+  function trainerEligible(card) { return expertTraining() ? Boolean(card && !card.isBasicLand && trainerOptions().includes(card.reviewGrade)) : cardIsRated(card); }
 
   function lifecycle() {
     return window.SET_LIFECYCLE.resolve(currentSet);
@@ -494,7 +500,7 @@
     elements.setSelect.value = currentSet.id;
     elements.datasetCount.textContent = String(currentSet.browseCardCount);
     elements.datasetUnit.textContent = state.complete ? "cards" : "revealed";
-    elements.datasetDate.textContent = state.training ? "observed data" : state.complete ? "full card file" : "previews";
+    elements.datasetDate.textContent = state.ratings ? "observed data" : state.reviewTraining ? "expert review" : state.complete ? "full card file" : "previews";
     elements.atlasTitle.textContent = state.atlasLabel;
 
     if (archetypesAvailable()) {
@@ -529,6 +535,15 @@
   }
 
   function renderFooterSource() {
+    if (currentView === "training" && expertTraining()) {
+      const review = currentSet.reviewTraining;
+      elements.footerRefreshed.hidden = false;
+      elements.footerRefreshed.textContent = `Review captured ${dateLabel(review.capturedAt)}`;
+      elements.footerSource.textContent = `${review.author} · ${review.source} · initial Limited review`;
+      elements.sourceLink.href = review.url;
+      elements.sourceLink.textContent = "Read the review";
+      return;
+    }
     if (currentView === "prep" && lifecycle().prep) {
       elements.footerRefreshed.hidden = false;
       elements.footerRefreshed.textContent = `Guide reviewed ${dateLabel(currentSet.prep.authoredAt)}`;
@@ -576,6 +591,14 @@
   }
 
   function renderGradeOptions() {
+    $("#trainer-title").textContent = expertTraining() ? "Training · Expert review" : "Training · Observed draft data";
+    elements.gradeScore.previousElementSibling.textContent = expertTraining() ? "Review grade calls" : "Tier calls";
+    elements.gradeOptions.classList.toggle("grade-options--review", expertTraining());
+    if (expertTraining()) {
+      elements.gradeOptions.innerHTML = currentSet.reviewTraining.options.map(option => `<button type="button" data-grade="${escapeHtml(option.value)}" aria-label="Guess ${escapeHtml(option.value)} out of 5: ${escapeHtml(option.label)}"><strong>${escapeHtml(option.value)}</strong><span>${escapeHtml(option.label)}</span></button>`).join("");
+      elements.gradeOptions.setAttribute("aria-label", "Choose J2SJosh’s review grade out of 5");
+      return;
+    }
     const rows = tierFamilies.map((family) => {
       const row = document.createElement("div");
       row.className = "grade-family";
@@ -598,7 +621,7 @@
 
   function trainerPool() {
     const color = elements.trainerColor.value;
-    const eligibleCards = ratingIsAvailable() ? ratedCards() : cards;
+    const eligibleCards = cards.filter(trainerEligible);
     return eligibleCards.filter((card) => color === "all" || card.color === color);
   }
 
@@ -622,6 +645,11 @@
   }
 
   function trainerEvidence(card) {
+    if (expertTraining()) {
+      const evidence = currentSet.earlyEvidence;
+      const row = evidence.byCard[card.id];
+      return `<div class="trainer-review-evidence"><p>${row.grades.map(grade => `${escapeHtml(evidence.sources[grade.sourceId].author)}: <strong>${grade.grade}/${evidence.sources[grade.sourceId].scale.max}</strong>`).join(" · ")}</p>${window.EARLY_EVIDENCE.card(currentSet, card.id)}</div>`;
+    }
     if (!card.stats) return "";
     const winRate = Number.isFinite(card.stats.inHandWinRate) ? `${card.stats.inHandWinRate.toFixed(1)}%` : "—";
     const lastOffered = Number.isFinite(card.stats.avgLastOffered) ? `Pick ${card.stats.avgLastOffered.toFixed(1)}` : "—";
@@ -634,8 +662,8 @@
   }
 
   function renderTrainer() {
-    if (!ratingIsAvailable()) return;
-    const card = cardById.get(trainerCardId) || (ratingIsAvailable() ? takeTrainerCard() : cards[0]);
+    if (!lifecycle().training) return;
+    const card = cardById.get(trainerCardId) || takeTrainerCard();
     if (!card) return;
     trainerCardId = card.id;
     markSeen(card.id);
@@ -657,8 +685,10 @@
       button.setAttribute("aria-pressed", "false");
     });
 
-    if (cardIsRated(card)) {
-      elements.trainerInstruction.textContent = "Choose the exact tier. Misses return again within a few cards.";
+    if (trainerEligible(card)) {
+      elements.trainerInstruction.textContent = expertTraining()
+        ? "Guess J2SJosh’s grade out of 5. Initial Limited opinions; deck fit can change the assessment. Misses return soon."
+        : "Choose the exact tier. Misses return again within a few cards.";
       elements.gradeOptions.hidden = false;
       elements.revealCard.hidden = false;
       elements.revealCard.disabled = false;
@@ -680,16 +710,18 @@
 
   function revealTrainer() {
     const card = cardById.get(trainerCardId);
-    if (!cardIsRated(card)) return;
+    if (!trainerEligible(card)) return;
     trainerRevealed = true;
     elements.trainerAnswer.hidden = false;
-    const result = trainerGuess === card.tier ? "Exact" : trainerGuess === null ? "Answer revealed" : `You chose ${escapeHtml(trainerGuess)}`;
-    elements.trainerAnswer.innerHTML = `<div class="trainer-answer-heading"><strong>#${card.rank} · Tier ${escapeHtml(card.tier)}</strong><span>${result} · ${escapeHtml(bandLabels[card.band])}</span></div>${trainerEvidence(card)}`;
+    const answer = trainerAnswer(card);
+    const result = trainerGuess === answer ? "Exact" : trainerGuess === null ? "Answer revealed" : `You chose ${escapeHtml(trainerGuess)}`;
+    const heading = expertTraining() ? `J2SJosh · ${answer}/5` : `#${card.rank} · Tier ${escapeHtml(card.tier)}`;
+    elements.trainerAnswer.innerHTML = `<div class="trainer-answer-heading"><strong>${heading}</strong><span>${result}${expertTraining() ? "" : ` · ${escapeHtml(bandLabels[card.band])}`}</span></div>${trainerEvidence(card)}`;
     elements.revealCard.disabled = true;
     elements.gradeOptions.querySelectorAll("button").forEach((button) => {
       button.disabled = true;
       button.setAttribute("aria-pressed", String(button.dataset.grade === trainerGuess));
-      if (button.dataset.grade === card.tier) button.dataset.result = "correct";
+      if (button.dataset.grade === answer) button.dataset.result = "correct";
       else if (trainerGuess === button.dataset.grade) button.dataset.result = "wrong";
       else button.dataset.result = "muted";
     });
@@ -697,15 +729,17 @@
   }
 
   function answerTrainer(guess) {
-    if (trainerRevealed || !ratingIsAvailable()) return;
+    if (trainerRevealed || !lifecycle().training) return;
     const card = cardById.get(trainerCardId);
-    if (!cardIsRated(card)) return;
+    if (!trainerEligible(card)) return;
     trainerGuess = guess;
     progress.gradeAttempts += 1;
-    if (guess === card.tier) progress.gradeCorrect += 1;
+    if (guess === trainerAnswer(card)) progress.gradeCorrect += 1;
     else repeatTrainerCardSoon(card.id);
     revealTrainer();
-    elements.liveRegion.textContent = guess === card.tier
+    elements.liveRegion.textContent = expertTraining()
+      ? `${card.name}: J2SJosh rated it ${card.reviewGrade} out of 5. ${guess === card.reviewGrade ? "Exact." : "It will return again soon."}`
+      : guess === card.tier
       ? `Correct. ${card.name} is tier ${card.tier}, rank ${card.rank}.`
       : `${card.name} is tier ${card.tier}, rank ${card.rank}. It will return again soon.`;
   }
@@ -1421,8 +1455,8 @@
     elements.trainerColor.value = progress.color || "all";
     renderGradeOptions();
     const savedCard = cardById.get(progress.currentCard);
-    trainerCardId = savedCard?.id || (ratingIsAvailable() ? takeTrainerCard()?.id : cards[0]?.id);
-    trainerRevealed = Boolean(progress.trainerRevealed && cardIsRated(cardById.get(trainerCardId)));
+    trainerCardId = (trainerEligible(savedCard) ? savedCard.id : null) || (lifecycle().training ? takeTrainerCard()?.id : cards[0]?.id);
+    trainerRevealed = Boolean(progress.trainerRevealed && trainerEligible(cardById.get(trainerCardId)));
     trainerGuess = trainerRevealed ? progress.trainerGuess : null;
     const scenarios = currentSet.draftDecisions?.scenarios || [];
     const requestedDecisionId = useRouteState ? routeParams.get("decision") : null;

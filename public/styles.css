@@ -820,6 +820,16 @@ body[data-theme="fracture"] .trainer-image-wrap img {
   margin-top: 22px;
 }
 
+.grade-options.grade-options--review {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grade-options.grade-options--review button { min-height: 64px; --tier-color: var(--accent); }
+.grade-options.grade-options--review span { text-transform: none; letter-spacing: normal; }
+.trainer-review-evidence { margin-top: 16px; font-size: 1rem; line-height: 1.5; }
+.trainer-review-evidence h3, .trainer-review-evidence h4 { margin: 20px 0 8px; font-size: 1.1rem; }
+
 .grade-family {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));

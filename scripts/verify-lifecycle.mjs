@@ -16,10 +16,13 @@ assert.equal(resolve(previews, "2027-01-01").archetypes, false, "Dates cannot ce
 assert.equal(resolve(previews, "2027-01-01").training, false, "Release cannot create ratings");
 assert.equal(resolve(fra, "2026-09-18").views.join(","), "memory,prep,archetypes,atlas");
 assert.equal(resolve(fra, "2026-09-18").defaultView, "atlas");
-assert.equal(resolve(fra, "2026-10-02").defaultView, "atlas", "Release does not change the landing without ratings");
+const unrated = structuredClone(fra);
+delete unrated.reviewTraining;
+assert.equal(resolve(unrated, "2026-10-02").defaultView, "atlas", "Release does not create training evidence");
 assert.equal(resolve(previews, "2026-09-17").defaultView, "atlas");
 assert.equal(resolve(previews, "2027-01-01").prep, false, "A guide cannot certify the full file");
 const unpublished = structuredClone(fra);
+delete unpublished.reviewTraining;
 unpublished.prep.status = "draft";
 assert.equal(resolve(unpublished, "2027-01-01").defaultView, "atlas");
 unpublished.prep.status = "published";
@@ -38,7 +41,18 @@ assert.equal(resolve(fra, "2026-09-18").atlasLabel, "All cards");
 assert.equal(resolve(fra, "2026-10-01").atlasLabel, "All cards");
 assert.equal(resolve(previews, "2027-01-01").atlasLabel, "Previews", "Retail release cannot certify the full file");
 assert.equal(resolve(fra, "2026-10-02").atlasLabel, "All cards");
-assert.equal(resolve(fra, "2026-10-02").training, false);
+assert.equal(resolve(unrated, "2026-10-02").training, false);
+assert.equal(resolve(fra, "2026-09-23").training, false);
+assert.equal(resolve(fra, "2026-09-24").training, true);
+assert.equal(resolve(fra, "2026-09-24").ratings, false);
+assert.equal(resolve(fra, "2026-09-24").decisions, false);
+assert.equal(resolve(fra, "2026-09-24").stage, "complete");
+assert.equal(resolve(fra, "2026-09-24").defaultView, "training");
+for (const corrupt of [set => { delete set.cards.find(c => !c.isBasicLand).reviewGrade; }, set => { set.reviewTraining.author = ''; }, set => { set.cards.find(c => !c.isBasicLand).reviewGrade = '99'; }, set => { set.reviewTraining.reviewerGroup = 'unknown'; }]) {
+  const broken = structuredClone(fra);
+  corrupt(broken);
+  assert.equal(resolve(broken, "2026-09-24").training, false);
+}
 assert.equal(resolve(hob, ratedDate).views.join(","), "training,archetypes,decisions,atlas");
 const incompleteRatings = structuredClone(hob);
 incompleteRatings.cards[0].tier = null;

@@ -87,7 +87,29 @@
         "url": "https://scryfall.com/sets/fra"
       },
       "officialUrl": "https://magic.wizards.com/en/products/reality-fracture/card-image-gallery",
-      "earlyEvidenceDir": "research/fra"
+      "earlyEvidenceDir": "research/fra",
+      "reviewTraining": {
+        "status": "available",
+        "confirmedAt": "2026-09-24",
+        "capturedAt": "2026-09-22",
+        "reviewerGroup": "j2sjosh",
+        "author": "J2SJosh",
+        "source": "MTGAZone",
+        "url": "https://mtgazone.com/reality-fracture-fra-limited-set-review-white/",
+        "options": [
+          {"value":"5", "label":"Exceptional bomb"},
+          {"value":"4.5", "label":"Game-taking bomb"},
+          {"value":"4", "label":"Premium pick"},
+          {"value":"3.5", "label":"Excellent role-player"},
+          {"value":"3", "label":"Good playable"},
+          {"value":"2.5", "label":"Solid playable"},
+          {"value":"2", "label":"Mediocre filler"},
+          {"value":"1.5", "label":"Replaceable / narrow"},
+          {"value":"1", "label":"Bad filler"},
+          {"value":"0.5", "label":"Fringe use"},
+          {"value":"0", "label":"Unplayable"}
+        ]
+      }
     }
   ]
 }
