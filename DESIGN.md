@@ -503,7 +503,7 @@ Shared components keep behavior, semantics, target sizes, and information order 
 - **Focused Workspace:** One full-width themed surface holds the training heading, card, answer controls, and an inline progress ledger. There is no explanatory sidebar.
 - **Training Image:** Each set supplies a larger readable local image. If it fails, the same card’s local thumbnail replaces it; Training never depends on a remote image request.
 - **Exact-Tier Choices:** Rated cards use four horizontal families—Top picks (`S`, `A+`, `A`, `A-`), Strong (`B+`, `B`, `B-`), Playable (`C+`, `C`, `C-`), and Filler (`D+`, `D`, `D-`, `F`). Each 44px choice uses one lightly tinted tier fill and one three-pixel tier-colour edge.
-- **Answer:** Reveal exposes exact rank, exact tier, the broader family label, and whether the call was exact, missed, or manually revealed. Correct and chosen-wrong buttons remain explicit while unchosen tiers recede.
+- **Answer:** Reveal exposes exact rank, exact tier, the broader family label, and whether the call was exact, close, missed, or manually revealed. A one-step modifier difference inside the same letter grade is close and accepted without requeueing; exact-tier scoring remains exact. Correct, close, and chosen-wrong buttons remain explicit while unchosen tiers recede.
 - **Observed Evidence:** Hobbit answers continue into a three-column ledger—In-hand WR, Usually gone by, and In-hand games—followed by source/capture context and the immediately adjacent ranked cards. Evidence stays visually subordinate to the answer and continues to call ranking a baseline.
 - **Unrated Sets:** Omit Training entirely. Use published Prerelease prep and authored Archetypes when the full file is verified, with the card browser always available.
 - **Progress:** Cards seen, exact-tier correct/attempt totals, current card, colour filter, shuffled queue, revealed-answer state, selected tier, and each decision's pick, reason, reveal phase, and reflection persist per set in browser-local storage. A missed or manually revealed card is inserted after three intervening cards; reset is explicit and confirmed. Legacy reviewed-only markers are preserved as history but do not become fabricated completed responses.
@@ -557,7 +557,7 @@ Use labelled native controls on the active set’s paper surface. The first row 
 - **Do** preserve Reality Fracture’s ink-indigo binding, cool paper, violet/cyan/pink seams, condensed black display type, clipped facets, and two-to-four-pixel cuts.
 - **Do** keep the current Training card, colour filter, queue, exact-tier score, revealed answer, requeued misses, and decision progress local.
 - **Do** use the larger local image for Training, Draft decisions, and magnification, with a matching local thumbnail fallback.
-- **Do** group exact-tier choices as Top picks, Strong, Playable, and Filler, then return misses after three intervening cards.
+- **Do** group exact-tier choices as Top picks, Strong, Playable, and Filler, accept an adjacent modifier inside the same letter grade as close, then return genuine misses after three intervening cards.
 - **Do** keep Hobbit’s three observed evidence values and adjacent ranks visually attached to the revealed answer.
 - **Do** keep official archetype intent, Draft observations, Sealed observations, editorial notes, sample size, and capture date visibly distinct.
 - **Do** omit rating-dependent answers and actions when the rating source is pending.

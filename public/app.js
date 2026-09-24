@@ -31,6 +31,7 @@
     { label: "Filler", tiers: ["D+", "D", "D-", "F"] },
   ];
   const tierOrder = tierFamilies.flatMap((family) => family.tiers);
+  const tierModifierOrder = ["+", "", "-"];
   const decisionReasonLabels = {
     power: "Raw power",
     pool: "Fits the pool",
@@ -575,6 +576,17 @@
     return Boolean(card && Number.isFinite(card.rank) && tierOrder.includes(card.tier));
   }
 
+  function trainerAnswerOutcome(guess, answer) {
+    if (guess === answer) return "exact";
+    if (guess === null) return "miss";
+    const guessParts = /^([A-D])([+-]?)$/.exec(guess);
+    const answerParts = /^([A-D])([+-]?)$/.exec(answer);
+    if (!guessParts || !answerParts || guessParts[1] !== answerParts[1]) return "miss";
+    return Math.abs(tierModifierOrder.indexOf(guessParts[2]) - tierModifierOrder.indexOf(answerParts[2])) === 1
+      ? "close"
+      : "miss";
+  }
+
   function renderGradeOptions() {
     const rows = tierFamilies.map((family) => {
       const row = document.createElement("div");
@@ -658,7 +670,7 @@
     });
 
     if (cardIsRated(card)) {
-      elements.trainerInstruction.textContent = "Choose the exact tier. Misses return again within a few cards.";
+      elements.trainerInstruction.textContent = "Choose the exact tier. An adjacent +/− in the same letter grade counts as close; misses return soon.";
       elements.gradeOptions.hidden = false;
       elements.revealCard.hidden = false;
       elements.revealCard.disabled = false;
@@ -683,14 +695,21 @@
     if (!cardIsRated(card)) return;
     trainerRevealed = true;
     elements.trainerAnswer.hidden = false;
-    const result = trainerGuess === card.tier ? "Exact" : trainerGuess === null ? "Answer revealed" : `You chose ${escapeHtml(trainerGuess)}`;
+    const outcome = trainerAnswerOutcome(trainerGuess, card.tier);
+    const result = outcome === "exact"
+      ? "Exact"
+      : outcome === "close"
+        ? `Close · you chose ${escapeHtml(trainerGuess)} · accepted`
+        : trainerGuess === null
+          ? "Answer revealed"
+          : `You chose ${escapeHtml(trainerGuess)}`;
     elements.trainerAnswer.innerHTML = `<div class="trainer-answer-heading"><strong>#${card.rank} · Tier ${escapeHtml(card.tier)}</strong><span>${result} · ${escapeHtml(bandLabels[card.band])}</span></div>${trainerEvidence(card)}`;
     elements.revealCard.disabled = true;
     elements.gradeOptions.querySelectorAll("button").forEach((button) => {
       button.disabled = true;
       button.setAttribute("aria-pressed", String(button.dataset.grade === trainerGuess));
       if (button.dataset.grade === card.tier) button.dataset.result = "correct";
-      else if (trainerGuess === button.dataset.grade) button.dataset.result = "wrong";
+      else if (trainerGuess === button.dataset.grade) button.dataset.result = outcome === "close" ? "close" : "wrong";
       else button.dataset.result = "muted";
     });
     updateProgress();
@@ -701,13 +720,16 @@
     const card = cardById.get(trainerCardId);
     if (!cardIsRated(card)) return;
     trainerGuess = guess;
+    const outcome = trainerAnswerOutcome(guess, card.tier);
     progress.gradeAttempts += 1;
-    if (guess === card.tier) progress.gradeCorrect += 1;
-    else repeatTrainerCardSoon(card.id);
+    if (outcome === "exact") progress.gradeCorrect += 1;
+    else if (outcome === "miss") repeatTrainerCardSoon(card.id);
     revealTrainer();
-    elements.liveRegion.textContent = guess === card.tier
+    elements.liveRegion.textContent = outcome === "exact"
       ? `Correct. ${card.name} is tier ${card.tier}, rank ${card.rank}.`
-      : `${card.name} is tier ${card.tier}, rank ${card.rank}. It will return again soon.`;
+      : outcome === "close"
+        ? `Close. ${card.name} is tier ${card.tier}, rank ${card.rank}. Your ${guess} call is accepted and will not return.`
+        : `${card.name} is tier ${card.tier}, rank ${card.rank}. It will return again soon.`;
   }
 
   function nextTrainerCard() {
