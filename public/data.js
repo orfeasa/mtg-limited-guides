@@ -4344,7 +4344,7 @@ window.LIMITED_PREP_DATA = {
       },
       "cardCount": 285,
       "browseCardCount": 280,
-      "previewCapturedAt": "2026-09-19T17:51:47.966Z",
+      "previewCapturedAt": "2026-09-23T23:31:15.932Z",
       "draftDecisions": null,
       "archetypes": {
         "version": 1,
@@ -12394,7 +12394,7 @@ window.LIMITED_PREP_DATA = {
                 "zone-red:32:p4"
               ],
               "rulesCardId": "2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460",
-              "basisSha256": "6e019d5fc1ebb61b756e44a0fe43ac53eb11bb5fb19535e21b69b6fbde54e9cf"
+              "basisSha256": "9fa4ef4b2bf03297697598c4e7691010f2a27c28ceeba20ed10788860f4cde22"
             }
           },
           "b75bbf46-a421-467a-9433-6cf22398a3a5": {
@@ -14736,7 +14736,7 @@ window.LIMITED_PREP_DATA = {
                 "zone-multicolor:6:p2"
               ],
               "rulesCardId": "b61bcef7-5832-45e6-a2bc-26d4f23707fc",
-              "basisSha256": "0b78203860c41d81dbb97c47855becfd2dff642e8bc55fabe96349fa049844e3"
+              "basisSha256": "749b6023f9824a41c2798c05e49054a6827cdf58385436600938efa2a076ddc1"
             }
           },
           "03f9839c-aa07-4ee7-847b-091e47ab80c4": {
@@ -23093,7 +23093,7 @@ window.LIMITED_PREP_DATA = {
                 "zone-red:17:p3"
               ],
               "rulesCardId": "f27d50f0-d76e-4ce1-a8d9-d997af6a5b41",
-              "basisSha256": "30bac08bd9c68718fe082dc6c8684f2940f4d0943e99ec124a8ed9aa408faa41"
+              "basisSha256": "1dbb978f989812668e387cbd3ffc9177ef1cc0ca0f21dbb8f2759588523859b9"
             }
           },
           "e8c1ce21-b77d-40bf-9ed1-478604e71f5f": {
@@ -23860,7 +23860,7 @@ window.LIMITED_PREP_DATA = {
                 "zone-red:39:p3"
               ],
               "rulesCardId": "df8713cd-3f4b-43ef-adbd-e37c2617c617",
-              "basisSha256": "3abbf154de7ba1cccae49afd5b387e036ec3b4f0fa5712bb7c55fae174b7df7e"
+              "basisSha256": "2b0cd51d2d6676b689620c09114c9aa2d9b13815708c9dab6b60c1df4ae6ac99"
             }
           },
           "dad6afc9-8505-4cdd-bf79-e9ba4670f2bb": {
@@ -33887,7 +33887,7 @@ window.LIMITED_PREP_DATA = {
           "manaCost": "{1}{R}",
           "manaValue": 2,
           "typeLine": "Creature — Human Wizard",
-          "oracleText": "Haste\nWhen this creature enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost.",
+          "oracleText": "Haste\nWhen this creature enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.)",
           "rarity": "mythic",
           "keywords": [
             "Haste"
@@ -34797,7 +34797,7 @@ window.LIMITED_PREP_DATA = {
           "manaCost": "{1}{U}{R}",
           "manaValue": 3,
           "typeLine": "Instant",
-          "oracleText": "Choose target nonland permanent. Its owner may put it on the top of their library. If they do, Clash of Elements deals 2 damage to them. If they didn't put the card on top of their library, they put it on the bottom.",
+          "oracleText": "Choose target nonland permanent. Its owner may put it on top of their library. If they do, Clash of Elements deals 2 damage to them. If they didn't put the card on top of their library, they put it on the bottom.",
           "rarity": "uncommon",
           "keywords": [],
           "image": "assets/cards/fra/b61bcef7-5832-45e6-a2bc-26d4f23707fc.jpg",
@@ -38077,7 +38077,7 @@ window.LIMITED_PREP_DATA = {
           "manaCost": "{1}{R}",
           "manaValue": 2,
           "typeLine": "Legendary Creature — Satyr",
-          "oracleText": "Haste\nEach other creature you control with +1/+1 counter on it has haste.\n{1}{R}, {T}: Put a +1/+1 counter on target creature that entered this turn.",
+          "oracleText": "Haste\nEach other creature you control with a +1/+1 counter on it has haste.\n{1}{R}, {T}: Put a +1/+1 counter on target creature that entered this turn.",
           "rarity": "uncommon",
           "keywords": [
             "Haste"
@@ -38379,7 +38379,7 @@ window.LIMITED_PREP_DATA = {
           "manaCost": "{4}{R}",
           "manaValue": 5,
           "typeLine": "Legendary Creature — Human Warrior",
-          "oracleText": "Convoke\nWhenever you cast a noncreature spell, creatures you control get +1/+0 until end of turn.",
+          "oracleText": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nWhenever you cast a noncreature spell, creatures you control get +1/+0 until end of turn.",
           "rarity": "uncommon",
           "keywords": [
             "Convoke"

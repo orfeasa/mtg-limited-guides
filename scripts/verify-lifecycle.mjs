@@ -65,7 +65,7 @@ assert(/id="training-view"[^>]*hidden/.test(initialHtml));
 assert(/data-view="training"[^>]*hidden/.test(initialHtml));
 for (const asset of [
   "styles.css?v=review-disclosures-1",
-  "data.js?v=expert-training-1",
+  "data.js?v=fra-oracle-1",
   "lifecycle.js?v=expert-training-1",
   "early-evidence.js?v=review-disclosures-1",
   "app.js?v=expert-training-1",

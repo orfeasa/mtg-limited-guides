@@ -1,7 +1,7 @@
 {
   "set": "FRA",
   "source": "https://api.scryfall.com/cards/search?order=set&q=set%3Afra&unique=prints",
-  "capturedAt": "2026-09-19T17:51:47.966Z",
+  "capturedAt": "2026-09-23T23:31:15.932Z",
   "partial": true,
   "count": 285,
   "cards": [
@@ -2090,7 +2090,7 @@
       "manaCost": "{1}{R}",
       "manaValue": 2,
       "typeLine": "Creature — Human Wizard",
-      "oracleText": "Haste\nWhen this creature enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost.",
+      "oracleText": "Haste\nWhen this creature enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.)",
       "rarity": "mythic",
       "keywords": [
         "Haste"
@@ -2835,7 +2835,7 @@
       "manaCost": "{1}{U}{R}",
       "manaValue": 3,
       "typeLine": "Instant",
-      "oracleText": "Choose target nonland permanent. Its owner may put it on the top of their library. If they do, Clash of Elements deals 2 damage to them. If they didn't put the card on top of their library, they put it on the bottom.",
+      "oracleText": "Choose target nonland permanent. Its owner may put it on top of their library. If they do, Clash of Elements deals 2 damage to them. If they didn't put the card on top of their library, they put it on the bottom.",
       "rarity": "uncommon",
       "keywords": [],
       "image": "assets/cards/fra/b61bcef7-5832-45e6-a2bc-26d4f23707fc.jpg",
@@ -5520,7 +5520,7 @@
       "manaCost": "{1}{R}",
       "manaValue": 2,
       "typeLine": "Legendary Creature — Satyr",
-      "oracleText": "Haste\nEach other creature you control with +1/+1 counter on it has haste.\n{1}{R}, {T}: Put a +1/+1 counter on target creature that entered this turn.",
+      "oracleText": "Haste\nEach other creature you control with a +1/+1 counter on it has haste.\n{1}{R}, {T}: Put a +1/+1 counter on target creature that entered this turn.",
       "rarity": "uncommon",
       "keywords": [
         "Haste"
@@ -5767,7 +5767,7 @@
       "manaCost": "{4}{R}",
       "manaValue": 5,
       "typeLine": "Legendary Creature — Human Warrior",
-      "oracleText": "Convoke\nWhenever you cast a noncreature spell, creatures you control get +1/+0 until end of turn.",
+      "oracleText": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nWhenever you cast a noncreature spell, creatures you control get +1/+0 until end of turn.",
       "rarity": "uncommon",
       "keywords": [
         "Convoke"

@@ -74,6 +74,13 @@ const classify = (identity) => {
   return "M";
 };
 
+const stableKeywords = (keywords, previousKeywords) => {
+  const current = Array.isArray(keywords) ? keywords : [];
+  const previous = Array.isArray(previousKeywords) ? previousKeywords : [];
+  const sorted = (values) => [...values].sort((left, right) => left.localeCompare(right));
+  return JSON.stringify(sorted(current)) === JSON.stringify(sorted(previous)) ? previous : current;
+};
+
 // Main-set printings have the lowest collector number. Fetch every printing
 // before deduplicating: Scryfall's unique=cards can select alternate artwork.
 const collectorNumberOrder = new Intl.Collator("en", { numeric: true, sensitivity: "base" });
@@ -87,6 +94,7 @@ for (const card of cardRecords) {
 const cards = [];
 let changedAssets = 0;
 for (const card of mainPrintings.values()) {
+  const previousCard = previousCardsById.get(card.id) || previousCardsByName.get(card.name);
   const imageUris = card.image_uris || card.card_faces?.[0]?.image_uris;
   const imageUrl = imageUris?.small;
   const trainingImageUrl = imageUris?.normal || imageUris?.large || imageUrl;
@@ -116,7 +124,7 @@ for (const card of mainPrintings.values()) {
   cards.push({
     id: card.id,
     name: card.name,
-    firstSeenAt: previousCardsById.get(card.id)?.firstSeenAt || previousCardsByName.get(card.name)?.firstSeenAt || captureDate,
+    firstSeenAt: previousCard?.firstSeenAt || captureDate,
     collectorNumber: card.collector_number,
     color: classify(card.color_identity),
     colors: card.color_identity || [],
@@ -125,7 +133,7 @@ for (const card of mainPrintings.values()) {
     typeLine: card.type_line,
     oracleText: card.oracle_text || faces.map((face) => `${face.name} — ${face.oracle_text}`).join("\n\n"),
     rarity: card.rarity,
-    keywords: card.keywords || [],
+    keywords: stableKeywords(card.keywords, previousCard?.keywords),
     image: `assets/cards/${setCode}/${imageName}`,
     trainingImage: `assets/cards-large/${setCode}/${imageName}`,
     imageSource,
