@@ -591,9 +591,22 @@
     return Boolean(card && Number.isFinite(card.rank) && tierOrder.includes(card.tier));
   }
 
+  function reviewGradeFamilies() {
+    return [
+      { label: "Premium cards", values: ["5", "4.5", "4"], color: tierColors.A },
+      { label: "Strong playables", values: ["3.5", "3"], color: tierColors.B },
+      { label: "Solid playables & filler", values: ["2.5", "2"], color: tierColors.C },
+      { label: "Narrow & weak cards", values: ["1.5", "1", "0.5", "0"], color: tierColors.D },
+    ];
+  }
+
   function trainerAnswerOutcome(guess, answer) {
     if (guess === answer) return "exact";
     if (guess === null) return "miss";
+    if (expertTraining()) {
+      const family = reviewGradeFamilies().find(row => row.values.includes(answer));
+      return family?.values.includes(guess) && Math.abs(Number(guess) - Number(answer)) === 0.5 ? "close" : "miss";
+    }
     const guessParts = /^([A-D])([+-]?)$/.exec(guess);
     const answerParts = /^([A-D])([+-]?)$/.exec(answer);
     if (!guessParts || !answerParts || guessParts[1] !== answerParts[1]) return "miss";
@@ -608,12 +621,7 @@
     elements.gradeScore.previousElementSibling.textContent = expertTraining() ? "Review grade calls" : "Tier calls";
     elements.gradeOptions.classList.toggle("grade-options--review", expertTraining());
     if (expertTraining()) {
-      const families = [
-        { label: "Premium cards", values: ["5", "4.5", "4"], color: tierColors.A },
-        { label: "Strong playables", values: ["3.5", "3"], color: tierColors.B },
-        { label: "Solid playables & filler", values: ["2.5", "2"], color: tierColors.C },
-        { label: "Narrow & weak cards", values: ["1.5", "1", "0.5", "0"], color: tierColors.D },
-      ];
+      const families = reviewGradeFamilies();
       elements.gradeOptions.innerHTML = families.map(family => `<div class="review-grade-family"><span class="review-grade-family-label">${escapeHtml(family.label)}</span><div class="grade-family" role="group" aria-label="${escapeHtml(family.label)}" style="--tier-color:${family.color};--grade-columns:${family.values.length}">${family.values.map(value => {
         const option = currentSet.reviewTraining.options.find(option => option.value === value);
         return `<button type="button" data-grade="${escapeHtml(value)}" title="${escapeHtml(option.label)}" aria-label="Guess ${escapeHtml(value)} out of 5: ${escapeHtml(option.label)}"><strong>${escapeHtml(value)}</strong></button>`;
@@ -709,7 +717,7 @@
 
     if (trainerEligible(card)) {
       elements.trainerInstruction.textContent = expertTraining()
-        ? "Guess J2SJosh’s grade out of 5. Initial Limited opinions; deck fit can change the assessment. Misses return soon."
+        ? "Guess J2SJosh’s grade out of 5. A 0.5 difference within the same row counts as close; misses return soon. Initial Limited opinions; deck fit can change the assessment."
         : "Choose the exact tier. An adjacent +/− in the same letter grade counts as close; misses return soon.";
       elements.gradeOptions.hidden = false;
       elements.revealCard.hidden = false;
@@ -768,7 +776,7 @@
     else if (outcome === "miss") repeatTrainerCardSoon(card.id);
     revealTrainer();
     elements.liveRegion.textContent = expertTraining()
-      ? `${card.name}: J2SJosh rated it ${card.reviewGrade} out of 5. ${guess === card.reviewGrade ? "Exact." : "It will return again soon."}`
+      ? `${card.name}: J2SJosh rated it ${card.reviewGrade} out of 5. ${outcome === "exact" ? "Exact." : outcome === "close" ? `Close. Your ${guess} call is accepted and will not return.` : "It will return again soon."}`
       : outcome === "exact"
       ? `Correct. ${card.name} is tier ${card.tier}, rank ${card.rank}.`
       : outcome === "close"

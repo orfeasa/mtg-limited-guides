@@ -21,6 +21,8 @@ Training also supports a complete attributed expert review. Its heading identifi
 
 Reality Fracture expert review was verified on 2026-09-24 against J2SJosh’s complete MTGAZone assessments captured 2026-09-22. All 280 nonbasic cards are covered, including explicit land-cycle grades. Training asks for the original 0–5 grade and reveals both reviewers’ original assessments afterward. Grade labels summarize the source’s scale; they are not a merged evaluation. Both expert and observed Training open by default when their evidence is complete.
 
+Expert Training accepts a 0.5 difference within the same displayed grade row as close and does not requeue it. Cross-row differences, differences greater than 0.5, and manual reveals are misses and return after three intervening cards. Exact-answer scoring remains exact, matching Hobbit's treatment of accepted close calls. Rendering and evaluation share the same row definitions; `scripts/verify-training-tolerance.mjs` checks all 121 numerical answer pairs and the Hobbit modifier boundaries.
+
 `data/sets.json` is canonical:
 
 - `previewEndsOn`: scheduled final reveal day; check the official gallery and sync the card file then. Reaching it does not prove completeness.
