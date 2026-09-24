@@ -822,11 +822,19 @@ body[data-theme="fracture"] .trainer-image-wrap img {
 
 .grade-options.grade-options--review {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr);
 }
 
-.grade-options.grade-options--review button { min-height: 64px; --tier-color: var(--accent); }
-.grade-options.grade-options--review span { text-transform: none; letter-spacing: normal; }
+.grade-options--review .grade-family { grid-template-columns: repeat(var(--grade-columns), minmax(0, 1fr)); }
+.grade-options--review .grade-family button { min-height: 44px; }
+.grade-options--review .review-grade-family-label {
+  display: block;
+  margin: 0 0 4px;
+  color: var(--muted);
+  font-size: .74rem;
+  text-transform: none;
+  letter-spacing: normal;
+}
 .trainer-review-evidence { margin-top: 16px; color: var(--ink); font-size: 1rem; line-height: 1.5; }
 .trainer-copy .trainer-review-evidence h3, .trainer-copy .trainer-review-evidence h4 {
   max-width: none;
@@ -847,7 +855,6 @@ body[data-theme="fracture"] .trainer-image-wrap img {
   .expert-training #trainer-title { font-size: 2rem; }
   .expert-training .trainer-card { grid-template-columns: minmax(0, 1fr); }
   .expert-training .trainer-image-wrap { width: min(100%, 244px); justify-self: center; }
-  .expert-training .grade-options span { display: block; font-size: .74rem; }
 }
 
 .grade-family {

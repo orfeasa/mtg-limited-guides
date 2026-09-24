@@ -608,7 +608,16 @@
     elements.gradeScore.previousElementSibling.textContent = expertTraining() ? "Review grade calls" : "Tier calls";
     elements.gradeOptions.classList.toggle("grade-options--review", expertTraining());
     if (expertTraining()) {
-      elements.gradeOptions.innerHTML = currentSet.reviewTraining.options.map(option => `<button type="button" data-grade="${escapeHtml(option.value)}" aria-label="Guess ${escapeHtml(option.value)} out of 5: ${escapeHtml(option.label)}"><strong>${escapeHtml(option.value)}</strong><span>${escapeHtml(option.label)}</span></button>`).join("");
+      const families = [
+        { label: "Premium cards", values: ["5", "4.5", "4"], color: tierColors.A },
+        { label: "Strong playables", values: ["3.5", "3"], color: tierColors.B },
+        { label: "Solid playables & filler", values: ["2.5", "2"], color: tierColors.C },
+        { label: "Narrow & weak cards", values: ["1.5", "1", "0.5", "0"], color: tierColors.D },
+      ];
+      elements.gradeOptions.innerHTML = families.map(family => `<div class="review-grade-family"><span class="review-grade-family-label">${escapeHtml(family.label)}</span><div class="grade-family" role="group" aria-label="${escapeHtml(family.label)}" style="--tier-color:${family.color};--grade-columns:${family.values.length}">${family.values.map(value => {
+        const option = currentSet.reviewTraining.options.find(option => option.value === value);
+        return `<button type="button" data-grade="${escapeHtml(value)}" title="${escapeHtml(option.label)}" aria-label="Guess ${escapeHtml(value)} out of 5: ${escapeHtml(option.label)}"><strong>${escapeHtml(value)}</strong></button>`;
+      }).join("")}</div></div>`).join("");
       elements.gradeOptions.setAttribute("aria-label", "Choose J2SJosh’s review grade out of 5");
       return;
     }

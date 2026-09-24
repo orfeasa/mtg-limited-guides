@@ -8,7 +8,7 @@ OWN-WORLD: Preserve the existing cool-paper FRA dossier, violet controls, conden
 
 STORY: Read a card, choose its attributed grade, reveal context and a second opinion, then continue. Misses return after a few cards.
 
-FIRST VIEWPORT: Existing toolbar and colour filter above the card-and-answer spread. Eleven numerical choices with short source-scale meanings replace letter-tier rows for FRA. Revealed teaching appears below the answer; source text is expandable.
+FIRST VIEWPORT: Existing toolbar and colour filter above the card-and-answer spread. Eleven original numerical choices form four compact, coloured rows: premium cards (5–4), strong playables (3.5–3), solid playables and filler (2.5–2), narrow and weak cards (1.5–0). Row labels remain visible on phones; each choice is at least 44px tall. Original per-grade meanings remain in accessible names and tooltips. These are navigation groups, not translated letter tiers. Revealed teaching appears below the answer; source text is expandable.
 
 FORM: Narrow extension of the established Operate surface, code-led. No concept seed or visual-world replacement applies. Reuse the current controls, keyboard behavior, theme and mobile stack.
 
