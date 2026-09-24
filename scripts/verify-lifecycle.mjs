@@ -64,10 +64,10 @@ assert(!/Five roads|expanding as preview season unfolds|>22<|>281</.test(initial
 assert(/id="training-view"[^>]*hidden/.test(initialHtml));
 assert(/data-view="training"[^>]*hidden/.test(initialHtml));
 for (const asset of [
-  "styles.css?v=review-disclosures-1",
-  "data.js?v=fra-oracle-1",
+  "styles.css?v=fra-draft-signal-1",
+  "data.js?v=fra-draft-signal-1",
   "lifecycle.js?v=expert-training-1",
   "early-evidence.js?v=review-disclosures-1",
-  "app.js?v=expert-training-1",
+  "app.js?v=fra-draft-signal-1",
 ]) assert(initialHtml.includes(asset), `Missing current asset version: ${asset}`);
 console.log('Verified neutral initial set markup and hidden rating Training.');
