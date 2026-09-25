@@ -238,6 +238,7 @@ fs.writeFileSync(path.join(publicDir, "data.js"), dataScript);
 const cacheFiles = [
   "./",
   "./index.html",
+  "./fra-prerelease.html",
   "./styles.css",
   "./data.js",
   "./app.js",

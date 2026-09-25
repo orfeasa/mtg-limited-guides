@@ -7,6 +7,12 @@ description: Build the strongest supported Magic sealed deck from photos of an o
 
 Turn the user's actual pool into a playable recommendation grounded in the available evidence. Aim for the strongest coherent deck; do not promise mathematical optimality or invent expected win rates. This is an assistant workflow, not a website feature.
 
+## Prerelease use and time budget
+
+For an imminent event, prioritize a correct inventory, a playable 40-card list and exact mana before extended review prose. Ask about remaining build time only if it is not already given. If time is short, lead with the best supported provisional build and the few uncertain cards that could change it; do not skip copy-count or mana checks. Suggest photos grouped by colour, with names readable and duplicates spread out; include artifacts, lands and eligible promos.
+
+Distinguish practice or between-round discussion from assistance during an active sanctioned match or deck-construction period. Do not imply that a strategy sheet or live assistant is automatically permitted at prerelease. Consult current Magic Tournament Rules sections 2.11, 2.12 and 5.6 when relevant; the organiser/judge resolves event-specific permission. Prepared notes are not for use during games or sanctioned deck construction. Rules questions at the event belong with the judge. A casual pool-building request does not require an event-policy detour.
+
 ## Establish the pool
 
 Use supplied photos directly; inspect local image files with the available image viewer. If no photo or list is attached, ask for it. For unreadable areas, request a close-up with card names visible and minimal overlap. Continue identifying clear cards while resolving uncertainties.
@@ -21,7 +27,7 @@ Present a compact inventory/count and the exact uncertain locations when verific
 
 ## Use the repository evidence
 
-Resolve paths from the repository root containing `data/sets.json`. Read the manifest first and follow the matching set's `dataFile`, `archetypesFile`, `prepFile` and `earlyEvidenceDir`; do not hard-code current coverage, dates or rating availability. Read source metadata and distinguish capture dates from live information. Use the existing snapshots unless the task requires a refresh; consult current authoritative sources for unresolved rules or card identity. Building a deck does not require changing data, unlocking Training or deploying the website.
+Resolve paths from the repository root containing `data/sets.json`. Read the manifest first and follow the matching set's `dataFile`, `archetypesFile`, `prepFile` and `earlyEvidenceDir`; do not hard-code current coverage, dates or rating availability. Read source metadata and distinguish capture dates from live information. If the manifest supplies `earlyDraftSignalsFile`, inspect its format, sample sizes and qualification: tiny Early Access Draft signals are prompts to inspect a card, not Sealed rankings or a reason to override a coherent pool-specific plan. Use the existing snapshots unless the task requires a refresh; consult current authoritative sources for unresolved rules or card identity. Building a deck does not require changing data, unlocking Training or deploying the website.
 
 - Card identity and rules: the set's source JSON. `public/data.js` provides the normalized cards for every supported adapter, including Hobbit; it contains a generated header comment followed by `window.LIMITED_PREP_DATA =` and can be read as JSON after removing the header, assignment and final semicolon, without executing it. Inspect fields before querying. Some adapters lack full rules text: obtain missing text rather than inventing it. Distinguish casting costs and optional face/ability costs from aggregate colour labels or Commander colour identity.
 - Plans and format evidence: `docs/archetype-methodology.md`, the manifest's archetypes file and prep file. Separate Sealed observations from Premier Draft observations and note sample scope. Archetype results provide context, not a mandate to force that pair from this pool.

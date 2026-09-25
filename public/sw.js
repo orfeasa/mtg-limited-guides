@@ -1,8 +1,9 @@
 /* Generated static cache manifest. */
-const CACHE = "limited-prep-2835647635fd";
+const CACHE = "limited-prep-154feed992d7";
 const ASSETS = [
   "./",
   "./index.html",
+  "./fra-prerelease.html",
   "./styles.css",
   "./data.js",
   "./app.js",
