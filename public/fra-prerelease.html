@@ -6,15 +6,71 @@
 <meta name="theme-color" content="#171426">
 <title>Reality Fracture · Prerelease pocket reference</title>
 <style>
-@font-face{font-family:"Atkinson Hyperlegible Next";src:url('assets/fonts/AtkinsonHyperlegibleNext-Regular.ttf')}@font-face{font-family:"Atkinson Hyperlegible Next";src:url('assets/fonts/AtkinsonHyperlegibleNext-Bold.ttf');font-weight:700}@font-face{font-family:"Barlow Condensed";src:url('assets/fonts/BarlowCondensed-Black.ttf');font-weight:900}
-:root{color-scheme:light;--ink:#191a2b;--paper:#f5f7fb;--line:#aeb7ca;--accent:#4c2a9e}*{box-sizing:border-box}body{margin:0;background:#171426;color:var(--ink);font:17px/1.5 "Atkinson Hyperlegible Next",sans-serif}main{max-width:720px;margin:auto;background:var(--paper);padding:24px clamp(20px,5vw,44px) 40px}h1{font:900 clamp(38px,8vw,56px)/1 "Barlow Condensed",sans-serif;margin:24px 0 12px;text-wrap:balance}h2{font-size:23px;line-height:1.2;margin:0 0 14px}p{margin:0 0 14px}a{color:var(--accent);text-underline-offset:3px}a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}nav{display:flex;flex-wrap:wrap;gap:4px 18px;margin:18px 0 8px}nav a{padding:10px 0;min-height:44px}section{padding-top:26px;margin-top:22px;border-top:1px solid var(--line);scroll-margin-top:16px}ul,ol{padding-left:22px;margin:0}li{margin-bottom:12px}small,.note{font-size:14px;line-height:1.45}.note{color:#5b5e73}dl{margin:0}dt{font-weight:700;margin-top:17px}dd{margin:3px 0 0}.cost{white-space:nowrap;font-weight:400;color:#5b5e73}footer{margin-top:32px;border-top:1px solid var(--line);padding-top:18px}::selection{background:#cbd3e0;color:#191a2b}html{scrollbar-color:#39304f #171426}strong{font-weight:700}
+@font-face { font-family: "Atkinson Hyperlegible Next"; src: url('assets/fonts/AtkinsonHyperlegibleNext-Regular.ttf'); font-display: swap; }
+@font-face { font-family: "Atkinson Hyperlegible Next"; src: url('assets/fonts/AtkinsonHyperlegibleNext-Bold.ttf'); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Barlow Condensed"; src: url('assets/fonts/BarlowCondensed-Black.ttf'); font-weight: 900; font-display: swap; }
+:root { color-scheme: light; --ink: #191a2b; --paper: #f5f7fb; --line: #aeb7ca; --accent: #4c2a9e; --muted: #5b5e73; --binding: #171426; --cyan: #6be0ed; }
+* { box-sizing: border-box; }
+html { scroll-padding-top: 86px; scrollbar-color: #39304f #171426; }
+body { margin: 0; background: var(--binding); color: var(--ink); font: 17px/1.55 "Atkinson Hyperlegible Next", sans-serif; }
+main { max-width: 760px; margin: auto; background: var(--paper); }
+header { padding: 24px clamp(22px, 6vw, 52px) 30px; background: var(--binding); color: #f1f3fb; position: relative; overflow: hidden; }
+header::after { content: ''; position: absolute; width: 90px; height: 160%; right: -45px; top: -35%; transform: rotate(24deg); border-left: 1px solid #7147d5; border-right: 1px solid var(--cyan); pointer-events: none; }
+header > * { position: relative; z-index: 1; }
+header > a { color: #c5c5dc; display: inline-flex; align-items: center; gap: 9px; min-height: 44px; font-size: 14px; }
+header > a svg { width: 16px; height: 16px; }
+h1 { font: 900 clamp(48px, 12vw, 76px)/.94 "Barlow Condensed", sans-serif; text-transform: uppercase; margin: 25px 0 14px; letter-spacing: -.02em; }
+h1 span { display: block; }
+.subtitle { color: #c5c5dc; font-size: 17px; margin: 0 0 24px; }
+.event { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 0; font-size: 13px; color: var(--cyan); }
+.event span + span { color: #c5c5dc; }
+.usage { margin: 0; padding: 20px clamp(22px, 6vw, 52px); background: #e5e9f1; font-size: 13px; line-height: 1.5; color: var(--muted); }
+nav { position: sticky; top: 0; z-index: 3; display: grid; grid-template-columns: .75fr 1fr 1fr 1.25fr; background: var(--paper); border-bottom: 1px solid var(--line); padding: 0 12px; }
+nav a { min-height: 56px; display: flex; align-items: center; justify-content: center; text-align: center; text-decoration: none; font-size: 13px; font-weight: 700; padding: 8px 3px; border-bottom: 2px solid transparent; }
+nav a:hover, nav a:focus-visible { background: #e5e9f1; border-bottom-color: var(--accent); }
+section { padding: 32px clamp(22px, 6vw, 52px); border-bottom: 1px solid var(--line); scroll-margin-top: 12px; }
+section:target h2 { color: var(--accent); }
+h2 { font: 900 clamp(30px, 7vw, 38px)/1.05 "Barlow Condensed", sans-serif; text-transform: uppercase; margin: 0 0 22px; max-width: 22ch; text-wrap: balance; }
+p { margin: 0 0 16px; }
+a { color: var(--accent); text-underline-offset: 4px; }
+a:hover { text-decoration-thickness: 2px; }
+a:focus-visible { outline: 3px solid #7147d5; outline-offset: 2px; }
+ol, ul { padding-left: 23px; margin: 0; }
+li { padding-left: 7px; margin-bottom: 20px; }
+li::marker { color: var(--accent); font-weight: 700; }
+li strong:first-child { display: block; margin-bottom: 3px; }
+li:last-child { margin-bottom: 0; }
+.note { font-size: 14px; line-height: 1.5; color: var(--muted); }
+#build > .note { margin: 24px 0 0; padding-top: 18px; border-top: 1px dashed var(--line); }
+dl { margin: 0; }
+.entry { padding: 20px 0; border-top: 1px solid var(--line); }
+.entry:first-child { border-top: 0; padding-top: 0; }
+.entry:last-child { padding-bottom: 0; }
+dt { font-weight: 700; font-size: 19px; line-height: 1.3; margin: 0 0 7px; }
+dd { margin: 0; }
+#interaction dt { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; justify-content: space-between; }
+.cost { display: inline-flex; align-items: center; gap: 3px; font-weight: 400; font-size: 12px; color: var(--muted); white-space: nowrap; }
+.cost img { width: 19px; height: 19px; }
+#interaction > p:not(.note) { color: var(--muted); font-size: 15px; margin-bottom: 24px; }
+#interaction .note { margin: 24px 0 0; }
+footer { padding: 28px clamp(22px, 6vw, 52px) 36px; background: #e5e9f1; }
+footer p:first-child { font-size: 16px; }
+footer .note { font-size: 12px; }
+footer p:last-child { margin-bottom: 0; line-height: 2; }
+::selection { background: #cbd3e0; color: var(--ink); }
+strong { font-weight: 700; }
+@media (min-width: 800px) { main { margin: 32px auto; } header { padding-top: 28px; } nav { padding-inline: 40px; } }
+@media (max-width: 360px) { body { font-size: 16px; } nav { padding-inline: 6px; } nav a { font-size: 12px; } }
 </style>
 </head>
 <body><main>
-<a href="/?set=fra&amp;view=prep&amp;format=sealed">Full prerelease guide</a>
-<h1>Reality Fracture<br>Keep the essentials close.</h1>
-<p>Ordinary Sealed · 25 September 2026</p>
-<p class="note">Study before the event; briefly review between games. Put this away during games and sanctioned deck construction. Ask the organiser about phone use and assistance.</p>
+<header>
+<a href="/?set=fra&amp;view=prep&amp;format=sealed"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m8 4-6 6 6 6M2 10h16"/></svg>Full prerelease guide</a>
+<h1><span>Reality</span><span>Fracture</span></h1>
+<p class="subtitle">Keep the essentials close.</p>
+<p class="event"><span>Ordinary Sealed</span><span>25 September 2026</span></p>
+</header>
+<p class="usage">Study before the event; briefly review between games. Put this away during games and sanctioned deck construction. Ask the organiser about phone use and assistance.</p>
 <nav aria-label="Reference sections"><a href="#build">Build</a><a href="#mechanics">Mechanics</a><a href="#interaction">Interaction</a><a href="#sideboard">Between games</a></nav>
 <section id="build"><h2>Build a deck, not a pile of bombs</h2>
 <ol>
@@ -26,22 +82,22 @@
 <p class="note">Room of Refuge enters tapped and fixes one chosen colour. Heartwood makes only red or green. A three-mana fixer cannot fix your turn-two spell.</p></section>
 <section id="mechanics"><h2>Four mechanics to remember</h2>
 <dl>
-<dt>Empower Jace</dt><dd>Add loyalty to a Jace <strong>token</strong>; create one first only if you have none. −1: surveil 1. −3: draw a card. Normally activate one loyalty ability per planeswalker each turn, in your main phase with an empty stack. More loyalty does not grant another activation.</dd>
-<dt>Prepare</dt><dd>Pay for the prepared spell and follow its timing. Casting it unprepares the permanent. If the permanent leaves first, the uncast copy disappears. A spell already cast remains on the stack independently. In the graveyard, the preparation card is a creature card, not an instant or sorcery for Stingcaster Mage.</dd>
-<dt>Heartwood</dt><dd>An artifact token that taps for red or green and <strong>stays in play</strong>. Check whether its creator makes it enter tapped. Using it for mana does not sacrifice it.</dd>
-<dt>Flashback &amp; threshold</dt><dd>Flashback still obeys timing and additional costs, then exiles the spell when it leaves the stack. Threshold needs seven graveyard cards; spending a card from there can turn it off. Twinned Vision’s flashback also needs a discard.</dd>
+<div class="entry"><dt>Empower Jace</dt><dd>Add loyalty to a Jace <strong>token</strong>; create one first only if you have none. −1: surveil 1. −3: draw a card. Normally activate one loyalty ability per planeswalker each turn, in your main phase with an empty stack. More loyalty does not grant another activation.</dd></div>
+<div class="entry"><dt>Prepare</dt><dd>Pay for the prepared spell and follow its timing. Casting it unprepares the permanent. If the permanent leaves first, the uncast copy disappears. A spell already cast remains on the stack independently. In the graveyard, the preparation card is a creature card, not an instant or sorcery for Stingcaster Mage.</dd></div>
+<div class="entry"><dt>Heartwood</dt><dd>An artifact token that taps for red or green and <strong>stays in play</strong>. Check whether its creator makes it enter tapped. Using it for mana does not sacrifice it.</dd></div>
+<div class="entry"><dt>Flashback &amp; threshold</dt><dd>Flashback still obeys timing and additional costs, then exiles the spell when it leaves the stack. Threshold needs seven graveyard cards; spending a card from there can turn it off. Twinned Vision’s flashback also needs a discard.</dd></div>
 </dl></section>
 <section id="interaction"><h2>Before trusting that combat</h2>
 <p>Read the opponent’s available colours and mana. These are reminders, not a complete trick list.</p>
 <dl>
-<dt>Academic Ascent <span class="cost">· 1W</span></dt><dd>+2/+2 and flying, plus empower 2. A block can change dramatically.</dd>
-<dt>Last Gasp <span class="cost">· 1B</span></dt><dd>−3/−3. An undamaged 4/4 becomes 1/1; damage already marked still matters.</dd>
-<dt>Wrath of the Bloodmane <span class="cost">· 2R</span></dt><dd>Four damage to a creature or planeswalker. Costs one less with a legendary <strong>creature</strong>; an empower Jace token does not qualify.</dd>
-<dt>Extended Absence <span class="cost">· 3B</span></dt><dd>Instant exile for a creature or planeswalker. Exile does not cause a dies trigger.</dd>
-<dt>Vigorbloom Charm <span class="cost">· GW</span></dt><dd>Can protect a permanent with hexproof and indestructible, or put a counter on a creature before it fights.</dd>
-<dt>Silence the Echo <span class="cost">· 1B, plus a cost</span></dt><dd>Sorcery: not a combat response. Budget a creature/planeswalker sacrifice or three extra mana. Without the sacrifice, it costs five mana total.</dd>
+<div class="entry"><dt>Academic Ascent <span class="cost"><img src="assets/symbols/1.svg" alt="1" width="19" height="19"><img src="assets/symbols/W.svg" alt="W" width="19" height="19"></span></dt><dd>+2/+2 and flying, plus empower 2. A block can change dramatically.</dd></div>
+<div class="entry"><dt>Last Gasp <span class="cost"><img src="assets/symbols/1.svg" alt="1" width="19" height="19"><img src="assets/symbols/B.svg" alt="B" width="19" height="19"></span></dt><dd>−3/−3. An undamaged 4/4 becomes 1/1; damage already marked still matters.</dd></div>
+<div class="entry"><dt>Wrath of the Bloodmane <span class="cost"><img src="assets/symbols/2.svg" alt="2" width="19" height="19"><img src="assets/symbols/R.svg" alt="R" width="19" height="19"></span></dt><dd>Four damage to a creature or planeswalker. Costs one less with a legendary <strong>creature</strong>; an empower Jace token does not qualify.</dd></div>
+<div class="entry"><dt>Extended Absence <span class="cost"><img src="assets/symbols/3.svg" alt="3" width="19" height="19"><img src="assets/symbols/B.svg" alt="B" width="19" height="19"></span></dt><dd>Instant exile for a creature or planeswalker. Exile does not cause a dies trigger.</dd></div>
+<div class="entry"><dt>Vigorbloom Charm <span class="cost"><img src="assets/symbols/G.svg" alt="G" width="19" height="19"><img src="assets/symbols/W.svg" alt="W" width="19" height="19"></span></dt><dd>Can protect a permanent with hexproof and indestructible, or put a counter on a creature before it fights.</dd></div>
+<div class="entry"><dt>Silence the Echo <span class="cost"><img src="assets/symbols/1.svg" alt="1" width="19" height="19"><img src="assets/symbols/B.svg" alt="B" width="19" height="19">, plus a cost</span></dt><dd>Sorcery: not a combat response. Budget a creature/planeswalker sacrifice or three extra mana. Without the sacrifice, it costs five mana total.</dd></div>
 </dl>
-<p class="note" style="margin-top:18px">Budding Insurgent’s sacrifice ability is sorcery-speed. Do not plan it as a combat response. For an uncertain ruling, call the judge.</p></section>
+<p class="note">Budding Insurgent’s sacrifice ability is sorcery-speed. Do not plan it as a combat response. For an uncertain ruling, call the judge.</p></section>
 <section id="sideboard"><h2>Between games: change something specific</h2>
 <ul>
 <li><strong>What actually beat you?</strong> Speed, flyers, a bomb, an engine or mana trouble? Avoid rebuilding because of one unlucky draw.</li>
