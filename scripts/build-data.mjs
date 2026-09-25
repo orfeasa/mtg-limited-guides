@@ -239,6 +239,7 @@ const cacheFiles = [
   "./",
   "./index.html",
   "./fra-prerelease.html",
+  "./fra-prerelease.css",
   "./styles.css",
   "./data.js",
   "./app.js",

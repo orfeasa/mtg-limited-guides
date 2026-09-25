@@ -1,0 +1,55 @@
+@font-face { font-family: "Atkinson Hyperlegible Next"; src: url('assets/fonts/AtkinsonHyperlegibleNext-Regular.ttf'); font-display: swap; }
+@font-face { font-family: "Atkinson Hyperlegible Next"; src: url('assets/fonts/AtkinsonHyperlegibleNext-Bold.ttf'); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Barlow Condensed"; src: url('assets/fonts/BarlowCondensed-Black.ttf'); font-weight: 900; font-display: swap; }
+:root { color-scheme: light; --ink: #191a2b; --paper: #f5f7fb; --line: #aeb7ca; --accent: #4c2a9e; --muted: #5b5e73; --binding: #171426; --cyan: #6be0ed; }
+* { box-sizing: border-box; }
+html { scroll-padding-top: 86px; scrollbar-color: #39304f #171426; }
+body { margin: 0; background: var(--binding); color: var(--ink); font: 17px/1.55 "Atkinson Hyperlegible Next", sans-serif; }
+main { max-width: 760px; margin: auto; background: var(--paper); }
+header { padding: 24px clamp(22px, 6vw, 52px) 30px; background: var(--binding); color: #f1f3fb; position: relative; overflow: hidden; }
+header::after { content: ''; position: absolute; width: 90px; height: 160%; right: -45px; top: -35%; transform: rotate(24deg); border-left: 1px solid #7147d5; border-right: 1px solid var(--cyan); pointer-events: none; }
+header > * { position: relative; z-index: 1; }
+header > a { color: #c5c5dc; display: inline-flex; align-items: center; gap: 9px; min-height: 44px; font-size: 14px; }
+header > a svg { width: 16px; height: 16px; }
+h1 { font: 900 clamp(48px, 12vw, 76px)/.94 "Barlow Condensed", sans-serif; text-transform: uppercase; margin: 25px 0 14px; letter-spacing: -.02em; }
+h1 span { display: block; }
+.subtitle { color: #c5c5dc; font-size: 17px; margin: 0 0 24px; }
+.event { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 0; font-size: 13px; color: var(--cyan); }
+.event span + span { color: #c5c5dc; }
+.usage { margin: 0; padding: 20px clamp(22px, 6vw, 52px); background: #e5e9f1; font-size: 13px; line-height: 1.5; color: var(--muted); }
+nav { position: sticky; top: 0; z-index: 3; display: grid; grid-template-columns: .75fr 1fr 1fr 1.25fr; background: var(--paper); border-bottom: 1px solid var(--line); padding: 0 12px; }
+nav a { min-height: 56px; display: flex; align-items: center; justify-content: center; text-align: center; text-decoration: none; font-size: 13px; font-weight: 700; padding: 8px 3px; border-bottom: 2px solid transparent; }
+nav a:hover, nav a:focus-visible { background: #e5e9f1; border-bottom-color: var(--accent); }
+section { padding: 32px clamp(22px, 6vw, 52px); border-bottom: 1px solid var(--line); scroll-margin-top: 12px; }
+section:target h2 { color: var(--accent); }
+h2 { font: 900 clamp(30px, 7vw, 38px)/1.05 "Barlow Condensed", sans-serif; text-transform: uppercase; margin: 0 0 22px; max-width: 22ch; text-wrap: balance; }
+p { margin: 0 0 16px; }
+a { color: var(--accent); text-underline-offset: 4px; }
+a:hover { text-decoration-thickness: 2px; }
+a:focus-visible { outline: 3px solid #7147d5; outline-offset: 2px; }
+ol, ul { padding-left: 23px; margin: 0; }
+li { padding-left: 7px; margin-bottom: 20px; }
+li::marker { color: var(--accent); font-weight: 700; }
+li strong:first-child { display: block; margin-bottom: 3px; }
+li:last-child { margin-bottom: 0; }
+.note { font-size: 14px; line-height: 1.5; color: var(--muted); }
+#build > .note { margin: 24px 0 0; padding-top: 18px; border-top: 1px dashed var(--line); }
+dl { margin: 0; }
+.entry { padding: 20px 0; border-top: 1px solid var(--line); }
+.entry:first-child { border-top: 0; padding-top: 0; }
+.entry:last-child { padding-bottom: 0; }
+dt { font-weight: 700; font-size: 19px; line-height: 1.3; margin: 0 0 7px; }
+dd { margin: 0; }
+#interaction dt { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; justify-content: space-between; }
+.cost { display: inline-flex; align-items: center; gap: 3px; font-weight: 400; font-size: 12px; color: var(--muted); white-space: nowrap; }
+.cost img { width: 19px; height: 19px; }
+#interaction > p:not(.note) { color: var(--muted); font-size: 15px; margin-bottom: 24px; }
+#interaction .note { margin: 24px 0 0; }
+footer { padding: 28px clamp(22px, 6vw, 52px) 36px; background: #e5e9f1; }
+footer p:first-child { font-size: 16px; }
+footer .note { font-size: 12px; }
+footer p:last-child { margin-bottom: 0; line-height: 2; }
+::selection { background: #cbd3e0; color: var(--ink); }
+strong { font-weight: 700; }
+@media (min-width: 800px) { main { margin: 32px auto; } header { padding-top: 28px; } nav { padding-inline: 40px; } }
+@media (max-width: 360px) { body { font-size: 16px; } nav { padding-inline: 6px; } nav a { font-size: 12px; } }
