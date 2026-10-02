@@ -1,3 +1,4 @@
+import crypto from 'node:crypto';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
@@ -40,3 +41,10 @@ for (const options of [{}, { openFails: true }, { writeFails: true }]) {
   await installation;
 }
 console.log('Verified network delivery despite cache read/open/write failures, offline fallback, genuine network failures, and installation with full storage.');
+
+const index = fs.readFileSync('public/index.html', 'utf8');
+for (const [, asset, version] of index.matchAll(/(?:src|href)="([^"?]+\.(?:js|css))\?v=([a-f0-9]{12})"/g)) {
+  assert.equal(version, crypto.createHash('sha256').update(fs.readFileSync(`public/${asset}`)).digest('hex').slice(0, 12), `${asset} must bypass stale HTTP cache`);
+}
+assert(index.includes('lifecycle.js?v=') && index.includes('data.js?v='));
+console.log('Verified content-addressed script and stylesheet URLs.');
