@@ -67,12 +67,12 @@
       "prereleaseDate": "2026-09-25",
       "arenaDate": "2026-09-29",
       "previewEndsOn": "2026-09-18",
-      "subtitle": "A complete Echoverse field guide for card recognition and Limited preparation.",
-      "guideTitle": "Study what is known. Keep the unknown visible.",
-      "guideBody": "Preview cards are indexed now. Rating training will unlock only when a complete, attributable Limited evaluation exists—so provisional information is never presented as settled advice.",
+      "subtitle": "Draft tiers, archetype plans and a practical Limited reference.",
+      "guideTitle": "Find your lane. Give your deck a plan.",
+      "guideBody": "Compare observed draft tiers, practise card evaluations and check the mechanics before your next draft.",
       "guideFacts": [
-        "Prerelease · 25 September",
-        "MTG Arena · 29 September",
+        "Premier Draft tiers",
+        "Draft and Sealed reference",
         "Play Boosters include echoed pairs"
       ],
       "rating": {
@@ -98,19 +98,57 @@
         "source": "MTGAZone",
         "url": "https://mtgazone.com/reality-fracture-fra-limited-set-review-white/",
         "options": [
-          {"value":"5", "label":"Exceptional bomb"},
-          {"value":"4.5", "label":"Game-taking bomb"},
-          {"value":"4", "label":"Premium pick"},
-          {"value":"3.5", "label":"Excellent role-player"},
-          {"value":"3", "label":"Good playable"},
-          {"value":"2.5", "label":"Solid playable"},
-          {"value":"2", "label":"Mediocre filler"},
-          {"value":"1.5", "label":"Replaceable / narrow"},
-          {"value":"1", "label":"Bad filler"},
-          {"value":"0.5", "label":"Fringe use"},
-          {"value":"0", "label":"Unplayable"}
+          {
+            "value": "5",
+            "label": "Exceptional bomb"
+          },
+          {
+            "value": "4.5",
+            "label": "Game-taking bomb"
+          },
+          {
+            "value": "4",
+            "label": "Premium pick"
+          },
+          {
+            "value": "3.5",
+            "label": "Excellent role-player"
+          },
+          {
+            "value": "3",
+            "label": "Good playable"
+          },
+          {
+            "value": "2.5",
+            "label": "Solid playable"
+          },
+          {
+            "value": "2",
+            "label": "Mediocre filler"
+          },
+          {
+            "value": "1.5",
+            "label": "Replaceable / narrow"
+          },
+          {
+            "value": "1",
+            "label": "Bad filler"
+          },
+          {
+            "value": "0.5",
+            "label": "Fringe use"
+          },
+          {
+            "value": "0",
+            "label": "Unplayable"
+          }
         ]
-      }
+      },
+      "cardMemory": false,
+      "prepLabel": "Limited guide",
+      "prepDefaultFormat": "draft",
+      "observedRatingsFile": "fra_observed_ratings.json",
+      "observedRatingsUrl": "https://mtga.untapped.gg/limited/draft/reality-fracture/pick-order"
     }
   ]
 }

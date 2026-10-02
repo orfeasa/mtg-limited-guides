@@ -40,12 +40,12 @@ for (const [formatId, format] of Object.entries(data.formats)) {
   const pairs = payload
     .filter((entry) => !entry.is_summary && /^[WUBRG]{2}$/.test(String(entry.short_name)) && Number.isFinite(entry.wins) && Number.isFinite(entry.games) && entry.games > 0)
     .map((entry) => ({
-      id: entry.short_name,
+      id: [...supported].find(id => [...id].sort().join("") === [...entry.short_name].sort().join("")) || entry.short_name,
       name: entry.color_name,
       wins: entry.wins,
       games: entry.games,
       winRate: round((entry.wins / entry.games) * 100),
-      supported: supported.has(entry.short_name),
+      supported: [...supported].some(id => [...id].sort().join("") === [...entry.short_name].sort().join("")),
     }))
     .sort((left, right) => right.winRate - left.winRate || right.games - left.games);
 
@@ -74,6 +74,10 @@ for (const [formatId, format] of Object.entries(data.formats)) {
   console.log(`${formatId}: ${pairs[0].name} leads ${number(pairs[0].winRate)}%; ${number(format.observed.supportedShare)}% of two-colour games use supported pairs`);
 }
 
+data.status = "observed";
+const previous = JSON.parse(fs.readFileSync(archetypesPath, "utf8"));
+const comparable = value => JSON.stringify(value, (key, item) => key === "capturedAt" ? undefined : item);
+if (comparable(previous) === comparable(data)) { console.log("No material archetype changes."); process.exit(0); }
 fs.writeFileSync(archetypesPath, `${JSON.stringify(data, null, 2)}\n`);
 console.log(`Updated ${set.archetypesFile} at ${capturedAt}`);
 

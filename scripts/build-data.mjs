@@ -202,6 +202,18 @@ const sets = manifest.sets.map((set) => {
     const type = (card.typeLine || "").split("—")[0];
     if ((/\bBasic\b/.test(type) && /\bLand\b/.test(type)) || (!card.typeLine && (basicLandNames.has(card.name) || card.name === "Wastes" || /^Snow-Covered (Plains|Island|Swamp|Mountain|Forest)$/.test(card.name)))) card.isBasicLand = true;
   }
+  const observedRatings = set.observedRatingsFile ? readJson(set.observedRatingsFile) : null;
+  if (observedRatings) {
+    if (!observedRatings.source || !observedRatings.url || !observedRatings.capturedAt || observedRatings.format !== 'Premier Draft') throw new Error('Missing observed tier provenance');
+    const cohort = cards.filter(c => !c.isBasicLand);
+    if (Object.keys(observedRatings.cards).length !== cohort.length) throw new Error('Incomplete observed card coverage');
+    for (const card of cohort) {
+      const row = observedRatings.cards[card.id];
+      if (!row || row.name !== card.name || (row.tier && (bandForTier(row.tier) === 'unrated' || !Number.isInteger(row.rank) || !row.stats?.inHandGames))) throw new Error(`Invalid observed tier: ${card.name}`);
+      Object.assign(card, { rank: row.rank, tier: row.tier, band: bandForTier(row.tier), stats: row.stats });
+    }
+    if (cohort.filter(c => c.tier).length !== observedRatings.ratedCards) throw new Error('Incorrect observed tier count');
+  }
   const prep = set.prepFile ? readJson(set.prepFile) : null;
   const earlyEvidence = set.earlyEvidenceDir ? compileEarlyEvidence(path.join(dataDir, set.earlyEvidenceDir), cards, readJson(set.archetypesFile).archetypes.map(a => a.id)) : null;
   if (set.reviewTraining) {
@@ -223,6 +235,7 @@ const sets = manifest.sets.map((set) => {
     cardCount: cards.length,
     browseCardCount: cards.filter((card) => !card.isBasicLand).length,
     previewCapturedAt,
+    observedRatings: observedRatings ? Object.fromEntries(Object.entries(observedRatings).filter(([key]) => key !== "cards")) : null,
     draftDecisions: adaptDraftDecisions(set, cards),
     archetypes: adaptArchetypes(set, cards),
     earlyDraftSignals: adaptEarlyDraftSignals(set, cards),

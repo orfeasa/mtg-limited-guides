@@ -15,7 +15,7 @@
   ],
   "formats": {
     "sealed": {
-      "intro": "Opening a prerelease pool? Start with the cards you have: find two colours with enough early plays, answers, and ways to win. Use the archetypes to connect those cards, not to force a deck your pool cannot support.",
+      "intro": "Opening a Sealed pool? Start with the cards you have: find two colours with enough early plays, answers, and ways to win. Use the archetypes to connect those cards, not to force a deck your pool cannot support.",
       "steps": [
         {"title": "Lay out your options", "text": "Sort your pool by colour. Separate broadly useful creatures and answers from cards that need a particular engine. Note your strongest threats, but compare the whole colour rather than choosing it for one rare."},
         {"title": "Compare two-colour decks", "text": "Lay out the plausible pairs by mana cost. Which can affect the board early, answer a large creature or planeswalker, and still win a long game? A spectacular top end does not repair a deck with nothing to do in the first turns."},
@@ -97,7 +97,7 @@
     {"id": "puppetbeast-resource", "cards": ["Hungering Puppetbeast"], "question": "Your only other artifact is an untapped Heartwood. With no floating mana or untapped lands, can it pay for Puppetbeast’s ability that grants hexproof?", "options": ["No, a tapped artifact cannot be sacrificed", "Yes, tap it for mana, then sacrifice it to the ability", "No, it only pays for spells"], "answer": 1, "explanation": "Heartwood can supply the one mana and then be sacrificed as the other cost. Keeping it available preserves this protection option."}
   ],
   "twoHeadedGiant": {
-    "intro": "Playing a Two-Headed Giant prerelease? Build two decks from your shared pool, then plan each turn together. Start with these team rules and the Reality Fracture cards whose wording changes your decisions.",
+    "intro": "Playing Two-Headed Giant? Build two decks from your shared pool, then plan each turn together. Start with these team rules and the Reality Fracture cards whose wording changes your decisions.",
     "sources": [
       {
         "label": "Wizards: Two-Headed Giant",

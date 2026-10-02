@@ -78,3 +78,7 @@ The recommended preparation order is Archetypes → Card memory → What to play
 Archetype study offers colours-to-plan and theme-to-colours recall, reveals the authored plan, priorities and signposts, and lets players mark Got it or Again. Progress is local per set, content and direction; misses return after up to three questions. This is self-assessment, never an archetype ranking.
 
 Card memory supports Prerelease essentials (the union of key cards, interaction watchlist and signposts), Commons & uncommons (rarity), Interactions, All cards and Weak cards, intersected with a colour filter. Only revealed answers show authored signpost/role labels and interaction costs/restrictions. Lightweight per-card attempts and misses persist per set. Weak cards means at least two lifetime misses, with fixed membership for each run; this is not spaced repetition. Card memory does not unlock Training; observed ratings and expert grades retain their separate evidence gates.
+
+## Post-release update · 2 October 2026
+
+Reality Fracture now offers published Untapped Premier Draft tiers independently of the complete observed-Training gate. Preserve explicit unrated cards, per-card sample counts and source dates; do not infer missing grades. Expert Training remains primary while coverage is incomplete, with current observed evidence after answers replacing the old Early Access discrepancy signal. FRA opts out of Card memory. Its renamed Limited guide defaults to Draft and retains rules, interactions and authored Sealed/team formats.

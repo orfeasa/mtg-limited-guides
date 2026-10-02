@@ -147,7 +147,7 @@ const fracture = data.sets.find((set) => set.id === "fra");
 if (!["provisional", "observed"].includes(fracture.archetypes?.status) || fracture.archetypes?.archetypes?.length !== 10) {
   throw new Error("Expected ten provisional Reality Fracture archetypes");
 }
-if (fracture.rating.status === "pending" && fracture.cards.some((card) => card.rank || card.tier)) throw new Error("Pending cards must not have invented ratings");
+if (fracture.rating.status === "pending" && !fracture.observedRatings && fracture.cards.some((card) => card.rank || card.tier)) throw new Error("Pending cards must not have invented ratings");
 if (fracture.cards.some((card) => !card.trainingImage)) throw new Error("Reality Fracture preview cards need readable study images");
 if (!/^\d{4}-\d{2}-\d{2}$/.test(fracture.previewEndsOn) || Number.isNaN(Date.parse(`${fracture.previewEndsOn}T12:00:00Z`))) {
   throw new Error("Reality Fracture needs a valid preview end date");

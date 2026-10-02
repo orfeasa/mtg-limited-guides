@@ -453,6 +453,8 @@
     return lifecycle().ratings;
   }
 
+  function tiersAvailable() { return lifecycle().tierBrowser; }
+
   function expertTraining() { return lifecycle().reviewTraining && !lifecycle().ratings; }
   function trainerOptions() { return expertTraining() ? currentSet.reviewTraining.options.map(o => o.value) : tierOrder; }
   function trainerAnswer(card) { return expertTraining() ? card.reviewGrade : card.tier; }
@@ -525,8 +527,11 @@
     trainingTab.hidden = !state.training;
     viewTabs.find((tab) => tab.dataset.view === "memory").hidden = !state.memory;
     viewTabs.find((tab) => tab.dataset.view === "prep").hidden = !state.prep;
-    $("#atlas-prep-invitation").hidden = !state.prep;
-    $("#atlas-prep-link").href = `?set=${encodeURIComponent(currentSet.id)}&view=prep&format=sealed`;
+    const prepLabel = currentSet.prepLabel || "Prerelease prep";
+    viewTabs.find(tab => tab.dataset.view === "prep").querySelector("span").textContent = prepLabel;
+    $("#prep-view").setAttribute("aria-label", prepLabel);
+    $("#atlas-prep-invitation").hidden = !state.prep || state.released;
+    $("#atlas-prep-link").href = `?set=${encodeURIComponent(currentSet.id)}&view=prep&format=${currentSet.prepDefaultFormat || "sealed"}`;
     viewTabs.find((tab) => tab.dataset.view === "atlas").querySelector("span").textContent = state.atlasLabel;
     const viewCount = state.views.length;
     document.documentElement.style.setProperty("--view-count", String(viewCount));
@@ -551,6 +556,15 @@
       elements.footerSource.textContent = "Rules references and editorial preparation notes";
       elements.sourceLink.href = currentSet.prep.sources[0].url;
       elements.sourceLink.textContent = "Read the preparation sources";
+      return;
+    }
+    if (currentView === "atlas" && currentSet.observedRatings && tiersAvailable()) {
+      const source = currentSet.observedRatings;
+      elements.footerRefreshed.hidden = false;
+      elements.footerRefreshed.textContent = `Captured ${dateLabel(source.capturedAt)}`;
+      elements.footerSource.textContent = `${source.source} · ${source.format} · ${source.rankRange} · ${source.metric} · ${numberFormatter.format(source.matches)} matches`;
+      elements.sourceLink.href = source.url;
+      elements.sourceLink.textContent = "View tier source";
       return;
     }
     const refreshedAt = currentView === "archetypes" && archetypesAvailable()
@@ -674,18 +688,25 @@
     progress.queue.splice(Math.min(3, progress.queue.length), 0, cardId);
   }
 
+  function observedCardEvidence(card) {
+    const source = currentSet.observedRatings;
+    if (!source || !card.stats || !tiersAvailable()) return "";
+    const rate = Number.isFinite(card.stats.inHandWinRate) ? `${card.stats.inHandWinRate.toFixed(1)}%` : "—";
+    return `<section class="trainer-draft-signal" aria-label="Observed Draft evidence"><strong>${card.tier ? `Published tier ${escapeHtml(card.tier)}` : "Unrated · low match volume"}</strong><dl><div><dt>In-hand win rate</dt><dd>${rate}</dd></div><div><dt>Games in hand</dt><dd>${numberFormatter.format(card.stats.inHandGames)}</dd></div></dl><p>${escapeHtml(source.source)} · Premier Draft · ${escapeHtml(source.rankRange)} · captured ${dateLabel(source.capturedAt)}. Early results may change; this is not Sealed evidence. <a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">View source</a></p></section>`;
+  }
+
   function trainerEvidence(card) {
     if (expertTraining()) {
       const evidence = currentSet.earlyEvidence;
       const row = evidence.byCard[card.id];
       const earlyDraft = currentSet.earlyDraftSignals;
-      const signal = earlyDraft?.byCard?.[card.id];
+      const signal = currentSet.observedRatings ? null : earlyDraft?.byCard?.[card.id];
       const signalMarkup = signal ? `<section class="trainer-draft-signal" data-signal="${escapeHtml(signal.direction)}" aria-label="Very early Draft signal">
         <div class="trainer-draft-signal-heading"><strong>Early Draft signal</strong><span>${signal.direction === "higher" ? "Ranks much higher than the initial reviews in this snapshot" : "Ranks much lower than the initial reviews in this snapshot"}</span></div>
         <dl><div><dt>In-hand win rate</dt><dd>${signal.inHandWinRate.toFixed(1)}%</dd></div><div><dt>Games in hand</dt><dd>${numberFormatter.format(signal.inHandGames)}</dd></div></dl>
         <p>Very small ${escapeHtml(earlyDraft.source.format)} sample · about ${numberFormatter.format(earlyDraft.source.totalMatchesApprox)} total matches · captured ${dateLabel(earlyDraft.source.capturedAt)}. This is an early flag, not a new rating, and does not establish Sealed performance. <a href="${escapeHtml(earlyDraft.source.url)}" target="_blank" rel="noopener noreferrer">View source</a></p>
       </section>` : "";
-      return `<div class="trainer-review-evidence"><p>${row.grades.map(grade => `${escapeHtml(evidence.sources[grade.sourceId].author)}: <strong>${grade.grade}/${evidence.sources[grade.sourceId].scale.max}</strong>`).join(" · ")}</p>${signalMarkup}${window.EARLY_EVIDENCE.card(currentSet, card.id)}</div>`;
+      return `<div class="trainer-review-evidence"><p>${row.grades.map(grade => `${escapeHtml(evidence.sources[grade.sourceId].author)}: <strong>${grade.grade}/${evidence.sources[grade.sourceId].scale.max}</strong>`).join(" · ")}</p>${observedCardEvidence(card)}${signalMarkup}${window.EARLY_EVIDENCE.card(currentSet, card.id)}</div>`;
     }
     if (!card.stats) return "";
     const winRate = Number.isFinite(card.stats.inHandWinRate) ? `${card.stats.inHandWinRate.toFixed(1)}%` : "—";
@@ -1265,7 +1286,7 @@
       ? `#${card.rank} · Tier ${card.tier}`
       : `${card.rarity || "Preview"} · ${currentSet.code} #${card.collectorNumber || "—"}`;
     const evidencePanel = document.getElementById("card-preview-evidence");
-    evidencePanel.innerHTML = hideDecisionRating || currentView === "memory" ? "" : window.EARLY_EVIDENCE.card(currentSet, card.id);
+    evidencePanel.innerHTML = hideDecisionRating || currentView === "memory" ? "" : observedCardEvidence(card) + window.EARLY_EVIDENCE.card(currentSet, card.id);
     if (previewHistory.length) evidencePanel.insertAdjacentHTML("afterbegin", '<button type="button" class="card-preview-back">Back to previous card</button>');
     evidencePanel.hidden = !evidencePanel.innerHTML;
     elements.cardPreviewFrame.scrollTop = 0;
@@ -1332,7 +1353,7 @@
       return rarityOrder(a) - rarityOrder(b) || atlasManaCompare(a, b);
     }
     if (effectiveAtlasSort === "name") return atlasNameCompare(a, b);
-    if (effectiveAtlasSort === "rating" && ratingIsAvailable()) return a.rank - b.rank || atlasNameCompare(a, b);
+    if (effectiveAtlasSort === "rating" && tiersAvailable()) return (a.rank ?? Infinity) - (b.rank ?? Infinity) || atlasNameCompare(a, b);
     return atlasManaCompare(a, b);
   }
 
@@ -1345,9 +1366,9 @@
     const metadataAvailable = browseCards().every((card) => Number.isFinite(card.manaValue) && card.typeLine && card.rarity);
     const allowedSorts = metadataAvailable ? ["mana", "name", "rarity"] : ["name"];
     const allowedGroups = metadataAvailable ? ["colour", "type", "rarity", "none"] : ["colour", "none"];
-    if (ratingIsAvailable()) { allowedSorts.push("rating"); allowedGroups.push("tier"); }
+    if (tiersAvailable()) { allowedSorts.push("rating"); allowedGroups.push("tier"); }
     if (!allowedGroups.includes(atlasGrouping)) atlasGrouping = "colour";
-    effectiveAtlasSort = allowedSorts.includes(atlasSort) ? atlasSort : ratingIsAvailable() ? "rating" : "name";
+    effectiveAtlasSort = allowedSorts.includes(atlasSort) ? atlasSort : tiersAvailable() ? "rating" : "name";
     for (const [id, allowed, value] of [["atlas-sort", allowedSorts, effectiveAtlasSort], ["atlas-grouping", allowedGroups, atlasGrouping]]) {
       const select = $(`#${id}`);
       select.querySelectorAll("option").forEach((option) => { option.hidden = !allowed.includes(option.value); option.disabled = option.hidden; });
@@ -1371,7 +1392,7 @@
     $("#atlas-clear-filters").hidden = !filtered;
     $("#atlas-results").textContent = filtered ? `Showing ${visibleCards.length} of ${currentSet.browseCardCount} cards.` : "";
     renderPreviewCatchup(dateCards);
-    elements.atlasCopy.textContent = `${currentSet.browseCardCount} ${ratingIsAvailable() ? "ranked cards" : lifecycle().complete ? "cards" : "revealed cards"}.${currentSet.browseCardCount < currentSet.cardCount ? " Basic lands omitted." : ""} Select a card to enlarge it.${!ratingIsAvailable() && lifecycle().released ? " Ratings are pending." : ""}`;
+    elements.atlasCopy.textContent = `${currentSet.browseCardCount} ${ratingIsAvailable() ? "ranked cards" : lifecycle().complete ? "cards" : "revealed cards"}.${currentSet.browseCardCount < currentSet.cardCount ? " Basic lands omitted." : ""} Select a card to enlarge it.${currentSet.observedRatings ? ` ${currentSet.observedRatings.ratedCards} published Premier Draft tiers; ${currentSet.browseCardCount - currentSet.observedRatings.ratedCards} unrated. Early results may move as more games arrive.` : !tiersAvailable() && lifecycle().released ? " Ratings are pending." : ""}`;
 
     const definitions = atlasGrouping === "colour" ? colorGroups
       : atlasGrouping === "tier" ? atlasTierOrder.map((id) => ({ id }))
@@ -1440,7 +1461,7 @@
         const color = colorGroups.find((item) => item.id === card.color);
         const meta = isTierGroup
           ? `${manaSymbol(card.color, "mana-symbol--meta")}<span>${escapeHtml(color?.name || "Colourless")}</span>`
-          : !ratingIsAvailable()
+          : !tiersAvailable()
             ? `<span>${escapeHtml(card.rarity || "Unrated")}</span>`
             : `<span class="tier ${cardIsRated(card) ? "" : "tier-pending"}" style="--tier-color:${tierColors[card.tier] || tierColors["?"]}">${escapeHtml(cardIsRated(card) ? card.tier : "Unrated")}</span>`;
         button.innerHTML = `<img src="${escapeHtml(atlasSize === "large" ? card.trainingImage || card.image : card.image)}" alt="" width="80" height="112" loading="lazy" decoding="async"><span class="atlas-card-copy"><strong>${cost}${escapeHtml(card.name)}</strong>${card.typeLine ? `<span class="atlas-card-type">${escapeHtml(card.typeLine)}</span>` : ""}<span class="atlas-card-meta">${meta}</span></span>`;
@@ -1485,13 +1506,14 @@
     cardById = new Map(cards.map((card) => [card.id, card]));
     if (!useRouteState) currentView = lifecycle().defaultView;
     const requestedFormat = useRouteState ? routeParams.get("format") : null;
-    prepFormat = requestedFormat === "2hg" && currentSet.prep?.twoHeadedGiant ? "2hg" : requestedFormat === "draft" ? "draft" : "sealed";
+    prepFormat = requestedFormat === "2hg" && currentSet.prep?.twoHeadedGiant ? "2hg" : requestedFormat === "draft" ? "draft" : requestedFormat === "sealed" ? "sealed" : currentSet.prepDefaultFormat || "sealed";
     if (requestedFormat && currentSet.archetypes?.formats?.[requestedFormat]) archetypeFormat = requestedFormat;
     else if (!currentSet.archetypes?.formats?.[archetypeFormat]) archetypeFormat = "draft";
     archetypeStudy = useRouteState && routeParams.get("study") === "1";
     memoryStudySet = useRouteState ? routeParams.get("studySet") || "all" : "all";
     memoryColour = useRouteState ? routeParams.get("colour") || "all" : "all";
     atlasSince = useRouteState ? routeParams.get("since") || "" : "";
+    if (currentSet.observedRatings && !(useRouteState && routeParams.has("group"))) atlasGrouping = "tier";
     if (useRouteState && validAtlasGroupings.has(routeParams.get("group"))) atlasGrouping = routeParams.get("group");
     if (useRouteState && atlasSortOptions.has(routeParams.get("sort"))) atlasSort = routeParams.get("sort");
     atlasSearch = useRouteState ? routeParams.get("q") || "" : "";
