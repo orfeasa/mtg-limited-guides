@@ -247,6 +247,7 @@
 
   function progressKey() {
     if (expertTraining()) return `limited-prep:review:${currentSet.id}:${currentSet.reviewTraining.reviewerGroup}:${currentSet.reviewTraining.capturedAt}`;
+    if (currentSet.observedRatings && lifecycle().observedTraining) return `limited-prep:observed:${currentSet.id}:${currentSet.observedRatings.capturedAt}`;
     return `limited-prep:v1:${currentSet.id}`;
   }
 
@@ -455,7 +456,7 @@
 
   function tiersAvailable() { return lifecycle().tierBrowser; }
 
-  function expertTraining() { return lifecycle().reviewTraining && !lifecycle().ratings; }
+  function expertTraining() { return lifecycle().reviewTraining && !lifecycle().observedTraining; }
   function trainerOptions() { return expertTraining() ? currentSet.reviewTraining.options.map(o => o.value) : tierOrder; }
   function trainerAnswer(card) { return expertTraining() ? card.reviewGrade : card.tier; }
   function trainerEligible(card) { return expertTraining() ? Boolean(card && !card.isBasicLand && trainerOptions().includes(card.reviewGrade)) : cardIsRated(card); }
@@ -503,7 +504,7 @@
     elements.setSelect.value = currentSet.id;
     elements.datasetCount.textContent = String(currentSet.browseCardCount);
     elements.datasetUnit.textContent = state.complete ? "cards" : "revealed";
-    elements.datasetDate.textContent = state.ratings ? "observed data" : state.reviewTraining ? "expert review" : state.complete ? "full card file" : "previews";
+    elements.datasetDate.textContent = state.observedTraining ? "observed data" : state.reviewTraining ? "expert review" : state.complete ? "full card file" : "previews";
     elements.atlasTitle.textContent = state.atlasLabel;
 
     if (archetypesAvailable()) {
@@ -558,7 +559,7 @@
       elements.sourceLink.textContent = "Read the preparation sources";
       return;
     }
-    if (currentView === "atlas" && currentSet.observedRatings && tiersAvailable()) {
+    if (["atlas", "training"].includes(currentView) && currentSet.observedRatings && tiersAvailable()) {
       const source = currentSet.observedRatings;
       elements.footerRefreshed.hidden = false;
       elements.footerRefreshed.textContent = `Captured ${dateLabel(source.capturedAt)}`;
@@ -708,6 +709,7 @@
       </section>` : "";
       return `<div class="trainer-review-evidence"><p>${row.grades.map(grade => `${escapeHtml(evidence.sources[grade.sourceId].author)}: <strong>${grade.grade}/${evidence.sources[grade.sourceId].scale.max}</strong>`).join(" · ")}</p>${observedCardEvidence(card)}${signalMarkup}${window.EARLY_EVIDENCE.card(currentSet, card.id)}</div>`;
     }
+    if (currentSet.observedRatings) return observedCardEvidence(card) + window.EARLY_EVIDENCE.card(currentSet, card.id);
     if (!card.stats) return "";
     const winRate = Number.isFinite(card.stats.inHandWinRate) ? `${card.stats.inHandWinRate.toFixed(1)}%` : "—";
     const lastOffered = Number.isFinite(card.stats.avgLastOffered) ? `Pick ${card.stats.avgLastOffered.toFixed(1)}` : "—";
@@ -746,7 +748,7 @@
     if (trainerEligible(card)) {
       elements.trainerInstruction.textContent = expertTraining()
         ? "Guess J2SJosh’s grade out of 5. A 0.5 difference within the same row counts as close; misses return soon. Initial Limited opinions; deck fit can change the assessment."
-        : "Choose the exact tier. An adjacent +/− in the same letter grade counts as close; misses return soon.";
+        : `Choose the exact tier. An adjacent +/− in the same letter grade counts as close; misses return soon.${currentSet.observedRatings ? ` Untapped.gg Premier Draft · ${currentSet.observedRatings.ratedCards} rated cards; ${currentSet.browseCardCount - currentSet.observedRatings.ratedCards} unrated cards excluded.` : ""}`;
       elements.gradeOptions.hidden = false;
       elements.revealCard.hidden = false;
       elements.revealCard.disabled = false;

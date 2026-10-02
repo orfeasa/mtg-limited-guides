@@ -18,11 +18,13 @@ assert.equal(resolve(fra, "2026-09-18").views.join(","), "prep,archetypes,atlas"
 assert.equal(resolve(fra, "2026-09-18").defaultView, "atlas");
 const unrated = structuredClone(fra);
 delete unrated.reviewTraining;
+delete unrated.observedRatings;
 assert.equal(resolve(unrated, "2026-10-02").defaultView, "atlas", "Release does not create training evidence");
 assert.equal(resolve(previews, "2026-09-17").defaultView, "atlas");
 assert.equal(resolve(previews, "2027-01-01").prep, false, "A guide cannot certify the full file");
 const unpublished = structuredClone(fra);
 delete unpublished.reviewTraining;
+delete unpublished.observedRatings;
 unpublished.prep.status = "draft";
 assert.equal(resolve(unpublished, "2027-01-01").defaultView, "atlas");
 unpublished.prep.status = "published";
@@ -78,3 +80,10 @@ assert.equal(resolve(fra).ratings, false, "Partial tiers do not certify complete
 const memoryEnabled = structuredClone(fra);
 memoryEnabled.cardMemory = true;
 assert.equal(resolve(memoryEnabled).memory, true);
+
+assert.equal(resolve(fra).observedTraining, true);
+assert.equal(resolve(fra).decisions, false, "Partial tier training does not unlock replay scenarios");
+for (const corrupt of [s => { s.observedRatings.ratedCards++; }, s => { s.observedTraining.confirmedAt = '2999-01-01'; }, s => { s.cards.find(c => c.tier).stats.inHandGames = 0; }, s => { s.cards.find(c => c.tier).tier = '?'; }]) {
+  const broken = structuredClone(fra); corrupt(broken);
+  assert.equal(resolve(broken).observedTraining, false);
+}

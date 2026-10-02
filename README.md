@@ -19,7 +19,7 @@ Preparation progress stays only in the current browser through `localStorage`, i
 The current guides are:
 
 - **The Hobbit** — five official archetype plans with separate Draft and Sealed field data, a complete 188-card observed Premier Draft ranking refreshed from 760,000 matches, and 18 real draft decisions from a public 17Lands 7–2 replay.
-- **Reality Fracture** — complete card file with observed Premier Draft tier browsing, active archetype recall and a Draft-first Limited guide covering mechanics, interactions, Draft, Sealed and Two-Headed Giant. Card memory is disabled for this set. Training uses J2SJosh’s complete MTGAZone expert review captured 22 September 2026, retaining its original 0–5 scale and showing both reviewers after each answer. Partial observed tiers retain explicit unrated cards; complete observed Training remains pending. Refresh with `python3 scripts/sync-observed-ratings.py fra` and `node scripts/sync-archetypes.mjs fra`.
+- **Reality Fracture** — complete card file with observed Premier Draft tier browsing, active archetype recall and a Draft-first Limited guide covering mechanics, interactions, Draft, Sealed and Two-Headed Giant. Card memory is disabled for this set. Training uses Untapped.gg’s Arena Premier Draft tiers for the rated cards only, with the same S–F exercise as The Hobbit. Unrated cards are excluded; source statistics and both original expert reviews remain available after each answer. Refresh with `python3 scripts/sync-observed-ratings.py fra` and `node scripts/sync-archetypes.mjs fra`.
 
 ## Run locally
 

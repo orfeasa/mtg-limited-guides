@@ -4349,6 +4349,10 @@ window.LIMITED_PREP_DATA = {
       "prepLabel": "Limited guide",
       "prepDefaultFormat": "draft",
       "observedRatingsFile": "fra_observed_ratings.json",
+      "observedTraining": {
+        "scope": "rated-cards",
+        "confirmedAt": "2026-10-02"
+      },
       "observedRatingsUrl": "https://mtga.untapped.gg/limited/draft/reality-fracture/pick-order",
       "cardCount": 285,
       "browseCardCount": 280,

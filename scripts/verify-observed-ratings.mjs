@@ -37,3 +37,17 @@ for (const config of manifest.sets.filter(s => s.observedRatingsFile)) {
   assert.equal(context.window.SET_LIFECYCLE.resolve(future).tierBrowser, false);
   console.log(`Verified ${config.code}: ${ranks.length} source tiers, ${cohort.length-ranks.length} explicit unrated cards, sample arithmetic and provenance gates.`);
 }
+
+// Exercise production eligibility and progress keys, rather than a duplicate filter.
+const app = fs.readFileSync('public/app.js', 'utf8');
+const fra = context.window.LIMITED_PREP_DATA.sets.find(s => s.id === 'fra');
+const runtime = vm.createContext({ currentSet: fra, lifecycle: () => context.window.SET_LIFECYCLE.resolve(fra), tierOrder: ['S','A+','A','A-','B+','B','B-','C+','C','C-','D+','D','D-','F'] });
+vm.runInContext(app.slice(app.indexOf('  function expertTraining()'), app.indexOf('  function lifecycle()')), runtime);
+vm.runInContext(app.slice(app.indexOf('  function cardIsRated('), app.indexOf('  function reviewGradeFamilies(')), runtime);
+vm.runInContext(app.slice(app.indexOf('  function progressKey()'), app.indexOf('  function readProgress()')), runtime);
+assert.equal(runtime.expertTraining(), false);
+assert.equal(fra.cards.filter(runtime.trainerEligible).length, fra.observedRatings.ratedCards);
+assert(fra.cards.filter(c => !c.tier).every(c => !runtime.trainerEligible(c)));
+assert(runtime.progressKey().includes(':observed:fra:'));
+assert(fra.cards.filter(runtime.trainerEligible).every(c => runtime.trainerAnswer(c) === c.tier));
+console.log('Verified FRA uses source tiers, excludes all unrated/basic cards and isolates observed progress.');

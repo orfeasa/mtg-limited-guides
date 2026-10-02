@@ -602,3 +602,5 @@ Card details lead with a concise role, support condition, downside and any selec
 ## Reality Fracture post-release refinement · 2 October 2026
 
 The existing dossier shell now has four tasks: Training, Limited guide, Archetypes and All cards. Card memory is disabled for FRA through set metadata. All cards opens in the existing exact-tier layout with explicit unrated coverage, source/date/sample attribution and observed evidence in card enlargement. Limited guide defaults to Draft while preserving explicit Sealed and team routes. Desktop and 390px mobile checks retain the established materials, typography and controls; no new visual system is introduced.
+
+FRA Training uses the existing S–F controls from The Hobbit, with a short 266-rated/14-excluded coverage explanation. Observed evidence and reviews remain below the revealed answer; source attribution uses the Arena snapshot.
