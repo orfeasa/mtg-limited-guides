@@ -86,3 +86,7 @@ Reality Fracture now offers published Untapped Premier Draft tiers independently
 ## Card guidance simplification
 
 Training answers and card popups show observed draft evidence and authored role, upside and risk guidance. Expert grades, full review passages, reviewer disagreements and the extra early-advice disclosure are omitted. Research sources remain retained for provenance. The Limited guide uses the same practical guidance without reviewer comparisons.
+
+## Shared card-detail requirement
+
+Every set uses the All cards detail popup described in docs/card-details.md. Show genuine statistics even without authored teaching, as in The Hobbit. FRA keeps concise Best with / Watch for guidance and optional combinations. Tier appears once; source scope remains expandable. Never expose statistical answers in an uncommitted Draft decision.

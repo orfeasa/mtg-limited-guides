@@ -41,7 +41,8 @@ window.LIMITED_PREP_DATA = {
         "source": "Untapped.gg",
         "capturedAt": "2026-09-20T10:53:04.277Z",
         "matches": 769560,
-        "label": "Observed card evidence"
+        "label": "Observed card evidence",
+        "format": "Premier Draft"
       },
       "cardSource": {
         "label": "Untapped.gg and Scryfall",

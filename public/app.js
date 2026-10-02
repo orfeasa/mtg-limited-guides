@@ -690,10 +690,21 @@
   }
 
   function observedCardEvidence(card) {
-    const source = currentSet.observedRatings;
+    const source = currentSet.observedRatings || (ratingIsAvailable() ? {
+      ...currentSet.rating,
+      format: currentSet.performance?.format,
+      capturedAt: currentSet.performance?.capturedAt || currentSet.rating.capturedAt,
+    } : null);
     if (!source || !card.stats || !tiersAvailable()) return "";
-    const rate = Number.isFinite(card.stats.inHandWinRate) ? `${card.stats.inHandWinRate.toFixed(1)}%` : "—";
-    return `<section class="trainer-draft-signal" aria-label="Observed Draft evidence"><strong>${card.tier ? `Published tier ${escapeHtml(card.tier)}` : "Unrated · low match volume"}</strong><dl><div><dt>In-hand win rate</dt><dd>${rate}</dd></div><div><dt>Games in hand</dt><dd>${numberFormatter.format(card.stats.inHandGames)}</dd></div></dl><p>${escapeHtml(source.source)} · Premier Draft · ${escapeHtml(source.rankRange)} · captured ${dateLabel(source.capturedAt)}. Early results may change; this is not Sealed evidence. <a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">View source</a></p></section>`;
+    const stats = card.stats;
+    const metrics = [
+      Number.isFinite(stats.inHandWinRate) && ["In-hand win rate", `${stats.inHandWinRate.toFixed(1)}%`],
+      Number.isFinite(stats.inHandGames) && ["Games in hand", numberFormatter.format(stats.inHandGames)],
+      Number.isFinite(stats.avgLastOffered) && ["Last seen · avg. pick", stats.avgLastOffered.toFixed(1)],
+    ].filter(Boolean);
+    if (!metrics.length) return "";
+    const scope = [source.format, dateLabel(source.capturedAt)].filter(Boolean).join(" · ");
+    return `<section class="card-statistics" aria-label="Draft statistics">${!card.tier ? '<p class="card-unrated">Unrated · not enough games</p>' : ''}<dl>${metrics.map(([label, value]) => `<div><dt>${label}</dt><dd>${value}</dd></div>`).join("")}</dl><details class="card-stat-source"><summary>${escapeHtml(scope || "Data source")}</summary><p><a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.source)}</a> · ${escapeHtml(source.rankRange)} · All archetypes</p></details></section>`;
   }
 
   function trainerEvidence(card) {

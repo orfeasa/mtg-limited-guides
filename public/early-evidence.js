@@ -49,12 +49,8 @@
     const row = evidence?.byCard[id];
     if (!row) return '';
     const teaching = row.teaching;
-    return `${teaching ? `<h3>${text(teaching.role)}</h3><p>${text(teaching.why)}</p><h4>When it gets better</h4><p>${text(teaching.better)}</p><h4>What can go wrong</h4><p>${text(teaching.watch)}</p><p class="evidence-caption">Editorial card guidance.</p>` : ''}
-    ${row.combinationIds.map(id => `<details class="evidence-related"><summary>${escape(evidence.combinations[id].title)}</summary>${combination(set, id)}</details>`).join('')}
-    ${row.observationIds.length ? `<details class="evidence-related"><summary>From the Sealed games</summary><p class="evidence-caption">Selected automatic-caption sequences; video frames unverified.</p><ul>${row.observationIds.map(id => {
-      const o = evidence.observations[id];
-      return `<li><p>${text(o.observation)}</p><p>${text(o.interpretation)}</p>${sourceLink(evidence, o)} · ${escape(o.timeLabel)}</li>`;
-    }).join('')}</ul></details>` : ''}`;
+    return `${teaching ? `<div class="card-guidance"><h3>Best with</h3><p>${text(teaching.better)}</p><h3>Watch for</h3><p>${text(teaching.watch)}</p></div>` : ''}
+    ${row.combinationIds.map(id => `<details class="evidence-related"><summary>${escape(evidence.combinations[id].title)}</summary>${combination(set, id)}</details>`).join('')}`;
   }
   window.EARLY_EVIDENCE = { prep, archetype, card, combination };
 })();

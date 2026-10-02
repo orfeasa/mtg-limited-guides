@@ -51,3 +51,31 @@ assert(fra.cards.filter(c => !c.tier).every(c => !runtime.trainerEligible(c)));
 assert(runtime.progressKey().includes(':observed:fra:'));
 assert(fra.cards.filter(runtime.trainerEligible).every(c => runtime.trainerAnswer(c) === c.tier));
 console.log('Verified FRA uses source tiers, excludes all unrated/basic cards and isolates observed progress.');
+
+// Both sets share detail statistics; absent evidence must not become fabricated values.
+const details = vm.createContext({
+  currentSet: fra,
+  ratingIsAvailable: () => details.currentSet.rating.status === 'available',
+  tiersAvailable: () => true,
+  numberFormatter: new Intl.NumberFormat('en-GB'),
+  escapeHtml: value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;'),
+  dateLabel: value => String(value).slice(0, 10),
+});
+vm.runInContext(app.slice(app.indexOf('  function observedCardEvidence('), app.indexOf('  function trainerEvidence(')), details);
+for (const set of context.window.LIMITED_PREP_DATA.sets) {
+  details.currentSet = set;
+  for (const card of set.cards.filter(c => c.stats)) {
+    const html = details.observedCardEvidence(card);
+    assert(html.includes('Games in hand'));
+    assert(html.includes('Premier Draft'));
+    assert(!html.includes('Published tier'));
+    assert(!html.includes('<strong>Tier'), 'Tier is already beside the card name');
+    if (Number.isFinite(card.stats.avgLastOffered)) assert(html.includes('Last seen · avg. pick'));
+    if (!card.tier) assert(html.includes('Unrated'));
+  }
+  assert.equal(details.observedCardEvidence({}), '');
+  const missing = details.observedCardEvidence({ stats: {}, tier: 'A' });
+  assert.equal(missing, '');
+}
+assert(app.includes('hideDecisionRating || currentView === "memory" ? "" : observedCardEvidence(card)'), 'Do not leak hidden answers through card details');
+console.log('Verified shared FRA/Hobbit details, optional metrics, explicit unrated cards and hidden-answer protection.');

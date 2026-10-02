@@ -31,12 +31,12 @@ for(const c of corpus.cards) {
  assert(!html.includes('evidence-full-reviews'));
  assert(!html.includes('evidence-review-text'));
  assert(!html.includes('Where reviewers differ'));
- assert(html.includes('<h4>When it gets better</h4>'));
- assert(html.includes('<h4>What can go wrong</h4>'));
+ assert(html.includes('<h3>Best with</h3>'));
+ assert(html.includes('<h3>Watch for</h3>'));
  for (const a of c.reviewAssessments) assert(!html.includes(a.assessmentText));
 }
 const example=corpus.cards[0];
-set.earlyEvidence.byCard[example.cardId].teaching.why='<img src=x onerror=alert(1)>';
+set.earlyEvidence.byCard[example.cardId].teaching.watch='<img src=x onerror=alert(1)>';
 assert(ctx.window.EARLY_EVIDENCE.card(set,example.cardId).includes('&lt;img'));
 assert(!ctx.window.EARLY_EVIDENCE.card(set,example.cardId).includes('<img src=x'));
 assert.equal(ctx.window.EARLY_EVIDENCE.card(ctx.window.LIMITED_PREP_DATA.sets.find(s=>s.id==='hob'),'hob-1'),'');

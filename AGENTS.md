@@ -15,3 +15,7 @@ After every user-requested change in this repository:
 5. Verify the live site separately from the repository and deployment result.
 
 Skip commit, push, or deployment only when the user explicitly asks to keep the change local or requests another delivery boundary. Never ship a change that fails verification; stop and report the failure instead.
+
+## Card details
+
+Read `docs/card-details.md` when adding a set or changing card popups. Every set must use the shared detail view with available source-backed statistics, concise authored guidance where available, and accessible desktop/mobile behavior.

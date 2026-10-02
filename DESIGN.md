@@ -604,3 +604,7 @@ Card details lead with a concise role, support condition, downside and any selec
 The existing dossier shell now has four tasks: Training, Limited guide, Archetypes and All cards. Card memory is disabled for FRA through set metadata. All cards opens in the existing exact-tier layout with explicit unrated coverage, source/date/sample attribution and observed evidence in card enlargement. Limited guide defaults to Draft while preserving explicit Sealed and team routes. Desktop and 390px mobile checks retain the established materials, typography and controls; no new visual system is introduced.
 
 FRA Training uses the existing S–F controls from The Hobbit, with a short 266-rated/14-excluded coverage explanation. Observed evidence and reviews remain below the revealed answer; source attribution uses the Arena snapshot.
+
+## Shared card details · 2 October 2026
+
+Both themes use the existing image-and-detail dialog: one tier/rank label, a compact statistics ledger, collapsible source/date scope, and optional Best with / Watch for guidance. FRA loses duplicate tier headings, card-rule paraphrases and historical footage disclosures. Hobbit gains the same available-data panel with win rate, sample and average last-offered pick. Binding text tokens keep metrics readable in both themes; narrow screens stack image and details. See docs/card-details.md for the future-set contract.

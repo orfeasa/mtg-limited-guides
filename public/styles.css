@@ -4439,3 +4439,17 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
 }
 #prep-decisions { max-width: 72ch; }
 #prep-decisions { scroll-margin-top: calc(var(--tab-height, 62px) + 24px); }
+
+/* Shared card details: only available metrics, compact provenance, practical guidance. */
+.card-statistics { margin: 0 0 24px; }
+.card-statistics dl { display: flex; flex-wrap: wrap; gap: 18px 28px; margin: 0 0 12px; }
+.card-statistics dt { font-size: .8rem; line-height: 1.4; }
+.card-statistics dd { margin: 4px 0 0; font: 700 1.65rem var(--display); font-variant-numeric: tabular-nums; }
+.card-stat-source { font-size: .85rem; }
+.card-stat-source summary { cursor: pointer; padding-block: 8px; }
+.card-stat-source p { margin: 4px 0 12px; }
+.card-unrated { margin: 0 0 12px; font-weight: 700; }
+.card-guidance h3 { margin: 24px 0 6px; font: 700 1.25rem var(--display); }
+.card-guidance p { margin: 0 0 20px; }
+.card-preview-evidence .card-statistics dt,
+.card-preview-evidence .card-stat-source { color: var(--on-binding-muted); }
