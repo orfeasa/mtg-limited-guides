@@ -82,3 +82,7 @@ Card memory supports Prerelease essentials (the union of key cards, interaction 
 ## Post-release update · 2 October 2026
 
 Reality Fracture now offers published Untapped Premier Draft tiers independently of the complete observed-Training gate. Preserve explicit unrated cards, per-card sample counts and source dates; do not infer missing grades. Training uses the verified rated-card subset and the same observed S–F exercise as The Hobbit; unrated cards are excluded. Current observed evidence and original expert reviews appear after answers. FRA opts out of Card memory. Its renamed Limited guide defaults to Draft and retains rules, interactions and authored Sealed/team formats.
+
+## Card guidance simplification
+
+Training answers and card popups show observed draft evidence and authored role, upside and risk guidance. Expert grades, full review passages, reviewer disagreements and the extra early-advice disclosure are omitted. Research sources remain retained for provenance. The Limited guide uses the same practical guidance without reviewer comparisons.

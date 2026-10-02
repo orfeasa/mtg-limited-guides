@@ -28,18 +28,19 @@ vm.runInNewContext(fs.readFileSync('public/early-evidence.js','utf8'),ctx);
 const set=ctx.window.LIMITED_PREP_DATA.sets.find(s=>s.id==='fra');
 for(const c of corpus.cards) {
  const html=ctx.window.EARLY_EVIDENCE.card(set,c.cardId);
- assert(html.includes('<section class="evidence-full-reviews"><h4>Reviews</h4>'));
- assert(!html.includes('<summary>Read the reviews</summary>'));
- assert.equal((html.match(/<details class="evidence-review"/g)||[]).length,c.reviewAssessments.length);
- assert(!html.includes('no card-specific explanation'));
- for (const a of c.reviewAssessments) assert(html.includes(a.author));
+ assert(!html.includes('evidence-full-reviews'));
+ assert(!html.includes('evidence-review-text'));
+ assert(!html.includes('Where reviewers differ'));
+ assert(html.includes('<h4>When it gets better</h4>'));
+ assert(html.includes('<h4>What can go wrong</h4>'));
+ for (const a of c.reviewAssessments) assert(!html.includes(a.assessmentText));
 }
 const example=corpus.cards[0];
-set.earlyEvidence.byCard[example.cardId].reviews[0].text='<img src=x onerror=alert(1)>';
+set.earlyEvidence.byCard[example.cardId].teaching.why='<img src=x onerror=alert(1)>';
 assert(ctx.window.EARLY_EVIDENCE.card(set,example.cardId).includes('&lt;img'));
 assert(!ctx.window.EARLY_EVIDENCE.card(set,example.cardId).includes('<img src=x'));
 assert.equal(ctx.window.EARLY_EVIDENCE.card(ctx.window.LIMITED_PREP_DATA.sets.find(s=>s.id==='hob'),'hob-1'),'');
-console.log('Verified 280 full-review presentations, 280 grounded teaching records, missing/stale-source rejection and safe source-text rendering.');
+console.log('Verified 280 cards without review passages or grades, 280 preserved grounded teaching records, missing/stale-source rejection and safe source-text rendering.');
 
 // Exercise the actual journey controller against its small DOM contract.
 class Node {
