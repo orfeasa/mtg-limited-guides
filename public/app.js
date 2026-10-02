@@ -562,10 +562,10 @@
     if (["atlas", "training"].includes(currentView) && currentSet.observedRatings && tiersAvailable()) {
       const source = currentSet.observedRatings;
       elements.footerRefreshed.hidden = false;
-      elements.footerRefreshed.textContent = `Captured ${dateLabel(source.capturedAt)}`;
-      elements.footerSource.textContent = `${source.source} · ${source.format} · ${source.rankRange} · ${source.metric} · ${numberFormatter.format(source.matches)} matches`;
+      elements.footerRefreshed.textContent = `Last refreshed ${dateLabel(source.capturedAt)}`;
+      elements.footerSource.textContent = `${source.source} pick order · ${source.rankRange} · All archetypes`;
       elements.sourceLink.href = source.url;
-      elements.sourceLink.textContent = "View tier source";
+      elements.sourceLink.textContent = "View ranking source";
       return;
     }
     const refreshedAt = currentView === "archetypes" && archetypesAvailable()
