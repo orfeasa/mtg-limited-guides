@@ -84,3 +84,5 @@ Refresh with the tier importer and `node scripts/sync-archetypes.mjs fra`, then 
 Rated-card Training requires `observedTraining.scope: "rated-cards"`, a reached `confirmedAt`, a dated attributable observed snapshot, exact agreement between declared and actual rated counts, and valid tiers/ranks with positive per-card samples. Observed Training takes precedence over expert Training. Progress is isolated by set and observed capture time so changed answers do not inherit a previous snapshot’s score. Concise authored guidance remains available after reveal; no expert grade is converted into a statistical tier. Draft decisions retain their separate complete-rating and replay-evidence gates.
 
 All cards detail popups follow [the shared card-details contract](card-details.md) for existing and future sets.
+
+All card-group headers use one explicit right-aligned count (for example, `8 cards` or `1 card`). This applies to tier, colour, type, rarity and ungrouped views across every set. Counts describe the currently visible cards after filtering; omit duplicate subtitle counts and rank ranges.

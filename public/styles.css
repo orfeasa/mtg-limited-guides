@@ -3012,7 +3012,7 @@ body[data-theme="fracture"] .mana-symbol {
 
 .color-section-heading p,
 .tier-section-heading p,
-.color-range {
+.atlas-group-count {
   margin: 5px 0 0;
   color: var(--muted);
   font-size: .76rem;
@@ -3031,7 +3031,7 @@ body[data-theme="fracture"] .mana-symbol {
   font-size: 1.7rem;
 }
 
-.color-range {
+.atlas-group-count {
   flex: 0 0 auto;
   font-family: var(--display);
   font-size: 1.15rem;
@@ -4453,3 +4453,10 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
 .card-guidance p { margin: 0 0 20px; }
 .card-preview-evidence .card-statistics dt,
 .card-preview-evidence .card-stat-source { color: var(--on-binding-muted); }
+
+
+/* Every card grouping uses the same explicit, filtered count. */
+.atlas-group-count { white-space: nowrap; }
+.atlas-group-heading { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin: 28px 0 16px; padding-bottom: 16px; border-bottom: 1px solid var(--line); }
+.atlas-group-heading h3 { margin: 0; color: var(--ink); font: 700 1.5rem var(--display); }
+.atlas-group-heading .atlas-group-count { margin: 0; }

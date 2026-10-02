@@ -1446,20 +1446,17 @@
       section.id = sectionId;
       section.className = isTierGroup ? "tier-section" : atlasGrouping === "colour" ? "color-section" : "atlas-section";
       section.dataset[isTierGroup ? "tier" : "color"] = group.id;
-      const ranks = groupCards.map((card) => card.rank).filter(Number.isFinite);
-      const range = isTierGroup && ranks.length ? `#${Math.min(...ranks)}–#${Math.max(...ranks)}` : "";
+      const countLabel = `${groupCards.length} ${groupCards.length === 1 ? "card" : "cards"}`;
+      const countMarkup = `<span class="atlas-group-count">${countLabel}</span>`;
       if (isTierGroup) {
         const family = tierFamilies.find((item) => item.tiers.includes(group.id))?.label || "No assigned tier";
         section.style.setProperty("--tier-color", tierColors[group.id] || tierColors["?"]);
-        section.innerHTML = `<header class="tier-section-heading"><span class="tier tier-section-mark ${group.id === "?" ? "tier-pending" : ""}">${escapeHtml(group.id)}</span><div><h3>${escapeHtml(group.id === "?" ? "Unrated" : family)}</h3><p>${escapeHtml(group.id === "?" ? "No assigned tier" : `Tier ${group.id}`)} · ${groupCards.length} ${groupCards.length === 1 ? "card" : "cards"}</p></div><span class="color-range">${range}</span></header>`;
+        section.innerHTML = `<header class="tier-section-heading"><span class="tier tier-section-mark ${group.id === "?" ? "tier-pending" : ""}">${escapeHtml(group.id)}</span><div><h3>${escapeHtml(group.id === "?" ? "Unrated" : family)}</h3><p>${escapeHtml(group.id === "?" ? "No assigned tier" : `Tier ${group.id}`)}</p></div>${countMarkup}</header>`;
       } else if (atlasGrouping === "colour") {
-        section.innerHTML = `<header class="color-section-heading">${manaSymbol(group.id, "mana-symbol--section")}<div><h3>${group.name}</h3><p>${group.note} · ${groupCards.length} cards</p></div><span class="color-range">${range}</span></header>`;
+        section.innerHTML = `<header class="color-section-heading">${manaSymbol(group.id, "mana-symbol--section")}<div><h3>${group.name}</h3><p>${group.note}</p></div>${countMarkup}</header>`;
       }
-      if (["type", "rarity"].includes(atlasGrouping)) {
-        const heading = document.createElement("h3");
-        heading.className = "atlas-subheading";
-        heading.textContent = `${group.name} · ${groupCards.length}`;
-        section.append(heading);
+      if (["type", "rarity", "none"].includes(atlasGrouping)) {
+        section.innerHTML = `<header class="atlas-group-heading"><h3>${escapeHtml(group.name || "All cards")}</h3>${countMarkup}</header>`;
       }
       const grid = document.createElement("div");
       grid.className = "atlas-grid";
