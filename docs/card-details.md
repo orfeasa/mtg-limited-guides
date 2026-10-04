@@ -2,6 +2,8 @@
 
 All cards must open a useful detail popup, not just an enlarged image. This applies to The Hobbit, Reality Fracture and every future set. Use the shared `observedCardEvidence()` renderer and existing accessible dialog; do not add set-specific popups.
 
+Training also offers an image-only zoom when the player taps the exercise card. Reuse the shared dialog, hide all answer evidence in this mode, and preserve the exercise and focus when closing it. Other card entry points retain the full details below.
+
 ## Information order
 
 1. Readable card image, name, and tier/rank once. Do not repeat the tier in the statistics section or prefix it with “Published”. Unrated cards stay explicitly unrated.

@@ -745,6 +745,7 @@
     };
     elements.trainerImage.src = card.trainingImage || card.image;
     elements.trainerImage.alt = `${card.name} card`;
+    $("#enlarge-trainer-card").setAttribute("aria-label", `Enlarge ${card.name}`);
     elements.trainerName.textContent = card.name;
     elements.trainerType.textContent = card.typeLine || "";
     elements.trainerOracle.innerHTML = window.CARD_RULES.render(card.oracleText || "");
@@ -1279,7 +1280,7 @@
   }
 
   const previewHistory = [];
-  function openCardPreview(cardId) {
+  function openCardPreview(cardId, { imageOnly = false } = {}) {
     const card = cardById.get(cardId);
     if (!card) return;
     if (!elements.cardPreview.open) previewOpener = document.activeElement instanceof HTMLElement ? document.activeElement : null;
@@ -1292,6 +1293,7 @@
     elements.cardPreviewImage.src = readableImage;
     elements.cardPreviewImage.alt = `${card.name} card`;
     elements.cardPreviewName.textContent = card.name;
+    elements.cardPreview.classList.toggle("image-only", imageOnly);
     const hideDecisionRating = currentView === "decisions" && decisionStage === "choose" && !decisionSummaryVisible;
     elements.cardPreviewMeta.textContent = hideDecisionRating
       ? "Ranking hidden until comparison"
@@ -1299,7 +1301,7 @@
       ? `#${card.rank} · Tier ${card.tier}`
       : `${card.rarity || "Preview"} · ${currentSet.code} #${card.collectorNumber || "—"}`;
     const evidencePanel = document.getElementById("card-preview-evidence");
-    evidencePanel.innerHTML = hideDecisionRating || currentView === "memory" ? "" : observedCardEvidence(card) + window.EARLY_EVIDENCE.card(currentSet, card.id);
+    evidencePanel.innerHTML = imageOnly || hideDecisionRating || currentView === "memory" ? "" : observedCardEvidence(card) + window.EARLY_EVIDENCE.card(currentSet, card.id);
     if (previewHistory.length) evidencePanel.insertAdjacentHTML("afterbegin", '<button type="button" class="card-preview-back">Back to previous card</button>');
     evidencePanel.hidden = !evidencePanel.innerHTML;
     elements.cardPreviewFrame.scrollTop = 0;
@@ -1716,6 +1718,7 @@
     if (!button) return;
     openCardPreview(button.dataset.cardId);
   });
+  $("#enlarge-trainer-card").addEventListener("click", () => openCardPreview(trainerCardId, { imageOnly: true }));
   elements.closeCardPreview.addEventListener("click", () => elements.cardPreview.close());
   elements.cardPreview.addEventListener("click", (event) => {
     if (event.target === elements.cardPreview) elements.cardPreview.close();
