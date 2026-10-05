@@ -21,18 +21,18 @@
       },
       "observed": {
         "status": "available",
-        "capturedAt": "2026-10-04T08:02:25.374Z",
-        "twoColourGames": 106125,
-        "supportedGames": 106125,
+        "capturedAt": "2026-10-05T08:02:39.915Z",
+        "twoColourGames": 125000,
+        "supportedGames": 125000,
         "supportedShare": 100,
         "topPair": "WU",
         "pairs": [
           {
             "id": "WU",
             "name": "Azorius (WU)",
-            "wins": 8673,
-            "games": 15029,
-            "winRate": 57.71,
+            "wins": 10404,
+            "games": 17972,
+            "winRate": 57.89,
             "supported": true,
             "overallRank": 1,
             "supportedRank": 1
@@ -40,9 +40,9 @@
           {
             "id": "UB",
             "name": "Dimir (UB)",
-            "wins": 9099,
-            "games": 15975,
-            "winRate": 56.96,
+            "wins": 11043,
+            "games": 19411,
+            "winRate": 56.89,
             "supported": true,
             "overallRank": 2,
             "supportedRank": 2
@@ -50,9 +50,9 @@
           {
             "id": "RG",
             "name": "Gruul (RG)",
-            "wins": 8828,
-            "games": 15552,
-            "winRate": 56.76,
+            "wins": 10299,
+            "games": 18172,
+            "winRate": 56.68,
             "supported": true,
             "overallRank": 3,
             "supportedRank": 3
@@ -60,9 +60,9 @@
           {
             "id": "UR",
             "name": "Izzet (UR)",
-            "wins": 6000,
-            "games": 10638,
-            "winRate": 56.4,
+            "wins": 7046,
+            "games": 12519,
+            "winRate": 56.28,
             "supported": true,
             "overallRank": 4,
             "supportedRank": 4
@@ -70,9 +70,9 @@
           {
             "id": "BG",
             "name": "Golgari (BG)",
-            "wins": 3794,
-            "games": 6802,
-            "winRate": 55.78,
+            "wins": 4398,
+            "games": 7914,
+            "winRate": 55.57,
             "supported": true,
             "overallRank": 5,
             "supportedRank": 5
@@ -80,9 +80,9 @@
           {
             "id": "GW",
             "name": "Selesnya (GW)",
-            "wins": 7235,
-            "games": 13212,
-            "winRate": 54.76,
+            "wins": 8430,
+            "games": 15387,
+            "winRate": 54.79,
             "supported": true,
             "overallRank": 6,
             "supportedRank": 6
@@ -90,9 +90,9 @@
           {
             "id": "RW",
             "name": "Boros (RW)",
-            "wins": 3964,
-            "games": 7300,
-            "winRate": 54.3,
+            "wins": 4584,
+            "games": 8450,
+            "winRate": 54.25,
             "supported": true,
             "overallRank": 7,
             "supportedRank": 7
@@ -100,9 +100,9 @@
           {
             "id": "BR",
             "name": "Rakdos (BR)",
-            "wins": 6591,
-            "games": 12184,
-            "winRate": 54.1,
+            "wins": 7578,
+            "games": 14011,
+            "winRate": 54.09,
             "supported": true,
             "overallRank": 8,
             "supportedRank": 8
@@ -110,9 +110,9 @@
           {
             "id": "WB",
             "name": "Orzhov (WB)",
-            "wins": 3127,
-            "games": 5864,
-            "winRate": 53.33,
+            "wins": 3689,
+            "games": 6952,
+            "winRate": 53.06,
             "supported": true,
             "overallRank": 9,
             "supportedRank": 9
@@ -120,9 +120,9 @@
           {
             "id": "GU",
             "name": "Simic (GU)",
-            "wins": 1883,
-            "games": 3569,
-            "winRate": 52.76,
+            "wins": 2216,
+            "games": 4212,
+            "winRate": 52.61,
             "supported": true,
             "overallRank": 10,
             "supportedRank": 10
@@ -143,18 +143,18 @@
       },
       "observed": {
         "status": "available",
-        "capturedAt": "2026-10-04T08:02:25.374Z",
-        "twoColourGames": 13953,
-        "supportedGames": 13953,
+        "capturedAt": "2026-10-05T08:02:39.915Z",
+        "twoColourGames": 15199,
+        "supportedGames": 15199,
         "supportedShare": 100,
         "topPair": "UB",
         "pairs": [
           {
             "id": "UB",
             "name": "Dimir (UB)",
-            "wins": 1203,
-            "games": 2044,
-            "winRate": 58.86,
+            "wins": 1346,
+            "games": 2285,
+            "winRate": 58.91,
             "supported": true,
             "overallRank": 1,
             "supportedRank": 1
@@ -162,9 +162,9 @@
           {
             "id": "BG",
             "name": "Golgari (BG)",
-            "wins": 559,
-            "games": 954,
-            "winRate": 58.6,
+            "wins": 581,
+            "games": 1002,
+            "winRate": 57.98,
             "supported": true,
             "overallRank": 2,
             "supportedRank": 2
@@ -172,9 +172,9 @@
           {
             "id": "WU",
             "name": "Azorius (WU)",
-            "wins": 1015,
-            "games": 1753,
-            "winRate": 57.9,
+            "wins": 1078,
+            "games": 1870,
+            "winRate": 57.65,
             "supported": true,
             "overallRank": 3,
             "supportedRank": 3
@@ -182,9 +182,9 @@
           {
             "id": "UR",
             "name": "Izzet (UR)",
-            "wins": 716,
-            "games": 1253,
-            "winRate": 57.14,
+            "wins": 795,
+            "games": 1394,
+            "winRate": 57.03,
             "supported": true,
             "overallRank": 4,
             "supportedRank": 4
@@ -192,9 +192,9 @@
           {
             "id": "RW",
             "name": "Boros (RW)",
-            "wins": 533,
-            "games": 950,
-            "winRate": 56.11,
+            "wins": 601,
+            "games": 1066,
+            "winRate": 56.38,
             "supported": true,
             "overallRank": 5,
             "supportedRank": 5
@@ -202,9 +202,9 @@
           {
             "id": "GW",
             "name": "Selesnya (GW)",
-            "wins": 939,
-            "games": 1687,
-            "winRate": 55.66,
+            "wins": 1027,
+            "games": 1829,
+            "winRate": 56.15,
             "supported": true,
             "overallRank": 6,
             "supportedRank": 6
@@ -212,9 +212,9 @@
           {
             "id": "BR",
             "name": "Rakdos (BR)",
-            "wins": 1063,
-            "games": 1913,
-            "winRate": 55.57,
+            "wins": 1141,
+            "games": 2048,
+            "winRate": 55.71,
             "supported": true,
             "overallRank": 7,
             "supportedRank": 7
@@ -222,9 +222,9 @@
           {
             "id": "WB",
             "name": "Orzhov (WB)",
-            "wins": 489,
-            "games": 890,
-            "winRate": 54.94,
+            "wins": 554,
+            "games": 997,
+            "winRate": 55.57,
             "supported": true,
             "overallRank": 8,
             "supportedRank": 8
@@ -232,9 +232,9 @@
           {
             "id": "RG",
             "name": "Gruul (RG)",
-            "wins": 1151,
-            "games": 2098,
-            "winRate": 54.86,
+            "wins": 1235,
+            "games": 2246,
+            "winRate": 54.99,
             "supported": true,
             "overallRank": 9,
             "supportedRank": 9
@@ -242,9 +242,9 @@
           {
             "id": "GU",
             "name": "Simic (GU)",
-            "wins": 219,
-            "games": 411,
-            "winRate": 53.28,
+            "wins": 242,
+            "games": 462,
+            "winRate": 52.38,
             "supported": true,
             "overallRank": 10,
             "supportedRank": 10
