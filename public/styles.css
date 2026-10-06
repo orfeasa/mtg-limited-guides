@@ -4140,7 +4140,7 @@ body[data-theme="fracture"] .card-preview-copy h2 {
     gap: 8px;
   }
 
-  .atlas-card-meta > span:last-child {
+  .atlas-card-meta > span:last-child:not(.tier) {
     display: none;
   }
 }
@@ -4318,7 +4318,7 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
   .atlas-grid { grid-template-columns: minmax(0, 1fr); }
 }
 
-.atlas-card-meta > span:last-child { display: inline; }
+.atlas-card-meta > span:last-child:not(.tier) { display: inline; }
 
 .atlas-filters label { flex-basis: 160px; }
 
