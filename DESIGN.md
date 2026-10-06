@@ -616,3 +616,7 @@ FRA Training uses the existing S–F controls from The Hobbit, with a short 266-
 ## Shared card details · 2 October 2026
 
 Both themes use the existing image-and-detail dialog: one tier/rank label, a compact statistics ledger, collapsible source/date scope, and optional Best with / Watch for guidance. FRA loses duplicate tier headings, card-rule paraphrases and historical footage disclosures. Hobbit gains the same available-data panel with win rate, sample and average last-offered pick. Binding text tokens keep metrics readable in both themes; narrow screens stack image and details. See docs/card-details.md for the future-set contract.
+
+## Mobile Training practice loop · 6 October 2026
+
+Training keeps its answer tier and result visible, with supporting evidence inside a native Details & stats disclosure that starts closed for each card. At widths up to 700px, the existing action controls form a fixed, safe-area-aware bottom bar; after revealing, a compact result accompanies Next card. The page reserves the measured bar height so the final content stays reachable. Next returns focus and the viewport to the card below the sticky navigation. The card remains aligned to the top when details expand, and tap-to-enlarge retains its image-only behavior. Desktop actions remain in the document flow.

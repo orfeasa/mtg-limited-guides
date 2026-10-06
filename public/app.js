@@ -751,6 +751,8 @@
     elements.trainerOracle.innerHTML = window.CARD_RULES.render(card.oracleText || "");
     elements.trainerAnswer.hidden = true;
     elements.trainerAnswer.replaceChildren();
+    $("#trainer-action-result").hidden = true;
+    $("#trainer-action-result").textContent = "";
     elements.gradeOptions.querySelectorAll("button").forEach((button) => {
       button.disabled = false;
       button.dataset.result = "";
@@ -795,8 +797,18 @@
           ? "Answer revealed"
           : `You chose ${escapeHtml(trainerGuess)}`;
     const heading = expertTraining() ? `J2SJosh · ${answer}/5` : `#${card.rank} · Tier ${escapeHtml(card.tier)}`;
-    elements.trainerAnswer.innerHTML = `<div class="trainer-answer-heading"><strong>${heading}</strong><span>${result}${expertTraining() ? "" : ` · ${escapeHtml(bandLabels[card.band])}`}</span></div>${trainerEvidence(card)}`;
+    const evidence = trainerEvidence(card);
+    elements.trainerAnswer.innerHTML = `<div class="trainer-answer-heading"><strong>${heading}</strong><span>${result}${expertTraining() ? "" : ` · ${escapeHtml(bandLabels[card.band])}`}</span></div>${evidence ? `<details class="trainer-details"><summary>Details &amp; stats</summary>${evidence}</details>` : ""}`;
+    const compactResult = $("#trainer-action-result");
+    const actual = expertTraining() ? `${answer}/5` : answer;
+    compactResult.textContent = outcome === "exact" ? `Correct · ${actual}`
+      : outcome === "close" ? `Close · ${actual} (you chose ${trainerGuess})`
+      : trainerGuess === null ? `Answer · ${actual}` : `You chose ${trainerGuess} · Actual ${actual}`;
+    compactResult.hidden = false;
+    const revealHadFocus = document.activeElement === elements.revealCard;
+    elements.revealCard.hidden = true;
     elements.revealCard.disabled = true;
+    if (revealHadFocus) $("#next-card").focus({ preventScroll: true });
     elements.gradeOptions.querySelectorAll("button").forEach((button) => {
       button.disabled = true;
       button.setAttribute("aria-pressed", String(button.dataset.grade === trainerGuess));
@@ -833,6 +845,11 @@
     trainerRevealed = false;
     trainerGuess = null;
     renderTrainer();
+    if (currentView === "training" && window.matchMedia("(max-width: 700px)").matches) {
+      const imageButton = $("#enlarge-trainer-card");
+      imageButton.focus({ preventScroll: true });
+      imageButton.scrollIntoView({ block: "start", behavior: "instant" });
+    }
   }
 
   function archetypeObservation(archetypeId) {
@@ -1640,6 +1657,11 @@
     if (index >= 0) goToDecision(index);
   });
   elements.reviewFirstDecision.addEventListener("click", () => goToDecision(0));
+  const trainerActions = $(".trainer-actions");
+  new ResizeObserver(() => {
+    $("#training-view").style.setProperty("--trainer-actions-height", `${trainerActions.getBoundingClientRect().height}px`);
+  }).observe(trainerActions);
+
   elements.trainerColor.addEventListener("change", () => {
     progress.color = elements.trainerColor.value;
     progress.queue = [];

@@ -4507,3 +4507,50 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
   .atlas-search-input button span { display: none; }
   .atlas-search-input button svg { display: block; }
 }
+
+
+/* Keep the practice loop reachable; supporting evidence is opt-in. */
+.trainer-details > summary {
+  min-height: 44px;
+  padding-block: 12px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.trainer-action-result { display: none; }
+@media (max-width: 700px) {
+  #training-view {
+    padding-bottom: calc(var(--trainer-actions-height, 90px) + 16px);
+  }
+  #enlarge-trainer-card {
+    align-self: start;
+    scroll-margin-top: calc(var(--tab-height) + 16px);
+  }
+  #training-view .trainer-actions {
+    position: fixed;
+    z-index: 20;
+    inset: auto 0 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+    padding: 12px max(16px, env(safe-area-inset-right)) calc(12px + env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+    background: var(--surface-light);
+    color: var(--ink);
+    border-top: 1px solid var(--line);
+  }
+  .trainer-actions > button { flex: 1; min-height: 48px; font-size: .875rem; }
+  .trainer-action-result:not([hidden]) {
+    display: block;
+    flex: 1;
+    min-width: 0;
+    margin: 0;
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  .trainer-action-result:not([hidden]) ~ #next-card { flex: 0 0 auto; }
+  .grade-options button { min-height: 44px; }
+  .trainer-details .trainer-stat-ledger { grid-template-columns: 1fr; }
+  .trainer-details .trainer-stat-ledger div { border-right: 0; }
+  .trainer-details .trainer-stat-ledger div + div { border-top: 1px solid var(--line); }
+}
