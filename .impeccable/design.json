@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-25T08:03:56Z",
+  "generatedAt": "2026-10-06T07:44:35.939836+00:00",
   "title": "Design System: Limited Field Guides",
   "extensions": {
     "brandAssets": {
@@ -478,9 +478,9 @@
     {
       "name": "Card Browser Controls",
       "kind": "input",
-      "description": "Independent name, colour, type and rarity filters; grouping; mana value, name, rarity or verified rating sorting; and locally remembered Compact or Large card size. Large uses four desktop columns, two below 860px, and one below 700px.",
-      "html": "<div class=\"ds-atlas-controls\"><label class=\"ds-atlas-label\">Group by<select class=\"ds-atlas-input\"><option>Colour</option><option>Creatures / non-creatures</option><option>Rarity</option><option>None</option></select></label><label class=\"ds-atlas-label\">Sort by<select class=\"ds-atlas-input\"><option>Mana value</option><option>Name</option><option>Rarity</option></select></label><label class=\"ds-atlas-label\">Card size<select class=\"ds-atlas-input\"><option>Compact</option><option>Large</option></select></label></div>",
-      "css": ".ds-atlas-label { display: flex; flex-direction: column; gap: 6px; color: var(--ink); font-size: .85rem; } .ds-atlas-input { min-height: 44px; padding: 10px 12px; border: 1px solid var(--line); border-radius: var(--control-radius); background: var(--surface-light); color: var(--ink); } .ds-atlas-input:hover { border-color: var(--ink); } .ds-atlas-input:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; } .ds-atlas-controls { display:flex; flex-wrap:wrap; gap:16px; } .ds-atlas-controls .ds-atlas-label { flex:1 1 160px; }"
+      "description": "Sticky card-name lookup with a clear action; group shortcuts collapse during search.",
+      "html": "<div class=\"ds-lookup\"><label for=\"ds-search\">Find a card</label><div class=\"ds-search-row\"><input id=\"ds-search\" type=\"search\" placeholder=\"Search card names\"><button type=\"button\">Clear</button></div></div>",
+      "css": ".ds-lookup { background: var(--surface, #e5e9f1); color: var(--ink, #191a2b); padding: 12px; font-family: Atkinson Hyperlegible Next, sans-serif; border-bottom: 1px solid var(--line, #aeb7ca); } .ds-lookup label { display:block; font-size:.85rem; margin-bottom:6px; } .ds-search-row { display:flex; gap:8px; } .ds-search-row input, .ds-search-row button { min-height:44px; padding:10px 12px; background:var(--surface-light, #f5f7fb); color:var(--ink, #191a2b); border:1px solid var(--line, #aeb7ca); border-radius:var(--control-radius, 4px); font:inherit; } .ds-search-row input { flex:1; min-width:0; font-size:1rem; } .ds-search-row input::placeholder { color:var(--muted, #5b5e73); opacity:1; } .ds-search-row button:hover { border-color:var(--ink, #191a2b); } .ds-search-row :focus-visible { outline:3px solid var(--focus, #d15f79); outline-offset:3px; }"
     }
   ],
   "narrative": {

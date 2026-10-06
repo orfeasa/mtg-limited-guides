@@ -10,7 +10,7 @@
     <link rel="icon" href="assets/icon-32.png" sizes="32x32" type="image/png">
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
     <link rel="manifest" href="manifest.webmanifest">
-    <link rel="stylesheet" href="styles.css?v=575827ecce45">
+    <link rel="stylesheet" href="styles.css?v=998c9b5a9e4f">
   </head>
   <body data-theme="fracture">
     <!--
@@ -334,7 +334,6 @@
             </label>
           </div>
           <div class="atlas-tools atlas-filters">
-            <label for="atlas-search"><span>Find a card</span><input id="atlas-search" type="search" placeholder="Search card names" autocomplete="off"></label>
             <label for="atlas-colour"><span>Colour</span><select id="atlas-colour">
               <option value="all">All colours</option><option value="W">White</option><option value="U">Blue</option><option value="B">Black</option><option value="R">Red</option><option value="G">Green</option><option value="M">Multicolour</option><option value="C">Colourless</option>
             </select></label>
@@ -357,8 +356,15 @@
             </select></label>
             <button id="atlas-clear-filters" class="text-button" type="button" hidden>Clear filters</button>
           </div>
+          <div class="atlas-lookup" id="atlas-lookup">
+            <nav id="color-navigation" class="color-navigation" aria-label="Jump to card colour"></nav>
+            <div class="atlas-search-row">
+              <label for="atlas-search">Find a card</label>
+              <div class="atlas-search-input"><input id="atlas-search" type="search" placeholder="Search card names" autocomplete="off" autocapitalize="none" spellcheck="false" enterkeyhint="search"><button id="atlas-clear-search" type="button" hidden>Clear</button></div>
+            </div>
+            <div id="atlas-search-scope" class="atlas-search-scope" hidden><span id="atlas-search-filters"></span><button id="atlas-search-all" type="button">Search all cards</button></div>
+          </div>
           <p id="atlas-results" class="atlas-results" role="status"></p>
-          <nav id="color-navigation" class="color-navigation" aria-label="Filter cards by colour"></nav>
           <div id="atlas-empty" class="atlas-empty" hidden>
             <strong>You are caught up.</strong>
             <p>No cards were added after that preview date.</p>
@@ -402,6 +408,6 @@
     <script src="prep.js?v=5d3db38ca11f"></script>
     <script src="memory.js?v=c06c6103e9f8"></script>
     <script src="archetype-study.js?v=6f7d8fa90081"></script>
-    <script src="app.js?v=5286b37b655b"></script>
+    <script src="app.js?v=7a0555661d37"></script>
   </body>
 </html>

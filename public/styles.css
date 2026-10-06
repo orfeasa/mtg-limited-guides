@@ -4321,7 +4321,7 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
 .atlas-card-meta > span:last-child { display: inline; }
 
 .atlas-filters label { flex-basis: 160px; }
-.atlas-filters label:first-child { flex-grow: 2; flex-basis: 240px; }
+
 .atlas-arrangement { align-items: end; margin-top: 16px; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
 .atlas-arrangement label { flex: 0 1 260px; }
 .atlas-arrangement .text-button { min-height: 44px; }
@@ -4470,3 +4470,26 @@ body[data-theme="fracture"] .prep-section h3, body[data-theme="fracture"] .prep-
 .card-preview.image-only .card-preview-copy { display: none; }
 .card-preview.image-only .card-preview-frame { padding: 60px 12px 12px; }
 .card-preview.image-only .card-preview-image { max-height: calc(100dvh - 100px); }
+
+/* One sticky lookup rail keeps draft-time answers beside the search field. */
+.atlas-lookup { position: sticky; top: var(--tab-height); z-index: 21; background: var(--surface); margin-top: 24px; padding-bottom: 12px; border-bottom: 1px solid var(--line); scroll-margin-top: var(--tab-height); }
+.atlas-lookup .color-navigation { position: static; margin: 0; padding: 12px 0; border: 0; box-shadow: none; background: transparent; }
+.atlas-search-row { padding-top: 12px; }
+.atlas-search-row > label { display: block; margin-bottom: 6px; font-size: .85rem; color: var(--ink); }
+.atlas-search-input { display: flex; gap: 8px; }
+.atlas-search-input input { min-width: 0; flex: 1; min-height: 44px; padding: 10px 12px; border: 1px solid var(--line); border-radius: var(--control-radius); background: var(--surface-light); color: var(--ink); font: inherit; font-size: 1rem; }
+.atlas-search-input input::placeholder { color: var(--muted); opacity: 1; }
+.atlas-search-input button, .atlas-search-scope button { min-height: 44px; padding: 8px 12px; border: 1px solid var(--line); border-radius: var(--control-radius); background: var(--surface-light); color: var(--ink); font: inherit; cursor: pointer; }
+.atlas-search-input button:hover, .atlas-search-scope button:hover, .atlas-search-input input:hover { border-color: var(--ink); }
+.atlas-search-scope { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 12px; margin-top: 8px; font-size: .85rem; color: var(--muted); }
+.atlas-searching { min-height: calc(100dvh - var(--tab-height) - 100px); padding-top: 0; }
+.atlas-searching > section { margin-top: 0; padding: 0; }
+.atlas-searching .atlas-grid { grid-template-columns: minmax(0, 1fr); }
+.atlas-searching .atlas-card { min-height: 88px; grid-template-columns: 48px minmax(0, 1fr); gap: 12px; }
+.atlas-searching .atlas-card > img { width: 48px; }
+.atlas-searching .atlas-card-type { display: none; }
+.atlas-searching .atlas-card-copy { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.atlas-searching .atlas-card-meta { flex-shrink: 0; margin: 0; }
+
+.card-atlas:not(.atlas-searching) > section { scroll-margin-top: calc(var(--tab-height) + 180px); }
+.atlas-searching .atlas-card-copy > strong { min-width: 0; overflow-wrap: anywhere; }

@@ -1373,6 +1373,7 @@
   }
 
   function renderAtlas() {
+    const searching = Boolean(atlasSearch.trim());
     const catchupAvailable = previewCatchupAvailable();
     if (!catchupAvailable || (atlasSince && !previewDates().includes(atlasSince))) atlasSince = "";
     const dateCards = catchupAvailable && atlasSince
@@ -1397,7 +1398,13 @@
     $("#atlas-rarity").value = atlasRarity;
     $("#atlas-search").value = atlasSearch;
     $("#atlas-size").value = atlasSize;
-    elements.cardAtlas.dataset.size = atlasSize;
+    elements.cardAtlas.dataset.size = searching ? "compact" : atlasSize;
+    elements.cardAtlas.classList.toggle("atlas-searching", searching);
+    $("#atlas-lookup").classList.toggle("is-searching", searching);
+    $("#atlas-clear-search").hidden = !atlasSearch;
+    const scope = [atlasColour !== "all" && $("#atlas-colour").selectedOptions[0].textContent, atlasTypeFilter !== "all" && atlasTypeFilter, atlasRarity !== "all" && $("#atlas-rarity").selectedOptions[0].textContent, atlasSince && `Added after ${shortDateLabel(atlasSince)}`].filter(Boolean);
+    $("#atlas-search-scope").hidden = !scope.length;
+    $("#atlas-search-filters").textContent = `Within: ${scope.join(" · ")}`;
     const visibleCards = dateCards.filter((card) =>
       card.name.toLocaleLowerCase().includes(atlasSearch.trim().toLocaleLowerCase())
       && (atlasColour === "all" || card.color === atlasColour)
@@ -1409,19 +1416,19 @@
     renderPreviewCatchup(dateCards);
     elements.atlasCopy.textContent = `${currentSet.browseCardCount} ${ratingIsAvailable() ? "ranked cards" : lifecycle().complete ? "cards" : "revealed cards"}.${currentSet.browseCardCount < currentSet.cardCount ? " Basic lands omitted." : ""} Select a card to enlarge it.${currentSet.observedRatings ? ` ${currentSet.observedRatings.ratedCards} published Premier Draft tiers; ${currentSet.browseCardCount - currentSet.observedRatings.ratedCards} unrated. Early results may move as more games arrive.` : !tiersAvailable() && lifecycle().released ? " Ratings are pending." : ""}`;
 
-    const definitions = atlasGrouping === "colour" ? colorGroups
+    const definitions = searching ? [{ id: "all" }] : atlasGrouping === "colour" ? colorGroups
       : atlasGrouping === "tier" ? atlasTierOrder.map((id) => ({ id }))
       : atlasGrouping === "type" ? ["Creatures", "Non-creatures", "Lands"].map((id) => ({ id, name: id }))
       : atlasGrouping === "rarity" ? [...atlasRarities, "other"].map((id) => ({ id, name: ({ common: "Common", uncommon: "Uncommon", rare: "Rare", mythic: "Mythic", other: "Other rarity" })[id] }))
       : [{ id: "all" }];
-    const groupKey = (card) => atlasGrouping === "colour" ? card.color : atlasGrouping === "tier" ? card.tier || "?" : atlasGrouping === "type" ? atlasType(card) : atlasGrouping === "rarity" ? atlasRarities.includes(card.rarity) ? card.rarity : "other" : "all";
-    const groups = definitions.map((group) => ({ ...group, cards: visibleCards.filter((card) => groupKey(card) === group.id).sort(atlasCompare) })).filter((group) => group.cards.length);
+    const groupKey = (card) => searching ? "all" : atlasGrouping === "colour" ? card.color : atlasGrouping === "tier" ? card.tier || "?" : atlasGrouping === "type" ? atlasType(card) : atlasGrouping === "rarity" ? atlasRarities.includes(card.rarity) ? card.rarity : "other" : "all";
+    const groups = definitions.map((group) => ({ ...group, cards: visibleCards.filter((card) => groupKey(card) === group.id).sort(searching ? (a, b) => Number(b.name.toLocaleLowerCase().startsWith(atlasSearch.trim().toLocaleLowerCase())) - Number(a.name.toLocaleLowerCase().startsWith(atlasSearch.trim().toLocaleLowerCase())) || atlasNameCompare(a, b) : atlasCompare) })).filter((group) => group.cards.length);
 
     elements.colorNavigation.setAttribute("aria-label", atlasGrouping === "tier" ? "Jump to card tier" : "Jump to card colour");
     elements.colorNavigation.replaceChildren(...( ["colour", "tier"].includes(atlasGrouping) ? groups : []).map((group) => {
       const button = document.createElement("button");
       button.type = "button";
-      const isTierGroup = atlasGrouping === "tier";
+      const isTierGroup = !searching && atlasGrouping === "tier";
       const sectionId = isTierGroup ? `tier-${group.id.replace("+", "plus").replace("-", "minus").replace("?", "unrated")}` : `color-${group.id}`;
       button.className = isTierGroup ? "color-jump tier-jump" : "color-jump";
       button.dataset[isTierGroup ? "tier" : "color"] = group.id;
@@ -1435,18 +1442,18 @@
       button.addEventListener("click", () => document.querySelector(`#${sectionId}`)?.scrollIntoView({ behavior: prefersReducedMotion ? "auto" : "smooth", block: "start" }));
       return button;
     }));
-    elements.colorNavigation.hidden = visibleCards.length === 0 || !["colour", "tier"].includes(atlasGrouping);
+    elements.colorNavigation.hidden = searching || visibleCards.length === 0 || !["colour", "tier"].includes(atlasGrouping);
     elements.atlasEmpty.hidden = visibleCards.length !== 0;
     elements.atlasEmpty.querySelector("strong").textContent = filtered ? "No matching cards." : "You are caught up.";
     elements.atlasEmpty.querySelector("p").textContent = filtered ? "Try another selection or clear the filters." : "No cards were added after that preview date.";
 
     elements.cardAtlas.replaceChildren(...groups.map((group) => {
-      const isTierGroup = atlasGrouping === "tier";
+      const isTierGroup = !searching && atlasGrouping === "tier";
       const groupCards = group.cards;
       const section = document.createElement("section");
       const sectionId = isTierGroup ? `tier-${group.id.replace("+", "plus").replace("-", "minus").replace("?", "unrated")}` : `color-${group.id}`;
       section.id = sectionId;
-      section.className = isTierGroup ? "tier-section" : atlasGrouping === "colour" ? "color-section" : "atlas-section";
+      section.className = searching ? "atlas-section" : isTierGroup ? "tier-section" : atlasGrouping === "colour" ? "color-section" : "atlas-section";
       section.dataset[isTierGroup ? "tier" : "color"] = group.id;
       const countLabel = `${groupCards.length} ${groupCards.length === 1 ? "card" : "cards"}`;
       const countMarkup = `<span class="atlas-group-count">${countLabel}</span>`;
@@ -1454,10 +1461,10 @@
         const family = tierFamilies.find((item) => item.tiers.includes(group.id))?.label || "No assigned tier";
         section.style.setProperty("--tier-color", tierColors[group.id] || tierColors["?"]);
         section.innerHTML = `<header class="tier-section-heading"><span class="tier tier-section-mark ${group.id === "?" ? "tier-pending" : ""}">${escapeHtml(group.id)}</span><div><h3>${escapeHtml(group.id === "?" ? "Unrated" : family)}</h3><p>${escapeHtml(group.id === "?" ? "No assigned tier" : `Tier ${group.id}`)}</p></div>${countMarkup}</header>`;
-      } else if (atlasGrouping === "colour") {
+      } else if (!searching && atlasGrouping === "colour") {
         section.innerHTML = `<header class="color-section-heading">${manaSymbol(group.id, "mana-symbol--section")}<div><h3>${group.name}</h3><p>${group.note}</p></div>${countMarkup}</header>`;
       }
-      if (["type", "rarity", "none"].includes(atlasGrouping)) {
+      if (!searching && ["type", "rarity", "none"].includes(atlasGrouping)) {
         section.innerHTML = `<header class="atlas-group-heading"><h3>${escapeHtml(group.name || "All cards")}</h3>${countMarkup}</header>`;
       }
       const grid = document.createElement("div");
@@ -1468,7 +1475,7 @@
         button.className = "atlas-card";
         button.dataset.cardId = card.id;
         button.dataset.color = card.color;
-        button.setAttribute("aria-label", `Enlarge ${card.name}`);
+        button.setAttribute("aria-label", `Enlarge ${card.name}${searching && tiersAvailable() ? cardIsRated(card) ? `, tier ${card.tier}` : ", unrated" : ""}`);
         const cost = card.manaCost ? `<span class="atlas-card-cost">${window.CARD_RULES.inline(card.manaCost)}</span> ` : "";
         const color = colorGroups.find((item) => item.id === card.color);
         const meta = isTierGroup
@@ -1658,9 +1665,32 @@
     updateUrl();
     elements.liveRegion.textContent = `Cards sorted by ${event.target.selectedOptions[0].textContent}.`;
   });
+  function alignAtlasLookup() {
+    requestAnimationFrame(() => {
+      const rail = $("#atlas-lookup");
+      const offset = parseFloat(getComputedStyle(rail).top) || 0;
+      window.scrollTo({ top: window.scrollY + rail.getBoundingClientRect().top - offset, behavior: "instant" });
+    });
+  }
   $("#atlas-search").addEventListener("input", (event) => {
+    const startedSearch = !atlasSearch.trim() && event.target.value.trim();
     atlasSearch = event.target.value;
     renderAtlas();
+    updateUrl();
+    if (startedSearch) alignAtlasLookup();
+  });
+  $("#atlas-clear-search").addEventListener("click", () => {
+    atlasSearch = "";
+    renderAtlas();
+    $("#atlas-search").focus({ preventScroll: true });
+    updateUrl();
+  });
+  $("#atlas-search-all").addEventListener("click", () => {
+    atlasColour = atlasTypeFilter = atlasRarity = "all";
+    atlasSince = "";
+    renderAtlas();
+    $("#atlas-search").focus({ preventScroll: true });
+    alignAtlasLookup();
     updateUrl();
   });
   elements.atlasGrouping.addEventListener("change", (event) => {
