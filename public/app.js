@@ -1658,6 +1658,15 @@
   });
   elements.reviewFirstDecision.addEventListener("click", () => goToDecision(0));
   const trainerActions = $(".trainer-actions");
+  const trainerActionsHome = trainerActions.parentElement;
+  const mobileTraining = window.matchMedia("(max-width: 700px)");
+  function placeTrainerActions() {
+    // WebKit clips fixed descendants of the card's overflow container.
+    // Keep the same controls, but outside every clipped surface on phones.
+    (mobileTraining.matches ? $("#training-view") : trainerActionsHome).append(trainerActions);
+  }
+  mobileTraining.addEventListener("change", placeTrainerActions);
+  placeTrainerActions();
   new ResizeObserver(() => {
     $("#training-view").style.setProperty("--trainer-actions-height", `${trainerActions.getBoundingClientRect().height}px`);
   }).observe(trainerActions);

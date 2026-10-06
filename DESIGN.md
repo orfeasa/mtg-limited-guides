@@ -620,3 +620,5 @@ Both themes use the existing image-and-detail dialog: one tier/rank label, a com
 ## Mobile Training practice loop · 6 October 2026
 
 Training keeps its answer tier and result visible, with supporting evidence inside a native Details & stats disclosure that starts closed for each card. At widths up to 700px, the existing action controls form a fixed, safe-area-aware bottom bar; after revealing, a compact result accompanies Next card. The page reserves the measured bar height so the final content stays reachable. Next returns focus and the viewport to the card below the sticky navigation. The card remains aligned to the top when details expand, and tap-to-enlarge retains its image-only behavior. Desktop actions remain in the document flow.
+
+The mobile action bar is mounted directly in the unclipped Training panel, outside the card and surface containers; desktop restores those same controls to their original location. Verify actual hit targets at the top, middle and bottom of the page in WebKit as well as Chromium: a viewport-aligned bounding box alone does not prove that a fixed control is painted or tappable.
