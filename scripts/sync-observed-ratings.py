@@ -3,6 +3,7 @@
 import datetime
 import html
 import json
+import math
 from pathlib import Path
 import re
 import sys
@@ -53,8 +54,8 @@ for chunk in re.split(r'<span[^>]*>Tier</span>', page)[1:]:
             rank += 1
         rows[card['id']] = dict(name=card['name'], sourceTitleId=title_id, tier=None if tier == '?' else tier,
             rank=None if tier == '?' else rank, stats=dict(inHandGames=games, inHandWins=wins,
-            inHandWinRate=round(wins/games*100, 1) if games else None,
-            openingHandGames=opening, openingHandWinRate=round(opening_wins/opening*100, 1) if opening else None))
+            inHandWinRate=math.floor(wins/games*1000 + 0.5)/10 if games else None,
+            openingHandGames=opening, openingHandWinRate=math.floor(opening_wins/opening*1000 + 0.5)/10 if opening else None))
 assert set(rows) == {c['id'] for c in by_front.values()}, 'Incomplete source coverage; retain previous snapshot'
 result = dict(source='Untapped.gg', url=url, format='Premier Draft', rankRange='Bronze–Platinum',
     metric='In Hand WR', capturedAt=datetime.datetime.now(datetime.timezone.utc).isoformat(),
