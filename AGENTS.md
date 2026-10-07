@@ -19,3 +19,11 @@ Skip commit, push, or deployment only when the user explicitly asks to keep the 
 ## Card details
 
 Read `docs/card-details.md` when adding a set or changing card popups. Every set must use the shared detail view with available source-backed statistics, concise authored guidance where available, and accessible desktop/mobile behavior.
+
+## Release retention
+
+Keep only the latest verified active release on birthday. Keep the previous release
+until public HTTPS content matches the deployed files; never prune on failed
+verification. `bin/deploy` performs these checks and cleanup under one deployment
+lock. After cleanup, verify the live site independently. Recovery to older code
+requires redeploying that Git revision.

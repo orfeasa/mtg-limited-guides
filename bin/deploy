@@ -57,9 +57,29 @@ git archive --format=tar HEAD public |
     test -f \"\$incoming/data.js\"
     test -f \"\$incoming/sw.js\"
     mv \"\$incoming\" \"\$release_dir\"
+    previous=\$(readlink -f \"\$app_root/current\" || true)
     ln -sfn \"\$release_dir\" \"\$app_root/current.next\"
     mv -Tf \"\$app_root/current.next\" \"\$app_root/current\"
     test \"\$(readlink -f \"\$app_root/current\")\" = \"\$release_dir\"
+    verification=\$(mktemp -d)
+    verified=true
+    for asset in index.html app.js styles.css data.js sw.js; do
+      if ! curl --fail --silent --show-error --connect-timeout 10 --max-time 60 \\
+        \"https://limited.orfeasa.com/\$asset?release=\$release\" -o \"\$verification/\$asset\" || \\
+        ! cmp -s \"\$release_dir/\$asset\" \"\$verification/\$asset\"; then
+        verified=false
+        break
+      fi
+    done
+    rm -rf -- \"\$verification\"
+    if [ \"\$verified\" != true ]; then
+      if [ -n \"\$previous\" ] && [ -d \"\$previous\" ]; then
+        ln -sfn \"\$previous\" \"\$app_root/current.next\"
+        mv -Tf \"\$app_root/current.next\" \"\$app_root/current\"
+      fi
+      echo 'Live verification failed; releases preserved, previous target restored if available.' >&2
+      exit 1
+    fi
     find \"\$releases\" -regextype posix-extended -mindepth 1 -maxdepth 1 \\
       -type d -regex '.*/[0-9a-f]{12}' ! -name \"\$release\" -exec rm -rf -- {} +
   "
