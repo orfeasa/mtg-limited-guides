@@ -39,7 +39,7 @@ Deploy a clean, committed checkout with:
 ./bin/deploy
 ```
 
-The command rebuilds and verifies the generated data, refuses stale or uncommitted output, creates an immutable release under `/home/orfeas/apps/mtg-limited-guides/releases/<commit>`, and atomically switches the `current` symlink. The checked-in nginx configuration is in `deploy/nginx/`.
+The command rebuilds and verifies the generated data, refuses stale or uncommitted output, creates an immutable release under `/home/orfeas/apps/mtg-limited-guides/releases/<commit>`, and atomically switches the `current` symlink. After switching successfully, it deletes all previous releases; only the active release is retained. Deployments are serialized with a server-side lock so cleanup cannot race another deployment. The checked-in nginx configuration is in `deploy/nginx/`.
 
 The former `hobbit.orfeasa.com` hostname is retired rather than redirected. Browser-local progress is intentionally not transferred between domains.
 

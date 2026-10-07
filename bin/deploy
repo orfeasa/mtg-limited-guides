@@ -43,6 +43,8 @@ git archive --format=tar HEAD public |
     releases=\"\$app_root/releases\"
     release_dir=\"\$releases/\$release\"
     mkdir -p \"\$releases\"
+    exec 9>\"\$app_root/deploy.lock\"
+    flock -x 9
     test ! -e \"\$release_dir\" || {
       echo \"Release \$release is already present.\" >&2
       exit 1
@@ -57,6 +59,9 @@ git archive --format=tar HEAD public |
     mv \"\$incoming\" \"\$release_dir\"
     ln -sfn \"\$release_dir\" \"\$app_root/current.next\"
     mv -Tf \"\$app_root/current.next\" \"\$app_root/current\"
+    test \"\$(readlink -f \"\$app_root/current\")\" = \"\$release_dir\"
+    find \"\$releases\" -regextype posix-extended -mindepth 1 -maxdepth 1 \\
+      -type d -regex '.*/[0-9a-f]{12}' ! -name \"\$release\" -exec rm -rf -- {} +
   "
 
 echo "Deployed $release to https://limited.orfeasa.com"
