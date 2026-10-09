@@ -4364,9 +4364,9 @@ window.LIMITED_PREP_DATA = {
         "format": "Premier Draft",
         "rankRange": "Bronze–Platinum",
         "metric": "In Hand WR",
-        "capturedAt": "2026-10-06T08:03:13.155821+00:00",
-        "sourceUpdatedAt": 1791268705000,
-        "matches": 438113,
+        "capturedAt": "2026-10-09T08:24:25.913324+00:00",
+        "sourceUpdatedAt": 1791528454000,
+        "matches": 541610,
         "ratedCards": 271
       },
       "draftDecisions": null,
@@ -4393,18 +4393,18 @@ window.LIMITED_PREP_DATA = {
             },
             "observed": {
               "status": "available",
-              "capturedAt": "2026-10-05T08:02:39.915Z",
-              "twoColourGames": 125000,
-              "supportedGames": 125000,
+              "capturedAt": "2026-10-09T08:24:26.332Z",
+              "twoColourGames": 159499,
+              "supportedGames": 159499,
               "supportedShare": 100,
               "topPair": "WU",
               "pairs": [
                 {
                   "id": "WU",
                   "name": "Azorius (WU)",
-                  "wins": 10404,
-                  "games": 17972,
-                  "winRate": 57.89,
+                  "wins": 13533,
+                  "games": 23472,
+                  "winRate": 57.66,
                   "supported": true,
                   "overallRank": 1,
                   "supportedRank": 1
@@ -4412,9 +4412,9 @@ window.LIMITED_PREP_DATA = {
                 {
                   "id": "UB",
                   "name": "Dimir (UB)",
-                  "wins": 11043,
-                  "games": 19411,
-                  "winRate": 56.89,
+                  "wins": 14648,
+                  "games": 25960,
+                  "winRate": 56.43,
                   "supported": true,
                   "overallRank": 2,
                   "supportedRank": 2
@@ -4422,9 +4422,9 @@ window.LIMITED_PREP_DATA = {
                 {
                   "id": "RG",
                   "name": "Gruul (RG)",
-                  "wins": 10299,
-                  "games": 18172,
-                  "winRate": 56.68,
+                  "wins": 12631,
+                  "games": 22416,
+                  "winRate": 56.35,
                   "supported": true,
                   "overallRank": 3,
                   "supportedRank": 3
@@ -4432,9 +4432,9 @@ window.LIMITED_PREP_DATA = {
                 {
                   "id": "UR",
                   "name": "Izzet (UR)",
-                  "wins": 7046,
-                  "games": 12519,
-                  "winRate": 56.28,
+                  "wins": 9247,
+                  "games": 16409,
+                  "winRate": 56.35,
                   "supported": true,
                   "overallRank": 4,
                   "supportedRank": 4
@@ -4442,9 +4442,9 @@ window.LIMITED_PREP_DATA = {
                 {
                   "id": "BG",
                   "name": "Golgari (BG)",
-                  "wins": 4398,
-                  "games": 7914,
-                  "winRate": 55.57,
+                  "wins": 5482,
+                  "games": 9975,
+                  "winRate": 54.96,
                   "supported": true,
                   "overallRank": 5,
                   "supportedRank": 5
@@ -4452,9 +4452,9 @@ window.LIMITED_PREP_DATA = {
                 {
                   "id": "GW",
                   "name": "Selesnya (GW)",
-                  "wins": 8430,
-                  "games": 15387,
-                  "winRate": 54.79,
+                  "wins": 10657,
+                  "games": 19437,
+                  "winRate": 54.83,
                   "supported": true,
                   "overallRank": 6,
                   "supportedRank": 6
@@ -4462,9 +4462,9 @@ window.LIMITED_PREP_DATA = {
                 {
                   "id": "RW",
                   "name": "Boros (RW)",
-                  "wins": 4584,
-                  "games": 8450,
-                  "winRate": 54.25,
+                  "wins": 5728,
+                  "games": 10548,
+                  "winRate": 54.3,
                   "supported": true,
                   "overallRank": 7,
                   "supportedRank": 7
@@ -4472,9 +4472,9 @@ window.LIMITED_PREP_DATA = {
                 {
                   "id": "BR",
                   "name": "Rakdos (BR)",
-                  "wins": 7578,
-                  "games": 14011,
-                  "winRate": 54.09,
+                  "wins": 9401,
+                  "games": 17408,
+                  "winRate": 54,
                   "supported": true,
                   "overallRank": 8,
                   "supportedRank": 8
@@ -4482,9 +4482,9 @@ window.LIMITED_PREP_DATA = {
                 {
                   "id": "WB",
                   "name": "Orzhov (WB)",
-                  "wins": 3689,
-                  "games": 6952,
-                  "winRate": 53.06,
+                  "wins": 4506,
+                  "games": 8463,
+                  "winRate": 53.24,
                   "supported": true,
                   "overallRank": 9,
                   "supportedRank": 9
@@ -4492,9 +4492,9 @@ window.LIMITED_PREP_DATA = {
                 {
                   "id": "GU",
                   "name": "Simic (GU)",
-                  "wins": 2216,
-                  "games": 4212,
-                  "winRate": 52.61,
+                  "wins": 2827,
+                  "games": 5411,
+                  "winRate": 52.25,
                   "supported": true,
                   "overallRank": 10,
                   "supportedRank": 10
@@ -4515,38 +4515,38 @@ window.LIMITED_PREP_DATA = {
             },
             "observed": {
               "status": "available",
-              "capturedAt": "2026-10-05T08:02:39.915Z",
-              "twoColourGames": 15199,
-              "supportedGames": 15199,
+              "capturedAt": "2026-10-09T08:24:26.332Z",
+              "twoColourGames": 16565,
+              "supportedGames": 16565,
               "supportedShare": 100,
               "topPair": "UB",
               "pairs": [
                 {
                   "id": "UB",
                   "name": "Dimir (UB)",
-                  "wins": 1346,
-                  "games": 2285,
-                  "winRate": 58.91,
+                  "wins": 1495,
+                  "games": 2542,
+                  "winRate": 58.81,
                   "supported": true,
                   "overallRank": 1,
                   "supportedRank": 1
                 },
                 {
-                  "id": "BG",
-                  "name": "Golgari (BG)",
-                  "wins": 581,
-                  "games": 1002,
-                  "winRate": 57.98,
+                  "id": "WU",
+                  "name": "Azorius (WU)",
+                  "wins": 1216,
+                  "games": 2089,
+                  "winRate": 58.21,
                   "supported": true,
                   "overallRank": 2,
                   "supportedRank": 2
                 },
                 {
-                  "id": "WU",
-                  "name": "Azorius (WU)",
-                  "wins": 1078,
-                  "games": 1870,
-                  "winRate": 57.65,
+                  "id": "BG",
+                  "name": "Golgari (BG)",
+                  "wins": 633,
+                  "games": 1092,
+                  "winRate": 57.97,
                   "supported": true,
                   "overallRank": 3,
                   "supportedRank": 3
@@ -4554,9 +4554,9 @@ window.LIMITED_PREP_DATA = {
                 {
                   "id": "UR",
                   "name": "Izzet (UR)",
-                  "wins": 795,
-                  "games": 1394,
-                  "winRate": 57.03,
+                  "wins": 902,
+                  "games": 1570,
+                  "winRate": 57.45,
                   "supported": true,
                   "overallRank": 4,
                   "supportedRank": 4
@@ -4564,19 +4564,19 @@ window.LIMITED_PREP_DATA = {
                 {
                   "id": "RW",
                   "name": "Boros (RW)",
-                  "wins": 601,
-                  "games": 1066,
-                  "winRate": 56.38,
+                  "wins": 634,
+                  "games": 1126,
+                  "winRate": 56.31,
                   "supported": true,
                   "overallRank": 5,
                   "supportedRank": 5
                 },
                 {
-                  "id": "GW",
-                  "name": "Selesnya (GW)",
-                  "wins": 1027,
-                  "games": 1829,
-                  "winRate": 56.15,
+                  "id": "WB",
+                  "name": "Orzhov (WB)",
+                  "wins": 597,
+                  "games": 1063,
+                  "winRate": 56.16,
                   "supported": true,
                   "overallRank": 6,
                   "supportedRank": 6
@@ -4584,19 +4584,19 @@ window.LIMITED_PREP_DATA = {
                 {
                   "id": "BR",
                   "name": "Rakdos (BR)",
-                  "wins": 1141,
-                  "games": 2048,
-                  "winRate": 55.71,
+                  "wins": 1219,
+                  "games": 2173,
+                  "winRate": 56.1,
                   "supported": true,
                   "overallRank": 7,
                   "supportedRank": 7
                 },
                 {
-                  "id": "WB",
-                  "name": "Orzhov (WB)",
-                  "wins": 554,
-                  "games": 997,
-                  "winRate": 55.57,
+                  "id": "GW",
+                  "name": "Selesnya (GW)",
+                  "wins": 1103,
+                  "games": 1971,
+                  "winRate": 55.96,
                   "supported": true,
                   "overallRank": 8,
                   "supportedRank": 8
@@ -4604,9 +4604,9 @@ window.LIMITED_PREP_DATA = {
                 {
                   "id": "RG",
                   "name": "Gruul (RG)",
-                  "wins": 1235,
-                  "games": 2246,
-                  "winRate": 54.99,
+                  "wins": 1329,
+                  "games": 2425,
+                  "winRate": 54.8,
                   "supported": true,
                   "overallRank": 9,
                   "supportedRank": 9
@@ -4614,9 +4614,9 @@ window.LIMITED_PREP_DATA = {
                 {
                   "id": "GU",
                   "name": "Simic (GU)",
-                  "wins": 242,
-                  "games": 462,
-                  "winRate": 52.38,
+                  "wins": 275,
+                  "games": 514,
+                  "winRate": 53.5,
                   "supported": true,
                   "overallRank": 10,
                   "supportedRank": 10
@@ -4655,7 +4655,7 @@ window.LIMITED_PREP_DATA = {
                 "name": "Prudent Fateseer // Peer Review",
                 "image": "assets/cards/fra/6c1c790b-9e0e-4964-9ea3-554843907f06.jpg",
                 "trainingImage": "assets/cards-large/fra/6c1c790b-9e0e-4964-9ea3-554843907f06.jpg",
-                "rank": 122,
+                "rank": 117,
                 "tier": "C"
               }
             ],
@@ -4685,7 +4685,7 @@ window.LIMITED_PREP_DATA = {
                 "name": "Void Extrapolator // Omit Variables",
                 "image": "assets/cards/fra/0eae2efb-bf25-48ee-9c07-9098008110ad.jpg",
                 "trainingImage": "assets/cards-large/fra/0eae2efb-bf25-48ee-9c07-9098008110ad.jpg",
-                "rank": 88,
+                "rank": 92,
                 "tier": "C+"
               },
               {
@@ -4693,7 +4693,7 @@ window.LIMITED_PREP_DATA = {
                 "name": "Recursive Recruitment",
                 "image": "assets/cards/fra/68fddb6a-86d4-4ebb-907d-fdcaadebc4b3.jpg",
                 "trainingImage": "assets/cards-large/fra/68fddb6a-86d4-4ebb-907d-fdcaadebc4b3.jpg",
-                "rank": 19,
+                "rank": 20,
                 "tier": "A-"
               }
             ],
@@ -4723,7 +4723,7 @@ window.LIMITED_PREP_DATA = {
                 "name": "Stingerquill Voxmancer // Vicious Verse",
                 "image": "assets/cards/fra/84b1c268-3b8a-41b6-92e3-a2ce0cc3d738.jpg",
                 "trainingImage": "assets/cards-large/fra/84b1c268-3b8a-41b6-92e3-a2ce0cc3d738.jpg",
-                "rank": 160,
+                "rank": 148,
                 "tier": "C-"
               },
               {
@@ -4731,7 +4731,7 @@ window.LIMITED_PREP_DATA = {
                 "name": "Grim Repriser",
                 "image": "assets/cards/fra/8295c48c-b4dd-4bc1-a206-04cf12b79bbd.jpg",
                 "trainingImage": "assets/cards-large/fra/8295c48c-b4dd-4bc1-a206-04cf12b79bbd.jpg",
-                "rank": 196,
+                "rank": 188,
                 "tier": "D+"
               }
             ],
@@ -4761,7 +4761,7 @@ window.LIMITED_PREP_DATA = {
                 "name": "Heartwood Crafter // Soul Tether",
                 "image": "assets/cards/fra/910a1f41-17fd-4ab0-9597-7151e79dc760.jpg",
                 "trainingImage": "assets/cards-large/fra/910a1f41-17fd-4ab0-9597-7151e79dc760.jpg",
-                "rank": 128,
+                "rank": 116,
                 "tier": "C"
               },
               {
@@ -4769,8 +4769,8 @@ window.LIMITED_PREP_DATA = {
                 "name": "Craftwork Crusher",
                 "image": "assets/cards/fra/03f9839c-aa07-4ee7-847b-091e47ab80c4.jpg",
                 "trainingImage": "assets/cards-large/fra/03f9839c-aa07-4ee7-847b-091e47ab80c4.jpg",
-                "rank": 11,
-                "tier": "A"
+                "rank": 10,
+                "tier": "A+"
               }
             ],
             "formatNotes": {
@@ -4799,7 +4799,7 @@ window.LIMITED_PREP_DATA = {
                 "name": "Bloombrute",
                 "image": "assets/cards/fra/6b804503-9c70-4b1f-bb13-a65fb6dd3ef8.jpg",
                 "trainingImage": "assets/cards-large/fra/6b804503-9c70-4b1f-bb13-a65fb6dd3ef8.jpg",
-                "rank": 73,
+                "rank": 75,
                 "tier": "C+"
               },
               {
@@ -4807,7 +4807,7 @@ window.LIMITED_PREP_DATA = {
                 "name": "Vigorbloom Vanguard // Seed Suture",
                 "image": "assets/cards/fra/acefc515-bf97-4dc0-b0f7-ae8ae5a61671.jpg",
                 "trainingImage": "assets/cards-large/fra/acefc515-bf97-4dc0-b0f7-ae8ae5a61671.jpg",
-                "rank": 79,
+                "rank": 78,
                 "tier": "C+"
               }
             ],
@@ -4837,16 +4837,16 @@ window.LIMITED_PREP_DATA = {
                 "name": "Edgar, Ancient Bloodlord",
                 "image": "assets/cards/fra/7c619fed-2394-4efc-8cdc-6df5f51c1f57.jpg",
                 "trainingImage": "assets/cards-large/fra/7c619fed-2394-4efc-8cdc-6df5f51c1f57.jpg",
-                "rank": 203,
-                "tier": "D+"
+                "rank": 209,
+                "tier": "D"
               },
               {
                 "cardId": "c7c0765d-38fd-4d7b-bfb4-49b10ff5939b",
                 "name": "Twisted Fates",
                 "image": "assets/cards/fra/c7c0765d-38fd-4d7b-bfb4-49b10ff5939b.jpg",
                 "trainingImage": "assets/cards-large/fra/c7c0765d-38fd-4d7b-bfb4-49b10ff5939b.jpg",
-                "rank": 64,
-                "tier": "B-"
+                "rank": 69,
+                "tier": "C+"
               }
             ],
             "formatNotes": {
@@ -4875,7 +4875,7 @@ window.LIMITED_PREP_DATA = {
                 "name": "Hapatra, the Desert Fang",
                 "image": "assets/cards/fra/cf7c1534-af41-4991-b3c3-f0a34ae330b5.jpg",
                 "trainingImage": "assets/cards-large/fra/cf7c1534-af41-4991-b3c3-f0a34ae330b5.jpg",
-                "rank": 25,
+                "rank": 26,
                 "tier": "B+"
               },
               {
@@ -4883,7 +4883,7 @@ window.LIMITED_PREP_DATA = {
                 "name": "Primal Witchstalker",
                 "image": "assets/cards/fra/04e64af7-cca1-499e-8951-f386e84c8b5b.jpg",
                 "trainingImage": "assets/cards-large/fra/04e64af7-cca1-499e-8951-f386e84c8b5b.jpg",
-                "rank": 57,
+                "rank": 53,
                 "tier": "B-"
               }
             ],
@@ -4913,7 +4913,7 @@ window.LIMITED_PREP_DATA = {
                 "name": "Kiora of Salt and Sand",
                 "image": "assets/cards/fra/8151f5f5-e9f6-4fbe-b543-f456ebf22aa5.jpg",
                 "trainingImage": "assets/cards-large/fra/8151f5f5-e9f6-4fbe-b543-f456ebf22aa5.jpg",
-                "rank": 168,
+                "rank": 165,
                 "tier": "C-"
               },
               {
@@ -4921,7 +4921,7 @@ window.LIMITED_PREP_DATA = {
                 "name": "Mind Meanderer",
                 "image": "assets/cards/fra/94c290ce-252c-42b3-bcb0-c1ef621df566.jpg",
                 "trainingImage": "assets/cards-large/fra/94c290ce-252c-42b3-bcb0-c1ef621df566.jpg",
-                "rank": 42,
+                "rank": 37,
                 "tier": "B"
               }
             ],
@@ -4951,7 +4951,7 @@ window.LIMITED_PREP_DATA = {
                 "name": "Saheeli, Jewel of Avishkar",
                 "image": "assets/cards/fra/28d84ef6-e190-46d4-882d-1cea5e111e2a.jpg",
                 "trainingImage": "assets/cards-large/fra/28d84ef6-e190-46d4-882d-1cea5e111e2a.jpg",
-                "rank": 100,
+                "rank": 97,
                 "tier": "C+"
               },
               {
@@ -4959,7 +4959,7 @@ window.LIMITED_PREP_DATA = {
                 "name": "Twinned Vision",
                 "image": "assets/cards/fra/55f85984-0137-4899-8993-bbc8c4794d33.jpg",
                 "trainingImage": "assets/cards-large/fra/55f85984-0137-4899-8993-bbc8c4794d33.jpg",
-                "rank": 45,
+                "rank": 44,
                 "tier": "B"
               }
             ],
@@ -4989,7 +4989,7 @@ window.LIMITED_PREP_DATA = {
                 "name": "Mabel, Valley Hero",
                 "image": "assets/cards/fra/47abea4b-9848-48aa-bc1b-f04f4799e920.jpg",
                 "trainingImage": "assets/cards-large/fra/47abea4b-9848-48aa-bc1b-f04f4799e920.jpg",
-                "rank": 240,
+                "rank": 239,
                 "tier": "D-"
               },
               {
@@ -4997,7 +4997,7 @@ window.LIMITED_PREP_DATA = {
                 "name": "Warrior's Blades",
                 "image": "assets/cards/fra/c63d5b0e-ee72-42ed-aa7e-484ba84507cd.jpg",
                 "trainingImage": "assets/cards-large/fra/c63d5b0e-ee72-42ed-aa7e-484ba84507cd.jpg",
-                "rank": 131,
+                "rank": 125,
                 "tier": "C"
               }
             ],
@@ -31740,15 +31740,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/c/3/c3ff8dd3-88a8-49dc-a59b-e2748680623c.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/c/3/c3ff8dd3-88a8-49dc-a59b-e2748680623c.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/1/emrakul-the-exigent-doom?utm_source=api",
-          "rank": 220,
+          "rank": 210,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 2335,
-            "inHandWins": 1181,
-            "inHandWinRate": 50.6,
-            "openingHandGames": 820,
-            "openingHandWinRate": 45.6
+            "inHandGames": 2955,
+            "inHandWins": 1502,
+            "inHandWinRate": 50.8,
+            "openingHandGames": 1017,
+            "openingHandWinRate": 45.9
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -31775,15 +31775,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/7/3/730d8c28-1e58-4b8e-89e9-445d154d2e83.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/7/3/730d8c28-1e58-4b8e-89e9-445d154d2e83.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/2/academic-ascent?utm_source=api",
-          "rank": 210,
+          "rank": 212,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 7221,
-            "inHandWins": 3679,
-            "inHandWinRate": 50.9,
-            "openingHandGames": 2723,
-            "openingHandWinRate": 48.3
+            "inHandGames": 8487,
+            "inHandWins": 4311,
+            "inHandWinRate": 50.8,
+            "openingHandGames": 3175,
+            "openingHandWinRate": 47.6
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-white"
@@ -31813,15 +31813,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/5/e/5e77fbf0-9d1f-4e7d-a02e-43065d11b0d9.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/5/e/5e77fbf0-9d1f-4e7d-a02e-43065d11b0d9.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/3/blossom-blessed-angel-seed-suture?utm_source=api",
-          "rank": 89,
+          "rank": 94,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 30734,
-            "inHandWins": 16766,
-            "inHandWinRate": 54.6,
-            "openingHandGames": 12231,
-            "openingHandWinRate": 52.7
+            "inHandGames": 38465,
+            "inHandWins": 20946,
+            "inHandWinRate": 54.5,
+            "openingHandGames": 15376,
+            "openingHandWinRate": 52.8
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-white"
@@ -31848,15 +31848,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/6/0/6047b14c-91d5-4f8e-af3f-057a541e2546.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/6/0/6047b14c-91d5-4f8e-af3f-057a541e2546.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/4/campus-crier?utm_source=api",
-          "rank": 119,
+          "rank": 126,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 42425,
-            "inHandWins": 22768,
-            "inHandWinRate": 53.7,
-            "openingHandGames": 19026,
-            "openingHandWinRate": 55.4
+            "inHandGames": 52686,
+            "inHandWins": 28181,
+            "inHandWinRate": 53.5,
+            "openingHandGames": 23561,
+            "openingHandWinRate": 55.1
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-white"
@@ -31884,15 +31884,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/4/8/483fcc58-cc6e-4452-a696-7b38e117c837.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/4/8/483fcc58-cc6e-4452-a696-7b38e117c837.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/5/enlightened-confidant?utm_source=api",
-          "rank": 68,
+          "rank": 67,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 4922,
-            "inHandWins": 2716,
+            "inHandGames": 6094,
+            "inHandWins": 3363,
             "inHandWinRate": 55.2,
-            "openingHandGames": 1907,
-            "openingHandWinRate": 58.7
+            "openingHandGames": 2352,
+            "openingHandWinRate": 58.5
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-white"
@@ -31917,15 +31917,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/f/0/f0c8400d-824f-4d79-84bc-7615a0deb831.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/f/0/f0c8400d-824f-4d79-84bc-7615a0deb831.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/6/fateshaper-aspirant?utm_source=api",
-          "rank": 211,
+          "rank": 208,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 12268,
-            "inHandWins": 6245,
+            "inHandGames": 15080,
+            "inHandWins": 7674,
             "inHandWinRate": 50.9,
-            "openingHandGames": 4361,
-            "openingHandWinRate": 47.1
+            "openingHandGames": 5351,
+            "openingHandWinRate": 47.4
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-white"
@@ -31954,11 +31954,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "F",
           "band": "filler",
           "stats": {
-            "inHandGames": 3351,
-            "inHandWins": 1528,
-            "inHandWinRate": 45.6,
-            "openingHandGames": 1233,
-            "openingHandWinRate": 41.9
+            "inHandGames": 4155,
+            "inHandWins": 1884,
+            "inHandWinRate": 45.3,
+            "openingHandGames": 1538,
+            "openingHandWinRate": 41.7
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-white"
@@ -31989,11 +31989,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 18448,
-            "inHandWins": 10159,
+            "inHandGames": 23297,
+            "inHandWins": 12833,
             "inHandWinRate": 55.1,
-            "openingHandGames": 6414,
-            "openingHandWinRate": 52
+            "openingHandGames": 8093,
+            "openingHandWinRate": 52.1
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-white"
@@ -32018,15 +32018,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/1/b/1b5d7d19-b32a-4786-ae9a-00da5e6658ad.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/1/b/1b5d7d19-b32a-4786-ae9a-00da5e6658ad.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/9/germinate-recruits?utm_source=api",
-          "rank": 268,
+          "rank": 269,
           "tier": "F",
           "band": "filler",
           "stats": {
-            "inHandGames": 829,
-            "inHandWins": 365,
-            "inHandWinRate": 44,
-            "openingHandGames": 313,
-            "openingHandWinRate": 43.8
+            "inHandGames": 1000,
+            "inHandWins": 439,
+            "inHandWinRate": 43.9,
+            "openingHandGames": 379,
+            "openingHandWinRate": 43.3
           },
           "reviewGrade": "1",
           "reviewSourceId": "zone-white"
@@ -32051,14 +32051,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/3/2/32a7a905-11bf-4b66-a28e-1066a0e372b8.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/3/2/32a7a905-11bf-4b66-a28e-1066a0e372b8.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/10/graft-surgeon?utm_source=api",
-          "rank": 218,
+          "rank": 216,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 12496,
-            "inHandWins": 6338,
-            "inHandWinRate": 50.7,
-            "openingHandGames": 5284,
+            "inHandGames": 14865,
+            "inHandWins": 7521,
+            "inHandWinRate": 50.6,
+            "openingHandGames": 6277,
             "openingHandWinRate": 51.4
           },
           "reviewGrade": "1.5",
@@ -32084,15 +32084,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/a/5/a53eb840-039d-4c45-b701-d58cb26b1a6c.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/a/5/a53eb840-039d-4c45-b701-d58cb26b1a6c.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/11/guiding-hydra?utm_source=api",
-          "rank": 23,
+          "rank": 24,
           "tier": "B+",
           "band": "strong",
           "stats": {
-            "inHandGames": 10828,
-            "inHandWins": 6273,
-            "inHandWinRate": 57.9,
-            "openingHandGames": 4074,
-            "openingHandWinRate": 55.4
+            "inHandGames": 13293,
+            "inHandWins": 7667,
+            "inHandWinRate": 57.7,
+            "openingHandGames": 4954,
+            "openingHandWinRate": 55.5
           },
           "reviewGrade": "4",
           "reviewSourceId": "zone-white"
@@ -32123,15 +32123,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/3/b/3b6ac80e-c726-4bd0-893a-e666041a04a6.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/3/b/3b6ac80e-c726-4bd0-893a-e666041a04a6.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/12/hexhaven-battalion?utm_source=api",
-          "rank": 55,
+          "rank": 59,
           "tier": "B-",
           "band": "strong",
           "stats": {
-            "inHandGames": 45431,
-            "inHandWins": 25321,
-            "inHandWinRate": 55.7,
-            "openingHandGames": 18610,
-            "openingHandWinRate": 53.8
+            "inHandGames": 56729,
+            "inHandWins": 31506,
+            "inHandWinRate": 55.5,
+            "openingHandGames": 23210,
+            "openingHandWinRate": 53.5
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-white"
@@ -32156,15 +32156,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/6/f/6f9f814b-8249-4e48-a05e-4c84060fe6fb.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/6/f/6f9f814b-8249-4e48-a05e-4c84060fe6fb.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/13/kindred-judgment?utm_source=api",
-          "rank": 14,
+          "rank": 15,
           "tier": "A",
           "band": "top",
           "stats": {
-            "inHandGames": 6526,
-            "inHandWins": 3924,
-            "inHandWinRate": 60.1,
-            "openingHandGames": 2205,
-            "openingHandWinRate": 55.3
+            "inHandGames": 8521,
+            "inHandWins": 5128,
+            "inHandWinRate": 60.2,
+            "openingHandGames": 2857,
+            "openingHandWinRate": 55
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-white"
@@ -32193,11 +32193,11 @@ window.LIMITED_PREP_DATA = {
           "tier": null,
           "band": "unrated",
           "stats": {
-            "inHandGames": 294,
-            "inHandWins": 114,
-            "inHandWinRate": 38.8,
-            "openingHandGames": 102,
-            "openingHandWinRate": 35.3
+            "inHandGames": 332,
+            "inHandWins": 130,
+            "inHandWinRate": 39.2,
+            "openingHandGames": 117,
+            "openingHandWinRate": 34.2
           },
           "reviewGrade": "1",
           "reviewSourceId": "zone-white"
@@ -32222,15 +32222,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/f/2f5345ae-4489-4d05-b2d5-c71285254f05.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/f/2f5345ae-4489-4d05-b2d5-c71285254f05.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/15/memory-trap?utm_source=api",
-          "rank": 107,
+          "rank": 108,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 50884,
-            "inHandWins": 27458,
-            "inHandWinRate": 54,
-            "openingHandGames": 20340,
-            "openingHandWinRate": 51.9
+            "inHandGames": 62921,
+            "inHandWins": 33939,
+            "inHandWinRate": 53.9,
+            "openingHandGames": 25109,
+            "openingHandWinRate": 51.8
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-white"
@@ -32261,11 +32261,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 17205,
-            "inHandWins": 8194,
-            "inHandWinRate": 47.6,
-            "openingHandGames": 6317,
-            "openingHandWinRate": 46.1
+            "inHandGames": 20536,
+            "inHandWins": 9760,
+            "inHandWinRate": 47.5,
+            "openingHandGames": 7534,
+            "openingHandWinRate": 46
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-white"
@@ -32290,15 +32290,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/1/f/1f95399a-9766-4f3d-aa6a-ece55e0530d9.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/1/f/1f95399a-9766-4f3d-aa6a-ece55e0530d9.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/17/prophesied-end?utm_source=api",
-          "rank": 125,
+          "rank": 128,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 27765,
-            "inHandWins": 14871,
-            "inHandWinRate": 53.6,
-            "openingHandGames": 10839,
-            "openingHandWinRate": 51.1
+            "inHandGames": 34444,
+            "inHandWins": 18411,
+            "inHandWinRate": 53.5,
+            "openingHandGames": 13395,
+            "openingHandWinRate": 50.8
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-white"
@@ -32325,15 +32325,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/c/2c588954-c6eb-4aae-a2fa-0651ccf2d90a.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/c/2c588954-c6eb-4aae-a2fa-0651ccf2d90a.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/18/refute-destiny?utm_source=api",
-          "rank": 221,
+          "rank": 215,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 1976,
-            "inHandWins": 999,
+            "inHandGames": 2337,
+            "inHandWins": 1183,
             "inHandWinRate": 50.6,
-            "openingHandGames": 720,
-            "openingHandWinRate": 47.2
+            "openingHandGames": 857,
+            "openingHandWinRate": 47.7
           },
           "reviewGrade": "0.5",
           "reviewSourceId": "zone-white"
@@ -32360,15 +32360,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/3/5/35000e93-85d3-44f8-976a-5918ee4c71e0.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/3/5/35000e93-85d3-44f8-976a-5918ee4c71e0.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/19/repurposed-enforcer?utm_source=api",
-          "rank": 41,
+          "rank": 42,
           "tier": "B",
           "band": "strong",
           "stats": {
-            "inHandGames": 10756,
-            "inHandWins": 6104,
+            "inHandGames": 13308,
+            "inHandWins": 7543,
             "inHandWinRate": 56.7,
-            "openingHandGames": 4166,
-            "openingHandWinRate": 60.2
+            "openingHandGames": 5162,
+            "openingHandWinRate": 59.7
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-white"
@@ -32393,15 +32393,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/9/e/9e72f397-2384-40f1-882b-f627664d97df.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/9/e/9e72f397-2384-40f1-882b-f627664d97df.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/20/return-to-the-light-realms?utm_source=api",
-          "rank": 242,
+          "rank": 241,
           "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 631,
-            "inHandWins": 311,
-            "inHandWinRate": 49.3,
-            "openingHandGames": 216,
-            "openingHandWinRate": 48.1
+            "inHandGames": 815,
+            "inHandWins": 403,
+            "inHandWinRate": 49.4,
+            "openingHandGames": 270,
+            "openingHandWinRate": 47.4
           },
           "reviewGrade": "1",
           "reviewSourceId": "zone-white"
@@ -32428,15 +32428,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/e/2/e29095de-59ec-4562-ba8e-73f952e457ae.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/e/2/e29095de-59ec-4562-ba8e-73f952e457ae.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/21/shatterwing-pegasus?utm_source=api",
-          "rank": 162,
+          "rank": 166,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 18392,
-            "inHandWins": 9635,
-            "inHandWinRate": 52.4,
-            "openingHandGames": 7323,
-            "openingHandWinRate": 50.8
+            "inHandGames": 22835,
+            "inHandWins": 11948,
+            "inHandWinRate": 52.3,
+            "openingHandGames": 9079,
+            "openingHandWinRate": 50.5
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-white"
@@ -32461,15 +32461,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/d/3/d3acf176-ef02-4729-88c4-0f0dfbfdada4.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/d/3/d3acf176-ef02-4729-88c4-0f0dfbfdada4.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/22/surgical-precision?utm_source=api",
-          "rank": 69,
+          "rank": 72,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 46660,
-            "inHandWins": 25737,
-            "inHandWinRate": 55.2,
-            "openingHandGames": 18533,
-            "openingHandWinRate": 53.2
+            "inHandGames": 58031,
+            "inHandWins": 31957,
+            "inHandWinRate": 55.1,
+            "openingHandGames": 23061,
+            "openingHandWinRate": 53
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-white"
@@ -32496,14 +32496,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/6/3/63f82985-c9c2-4d0a-ac4f-560166bebd9f.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/6/3/63f82985-c9c2-4d0a-ac4f-560166bebd9f.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/23/unflinching-hortimancer?utm_source=api",
-          "rank": 166,
+          "rank": 163,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 33893,
-            "inHandWins": 17733,
-            "inHandWinRate": 52.3,
-            "openingHandGames": 15369,
+            "inHandGames": 41775,
+            "inHandWins": 21871,
+            "inHandWinRate": 52.4,
+            "openingHandGames": 18940,
             "openingHandWinRate": 53.8
           },
           "reviewGrade": "2",
@@ -32531,14 +32531,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/5/25000a17-b701-4d69-b2ef-2c74029199d3.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/5/25000a17-b701-4d69-b2ef-2c74029199d3.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/24/your-fate-ends-here?utm_source=api",
-          "rank": 54,
+          "rank": 56,
           "tier": "B-",
           "band": "strong",
           "stats": {
-            "inHandGames": 25805,
-            "inHandWins": 14396,
-            "inHandWinRate": 55.8,
-            "openingHandGames": 9962,
+            "inHandGames": 31872,
+            "inHandWins": 17728,
+            "inHandWinRate": 55.6,
+            "openingHandGames": 12214,
             "openingHandWinRate": 53.3
           },
           "reviewGrade": "3.5",
@@ -32567,15 +32567,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/1/4/145b928d-a7ff-4fe5-ae4d-bbae7b1d955b.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/1/4/145b928d-a7ff-4fe5-ae4d-bbae7b1d955b.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/25/countersculpt?utm_source=api",
-          "rank": 26,
+          "rank": 23,
           "tier": "B+",
           "band": "strong",
           "stats": {
-            "inHandGames": 26758,
-            "inHandWins": 15424,
-            "inHandWinRate": 57.6,
-            "openingHandGames": 9475,
-            "openingHandWinRate": 55.8
+            "inHandGames": 33541,
+            "inHandWins": 19358,
+            "inHandWinRate": 57.7,
+            "openingHandGames": 11794,
+            "openingHandWinRate": 55.7
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-blue"
@@ -32604,11 +32604,11 @@ window.LIMITED_PREP_DATA = {
           "tier": null,
           "band": "unrated",
           "stats": {
-            "inHandGames": 295,
-            "inHandWins": 131,
-            "inHandWinRate": 44.4,
-            "openingHandGames": 108,
-            "openingHandWinRate": 46.3
+            "inHandGames": 341,
+            "inHandWins": 155,
+            "inHandWinRate": 45.5,
+            "openingHandGames": 131,
+            "openingHandWinRate": 46.6
           },
           "reviewGrade": "0.5",
           "reviewSourceId": "zone-blue"
@@ -32635,15 +32635,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/9/b/9ba1f7ce-3404-4932-9795-22967707f762.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/9/b/9ba1f7ce-3404-4932-9795-22967707f762.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/27/cryotheory-adept?utm_source=api",
-          "rank": 173,
+          "rank": 177,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 19286,
-            "inHandWins": 10021,
-            "inHandWinRate": 52,
-            "openingHandGames": 7832,
-            "openingHandWinRate": 51.9
+            "inHandGames": 23476,
+            "inHandWins": 12165,
+            "inHandWinRate": 51.8,
+            "openingHandGames": 9542,
+            "openingHandWinRate": 51.7
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-blue"
@@ -32671,14 +32671,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/0/8/0853bb80-8664-432a-8457-600139fd96d5.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/0/8/0853bb80-8664-432a-8457-600139fd96d5.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/28/diviner-of-victory-unwind-history?utm_source=api",
-          "rank": 27,
+          "rank": 29,
           "tier": "B",
           "band": "strong",
           "stats": {
-            "inHandGames": 11299,
-            "inHandWins": 6497,
-            "inHandWinRate": 57.5,
-            "openingHandGames": 3995,
+            "inHandGames": 14030,
+            "inHandWins": 8046,
+            "inHandWinRate": 57.3,
+            "openingHandGames": 4990,
             "openingHandWinRate": 57.7
           },
           "reviewGrade": "2.5",
@@ -32706,15 +32706,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/9/6/960c7335-331d-488b-be68-2ad1c1c695dc.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/9/6/960c7335-331d-488b-be68-2ad1c1c695dc.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/29/divining-duelist?utm_source=api",
-          "rank": 141,
+          "rank": 139,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 13231,
-            "inHandWins": 7025,
+            "inHandGames": 16544,
+            "inHandWins": 8786,
             "inHandWinRate": 53.1,
-            "openingHandGames": 4871,
-            "openingHandWinRate": 51.9
+            "openingHandGames": 6115,
+            "openingHandWinRate": 51.8
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-blue"
@@ -32743,11 +32743,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "B-",
           "band": "strong",
           "stats": {
-            "inHandGames": 46287,
-            "inHandWins": 25665,
+            "inHandGames": 58764,
+            "inHandWins": 32565,
             "inHandWinRate": 55.4,
-            "openingHandGames": 17659,
-            "openingHandWinRate": 54.5
+            "openingHandGames": 22397,
+            "openingHandWinRate": 54.6
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-blue"
@@ -32779,11 +32779,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 56643,
-            "inHandWins": 30847,
-            "inHandWinRate": 54.5,
-            "openingHandGames": 21323,
-            "openingHandWinRate": 51.1
+            "inHandGames": 70387,
+            "inHandWins": 38322,
+            "inHandWinRate": 54.4,
+            "openingHandGames": 26398,
+            "openingHandWinRate": 50.9
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-blue"
@@ -32810,15 +32810,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/8/282588b9-3656-453b-aa25-2419e078ddc1.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/8/282588b9-3656-453b-aa25-2419e078ddc1.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/32/jaces-machinations?utm_source=api",
-          "rank": 52,
+          "rank": 54,
           "tier": "B-",
           "band": "strong",
           "stats": {
-            "inHandGames": 11527,
-            "inHandWins": 6444,
-            "inHandWinRate": 55.9,
-            "openingHandGames": 3945,
-            "openingHandWinRate": 54.7
+            "inHandGames": 14261,
+            "inHandWins": 7955,
+            "inHandWinRate": 55.8,
+            "openingHandGames": 4881,
+            "openingHandWinRate": 54.5
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-blue"
@@ -32845,15 +32845,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/f/5/f5324741-353a-4a70-adb2-b631b00806dd.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/f/5/f5324741-353a-4a70-adb2-b631b00806dd.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/33/mindseeker-oculus?utm_source=api",
-          "rank": 31,
+          "rank": 32,
           "tier": "B",
           "band": "strong",
           "stats": {
-            "inHandGames": 61102,
-            "inHandWins": 34968,
+            "inHandGames": 75674,
+            "inHandWins": 43268,
             "inHandWinRate": 57.2,
-            "openingHandGames": 24751,
-            "openingHandWinRate": 57
+            "openingHandGames": 30467,
+            "openingHandWinRate": 56.9
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-blue"
@@ -32878,15 +32878,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/d/0/d0ecae06-bc5a-4886-84df-c2900816f226.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/d/0/d0ecae06-bc5a-4886-84df-c2900816f226.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/34/perfected-theory?utm_source=api",
-          "rank": 208,
+          "rank": 224,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 5148,
-            "inHandWins": 2624,
-            "inHandWinRate": 51,
-            "openingHandGames": 1780,
-            "openingHandWinRate": 47.6
+            "inHandGames": 6120,
+            "inHandWins": 3078,
+            "inHandWinRate": 50.3,
+            "openingHandGames": 2116,
+            "openingHandWinRate": 46.3
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-blue"
@@ -32913,14 +32913,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/c/4/c4effc17-0d0e-423a-b5f2-597ea6c71f67.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/c/4/c4effc17-0d0e-423a-b5f2-597ea6c71f67.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/35/plan-for-all-outcomes?utm_source=api",
-          "rank": 48,
-          "tier": "B-",
+          "rank": 47,
+          "tier": "B",
           "band": "strong",
           "stats": {
-            "inHandGames": 30888,
-            "inHandWins": 17384,
+            "inHandGames": 38196,
+            "inHandWins": 21487,
             "inHandWinRate": 56.3,
-            "openingHandGames": 10829,
+            "openingHandGames": 13261,
             "openingHandWinRate": 54.4
           },
           "reviewGrade": "3",
@@ -32950,11 +32950,11 @@ window.LIMITED_PREP_DATA = {
           "tier": null,
           "band": "unrated",
           "stats": {
-            "inHandGames": 360,
-            "inHandWins": 151,
-            "inHandWinRate": 41.9,
-            "openingHandGames": 118,
-            "openingHandWinRate": 33.9
+            "inHandGames": 391,
+            "inHandWins": 169,
+            "inHandWinRate": 43.2,
+            "openingHandGames": 134,
+            "openingHandWinRate": 36.6
           },
           "reviewGrade": "0.5",
           "reviewSourceId": "zone-blue"
@@ -32981,15 +32981,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/a/0/a08c7ec2-4c6a-4db2-85a7-41afe8731523.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/a/0/a08c7ec2-4c6a-4db2-85a7-41afe8731523.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/37/proteges-awakening?utm_source=api",
-          "rank": 38,
+          "rank": 33,
           "tier": "B",
           "band": "strong",
           "stats": {
-            "inHandGames": 36042,
-            "inHandWins": 20533,
-            "inHandWinRate": 57,
-            "openingHandGames": 12894,
-            "openingHandWinRate": 54.5
+            "inHandGames": 46928,
+            "inHandWins": 26818,
+            "inHandWinRate": 57.1,
+            "openingHandGames": 16806,
+            "openingHandWinRate": 54.9
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-blue"
@@ -33014,15 +33014,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/5/1/51d86875-420d-4e82-b69c-4feeb99c9428.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/5/1/51d86875-420d-4e82-b69c-4feeb99c9428.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/38/seasoned-cryomancer?utm_source=api",
-          "rank": 34,
+          "rank": 31,
           "tier": "B",
           "band": "strong",
           "stats": {
-            "inHandGames": 5474,
-            "inHandWins": 3127,
-            "inHandWinRate": 57.1,
-            "openingHandGames": 1885,
-            "openingHandWinRate": 53.8
+            "inHandGames": 6815,
+            "inHandWins": 3899,
+            "inHandWinRate": 57.2,
+            "openingHandGames": 2352,
+            "openingHandWinRate": 53.5
           },
           "reviewGrade": "4",
           "reviewSourceId": "zone-blue"
@@ -33051,14 +33051,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/7/e/7e5a640b-fd88-4b5a-9dfc-1d8f5a5cef41.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/7/e/7e5a640b-fd88-4b5a-9dfc-1d8f5a5cef41.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/39/semester-foreseer-peer-review?utm_source=api",
-          "rank": 146,
+          "rank": 147,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 35665,
-            "inHandWins": 18880,
+            "inHandGames": 44118,
+            "inHandWins": 23328,
             "inHandWinRate": 52.9,
-            "openingHandGames": 13035,
+            "openingHandGames": 16025,
             "openingHandWinRate": 50.1
           },
           "reviewGrade": "2",
@@ -33091,11 +33091,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "S",
           "band": "top",
           "stats": {
-            "inHandGames": 12233,
-            "inHandWins": 7712,
-            "inHandWinRate": 63,
-            "openingHandGames": 4160,
-            "openingHandWinRate": 62.4
+            "inHandGames": 15189,
+            "inHandWins": 9581,
+            "inHandWinRate": 63.1,
+            "openingHandGames": 5113,
+            "openingHandWinRate": 63
           },
           "reviewGrade": "4",
           "reviewSourceId": "zone-blue"
@@ -33120,15 +33120,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/f/4/f49be090-c745-40e5-bc1c-605b8d98acdf.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/f/4/f49be090-c745-40e5-bc1c-605b8d98acdf.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/41/sphinxs-approach?utm_source=api",
-          "rank": 72,
-          "tier": "C+",
-          "band": "playable",
+          "rank": 63,
+          "tier": "B-",
+          "band": "strong",
           "stats": {
-            "inHandGames": 5521,
-            "inHandWins": 3040,
-            "inHandWinRate": 55.1,
-            "openingHandGames": 1987,
-            "openingHandWinRate": 50.9
+            "inHandGames": 8588,
+            "inHandWins": 4755,
+            "inHandWinRate": 55.4,
+            "openingHandGames": 3050,
+            "openingHandWinRate": 52.1
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-blue"
@@ -33158,15 +33158,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/9/d/9df8a06d-c7de-49af-8c01-06dca3dfef4b.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/9/d/9df8a06d-c7de-49af-8c01-06dca3dfef4b.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/42/surveillance-phantasm?utm_source=api",
-          "rank": 85,
+          "rank": 90,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 52072,
-            "inHandWins": 28453,
-            "inHandWinRate": 54.6,
-            "openingHandGames": 21378,
-            "openingHandWinRate": 53.3
+            "inHandGames": 65355,
+            "inHandWins": 35614,
+            "inHandWinRate": 54.5,
+            "openingHandGames": 26622,
+            "openingHandWinRate": 53.1
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-blue"
@@ -33195,11 +33195,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "S",
           "band": "top",
           "stats": {
-            "inHandGames": 6052,
-            "inHandWins": 3982,
-            "inHandWinRate": 65.8,
-            "openingHandGames": 2061,
-            "openingHandWinRate": 66.8
+            "inHandGames": 7333,
+            "inHandWins": 4830,
+            "inHandWinRate": 65.9,
+            "openingHandGames": 2486,
+            "openingHandWinRate": 66.5
           },
           "reviewGrade": "5",
           "reviewSourceId": "zone-blue"
@@ -33227,15 +33227,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/7/1/710302ca-c4be-4069-8ce1-f531414c74e9.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/7/1/710302ca-c4be-4069-8ce1-f531414c74e9.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/44/theorists-proxy?utm_source=api",
-          "rank": 106,
-          "tier": "C",
+          "rank": 100,
+          "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 10502,
-            "inHandWins": 5670,
-            "inHandWinRate": 54,
-            "openingHandGames": 3857,
-            "openingHandWinRate": 52.8
+            "inHandGames": 13171,
+            "inHandWins": 7145,
+            "inHandWinRate": 54.2,
+            "openingHandGames": 4781,
+            "openingHandWinRate": 53.4
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-blue"
@@ -33266,15 +33266,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/0/a/0adbb4b2-a142-48da-8f4b-fa91529dbac4.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/0/a/0adbb4b2-a142-48da-8f4b-fa91529dbac4.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/45/undulating-witness?utm_source=api",
-          "rank": 96,
+          "rank": 99,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 46771,
-            "inHandWins": 25464,
-            "inHandWinRate": 54.4,
-            "openingHandGames": 17612,
-            "openingHandWinRate": 52
+            "inHandGames": 59726,
+            "inHandWins": 32432,
+            "inHandWinRate": 54.3,
+            "openingHandGames": 22422,
+            "openingHandWinRate": 51.8
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-blue"
@@ -33303,11 +33303,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 46984,
-            "inHandWins": 25898,
+            "inHandGames": 58880,
+            "inHandWins": 32440,
             "inHandWinRate": 55.1,
-            "openingHandGames": 17070,
-            "openingHandWinRate": 51.2
+            "openingHandGames": 21415,
+            "openingHandWinRate": 51.5
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-blue"
@@ -33336,15 +33336,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/e/3/e3afedb1-bf9d-4e31-9700-433514cc29b1.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/e/3/e3afedb1-bf9d-4e31-9700-433514cc29b1.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/47/variable-chaser-arc-of-fortune?utm_source=api",
-          "rank": 63,
+          "rank": 64,
           "tier": "B-",
           "band": "strong",
           "stats": {
-            "inHandGames": 10269,
-            "inHandWins": 5692,
+            "inHandGames": 12990,
+            "inHandWins": 7192,
             "inHandWinRate": 55.4,
-            "openingHandGames": 3699,
-            "openingHandWinRate": 54.6
+            "openingHandGames": 4666,
+            "openingHandWinRate": 54.1
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-blue"
@@ -33375,15 +33375,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/c/d/cd56f047-6bdc-4e83-8a7c-923ebad26302.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/c/d/cd56f047-6bdc-4e83-8a7c-923ebad26302.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/48/apex-witchstalker?utm_source=api",
-          "rank": 126,
+          "rank": 129,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 49045,
-            "inHandWins": 26268,
-            "inHandWinRate": 53.6,
-            "openingHandGames": 19919,
-            "openingHandWinRate": 52.2
+            "inHandGames": 60977,
+            "inHandWins": 32578,
+            "inHandWinRate": 53.4,
+            "openingHandGames": 24674,
+            "openingHandWinRate": 51.8
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-black"
@@ -33410,15 +33410,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/4/f/4fcc913e-f736-460a-b24b-022fa2e861b9.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/4/f/4fcc913e-f736-460a-b24b-022fa2e861b9.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/49/bloodline-recollector-ancestral-craving?utm_source=api",
-          "rank": 241,
-          "tier": "D-",
+          "rank": 230,
+          "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 2431,
-            "inHandWins": 1201,
-            "inHandWinRate": 49.4,
-            "openingHandGames": 944,
-            "openingHandWinRate": 48.4
+            "inHandGames": 2971,
+            "inHandWins": 1485,
+            "inHandWinRate": 50,
+            "openingHandGames": 1129,
+            "openingHandWinRate": 49.5
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-black"
@@ -33443,15 +33443,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/4/6/46974d94-e900-43e4-92b5-4fb9b9f7cf46.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/4/6/46974d94-e900-43e4-92b5-4fb9b9f7cf46.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/50/break-under-pressure?utm_source=api",
-          "rank": 24,
+          "rank": 25,
           "tier": "B+",
           "band": "strong",
           "stats": {
-            "inHandGames": 28347,
-            "inHandWins": 16378,
-            "inHandWinRate": 57.8,
-            "openingHandGames": 10879,
-            "openingHandWinRate": 55.7
+            "inHandGames": 34913,
+            "inHandWins": 20100,
+            "inHandWinRate": 57.6,
+            "openingHandGames": 13280,
+            "openingHandWinRate": 55.5
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-black"
@@ -33476,15 +33476,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/3/b/3b5b28a4-0abd-4dc2-9856-c9a8d27f6a2d.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/3/b/3b5b28a4-0abd-4dc2-9856-c9a8d27f6a2d.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/51/cast-away-doubt?utm_source=api",
-          "rank": 199,
+          "rank": 196,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 13331,
-            "inHandWins": 6849,
+            "inHandGames": 16219,
+            "inHandWins": 8340,
             "inHandWinRate": 51.4,
-            "openingHandGames": 5245,
-            "openingHandWinRate": 48.5
+            "openingHandGames": 6395,
+            "openingHandWinRate": 48.4
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-black"
@@ -33511,15 +33511,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/4/e/4ec912d5-cbe7-4d07-9ece-b03ac02d3055.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/4/e/4ec912d5-cbe7-4d07-9ece-b03ac02d3055.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/52/dark-matter-manipulator?utm_source=api",
-          "rank": 56,
+          "rank": 65,
           "tier": "B-",
           "band": "strong",
           "stats": {
-            "inHandGames": 4207,
-            "inHandWins": 2342,
-            "inHandWinRate": 55.7,
-            "openingHandGames": 1597,
-            "openingHandWinRate": 58.1
+            "inHandGames": 5447,
+            "inHandWins": 3014,
+            "inHandWinRate": 55.3,
+            "openingHandGames": 2059,
+            "openingHandWinRate": 58
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-black"
@@ -33547,14 +33547,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/e/c/ec454979-3839-4be3-a34a-9d25482948ba.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/e/c/ec454979-3839-4be3-a34a-9d25482948ba.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/53/darklight-phoenix?utm_source=api",
-          "rank": 167,
+          "rank": 169,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 3755,
-            "inHandWins": 1963,
-            "inHandWinRate": 52.3,
-            "openingHandGames": 1390,
+            "inHandGames": 4742,
+            "inHandWins": 2471,
+            "inHandWinRate": 52.1,
+            "openingHandGames": 1738,
             "openingHandWinRate": 52.2
           },
           "reviewGrade": "2.5",
@@ -33580,14 +33580,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/e/b/eb4b6ed8-782e-4473-abc9-d50bf2275c6a.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/e/b/eb4b6ed8-782e-4473-abc9-d50bf2275c6a.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/54/extended-absence?utm_source=api",
-          "rank": 33,
+          "rank": 35,
           "tier": "B",
           "band": "strong",
           "stats": {
-            "inHandGames": 55964,
-            "inHandWins": 31972,
+            "inHandGames": 69244,
+            "inHandWins": 39521,
             "inHandWinRate": 57.1,
-            "openingHandGames": 22406,
+            "openingHandGames": 27519,
             "openingHandWinRate": 54.3
           },
           "reviewGrade": "3.5",
@@ -33617,11 +33617,11 @@ window.LIMITED_PREP_DATA = {
           "tier": null,
           "band": "unrated",
           "stats": {
-            "inHandGames": 419,
-            "inHandWins": 171,
-            "inHandWinRate": 40.8,
-            "openingHandGames": 172,
-            "openingHandWinRate": 37.8
+            "inHandGames": 485,
+            "inHandWins": 208,
+            "inHandWinRate": 42.9,
+            "openingHandGames": 197,
+            "openingHandWinRate": 38.1
           },
           "reviewGrade": "0.5",
           "reviewSourceId": "zone-black"
@@ -33650,10 +33650,10 @@ window.LIMITED_PREP_DATA = {
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 51567,
-            "inHandWins": 28250,
-            "inHandWinRate": 54.8,
-            "openingHandGames": 21251,
+            "inHandGames": 63718,
+            "inHandWins": 34834,
+            "inHandWinRate": 54.7,
+            "openingHandGames": 26252,
             "openingHandWinRate": 53.7
           },
           "reviewGrade": "3",
@@ -33685,11 +33685,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "A+",
           "band": "top",
           "stats": {
-            "inHandGames": 11298,
-            "inHandWins": 6952,
-            "inHandWinRate": 61.5,
-            "openingHandGames": 4291,
-            "openingHandWinRate": 58.9
+            "inHandGames": 13979,
+            "inHandWins": 8587,
+            "inHandWinRate": 61.4,
+            "openingHandGames": 5209,
+            "openingHandWinRate": 58.5
           },
           "reviewGrade": "4",
           "reviewSourceId": "zone-black"
@@ -33718,11 +33718,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "B",
           "band": "strong",
           "stats": {
-            "inHandGames": 28823,
-            "inHandWins": 16272,
-            "inHandWinRate": 56.5,
-            "openingHandGames": 11158,
-            "openingHandWinRate": 54.8
+            "inHandGames": 35367,
+            "inHandWins": 19921,
+            "inHandWinRate": 56.3,
+            "openingHandGames": 13697,
+            "openingHandWinRate": 54.6
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-black"
@@ -33749,15 +33749,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/c/4/c4554f5b-791b-48f6-bf54-ad28699e1beb.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/c/4/c4554f5b-791b-48f6-bf54-ad28699e1beb.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/59/overwrite-the-multiverse?utm_source=api",
-          "rank": 5,
+          "rank": 6,
           "tier": "S",
           "band": "top",
           "stats": {
-            "inHandGames": 5479,
-            "inHandWins": 3463,
-            "inHandWinRate": 63.2,
-            "openingHandGames": 1913,
-            "openingHandWinRate": 58.7
+            "inHandGames": 6808,
+            "inHandWins": 4325,
+            "inHandWinRate": 63.5,
+            "openingHandGames": 2344,
+            "openingHandWinRate": 59.3
           },
           "reviewGrade": "4",
           "reviewSourceId": "zone-black"
@@ -33784,15 +33784,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/f/4/f4a80225-7459-4151-86bb-8fdea31c39a6.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/f/4/f4a80225-7459-4151-86bb-8fdea31c39a6.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/60/rampart-hunter?utm_source=api",
-          "rank": 247,
+          "rank": 246,
           "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 4164,
-            "inHandWins": 2043,
-            "inHandWinRate": 49.1,
-            "openingHandGames": 1640,
-            "openingHandWinRate": 45.9
+            "inHandGames": 4874,
+            "inHandWins": 2381,
+            "inHandWinRate": 48.9,
+            "openingHandGames": 1905,
+            "openingHandWinRate": 46.1
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-black"
@@ -33817,15 +33817,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/4/f/4ff6da82-d7dd-4b59-b7e6-30670cea7169.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/4/f/4ff6da82-d7dd-4b59-b7e6-30670cea7169.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/61/rank-rat?utm_source=api",
-          "rank": 143,
-          "tier": "C",
+          "rank": 153,
+          "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 39158,
-            "inHandWins": 20774,
-            "inHandWinRate": 53.1,
-            "openingHandGames": 17029,
-            "openingHandWinRate": 53.4
+            "inHandGames": 47807,
+            "inHandWins": 25257,
+            "inHandWinRate": 52.8,
+            "openingHandGames": 20735,
+            "openingHandWinRate": 53.1
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-black"
@@ -33852,15 +33852,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/4/5/453cfde7-c460-4b55-9472-b714e16f24bb.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/4/5/453cfde7-c460-4b55-9472-b714e16f24bb.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/62/rewrite-regrets?utm_source=api",
-          "rank": 39,
+          "rank": 40,
           "tier": "B",
           "band": "strong",
           "stats": {
-            "inHandGames": 22846,
-            "inHandWins": 13002,
-            "inHandWinRate": 56.9,
-            "openingHandGames": 8352,
-            "openingHandWinRate": 54.6
+            "inHandGames": 28742,
+            "inHandWins": 16316,
+            "inHandWinRate": 56.8,
+            "openingHandGames": 10390,
+            "openingHandWinRate": 54.4
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-black"
@@ -33885,15 +33885,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/8/1/811719ad-b5a3-4d31-8c6f-5dbdfccf7c1f.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/8/1/811719ad-b5a3-4d31-8c6f-5dbdfccf7c1f.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/63/rise-of-the-deathbringer?utm_source=api",
-          "rank": 94,
+          "rank": 103,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 9910,
-            "inHandWins": 5397,
-            "inHandWinRate": 54.5,
-            "openingHandGames": 3557,
-            "openingHandWinRate": 51.5
+            "inHandGames": 12160,
+            "inHandWins": 6586,
+            "inHandWinRate": 54.2,
+            "openingHandGames": 4349,
+            "openingHandWinRate": 50.9
           },
           "reviewGrade": "4",
           "reviewSourceId": "zone-black"
@@ -33918,15 +33918,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/1/2185c08f-bb4d-49d5-8b6c-c629a48bb61c.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/1/2185c08f-bb4d-49d5-8b6c-c629a48bb61c.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/64/sanctum-lurker?utm_source=api",
-          "rank": 12,
+          "rank": 13,
           "tier": "A",
           "band": "top",
           "stats": {
-            "inHandGames": 11388,
-            "inHandWins": 6938,
-            "inHandWinRate": 60.9,
-            "openingHandGames": 4235,
-            "openingHandWinRate": 62
+            "inHandGames": 14018,
+            "inHandWins": 8481,
+            "inHandWinRate": 60.5,
+            "openingHandGames": 5202,
+            "openingHandWinRate": 61.4
           },
           "reviewGrade": "4",
           "reviewSourceId": "zone-black"
@@ -33953,15 +33953,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/7/3/738667a1-c184-43ea-829f-49fbb69b6fc0.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/7/3/738667a1-c184-43ea-829f-49fbb69b6fc0.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/65/screeching-soulbreaker?utm_source=api",
-          "rank": 153,
+          "rank": 158,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 22364,
-            "inHandWins": 11796,
+            "inHandGames": 27219,
+            "inHandWins": 14334,
             "inHandWinRate": 52.7,
-            "openingHandGames": 9561,
-            "openingHandWinRate": 52.5
+            "openingHandGames": 11605,
+            "openingHandWinRate": 52.3
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-black"
@@ -33986,15 +33986,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/f/1/f1d274db-751b-4414-a38d-762198168e91.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/f/1/f1d274db-751b-4414-a38d-762198168e91.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/66/silence-the-echo?utm_source=api",
-          "rank": 201,
+          "rank": 205,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 36667,
-            "inHandWins": 18797,
-            "inHandWinRate": 51.3,
-            "openingHandGames": 14091,
-            "openingHandWinRate": 47.6
+            "inHandGames": 44868,
+            "inHandWins": 22905,
+            "inHandWinRate": 51,
+            "openingHandGames": 17186,
+            "openingHandWinRate": 47.5
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-black"
@@ -34021,15 +34021,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/7/b/7beaa8c9-1a2c-4c88-b579-91e371d8d9e3.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/7/b/7beaa8c9-1a2c-4c88-b579-91e371d8d9e3.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/67/solve-for-disappointment?utm_source=api",
-          "rank": 212,
+          "rank": 213,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 8866,
-            "inHandWins": 4512,
-            "inHandWinRate": 50.9,
-            "openingHandGames": 3618,
-            "openingHandWinRate": 49.9
+            "inHandGames": 10581,
+            "inHandWins": 5365,
+            "inHandWinRate": 50.7,
+            "openingHandGames": 4360,
+            "openingHandWinRate": 49.7
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-black"
@@ -34054,15 +34054,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/7/e/7ebd7e38-b27c-4c6e-aaea-e8ee5ba5e5df.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/7/e/7ebd7e38-b27c-4c6e-aaea-e8ee5ba5e5df.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/68/terminal-criticism?utm_source=api",
-          "rank": 246,
+          "rank": 244,
           "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 1100,
-            "inHandWins": 540,
-            "inHandWinRate": 49.1,
-            "openingHandGames": 406,
-            "openingHandWinRate": 45.3
+            "inHandGames": 1295,
+            "inHandWins": 637,
+            "inHandWinRate": 49.2,
+            "openingHandGames": 479,
+            "openingHandWinRate": 46.8
           },
           "reviewGrade": "0.5",
           "reviewSourceId": "zone-black"
@@ -34087,15 +34087,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/e/3/e36a7908-1e22-494b-adb4-e72ac0974d62.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/e/3/e36a7908-1e22-494b-adb4-e72ac0974d62.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/69/theoretical-necromancer?utm_source=api",
-          "rank": 111,
+          "rank": 114,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 20937,
-            "inHandWins": 11275,
-            "inHandWinRate": 53.9,
-            "openingHandGames": 8320,
-            "openingHandWinRate": 52.4
+            "inHandGames": 27265,
+            "inHandWins": 14648,
+            "inHandWinRate": 53.7,
+            "openingHandGames": 10868,
+            "openingHandWinRate": 52.3
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-black"
@@ -34125,15 +34125,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/0/e/0eae2efb-bf25-48ee-9c07-9098008110ad.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/0/e/0eae2efb-bf25-48ee-9c07-9098008110ad.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/70/void-extrapolator-omit-variables?utm_source=api",
-          "rank": 88,
+          "rank": 92,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 13537,
-            "inHandWins": 7389,
-            "inHandWinRate": 54.6,
-            "openingHandGames": 5648,
-            "openingHandWinRate": 53.4
+            "inHandGames": 17316,
+            "inHandWins": 9432,
+            "inHandWinRate": 54.5,
+            "openingHandGames": 7202,
+            "openingHandWinRate": 53.6
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-black"
@@ -34160,15 +34160,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/9/9/992bd991-7cfb-459f-bafd-9a44f3c925c5.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/9/9/992bd991-7cfb-459f-bafd-9a44f3c925c5.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/71/vraskas-final-mercy?utm_source=api",
-          "rank": 139,
-          "tier": "C",
+          "rank": 149,
+          "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 8870,
-            "inHandWins": 4712,
-            "inHandWinRate": 53.1,
-            "openingHandGames": 3355,
-            "openingHandWinRate": 51.5
+            "inHandGames": 10809,
+            "inHandWins": 5714,
+            "inHandWinRate": 52.9,
+            "openingHandGames": 4081,
+            "openingHandWinRate": 51.4
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-black"
@@ -34193,15 +34193,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/d/9/d9039a58-2f17-4b8a-b714-3a2f0b46f057.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/d/9/d9039a58-2f17-4b8a-b714-3a2f0b46f057.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/72/ajanis-anguish?utm_source=api",
-          "rank": 112,
+          "rank": 111,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 10716,
-            "inHandWins": 5759,
-            "inHandWinRate": 53.7,
-            "openingHandGames": 4031,
-            "openingHandWinRate": 49
+            "inHandGames": 13314,
+            "inHandWins": 7162,
+            "inHandWinRate": 53.8,
+            "openingHandGames": 5015,
+            "openingHandWinRate": 48.9
           },
           "reviewGrade": "4",
           "reviewSourceId": "zone-red"
@@ -34226,15 +34226,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/7/d/7d3b720d-f27c-462a-8f80-15748e5086e1.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/7/d/7d3b720d-f27c-462a-8f80-15748e5086e1.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/73/artifist-acumen?utm_source=api",
-          "rank": 262,
+          "rank": 264,
           "tier": "F",
           "band": "filler",
           "stats": {
-            "inHandGames": 6282,
-            "inHandWins": 2912,
-            "inHandWinRate": 46.4,
-            "openingHandGames": 2541,
-            "openingHandWinRate": 46.1
+            "inHandGames": 7328,
+            "inHandWins": 3389,
+            "inHandWinRate": 46.2,
+            "openingHandGames": 2971,
+            "openingHandWinRate": 46.4
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-red"
@@ -34264,15 +34264,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/c/5/c596c4ec-8480-4be9-a45d-700398a126f6.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/c/5/c596c4ec-8480-4be9-a45d-700398a126f6.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/74/awaken-the-inferno?utm_source=api",
-          "rank": 92,
+          "rank": 88,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 40275,
-            "inHandWins": 21938,
+            "inHandGames": 50439,
+            "inHandWins": 27488,
             "inHandWinRate": 54.5,
-            "openingHandGames": 16229,
-            "openingHandWinRate": 51.9
+            "openingHandGames": 20283,
+            "openingHandWinRate": 52.2
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-red"
@@ -34297,15 +34297,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/8/4/8414a98c-0c79-4884-bc9b-061a6456b392.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/8/4/8414a98c-0c79-4884-bc9b-061a6456b392.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/75/blazing-crescendo?utm_source=api",
-          "rank": 180,
+          "rank": 187,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 5312,
-            "inHandWins": 2754,
-            "inHandWinRate": 51.8,
-            "openingHandGames": 2156,
-            "openingHandWinRate": 50.3
+            "inHandGames": 6305,
+            "inHandWins": 3255,
+            "inHandWinRate": 51.6,
+            "openingHandGames": 2579,
+            "openingHandWinRate": 50.2
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-red"
@@ -34336,11 +34336,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 14033,
-            "inHandWins": 7074,
-            "inHandWinRate": 50.4,
-            "openingHandGames": 5844,
-            "openingHandWinRate": 50.2
+            "inHandGames": 16877,
+            "inHandWins": 8471,
+            "inHandWinRate": 50.2,
+            "openingHandGames": 6993,
+            "openingHandWinRate": 50
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-red"
@@ -34365,15 +34365,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/f/3/f3307da2-6dad-4ef2-9614-a7d34f38088e.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/f/3/f3307da2-6dad-4ef2-9614-a7d34f38088e.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/77/command-the-stage?utm_source=api",
-          "rank": 235,
+          "rank": 236,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 6250,
-            "inHandWins": 3121,
-            "inHandWinRate": 49.9,
-            "openingHandGames": 2572,
-            "openingHandWinRate": 49.3
+            "inHandGames": 7646,
+            "inHandWins": 3806,
+            "inHandWinRate": 49.8,
+            "openingHandGames": 3131,
+            "openingHandWinRate": 49.5
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-red"
@@ -34400,15 +34400,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/4/7/47793a51-08c6-4ad2-a7e5-a4484d83a5cd.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/4/7/47793a51-08c6-4ad2-a7e5-a4484d83a5cd.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/78/craterclaw-colossus?utm_source=api",
-          "rank": 75,
+          "rank": 96,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 3127,
-            "inHandWins": 1717,
-            "inHandWinRate": 54.9,
-            "openingHandGames": 1158,
-            "openingHandWinRate": 50.9
+            "inHandGames": 3969,
+            "inHandWins": 2159,
+            "inHandWinRate": 54.4,
+            "openingHandGames": 1455,
+            "openingHandWinRate": 50.6
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-red"
@@ -34440,11 +34440,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 9845,
-            "inHandWins": 5385,
+            "inHandGames": 12323,
+            "inHandWins": 6736,
             "inHandWinRate": 54.7,
-            "openingHandGames": 3800,
-            "openingHandWinRate": 53.4
+            "openingHandGames": 4705,
+            "openingHandWinRate": 53.6
           },
           "reviewGrade": "4",
           "reviewSourceId": "zone-red"
@@ -34471,15 +34471,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/1/1/112f8478-bd89-4a14-9721-8ab750613129.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/1/1/112f8478-bd89-4a14-9721-8ab750613129.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/80/draconic-visitor?utm_source=api",
-          "rank": 142,
+          "rank": 145,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 9123,
-            "inHandWins": 4841,
-            "inHandWinRate": 53.1,
-            "openingHandGames": 3419,
-            "openingHandWinRate": 50.4
+            "inHandGames": 11367,
+            "inHandWins": 6019,
+            "inHandWinRate": 53,
+            "openingHandGames": 4265,
+            "openingHandWinRate": 50.7
           },
           "reviewGrade": "4",
           "reviewSourceId": "zone-red"
@@ -34508,11 +34508,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 6006,
-            "inHandWins": 3035,
-            "inHandWinRate": 50.5,
-            "openingHandGames": 2594,
-            "openingHandWinRate": 50.9
+            "inHandGames": 7054,
+            "inHandWins": 3558,
+            "inHandWinRate": 50.4,
+            "openingHandGames": 3027,
+            "openingHandWinRate": 50.7
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-red"
@@ -34537,15 +34537,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/d/2/d2e958de-70de-4156-8f9b-b2c0c1ba704a.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/d/2/d2e958de-70de-4156-8f9b-b2c0c1ba704a.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/82/essence-burn?utm_source=api",
-          "rank": 267,
+          "rank": 268,
           "tier": "F",
           "band": "filler",
           "stats": {
-            "inHandGames": 1537,
-            "inHandWins": 680,
-            "inHandWinRate": 44.2,
-            "openingHandGames": 607,
-            "openingHandWinRate": 42.7
+            "inHandGames": 1781,
+            "inHandWins": 793,
+            "inHandWinRate": 44.5,
+            "openingHandGames": 712,
+            "openingHandWinRate": 43.8
           },
           "reviewGrade": "0.5",
           "reviewSourceId": "zone-red"
@@ -34570,15 +34570,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/3/c/3ccf8f64-19bd-4fdf-b70a-30a042bacf2f.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/3/c/3ccf8f64-19bd-4fdf-b70a-30a042bacf2f.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/83/face-yourself?utm_source=api",
-          "rank": 156,
-          "tier": "C-",
+          "rank": 146,
+          "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 9419,
-            "inHandWins": 4960,
-            "inHandWinRate": 52.7,
-            "openingHandGames": 3274,
-            "openingHandWinRate": 49.7
+            "inHandGames": 11844,
+            "inHandWins": 6270,
+            "inHandWinRate": 52.9,
+            "openingHandGames": 4113,
+            "openingHandWinRate": 49.5
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-red"
@@ -34603,15 +34603,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/1/9/19acb2b5-3b3e-43f0-bd81-8426ed3d9c55.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/1/9/19acb2b5-3b3e-43f0-bd81-8426ed3d9c55.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/84/fulminous-forte?utm_source=api",
-          "rank": 65,
+          "rank": 68,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 25102,
-            "inHandWins": 13865,
+            "inHandGames": 31164,
+            "inHandWins": 17193,
             "inHandWinRate": 55.2,
-            "openingHandGames": 9969,
-            "openingHandWinRate": 54.1
+            "openingHandGames": 12318,
+            "openingHandWinRate": 54
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-red"
@@ -34639,15 +34639,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/7/e/7e324816-552f-455d-97c4-5ea6b26d2e6e.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/7/e/7e324816-552f-455d-97c4-5ea6b26d2e6e.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/85/hallway-heckler-vicious-verse?utm_source=api",
-          "rank": 227,
+          "rank": 219,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 15704,
-            "inHandWins": 7900,
-            "inHandWinRate": 50.3,
-            "openingHandGames": 6600,
-            "openingHandWinRate": 49.5
+            "inHandGames": 19140,
+            "inHandWins": 9659,
+            "inHandWinRate": 50.5,
+            "openingHandGames": 8015,
+            "openingHandWinRate": 49.6
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-red"
@@ -34674,15 +34674,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/c/b/cbfe3354-7ced-4773-9a4e-a937ae9f94f8.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/c/b/cbfe3354-7ced-4773-9a4e-a937ae9f94f8.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/86/heartstring-puller?utm_source=api",
-          "rank": 158,
+          "rank": 161,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 35501,
-            "inHandWins": 18675,
-            "inHandWinRate": 52.6,
-            "openingHandGames": 14656,
-            "openingHandWinRate": 51.9
+            "inHandGames": 43686,
+            "inHandWins": 22902,
+            "inHandWinRate": 52.4,
+            "openingHandGames": 17984,
+            "openingHandWinRate": 51.7
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-red"
@@ -34711,11 +34711,11 @@ window.LIMITED_PREP_DATA = {
           "tier": null,
           "band": "unrated",
           "stats": {
-            "inHandGames": 303,
-            "inHandWins": 112,
-            "inHandWinRate": 37,
-            "openingHandGames": 123,
-            "openingHandWinRate": 35.8
+            "inHandGames": 344,
+            "inHandWins": 128,
+            "inHandWinRate": 37.2,
+            "openingHandGames": 139,
+            "openingHandWinRate": 36.7
           },
           "reviewGrade": "0.5",
           "reviewSourceId": "zone-red"
@@ -34742,15 +34742,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/4/4/4404d9d4-9cdd-4dad-a4f6-574d90db5052.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/4/4/4404d9d4-9cdd-4dad-a4f6-574d90db5052.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/88/master-of-barbs?utm_source=api",
-          "rank": 172,
+          "rank": 181,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 7830,
-            "inHandWins": 4073,
-            "inHandWinRate": 52,
-            "openingHandGames": 3268,
-            "openingHandWinRate": 53.5
+            "inHandGames": 9746,
+            "inHandWins": 5045,
+            "inHandWinRate": 51.8,
+            "openingHandGames": 4074,
+            "openingHandWinRate": 53.1
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-red"
@@ -34777,15 +34777,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/1/1/11ba4fdd-cc03-4bb6-a493-91a9785771d0.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/1/1/11ba4fdd-cc03-4bb6-a493-91a9785771d0.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/89/no-admittance?utm_source=api",
-          "rank": 90,
+          "rank": 84,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 50048,
-            "inHandWins": 27293,
-            "inHandWinRate": 54.5,
-            "openingHandGames": 21444,
-            "openingHandWinRate": 53.8
+            "inHandGames": 62165,
+            "inHandWins": 33924,
+            "inHandWinRate": 54.6,
+            "openingHandGames": 26660,
+            "openingHandWinRate": 53.7
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-red"
@@ -34813,15 +34813,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/a/a/aa0f77ac-741a-444a-8bf0-a42c644726bf.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/a/a/aa0f77ac-741a-444a-8bf0-a42c644726bf.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/90/pompous-battlemage-improvised-act?utm_source=api",
-          "rank": 200,
+          "rank": 199,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 6665,
-            "inHandWins": 3422,
+            "inHandGames": 8161,
+            "inHandWins": 4184,
             "inHandWinRate": 51.3,
-            "openingHandGames": 2684,
-            "openingHandWinRate": 54.4
+            "openingHandGames": 3326,
+            "openingHandWinRate": 54.2
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-red"
@@ -34849,15 +34849,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/b/2b0ebea0-86de-4da4-9fe8-dacc1e75c161.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/b/2b0ebea0-86de-4da4-9fe8-dacc1e75c161.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/91/pyre-rhymer-molten-tide?utm_source=api",
-          "rank": 228,
+          "rank": 229,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 8292,
-            "inHandWins": 4163,
-            "inHandWinRate": 50.2,
-            "openingHandGames": 3277,
-            "openingHandWinRate": 50.7
+            "inHandGames": 10284,
+            "inHandWins": 5149,
+            "inHandWinRate": 50.1,
+            "openingHandGames": 4048,
+            "openingHandWinRate": 51.2
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-red"
@@ -34882,15 +34882,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/0/e/0e44f959-1322-4abd-b6eb-dea992307c0c.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/0/e/0e44f959-1322-4abd-b6eb-dea992307c0c.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/92/skilled-battlecarver?utm_source=api",
-          "rank": 204,
+          "rank": 198,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 33461,
-            "inHandWins": 17114,
-            "inHandWinRate": 51.1,
-            "openingHandGames": 14990,
-            "openingHandWinRate": 52.4
+            "inHandGames": 41298,
+            "inHandWins": 21186,
+            "inHandWinRate": 51.3,
+            "openingHandGames": 18535,
+            "openingHandWinRate": 52.7
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-red"
@@ -34917,15 +34917,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/d/2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/d/2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/93/stingcaster-mage?utm_source=api",
-          "rank": 97,
+          "rank": 85,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 4603,
-            "inHandWins": 2506,
-            "inHandWinRate": 54.4,
-            "openingHandGames": 1712,
-            "openingHandWinRate": 49.5
+            "inHandGames": 5702,
+            "inHandWins": 3110,
+            "inHandWinRate": 54.5,
+            "openingHandGames": 2125,
+            "openingHandWinRate": 49.4
           },
           "reviewGrade": "4",
           "reviewSourceId": "zone-red"
@@ -34952,15 +34952,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/b/7/b75bbf46-a421-467a-9433-6cf22398a3a5.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/b/7/b75bbf46-a421-467a-9433-6cf22398a3a5.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/94/tether-technician?utm_source=api",
-          "rank": 192,
+          "rank": 190,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 8242,
-            "inHandWins": 4250,
-            "inHandWinRate": 51.6,
-            "openingHandGames": 3060,
-            "openingHandWinRate": 50.3
+            "inHandGames": 10023,
+            "inHandWins": 5164,
+            "inHandWinRate": 51.5,
+            "openingHandGames": 3717,
+            "openingHandWinRate": 50.7
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-red"
@@ -34987,15 +34987,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/a/d/ad03ba90-2442-4a71-94df-2088b5b63662.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/a/d/ad03ba90-2442-4a71-94df-2088b5b63662.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/95/violent-echoes?utm_source=api",
-          "rank": 37,
+          "rank": 38,
           "tier": "B",
           "band": "strong",
           "stats": {
-            "inHandGames": 24787,
-            "inHandWins": 14125,
-            "inHandWinRate": 57,
-            "openingHandGames": 9614,
-            "openingHandWinRate": 55.9
+            "inHandGames": 30827,
+            "inHandWins": 17539,
+            "inHandWinRate": 56.9,
+            "openingHandGames": 11910,
+            "openingHandWinRate": 55.6
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-red"
@@ -35020,15 +35020,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/b/5/b5b55617-684a-4036-be9b-a3b24fc9cd5a.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/b/5/b5b55617-684a-4036-be9b-a3b24fc9cd5a.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/96/wrath-of-the-bloodmane?utm_source=api",
-          "rank": 76,
+          "rank": 86,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 46328,
-            "inHandWins": 25427,
-            "inHandWinRate": 54.9,
-            "openingHandGames": 19248,
-            "openingHandWinRate": 53.4
+            "inHandGames": 57430,
+            "inHandWins": 31308,
+            "inHandWinRate": 54.5,
+            "openingHandGames": 23771,
+            "openingHandWinRate": 53
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-red"
@@ -35056,14 +35056,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/1/b/1bf923c4-f0b7-4271-978c-fd2e79fe1cc8.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/1/b/1bf923c4-f0b7-4271-978c-fd2e79fe1cc8.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/97/arcane-amphisbaena?utm_source=api",
-          "rank": 120,
+          "rank": 118,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 51257,
-            "inHandWins": 27506,
+            "inHandGames": 63263,
+            "inHandWins": 33943,
             "inHandWinRate": 53.7,
-            "openingHandGames": 22775,
+            "openingHandGames": 28044,
             "openingHandWinRate": 53
           },
           "reviewGrade": "2",
@@ -35091,15 +35091,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/e/0/e0de5f66-f0df-4866-9f73-104ce50411b4.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/e/0/e0de5f66-f0df-4866-9f73-104ce50411b4.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/98/bestial-incursion?utm_source=api",
-          "rank": 74,
+          "rank": 76,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 49342,
-            "inHandWins": 27106,
+            "inHandGames": 61617,
+            "inHandWins": 33812,
             "inHandWinRate": 54.9,
-            "openingHandGames": 19094,
-            "openingHandWinRate": 54
+            "openingHandGames": 23638,
+            "openingHandWinRate": 53.9
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-green"
@@ -35126,15 +35126,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/1/8/18c59d60-2640-4576-9375-3ba38aa3ecb7.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/1/8/18c59d60-2640-4576-9375-3ba38aa3ecb7.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/99/budding-insurgent?utm_source=api",
-          "rank": 239,
-          "tier": "D-",
+          "rank": 233,
+          "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 17869,
-            "inHandWins": 8874,
-            "inHandWinRate": 49.7,
-            "openingHandGames": 7208,
-            "openingHandWinRate": 48.3
+            "inHandGames": 21447,
+            "inHandWins": 10689,
+            "inHandWinRate": 49.8,
+            "openingHandGames": 8640,
+            "openingHandWinRate": 48.4
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-green"
@@ -35162,15 +35162,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/7/9/79dd5c54-5ea5-47b5-8f9b-50ed57a5ea45.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/7/9/79dd5c54-5ea5-47b5-8f9b-50ed57a5ea45.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/100/carnivorous-cultivator-enroot?utm_source=api",
-          "rank": 30,
+          "rank": 34,
           "tier": "B",
           "band": "strong",
           "stats": {
-            "inHandGames": 10099,
-            "inHandWins": 5785,
-            "inHandWinRate": 57.3,
-            "openingHandGames": 3975,
-            "openingHandWinRate": 60.8
+            "inHandGames": 12502,
+            "inHandWins": 7143,
+            "inHandWinRate": 57.1,
+            "openingHandGames": 4932,
+            "openingHandWinRate": 60.4
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-green"
@@ -35195,15 +35195,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/b/d/bd32d736-7a58-46b9-90b4-2cac3c3e80a1.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/b/d/bd32d736-7a58-46b9-90b4-2cac3c3e80a1.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/101/compel-brutality?utm_source=api",
-          "rank": 129,
+          "rank": 132,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 50151,
-            "inHandWins": 26834,
-            "inHandWinRate": 53.5,
-            "openingHandGames": 20180,
-            "openingHandWinRate": 51.2
+            "inHandGames": 61760,
+            "inHandWins": 32972,
+            "inHandWinRate": 53.4,
+            "openingHandGames": 24876,
+            "openingHandWinRate": 50.9
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-green"
@@ -35228,15 +35228,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/f/7/f71958e9-6d6d-4393-8b49-567103b50877.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/f/7/f71958e9-6d6d-4393-8b49-567103b50877.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/102/flourishing-grapple?utm_source=api",
-          "rank": 249,
+          "rank": 251,
           "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 1131,
-            "inHandWins": 549,
-            "inHandWinRate": 48.5,
-            "openingHandGames": 429,
-            "openingHandWinRate": 44.3
+            "inHandGames": 1286,
+            "inHandWins": 618,
+            "inHandWinRate": 48.1,
+            "openingHandGames": 480,
+            "openingHandWinRate": 43.1
           },
           "reviewGrade": "0.5",
           "reviewSourceId": "zone-green"
@@ -35265,11 +35265,11 @@ window.LIMITED_PREP_DATA = {
           "tier": null,
           "band": "unrated",
           "stats": {
-            "inHandGames": 336,
-            "inHandWins": 108,
-            "inHandWinRate": 32.1,
-            "openingHandGames": 141,
-            "openingHandWinRate": 33.3
+            "inHandGames": 418,
+            "inHandWins": 139,
+            "inHandWinRate": 33.3,
+            "openingHandGames": 176,
+            "openingHandWinRate": 33
           },
           "reviewGrade": "0",
           "reviewSourceId": "zone-green"
@@ -35294,15 +35294,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/a/5/a56e0f91-b128-4693-a949-53cb403f4fbf.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/a/5/a56e0f91-b128-4693-a949-53cb403f4fbf.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/104/greenhouse-propagator?utm_source=api",
-          "rank": 152,
+          "rank": 150,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 45432,
-            "inHandWins": 24009,
+            "inHandGames": 55962,
+            "inHandWins": 29571,
             "inHandWinRate": 52.8,
-            "openingHandGames": 20069,
-            "openingHandWinRate": 53.6
+            "openingHandGames": 24609,
+            "openingHandWinRate": 53.5
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-green"
@@ -35330,15 +35330,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/9/1/910a1f41-17fd-4ab0-9597-7151e79dc760.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/9/1/910a1f41-17fd-4ab0-9597-7151e79dc760.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/105/heartwood-crafter-soul-tether?utm_source=api",
-          "rank": 128,
+          "rank": 116,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 22139,
-            "inHandWins": 11847,
-            "inHandWinRate": 53.5,
-            "openingHandGames": 9613,
-            "openingHandWinRate": 58.4
+            "inHandGames": 27419,
+            "inHandWins": 14717,
+            "inHandWinRate": 53.7,
+            "openingHandGames": 11910,
+            "openingHandWinRate": 58.3
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-green"
@@ -35365,15 +35365,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/9/a/9a446cae-e93c-4574-8ffd-7688f9729a8a.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/9/a/9a446cae-e93c-4574-8ffd-7688f9729a8a.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/106/hexhaven-invigorator?utm_source=api",
-          "rank": 164,
+          "rank": 170,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 2049,
-            "inHandWins": 1073,
-            "inHandWinRate": 52.4,
-            "openingHandGames": 779,
-            "openingHandWinRate": 49.6
+            "inHandGames": 2543,
+            "inHandWins": 1325,
+            "inHandWinRate": 52.1,
+            "openingHandGames": 964,
+            "openingHandWinRate": 50.3
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-green"
@@ -35398,15 +35398,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/3/d/3db2da7a-8088-4117-916b-f9c905d1b45b.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/3/d/3db2da7a-8088-4117-916b-f9c905d1b45b.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/107/hungering-puppetbeast?utm_source=api",
-          "rank": 17,
+          "rank": 18,
           "tier": "A-",
           "band": "top",
           "stats": {
-            "inHandGames": 10473,
-            "inHandWins": 6286,
-            "inHandWinRate": 60,
-            "openingHandGames": 3811,
-            "openingHandWinRate": 59.5
+            "inHandGames": 13030,
+            "inHandWins": 7779,
+            "inHandWinRate": 59.7,
+            "openingHandGames": 4719,
+            "openingHandWinRate": 59.4
           },
           "reviewGrade": "4",
           "reviewSourceId": "zone-green"
@@ -35437,11 +35437,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 3393,
-            "inHandWins": 1751,
+            "inHandGames": 4140,
+            "inHandWins": 2135,
             "inHandWinRate": 51.6,
-            "openingHandGames": 1332,
-            "openingHandWinRate": 49.6
+            "openingHandGames": 1616,
+            "openingHandWinRate": 50.3
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-green"
@@ -35468,15 +35468,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/0/7/073f4998-a204-447b-93d5-746ae87fd6a1.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/0/7/073f4998-a204-447b-93d5-746ae87fd6a1.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/109/inspired-tethermage?utm_source=api",
-          "rank": 213,
+          "rank": 220,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 16822,
-            "inHandWins": 8556,
-            "inHandWinRate": 50.9,
-            "openingHandGames": 6753,
-            "openingHandWinRate": 49.9
+            "inHandGames": 20533,
+            "inHandWins": 10359,
+            "inHandWinRate": 50.5,
+            "openingHandGames": 8207,
+            "openingHandWinRate": 49.7
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-green"
@@ -35505,11 +35505,11 @@ window.LIMITED_PREP_DATA = {
           "tier": null,
           "band": "unrated",
           "stats": {
-            "inHandGames": 48,
-            "inHandWins": 15,
-            "inHandWinRate": 31.3,
-            "openingHandGames": 20,
-            "openingHandWinRate": 35
+            "inHandGames": 57,
+            "inHandWins": 18,
+            "inHandWinRate": 31.6,
+            "openingHandGames": 23,
+            "openingHandWinRate": 30.4
           },
           "reviewGrade": "0",
           "reviewSourceId": "zone-green"
@@ -35536,15 +35536,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/6/b/6b8789a6-3b63-4198-af5f-c2f2f49fafd9.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/6/b/6b8789a6-3b63-4198-af5f-c2f2f49fafd9.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/111/puppet-crafting?utm_source=api",
-          "rank": 236,
-          "tier": "D",
+          "rank": 247,
+          "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 1324,
-            "inHandWins": 661,
-            "inHandWinRate": 49.9,
-            "openingHandGames": 453,
-            "openingHandWinRate": 50.6
+            "inHandGames": 1572,
+            "inHandWins": 767,
+            "inHandWinRate": 48.8,
+            "openingHandGames": 535,
+            "openingHandWinRate": 48.2
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-green"
@@ -35569,15 +35569,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/3/5/3546b93b-a7d1-451d-a369-22cc8ddcd00d.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/3/5/3546b93b-a7d1-451d-a369-22cc8ddcd00d.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/112/restore-with-empathy?utm_source=api",
-          "rank": 145,
+          "rank": 142,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 11520,
-            "inHandWins": 6103,
+            "inHandGames": 14602,
+            "inHandWins": 7741,
             "inHandWinRate": 53,
-            "openingHandGames": 4256,
-            "openingHandWinRate": 49.9
+            "openingHandGames": 5375,
+            "openingHandWinRate": 49.4
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-green"
@@ -35602,15 +35602,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/7/c/7c725702-8696-4e5a-8318-62f5e2616d52.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/7/c/7c725702-8696-4e5a-8318-62f5e2616d52.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/113/simulacrum-shaper?utm_source=api",
-          "rank": 35,
+          "rank": 36,
           "tier": "B",
           "band": "strong",
           "stats": {
-            "inHandGames": 10790,
-            "inHandWins": 6162,
-            "inHandWinRate": 57.1,
-            "openingHandGames": 4220,
-            "openingHandWinRate": 60.2
+            "inHandGames": 13359,
+            "inHandWins": 7615,
+            "inHandWinRate": 57,
+            "openingHandGames": 5209,
+            "openingHandWinRate": 60.1
           },
           "reviewGrade": "4",
           "reviewSourceId": "zone-green"
@@ -35637,15 +35637,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/0/2/02ee7817-40af-4fcf-a2df-eb218b669281.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/0/2/02ee7817-40af-4fcf-a2df-eb218b669281.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/114/something-worth-saving?utm_source=api",
-          "rank": 59,
+          "rank": 55,
           "tier": "B-",
           "band": "strong",
           "stats": {
-            "inHandGames": 14997,
-            "inHandWins": 8336,
+            "inHandGames": 19348,
+            "inHandWins": 10762,
             "inHandWinRate": 55.6,
-            "openingHandGames": 6318,
-            "openingHandWinRate": 54.5
+            "openingHandGames": 8108,
+            "openingHandWinRate": 54.4
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-green"
@@ -35672,15 +35672,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/b/6/b635389c-e286-4edb-80d1-23dbe4a18857.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/b/6/b635389c-e286-4edb-80d1-23dbe4a18857.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/115/sureshot-sower?utm_source=api",
-          "rank": 157,
+          "rank": 160,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 27803,
-            "inHandWins": 14632,
-            "inHandWinRate": 52.6,
-            "openingHandGames": 11767,
-            "openingHandWinRate": 53
+            "inHandGames": 34228,
+            "inHandWins": 17968,
+            "inHandWinRate": 52.5,
+            "openingHandGames": 14372,
+            "openingHandWinRate": 52.4
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-green"
@@ -35705,15 +35705,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/8/b/8be5ee47-8f8a-4e3c-b1a1-9ca0e1fdec7f.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/8/b/8be5ee47-8f8a-4e3c-b1a1-9ca0e1fdec7f.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/116/tarmogoyf?utm_source=api",
-          "rank": 114,
+          "rank": 113,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 4646,
-            "inHandWins": 2496,
-            "inHandWinRate": 53.7,
-            "openingHandGames": 1840,
-            "openingHandWinRate": 52.1
+            "inHandGames": 5854,
+            "inHandWins": 3147,
+            "inHandWinRate": 53.8,
+            "openingHandGames": 2323,
+            "openingHandWinRate": 53.4
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-green"
@@ -35738,15 +35738,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/3/8/38589a7c-9cfb-4bcc-845e-9dc205095853.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/3/8/38589a7c-9cfb-4bcc-845e-9dc205095853.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/117/tethermages-advantage?utm_source=api",
-          "rank": 252,
+          "rank": 250,
           "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 4531,
-            "inHandWins": 2173,
-            "inHandWinRate": 48,
-            "openingHandGames": 1761,
-            "openingHandWinRate": 46.5
+            "inHandGames": 5327,
+            "inHandWins": 2563,
+            "inHandWinRate": 48.1,
+            "openingHandGames": 2060,
+            "openingHandWinRate": 46.8
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-green"
@@ -35771,15 +35771,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/b/2bb7a8eb-227f-410b-859f-750ef0aea2f0.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/b/2bb7a8eb-227f-410b-859f-750ef0aea2f0.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/118/verdant-kraken?utm_source=api",
-          "rank": 28,
+          "rank": 30,
           "tier": "B",
           "band": "strong",
           "stats": {
-            "inHandGames": 10519,
-            "inHandWins": 6039,
-            "inHandWinRate": 57.4,
-            "openingHandGames": 3726,
-            "openingHandWinRate": 54.9
+            "inHandGames": 13078,
+            "inHandWins": 7484,
+            "inHandWinRate": 57.2,
+            "openingHandGames": 4639,
+            "openingHandWinRate": 54.8
           },
           "reviewGrade": "4.5",
           "reviewSourceId": "zone-green"
@@ -35810,14 +35810,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/e/5/e5ed142b-2b61-4ef5-8b23-2db2a0a0319d.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/e/5/e5ed142b-2b61-4ef5-8b23-2db2a0a0319d.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/119/vinelasher-adept?utm_source=api",
-          "rank": 104,
+          "rank": 105,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 36852,
-            "inHandWins": 19905,
+            "inHandGames": 46421,
+            "inHandWins": 25082,
             "inHandWinRate": 54,
-            "openingHandGames": 14966,
+            "openingHandGames": 18804,
             "openingHandWinRate": 52.3
           },
           "reviewGrade": "2",
@@ -35845,15 +35845,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/3/d/3d693cb0-681e-480a-8f70-07e94c39225c.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/3/d/3d693cb0-681e-480a-8f70-07e94c39225c.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/120/wrecking-gecko?utm_source=api",
-          "rank": 103,
+          "rank": 109,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 15777,
-            "inHandWins": 8537,
-            "inHandWinRate": 54.1,
-            "openingHandGames": 5975,
-            "openingHandWinRate": 53.2
+            "inHandGames": 19875,
+            "inHandWins": 10719,
+            "inHandWinRate": 53.9,
+            "openingHandGames": 7494,
+            "openingHandWinRate": 53
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-green"
@@ -35885,11 +35885,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "A+",
           "band": "top",
           "stats": {
-            "inHandGames": 4982,
-            "inHandWins": 3108,
-            "inHandWinRate": 62.4,
-            "openingHandGames": 1891,
-            "openingHandWinRate": 63
+            "inHandGames": 6287,
+            "inHandWins": 3909,
+            "inHandWinRate": 62.2,
+            "openingHandGames": 2346,
+            "openingHandWinRate": 62.8
           },
           "reviewGrade": "4.5",
           "reviewSourceId": "zone-multicolor"
@@ -35918,15 +35918,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/5/9/5905995b-7a20-4602-a7cc-90aa5089a082.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/5/9/5905995b-7a20-4602-a7cc-90aa5089a082.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/122/avatar-of-burgeoning-echoes?utm_source=api",
-          "rank": 32,
+          "rank": 28,
           "tier": "B",
           "band": "strong",
           "stats": {
-            "inHandGames": 3598,
-            "inHandWins": 2056,
-            "inHandWinRate": 57.1,
-            "openingHandGames": 1291,
-            "openingHandWinRate": 57.6
+            "inHandGames": 4563,
+            "inHandWins": 2619,
+            "inHandWinRate": 57.4,
+            "openingHandGames": 1656,
+            "openingHandWinRate": 58.5
           },
           "reviewGrade": "4",
           "reviewSourceId": "zone-multicolor"
@@ -35954,15 +35954,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/b/b/bb975803-9bf2-401e-9414-d272df314398.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/b/b/bb975803-9bf2-401e-9414-d272df314398.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/123/blessed-ghoul?utm_source=api",
-          "rank": 147,
+          "rank": 157,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 21737,
-            "inHandWins": 11501,
-            "inHandWinRate": 52.9,
-            "openingHandGames": 8598,
-            "openingHandWinRate": 54.8
+            "inHandGames": 26670,
+            "inHandWins": 14060,
+            "inHandWinRate": 52.7,
+            "openingHandGames": 10589,
+            "openingHandWinRate": 54.3
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-multicolor"
@@ -35988,14 +35988,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/6/b/6b804503-9c70-4b1f-bb13-a65fb6dd3ef8.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/6/b/6b804503-9c70-4b1f-bb13-a65fb6dd3ef8.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/124/bloombrute?utm_source=api",
-          "rank": 73,
+          "rank": 75,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 20999,
-            "inHandWins": 11536,
+            "inHandGames": 25697,
+            "inHandWins": 14109,
             "inHandWinRate": 54.9,
-            "openingHandGames": 8641,
+            "openingHandGames": 10579,
             "openingHandWinRate": 53.6
           },
           "reviewGrade": "3.5",
@@ -36022,15 +36022,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/8/7/87b40df5-5c0a-41f5-a09c-a04f17066a91.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/8/7/87b40df5-5c0a-41f5-a09c-a04f17066a91.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/125/charge-the-sanctum?utm_source=api",
-          "rank": 231,
+          "rank": 232,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 4810,
-            "inHandWins": 2412,
-            "inHandWinRate": 50.1,
-            "openingHandGames": 1828,
-            "openingHandWinRate": 48.8
+            "inHandGames": 5791,
+            "inHandWins": 2887,
+            "inHandWinRate": 49.9,
+            "openingHandGames": 2207,
+            "openingHandWinRate": 48.1
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-multicolor"
@@ -36056,15 +36056,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/b/6/b61bcef7-5832-45e6-a2bc-26d4f23707fc.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/b/6/b61bcef7-5832-45e6-a2bc-26d4f23707fc.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/126/clash-of-elements?utm_source=api",
-          "rank": 53,
+          "rank": 52,
           "tier": "B-",
           "band": "strong",
           "stats": {
-            "inHandGames": 17232,
-            "inHandWins": 9629,
+            "inHandGames": 21565,
+            "inHandWins": 12055,
             "inHandWinRate": 55.9,
-            "openingHandGames": 6389,
-            "openingHandWinRate": 53.1
+            "openingHandGames": 8060,
+            "openingHandWinRate": 53.2
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-multicolor"
@@ -36092,14 +36092,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/0/3/03f9839c-aa07-4ee7-847b-091e47ab80c4.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/0/3/03f9839c-aa07-4ee7-847b-091e47ab80c4.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/127/craftwork-crusher?utm_source=api",
-          "rank": 11,
-          "tier": "A",
+          "rank": 10,
+          "tier": "A+",
           "band": "top",
           "stats": {
-            "inHandGames": 21114,
-            "inHandWins": 12871,
+            "inHandGames": 26494,
+            "inHandWins": 16168,
             "inHandWinRate": 61,
-            "openingHandGames": 7972,
+            "openingHandGames": 9950,
             "openingHandWinRate": 58.5
           },
           "reviewGrade": "3.5",
@@ -36129,15 +36129,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/9/8/986f9e98-9d8d-428b-9187-860745cf3269.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/9/8/986f9e98-9d8d-428b-9187-860745cf3269.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/128/denzilore-fatehold?utm_source=api",
-          "rank": 15,
+          "rank": 14,
           "tier": "A",
           "band": "top",
           "stats": {
-            "inHandGames": 5240,
-            "inHandWins": 3147,
-            "inHandWinRate": 60.1,
-            "openingHandGames": 1711,
-            "openingHandWinRate": 59
+            "inHandGames": 6579,
+            "inHandWins": 3966,
+            "inHandWinRate": 60.3,
+            "openingHandGames": 2165,
+            "openingHandWinRate": 59.4
           },
           "reviewGrade": "4.5",
           "reviewSourceId": "zone-multicolor"
@@ -36169,11 +36169,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "B-",
           "band": "strong",
           "stats": {
-            "inHandGames": 23471,
-            "inHandWins": 13023,
-            "inHandWinRate": 55.5,
-            "openingHandGames": 8477,
-            "openingHandWinRate": 54.3
+            "inHandGames": 29333,
+            "inHandWins": 16256,
+            "inHandWinRate": 55.4,
+            "openingHandGames": 10536,
+            "openingHandWinRate": 54
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-multicolor"
@@ -36201,15 +36201,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/d/e/de94d388-919d-44ff-baef-8c90a417ac6d.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/d/e/de94d388-919d-44ff-baef-8c90a417ac6d.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/130/emergency-phytomedic-seed-suture?utm_source=api",
-          "rank": 174,
+          "rank": 173,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 33974,
-            "inHandWins": 17649,
-            "inHandWinRate": 51.9,
-            "openingHandGames": 15157,
-            "openingHandWinRate": 52.8
+            "inHandGames": 41305,
+            "inHandWins": 21468,
+            "inHandWinRate": 52,
+            "openingHandGames": 18398,
+            "openingHandWinRate": 53.1
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-multicolor"
@@ -36239,11 +36239,11 @@ window.LIMITED_PREP_DATA = {
           "tier": null,
           "band": "unrated",
           "stats": {
-            "inHandGames": 133,
-            "inHandWins": 56,
-            "inHandWinRate": 42.1,
-            "openingHandGames": 44,
-            "openingHandWinRate": 36.4
+            "inHandGames": 148,
+            "inHandWins": 62,
+            "inHandWinRate": 41.9,
+            "openingHandGames": 50,
+            "openingHandWinRate": 38
           },
           "reviewGrade": "1",
           "reviewSourceId": "zone-multicolor"
@@ -36269,15 +36269,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/c/f/cfc54011-647e-4428-bcdb-59400e1da49d.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/c/f/cfc54011-647e-4428-bcdb-59400e1da49d.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/132/fatehold-charm?utm_source=api",
-          "rank": 78,
+          "rank": 77,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 21318,
-            "inHandWins": 11693,
-            "inHandWinRate": 54.9,
-            "openingHandGames": 8231,
-            "openingHandWinRate": 52.1
+            "inHandGames": 26517,
+            "inHandWins": 14537,
+            "inHandWinRate": 54.8,
+            "openingHandGames": 10152,
+            "openingHandWinRate": 52.2
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-multicolor"
@@ -36311,11 +36311,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 58468,
-            "inHandWins": 31708,
+            "inHandGames": 72774,
+            "inHandWins": 39435,
             "inHandWinRate": 54.2,
-            "openingHandGames": 24434,
-            "openingHandWinRate": 53.4
+            "openingHandGames": 30272,
+            "openingHandWinRate": 53.2
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-multicolor"
@@ -36344,14 +36344,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/a/9/a9793ce9-5a0b-41fe-b9ad-02f6f7da2481.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/a/9/a9793ce9-5a0b-41fe-b9ad-02f6f7da2481.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/134/ferocity-of-the-hunt?utm_source=api",
-          "rank": 209,
-          "tier": "D",
+          "rank": 203,
+          "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 19442,
-            "inHandWins": 9909,
-            "inHandWinRate": 51,
-            "openingHandGames": 7524,
+            "inHandGames": 23757,
+            "inHandWins": 12140,
+            "inHandWinRate": 51.1,
+            "openingHandGames": 9088,
             "openingHandWinRate": 48.2
           },
           "reviewGrade": "1.5",
@@ -36381,15 +36381,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/7/a/7a44581f-8fc4-457d-888a-1e211090ee7e.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/7/a/7a44581f-8fc4-457d-888a-1e211090ee7e.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/135/frostbite-pyromental?utm_source=api",
-          "rank": 245,
+          "rank": 242,
           "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 3680,
-            "inHandWins": 1809,
-            "inHandWinRate": 49.2,
-            "openingHandGames": 1293,
-            "openingHandWinRate": 46.6
+            "inHandGames": 4555,
+            "inHandWins": 2251,
+            "inHandWinRate": 49.4,
+            "openingHandGames": 1599,
+            "openingHandWinRate": 47
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-multicolor"
@@ -36417,15 +36417,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/8/2/8295c48c-b4dd-4bc1-a206-04cf12b79bbd.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/8/2/8295c48c-b4dd-4bc1-a206-04cf12b79bbd.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/136/grim-repriser?utm_source=api",
-          "rank": 196,
+          "rank": 188,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 12864,
-            "inHandWins": 6625,
-            "inHandWinRate": 51.5,
-            "openingHandGames": 5953,
-            "openingHandWinRate": 54.5
+            "inHandGames": 15506,
+            "inHandWins": 8000,
+            "inHandWinRate": 51.6,
+            "openingHandGames": 7104,
+            "openingHandWinRate": 54.4
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-multicolor"
@@ -36453,14 +36453,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/6/4/6471b135-33a8-4005-9a07-ebb74e0bf145.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/6/4/6471b135-33a8-4005-9a07-ebb74e0bf145.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/137/ingris-stingerquill?utm_source=api",
-          "rank": 49,
+          "rank": 48,
           "tier": "B-",
           "band": "strong",
           "stats": {
-            "inHandGames": 3798,
-            "inHandWins": 2134,
-            "inHandWinRate": 56.2,
-            "openingHandGames": 1443,
+            "inHandGames": 4761,
+            "inHandWins": 2673,
+            "inHandWinRate": 56.1,
+            "openingHandGames": 1835,
             "openingHandWinRate": 53.4
           },
           "reviewGrade": "4.5",
@@ -36487,15 +36487,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/7/d/7d29dfa1-9582-47bc-8f42-62b611bdcc4e.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/7/d/7d29dfa1-9582-47bc-8f42-62b611bdcc4e.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/138/konstrari-charm?utm_source=api",
-          "rank": 149,
-          "tier": "C-",
+          "rank": 143,
+          "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 11660,
-            "inHandWins": 6168,
-            "inHandWinRate": 52.9,
-            "openingHandGames": 4765,
-            "openingHandWinRate": 51.6
+            "inHandGames": 14544,
+            "inHandWins": 7710,
+            "inHandWinRate": 53,
+            "openingHandGames": 5955,
+            "openingHandWinRate": 51.5
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-multicolor"
@@ -36523,14 +36523,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/4/2/42e28bd2-486b-45d4-8840-6e33c19c2d57.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/4/2/42e28bd2-486b-45d4-8840-6e33c19c2d57.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/139/konstrari-improviser-soul-tether?utm_source=api",
-          "rank": 185,
+          "rank": 183,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 43220,
-            "inHandWins": 22332,
+            "inHandGames": 53358,
+            "inHandWins": 27573,
             "inHandWinRate": 51.7,
-            "openingHandGames": 19730,
+            "openingHandGames": 24299,
             "openingHandWinRate": 52.8
           },
           "reviewGrade": "2",
@@ -36562,15 +36562,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/d/2d6ff182-a853-4898-895b-072c89324ca7.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/d/2d6ff182-a853-4898-895b-072c89324ca7.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/140/kwia-vigorbloom?utm_source=api",
-          "rank": 10,
+          "rank": 11,
           "tier": "A+",
           "band": "top",
           "stats": {
-            "inHandGames": 4473,
-            "inHandWins": 2749,
-            "inHandWinRate": 61.5,
-            "openingHandGames": 1638,
-            "openingHandWinRate": 60.6
+            "inHandGames": 5518,
+            "inHandWins": 3362,
+            "inHandWinRate": 60.9,
+            "openingHandGames": 2009,
+            "openingHandWinRate": 59.5
           },
           "reviewGrade": "4.5",
           "reviewSourceId": "zone-multicolor"
@@ -36599,15 +36599,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/9/4/94c290ce-252c-42b3-bcb0-c1ef621df566.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/9/4/94c290ce-252c-42b3-bcb0-c1ef621df566.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/141/mind-meanderer?utm_source=api",
-          "rank": 42,
+          "rank": 37,
           "tier": "B",
           "band": "strong",
           "stats": {
-            "inHandGames": 15441,
-            "inHandWins": 8761,
-            "inHandWinRate": 56.7,
-            "openingHandGames": 5338,
-            "openingHandWinRate": 52.5
+            "inHandGames": 19742,
+            "inHandWins": 11244,
+            "inHandWinRate": 57,
+            "openingHandGames": 6758,
+            "openingHandWinRate": 52.8
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-multicolor"
@@ -36636,14 +36636,14 @@ window.LIMITED_PREP_DATA = {
           "trainingImageSource": "https://cards.scryfall.io/normal/front/3/a/3afdc75a-1bf5-4f2f-84eb-d82f77a095cd.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/142/null-summoner?utm_source=api",
           "rank": 16,
-          "tier": "A-",
+          "tier": "A",
           "band": "top",
           "stats": {
-            "inHandGames": 10094,
-            "inHandWins": 6059,
+            "inHandGames": 12773,
+            "inHandWins": 7662,
             "inHandWinRate": 60,
-            "openingHandGames": 3440,
-            "openingHandWinRate": 58.8
+            "openingHandGames": 4320,
+            "openingHandWinRate": 59
           },
           "reviewGrade": "4",
           "reviewSourceId": "zone-multicolor"
@@ -36672,15 +36672,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/e/6/e61b9d48-0ace-4453-afe0-a1024444bac0.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/e/6/e61b9d48-0ace-4453-afe0-a1024444bac0.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/143/paradox-shaper-omit-variables?utm_source=api",
-          "rank": 155,
+          "rank": 151,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 10821,
-            "inHandWins": 5701,
-            "inHandWinRate": 52.7,
-            "openingHandGames": 4137,
-            "openingHandWinRate": 50.1
+            "inHandGames": 13912,
+            "inHandWins": 7351,
+            "inHandWinRate": 52.8,
+            "openingHandGames": 5276,
+            "openingHandWinRate": 49.9
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-multicolor"
@@ -36709,15 +36709,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/0/4/04e64af7-cca1-499e-8951-f386e84c8b5b.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/0/4/04e64af7-cca1-499e-8951-f386e84c8b5b.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/144/primal-witchstalker?utm_source=api",
-          "rank": 57,
+          "rank": 53,
           "tier": "B-",
           "band": "strong",
           "stats": {
-            "inHandGames": 16988,
-            "inHandWins": 9457,
-            "inHandWinRate": 55.7,
-            "openingHandGames": 7163,
-            "openingHandWinRate": 57.1
+            "inHandGames": 21180,
+            "inHandWins": 11835,
+            "inHandWinRate": 55.9,
+            "openingHandGames": 8901,
+            "openingHandWinRate": 57.6
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-multicolor"
@@ -36749,11 +36749,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "B+",
           "band": "strong",
           "stats": {
-            "inHandGames": 9263,
-            "inHandWins": 5373,
-            "inHandWinRate": 58,
-            "openingHandGames": 3541,
-            "openingHandWinRate": 58.2
+            "inHandGames": 11543,
+            "inHandWins": 6677,
+            "inHandWinRate": 57.8,
+            "openingHandGames": 4315,
+            "openingHandWinRate": 57.9
           },
           "reviewGrade": "4",
           "reviewSourceId": "zone-multicolor"
@@ -36782,14 +36782,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/6/c/6c1c790b-9e0e-4964-9ea3-554843907f06.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/6/c/6c1c790b-9e0e-4964-9ea3-554843907f06.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/146/prudent-fateseer-peer-review?utm_source=api",
-          "rank": 122,
+          "rank": 117,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 25331,
-            "inHandWins": 13580,
-            "inHandWinRate": 53.6,
-            "openingHandGames": 9653,
+            "inHandGames": 31446,
+            "inHandWins": 16877,
+            "inHandWinRate": 53.7,
+            "openingHandGames": 11955,
             "openingHandWinRate": 51.1
           },
           "reviewGrade": "2",
@@ -36818,15 +36818,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/6/8/68fddb6a-86d4-4ebb-907d-fdcaadebc4b3.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/6/8/68fddb6a-86d4-4ebb-907d-fdcaadebc4b3.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/147/recursive-recruitment?utm_source=api",
-          "rank": 19,
+          "rank": 20,
           "tier": "A-",
           "band": "top",
           "stats": {
-            "inHandGames": 28634,
-            "inHandWins": 17018,
-            "inHandWinRate": 59.4,
-            "openingHandGames": 9469,
-            "openingHandWinRate": 57
+            "inHandGames": 35660,
+            "inHandWins": 21091,
+            "inHandWinRate": 59.1,
+            "openingHandGames": 11739,
+            "openingHandWinRate": 56.6
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-multicolor"
@@ -36852,15 +36852,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/1/e/1ef12dcf-df50-4da6-8c4c-e2937ba9698e.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/1/e/1ef12dcf-df50-4da6-8c4c-e2937ba9698e.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/148/solarium-sentry?utm_source=api",
-          "rank": 130,
+          "rank": 123,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 6926,
-            "inHandWins": 3704,
-            "inHandWinRate": 53.5,
-            "openingHandGames": 2814,
-            "openingHandWinRate": 55.2
+            "inHandGames": 8566,
+            "inHandWins": 4591,
+            "inHandWinRate": 53.6,
+            "openingHandGames": 3462,
+            "openingHandWinRate": 55.3
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-multicolor"
@@ -36886,15 +36886,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/5/1/5142bbb6-194c-4b12-b11a-1a21c9fe81a6.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/5/1/5142bbb6-194c-4b12-b11a-1a21c9fe81a6.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/149/solitary-cell?utm_source=api",
-          "rank": 233,
+          "rank": 234,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 4464,
-            "inHandWins": 2235,
-            "inHandWinRate": 50.1,
-            "openingHandGames": 1794,
-            "openingHandWinRate": 48.8
+            "inHandGames": 5540,
+            "inHandWins": 2761,
+            "inHandWinRate": 49.8,
+            "openingHandGames": 2230,
+            "openingHandWinRate": 48.9
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-multicolor"
@@ -36920,15 +36920,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/8/1/81733ff7-e611-43ee-bf38-6bb700676017.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/8/1/81733ff7-e611-43ee-bf38-6bb700676017.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/150/stingerquill-charm?utm_source=api",
-          "rank": 133,
+          "rank": 131,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 15967,
-            "inHandWins": 8529,
+            "inHandGames": 19743,
+            "inHandWins": 10543,
             "inHandWinRate": 53.4,
-            "openingHandGames": 6763,
-            "openingHandWinRate": 51.8
+            "openingHandGames": 8367,
+            "openingHandWinRate": 51.6
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-multicolor"
@@ -36956,15 +36956,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/8/4/84b1c268-3b8a-41b6-92e3-a2ce0cc3d738.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/8/4/84b1c268-3b8a-41b6-92e3-a2ce0cc3d738.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/151/stingerquill-voxmancer-vicious-verse?utm_source=api",
-          "rank": 160,
+          "rank": 148,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 18397,
-            "inHandWins": 9656,
-            "inHandWinRate": 52.5,
-            "openingHandGames": 8129,
-            "openingHandWinRate": 54.6
+            "inHandGames": 22451,
+            "inHandWins": 11869,
+            "inHandWinRate": 52.9,
+            "openingHandGames": 9919,
+            "openingHandWinRate": 54.8
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-multicolor"
@@ -36994,11 +36994,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 5921,
-            "inHandWins": 3027,
-            "inHandWinRate": 51.1,
-            "openingHandGames": 2413,
-            "openingHandWinRate": 49.9
+            "inHandGames": 7274,
+            "inHandWins": 3709,
+            "inHandWinRate": 51,
+            "openingHandGames": 2974,
+            "openingHandWinRate": 49.7
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-multicolor"
@@ -37026,15 +37026,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/b/3/b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/b/3/b3d33df2-a77b-4c2e-ba7f-2cc9c1505f9b.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/153/tams-resistance?utm_source=api",
-          "rank": 98,
+          "rank": 81,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 20784,
-            "inHandWins": 11307,
-            "inHandWinRate": 54.4,
-            "openingHandGames": 7699,
-            "openingHandWinRate": 51.5
+            "inHandGames": 26766,
+            "inHandWins": 14632,
+            "inHandWinRate": 54.7,
+            "openingHandGames": 9848,
+            "openingHandWinRate": 52.2
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-multicolor"
@@ -37060,15 +37060,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/1/7/1703306d-6a3d-4ab8-bf58-a9992236ef0f.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/1/7/1703306d-6a3d-4ab8-bf58-a9992236ef0f.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/154/tenured-tethermage?utm_source=api",
-          "rank": 47,
-          "tier": "B",
+          "rank": 51,
+          "tier": "B-",
           "band": "strong",
           "stats": {
-            "inHandGames": 8911,
-            "inHandWins": 5025,
-            "inHandWinRate": 56.4,
-            "openingHandGames": 3483,
-            "openingHandWinRate": 59.1
+            "inHandGames": 11099,
+            "inHandWins": 6210,
+            "inHandWinRate": 56,
+            "openingHandGames": 4363,
+            "openingHandWinRate": 58.5
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-multicolor"
@@ -37096,15 +37096,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/8/2835c9aa-0904-44db-8da2-e8c4e04201aa.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/8/2835c9aa-0904-44db-8da2-e8c4e04201aa.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/155/theorix-charm?utm_source=api",
-          "rank": 87,
+          "rank": 83,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 20220,
-            "inHandWins": 11045,
+            "inHandGames": 25201,
+            "inHandWins": 13764,
             "inHandWinRate": 54.6,
-            "openingHandGames": 7574,
-            "openingHandWinRate": 52
+            "openingHandGames": 9374,
+            "openingHandWinRate": 51.8
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-multicolor"
@@ -37134,15 +37134,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/f/b/fb6bad96-841d-4738-8e62-92f346f914fd.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/f/b/fb6bad96-841d-4738-8e62-92f346f914fd.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/156/theorix-metamage-omit-variables?utm_source=api",
-          "rank": 154,
+          "rank": 155,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 13336,
-            "inHandWins": 7031,
-            "inHandWinRate": 52.7,
-            "openingHandGames": 5272,
-            "openingHandWinRate": 49.9
+            "inHandGames": 17324,
+            "inHandWins": 9148,
+            "inHandWinRate": 52.8,
+            "openingHandGames": 6755,
+            "openingHandWinRate": 49.7
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-multicolor"
@@ -37170,15 +37170,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/5/5/55f85984-0137-4899-8993-bbc8c4794d33.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/5/5/55f85984-0137-4899-8993-bbc8c4794d33.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/157/twinned-vision?utm_source=api",
-          "rank": 45,
+          "rank": 44,
           "tier": "B",
           "band": "strong",
           "stats": {
-            "inHandGames": 38713,
-            "inHandWins": 21873,
-            "inHandWinRate": 56.5,
-            "openingHandGames": 14563,
-            "openingHandWinRate": 54.8
+            "inHandGames": 49984,
+            "inHandWins": 28188,
+            "inHandWinRate": 56.4,
+            "openingHandGames": 18674,
+            "openingHandWinRate": 54.9
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-multicolor"
@@ -37204,15 +37204,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/c/7/c7c0765d-38fd-4d7b-bfb4-49b10ff5939b.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/c/7/c7c0765d-38fd-4d7b-bfb4-49b10ff5939b.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/158/twisted-fates?utm_source=api",
-          "rank": 64,
-          "tier": "B-",
-          "band": "strong",
+          "rank": 69,
+          "tier": "C+",
+          "band": "playable",
           "stats": {
-            "inHandGames": 17154,
-            "inHandWins": 9498,
-            "inHandWinRate": 55.4,
-            "openingHandGames": 6572,
-            "openingHandWinRate": 52.6
+            "inHandGames": 21383,
+            "inHandWins": 11785,
+            "inHandWinRate": 55.1,
+            "openingHandGames": 8191,
+            "openingHandWinRate": 52.1
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-multicolor"
@@ -37244,11 +37244,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "S",
           "band": "top",
           "stats": {
-            "inHandGames": 5413,
-            "inHandWins": 3639,
-            "inHandWinRate": 67.2,
-            "openingHandGames": 1791,
-            "openingHandWinRate": 62.9
+            "inHandGames": 6790,
+            "inHandWins": 4542,
+            "inHandWinRate": 66.9,
+            "openingHandGames": 2235,
+            "openingHandWinRate": 62.7
           },
           "reviewGrade": "4.5",
           "reviewSourceId": "zone-multicolor"
@@ -37276,15 +37276,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/b/2b198e10-b507-4314-a29c-a219f06e48b7.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/b/2b198e10-b507-4314-a29c-a219f06e48b7.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/160/vigorbloom-charm?utm_source=api",
-          "rank": 110,
+          "rank": 122,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 18632,
-            "inHandWins": 10034,
-            "inHandWinRate": 53.9,
-            "openingHandGames": 7435,
-            "openingHandWinRate": 52.5
+            "inHandGames": 22816,
+            "inHandWins": 12232,
+            "inHandWinRate": 53.6,
+            "openingHandGames": 9118,
+            "openingHandWinRate": 51.7
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-multicolor"
@@ -37312,15 +37312,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/a/c/acefc515-bf97-4dc0-b0f7-ae8ae5a61671.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/a/c/acefc515-bf97-4dc0-b0f7-ae8ae5a61671.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/161/vigorbloom-vanguard-seed-suture?utm_source=api",
-          "rank": 79,
+          "rank": 78,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 24455,
-            "inHandWins": 13412,
-            "inHandWinRate": 54.8,
-            "openingHandGames": 10359,
-            "openingHandWinRate": 55.7
+            "inHandGames": 30130,
+            "inHandWins": 16489,
+            "inHandWinRate": 54.7,
+            "openingHandGames": 12749,
+            "openingHandWinRate": 55.4
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-multicolor"
@@ -37346,15 +37346,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/a/8/a803dbe7-153a-4e92-ad4d-c2babebe003d.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/a/8/a803dbe7-153a-4e92-ad4d-c2babebe003d.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/162/vindictive-triumph?utm_source=api",
-          "rank": 178,
+          "rank": 194,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 5017,
-            "inHandWins": 2604,
-            "inHandWinRate": 51.9,
-            "openingHandGames": 1903,
-            "openingHandWinRate": 49
+            "inHandGames": 6121,
+            "inHandWins": 3149,
+            "inHandWinRate": 51.4,
+            "openingHandGames": 2295,
+            "openingHandWinRate": 48.7
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-multicolor"
@@ -37382,15 +37382,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/c/6/c63d5b0e-ee72-42ed-aa7e-484ba84507cd.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/c/6/c63d5b0e-ee72-42ed-aa7e-484ba84507cd.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/163/warriors-blades?utm_source=api",
-          "rank": 131,
+          "rank": 125,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 17413,
-            "inHandWins": 9306,
-            "inHandWinRate": 53.4,
-            "openingHandGames": 6915,
-            "openingHandWinRate": 51.1
+            "inHandGames": 21520,
+            "inHandWins": 11511,
+            "inHandWinRate": 53.5,
+            "openingHandGames": 8542,
+            "openingHandWinRate": 51.5
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-multicolor"
@@ -37422,11 +37422,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 12448,
-            "inHandWins": 6060,
+            "inHandGames": 15008,
+            "inHandWins": 7310,
             "inHandWinRate": 48.7,
-            "openingHandGames": 5164,
-            "openingHandWinRate": 47.1
+            "openingHandGames": 6251,
+            "openingHandWinRate": 47.2
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-multicolor"
@@ -37454,15 +37454,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/7/d/7d17f7e3-7b63-4674-9024-4fd1827f40ec.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/7/d/7d17f7e3-7b63-4674-9024-4fd1827f40ec.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/165/woodwork-prodigy-soul-tether?utm_source=api",
-          "rank": 215,
+          "rank": 214,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 19700,
-            "inHandWins": 10000,
-            "inHandWinRate": 50.8,
-            "openingHandGames": 8321,
-            "openingHandWinRate": 50.2
+            "inHandGames": 24320,
+            "inHandWins": 12311,
+            "inHandWinRate": 50.6,
+            "openingHandGames": 10251,
+            "openingHandWinRate": 50.1
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-multicolor"
@@ -37485,15 +37485,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/4/d/4d4b3bf7-a149-4099-b97d-4e36a87dfa60.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/4/d/4d4b3bf7-a149-4099-b97d-4e36a87dfa60.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/166/afterthought-sentry?utm_source=api",
-          "rank": 184,
+          "rank": 204,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 6165,
-            "inHandWins": 3187,
-            "inHandWinRate": 51.7,
-            "openingHandGames": 2551,
-            "openingHandWinRate": 53.1
+            "inHandGames": 7770,
+            "inHandWins": 3969,
+            "inHandWinRate": 51.1,
+            "openingHandGames": 3219,
+            "openingHandWinRate": 51.9
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -37518,15 +37518,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/0/2/024bce1e-a5f3-4292-bc17-d0355a5d65e1.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/0/2/024bce1e-a5f3-4292-bc17-d0355a5d65e1.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/167/archive-arbiter?utm_source=api",
-          "rank": 91,
+          "rank": 79,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 15253,
-            "inHandWins": 8317,
-            "inHandWinRate": 54.5,
-            "openingHandGames": 5199,
-            "openingHandWinRate": 50.7
+            "inHandGames": 19154,
+            "inHandWins": 10478,
+            "inHandWinRate": 54.7,
+            "openingHandGames": 6535,
+            "openingHandWinRate": 50.8
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -37557,15 +37557,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/c/3/c3192390-1518-49fc-8716-f2c7a0384f39.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/c/3/c3192390-1518-49fc-8716-f2c7a0384f39.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/168/codie-ravenous-codex?utm_source=api",
-          "rank": 269,
+          "rank": 267,
           "tier": "F",
           "band": "filler",
           "stats": {
-            "inHandGames": 529,
-            "inHandWins": 230,
-            "inHandWinRate": 43.5,
-            "openingHandGames": 207,
-            "openingHandWinRate": 46.4
+            "inHandGames": 655,
+            "inHandWins": 292,
+            "inHandWinRate": 44.6,
+            "openingHandGames": 263,
+            "openingHandWinRate": 45.2
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -37588,15 +37588,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/d/7/d71d250f-c0e0-44b2-877c-76f3bcab4f34.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/d/7/d71d250f-c0e0-44b2-877c-76f3bcab4f34.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/169/the-echoverse-fulcrum?utm_source=api",
-          "rank": 67,
-          "tier": "C+",
-          "band": "playable",
+          "rank": 60,
+          "tier": "B-",
+          "band": "strong",
           "stats": {
-            "inHandGames": 5202,
-            "inHandWins": 2871,
-            "inHandWinRate": 55.2,
-            "openingHandGames": 1941,
-            "openingHandWinRate": 52.6
+            "inHandGames": 6554,
+            "inHandWins": 3633,
+            "inHandWinRate": 55.4,
+            "openingHandGames": 2463,
+            "openingHandWinRate": 52.4
           },
           "reviewGrade": "4",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -37621,15 +37621,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/0/e/0edba64a-39cf-4a8d-ba20-4f7da10b6c3d.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/0/e/0edba64a-39cf-4a8d-ba20-4f7da10b6c3d.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/170/eye-of-jace?utm_source=api",
-          "rank": 256,
+          "rank": 254,
           "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 4535,
-            "inHandWins": 2157,
-            "inHandWinRate": 47.6,
-            "openingHandGames": 1903,
-            "openingHandWinRate": 47.7
+            "inHandGames": 5456,
+            "inHandWins": 2600,
+            "inHandWinRate": 47.7,
+            "openingHandGames": 2306,
+            "openingHandWinRate": 48
           },
           "reviewGrade": "1",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -37654,15 +37654,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/b/6/b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/b/6/b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/171/keeper-of-the-quiet-hour?utm_source=api",
-          "rank": 77,
+          "rank": 73,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 20755,
-            "inHandWins": 11386,
-            "inHandWinRate": 54.9,
-            "openingHandGames": 8108,
-            "openingHandWinRate": 53
+            "inHandGames": 26794,
+            "inHandWins": 14744,
+            "inHandWinRate": 55,
+            "openingHandGames": 10523,
+            "openingHandWinRate": 53.1
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -37685,15 +37685,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/5/d/5d4a8e5f-0024-4da3-a2f5-edb48b12e733.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/5/d/5d4a8e5f-0024-4da3-a2f5-edb48b12e733.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/172/living-library?utm_source=api",
-          "rank": 219,
+          "rank": 228,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 3304,
-            "inHandWins": 1675,
-            "inHandWinRate": 50.7,
-            "openingHandGames": 1295,
-            "openingHandWinRate": 47.2
+            "inHandGames": 4233,
+            "inHandWins": 2121,
+            "inHandWinRate": 50.1,
+            "openingHandGames": 1640,
+            "openingHandWinRate": 46.7
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -37718,15 +37718,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/8/b/8b07409a-1dce-461d-95e4-1130521ff4c4.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/8/b/8b07409a-1dce-461d-95e4-1130521ff4c4.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/173/medics-kitesail?utm_source=api",
-          "rank": 109,
+          "rank": 112,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 14407,
-            "inHandWins": 7763,
-            "inHandWinRate": 53.9,
-            "openingHandGames": 5641,
-            "openingHandWinRate": 51.4
+            "inHandGames": 17770,
+            "inHandWins": 9553,
+            "inHandWinRate": 53.8,
+            "openingHandGames": 6921,
+            "openingHandWinRate": 51.3
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -37749,15 +37749,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/d/6/d68eab2e-89dd-4377-b7af-01512b1804a0.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/d/6/d68eab2e-89dd-4377-b7af-01512b1804a0.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/174/murmuring-volume?utm_source=api",
-          "rank": 60,
+          "rank": 58,
           "tier": "B-",
           "band": "strong",
           "stats": {
-            "inHandGames": 18660,
-            "inHandWins": 10360,
+            "inHandGames": 25563,
+            "inHandWins": 14198,
             "inHandWinRate": 55.5,
-            "openingHandGames": 7372,
-            "openingHandWinRate": 53.8
+            "openingHandGames": 10034,
+            "openingHandWinRate": 54
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -37783,15 +37783,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/3/2/3223e5db-5cc4-42f9-ae9e-ff58abc7c390.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/3/2/3223e5db-5cc4-42f9-ae9e-ff58abc7c390.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/175/dedicated-commons?utm_source=api",
-          "rank": 214,
+          "rank": 211,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 17609,
-            "inHandWins": 8948,
+            "inHandGames": 21521,
+            "inHandWins": 10935,
             "inHandWinRate": 50.8,
-            "openingHandGames": 7638,
-            "openingHandWinRate": 52.7
+            "openingHandGames": 9315,
+            "openingHandWinRate": 52.6
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -37817,15 +37817,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/5/6/56dae4c4-3e71-4a32-979b-4e26d9c9e96c.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/5/6/56dae4c4-3e71-4a32-979b-4e26d9c9e96c.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/176/deserted-beach?utm_source=api",
-          "rank": 159,
+          "rank": 156,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 7004,
-            "inHandWins": 3683,
-            "inHandWinRate": 52.6,
-            "openingHandGames": 2846,
-            "openingHandWinRate": 51
+            "inHandGames": 8814,
+            "inHandWins": 4651,
+            "inHandWinRate": 52.8,
+            "openingHandGames": 3609,
+            "openingHandWinRate": 51.8
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -37851,15 +37851,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/5/1/5140f962-62f3-40fd-a322-44896c7e2613.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/5/1/5140f962-62f3-40fd-a322-44896c7e2613.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/177/fatehold-annex?utm_source=api",
-          "rank": 150,
+          "rank": 154,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 24464,
-            "inHandWins": 12940,
-            "inHandWinRate": 52.9,
-            "openingHandGames": 10245,
-            "openingHandWinRate": 53.9
+            "inHandGames": 30640,
+            "inHandWins": 16183,
+            "inHandWinRate": 52.8,
+            "openingHandGames": 12757,
+            "openingHandWinRate": 54
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -37889,11 +37889,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 23361,
-            "inHandWins": 12436,
-            "inHandWinRate": 53.2,
-            "openingHandGames": 9859,
-            "openingHandWinRate": 54.8
+            "inHandGames": 29188,
+            "inHandWins": 15544,
+            "inHandWinRate": 53.3,
+            "openingHandGames": 12245,
+            "openingHandWinRate": 54.7
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -37920,11 +37920,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 8987,
-            "inHandWins": 4601,
-            "inHandWinRate": 51.2,
-            "openingHandGames": 3275,
-            "openingHandWinRate": 50.4
+            "inHandGames": 11018,
+            "inHandWins": 5631,
+            "inHandWinRate": 51.1,
+            "openingHandGames": 4032,
+            "openingHandWinRate": 50.8
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -37950,15 +37950,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/a/4/a4e4966b-8963-4fac-a8bf-e778e063c7dd.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/a/4/a4e4966b-8963-4fac-a8bf-e778e063c7dd.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/180/haunted-ridge?utm_source=api",
-          "rank": 186,
+          "rank": 174,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 6242,
-            "inHandWins": 3224,
-            "inHandWinRate": 51.7,
-            "openingHandGames": 2692,
-            "openingHandWinRate": 52.7
+            "inHandGames": 7768,
+            "inHandWins": 4036,
+            "inHandWinRate": 52,
+            "openingHandGames": 3296,
+            "openingHandWinRate": 53
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -37983,14 +37983,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/9/1/9128ce00-6744-4d36-bfbe-ef75d78110b0.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/9/1/9128ce00-6744-4d36-bfbe-ef75d78110b0.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/181/hexhaven-dueling-arena?utm_source=api",
-          "rank": 253,
+          "rank": 258,
           "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 3019,
-            "inHandWins": 1443,
-            "inHandWinRate": 47.8,
-            "openingHandGames": 1113,
+            "inHandGames": 3615,
+            "inHandWins": 1712,
+            "inHandWinRate": 47.4,
+            "openingHandGames": 1331,
             "openingHandWinRate": 45.3
           },
           "reviewGrade": "1.5",
@@ -38017,14 +38017,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/8/4/84ea799a-faa2-4ff1-a933-432d4ee31a3b.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/8/4/84ea799a-faa2-4ff1-a933-432d4ee31a3b.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/182/innovative-commons?utm_source=api",
-          "rank": 140,
+          "rank": 135,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 20779,
-            "inHandWins": 11034,
-            "inHandWinRate": 53.1,
-            "openingHandGames": 8581,
+            "inHandGames": 25992,
+            "inHandWins": 13848,
+            "inHandWinRate": 53.3,
+            "openingHandGames": 10665,
             "openingHandWinRate": 54.4
           },
           "reviewGrade": "2.5",
@@ -38051,14 +38051,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/3/9/39c805e3-82cd-42a9-80fe-8d81712a94ea.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/3/9/39c805e3-82cd-42a9-80fe-8d81712a94ea.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/183/konstrari-annex?utm_source=api",
-          "rank": 187,
+          "rank": 182,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 24419,
-            "inHandWins": 12606,
-            "inHandWinRate": 51.6,
-            "openingHandGames": 10447,
+            "inHandGames": 30295,
+            "inHandWins": 15675,
+            "inHandWinRate": 51.7,
+            "openingHandGames": 12923,
             "openingHandWinRate": 53.7
           },
           "reviewGrade": "2.5",
@@ -38085,15 +38085,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/9/3/93ac525e-1919-43dd-aba4-073b7e4c1768.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/9/3/93ac525e-1919-43dd-aba4-073b7e4c1768.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/184/meticulous-commons?utm_source=api",
-          "rank": 183,
+          "rank": 184,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 18173,
-            "inHandWins": 9396,
-            "inHandWinRate": 51.7,
-            "openingHandGames": 7839,
-            "openingHandWinRate": 53.1
+            "inHandGames": 22674,
+            "inHandWins": 11709,
+            "inHandWinRate": 51.6,
+            "openingHandGames": 9741,
+            "openingHandWinRate": 52.8
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -38119,15 +38119,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/1/7/178e61e4-472f-42cd-9d3b-4880c2acc527.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/1/7/178e61e4-472f-42cd-9d3b-4880c2acc527.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/185/overgrown-farmland?utm_source=api",
-          "rank": 182,
+          "rank": 178,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 6348,
-            "inHandWins": 3286,
+            "inHandGames": 7924,
+            "inHandWins": 4106,
             "inHandWinRate": 51.8,
-            "openingHandGames": 2590,
-            "openingHandWinRate": 52.5
+            "openingHandGames": 3247,
+            "openingHandWinRate": 52.4
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -38153,15 +38153,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/e/3/e3c8a8b6-23ba-45ad-80d1-8e2dc79897f7.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/e/3/e3c8a8b6-23ba-45ad-80d1-8e2dc79897f7.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/186/rockfall-vale?utm_source=api",
-          "rank": 194,
+          "rank": 192,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 6946,
-            "inHandWins": 3580,
+            "inHandGames": 8728,
+            "inHandWins": 4496,
             "inHandWinRate": 51.5,
-            "openingHandGames": 2961,
-            "openingHandWinRate": 52.1
+            "openingHandGames": 3716,
+            "openingHandWinRate": 52.3
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -38186,15 +38186,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/d/b/db61361b-bd12-453e-abc2-bbe09b66e3d9.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/d/b/db61361b-bd12-453e-abc2-bbe09b66e3d9.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/187/roiling-canopy?utm_source=api",
-          "rank": 264,
-          "tier": "F",
+          "rank": 260,
+          "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 1801,
-            "inHandWins": 828,
-            "inHandWinRate": 46,
-            "openingHandGames": 733,
-            "openingHandWinRate": 44.5
+            "inHandGames": 2248,
+            "inHandWins": 1057,
+            "inHandWinRate": 47,
+            "openingHandGames": 914,
+            "openingHandWinRate": 47
           },
           "reviewGrade": "0.5",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -38217,15 +38217,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/9/a/9a467560-6676-4fc2-9400-768a79650aa4.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/9/a/9a467560-6676-4fc2-9400-768a79650aa4.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/188/room-of-refuge?utm_source=api",
-          "rank": 138,
+          "rank": 140,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 66423,
-            "inHandWins": 35302,
+            "inHandGames": 82088,
+            "inHandWins": 43559,
             "inHandWinRate": 53.1,
-            "openingHandGames": 28247,
-            "openingHandWinRate": 54.5
+            "openingHandGames": 34890,
+            "openingHandWinRate": 54.4
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -38251,15 +38251,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/9/e/9e944c5b-68ac-4a30-bbd4-09a4288319ce.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/9/e/9e944c5b-68ac-4a30-bbd4-09a4288319ce.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/189/shipwreck-marsh?utm_source=api",
-          "rank": 93,
+          "rank": 89,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 8434,
-            "inHandWins": 4594,
+            "inHandGames": 10493,
+            "inHandWins": 5718,
             "inHandWinRate": 54.5,
-            "openingHandGames": 3326,
-            "openingHandWinRate": 53.6
+            "openingHandGames": 4109,
+            "openingHandWinRate": 53.7
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -38285,15 +38285,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/6/e/6ede3143-69ac-4cbe-922a-d25b07c26da7.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/6/e/6ede3143-69ac-4cbe-922a-d25b07c26da7.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/190/stingerquill-annex?utm_source=api",
-          "rank": 198,
+          "rank": 193,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 20262,
-            "inHandWins": 10413,
-            "inHandWinRate": 51.4,
-            "openingHandGames": 8781,
-            "openingHandWinRate": 52.9
+            "inHandGames": 25330,
+            "inHandWins": 13039,
+            "inHandWinRate": 51.5,
+            "openingHandGames": 10949,
+            "openingHandWinRate": 52.8
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -38320,15 +38320,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/2/22db5bba-46c9-4a26-821d-303ddb386ea4.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/2/22db5bba-46c9-4a26-821d-303ddb386ea4.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/191/theorists-sanctum?utm_source=api",
-          "rank": 51,
+          "rank": 49,
           "tier": "B-",
           "band": "strong",
           "stats": {
-            "inHandGames": 12355,
-            "inHandWins": 6923,
+            "inHandGames": 15406,
+            "inHandWins": 8635,
             "inHandWinRate": 56,
-            "openingHandGames": 4514,
-            "openingHandWinRate": 55.2
+            "openingHandGames": 5619,
+            "openingHandWinRate": 55.1
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -38354,15 +38354,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/9/7/97bbbd23-ecb1-4407-ac14-dede08532a1e.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/9/7/97bbbd23-ecb1-4407-ac14-dede08532a1e.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/192/theorix-annex?utm_source=api",
-          "rank": 86,
+          "rank": 87,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 27837,
-            "inHandWins": 15209,
-            "inHandWinRate": 54.6,
-            "openingHandGames": 11327,
-            "openingHandWinRate": 55.8
+            "inHandGames": 34746,
+            "inHandWins": 18937,
+            "inHandWinRate": 54.5,
+            "openingHandGames": 13990,
+            "openingHandWinRate": 55.6
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -38388,15 +38388,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/b/5/b57d5be7-3157-4b49-aeb8-d7368ca7e9dd.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/b/5/b57d5be7-3157-4b49-aeb8-d7368ca7e9dd.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/193/transformative-commons?utm_source=api",
-          "rank": 116,
+          "rank": 110,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 18803,
-            "inHandWins": 10101,
-            "inHandWinRate": 53.7,
-            "openingHandGames": 7618,
-            "openingHandWinRate": 54.4
+            "inHandGames": 23544,
+            "inHandWins": 12672,
+            "inHandWinRate": 53.8,
+            "openingHandGames": 9447,
+            "openingHandWinRate": 54.5
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -38422,15 +38422,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/d/b/db8c7bdd-76cd-4be0-ae0d-d430e9a5fe7a.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/d/b/db8c7bdd-76cd-4be0-ae0d-d430e9a5fe7a.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/194/vigorbloom-annex?utm_source=api",
-          "rank": 193,
+          "rank": 195,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 21605,
-            "inHandWins": 11138,
-            "inHandWinRate": 51.6,
-            "openingHandGames": 9369,
-            "openingHandWinRate": 53.8
+            "inHandGames": 26682,
+            "inHandWins": 13726,
+            "inHandWinRate": 51.4,
+            "openingHandGames": 11544,
+            "openingHandWinRate": 53.5
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -38455,15 +38455,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/a/5/a5e1a7dd-8c49-4435-935c-bcc78704082b.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/a/5/a5e1a7dd-8c49-4435-935c-bcc78704082b.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/195/ajani-resolute?utm_source=api",
-          "rank": 217,
+          "rank": 207,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 3922,
-            "inHandWins": 1990,
-            "inHandWinRate": 50.7,
-            "openingHandGames": 1490,
-            "openingHandWinRate": 52.6
+            "inHandGames": 4899,
+            "inHandWins": 2497,
+            "inHandWinRate": 51,
+            "openingHandGames": 1877,
+            "openingHandWinRate": 52.8
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-white"
@@ -38490,15 +38490,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/d/5/d5cb9810-3c2d-4ae4-b8b6-0155ca3f47ad.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/d/5/d5cb9810-3c2d-4ae4-b8b6-0155ca3f47ad.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/196/danitha-sword-of-hope?utm_source=api",
-          "rank": 232,
+          "rank": 231,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 7561,
-            "inHandWins": 3790,
-            "inHandWinRate": 50.1,
-            "openingHandGames": 3136,
-            "openingHandWinRate": 50.6
+            "inHandGames": 9046,
+            "inHandWins": 4515,
+            "inHandWinRate": 49.9,
+            "openingHandGames": 3740,
+            "openingHandWinRate": 50.2
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-white"
@@ -38523,15 +38523,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/a/9/a9f3aa55-908f-42db-8135-4201433df850.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/a/9/a9f3aa55-908f-42db-8135-4201433df850.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/197/ghalta-the-immovable?utm_source=api",
-          "rank": 197,
+          "rank": 200,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 4984,
-            "inHandWins": 2562,
-            "inHandWinRate": 51.4,
-            "openingHandGames": 1697,
-            "openingHandWinRate": 50.8
+            "inHandGames": 6147,
+            "inHandWins": 3151,
+            "inHandWinRate": 51.3,
+            "openingHandGames": 2122,
+            "openingHandWinRate": 50.1
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-white"
@@ -38556,15 +38556,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/7/6/768c0e64-9907-417a-a763-c836fdf36883.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/7/6/768c0e64-9907-417a-a763-c836fdf36883.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/198/gideons-memorial?utm_source=api",
-          "rank": 251,
+          "rank": 252,
           "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 8647,
-            "inHandWins": 4148,
+            "inHandGames": 10795,
+            "inHandWins": 5185,
             "inHandWinRate": 48,
-            "openingHandGames": 3358,
-            "openingHandWinRate": 45.7
+            "openingHandGames": 4190,
+            "openingHandWinRate": 46
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-white"
@@ -38591,15 +38591,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/9/2/920703fd-2a2f-454b-8829-af8f2afda4f4.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/9/2/920703fd-2a2f-454b-8829-af8f2afda4f4.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/199/koth-of-the-homestead?utm_source=api",
-          "rank": 165,
+          "rank": 167,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 25313,
-            "inHandWins": 13247,
+            "inHandGames": 30955,
+            "inHandWins": 16183,
             "inHandWinRate": 52.3,
-            "openingHandGames": 10421,
-            "openingHandWinRate": 53.2
+            "openingHandGames": 12740,
+            "openingHandWinRate": 53.1
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-white"
@@ -38624,15 +38624,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/7/0/70d8c400-87dc-4f15-808f-e54a95d779fc.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/7/0/70d8c400-87dc-4f15-808f-e54a95d779fc.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/200/liliana-the-faultless?utm_source=api",
-          "rank": 43,
+          "rank": 45,
           "tier": "B",
           "band": "strong",
           "stats": {
-            "inHandGames": 7717,
-            "inHandWins": 4374,
-            "inHandWinRate": 56.7,
-            "openingHandGames": 2996,
-            "openingHandWinRate": 58.3
+            "inHandGames": 9774,
+            "inHandWins": 5511,
+            "inHandWinRate": 56.4,
+            "openingHandGames": 3814,
+            "openingHandWinRate": 58.7
           },
           "reviewGrade": "4",
           "reviewSourceId": "zone-white"
@@ -38659,15 +38659,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/8/6/86a3866e-68a8-402c-baf0-1908e98e3995.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/8/6/86a3866e-68a8-402c-baf0-1908e98e3995.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/201/lyra-archangel-of-dawn?utm_source=api",
-          "rank": 36,
+          "rank": 39,
           "tier": "B",
           "band": "strong",
           "stats": {
-            "inHandGames": 9378,
-            "inHandWins": 5345,
-            "inHandWinRate": 57,
-            "openingHandGames": 3630,
-            "openingHandWinRate": 57.4
+            "inHandGames": 11637,
+            "inHandWins": 6614,
+            "inHandWinRate": 56.8,
+            "openingHandGames": 4482,
+            "openingHandWinRate": 57.5
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-white"
@@ -38694,15 +38694,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/6/9/699874e3-1ccf-4a6c-8371-61040de82d08.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/6/9/699874e3-1ccf-4a6c-8371-61040de82d08.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/202/rescue-girl-first-responder?utm_source=api",
-          "rank": 216,
+          "rank": 218,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 18144,
-            "inHandWins": 9210,
-            "inHandWinRate": 50.8,
-            "openingHandGames": 6900,
-            "openingHandWinRate": 47.9
+            "inHandGames": 22398,
+            "inHandWins": 11307,
+            "inHandWinRate": 50.5,
+            "openingHandGames": 8518,
+            "openingHandWinRate": 47.3
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-white"
@@ -38729,15 +38729,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/0/7/07572be0-6610-493c-a21e-14b78e9805c9.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/0/7/07572be0-6610-493c-a21e-14b78e9805c9.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/203/saheeli-consul-of-oversight?utm_source=api",
-          "rank": 132,
+          "rank": 124,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 24406,
-            "inHandWins": 13038,
-            "inHandWinRate": 53.4,
-            "openingHandGames": 8529,
-            "openingHandWinRate": 51.3
+            "inHandGames": 30236,
+            "inHandWins": 16179,
+            "inHandWinRate": 53.5,
+            "openingHandGames": 10631,
+            "openingHandWinRate": 51.6
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-white"
@@ -38768,11 +38768,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 23625,
-            "inHandWins": 12813,
+            "inHandGames": 29157,
+            "inHandWins": 15811,
             "inHandWinRate": 54.2,
-            "openingHandGames": 9036,
-            "openingHandWinRate": 52
+            "openingHandGames": 11091,
+            "openingHandWinRate": 52.5
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-white"
@@ -38799,15 +38799,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/8/0/80226231-9e70-430e-aabc-f262f70b9226.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/8/0/80226231-9e70-430e-aabc-f262f70b9226.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/205/thalia-the-survivor?utm_source=api",
-          "rank": 135,
+          "rank": 141,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 18265,
-            "inHandWins": 9734,
-            "inHandWinRate": 53.3,
-            "openingHandGames": 6897,
-            "openingHandWinRate": 53.1
+            "inHandGames": 22678,
+            "inHandWins": 12029,
+            "inHandWinRate": 53,
+            "openingHandGames": 8618,
+            "openingHandWinRate": 52.7
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-white"
@@ -38834,15 +38834,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/7/c/7ca95235-6e54-4ff8-bc2e-6a3d483ff007.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/7/c/7ca95235-6e54-4ff8-bc2e-6a3d483ff007.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/206/tomik-orzhov-lawmage?utm_source=api",
-          "rank": 170,
+          "rank": 171,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 22171,
-            "inHandWins": 11572,
-            "inHandWinRate": 52.2,
-            "openingHandGames": 8942,
-            "openingHandWinRate": 52.3
+            "inHandGames": 27534,
+            "inHandWins": 14343,
+            "inHandWinRate": 52.1,
+            "openingHandGames": 11059,
+            "openingHandWinRate": 52.2
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-white"
@@ -38869,14 +38869,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/5/0/50326a2a-7e10-464b-a97e-e880bda0558c.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/5/0/50326a2a-7e10-464b-a97e-e880bda0558c.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/207/way-of-the-healer?utm_source=api",
-          "rank": 99,
+          "rank": 98,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 30494,
-            "inHandWins": 16577,
+            "inHandGames": 37468,
+            "inHandWins": 20364,
             "inHandWinRate": 54.4,
-            "openingHandGames": 11206,
+            "openingHandGames": 13761,
             "openingHandWinRate": 53.4
           },
           "reviewGrade": "2.5",
@@ -38904,15 +38904,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/1/a/1a59d5b1-12d6-486b-bd29-ca371359addd.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/1/a/1a59d5b1-12d6-486b-bd29-ca371359addd.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/208/way-of-the-mentor?utm_source=api",
-          "rank": 250,
+          "rank": 249,
           "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 16544,
-            "inHandWins": 7977,
-            "inHandWinRate": 48.2,
-            "openingHandGames": 6446,
-            "openingHandWinRate": 46
+            "inHandGames": 19829,
+            "inHandWins": 9581,
+            "inHandWinRate": 48.3,
+            "openingHandGames": 7744,
+            "openingHandWinRate": 46.2
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-white"
@@ -38937,15 +38937,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/3/8/384f3b7d-8d7f-41bf-bebd-64e8babe7fca.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/3/8/384f3b7d-8d7f-41bf-bebd-64e8babe7fca.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/209/yoshimaru-beloved-companion?utm_source=api",
-          "rank": 237,
+          "rank": 238,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 11894,
-            "inHandWins": 5933,
-            "inHandWinRate": 49.9,
-            "openingHandGames": 4745,
-            "openingHandWinRate": 49.1
+            "inHandGames": 14706,
+            "inHandWins": 7317,
+            "inHandWinRate": 49.8,
+            "openingHandGames": 5833,
+            "openingHandWinRate": 49.4
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-white"
@@ -38970,14 +38970,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/c/c/ccbe92a5-42bc-4228-9d5a-212df2f5dc15.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/c/c/ccbe92a5-42bc-4228-9d5a-212df2f5dc15.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/210/yuriko-blade-of-the-mighty?utm_source=api",
-          "rank": 171,
-          "tier": "C-",
-          "band": "playable",
+          "rank": 172,
+          "tier": "D+",
+          "band": "filler",
           "stats": {
-            "inHandGames": 12002,
-            "inHandWins": 6251,
-            "inHandWinRate": 52.1,
-            "openingHandGames": 4485,
+            "inHandGames": 14708,
+            "inHandWins": 7649,
+            "inHandWinRate": 52,
+            "openingHandGames": 5511,
             "openingHandWinRate": 50.2
           },
           "reviewGrade": "2",
@@ -39003,15 +39003,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/8/e/8e3a2239-9348-4639-9318-e9e35b2cf86b.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/8/e/8e3a2239-9348-4639-9318-e9e35b2cf86b.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/211/arni-humble-scribe?utm_source=api",
-          "rank": 151,
+          "rank": 152,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 22687,
-            "inHandWins": 11990,
+            "inHandGames": 28234,
+            "inHandWins": 14917,
             "inHandWinRate": 52.8,
-            "openingHandGames": 8399,
-            "openingHandWinRate": 51.4
+            "openingHandGames": 10341,
+            "openingHandWinRate": 51.6
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-blue"
@@ -39038,15 +39038,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/4/240f58ab-944c-4f4c-9df9-5f40b132bf3e.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/4/240f58ab-944c-4f4c-9df9-5f40b132bf3e.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/212/chandra-chill-of-compliance?utm_source=api",
-          "rank": 44,
+          "rank": 41,
           "tier": "B",
           "band": "strong",
           "stats": {
-            "inHandGames": 4836,
-            "inHandWins": 2738,
-            "inHandWinRate": 56.6,
-            "openingHandGames": 1687,
-            "openingHandWinRate": 54.7
+            "inHandGames": 6156,
+            "inHandWins": 3490,
+            "inHandWinRate": 56.7,
+            "openingHandGames": 2102,
+            "openingHandWinRate": 55.3
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-blue"
@@ -39071,15 +39071,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/a/3/a3a2edbb-d144-4670-acad-17316cea98d2.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/a/3/a3a2edbb-d144-4670-acad-17316cea98d2.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/213/fblthp-impossibly-lost?utm_source=api",
-          "rank": 40,
+          "rank": 43,
           "tier": "B",
           "band": "strong",
           "stats": {
-            "inHandGames": 14522,
-            "inHandWins": 8247,
-            "inHandWinRate": 56.8,
-            "openingHandGames": 5218,
-            "openingHandWinRate": 55.3
+            "inHandGames": 19504,
+            "inHandWins": 11023,
+            "inHandWinRate": 56.5,
+            "openingHandGames": 7003,
+            "openingHandWinRate": 54.9
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-blue"
@@ -39106,15 +39106,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/9/c/9c334530-0880-46b5-a358-9603eee3cecf.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/9/c/9c334530-0880-46b5-a358-9603eee3cecf.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/214/geist-of-saint-thalia?utm_source=api",
-          "rank": 105,
+          "rank": 104,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 23355,
-            "inHandWins": 12610,
-            "inHandWinRate": 54,
-            "openingHandGames": 8675,
-            "openingHandWinRate": 55.1
+            "inHandGames": 28956,
+            "inHandWins": 15668,
+            "inHandWinRate": 54.1,
+            "openingHandGames": 10788,
+            "openingHandWinRate": 54.8
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-blue"
@@ -39139,14 +39139,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/8/5/85faaa9d-4656-4365-871d-7cba53ed0996.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/8/5/85faaa9d-4656-4365-871d-7cba53ed0996.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/215/hapatra-the-desert-frost?utm_source=api",
-          "rank": 169,
+          "rank": 164,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 16668,
-            "inHandWins": 8707,
-            "inHandWinRate": 52.2,
-            "openingHandGames": 5634,
+            "inHandGames": 20146,
+            "inHandWins": 10545,
+            "inHandWinRate": 52.3,
+            "openingHandGames": 6808,
             "openingHandWinRate": 49.1
           },
           "reviewGrade": "3",
@@ -39176,11 +39176,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 9739,
-            "inHandWins": 5376,
-            "inHandWinRate": 55.2,
-            "openingHandGames": 3233,
-            "openingHandWinRate": 52.5
+            "inHandGames": 12242,
+            "inHandWins": 6764,
+            "inHandWinRate": 55.3,
+            "openingHandGames": 4060,
+            "openingHandWinRate": 52.3
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-blue"
@@ -39211,11 +39211,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "A-",
           "band": "top",
           "stats": {
-            "inHandGames": 11902,
-            "inHandWins": 6984,
-            "inHandWinRate": 58.7,
-            "openingHandGames": 3977,
-            "openingHandWinRate": 57.6
+            "inHandGames": 14746,
+            "inHandWins": 8638,
+            "inHandWinRate": 58.6,
+            "openingHandGames": 4922,
+            "openingHandWinRate": 57.3
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-blue"
@@ -39240,15 +39240,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/b/8/b8466593-40fe-4557-89b2-760c1c92087b.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/b/8/b8466593-40fe-4557-89b2-760c1c92087b.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/218/proft-consulting-detective?utm_source=api",
-          "rank": 58,
+          "rank": 57,
           "tier": "B-",
           "band": "strong",
           "stats": {
-            "inHandGames": 26189,
-            "inHandWins": 14561,
+            "inHandGames": 32732,
+            "inHandWins": 18192,
             "inHandWinRate": 55.6,
-            "openingHandGames": 9571,
-            "openingHandWinRate": 54.5
+            "openingHandGames": 11922,
+            "openingHandWinRate": 54.6
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-blue"
@@ -39276,15 +39276,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/0/0/00af4e87-5576-4a43-9422-4c35b2b66775.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/0/0/00af4e87-5576-4a43-9422-4c35b2b66775.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/219/ruric-thar-biomagus?utm_source=api",
-          "rank": 84,
+          "rank": 93,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 27772,
-            "inHandWins": 15179,
-            "inHandWinRate": 54.7,
-            "openingHandGames": 8908,
-            "openingHandWinRate": 51.6
+            "inHandGames": 34307,
+            "inHandWins": 18682,
+            "inHandWinRate": 54.5,
+            "openingHandGames": 10971,
+            "openingHandWinRate": 51.3
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-blue"
@@ -39313,11 +39313,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "F",
           "band": "filler",
           "stats": {
-            "inHandGames": 1848,
-            "inHandWins": 855,
-            "inHandWinRate": 46.3,
-            "openingHandGames": 652,
-            "openingHandWinRate": 44.9
+            "inHandGames": 2248,
+            "inHandWins": 1044,
+            "inHandWinRate": 46.4,
+            "openingHandGames": 799,
+            "openingHandWinRate": 43.9
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-blue"
@@ -39342,15 +39342,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/3/9/3983d71e-3c23-4b36-b331-08e0707d8245.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/3/9/3983d71e-3c23-4b36-b331-08e0707d8245.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/221/tetsuko-umezawa-fugitive?utm_source=api",
-          "rank": 148,
-          "tier": "C-",
+          "rank": 138,
+          "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 16241,
-            "inHandWins": 8593,
-            "inHandWinRate": 52.9,
-            "openingHandGames": 6165,
-            "openingHandWinRate": 52.1
+            "inHandGames": 20454,
+            "inHandWins": 10874,
+            "inHandWinRate": 53.2,
+            "openingHandGames": 7694,
+            "openingHandWinRate": 52.3
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-blue"
@@ -39379,15 +39379,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/a/3/a349800f-b634-4e74-a9d9-185df37ad909.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/a/3/a349800f-b634-4e74-a9d9-185df37ad909.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/222/traxos-academy-guardian?utm_source=api",
-          "rank": 118,
+          "rank": 121,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 23469,
-            "inHandWins": 12596,
-            "inHandWinRate": 53.7,
-            "openingHandGames": 8312,
-            "openingHandWinRate": 51.6
+            "inHandGames": 29369,
+            "inHandWins": 15747,
+            "inHandWinRate": 53.6,
+            "openingHandGames": 10386,
+            "openingHandWinRate": 51.1
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-blue"
@@ -39414,15 +39414,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/8/3/838b0efb-7398-4df9-8fdf-b8af43b47938.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/8/3/838b0efb-7398-4df9-8fdf-b8af43b47938.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/223/way-of-the-cryomancer?utm_source=api",
-          "rank": 230,
+          "rank": 223,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 8063,
-            "inHandWins": 4045,
-            "inHandWinRate": 50.2,
-            "openingHandGames": 2776,
-            "openingHandWinRate": 45.7
+            "inHandGames": 9977,
+            "inHandWins": 5026,
+            "inHandWinRate": 50.4,
+            "openingHandGames": 3435,
+            "openingHandWinRate": 45.8
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-blue"
@@ -39453,11 +39453,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "B-",
           "band": "strong",
           "stats": {
-            "inHandGames": 29339,
-            "inHandWins": 16453,
-            "inHandWinRate": 56.1,
-            "openingHandGames": 9853,
-            "openingHandWinRate": 54.1
+            "inHandGames": 36432,
+            "inHandWins": 20385,
+            "inHandWinRate": 56,
+            "openingHandGames": 12230,
+            "openingHandWinRate": 53.7
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-blue"
@@ -39486,11 +39486,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "F",
           "band": "filler",
           "stats": {
-            "inHandGames": 1768,
-            "inHandWins": 804,
-            "inHandWinRate": 45.5,
-            "openingHandGames": 614,
-            "openingHandWinRate": 43.8
+            "inHandGames": 2084,
+            "inHandWins": 944,
+            "inHandWinRate": 45.3,
+            "openingHandGames": 722,
+            "openingHandWinRate": 44.2
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-blue"
@@ -39522,11 +39522,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 14691,
-            "inHandWins": 7629,
+            "inHandGames": 17837,
+            "inHandWins": 9258,
             "inHandWinRate": 51.9,
-            "openingHandGames": 5422,
-            "openingHandWinRate": 50.7
+            "openingHandGames": 6644,
+            "openingHandWinRate": 50.5
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-blue"
@@ -39553,15 +39553,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/6/4/6489814b-3d10-423e-988c-324740d36748.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/6/4/6489814b-3d10-423e-988c-324740d36748.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/227/danitha-spear-of-agony?utm_source=api",
-          "rank": 238,
-          "tier": "D",
+          "rank": 240,
+          "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 18624,
-            "inHandWins": 9279,
-            "inHandWinRate": 49.8,
-            "openingHandGames": 7508,
-            "openingHandWinRate": 49.1
+            "inHandGames": 22596,
+            "inHandWins": 11201,
+            "inHandWinRate": 49.6,
+            "openingHandGames": 9072,
+            "openingHandWinRate": 48.9
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-black"
@@ -39588,15 +39588,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/4/9/498fa810-8522-4020-b773-52ad404c9f65.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/4/9/498fa810-8522-4020-b773-52ad404c9f65.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/228/gallia-tragic-host?utm_source=api",
-          "rank": 108,
+          "rank": 107,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 21894,
-            "inHandWins": 11804,
-            "inHandWinRate": 53.9,
-            "openingHandGames": 8937,
-            "openingHandWinRate": 54.8
+            "inHandGames": 27134,
+            "inHandWins": 14639,
+            "inHandWinRate": 54,
+            "openingHandGames": 11069,
+            "openingHandWinRate": 55.2
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-black"
@@ -39625,11 +39625,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "S",
           "band": "top",
           "stats": {
-            "inHandGames": 5222,
-            "inHandWins": 3396,
-            "inHandWinRate": 65,
-            "openingHandGames": 1829,
-            "openingHandWinRate": 64.9
+            "inHandGames": 6482,
+            "inHandWins": 4220,
+            "inHandWinRate": 65.1,
+            "openingHandGames": 2254,
+            "openingHandWinRate": 64.8
           },
           "reviewGrade": "4.5",
           "reviewSourceId": "zone-black"
@@ -39656,15 +39656,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/c/9/c985b0d1-25bd-4069-aab7-a566ff27a8f6.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/c/9/c985b0d1-25bd-4069-aab7-a566ff27a8f6.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/230/gideon-the-oathless?utm_source=api",
-          "rank": 29,
+          "rank": 27,
           "tier": "B",
           "band": "strong",
           "stats": {
-            "inHandGames": 10971,
-            "inHandWins": 6297,
+            "inHandGames": 13528,
+            "inHandWins": 7767,
             "inHandWinRate": 57.4,
-            "openingHandGames": 4305,
-            "openingHandWinRate": 58.5
+            "openingHandGames": 5273,
+            "openingHandWinRate": 58.4
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-black"
@@ -39692,15 +39692,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/1/e/1eb25a6c-d6b4-465d-990e-f1ab86b26b69.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/1/e/1eb25a6c-d6b4-465d-990e-f1ab86b26b69.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/231/liliana-the-repentant?utm_source=api",
-          "rank": 83,
+          "rank": 91,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 10432,
-            "inHandWins": 5704,
-            "inHandWinRate": 54.7,
-            "openingHandGames": 4023,
-            "openingHandWinRate": 52.7
+            "inHandGames": 12951,
+            "inHandWins": 7055,
+            "inHandWinRate": 54.5,
+            "openingHandGames": 4970,
+            "openingHandWinRate": 53.1
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-black"
@@ -39727,15 +39727,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/4/f/4f6fd2fa-8bc8-4743-bbc8-b56475d64eff.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/4/f/4f6fd2fa-8bc8-4743-bbc8-b56475d64eff.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/232/loot-the-anomaly?utm_source=api",
-          "rank": 257,
+          "rank": 256,
           "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 1938,
-            "inHandWins": 916,
-            "inHandWinRate": 47.3,
-            "openingHandGames": 732,
-            "openingHandWinRate": 47.4
+            "inHandGames": 2277,
+            "inHandWins": 1082,
+            "inHandWinRate": 47.5,
+            "openingHandGames": 864,
+            "openingHandWinRate": 46.3
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-black"
@@ -39762,15 +39762,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/b/2/b2a412b0-2ae4-4552-bc5e-70654b6b9b4e.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/b/2/b2a412b0-2ae4-4552-bc5e-70654b6b9b4e.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/233/mabel-bitter-recluse?utm_source=api",
-          "rank": 179,
+          "rank": 180,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 19662,
-            "inHandWins": 10202,
-            "inHandWinRate": 51.9,
-            "openingHandGames": 7725,
-            "openingHandWinRate": 51.2
+            "inHandGames": 23944,
+            "inHandWins": 12397,
+            "inHandWinRate": 51.8,
+            "openingHandGames": 9345,
+            "openingHandWinRate": 51.1
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-black"
@@ -39795,15 +39795,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/9/0/9028d31f-9c41-47e3-885b-6a869bca8178.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/9/0/9028d31f-9c41-47e3-885b-6a869bca8178.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/234/massacre-girl-most-wanted?utm_source=api",
-          "rank": 226,
+          "rank": 227,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 18556,
-            "inHandWins": 9349,
-            "inHandWinRate": 50.4,
-            "openingHandGames": 6965,
-            "openingHandWinRate": 47.6
+            "inHandGames": 22348,
+            "inHandWins": 11203,
+            "inHandWinRate": 50.1,
+            "openingHandGames": 8409,
+            "openingHandWinRate": 47.8
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-black"
@@ -39831,15 +39831,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/d/3/d36b0e06-cb82-4c48-bf35-e76f109116f6.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/d/3/d36b0e06-cb82-4c48-bf35-e76f109116f6.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/235/proft-sinister-mastermind?utm_source=api",
-          "rank": 163,
+          "rank": 162,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 21006,
-            "inHandWins": 11002,
+            "inHandGames": 25712,
+            "inHandWins": 13466,
             "inHandWinRate": 52.4,
-            "openingHandGames": 7912,
-            "openingHandWinRate": 50.2
+            "openingHandGames": 9651,
+            "openingHandWinRate": 50.1
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-black"
@@ -39866,15 +39866,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/1/0/100c3b67-0c92-4224-b5ed-67789c612df7.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/1/0/100c3b67-0c92-4224-b5ed-67789c612df7.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/236/teyo-diamondblade-mage?utm_source=api",
-          "rank": 223,
+          "rank": 226,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 13054,
-            "inHandWins": 6585,
-            "inHandWinRate": 50.4,
-            "openingHandGames": 4888,
-            "openingHandWinRate": 48
+            "inHandGames": 15833,
+            "inHandWins": 7945,
+            "inHandWinRate": 50.2,
+            "openingHandGames": 5883,
+            "openingHandWinRate": 47.9
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-black"
@@ -39903,10 +39903,10 @@ window.LIMITED_PREP_DATA = {
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 18163,
-            "inHandWins": 9691,
-            "inHandWinRate": 53.4,
-            "openingHandGames": 7213,
+            "inHandGames": 22375,
+            "inHandWins": 11929,
+            "inHandWinRate": 53.3,
+            "openingHandGames": 8837,
             "openingHandWinRate": 52.1
           },
           "reviewGrade": "2",
@@ -39934,15 +39934,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/1/2/12dd46b2-e892-4660-b120-55766fd4d878.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/1/2/12dd46b2-e892-4660-b120-55766fd4d878.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/238/way-of-the-deathbringer?utm_source=api",
-          "rank": 207,
-          "tier": "D+",
+          "rank": 217,
+          "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 5660,
-            "inHandWins": 2892,
-            "inHandWinRate": 51.1,
-            "openingHandGames": 2085,
-            "openingHandWinRate": 49.3
+            "inHandGames": 6784,
+            "inHandWins": 3429,
+            "inHandWinRate": 50.5,
+            "openingHandGames": 2494,
+            "openingHandWinRate": 49.1
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-black"
@@ -39973,11 +39973,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "F",
           "band": "filler",
           "stats": {
-            "inHandGames": 1922,
-            "inHandWins": 815,
-            "inHandWinRate": 42.4,
-            "openingHandGames": 760,
-            "openingHandWinRate": 40.3
+            "inHandGames": 2185,
+            "inHandWins": 915,
+            "inHandWinRate": 41.9,
+            "openingHandGames": 858,
+            "openingHandWinRate": 40
           },
           "reviewGrade": "1",
           "reviewSourceId": "zone-black"
@@ -40006,10 +40006,10 @@ window.LIMITED_PREP_DATA = {
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 18411,
-            "inHandWins": 9560,
+            "inHandGames": 22510,
+            "inHandWins": 11678,
             "inHandWinRate": 51.9,
-            "openingHandGames": 7072,
+            "openingHandGames": 8613,
             "openingHandWinRate": 49.5
           },
           "reviewGrade": "1.5",
@@ -40039,11 +40039,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "F",
           "band": "filler",
           "stats": {
-            "inHandGames": 674,
-            "inHandWins": 280,
-            "inHandWinRate": 41.5,
-            "openingHandGames": 268,
-            "openingHandWinRate": 39.2
+            "inHandGames": 802,
+            "inHandWins": 335,
+            "inHandWinRate": 41.8,
+            "openingHandGames": 302,
+            "openingHandWinRate": 40.1
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-black"
@@ -40072,11 +40072,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "S",
           "band": "top",
           "stats": {
-            "inHandGames": 6380,
-            "inHandWins": 4516,
+            "inHandGames": 7887,
+            "inHandWins": 5585,
             "inHandWinRate": 70.8,
-            "openingHandGames": 2282,
-            "openingHandWinRate": 69.2
+            "openingHandGames": 2821,
+            "openingHandWinRate": 69.4
           },
           "reviewGrade": "5",
           "reviewSourceId": "zone-red"
@@ -40103,15 +40103,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/b/d/bd8db649-1dba-457d-8327-e1f1da1aab36.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/b/d/bd8db649-1dba-457d-8327-e1f1da1aab36.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/243/arni-renowned-champion?utm_source=api",
-          "rank": 260,
+          "rank": 259,
           "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 4951,
-            "inHandWins": 2325,
-            "inHandWinRate": 47,
-            "openingHandGames": 1942,
-            "openingHandWinRate": 45.5
+            "inHandGames": 5893,
+            "inHandWins": 2774,
+            "inHandWinRate": 47.1,
+            "openingHandGames": 2327,
+            "openingHandWinRate": 46
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-red"
@@ -40136,15 +40136,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/4/0/40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/4/0/40cb22c8-cb03-45c9-bb0e-b8cabdcc43cd.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/244/chandra-torch-of-defiance?utm_source=api",
-          "rank": 20,
+          "rank": 19,
           "tier": "A-",
           "band": "top",
           "stats": {
-            "inHandGames": 5185,
-            "inHandWins": 3075,
-            "inHandWinRate": 59.3,
-            "openingHandGames": 1904,
-            "openingHandWinRate": 59.2
+            "inHandGames": 6484,
+            "inHandWins": 3863,
+            "inHandWinRate": 59.6,
+            "openingHandGames": 2364,
+            "openingHandWinRate": 59.1
           },
           "reviewGrade": "4.5",
           "reviewSourceId": "zone-red"
@@ -40171,15 +40171,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/f/2/f27d50f0-d76e-4ce1-a8d9-d997af6a5b41.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/f/2/f27d50f0-d76e-4ce1-a8d9-d997af6a5b41.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/245/gallia-the-merrymaker?utm_source=api",
-          "rank": 229,
+          "rank": 235,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 11341,
-            "inHandWins": 5690,
-            "inHandWinRate": 50.2,
-            "openingHandGames": 4965,
-            "openingHandWinRate": 51.1
+            "inHandGames": 13710,
+            "inHandWins": 6830,
+            "inHandWinRate": 49.8,
+            "openingHandGames": 5951,
+            "openingHandWinRate": 50.6
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-red"
@@ -40206,15 +40206,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/e/8/e8c1ce21-b77d-40bf-9ed1-478604e71f5f.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/e/8/e8c1ce21-b77d-40bf-9ed1-478604e71f5f.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/246/jiang-yanggu-alone?utm_source=api",
-          "rank": 195,
+          "rank": 186,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 12506,
-            "inHandWins": 6443,
-            "inHandWinRate": 51.5,
-            "openingHandGames": 4691,
-            "openingHandWinRate": 50.6
+            "inHandGames": 15155,
+            "inHandWins": 7825,
+            "inHandWinRate": 51.6,
+            "openingHandGames": 5718,
+            "openingHandWinRate": 50.8
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-red"
@@ -40239,15 +40239,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/0/8/08657053-86f9-4c52-abf0-d9cdd443ae3b.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/0/8/08657053-86f9-4c52-abf0-d9cdd443ae3b.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/247/kiora-of-fire-and-ashes?utm_source=api",
-          "rank": 13,
+          "rank": 12,
           "tier": "A",
           "band": "top",
           "stats": {
-            "inHandGames": 27584,
-            "inHandWins": 16767,
-            "inHandWinRate": 60.8,
-            "openingHandGames": 10187,
-            "openingHandWinRate": 58.9
+            "inHandGames": 34091,
+            "inHandWins": 20663,
+            "inHandWinRate": 60.6,
+            "openingHandGames": 12469,
+            "openingHandWinRate": 58.6
           },
           "reviewGrade": "4",
           "reviewSourceId": "zone-red"
@@ -40275,15 +40275,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/5/4/54f64e95-5a97-4d7c-9939-7f33a3165562.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/5/4/54f64e95-5a97-4d7c-9939-7f33a3165562.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/248/koth-the-geomancer?utm_source=api",
-          "rank": 224,
+          "rank": 221,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 20228,
-            "inHandWins": 10199,
+            "inHandGames": 24909,
+            "inHandWins": 12565,
             "inHandWinRate": 50.4,
-            "openingHandGames": 8405,
-            "openingHandWinRate": 49.8
+            "openingHandGames": 10301,
+            "openingHandWinRate": 50.3
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-red"
@@ -40308,14 +40308,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/f/9/f93da73c-ca8b-438e-8387-6109dac3fc1a.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/f/9/f93da73c-ca8b-438e-8387-6109dac3fc1a.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/249/marwyn-the-clearcutter?utm_source=api",
-          "rank": 127,
+          "rank": 133,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 18819,
-            "inHandWins": 10071,
-            "inHandWinRate": 53.5,
-            "openingHandGames": 7919,
+            "inHandGames": 23161,
+            "inHandWins": 12360,
+            "inHandWinRate": 53.4,
+            "openingHandGames": 9719,
             "openingHandWinRate": 56.4
           },
           "reviewGrade": "3",
@@ -40341,15 +40341,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/d/d/dd3faaf4-45ca-4714-8dbe-37102ec131cf.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/d/d/dd3faaf4-45ca-4714-8dbe-37102ec131cf.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/250/pia-determined-rebuilder?utm_source=api",
-          "rank": 117,
+          "rank": 106,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 27451,
-            "inHandWins": 14740,
-            "inHandWinRate": 53.7,
-            "openingHandGames": 11217,
-            "openingHandWinRate": 52.9
+            "inHandGames": 34161,
+            "inHandWins": 18437,
+            "inHandWinRate": 54,
+            "openingHandGames": 13902,
+            "openingHandWinRate": 53.3
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-red"
@@ -40374,15 +40374,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/b/a/ba920f23-f05c-410e-8516-c93abedf1d4d.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/b/a/ba920f23-f05c-410e-8516-c93abedf1d4d.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/251/samut-hazorets-champion?utm_source=api",
-          "rank": 123,
+          "rank": 127,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 9068,
-            "inHandWins": 4858,
-            "inHandWinRate": 53.6,
-            "openingHandGames": 3836,
-            "openingHandWinRate": 55
+            "inHandGames": 11002,
+            "inHandWins": 5883,
+            "inHandWinRate": 53.5,
+            "openingHandGames": 4639,
+            "openingHandWinRate": 54.9
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-red"
@@ -40410,15 +40410,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/d/f/df818900-ce5e-4b0d-a927-c975cbef7eda.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/d/f/df818900-ce5e-4b0d-a927-c975cbef7eda.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/252/tetsuko-umezawa-pursuer?utm_source=api",
-          "rank": 181,
+          "rank": 191,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 13045,
-            "inHandWins": 6755,
-            "inHandWinRate": 51.8,
-            "openingHandGames": 4971,
-            "openingHandWinRate": 52.1
+            "inHandGames": 15842,
+            "inHandWins": 8162,
+            "inHandWinRate": 51.5,
+            "openingHandGames": 6047,
+            "openingHandWinRate": 51.6
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-red"
@@ -40445,15 +40445,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/5/c/5c5afd5f-6f37-4c3e-83f0-68fdcea98810.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/5/c/5c5afd5f-6f37-4c3e-83f0-68fdcea98810.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/253/tomik-izzet-sparkmage?utm_source=api",
-          "rank": 244,
+          "rank": 245,
           "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 20169,
-            "inHandWins": 9936,
-            "inHandWinRate": 49.3,
-            "openingHandGames": 8660,
-            "openingHandWinRate": 49.9
+            "inHandGames": 24605,
+            "inHandWins": 12068,
+            "inHandWinRate": 49,
+            "openingHandGames": 10578,
+            "openingHandWinRate": 49.7
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-red"
@@ -40484,10 +40484,10 @@ window.LIMITED_PREP_DATA = {
           "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 25971,
-            "inHandWins": 12799,
-            "inHandWinRate": 49.3,
-            "openingHandGames": 10541,
+            "inHandGames": 31661,
+            "inHandWins": 15577,
+            "inHandWinRate": 49.2,
+            "openingHandGames": 12877,
             "openingHandWinRate": 50.7
           },
           "reviewGrade": "1",
@@ -40515,14 +40515,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/6/d/6d86e410-20c4-4248-96bf-5780ece6274a.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/6/d/6d86e410-20c4-4248-96bf-5780ece6274a.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/255/way-of-the-warlord?utm_source=api",
-          "rank": 190,
+          "rank": 179,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 20060,
-            "inHandWins": 10346,
-            "inHandWinRate": 51.6,
-            "openingHandGames": 7733,
+            "inHandGames": 24712,
+            "inHandWins": 12799,
+            "inHandWinRate": 51.8,
+            "openingHandGames": 9532,
             "openingHandWinRate": 49.9
           },
           "reviewGrade": "2.5",
@@ -40550,15 +40550,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/d/f/df8713cd-3f4b-43ef-adbd-e37c2617c617.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/d/f/df8713cd-3f4b-43ef-adbd-e37c2617c617.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/256/winter-team-player?utm_source=api",
-          "rank": 254,
+          "rank": 253,
           "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 5727,
-            "inHandWins": 2730,
+            "inHandGames": 6843,
+            "inHandWins": 3264,
             "inHandWinRate": 47.7,
-            "openingHandGames": 2165,
-            "openingHandWinRate": 45.8
+            "openingHandGames": 2581,
+            "openingHandWinRate": 46.3
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-red"
@@ -40585,15 +40585,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/d/a/dad6afc9-8505-4cdd-bf79-e9ba4670f2bb.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/d/a/dad6afc9-8505-4cdd-bf79-e9ba4670f2bb.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/257/edgar-moonlit-sovereign?utm_source=api",
-          "rank": 234,
+          "rank": 237,
           "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 18491,
-            "inHandWins": 9244,
-            "inHandWinRate": 50,
-            "openingHandGames": 6878,
-            "openingHandWinRate": 48.7
+            "inHandGames": 22686,
+            "inHandWins": 11292,
+            "inHandWinRate": 49.8,
+            "openingHandGames": 8508,
+            "openingHandWinRate": 48.2
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-green"
@@ -40620,15 +40620,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/8/28fbb55a-5c9d-45ee-bf42-a84b1048f5d2.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/8/28fbb55a-5c9d-45ee-bf42-a84b1048f5d2.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/258/fblthp-knows-the-way?utm_source=api",
-          "rank": 81,
+          "rank": 74,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 25426,
-            "inHandWins": 13914,
-            "inHandWinRate": 54.7,
-            "openingHandGames": 10146,
-            "openingHandWinRate": 53.6
+            "inHandGames": 31768,
+            "inHandWins": 17462,
+            "inHandWinRate": 55,
+            "openingHandGames": 12620,
+            "openingHandWinRate": 54
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-green"
@@ -40653,15 +40653,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/9/0/90ca5812-ceb5-46bd-b049-aed7ff10e6af.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/9/0/90ca5812-ceb5-46bd-b049-aed7ff10e6af.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/259/garruk-curse-breaker?utm_source=api",
-          "rank": 6,
+          "rank": 5,
           "tier": "S",
           "band": "top",
           "stats": {
-            "inHandGames": 5526,
-            "inHandWins": 3487,
-            "inHandWinRate": 63.1,
-            "openingHandGames": 2008,
-            "openingHandWinRate": 61.7
+            "inHandGames": 6951,
+            "inHandWins": 4425,
+            "inHandWinRate": 63.7,
+            "openingHandGames": 2529,
+            "openingHandWinRate": 62
           },
           "reviewGrade": "5",
           "reviewSourceId": "zone-green"
@@ -40688,15 +40688,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/1/d/1d535b5f-c916-4f16-89a7-9477578826d2.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/1/d/1d535b5f-c916-4f16-89a7-9477578826d2.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/260/ghalta-the-unstoppable?utm_source=api",
-          "rank": 115,
+          "rank": 119,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 20840,
-            "inHandWins": 11196,
+            "inHandGames": 25708,
+            "inHandWins": 13793,
             "inHandWinRate": 53.7,
-            "openingHandGames": 7618,
-            "openingHandWinRate": 51.5
+            "openingHandGames": 9322,
+            "openingHandWinRate": 51.2
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-green"
@@ -40725,11 +40725,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 27209,
-            "inHandWins": 14430,
+            "inHandGames": 33283,
+            "inHandWins": 17636,
             "inHandWinRate": 53,
-            "openingHandGames": 10650,
-            "openingHandWinRate": 52.4
+            "openingHandGames": 12988,
+            "openingHandWinRate": 52.1
           },
           "reviewGrade": "3.5",
           "reviewSourceId": "zone-green"
@@ -40754,15 +40754,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/3/c/3cfa4fc6-4d90-4576-a83f-6496c7f21104.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/3/c/3cfa4fc6-4d90-4576-a83f-6496c7f21104.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/262/loot-the-nexus?utm_source=api",
-          "rank": 205,
+          "rank": 201,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 20031,
-            "inHandWins": 10243,
-            "inHandWinRate": 51.1,
-            "openingHandGames": 8210,
-            "openingHandWinRate": 52.2
+            "inHandGames": 24801,
+            "inHandWins": 12698,
+            "inHandWinRate": 51.2,
+            "openingHandGames": 10209,
+            "openingHandWinRate": 51.6
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-green"
@@ -40787,15 +40787,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/9/0/90f33f99-7bc5-42e1-815e-bfb4c2b74107.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/9/0/90f33f99-7bc5-42e1-815e-bfb4c2b74107.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/263/marwyn-the-preserver?utm_source=api",
-          "rank": 177,
-          "tier": "D+",
-          "band": "filler",
+          "rank": 168,
+          "tier": "C-",
+          "band": "playable",
           "stats": {
-            "inHandGames": 18659,
-            "inHandWins": 9686,
-            "inHandWinRate": 51.9,
-            "openingHandGames": 7669,
-            "openingHandWinRate": 52.8
+            "inHandGames": 23180,
+            "inHandWins": 12089,
+            "inHandWinRate": 52.2,
+            "openingHandGames": 9483,
+            "openingHandWinRate": 53.1
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-green"
@@ -40824,11 +40824,11 @@ window.LIMITED_PREP_DATA = {
           "tier": "F",
           "band": "filler",
           "stats": {
-            "inHandGames": 7045,
-            "inHandWins": 3273,
-            "inHandWinRate": 46.5,
-            "openingHandGames": 2690,
-            "openingHandWinRate": 43.4
+            "inHandGames": 8307,
+            "inHandWins": 3876,
+            "inHandWinRate": 46.7,
+            "openingHandGames": 3189,
+            "openingHandWinRate": 43.2
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-green"
@@ -40857,15 +40857,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/e/e/eed83302-dc2c-45f4-a4bd-af9da51edef5.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/e/e/eed83302-dc2c-45f4-a4bd-af9da51edef5.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/265/ruric-thar-magecrusher?utm_source=api",
-          "rank": 113,
+          "rank": 115,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 24545,
-            "inHandWins": 13190,
+            "inHandGames": 30272,
+            "inHandWins": 16255,
             "inHandWinRate": 53.7,
-            "openingHandGames": 8812,
-            "openingHandWinRate": 50.4
+            "openingHandGames": 10854,
+            "openingHandWinRate": 50.8
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-green"
@@ -40892,15 +40892,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/e/d/edea6f70-a5a7-475d-b7f2-97933d0f32cf.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/e/d/edea6f70-a5a7-475d-b7f2-97933d0f32cf.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/266/titanbones-towering-heart?utm_source=api",
-          "rank": 191,
+          "rank": 185,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 20081,
-            "inHandWins": 10356,
+            "inHandGames": 24462,
+            "inHandWins": 12632,
             "inHandWinRate": 51.6,
-            "openingHandGames": 7809,
-            "openingHandWinRate": 50.4
+            "openingHandGames": 9512,
+            "openingHandWinRate": 50.6
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-green"
@@ -40927,15 +40927,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/9/8/98dc5470-507a-4364-8480-42607255e56c.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/9/8/98dc5470-507a-4364-8480-42607255e56c.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/267/way-of-the-paradox?utm_source=api",
-          "rank": 124,
+          "rank": 120,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 20492,
-            "inHandWins": 10977,
+            "inHandGames": 25276,
+            "inHandWins": 13558,
             "inHandWinRate": 53.6,
-            "openingHandGames": 7745,
-            "openingHandWinRate": 53.2
+            "openingHandGames": 9535,
+            "openingHandWinRate": 53.1
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-green"
@@ -40966,10 +40966,10 @@ window.LIMITED_PREP_DATA = {
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 28539,
-            "inHandWins": 15183,
+            "inHandGames": 35079,
+            "inHandWins": 18668,
             "inHandWinRate": 53.2,
-            "openingHandGames": 10408,
+            "openingHandGames": 12751,
             "openingHandWinRate": 51.8
           },
           "reviewGrade": "3.5",
@@ -40997,15 +40997,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/b/8/b8dfd087-2434-42c6-ac4c-1decbcdde2db.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/b/8/b8dfd087-2434-42c6-ac4c-1decbcdde2db.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/269/yoshimaru-scrappy-stray?utm_source=api",
-          "rank": 161,
+          "rank": 159,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 24892,
-            "inHandWins": 13064,
+            "inHandGames": 30512,
+            "inHandWins": 16023,
             "inHandWinRate": 52.5,
-            "openingHandGames": 9778,
-            "openingHandWinRate": 49.4
+            "openingHandGames": 11943,
+            "openingHandWinRate": 49.7
           },
           "reviewGrade": "2.5",
           "reviewSourceId": "zone-green"
@@ -41031,15 +41031,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/7/c/7c619fed-2394-4efc-8cdc-6df5f51c1f57.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/7/c/7c619fed-2394-4efc-8cdc-6df5f51c1f57.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/270/edgar-ancient-bloodlord?utm_source=api",
-          "rank": 203,
-          "tier": "D+",
+          "rank": 209,
+          "tier": "D",
           "band": "filler",
           "stats": {
-            "inHandGames": 9015,
-            "inHandWins": 4613,
-            "inHandWinRate": 51.2,
-            "openingHandGames": 3726,
-            "openingHandWinRate": 50.9
+            "inHandGames": 11001,
+            "inHandWins": 5598,
+            "inHandWinRate": 50.9,
+            "openingHandGames": 4568,
+            "openingHandWinRate": 50.4
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-multicolor"
@@ -41065,14 +41065,14 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/c/f/cf7c1534-af41-4991-b3c3-f0a34ae330b5.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/c/f/cf7c1534-af41-4991-b3c3-f0a34ae330b5.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/271/hapatra-the-desert-fang?utm_source=api",
-          "rank": 25,
+          "rank": 26,
           "tier": "B+",
           "band": "strong",
           "stats": {
-            "inHandGames": 21579,
-            "inHandWins": 12442,
-            "inHandWinRate": 57.7,
-            "openingHandGames": 8206,
+            "inHandGames": 27082,
+            "inHandWins": 15591,
+            "inHandWinRate": 57.6,
+            "openingHandGames": 10189,
             "openingHandWinRate": 55.4
           },
           "reviewGrade": "3.5",
@@ -41105,15 +41105,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/3/a/3abcae65-5b21-4c98-adad-34b8bc76ea3a.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/3/a/3abcae65-5b21-4c98-adad-34b8bc76ea3a.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/272/karn-gilded-guardian?utm_source=api",
-          "rank": 258,
+          "rank": 257,
           "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 568,
-            "inHandWins": 267,
-            "inHandWinRate": 47,
-            "openingHandGames": 194,
-            "openingHandWinRate": 41.8
+            "inHandGames": 689,
+            "inHandWins": 327,
+            "inHandWinRate": 47.5,
+            "openingHandGames": 236,
+            "openingHandWinRate": 41.5
           },
           "reviewGrade": "1.5",
           "reviewSourceId": "zone-multicolor"
@@ -41139,15 +41139,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/8/1/8151f5f5-e9f6-4fbe-b543-f456ebf22aa5.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/8/1/8151f5f5-e9f6-4fbe-b543-f456ebf22aa5.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/273/kiora-of-salt-and-sand?utm_source=api",
-          "rank": 168,
+          "rank": 165,
           "tier": "C-",
           "band": "playable",
           "stats": {
-            "inHandGames": 5038,
-            "inHandWins": 2633,
+            "inHandGames": 6341,
+            "inHandWins": 3319,
             "inHandWinRate": 52.3,
-            "openingHandGames": 1770,
-            "openingHandWinRate": 48.6
+            "openingHandGames": 2189,
+            "openingHandWinRate": 48.7
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-multicolor"
@@ -41173,15 +41173,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/4/7/47abea4b-9848-48aa-bc1b-f04f4799e920.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/4/7/47abea4b-9848-48aa-bc1b-f04f4799e920.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/274/mabel-valley-hero?utm_source=api",
-          "rank": 240,
+          "rank": 239,
           "tier": "D-",
           "band": "filler",
           "stats": {
-            "inHandGames": 12048,
-            "inHandWins": 5982,
-            "inHandWinRate": 49.7,
-            "openingHandGames": 5108,
-            "openingHandWinRate": 49.6
+            "inHandGames": 14907,
+            "inHandWins": 7394,
+            "inHandWinRate": 49.6,
+            "openingHandGames": 6321,
+            "openingHandWinRate": 50.1
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-multicolor"
@@ -41207,15 +41207,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/2/8/28d84ef6-e190-46d4-882d-1cea5e111e2a.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/2/8/28d84ef6-e190-46d4-882d-1cea5e111e2a.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/275/saheeli-jewel-of-avishkar?utm_source=api",
-          "rank": 100,
+          "rank": 97,
           "tier": "C+",
           "band": "playable",
           "stats": {
-            "inHandGames": 20865,
-            "inHandWins": 11342,
+            "inHandGames": 26047,
+            "inHandWins": 14164,
             "inHandWinRate": 54.4,
-            "openingHandGames": 7571,
-            "openingHandWinRate": 53.2
+            "openingHandGames": 9413,
+            "openingHandWinRate": 53
           },
           "reviewGrade": "4",
           "reviewSourceId": "zone-multicolor"
@@ -41250,11 +41250,11 @@ window.LIMITED_PREP_DATA = {
           "tier": null,
           "band": "unrated",
           "stats": {
-            "inHandGames": 162,
-            "inHandWins": 61,
-            "inHandWinRate": 37.7,
-            "openingHandGames": 60,
-            "openingHandWinRate": 31.7
+            "inHandGames": 189,
+            "inHandWins": 72,
+            "inHandWinRate": 38.1,
+            "openingHandGames": 72,
+            "openingHandWinRate": 36.1
           },
           "reviewGrade": "1",
           "reviewSourceId": "zone-multicolor"
@@ -41283,15 +41283,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/f/3/f3869752-eade-4e7a-8dd1-68cafb9e10be.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/f/3/f3869752-eade-4e7a-8dd1-68cafb9e10be.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/277/vraska-soul-of-stone?utm_source=api",
-          "rank": 121,
+          "rank": 130,
           "tier": "C",
           "band": "playable",
           "stats": {
-            "inHandGames": 3377,
-            "inHandWins": 1812,
-            "inHandWinRate": 53.7,
-            "openingHandGames": 1253,
-            "openingHandWinRate": 53.7
+            "inHandGames": 4264,
+            "inHandWins": 2278,
+            "inHandWinRate": 53.4,
+            "openingHandGames": 1565,
+            "openingHandWinRate": 52.4
           },
           "reviewGrade": "3",
           "reviewSourceId": "zone-multicolor"
@@ -41320,15 +41320,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/5/c/5c28b012-5efb-488f-a1c1-09e2dddfd6ee.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/5/c/5c28b012-5efb-488f-a1c1-09e2dddfd6ee.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/278/vraska-the-cutting-glare?utm_source=api",
-          "rank": 18,
+          "rank": 17,
           "tier": "A-",
           "band": "top",
           "stats": {
-            "inHandGames": 9023,
-            "inHandWins": 5405,
-            "inHandWinRate": 59.9,
-            "openingHandGames": 3252,
-            "openingHandWinRate": 57.3
+            "inHandGames": 11180,
+            "inHandWins": 6691,
+            "inHandWinRate": 59.8,
+            "openingHandGames": 4003,
+            "openingHandWinRate": 56.9
           },
           "reviewGrade": "4",
           "reviewSourceId": "zone-multicolor"
@@ -41351,15 +41351,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/1/e/1ebbbddb-2dc3-4194-b72b-13bcebe2ab89.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/1/e/1ebbbddb-2dc3-4194-b72b-13bcebe2ab89.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/279/karn-argent-defender?utm_source=api",
-          "rank": 259,
-          "tier": "D-",
+          "rank": 262,
+          "tier": "F",
           "band": "filler",
           "stats": {
-            "inHandGames": 1756,
-            "inHandWins": 825,
-            "inHandWinRate": 47,
-            "openingHandGames": 713,
-            "openingHandWinRate": 45.7
+            "inHandGames": 2128,
+            "inHandWins": 990,
+            "inHandWinRate": 46.5,
+            "openingHandGames": 882,
+            "openingHandWinRate": 44.3
           },
           "reviewGrade": "1",
           "reviewSourceId": "zone-artifacts-and-lands"
@@ -41384,15 +41384,15 @@ window.LIMITED_PREP_DATA = {
           "imageSource": "https://cards.scryfall.io/small/front/0/5/05102c46-96f8-44a0-a1e6-e388fa5e0841.jpg",
           "trainingImageSource": "https://cards.scryfall.io/normal/front/0/5/05102c46-96f8-44a0-a1e6-e388fa5e0841.jpg",
           "scryfallUrl": "https://scryfall.com/card/fra/280/traxos-scourge-eternal?utm_source=api",
-          "rank": 188,
+          "rank": 197,
           "tier": "D+",
           "band": "filler",
           "stats": {
-            "inHandGames": 10706,
-            "inHandWins": 5526,
-            "inHandWinRate": 51.6,
-            "openingHandGames": 4148,
-            "openingHandWinRate": 51
+            "inHandGames": 12916,
+            "inHandWins": 6637,
+            "inHandWinRate": 51.4,
+            "openingHandGames": 4992,
+            "openingHandWinRate": 50.9
           },
           "reviewGrade": "2",
           "reviewSourceId": "zone-artifacts-and-lands"
