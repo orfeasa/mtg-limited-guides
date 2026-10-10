@@ -1390,7 +1390,8 @@
   }
 
   function renderAtlas() {
-    const searching = Boolean(atlasSearch.trim());
+    const searchWords = atlasSearch.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
+    const searching = searchWords.length > 0;
     const catchupAvailable = previewCatchupAvailable();
     if (!catchupAvailable || (atlasSince && !previewDates().includes(atlasSince))) atlasSince = "";
     const dateCards = catchupAvailable && atlasSince
@@ -1423,7 +1424,7 @@
     $("#atlas-search-scope").hidden = !scope.length;
     $("#atlas-search-filters").textContent = `Within: ${scope.join(" · ")}`;
     const visibleCards = dateCards.filter((card) =>
-      card.name.toLocaleLowerCase().includes(atlasSearch.trim().toLocaleLowerCase())
+      searchWords.every((word) => card.name.toLocaleLowerCase().includes(word))
       && (atlasColour === "all" || card.color === atlasColour)
       && (atlasTypeFilter === "all" || atlasType(card) === atlasTypeFilter)
       && (atlasRarity === "all" || card.rarity === atlasRarity));
