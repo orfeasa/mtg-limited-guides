@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#263c31">
+<meta name="description" content="A first-game Magic: The Gathering reference for multiplayer Commander. Your turn, mana, combat and common keywords, ready for your phone.">
+<title>Your first Commander game · Table reference</title>
+<link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="reference.css?v=1">
+</head>
+<body>
+<a class="skip" href="#turn">Skip to your turn</a>
+<header id="top">
+<a class="home" href="/">Limited Field Guides</a>
+<h1>Your first<br>Commander game</h1>
+<p>A little help at the table. Start with your turn; look up the rest when you need it.</p>
+<p class="essentials"><strong>40 life</strong><span>7 starting cards</span><span>1 land per turn</span></p>
+</header>
+<nav aria-label="Quick reference sections">
+<a href="#turn">Your turn</a><a href="#cast">Cast</a><a href="#combat">Combat</a><a href="#commander">Commander</a><a href="#words">Keywords</a>
+</nav>
+<main>
+<section id="turn" aria-labelledby="turn-title">
+<h2 id="turn-title">It’s your turn</h2>
+<p class="intro">Say each step out loud. Give the table a moment to respond before moving on.</p>
+<ol class="turns">
+<li><h3>Untap, upkeep, draw</h3><p>Straighten your tapped cards. Handle anything that says “at the beginning of your upkeep”. Then draw one card.</p><p class="note">In multiplayer Commander, even the first player draws on their first turn.</p></li>
+<li><h3>Main phase: build your board</h3><p>You may play <strong>one land</strong> from your hand. Cast creatures and other spells you can pay for, one at a time.</p></li>
+<li><h3>Combat: choose your attacks</h3><p>Attacking is optional. Choose attackers and who each attacks. Defenders choose blockers; then creatures deal damage. <a href="#combat">Combat reminders</a></p></li>
+<li><h3>Main phase: another chance</h3><p>Cast more spells. You may play a land <strong>if you haven’t played one this turn</strong>. Your lands don’t untap again here.</p></li>
+<li><h3>End step, then cleanup</h3><p>Handle “at the beginning of your end step” effects and give everyone a chance to act. In cleanup, discard down to seven cards if needed. Damage on creatures clears and “until end of turn” effects end.</p></li>
+</ol>
+<p class="reminder"><strong>Before passing:</strong> Did you draw? Play a land? Check your cards for triggered abilities?</p>
+</section>
+<section id="cast" aria-labelledby="cast-title">
+<h2 id="cast-title">How do I play this?</h2>
+<details open><summary>Paying mana & tapping</summary><div class="answer"><p><strong>Tap = turn a card sideways.</strong> A basic land normally taps for one mana. Use mana to pay the cost at the top right of a card.</p><p>A cost of <span class="mana-cost"><img src="/assets/symbols/2.svg" alt="Two generic mana" width="22" height="22"><img src="/assets/symbols/G.svg" alt="One green mana" width="22" height="22"></span> needs three mana: one green and two of any type. A Forest makes green; an Island makes blue; a Plains makes white; a Swamp makes black; a Mountain makes red.</p><p>Lands stay on the battlefield when you use them. They normally untap at the start of your next turn. Unspent mana disappears at the end of each step and phase.</p><p>Playing a land is free and isn’t casting a spell. You can cast several spells in a turn if you can pay for each.</p></div></details>
+<details><summary>When can I play a card?</summary><div class="answer"><p><strong>Lands, creatures, artifacts, enchantments, planeswalkers and sorceries:</strong> normally during your own main phase, when no spell or ability is waiting to resolve (the “stack” is empty).</p><p><strong>Instants and cards with flash:</strong> when you have a chance to act (“priority”), including on someone else’s turn or in response to a spell.</p><p><strong>Activated abilities:</strong> look for “cost: effect”. Usually you can use these whenever you have priority, but follow any timing restriction on the card.</p><p>You cannot act in the middle of a resolving spell, during untap, or usually during cleanup. Ask “Before that resolves, can I respond?” if you need a moment.</p></div></details>
+<details><summary>Casting & responding: what happens first?</summary><div class="answer"><p>Announce the spell, choose required modes and targets, and pay its costs. Other players get a chance to respond before it happens.</p><p>The newest response happens first. Resolve one spell or ability at a time, with another chance to act between them. This waiting area is called <strong>the stack</strong>.</p><p>Example: someone casts a spell to destroy your creature. You respond with an instant that gives it indestructible. Your instant resolves first and can save it.</p><p>After resolving, instants and sorceries go to their owner’s graveyard. Creatures and other permanent spells enter the battlefield.</p></div></details>
+<details><summary>Can my new creature do anything?</summary><div class="answer"><p>A creature can’t attack or use an ability with the tap or untap symbol in its cost unless you’ve controlled it continuously since your most recent turn began. Players call this <strong>summoning sickness</strong>. Haste ignores this restriction.</p><p>It <strong>can block immediately</strong> if untapped. Other abilities can usually be used straight away, if you can pay their costs. This also applies when you take control of a creature.</p></div></details>
+</section>
+<section id="combat" aria-labelledby="combat-title">
+<h2 id="combat-title">Attacking & blocking</h2>
+<p class="intro">The bottom-right numbers are <strong>power / toughness</strong>: damage dealt / damage needed to destroy it in one turn.</p>
+<ol class="combat">
+<li><strong>Attack together.</strong> Choose all attackers at once and say which opponent (or planeswalker they control) each attacks. Tap your attackers unless they have vigilance. You don’t normally attack creatures.</li>
+<li><strong>Defenders choose blocks.</strong> Each defending player can block with untapped creatures they control. A creature normally blocks one attacker; several creatures can block the same attacker. Blocking doesn’t tap a creature.</li>
+<li><strong>Deal damage.</strong> Attackers and blockers normally deal damage at the same time, equal to their power. Unblocked attackers damage what they attacked. A creature with damage at least equal to its toughness is destroyed, unless something prevents it.</li>
+</ol>
+<p class="reminder"><strong>Example:</strong> a 3/3 blocked by a 2/2 deals 3 damage and takes 2. The 2/2 dies; the 3/3 survives with 2 damage marked until cleanup. Its power is still 3.</p>
+<details><summary>Useful combat catches</summary><div class="answer"><p><strong>A blocked attacker stays blocked</strong> even if its blocker disappears. Without trample, it normally won’t damage the defending player.</p><p><strong>Several blockers:</strong> the attacker’s controller divides its damage among them. Blockers each deal their power to the attacker.</p><p><strong>Respond before damage.</strong> There are chances to cast instants before attackers, after attackers and after blockers are chosen. Combat damage itself happens without a response window in the middle.</p><p><strong>Attacking is a choice.</strong> Keeping a creature untapped may let it block on another player’s turn. A tapped creature can’t block.</p></div></details>
+</section>
+<section id="commander" aria-labelledby="commander-title">
+<h2 id="commander-title">The Commander bits</h2>
+<p class="intro">For a normal multiplayer game, usually four players, each with a ready-built 100-card deck including their commander.</p>
+<details><summary>Before the game & mulligans</summary><div class="answer"><p>Put your commander face up in the command zone, separate from your deck. Shuffle the remaining deck, set life to <strong>40</strong>, and draw <strong>seven</strong>. Decide who starts; play proceeds clockwise.</p><p>Don’t like your opening hand? Shuffle it back and draw seven again. In multiplayer, your <strong>first mulligan is free</strong>. For each further mulligan, once you keep, put one more card from your hand on the bottom of your library: keep six after the second mulligan, five after the third.</p><p>First-game tip: show your hand to your teacher and ask whether you have enough lands and something you can cast early.</p></div></details>
+<details open><summary>Casting your commander & commander tax</summary><div class="answer"><p>You may cast your commander from the command zone using its normal timing rules and paying its cost.</p><p>Add <strong>two mana of any type for each previous time you cast that commander from the command zone</strong> this game. That’s commander tax.</p><p>Example: a commander costing three mana costs three the first time, five the second and seven the third. Its coloured requirements still apply. Tax counts casts, even if the spell is countered.</p></div></details>
+<details><summary>What if my commander dies or gets exiled?</summary><div class="answer"><p>If your commander goes to the graveyard or exile, you can move it to the command zone the next time the game checks its state, before anyone acts again. It still went to the graveyard or exile first.</p><p>If it would go to your hand or library, you can put it in the command zone instead. Returning it there is your choice; it isn’t automatic. Ask the table before leaving it elsewhere.</p></div></details>
+<details><summary>How do I win or lose?</summary><div class="answer"><p>Be the last player remaining. Normally, a player loses at <strong>0 life or less</strong>, when they must draw from an empty library, or when they have <strong>10 poison counters</strong>. Cards can add other ways to win or lose.</p><p>Commander adds another rule: <strong>21 total combat damage from the same commander</strong> makes a player lose, even if they gained life. Track each commander separately. Damage from spells or abilities doesn’t count towards this 21.</p></div></details>
+</section>
+<section id="words" aria-labelledby="words-title">
+<h2 id="words-title">What does that word mean?</h2>
+<p class="intro">Common reminders. A card’s specific instructions can change the usual rules.</p>
+<details><summary>Deathtouch</summary><div class="answer"><p>Any amount of damage this deals to a creature is enough to destroy it. Indestructible can still save it.</p></div></details>
+<details><summary>First strike & double strike</summary><div class="answer"><p>First strike deals combat damage in an earlier damage step. Double strike deals damage in both that earlier step and the normal one. A blocked double-striker doesn’t automatically hit the player if its blocker dies; trample can change that.</p></div></details>
+<details><summary>Flying & reach</summary><div class="answer"><p>Flying creatures can only be blocked by creatures with flying or reach. Reach lets a creature block flyers; it doesn’t give flying. Flyers can also block creatures without flying.</p></div></details>
+<details><summary>Haste</summary><div class="answer"><p>This creature can attack and use tap-symbol abilities straight away, even if you just gained control of it.</p></div></details>
+<details><summary>Hexproof & ward</summary><div class="answer"><p>Hexproof means opponents’ spells and abilities can’t target this permanent or player. Ward means when an opponent targets it, their spell or ability is countered unless they pay the ward cost. Effects that don’t target, such as “destroy all creatures”, can still affect them.</p></div></details>
+<details><summary>Indestructible</summary><div class="answer"><p>It can’t be destroyed by damage or effects saying “destroy”. Exile, sacrifice and a creature having toughness 0 or less can still remove it.</p></div></details>
+<details><summary>Lifelink</summary><div class="answer"><p>Damage dealt by this also gains its controller that much life, at the same time. It works when attacking, blocking or dealing other damage.</p></div></details>
+<details><summary>Menace</summary><div class="answer"><p>This creature can’t be blocked except by two or more creatures.</p></div></details>
+<details><summary>Trample</summary><div class="answer"><p>When attacking, assign enough damage to be lethal to each blocker; you can assign the rest to the player or planeswalker being attacked. A 5/5 with trample blocked by a 2/2 can deal 2 to the blocker and 3 to the player.</p></div></details>
+<details><summary>Vigilance</summary><div class="answer"><p>Attacking doesn’t tap this creature. It still needs to be untapped to attack, and summoning sickness still applies.</p></div></details>
+<details><summary>Counter, sacrifice, exile & destroy</summary><div class="answer"><p><strong>Counter a spell:</strong> stop it while it is on the stack; it usually goes to the graveyard without resolving. A <strong>+1/+1 counter</strong> is different: a marker on a permanent that boosts its stats.</p><p><strong>Sacrifice:</strong> put a permanent you control into its owner’s graveyard. <strong>Destroy:</strong> move a permanent from the battlefield to its owner’s graveyard. <strong>Exile:</strong> move the card to the separate exile zone. Exile isn’t the graveyard.</p></div></details>
+<details><summary>Library, graveyard, permanent & token</summary><div class="answer"><p><strong>Library:</strong> your face-down draw pile. <strong>Graveyard:</strong> your face-up discard pile. <strong>Permanent:</strong> a card or token on the battlefield. <strong>Token:</strong> a game piece created by an effect; use a token card or clear marker. A token that leaves the battlefield soon ceases to exist.</p></div></details>
+<details><summary>Scry & mill</summary><div class="answer"><p><strong>Scry N:</strong> look at the top N cards of your library. Put any number on the bottom and the rest back on top, in any order. <strong>Mill N:</strong> put the top N cards of your library into your graveyard.</p></div></details>
+</section>
+<footer><p><strong>You don’t need to memorise all of this.</strong> Read your card out loud and ask the table when something is unclear.</p><p>A quick reference for learning with friends. Unofficial; Magic: The Gathering belongs to Wizards of the Coast.</p><p>Go deeper: <a href="https://magic.wizards.com/en/how-to-play">How to play</a> · <a href="https://magic.wizards.com/en/formats/commander">Commander</a> · <a href="https://magic.wizards.com/en/keyword-glossary">Keyword glossary</a> · <a href="https://magic.wizards.com/en/rules">Official rules</a></p><a class="back" href="#top">Back to the top</a></footer>
+</main>
+</body>
+</html>
