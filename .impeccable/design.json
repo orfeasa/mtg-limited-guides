@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-06T07:44:35.939836+00:00",
+  "generatedAt": "2026-10-14T20:31:50.996331+00:00",
   "title": "Design System: Limited Field Guides",
   "extensions": {
     "brandAssets": {
@@ -173,6 +173,126 @@
       "tier-pending": {
         "role": "primary",
         "displayName": "Rating Pending"
+      },
+      "commander-paper": {
+        "role": "neutral",
+        "displayName": "Commander Paper",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% .015 260)",
+          "oklch(25% .015 260)",
+          "oklch(35% .015 260)",
+          "oklch(45% .015 260)",
+          "oklch(60% .015 260)",
+          "oklch(75% .015 260)",
+          "oklch(85% .015 260)",
+          "oklch(95% .015 260)"
+        ]
+      },
+      "commander-ink": {
+        "role": "neutral",
+        "displayName": "Commander Ink",
+        "canonical": "#20242b",
+        "tonalRamp": [
+          "oklch(15% .015 260)",
+          "oklch(25% .015 260)",
+          "oklch(35% .015 260)",
+          "oklch(45% .015 260)",
+          "oklch(60% .015 260)",
+          "oklch(75% .015 260)",
+          "oklch(85% .015 260)",
+          "oklch(95% .015 260)"
+        ]
+      },
+      "commander-line": {
+        "role": "neutral",
+        "displayName": "Commander Line",
+        "canonical": "#cbd0d7",
+        "tonalRamp": [
+          "oklch(15% .015 260)",
+          "oklch(25% .015 260)",
+          "oklch(35% .015 260)",
+          "oklch(45% .015 260)",
+          "oklch(60% .015 260)",
+          "oklch(75% .015 260)",
+          "oklch(85% .015 260)",
+          "oklch(95% .015 260)"
+        ]
+      },
+      "commander-muted": {
+        "role": "neutral",
+        "displayName": "Commander Muted",
+        "canonical": "#525b68",
+        "tonalRamp": [
+          "oklch(15% .015 260)",
+          "oklch(25% .015 260)",
+          "oklch(35% .015 260)",
+          "oklch(45% .015 260)",
+          "oklch(60% .015 260)",
+          "oklch(75% .015 260)",
+          "oklch(85% .015 260)",
+          "oklch(95% .015 260)"
+        ]
+      },
+      "commander-accent": {
+        "role": "primary",
+        "displayName": "Commander Accent",
+        "canonical": "#a33813",
+        "tonalRamp": [
+          "oklch(15% .12 40)",
+          "oklch(25% .12 40)",
+          "oklch(35% .12 40)",
+          "oklch(45% .12 40)",
+          "oklch(60% .12 40)",
+          "oklch(75% .12 40)",
+          "oklch(85% .12 40)",
+          "oklch(95% .12 40)"
+        ]
+      },
+      "commander-highlight": {
+        "role": "neutral",
+        "displayName": "Commander Highlight",
+        "canonical": "#ffb088",
+        "tonalRamp": [
+          "oklch(15% .12 40)",
+          "oklch(25% .12 40)",
+          "oklch(35% .12 40)",
+          "oklch(45% .12 40)",
+          "oklch(60% .12 40)",
+          "oklch(75% .12 40)",
+          "oklch(85% .12 40)",
+          "oklch(95% .12 40)"
+        ]
+      },
+      "commander-subtle": {
+        "role": "neutral",
+        "displayName": "Commander Subtle",
+        "canonical": "#f1f3f5",
+        "tonalRamp": [
+          "oklch(15% .015 260)",
+          "oklch(25% .015 260)",
+          "oklch(35% .015 260)",
+          "oklch(45% .015 260)",
+          "oklch(60% .015 260)",
+          "oklch(75% .015 260)",
+          "oklch(85% .015 260)",
+          "oklch(95% .015 260)"
+        ]
+      },
+      "commander-focus": {
+        "role": "neutral",
+        "displayName": "Commander Focus",
+        "canonical": "#005fcc",
+        "tonalRamp": [
+          "oklch(15% .15 260)",
+          "oklch(25% .15 260)",
+          "oklch(35% .15 260)",
+          "oklch(45% .15 260)",
+          "oklch(60% .15 260)",
+          "oklch(75% .15 260)",
+          "oklch(85% .15 260)",
+          "oklch(95% .15 260)"
+        ]
       }
     },
     "typographyMeta": {
@@ -227,6 +347,10 @@
       "evidence-source": {
         "displayName": "Evidence Source",
         "purpose": "Small readable source, capture-date, format, and limitation context beneath evidence."
+      },
+      "commander-heading": {
+        "displayName": "Commander heading",
+        "purpose": "Condensed headings on the independent Commander table reference; no Hobbit serif styling."
       }
     },
     "roundedMeta": {
@@ -377,8 +501,17 @@
       {
         "name": "narrow-phone",
         "value": "430px"
+      },
+      {
+        "name": "commander-reading",
+        "value": "760px"
       }
-    ]
+    ],
+    "surfaceNotes": {
+      "commander": "The standalone `/commander/` reference has a neutral Magic identity, independent of all set themes: charcoal header, white reading surface, burnt-orange links and step numbers, peach highlights, and pale-grey reminders. It uses Barlow Condensed Black for headings and Atkinson Hyperlegible Next for readable body text. No Hobbit forest, parchment, brass, or Alegreya typography belongs on this route.\n\nA single reading column, capped at 728px including padding, keeps the turn sequence first. Sticky wrapping jump links have 44px targets; native disclosure summaries have at least 48px targets. Dividers separate topics without shadows. Reminder corners use 4px radii. The only layout breakpoint is 760px, adding section and header spacing. Visible blue focus rings and native keyboard-operated disclosures remain essential.",
+      "sharedCardDetails": "· 2 October 2026\n\nBoth themes use the existing image-and-detail dialog: one tier/rank label, a compact statistics ledger, collapsible source/date scope, and optional Best with / Watch for guidance. FRA loses duplicate tier headings, card-rule paraphrases and historical footage disclosures. Hobbit gains the same available-data panel with win rate, sample and average last-offered pick. Binding text tokens keep metrics readable in both themes; narrow screens stack image and details. See docs/card-details.md for the future-set contract.",
+      "mobileTraining": "· 6 October 2026\n\nTraining keeps its answer tier and result visible, with supporting evidence inside a native Details & stats disclosure that starts closed for each card. At widths up to 700px, the existing action controls form a fixed, safe-area-aware bottom bar; after revealing, a compact result accompanies Next card. The page reserves the measured bar height so the final content stays reachable. Next returns focus and the viewport to the card below the sticky navigation. The card remains aligned to the top when details expand, and tap-to-enlarge retains its image-only behavior. Desktop actions remain in the document flow.\n\nThe mobile action bar is mounted directly in the unclipped Training panel, outside the card and surface containers; desktop restores those same controls to their original location. Verify actual hit targets at the top, middle and bottom of the page in WebKit as well as Chromium: a viewport-aligned bounding box alone does not prove that a fixed control is painted or tappable."
+    }
   },
   "components": [
     {
@@ -481,6 +614,13 @@
       "description": "Sticky card-name lookup with a clear action; group shortcuts collapse during search.",
       "html": "<div class=\"ds-lookup\"><label for=\"ds-search\">Find a card</label><div class=\"ds-search-row\"><input id=\"ds-search\" type=\"search\" placeholder=\"Search card names\"><button type=\"button\">Clear</button></div></div>",
       "css": ".ds-lookup { background: var(--surface, #e5e9f1); color: var(--ink, #191a2b); padding: 12px; font-family: Atkinson Hyperlegible Next, sans-serif; border-bottom: 1px solid var(--line, #aeb7ca); } .ds-lookup label { display:block; font-size:.85rem; margin-bottom:6px; } .ds-search-row { display:flex; gap:8px; } .ds-search-row input, .ds-search-row button { min-height:44px; padding:10px 12px; background:var(--surface-light, #f5f7fb); color:var(--ink, #191a2b); border:1px solid var(--line, #aeb7ca); border-radius:var(--control-radius, 4px); font:inherit; } .ds-search-row input { flex:1; min-width:0; font-size:1rem; } .ds-search-row input::placeholder { color:var(--muted, #5b5e73); opacity:1; } .ds-search-row button:hover { border-color:var(--ink, #191a2b); } .ds-search-row :focus-visible { outline:3px solid var(--focus, #d15f79); outline-offset:3px; }"
+    },
+    {
+      "name": "Commander Rules Disclosure",
+      "kind": "custom",
+      "description": "Native rules reminder on the neutral Commander reference.",
+      "html": "<details class=\"ds-commander\"><summary>Haste</summary><p>This creature can attack and use tap-symbol abilities straight away.</p></details>",
+      "css": ".ds-commander{font-family:\"Atkinson Hyperlegible Next\",sans-serif;background:#fff;color:#20242b;border-bottom:1px solid #cbd0d7;font-size:17px;line-height:1.55}.ds-commander summary{padding:17px 4px;min-height:48px;cursor:pointer;font-weight:700}.ds-commander summary::marker,.ds-commander summary:hover{color:#a33813}.ds-commander summary:focus-visible{outline:3px solid #005fcc;outline-offset:4px}.ds-commander p{padding:0 4px 12px;margin:0}"
     }
   ],
   "narrative": {
@@ -546,12 +686,12 @@
       {
         "name": "The One-Volume Rule",
         "body": "Elevate the spread, page, or study object as a whole; do not distribute equal shadows across every row.",
-        "section": "elevation"
+        "section": "elevation & depth"
       },
       {
         "name": "The Structural-Seam Rule",
         "body": "The violet offset on Reality Fracture card imagery is directional construction, not a general glow effect.",
-        "section": "elevation"
+        "section": "elevation & depth"
       },
       {
         "name": "The Theme-Owned Silhouette Rule",
@@ -575,31 +715,31 @@
       }
     ],
     "dos": [
-      "Do keep the shared preparation sequence and information order stable while each set owns one material world.",
-      "Do lead with the latest volume and data maturity, then expose every grounded preparation mode available for that set.",
-      "Do use Atkinson Hyperlegible Next for working text and the set display face only for hierarchy, ranks, and authored marks.",
-      "Do preserve Hobbit’s forest cloth, map leaves, brass, oxblood, river details, and rounded handled construction.",
-      "Do preserve Reality Fracture’s ink-indigo binding, cool paper, violet/cyan/pink seams, condensed black display type, clipped facets, and two-to-four-pixel cuts.",
-      "Do keep the current Training card, colour filter, queue, exact-tier score, revealed answer, requeued misses, and decision progress local.",
-      "Do use the larger local image for Training, Draft decisions, and magnification, with a matching local thumbnail fallback.",
-      "Do group exact-tier choices as Top picks, Strong, Playable, and Filler, accept an adjacent modifier inside the same letter grade as close, then return genuine misses after three intervening cards.",
-      "Do keep Hobbit’s three observed evidence values and adjacent ranks visually attached to the revealed answer.",
-      "Do keep official archetype intent, Draft observations, Sealed observations, editorial notes, sample size, and capture date visibly distinct.",
-      "Do omit rating-dependent answers and actions when the rating source is pending.",
-      "Do preserve keyboard focus, touch targets, literal labels, source attribution, and reduced-motion behavior."
+      "**Do** keep the shared preparation sequence and information order stable while each set owns one material world.",
+      "**Do** lead with the latest volume and data maturity, then expose every grounded preparation mode available for that set.",
+      "**Do** use Atkinson Hyperlegible Next for working text and the set display face only for hierarchy, ranks, and authored marks.",
+      "**Do** preserve Hobbit’s forest cloth, map leaves, brass, oxblood, river details, and rounded handled construction.",
+      "**Do** preserve Reality Fracture’s ink-indigo binding, cool paper, violet/cyan/pink seams, condensed black display type, clipped facets, and two-to-four-pixel cuts.",
+      "**Do** keep the current Training card, colour filter, queue, exact-tier score, revealed answer, requeued misses, and decision progress local.",
+      "**Do** use the larger local image for Training, Draft decisions, and magnification, with a matching local thumbnail fallback.",
+      "**Do** group exact-tier choices as Top picks, Strong, Playable, and Filler, accept an adjacent modifier inside the same letter grade as close, then return genuine misses after three intervening cards.",
+      "**Do** keep Hobbit’s three observed evidence values and adjacent ranks visually attached to the revealed answer.",
+      "**Do** keep official archetype intent, Draft observations, Sealed observations, editorial notes, sample size, and capture date visibly distinct.",
+      "**Do** omit rating-dependent answers and actions when the rating source is pending.",
+      "**Do** preserve keyboard focus, touch targets, literal labels, source attribution, and reduced-motion behavior."
     ],
     "donts": [
-      "Don't collapse authored set worlds into one generic theme with swapped accent colours.",
-      "Don't turn Hobbit into theatrical parchment, blackletter, gold filigree, or lore ornament.",
-      "Don't soften Reality Fracture into rounded neon glass, broad gradients, or ambient cyberpunk glow.",
-      "Don't cross Hobbit’s brass and oxblood into the Fracture dossier or Fracture’s electric seams into the atlas.",
-      "Don't invent rankings, tiers, or answer colours for a preview-only set.",
-      "Don't show a tier quiz or observed ranking evidence for unrated Reality Fracture cards.",
-      "Don't collapse Draft and Sealed results into one archetype ranking or turn aggregate results into instructions to force a colour pair.",
-      "Don't wrap every draft choice or atlas entry in its own rounded elevated card.",
-      "Don't reintroduce rank-only pick comparisons without full-pack and drafted-pool context.",
-      "Don't turn Draft decisions into a binary score or imply the replay pick is automatically correct.",
-      "Don't hide state, card identity, colour grouping, or navigation behind icons alone."
+      "**Don't** collapse authored set worlds into one generic theme with swapped accent colours.",
+      "**Don't** turn Hobbit into theatrical parchment, blackletter, gold filigree, or lore ornament.",
+      "**Don't** soften Reality Fracture into rounded neon glass, broad gradients, or ambient cyberpunk glow.",
+      "**Don't** cross Hobbit’s brass and oxblood into the Fracture dossier or Fracture’s electric seams into the atlas.",
+      "**Don't** invent rankings, tiers, or answer colours for a preview-only set.",
+      "**Don't** show a tier quiz or observed ranking evidence for unrated Reality Fracture cards.",
+      "**Don't** collapse Draft and Sealed results into one archetype ranking or turn aggregate results into instructions to force a colour pair.",
+      "**Don't** wrap every draft choice or atlas entry in its own rounded elevated card.",
+      "**Don't** reintroduce rank-only pick comparisons without full-pack and drafted-pool context.",
+      "**Don't** turn Draft decisions into a binary score or imply the replay pick is automatically correct.",
+      "**Don't** hide state, card identity, colour grouping, or navigation behind icons alone."
     ]
   }
 }

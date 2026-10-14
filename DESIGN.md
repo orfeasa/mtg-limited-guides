@@ -2,6 +2,14 @@
 name: "Limited Field Guides"
 description: "A shelf of set-specific Limited preparation volumes with a shared, trustworthy working shell."
 colors:
+  commander-paper: "#ffffff"
+  commander-ink: "#20242b"
+  commander-line: "#cbd0d7"
+  commander-muted: "#525b68"
+  commander-accent: "#a33813"
+  commander-highlight: "#ffb088"
+  commander-subtle: "#f1f3f5"
+  commander-focus: "#005fcc"
   texture-shadow: "rgba(0, 0, 0, .07)"
   menu-ink: "#171820"
   menu-paper: "#f6f7fa"
@@ -73,6 +81,12 @@ colors:
   tier-f: "#913d38"
   tier-pending: "#6a716d"
 typography:
+  commander-heading:
+    fontFamily: "Barlow Condensed, sans-serif"
+    fontSize: "clamp(2.7rem, 8vw, 4rem)"
+    fontWeight: 900
+    lineHeight: 1.05
+    letterSpacing: "0"
   scale:
     micro-58: ".58rem"
     micro-60: ".6rem"
@@ -467,6 +481,12 @@ Pills remain reserved for rating tiers and Hobbit colour jumps. Borders are func
 ## Components
 
 Shared components keep behavior, semantics, target sizes, and information order consistent while resolving their materials through per-set variables.
+
+### Commander table reference
+
+The standalone `/commander/` reference has a neutral Magic identity, independent of all set themes: charcoal header, white reading surface, burnt-orange links and step numbers, peach highlights, and pale-grey reminders. It uses Barlow Condensed Black for headings and Atkinson Hyperlegible Next for readable body text. No Hobbit forest, parchment, brass, or Alegreya typography belongs on this route.
+
+A single reading column, capped at 728px including padding, keeps the turn sequence first. Sticky wrapping jump links have 44px targets; native disclosure summaries have at least 48px targets. Dividers separate topics without shadows. Reminder corners use 4px radii. The only layout breakpoint is 760px, adding section and header spacing. Visible blue focus rings and native keyboard-operated disclosures remain essential.
 
 ### Header and Set Picker
 
