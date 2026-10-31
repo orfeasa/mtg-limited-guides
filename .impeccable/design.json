@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-14T20:31:50.996331+00:00",
+  "generatedAt": "2026-10-31T09:42:53.583134+00:00",
   "title": "Design System: Limited Field Guides",
   "extensions": {
     "brandAssets": {
@@ -13,6 +13,18 @@
           "public/assets/apple-touch-icon.png"
         ],
         "description": "The generic split atlas-and-fracture Limited Field Guides mark; the SVG source and raster fallbacks are product-level assets, not a Hobbit set mark."
+      },
+      "starfleet": {
+        "mark": {
+          "source": "public/index.html",
+          "description": "Inline delta geometry in the shared logo slot; the existing product favicon remains independent."
+        },
+        "displayFont": {
+          "source": "public/assets/fonts/Rajdhani-SemiBold.ttf",
+          "weight": 600,
+          "licence": "public/assets/fonts/Rajdhani-OFL.txt",
+          "licenceName": "SIL Open Font License 1.1"
+        }
       }
     },
     "colorMeta": {
@@ -293,6 +305,286 @@
           "oklch(85% .15 260)",
           "oklch(95% .15 260)"
         ]
+      },
+      "starfleet-binding": {
+        "role": "neutral",
+        "displayName": "Starfleet Navy",
+        "tonalRamp": [
+          "oklch(0.15 0.0329 239.00)",
+          "oklch(0.26 0.0329 239.00)",
+          "oklch(0.38 0.0329 239.00)",
+          "oklch(0.49 0.0329 239.00)",
+          "oklch(0.61 0.0329 239.00)",
+          "oklch(0.72 0.0329 239.00)",
+          "oklch(0.84 0.0329 239.00)",
+          "oklch(0.95 0.0329 239.00)"
+        ]
+      },
+      "starfleet-binding-deep": {
+        "role": "neutral",
+        "displayName": "Deep Briefing Navy",
+        "tonalRamp": [
+          "oklch(0.15 0.0285 239.12)",
+          "oklch(0.26 0.0285 239.12)",
+          "oklch(0.38 0.0285 239.12)",
+          "oklch(0.49 0.0285 239.12)",
+          "oklch(0.61 0.0285 239.12)",
+          "oklch(0.72 0.0285 239.12)",
+          "oklch(0.84 0.0285 239.12)",
+          "oklch(0.95 0.0285 239.12)"
+        ]
+      },
+      "starfleet-binding-soft": {
+        "role": "neutral",
+        "displayName": "Soft Navigation Navy",
+        "tonalRamp": [
+          "oklch(0.15 0.0413 228.31)",
+          "oklch(0.26 0.0413 228.31)",
+          "oklch(0.38 0.0413 228.31)",
+          "oklch(0.49 0.0413 228.31)",
+          "oklch(0.61 0.0413 228.31)",
+          "oklch(0.72 0.0413 228.31)",
+          "oklch(0.84 0.0413 228.31)",
+          "oklch(0.95 0.0413 228.31)"
+        ]
+      },
+      "starfleet-surface": {
+        "role": "neutral",
+        "displayName": "Warm Briefing Paper",
+        "tonalRamp": [
+          "oklch(0.15 0.0127 86.83)",
+          "oklch(0.26 0.0127 86.83)",
+          "oklch(0.38 0.0127 86.83)",
+          "oklch(0.49 0.0127 86.83)",
+          "oklch(0.61 0.0127 86.83)",
+          "oklch(0.72 0.0127 86.83)",
+          "oklch(0.84 0.0127 86.83)",
+          "oklch(0.95 0.0127 86.83)"
+        ]
+      },
+      "starfleet-surface-light": {
+        "role": "neutral",
+        "displayName": "Light Briefing Paper",
+        "tonalRamp": [
+          "oklch(0.15 0.0098 87.47)",
+          "oklch(0.26 0.0098 87.47)",
+          "oklch(0.38 0.0098 87.47)",
+          "oklch(0.49 0.0098 87.47)",
+          "oklch(0.61 0.0098 87.47)",
+          "oklch(0.72 0.0098 87.47)",
+          "oklch(0.84 0.0098 87.47)",
+          "oklch(0.95 0.0098 87.47)"
+        ]
+      },
+      "starfleet-surface-deep": {
+        "role": "neutral",
+        "displayName": "Deep Briefing Paper",
+        "tonalRamp": [
+          "oklch(0.15 0.0157 86.43)",
+          "oklch(0.26 0.0157 86.43)",
+          "oklch(0.38 0.0157 86.43)",
+          "oklch(0.49 0.0157 86.43)",
+          "oklch(0.61 0.0157 86.43)",
+          "oklch(0.72 0.0157 86.43)",
+          "oklch(0.84 0.0157 86.43)",
+          "oklch(0.95 0.0157 86.43)"
+        ]
+      },
+      "starfleet-ground": {
+        "role": "neutral",
+        "displayName": "Pale Briefing Ground",
+        "tonalRamp": [
+          "oklch(0.15 0.0055 183.02)",
+          "oklch(0.26 0.0055 183.02)",
+          "oklch(0.38 0.0055 183.02)",
+          "oklch(0.49 0.0055 183.02)",
+          "oklch(0.61 0.0055 183.02)",
+          "oklch(0.72 0.0055 183.02)",
+          "oklch(0.84 0.0055 183.02)",
+          "oklch(0.95 0.0055 183.02)"
+        ]
+      },
+      "starfleet-ink": {
+        "role": "neutral",
+        "displayName": "Navy Reading Ink",
+        "tonalRamp": [
+          "oklch(0.15 0.0329 239.00)",
+          "oklch(0.26 0.0329 239.00)",
+          "oklch(0.38 0.0329 239.00)",
+          "oklch(0.49 0.0329 239.00)",
+          "oklch(0.61 0.0329 239.00)",
+          "oklch(0.72 0.0329 239.00)",
+          "oklch(0.84 0.0329 239.00)",
+          "oklch(0.95 0.0329 239.00)"
+        ]
+      },
+      "starfleet-muted": {
+        "role": "neutral",
+        "displayName": "Muted Briefing Annotation",
+        "tonalRamp": [
+          "oklch(0.15 0.0271 217.06)",
+          "oklch(0.26 0.0271 217.06)",
+          "oklch(0.38 0.0271 217.06)",
+          "oklch(0.49 0.0271 217.06)",
+          "oklch(0.61 0.0271 217.06)",
+          "oklch(0.72 0.0271 217.06)",
+          "oklch(0.84 0.0271 217.06)",
+          "oklch(0.95 0.0271 217.06)"
+        ]
+      },
+      "starfleet-line": {
+        "role": "neutral",
+        "displayName": "Cool Briefing Rule",
+        "tonalRamp": [
+          "oklch(0.15 0.0149 180.60)",
+          "oklch(0.26 0.0149 180.60)",
+          "oklch(0.38 0.0149 180.60)",
+          "oklch(0.49 0.0149 180.60)",
+          "oklch(0.61 0.0149 180.60)",
+          "oklch(0.72 0.0149 180.60)",
+          "oklch(0.84 0.0149 180.60)",
+          "oklch(0.95 0.0149 180.60)"
+        ]
+      },
+      "starfleet-accent": {
+        "role": "primary",
+        "displayName": "Starfleet Rust",
+        "tonalRamp": [
+          "oklch(0.15 0.1474 35.49)",
+          "oklch(0.26 0.1474 35.49)",
+          "oklch(0.38 0.1474 35.49)",
+          "oklch(0.49 0.1474 35.49)",
+          "oklch(0.61 0.1474 35.49)",
+          "oklch(0.72 0.1474 35.49)",
+          "oklch(0.84 0.1474 35.49)",
+          "oklch(0.95 0.1474 35.49)"
+        ]
+      },
+      "starfleet-accent-dark": {
+        "role": "primary",
+        "displayName": "Deep Starfleet Rust",
+        "tonalRamp": [
+          "oklch(0.15 0.1190 34.80)",
+          "oklch(0.26 0.1190 34.80)",
+          "oklch(0.38 0.1190 34.80)",
+          "oklch(0.49 0.1190 34.80)",
+          "oklch(0.61 0.1190 34.80)",
+          "oklch(0.72 0.1190 34.80)",
+          "oklch(0.84 0.1190 34.80)",
+          "oklch(0.95 0.1190 34.80)"
+        ]
+      },
+      "starfleet-signal": {
+        "role": "tertiary",
+        "displayName": "Starfleet Signal Teal",
+        "tonalRamp": [
+          "oklch(0.15 0.0711 216.44)",
+          "oklch(0.26 0.0711 216.44)",
+          "oklch(0.38 0.0711 216.44)",
+          "oklch(0.49 0.0711 216.44)",
+          "oklch(0.61 0.0711 216.44)",
+          "oklch(0.72 0.0711 216.44)",
+          "oklch(0.84 0.0711 216.44)",
+          "oklch(0.95 0.0711 216.44)"
+        ]
+      },
+      "starfleet-metal": {
+        "role": "secondary",
+        "displayName": "Deep Starfleet Amber",
+        "tonalRamp": [
+          "oklch(0.15 0.1157 59.81)",
+          "oklch(0.26 0.1157 59.81)",
+          "oklch(0.38 0.1157 59.81)",
+          "oklch(0.49 0.1157 59.81)",
+          "oklch(0.61 0.1157 59.81)",
+          "oklch(0.72 0.1157 59.81)",
+          "oklch(0.84 0.1157 59.81)",
+          "oklch(0.95 0.1157 59.81)"
+        ]
+      },
+      "starfleet-metal-light": {
+        "role": "secondary",
+        "displayName": "Starfleet Amber",
+        "tonalRamp": [
+          "oklch(0.15 0.1141 70.50)",
+          "oklch(0.26 0.1141 70.50)",
+          "oklch(0.38 0.1141 70.50)",
+          "oklch(0.49 0.1141 70.50)",
+          "oklch(0.61 0.1141 70.50)",
+          "oklch(0.72 0.1141 70.50)",
+          "oklch(0.84 0.1141 70.50)",
+          "oklch(0.95 0.1141 70.50)"
+        ]
+      },
+      "starfleet-focus": {
+        "role": "tertiary",
+        "displayName": "Starfleet Focus Blue",
+        "tonalRamp": [
+          "oklch(0.15 0.0900 228.67)",
+          "oklch(0.26 0.0900 228.67)",
+          "oklch(0.38 0.0900 228.67)",
+          "oklch(0.49 0.0900 228.67)",
+          "oklch(0.61 0.0900 228.67)",
+          "oklch(0.72 0.0900 228.67)",
+          "oklch(0.84 0.0900 228.67)",
+          "oklch(0.95 0.0900 228.67)"
+        ]
+      },
+      "starfleet-on-binding": {
+        "role": "neutral",
+        "displayName": "Cream Binding Text",
+        "tonalRamp": [
+          "oklch(0.15 0.0203 81.78)",
+          "oklch(0.26 0.0203 81.78)",
+          "oklch(0.38 0.0203 81.78)",
+          "oklch(0.49 0.0203 81.78)",
+          "oklch(0.61 0.0203 81.78)",
+          "oklch(0.72 0.0203 81.78)",
+          "oklch(0.84 0.0203 81.78)",
+          "oklch(0.95 0.0203 81.78)"
+        ]
+      },
+      "starfleet-on-binding-muted": {
+        "role": "neutral",
+        "displayName": "Muted Binding Text",
+        "tonalRamp": [
+          "oklch(0.15 0.0182 214.39)",
+          "oklch(0.26 0.0182 214.39)",
+          "oklch(0.38 0.0182 214.39)",
+          "oklch(0.49 0.0182 214.39)",
+          "oklch(0.61 0.0182 214.39)",
+          "oklch(0.72 0.0182 214.39)",
+          "oklch(0.84 0.0182 214.39)",
+          "oklch(0.95 0.0182 214.39)"
+        ]
+      },
+      "starfleet-segment-salmon": {
+        "role": "secondary",
+        "displayName": "LCARS Muted Salmon",
+        "tonalRamp": [
+          "oklch(0.15 0.0939 34.51)",
+          "oklch(0.26 0.0939 34.51)",
+          "oklch(0.38 0.0939 34.51)",
+          "oklch(0.49 0.0939 34.51)",
+          "oklch(0.61 0.0939 34.51)",
+          "oklch(0.72 0.0939 34.51)",
+          "oklch(0.84 0.0939 34.51)",
+          "oklch(0.95 0.0939 34.51)"
+        ]
+      },
+      "starfleet-segment-blue": {
+        "role": "secondary",
+        "displayName": "LCARS Pale Blue",
+        "tonalRamp": [
+          "oklch(0.15 0.0485 213.15)",
+          "oklch(0.26 0.0485 213.15)",
+          "oklch(0.38 0.0485 213.15)",
+          "oklch(0.49 0.0485 213.15)",
+          "oklch(0.61 0.0485 213.15)",
+          "oklch(0.72 0.0485 213.15)",
+          "oklch(0.84 0.0485 213.15)",
+          "oklch(0.95 0.0485 213.15)"
+        ]
       }
     },
     "typographyMeta": {
@@ -351,6 +643,18 @@
       "commander-heading": {
         "displayName": "Commander heading",
         "purpose": "Condensed headings on the independent Commander table reference; no Hobbit serif styling."
+      },
+      "starfleet-display": {
+        "displayName": "Starfleet Volume Title",
+        "purpose": "Rajdhani Semibold 600 in the navy binding; its self-hosted font and SIL OFL 1.1 licence stay local."
+      },
+      "starfleet-page": {
+        "displayName": "Starfleet Page Display",
+        "purpose": "Rajdhani Semibold 600 for the shared complete-card-file heading."
+      },
+      "starfleet-heading": {
+        "displayName": "Starfleet Guide Heading",
+        "purpose": "Rajdhani Semibold 600 for the light preparation page; Atkinson remains the working voice."
       }
     },
     "roundedMeta": {
@@ -364,6 +668,26 @@
       "pill": {
         "role": "pill",
         "canonical": "999px"
+      },
+      "starfleet-tab": {
+        "role": "Starfleet page tabs: curved upper corners and square lower joins",
+        "canonical": "18px 18px 0 0"
+      },
+      "starfleet-page": {
+        "role": "Starfleet reading page, with square leading join",
+        "canonical": "12px"
+      },
+      "starfleet-card": {
+        "role": "Starfleet shared card-detail frame",
+        "canonical": "12px"
+      },
+      "starfleet-control": {
+        "role": "Starfleet general controls",
+        "canonical": "6px"
+      },
+      "starfleet-prep-control": {
+        "role": "Shared preparation selects, answer and retry controls retained in Starfleet",
+        "canonical": "3px"
       }
     },
     "shadows": [
@@ -510,7 +834,8 @@
     "surfaceNotes": {
       "commander": "The standalone `/commander/` reference has a neutral Magic identity, independent of all set themes: charcoal header, white reading surface, burnt-orange links and step numbers, peach highlights, and pale-grey reminders. It uses Barlow Condensed Black for headings and Atkinson Hyperlegible Next for readable body text. No Hobbit forest, parchment, brass, or Alegreya typography belongs on this route.\n\nA single reading column, capped at 728px including padding, keeps the turn sequence first. Sticky wrapping jump links have 44px targets; native disclosure summaries have at least 48px targets. Dividers separate topics without shadows. Reminder corners use 4px radii. The only layout breakpoint is 760px, adding section and header spacing. Visible blue focus rings and native keyboard-operated disclosures remain essential.",
       "sharedCardDetails": "· 2 October 2026\n\nBoth themes use the existing image-and-detail dialog: one tier/rank label, a compact statistics ledger, collapsible source/date scope, and optional Best with / Watch for guidance. FRA loses duplicate tier headings, card-rule paraphrases and historical footage disclosures. Hobbit gains the same available-data panel with win rate, sample and average last-offered pick. Binding text tokens keep metrics readable in both themes; narrow screens stack image and details. See docs/card-details.md for the future-set contract.",
-      "mobileTraining": "· 6 October 2026\n\nTraining keeps its answer tier and result visible, with supporting evidence inside a native Details & stats disclosure that starts closed for each card. At widths up to 700px, the existing action controls form a fixed, safe-area-aware bottom bar; after revealing, a compact result accompanies Next card. The page reserves the measured bar height so the final content stays reachable. Next returns focus and the viewport to the card below the sticky navigation. The card remains aligned to the top when details expand, and tap-to-enlarge retains its image-only behavior. Desktop actions remain in the document flow.\n\nThe mobile action bar is mounted directly in the unclipped Training panel, outside the card and surface containers; desktop restores those same controls to their original location. Verify actual hit targets at the top, middle and bottom of the page in WebKit as well as Chromium: a viewport-aligned bounding box alone does not prove that a fixed control is painted or tappable."
+      "mobileTraining": "· 6 October 2026\n\nTraining keeps its answer tier and result visible, with supporting evidence inside a native Details & stats disclosure that starts closed for each card. At widths up to 700px, the existing action controls form a fixed, safe-area-aware bottom bar; after revealing, a compact result accompanies Next card. The page reserves the measured bar height so the final content stays reachable. Next returns focus and the viewport to the card below the sticky navigation. The card remains aligned to the top when details expand, and tap-to-enlarge retains its image-only behavior. Desktop actions remain in the document flow.\n\nThe mobile action bar is mounted directly in the unclipped Training panel, outside the card and surface containers; desktop restores those same controls to their original location. Verify actual hit targets at the top, middle and bottom of the page in WebKit as well as Chromium: a viewport-aligned bounding box alone does not prove that a fixed control is painted or tappable.",
+      "starfleet": "Star Trek uses the existing navy-and-warm-paper preparation shell, not a separate console. Its 148px minimum header carries an eight-pixel amber/salmon/blue segmented band; the status/date subtitle stays visible on mobile. The three available tabs have 18px top corners with square lower joins. All cards is the default; Limited guide and Archetypes default to ordinary Sealed, with explicit Draft and no Two-Headed Giant route. The shared accessible navy card dialog preserves exact TRK/SDS source identity, expandable card-text source, and optional Best with / Watch for notes. Missing ratings create no fabricated tiers or statistics."
     }
   },
   "components": [
@@ -621,15 +946,40 @@
       "description": "Native rules reminder on the neutral Commander reference.",
       "html": "<details class=\"ds-commander\"><summary>Haste</summary><p>This creature can attack and use tap-symbol abilities straight away.</p></details>",
       "css": ".ds-commander{font-family:\"Atkinson Hyperlegible Next\",sans-serif;background:#fff;color:#20242b;border-bottom:1px solid #cbd0d7;font-size:17px;line-height:1.55}.ds-commander summary{padding:17px 4px;min-height:48px;cursor:pointer;font-weight:700}.ds-commander summary::marker,.ds-commander summary:hover{color:#a33813}.ds-commander summary:focus-visible{outline:3px solid #005fcc;outline-offset:4px}.ds-commander p{padding:0 4px 12px;margin:0}"
+    },
+    {
+      "name": "Starfleet Page Markers",
+      "kind": "nav",
+      "refersTo": "view-marker-starfleet-active",
+      "description": "Shared preparation navigation with navy binding, amber selection and eighteen-pixel tab tops.",
+      "html": "<nav class=\"ds-starfleet-nav\" aria-label=\"Preparation views\"><button class=\"ds-starfleet-tab\" type=\"button\" aria-current=\"page\">Limited guide</button><button class=\"ds-starfleet-tab\" type=\"button\">Archetypes</button><button class=\"ds-starfleet-tab\" type=\"button\">All cards</button></nav>",
+      "css": ".ds-starfleet-nav { --binding-deep:#0d1c26; --binding-soft:#294653; --metal-light:#f2b66d; --on-binding:#fff7e9; --focus:#0d6685; display:flex; align-items:end; gap:8px; padding:12px 8px 0; background:var(--binding-deep); font-family:\"Atkinson Hyperlegible Next\",sans-serif; } .ds-starfleet-tab { min-height:50px; padding:0 19px; color:var(--on-binding); background:var(--binding-soft); border:1px solid rgba(238,228,202,.24); border-bottom:0; border-radius:18px 18px 0 0; box-shadow:0 7px 18px rgba(8,9,16,.16); font:700 .74rem \"Atkinson Hyperlegible Next\",sans-serif; cursor:pointer; transition:color 160ms cubic-bezier(.16,1,.3,1),background-color 160ms cubic-bezier(.16,1,.3,1); } .ds-starfleet-tab:hover { background:color-mix(in srgb,var(--binding-soft) 80%,var(--metal-light)); } .ds-starfleet-tab[aria-current] { min-height:58px; color:var(--binding-deep); background:var(--metal-light); border-color:var(--metal-light); } .ds-starfleet-tab:focus-visible { outline:3px solid var(--focus); outline-offset:3px; } @media(max-width:700px) { .ds-starfleet-nav { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); } .ds-starfleet-tab { min-width:0; padding:0 4px; } } @media(prefers-reduced-motion:reduce) { .ds-starfleet-tab { transition:none; } }"
+    },
+    {
+      "name": "Starfleet Light Guide",
+      "kind": "custom",
+      "refersTo": "reading-page-starfleet",
+      "description": "The existing reading composition stays light, with ruled sections and native retryable rules controls.",
+      "html": "<section class=\"ds-starfleet-guide\"><h2>Prepare for your event</h2><p>Learn the mechanics, recognise the cards that matter, and give your deck a plan.</p><details open><summary>Rules practice</summary><p>Use the card text and explain the interaction after an answer.</p><button class=\"ds-starfleet-retry\" type=\"button\">Try again</button></details></section>",
+      "css": ".ds-starfleet-guide { --surface:#f4f0e7; --surface-light:#fffcf5; --surface-deep:#e5e0d5; --ink:#142632; --line:#b5c2bf; --focus:#0d6685; padding:clamp(22px,4vw,48px); color:var(--ink); background:var(--surface); border-radius:0 12px 12px 12px; box-shadow:0 26px 65px rgba(8,9,16,.28); font:1rem/1.6 \"Atkinson Hyperlegible Next\",sans-serif; } .ds-starfleet-guide h2 { margin:0; font:600 clamp(2.5rem,5vw,4.7rem)/.98 Rajdhani,\"Atkinson Hyperlegible Next\",sans-serif; letter-spacing:-.03em; } .ds-starfleet-guide p { max-width:72ch; } .ds-starfleet-guide details { padding:18px 0; border-bottom:1px solid var(--line); } .ds-starfleet-guide summary { min-height:32px; cursor:pointer; font-weight:700; } .ds-starfleet-retry { min-height:44px; padding:8px 16px; color:var(--ink); background:var(--surface-light); border:1px solid var(--line); border-radius:3px; font:700 .94rem \"Atkinson Hyperlegible Next\",sans-serif; cursor:pointer; } .ds-starfleet-retry:hover { background:var(--surface-deep); } .ds-starfleet-guide :focus-visible { outline:3px solid var(--focus); outline-offset:3px; }"
+    },
+    {
+      "name": "Starfleet Source Disclosure",
+      "kind": "custom",
+      "refersTo": "card-details-starfleet",
+      "description": "The shared dark card-detail surface keeps exact SDS identity and expandable card-text attribution readable.",
+      "html": "<section class=\"ds-starfleet-details\"><p class=\"ds-starfleet-source-label\">Unrated · Stardates · SDS</p><details><summary>Card text · capture date</summary><p>Scryfall · SDS collector number · Stardates bonus sheet</p></details></section>",
+      "css": ".ds-starfleet-details { --binding-deep:#0d1c26; --on-binding:#fff7e9; --on-binding-muted:#c4d4d8; --focus:#0d6685; padding:20px; color:var(--on-binding); background:var(--binding-deep); border-radius:12px; font:.95rem/1.5 \"Atkinson Hyperlegible Next\",sans-serif; } .ds-starfleet-source-label { margin:0 0 12px; font-weight:700; } .ds-starfleet-details details { color:var(--on-binding-muted); font-size:.85rem; } .ds-starfleet-details summary { cursor:pointer; padding-block:8px; } .ds-starfleet-details details p { margin:4px 0 12px; } .ds-starfleet-details summary:focus-visible { outline:3px solid var(--focus); outline-offset:3px; }"
     }
   ],
   "narrative": {
     "northStar": "The Set-Specific Field Guide Shelf",
-    "overview": "Limited Field Guides is one dependable preparation shelf holding authored volumes, not one generic dashboard wearing different accent colours. The shared shell opens the latest set and keeps the learning sequence stable—study supported archetypes through the relevant format, train exact-tier recall, work through grounded draft decisions when available, browse the card file, and share the selected guide—while each set owns one coherent material world.\n\nThe Hobbit remains Bilbo’s Expedition Atlas: forest cloth, warm map leaves, brass page flags, oxblood routes, river details, and softly handled corners. Reality Fracture is an Echoverse dossier: ink and indigo binding, cool paper, electric violet, cyan, and pink seams, condensed black display type, and facets cut on sharp angles. Atkinson Hyperlegible Next connects both as the practical reading and control voice.\n\nThe system should feel authored, trustworthy, and ready before an event. Data maturity is visible rather than implied; readable local study images fall back safely to local thumbnails; progress and exact-tier rehearsal state stay local; rating-dependent work visibly locks when an attributable evaluation does not exist. The visual language rejects generic statistics dashboards and deck-builder framing.",
+    "overview": "Limited Field Guides is one dependable preparation shelf holding authored volumes, not one generic dashboard wearing different accent colours. The shared shell opens the latest set and keeps the learning sequence stable—study supported archetypes through the relevant format, train exact-tier recall, work through grounded draft decisions when available, browse the card file, and share the selected guide—while each set owns one coherent material world.\n\nThe Hobbit remains Bilbo’s Expedition Atlas: forest cloth, warm map leaves, brass page flags, oxblood routes, river details, and softly handled corners. Reality Fracture is an Echoverse dossier: ink and indigo binding, cool paper, electric violet, cyan, and pink seams, condensed black display type, and facets cut on sharp angles. Atkinson Hyperlegible Next connects both as the practical reading and control voice.\n\nStar Trek adds a restrained Starfleet briefing: navy binding, warm reading paper, amber active markers, muted salmon and pale blue segments, Rajdhani Semibold hierarchy, and a delta mark in the existing logo slot. The shared composition and Atkinson working voice stay authoritative. LCARS references identify the volume through one narrow band and curved tab tops; the guide remains a readable light page.\n\nThe system should feel authored, trustworthy, and ready before an event. Data maturity is visible rather than implied; readable local study images fall back safely to local thumbnails; progress and exact-tier rehearsal state stay local; rating-dependent work visibly locks when an attributable evaluation does not exist. The visual language rejects generic statistics dashboards and deck-builder framing.",
     "keyCharacteristics": [
       "One shared preparation sequence expressed as a shelf of set-owned field guides.",
       "Atkinson Hyperlegible Next for working text, controls, metadata, and dense card information.",
       "Hobbit’s rounded cloth-and-map atlas beside Reality Fracture’s clipped, electrically seamed dossier.",
+      "Star Trek’s navy-and-paper briefing keeps the shared controls, rounded tab tops, restrained LCARS segments, and readable Sealed-first guide.",
       "Evidence-gated markers: Training with complete ratings, Prerelease prep with a published guide and confirmed full file, Archetypes with an official plan map and editorial notes, and Draft decisions with grounded scenarios. The card browser stays available as Previews or All cards.",
       "Authored preparation uses five reading sections plus quick rules practice, with separate Sealed/Draft guidance and local checklist and answer state.",
       "Persisted Training queues, exact-tier scores, and per-scenario decision, reason, reveal, and reflection state with explicit unrated preview states.",
@@ -654,6 +1004,11 @@
         "section": "colors"
       },
       {
+        "name": "The Briefing Restraint Rule",
+        "body": "Starfleet identity belongs in navy binding, amber navigation, the delta mark, and one narrow segmented band. Keep guide surfaces light and preserve the shared controls; do not extend the band into a decorative console or lore dashboard.",
+        "section": "colors"
+      },
+      {
         "name": "The Working Voice Rule",
         "body": "Atkinson owns every instruction, control, metadata label, and dense card detail across every set.",
         "section": "typography"
@@ -666,6 +1021,11 @@
       {
         "name": "The Dense-but-Legible Rule",
         "body": "The micro scale is reserved for short metadata with strong weight and contrast; explanatory copy never drops into it.",
+        "section": "typography"
+      },
+      {
+        "name": "The Briefing Voice Rule",
+        "body": "Rajdhani Semibold supplies Star Trek’s display hierarchy; use Atkinson for reading, instructions, metadata, and controls. Keep the font and licence local.",
         "section": "typography"
       },
       {
@@ -712,6 +1072,11 @@
         "name": "The Single Tier Mark Rule",
         "body": "One tinted fill and one border communicate each tier choice. Do not duplicate the tier colour with an extra stripe.",
         "section": "shapes"
+      },
+      {
+        "name": "The Briefing Tab Rule",
+        "body": "Preserve Starfleet’s eighteen-pixel top tab corners with square lower joins; do not copy Fracture’s clipped silhouette into this volume.",
+        "section": "shapes"
       }
     ],
     "dos": [
@@ -720,6 +1085,8 @@
       "**Do** use Atkinson Hyperlegible Next for working text and the set display face only for hierarchy, ranks, and authored marks.",
       "**Do** preserve Hobbit’s forest cloth, map leaves, brass, oxblood, river details, and rounded handled construction.",
       "**Do** preserve Reality Fracture’s ink-indigo binding, cool paper, violet/cyan/pink seams, condensed black display type, clipped facets, and two-to-four-pixel cuts.",
+      "**Do** preserve Starfleet’s navy binding, warm paper, amber/salmon/blue band, Rajdhani Semibold display voice, and eighteen-pixel tab tops while using the shared reading and control composition.",
+      "**Do** retain Star Trek’s visible mobile status/date subtitle and exact TRK/SDS source identity in the shared accessible card details.",
       "**Do** keep the current Training card, colour filter, queue, exact-tier score, revealed answer, requeued misses, and decision progress local.",
       "**Do** use the larger local image for Training, Draft decisions, and magnification, with a matching local thumbnail fallback.",
       "**Do** group exact-tier choices as Top picks, Strong, Playable, and Filler, accept an adjacent modifier inside the same letter grade as close, then return genuine misses after three intervening cards.",
@@ -739,7 +1106,9 @@
       "**Don't** wrap every draft choice or atlas entry in its own rounded elevated card.",
       "**Don't** reintroduce rank-only pick comparisons without full-pack and drafted-pool context.",
       "**Don't** turn Draft decisions into a binary score or imply the replay pick is automatically correct.",
-      "**Don't** hide state, card identity, colour grouping, or navigation behind icons alone."
+      "**Don't** hide state, card identity, colour grouping, or navigation behind icons alone.",
+      "**Don't** turn the Starfleet briefing into a decorative LCARS console, dark reading surface, or lore dashboard.",
+      "**Don't** introduce Two-Headed Giant preparation, fabricated ratings, or unavailable study modes into Star Trek’s ordinary Sealed-first guide."
     ]
   }
 }

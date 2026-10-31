@@ -38,6 +38,26 @@ The Set-Specific Field Guide Shelf: one shared preparation shell governed by doc
 
 **FINISH:** unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
 
+## Star Trek approved local extension · 31 October 2026
+
+The user approved a restrained Starfleet/LCARS treatment inside the existing composition and controls, then specified ordinary Sealed first and no Two-Headed Giant. This is a targeted addition to the incumbent shelf; Hobbit and Reality Fracture keep their material worlds and behavior. The Starfleet tokens and reusable rules are recorded in `DESIGN.md` and `.impeccable/design.json`.
+
+**THESIS:** Help a player prepare to build an ordinary Sealed deck from six Star Trek Play Boosters.
+
+**OWN-WORLD:** Starfleet briefing. Navy binding, warm paper, amber with muted salmon and pale blue navigation segments. Rajdhani Semibold display lettering and existing Atkinson Hyperlegible Next body/control text. Delta geometry in the shared logo slot. No decorative display console or lore dashboard. The font and its SIL OFL licence are self-hosted.
+
+**STORY:** Latest set opens in All cards; a prerelease invitation and existing tabs lead to Sealed-first mechanics, ordinary key cards, interaction notes, colour selection and rules practice. Ten official archetype plans have separate Draft/Sealed notes. No ratings, rankings or statistics are fabricated. SDS source identity is retained in cards and details.
+
+**FIRST VIEWPORT:** Existing header, set picker, 336-card nonbasic browsing scope, next known prerelease date and three available tabs. Navy/amber hierarchy and a narrow segmented LCARS band identify the new volume. Reading surfaces remain light. Mobile retains the visible full-file/ratings status and event date, wraps the shared controls, and keeps literal tab labels. Tabs have eighteen-pixel upper corners and square lower joins; pages and dialog frames use twelve-pixel radii, general controls six pixels, and shared preparation controls retain three pixels.
+
+**FORM:** Code-led local extension of the established multi-set shell. Existing composition, navigation, cards and guide sections remain authoritative. The user approved the specific Starfleet/LCARS treatment before implementation; under new-work’s local-extension and precisely specified request rule, no concept tournament or concept seed applies.
+
+**SIGNATURE INTERACTION:** Existing card selection opens the shared accessible image/details dialog with exact source-set code, expandable card-text source, and optional concise Best with / Watch for notes. Escape returns focus. The same dialog is used from key cards and archetypes. Rules exercises support wrong/correct answers, retry and per-format local persistence.
+
+**CROSS-SURFACE REACH:** Shared shell and lifecycle rules remain. Star Trek defaults to ordinary Sealed in Limited guide and Archetypes, has no Two-Headed Giant control, and omits Training, Card memory and Draft decisions. Unavailable Training links fall back to the card browser. Pending observed archetype results stay in prose without empty statistics.
+
+**EVIDENCE:** `public/styles.css` owns the Starfleet palette and mobile subtitle rule; `public/index.html` contains the inline delta mark and shared dialog; `data/sets.json` owns the format defaults and evidence gates. Finish-review captures are `.impeccable/review/mobile-prep.png` and `.impeccable/review/desktop-prep.png`. The restored mobile subtitle and persisted eighteen-pixel tab token address the two finish-review findings.
+
 ## Unresolved decisions
 
 No surface-level design decision remains unresolved. Each future set still requires an authored material world and attributable ranking provenance before rating-dependent training can unlock. Archetypes requires an attributable official map, verified signposts, and separate Draft/Sealed guidance; observations may follow later but must remain visibly pending until captured. Draft decisions requires grounded pack-and-pool evidence.

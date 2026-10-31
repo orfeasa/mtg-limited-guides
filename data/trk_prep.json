@@ -1,0 +1,601 @@
+{
+  "version": 1,
+  "set": "TRK",
+  "status": "published",
+  "authoredAt": "2026-10-31",
+  "publishedAt": "2026-10-31",
+  "assessment": "Editorial preparation based on the official rules and card file. Card selections explain roles and requirements; they are not ratings or observed results.",
+  "sources": [
+    {
+      "label": "Official prerelease and archetype guide",
+      "url": "https://magic.wizards.com/en/news/feature/star-trek-prerelease-guide"
+    },
+    {
+      "label": "Official mechanics guide",
+      "url": "https://magic.wizards.com/en/news/feature/star-trek-mechanics"
+    },
+    {
+      "label": "Official release notes and card rulings",
+      "url": "https://magic.wizards.com/en/news/feature/star-trek-release-notes"
+    },
+    {
+      "label": "Official Play Booster contents and Stardates scope",
+      "url": "https://magic.wizards.com/en/news/feature/collecting-star-trek"
+    },
+    {
+      "label": "Scryfall: TRK and SDS card text",
+      "url": "https://scryfall.com/search?q=set%3Atrk+or+set%3Asds"
+    }
+  ],
+  "formats": {
+    "sealed": {
+      "intro": "Build from six Play Boosters and your prerelease promo. Start with two colours, about 17 lands and 23 spells in a 40-card deck. Look for early plays, castable threats and removal before choosing an archetype. Stardates bonus-sheet cards you open in those packs are part of your pool.",
+      "steps": [
+        {
+          "title": "Compare complete colour pairs",
+          "text": "Lay out your strongest threats and removal, then compare the playable depth of candidate pairs. A powerful multicolour card is a reason to investigate its colours, not a reason to ignore a thin curve."
+        },
+        {
+          "title": "Separate creatures from ships",
+          "text": "Make sure your deck has early creatures that can block. A Spacecraft that is not yet a creature cannot fill that role, and stationing taps a creature you might otherwise use in combat."
+        },
+        {
+          "title": "Respect artifacts and targeting restrictions",
+          "text": "Read which answers hit artifacts, artifact creatures or only nonartifact creatures. Ships can matter before they become creatures. An artifact-removal mode may have more targets than a creature-only answer."
+        },
+        {
+          "title": "Make the mana work",
+          "text": "Start near 17 lands. Count coloured sources, early double-colour costs and lands that enter tapped. Include a splash only when its benefit justifies the fixing and slower draws; a bonus-sheet card does not get an automatic splash."
+        },
+        {
+          "title": "Use the archetype map to check support",
+          "text": "Compare your actual creatures, enablers and payoffs with a pair’s plan. Hybrid signposts can fit a deck using only one of their colours; gold cards need both. Decide from the whole deck rather than its most exciting card."
+        }
+      ]
+    },
+    "draft": {
+      "intro": "Use the official colour-pair plans to recognise how cards fit together. Build early plays and interaction while reading which useful cards reach you. No observed archetype ranking or card tiers are available in this guide yet.",
+      "steps": [
+        {
+          "title": "Start with useful cards",
+          "text": "Prefer cards with a strong job on their own while the open colours become clearer. A two-colour payoff is more valuable when you can see its support arriving."
+        },
+        {
+          "title": "Count enablers as well as rewards",
+          "text": "Ships need creatures to station them; artifact bonuses need artifact bodies; dilemma rewards need modal effects; spell payoffs still need creatures. Recheck the balance as the draft progresses."
+        },
+        {
+          "title": "Build the curve before polishing the engine",
+          "text": "Fill gaps in early creatures and answers before adding another expensive payoff. An intended archetype still needs to function when its signpost is not drawn."
+        },
+        {
+          "title": "Account for the mana base",
+          "text": "Take useful fixing when a splash is realistic. More land names can support strange new worlds, but your lands must still cast your spells on time."
+        }
+      ]
+    }
+  },
+  "mechanics": [
+    {
+      "id": "station",
+      "title": "Spacecraft need a crew",
+      "text": "Station taps another untapped creature you control at sorcery speed. When the ability resolves, charge counters equal to that creature’s power go on the Spacecraft. Its printed thresholds unlock abilities and, when a power/toughness is shown, a creature body.",
+      "tip": "A creature that entered this turn may station a ship. A ship still needs to have been under your control since your turn began, or have haste, to attack after becoming a creature.",
+      "cards": [
+        "U.S.S. Enterprise-D, Galaxy-Class",
+        "Hemmer, Fixing What Is Broken"
+      ]
+    },
+    {
+      "id": "beam-me-up",
+      "title": "Beam me up reuses a spell and a creature",
+      "text": "Cast the spell from your graveyard by paying its beam me up cost and returning a creature you control to its owner’s hand as part of that cost. The spell is exiled after leaving the stack.",
+      "tip": "The spell keeps its normal timing: a sorcery cannot rescue a creature in response to removal. Replaying an enters ability can make the return cost useful.",
+      "cards": [
+        "Open Communications",
+        "Pure Energy",
+        "Pattern Buffer Preservation"
+      ]
+    },
+    {
+      "id": "dilemma",
+      "title": "A dilemma is a modal choice",
+      "text": "You face a dilemma as you choose one or more modes for a spell or ability. Choosing multiple modes for one effect is still one dilemma. The choice counts even if the spell is later countered.",
+      "tip": "Look for a bulleted choose-one or choose-more list. A spell does not need to resolve to trigger Seven of Nine.",
+      "cards": [
+        "Seven of Nine",
+        "Command Decision",
+        "Consider the Prime Directive"
+      ]
+    },
+    {
+      "id": "federation",
+      "title": "Federation counts creature types",
+      "text": "Federation abilities count the distinct creature types among your non-Borg creatures. Duplicate types count once. A Borg creature contributes none of its types, even if it has other types too.",
+      "tip": "Count types such as Human, Scientist and Officer, not the number of creatures. Artifact and legendary are not creature types.",
+      "cards": [
+        "Hoshi Sato, Exolinguist",
+        "Captain Benjamin Sisko"
+      ]
+    },
+    {
+      "id": "new-worlds",
+      "title": "Strange new worlds counts land names",
+      "text": "These abilities count differently named lands you control. Several Forests contribute one name; a Forest, an Island and a Breeding Pool contribute three.",
+      "tip": "Prioritise lands that also support your mana. A land does not need a particular land type to add a new name.",
+      "cards": [
+        "The Traveler",
+        "Astute Terraformer",
+        "Breeding Pool"
+      ]
+    },
+    {
+      "id": "command",
+      "title": "Check eight power before attacking",
+      "text": "Some red-white attack rewards check whether creatures you control have total power 8 or greater. Creatures staying back still contribute. Read each trigger’s condition before declaring attackers.",
+      "tip": "A Spacecraft contributes creature power only while it is a creature. A ship on the battlefield below its creature threshold does not help this count.",
+      "cards": [
+        "Kirk, Commanding Officer",
+        "Worf, Honor-Bound Warrior",
+        "Cantankerous Captain"
+      ]
+    },
+    {
+      "id": "bonus-sheet",
+      "title": "Stardates belongs in your opened pool",
+      "text": "Play Boosters can contain SDS Stardates reprints as well as TRK cards. An SDS card opened in those packs is legal in that Draft or Sealed pool even when it is not Standard legal.",
+      "tip": "Read the card’s real name and rules, then evaluate its mana requirements and fit. The bonus-sheet label does not make a card castable in your deck.",
+      "cards": [
+        "Sheoldred, the Apocalypse",
+        "Kenrith, the Returned King"
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "foundation",
+      "label": "Commons & uncommons to start with"
+    },
+    {
+      "id": "removal",
+      "label": "Answers and protection"
+    },
+    {
+      "id": "engine",
+      "label": "Engines and payoffs"
+    },
+    {
+      "id": "threat",
+      "label": "Rare threats to investigate"
+    },
+    {
+      "id": "fixing",
+      "label": "Mana and support"
+    }
+  ],
+  "keyCards": [
+    {
+      "card": "Assembly Specialist",
+      "role": "foundation",
+      "why": "Supplies two artifact bodies from a two-mana play.",
+      "better": "Artifact-creature bonuses, sacrifice costs and a ship that needs another creature to station it.",
+      "watch": "The small bodies need help to attack into larger blockers; a station tap also takes a body out of combat."
+    },
+    {
+      "card": "Emergency Medical Hologram",
+      "role": "foundation",
+      "why": "Develops a body while starting a counter plan.",
+      "better": "A creature already on the battlefield that benefits from a counter, or later ways to replay enters abilities.",
+      "watch": "It needs a legal creature target for its counter. Do not assume a one-mana body alone will defend against larger attackers."
+    },
+    {
+      "card": "Vexing Drone",
+      "role": "foundation",
+      "why": "A cheap artifact body whose arrival can create a tempo opening.",
+      "better": "A board that can exploit a tapped blocker, or replay effects that reuse the enters trigger.",
+      "watch": "The tapped creature untaps normally unless another effect prevents it; this is not permanent removal."
+    },
+    {
+      "card": "Interstellar Effigy",
+      "role": "foundation",
+      "why": "Puts an artifact creature on the board while returning an opposing creature.",
+      "better": "A deck that can exploit the tempo or reuse its enters ability.",
+      "watch": "It costs five mana and does not answer a noncreature Spacecraft. Your early curve must work before it arrives."
+    },
+    {
+      "card": "Battle-Scarred Survivalist",
+      "role": "foundation",
+      "why": "An early evasive creature that can grow when other creatures die.",
+      "better": "Trades, expendable tokens and removal that produce a death while it remains on the battlefield.",
+      "watch": "The growth trigger is only once each turn; several deaths at once do not give several counters."
+    },
+    {
+      "card": "The Duras Sisters",
+      "role": "foundation",
+      "why": "A low-cost creature that leaves an attacking replacement behind.",
+      "better": "A deck that trades creatures or can use a sacrifice outlet. Hybrid mana lets either black or red pay its cost.",
+      "watch": "The replacement token and the original body have different stats; the death trigger does not bring the Sisters back."
+    },
+    {
+      "card": "Starfleet Security",
+      "role": "foundation",
+      "why": "An early attacker that can leave a Clue when it dies on your turn.",
+      "better": "Attacks that invite a trade, or a sacrifice outlet you can use during your turn.",
+      "watch": "A death during the opponent’s turn does not trigger its Clue ability. Drawing from the Clue still costs mana."
+    },
+    {
+      "card": "Cantankerous Captain",
+      "role": "foundation",
+      "why": "Adds power before combat and can help an attack meet the command threshold.",
+      "better": "Several creatures already in play and a board close to eight total power.",
+      "watch": "Check the total after the power bonus resolves. Menace still allows a block by two or more creatures."
+    },
+    {
+      "card": "Astute Terraformer",
+      "role": "foundation",
+      "why": "A two-mana creature with a mana sink for longer games.",
+      "better": "A stable mana base with distinct land names and spare mana after developing the board.",
+      "watch": "Its pump is limited to once each turn. Do not weaken your coloured sources merely to lower the activation cost."
+    },
+    {
+      "card": "Daniels, Temporal Agent",
+      "role": "foundation",
+      "why": "Recovers a creature while adding another body.",
+      "better": "Useful creatures already in the graveyard and enters effects worth replaying. Hybrid mana permits either black or green.",
+      "watch": "It needs a creature card in the graveyard for the return trigger; a hand full of recursion can still lack early defence."
+    },
+    {
+      "card": "Tea, Earl Grey, Hot",
+      "role": "foundation",
+      "why": "Replaces itself and leaves an artifact for later use.",
+      "better": "Artifact sacrifice costs, Food support and decks with enough early creatures already.",
+      "watch": "It is not a creature and cannot block or station a ship. Its activated choices require mana and sacrificing it."
+    },
+    {
+      "card": "U.S.S. Excelsior, Cutting Edge",
+      "role": "foundation",
+      "why": "Can remove a tapped opposing creature before becoming a creature itself.",
+      "better": "A deck with station creatures and ways to make an opponent’s threat tapped.",
+      "watch": "The enters ability requires a tapped enemy creature. Reaching eight charge counters is a separate investment."
+    },
+    {
+      "card": "Command Decision",
+      "role": "removal",
+      "why": "Offers an answer to a large creature or a way to replace itself.",
+      "better": "Dilemma payoffs and a deck that needs an answer to high-power threats.",
+      "watch": "It is a sorcery. Its removal mode needs power 4 or greater; it does not answer every creature."
+    },
+    {
+      "card": "Eject the Warp Core",
+      "role": "removal",
+      "why": "Can trade up by turning a spare body or artifact into a larger toughness reduction.",
+      "better": "Expendable tokens, Clues or a creature about to become unhelpful in combat.",
+      "watch": "The sacrifice is a casting cost and cannot be taken back. An unkicked -2/-2 does not remove a creature with more than two toughness by itself."
+    },
+    {
+      "card": "He's Dead, Jim",
+      "role": "removal",
+      "why": "An instant answer with draw selection afterward.",
+      "better": "A mana base that can hold up four mana without leaving the board undefended.",
+      "watch": "It destroys rather than exiles. Indestructible and protection can change which threats it answers."
+    },
+    {
+      "card": "Perils of the Past",
+      "role": "removal",
+      "why": "A modal card that can remove an artifact or improve combat.",
+      "better": "Opposing ships or artifact creatures, and creatures of your own that can use the combat mode.",
+      "watch": "The removal mode hits artifacts only. The pump mode provides neither trample nor protection from removal."
+    },
+    {
+      "card": "Guidance Failure",
+      "role": "removal",
+      "why": "A tempo answer that can target a creature or an inactive Spacecraft.",
+      "better": "Attacking creatures that unlock its cost reduction, or a turn where delaying a threat opens a useful attack.",
+      "watch": "The owner chooses top or bottom of the library. This is not guaranteed permanent removal or a card-advantage exchange."
+    },
+    {
+      "card": "Shields Up!",
+      "role": "removal",
+      "why": "Protects an artifact or creature from many targeted answers and destroy effects.",
+      "better": "An important ship or creature whose survival changes the board.",
+      "watch": "Indestructible does not stop exile, sacrifice, or a large enough toughness reduction. Hexproof does not remove an already attached Aura."
+    },
+    {
+      "card": "Seven of Nine",
+      "role": "engine",
+      "why": "Turns useful modal choices into additional cards.",
+      "better": "A pool with several playable modal spells and abilities that you want independently.",
+      "watch": "It is a four-mana setup creature. Weak modal cards still cost a slot, and a deck needs early plays and a way to finish."
+    },
+    {
+      "card": "Vash, Freelance Archaeologist",
+      "role": "engine",
+      "why": "Provides repeated selection and rewards a card leaving your graveyard.",
+      "better": "Recursion and beam me up spells that you can use while still defending the board.",
+      "watch": "The draw trigger is once each turn, not once per card. It does not recover a card from the graveyard by itself."
+    },
+    {
+      "card": "Phlox, Unorthodox Doctor",
+      "role": "engine",
+      "why": "Makes counters on creatures matter beyond their size.",
+      "better": "Creatures with counters and attacks that can connect, including active ships with charge counters.",
+      "watch": "A creature must deal combat damage to a player to draw; being blocked can prevent the reward."
+    },
+    {
+      "card": "Cleveland Booker, Empath",
+      "role": "engine",
+      "why": "Turns later land entries into additional attackers.",
+      "better": "Land drops available after it resolves, and enough defence to make use of tokens that cannot block.",
+      "watch": "Its Worm tokens cannot block. Do not count them as protection when you are behind."
+    },
+    {
+      "card": "Captain Kathryn Janeway",
+      "role": "threat",
+      "why": "Combines an extra-land allowance with repeated explore triggers.",
+      "better": "A creature curve and a deck that can exploit lands or counters after its four-mana play.",
+      "watch": "It does not play lands from your library automatically. You still need lands to play and creatures to develop."
+    },
+    {
+      "card": "U.S.S. Enterprise-D, Galaxy-Class",
+      "role": "threat",
+      "why": "An iconic ship to evaluate for both its initial ability and its active creature threshold.",
+      "better": "Enough creatures to station it without exposing your life total.",
+      "watch": "A powerful final body can be slow. Count station turns and the attacks or blocks you give up to reach it."
+    },
+    {
+      "card": "Sheoldred, the Apocalypse",
+      "role": "threat",
+      "why": "A bonus-sheet threat whose repeated life swings deserve a close look.",
+      "better": "A deck with sufficient black sources to cast its double-black cost.",
+      "watch": "Its power does not remove the need for reliable mana. Do not splash double black from a thin source base."
+    },
+    {
+      "card": "Warp Core",
+      "role": "fixing",
+      "why": "Finds a basic land for a later land drop and can help station a ship.",
+      "better": "A planned splash with actual coloured sources, or ships that benefit from two additional charge counters.",
+      "watch": "The land goes to your hand, not the battlefield, so this does not ramp you. You still need an available land play to use the fetched land."
+    },
+    {
+      "card": "Unexplored Territory",
+      "role": "fixing",
+      "why": "Can convert itself into the basic land your deck needs.",
+      "better": "A manageable splash or a need for another land name without adding a coloured spell.",
+      "watch": "It costs one mana and a tap to sacrifice, and the fetched land enters tapped. Budget the tempo loss."
+    },
+    {
+      "card": "Breeding Pool",
+      "role": "fixing",
+      "why": "A dual land that can improve mana while adding a distinct land name.",
+      "better": "A green-blue base or a supported splash that needs its colours.",
+      "watch": "Entering untapped costs 2 life. A dual land is useful only when its colours support the spells you plan to cast."
+    }
+  ],
+  "interactions": [
+    {
+      "card": "Set Phasers to . . .",
+      "note": "Its damage mode targets an attacking creature only. The other mode taps a creature and adds a stun counter; it does not permanently remove it."
+    },
+    {
+      "card": "Shields Up!",
+      "note": "Protects an artifact or creature you control. Indestructible does not stop exile, sacrifice or a lethal toughness reduction."
+    },
+    {
+      "card": "Consider the Prime Directive",
+      "note": "The counter mode allows the opponent to pay {3}. The other mode can tap up to one creature, add a stun counter and draw; choosing the mode is a dilemma."
+    },
+    {
+      "card": "Guidance Failure",
+      "note": "Costs {1} less when targeting an attacking creature. It can target a Spacecraft that is not a creature; the owner chooses top or bottom of the library."
+    },
+    {
+      "card": "Highly Illogical",
+      "note": "Without kicker, it counters only a spell with mana value 2 or less. With its {1}{U} kicker paid as well, it can counter any spell."
+    },
+    {
+      "card": "Test of Priorities",
+      "note": "One mode filters and draws; the other exiles your creature until the next end step. A returned creature is a new object and loses old counters and attachments."
+    },
+    {
+      "card": "Eject the Warp Core",
+      "note": "Sacrificing an artifact or creature is the optional kicker cost, paid before responses. Kicked gives -6/-6; otherwise it gives -2/-2."
+    },
+    {
+      "card": "He's Dead, Jim",
+      "note": "Destroys any target creature and then surveils. It cannot destroy a ship that is still a noncreature artifact."
+    },
+    {
+      "card": "Impossible Choice",
+      "note": "Its removal mode gives the creature’s controller two 1/1 tokens. Its draw mode makes each player lose 2 life, including you."
+    },
+    {
+      "card": "Perils of the Past",
+      "note": "Can destroy an artifact even before a Spacecraft becomes a creature. Its alternate mode gives +3/+2 without trample."
+    },
+    {
+      "card": "Plasma Cascade",
+      "note": "Deals 3 to any target. Discarding to draw is optional; check whether 3 damage actually kills the intended creature."
+    },
+    {
+      "card": "Test of Identity",
+      "note": "The double-strike mode needs a Klingon target. The other mode requires a discarded card to draw two; neither mode supplies a creature."
+    },
+    {
+      "card": "I'm a Doctor, Not a . . .",
+      "note": "Targets your own creature, untaps it, adds a +1/+1 counter and gives +1/+1 for the turn. Its temporary Doctor type replaces its other creature types."
+    },
+    {
+      "card": "Dathon and Picard at El-Adrel",
+      "note": "One mode gives +3/+3 and trample. The other lets each opponent choose a nontoken artifact or enchantment to sacrifice; you do not choose it."
+    },
+    {
+      "card": "Test of Courage",
+      "note": "Its artifact/enchantment removal mode needs mana value 3 or less. The graveyard mode exiles one targeted card and gains 2 life."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "beam-timing",
+      "question": "An opponent casts removal on your creature. Open Communications is in your graveyard. Can you cast it with beam me up in response?",
+      "options": [
+        "Yes, because returning the creature is a cost",
+        "No, Open Communications is still a sorcery"
+      ],
+      "answer": 1,
+      "explanation": "Beam me up changes the cost and where you cast the spell from, not its timing. Open Communications requires your main phase with an empty stack.",
+      "cards": [
+        "Open Communications"
+      ]
+    },
+    {
+      "id": "beam-cost",
+      "question": "During your main phase, you cast Open Communications from your graveyard with beam me up and return your only creature as the additional cost. Can the opponent now destroy that creature on the battlefield in response?",
+      "options": [
+        "Yes, before the creature is returned",
+        "No, it has already returned to hand"
+      ],
+      "answer": 1,
+      "explanation": "Returning the creature is part of paying the cost. By the time an opponent can respond to the spell, that creature is already in its owner’s hand. The spell itself may still be answered.",
+      "cards": [
+        "Open Communications"
+      ]
+    },
+    {
+      "id": "station-new-creature",
+      "question": "During your main phase with an empty stack, can a creature that entered this turn station your Spacecraft?",
+      "options": [
+        "Yes, if it is untapped and is another creature",
+        "No, creatures must wait a turn before stationing"
+      ],
+      "answer": 0,
+      "explanation": "Station permits tapping another untapped creature, including one that entered this turn. This is different from activating that creature’s own ability with a tap symbol in its cost.",
+      "cards": [
+        "U.S.S. Enterprise-D, Galaxy-Class"
+      ]
+    },
+    {
+      "id": "station-timing",
+      "question": "An opponent attacks. Can you activate station now to make your inactive Spacecraft into a blocker?",
+      "options": [
+        "Yes, before blockers are declared",
+        "No, station can be activated only as a sorcery"
+      ],
+      "answer": 1,
+      "explanation": "Station requires your main phase with an empty stack. You need to reach a creature threshold before the opponent’s combat, unless a different effect can animate the ship.",
+      "cards": [
+        "U.S.S. Enterprise-D, Galaxy-Class"
+      ]
+    },
+    {
+      "id": "dilemma-countered",
+      "question": "You control Seven of Nine, choose a mode for Command Decision and cast it. The opponent counters Command Decision. Do you still get Seven’s draw trigger?",
+      "options": [
+        "Yes, you already faced a dilemma",
+        "No, the modal spell must resolve"
+      ],
+      "answer": 0,
+      "explanation": "You face the dilemma when you choose the mode. Countering the spell does not undo that choice or the resulting trigger.",
+      "cards": [
+        "Seven of Nine",
+        "Command Decision"
+      ]
+    },
+    {
+      "id": "federation-types",
+      "question": "You control Hoshi Sato (Human Scientist), Captain Benjamin Sisko (Human Officer), and an Assembly Specialist (Borg). How many distinct creature types do the non-Borg creatures contribute?",
+      "options": [
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "answer": 1,
+      "explanation": "The distinct types are Human, Scientist and Officer. Human counts once, and the Borg creature contributes no types.",
+      "cards": [
+        "Hoshi Sato, Exolinguist",
+        "Captain Benjamin Sisko",
+        "Assembly Specialist"
+      ]
+    },
+    {
+      "id": "land-names",
+      "question": "You control three Forests, an Island and a Breeding Pool. How many differently named lands do you control?",
+      "options": [
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "answer": 0,
+      "explanation": "Forest, Island and Breeding Pool are three different names. Additional Forests do not add names, and Breeding Pool’s two basic land types do not count as two names.",
+      "cards": [
+        "The Traveler",
+        "Breeding Pool"
+      ]
+    },
+    {
+      "id": "hybrid-cost",
+      "question": "Your deck uses only Mountains and Swamps. Can it pay for The Duras Sisters without adding another colour?",
+      "options": [
+        "Yes, each hybrid symbol can be paid with black or red",
+        "No, hybrid cards require both colours"
+      ],
+      "answer": 0,
+      "explanation": "Each {B/R} symbol can be paid with either black or red mana. This does not apply to a gold card whose cost contains separate coloured symbols.",
+      "cards": [
+        "The Duras Sisters"
+      ]
+    },
+    {
+      "id": "artifact-target",
+      "question": "Your opponent’s Spacecraft has not reached its creature threshold. Can the artifact-destruction mode of Perils of the Past target it?",
+      "options": [
+        "Yes, it is already an artifact",
+        "No, a ship must become a creature first"
+      ],
+      "answer": 0,
+      "explanation": "Spacecraft are artifacts before stationing. Perils of the Past’s artifact mode does not require the target to be a creature.",
+      "cards": [
+        "Perils of the Past",
+        "U.S.S. Enterprise-D, Galaxy-Class"
+      ]
+    },
+    {
+      "id": "warp-core-land",
+      "question": "Warp Core enters and you find a basic land. Where does that land go?",
+      "options": [
+        "Onto the battlefield tapped",
+        "Into your hand"
+      ],
+      "answer": 1,
+      "explanation": "Warp Core puts the basic land into your hand. You need an available land play to put it onto the battlefield; the search is not ramp by itself.",
+      "cards": [
+        "Warp Core"
+      ]
+    },
+    {
+      "id": "booker-block",
+      "question": "Cleveland Booker has made two Worm tokens. Can you leave those Worms back to block the opponent’s next attack?",
+      "options": [
+        "Yes, unless they attacked this turn",
+        "No, those Worm tokens cannot block"
+      ],
+      "answer": 1,
+      "explanation": "Booker’s tokens explicitly cannot block. They can pressure an opponent or serve other costs, but they do not replace early defensive creatures.",
+      "cards": [
+        "Cleveland Booker, Empath"
+      ]
+    },
+    {
+      "id": "stardates-pool",
+      "question": "You open an SDS Stardates card in one of your event’s Play Boosters. Can it be included in your Sealed deck if its normal constructed legality is not Standard?",
+      "options": [
+        "Yes, it belongs to that opened Limited pool",
+        "No, Sealed uses Standard legality"
+      ],
+      "answer": 0,
+      "explanation": "Wizards explicitly permits TRK and SDS cards opened from Star Trek Play Boosters in that Draft or Sealed pool. You still need to build a legal deck from your own pool.",
+      "cards": [
+        "Sheoldred, the Apocalypse"
+      ]
+    }
+  ]
+}

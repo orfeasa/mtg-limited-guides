@@ -1,0 +1,286 @@
+{
+  "version": 1,
+  "set": "TRK",
+  "status": "provisional",
+  "official": {
+    "label": "Wizards of the Coast prerelease archetype guide",
+    "url": "https://magic.wizards.com/en/news/feature/star-trek-prerelease-guide"
+  },
+  "formats": {
+    "draft": {
+      "label": "Premier Draft",
+      "shortLabel": "Draft",
+      "eventType": "PremierDraft",
+      "headline": "Learn what each colour pair is trying to do.",
+      "guidance": "These are the official Draft themes. Check that the enablers and payoffs reach you before committing; the order below is not a power ranking.",
+      "source": {
+        "label": "17Lands deck colour data",
+        "url": "https://www.17lands.com/deck_color_data?expansion=TRK&format=PremierDraft&time_period=ALL_TIME",
+        "scope": "17Lands users · all ranks · all time"
+      },
+      "observed": {
+        "status": "pending",
+        "capturedAt": null,
+        "twoColourGames": 0,
+        "supportedGames": 0,
+        "supportedShare": null,
+        "topPair": null,
+        "pairs": []
+      }
+    },
+    "sealed": {
+      "label": "Sealed",
+      "shortLabel": "Sealed",
+      "eventType": "Sealed",
+      "headline": "Find the strongest deck in your six packs.",
+      "guidance": "Compare colour depth, early creatures, removal and castable threats. Use these ten plans to check your pool’s support; a signpost alone is not a reason to choose its colours.",
+      "source": {
+        "label": "17Lands deck colour data",
+        "url": "https://www.17lands.com/deck_color_data?expansion=TRK&format=Sealed&time_period=ALL_TIME",
+        "scope": "17Lands users · all ranks · all time"
+      },
+      "observed": {
+        "status": "pending",
+        "capturedAt": null,
+        "twoColourGames": 0,
+        "supportedGames": 0,
+        "supportedShare": null,
+        "topPair": null,
+        "pairs": []
+      }
+    }
+  },
+  "archetypes": [
+    {
+      "id": "WU",
+      "colors": [
+        "W",
+        "U"
+      ],
+      "name": "Spacecraft and Artificers",
+      "mechanic": "Station · enters abilities",
+      "plan": "Use creatures that have already supplied an enters effect to station ships, then win through the air.",
+      "priorities": [
+        "Early creatures that can defend while ships come online",
+        "Useful enters abilities and replay effects",
+        "Spacecraft with relevant text before they become creatures"
+      ],
+      "signposts": [
+        "Hemmer, Fixing What Is Broken",
+        "Constable Odo"
+      ],
+      "formatNotes": {
+        "draft": "Take early defence alongside ships. A hand of only Spacecraft cannot station itself, and tapping your team costs attacks or blocks.",
+        "sealed": "Choose this plan when your pool has enough actual creatures to defend and station. Evaluate the ship’s initial effect separately from its eventual body."
+      }
+    },
+    {
+      "id": "UB",
+      "colors": [
+        "U",
+        "B"
+      ],
+      "name": "Dilemma Control",
+      "mechanic": "Modal spells · card advantage",
+      "plan": "Keep the board manageable while modal choices fuel your dilemma payoffs.",
+      "priorities": [
+        "Interaction that works against the threats you expect",
+        "Modal spells and abilities that are useful without a payoff",
+        "A durable way to finish the game"
+      ],
+      "signposts": [
+        "Seven of Nine",
+        "Lore, Positronic Provocateur"
+      ],
+      "formatNotes": {
+        "draft": "Count useful modal effects before relying on Seven of Nine. A mode is chosen before the spell resolves; repeated choices can provide a longer-game engine.",
+        "sealed": "First establish early blockers and enough answers. Do not fill a control deck with weak modal spells just to trigger one uncommon."
+      }
+    },
+    {
+      "id": "BR",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "name": "Klingons and Dies",
+      "mechanic": "Disposable creatures · sacrifice",
+      "plan": "Attack with replaceable bodies, then turn deaths and spare artifacts into more resources.",
+      "priorities": [
+        "Cheap creatures and expendable tokens",
+        "Death payoffs and sacrifice outlets",
+        "Enough pressure that tokens can trade or connect"
+      ],
+      "signposts": [
+        "L'Rell, Fierce Visionary",
+        "The Duras Sisters"
+      ],
+      "formatNotes": {
+        "draft": "Balance things to sacrifice with rewards for sacrificing them. Temporary Klingon tokens are useful fuel before their end-step sacrifice.",
+        "sealed": "Look for overlapping creatures, interaction and death rewards. A sacrifice outlet with no spare bodies should not displace a card that stabilises the board."
+      }
+    },
+    {
+      "id": "RG",
+      "colors": [
+        "R",
+        "G"
+      ],
+      "name": "Away Team Landfall",
+      "mechanic": "Landfall · extra land entries",
+      "plan": "Develop creatures, then turn repeated land entries into pressure and a wide board.",
+      "priorities": [
+        "Playable early creatures",
+        "Landfall rewards and ways to put extra lands onto the battlefield",
+        "A plan for turning a wide board into damage"
+      ],
+      "signposts": [
+        "Dal R'El, Augment Orphan",
+        "Cleveland Booker, Empath"
+      ],
+      "formatNotes": {
+        "draft": "Select land enablers with payoffs in mind, and keep enough creatures. An extra land entry matters more after a landfall permanent is in play.",
+        "sealed": "Use landfall as an advantage inside a functional creature deck. Do not keep a fragile opening hand merely because it contains a payoff and several expensive spells."
+      }
+    },
+    {
+      "id": "GW",
+      "colors": [
+        "G",
+        "W"
+      ],
+      "name": "Doctors and Counters",
+      "mechanic": "Counters · combat damage",
+      "plan": "Grow a board of creatures and use counters to turn attacks into sustained advantage.",
+      "priorities": [
+        "Creatures worth improving",
+        "Counter sources that also develop the board",
+        "Ways for enhanced creatures to connect"
+      ],
+      "signposts": [
+        "Phlox, Unorthodox Doctor",
+        "The Doctor, EMH"
+      ],
+      "formatNotes": {
+        "draft": "Build a curve before loading up on enhancement effects. Phlox recognises any counter on a creature, including charge counters on an active Spacecraft.",
+        "sealed": "Check that your pool can deploy bodies on time. A counter engine is strongest when it improves creatures you were already happy to play."
+      }
+    },
+    {
+      "id": "WB",
+      "colors": [
+        "W",
+        "B"
+      ],
+      "name": "Borg Artifact Creatures",
+      "mechanic": "Artifact bodies · sacrifice",
+      "plan": "Build a board of artifact creatures, then turn shared bonuses and spare artifacts into a winning attack.",
+      "priorities": [
+        "Artifact creatures across the mana curve",
+        "Multiple bodies from one card",
+        "Removal and payoffs that reward the artifacts you already want"
+      ],
+      "signposts": [
+        "Locutus, the One Who Speaks",
+        "Zero, Incorporeal Sensate"
+      ],
+      "formatNotes": {
+        "draft": "Count artifact creatures rather than all artifacts for Locutus. Clues and Food can support sacrifice costs but do not receive a creature bonus.",
+        "sealed": "Start with the quality and number of artifact bodies you actually opened. Generic artifacts are not substitutes for creatures that can block and attack."
+      }
+    },
+    {
+      "id": "UR",
+      "colors": [
+        "U",
+        "R"
+      ],
+      "name": "Scientists and Noncreatures",
+      "mechanic": "Noncreature spells · repeated value",
+      "plan": "Develop a creature board, then use noncreature spells to generate tempo and additional value.",
+      "priorities": [
+        "Cheap noncreature spells with useful effects",
+        "Creatures that reward casting them",
+        "Threats that leave mana available for interaction"
+      ],
+      "signposts": [
+        "Spock, Always Your Friend",
+        "Gray and Adira, Forever Joined"
+      ],
+      "formatNotes": {
+        "draft": "Gray and Adira need a noncreature spell before combat and a creature worth copying. Spacecraft count as noncreature spells when cast.",
+        "sealed": "Avoid a pool with too few actual creatures. Pick spell payoffs when your removal and other noncreature spells already support them."
+      }
+    },
+    {
+      "id": "BG",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "name": "Archaeology Graveyard",
+      "mechanic": "Surveil · recursion",
+      "plan": "Improve draws and stock the graveyard, then recover cards for repeated value.",
+      "priorities": [
+        "Creatures that trade or supply an enters effect",
+        "Useful recursion and graveyard setup",
+        "A way to survive while the engine develops"
+      ],
+      "signposts": [
+        "Vash, Freelance Archaeologist",
+        "Daniels, Temporal Agent"
+      ],
+      "formatNotes": {
+        "draft": "Vash rewards cards leaving your graveyard once each turn. Beam me up can supply that event without needing a reanimation spell.",
+        "sealed": "Prefer effects with a useful floor over a fragile chain of graveyard pieces. Keep enough early creatures and removal to reach the long game."
+      }
+    },
+    {
+      "id": "RW",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "name": "Command: 8+ Total Power",
+      "mechanic": "Board development · total power",
+      "plan": "Build enough total creature power to unlock attack rewards and push through damage.",
+      "priorities": [
+        "Efficient creatures across the early curve",
+        "Multiple bodies and ways to increase power",
+        "Removal or evasion to keep profitable attacks available"
+      ],
+      "signposts": [
+        "Kirk, Commanding Officer",
+        "Worf, Honor-Bound Warrior"
+      ],
+      "formatNotes": {
+        "draft": "The eight-power check counts creatures you control, including ones that are not attacking. Plan the threshold before declaring attackers.",
+        "sealed": "Ask whether your creatures can attack into the board, not just reach eight power in an empty game. Keep interaction for a stalled battlefield."
+      }
+    },
+    {
+      "id": "GU",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "name": "Strange New Worlds",
+      "mechanic": "Land names · exploration",
+      "plan": "Support a stable mana base while differently named lands improve your creatures and spells.",
+      "priorities": [
+        "Early creatures and reliable coloured sources",
+        "Useful lands with distinct names",
+        "Payoffs that reward those names without demanding a bad mana base"
+      ],
+      "signposts": [
+        "The Traveler",
+        "D'Vana Tendi, Optimistic Ensign"
+      ],
+      "formatNotes": {
+        "draft": "Count names on the battlefield, not land types or copies. Use dual lands and other useful nonbasics before adding a land solely to raise the count.",
+        "sealed": "Build a mana base that casts your spells first. An off-colour land may add a name, but entering tapped or failing to supply your colours is a real cost."
+      }
+    }
+  ],
+  "authoredAt": "2026-10-31"
+}

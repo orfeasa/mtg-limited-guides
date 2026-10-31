@@ -47,7 +47,11 @@
   function card(set, id) {
     const evidence = set.earlyEvidence;
     const row = evidence?.byCard[id];
-    if (!row) return '';
+    if (!row) {
+      const name = set.cards.find(card => card.id === id)?.name;
+      const guidance = set.prep?.keyCards.find(item => item.card === name);
+      return guidance?.better ? `<div class="card-guidance"><h3>Best with</h3><p>${text(guidance.better)}</p><h3>Watch for</h3><p>${text(guidance.watch)}</p></div>` : '';
+    }
     const teaching = row.teaching;
     return `${teaching ? `<div class="card-guidance"><h3>Best with</h3><p>${text(teaching.better)}</p><h3>Watch for</h3><p>${text(teaching.watch)}</p></div>` : ''}
     ${row.combinationIds.map(id => `<details class="evidence-related"><summary>${escape(evidence.combinations[id].title)}</summary>${combination(set, id)}</details>`).join('')}`;

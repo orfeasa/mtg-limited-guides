@@ -38,6 +38,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Rajdhani";
+  src: url("assets/fonts/Rajdhani-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600 700;
+  font-display: swap;
+}
+
 :root {
   color-scheme: light;
   --binding: #263c31;
@@ -101,6 +109,75 @@ body[data-theme="fracture"] {
     linear-gradient(126deg, rgba(113,71,213,.24), transparent 34%, rgba(21,156,175,.1) 63%, transparent),
     linear-gradient(32deg, transparent 46%, rgba(107,224,237,.08) 47% 47.4%, transparent 48%),
     linear-gradient(148deg, transparent 60%, rgba(209,95,121,.09) 60.2% 60.6%, transparent 61%);
+}
+
+/* Starfleet briefing: warm reading paper, navy binding and LCARS wayfinding. */
+body[data-theme="starfleet"] {
+  color-scheme: light;
+  --binding: #142632;
+  --binding-deep: #0d1c26;
+  --binding-soft: #294653;
+  --surface: #f4f0e7;
+  --surface-light: #fffcf5;
+  --surface-deep: #e5e0d5;
+  --ground: #e3e8e7;
+  --ink: #142632;
+  --muted: #4d6268;
+  --line: #b5c2bf;
+  --accent: #b04428;
+  --accent-dark: #84311d;
+  --signal: #236777;
+  --metal: #c88245;
+  --metal-light: #f2b66d;
+  --focus: #0d6685;
+  --on-binding: #fff7e9;
+  --on-binding-muted: #c4d4d8;
+  --display: "Rajdhani", "Atkinson Hyperlegible Next", sans-serif;
+  --page-radius: 12px;
+  --control-radius: 6px;
+  --card-radius: 12px;
+  --surface-pattern: none;
+  --binding-pattern: none;
+}
+
+html[data-theme="starfleet"] { background: #e3e8e7; }
+
+body[data-theme="starfleet"]::selection {
+  color: #142632;
+  background: #f2b66d;
+}
+
+body[data-theme="starfleet"] .app-header { min-height: 148px; }
+body[data-theme="starfleet"] .app-header::after {
+  position: absolute;
+  right: 0;
+  bottom: 16px;
+  left: 0;
+  height: 8px;
+  content: "";
+  background: linear-gradient(to right, #f2b66d 0 22%, #142632 22% 22.5%, #d38a78 22.5% 57%, #142632 57% 57.5%, #98c4ce 57.5% 82%, #142632 82% 82.5%, #f2b66d 82.5%);
+}
+body[data-theme="starfleet"] .brand-block h1 { max-width: none; font-weight: 600; line-height: 1.05; letter-spacing: -.02em; }
+body[data-theme="starfleet"] .theme-rule,
+body[data-theme="starfleet"] .mark-atlas { display: none; }
+body[data-theme="starfleet"] .mark-starfleet { display: block; }
+body[data-theme="starfleet"] .view-tabs { padding-top: 12px; }
+body[data-theme="starfleet"] .view-tab { border-radius: 18px 18px 0 0; }
+body[data-theme="starfleet"] .view-tab[aria-selected="true"] { color: var(--binding-deep); background: var(--metal-light); }
+body[data-theme="starfleet"] .dataset-stamp { min-width: 116px; font-size: .72rem; }
+body[data-theme="starfleet"] .dataset-stamp span:last-child { font-size: .69rem; white-space: nowrap; }
+body[data-theme="starfleet"] .atlas-card-meta { font-size: .72rem; }
+body[data-theme="starfleet"] .atlas-heading h2,
+body[data-theme="starfleet"] .prep-heading h2,
+body[data-theme="starfleet"] .archetypes-heading h2 { font-weight: 600; }
+body[data-theme="starfleet"] .atlas-emblem { display: none; }
+body[data-theme="starfleet"] .color-section-heading { border-bottom-color: var(--line); }
+body[data-theme="starfleet"] .card-set-tag { color: var(--signal); font-weight: 700; }
+body[data-theme="starfleet"] .prep-jumps a { text-underline-offset: .22em; }
+
+@media (max-width: 700px) {
+  body[data-theme="starfleet"] .header-actions { grid-template-columns: minmax(0, 1fr) 52px 116px; }
+  body[data-theme="starfleet"] .brand-block p { display: block; font-size: .75rem; line-height: 1.4; }
 }
 
 * {
@@ -312,6 +389,7 @@ body[data-theme="fracture"] .app-header::after {
 }
 
 .mark-fracture,
+.mark-starfleet,
 .rule-fracture {
   display: none;
 }

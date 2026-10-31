@@ -34,6 +34,7 @@ export function validatePrep(guide, set) {
   for (const item of guide.keyCards) {
     ref(item.card);
     check(roles.has(item.role) && prose(item.why) && prose(item.watch), "incomplete card assessment");
+    if (item.better !== undefined) check(prose(item.better), "empty card support guidance");
   }
   check(guide.roles.every((role) => guide.keyCards.some((c) => c.role === role.id)), "empty role");
   check(guide.interactions?.length > 0 && unique(guide.interactions, "card"), "invalid interactions");

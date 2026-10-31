@@ -200,7 +200,7 @@
   let atlasTypeFilter = "all";
   let atlasRarity = "all";
   let atlasSince = "";
-  let archetypeFormat = params.get("format") === "sealed" ? "sealed" : "draft";
+  let archetypeFormat = params.get("format") === "sealed" ? "sealed" : params.get("format") === "draft" ? "draft" : currentSet.archetypeDefaultFormat || "draft";
   let prepFormat = "sealed";
   let archetypeStudy = false;
   let memoryStudySet = "all";
@@ -494,7 +494,7 @@
     document.body.dataset.theme = currentSet.theme;
     document.documentElement.dataset.theme = currentSet.theme;
     document.title = `${currentSet.name} · Limited Field Guides`;
-    document.querySelector('meta[name="theme-color"]')?.setAttribute("content", currentSet.theme === "fracture" ? "#171426" : "#263c31");
+    document.querySelector('meta[name="theme-color"]')?.setAttribute("content", currentSet.themeColor || (currentSet.theme === "fracture" ? "#171426" : "#263c31"));
     elements.productName.textContent = currentSet.productName;
     const state = lifecycle();
     const nextEvent = [["Prerelease", currentSet.prereleaseDate], ["Arena", currentSet.arenaDate], ["Release", currentSet.releaseDate]]
@@ -508,7 +508,7 @@
     elements.atlasTitle.textContent = state.atlasLabel;
 
     if (archetypesAvailable()) {
-      elements.archetypesTitle.textContent = `${currentSet.archetypes.archetypes.length} roads through the set`;
+      elements.archetypesTitle.textContent = currentSet.archetypesTitle || `${currentSet.archetypes.archetypes.length} roads through the set`;
       elements.archetypesCopy.textContent = currentSet.archetypes.status === "observed"
         ? "Official plans, tested against format-specific results. Learn what each deck needs before deciding whether your cards actually support it."
         : "The official colour-pair map, with practical plans and signposts from the complete card file. Draft and Sealed results remain visibly pending.";
@@ -695,7 +695,9 @@
       format: currentSet.performance?.format,
       capturedAt: currentSet.performance?.capturedAt || currentSet.rating.capturedAt,
     } : null);
-    if (!source || !card.stats || !tiersAvailable()) return "";
+    if (!source || !card.stats || !tiersAvailable()) return card.scryfallUrl
+      ? `<details class="card-stat-source"><summary>Card text · ${escapeHtml(dateLabel(currentSet.previewCapturedAt))}</summary><p><a href="${escapeHtml(card.scryfallUrl)}" target="_blank" rel="noopener noreferrer">Scryfall · ${escapeHtml(card.setCode || currentSet.code)} #${escapeHtml(card.collectorNumber)}</a>${card.setLabel ? ` · ${escapeHtml(card.setLabel)}` : ""}</p></details>`
+      : "";
     const stats = card.stats;
     const metrics = [
       Number.isFinite(stats.inHandWinRate) && ["In-hand win rate", `${stats.inHandWinRate.toFixed(1)}%`],
@@ -1316,7 +1318,7 @@
       ? "Ranking hidden until comparison"
       : cardIsRated(card)
       ? `#${card.rank} · Tier ${card.tier}`
-      : `${card.rarity || "Preview"} · ${currentSet.code} #${card.collectorNumber || "—"}`;
+      : `Unrated · ${card.rarity || "Preview"} · ${card.setCode || currentSet.code} #${card.collectorNumber || "—"}${card.isBonusSheet ? " · Stardates bonus sheet" : ""}`;
     const evidencePanel = document.getElementById("card-preview-evidence");
     evidencePanel.innerHTML = imageOnly || hideDecisionRating || currentView === "memory" ? "" : observedCardEvidence(card) + window.EARLY_EVIDENCE.card(currentSet, card.id);
     if (previewHistory.length) evidencePanel.insertAdjacentHTML("afterbegin", '<button type="button" class="card-preview-back">Back to previous card</button>');
@@ -1501,7 +1503,7 @@
           : !tiersAvailable()
             ? `<span>${escapeHtml(card.rarity || "Unrated")}</span>`
             : `<span class="tier ${cardIsRated(card) ? "" : "tier-pending"}" style="--tier-color:${tierColors[card.tier] || tierColors["?"]}">${escapeHtml(cardIsRated(card) ? card.tier : "Unrated")}</span>`;
-        button.innerHTML = `<img src="${escapeHtml(atlasSize === "large" ? card.trainingImage || card.image : card.image)}" alt="" width="80" height="112" loading="lazy" decoding="async"><span class="atlas-card-copy"><strong>${cost}${escapeHtml(card.name)}</strong>${card.typeLine ? `<span class="atlas-card-type">${escapeHtml(card.typeLine)}</span>` : ""}<span class="atlas-card-meta">${meta}</span></span>`;
+        button.innerHTML = `<img src="${escapeHtml(atlasSize === "large" ? card.trainingImage || card.image : card.image)}" alt="" width="80" height="112" loading="lazy" decoding="async"><span class="atlas-card-copy"><strong>${cost}${escapeHtml(card.name)}</strong>${card.typeLine ? `<span class="atlas-card-type">${escapeHtml(card.typeLine)}</span>` : ""}<span class="atlas-card-meta">${meta}${card.isBonusSheet ? '<span class="card-set-tag">Stardates · SDS</span>' : ""}</span></span>`;
         const image = button.querySelector("img");
         image.onerror = () => {
           image.onerror = null;
@@ -1545,7 +1547,7 @@
     const requestedFormat = useRouteState ? routeParams.get("format") : null;
     prepFormat = requestedFormat === "2hg" && currentSet.prep?.twoHeadedGiant ? "2hg" : requestedFormat === "draft" ? "draft" : requestedFormat === "sealed" ? "sealed" : currentSet.prepDefaultFormat || "sealed";
     if (requestedFormat && currentSet.archetypes?.formats?.[requestedFormat]) archetypeFormat = requestedFormat;
-    else if (!currentSet.archetypes?.formats?.[archetypeFormat]) archetypeFormat = "draft";
+    else archetypeFormat = currentSet.archetypeDefaultFormat || "draft";
     archetypeStudy = useRouteState && routeParams.get("study") === "1";
     memoryStudySet = useRouteState ? routeParams.get("studySet") || "all" : "all";
     memoryColour = useRouteState ? routeParams.get("colour") || "all" : "all";

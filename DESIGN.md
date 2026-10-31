@@ -52,6 +52,26 @@ colors:
   fracture-focus: "#d15f79"
   fracture-on-binding: "#f1f3fb"
   fracture-on-binding-muted: "#c5c5dc"
+  starfleet-binding: "#142632"
+  starfleet-binding-deep: "#0d1c26"
+  starfleet-binding-soft: "#294653"
+  starfleet-surface: "#f4f0e7"
+  starfleet-surface-light: "#fffcf5"
+  starfleet-surface-deep: "#e5e0d5"
+  starfleet-ground: "#e3e8e7"
+  starfleet-ink: "#142632"
+  starfleet-muted: "#4d6268"
+  starfleet-line: "#b5c2bf"
+  starfleet-accent: "#b04428"
+  starfleet-accent-dark: "#84311d"
+  starfleet-signal: "#236777"
+  starfleet-metal: "#c88245"
+  starfleet-metal-light: "#f2b66d"
+  starfleet-focus: "#0d6685"
+  starfleet-on-binding: "#fff7e9"
+  starfleet-on-binding-muted: "#c4d4d8"
+  starfleet-segment-salmon: "#d38a78"
+  starfleet-segment-blue: "#98c4ce"
   group-white: "#d7cea8"
   group-white-ink: "#514a34"
   group-blue: "#4f8198"
@@ -81,6 +101,24 @@ colors:
   tier-f: "#913d38"
   tier-pending: "#6a716d"
 typography:
+  starfleet-page:
+    fontFamily: "Rajdhani, Atkinson Hyperlegible Next, sans-serif"
+    fontWeight: 600
+    fontSize: "clamp(3rem, 7vw, 5.8rem)"
+    lineHeight: 0.86
+    letterSpacing: "-.035em"
+  starfleet-heading:
+    fontFamily: "Rajdhani, Atkinson Hyperlegible Next, sans-serif"
+    fontWeight: 600
+    fontSize: "clamp(2.5rem, 5vw, 4.7rem)"
+    lineHeight: 0.98
+    letterSpacing: "-.03em"
+  starfleet-display:
+    fontFamily: "Rajdhani, Atkinson Hyperlegible Next, sans-serif"
+    fontWeight: 600
+    fontSize: "clamp(2rem, 3.2vw, 3.15rem)"
+    lineHeight: 1.05
+    letterSpacing: "-.02em"
   commander-heading:
     fontFamily: "Barlow Condensed, sans-serif"
     fontSize: "clamp(2.7rem, 8vw, 4rem)"
@@ -213,6 +251,11 @@ typography:
     fontWeight: 400
     lineHeight: 1.35
 rounded:
+  starfleet-tab: "18px 18px 0 0"
+  starfleet-page: "12px"
+  starfleet-card: "12px"
+  starfleet-control: "6px"
+  starfleet-prep-control: "3px"
   fracture-micro-cut: "2px"
   fracture-page: "3px"
   thumbnail: "4px"
@@ -236,6 +279,34 @@ spacing:
   frame: "48px"
   generous: "70px"
 components:
+  app-header-starfleet:
+    backgroundColor: "{colors.starfleet-binding}"
+    textColor: "{colors.starfleet-on-binding}"
+    typography: "{typography.starfleet-display}"
+  view-marker-starfleet:
+    backgroundColor: "{colors.starfleet-binding-soft}"
+    textColor: "{colors.starfleet-on-binding}"
+    rounded: "{rounded.starfleet-tab}"
+    padding: "0 19px"
+  view-marker-starfleet-active:
+    backgroundColor: "{colors.starfleet-metal-light}"
+    textColor: "{colors.starfleet-binding-deep}"
+    rounded: "{rounded.starfleet-tab}"
+    padding: "0 19px"
+  reading-page-starfleet:
+    backgroundColor: "{colors.starfleet-surface}"
+    textColor: "{colors.starfleet-ink}"
+    rounded: "0 12px 12px 12px"
+    padding: "clamp(22px, 4vw, 48px)"
+  lookup-starfleet:
+    backgroundColor: "{colors.starfleet-surface-light}"
+    textColor: "{colors.starfleet-ink}"
+    rounded: "{rounded.starfleet-control}"
+    padding: "10px 12px"
+  card-details-starfleet:
+    backgroundColor: "{colors.starfleet-binding-deep}"
+    textColor: "{colors.starfleet-on-binding}"
+    rounded: "{rounded.starfleet-card}"
   app-header-hobbit:
     backgroundColor: "{colors.hobbit-binding}"
     textColor: "{colors.hobbit-on-binding}"
@@ -346,6 +417,8 @@ Limited Field Guides is one dependable preparation shelf holding authored volume
 
 The Hobbit remains Bilbo’s Expedition Atlas: forest cloth, warm map leaves, brass page flags, oxblood routes, river details, and softly handled corners. Reality Fracture is an Echoverse dossier: ink and indigo binding, cool paper, electric violet, cyan, and pink seams, condensed black display type, and facets cut on sharp angles. Atkinson Hyperlegible Next connects both as the practical reading and control voice.
 
+Star Trek adds a restrained Starfleet briefing: navy binding, warm reading paper, amber active markers, muted salmon and pale blue segments, Rajdhani Semibold hierarchy, and a delta mark in the existing logo slot. The shared composition and Atkinson working voice stay authoritative. LCARS references identify the volume through one narrow band and curved tab tops; the guide remains a readable light page.
+
 The system should feel authored, trustworthy, and ready before an event. Data maturity is visible rather than implied; readable local study images fall back safely to local thumbnails; progress and exact-tier rehearsal state stay local; rating-dependent work visibly locks when an attributable evaluation does not exist. The visual language rejects generic statistics dashboards and deck-builder framing.
 
 **Key Characteristics:**
@@ -353,6 +426,7 @@ The system should feel authored, trustworthy, and ready before an event. Data ma
 - One shared preparation sequence expressed as a shelf of set-owned field guides.
 - Atkinson Hyperlegible Next for working text, controls, metadata, and dense card information.
 - Hobbit’s rounded cloth-and-map atlas beside Reality Fracture’s clipped, electrically seamed dossier.
+- Star Trek’s navy-and-paper briefing keeps the shared controls, rounded tab tops, restrained LCARS segments, and readable Sealed-first guide.
 - Evidence-gated markers: Training with complete ratings, Prerelease prep with a published guide and confirmed full file, Archetypes with an official plan map and editorial notes, and Draft decisions with grounded scenarios. The card browser stays available as Previews or All cards.
 - Authored preparation uses five reading sections plus quick rules practice, with separate Sealed/Draft guidance and local checklist and answer state.
 - Persisted Training queues, exact-tier scores, and per-scenario decision, reason, reveal, and reflection state with explicit unrated preview states.
@@ -368,17 +442,22 @@ Each set maps the same semantic roles—binding, surface, ink, line, accent, sig
 
 - **Hobbit Oxblood** (`hobbit-accent`, `hobbit-accent-dark`): Route marks, selected state, revealed answers, and consequential actions inside the atlas.
 - **Fracture Violet** (`fracture-accent`, `fracture-accent-dark`): The dossier’s principal electric seam, selection signal, and primary action.
+- **Starfleet Rust** (`starfleet-accent`, `starfleet-accent-dark`): Readable action links and consequential controls on warm paper.
 - **Rating Spectrum** (`tier-s` through `tier-pending`): Fixed categorical fills for complete rating tiers and the visibly provisional preview state; these colours do not theme the surrounding page.
 
 ### Secondary
 
 - **Hobbit Brass** (`hobbit-metal`, `hobbit-metal-light`): Page markers, provenance stamps, waypoints, and compact orientation controls.
 - **Fracture Pink and Cyan** (`fracture-metal`, `fracture-metal-light`): Hot and cool seam highlights, provenance, active markers, and the dossier’s electric counterpoint.
+- **Starfleet Amber** (`starfleet-metal`, `starfleet-metal-light`): Selected tabs, the data stamp, delta mark, and the ends of the narrow LCARS band.
+- **Starfleet Salmon and Pale Blue** (`starfleet-segment-salmon`, `starfleet-segment-blue`): Quiet colour segments in that band, separated by navy gaps; they do not tint the reading surface.
 
 ### Tertiary
 
 - **Hobbit River** (`hobbit-signal`): The atlas’s cool cartographic detail.
 - **Fracture Signal Cyan** (`fracture-signal`): Structural facet lines and rating-lock geometry.
+- **Starfleet Signal Teal** (`starfleet-signal`): Source-set tags, including the Stardates bonus-sheet identity.
+- **Starfleet Focus** (`starfleet-focus`): The shared three-pixel keyboard outline resolved to the briefing palette.
 - **Magic Colour Groups** (`group-white` through `group-colourless-ink`): Stable browsing accents for card identity groups; multicolour uses the five group fills as a conic emblem and its own ink.
 - **Focus Signals** (`hobbit-focus`, `fracture-focus`): Dedicated three-pixel keyboard outlines. Focus never relies on selection colour alone.
 
@@ -386,6 +465,7 @@ Each set maps the same semantic roles—binding, surface, ink, line, accent, sig
 
 - **Hobbit Volume** (`hobbit-binding` through `hobbit-on-binding-muted`): Forest cloth, warm map leaves, contour ink, muted annotation, and paper rules.
 - **Reality Fracture Volume** (`fracture-binding` through `fracture-on-binding-muted`): Ink-dark binding, indigo facets, cool paper, dark dossier ink, and steel rules.
+- **Starfleet Volume** (`starfleet-binding` through `starfleet-on-binding-muted`): Navy binding and ink, warm reading paper, pale ground, cool muted annotations and rules, and cream text on the binding.
 - **Shared Utility Neutrals** (`menu-ink`, `menu-paper`, `pure-white`, `texture-shadow`): Native option readability, high-contrast badge text, and quiet material texture.
 - **Feedback** (`feedback-correct`, `feedback-incorrect`): Answer-result fills only; neither substitutes for a set’s primary accent.
 
@@ -397,6 +477,8 @@ Each set maps the same semantic roles—binding, surface, ink, line, accent, sig
 
 **The Honest State Rule.** Rating tiers appear only when the rating source is available. Preview uses the pending token and explanatory copy rather than a guessed rank colour.
 
+**The Briefing Restraint Rule.** Starfleet identity belongs in navy binding, amber navigation, the delta mark, and one narrow segmented band. Keep guide surfaces light and preserve the shared controls; do not extend the band into a decorative console or lore dashboard.
+
 The same rule applies to archetypes: official intent, Draft observations, Sealed observations, and editorial field notes remain distinct, dated layers rather than one blended recommendation.
 
 ## Typography
@@ -404,6 +486,8 @@ The same rule applies to archetypes: official intent, Draft observations, Sealed
 **Hobbit Display Font:** Alegreya (with Georgia and serif fallbacks)
 
 **Reality Fracture Display Font:** Barlow Condensed Black (with Arial Narrow and sans-serif fallbacks)
+
+**Star Trek Display Font:** Rajdhani Semibold (600, with Atkinson Hyperlegible Next and sans-serif fallbacks). The font and its SIL Open Font License 1.1 are self-hosted at `public/assets/fonts/Rajdhani-SemiBold.ttf` and `public/assets/fonts/Rajdhani-OFL.txt`.
 
 **Working Font:** Atkinson Hyperlegible Next (with Segoe UI and sans-serif fallbacks)
 
@@ -418,6 +502,7 @@ The same rule applies to archetypes: official intent, Draft observations, Sealed
 - **Working Title** (Atkinson Hyperlegible Next 700, 0.84rem–1rem): Card names and compact operational headings.
 - **Body** (Atkinson Hyperlegible Next 400, 1rem, 1.5 line-height): Guide copy, instructions, oracle text, and source context.
 - **Label and Microcopy** (Atkinson Hyperlegible Next 700, 0.58rem–0.83rem): Page markers, controls, counts, stamps, tiers, and responsive metadata.
+- **Starfleet Hierarchy:** Rajdhani Semibold uses the existing fluid page and guide sizes recorded in `starfleet-page` and `starfleet-heading`. Its brand role is `starfleet-display`, with a more open 1.05 line-height. Atkinson retains body and control copy; the mobile status/date line stays visible at 0.75rem and 1.4 line-height.
 
 ### Named Rules
 
@@ -427,6 +512,8 @@ The same rule applies to archetypes: official intent, Draft observations, Sealed
 
 **The Dense-but-Legible Rule.** The micro scale is reserved for short metadata with strong weight and contrast; explanatory copy never drops into it.
 
+**The Briefing Voice Rule.** Rajdhani Semibold supplies Star Trek’s display hierarchy; use Atkinson for reading, instructions, metadata, and controls. Keep the font and licence local.
+
 ## Layout
 
 The system is one multi-volume field-guide shell capped at 1440px. A 164px binding leads with the selected set, subtitle, set picker, share action, and data-maturity stamp. The latest set opens by default. Sticky page markers expose supported modes: Training with complete attributable ratings, Prerelease prep with a published guide and confirmed full file, Archetypes with an attributable plan map, verified signposts, and complete editorial notes, and Draft decisions with grounded scenarios and ratings. The card browser remains available throughout. Draft and Sealed observations can arrive later as a visibly separate evidence layer. The markers sit on a 62px line, then open directly into a broad surface. The first Training viewport is one focused card-rating workspace rather than a split dashboard.
@@ -434,6 +521,8 @@ The system is one multi-volume field-guide shell capped at 1440px. A 164px bindi
 Training centres one readable card-and-answer object at a 1040px maximum, with browser-local progress inline below it. Expert review Training stacks its card and answer controls at 700px and below, centring the full card image at up to 244px wide and retaining visible labels above the four numerical-choice rows. Individual grade meanings remain in each button’s accessible name and tooltip. Archetypes uses one broad format field note, a sticky route strip, and ruled full-width chapters rather than a grid of equal cards; each chapter keeps the plan and format read beside two recognisable signposts. Draft decisions places seat and historical-pool context in ruled binding rows, the complete pack in a seven-column map-leaf grid, a staged reason-and-lock step below the pack, and the revealed evidence in a flat three-column ledger followed by a keep/change reflection. All cards uses a single broad leaf, a compact colour/tier arrangement switch for rated sets, sticky navigation for the selected grouping, an auto-filling grid with a 230px minimum, and an in-place image lightbox. Major surfaces share a continuous binding/page shadow; rows remain flat and separated by rules.
 
 Prerelease prep extends the broad themed page with a display heading, the existing Sealed/Draft switch, a short introduction, and a wrapping ruled jump index. Five sections cover mechanics, key cards, interaction, colour selection, and a deck checklist; quick practice follows, then dated sources. Reading copy stays within 72ch, illustrated key-card rows within 850px, and checklist/practice within 76ch. Rows use the existing line and surface variables without individual elevation.
+
+Star Trek uses this same shell with a 148px minimum header and an eight-pixel segmented band. All cards opens first, then the Limited guide and Archetypes use the existing reading and format controls. Both default to ordinary Sealed; Draft remains explicit and there is no Two-Headed Giant route. The guide keeps five preparation sections and the shared local checklist and retryable practice. At 700px and below, the status/date subtitle remains visible, the set controls fit the shared phone grid, and the three available tabs retain literal labels.
 
 At 860px, the header becomes a grid, Training progress stacks below its heading, archetype chapters tighten their reading/signpost split, decision context becomes two columns, the pack becomes four columns, and the reasoning and evidence ledgers stack. At 700px, the binding becomes a compact mobile header, available markers remain in a sticky grid (five modes wrap across two rows), surfaces use ten-pixel outer gutters, Training remains a side-by-side card/copy object, Archetypes stacks its format ledger and each route chapter while retaining paired signposts, and Draft decisions uses a three-column pack with a two-column reason grid. Prep stacks its heading and format switch and its interaction rows; illustrated card rows retain a compact image beside the explanation, narrowing from 146px to 110px and then 92px at 390px. At 430px, the decision heading and counter stack, the pack becomes two columns, summary and reflection controls become one column, and all staged controls retain at least a 44px touch target.
 
@@ -446,6 +535,8 @@ At 860px, the header becomes a grid, Training progress stacks below its heading,
 ## Elevation & Depth
 
 Depth describes a single handled volume, not a stack of dashboard cards. The binding, page markers, open page, training card, thumbnails, and image lightbox use progressively smaller ink-dark shadows. Hobbit reads as softly handled cloth and paper. Reality Fracture keeps the same structural depths but adds a hard offset violet seam to card imagery so the dossier feels faceted rather than plush. The archetype format note may lift as one broad orientation object, while its route chapters and the atlas rows use rule, tint, and motion instead of independent elevation.
+
+Starfleet inherits these structural shadows without the Fracture offset seam. Its plain binding and paper omit the inherited texture images, so navy, light paper, thin rules, and the shared dialog supply depth without ambient glow.
 
 ### Shadow Vocabulary
 
@@ -468,6 +559,8 @@ The shared shell uses geometry as material evidence. Hobbit combines gently roun
 
 Reality Fracture remaps those roles to three-pixel page and control cuts, four-pixel cards and images, clipped polygon seals, skewed seam rules, and angular facets. Two explicit two-pixel radii are intentional micro-cuts: the colour-jump control and the colour mark/emblem before their polygon clipping. Use the two-to-four-pixel range only inside this dossier world; it is not a universal radius reduction.
 
+Starfleet uses eighteen-pixel top corners and square lower corners on page tabs (`starfleet-tab`), twelve-pixel pages and dialog frames, and six-pixel general controls. The page’s leading join remains square. Shared preparation selects and answer controls retain their actual three-pixel corners, card images in the guide use six pixels, and enlarged images retain eight pixels. The delta mark and narrow segmented rule stay within the existing header slots.
+
 Pills remain reserved for rating tiers and Hobbit colour jumps. Borders are functional one- or two-pixel rules shared by adjacent rows; they do not box every card into a generic component tile.
 
 **The Theme-Owned Silhouette Rule.** Preserve Hobbit’s handled volume and Reality Fracture’s clipped dossier; shared behavior does not require shared corner character.
@@ -477,6 +570,8 @@ Pills remain reserved for rating tiers and Hobbit colour jumps. Borders are func
 **The Bound-Join Rule.** The leading page corner stays square where the active marker meets its surface in both themes.
 
 **The Single Tier Mark Rule.** One tinted fill and one border communicate each tier choice. Do not duplicate the tier colour with an extra stripe.
+
+**The Briefing Tab Rule.** Preserve Starfleet’s eighteen-pixel top tab corners with square lower joins; do not copy Fracture’s clipped silhouette into this volume.
 
 ## Components
 
@@ -494,12 +589,14 @@ A single reading column, capped at 728px including padding, keeps the turn seque
 - **Set Picker:** Compact labelled select on the binding. Native option colours remain neutral and readable across both color schemes.
 - **Share Set:** Quiet outlined action that promotes to the theme’s light metal token on hover.
 - **Data Stamp:** A high-contrast count/date block that makes preview or observed maturity visible before the first interaction.
+- **Starfleet Variant:** Navy binding, cream title, delta mark, amber stamp, and an eight-pixel amber/salmon/blue segmented rule. The compact phone header retains the full-file/ratings status and next known event date in its visible subtitle.
 
 ### Navigation
 
 - **Set-Aware Page Markers:** Hide unavailable modes. Training leads with verified observed ratings or complete attributable expert grades, followed by published Prerelease prep, authored Archetypes, and optional Draft decisions with real scenarios. Previews/All cards stays last. Inactive markers use the soft binding; the selected marker rises from 50px to 58px and changes to the light metal token. Sets with either supported Training source open Training; otherwise they open Previews/All cards. A published guide adds a short “Preparing for prerelease? Start here” invitation below the card-browser heading, using the existing accent link style.
 - **Training Owns Rehearsal:** Card recognition and exact-tier practice live together in Training.
 - **Mobile:** All available markers remain visible in the sticky grid; five modes use two rows. Icons support but never replace the literal labels.
+- **Starfleet Markers:** Limited guide, Archetypes, and All cards share the existing tab behavior, with eighteen-pixel curved tops and amber selection. Training, Card memory, and Draft decisions remain absent under this set’s current evidence and configuration.
 
 ### Prerelease Prep
 
@@ -509,6 +606,11 @@ A single reading column, capped at 728px including padding, keeps the turn seque
 - **Checklist:** Native checkboxes use the accent-dark variable in flat ruled rows, with a completion count and explicit clear action. Checks and exercise answers persist separately from Training, isolated by set, guide version/review date, and format. Clearing the checklist preserves answers; unavailable storage is explained and falls back to the page session.
 - **Quick Practice:** Objective rules questions use labelled fieldsets, light-surface answer buttons, and binding/on-binding selected states. Choosing an answer reveals an announced explanation and disables choices until Try again; retries are unlimited. Existing focus treatment remains visible, with focus moving to retry after an answer and back to the first choice on retry.
 - **Source Boundary:** A ruled closing source list names the guide review date and distinguishes card-text rules from editorial card selections and building advice. Prep has no rating tiers or invented observed statistics.
+- **Starfleet Guide:** Warm paper and navy reading text retain the ordinary shared composition and controls. Sealed is the initial format for six-Play-Booster preparation; no Two-Headed Giant control or team guidance is introduced.
+
+### Starfleet Card Details
+
+All cards, guide examples, and archetype signposts open the same accessible image-and-detail dialog. The navy frame uses cream text and muted source copy, with the shared desktop split and mobile stack. Card identity retains its exact source-set code and collector number; SDS cards remain labelled Stardates in the browser and detail view. An expandable Card text source names Scryfall and its capture date. Best with / Watch for notes appear only when authored; pending ratings do not produce fabricated tiers, metrics, or placeholder ledgers. Escape dismisses the dialog and restores focus to its trigger. The light reading page and this navy detail surface are deliberate complementary roles, not separate navigation systems.
 
 ### Archetypes
 
@@ -584,6 +686,8 @@ Starting a search brings the lookup rail and first results into view without tra
 - **Do** use Atkinson Hyperlegible Next for working text and the set display face only for hierarchy, ranks, and authored marks.
 - **Do** preserve Hobbit’s forest cloth, map leaves, brass, oxblood, river details, and rounded handled construction.
 - **Do** preserve Reality Fracture’s ink-indigo binding, cool paper, violet/cyan/pink seams, condensed black display type, clipped facets, and two-to-four-pixel cuts.
+- **Do** preserve Starfleet’s navy binding, warm paper, amber/salmon/blue band, Rajdhani Semibold display voice, and eighteen-pixel tab tops while using the shared reading and control composition.
+- **Do** retain Star Trek’s visible mobile status/date subtitle and exact TRK/SDS source identity in the shared accessible card details.
 - **Do** keep the current Training card, colour filter, queue, exact-tier score, revealed answer, requeued misses, and decision progress local.
 - **Do** use the larger local image for Training, Draft decisions, and magnification, with a matching local thumbnail fallback.
 - **Do** group exact-tier choices as Top picks, Strong, Playable, and Filler, accept an adjacent modifier inside the same letter grade as close, then return genuine misses after three intervening cards.
@@ -605,6 +709,8 @@ Starting a search brings the lookup rail and first results into view without tra
 - **Don't** reintroduce rank-only pick comparisons without full-pack and drafted-pool context.
 - **Don't** turn Draft decisions into a binary score or imply the replay pick is automatically correct.
 - **Don't** hide state, card identity, colour grouping, or navigation behind icons alone.
+- **Don't** turn the Starfleet briefing into a decorative LCARS console, dark reading surface, or lore dashboard.
+- **Don't** introduce Two-Headed Giant preparation, fabricated ratings, or unavailable study modes into Star Trek’s ordinary Sealed-first guide.
 
 ## Card memory trial
 

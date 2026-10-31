@@ -151,6 +151,68 @@
       "observedRatingsFile": "fra_observed_ratings.json",
       "observedTraining": {"scope": "rated-cards", "confirmedAt": "2026-10-02"},
       "observedRatingsUrl": "https://mtga.untapped.gg/limited/draft/reality-fracture/pick-order"
+    },
+    {
+      "id": "trk",
+      "code": "TRK",
+      "adapter": "preview",
+      "dataFile": "trk_preview.json",
+      "archetypesFile": "trk_archetypes.json",
+      "prepFile": "trk_prep.json",
+      "name": "Star Trek",
+      "productName": "Star Trek Field Guide",
+      "theme": "starfleet",
+      "themeColor": "#142632",
+      "stage": "complete",
+      "lifecycle": {
+        "fullSetConfirmedAt": "2026-10-31",
+        "ratingsConfirmedAt": null,
+        "source": "https://magic.wizards.com/en/news/feature/collecting-star-trek"
+      },
+      "releaseDate": "2026-11-13",
+      "prereleaseDate": "2026-11-06",
+      "arenaDate": "2026-11-10",
+      "previewEndsOn": "2026-10-30",
+      "cardMemory": false,
+      "prepLabel": "Limited guide",
+      "prepDefaultFormat": "sealed",
+      "archetypeDefaultFormat": "sealed",
+      "archetypesTitle": "Ten plans for your crew",
+      "subtitle": "Prepare your Sealed pool. Learn the crew, the ships and the interactions.",
+      "guideTitle": "Build a crew with a plan.",
+      "guideBody": "Learn the mechanics, explore the colour pairs and prepare to build from six Play Boosters.",
+      "guideFacts": [
+        "Sealed-first preparation",
+        "Main set + Stardates bonus sheet",
+        "Draft archetypes and rules practice"
+      ],
+      "rating": {
+        "status": "pending",
+        "label": "Ratings pending",
+        "source": null,
+        "capturedAt": null,
+        "url": null
+      },
+      "cardSource": {
+        "label": "Scryfall · TRK and SDS card files",
+        "url": "https://scryfall.com/search?q=set%3Atrk+or+set%3Asds"
+      },
+      "officialUrl": "https://magic.wizards.com/en/products/star-trek/card-image-gallery",
+      "cardSources": [
+        {
+          "code": "TRK",
+          "label": "Main set",
+          "maxCollectorNumber": 311,
+          "expectedCards": 311
+        },
+        {
+          "code": "SDS",
+          "label": "Stardates bonus sheet",
+          "maxCollectorNumber": 30,
+          "expectedCards": 30,
+          "bonusSheet": true
+        }
+      ]
     }
   ]
 }

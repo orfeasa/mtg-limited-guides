@@ -1,3 +1,18 @@
 {
-  "buildPath": "code"
+  "buildPath": "code",
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "public/styles.css"
+        ],
+        "createdAt": "2026-10-31T09:41:17.938Z",
+        "reason": "User confirmed the restrained LCARS theme; the segmented header band is intentional Starfleet navigation styling, not a card-edge accent."
+      }
+    ]
+  }
 }

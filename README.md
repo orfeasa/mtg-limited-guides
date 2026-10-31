@@ -18,6 +18,7 @@ Preparation progress stays only in the current browser through `localStorage`, i
 
 The current guides are:
 
+- **Star Trek** — Sealed-first preparation with 306 nonbasic TRK cards and all 30 SDS Stardates cards from Play Boosters. The shared card browser, ten official archetype plans, seven mechanics lessons, 28 selected key cards, 15 instant-speed interactions and 12 retryable rules checks are available. Card memory, Two-Headed Giant and rating Training are outside the launch scope; observed ratings remain pending.
 - **The Hobbit** — five official archetype plans with separate Draft and Sealed field data, a complete 188-card observed Premier Draft ranking refreshed from 760,000 matches, and 18 real draft decisions from a public 17Lands 7–2 replay.
 - **Reality Fracture** — complete card file with observed Premier Draft tier browsing, active archetype recall and a Draft-first Limited guide covering mechanics, interactions, Draft, Sealed and Two-Headed Giant. Card memory is disabled for this set. Training uses Untapped.gg’s Arena Premier Draft tiers for the rated cards only, with the same S–F exercise as The Hobbit. Unrated cards are excluded; source statistics and practical card guidance appear after each answer. Expert review grades and passages are retained as research sources, not displayed in card answers or popups. Refresh with `python3 scripts/sync-observed-ratings.py fra` and `node scripts/sync-archetypes.mjs fra`.
 
@@ -73,6 +74,8 @@ node scripts/sync-preview.mjs fra
 node scripts/build-data.mjs
 node scripts/verify-data.mjs
 ```
+
+Star Trek uses `node scripts/sync-preview.mjs trk`. Its manifest `cardSources` imports the verified regular TRK and SDS collector ranges, checks each source's expected unique-card count, and retains the source code and bonus-sheet label on each card. `data/trk_pool_scope.json` reconciles the full file against official product totals. Run `node scripts/verify-star-trek.mjs` after rebuilding; it checks the 341-card source / 336-card browser scopes, local images, Sealed defaults and evidence gates. A refresh failure must retain the prior valid snapshot; do not change the expected counts merely to make an incomplete import pass.
 
 Run `node scripts/sync-card-stats.mjs` to refresh the bundled Premier Draft statistics from Untapped.gg before rebuilding. This stores in-hand win counts and games, opening-hand counts and games, average last offered pick, and average pick taken for all 188 cards. Refresh `data/hobbit_pick_order.json` from the matching Untapped In Hand WR tier view at the same time. The deployed site never calls Untapped.gg at runtime.
 

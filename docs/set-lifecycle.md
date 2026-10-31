@@ -42,10 +42,13 @@ The existing `stage` field is a descriptive snapshot (`preview`, `complete`, `ob
 
 | Set | Final scheduled reveal | Full file verified | Prerelease | Arena | Retail release | Current ratings verified |
 | --- | --- | --- | --- | --- | --- | --- |
+| Star Trek | 2026-10-30 | 2026-10-31 | 2026-11-06 | 2026-11-10 | 2026-11-13 | Pending |
 | Reality Fracture | 2026-09-18 | 2026-09-18 | 2026-09-25 | 2026-09-29 | 2026-10-02 | Pending |
 | The Hobbit | Not recorded | 2026-09-08 | Not recorded | Not recorded | 2026-08-14 | 2026-09-20 |
 
 These are a readable snapshot of the manifest, not a second configuration. Unknown historical dates are not guessed. No automatic fetch or monitoring service is implied by these dates; existing refresh workflows must check the milestones and update the evidence.
+
+Star Trek includes 311 unique TRK cards and 30 SDS Stardates cards from Play Boosters. Five basic-land names remain in the source file; 336 nonbasic cards appear in the browser. `data/trk_pool_scope.json` records the verified regular-printing ranges, the official rarity-total reconciliation and the bonus-sheet scope. Scryfall's prerelease `booster` flag is not used as a completeness signal. Each imported card retains its source set code so an SDS collector number is never presented as a TRK number. Star Trek defaults to Sealed in both Limited guide and Archetypes, has no Two-Headed Giant content, and leaves Training, Card memory and Draft decisions unavailable.
 
 ## UX rules
 

@@ -6,10 +6,15 @@ import { fileURLToPath } from "node:url";
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.dirname(here);
 const setCode = (process.argv[2] || "fra").toLowerCase();
+const manifest = JSON.parse(await fs.readFile(path.join(root, "data", "sets.json"), "utf8"));
+const set = manifest.sets.find((entry) => entry.id === setCode);
+if (!set || set.adapter !== "preview") throw new Error(`Unknown preview set: ${setCode}`);
+const sourceSets = set.cardSources || [{ code: set.code }];
 const outputPath = path.join(root, "data", `${setCode}_preview.json`);
 const imageDirectory = path.join(root, "public", "assets", "cards", setCode);
 const trainingImageDirectory = path.join(root, "public", "assets", "cards-large", setCode);
-const apiUrl = `https://api.scryfall.com/cards/search?order=set&q=set%3A${encodeURIComponent(setCode)}&unique=prints`;
+const queryFor = (code) => `https://api.scryfall.com/cards/search?order=set&q=set%3A${encodeURIComponent(code.toLowerCase())}&unique=prints`;
+const apiUrl = queryFor(set.code);
 const userAgent = "mtg-limited-guides/1.0 (https://github.com/orfeasa/mtg-limited-guides)";
 
 const stableSourceUrl = (value) => {
@@ -53,16 +58,25 @@ const capturedAt = new Date().toISOString();
 const captureDate = capturedAt.slice(0, 10);
 
 const cardRecords = [];
-let nextPage = apiUrl;
-while (nextPage) {
-  const response = await fetch(nextPage, { signal: AbortSignal.timeout(30000), headers: { "User-Agent": userAgent, Accept: "application/json" } });
-  if (!response.ok) throw new Error(`Scryfall request failed: ${response.status}`);
+const sourceSnapshots = [];
+for (const sourceSet of sourceSets) {
+  let nextPage = queryFor(sourceSet.code);
+  const sourceRecords = [];
+  while (nextPage) {
+    const response = await fetch(nextPage, { signal: AbortSignal.timeout(30000), headers: { "User-Agent": userAgent, Accept: "application/json" } });
+    if (!response.ok) throw new Error(`Scryfall request failed: ${response.status}`);
 
-  const payload = await response.json();
-  if (!Array.isArray(payload.data)) throw new Error("Scryfall returned no card data");
-  cardRecords.push(...payload.data);
-  if (payload.has_more && !payload.next_page) throw new Error("Scryfall omitted the next preview page URL");
-  nextPage = payload.has_more ? payload.next_page : null;
+    const payload = await response.json();
+    if (!Array.isArray(payload.data)) throw new Error("Scryfall returned no card data");
+    sourceRecords.push(...payload.data);
+    if (payload.has_more && !payload.next_page) throw new Error("Scryfall omitted the next preview page URL");
+    nextPage = payload.has_more ? payload.next_page : null;
+  }
+  const scoped = sourceRecords.filter((card) => !sourceSet.maxCollectorNumber || (/^\d+$/.test(card.collector_number) && Number(card.collector_number) <= sourceSet.maxCollectorNumber));
+  const identities = new Set(scoped.map((card) => card.oracle_id || card.name));
+  if (sourceSet.expectedCards && identities.size !== sourceSet.expectedCards) throw new Error(`${sourceSet.code}: expected ${sourceSet.expectedCards} unique cards, got ${identities.size}; retain the previous snapshot`);
+  cardRecords.push(...scoped);
+  sourceSnapshots.push({ ...sourceSet, source: queryFor(sourceSet.code), count: identities.size });
 }
 
 await fs.mkdir(imageDirectory, { recursive: true });
@@ -84,7 +98,8 @@ const stableKeywords = (keywords, previousKeywords) => {
 // Main-set printings have the lowest collector number. Fetch every printing
 // before deduplicating: Scryfall's unique=cards can select alternate artwork.
 const collectorNumberOrder = new Intl.Collator("en", { numeric: true, sensitivity: "base" });
-cardRecords.sort((left, right) => collectorNumberOrder.compare(left.collector_number, right.collector_number));
+const sourceOrder = (card) => sourceSets.findIndex((source) => source.code.toLowerCase() === card.set);
+cardRecords.sort((left, right) => sourceOrder(left) - sourceOrder(right) || collectorNumberOrder.compare(left.collector_number, right.collector_number));
 const mainPrintings = new Map();
 for (const card of cardRecords) {
   const identity = card.oracle_id || card.name;
@@ -94,6 +109,7 @@ for (const card of cardRecords) {
 const cards = [];
 let changedAssets = 0;
 for (const card of mainPrintings.values()) {
+  const sourceSet = sourceSets.find((source) => source.code.toLowerCase() === card.set);
   const previousCard = previousCardsById.get(card.id) || previousCardsByName.get(card.name);
   const imageUris = card.image_uris || card.card_faces?.[0]?.image_uris;
   const imageUrl = imageUris?.small;
@@ -126,6 +142,7 @@ for (const card of mainPrintings.values()) {
     name: card.name,
     firstSeenAt: previousCard?.firstSeenAt || captureDate,
     collectorNumber: card.collector_number,
+    ...(set.cardSources ? { setCode: sourceSet.code, setLabel: sourceSet.label, isBonusSheet: Boolean(sourceSet.bonusSheet) } : {}),
     color: classify(card.color_identity),
     colors: card.color_identity || [],
     manaCost: card.mana_cost || faces.map((face) => face.mana_cost).filter(Boolean).join(" // "),
@@ -143,7 +160,8 @@ for (const card of mainPrintings.values()) {
 }
 
 cards.sort((left, right) => (
-  collectorNumberOrder.compare(left.collectorNumber, right.collectorNumber)
+  sourceSets.findIndex((source) => source.code === left.setCode) - sourceSets.findIndex((source) => source.code === right.setCode)
+  || collectorNumberOrder.compare(left.collectorNumber, right.collectorNumber)
   || left.name.localeCompare(right.name)
   || left.id.localeCompare(right.id)
 ));
@@ -151,7 +169,8 @@ cards.sort((left, right) => (
 const snapshotContent = {
   set: setCode.toUpperCase(),
   source: apiUrl,
-  partial: true,
+  partial: set.cardSources ? !set.lifecycle?.fullSetConfirmedAt : true,
+  ...(set.cardSources ? { sources: sourceSnapshots } : {}),
   count: cards.length,
   cards,
 };
@@ -162,6 +181,7 @@ if (previous) {
     set: previous.set,
     source: previous.source,
     partial: previous.partial,
+    ...(previous.sources ? { sources: previous.sources } : {}),
     count: previous.count,
     cards: previous.cards,
   };
@@ -177,6 +197,7 @@ const snapshot = {
   source: snapshotContent.source,
   capturedAt,
   partial: snapshotContent.partial,
+  ...(snapshotContent.sources ? { sources: snapshotContent.sources } : {}),
   count: snapshotContent.count,
   cards: snapshotContent.cards,
 };

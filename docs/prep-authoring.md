@@ -11,6 +11,7 @@ Add `prepFile` to the set manifest, referencing a JSON file like `data/fra_prep.
 - Separate Sealed/Draft introductions and actionable colour-selection steps.
 - Mechanics: stable ID, title, plain-language rule, practical tip, and exact indexed card names.
 - Key-card roles and cards: exact card name, role, reason to know it, and the requirements or limitations. Cover ordinary cards across colours, not only rare bombs. Do not imply rarity proves strength.
+- Optional `better` guidance on a key-card entry supplies the shared popup's “Best with” text; `watch` supplies “Watch for”. This allows concise authored support conditions without requiring an expert-review corpus. Missing notes are omitted.
 - Instant-speed interaction watchlist: exact card name and a note including important targeting/cost restrictions. Displayed mana costs, colours, and rarities come from the card file. The validator rejects non-instant/non-flash cards here; activated abilities need a future explicit schema extension.
 - Preparation content teaches concepts before an event. Do not add deck checklists, manual completion marks, saved review lists, or controls intended for use during a game.
 - Objective exercises: stable ID, scenario, distinct options, zero-based answer index, explanation, and card references. Supply relevant board assumptions. Never grade a subjective pick as a rules fact.

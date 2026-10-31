@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "set": "TRK",
+  "verifiedAt": "2026-10-31",
+  "source": "https://magic.wizards.com/en/news/feature/collecting-star-trek",
+  "scope": "One regular main-set printing per card, plus all 30 SDS Stardates cards available in Play Boosters. Alternate art, Commander-only cards and tokens are excluded. Basic lands remain imported but are omitted from the browser.",
+  "mainSet": {
+    "code": "TRK",
+    "uniqueCards": 311,
+    "collectorNumbers": {
+      "first": 1,
+      "last": 311
+    },
+    "rarities": {
+      "common": 96,
+      "uncommon": 110,
+      "rare": 80,
+      "mythic": 25
+    },
+    "commonScope": "81 ordinary commons + 10 common dual lands + 5 unique basic-land names. The official product article counts 10 default-frame basic-land printings; artwork variants are deduplicated."
+  },
+  "bonusSheet": {
+    "code": "SDS",
+    "uniqueCards": 30,
+    "collectorNumbers": {
+      "first": 1,
+      "last": 30
+    }
+  },
+  "totalImported": 341,
+  "browseCards": 336
+}
